@@ -5,6 +5,8 @@ const KEY_LABELS: Record<string, string> = {
   revenueToOpportunity: 'Revenue to opportunity',
   catalystDensity: 'Catalyst density',
   managementConviction: 'Management conviction',
+  insiderConviction: 'Insider conviction',
+  customerValidation: 'Customer validation',
 };
 
 export function labelForKey(key: string): string {

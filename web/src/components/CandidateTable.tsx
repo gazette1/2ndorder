@@ -1,11 +1,12 @@
-import type { Candidate, ChainNode, Read } from '../types';
-import { fmtFloatMM } from '../format';
+import type { Candidate, ChainNode, Dossier, Read } from '../types';
+import { fmtFloatMM, fmtUSD } from '../format';
 
 export interface CandidateRow {
   candidate: Candidate;
   read: Read | null;
   score: number | null;
   hasThesis: boolean;
+  dossier: Dossier | null;
 }
 
 interface Props {
@@ -48,18 +49,19 @@ export function CandidateTable({
             <th className="num">Float</th>
             <th className="num">FTS hits</th>
             <th>Exposure</th>
+            <th className="num">Insider / Gov</th>
             <th className="num">Composite</th>
           </tr>
         </thead>
         <tbody>
           {rows.length === 0 && (
             <tr>
-              <td colSpan={7} className="empty-cell">
+              <td colSpan={8} className="empty-cell">
                 No candidates match the current filter.
               </td>
             </tr>
           )}
-          {rows.map(({ candidate: c, read, score, hasThesis }) => {
+          {rows.map(({ candidate: c, read, score, hasThesis, dossier }) => {
             const filtered = c.status === 'filtered_out';
             const cls = [
               filtered ? 'row-filtered' : '',
@@ -85,6 +87,31 @@ export function CandidateTable({
                 <td className="num">{fmtFloatMM(c.publicFloatMM)}</td>
                 <td className="num">{c.ftsHits}</td>
                 <td>{read ? read.exposure : ''}</td>
+                <td className="num dossier-cell">
+                  {dossier ? (
+                    <span className="dossier-marks">
+                      <span
+                        className={
+                          dossier.insider.netBuyUSD > 0
+                            ? 'ins-mark mono is-buy'
+                            : dossier.insider.netBuyUSD < 0
+                              ? 'ins-mark mono is-sell'
+                              : 'ins-mark mono'
+                        }
+                        title="Net open-market insider dollars, trailing 12 months"
+                      >
+                        {fmtUSD(dossier.insider.netBuyUSD)}
+                      </span>
+                      <span className="gov-mark mono" title="Government award total">
+                        {dossier.customers.govAwardTotalUSD > 0
+                          ? `gov ${fmtUSD(dossier.customers.govAwardTotalUSD)}`
+                          : 'no gov'}
+                      </span>
+                    </span>
+                  ) : (
+                    ''
+                  )}
+                </td>
                 <td className="num score-cell">{score !== null ? score : ''}</td>
               </tr>
             );

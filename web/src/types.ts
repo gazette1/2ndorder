@@ -41,6 +41,83 @@ export interface SubScore {
   quoteIdx: number[];
 }
 
+export type Provenance =
+  | 'sec_form4'
+  | 'sec_xbrl'
+  | 'usaspending'
+  | 'sec_fts'
+  | 'finnhub'
+  | 'stub';
+
+export interface InsiderTx {
+  insider: string;
+  role: string;
+  code: string;
+  shares: number;
+  price: number;
+  valueUSD: number;
+  acquiredDisposed: 'A' | 'D';
+  date: string;
+  accession: string;
+}
+
+export interface InsiderSummary {
+  window: string;
+  netBuyUSD: number;
+  buyCount: number;
+  sellCount: number;
+  distinctBuyers: number;
+  transactions: InsiderTx[];
+  provenance: Provenance;
+}
+
+export interface Fundamentals {
+  revenueUSD: number | null;
+  revenuePriorUSD: number | null;
+  netIncomeUSD: number | null;
+  rdExpenseUSD: number | null;
+  cashUSD: number | null;
+  asOf: string | null;
+  provenance: Provenance;
+}
+
+export interface GovAward {
+  awardId: string;
+  agency: string;
+  amountUSD: number;
+  recipientMatched: string;
+}
+
+export interface ReverseCite {
+  cik: string;
+  name: string;
+  form: string;
+  filedAt: string;
+}
+
+export interface CustomerGraph {
+  govAwards: GovAward[];
+  govAwardTotalUSD: number;
+  reverseCites: ReverseCite[];
+  reverseCiteCount: number;
+  namedCustomers: string[];
+  provenance: Provenance;
+}
+
+export interface Estimates {
+  analystCount: number | null;
+  provenance: Provenance;
+}
+
+export interface Dossier {
+  ticker: string;
+  cik: string;
+  insider: InsiderSummary;
+  fundamentals: Fundamentals;
+  customers: CustomerGraph;
+  estimates: Estimates;
+}
+
 export interface Read {
   ticker: string;
   cik: string;
@@ -52,6 +129,8 @@ export interface Read {
     revenueToOpportunity: SubScore;
     catalystDensity: SubScore;
     managementConviction: SubScore;
+    insiderConviction: SubScore;
+    customerValidation: SubScore;
   };
 }
 
@@ -79,4 +158,5 @@ export interface RunPayload {
   candidates: Candidate[];
   reads: Read[];
   theses: Thesis[];
+  dossiers: Dossier[];
 }

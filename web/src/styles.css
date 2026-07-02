@@ -577,6 +577,263 @@ body {
   line-height: 1.45;
 }
 
+/* Candidate table: dossier marks (data-encoding color allowed) */
+
+.dossier-cell {
+  white-space: nowrap;
+}
+
+.dossier-marks {
+  display: inline-flex;
+  gap: 8px;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.ins-mark {
+  font-weight: 700;
+  font-family: 'Consolas', 'SF Mono', monospace;
+  color: var(--ink-faint);
+}
+
+.ins-mark.is-buy {
+  color: var(--accent);
+}
+
+.ins-mark.is-sell {
+  color: #9a3b30;
+}
+
+.gov-mark {
+  color: var(--ink-soft);
+}
+
+/* Dossier panel (sits above the thesis body in the side column) */
+
+.dossier {
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  background: var(--paper);
+  padding: 14px 16px 16px;
+  margin-bottom: 20px;
+}
+
+.dossier-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.dossier-title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.dossier-coverage {
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.coverage-stub {
+  color: var(--ink-faint);
+  background: #ecebe5;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.dossier-block {
+  margin-bottom: 14px;
+}
+
+.dossier-block:last-child {
+  margin-bottom: 0;
+}
+
+.dossier-block-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.dossier-block-title {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  margin: 0;
+}
+
+.source-tag {
+  font-size: 11px;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.source-tag.is-stub {
+  color: var(--ink-faint);
+  background: #ecebe5;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 0 5px;
+  opacity: 0.85;
+}
+
+/* Fundamentals grid */
+
+.fund-grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+}
+
+.fund-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--hairline);
+  padding: 3px 0;
+}
+
+.fund-item dt {
+  color: var(--ink-soft);
+}
+
+.fund-item dd {
+  margin: 0;
+  text-align: right;
+}
+
+.fund-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--ink-faint);
+  font-family: var(--sans);
+}
+
+.fund-yoy {
+  color: var(--ink-soft);
+}
+
+/* Insider block */
+
+.insider-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.insider-net {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.insider-net.is-buy {
+  color: var(--accent);
+}
+
+.insider-net.is-sell {
+  color: #9a3b30;
+}
+
+.insider-summary-label {
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.insider-counts {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+
+.dot-sep {
+  color: var(--ink-faint);
+  padding: 0 5px;
+}
+
+.insider-table,
+.award-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin: 4px 0 2px;
+}
+
+.insider-table th,
+.award-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--ink);
+  padding: 4px 6px;
+}
+
+.insider-table td,
+.award-table td {
+  border-bottom: 1px solid var(--hairline);
+  padding: 4px 6px;
+  vertical-align: top;
+}
+
+.insider-table th.num,
+.insider-table td.num,
+.award-table th.num,
+.award-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.dossier-more {
+  font-size: 11px;
+  color: var(--ink-faint);
+  margin: 4px 0 0;
+}
+
+.dossier-empty,
+.dossier-empty-inline {
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.dossier-empty {
+  margin: 4px 0 0;
+}
+
+/* Customer graph */
+
+.cust-line {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.cust-label {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 @media (max-width: 1200px) {
   .app-shell.with-panel {
     display: block;

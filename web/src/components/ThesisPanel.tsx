@@ -1,18 +1,20 @@
 import { useMemo, useState } from 'react';
-import type { Read, SubScore, Thesis } from '../types';
+import type { Dossier, Read, SubScore, Thesis } from '../types';
 import { fmtDateShort } from '../format';
 import { blockContainsCite, parseBlocks, renderInline } from '../markdown';
 import { labelForKey } from './RubricPanel';
+import { DossierPanel } from './DossierPanel';
 
 interface Props {
   thesis: Thesis;
   read: Read | null;
+  dossier: Dossier | null;
   weights: Record<string, number>;
   composite: number | null;
   onClose: () => void;
 }
 
-export function ThesisPanel({ thesis, read, weights, composite, onClose }: Props) {
+export function ThesisPanel({ thesis, read, dossier, weights, composite, onClose }: Props) {
   const [activeCite, setActiveCite] = useState<number | null>(null);
   const blocks = useMemo(() => parseBlocks(thesis.markdown), [thesis.markdown]);
 
@@ -55,6 +57,8 @@ export function ThesisPanel({ thesis, read, weights, composite, onClose }: Props
           Close
         </button>
       </div>
+
+      {dossier && <DossierPanel dossier={dossier} />}
 
       <div className="thesis-body">
         {blocks.map((block, bi) => {

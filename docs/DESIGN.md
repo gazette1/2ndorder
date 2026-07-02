@@ -31,6 +31,28 @@ The model judges subscores against evidence; the arithmetic stays outside the mo
 ### 5. Thesis drafting (model)
 One page per name, fixed house format, bear case first. The draft prompt receives only the extracted filing sentences as factual sources; every claim carries a citation index that resolves to the exact sentence, its form type, accession number, and SEC URL. Claims without a supporting excerpt must be framed as open questions. House style is enforced in the prompt: no em-dashes, no exclamation points, no superlatives, M for thousands and MM for millions.
 
+## Enrichment: per-candidate dossier (added after the first build)
+
+A new `enrich` stage runs after `map`, on the same names the `read` stage will cover (target selection is shared in `src/pipeline/targets.ts`, so the two stages never diverge). It assembles a `dossier.json` per candidate from four keyless, complete, free sources, and every block carries a provenance tag so the UI marks filing-grade data apart from rate-limited context.
+
+- Insider conviction (SEC Form 4). For each candidate the stage pulls Form 4 filings over the trailing 12 months, parses the non-derivative transactions, and nets open-market buys (code P) against sales (code S). Grants, option exercises, gifts, and tax withholding are excluded because they do not express conviction. Filings from a reporting owner who is neither an officer nor a director are dropped, so the signal is founder and management action, not a fund distributing stock. This directly answers the "track founders and CEOs" brief.
+- Fundamentals (SEC XBRL company facts). Latest annual revenue (with the prior year for a growth read), net income, R&D, and cash, from the same XBRL API the float filter already uses. This is the density spine: it quantifies the revenue-to-opportunity story instead of asserting it.
+- Customer graph (USASpending.gov plus reverse-citation). The government arm is federal award dollars from USASpending, keyless and complete back to 2007, queried in two groups because the API rejects contract and assistance award codes in one request. The commercial arm is reverse-citation: a full-text search for the company name across other filers, counting distinct companies that name it as a supplier or partner. Named enterprise customers are extracted by the read model from the filing text in live mode. Buyers are labeled government, enterprise, or unproven.
+- Analyst coverage (Finnhub, stubbed). The under-coverage lens: few analyst estimates plus a high composite is the sweet spot the product hunts for. No free complete source exists without a key, so this is a seam that returns a labeled stub until FINNHUB_API_KEY is set.
+
+The dossier feeds two consumers. The `read` model receives it as context (so a thesis can cite an insider buy or a federal award) and returns any named customers it finds. The `score` stage computes two new deterministic dimensions from it.
+
+## Rubric, six dimensions
+
+Two dimensions were added, both computed deterministically from the dossier in `src/pipeline/score.ts`, so a PM sees a formula rather than a model's mood:
+
+- Insider conviction (weight 0.10). A ladder over trailing-12-month net open-market dollars and distinct buyers, thresholds in config so a PM can argue them. A cluster buy of size scores 5; heavy net selling scores 0.
+- Customer validation (weight 0.20). Federal award dollars, named enterprise customers, and reverse-citation count. Deliberately theme-agnostic: it measures customer proof, not theme-fit. Theme-fit stays in optionality and revenue-to-opportunity.
+
+The four model-judged dimensions were re-weighted to make room (optionality 0.25, revenue-to-opportunity 0.20, catalyst density 0.15, management conviction 0.10). Analyst-estimate count is not a weight; coverage is opportunity, not quality, so it is a displayed field and a sort lens. Because the composite normalizes by the sum of weights, the "argue with the weights" panel re-ranks live over all six dimensions with no rerun.
+
+The theme-agnostic choice on customer validation is deliberate and shows up in the dry run below. It is the kind of design decision a PM should be handed explicitly, not buried.
+
 ## Wiring
 
 - TypeScript end to end; the pipeline is a CLI (npm run stage -- <stage> <slug>), the front end is Vite/React reading a published JSON payload. One language keeps the scaffold small.
@@ -40,23 +62,26 @@ One page per name, fixed house format, bear case first. The draft prompt receive
 
 ## Dry run findings (seed: humanoid robotics reaches commercial deployment 2027-2030)
 
-The run mapped 80 companies, 34 inside the float band, and read three across three layers. What it surfaced is the argument for the design:
+The run mapped 80 companies, 34 inside the float band, and enriched and read three across three layers. The enrichment sources are live (EDGAR and USASpending, keyless); only the three model calls run from authored fixtures. Composite scores after the six-dimension rubric: USAR 73, MATW 36, KELYB 29.
 
-1. USA Rare Earth (USAR, enabler, composite 80). The read landed on a June 2026 8-K exhibit: a federal Direct Funding Agreement for new magnet and metal plants with commencement clawback dates of June 30, 2027 and September 30, 2027 and disbursements gated on minimum cumulative magnet purchase commitments. Dated catalysts inside the thesis window, from a filing, with every claim citable.
-2. Matthews International (MATW, second-order, composite 16). A true false positive caught by the layer built to catch it. The name screened loudly on warehouse automation language, and the read showed the language was divestiture disclosure: the automation business was sold in December 2025. Keyword mapping promoted it; the filing read rejected it. The thesis draft says so and recommends removal.
-3. Kelly Services (KELYB, disrupted, composite 9). The hit document was an earnings 8-K with two boilerplate sentences, so the draft's verdict is that the evidence is too thin to act on. The engine says "insufficient evidence" instead of manufacturing a conclusion.
+1. USA Rare Earth (USAR, enabler, composite 73). The read landed on a June 2026 8-K exhibit: a federal Direct Funding Agreement with commencement clawback dates of June 30, 2027 and September 30, 2027. The dossier makes the thesis concrete and honest at once. Fundamentals: $1.6MM revenue against a $297.6MM net loss and $360MM of cash, the pre-commercial profile the revenue-to-opportunity dimension rewards. Customer graph: a real but small $99M Department of Defense contract on USASpending. Insider: net selling of $31.1MM over the year, so insider conviction scores 0, with the nuance that the most recent director action was a $2.1MM open-market buy above the earlier sale price. The engine flags the negative signal; the analyst reads the detail.
+2. Matthews International (MATW, second-order, composite 36). A true false positive, and now a sharper one. The automation business was sold in December 2025, so the theme dimensions collapse. The customer graph shows $236MM of federal awards, which would look like strong validation until you read the awards: Department of Veterans Affairs memorialization contracts, entirely off-theme. This is the theme-agnostic customer-validation choice earning its keep: the score is honest that the company has real government revenue, the thesis states plainly that it is unrelated to robotics, and the near-zero theme dimensions hold the composite well below USAR. No single dimension decides; the blend plus the bear-first narrative do.
+3. Kelly Services (KELYB, disrupted, composite 29). The hit document was an earnings 8-K with two boilerplate sentences, so the draft's verdict is still that the theme evidence is too thin to act on. The dossier adds a useful reframe for a disrupted name: $558MM of Department of Health and Human Services staffing awards is exactly the billable base automation would pressure, and the CEO made an open-market purchase even as net insider activity was slightly negative. The engine says "insufficient theme evidence" instead of manufacturing a conclusion, and hands the analyst the customer and insider context to start the follow-up.
 
-Two of three drafts are passes. An idea engine that says no most of the time is the behavior a PM should demand from it.
+Two of three drafts are passes. An idea engine that says no most of the time, and shows its work when it does, is the behavior a PM should demand from it.
 
 ## What is real and what is stubbed in this scaffold
 
-Real: EDGAR full-text search, ticker join, float filter, filing fetch, sentence extraction, 8-K cadence, deterministic scoring, publish, UI.
-Stubbed: the three model calls ran in fixture mode because no API key was present in the build environment. The fixtures were authored by the same model against the real prompts and real filing excerpts saved by the pipeline, and the payload is labeled mode: fixture end to end. Setting ANTHROPIC_API_KEY makes the same run live with zero code changes.
+Real: EDGAR full-text search, ticker join, float filter, filing fetch, sentence extraction, 8-K cadence, Form 4 insider parsing, XBRL fundamentals, USASpending federal awards, reverse-citation, the two deterministic rubric dimensions, deterministic composite, publish, UI. The enrichment layer runs live against real data even in fixture mode, because its sources are keyless.
+Stubbed: the three model calls (read scoring of the four judged dimensions, and thesis drafting) ran in fixture mode because no ANTHROPIC_API_KEY was present. The fixtures were authored against the real prompts, the real filing excerpts, and the real dossiers the pipeline saved, and the payload is labeled mode: fixture. Analyst-estimate count is stubbed behind a seam until FINNHUB_API_KEY is set. Setting the two keys makes the same run fully live with zero code changes.
 
 ## Known limits, next in line
 
 - Full-text search reads only the first result page per phrase (about 100 hits, relevance ranked). Pagination is a parameter away.
 - The read covers only the FTS hit document. Disrupted names need the latest 10-K risk factors read alongside it; the KELYB read is the evidence.
 - Excerpts from 8-K legal exhibits carry boilerplate (the USAR read shows this). A section-aware extractor for MD&A and risk factors is the highest-value read improvement.
-- Under-coverage is proxied by the float band. Analyst-count data would make it explicit; no free complete source exists.
+- Customer-name matching against USASpending is token-overlap on cleaned names, so a subsidiary that contracts under a different legal name (USA Rare Earth Magnets LLC versus USA Rare Earth Inc) can be missed. The large federal funding vehicle behind USAR did not surface as an award, only the $99M contract did; a recipient-hierarchy lookup would catch parent and child entities.
+- Customer validation is theme-agnostic by design, so a name with large unrelated government revenue (MATW) scores high on that one dimension. This is intended and documented, and the argue-with-weights panel lets a PM neutralize it, but a theme-relatedness filter on awards would sharpen it.
+- Insider parsing nets open-market P and S codes only and reads the primary Form 4 document; multi-owner joint filings and derivative-only filings are simplified.
+- Analyst-estimate under-coverage lens is stubbed; it needs FINNHUB_API_KEY.
 - Float can be stale up to a year (10-K cover date) and one boundary name (MP Materials at $5,000MM) sat exactly on the band edge.

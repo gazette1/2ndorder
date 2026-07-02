@@ -8,8 +8,9 @@ Idea-generation engine for a small-cap growth team. Seed thesis in, ranked under
 npm install
 npm run stage -- decompose <slug> "<seed thesis>"
 npm run stage -- map <slug>       # EDGAR full-text search + float filter
-npm run stage -- read <slug>      # pull filings, excerpt, score against rubric
-npm run stage -- score <slug>     # deterministic weighted composite
+npm run stage -- enrich <slug>    # per-candidate dossier: Form 4 insider, XBRL, USASpending, reverse-citation
+npm run stage -- read <slug>      # pull filings, excerpt, score the four judged dimensions
+npm run stage -- score <slug>     # merge two deterministic dimensions, weighted composite
 npm run stage -- draft <slug>     # one-page thesis per name, bear case first
 npm run stage -- publish <slug>   # write web/public/data/latest.json
 ```
@@ -17,6 +18,8 @@ npm run stage -- publish <slug>   # write web/public/data/latest.json
 Or all stages: `npm run dry-run -- <slug> "<seed thesis>"`.
 
 Model calls use claude-fable-5 when ANTHROPIC_API_KEY is set. Without a key the pipeline reads authored fixtures from fixtures/<slug>/ and fails loudly when one is missing; every prompt is saved to data/runs/<slug>/prompts/ either way.
+
+The `enrich` stage runs live with no key: SEC Form 4, SEC XBRL, USASpending, and reverse-citation are all free and complete. Set FINNHUB_API_KEY to make the analyst-estimate under-coverage lens live too; without it that one field is a labeled stub.
 
 ## Front end
 

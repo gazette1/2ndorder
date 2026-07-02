@@ -2,19 +2,21 @@ import { fable } from '../lib/fable.js';
 import { load, save, saveText } from '../lib/store.js';
 import { draftPrompt } from '../prompts/draft.js';
 import rubric from '../rubric.json' with { type: 'json' };
-import type { Candidate, Decomposition, Read, Thesis } from '../types.js';
+import type { Candidate, Decomposition, Dossier, Read, Thesis } from '../types.js';
 
 export async function draftTheses(slug: string): Promise<Thesis[]> {
   const { seed } = load<{ seed: string }>(slug, 'run');
   const decomp = load<Decomposition>(slug, 'decompose');
   const candidates = load<Candidate[]>(slug, 'candidates');
   const reads = load<Read[]>(slug, 'reads');
+  const dossiers = load<Dossier[]>(slug, 'dossiers');
   const scores = load<Record<string, number>>(slug, 'scores');
 
   const theses: Thesis[] = [];
   for (const read of reads) {
     const c = candidates.find((x) => x.ticker === read.ticker)!;
     const node = decomp.nodes.find((n) => n.id === c.nodeId)!;
+    const dossier = dossiers.find((d) => d.ticker === read.ticker);
     const markdown = await fable(
       slug,
       `thesis-${read.ticker}`,
@@ -25,6 +27,7 @@ export async function draftTheses(slug: string): Promise<Thesis[]> {
         companyName: c.name,
         publicFloatMM: c.publicFloatMM,
         read,
+        dossier,
         score: scores[read.ticker],
         rubric,
       }),

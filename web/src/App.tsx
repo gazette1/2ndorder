@@ -60,6 +60,12 @@ export function App() {
     return m;
   }, [payload]);
 
+  const dossiersByTicker = useMemo(() => {
+    const m = new Map<string, RunPayload['dossiers'][number]>();
+    for (const d of payload?.dossiers ?? []) m.set(d.ticker, d);
+    return m;
+  }, [payload]);
+
   const rows: CandidateRow[] = useMemo(() => {
     if (!payload) return [];
     const all = payload.candidates
@@ -71,6 +77,7 @@ export function App() {
           read,
           score: read ? compositeScore(read, weights) : null,
           hasThesis: thesesByTicker.has(c.ticker),
+          dossier: dossiersByTicker.get(c.ticker) ?? null,
         };
       });
     const scored = all
@@ -83,7 +90,7 @@ export function App() {
       .filter((r) => r.candidate.status === 'filtered_out')
       .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
     return [...scored, ...inBand, ...filteredOut];
-  }, [payload, weights, selectedNodeId, readsByTicker, thesesByTicker]);
+  }, [payload, weights, selectedNodeId, readsByTicker, thesesByTicker, dossiersByTicker]);
 
   if (state.status === 'loading') {
     return <div className="page-message">Loading run data.</div>;
@@ -102,6 +109,7 @@ export function App() {
 
   const openThesis = selectedTicker ? thesesByTicker.get(selectedTicker) ?? null : null;
   const openRead = selectedTicker ? readsByTicker.get(selectedTicker) ?? null : null;
+  const openDossier = selectedTicker ? dossiersByTicker.get(selectedTicker) ?? null : null;
   const openComposite = openRead ? compositeScore(openRead, weights) : null;
 
   return (
@@ -133,6 +141,7 @@ export function App() {
         <ThesisPanel
           thesis={openThesis}
           read={openRead}
+          dossier={openDossier}
           weights={weights}
           composite={openComposite}
           onClose={() => setSelectedTicker(null)}

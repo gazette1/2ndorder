@@ -1,10 +1,10 @@
-import { CONFIG } from '../config.js';
 import { docUrl, fetchDocText, submissions } from '../lib/edgar.js';
 import { fable } from '../lib/fable.js';
 import { load, save, saveText } from '../lib/store.js';
 import { readPrompt } from '../prompts/read.js';
+import { selectReadTargets } from './targets.js';
 import rubric from '../rubric.json' with { type: 'json' };
-import type { Candidate, Decomposition, Quote, Read } from '../types.js';
+import type { Candidate, Decomposition, Dossier, ModelSubscores, Quote, Read } from '../types.js';
 
 // Sentences from the hit filing that touch the theme, exact text preserved for citation.
 function excerpt(text: string, keywords: string[], meta: Omit<Quote, 'text'>): Quote[] {
@@ -28,23 +28,8 @@ export async function readFilings(slug: string): Promise<Read[]> {
   const { seed } = load<{ seed: string }>(slug, 'run');
   const decomp = load<Decomposition>(slug, 'decompose');
   const candidates = load<Candidate[]>(slug, 'candidates');
-
-  // Take the strongest name per chain node first, so the read set spans layers
-  // (an enabler, a second-order adopter, a disrupted name) instead of clustering
-  // on whichever node produced the most hits. Fill remaining slots by hit count.
-  const inBand = candidates.filter((c) => c.status === 'in_band');
-  const targets: Candidate[] = [];
-  const usedNodes = new Set<string>();
-  for (const c of inBand) {
-    if (targets.length >= CONFIG.topKReads) break;
-    if (usedNodes.has(c.nodeId)) continue;
-    usedNodes.add(c.nodeId);
-    targets.push(c);
-  }
-  for (const c of inBand) {
-    if (targets.length >= CONFIG.topKReads) break;
-    if (!targets.includes(c)) targets.push(c);
-  }
+  const dossiers = load<Dossier[]>(slug, 'dossiers');
+  const targets = selectReadTargets(candidates);
 
   const reads: Read[] = [];
   for (const c of targets) {
@@ -72,6 +57,7 @@ export async function readFilings(slug: string): Promise<Read[]> {
     // authored (and any output audited) against the exact filing sentences.
     saveText(slug, `excerpts/${c.ticker}.json`, JSON.stringify(quotes, null, 2));
 
+    const dossier = dossiers.find((d) => d.ticker === c.ticker);
     const prompt = readPrompt({
       seed,
       node,
@@ -80,11 +66,16 @@ export async function readFilings(slug: string): Promise<Read[]> {
       eightKCount12m,
       rubricDefinitions: rubric.definitions,
       excerpts: quotes,
+      dossier,
     });
     try {
       const raw = await fable(slug, `read-${c.ticker}`, prompt, 'json');
-      const parsed = JSON.parse(raw) as Pick<Read, 'exposure' | 'subscores'>;
-      reads.push({ ticker: c.ticker, cik: c.cik, eightKCount12m, quotes, ...parsed });
+      const parsed = JSON.parse(raw) as { exposure: Read['exposure']; subscores: ModelSubscores; namedCustomers?: string[] };
+      reads.push({ ticker: c.ticker, cik: c.cik, eightKCount12m, quotes, exposure: parsed.exposure, subscores: parsed.subscores });
+      // Named enterprise customers the model found in the filing feed the customer graph.
+      if (dossier && parsed.namedCustomers?.length) {
+        dossier.customers.namedCustomers = parsed.namedCustomers;
+      }
       console.log(`[read] ${c.ticker}: ${quotes.length} excerpts, exposure ${parsed.exposure}`);
     } catch (e) {
       console.warn(`[read] ${c.ticker}: ${(e as Error).message}`);
@@ -95,5 +86,6 @@ export async function readFilings(slug: string): Promise<Read[]> {
   }
 
   save(slug, 'reads', reads);
+  save(slug, 'dossiers', dossiers); // may now carry model-found named customers
   return reads;
 }

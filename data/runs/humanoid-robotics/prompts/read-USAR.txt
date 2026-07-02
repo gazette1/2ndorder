@@ -26,20 +26,28 @@ Excerpts:
 [18] (8-K, filed 2026-06-03) Product means: (a) with respect to the Round Top Mine Project, dysprosium oxide, gallium, gadolinium oxide, terbium oxide, yttrium oxide, hafnium, zirconium, and mixed heavy rare earth carbonate that includes holmium oxide, erbium oxide, thulium oxide, ytterbium oxide, and lutetium oxide; (b) with respect to the Stillwater Magnet Project, rare-earth magnets; (c) with respect to the Stillwater Metal Project, strip-cast neodymium-iron-boron metal; (d) with respect to the Magnet Project 2, rare-earth magnets; and (e) with respect to the Metal Project 2, strip-cast neodymium-iron-boron metal.
 [19] (8-K, filed 2026-06-03) Project Commencement Clawback Date means: (a) with respect to the Round Top Mine Project, the Award Date; (b) with respect to the Stillwater Magnet Project, the Award Date; (c) with respect to the Stillwater Metal Project, the Award Date; (d) with respect to the Magnet Project 2, June 30, 2027; and (e) with respect to the Metal Project 2, September 30, 2027.
 
-Score the company 0 to 5 on each dimension below. Definitions:
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-31,069,367 across 2 buys and 2 sales by 2 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,643,000, net income $-297,559,000, R&D $15,885,000, cash $359,925,000.
+Customer graph: federal awards $99,448 across 1 awards (top agency Department of Defense); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
 - optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
 - revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
 - catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
-- managementConviction: Specificity of management language: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
 
 Rules:
 - Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
 - "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
 - Plain factual prose. No em-dashes, no exclamation points, no superlatives.
 
 Return only a JSON object:
 {
   "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
   "subscores": {
     "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
     "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },

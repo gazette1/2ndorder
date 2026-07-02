@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONFIG } from '../config.js';
-import type { FtsHit } from '../types.js';
+import type { FtsHit, Fundamentals, InsiderSummary, InsiderTx } from '../types.js';
 
 const CACHE_DIR = path.resolve('data/cache');
 
@@ -103,6 +103,133 @@ export async function submissions(cik: string): Promise<Submissions> {
 
 export function docUrl(cik: string, accession: string, docId: string): string {
   return `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${accession.replace(/-/g, '')}/${docId}`;
+}
+
+// ---- Insider transactions (Form 4) ----
+
+function tag(xml: string, name: string): string | null {
+  const m = xml.match(new RegExp(`<${name}>\\s*([^<]*?)\\s*</${name}>`, 'i'));
+  return m ? m[1].trim() : null;
+}
+// Form 4 wraps most numeric fields in a nested <value>; read the first one in a block.
+function valueOf(block: string, name: string): string | null {
+  const outer = block.match(new RegExp(`<${name}>([\\s\\S]*?)</${name}>`, 'i'));
+  if (!outer) return null;
+  return tag(outer[1], 'value') ?? outer[1].trim();
+}
+
+function parseForm4(xml: string, accession: string): InsiderTx[] {
+  const owner = tag(xml, 'rptOwnerName') ?? 'Unknown';
+  const isOfficer = tag(xml, 'isOfficer') === '1';
+  const isDirector = tag(xml, 'isDirector') === '1';
+  // Founder and CEO conviction is the target. A pure 10 percent holder (a fund or
+  // sponsor distributing stock) files Form 4 too; exclude it so the signal is management.
+  if (!isOfficer && !isDirector) return [];
+  const role = isOfficer ? tag(xml, 'officerTitle') ?? 'Officer' : 'Director';
+
+  const txs: InsiderTx[] = [];
+  const blocks = xml.match(/<nonDerivativeTransaction>[\s\S]*?<\/nonDerivativeTransaction>/gi) ?? [];
+  for (const b of blocks) {
+    const code = valueOf(b, 'transactionCode') ?? '';
+    const shares = Number(valueOf(b, 'transactionShares') ?? 0);
+    const price = Number(valueOf(b, 'transactionPricePerShare') ?? 0);
+    const ad = (valueOf(b, 'transactionAcquiredDisposedCode') ?? '') as 'A' | 'D';
+    const date = valueOf(b, 'transactionDate') ?? '';
+    if (!shares) continue;
+    txs.push({ insider: owner, role, code, shares, price, valueUSD: Math.round(shares * price), acquiredDisposed: ad, date, accession });
+  }
+  return txs;
+}
+
+// Open-market insider activity over the look-back window. Grants (A), option
+// exercises (M), gifts (G), and tax withholding (F) are excluded from the net;
+// only P (open-market buy) and S (open-market sale) express conviction.
+export async function insiderSummary(cik: string): Promise<InsiderSummary> {
+  const subs = await submissions(cik);
+  const r = subs.recent;
+  const cutoff = new Date(Date.now() - CONFIG.enrich.insiderMonths * 30 * 86400_000).toISOString().slice(0, 10);
+
+  const idx: number[] = [];
+  for (let i = 0; i < r.form.length; i++) {
+    if (r.form[i] === '4' && r.filingDate[i] >= cutoff) idx.push(i);
+    if (idx.length >= CONFIG.enrich.insiderMaxFilings) break;
+  }
+
+  const all: InsiderTx[] = [];
+  for (const i of idx) {
+    const raw = String(r.primaryDocument[i]).split('/').pop(); // strip the xslF345X0N/ render prefix
+    if (!raw) continue;
+    try {
+      const xml = await (await get(docUrl(cik, r.accessionNumber[i], raw))).text();
+      all.push(...parseForm4(xml, r.accessionNumber[i]));
+    } catch {
+      continue; // a single unparseable Form 4 does not sink the summary
+    }
+  }
+
+  const buys = all.filter((t) => t.code === 'P');
+  const sells = all.filter((t) => t.code === 'S');
+  const netBuyUSD = buys.reduce((s, t) => s + t.valueUSD, 0) - sells.reduce((s, t) => s + t.valueUSD, 0);
+  return {
+    window: `trailing ${CONFIG.enrich.insiderMonths} months`,
+    netBuyUSD,
+    buyCount: buys.length,
+    sellCount: sells.length,
+    distinctBuyers: new Set(buys.map((t) => t.insider)).size,
+    transactions: [...buys, ...sells].sort((a, b) => b.date.localeCompare(a.date)),
+    provenance: 'sec_form4',
+  };
+}
+
+// ---- Fundamentals (XBRL company facts) ----
+
+async function latestAnnual(cik: string, tags: string[]): Promise<{ val: number; end: string } | null> {
+  for (const t of tags) {
+    try {
+      const data = await getJson<any>(`https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/us-gaap/${t}.json`);
+      const annual = (data.units?.USD ?? []).filter((f: any) => f.form === '10-K' && f.fp === 'FY');
+      if (!annual.length) continue;
+      annual.sort((a: any, b: any) => String(a.end).localeCompare(String(b.end)));
+      const last = annual[annual.length - 1];
+      return { val: last.val, end: last.end };
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+export async function fundamentals(cik: string): Promise<Fundamentals> {
+  const revenueTags = ['RevenueFromContractWithCustomerExcludingAssessedTax', 'Revenues', 'SalesRevenueNet'];
+  const rev = await latestAnnual(cik, revenueTags);
+  let revPrior: number | null = null;
+  if (rev) {
+    // Second-latest FY for the same revenue concept, for a growth read.
+    for (const t of revenueTags) {
+      try {
+        const data = await getJson<any>(`https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/us-gaap/${t}.json`);
+        const annual = (data.units?.USD ?? []).filter((f: any) => f.form === '10-K' && f.fp === 'FY');
+        if (annual.length < 2) continue;
+        annual.sort((a: any, b: any) => String(a.end).localeCompare(String(b.end)));
+        revPrior = annual[annual.length - 2].val;
+        break;
+      } catch {
+        continue;
+      }
+    }
+  }
+  const ni = await latestAnnual(cik, ['NetIncomeLoss']);
+  const rd = await latestAnnual(cik, ['ResearchAndDevelopmentExpense']);
+  const cash = await latestAnnual(cik, ['CashAndCashEquivalentsAtCarryingValue', 'CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents']);
+  return {
+    revenueUSD: rev?.val ?? null,
+    revenuePriorUSD: revPrior,
+    netIncomeUSD: ni?.val ?? null,
+    rdExpenseUSD: rd?.val ?? null,
+    cashUSD: cash?.val ?? null,
+    asOf: rev?.end ?? ni?.end ?? null,
+    provenance: 'sec_xbrl',
+  };
 }
 
 // Filing document as plain text, tags stripped, whitespace collapsed.

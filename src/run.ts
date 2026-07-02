@@ -4,6 +4,7 @@ import { CONFIG } from './config.js';
 import { load, runDir } from './lib/store.js';
 import { decompose } from './pipeline/decompose.js';
 import { draftTheses } from './pipeline/draft.js';
+import { enrich } from './pipeline/enrich.js';
 import { mapTickers } from './pipeline/map.js';
 import { readFilings } from './pipeline/read.js';
 import { score } from './pipeline/score.js';
@@ -29,6 +30,7 @@ function publish(slug: string) {
     },
     chain: load<any>(slug, 'decompose').nodes,
     candidates: load<any>(slug, 'candidates'),
+    dossiers: load<any>(slug, 'dossiers'),
     reads: load<any>(slug, 'reads'),
     theses: load<any>(slug, 'theses'),
   };
@@ -40,13 +42,14 @@ function publish(slug: string) {
 
 const [stage, slug, seed] = process.argv.slice(2);
 if (!stage || !slug) {
-  console.error('usage: tsx src/run.ts <decompose|map|read|score|draft|publish|all> <slug> ["seed thesis"]');
+  console.error('usage: tsx src/run.ts <decompose|map|enrich|read|score|draft|publish|all> <slug> ["seed thesis"]');
   process.exit(1);
 }
 
 const stages: Record<string, () => Promise<unknown> | void> = {
   decompose: () => decompose(slug, seed ?? missingSeed()),
   map: () => mapTickers(slug),
+  enrich: () => enrich(slug),
   read: () => readFilings(slug),
   score: () => score(slug),
   draft: () => draftTheses(slug),
@@ -54,6 +57,7 @@ const stages: Record<string, () => Promise<unknown> | void> = {
   all: async () => {
     await decompose(slug, seed ?? missingSeed());
     await mapTickers(slug);
+    await enrich(slug);
     await readFilings(slug);
     await score(slug);
     await draftTheses(slug);
