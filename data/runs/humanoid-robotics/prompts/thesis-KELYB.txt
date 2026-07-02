@@ -1,0 +1,38 @@
+Draft a one-page thesis for KELLY SERVICES INC (KELYB) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: Humanoid robotics reaches commercial deployment 2027-2030
+Chain position: Light industrial staffing (disrupted). Temporary staffing firms earn a spread on exactly the repetitive warehouse and line labor humanoids target first. Their revenue is priced per placed hour, so substitution shrinks the billable base directly, and the segment carries thin margins with little pricing power to absorb it.
+Public float: $364MM
+Composite score: 9/100
+Subscores:
+- optionality: 0/5 (weight 0.35). The excerpts are two boilerplate sentences from an earnings release about the staffing industry generally. There is no evidence of any business the theme would create for this company, which is consistent with its chain position as a disrupted name rather than a beneficiary.
+- revenueToOpportunity: 1/5 (weight 0.25). The exposure runs through the staffing revenue base that humanoid labor substitution would shrink, but the excerpts do not quantify the light industrial mix or address automation at all. Scored low for absence of evidence, not for absence of risk.
+- catalystDensity: 1/5 (weight 0.2). Nine 8-K filings in the last 12 months, none evidenced as theme-linked in the excerpts. No dated events bearing on automation substitution appear.
+- managementConviction: 0/5 (weight 0.2). No management language about automation, robotics, or labor substitution risk appears in the excerpts. A judgment on how management is positioning for the risk requires the 10-K risk factors, which this read did not cover.
+
+Filing evidence (the only permitted factual sources; cite as [n]):
+[0] (8-K, filed 2026-05-07, https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm) Since inventing the staffing industry in 1946, we have become experts in the many industries and local and global markets we serve.
+[1] (8-K, filed 2026-05-07, https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm) Management also believes that such measures are used by those analyzing performance of companies in the staffing industry to compare current performance to prior periods and to assess future performance.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Filing evidence
+Each claim above that rests on a filing, restated as a bullet: claim, then the citation [n]. Every [n] used above must appear here.
+## What would change our mind
+2 to 3 observable events, each tied to a filing type where it would show up.
+
+Style rules, hard requirements:
+- Every factual claim about the company carries a citation [n] to a filing excerpt. Claims without a supporting excerpt must be framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 500 words.
+
+Return only the markdown document.

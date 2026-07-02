@@ -1,0 +1,79 @@
+import { CONFIG } from '../config.js';
+import { fullTextSearch, publicFloatMM, tickerMap, type FtsResult } from '../lib/edgar.js';
+import { load, save } from '../lib/store.js';
+import type { Candidate, Decomposition } from '../types.js';
+
+// Chain node -> small-cap tickers, via EDGAR full-text search on the node's phrases.
+export async function mapTickers(slug: string): Promise<Candidate[]> {
+  const { nodes } = load<Decomposition>(slug, 'decompose');
+  const tickers = await tickerMap();
+
+  const enddt = new Date().toISOString().slice(0, 10);
+  const startdt = new Date(Date.now() - CONFIG.ftsYears * 365 * 86400_000).toISOString().slice(0, 10);
+
+  // Aggregate FTS hits per CIK per node.
+  const byNode = new Map<string, Map<string, { count: number; latest: FtsResult }>>();
+  for (const node of nodes) {
+    const agg = new Map<string, { count: number; latest: FtsResult }>();
+    byNode.set(node.id, agg);
+    for (const phrase of node.searchPhrases) {
+      let hits: FtsResult[] = [];
+      try {
+        hits = await fullTextSearch(phrase, startdt, enddt);
+      } catch (e) {
+        console.warn(`[map] FTS failed for "${phrase}": ${(e as Error).message}`);
+        continue;
+      }
+      for (const h of hits) {
+        const cur = agg.get(h.cik);
+        if (!cur) agg.set(h.cik, { count: 1, latest: h });
+        else {
+          cur.count += 1;
+          if (h.hit.filedAt > cur.latest.hit.filedAt) cur.latest = h;
+        }
+      }
+      console.log(`[map] "${phrase}" -> ${hits.length} hits`);
+    }
+  }
+
+  // A CIK can hit several nodes; keep it on the node where it hit most.
+  const best = new Map<string, { nodeId: string; count: number; latest: FtsResult }>();
+  for (const [nodeId, agg] of byNode) {
+    const top = [...agg.entries()].sort((a, b) => b[1].count - a[1].count).slice(0, CONFIG.maxCiksPerNode);
+    for (const [cik, v] of top) {
+      const cur = best.get(cik);
+      if (!cur || v.count > cur.count) best.set(cik, { nodeId, count: v.count, latest: v.latest });
+    }
+  }
+
+  const [lo, hi] = CONFIG.floatBandMM;
+  const candidates: Candidate[] = [];
+  for (const [cik, v] of best) {
+    const listed = tickers.get(cik);
+    if (!listed) continue; // no active ticker: delisted, private, or a co-filer
+    const floatMM = await publicFloatMM(cik);
+    const base: Candidate = {
+      cik,
+      ticker: listed.ticker,
+      name: listed.title,
+      nodeId: v.nodeId,
+      ftsHits: v.count,
+      latestHit: v.latest.hit,
+      publicFloatMM: floatMM,
+      status: 'in_band',
+    };
+    if (floatMM === null) {
+      candidates.push({ ...base, status: 'filtered_out', filterReason: 'no reported public float' });
+    } else if (floatMM < lo || floatMM > hi) {
+      candidates.push({ ...base, status: 'filtered_out', filterReason: `float $${floatMM}MM outside $${lo}MM to $${hi}MM band` });
+    } else {
+      candidates.push(base);
+    }
+  }
+
+  candidates.sort((a, b) => b.ftsHits - a.ftsHits);
+  save(slug, 'candidates', candidates);
+  const inBand = candidates.filter((c) => c.status === 'in_band');
+  console.log(`[map] ${candidates.length} companies mapped, ${inBand.length} inside the float band`);
+  return candidates;
+}

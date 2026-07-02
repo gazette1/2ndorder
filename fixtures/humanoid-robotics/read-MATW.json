@@ -1,0 +1,25 @@
+{
+  "exposure": "peripheral",
+  "subscores": {
+    "optionality": {
+      "score": 1,
+      "rationale": "The excerpts state the company sold its warehouse automation business to Duravant in December 2025. The theme does not create a new business here; the filings discuss automation only as a divested segment, so the mapping is a keyword artifact of divestiture disclosure.",
+      "quoteIdx": [1, 4]
+    },
+    "revenueToOpportunity": {
+      "score": 1,
+      "rationale": "Remaining theme-linked revenue is not evidenced. References to warehouse automation in the period relate to sales prior to the divestiture and to divestiture-related tax and working capital effects.",
+      "quoteIdx": [7, 2, 11]
+    },
+    "catalystDensity": {
+      "score": 1,
+      "rationale": "No theme-linked catalysts appear in the excerpts. The disclosed events are completed divestitures of the automation, packaging, and tooling businesses, which remove rather than add theme exposure.",
+      "quoteIdx": [12]
+    },
+    "managementConviction": {
+      "score": 0,
+      "rationale": "Management exited the automation business. There is no forward-looking language about robotics or automation adoption in the excerpts.",
+      "quoteIdx": [1, 4]
+    }
+  }
+}

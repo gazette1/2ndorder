@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "precision-actuation",
+      "layer": "enabler",
+      "name": "Precision actuation and motion components",
+      "logic": "A humanoid platform carries roughly 30 to 40 actuated joints, so actuators, gearing, and motion control dominate the bill of materials. Component suppliers get paid per joint by every OEM regardless of which robot wins, and volume production would multiply a market that today serves low-volume industrial and medical niches.",
+      "searchPhrases": ["humanoid robot", "precision motion control", "harmonic drive"]
+    },
+    {
+      "id": "sensing-stack",
+      "layer": "enabler",
+      "name": "Force, torque, and vision sensing",
+      "logic": "Manipulation in unstructured environments requires force and torque feedback plus machine vision at each end effector. Sensor content per humanoid is a step change over industrial arms, and qualification cycles create sticky design wins for incumbent sensor makers.",
+      "searchPhrases": ["force torque sensor", "machine vision", "tactile sensing"]
+    },
+    {
+      "id": "magnet-materials",
+      "layer": "enabler",
+      "name": "Rare earth magnet supply",
+      "logic": "High torque density joint motors depend on neodymium permanent magnets, and a humanoid uses several kilograms of magnet material versus grams in most consumer devices. Domestic magnet producers gain a demand source levered to unit volumes, on top of existing defense and EV demand.",
+      "searchPhrases": ["rare earth magnets", "neodymium", "permanent magnet"]
+    },
+    {
+      "id": "simulation-training",
+      "layer": "picks_and_shovels",
+      "name": "Simulation and training infrastructure",
+      "logic": "Humanoid control policies are trained in physics simulation before deployment, so simulation software and synthetic data pipelines sell to every program regardless of which OEM ships. Spending here scales with the number of programs, not the number of robots, which front-loads revenue ahead of deployment.",
+      "searchPhrases": ["robot simulation", "digital twin", "synthetic data"]
+    },
+    {
+      "id": "test-qualification",
+      "layer": "picks_and_shovels",
+      "name": "Test, measurement, and qualification equipment",
+      "logic": "Actuators, sensors, and full platforms need automated life testing and motion measurement before commercial deployment. Test equipment vendors are paid during the qualification phase, which is exactly the 2027 to 2030 window of the thesis, before robot unit economics are proven.",
+      "searchPhrases": ["automated test equipment", "motion capture"]
+    },
+    {
+      "id": "warehouse-adopters",
+      "layer": "second_order",
+      "name": "Warehouse and logistics automation adopters",
+      "logic": "Warehouse operators and automation integrators already run mobile robot fleets, and humanoids extend automation to the picking and handling tasks that still require human labor. Labor is the largest operating cost line for these incumbents, so even partial substitution inflects margins rather than revenue.",
+      "searchPhrases": ["warehouse automation", "autonomous mobile robots"]
+    },
+    {
+      "id": "factory-adopters",
+      "layer": "second_order",
+      "name": "Flexible manufacturing adopters",
+      "logic": "Manufacturers with high-mix, low-volume lines cannot justify fixed automation and still depend on manual labor. Humanoids make those cells automatable without retooling, so incumbents that adopt early convert direct labor cost into depreciable capex and widen unit margins against slower peers.",
+      "searchPhrases": ["factory automation", "flexible manufacturing"]
+    },
+    {
+      "id": "light-industrial-staffing",
+      "layer": "disrupted",
+      "name": "Light industrial staffing",
+      "logic": "Temporary staffing firms earn a spread on exactly the repetitive warehouse and line labor humanoids target first. Their revenue is priced per placed hour, so substitution shrinks the billable base directly, and the segment carries thin margins with little pricing power to absorb it.",
+      "searchPhrases": ["temporary staffing services", "light industrial", "staffing industry"]
+    }
+  ],
+  "themeKeywords": ["humanoid", "robot", "automation", "actuator", "autonomous", "motion control", "magnet", "simulation", "labor", "workforce"]
+}

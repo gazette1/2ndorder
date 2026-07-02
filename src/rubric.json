@@ -1,0 +1,14 @@
+{
+  "weights": {
+    "optionality": 0.35,
+    "revenueToOpportunity": 0.25,
+    "catalystDensity": 0.2,
+    "managementConviction": 0.2
+  },
+  "definitions": {
+    "optionality": "Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.",
+    "revenueToOpportunity": "Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.",
+    "catalystDensity": "Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.",
+    "managementConviction": "Specificity of management language: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low."
+  }
+}

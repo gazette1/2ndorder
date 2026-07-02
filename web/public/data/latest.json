@@ -1,0 +1,1766 @@
+{
+  "run": {
+    "id": "humanoid-robotics",
+    "seed": "Humanoid robotics reaches commercial deployment 2027-2030",
+    "createdAt": "2026-07-02T23:01:29.051Z",
+    "floatBandMM": [
+      150,
+      5000
+    ],
+    "mode": "fixture",
+    "rubric": {
+      "weights": {
+        "optionality": 0.35,
+        "revenueToOpportunity": 0.25,
+        "catalystDensity": 0.2,
+        "managementConviction": 0.2
+      },
+      "definitions": {
+        "optionality": "Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.",
+        "revenueToOpportunity": "Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.",
+        "catalystDensity": "Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.",
+        "managementConviction": "Specificity of management language: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low."
+      }
+    }
+  },
+  "chain": [
+    {
+      "id": "precision-actuation",
+      "layer": "enabler",
+      "name": "Precision actuation and motion components",
+      "logic": "A humanoid platform carries roughly 30 to 40 actuated joints, so actuators, gearing, and motion control dominate the bill of materials. Component suppliers get paid per joint by every OEM regardless of which robot wins, and volume production would multiply a market that today serves low-volume industrial and medical niches.",
+      "searchPhrases": [
+        "humanoid robot",
+        "precision motion control",
+        "harmonic drive"
+      ]
+    },
+    {
+      "id": "sensing-stack",
+      "layer": "enabler",
+      "name": "Force, torque, and vision sensing",
+      "logic": "Manipulation in unstructured environments requires force and torque feedback plus machine vision at each end effector. Sensor content per humanoid is a step change over industrial arms, and qualification cycles create sticky design wins for incumbent sensor makers.",
+      "searchPhrases": [
+        "force torque sensor",
+        "machine vision",
+        "tactile sensing"
+      ]
+    },
+    {
+      "id": "magnet-materials",
+      "layer": "enabler",
+      "name": "Rare earth magnet supply",
+      "logic": "High torque density joint motors depend on neodymium permanent magnets, and a humanoid uses several kilograms of magnet material versus grams in most consumer devices. Domestic magnet producers gain a demand source levered to unit volumes, on top of existing defense and EV demand.",
+      "searchPhrases": [
+        "rare earth magnets",
+        "neodymium",
+        "permanent magnet"
+      ]
+    },
+    {
+      "id": "simulation-training",
+      "layer": "picks_and_shovels",
+      "name": "Simulation and training infrastructure",
+      "logic": "Humanoid control policies are trained in physics simulation before deployment, so simulation software and synthetic data pipelines sell to every program regardless of which OEM ships. Spending here scales with the number of programs, not the number of robots, which front-loads revenue ahead of deployment.",
+      "searchPhrases": [
+        "robot simulation",
+        "digital twin",
+        "synthetic data"
+      ]
+    },
+    {
+      "id": "test-qualification",
+      "layer": "picks_and_shovels",
+      "name": "Test, measurement, and qualification equipment",
+      "logic": "Actuators, sensors, and full platforms need automated life testing and motion measurement before commercial deployment. Test equipment vendors are paid during the qualification phase, which is exactly the 2027 to 2030 window of the thesis, before robot unit economics are proven.",
+      "searchPhrases": [
+        "automated test equipment",
+        "motion capture"
+      ]
+    },
+    {
+      "id": "warehouse-adopters",
+      "layer": "second_order",
+      "name": "Warehouse and logistics automation adopters",
+      "logic": "Warehouse operators and automation integrators already run mobile robot fleets, and humanoids extend automation to the picking and handling tasks that still require human labor. Labor is the largest operating cost line for these incumbents, so even partial substitution inflects margins rather than revenue.",
+      "searchPhrases": [
+        "warehouse automation",
+        "autonomous mobile robots"
+      ]
+    },
+    {
+      "id": "factory-adopters",
+      "layer": "second_order",
+      "name": "Flexible manufacturing adopters",
+      "logic": "Manufacturers with high-mix, low-volume lines cannot justify fixed automation and still depend on manual labor. Humanoids make those cells automatable without retooling, so incumbents that adopt early convert direct labor cost into depreciable capex and widen unit margins against slower peers.",
+      "searchPhrases": [
+        "factory automation",
+        "flexible manufacturing"
+      ]
+    },
+    {
+      "id": "light-industrial-staffing",
+      "layer": "disrupted",
+      "name": "Light industrial staffing",
+      "logic": "Temporary staffing firms earn a spread on exactly the repetitive warehouse and line labor humanoids target first. Their revenue is priced per placed hour, so substitution shrinks the billable base directly, and the segment carries thin margins with little pricing power to absorb it.",
+      "searchPhrases": [
+        "temporary staffing services",
+        "light industrial",
+        "staffing industry"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "cik": "0001970622",
+      "ticker": "USAR",
+      "name": "USA Rare Earth, Inc.",
+      "nodeId": "magnet-materials",
+      "ftsHits": 74,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-064453",
+        "filedAt": "2026-06-03",
+        "docId": "ea029340201ex10-1.htm"
+      },
+      "publicFloatMM": 662,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001140102",
+      "ticker": "HQI",
+      "name": "HireQuest, Inc.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 52,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001437749-26-016436",
+        "filedAt": "2026-05-12",
+        "docId": "ex_961192.htm"
+      },
+      "publicFloatMM": 66,
+      "status": "filtered_out",
+      "filterReason": "float $66MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000063296",
+      "ticker": "MATW",
+      "name": "MATTHEWS INTERNATIONAL CORP",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 43,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0000063296-26-000059",
+        "filedAt": "2026-05-01",
+        "docId": "matw-20260331.htm"
+      },
+      "publicFloatMM": 658,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001801368",
+      "ticker": "MP",
+      "name": "MP Materials Corp. / DE",
+      "nodeId": "magnet-materials",
+      "ftsHits": 39,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001801368-26-000029",
+        "filedAt": "2026-05-08",
+        "docId": "mp-20260331.htm"
+      },
+      "publicFloatMM": 5000,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001866226",
+      "ticker": "EMAT",
+      "name": "Evolution Metals & Technologies Corp.",
+      "nodeId": "magnet-materials",
+      "ftsHits": 33,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-061113",
+        "filedAt": "2026-05-26",
+        "docId": "ea029214001ex99-1.htm"
+      },
+      "publicFloatMM": 7,
+      "status": "filtered_out",
+      "filterReason": "float $7MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000278165",
+      "ticker": "OMQS",
+      "name": "OMNIQ Corp.",
+      "nodeId": "sensing-stack",
+      "ftsHits": 32,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001171843-26-003864",
+        "filedAt": "2026-06-02",
+        "docId": "exh_991.htm"
+      },
+      "publicFloatMM": 1,
+      "status": "filtered_out",
+      "filterReason": "float $1MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000040570",
+      "ticker": "JOB",
+      "name": "GEE Group Inc.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 26,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001477932-26-003070",
+        "filedAt": "2026-05-14",
+        "docId": "job_10q.htm"
+      },
+      "publicFloatMM": 18,
+      "status": "filtered_out",
+      "filterReason": "float $18MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001837240",
+      "ticker": "SYM",
+      "name": "Symbotic Inc.",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 22,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001837240-26-000023",
+        "filedAt": "2026-05-06",
+        "docId": "symboticinvestorpresenta.htm"
+      },
+      "publicFloatMM": 1000,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001943289",
+      "ticker": "SVCO",
+      "name": "Silvaco Group, Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 21,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001628280-26-032098",
+        "filedAt": "2026-05-07",
+        "docId": "a991earningsreleasedatedma.htm"
+      },
+      "publicFloatMM": 45,
+      "status": "filtered_out",
+      "filterReason": "float $45MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000055135",
+      "ticker": "KELYB",
+      "name": "KELLY SERVICES INC",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 20,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0000055135-26-000114",
+        "filedAt": "2026-05-07",
+        "docId": "a20261qearningsreleaseform.htm"
+      },
+      "publicFloatMM": 364,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000890394",
+      "ticker": "PRSO",
+      "name": "Peraso Inc.",
+      "nodeId": "factory-adopters",
+      "ftsHits": 19,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-075082",
+        "filedAt": "2026-07-02",
+        "docId": "ea029639901ex99-1.htm"
+      },
+      "publicFloatMM": 6,
+      "status": "filtered_out",
+      "filterReason": "float $6MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001512228",
+      "ticker": "NIOBW",
+      "name": "NIOCORP DEVELOPMENTS LTD",
+      "nodeId": "magnet-materials",
+      "ftsHits": 18,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001539497-26-000783",
+        "filedAt": "2026-02-25",
+        "docId": "exh99_1-closingpr.htm"
+      },
+      "publicFloatMM": 63,
+      "status": "filtered_out",
+      "filterReason": "float $63MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001396536",
+      "ticker": "DUOT",
+      "name": "DUOS TECHNOLOGIES GROUP, INC.",
+      "nodeId": "sensing-stack",
+      "ftsHits": 17,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001079973-26-000317",
+        "filedAt": "2026-03-17",
+        "docId": "duot_ex99z1.htm"
+      },
+      "publicFloatMM": 51,
+      "status": "filtered_out",
+      "filterReason": "float $51MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001057352",
+      "ticker": "CSGP",
+      "name": "COSTAR GROUP, INC.",
+      "nodeId": "simulation-training",
+      "ftsHits": 17,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001057352-26-000048",
+        "filedAt": "2026-06-25",
+        "docId": "finalcsgpagmresultspress.htm"
+      },
+      "publicFloatMM": 33900,
+      "status": "filtered_out",
+      "filterReason": "float $33900MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000097210",
+      "ticker": "TER",
+      "name": "TERADYNE, INC",
+      "nodeId": "test-qualification",
+      "ftsHits": 17,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001193125-26-201058",
+        "filedAt": "2026-05-01",
+        "docId": "ter-20260329.htm"
+      },
+      "publicFloatMM": 12700,
+      "status": "filtered_out",
+      "filterReason": "float $12700MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000851205",
+      "ticker": "CGNX",
+      "name": "COGNEX CORP",
+      "nodeId": "sensing-stack",
+      "ftsHits": 16,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0000851205-26-000040",
+        "filedAt": "2026-05-07",
+        "docId": "cgnx-20260405.htm"
+      },
+      "publicFloatMM": 5267,
+      "status": "filtered_out",
+      "filterReason": "float $5267MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000768899",
+      "ticker": "TBI",
+      "name": "TrueBlue, Inc.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 16,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0000768899-26-000018",
+        "filedAt": "2026-05-05",
+        "docId": "a2026-05investorroadshow.htm"
+      },
+      "publicFloatMM": 200,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001419806",
+      "ticker": "REEMF",
+      "name": "RARE ELEMENT RESOURCES LTD",
+      "nodeId": "magnet-materials",
+      "ftsHits": 15,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001419806-26-000008",
+        "filedAt": "2026-05-13",
+        "docId": "reemf-20260331x10q.htm"
+      },
+      "publicFloatMM": 112,
+      "status": "filtered_out",
+      "filterReason": "float $112MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000082811",
+      "ticker": "RRX",
+      "name": "REGAL REXNORD CORP",
+      "nodeId": "factory-adopters",
+      "ftsHits": 14,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001628280-26-039279",
+        "filedAt": "2026-06-01",
+        "docId": "ipsleadershiptransitionpr_.htm"
+      },
+      "publicFloatMM": 9500,
+      "status": "filtered_out",
+      "filterReason": "float $9500MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001687187",
+      "ticker": "METCZ",
+      "name": "Ramaco Resources, Inc.",
+      "nodeId": "magnet-materials",
+      "ftsHits": 13,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-062129",
+        "filedAt": "2026-05-28",
+        "docId": "ea029256101ex99-1.htm"
+      },
+      "publicFloatMM": 425,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001031308",
+      "ticker": "BSY",
+      "name": "BENTLEY SYSTEMS INC",
+      "nodeId": "simulation-training",
+      "ftsHits": 12,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-066280",
+        "filedAt": "2026-05-26",
+        "docId": "tm2615473d1_ex99-1.htm"
+      },
+      "publicFloatMM": 7600,
+      "status": "filtered_out",
+      "filterReason": "float $7600MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001141103",
+      "ticker": "CCRN",
+      "name": "CROSS COUNTRY HEALTHCARE INC",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 12,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001628280-26-032542",
+        "filedAt": "2026-05-08",
+        "docId": "ccrn-20260331.htm"
+      },
+      "publicFloatMM": 393,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001787518",
+      "ticker": "DFNSW",
+      "name": "T3 Defense Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 11,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-044073",
+        "filedAt": "2026-04-15",
+        "docId": "ea028627201ex99-1.htm"
+      },
+      "publicFloatMM": 40,
+      "status": "filtered_out",
+      "filterReason": "float $40MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001142750",
+      "ticker": "AMN",
+      "name": "AMN HEALTHCARE SERVICES INC",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 11,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001628280-26-032419",
+        "filedAt": "2026-05-08",
+        "docId": "amn-20260331.htm"
+      },
+      "publicFloatMM": 788,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001345126",
+      "ticker": "CODI-PA",
+      "name": "Compass Diversified Holdings",
+      "nodeId": "magnet-materials",
+      "ftsHits": 10,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001345126-26-000040",
+        "filedAt": "2026-05-06",
+        "docId": "codi-20260331.htm"
+      },
+      "publicFloatMM": 419,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000930420",
+      "ticker": "KFRC",
+      "name": "KFORCE INC",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 10,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0000930420-26-000041",
+        "filedAt": "2026-04-29",
+        "docId": "kfrc-20260331.htm"
+      },
+      "publicFloatMM": 632,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001682149",
+      "ticker": "DVLT",
+      "name": "Datavault AI Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 9,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-011064",
+        "filedAt": "2026-02-05",
+        "docId": "tm265423d1_ex99-1.htm"
+      },
+      "publicFloatMM": 48,
+      "status": "filtered_out",
+      "filterReason": "float $48MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000700841",
+      "ticker": "RCMT",
+      "name": "RCM TECHNOLOGIES, INC.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 9,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001437749-26-017057",
+        "filedAt": "2026-05-14",
+        "docId": "rcmt20260404_10q.htm"
+      },
+      "publicFloatMM": 99,
+      "status": "filtered_out",
+      "filterReason": "float $99MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001605888",
+      "ticker": "SQLLW",
+      "name": "ATLANTIC INTERNATIONAL CORP.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 9,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001605888-26-000025",
+        "filedAt": "2026-06-22",
+        "docId": "altn-20260331.htm"
+      },
+      "publicFloatMM": 98,
+      "status": "filtered_out",
+      "filterReason": "float $98MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001805521",
+      "ticker": "FFAIW",
+      "name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-070874",
+        "filedAt": "2026-06-23",
+        "docId": "ea029552701ex99-1.htm"
+      },
+      "publicFloatMM": 224,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000046129",
+      "ticker": "ALNT",
+      "name": "ALLIENT INC",
+      "nodeId": "precision-actuation",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001104659-26-056256",
+        "filedAt": "2026-05-06",
+        "docId": "alnt-20260331x10q.htm"
+      },
+      "publicFloatMM": 518,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001049502",
+      "ticker": "MKSI",
+      "name": "MKS INC",
+      "nodeId": "precision-actuation",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001049502-26-000062",
+        "filedAt": "2026-05-07",
+        "docId": "mksi-20260331.htm"
+      },
+      "publicFloatMM": 6673,
+      "status": "filtered_out",
+      "filterReason": "float $6673MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001833756",
+      "ticker": "DRS",
+      "name": "Leonardo DRS, Inc.",
+      "nodeId": "magnet-materials",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001833756-26-000025",
+        "filedAt": "2026-05-05",
+        "docId": "drs-20260331.htm"
+      },
+      "publicFloatMM": 3508,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001385849",
+      "ticker": "UUUU",
+      "name": "ENERGY FUELS INC",
+      "nodeId": "magnet-materials",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001385849-26-000021",
+        "filedAt": "2026-05-06",
+        "docId": "efr-20260331.htm"
+      },
+      "publicFloatMM": 1130,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001036262",
+      "ticker": "INTT",
+      "name": "INTEST CORP",
+      "nodeId": "test-qualification",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001036262-26-000032",
+        "filedAt": "2026-05-11",
+        "docId": "intt-20260331.htm"
+      },
+      "publicFloatMM": 85,
+      "status": "filtered_out",
+      "filterReason": "float $85MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000855658",
+      "ticker": "LSCC",
+      "name": "LATTICE SEMICONDUCTOR CORP",
+      "nodeId": "factory-adopters",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001437749-26-014686",
+        "filedAt": "2026-05-04",
+        "docId": "lscc20260404_10q.htm"
+      },
+      "publicFloatMM": 3426,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001435617",
+      "ticker": "PWDY",
+      "name": "POWERDYNE INTERNATIONAL, INC.",
+      "nodeId": "factory-adopters",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001493152-26-024678",
+        "filedAt": "2026-05-20",
+        "docId": "form10-q.htm"
+      },
+      "publicFloatMM": 3,
+      "status": "filtered_out",
+      "filterReason": "float $3MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000026058",
+      "ticker": "CTS",
+      "name": "CTS CORP",
+      "nodeId": "factory-adopters",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-189091",
+        "filedAt": "2026-04-29",
+        "docId": "cts-ex99_1.htm"
+      },
+      "publicFloatMM": 1242,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000356171",
+      "ticker": "TCBK",
+      "name": "TRICO BANCSHARES /",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0000356171-26-000040",
+        "filedAt": "2026-04-23",
+        "docId": "a2026q1tcbkinvestorprese.htm"
+      },
+      "publicFloatMM": 1400,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001474903",
+      "ticker": "BGSF",
+      "name": "BGSF, INC.",
+      "nodeId": "light-industrial-staffing",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001474903-25-000086",
+        "filedAt": "2025-08-07",
+        "docId": "ex991q22025earnings.htm"
+      },
+      "publicFloatMM": 65,
+      "status": "filtered_out",
+      "filterReason": "float $65MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001498148",
+      "ticker": "AITX",
+      "name": "Artificial Intelligence Technology Solutions Inc.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001062993-25-015375",
+        "filedAt": "2025-09-08",
+        "docId": "exhibit99-1.htm"
+      },
+      "publicFloatMM": 16,
+      "status": "filtered_out",
+      "filterReason": "float $16MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000884624",
+      "ticker": "OFIX",
+      "name": "Orthofix Medical Inc.",
+      "nodeId": "sensing-stack",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-204999",
+        "filedAt": "2026-05-05",
+        "docId": "ofix-ex99_2.htm"
+      },
+      "publicFloatMM": 440,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001827899",
+      "ticker": "CPTKW",
+      "name": "Crown PropTech Acquisitions",
+      "nodeId": "magnet-materials",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-067057",
+        "filedAt": "2026-06-10",
+        "docId": "ea029425601ex99-1.htm"
+      },
+      "publicFloatMM": 6,
+      "status": "filtered_out",
+      "filterReason": "float $6MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000903651",
+      "ticker": "INOD",
+      "name": "INNODATA INC",
+      "nodeId": "simulation-training",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-020514",
+        "filedAt": "2026-02-26",
+        "docId": "tm265812d1_ex99-1.htm"
+      },
+      "publicFloatMM": 1560,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001816581",
+      "ticker": "OUST",
+      "name": "Ouster, Inc.",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-206501",
+        "filedAt": "2026-05-05",
+        "docId": "d947395dex991.htm"
+      },
+      "publicFloatMM": 1310,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000029002",
+      "ticker": "DIOD",
+      "name": "DIODES INC /DEL/",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 6,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-25-270059",
+        "filedAt": "2025-11-06",
+        "docId": "diod-ex99_3.htm"
+      },
+      "publicFloatMM": 2400,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001006281",
+      "ticker": "PLX",
+      "name": "Protalix BioTherapeutics, Inc.",
+      "nodeId": "factory-adopters",
+      "ftsHits": 6,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001104659-26-029858",
+        "filedAt": "2026-03-18",
+        "docId": "plx-20251231x10k.htm"
+      },
+      "publicFloatMM": 113,
+      "status": "filtered_out",
+      "filterReason": "float $113MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001014763",
+      "ticker": "AIMDW",
+      "name": "Ainos, Inc.",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001493152-25-022312",
+        "filedAt": "2025-11-13",
+        "docId": "form10-q.htm"
+      },
+      "publicFloatMM": 4,
+      "status": "filtered_out",
+      "filterReason": "float $4MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001567900",
+      "ticker": "ALOY",
+      "name": "REALLOYS INC.",
+      "nodeId": "magnet-materials",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001185185-26-002091",
+        "filedAt": "2026-05-22",
+        "docId": "realloysex99-1.htm"
+      },
+      "publicFloatMM": 16,
+      "status": "filtered_out",
+      "filterReason": "float $16MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001826681",
+      "ticker": "PDYNW",
+      "name": "Palladyne AI Corp.",
+      "nodeId": "test-qualification",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-012228",
+        "filedAt": "2026-01-14",
+        "docId": "pdyn-ex99_1.htm"
+      },
+      "publicFloatMM": 316,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001385157",
+      "ticker": "TEL",
+      "name": "TE Connectivity plc",
+      "nodeId": "factory-adopters",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-046285",
+        "filedAt": "2026-04-22",
+        "docId": "tel-20260422xex99d2.htm"
+      },
+      "publicFloatMM": 42200,
+      "status": "filtered_out",
+      "filterReason": "float $42200MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001606242",
+      "ticker": "VTIX",
+      "name": "Virtuix Holdings Inc.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-072654",
+        "filedAt": "2026-06-26",
+        "docId": "ea029606401ex99-1.htm"
+      },
+      "publicFloatMM": 0,
+      "status": "filtered_out",
+      "filterReason": "float $0MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001963685",
+      "ticker": "RR",
+      "name": "RICHTECH ROBOTICS INC.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001213900-26-005343",
+        "filedAt": "2026-01-20",
+        "docId": "ea0272362-10k_richtech.htm"
+      },
+      "publicFloatMM": 0,
+      "status": "filtered_out",
+      "filterReason": "float $0MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000877212",
+      "ticker": "ZBRA",
+      "name": "ZEBRA TECHNOLOGIES CORP",
+      "nodeId": "sensing-stack",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001628280-26-007668",
+        "filedAt": "2026-02-12",
+        "docId": "zbra-20251231.htm"
+      },
+      "publicFloatMM": 15500,
+      "status": "filtered_out",
+      "filterReason": "float $15500MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0002028707",
+      "ticker": "MRLN",
+      "name": "Merlin, Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-048884",
+        "filedAt": "2026-04-29",
+        "docId": "ea028818001ex10-1.htm"
+      },
+      "publicFloatMM": 258,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000021535",
+      "ticker": "COHU",
+      "name": "COHU INC",
+      "nodeId": "test-qualification",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001437749-26-004339",
+        "filedAt": "2026-02-17",
+        "docId": "cohu20251227_10k.htm"
+      },
+      "publicFloatMM": 879,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001433660",
+      "ticker": "JBTM",
+      "name": "JBT MAREL Corp",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001628280-26-029903",
+        "filedAt": "2026-05-04",
+        "docId": "a2026q1earningsexhibit9918k.htm"
+      },
+      "publicFloatMM": 6184,
+      "status": "filtered_out",
+      "filterReason": "float $6184MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001290900",
+      "ticker": "CVGI",
+      "name": "Commercial Vehicle Group, Inc.",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001628280-24-040165",
+        "filedAt": "2024-09-12",
+        "docId": "cvgbarringtonconference-.htm"
+      },
+      "publicFloatMM": 56,
+      "status": "filtered_out",
+      "filterReason": "float $56MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001823584",
+      "ticker": "AENTW",
+      "name": "ALLIANCE ENTERTAINMENT HOLDING CORP",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-26-006492",
+        "filedAt": "2026-02-13",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 117,
+      "status": "filtered_out",
+      "filterReason": "float $117MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001092796",
+      "ticker": "SWBI",
+      "name": "SMITH & WESSON BRANDS, INC.",
+      "nodeId": "factory-adopters",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-25-142704",
+        "filedAt": "2025-06-18",
+        "docId": "d19177dex991.htm"
+      },
+      "publicFloatMM": 420,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001318605",
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001628280-26-026673",
+        "filedAt": "2026-04-23",
+        "docId": "tsla-20260331.htm"
+      },
+      "publicFloatMM": 892930,
+      "status": "filtered_out",
+      "filterReason": "float $892930MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001814215",
+      "ticker": "BURUW",
+      "name": "Nuburu, Inc.",
+      "nodeId": "precision-actuation",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0000950170-24-124234",
+        "filedAt": "2024-11-08",
+        "docId": "buru-20231231.htm"
+      },
+      "publicFloatMM": 25,
+      "status": "filtered_out",
+      "filterReason": "float $25MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001646188",
+      "ticker": "ONDS",
+      "name": "Ondas Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-069889",
+        "filedAt": "2026-06-18",
+        "docId": "ea029504301ex99-3.htm"
+      },
+      "publicFloatMM": 392,
+      "status": "in_band"
+    },
+    {
+      "cik": "0002006291",
+      "ticker": "CCIXW",
+      "name": "Churchill Capital Corp IX/Cayman",
+      "nodeId": "simulation-training",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-022577",
+        "filedAt": "2026-01-26",
+        "docId": "d96619dex991.htm"
+      },
+      "publicFloatMM": 302,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001024478",
+      "ticker": "ROK",
+      "name": "ROCKWELL AUTOMATION, INC",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001024478-26-000020",
+        "filedAt": "2026-05-05",
+        "docId": "q2fy26ex99.htm"
+      },
+      "publicFloatMM": 29100,
+      "status": "filtered_out",
+      "filterReason": "float $29100MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001173514",
+      "ticker": "HY",
+      "name": "HYSTER-YALE, INC.",
+      "nodeId": "warehouse-adopters",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001173514-25-000128",
+        "filedAt": "2025-11-04",
+        "docId": "q32025investorpresentati.htm"
+      },
+      "publicFloatMM": 461,
+      "status": "in_band"
+    },
+    {
+      "cik": "0002074973",
+      "ticker": "CCXIW",
+      "name": "Churchill Capital Corp XI",
+      "nodeId": "precision-actuation",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-071287",
+        "filedAt": "2026-06-24",
+        "docId": "ea029548401ex99-1.htm"
+      },
+      "publicFloatMM": 423,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001378140",
+      "ticker": "OPTT",
+      "name": "Ocean Power Technologies, Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-25-027865",
+        "filedAt": "2025-12-16",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 19,
+      "status": "filtered_out",
+      "filterReason": "float $19MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001854445",
+      "ticker": "GGRP",
+      "name": "Glimpse Group, Inc.",
+      "nodeId": "simulation-training",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-25-016192",
+        "filedAt": "2025-09-30",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 41,
+      "status": "filtered_out",
+      "filterReason": "float $41MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001847064",
+      "ticker": "PSQH-WT",
+      "name": "PSQ Holdings, Inc.",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-25-047426",
+        "filedAt": "2025-05-23",
+        "docId": "ea024325201ex99-1_psqhold.htm"
+      },
+      "publicFloatMM": 79,
+      "status": "filtered_out",
+      "filterReason": "float $79MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001275014",
+      "ticker": "UCTT",
+      "name": "Ultra Clean Holdings, Inc.",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001628280-26-010744",
+        "filedAt": "2026-02-23",
+        "docId": "uctt-20251226.htm"
+      },
+      "publicFloatMM": 1020,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000006281",
+      "ticker": "ADI",
+      "name": "ANALOG DEVICES INC",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0000006281-25-000153",
+        "filedAt": "2025-11-25",
+        "docId": "adi-20251101.htm"
+      },
+      "publicFloatMM": 81121,
+      "status": "filtered_out",
+      "filterReason": "float $81121MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001074871",
+      "ticker": "MODD",
+      "name": "Modular Medical, Inc.",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001213900-26-073223",
+        "filedAt": "2026-06-29",
+        "docId": "ea0294762-10k_modular.htm"
+      },
+      "publicFloatMM": 37,
+      "status": "filtered_out",
+      "filterReason": "float $37MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000851520",
+      "ticker": "EXPO",
+      "name": "EXPONENT INC",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001193125-26-082508",
+        "filedAt": "2026-02-27",
+        "docId": "expo-20260102.htm"
+      },
+      "publicFloatMM": 3000,
+      "status": "in_band"
+    },
+    {
+      "cik": "0002010653",
+      "ticker": "FVNNR",
+      "name": "Future Vision II Acquisition Corp.",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001829126-26-001993",
+        "filedAt": "2026-03-06",
+        "docId": "futurevision2_10k.htm"
+      },
+      "publicFloatMM": 61,
+      "status": "filtered_out",
+      "filterReason": "float $61MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001615063",
+      "ticker": "INSE",
+      "name": "Inspired Entertainment, Inc.",
+      "nodeId": "test-qualification",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001493152-26-009479",
+        "filedAt": "2026-03-10",
+        "docId": "form10-k.htm"
+      },
+      "publicFloatMM": 181,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001593001",
+      "ticker": "NGTF",
+      "name": "NightFood Holdings, Inc.",
+      "nodeId": "sensing-stack",
+      "ftsHits": 1,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-26-028225",
+        "filedAt": "2026-06-11",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 2,
+      "status": "filtered_out",
+      "filterReason": "float $2MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001604191",
+      "ticker": "GRDX",
+      "name": "GridAI Technologies Corp.",
+      "nodeId": "sensing-stack",
+      "ftsHits": 1,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-24-098369",
+        "filedAt": "2024-09-10",
+        "docId": "tm2423688d1_ex99-1.htm"
+      },
+      "publicFloatMM": 15,
+      "status": "filtered_out",
+      "filterReason": "float $15MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001037868",
+      "ticker": "AME",
+      "name": "AMETEK INC/",
+      "nodeId": "sensing-stack",
+      "ftsHits": 1,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001037868-24-000051",
+        "filedAt": "2024-10-31",
+        "docId": "ametek8kexhibit99210-31x24.htm"
+      },
+      "publicFloatMM": 41800,
+      "status": "filtered_out",
+      "filterReason": "float $41800MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001111335",
+      "ticker": "VC",
+      "name": "VISTEON CORP",
+      "nodeId": "sensing-stack",
+      "ftsHits": 1,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001111335-25-000127",
+        "filedAt": "2025-07-18",
+        "docId": "sennettpressreleaseasof071.htm"
+      },
+      "publicFloatMM": 2500,
+      "status": "in_band"
+    }
+  ],
+  "reads": [
+    {
+      "ticker": "USAR",
+      "cik": "0001970622",
+      "eightKCount12m": 25,
+      "quotes": [
+        {
+          "text": "For the avoidance of doubt, no interest or penalties shall accrue on the amount of a requested Disbursement between the date of the Disbursement Request and the Disbursement Date, and the making of any Disbursement under the Financing Documents shall not be deemed an approval or acceptance by the Department of any work, labor, supplies, materials or equipment furnished or supplied with respect to any Project.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "The Department shall have received evidence to its satisfaction of the resolution of the power infrastructure plan for the Magnet Project 2.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "With respect to the first Disbursement for each Project, the Project Commencement Date for such Project shall have occurred no later than the applicable Project Commencement Clawback Date; provided that the Recipient and the Department acknowledge and agree that, with respect to the Round Top Mine Project, the Stillwater Magnet Project, and the Stillwater Metal Project, the Project Commencement Date for each such Project occurred prior to the applicable Project Commencement Clawback Date.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "3729 3733); (f) all applicable federal labor and employment laws, including Title VII of the Civil Rights Act of 1964 (42 U.S.C.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "4712 and the whistleblower protections afforded to employees thereby to not discharge, demote, or otherwise discriminate against an employee as a reprisal for disclosing to a Body of Information that the employee reasonably believes is evidence of gross mismanagement of any Award, a gross waste of any Award, an abuse of authority relating to any Award, a substantial and specific danger to public health or safety, or a violation of law, rule or regulation related to a Federal award, subaward or contract under a Federal award or subaward; and (iii) inform its employees and contractors in writing, in the predominant native language of the workforce, of the rights under this Section 8.2.15(g).",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "With respect to the Stillwater Magnet Project and the Magnet Project 2, it shall ensure that at all times on and following the date of achievement of any Disbursement Milestone for which a minimum aggregate Magnet Purchase Commitment of any Product is required in accordance with the Disbursement Milestone Schedule, the relevant Recipient Parties shall maintain in full force and effect, and comply with the terms of, Magnet Purchase Commitments evidencing commitments for the sale of the relevant Product in an aggregate sales volume of no less than the minimum cumulative amount specified for such Disbursement Milestone in the Disbursement Milestone Schedule.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "31 The Recipient shall deliver true and correct copies to the Department of all Magnet Purchase Commitments no later than five (5) Business Days following the execution thereof by the relevant Recipient Party.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Title: Chief Financial Officer USA Rare Earth Project - Direct Funding Agreement Signature Page USA RARE EARTH MAGNETS, LLC, as Recipient Party By: /s/ W.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Additional Project means either the Magnet Project 2 or the Metal Project 2, as context may require.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Applicable Award means: (a) with respect to the Round Top Mine Project, the Round Top Mine Project Award; (b) with respect to the Stillwater Magnet Project, the Stillwater Magnet Project Award; (c) with respect to the Stillwater Metal Project, the Stillwater Metal Project Award; (d) with respect to the Magnet Project 2, the Magnet Project 2 Award; and (e) with respect to the Metal Project 2, the Metal Project 2 Award.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Facility means the Round Top Project Facility, the Stillwater Metal Project Facility, the Stillwater Magnet Project Facility, the Magnet Project 2 Facility, or the Metal Project 2 Facility, as context may require.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Annex A- 19 Magnet Post-Award Quotation Documents means for each Product, all documents submitted to a potential customer associated with the associated Magnet Post-Award Purchase LOI, including the following: the agreed pricing of each quoted Product; specification of each Product in reasonable detail; grades of Product; and detailed drawings of each Product.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Annex A- 20 Magnet Pre-Award Quotation Documents means, for each Product, all documents submitted to a potential customer associated with the associated Magnet Pre-Award Purchase LOI, including the following: (a) the agreed pricing of each quoted Product; (b) specification of each Product in reasonable detail; (c) grades of Product; and (d) detailed drawings of each Product.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Magnet Project 2 has the meaning given to the term in the recitals hereto.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Magnet Project 2 Award has the meaning given to the term in Section 2.1(a)(iv) ( Award Amount ).",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Magnet Project 2 Facility means the magnet manufacturing facility located at the Project Site for the Magnet Project 2 and including all the buildings, fixtures and other improvements situated, or to be situated, on such Project Site.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Magnet Project 2 Maximum Award Amount has the meaning given to the term in Section 2.1(a)(iv) ( Award Amount ).",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Magnet Purchase Commitments means, collectively, each Magnet Post-Award Purchase Commitment and each Magnet Pre-Award Purchase Commitment.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Product means: (a) with respect to the Round Top Mine Project, dysprosium oxide, gallium, gadolinium oxide, terbium oxide, yttrium oxide, hafnium, zirconium, and mixed heavy rare earth carbonate that includes holmium oxide, erbium oxide, thulium oxide, ytterbium oxide, and lutetium oxide; (b) with respect to the Stillwater Magnet Project, rare-earth magnets; (c) with respect to the Stillwater Metal Project, strip-cast neodymium-iron-boron metal; (d) with respect to the Magnet Project 2, rare-earth magnets; and (e) with respect to the Metal Project 2, strip-cast neodymium-iron-boron metal.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        },
+        {
+          "text": "Project Commencement Clawback Date means: (a) with respect to the Round Top Mine Project, the Award Date; (b) with respect to the Stillwater Magnet Project, the Award Date; (c) with respect to the Stillwater Metal Project, the Award Date; (d) with respect to the Magnet Project 2, June 30, 2027; and (e) with respect to the Metal Project 2, September 30, 2027.",
+          "form": "8-K",
+          "accession": "0001213900-26-064453",
+          "filedAt": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
+        }
+      ],
+      "exposure": "adjacent",
+      "subscores": {
+        "optionality": {
+          "score": 4,
+          "rationale": "The excerpts document a federal Direct Funding Agreement covering two magnet plants and two metal plants beyond the initial Stillwater projects, with Magnet Project 2 defined as a new magnet manufacturing facility. This is filing evidence of committed investment in capacity that does not generate revenue today. One point withheld because the excerpts show funding terms rather than realized output.",
+          "quoteIdx": [
+            8,
+            15,
+            2
+          ]
+        },
+        "revenueToOpportunity": {
+          "score": 4,
+          "rationale": "Disbursements are gated on Magnet Purchase Commitments and the agreement defines pre-award and post-award purchase LOIs and quotation documents, which indicates commercial volume is still being contracted rather than recognized. A company at this stage is small relative to the magnet demand the funding presumes, so success moves the whole company.",
+          "quoteIdx": [
+            5,
+            11,
+            12
+          ]
+        },
+        "catalystDensity": {
+          "score": 5,
+          "rationale": "The agreement carries dated, observable milestones inside the thesis window: project commencement clawback dates of June 30, 2027 for Magnet Project 2 and September 30, 2027 for Metal Project 2, disbursement milestones tied to minimum cumulative purchase commitments, and a power infrastructure condition for Magnet Project 2. The company filed 25 8-Ks in the last 12 months.",
+          "quoteIdx": [
+            19,
+            5,
+            1
+          ]
+        },
+        "managementConviction": {
+          "score": 3,
+          "rationale": "Signing a binding funding agreement with commencement deadlines and purchase commitment obligations is a concrete commitment, and the excerpts confirm three projects commenced before their clawback dates. The source is a legal exhibit rather than management narrative, so conviction language itself is not observable here.",
+          "quoteIdx": [
+            2,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "MATW",
+      "cik": "0000063296",
+      "eightKCount12m": 19,
+      "quotes": [
+        {
+          "text": "The segment historically provided warehouse automation technologies and solutions, including order fulfillment systems for identifying, tracking, picking and conveying consumer and industrial products, and coating and converting lines for the packaging, pharma, foil, d cor and tissue industries.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "On December 31, 2025, the Company sold its warehouse automation business for cash consideration.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The difference between the Company s consolidated income taxes for the first six months of fiscal 2026 compared to the same period for fiscal 2025 resulted from consolidated pre-tax income in fiscal 2026 compared to a consolidated pre-tax loss in fiscal 2025, and net discrete tax expense related to the divestiture of the Company's warehouse automation and European roto-gravure packaging and tooling and flexographic print businesses, partially offset by other net discrete tax benefits.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The Company s fiscal 2026 six month effective tax rate varied from the U.S. statutory tax rate of 21.0% primarily due to state taxes, tax credits, non-tax benefited foreign losses and discrete tax expense related to the divestiture of the Company's warehouse automation and European roto-gravure packaging and tooling and flexographic print businesses, partially offset by other net discrete tax benefits.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "Acquisitions and Divestitures Fiscal 2026: In December 2025, the Company completed the sale of its interests in Matthews Automation Solutions, LLC, a Delaware limited liability company and wholly-owned subsidiary of Matthews, and certain related assets to Duravant LLC.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "In fiscal 2026 divestitures reflect the sale of the warehouse automation business.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The decrease in sales reflected lower sales of purpose-built engineered products (primarily energy storage solutions for the electric vehicle market and coating and converting equipment), the impact of divesting the Company's warehouse automation and tooling businesses in December 2025 (see Acquisitions and Divestitures below), and lower tooling sales for the fiscal 2026 period prior to the divestiture.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "These declines were partially offset by higher product identification sales, and increased sales of warehouse automation solutions for the fiscal 2026 period prior to the divestiture.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The gross profit decline also reflected the impact of higher material, labor, and other production costs, lower sales and margins on engineered products, and the impact of divesting the Company's warehouse automation and European roto-gravure packaging and tooling and flexographic print businesses in December 2025.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "These increases were partially offset by the impact of higher material, labor, and other production costs.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The decrease in segment adjusted EBITDA reflected the impact of lower sales and margins on engineered products, lower product identification margins, the impact of divesting the Company's warehouse automation business in December 2025, and unfavorable sales mix for warehouse automation solutions for the fiscal 2026 period prior to the divestiture.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "The fiscal 2026 change in working capital principally reflected incentive compensation-related payments, a settlement payment related to a contractual licensing matter (see Legal Matters above), changes in contract assets and liabilities related to revenue recognized using the over time method, increased accrued income taxes primarily related to the warehouse automation divestiture (see Acquisitions and Divestitures below), and changes in other accounts.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "In addition to the divestiture of the Company s interest in the SGK Business, the Company also recently completed the divestitures of its warehouse automation and European roto-gravure packaging and tooling and flexographic print businesses during the first quarter of fiscal 2026.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "Geopolitical instability, labor unrest, and economic disruptions in certain foreign jurisdictions may indirectly affect the Company's operations.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        },
+        {
+          "text": "Although the Company does not have direct sales, operations, or customers in regions experiencing significant instability, such as Venezuela and the Middle East, recent labor strikes, political instability, including in Iran, and economic conditions in Venezuela may contribute to broader regional or global disruptions, including impacts on international trade relationships, energy markets, currency volatility, or global logistics networks.",
+          "form": "10-Q",
+          "accession": "0000063296-26-000059",
+          "filedAt": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
+        }
+      ],
+      "exposure": "peripheral",
+      "subscores": {
+        "optionality": {
+          "score": 1,
+          "rationale": "The excerpts state the company sold its warehouse automation business to Duravant in December 2025. The theme does not create a new business here; the filings discuss automation only as a divested segment, so the mapping is a keyword artifact of divestiture disclosure.",
+          "quoteIdx": [
+            1,
+            4
+          ]
+        },
+        "revenueToOpportunity": {
+          "score": 1,
+          "rationale": "Remaining theme-linked revenue is not evidenced. References to warehouse automation in the period relate to sales prior to the divestiture and to divestiture-related tax and working capital effects.",
+          "quoteIdx": [
+            7,
+            2,
+            11
+          ]
+        },
+        "catalystDensity": {
+          "score": 1,
+          "rationale": "No theme-linked catalysts appear in the excerpts. The disclosed events are completed divestitures of the automation, packaging, and tooling businesses, which remove rather than add theme exposure.",
+          "quoteIdx": [
+            12
+          ]
+        },
+        "managementConviction": {
+          "score": 0,
+          "rationale": "Management exited the automation business. There is no forward-looking language about robotics or automation adoption in the excerpts.",
+          "quoteIdx": [
+            1,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "KELYB",
+      "cik": "0000055135",
+      "eightKCount12m": 9,
+      "quotes": [
+        {
+          "text": "Since inventing the staffing industry in 1946, we have become experts in the many industries and local and global markets we serve.",
+          "form": "8-K",
+          "accession": "0000055135-26-000114",
+          "filedAt": "2026-05-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm"
+        },
+        {
+          "text": "Management also believes that such measures are used by those analyzing performance of companies in the staffing industry to compare current performance to prior periods and to assess future performance.",
+          "form": "8-K",
+          "accession": "0000055135-26-000114",
+          "filedAt": "2026-05-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm"
+        }
+      ],
+      "exposure": "peripheral",
+      "subscores": {
+        "optionality": {
+          "score": 0,
+          "rationale": "The excerpts are two boilerplate sentences from an earnings release about the staffing industry generally. There is no evidence of any business the theme would create for this company, which is consistent with its chain position as a disrupted name rather than a beneficiary.",
+          "quoteIdx": [
+            0,
+            1
+          ]
+        },
+        "revenueToOpportunity": {
+          "score": 1,
+          "rationale": "The exposure runs through the staffing revenue base that humanoid labor substitution would shrink, but the excerpts do not quantify the light industrial mix or address automation at all. Scored low for absence of evidence, not for absence of risk.",
+          "quoteIdx": [
+            0
+          ]
+        },
+        "catalystDensity": {
+          "score": 1,
+          "rationale": "Nine 8-K filings in the last 12 months, none evidenced as theme-linked in the excerpts. No dated events bearing on automation substitution appear.",
+          "quoteIdx": [
+            1
+          ]
+        },
+        "managementConviction": {
+          "score": 0,
+          "rationale": "No management language about automation, robotics, or labor substitution risk appears in the excerpts. A judgment on how management is positioning for the risk requires the 10-K risk factors, which this read did not cover.",
+          "quoteIdx": [
+            0,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "theses": [
+    {
+      "ticker": "USAR",
+      "score": 80,
+      "markdown": "# USAR: federally funded magnet capacity with dated 2027 milestones, levered to humanoid unit volumes\n\n## Bear case first\nEvery excerpt comes from a financing agreement, not from revenue. Disbursements depend on purchase commitments that may not convert to recognized sales [5], Magnet Project 2 still needs its power infrastructure plan resolved [1], and the government can claw back awards if the new projects do not commence by mid 2027 [19]. Nothing in the filings ties demand to humanoid robotics specifically; the magnets serve defense and EV demand first, and a humanoid delay to the 2030s leaves the thesis paying for capacity the theme never fills. Execution risk on four simultaneous plant builds is not addressed by the excerpts at all.\n\n## Business today\nThe company is building domestic rare earth capacity across five awarded projects: the Round Top mine, two strip-cast neodymium-iron-boron metal plants, and two rare earth magnet plants [9] [18]. Commercial volume is still being contracted through pre-award and post-award purchase letters of intent rather than recognized sales [11] [12].\n\n## Chain position\nEnabler, rare earth magnet supply. High torque density joint motors depend on neodymium magnets, and a humanoid platform carries kilograms of magnet material across 30 to 40 joints. Magnet producers are paid per unit by every robot OEM regardless of which platform wins.\n\n## Non-linear case\nThe company is adding magnet manufacturing capacity that does not exist in its current revenue base, backed by a federal Direct Funding Agreement [15] [8]. Disbursement milestones require minimum cumulative magnet purchase commitments, so contract wins are observable in filings as they happen [5] [6]. If humanoid deployment begins inside 2027 to 2030, it arrives as incremental demand on top of the defense and EV demand the funding already presumes, against capacity that is committed today [2] [19]. Success is a multiple of the current business because the current business is still pre-commercial.\n\n## Filing evidence\n- Three of five projects commenced before their clawback dates [2].\n- Magnet Project 2 must commence by June 30, 2027 and Metal Project 2 by September 30, 2027 [19].\n- Disbursements are gated on minimum cumulative Magnet Purchase Commitments [5], delivered to the Department within five business days of execution [6].\n- Products are defined as rare-earth magnets and strip-cast neodymium-iron-boron metal, plus heavy rare earth oxides from Round Top [18].\n- Magnet Project 2 is a new magnet manufacturing facility [15], one of two Additional Projects [8], with its power plan a disbursement condition [1].\n\n## What would change our mind\n- A missed commencement clawback date for either Additional Project, visible in an 8-K amendment to the funding agreement [19].\n- Purchase commitment disclosures naming robotics customers, or failing to grow along the milestone schedule, visible in 8-K exhibits [5].\n- A 10-K that shows magnet revenue concentrating entirely in defense programs, which would decouple the name from the humanoid theme.\n"
+    },
+    {
+      "ticker": "MATW",
+      "score": 16,
+      "markdown": "# MATW: pass, the warehouse automation exposure was sold in December 2025\n\n## Bear case first\nThis name reached the candidate list because its filings are dense with warehouse automation language, but the language is divestiture disclosure. The company sold its warehouse automation business to Duravant in December 2025 [4] [1], and every subsequent theme reference in the 10-Q is accounting for that sale: divestiture-related tax effects [2] [3], working capital effects [11], and prior-period sales prior to the divestiture [7]. There is no remaining theme exposure evidenced in the filings.\n\n## Business today\nContinuing operations center on memorialization products, product identification, and purpose-built engineered products including energy storage solutions for the electric vehicle market [6]. The automation, European packaging, and tooling businesses were all divested in the first quarter of fiscal 2026 [12].\n\n## Chain position\nMapped to the second-order adopter node, warehouse and logistics automation, on keyword frequency. The read shows the mapping is a false positive: the company was a seller of automation capability, and it has now exited that position [1] [4].\n\n## Non-linear case\nNone supported by the evidence. The divestiture removes the segment through which humanoid adoption could have inflected results [10]. Any future theme exposure would require redeploying divestiture proceeds into automation-adjacent capacity, which the excerpts do not evidence.\n\n## Filing evidence\n- The warehouse automation business was sold for cash consideration on December 31, 2025 [1], to Duravant LLC [4].\n- The segment historically provided order fulfillment systems for picking and conveying products [0].\n- Fiscal 2026 results reflect the divestiture in sales [6], gross profit [8], segment EBITDA [10], taxes [2] [3], and working capital [11].\n\n## What would change our mind\n- An 8-K disclosing an acquisition or investment that rebuilds automation exposure.\n- A 10-K segment discussion showing engineered products revenue tied to robot component demand, which the current excerpts do not show.\n\nVerdict: remove from the candidate list for this theme. The engine surfaced it correctly by keyword and the filing read correctly rejects it.\n"
+    },
+    {
+      "ticker": "KELYB",
+      "score": 9,
+      "markdown": "# KELYB: disrupted-side watch item, evidence read is too thin to act on\n\n## Bear case first\nThe bear case here runs against the read itself, not the company. The excerpts are two sentences of earnings release boilerplate [0] [1]; they say nothing about automation, humanoids, or the light industrial mix that the disruption thesis targets. Scoring a staffing incumbent as disrupted on this evidence would be manufacturing a conclusion. The honest statement is that the filing read did not reach the documents where this risk would be discussed, which are the 10-K risk factors and segment disclosures.\n\n## Business today\nA staffing company that describes itself as having invented the staffing industry in 1946 and serving many industries and markets [0]. Nothing further is evidenced in the excerpts.\n\n## Chain position\nDisrupted, light industrial staffing. The node logic: staffing firms earn a spread on placed hours in exactly the repetitive warehouse and line tasks humanoids target first, so substitution shrinks the billable base directly. The logic is untested against this company's own disclosures; whether light industrial placements are a large share of revenue is an open question.\n\n## Non-linear case\nNot applicable on the long side. On the disrupted side, the non-linear risk is that per-hour billing has no floor under substitution: if humanoid labor becomes cheaper per task-hour, the affected billable base reprices toward it. Whether that base is 10 percent or 60 percent of revenue is not answerable from the excerpts and is the first question for a follow-up read.\n\n## Filing evidence\n- Company self-description and industry framing [0].\n- Management uses staffing industry comparison measures in its reporting [1].\n\n## What would change our mind\n- A 10-K risk factor addition naming robotics or automation as a substitution risk to light industrial placements, which would confirm management sees the exposure.\n- Segment disclosure quantifying light industrial revenue share, which would size the disrupted base.\n- An 8-K announcing an automation partnership or staffing-for-robotics offering, which would move the name from disrupted toward second-order adopter.\n\nVerdict: keep on the disrupted watch list. Rerun the read against the latest 10-K risk factors before drawing any conclusion.\n"
+    }
+  ]
+}

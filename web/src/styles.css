@@ -1,0 +1,590 @@
+/* Adoption Chain, analyst terminal styling.
+   One accent color (deep green), near-black ink on off-white paper.
+   Georgia for headings and thesis prose, system sans for data cells.
+   Radius scale: 0 / 2px / 6px. No gradients, no shadows beyond hairlines. */
+
+:root {
+  --paper: #f7f6f2;
+  --panel: #fffdf9;
+  --ink: #1b1a17;
+  --ink-soft: #55534d;
+  --ink-faint: #8a877f;
+  --hairline: #d8d5cc;
+  --accent: #1d4d33;
+  --accent-ink: #ffffff;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: system-ui, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.mono {
+  font-family: 'Consolas', 'SF Mono', monospace;
+  font-size: 0.875em;
+  letter-spacing: 0.02em;
+}
+
+.page-message {
+  max-width: 640px;
+  margin: 96px auto;
+  padding: 0 24px;
+  font-family: var(--serif);
+  font-size: 18px;
+  color: var(--ink);
+}
+
+/* Shell */
+
+.app-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 32px 28px 96px;
+}
+
+.app-shell.with-panel {
+  max-width: 1560px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 460px;
+  gap: 32px;
+  align-items: start;
+}
+
+.main-col {
+  min-width: 0;
+}
+
+/* Run header */
+
+.run-header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+
+.run-kicker {
+  font-family: var(--sans);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.run-seed {
+  font-family: var(--serif);
+  font-size: 31px;
+  line-height: 1.25;
+  font-weight: 400;
+  margin: 0 0 12px;
+}
+
+.run-meta {
+  font-size: 14px;
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.meta-sep {
+  color: var(--ink-faint);
+}
+
+.mode-badge {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 2px;
+  cursor: help;
+}
+
+.mode-note {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+/* Sections */
+
+.section {
+  margin-bottom: 44px;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 6px;
+}
+
+.section-note {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 16px;
+}
+
+/* Chain board */
+
+.chain-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .chain-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.chain-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.chain-col-head {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+
+/* Muted layer tints: color encodes the layer, nothing else. */
+.layer-enabler {
+  background: #e3e8ee;
+  color: #2f4560;
+}
+
+.layer-picks_and_shovels {
+  background: #ece7da;
+  color: #5c4a24;
+}
+
+.layer-second_order {
+  background: #e2ebe3;
+  color: #2c4d35;
+}
+
+.layer-disrupted {
+  background: #f0e2e0;
+  color: #6b2f28;
+}
+
+.node-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 12px 12px 10px;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.node-card:hover {
+  border-color: var(--ink-soft);
+}
+
+.node-selected {
+  border-color: var(--accent);
+  outline: 1px solid var(--accent);
+}
+
+.node-name {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.node-logic {
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+
+.node-count {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Candidate table */
+
+.cand-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+}
+
+.cand-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--ink);
+  padding: 8px 10px;
+}
+
+.cand-table td {
+  border-bottom: 1px solid var(--hairline);
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.cand-table th.num,
+.cand-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-cell {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.row-clickable {
+  cursor: pointer;
+}
+
+.row-clickable:hover td {
+  background: #f1efe8;
+}
+
+.row-selected td {
+  background: #edeae0;
+}
+
+.row-filtered td {
+  color: var(--ink-faint);
+}
+
+.row-filtered .score-cell {
+  color: var(--ink-faint);
+}
+
+.filter-reason {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.empty-cell {
+  color: var(--ink-faint);
+  font-size: 14px;
+  padding: 16px 10px;
+}
+
+.table-footnote {
+  font-size: 12px;
+  color: var(--ink-faint);
+  margin-top: 10px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Rubric panel */
+
+.rubric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 32px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  .rubric-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.rubric-row {
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 14px 16px;
+}
+
+.rubric-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.rubric-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.rubric-value {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.rubric-row input[type='range'] {
+  width: 100%;
+  accent-color: var(--accent);
+  margin: 4px 0 8px;
+}
+
+.rubric-def {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.reset-btn {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #163d28;
+}
+
+/* Thesis panel */
+
+.thesis-panel {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 20px 22px 24px;
+}
+
+.thesis-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.thesis-ticker {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.thesis-score {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.close-btn {
+  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 4px 10px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+
+.thesis-body {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.thesis-body h1 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+
+.thesis-body h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 8px;
+}
+
+.thesis-body p {
+  margin: 0 0 12px;
+}
+
+.thesis-body ul {
+  margin: 0 0 12px;
+  padding-left: 22px;
+}
+
+.thesis-body li {
+  margin-bottom: 6px;
+}
+
+.thesis-body a {
+  color: var(--accent);
+}
+
+.cite {
+  background: none;
+  border: none;
+  padding: 0 1px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  vertical-align: super;
+  line-height: 1;
+}
+
+.cite:hover {
+  text-decoration: underline;
+}
+
+.cite-active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-radius: 2px;
+}
+
+.quote-box {
+  background: var(--paper);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 12px 14px;
+  margin: 0 0 14px;
+  font-family: var(--sans);
+}
+
+.quote-text {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+
+.quote-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.quote-meta a {
+  color: var(--accent);
+}
+
+/* Subscore table */
+
+.subscore-block {
+  margin-top: 20px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 14px;
+}
+
+.subscore-title {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.subscore-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.subscore-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--ink);
+  padding: 6px 8px;
+}
+
+.subscore-table td {
+  border-bottom: 1px solid var(--hairline);
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+.subscore-table th.num,
+.subscore-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.rationale-cell {
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+@media (max-width: 1200px) {
+  .app-shell.with-panel {
+    display: block;
+  }
+
+  .thesis-panel {
+    position: static;
+    max-height: none;
+    margin-top: 32px;
+  }
+}
