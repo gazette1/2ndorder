@@ -37,13 +37,16 @@
   /* stage: full-viewport hero with the brain video behind everything */
   .stage { position: relative; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden; background: #000; }
   .video-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+  /* the brain sits smaller in the upper field; its own frame edges are pure
+     black, so it blends into the page with no visible box. The copy then sits
+     below it on clean black rather than over the bright tracts. */
   .video-bg video {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    object-fit: cover; object-position: 50% 34%;
+    position: absolute; top: 1%; left: 50%; transform: translateX(-50%);
+    width: min(74%, 880px); height: auto; object-fit: contain;
   }
-  /* flat uniform tint (not a gradient) knocks the video brightness back so
-     white copy stays legible over it; the video color still reads through */
-  .video-bg::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.34); }
+  @media (max-width: 760px) { .video-bg video { width: 90%; top: 78px; } }
+  /* a light flat tint (not a gradient) seats the brain against the page */
+  .video-bg::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.14); }
   .stage .wrap { position: relative; z-index: 1; width: 100%; }
 
   nav.top { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; }
