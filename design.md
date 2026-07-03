@@ -35,30 +35,30 @@ visible: a scenario, and what follows from it, drawn in front of you.
 
 ## Color
 
-Repalette decided 2026-07-03 at Russ's direction (full change away from the
-original ink-and-gold). The register is bioelectric: a deep petrol dark, near
-the color of a lights-off lab, with one living signal color. Nothing else
-competes with the signal.
+Monochrome, decided 2026-07-03 at Russ's direction from a reference image: a
+white wireframe brain on true black. The brand wears black and white only.
+The signal color is white itself: a synapse firing is a brightening, not a
+hue. This is the strongest restraint position available and it photographs
+like an X-ray of thought.
 
-- `--bg`: `#061417` (page, deep petrol)
-- `--surface`: `#0B2226` (panels)
-- `--surface-raised`: `#0F2A2F` (cards inside panels)
-- `--border`: `#16363B` (hairline, 1px everywhere)
-- `--border-strong`: `#235057`
-- `--text`: `#ECF3E8` (primary; warm pale, never pure white)
-- `--text-muted`: `#93A9A0`
-- `--text-faint`: `#56716B`
-- `--accent`: `#C6F24E` (the one accent, solid fill only, never gradient).
-  Bioelectric lime: the color of a synapse firing, the moment a connection is
-  made. Used for: the primary CTA fill, the firing neurons and cascade strokes
-  in the hero field, one emphasized word in the headline, link underlines.
-  Never for large fills or backgrounds.
-- `--accent-hover`: `#D4F96F`
-- `--accent-on`: `#061417` (text on accent fill)
+- `--bg`: `#000000` (page, true black, matching the reference)
+- `--surface`: `#0A0A0A` (panels)
+- `--surface-raised`: `#111111` (cards inside panels)
+- `--border`: `#222222` (hairline, 1px everywhere)
+- `--border-strong`: `#3A3A3A`
+- `--text`: `#F2F2F2` (primary)
+- `--text-muted`: `#9E9E9E`
+- `--text-faint`: `#5E5E5E`
+- `--accent`: `#FFFFFF` (the one accent: pure white, solid fill only).
+  Used for: the primary CTA fill (white button, black text), firing neurons
+  and cascade strokes at full brightness, the solid word in the hollow
+  headline line. Everything else lives below it in gray.
+- `--accent-hover`: `#E6E6E6`
+- `--accent-on`: `#000000` (text on accent fill)
 
-Data-encoding colors (product surfaces only, not the marketing hero). These
-are not the brand accent; they encode a real polarity in the product and are
-exempt from the one-accent rule for that reason only. Muted on purpose:
+Data-encoding colors (product surfaces only, never the marketing hero).
+These encode a real polarity in the product and are exempt from the
+monochrome rule for that reason only. Muted on purpose:
 - `--beneficiary`: `#4E9B6F` / tint at 12% fill / border at 32%
 - `--at-risk`: `#C1595A` / tint at 10% fill / border at 32%
 
@@ -96,39 +96,45 @@ supporting copy, CTA). Nothing re-triggers.
 
 ## Effects
 
-One signature effect, revised again 2026-07-03 at Russ's direction: the
-abstract flat field was not enough; the image should be the brain itself,
-three dimensional, registering the aha moment. **The cortex.**
+One signature effect, final form set 2026-07-03 against Russ's reference
+image (a white wireframe brain on black, side profile, brainstem visible).
+**The wireframe cortex.**
 
-The hero carries a procedurally generated brain: a point cloud sampled on
-the surface of two wrinkled hemisphere ellipsoids with a longitudinal
-fissure between them, a flattened base, and a cerebellum mass at the lower
-rear. No mesh asset, no 3D library: the cloud is rotated and perspective
-projected in plain canvas 2D. It turns slowly on its vertical axis and
-answers the cursor with a slight parallax tilt, which is what sells the
-three dimensionality.
+The hero carries a procedurally generated brain rendered as a wireframe
+mesh: white edges always visible, the way an anatomical wire model reads.
+Geometry is sampled on the surface of two wrinkled hemisphere ellipsoids
+with a longitudinal fissure, a flattened base, a striated cerebellum at the
+lower rear, and a brainstem descending beneath it. Each point links to its
+nearest surface neighbors and those edges ARE the drawing: faint white
+lines, denser where the surface folds. No mesh asset, no 3D library: plain
+canvas 2D with rotation and perspective projection. The brain sits near
+side profile and oscillates gently around it, answering the cursor with a
+slight parallax tilt.
 
 Its life:
-1. At rest the brain is a calm, dim structure. Depth cues come from per
-   point size and alpha only (nearer points larger and brighter).
-2. Local cascades course across the cortex continuously: a neuron fires
-   (full `--accent`, size ticks up, decays over a second), igniting up to 3
-   surface neighbors per generation (about 110ms per beat), lime strokes
-   jumping along each connection and fading.
+1. At rest it is a dim white wire structure. Depth cues come from per point
+   and per edge alpha and size only.
+2. Local cascades course across the mesh continuously: a neuron fires
+   (bright white, size ticks up, decays over a second), igniting up to 3
+   surface neighbors per generation (about 110ms per beat), the traversed
+   edges flashing brighter than the resting wireframe and fading back.
 3. Every 8 to 11 seconds, the aha: one deep cascade plus a spherical
    wavefront that sweeps the entire structure from the origin point,
    briefly lifting every neuron it passes. The whole brain registers the
    thought, then settles.
 4. Cursor movement (or touch) excites the nearest neuron into a small
-   cascade, rate limited so deliberate mousing plays the instrument without
-   strobing.
+   cascade, rate limited.
+5. Behind the brain, a sparse particulate drift: a few dozen very faint
+   white motes moving slowly and wrapping at the edges. This is the
+   "motion behind it": deep background, barely there, never competing.
 
 Rendering rules: flat strokes and fills only. No shadowBlur, no gradients,
 no bloom; brightness is alpha. The brain sits in the open ground of the
 composition (upper right on desktop, upper center on mobile), never behind
 the headline. Canvas pauses when the tab is hidden; under
-prefers-reduced-motion it renders one static rotated brain with a completed
-cascade instead of animating.
+prefers-reduced-motion it renders one static wireframe with a completed
+cascade instead of animating. The first frame paints synchronously before
+any animation frame is requested.
 
 A second, quieter display treatment belongs to the brand: the hollow
 headline line. One line of the hero headline renders as stroke-only type
