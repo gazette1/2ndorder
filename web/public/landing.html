@@ -3,26 +3,24 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Corollary. State a scenario. See what follows.</title>
+<title>Corollary. Every scenario. Everything that follows.</title>
 <meta name="description" content="Corollary maps the first, second, and third order consequences of any scenario for small and mid-cap equities, each claim linked to the exact filing sentence it came from." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
   :root {
-    --bg: #0B0D10;
-    --surface: #14171B;
-    --surface-raised: #191D22;
-    --border: #262B31;
-    --border-strong: #363D46;
-    --text: #EDEFF2;
-    --text-muted: #9AA1AB;
-    --text-faint: #5C636D;
-    --accent: #D9A441;
-    --accent-hover: #E5B85E;
-    --accent-on: #0B0D10;
-    --beneficiary: #4E9B6F;
-    --at-risk: #C1595A;
+    --bg: #061417;
+    --surface: #0B2226;
+    --surface-raised: #0F2A2F;
+    --border: #16363B;
+    --border-strong: #235057;
+    --text: #ECF3E8;
+    --text-muted: #93A9A0;
+    --text-faint: #56716B;
+    --accent: #C6F24E;
+    --accent-hover: #D4F96F;
+    --accent-on: #061417;
     --settle: cubic-bezier(0.16, 1, 0.3, 1);
   }
   * { box-sizing: border-box; }
@@ -34,59 +32,99 @@
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
-  @media (max-width: 640px) { .wrap { padding: 0 20px; } }
+  .wrap { max-width: 1380px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 48px); }
 
-  /* the field: full-bleed hero stage with the ambient canvas behind the copy */
-  .stage { position: relative; min-height: 92vh; display: flex; flex-direction: column; }
+  /* stage: full-viewport hero with the synapse field behind everything */
+  .stage { position: relative; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden; }
   #field { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-  .stage > .wrap { position: relative; z-index: 1; width: 100%; }
+  .stage .wrap { position: relative; z-index: 1; width: 100%; }
 
-  nav.top {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 28px 0;
-  }
+  nav.top { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; }
   .wordmark {
     font-family: "Newsreader", serif; font-style: italic; font-weight: 500;
-    font-size: 19px; letter-spacing: 0.01em; color: var(--text);
-    text-decoration: none;
+    font-size: 21px; color: var(--text); text-decoration: none;
   }
+  .nav-right { display: flex; align-items: center; gap: 20px; }
+  .nav-link {
+    font-size: 14px; font-weight: 500; color: var(--text-muted); text-decoration: none;
+    transition: color 120ms linear;
+  }
+  .nav-link:hover { color: var(--text); }
+
   .btn {
-    display: inline-flex; align-items: center; justify-content: center;
-    height: 44px; padding: 0 20px; border-radius: 3px;
+    display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+    height: 46px; padding: 0 22px; border-radius: 999px;
     font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 15px;
     text-decoration: none; cursor: pointer; border: 1px solid transparent;
     transition: background-color 120ms linear, border-color 120ms linear;
   }
-  .btn-primary { background: var(--accent); color: var(--accent-on); }
+  .btn-primary { background: var(--accent); color: var(--accent-on); padding-right: 8px; }
   .btn-primary:hover { background: var(--accent-hover); }
-  .btn-ghost { background: rgba(11, 13, 16, 0.55); color: var(--text); border-color: var(--border-strong); }
+  .btn-primary .arrow-cup {
+    width: 32px; height: 32px; border-radius: 999px; background: var(--bg);
+    display: inline-flex; align-items: center; justify-content: center; color: var(--accent);
+  }
+  .btn-primary .arrow-cup svg { transition: transform 120ms linear; }
+  .btn-primary:hover .arrow-cup svg { transform: translateX(2px); }
+  .btn-ghost { background: rgba(6, 20, 23, 0.5); color: var(--text); border-color: var(--border-strong); }
   .btn-ghost:hover { border-color: var(--accent); }
 
-  .hero { padding-top: 10vh; padding-bottom: 96px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
-  .hero-copy { max-width: 720px; }
-  .kicker {
-    font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.04em;
-    color: var(--text-faint); margin: 0 0 20px;
+  /* bottom-anchored hero */
+  .hero {
+    flex: 1; display: flex; flex-direction: column; justify-content: flex-end;
+    padding-bottom: clamp(28px, 5vh, 64px); padding-top: 96px;
+  }
+  .hero-row {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    gap: clamp(24px, 4vw, 80px); flex-wrap: wrap;
+  }
+  .hero-left { min-width: 0; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 10px;
+    border: 1px solid var(--border-strong); border-radius: 999px;
+    padding: 6px 14px 6px 6px; margin-bottom: 28px;
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.1em;
+    color: var(--text-muted); text-transform: uppercase;
+    background: rgba(6, 20, 23, 0.5);
+  }
+  .pill .tag {
+    background: var(--accent); color: var(--accent-on); border-radius: 999px;
+    padding: 3px 10px; font-weight: 500;
   }
   h1 {
     font-family: "Newsreader", serif; font-weight: 400; font-optical-sizing: auto;
-    font-size: clamp(38px, 6vw, 72px); line-height: 1.08; letter-spacing: -0.01em;
-    margin: 0 0 24px; max-width: 15ch; color: var(--text);
+    font-size: clamp(52px, 8.5vw, 118px); line-height: 0.98; letter-spacing: -0.02em;
+    margin: 0; color: var(--text);
   }
-  h1 em { font-style: italic; color: var(--accent); }
-  .subhead {
-    font-size: 19px; line-height: 1.55; color: var(--text-muted);
-    max-width: 52ch; margin: 0 0 40px;
+  h1 .hollow {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(236, 243, 232, 0.9);
   }
-  .cta-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  h1 .spark { color: var(--accent); font-style: italic; }
+
+  .hero-right {
+    max-width: 380px; display: flex; flex-direction: column; gap: 28px;
+    padding-bottom: 8px; margin-left: auto;
+  }
+  .hero-right p { margin: 0; font-size: 16px; line-height: 1.6; color: var(--text-muted); }
+  .hero-right p .definition { color: var(--text); }
+  .cta-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+
+  /* staged load reveal */
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .reveal { opacity: 0; transform: translateY(20px); animation: fadeUp 800ms var(--settle) forwards; }
+  .d1 { animation-delay: 100ms; } .d2 { animation-delay: 200ms; } .d3 { animation-delay: 300ms; }
+  .d4 { animation-delay: 400ms; } .d5 { animation-delay: 500ms; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { animation: none; opacity: 1; transform: none; }
+  }
 
   /* explainer */
-  .steps { padding: 64px 0 96px; border-top: 1px solid var(--border); }
+  .steps { padding: 72px 0 96px; border-top: 1px solid var(--border); }
   .step { display: flex; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--border); }
   .step:last-child { border-bottom: none; }
   .step-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); width: 32px; flex-shrink: 0; padding-top: 3px; }
-  .step-title { font-family: "Newsreader", serif; font-size: 21px; margin: 0 0 6px; color: var(--text); }
+  .step-title { font-family: "Newsreader", serif; font-size: 21px; font-weight: 400; margin: 0 0 6px; color: var(--text); }
   .step-body { font-size: 15px; color: var(--text-muted); max-width: 62ch; margin: 0; }
 
   footer { border-top: 1px solid var(--border); padding: 32px 0 48px; }
@@ -100,19 +138,35 @@
 <div class="stage">
   <canvas id="field" aria-hidden="true"></canvas>
   <div class="wrap">
-    <nav class="top">
+    <nav class="top reveal d1">
       <a class="wordmark" href="/">Corollary</a>
-      <a class="btn btn-ghost" href="/app">Sign in</a>
+      <div class="nav-right">
+        <a class="nav-link" href="#how">How it reads</a>
+        <a class="btn btn-ghost" href="/app" style="height: 40px; font-size: 14px;">Sign in</a>
+      </div>
     </nav>
   </div>
   <div class="wrap hero">
-    <div class="hero-copy" id="heroCopy">
-      <p class="kicker">SEC filings, read once, cited exactly</p>
-      <h1>State a scenario.<br />See what <em>follows</em>.</h1>
-      <p class="subhead">Corollary maps the first, second, and third order consequences of any scenario: the companies that benefit and the ones that do not, each claim linked to the exact sentence in the filing it came from.</p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="/app">Sign in</a>
-        <a class="btn btn-ghost" href="#how">See how it reads</a>
+    <div class="hero-row">
+      <div class="hero-left" id="heroLeft">
+        <div class="pill reveal d2"><span class="tag">Research preview</span><span>Built on SEC EDGAR</span></div>
+        <h1>
+          <span class="reveal d3" style="display:block;">Every scenario.</span>
+          <span class="reveal d4 hollow" style="display:block;">Everything that <span class="spark" style="-webkit-text-stroke:0; ">follows</span>.</span>
+        </h1>
+      </div>
+      <div class="hero-right" id="heroRight">
+        <p class="reveal d4"><span class="definition">A corollary is what follows, directly and naturally, from something already established.</span> Corollary maps them for small and mid-cap equities: the beneficiaries, the casualties, and the connections between them, every claim tied to the filing sentence it came from.</p>
+        <div class="cta-row reveal d5">
+          <a class="btn btn-primary" href="/app">Sign in
+            <span class="arrow-cup">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 7h9M8 3.5 11.5 7 8 10.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </a>
+          <a class="btn btn-ghost" href="#how">How it reads</a>
+        </div>
       </div>
     </div>
   </div>
@@ -153,32 +207,29 @@
 
 <script>
 (function () {
-  // The field: an ambient machine that maps consequence paths through a
-  // constellation of companies. Behavior spec lives in design.md, Effects.
+  // The synapse field: dots and neurons connecting, feeling over logic.
+  // Behavior spec lives in design.md, Effects.
   var canvas = document.getElementById("field");
   var ctx = canvas.getContext("2d");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  var GOLD = "217, 164, 65";
-  var FAINT = "154, 161, 171";
-  var GREEN = "78, 155, 111";
-  var RED = "193, 89, 90";
+  var LIME = "198, 242, 78";
+  var FAINT = "147, 169, 160";
 
   var W = 0, H = 0, DPR = 1;
-  var nodes = [];       // {x, y}
-  var neighbors = [];   // per node: array of node indices within reach
-  var residues = [];    // {segs: [{ax,ay,bx,by}], tx, ty, polarity, born}
-  var tracers = [];
-  var copyRect = null;
+  var neurons = [];    // {x, y, fire: lastFireTime, cool: cooldownUntil}
+  var neighbors = [];
+  var strokes = [];    // {ax, ay, bx, by, born}
+  var copyRects = [];
+
+  var STROKE_LIFE = 1500;
+  var FIRE_LIFE = 1000;
+  var GEN_DELAY = 110;
 
   function inCopy(x, y, pad) {
-    if (!copyRect) return false;
-    return x > copyRect.left - pad && x < copyRect.right + pad &&
-           y > copyRect.top - pad && y < copyRect.bottom + pad;
-  }
-  function segTouchesCopy(ax, ay, bx, by) {
-    for (var t = 0.25; t < 1; t += 0.25) {
-      if (inCopy(ax + (bx - ax) * t, ay + (by - ay) * t, 8)) return true;
+    for (var i = 0; i < copyRects.length; i++) {
+      var r = copyRects[i];
+      if (x > r.left - pad && x < r.right + pad && y > r.top - pad && y < r.bottom + pad) return true;
     }
     return false;
   }
@@ -189,212 +240,179 @@
     canvas.width = W * DPR; canvas.height = H * DPR;
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-    var el = document.getElementById("heroCopy");
     var stage = canvas.getBoundingClientRect();
-    if (el) {
+    copyRects = [];
+    ["heroLeft", "heroRight"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el) return;
       var r = el.getBoundingClientRect();
-      copyRect = { left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top };
-    }
+      copyRects.push({ left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top });
+    });
 
-    nodes = [];
-    var target = Math.floor((W * H) / 11000);
+    neurons = [];
+    var target = Math.floor((W * H) / 6500);
     var guard = 0;
-    while (nodes.length < target && guard < target * 30) {
+    while (neurons.length < target && guard < target * 30) {
       guard++;
       var x = Math.random() * W, y = Math.random() * H;
-      if (inCopy(x, y, 24) && Math.random() < 0.92) continue;
+      if (inCopy(x, y, 14) && Math.random() < 0.85) continue;
       var ok = true;
-      for (var i = 0; i < nodes.length; i++) {
-        var dx = nodes[i].x - x, dy = nodes[i].y - y;
-        if (dx * dx + dy * dy < 42 * 42) { ok = false; break; }
+      for (var i = 0; i < neurons.length; i++) {
+        var dx = neurons[i].x - x, dy = neurons[i].y - y;
+        if (dx * dx + dy * dy < 26 * 26) { ok = false; break; }
       }
-      if (ok) nodes.push({ x: x, y: y });
+      if (ok) neurons.push({ x: x, y: y, fire: -1e9, cool: 0 });
     }
 
-    var reach = 190;
-    neighbors = nodes.map(function (n, i) {
+    var reach = 115;
+    neighbors = neurons.map(function (n, i) {
       var list = [];
-      for (var j = 0; j < nodes.length; j++) {
+      for (var j = 0; j < neurons.length; j++) {
         if (j === i) continue;
-        var dx = nodes[j].x - n.x, dy = nodes[j].y - n.y;
+        var dx = neurons[j].x - n.x, dy = neurons[j].y - n.y;
         var d2 = dx * dx + dy * dy;
-        if (d2 > 60 * 60 && d2 < reach * reach && !segTouchesCopy(n.x, n.y, nodes[j].x, nodes[j].y)) list.push(j);
+        if (d2 < reach * reach) list.push(j);
       }
       return list;
     });
   }
 
-  function makeTracer(delay) {
-    return {
-      state: "idle", until: performance.now() + delay,
-      at: -1, visited: [], segs: [], ghosts: [], target: -1,
-      hops: 0, maxHops: 3 + Math.floor(Math.random() * 3), progress: 0
-    };
+  // A burst: fire a neuron now, schedule neighbors a generation later.
+  var queue = []; // {idx, at, gen, maxGen, fromIdx}
+  function burst(idx, maxGen, now) {
+    queue.push({ idx: idx, at: now, gen: 0, maxGen: maxGen, fromIdx: -1 });
   }
 
-  function pickStart() {
-    for (var tries = 0; tries < 40; tries++) {
-      var i = Math.floor(Math.random() * nodes.length);
-      if (neighbors[i] && neighbors[i].length >= 2) return i;
-    }
-    return -1;
-  }
-
-  function step(tr, now, dt) {
-    if (tr.state === "idle") {
-      if (now < tr.until) return;
-      tr.at = pickStart();
-      if (tr.at === -1) { tr.until = now + 1000; return; }
-      tr.visited = [tr.at]; tr.segs = []; tr.hops = 0;
-      tr.maxHops = 3 + Math.floor(Math.random() * 3);
-      tr.state = "preview"; tr.until = now + 420 + Math.random() * 200;
-      var cands = neighbors[tr.at].filter(function (j) { return tr.visited.indexOf(j) === -1; });
-      cands.sort(function () { return Math.random() - 0.5; });
-      tr.ghosts = cands.slice(0, 2 + Math.floor(Math.random() * 2));
-      return;
-    }
-    if (tr.state === "preview") {
-      if (now < tr.until) return;
-      if (!tr.ghosts.length) { finish(tr, now); return; }
-      tr.target = tr.ghosts[Math.floor(Math.random() * tr.ghosts.length)];
-      tr.state = "draw"; tr.progress = 0;
-      return;
-    }
-    if (tr.state === "draw") {
-      tr.progress += dt / 520;
-      if (tr.progress >= 1) {
-        tr.segs.push({ a: tr.at, b: tr.target });
-        tr.at = tr.target; tr.visited.push(tr.at); tr.hops++;
-        if (tr.hops >= tr.maxHops) { finish(tr, now); return; }
-        var cands = neighbors[tr.at].filter(function (j) { return tr.visited.indexOf(j) === -1; });
-        if (!cands.length) { finish(tr, now); return; }
+  function processQueue(now) {
+    for (var q = queue.length - 1; q >= 0; q--) {
+      var ev = queue[q];
+      if (now < ev.at) continue;
+      queue.splice(q, 1);
+      var n = neurons[ev.idx];
+      if (!n || now < n.cool) continue;
+      n.fire = now;
+      n.cool = now + 700;
+      if (ev.fromIdx >= 0) {
+        var from = neurons[ev.fromIdx];
+        strokes.push({ ax: from.x, ay: from.y, bx: n.x, by: n.y, born: now });
+      }
+      if (ev.gen < ev.maxGen) {
+        var cands = neighbors[ev.idx].filter(function (j) { return now >= neurons[j].cool; });
         cands.sort(function () { return Math.random() - 0.5; });
-        tr.ghosts = cands.slice(0, 2 + Math.floor(Math.random() * 2));
-        tr.state = "preview"; tr.until = now + 380 + Math.random() * 220;
+        var take = Math.min(cands.length, ev.gen === 0 ? 3 : (Math.random() < 0.65 ? 2 : 1));
+        for (var k = 0; k < take; k++) {
+          queue.push({ idx: cands[k], at: now + GEN_DELAY + Math.random() * 60, gen: ev.gen + 1, maxGen: ev.maxGen, fromIdx: ev.idx });
+        }
       }
     }
   }
 
-  function finish(tr, now) {
-    if (tr.segs.length) {
-      var end = nodes[tr.at];
-      residues.push({
-        segs: tr.segs.map(function (s) { return { ax: nodes[s.a].x, ay: nodes[s.a].y, bx: nodes[s.b].x, by: nodes[s.b].y }; }),
-        tx: end.x, ty: end.y,
-        polarity: Math.random() < 0.6 ? GREEN : RED,
-        born: now
-      });
-    }
-    var idle = 900 + Math.random() * 1800;
-    tr.state = "idle"; tr.until = now + idle; tr.segs = []; tr.ghosts = [];
-  }
-
-  function line(ax, ay, bx, by, rgb, alpha, width, dashed) {
-    ctx.strokeStyle = "rgba(" + rgb + ", " + alpha + ")";
-    ctx.lineWidth = width;
-    ctx.setLineDash(dashed ? [3, 5] : []);
-    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
-    ctx.setLineDash([]);
-  }
   function dot(x, y, rgb, alpha, size) {
     ctx.fillStyle = "rgba(" + rgb + ", " + alpha + ")";
     ctx.fillRect(x - size / 2, y - size / 2, size, size);
   }
 
-  var RESIDUE_LIFE = 7000;
-
   function render(now) {
     ctx.clearRect(0, 0, W, H);
 
-    for (var i = 0; i < nodes.length; i++) dot(nodes[i].x, nodes[i].y, FAINT, 0.26, 2);
-
-    for (var r = residues.length - 1; r >= 0; r--) {
-      var res = residues[r];
-      var age = (now - res.born) / RESIDUE_LIFE;
-      if (age >= 1) { residues.splice(r, 1); continue; }
-      var a = 0.4 * (1 - age);
-      res.segs.forEach(function (s) { line(s.ax, s.ay, s.bx, s.by, GOLD, a, 1); });
-      if (age < 0.35) dot(res.tx, res.ty, res.polarity, 0.85 * (1 - age / 0.35), 5);
+    for (var s = strokes.length - 1; s >= 0; s--) {
+      var st = strokes[s];
+      var age = (now - st.born) / STROKE_LIFE;
+      if (age >= 1) { strokes.splice(s, 1); continue; }
+      ctx.strokeStyle = "rgba(" + LIME + ", " + (0.55 * (1 - age)) + ")";
+      ctx.lineWidth = 1.1;
+      ctx.beginPath(); ctx.moveTo(st.ax, st.ay); ctx.lineTo(st.bx, st.by); ctx.stroke();
     }
 
-    tracers.forEach(function (tr) {
-      tr.segs.forEach(function (s) {
-        line(nodes[s.a].x, nodes[s.a].y, nodes[s.b].x, nodes[s.b].y, GOLD, 0.55, 1.25);
-      });
-      if (tr.state === "preview" && tr.at >= 0) {
-        var from = nodes[tr.at];
-        tr.ghosts.forEach(function (g) {
-          line(from.x, from.y, nodes[g].x, nodes[g].y, FAINT, 0.3, 1, true);
-        });
+    for (var i = 0; i < neurons.length; i++) {
+      var n = neurons[i];
+      var f = (now - n.fire) / FIRE_LIFE;
+      if (f < 1) {
+        var heat = 1 - f;
+        dot(n.x, n.y, LIME, 0.25 + 0.7 * heat, 2 + 2.6 * heat);
+      } else {
+        dot(n.x, n.y, FAINT, 0.22, 2);
       }
-      if (tr.state === "draw" && tr.at >= 0 && tr.target >= 0) {
-        var a2 = nodes[tr.at], b2 = nodes[tr.target];
-        var t = 1 - Math.pow(1 - Math.min(tr.progress, 1), 3);
-        var hx = a2.x + (b2.x - a2.x) * t, hy = a2.y + (b2.y - a2.y) * t;
-        line(a2.x, a2.y, hx, hy, GOLD, 0.9, 1.25);
-        dot(hx, hy, GOLD, 0.95, 3.5);
-      }
-      if (tr.at >= 0 && tr.state !== "idle") dot(nodes[tr.at].x, nodes[tr.at].y, GOLD, 0.8, 3.5);
-    });
+    }
   }
 
-  var last = 0, running = true;
+  var nextSmall = 0, nextBlast = 0;
+  function schedule(now) {
+    if (now >= nextSmall) {
+      var i = Math.floor(Math.random() * neurons.length);
+      burst(i, 2 + (Math.random() < 0.4 ? 1 : 0), now);
+      nextSmall = now + 700 + Math.random() * 900;
+    }
+    if (now >= nextBlast) {
+      burst(Math.floor(Math.random() * neurons.length), 5, now);
+      nextBlast = now + 7000 + Math.random() * 3000;
+    }
+  }
+
+  var running = true;
   function loop(now) {
     if (!running) return;
-    var dt = Math.min(now - last, 50); last = now;
-    tracers.forEach(function (tr) { step(tr, now, dt); });
+    schedule(now);
+    processQueue(now);
     render(now);
     requestAnimationFrame(loop);
   }
 
-  function staticComposition() {
-    // reduced motion: a few completed paths, no animation
+  // cursor and touch excite the nearest neuron
+  var lastExcite = 0;
+  function excite(cx, cy) {
     var now = performance.now();
-    for (var k = 0; k < 3; k++) {
-      var tr = makeTracer(0); tr.state = "idle"; tr.until = 0;
-      var at = pickStart();
-      if (at === -1) continue;
-      var visited = [at], segs = [];
-      for (var h = 0; h < 4; h++) {
-        var cands = (neighbors[at] || []).filter(function (j) { return visited.indexOf(j) === -1; });
-        if (!cands.length) break;
-        var nx = cands[Math.floor(Math.random() * cands.length)];
-        segs.push({ a: at, b: nx }); at = nx; visited.push(at);
-      }
-      if (segs.length) {
-        residues.push({
-          segs: segs.map(function (s) { return { ax: nodes[s.a].x, ay: nodes[s.a].y, bx: nodes[s.b].x, by: nodes[s.b].y }; }),
-          tx: nodes[at].x, ty: nodes[at].y,
-          polarity: k % 2 ? RED : GREEN, born: now
-        });
-      }
+    if (now - lastExcite < 90) return;
+    lastExcite = now;
+    var best = -1, bestD = 140 * 140;
+    for (var i = 0; i < neurons.length; i++) {
+      var dx = neurons[i].x - cx, dy = neurons[i].y - cy;
+      var d2 = dx * dx + dy * dy;
+      if (d2 < bestD) { bestD = d2; best = i; }
     }
-    render(now + 500);
+    if (best >= 0 && now >= neurons[best].cool) burst(best, 1 + (Math.random() < 0.35 ? 1 : 0), now);
+  }
+  canvas.parentElement.addEventListener("mousemove", function (e) {
+    var r = canvas.getBoundingClientRect();
+    excite(e.clientX - r.left, e.clientY - r.top);
+  });
+  canvas.parentElement.addEventListener("touchstart", function (e) {
+    if (!e.touches.length) return;
+    var r = canvas.getBoundingClientRect();
+    excite(e.touches[0].clientX - r.left, e.touches[0].clientY - r.top);
+  }, { passive: true });
+
+  function staticComposition() {
+    var now = performance.now();
+    // simulate one blast synchronously for a still frame
+    burst(Math.floor(Math.random() * neurons.length), 5, now - 400);
+    for (var t = 0; t < 1200; t += 40) processQueue(now - 400 + t);
+    render(now);
   }
 
   function start() {
     build();
+    strokes = []; queue = [];
     if (reduced) { staticComposition(); return; }
-    var count = W < 700 ? 2 : 3;
-    tracers = [];
-    for (var i = 0; i < count; i++) tracers.push(makeTracer(400 + i * 1400));
-    last = performance.now();
+    nextSmall = 0; nextBlast = performance.now() + 1200;
     requestAnimationFrame(loop);
   }
 
   document.addEventListener("visibilitychange", function () {
     if (reduced) return;
     if (document.hidden) { running = false; }
-    else { running = true; last = performance.now(); requestAnimationFrame(loop); }
+    else { running = true; requestAnimationFrame(loop); }
   });
 
   var resizeT;
   window.addEventListener("resize", function () {
     clearTimeout(resizeT);
-    resizeT = setTimeout(function () { residues = []; start(); }, 200);
+    resizeT = setTimeout(start, 200);
   });
 
-  start();
+  // build after fonts/layout settle so copy rects are accurate
+  window.addEventListener("load", start);
+  if (document.readyState === "complete") start();
 })();
 </script>
 

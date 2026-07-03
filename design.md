@@ -35,27 +35,32 @@ visible: a scenario, and what follows from it, drawn in front of you.
 
 ## Color
 
-Ink, not charcoal. Cooler and darker than a generic "dark mode" gray.
+Repalette decided 2026-07-03 at Russ's direction (full change away from the
+original ink-and-gold). The register is bioelectric: a deep petrol dark, near
+the color of a lights-off lab, with one living signal color. Nothing else
+competes with the signal.
 
-- `--bg`: `#0B0D10` (page)
-- `--surface`: `#14171B` (panels, the diagram canvas)
-- `--surface-raised`: `#191D22` (cards inside panels)
-- `--border`: `#262B31` (hairline, 1px everywhere)
-- `--border-strong`: `#363D46`
-- `--text`: `#EDEFF2` (primary; never pure white on this background)
-- `--text-muted`: `#9AA1AB`
-- `--text-faint`: `#5C636D`
-- `--accent`: `#D9A441` (the one accent, solid fill only, never gradient).
-  Warm gold, reads as highlighter ink on a filing, the mark of a sourced
-  claim. Used for: the primary CTA fill, link underlines, the citation glyph,
-  one hairline rule per section. Never for large fills or backgrounds.
-- `--accent-on`: `#0B0D10` (text on accent fill)
+- `--bg`: `#061417` (page, deep petrol)
+- `--surface`: `#0B2226` (panels)
+- `--surface-raised`: `#0F2A2F` (cards inside panels)
+- `--border`: `#16363B` (hairline, 1px everywhere)
+- `--border-strong`: `#235057`
+- `--text`: `#ECF3E8` (primary; warm pale, never pure white)
+- `--text-muted`: `#93A9A0`
+- `--text-faint`: `#56716B`
+- `--accent`: `#C6F24E` (the one accent, solid fill only, never gradient).
+  Bioelectric lime: the color of a synapse firing, the moment a connection is
+  made. Used for: the primary CTA fill, the firing neurons and cascade strokes
+  in the hero field, one emphasized word in the headline, link underlines.
+  Never for large fills or backgrounds.
+- `--accent-hover`: `#D4F96F`
+- `--accent-on`: `#061417` (text on accent fill)
 
-Data-encoding colors. These are not the brand accent; they encode a real
-polarity in the product and are exempt from the one-accent rule for that
-reason only. Muted on purpose, never traffic-light saturated:
-- `--beneficiary`: `#4E9B6F` / tint `#4E9B6F1A` (12% fill) / border `#4E9B6F52`
-- `--at-risk`: `#C1595A` / tint `#C1595A1A` / border `#C1595A52`
+Data-encoding colors (product surfaces only, not the marketing hero). These
+are not the brand accent; they encode a real polarity in the product and are
+exempt from the one-accent rule for that reason only. Muted on purpose:
+- `--beneficiary`: `#4E9B6F` / tint at 12% fill / border at 32%
+- `--at-risk`: `#C1595A` / tint at 10% fill / border at 32%
 
 ## Spacing
 
@@ -78,40 +83,51 @@ animates without a state change (page load counts as one state change,
 scroll-into-view counts as one, hover and focus count, nothing else does).
 
 One deliberate exception, decided 2026-07-03: the landing hero carries an
-ambient field (see Effects) that runs continuously. It is the only looping
-motion in the brand, it exists only on the marketing hero, and it must stay
-calm: slow cadence, low alpha, flat color, no flashing. It pauses when the
+ambient field (see Effects) that runs continuously and responds to the
+cursor. It is the only looping and only cursor-reactive motion in the brand,
+it exists only on the marketing hero, and it must stay calm: staggered
+cadence, alpha-based brightness, flat color, no strobing. It pauses when the
 tab is hidden and renders a static composition under prefers-reduced-motion.
+
+Load choreography (marketing pages): content reveals once, on load, as a
+staged sequence: each block fades up 20px with `settle` over 800ms, staggered
+in 80 to 120ms increments in reading order (nav, kicker, headline lines,
+supporting copy, CTA). Nothing re-triggers.
 
 ## Effects
 
-One signature effect, chosen because it performs the product's mechanic
-rather than decorating the page: **the field.**
+One signature effect, revised 2026-07-03 at Russ's direction. The first
+version traced paths deliberately, hop by hop; it explained. The brief now is
+feeling over logic: the moment of connection itself, a brain lighting up,
+dots and neurons connecting everywhere at once. **The synapse field.**
 
-The hero background is a full-bleed canvas: a sparse constellation of faint
-mono-style points (the universe of companies, abstract, never labeled with
-real or fake tickers). Through it, an unseen machine continuously traces
-consequence paths. The behavior, not the styling, is what carries the
-"omnipresent, thinks ahead" identity, so the behavior is specified exactly:
+The hero background is a full-bleed canvas: a dense field of faint neuron
+points (the universe of companies, abstract, never labeled). Through it,
+bursts of connection propagate:
 
-1. A tracer wakes at a node. Before moving, it previews 2 or 3 candidate
-   next hops as faint dashed ghost segments (about 450ms). This is the
-   "thinking ahead" beat and it is the soul of the effect.
-2. It commits to one: the ghost solidifies into a thin gold stroke
-   (`--accent`, 1.25px) drawn along its length in about 500ms with `settle`.
-   The abandoned ghosts fade.
-3. It hops 3 to 5 nodes this way, then the terminal node ticks once in a
-   polarity color (beneficiary green or at-risk red, flat fill, no glow)
-   and the whole traced path becomes residue: it stays visible and decays
-   to nothing over about 7 seconds.
-4. Two or three tracers run concurrently, staggered, waking in different
-   regions of the field. The machine is everywhere at once, always mapping.
+1. A neuron fires: it brightens to full `--accent` and its size ticks up
+   briefly, then decays back to faint over about a second. Flat fill, no
+   glow, the brightness IS the alpha.
+2. Firing propagates: each firing neuron ignites up to 3 nearby neighbors a
+   beat later (about 110ms per generation), drawing a thin lime stroke along
+   each connection as it jumps. Strokes fade over about 1.5 seconds.
+3. Small bursts (2 or 3 generations deep) happen continuously across the
+   field, staggered, so somewhere is always lighting up. Every 7 to 10
+   seconds one large burst runs 5 generations deep: the brain-blast beat.
+4. The field is aware of the visitor: cursor movement (or touch) excites the
+   nearest neuron into a small burst, rate-limited per neuron so deliberate
+   mousing paints cascades without strobing.
 
 Rendering rules: flat strokes and fills only. No shadowBlur, no gradients,
-no bloom, no particles beyond the node points themselves. Node points avoid
-the headline's bounding region so the copy sits on near-empty ink. Canvas
-pauses when the tab is hidden; under prefers-reduced-motion it renders one
-static composition of completed paths instead of animating.
+no bloom. Neuron spawning avoids the headline's bounding region so the copy
+sits on near-empty ground. Canvas pauses when the tab is hidden; under
+prefers-reduced-motion it renders one static composition of a completed
+burst instead of animating.
+
+A second, quieter display treatment belongs to the brand: the hollow
+headline line. One line of the hero headline renders as stroke-only type
+(1.5px text stroke in `--text` at 90%, transparent fill). It reads as the
+consequence not yet filled in. Use at 60px and above only.
 
 No other motion effect is used on this page. No parallax, no scroll-jacking,
 no blur, no glow, no gradient mesh.
