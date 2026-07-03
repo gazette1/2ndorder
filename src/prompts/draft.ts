@@ -10,11 +10,17 @@ function money(n: number): string {
 function dossierFacts(d: Dossier | undefined): string {
   if (!d) return 'No dossier available.';
   const c = d.customers;
+  const cov = d.coverage;
   const awards = c.govAwards.slice(0, 3).map((a) => `${a.agency} ${money(a.amountUSD)} (${a.awardId})`).join('; ');
+  const actions = cov.ratingActions
+    .slice(0, 3)
+    .map((a) => `${a.firm} ${a.action} to ${a.toGrade}${a.priceTargetUSD ? ` PT $${a.priceTargetUSD}` : ''} (${a.date})`)
+    .join('; ');
   return [
     `Insider (SEC Form 4, ${d.insider.window}): net open-market ${money(d.insider.netBuyUSD)} across ${d.insider.buyCount} buys and ${d.insider.sellCount} sales by ${d.insider.distinctBuyers} insider(s).`,
     `Fundamentals (SEC XBRL, as of ${d.fundamentals.asOf ?? 'n/a'}): revenue ${d.fundamentals.revenueUSD === null ? 'not reported' : money(d.fundamentals.revenueUSD)}, cash ${d.fundamentals.cashUSD === null ? 'n/a' : money(d.fundamentals.cashUSD)}.`,
     `Customer graph: federal awards ${money(c.govAwardTotalUSD)}${awards ? ` (${awards})` : ''}; named customers ${c.namedCustomers.join(', ') || 'none in excerpts'}; ${c.reverseCiteCount} other filers name the company.`,
+    `Street view (sell-side aggregators, firm and grade only, reports paywalled): ${cov.analystCount ?? 'unknown'} analysts, consensus ${cov.consensusRating ?? 'n/a'}, mean target ${cov.priceTargetMeanUSD ? `$${cov.priceTargetMeanUSD}` : 'n/a'}${actions ? `; recent actions ${actions}` : ''}.`,
   ].join('\n');
 }
 
@@ -63,6 +69,8 @@ Which node of the adoption chain it occupies and the economic logic. 2 to 3 sent
 Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
 ## Insider and management signal
 Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
 ## Non-linear case
 The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
 ## Evidence

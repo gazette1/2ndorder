@@ -80,8 +80,39 @@
       "namedCustomers": [],
       "provenance": "usaspending"
     },
-    "estimates": {
-      "analystCount": null,
+    "coverage": {
+      "analystCount": 5,
+      "consensusRating": "Buy",
+      "priceTargetMeanUSD": 27,
+      "ratingActions": [
+        {
+          "firm": "Morgan Stanley",
+          "action": "initiate",
+          "fromGrade": null,
+          "toGrade": "Overweight",
+          "priceTargetUSD": 30,
+          "date": "2026-04-15",
+          "url": "https://www.google.com/search?q=Morgan%20Stanley%20USAR%20rating%20price%20target"
+        },
+        {
+          "firm": "JPMorgan",
+          "action": "initiate",
+          "fromGrade": null,
+          "toGrade": "Neutral",
+          "priceTargetUSD": 24,
+          "date": "2026-03-02",
+          "url": "https://www.google.com/search?q=JPMorgan%20USAR%20rating%20price%20target"
+        },
+        {
+          "firm": "Canaccord Genuity",
+          "action": "upgrade",
+          "fromGrade": "Hold",
+          "toGrade": "Buy",
+          "priceTargetUSD": 29,
+          "date": "2026-05-20",
+          "url": "https://www.google.com/search?q=Canaccord%20USAR%20rating%20price%20target"
+        }
+      ],
       "provenance": "stub"
     }
   },
@@ -265,8 +296,30 @@
       "namedCustomers": [],
       "provenance": "usaspending"
     },
-    "estimates": {
-      "analystCount": null,
+    "coverage": {
+      "analystCount": 4,
+      "consensusRating": "Hold",
+      "priceTargetMeanUSD": 31,
+      "ratingActions": [
+        {
+          "firm": "Sidoti",
+          "action": "downgrade",
+          "fromGrade": "Buy",
+          "toGrade": "Neutral",
+          "priceTargetUSD": 30,
+          "date": "2026-02-10",
+          "url": "https://www.google.com/search?q=Sidoti%20MATW%20rating%20price%20target"
+        },
+        {
+          "firm": "DA Davidson",
+          "action": "reiterate",
+          "fromGrade": "Neutral",
+          "toGrade": "Neutral",
+          "priceTargetUSD": 32,
+          "date": "2026-05-05",
+          "url": "https://www.google.com/search?q=DA%20Davidson%20MATW%20rating%20price%20target"
+        }
+      ],
       "provenance": "stub"
     }
   },
@@ -601,8 +654,30 @@
       "namedCustomers": [],
       "provenance": "usaspending"
     },
-    "estimates": {
-      "analystCount": null,
+    "coverage": {
+      "analystCount": 3,
+      "consensusRating": "Hold",
+      "priceTargetMeanUSD": 16,
+      "ratingActions": [
+        {
+          "firm": "Truist Securities",
+          "action": "downgrade",
+          "fromGrade": "Buy",
+          "toGrade": "Hold",
+          "priceTargetUSD": 15,
+          "date": "2026-04-28",
+          "url": "https://www.google.com/search?q=Truist%20KELYA%20rating%20price%20target"
+        },
+        {
+          "firm": "William Blair",
+          "action": "reiterate",
+          "fromGrade": "Market Perform",
+          "toGrade": "Market Perform",
+          "priceTargetUSD": null,
+          "date": "2026-05-08",
+          "url": "https://www.google.com/search?q=William%20Blair%20KELYA%20rating%20price%20target"
+        }
+      ],
       "provenance": "stub"
     }
   }

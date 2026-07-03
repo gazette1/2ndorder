@@ -15,6 +15,9 @@ The $236MM federal total (USASpending) is the trap this section exists to catch.
 ## Insider and management signal
 No officer or director open-market transactions in the last 12 months (Form 4), so there is no insider conviction signal either direction. Management has stated the exit from automation plainly [1] [4], which is the opposite of forward conviction on the theme.
 
+## Street view
+Coverage is limited and cooling: 4 analysts, consensus Hold, mean target $31 (sell-side aggregators, firm and grade only, reports paywalled). Sidoti moved off Buy to Neutral in February 2026. The muted Street view is consistent with a company that has just divested the segment that would have carried the theme.
+
 ## Non-linear case
 None supported by the evidence. The divestiture removes the segment through which humanoid adoption could have inflected results [10]. Any future theme exposure would require redeploying proceeds into automation-adjacent capacity, which the filings do not evidence.
 

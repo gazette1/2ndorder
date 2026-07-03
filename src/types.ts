@@ -80,7 +80,7 @@ export interface Read {
 
 // A source tag rides on every enriched block so the UI can mark filing-grade
 // data apart from rate-limited context. 'stub' means the seam is wired but no key.
-export type Provenance = 'sec_form4' | 'sec_xbrl' | 'usaspending' | 'sec_fts' | 'finnhub' | 'stub';
+export type Provenance = 'sec_form4' | 'sec_xbrl' | 'usaspending' | 'sec_fts' | 'finnhub' | 'fmp' | 'stub';
 
 export interface InsiderTx {
   insider: string;
@@ -137,8 +137,25 @@ export interface CustomerGraph {
   provenance: Provenance;
 }
 
-export interface Estimates {
+// A single sell-side action on the stock. The firm, grade, target, and date are
+// available free through aggregators. The underlying bank report is paywalled, so
+// url points to where the action was reported (an aggregator or a news search),
+// never to the bank PDF, which this tool cannot and does not claim to serve.
+export interface RatingAction {
+  firm: string; // e.g. Morgan Stanley
+  action: 'upgrade' | 'downgrade' | 'initiate' | 'reiterate' | 'target';
+  fromGrade: string | null;
+  toGrade: string; // e.g. Overweight, Buy, Hold
+  priceTargetUSD: number | null;
+  date: string;
+  url: string; // source of the reported action, not the bank report
+}
+
+export interface Coverage {
   analystCount: number | null; // under-coverage lens, not a rubric weight
+  consensusRating: string | null; // aggregated, e.g. Overweight
+  priceTargetMeanUSD: number | null;
+  ratingActions: RatingAction[]; // recent firm upgrades and downgrades with source links
   provenance: Provenance;
 }
 
@@ -148,7 +165,7 @@ export interface Dossier {
   insider: InsiderSummary;
   fundamentals: Fundamentals;
   customers: CustomerGraph;
-  estimates: Estimates;
+  coverage: Coverage;
 }
 
 export interface Thesis {

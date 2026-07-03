@@ -15,6 +15,9 @@ The $558MM federal total (USASpending) is Department of Health and Human Service
 ## Insider and management signal
 Net insider activity is slightly negative, a net $688M sale across 7 buys and 6 sales by three insiders (Form 4). The detail that cuts the other way: the President and CEO made an open-market purchase of 10,000 shares at $8.76 in March 2026, while the net was pulled negative by an EVP disposing of 29,999 shares. A CEO buying while a non-executive sells is a mixed signal worth watching, not a conviction call.
 
+## Street view
+Coverage is thin, 3 analysts, consensus Hold, mean target $16 (sell-side aggregators, firm and grade only, reports paywalled). Truist downgraded to Hold in April 2026. Thin coverage on a large-revenue staffing name reflects a mature business the Street sees little growth in, which is the backdrop against which the disruption thesis would play out.
+
 ## Non-linear case
 Not applicable on the long side. On the disrupted side, the non-linear risk is that per-hour billing has no floor under substitution: if humanoid labor becomes cheaper per task-hour, the affected billable base reprices toward it. Whether that base is 10 percent or 60 percent of revenue is not answerable from the excerpts and is the first question for a follow-up read.
 

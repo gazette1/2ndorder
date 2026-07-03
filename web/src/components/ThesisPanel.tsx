@@ -58,7 +58,7 @@ export function ThesisPanel({ thesis, read, dossier, weights, composite, onClose
         </button>
       </div>
 
-      {dossier && <DossierPanel dossier={dossier} />}
+      {dossier && <DossierPanel dossier={dossier} read={read} />}
 
       <div className="thesis-body">
         {blocks.map((block, bi) => {

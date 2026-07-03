@@ -32,6 +32,12 @@ export function fmtUSD(v: number | null): string {
   return `${sign}$${abs.toLocaleString('en-US')}`;
 }
 
+// Price targets render as plain whole dollars, like $27. Null renders blank.
+export function fmtPriceTarget(v: number | null): string {
+  if (v === null) return '';
+  return '$' + Math.round(v).toLocaleString('en-US');
+}
+
 export function fmtBand(band: [number, number]): string {
   return `Float band $${band[0].toLocaleString('en-US')}MM to $${band[1].toLocaleString('en-US')}MM`;
 }

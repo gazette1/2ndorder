@@ -1,10 +1,19 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { fullTextSearch, fundamentals, insiderSummary } from '../lib/edgar.js';
-import { analystCoverage } from '../lib/estimates.js';
+import { coverage } from '../lib/coverage.js';
 import { cleanName, emptyCustomerGraph, govAwards } from '../lib/usaspending.js';
 import { load, save } from '../lib/store.js';
 import { CONFIG } from '../config.js';
 import { selectReadTargets } from './targets.js';
-import type { Candidate, Dossier, ReverseCite } from '../types.js';
+import type { Candidate, Coverage, Dossier, ReverseCite } from '../types.js';
+
+// Coverage needs a key. When none is set, load an authored fixture so the feature
+// is demonstrable, and leave its provenance as stub so the UI marks it not live.
+function coverageFixture(slug: string, ticker: string): Coverage | null {
+  const p = path.resolve('fixtures', slug, `coverage-${ticker}.json`);
+  return fs.existsSync(p) ? (JSON.parse(fs.readFileSync(p, 'utf8')) as Coverage) : null;
+}
 
 // Who else names this company in their filings. A distinct filer naming the
 // company is weak evidence of a real commercial relationship (customer, supplier,
@@ -36,13 +45,15 @@ export async function enrich(slug: string): Promise<Dossier[]> {
 
   const dossiers: Dossier[] = [];
   for (const c of targets) {
-    const [insider, funds, awards, cites, estimates] = await Promise.all([
+    const [insider, funds, awards, cites, live] = await Promise.all([
       insiderSummary(c.cik),
       fundamentals(c.cik),
       govAwards(c.name).catch(() => ({ awards: [], totalUSD: 0 })),
       reverseCites(c.cik, c.name),
-      analystCoverage(c.ticker),
+      coverage(c.ticker).catch(() => ({ analystCount: null, consensusRating: null, priceTargetMeanUSD: null, ratingActions: [], provenance: 'stub' as const })),
     ]);
+    // Fall back to an authored coverage fixture when the live source is stubbed.
+    const cov = live.provenance === 'stub' ? coverageFixture(slug, c.ticker) ?? live : live;
 
     const customers = emptyCustomerGraph();
     customers.govAwards = awards.awards;
@@ -50,11 +61,11 @@ export async function enrich(slug: string): Promise<Dossier[]> {
     customers.reverseCites = cites;
     customers.reverseCiteCount = cites.length;
 
-    dossiers.push({ ticker: c.ticker, cik: c.cik, insider, fundamentals: funds, customers, estimates });
+    dossiers.push({ ticker: c.ticker, cik: c.cik, insider, fundamentals: funds, customers, coverage: cov });
     console.log(
       `[enrich] ${c.ticker}: insider net $${insider.netBuyUSD.toLocaleString()} (${insider.buyCount}B/${insider.sellCount}S), ` +
         `gov $${awards.totalUSD.toLocaleString()} over ${awards.awards.length} awards, ${cites.length} reverse-cites, ` +
-        `est ${estimates.analystCount ?? 'stub'}`,
+        `coverage ${cov.analystCount ?? 'stub'}${cov.ratingActions.length ? ` (${cov.ratingActions.length} actions)` : ''}`,
     );
   }
 

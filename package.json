@@ -6,11 +6,10 @@
   "description": "Idea-generation engine: seed thesis to ranked under-covered small-cap beneficiaries with auditable thesis drafts.",
   "scripts": {
     "stage": "tsx src/run.ts",
-    "dry-run": "tsx src/run.ts all"
+    "dry-run": "tsx src/run.ts all",
+    "serve": "tsx server/api.ts"
   },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^24.0.0",
     "tsx": "^4.19.0",

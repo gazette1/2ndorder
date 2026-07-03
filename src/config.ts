@@ -12,7 +12,18 @@ export const CONFIG = {
   topKReads: 3,
   // SEC asks for a descriptive User-Agent with a contact address.
   userAgent: 'AdoptionChain/0.1 research russellharrisrei@gmail.com',
-  model: 'claude-fable-5',
+
+  // Reasoning model. Default is fixture mode so the pipeline runs with no setup.
+  // Cheap local or hosted open models replace a frontier model here: the task is
+  // bounded (structured scoring from pre-extracted evidence, templated drafting).
+  //   ollama:  pull a model first, e.g. `ollama pull gemma2:27b`, then LLM_PROVIDER=ollama.
+  //   openai:  LLM_PROVIDER=openai, OPENAI_BASE_URL, OPENAI_API_KEY (DeepSeek, Groq, etc).
+  llm: {
+    provider: process.env.LLM_PROVIDER ?? 'fixture', // 'fixture' | 'ollama' | 'openai'
+    model: process.env.LLM_MODEL ?? 'gemma2:27b',
+    ollamaHost: process.env.OLLAMA_HOST ?? 'http://localhost:11434',
+    openaiBaseURL: process.env.OPENAI_BASE_URL ?? 'https://api.deepseek.com/v1',
+  },
 
   // Enrichment (src/pipeline/enrich.ts), applied to the read set.
   enrich: {

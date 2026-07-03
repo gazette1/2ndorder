@@ -1,4 +1,4 @@
-import { fable } from '../lib/fable.js';
+import { llm } from '../lib/llm.js';
 import { load, save, saveText } from '../lib/store.js';
 import { draftPrompt } from '../prompts/draft.js';
 import rubric from '../rubric.json' with { type: 'json' };
@@ -17,7 +17,7 @@ export async function draftTheses(slug: string): Promise<Thesis[]> {
     const c = candidates.find((x) => x.ticker === read.ticker)!;
     const node = decomp.nodes.find((n) => n.id === c.nodeId)!;
     const dossier = dossiers.find((d) => d.ticker === read.ticker);
-    const markdown = await fable(
+    const markdown = await llm(
       slug,
       `thesis-${read.ticker}`,
       draftPrompt({

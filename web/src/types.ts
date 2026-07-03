@@ -47,6 +47,7 @@ export type Provenance =
   | 'usaspending'
   | 'sec_fts'
   | 'finnhub'
+  | 'fmp'
   | 'stub';
 
 export interface InsiderTx {
@@ -104,8 +105,23 @@ export interface CustomerGraph {
   provenance: Provenance;
 }
 
-export interface Estimates {
+export type RatingActionKind = 'upgrade' | 'downgrade' | 'initiate' | 'reiterate' | 'target';
+
+export interface RatingAction {
+  firm: string;
+  action: RatingActionKind;
+  fromGrade: string | null;
+  toGrade: string;
+  priceTargetUSD: number | null;
+  date: string;
+  url: string;
+}
+
+export interface Coverage {
   analystCount: number | null;
+  consensusRating: string | null;
+  priceTargetMeanUSD: number | null;
+  ratingActions: RatingAction[];
   provenance: Provenance;
 }
 
@@ -115,7 +131,7 @@ export interface Dossier {
   insider: InsiderSummary;
   fundamentals: Fundamentals;
   customers: CustomerGraph;
-  estimates: Estimates;
+  coverage: Coverage;
 }
 
 export interface Read {

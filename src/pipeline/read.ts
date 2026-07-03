@@ -1,5 +1,5 @@
 import { docUrl, fetchDocText, submissions } from '../lib/edgar.js';
-import { fable } from '../lib/fable.js';
+import { llm } from '../lib/llm.js';
 import { load, save, saveText } from '../lib/store.js';
 import { readPrompt } from '../prompts/read.js';
 import { selectReadTargets } from './targets.js';
@@ -69,7 +69,7 @@ export async function readFilings(slug: string): Promise<Read[]> {
       dossier,
     });
     try {
-      const raw = await fable(slug, `read-${c.ticker}`, prompt, 'json');
+      const raw = await llm(slug, `read-${c.ticker}`, prompt, 'json');
       const parsed = JSON.parse(raw) as { exposure: Read['exposure']; subscores: ModelSubscores; namedCustomers?: string[] };
       reads.push({ ticker: c.ticker, cik: c.cik, eightKCount12m, quotes, exposure: parsed.exposure, subscores: parsed.subscores });
       // Named enterprise customers the model found in the filing feed the customer graph.

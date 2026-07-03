@@ -1,5 +1,5 @@
-import type { Dossier, Provenance } from '../types';
-import { fmtUSD, fmtDateShort } from '../format';
+import type { Dossier, Provenance, Read } from '../types';
+import { fmtUSD, fmtDateShort, fmtPriceTarget } from '../format';
 
 const PROVENANCE_LABELS: Record<Provenance, string> = {
   sec_form4: 'SEC Form 4',
@@ -7,7 +7,16 @@ const PROVENANCE_LABELS: Record<Provenance, string> = {
   usaspending: 'USASpending.gov',
   sec_fts: 'SEC full-text',
   finnhub: 'Finnhub',
+  fmp: 'FMP',
   stub: 'stub (no key)',
+};
+
+const ACTION_LABELS: Record<string, string> = {
+  upgrade: 'upgrade',
+  downgrade: 'downgrade',
+  initiate: 'initiate',
+  reiterate: 'reiterate',
+  target: 'target',
 };
 
 const TX_CAP = 8;
@@ -19,10 +28,18 @@ function SourceTag({ provenance }: { provenance: Provenance }) {
 
 interface Props {
   dossier: Dossier;
+  read?: Read | null;
 }
 
-export function DossierPanel({ dossier }: Props) {
-  const { fundamentals: f, insider, customers, estimates } = dossier;
+interface FilingLink {
+  key: string;
+  form: string;
+  filedAt: string;
+  url: string;
+}
+
+export function DossierPanel({ dossier, read }: Props) {
+  const { fundamentals: f, insider, customers, coverage } = dossier;
 
   const yoy =
     f.revenueUSD !== null && f.revenuePriorUSD !== null && f.revenuePriorUSD !== 0
@@ -42,19 +59,93 @@ export function DossierPanel({ dossier }: Props) {
     .sort((a, b) => b.amountUSD - a.amountUSD)
     .slice(0, 3);
 
+  // Distinct filing documents for this ticker, from the read quotes. Deduped by
+  // URL, most recent first. These are the primary source documents at SEC.
+  const filings: FilingLink[] = (() => {
+    const byUrl = new Map<string, FilingLink>();
+    for (const q of read?.quotes ?? []) {
+      if (!q.url || byUrl.has(q.url)) continue;
+      byUrl.set(q.url, { key: q.url, form: q.form, filedAt: q.filedAt, url: q.url });
+    }
+    return [...byUrl.values()].sort((a, b) => (a.filedAt < b.filedAt ? 1 : -1));
+  })();
+
   return (
     <section className="dossier">
       <div className="dossier-head">
         <span className="dossier-title mono">{dossier.ticker} dossier</span>
-        <span className="dossier-coverage">
-          analyst estimates:{' '}
-          {estimates.analystCount === null ? (
-            <span className="coverage-stub mono">not live</span>
-          ) : (
-            <span className="mono">{estimates.analystCount}</span>
-          )}{' '}
-          <SourceTag provenance={estimates.provenance} />
-        </span>
+      </div>
+
+      {/* Street view (analyst coverage) */}
+      <div className="dossier-block">
+        <div className="dossier-block-head">
+          <h4 className="dossier-block-title">Street view</h4>
+          <SourceTag provenance={coverage.provenance} />
+        </div>
+        <div className="street-stats">
+          <div className="street-stat">
+            <span className="street-stat-label">Analysts</span>
+            <span className="street-stat-value mono">
+              {coverage.analystCount === null ? 'not live' : coverage.analystCount}
+            </span>
+          </div>
+          <div className="street-stat">
+            <span className="street-stat-label">Consensus</span>
+            <span className="street-stat-value mono">
+              {coverage.consensusRating === null ? 'not live' : coverage.consensusRating}
+            </span>
+          </div>
+          <div className="street-stat">
+            <span className="street-stat-label">Mean target</span>
+            <span className="street-stat-value mono">
+              {coverage.priceTargetMeanUSD === null
+                ? 'not live'
+                : fmtPriceTarget(coverage.priceTargetMeanUSD)}
+            </span>
+          </div>
+        </div>
+        {coverage.ratingActions.length > 0 && (
+          <table className="rating-table">
+            <thead>
+              <tr>
+                <th>Firm</th>
+                <th>Action</th>
+                <th>Grade</th>
+                <th className="num">Target</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              {coverage.ratingActions.map((a, i) => {
+                const actionCls =
+                  a.action === 'upgrade'
+                    ? 'rating-action is-up'
+                    : a.action === 'downgrade'
+                      ? 'rating-action is-down'
+                      : 'rating-action';
+                return (
+                  <tr key={a.firm + a.date + i}>
+                    <td>
+                      <a href={a.url} target="_blank" rel="noreferrer">
+                        {a.firm}
+                      </a>
+                    </td>
+                    <td className={actionCls}>{ACTION_LABELS[a.action] ?? a.action}</td>
+                    <td className="mono">
+                      {a.fromGrade ? `${a.fromGrade} to ${a.toGrade}` : a.toGrade}
+                    </td>
+                    <td className="num mono">{fmtPriceTarget(a.priceTargetUSD)}</td>
+                    <td className="mono">{fmtDateShort(a.date)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        )}
+        <p className="street-caveat">
+          Firm and grade from sell-side aggregators. The bank reports are paywalled and not linked
+          here.
+        </p>
       </div>
 
       {/* Fundamentals */}
@@ -198,6 +289,28 @@ export function DossierPanel({ dossier }: Props) {
           )}
         </div>
       </div>
+
+      {/* SEC filings (primary source documents) */}
+      {filings.length > 0 && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">SEC filings</h4>
+            <span className="source-tag mono">SEC EDGAR</span>
+          </div>
+          <p className="filings-note">
+            Open or download the underlying filing documents cited for {dossier.ticker}.
+          </p>
+          <ul className="filings-list">
+            {filings.map((fl) => (
+              <li key={fl.key}>
+                <a href={fl.url} target="_blank" rel="noreferrer">
+                  {fl.form}, filed {fmtDateShort(fl.filedAt)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </section>
   );
 }

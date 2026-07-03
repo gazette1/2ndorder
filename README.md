@@ -8,7 +8,7 @@ Idea-generation engine for a small-cap growth team. Seed thesis in, ranked under
 npm install
 npm run stage -- decompose <slug> "<seed thesis>"
 npm run stage -- map <slug>       # EDGAR full-text search + float filter
-npm run stage -- enrich <slug>    # per-candidate dossier: Form 4 insider, XBRL, USASpending, reverse-citation
+npm run stage -- enrich <slug>    # dossier: Form 4 insider, XBRL, USASpending, reverse-citation, sell-side coverage
 npm run stage -- read <slug>      # pull filings, excerpt, score the four judged dimensions
 npm run stage -- score <slug>     # merge two deterministic dimensions, weighted composite
 npm run stage -- draft <slug>     # one-page thesis per name, bear case first
@@ -17,19 +17,26 @@ npm run stage -- publish <slug>   # write web/public/data/latest.json
 
 Or all stages: `npm run dry-run -- <slug> "<seed thesis>"`.
 
-Model calls use claude-fable-5 when ANTHROPIC_API_KEY is set. Without a key the pipeline reads authored fixtures from fixtures/<slug>/ and fails loudly when one is missing; every prompt is saved to data/runs/<slug>/prompts/ either way.
+## Reasoning model
 
-The `enrich` stage runs live with no key: SEC Form 4, SEC XBRL, USASpending, and reverse-citation are all free and complete. Set FINNHUB_API_KEY to make the analyst-estimate under-coverage lens live too; without it that one field is a labeled stub.
+Model calls route through one adapter (src/lib/llm.ts), selected by `LLM_PROVIDER`:
 
-## Front end
+- `fixture` (default): reads authored fixtures from fixtures/<slug>/, fails loudly when one is missing. The pipeline runs with no setup.
+- `ollama`: a local open model, free. Pull one first, for example `ollama pull gemma2:27b`, then set `LLM_PROVIDER=ollama` (and `LLM_MODEL` if not the default).
+- `openai`: any OpenAI-compatible endpoint (DeepSeek, Groq, Together). Set `LLM_PROVIDER=openai`, `OPENAI_BASE_URL`, `OPENAI_API_KEY`, `LLM_MODEL`.
+
+Every prompt is saved to data/runs/<slug>/prompts/ regardless of provider.
+
+The `enrich` stage runs live with no key: SEC Form 4, SEC XBRL, USASpending, and reverse-citation are all free and complete. Set FINNHUB_API_KEY to make sell-side coverage (analyst count, consensus, price target, firm rating actions) live; without it an authored fixture stands in, tagged as not live. The bank reports themselves are paywalled and are never served, only the firm, grade, target, and date, with a link to where the action was reported.
+
+## Web app
 
 ```
-cd web
-npm install
-npm run dev
+npm run serve            # API server on http://localhost:8787 (login, search, runs)
+cd web && npm run dev    # front end on http://localhost:5173, proxies /api to the server
 ```
 
-Single page: the adoption chain, the ranked candidate table, thesis drafts with clickable citations, and a rubric panel whose weight sliders re-rank candidates client-side.
+Sign in (mock session, any email), then search a thesis, theme, or company. A cached run returns instantly; a novel query runs the pipeline when a model is wired, or reports needs_model in fixture mode. The dossier shows fundamentals, the Form 4 insider table, the customer graph, and the sell-side coverage block, with direct links to the underlying SEC filings. The front end falls back to the static published payload if the API is not running.
 
 ## Store
 

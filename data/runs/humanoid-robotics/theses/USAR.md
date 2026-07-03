@@ -15,6 +15,9 @@ Customer proof today is one Department of Defense contract worth $99M (USASpendi
 ## Insider and management signal
 Net insider activity is negative, a $31.1MM sale versus $2.2MM of buying (Form 4), which reads as post-transaction distribution rather than conviction. The offsetting detail: the most recent director action was an open-market purchase of 100,000 shares at $21.44 in January 2026, above the $15.75 August sale price. Management commitment shows up instead in the funding agreement obligations rather than in narrative [2] [5].
 
+## Street view
+Coverage is thin, which fits an under-covered small-cap: 5 analysts, consensus Buy, mean target $27 (sell-side aggregators, firm and grade only, reports paywalled). Morgan Stanley initiated Overweight at a $30 target in April 2026 and Canaccord Genuity moved to Buy, against a JPMorgan Neutral. The spread of views on a name this small is the kind of setup the engine is built to surface before the Street crowds in.
+
 ## Non-linear case
 The company is adding magnet capacity that does not exist in its current revenue base, backed by a federal Direct Funding Agreement [15] [8]. Disbursement milestones require minimum cumulative magnet purchase commitments, so contract wins are observable in filings as they happen [5] [6]. If humanoid deployment begins inside 2027 to 2030, it arrives as incremental demand on top of the defense and EV demand the funding already presumes, against capacity committed today [2] [19]. Success is a multiple of the current business because the current business is $1.6MM of revenue.
 
