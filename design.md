@@ -56,6 +56,15 @@ like an X-ray of thought.
 - `--accent-hover`: `#E6E6E6`
 - `--accent-on`: `#000000` (text on accent fill)
 
+The one deliberate source of color, decided 2026-07-03: the hero background
+is a provided brain-tractography video (owner-generated, so no licensing
+exposure) whose tracts run teal and gold. It is the single colored element
+on an otherwise monochrome page, treated as imagery, not as an accent color:
+the chrome, type, and buttons stay black and white around it. A flat uniform
+black tint sits over the video for copy legibility (a flat scrim, not a
+gradient). If the asset is ever swapped, keep this rule: at most one colored
+focal image, everything else monochrome.
+
 Data-encoding colors (product surfaces only, never the marketing hero).
 These encode a real polarity in the product and are exempt from the
 monochrome rule for that reason only. Muted on purpose:
@@ -96,45 +105,33 @@ supporting copy, CTA). Nothing re-triggers.
 
 ## Effects
 
-One signature effect, final form set 2026-07-03 against Russ's reference
-image (a white wireframe brain on black, side profile, brainstem visible).
-**The wireframe cortex.**
+One signature effect, final form 2026-07-03: **the brain video.** After
+iterating three procedural versions (deliberate path tracer, synapse field,
+tract flow), Russ generated the exact look he wanted with AI: a DTI
+tractography brain, teal and gold fibers flowing and firing on near-black,
+side profile with the cerebellum arbor vitae at lower left. Since he owns the
+asset, the honest and best move is to use it directly rather than approximate
+it in code.
 
-The hero carries a procedurally generated brain rendered as a wireframe
-mesh: white edges always visible, the way an anatomical wire model reads.
-Geometry is sampled on the surface of two wrinkled hemisphere ellipsoids
-with a longitudinal fissure, a flattened base, a striated cerebellum at the
-lower rear, and a brainstem descending beneath it. Each point links to its
-nearest surface neighbors and those edges ARE the drawing: faint white
-lines, denser where the surface folds. No mesh asset, no 3D library: plain
-canvas 2D with rotation and perspective projection. The brain sits near
-side profile and oscillates gently around it, answering the cursor with a
-slight parallax tilt.
+Implementation: the hero is a full-bleed looping background video
+(web/public/media/cortex.mp4), object-fit cover, autoplay muted playsinline,
+positioned so the brain fills the upper and middle field. The bottom-anchored
+copy sits over it. A flat uniform black tint (34 percent) over the video keeps
+white type legible without a gradient. The headline and supporting copy carry
+a tight dark text-shadow for the same reason. Below the hero, the page returns
+to pure black for the content sections.
 
-Its life:
-1. At rest it is a dim white wire structure. Depth cues come from per point
-   and per edge alpha and size only.
-2. Local cascades course across the mesh continuously: a neuron fires
-   (bright white, size ticks up, decays over a second), igniting up to 3
-   surface neighbors per generation (about 110ms per beat), the traversed
-   edges flashing brighter than the resting wireframe and fading back.
-3. Every 8 to 11 seconds, the aha: one deep cascade plus a spherical
-   wavefront that sweeps the entire structure from the origin point,
-   briefly lifting every neuron it passes. The whole brain registers the
-   thought, then settles.
-4. Cursor movement (or touch) excites the nearest neuron into a small
-   cascade, rate limited.
-5. Behind the brain, a sparse particulate drift: a few dozen very faint
-   white motes moving slowly and wrapping at the edges. This is the
-   "motion behind it": deep background, barely there, never competing.
+Legibility is the only real constraint with a bright video hero: the headline
+is solid white (the hollow stroke treatment is reserved for plain-black
+surfaces, it does not survive over a busy video), and the definition paragraph
+runs brighter than the standard muted gray. If the asset is swapped later,
+preserve the flat-tint plus text-shadow legibility treatment and keep the copy
+over the calmer regions of the frame.
 
-Rendering rules: flat strokes and fills only. No shadowBlur, no gradients,
-no bloom; brightness is alpha. The brain sits in the open ground of the
-composition (upper right on desktop, upper center on mobile), never behind
-the headline. Canvas pauses when the tab is hidden; under
-prefers-reduced-motion it renders one static wireframe with a completed
-cascade instead of animating. The first frame paints synchronously before
-any animation frame is requested.
+The earlier procedural engines are retired from the hero but their spec is
+kept in git history; if a code-generated fallback is ever wanted (for a
+surface where a 2.3MB video is too heavy), the tract-flow version is the one
+to revive.
 
 A second, quieter display treatment belongs to the brand: the hollow
 headline line. One line of the hero headline renders as stroke-only type

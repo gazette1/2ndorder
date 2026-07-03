@@ -34,9 +34,16 @@
   }
   .wrap { max-width: 1380px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 48px); }
 
-  /* stage: full-viewport hero with the synapse field behind everything */
-  .stage { position: relative; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden; }
-  #field { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  /* stage: full-viewport hero with the brain video behind everything */
+  .stage { position: relative; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden; background: #000; }
+  .video-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+  .video-bg video {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; object-position: 50% 34%;
+  }
+  /* flat uniform tint (not a gradient) knocks the video brightness back so
+     white copy stays legible over it; the video color still reads through */
+  .video-bg::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.34); }
   .stage .wrap { position: relative; z-index: 1; width: 100%; }
 
   nav.top { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; }
@@ -94,20 +101,19 @@
   h1 {
     font-family: "Newsreader", serif; font-weight: 400; font-optical-sizing: auto;
     font-size: clamp(52px, 8.5vw, 118px); line-height: 0.98; letter-spacing: -0.02em;
-    margin: 0; color: var(--text);
+    margin: 0; color: var(--text); text-shadow: 0 2px 34px rgba(0, 0, 0, 0.6);
   }
-  h1 .hollow {
-    color: transparent;
-    -webkit-text-stroke: 1.5px rgba(242, 242, 242, 0.9);
-  }
-  h1 .spark { color: var(--accent); font-style: italic; }
+  h1 .spark { font-style: italic; }
 
   .hero-right {
     max-width: 380px; display: flex; flex-direction: column; gap: 28px;
     padding-bottom: 8px; margin-left: auto;
   }
-  .hero-right p { margin: 0; font-size: 16px; line-height: 1.6; color: var(--text-muted); }
-  .hero-right p .definition { color: var(--text); }
+  .hero-right p {
+    margin: 0; font-size: 16px; line-height: 1.6; color: #DCE0E4;
+    text-shadow: 0 1px 18px rgba(0, 0, 0, 0.85);
+  }
+  .hero-right p .definition { color: #FFFFFF; font-weight: 500; }
   .cta-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 
   /* staged load reveal */
@@ -136,7 +142,11 @@
 <body>
 
 <div class="stage">
-  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="video-bg" aria-hidden="true">
+    <video autoplay loop muted playsinline>
+      <source src="/media/cortex.mp4" type="video/mp4" />
+    </video>
+  </div>
   <div class="wrap">
     <nav class="top reveal d1">
       <a class="wordmark" href="/">Corollary</a>
@@ -152,7 +162,7 @@
         <div class="pill reveal d2"><span class="tag">Research preview</span><span>Built on SEC EDGAR</span></div>
         <h1>
           <span class="reveal d3" style="display:block;">Every scenario.</span>
-          <span class="reveal d4 hollow" style="display:block;">Everything that <span class="spark" style="-webkit-text-stroke:0; ">follows</span>.</span>
+          <span class="reveal d4" style="display:block;">Everything that <span class="spark">follows</span>.</span>
         </h1>
       </div>
       <div class="hero-right" id="heroRight">
@@ -205,343 +215,6 @@
   </footer>
 </div>
 
-<script>
-(function () {
-  // The cortex: a procedurally generated 3D brain point cloud, rotated and
-  // perspective projected on canvas 2D. Local cascades course across its
-  // surface; every 8 to 11 seconds an aha wavefront sweeps the whole
-  // structure. Behavior spec lives in design.md, Effects.
-  var canvas = document.getElementById("field");
-  var ctx = canvas.getContext("2d");
-  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  var WHITE = "255, 255, 255";
-  var FAINT = "170, 170, 170";
-
-  var W = 0, H = 0, DPR = 1;
-  var pts = [];        // model space [x,y,z], plus fire/cool timestamps
-  var neighbors = [];
-  var edges = [];      // deduped [a, b] pairs: the wireframe itself
-  var strokes = [];    // {a, b, born} indices into pts
-  var proj = [];       // projected {x, y, s, depth} per point per frame
-  var order = [];      // draw order back to front
-  var center = { x: 0, y: 0 }, R = 100;
-  var dust = [];       // background motes drifting behind the brain
-
-  var STROKE_LIFE = 1400;
-  var FIRE_LIFE = 1000;
-  var GEN_DELAY = 110;
-
-  // ---- brain geometry ----
-  function cortexPoint() {
-    var th = Math.random() * Math.PI * 2;
-    var ph = Math.acos(2 * Math.random() - 1);
-    var dx = Math.sin(ph) * Math.cos(th), dy = Math.cos(ph), dz = Math.sin(ph) * Math.sin(th);
-    // cortical wrinkle: layered sines on the radius
-    var w = 1 + 0.05 * Math.sin(6 * th + 2 * ph) * Math.sin(4 * ph + 1.7 * th) + 0.03 * Math.sin(11 * th) * Math.cos(7 * ph);
-    var x = dx * 0.78 * w, y = dy * 0.70 * w, z = dz * 1.0 * w;
-    // hemispheres: push outward from the midline, fissure gap on top
-    var sx = x >= 0 ? 1 : -1;
-    x = sx * (Math.abs(x) + 0.055);
-    if (Math.abs(x) < 0.1 && y > 0.05) return null;
-    // frontal lobe taper: slightly narrower toward the front top
-    if (z > 0.55) x *= 0.9;
-    // flattened underside
-    if (y < -0.5) y = -0.5 + (y + 0.5) * 0.35;
-    return [x, y, z];
-  }
-  function cerebellumPoint() {
-    var th = Math.random() * Math.PI * 2;
-    var ph = Math.acos(2 * Math.random() - 1);
-    var dx = Math.sin(ph) * Math.cos(th), dy = Math.cos(ph), dz = Math.sin(ph) * Math.sin(th);
-    // horizontal striation, the cerebellum's signature
-    var w = 1 + 0.09 * Math.sin(13 * ph);
-    return [dx * 0.40 * w, -0.36 + dy * 0.24 * w, -0.62 + dz * 0.30 * w];
-  }
-  function stemPoint() {
-    // the brainstem: a short tapering column descending below the cerebellum
-    var t = Math.random(); // 0 top, 1 bottom
-    var th = Math.random() * Math.PI * 2;
-    var r = 0.10 * (1 - t * 0.45);
-    return [
-      Math.cos(th) * r,
-      -0.50 - t * 0.42,
-      -0.18 - t * 0.20 + Math.sin(th) * r,
-    ];
-  }
-
-  function buildBrain() {
-    pts = [];
-    var total = W < 700 ? 560 : 840;
-    var guard = 0;
-    while (pts.length < total && guard < total * 40) {
-      guard++;
-      var roll = Math.random();
-      var p = roll < 0.78 ? cortexPoint() : roll < 0.93 ? cerebellumPoint() : stemPoint();
-      if (!p) continue;
-      pts.push({ p: p, fire: -1e9, cool: 0 });
-    }
-    // surface graph: 4 nearest neighbors in model space; the deduped edge
-    // set is the wireframe itself, drawn every frame
-    neighbors = pts.map(function (a, i) {
-      var ds = [];
-      for (var j = 0; j < pts.length; j++) {
-        if (j === i) continue;
-        var q = pts[j].p, o = a.p;
-        var d2 = (q[0] - o[0]) * (q[0] - o[0]) + (q[1] - o[1]) * (q[1] - o[1]) + (q[2] - o[2]) * (q[2] - o[2]);
-        ds.push([d2, j]);
-      }
-      ds.sort(function (u, v) { return u[0] - v[0]; });
-      return ds.slice(0, 4).map(function (d) { return d[1]; });
-    });
-    var seen = {};
-    edges = [];
-    neighbors.forEach(function (list, i) {
-      list.forEach(function (j) {
-        var key = i < j ? i + "_" + j : j + "_" + i;
-        if (!seen[key]) { seen[key] = 1; edges.push([i, j]); }
-      });
-    });
-    proj = pts.map(function () { return { x: 0, y: 0, s: 1, depth: 0 }; });
-    order = pts.map(function (_, i) { return i; });
-
-    // background drift: sparse, faint, wrapping motes
-    dust = [];
-    var motes = Math.floor((W * H) / 26000);
-    for (var m = 0; m < motes; m++) {
-      dust.push({
-        x: Math.random() * W, y: Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.014, vy: (Math.random() - 0.5) * 0.010,
-        a: 0.05 + Math.random() * 0.08, s: 1 + Math.random(),
-      });
-    }
-  }
-
-  function layout() {
-    DPR = Math.min(window.devicePixelRatio || 1, 2);
-    W = canvas.clientWidth; H = canvas.clientHeight;
-    canvas.width = W * DPR; canvas.height = H * DPR;
-    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    if (W >= 980) {
-      center.x = W * 0.66; center.y = H * 0.38;
-      R = Math.min(W * 0.21, H * 0.34);
-    } else {
-      center.x = W * 0.5; center.y = H * 0.30;
-      R = Math.min(W * 0.36, H * 0.26);
-    }
-  }
-
-  // ---- projection ----
-  var mouseTX = 0, mouseTY = 0, tiltX = 0, tiltY = 0;
-  function project(now) {
-    tiltX += (mouseTX - tiltX) * 0.04;
-    tiltY += (mouseTY - tiltY) * 0.04;
-    // near side profile like the reference, oscillating gently around it
-    var yaw = -Math.PI / 2 + 0.24 * Math.sin(now * 0.00011) + tiltX * 0.2;
-    var pitch = -0.12 + tiltY * 0.09;
-    var cy = Math.cos(yaw), sy = Math.sin(yaw);
-    var cp = Math.cos(pitch), sp = Math.sin(pitch);
-    var FOV = 3.1;
-    for (var i = 0; i < pts.length; i++) {
-      var p = pts[i].p;
-      // yaw about Y
-      var x1 = p[0] * cy + p[2] * sy;
-      var z1 = -p[0] * sy + p[2] * cy;
-      // pitch about X
-      var y2 = p[1] * cp - z1 * sp;
-      var z2 = p[1] * sp + z1 * cp;
-      var persp = FOV / (FOV - z2);
-      proj[i].x = center.x + x1 * R * persp;
-      proj[i].y = center.y - y2 * R * persp;
-      proj[i].s = persp;
-      proj[i].depth = z2; // higher = nearer
-    }
-    order.sort(function (a, b) { return proj[a].depth - proj[b].depth; });
-  }
-
-  // ---- firing ----
-  var queue = [];
-  var aha = null; // {origin: [x,y,z], at}
-  function burst(idx, maxGen, now) {
-    queue.push({ idx: idx, at: now, gen: 0, maxGen: maxGen, fromIdx: -1 });
-  }
-  function processQueue(now) {
-    for (var q = queue.length - 1; q >= 0; q--) {
-      var ev = queue[q];
-      if (now < ev.at) continue;
-      queue.splice(q, 1);
-      var n = pts[ev.idx];
-      if (!n || now < n.cool) continue;
-      n.fire = now;
-      n.cool = now + 650;
-      if (ev.fromIdx >= 0) strokes.push({ a: ev.fromIdx, b: ev.idx, born: now });
-      if (ev.gen < ev.maxGen) {
-        var cands = neighbors[ev.idx].filter(function (j) { return now >= pts[j].cool; });
-        cands.sort(function () { return Math.random() - 0.5; });
-        var take = Math.min(cands.length, ev.gen === 0 ? 3 : (Math.random() < 0.6 ? 2 : 1));
-        for (var k = 0; k < take; k++) {
-          queue.push({ idx: cands[k], at: now + GEN_DELAY + Math.random() * 60, gen: ev.gen + 1, maxGen: ev.maxGen, fromIdx: ev.idx });
-        }
-      }
-    }
-  }
-
-  var AHA_SPEED = 0.0011;  // model units per ms
-  var AHA_BAND = 0.16;
-  function ahaPulse(i, now) {
-    if (!aha) return 0;
-    var t = now - aha.at;
-    if (t > 2400) { aha = null; return 0; }
-    var p = pts[i].p, o = aha.origin;
-    var d = Math.sqrt((p[0] - o[0]) * (p[0] - o[0]) + (p[1] - o[1]) * (p[1] - o[1]) + (p[2] - o[2]) * (p[2] - o[2]));
-    var front = AHA_SPEED * t;
-    var gap = Math.abs(d - front);
-    if (gap > AHA_BAND) return 0;
-    return (1 - gap / AHA_BAND) * Math.max(0, 1 - t / 2400) * 0.7;
-  }
-
-  // ---- render ----
-  function render(now, dt) {
-    ctx.clearRect(0, 0, W, H);
-
-    // deep background: drifting motes behind the brain
-    for (var m = 0; m < dust.length; m++) {
-      var d = dust[m];
-      d.x += d.vx * dt; d.y += d.vy * dt;
-      if (d.x < -4) d.x = W + 4; if (d.x > W + 4) d.x = -4;
-      if (d.y < -4) d.y = H + 4; if (d.y > H + 4) d.y = -4;
-      ctx.fillStyle = "rgba(" + WHITE + ", " + d.a + ")";
-      ctx.fillRect(d.x, d.y, d.s, d.s);
-    }
-
-    // the wireframe itself: every edge, faint white, depth cued
-    for (var e = 0; e < edges.length; e++) {
-      var A0 = proj[edges[e][0]], B0 = proj[edges[e][1]];
-      var ed = ((A0.depth + B0.depth) / 2 + 1) / 2; // 0 far, 1 near
-      ctx.strokeStyle = "rgba(" + WHITE + ", " + (0.05 + ed * 0.10) + ")";
-      ctx.lineWidth = 0.7;
-      ctx.beginPath(); ctx.moveTo(A0.x, A0.y); ctx.lineTo(B0.x, B0.y); ctx.stroke();
-    }
-
-    // cascade strokes flash brighter than the resting wire and fade back
-    for (var s = strokes.length - 1; s >= 0; s--) {
-      var st = strokes[s];
-      var age = (now - st.born) / STROKE_LIFE;
-      if (age >= 1) { strokes.splice(s, 1); continue; }
-      var A = proj[st.a], B = proj[st.b];
-      ctx.strokeStyle = "rgba(" + WHITE + ", " + (0.85 * (1 - age)) + ")";
-      ctx.lineWidth = 1.3;
-      ctx.beginPath(); ctx.moveTo(A.x, A.y); ctx.lineTo(B.x, B.y); ctx.stroke();
-    }
-
-    for (var oi = 0; oi < order.length; oi++) {
-      var i = order[oi];
-      var pr = proj[i];
-      var depthCue = (pr.depth + 1) / 2; // 0 far, 1 near
-      var f = (now - pts[i].fire) / FIRE_LIFE;
-      var heat = f < 1 ? 1 - f : 0;
-      var pulse = ahaPulse(i, now);
-      var glowA = Math.min(0.95, 0.08 + depthCue * 0.14 + heat * 0.8 + pulse);
-      var size = (1.1 + depthCue * 0.8 + heat * 2.6 + pulse * 1.7) * pr.s;
-      var isHot = heat > 0.02 || pulse > 0.05;
-      ctx.fillStyle = "rgba(" + (isHot ? WHITE : FAINT) + ", " + glowA + ")";
-      ctx.fillRect(pr.x - size / 2, pr.y - size / 2, size, size);
-    }
-  }
-
-  var nextSmall = 0, nextAha = 0;
-  function schedule(now) {
-    if (now >= nextSmall && pts.length) {
-      burst(Math.floor(Math.random() * pts.length), 2 + (Math.random() < 0.35 ? 1 : 0), now);
-      nextSmall = now + 800 + Math.random() * 900;
-    }
-    if (now >= nextAha && pts.length) {
-      var idx = Math.floor(Math.random() * pts.length);
-      burst(idx, 6, now);
-      aha = { origin: pts[idx].p.slice(), at: now };
-      nextAha = now + 8000 + Math.random() * 3000;
-    }
-  }
-
-  var running = true, lastFrame = 0;
-  function loop(now) {
-    if (!running) return;
-    var dt = lastFrame ? Math.min(now - lastFrame, 50) : 16;
-    lastFrame = now;
-    schedule(now);
-    processQueue(now);
-    project(now);
-    render(now, dt);
-    requestAnimationFrame(loop);
-  }
-
-  // cursor: parallax tilt plus excitation of the nearest projected neuron
-  var lastExcite = 0;
-  function pointerMove(cx, cy) {
-    mouseTX = (cx / W) * 2 - 1;
-    mouseTY = (cy / H) * 2 - 1;
-    var now = performance.now();
-    if (now - lastExcite < 110) return;
-    var best = -1, bestD = 90 * 90;
-    for (var i = 0; i < pts.length; i++) {
-      var dx = proj[i].x - cx, dy = proj[i].y - cy;
-      var d2 = dx * dx + dy * dy;
-      if (d2 < bestD) { bestD = d2; best = i; }
-    }
-    if (best >= 0 && now >= pts[best].cool) {
-      lastExcite = now;
-      burst(best, 1 + (Math.random() < 0.3 ? 1 : 0), now);
-    }
-  }
-  canvas.parentElement.addEventListener("mousemove", function (e) {
-    var r = canvas.getBoundingClientRect();
-    pointerMove(e.clientX - r.left, e.clientY - r.top);
-  });
-  canvas.parentElement.addEventListener("touchstart", function (e) {
-    if (!e.touches.length) return;
-    var r = canvas.getBoundingClientRect();
-    pointerMove(e.touches[0].clientX - r.left, e.touches[0].clientY - r.top);
-  }, { passive: true });
-
-  function staticComposition() {
-    var now = performance.now();
-    var idx = Math.floor(Math.random() * pts.length);
-    burst(idx, 5, now - 500);
-    aha = { origin: pts[idx].p.slice(), at: now - 600 };
-    for (var t = 0; t < 1400; t += 40) processQueue(now - 500 + t);
-    project(now);
-    render(now, 16);
-  }
-
-  function start() {
-    layout();
-    buildBrain();
-    strokes = []; queue = []; aha = null;
-    if (reduced) { staticComposition(); return; }
-    nextSmall = 0; nextAha = performance.now() + 1600;
-    // paint one frame synchronously so the brain exists before the first rAF
-    // (hidden tabs and screenshot tools never fire rAF at all)
-    project(performance.now());
-    render(performance.now(), 16);
-    requestAnimationFrame(loop);
-  }
-
-  document.addEventListener("visibilitychange", function () {
-    if (reduced) return;
-    if (document.hidden) { running = false; }
-    else { running = true; requestAnimationFrame(loop); }
-  });
-
-  var resizeT;
-  window.addEventListener("resize", function () {
-    clearTimeout(resizeT);
-    resizeT = setTimeout(start, 200);
-  });
-
-  window.addEventListener("load", start);
-  if (document.readyState === "complete") start();
-})();
-</script>
 
 </body>
 </html>
