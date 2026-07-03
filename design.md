@@ -1,4 +1,4 @@
-# design.md — Corollary
+# design.md: Corollary
 
 Brand system for corollaryresearch.com and the Corollary application. This is
 the first design.md for this product; it governs the landing page and should
