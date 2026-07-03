@@ -1,0 +1,54 @@
+Draft a one-page thesis for Riot Platforms, Inc. (RIOT) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map position: Existing renewable generation assets in congested regions (order 2, at_risk, horizon mid). Mechanism: Insufficient transfer capacity between regions forces curtailment of existing wind/solar and reduces realized power prices. As new generation stalls in interconnection queues, the existing grid remains congested, leading to over-supply at times and negative pricing. Grid upgrades to relieve congestion are part of the supercycle but lag, so curtailment increases in the interim. This erodes revenue for owners of merchant renewable plants.
+Public float: $2100MM
+Composite score: 48/100
+Subscores:
+- optionality: 4/5 (weight 0.25). Excerpts show plans to develop data centers, a new business line beyond current Bitcoin mining. The data center lease at Rockdale Site indicates investment, though not yet operational.
+- revenueToOpportunity: 2/5 (weight 0.2). Current revenue from Bitcoin mining is $647M. The data center opportunity is not quantified in excerpts, so cannot assess relative size. Theme TAM is large but no comparison provided.
+- catalystDensity: 2/5 (weight 0.15). Filings mention projected delivery and energization timelines but no specific dates or milestones. The 8-K cadence is high but lacks concrete catalyst events.
+- managementConviction: 3/5 (weight 0.1). Management provides specific forward-looking statements about data center plans, lease contract value, NOI, and delivery timelines, indicating commitment. However, no quantified targets or named programs.
+- insiderConviction: 2/5 (weight 0.1). Form 4: net $0 over 0 buys and 0 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 1/5 (weight 0.2). Customer graph: gov awards $0, 0 named customer(s), 0 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-04-30, https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm) These forward-looking statements may include, but are not limited to: plans to develop data centers; the Company&#x2019;s data center lease at the Rockdale Site; total lease contract value over the term with and without exercising options and extension; net operating income (&#x201C;NOI&#x201D;) of the lease; projected delivery timeline of the site; forecasted demand for energy at the sites; construction plans; forecasted capital expenditures and descriptions thereof; projected energization timelines; and the Company&#x2019;s other plans, objectives, expectations, and intentions.
+[1] (8-K, filed 2026-04-30, https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm) This measure excludes the impact of capital expenditures, material financial obligations, general and administrative expenses and depreciation and amortization, all of which have real economic effects and could materially affect the Company&#x2019;s consolidated financial results.
+[2] (8-K, filed 2026-04-30, https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm) 3.Power curtailment credits are credited against our power invoices as a result of temporarily pausing our operations to participate in ERCOT&#x2019;s Demand Response Service Programs.
+[3] (8-K, filed 2026-04-30, https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm) These credits are recognized in Power Curtailment Credits on our Consolidated Statement of Operations, outside of cost of revenue.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $647.4MM, cash $233.5MM.
+Customer graph: federal awards $0; named customers none in excerpts; 0 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

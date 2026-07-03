@@ -2,8 +2,13 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONFIG } from '../src/config.js';
+import { checkAlerts } from '../src/pipeline/alerts.js';
+import { drill } from '../src/pipeline/decompose.js';
+import { mapTickers } from '../src/pipeline/map.js';
+import { buildMemo } from '../src/pipeline/memo.js';
+import { runAll, runCounter } from '../src/pipeline/orchestrate.js';
+import { overlay } from '../src/pipeline/overlay.js';
 import { buildPayload } from '../src/pipeline/payload.js';
-import { runAll } from '../src/pipeline/orchestrate.js';
 import { save } from '../src/lib/store.js';
 
 // Thin API for the web app. No framework, node:http only.
@@ -81,7 +86,11 @@ function authed(req: http.IncomingMessage): boolean {
   return (req.headers.authorization ?? '').startsWith('Bearer ');
 }
 
-const server = http.createServer(async (req, res) => {
+const server = http.createServer((req, res) => {
+  handle(req, res).catch((e) => send(res, 500, { error: String((e as Error).message ?? e) }));
+});
+
+async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   const url = new URL(req.url ?? '/', `http://localhost:${PORT}`);
   const { pathname } = url;
 
@@ -101,12 +110,72 @@ const server = http.createServer(async (req, res) => {
     return send(res, 200, { runs: listRuns() });
   }
 
-  if (req.method === 'GET' && pathname.startsWith('/api/runs/')) {
-    const id = pathname.slice('/api/runs/'.length);
-    const job = jobs.get(id);
-    if (job && job.status !== 'ready') return send(res, 200, { status: job.status, error: job.error });
+  // /api/runs/:id and /api/runs/:id/<action>
+  if (pathname.startsWith('/api/runs/')) {
+    const [id, action] = pathname.slice('/api/runs/'.length).split('/');
+
+    if (req.method === 'GET' && !action) {
+      const job = jobs.get(id);
+      if (job && job.status !== 'ready') return send(res, 200, { status: job.status, error: job.error });
+      if (!hasRun(id)) return send(res, 404, { error: 'no such run' });
+      return send(res, 200, { status: 'ready', payload: buildPayload(id) });
+    }
+
     if (!hasRun(id)) return send(res, 404, { error: 'no such run' });
-    return send(res, 200, { status: 'ready', payload: buildPayload(id) });
+
+    // The IC memo, rebuilt fresh on every request so it reflects the run's current state.
+    if (req.method === 'GET' && action === 'memo') {
+      const html = buildMemo(id);
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Access-Control-Allow-Origin': '*' });
+      return res.end(html);
+    }
+
+    // Cached alerts, or a live EDGAR re-check with ?refresh=1.
+    if (req.method === 'GET' && action === 'alerts') {
+      if (url.searchParams.get('refresh') === '1') {
+        return send(res, 200, await checkAlerts(id));
+      }
+      const p = path.join(RUNS_DIR, id, 'alerts.json');
+      if (!fs.existsSync(p)) return send(res, 404, { error: 'no alerts generated yet, call with refresh=1' });
+      return send(res, 200, JSON.parse(fs.readFileSync(p, 'utf8')));
+    }
+
+    // Drill one node a level deeper, then map the new children. Synchronous.
+    if (req.method === 'POST' && action === 'drill') {
+      const { nodeId } = await readBody(req);
+      if (!nodeId) return send(res, 400, { error: 'nodeId required' });
+      if (CONFIG.llm.provider === 'fixture') {
+        return send(res, 200, { status: 'needs_model', message: 'Drill needs a model provider (LLM_PROVIDER).' });
+      }
+      const children = await drill(id, nodeId);
+      await mapTickers(id, children.map((n) => n.id));
+      return send(res, 200, { status: 'ready', added: children.length });
+    }
+
+    // Counter-scenario: generate the disconfirming case and run it fully, async.
+    if (req.method === 'POST' && action === 'counter') {
+      if (CONFIG.llm.provider === 'fixture') {
+        return send(res, 200, { status: 'needs_model', message: 'Counter-scenario needs a model provider (LLM_PROVIDER).' });
+      }
+      const counterId = `${id}-counter`;
+      if (hasRun(counterId)) return send(res, 200, { runId: counterId, status: 'ready' });
+      jobs.set(counterId, { status: 'running' });
+      runCounter(id)
+        .then(() => jobs.set(counterId, { status: 'ready' }))
+        .catch((e) => jobs.set(counterId, { status: 'error', error: String(e?.message ?? e) }));
+      return send(res, 202, { runId: counterId, status: 'running' });
+    }
+
+    // 13F overlay: place a fund's holdings on the map. Synchronous.
+    if (req.method === 'POST' && action === 'overlay') {
+      const { fund } = await readBody(req);
+      if (!fund) return send(res, 400, { error: 'fund required' });
+      try {
+        return send(res, 200, await overlay(id, String(fund)));
+      } catch (e) {
+        return send(res, 422, { error: String((e as Error).message) });
+      }
+    }
   }
 
   if (req.method === 'POST' && pathname === '/api/search') {
@@ -137,7 +206,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   send(res, 404, { error: 'not found' });
-});
+}
 
 server.listen(PORT, () => {
   console.log(`[api] listening on http://localhost:${PORT} (provider=${CONFIG.llm.provider})`);

@@ -1,0 +1,51 @@
+Draft a one-page thesis for EnerSys (ENS) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map position: Regulated utilities with volumetric rate structures (order 3, at_risk, horizon long). Mechanism: Fixed grid costs are spread over fewer kWh, increasing per-unit charges and incentivizing further defection. When large industrial customers install DERs, they reduce their grid consumption, but the utility's fixed costs remain. Regulators may allow rate redesign, but transition periods are slow. In the interim, remaining customers face higher rates, which can create a negative feedback loop of further defections, threatening utility credit quality.
+Public float: $4153MM
+Composite score: 22/100
+Subscores:
+- optionality: 0/5 (weight 0.25). The excerpt describes existing energy storage offerings (demand charge reduction, utility back-up, EV charging) without indicating a new business segment tied to the grid capex supercycle theme. No evidence of investment or new applications.
+- revenueToOpportunity: 0/5 (weight 0.2). No revenue figures or TAM information in the excerpts. Cannot assess relative size.
+- catalystDensity: 0/5 (weight 0.15). Only one excerpt without any dated catalysts, design wins, capacity additions, or named customer programs.
+- managementConviction: 0/5 (weight 0.1). Management language is generic ('various applications') with no quantified targets, committed capex, or specific programs.
+- insiderConviction: 1/5 (weight 0.1). Form 4: net $-990,410 over 1 buys and 2 sales by 1 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $333,420,144, 0 named customer(s), 5 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-05-20, https://www.sec.gov/Archives/edgar/data/1289308/000162828026036903/ex992_dividendx4qfy26.htm) New Ventures provides energy storage and management systems for various applications including demand charge reduction, utility back-up power, and dynamic fast charging for electric vehicles.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-990M across 1 buys and 2 sales by 1 insider(s).
+Fundamentals (SEC XBRL, as of 2020-03-31): revenue $216.1MM, cash $438.7MM.
+Customer graph: federal awards $333.4MM (Department of Energy $198.7MM (DEMS0000119); Department of Defense $9.2MM (N0016408CGS07); Department of Defense $9.1MM (0009)); named customers none in excerpts; 5 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

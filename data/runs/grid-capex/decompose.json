@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "id": "regulated-utilities-rate-base",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Regulated electric utilities with T&D investment plans",
+      "mechanism": "Rate base growth from T&D investments accelerates allowed returns.",
+      "logic": "Data center load growth forces upgrades that enlarge the capital base on which utilities earn their authorized return. Because regulators typically grant rate recovery on prudently incurred capex, earnings rise proportionally with spending. The supercycle's duration ensures several years of elevated rate base growth.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "rate base growth",
+        "transmission investment",
+        "capital expenditure plan",
+        "grid infrastructure"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "electrical-equipment-manufacturers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "High-voltage electrical equipment suppliers",
+      "mechanism": "Order books swell as utilities and data centers directly procure long-lead equipment.",
+      "logic": "Transformers, switchgear, and cable are the primary hardware of grid expansion, and their supply is constrained by manufacturing capacity. Orders are placed years in advance, providing revenue visibility and pricing power. Tight markets allow suppliers to raise prices and negotiate better terms.",
+      "horizon": "near",
+      "searchPhrases": [
+        "power transformers",
+        "switchgear",
+        "transmission cable",
+        "substation equipment"
+      ],
+      "filingHits": 211,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-epc-firms",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Engineering and construction firms for utility infrastructure",
+      "mechanism": "Backlog grows from EPC contracts for substations, lines, and grid upgrades.",
+      "logic": "These firms provide the design, procurement, and construction services for transmission and distribution projects. The supercycle creates a multi-year pipeline of work, often under cost-plus or escalation-clause contracts, insulating them from input cost swings. Scale benefits and high demand allow them to be selective about projects.",
+      "horizon": "near",
+      "searchPhrases": [
+        "utility construction",
+        "transmission line",
+        "substation construction",
+        "EPC services"
+      ],
+      "filingHits": 313,
+      "whiteSpace": false
+    },
+    {
+      "id": "energy-intensive-manufacturers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Industrial electricity consumers with high energy intensity",
+      "mechanism": "Pass-through of T&D infrastructure costs raises industrial power bills.",
+      "logic": "Grid capex is ultimately recovered from ratepayers, and industrial users with large, steady loads bear a significant share. These firms often operate with thin margins in globally competitive markets, so even small rate increases compress earnings. The supercycle implies a structural upward shift in electricity tariffs.",
+      "horizon": "long",
+      "searchPhrases": [
+        "electricity cost",
+        "energy intensive",
+        "manufacturing facility",
+        "power consumption"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "interconnection-constrained-developers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Power generation developers facing interconnection bottlenecks",
+      "mechanism": "Interconnection queue bottlenecks and equipment shortages delay generation projects.",
+      "logic": "The surge in grid investment for data centers competes for the same engineering studies, equipment, and construction crews needed to connect new generation. Lead times extend, and costs allocated to generators increase, making projects less viable. This particularly affects renewable developers who rely on timely interconnection.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "interconnection queue",
+        "grid connection",
+        "renewable energy project",
+        "transmission upgrade"
+      ],
+      "filingHits": 328,
+      "whiteSpace": false
+    },
+    {
+      "id": "specialty-metals-producers",
+      "parentId": "electrical-equipment-manufacturers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Copper and electrical steel producers",
+      "mechanism": "Transformer and cable manufacturers expand purchasing, tightening markets for grain-oriented electrical steel and copper conductor.",
+      "logic": "These materials are essential for transformers (electrical steel) and wires/conductors (copper, aluminum). Supply is relatively inelastic in the near term, so demand growth quickly translates into higher prices and margins. Producers benefit from both volume and price, magnifying earnings leverage.",
+      "horizon": "near",
+      "searchPhrases": [
+        "copper conductor",
+        "electrical steel",
+        "wire rod",
+        "magnet wire"
+      ],
+      "filingHits": 163,
+      "whiteSpace": false
+    },
+    {
+      "id": "grid-construction-labor-costs",
+      "parentId": "utility-epc-firms",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Specialized grid construction labor",
+      "mechanism": "Shortage of linemen and high-voltage electricians pushes up per-hour costs on fixed-price contracts.",
+      "logic": "Grid projects require a limited pool of skilled workers, and the supercycle increases demand across multiple regions simultaneously. Labor supply is slow to adjust, leading to wage inflation. Many EPC contracts are fixed-price, so contractors bear the risk of cost overruns, squeezing margins on existing backlog.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "lineman",
+        "electrical contractor",
+        "union labor",
+        "construction wage"
+      ],
+      "filingHits": 178,
+      "whiteSpace": false
+    },
+    {
+      "id": "distributed-energy-providers",
+      "parentId": "energy-intensive-manufacturers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Behind-the-meter generation and storage providers",
+      "mechanism": "Declining DER costs combine with rising delivered power prices to improve project ROI.",
+      "logic": "Industrial consumers facing higher grid rates are increasingly evaluating solar, storage, and combined heat and power to reduce their exposure. The supercycle accelerates this trend, expanding the addressable market for DER developers and equipment suppliers. Payback periods shorten as the spread between self-generation costs and retail rates widens.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "behind-the-meter",
+        "solar installation",
+        "energy storage system",
+        "power purchase agreement"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "renewable-curtailment-risk",
+      "parentId": "interconnection-constrained-developers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Existing renewable generation assets in congested regions",
+      "mechanism": "Insufficient transfer capacity between regions forces curtailment of existing wind/solar and reduces realized power prices.",
+      "logic": "As new generation stalls in interconnection queues, the existing grid remains congested, leading to over-supply at times and negative pricing. Grid upgrades to relieve congestion are part of the supercycle but lag, so curtailment increases in the interim. This erodes revenue for owners of merchant renewable plants.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "transmission congestion",
+        "curtailment",
+        "power price",
+        "interconnection constraint"
+      ],
+      "filingHits": 300,
+      "whiteSpace": false
+    },
+    {
+      "id": "data-center-construction-costs",
+      "parentId": "interconnection-constrained-developers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Data center developers",
+      "mechanism": "Lead times for transformers and switchgear extend, and utilities impose larger interconnection cost allocations.",
+      "logic": "Data centers themselves are large consumers of electrical infrastructure, and they compete directly with grid operators for the same equipment. The supercycle, which they are driving, creates a bottleneck that raises their own development costs. Higher interconnection charges and longer project timelines reduce returns on new data center builds.",
+      "horizon": "near",
+      "searchPhrases": [
+        "data center construction",
+        "lead time",
+        "interconnection cost",
+        "electrical infrastructure"
+      ],
+      "filingHits": 312,
+      "whiteSpace": false
+    },
+    {
+      "id": "aluminum-conductor-substitution",
+      "parentId": "specialty-metals-producers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Aluminum wire and cable manufacturers",
+      "mechanism": "Price differential between copper and aluminum widens, accelerating substitution in distribution cables and busbars.",
+      "logic": "As copper prices rise, utilities and equipment makers redesign products to use more aluminum, which is cheaper and lighter. This substitution is already possible in many applications but becomes economically compelling during a supercycle. Producers of aluminum conductor and rod see demand growth even faster than overall grid capex.",
+      "horizon": "long",
+      "searchPhrases": [
+        "aluminum conductor",
+        "aluminum winding",
+        "copper substitute",
+        "aluminum busbar"
+      ],
+      "filingHits": 1,
+      "whiteSpace": true
+    },
+    {
+      "id": "prefab-modular-substations",
+      "parentId": "grid-construction-labor-costs",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Prefabricated and modular substation providers",
+      "mechanism": "Utilities and EPCs standardize designs and move toward factory-built assemblies to reduce field labor hours.",
+      "logic": "Rising on-site labor costs and project complexity push the industry toward off-site manufacturing of substation modules and e-houses. This reduces construction time and reliance on specialized field crews. Providers of these modular solutions benefit from a structural shift in procurement.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "prefabricated substation",
+        "modular substation",
+        "skid-mounted",
+        "factory assembled"
+      ],
+      "filingHits": 61,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-load-defection-risk",
+      "parentId": "distributed-energy-providers",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Regulated utilities with volumetric rate structures",
+      "mechanism": "Fixed grid costs are spread over fewer kWh, increasing per-unit charges and incentivizing further defection.",
+      "logic": "When large industrial customers install DERs, they reduce their grid consumption, but the utility's fixed costs remain. Regulators may allow rate redesign, but transition periods are slow. In the interim, remaining customers face higher rates, which can create a negative feedback loop of further defections, threatening utility credit quality.",
+      "horizon": "long",
+      "searchPhrases": [
+        "load defection",
+        "grid defection",
+        "rate design",
+        "demand charge"
+      ],
+      "filingHits": 200,
+      "whiteSpace": false
+    },
+    {
+      "id": "electricity-intensive-commodity-producers",
+      "parentId": "energy-intensive-manufacturers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Electricity-Intensive Commodity Producers",
+      "mechanism": "Higher grid-delivered power costs inflate COGS for producers where electricity is a primary input, compressing margins in globally priced commodities.",
+      "logic": "Aluminum smelters, EAF steel mills, and chlor-alkali plants use large amounts of electricity per unit of output. Since T&D cost pass-through is structural, the cost disadvantage persists, making domestic production less competitive versus imports from regions with cheaper power. Over time, marginal plants may idle.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "electric arc furnace",
+        "primary aluminum",
+        "chlor-alkali",
+        "cement kiln"
+      ],
+      "filingHits": 314,
+      "whiteSpace": false
+    },
+    {
+      "id": "metal-treating-and-finishing-services",
+      "parentId": "energy-intensive-manufacturers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Metal Treating and Finishing Services",
+      "mechanism": "Rising electricity costs increase operating expenses for heat treating, electroplating, and powder coating shops, eroding margins in a fragmented industry with limited pricing power.",
+      "logic": "These service providers run energy-intensive ovens, furnaces, and plating lines. Structural electric rate hikes cannot be fully passed to customers because contract manufacturing is competitive. Smaller shops without capital for efficiency upgrades may close.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "heat treating",
+        "electroplating",
+        "metal finishing",
+        "powder coating"
+      ],
+      "filingHits": 322,
+      "whiteSpace": false
+    },
+    {
+      "id": "industrial-energy-efficiency-equipment-suppliers",
+      "parentId": "energy-intensive-manufacturers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Industrial Energy Efficiency Equipment Suppliers",
+      "mechanism": "Accelerated industrial adoption of energy-saving technologies raises orders for variable frequency drives, high-efficiency motors, and heat recovery systems.",
+      "logic": "Higher and structurally rising electricity rates shorten the payback on energy efficiency investments that previously had borderline returns. Manufacturers of these components see a multi-year demand tailwind as customers retrofit facilities.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "variable frequency drives",
+        "high efficiency motors",
+        "waste heat recovery",
+        "energy management systems"
+      ],
+      "filingHits": 229,
+      "whiteSpace": false
+    },
+    {
+      "id": "on-site-generation-system-integrators",
+      "parentId": "energy-intensive-manufacturers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "On-Site Generation System Integrators",
+      "mechanism": "Industrial customers invest in behind-the-meter solar, combined heat and power, or microgrids to insulate against rising utility bills, driving project pipelines for integrators.",
+      "logic": "As T&D charges become a permanent part of the cost structure, manufacturers with large loads find self-generation economics attractive, especially when paired with storage. This creates a structural shift toward distributed energy resources, benefiting firms that design and install such systems.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "behind-the-meter",
+        "combined heat and power",
+        "microgrid",
+        "C&I solar"
+      ],
+      "filingHits": 310,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "grid modernization",
+    "transmission infrastructure",
+    "data center demand",
+    "electricity load growth",
+    "substation",
+    "power transformer",
+    "high-voltage cable",
+    "rate base",
+    "interconnection",
+    "capital expenditure"
+  ]
+}

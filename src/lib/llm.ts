@@ -12,6 +12,7 @@ import { CONFIG } from '../config.js';
 // far cheaper than a frontier model. The rubric arithmetic lives outside the model regardless.
 
 type Format = 'json' | 'markdown';
+export type Tier = 'heavy' | 'light';
 
 // Every prompt is written to disk before the call, so any output (live or fixture)
 // can be audited against the exact prompt that produced it.
@@ -21,15 +22,16 @@ function savePrompt(slug: string, key: string, prompt: string) {
   fs.writeFileSync(path.join(dir, `${key.replace(/[/\\]/g, '_')}.txt`), prompt);
 }
 
-export async function llm(slug: string, key: string, prompt: string, format: Format): Promise<string> {
+export async function llm(slug: string, key: string, prompt: string, format: Format, tier: Tier = 'light'): Promise<string> {
   savePrompt(slug, key, prompt);
   const { provider } = CONFIG.llm;
+  const model = CONFIG.llm.models[tier];
 
   if (provider === 'ollama') {
-    return finish(await callOllama(prompt, format), format);
+    return finish(await callOllama(prompt, format, model), format);
   }
   if (provider === 'openai') {
-    return finish(await callOpenAiCompatible(prompt, format), format);
+    return finish(await callOpenAiCompatible(prompt, format, model), format);
   }
 
   const ext = format === 'json' ? 'json' : 'md';
@@ -58,9 +60,9 @@ function deSlop(text: string): string {
 }
 
 // Local Ollama. format:'json' uses Ollama's JSON mode to constrain the output.
-async function callOllama(prompt: string, format: Format): Promise<string> {
+async function callOllama(prompt: string, format: Format, model: string): Promise<string> {
   const body: Record<string, unknown> = {
-    model: CONFIG.llm.model,
+    model,
     messages: [{ role: 'user', content: prompt }],
     stream: false,
     options: { temperature: 0.2 },
@@ -73,16 +75,16 @@ async function callOllama(prompt: string, format: Format): Promise<string> {
   });
   if (!res.ok) throw new Error(`Ollama ${res.status}: ${await res.text()}`);
   const data = (await res.json()) as any;
-  console.log(`[llm] ollama ${CONFIG.llm.model}`);
+  console.log(`[llm] ollama ${model}`);
   return String(data.message?.content ?? '');
 }
 
 // Any OpenAI-compatible chat completions endpoint.
-async function callOpenAiCompatible(prompt: string, format: Format): Promise<string> {
+async function callOpenAiCompatible(prompt: string, format: Format, model: string): Promise<string> {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('LLM_PROVIDER=openai needs OPENAI_API_KEY.');
   const body: Record<string, unknown> = {
-    model: CONFIG.llm.model,
+    model,
     messages: [{ role: 'user', content: prompt }],
     temperature: 0.2,
   };
@@ -94,7 +96,7 @@ async function callOpenAiCompatible(prompt: string, format: Format): Promise<str
   });
   if (!res.ok) throw new Error(`LLM ${res.status}: ${await res.text()}`);
   const data = (await res.json()) as any;
-  console.log(`[llm] openai-compatible ${CONFIG.llm.model} @ ${CONFIG.llm.openaiBaseURL}`);
+  console.log(`[llm] openai-compatible ${model} @ ${CONFIG.llm.openaiBaseURL}`);
   return String(data.choices?.[0]?.message?.content ?? '');
 }
 

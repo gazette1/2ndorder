@@ -1,6 +1,22 @@
 # Adoption Chain: design
 
-An idea-generation engine for a small-cap growth team. An analyst enters a seed thesis. The engine returns ranked, under-covered small-cap candidates, each with a one-page thesis draft in which every factual claim links to the exact filing sentence it came from. The engine produces leverage underneath judgment: it reads filings and drafts arguments, and the analyst tears the drafts apart. Nothing it outputs is a recommendation.
+An idea-generation engine for a small-cap growth team. A PM enters a scenario. The engine returns an organized consequence map (1st, 2nd, and 3rd order effects, good and bad), ranked under-covered small-cap candidates on each consequence, and a one-page thesis draft per name in which every factual claim links to the exact filing sentence it came from. The engine produces leverage underneath judgment: it reads filings and drafts arguments, and the analyst tears the drafts apart. Nothing it outputs is a recommendation.
+
+## The consequence map
+
+The decomposition is a tree, not a flat list. The scenario is the root; 1st order nodes follow directly from it; deeper orders follow from their parent consequence. Every node carries: polarity (beneficiary or at_risk, because the bear side is part of the map), a one-line causal mechanism (who pays whom, which line item moves), a horizon (near 0 to 6 months, mid 6 to 18, long 18 plus), and its EDGAR search phrases. After mapping, each node also carries its evidence density (total filing hits) and a white-space flag: the logic says the consequence exists but almost no filer writes about it, which is where mispricing lives.
+
+Operations on the map, all shipped in the pipeline and API:
+- Drill: decompose any single node a level deeper (order N to N+1), then map only the new children. The map grows where the analyst pushes.
+- Counter-scenario: the model states the strongest disconfirming scenario in one sentence, then the full pipeline runs it as a linked run. Names that survive both maps are robust ideas; names that flip are trades on the scenario itself.
+- Alerts: re-check every in-band name for filings since the run (8-K, Form 4, 10-K/Q, 13D/G). A run is a report; a standing scenario is a subscription. Scheduling the re-check is a cron concern; the check is one stage.
+- 13F overlay: place any institution's latest 13F holdings on the map (name-matched, since 13F reports CUSIPs), summarized as positions on beneficiary versus at-risk nodes. Free EDGAR data; turns the idea tool into a risk lens.
+- IC memo: one self-contained HTML document per run (print-to-PDF ready): scenario, map table, ranked names, rubric, theses, and every cited filing sentence with its SEC link.
+- Backtest: ASOF=YYYY-MM-DD bounds full-text search at a past date. Filings are point-in-time by construction, so the map is honest about what was knowable when.
+
+## Model routing
+
+Two tiers through one adapter. The heavy tier (default deepseek-v4-pro) carries open-ended reasoning: scenario decomposition, drill, counter-scenario inversion. The light tier (default deepseek-v4-flash) carries bounded work: filing reads against pre-extracted excerpts and templated drafting. The rubric arithmetic stays outside the model in both tiers. LLM_MODEL forces a single model for both (the local ollama case).
 
 ## Why SEC EDGAR
 

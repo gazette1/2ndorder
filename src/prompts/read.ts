@@ -28,7 +28,7 @@ export function readPrompt(args: {
   return `You are an equity analyst reading SEC filing excerpts for ${args.companyName} (${args.ticker}). The excerpts are exact sentences pulled from the company's own filings.
 
 Seed thesis: ${args.seed}
-Chain node this company was mapped to: ${args.node.name} (${args.node.layer}). Node logic: ${args.node.logic}
+Map node this company was mapped to: ${args.node.name} (order ${args.node.order}, ${args.node.polarity}). Mechanism: ${args.node.mechanism} Node logic: ${args.node.logic}
 8-K filings in the last 12 months: ${args.eightKCount12m}
 
 Excerpts:

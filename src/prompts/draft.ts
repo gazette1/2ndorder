@@ -45,7 +45,7 @@ export function draftPrompt(args: {
   return `Draft a one-page thesis for ${args.companyName} (${args.ticker}) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
 
 Seed thesis: ${args.seed}
-Chain position: ${args.node.name} (${args.node.layer}). ${args.node.logic}
+Map position: ${args.node.name} (order ${args.node.order}, ${args.node.polarity}, horizon ${args.node.horizon}). Mechanism: ${args.node.mechanism} ${args.node.logic}
 Public float: ${args.publicFloatMM === null ? 'not reported' : `$${args.publicFloatMM}MM`}
 Composite score: ${args.score}/100
 Subscores:

@@ -23,10 +23,25 @@ export const CONFIG = {
   //   ollama:  LLM_PROVIDER=ollama and pull a model first, e.g. `ollama pull gemma4`, then set LLM_MODEL.
   llm: {
     provider: process.env.LLM_PROVIDER ?? (process.env.OPENAI_API_KEY ? 'openai' : 'fixture'), // 'fixture' | 'ollama' | 'openai'
-    model: process.env.LLM_MODEL ?? 'deepseek-v4-flash',
+    // Two tiers, routed per task. Heavy carries the open-ended reasoning (scenario
+    // decomposition, drill, counter-scenario inversion); light carries the bounded
+    // work (filing reads against excerpts, templated drafting). LLM_MODEL forces
+    // one model for both tiers (the ollama single-model case).
+    models: {
+      heavy: process.env.LLM_MODEL ?? process.env.LLM_MODEL_HEAVY ?? 'deepseek-v4-pro',
+      light: process.env.LLM_MODEL ?? process.env.LLM_MODEL_LIGHT ?? 'deepseek-v4-flash',
+    },
     ollamaHost: process.env.OLLAMA_HOST ?? 'http://localhost:11434',
     openaiBaseURL: process.env.OPENAI_BASE_URL ?? 'https://api.deepseek.com/v1',
   },
+
+  // A node whose phrases return at most this many total FTS hits is white space:
+  // the logic says the consequence exists, almost no filer writes about it yet.
+  whiteSpaceMaxHits: 4,
+
+  // Filings-only backtest: when set (YYYY-MM-DD), full-text search runs against
+  // filings dated on or before this date. Point-in-time by construction.
+  asof: process.env.ASOF ?? null,
 
   // Enrichment (src/pipeline/enrich.ts), applied to the read set.
   enrich: {

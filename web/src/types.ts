@@ -1,11 +1,68 @@
-export type Layer = 'enabler' | 'picks_and_shovels' | 'second_order' | 'disrupted';
+export type Polarity = 'beneficiary' | 'at_risk';
+export type Horizon = 'near' | 'mid' | 'long';
 
+// Consequence-tree node. Replaces the old layer-based chain node: nodes now
+// carry an order (1st, 2nd, 3rd consequence...), a polarity, and a parent link.
 export interface ChainNode {
   id: string;
-  layer: Layer;
+  parentId: string | null;
+  order: number;
+  polarity: Polarity;
   name: string;
+  mechanism: string;
   logic: string;
+  horizon: Horizon;
   searchPhrases: string[];
+  filingHits?: number;
+  whiteSpace?: boolean;
+}
+
+// Old payload shape (pre consequence tree). Kept only so the load-time
+// normalizer can accept both shapes without crashing.
+export type LegacyLayer = 'enabler' | 'picks_and_shovels' | 'second_order' | 'disrupted';
+
+export interface RawChainNode {
+  id: string;
+  name: string;
+  logic?: string;
+  searchPhrases?: string[];
+  // New-shape fields, optional on the wire.
+  parentId?: string | null;
+  order?: number;
+  polarity?: Polarity;
+  mechanism?: string;
+  horizon?: Horizon;
+  filingHits?: number;
+  whiteSpace?: boolean;
+  // Old-shape field.
+  layer?: LegacyLayer | string;
+}
+
+export interface Alert {
+  ticker: string;
+  form: string;
+  filedAt: string;
+  accession: string;
+  note: string;
+}
+
+export interface OverlayPosition {
+  issuer: string;
+  valueUSD: number;
+  matchedTicker: string | null;
+  nodeId: string | null;
+  polarity: Polarity | null;
+}
+
+export interface Overlay {
+  fund: { name: string; cik: string; filedAt: string };
+  positions: OverlayPosition[];
+  summary: {
+    totalPositions: number;
+    matched: number;
+    onBeneficiary: number;
+    onAtRisk: number;
+  };
 }
 
 export interface FtsHit {
@@ -161,15 +218,19 @@ export interface Rubric {
   definitions: Record<string, string>;
 }
 
+export interface RunInfo {
+  id: string;
+  seed: string;
+  createdAt: string;
+  floatBandMM: [number, number];
+  mode: 'live' | 'fixture';
+  rubric: Rubric;
+  asof: string | null;
+  counterOf: string | null;
+}
+
 export interface RunPayload {
-  run: {
-    id: string;
-    seed: string;
-    createdAt: string;
-    floatBandMM: [number, number];
-    mode: 'live' | 'fixture';
-    rubric: Rubric;
-  };
+  run: RunInfo;
   chain: ChainNode[];
   candidates: Candidate[];
   reads: Read[];

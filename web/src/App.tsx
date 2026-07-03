@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { RunPayload } from './types';
 import { compositeScore } from './score';
 import { RunHeader } from './components/RunHeader';
-import { ChainBoard } from './components/ChainBoard';
+import { ConsequenceMap, NodeDetailStrip } from './components/ChainBoard';
+import { ActionBar } from './components/ActionBar';
 import { CandidateTable, type CandidateRow } from './components/CandidateTable';
 import { RubricPanel } from './components/RubricPanel';
 import { ThesisPanel } from './components/ThesisPanel';
@@ -13,6 +14,8 @@ import { useSession } from './auth';
 import {
   AuthError,
   NetworkError,
+  OFFLINE_MSG,
+  drillNode,
   fetchDemoPayload,
   getRun,
   listRuns,
@@ -63,21 +66,26 @@ export function App() {
   const [weights, setWeights] = useState<Record<string, number>>({});
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [selectedTicker, setSelectedTicker] = useState<string | null>(null);
+  const [drillingNodeId, setDrillingNodeId] = useState<string | null>(null);
+  const [drillNote, setDrillNote] = useState<string | null>(null);
 
   const pollRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const applyPayload = useCallback((payload: RunPayload) => {
     setState({ status: 'ready', payload });
+    setOffline(false);
     setWeights({ ...payload.run.rubric.weights });
     setSelectedNodeId(null);
     setSelectedTicker(null);
+    setDrillingNodeId(null);
+    setDrillNote(null);
   }, []);
 
   const loadDemo = useCallback(async () => {
     try {
       const payload = await fetchDemoPayload();
-      setOffline(true);
       applyPayload(payload);
+      setOffline(true);
     } catch (err) {
       setState({
         status: 'error',
@@ -196,6 +204,40 @@ export function App() {
     [token, search, pollRun, openRun, handleAuthError, loadDemo],
   );
 
+  // Drill deeper on a node: synchronous on the server (30 to 90 seconds), then
+  // re-fetch the run payload so new child nodes appear in the next order
+  // column. Keeps the current weights and node selection.
+  const handleDrill = useCallback(
+    async (nodeId: string) => {
+      if (state.status !== 'ready') return;
+      if (!token || offline) {
+        setDrillNote(OFFLINE_MSG);
+        return;
+      }
+      const runId = state.payload.run.id;
+      setDrillingNodeId(nodeId);
+      setDrillNote(null);
+      try {
+        await drillNode(token, runId, nodeId);
+        const result = await getRun(token, runId);
+        if (result && result.status === 'ready') {
+          setState({ status: 'ready', payload: result.payload });
+        }
+      } catch (err) {
+        if (err instanceof AuthError) {
+          handleAuthError();
+        } else if (err instanceof NetworkError) {
+          setDrillNote(OFFLINE_MSG);
+        } else {
+          setDrillNote(err instanceof Error ? err.message : String(err));
+        }
+      } finally {
+        setDrillingNodeId(null);
+      }
+    },
+    [state, token, offline, handleAuthError],
+  );
+
   // On sign in, load the run list. If the API is unreachable, fall back to demo.
   useEffect(() => {
     if (!token) return;
@@ -284,6 +326,13 @@ export function App() {
   const openDossier = selectedTicker ? dossiersByTicker.get(selectedTicker) ?? null : null;
   const openComposite = openRead ? compositeScore(openRead, weights) : null;
 
+  const selectedNode =
+    payload && selectedNodeId ? payload.chain.find((n) => n.id === selectedNodeId) ?? null : null;
+  const parentNode =
+    payload && selectedNode && selectedNode.parentId
+      ? payload.chain.find((n) => n.id === selectedNode.parentId) ?? null
+      : null;
+
   const accountBar = (
     <div className="account-bar">
       <span className="account-email mono">{session.email}</span>
@@ -308,7 +357,7 @@ export function App() {
     if (state.status === 'idle') {
       return (
         <p className="page-message">
-          Search a thesis, theme, or company above, or pick an existing run to load results.
+          Enter a scenario, thesis, or theme above, or pick an existing run to load results.
         </p>
       );
     }
@@ -326,12 +375,30 @@ export function App() {
             <p className="offline-note">Offline demo data (API not running)</p>
           )}
           <RunHeader run={payload.run} />
-          <ChainBoard
+          <ActionBar
+            key={payload.run.id}
+            token={token}
+            runId={payload.run.id}
+            chain={payload.chain}
+            offline={offline}
+            onOpenRun={openRun}
+          />
+          <ConsequenceMap
+            seed={payload.run.seed}
             chain={payload.chain}
             candidates={payload.candidates}
             selectedNodeId={selectedNodeId}
             onSelectNode={setSelectedNodeId}
           />
+          {selectedNode && (
+            <NodeDetailStrip
+              node={selectedNode}
+              parent={parentNode}
+              drilling={drillingNodeId === selectedNode.id}
+              drillNote={drillNote}
+              onDrill={handleDrill}
+            />
+          )}
           <CandidateTable
             rows={rows}
             chain={payload.chain}

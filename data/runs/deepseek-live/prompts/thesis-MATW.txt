@@ -1,0 +1,51 @@
+Draft a one-page thesis for MATTHEWS INTERNATIONAL CORP (MATW) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: Humanoid robotics reaches commercial deployment 2027-2030
+Chain position: warehouse automation (second_order). Humanoid robots can perform picking, sorting, and packing tasks in warehouses. Logistics companies that adopt these robots will see labor cost reductions and throughput improvements. Their margins expand as they replace variable labor with fixed robot costs, increasing profitability.
+Public float: $658MM
+Composite score: 24/100
+Subscores:
+- optionality: 0/5 (weight 0.25). The company sold its automation solutions business, which is the segment relevant to warehouse automation and humanoid robotics. This divestiture indicates the company is not pursuing this theme; thus no new business creation.
+- revenueToOpportunity: 0/5 (weight 0.2). With the sale of the automation solutions business, the company no longer has revenue exposure to warehouse automation. The theme opportunity is now irrelevant to the remaining operations.
+- catalystDensity: 0/5 (weight 0.15). No catalysts related to humanoid robotics or warehouse automation are mentioned. The only event is the completion of a sale, which is a negative catalyst for the theme.
+- managementConviction: 0/5 (weight 0.1). Management's action of selling the automation business demonstrates low conviction in the warehouse automation theme and no commitment to humanoid robotics.
+- insiderConviction: 2/5 (weight 0.1). Form 4: net $0 over 0 buys and 0 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $236,365,221, 0 named customer(s), 0 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-01-07, https://www.sec.gov/Archives/edgar/data/63296/000006329626000002/matw-20251231.htm) EXPLANATORY NOTE As previously announced, on December 31, 2025 (the Closing Date ), Matthews International Corporation, a Pennsylvania corporation ( Matthews or the Company ), completed the sale of its interests in Matthews Automation Solutions, LLC, a Delaware limited liability company and wholly-owned subsidiary of Matthews (the Transferred Entity ), and certain related assets to Duravant LLC (the Buyer ) pursuant to the terms of an Equity Purchase Agreement dated as of November 12, 2025 by and among Matthews and the Buyer, which was filed as Exhibit 2.1 to that Current Report on Form 8-K with the SEC on November 13, 2025 .
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2024-09-30): revenue $1795.7MM, cash $32.4MM.
+Customer graph: federal awards $236.4MM (Department of Veterans Affairs $19.4MM (VA78615J0042); Department of Veterans Affairs $18.8MM (VA78613P0094); Department of Veterans Affairs $18.3MM (V101N87204)); named customers none in excerpts; 0 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

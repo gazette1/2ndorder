@@ -136,8 +136,14 @@ function parseForm4(xml: string, accession: string): InsiderTx[] {
   const blocks = xml.match(/<nonDerivativeTransaction>[\s\S]*?<\/nonDerivativeTransaction>/gi) ?? [];
   for (const b of blocks) {
     const code = valueOf(b, 'transactionCode') ?? '';
-    const shares = Number(valueOf(b, 'transactionShares') ?? 0);
-    const price = Number(valueOf(b, 'transactionPricePerShare') ?? 0);
+    // Some filings put footnote text or nothing in numeric fields; NaN here would
+    // poison the whole net (NaN serializes to null in JSON). Coerce to finite.
+    const num = (v: string | null) => {
+      const n = Number(v);
+      return Number.isFinite(n) ? n : 0;
+    };
+    const shares = num(valueOf(b, 'transactionShares'));
+    const price = num(valueOf(b, 'transactionPricePerShare'));
     const ad = (valueOf(b, 'transactionAcquiredDisposedCode') ?? '') as 'A' | 'D';
     const date = valueOf(b, 'transactionDate') ?? '';
     if (!shares) continue;

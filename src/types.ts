@@ -1,19 +1,55 @@
-export type Layer = 'enabler' | 'picks_and_shovels' | 'second_order' | 'disrupted';
-
+// A node in the consequence map. The map is a tree: the scenario is the root,
+// 1st-order nodes hang off it, deeper orders hang off their parent consequence.
 export interface ChainNode {
   id: string;
-  layer: Layer;
+  // Node this consequence follows from. null means it follows directly from the scenario.
+  parentId: string | null;
+  // 1 = direct consequence, 2 = consequence of a consequence, 3+ = deeper (drill extends).
+  order: number;
+  polarity: 'beneficiary' | 'at_risk';
   name: string;
-  // One paragraph: the economic logic for why this node benefits (or suffers) if the seed thesis plays out.
+  // One line of causal mechanism: who pays whom, which line item moves.
+  mechanism: string;
+  // One paragraph: the economic logic for why this node benefits (or suffers) if the scenario plays out.
   logic: string;
+  // When the consequence becomes observable: near = 0 to 6 months, mid = 6 to 18, long = 18 plus.
+  horizon: 'near' | 'mid' | 'long';
   // Exact phrases for EDGAR full-text search. Quoted verbatim, so they must be phrases companies actually write in filings.
   searchPhrases: string[];
+  // Filled by the map stage: total FTS hits across the node's phrases.
+  filingHits?: number;
+  // Logic says the consequence exists but almost no filer writes about it. Where mispricing lives.
+  whiteSpace?: boolean;
 }
 
 export interface Decomposition {
   nodes: ChainNode[];
   // Broad theme words used to excerpt filing text around hits.
   themeKeywords: string[];
+}
+
+// A filing event on a mapped name since the run (or since the last alert check).
+export interface Alert {
+  ticker: string;
+  form: string;
+  filedAt: string;
+  accession: string;
+  note: string;
+}
+
+// One 13F position placed on the map.
+export interface OverlayPosition {
+  issuer: string;
+  valueUSD: number;
+  matchedTicker: string | null;
+  nodeId: string | null;
+  polarity: ChainNode['polarity'] | null;
+}
+
+export interface Overlay {
+  fund: { name: string; cik: string; filedAt: string };
+  positions: OverlayPosition[];
+  summary: { totalPositions: number; matched: number; onBeneficiary: number; onAtRisk: number };
 }
 
 export interface FtsHit {
@@ -187,6 +223,10 @@ export interface RunPayload {
     floatBandMM: [number, number];
     mode: 'live' | 'fixture';
     rubric: Rubric;
+    // Filings-only backtest: the map searched filings dated on or before this date.
+    asof: string | null;
+    // Set when this run is the counter-scenario of another run.
+    counterOf: string | null;
   };
   chain: ChainNode[];
   candidates: Candidate[];

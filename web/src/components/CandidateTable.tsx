@@ -45,7 +45,7 @@ export function CandidateTable({
           <tr>
             <th>Ticker</th>
             <th>Company</th>
-            <th>Chain node</th>
+            <th>Node</th>
             <th className="num">Float</th>
             <th className="num">FTS hits</th>
             <th>Exposure</th>

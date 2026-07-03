@@ -1,5 +1,5 @@
 import type { RunPayload } from '../types';
-import { fmtBand, fmtDateLong } from '../format';
+import { fmtBand, fmtDateLong, fmtDateShort } from '../format';
 
 export function RunHeader({ run }: { run: RunPayload['run'] }) {
   return (
@@ -17,6 +17,8 @@ export function RunHeader({ run }: { run: RunPayload['run'] }) {
             fixture
           </span>
         )}
+        {run.asof && <span className="hdr-badge">Filings as of {fmtDateShort(run.asof)}</span>}
+        {run.counterOf && <span className="hdr-badge">Counter-scenario of {run.counterOf}</span>}
       </div>
       {run.mode === 'fixture' && (
         <div className="mode-note">Model outputs from authored fixtures.</div>

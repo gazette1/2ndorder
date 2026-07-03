@@ -1,0 +1,43 @@
+You are an equity analyst reading SEC filing excerpts for TERAWULF INC. (WULF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Data center developers (order 2, at_risk). Mechanism: Lead times for transformers and switchgear extend, and utilities impose larger interconnection cost allocations. Node logic: Data centers themselves are large consumers of electrical infrastructure, and they compete directly with grid operators for the same equipment. The supercycle, which they are driving, creates a bottleneck that raises their own development costs. Higher interconnection charges and longer project timelines reduce returns on new data center builds.
+8-K filings in the last 12 months: 33
+
+Excerpts:
+[0] (8-K, filed 2026-05-26) The acquisition meaningfully expands TeraWulf s portfolio of large-scale, energy-advantaged digital infrastructure campuses and advances the Company s strategy of developing shovel-ready AI and HPC sites with long-term power availability, robust transmission infrastructure, and strong community alignment.
+[1] (8-K, filed 2026-05-26) Kentucky Power, an AEP Company, is constructing a 345 kV substation connected to the existing 765 kV transmission network, providing redundant, utility-scale power infrastructure designed to support the full 1+ GW campus.
+[2] (8-K, filed 2026-05-26) Transmission infrastructure and energy service agreements were executed concurrently with the acquisition pursuant to the applicable Industrial General Service tariff structure for large loads, establishing a clear pathway to long-term, large-scale power delivery.
+[3] (8-K, filed 2026-05-26) The site is already zoned for its intended use, with permitting activities underway and limited site work required to support data center construction.
+[4] (8-K, filed 2026-05-26) As we said then, the defining constraint in this market is no longer computing hardware it is power, transmission infrastructure, and execution certainty.
+[5] (8-K, filed 2026-05-26) Prager continued, Muskie combines scalable power, robust transmission infrastructure, development readiness, and strategic regional positioning in a way that is increasingly difficult to replicate.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-31,102,509 across 10 buys and 15 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2020-12-31): revenue $13,432,220, net income $-661,416,000, R&D $671,493, cash $3,266,389,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

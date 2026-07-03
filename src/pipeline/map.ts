@@ -4,18 +4,23 @@ import { load, save } from '../lib/store.js';
 import type { Candidate, Decomposition } from '../types.js';
 
 // Chain node -> small-cap tickers, via EDGAR full-text search on the node's phrases.
-export async function mapTickers(slug: string): Promise<Candidate[]> {
-  const { nodes } = load<Decomposition>(slug, 'decompose');
+// nodeIds limits mapping to a subset (the drill case); results merge into the
+// existing candidate set. Also writes filingHits and whiteSpace back onto nodes.
+export async function mapTickers(slug: string, nodeIds?: string[]): Promise<Candidate[]> {
+  const decomp = load<Decomposition>(slug, 'decompose');
+  const nodes = nodeIds ? decomp.nodes.filter((n) => nodeIds.includes(n.id)) : decomp.nodes;
   const tickers = await tickerMap();
 
-  const enddt = new Date().toISOString().slice(0, 10);
-  const startdt = new Date(Date.now() - CONFIG.ftsYears * 365 * 86400_000).toISOString().slice(0, 10);
+  // Filings-only backtest: bound the search window at the as-of date.
+  const enddt = CONFIG.asof ?? new Date().toISOString().slice(0, 10);
+  const startdt = new Date(new Date(enddt).getTime() - CONFIG.ftsYears * 365 * 86400_000).toISOString().slice(0, 10);
 
-  // Aggregate FTS hits per CIK per node.
+  // Aggregate FTS hits per CIK per node, and total hits per node for white space.
   const byNode = new Map<string, Map<string, { count: number; latest: FtsResult }>>();
   for (const node of nodes) {
     const agg = new Map<string, { count: number; latest: FtsResult }>();
     byNode.set(node.id, agg);
+    let nodeHits = 0;
     for (const phrase of node.searchPhrases) {
       let hits: FtsResult[] = [];
       try {
@@ -24,6 +29,7 @@ export async function mapTickers(slug: string): Promise<Candidate[]> {
         console.warn(`[map] FTS failed for "${phrase}": ${(e as Error).message}`);
         continue;
       }
+      nodeHits += hits.length;
       for (const h of hits) {
         const cur = agg.get(h.cik);
         if (!cur) agg.set(h.cik, { count: 1, latest: h });
@@ -34,7 +40,10 @@ export async function mapTickers(slug: string): Promise<Candidate[]> {
       }
       console.log(`[map] "${phrase}" -> ${hits.length} hits`);
     }
+    node.filingHits = nodeHits;
+    node.whiteSpace = nodeHits <= CONFIG.whiteSpaceMaxHits;
   }
+  save(slug, 'decompose', decomp);
 
   // A CIK can hit several nodes; keep it on the node where it hit most.
   const best = new Map<string, { nodeId: string; count: number; latest: FtsResult }>();
@@ -47,7 +56,7 @@ export async function mapTickers(slug: string): Promise<Candidate[]> {
   }
 
   const [lo, hi] = CONFIG.floatBandMM;
-  const candidates: Candidate[] = [];
+  const fresh: Candidate[] = [];
   for (const [cik, v] of best) {
     const listed = tickers.get(cik);
     if (!listed) continue; // no active ticker: delisted, private, or a co-filer
@@ -63,17 +72,37 @@ export async function mapTickers(slug: string): Promise<Candidate[]> {
       status: 'in_band',
     };
     if (floatMM === null) {
-      candidates.push({ ...base, status: 'filtered_out', filterReason: 'no reported public float' });
+      fresh.push({ ...base, status: 'filtered_out', filterReason: 'no reported public float' });
     } else if (floatMM < lo || floatMM > hi) {
-      candidates.push({ ...base, status: 'filtered_out', filterReason: `float $${floatMM}MM outside $${lo}MM to $${hi}MM band` });
+      fresh.push({ ...base, status: 'filtered_out', filterReason: `float $${floatMM}MM outside $${lo}MM to $${hi}MM band` });
     } else {
-      candidates.push(base);
+      fresh.push(base);
     }
+  }
+
+  // Subset mapping merges with the existing set; a CIK already present keeps
+  // whichever entry carries more hits.
+  let candidates = fresh;
+  if (nodeIds) {
+    const prior: Candidate[] = (() => {
+      try {
+        return load<Candidate[]>(slug, 'candidates');
+      } catch {
+        return [];
+      }
+    })();
+    const byCik = new Map<string, Candidate>(prior.map((c) => [c.cik, c]));
+    for (const c of fresh) {
+      const cur = byCik.get(c.cik);
+      if (!cur || c.ftsHits > cur.ftsHits) byCik.set(c.cik, c);
+    }
+    candidates = [...byCik.values()];
   }
 
   candidates.sort((a, b) => b.ftsHits - a.ftsHits);
   save(slug, 'candidates', candidates);
   const inBand = candidates.filter((c) => c.status === 'in_band');
-  console.log(`[map] ${candidates.length} companies mapped, ${inBand.length} inside the float band`);
+  const white = nodes.filter((n) => n.whiteSpace).length;
+  console.log(`[map] ${candidates.length} companies mapped, ${inBand.length} inside the float band, ${white} white-space nodes`);
   return candidates;
 }

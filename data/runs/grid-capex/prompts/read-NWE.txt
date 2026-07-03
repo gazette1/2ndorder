@@ -1,0 +1,50 @@
+You are an equity analyst reading SEC filing excerpts for NorthWestern Energy Group, Inc. (NWE). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Power generation developers facing interconnection bottlenecks (order 1, at_risk). Mechanism: Interconnection queue bottlenecks and equipment shortages delay generation projects. Node logic: The surge in grid investment for data centers competes for the same engineering studies, equipment, and construction crews needed to connect new generation. Lead times extend, and costs allocated to generators increase, making projects less viable. This particularly affects renewable developers who rely on timely interconnection.
+8-K filings in the last 12 months: 20
+
+Excerpts:
+[0] (8-K, filed 2026-06-02) This investment is expected to drive annualized earnings and rate base growth of approximately 4% - 6%. + The NorthWestern Value Proposition + 7 = = 2026-2030 Capital Investment ($ Millions) A Diversified Electric and Gas Utility 8 NorthWestern s 80/20 rules: Approximately 80% Electric and 80% Montana.
+[1] (8-K, filed 2026-06-02) Nearly $5.6 billion of rate base investment to serve our customers.
+[2] (8-K, filed 2026-06-02) 20 Affirming 2026 Non-GAAP EPS Guidance of $3.68 - $3.83 per diluted share Affirming long-term growth rate from 2024 base1 EPS growth of 4% to 6% Rate base growth of 4% to 6% Continued focus on closing the gap between earned & authorized returns $3.2 billion 5-year capital plan including approximately $300 million of investment for generation development in South Dakota Cash from operations and debt to fund base capital plan.
+[3] (8-K, filed 2026-06-02) Equity issuances expected beginning in 2027 to fund South Dakota generation investment Targeting FFO / Debt 14% (1) Based on 2024 Adjusted Diluted Non-GAAP EPS of $3.40 and 2024 estimated rate base of $5.38 billion.
+[4] (8-K, filed 2026-06-02) Track Record of Growing Capital Investment 21 $2.72 Billion invested over the last 5 years* $3.21 Billion forecasted over the next 5 years** * Historical Capital Investment includes property, plant, and equipment additions and AFUDC Credit, both from our cash flow statement, and change in capital expenditures included in accounts payable.
+[5] (8-K, filed 2026-06-02) Target: 50% - 55% - Annual ratio based on average of each quarter's debt/cap ratio Excludes Finance Leases and New Market Tax Credit Financing Data as of March 31, 2026 23 Disciplined Expense Program Per Customer Per Employee Per Rate Base NorthWestern ranks favorably among our regional peers for electric expense efficiency.
+[6] (8-K, filed 2026-06-02) 55% 29 Regional Transmission Opportunities Colstrip Transmission System North Plains Connector (NPC) Consortium Project Approximately $6 billion, 425-mile, 525kv high-voltage direct-current transmission line connecting to Montana's Colstrip substation, bridging the eastern and western U.S. energy grids Project awarded $700M Grid Resilience & Innovation Partnership grant by U.S.
+[7] (8-K, filed 2026-06-02) Therefore, we do not separately reflect FERC authorized rate base or authorized returns.
+[8] (8-K, filed 2026-06-02) (2) The Montana gas revenue requirement includes a step-down which approximates annual depletion of our natural gas production assets included in rate base.
+[9] (8-K, filed 2026-06-02) Coal Generation Rate Base as a percentage of Total Rate Base Revenue from coal generation is not easily identifiable due to the use of bundled rates in South Dakota and other rate design and accounting considerations.
+[10] (8-K, filed 2026-06-02) However, NorthWestern is a fully regulated utility company for which rate base is the primary driver of earnings.
+[11] (8-K, filed 2026-06-02) The data to the left illustrates that NorthWestern only derives approximately 7-8% of earnings from its jointly owned coal generation rate base.
+[12] (8-K, filed 2026-06-02) Rate Base & Authorized Return Summary Appendix 36 2025 System Statistics 37 Note: Statistics above are as of 12/31/2025, including 592 MW of Colstrip generation supply acquired 1/1/2026.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $414,265,000, net income $44,691,000, R&D $n/a, cash $8,781,000.
+Customer graph: federal awards $209,190 across 2 awards (top agency Department of Health and Human Services); 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

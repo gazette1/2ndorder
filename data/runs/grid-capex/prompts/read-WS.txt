@@ -1,0 +1,41 @@
+You are an equity analyst reading SEC filing excerpts for Worthington Steel, Inc. (WS). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Copper and electrical steel producers (order 2, beneficiary). Mechanism: Transformer and cable manufacturers expand purchasing, tightening markets for grain-oriented electrical steel and copper conductor. Node logic: These materials are essential for transformers (electrical steel) and wires/conductors (copper, aluminum). Supply is relatively inelastic in the near term, so demand growth quickly translates into higher prices and margins. Producers benefit from both volume and price, magnifying earnings leverage.
+8-K filings in the last 12 months: 12
+
+Excerpts:
+[0] (8-K, filed 2026-06-25) 1 3 HYBRID Clutch plate and electrical steel laminations 80% of Steel Sold by Worthington to Automotive Market Supports Powertrain-Agnostic Parts *In North America, the average vehicle contains approximately 2,000 lbs of flat roll Steel (excluding the engine).
+[1] (8-K, filed 2026-06-25) Applying Transformation to corporate functions Expanding electrical steel capabilities in Canada and Mexico Licensed ablation technology to open new opportunities for TWB Sitem acquisition strengthens global presence for electrical steel Strong Cash Flow Supports Growth Initiatives Note: FY is fiscal year ended May 31.
+[2] (8-K, filed 2026-06-25) Deferred tax asset adjustment &#x2013; Tempel&#x2019;s electrical steel facility in Nagold, Germany was included as part of the purchase consideration for the Sitem Group acquisition.
+[3] (8-K, filed 2026-06-25) Free Cash Flow is defined as operating cash flows less capital expenditures.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-05-31): revenue $3,093,300,000, net income $110,700,000, R&D $n/a, cash $38,000,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

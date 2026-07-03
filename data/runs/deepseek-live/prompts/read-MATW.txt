@@ -1,0 +1,38 @@
+You are an equity analyst reading SEC filing excerpts for MATTHEWS INTERNATIONAL CORP (MATW). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Humanoid robotics reaches commercial deployment 2027-2030
+Chain node this company was mapped to: warehouse automation (second_order). Node logic: Humanoid robots can perform picking, sorting, and packing tasks in warehouses. Logistics companies that adopt these robots will see labor cost reductions and throughput improvements. Their margins expand as they replace variable labor with fixed robot costs, increasing profitability.
+8-K filings in the last 12 months: 19
+
+Excerpts:
+[0] (8-K, filed 2026-01-07) EXPLANATORY NOTE As previously announced, on December 31, 2025 (the Closing Date ), Matthews International Corporation, a Pennsylvania corporation ( Matthews or the Company ), completed the sale of its interests in Matthews Automation Solutions, LLC, a Delaware limited liability company and wholly-owned subsidiary of Matthews (the Transferred Entity ), and certain related assets to Duravant LLC (the Buyer ) pursuant to the terms of an Equity Purchase Agreement dated as of November 12, 2025 by and among Matthews and the Buyer, which was filed as Exhibit 2.1 to that Current Report on Form 8-K with the SEC on November 13, 2025 .
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2024-09-30): revenue $1,795,737,000, net income $-24,471,000, R&D $16,733,000, cash $32,433,000.
+Customer graph: federal awards $236,365,221 across 25 awards (top agency Department of Veterans Affairs); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

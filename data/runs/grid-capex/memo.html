@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>IC memo: US grid capex supercycle driven by data center load, 2026-2030</title>
+<style>
+  body { font-family: Georgia, serif; color: #16181d; margin: 40px auto; max-width: 820px; padding: 0 24px; line-height: 1.55; }
+  h1 { font-size: 26px; line-height: 1.2; }
+  h2 { font-size: 19px; margin-top: 28px; }
+  h3 { font-size: 16px; }
+  table { border-collapse: collapse; width: 100%; font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; margin: 12px 0; }
+  th, td { border-bottom: 1px solid #d8dce2; text-align: left; padding: 6px 8px; vertical-align: top; }
+  th { font-weight: 600; }
+  .mono { font-family: Consolas, monospace; }
+  .muted { color: #5c6470; }
+  .ben { color: #0f6e56; }
+  .risk { color: #a32d2d; }
+  .ws { color: #854f0b; font-size: 11px; border: 1px dashed #854f0b; border-radius: 3px; padding: 0 4px; }
+  .meta { color: #5c6470; font-size: 13px; font-family: "Segoe UI", system-ui, sans-serif; }
+  .thesis { margin: 18px 0; }
+  details { font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; margin-top: 8px; }
+  hr { border: none; border-top: 1px solid #d8dce2; margin: 24px 0; }
+  a { color: #185fa5; }
+  @media print { body { margin: 12px; } details { display: none; } }
+</style>
+</head>
+<body>
+<h1>IC memo: US grid capex supercycle driven by data center load, 2026-2030</h1>
+<p class="meta">Run grid-capex, generated 2026-07-03. Float band $150MM to $5,000MM. Draft for analyst review, not investment advice. Every filing claim links to its SEC document.</p>
+
+<h2>Consequence map</h2>
+<table>
+<tr><th>Order</th><th>Direction</th><th>Consequence and mechanism</th><th>Follows from</th><th>Horizon</th><th>Evidence</th></tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Regulated electric utilities with T&amp;D investment plans</strong><br /><span class="muted">Rate base growth from T&amp;D investments accelerates allowed returns.</span></td>
+            <td class="muted">scenario</td>
+            <td>mid</td>
+            <td>4 names, 400 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>High-voltage electrical equipment suppliers</strong><br /><span class="muted">Order books swell as utilities and data centers directly procure long-lead equipment.</span></td>
+            <td class="muted">scenario</td>
+            <td>near</td>
+            <td>2 names, 211 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Engineering and construction firms for utility infrastructure</strong><br /><span class="muted">Backlog grows from EPC contracts for substations, lines, and grid upgrades.</span></td>
+            <td class="muted">scenario</td>
+            <td>near</td>
+            <td>1 names, 313 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="risk">at risk</td>
+            <td><strong>Industrial electricity consumers with high energy intensity</strong><br /><span class="muted">Pass-through of T&amp;D infrastructure costs raises industrial power bills.</span></td>
+            <td class="muted">scenario</td>
+            <td>long</td>
+            <td>4 names, 400 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="risk">at risk</td>
+            <td><strong>Power generation developers facing interconnection bottlenecks</strong><br /><span class="muted">Interconnection queue bottlenecks and equipment shortages delay generation projects.</span></td>
+            <td class="muted">scenario</td>
+            <td>mid</td>
+            <td>6 names, 328 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Copper and electrical steel producers</strong><br /><span class="muted">Transformer and cable manufacturers expand purchasing, tightening markets for grain-oriented electrical steel and copper conductor.</span></td>
+            <td class="muted">High-voltage electrical equipment suppliers</td>
+            <td>near</td>
+            <td>5 names, 163 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="risk">at risk</td>
+            <td><strong>Specialized grid construction labor</strong><br /><span class="muted">Shortage of linemen and high-voltage electricians pushes up per-hour costs on fixed-price contracts.</span></td>
+            <td class="muted">Engineering and construction firms for utility infrastructure</td>
+            <td>mid</td>
+            <td>2 names, 178 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Behind-the-meter generation and storage providers</strong><br /><span class="muted">Declining DER costs combine with rising delivered power prices to improve project ROI.</span></td>
+            <td class="muted">Industrial electricity consumers with high energy intensity</td>
+            <td>mid</td>
+            <td>0 names, 400 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="risk">at risk</td>
+            <td><strong>Existing renewable generation assets in congested regions</strong><br /><span class="muted">Insufficient transfer capacity between regions forces curtailment of existing wind/solar and reduces realized power prices.</span></td>
+            <td class="muted">Power generation developers facing interconnection bottlenecks</td>
+            <td>mid</td>
+            <td>2 names, 300 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="risk">at risk</td>
+            <td><strong>Data center developers</strong><br /><span class="muted">Lead times for transformers and switchgear extend, and utilities impose larger interconnection cost allocations.</span></td>
+            <td class="muted">Power generation developers facing interconnection bottlenecks</td>
+            <td>near</td>
+            <td>6 names, 312 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Aluminum wire and cable manufacturers</strong> <span class="ws">white space</span><br /><span class="muted">Price differential between copper and aluminum widens, accelerating substitution in distribution cables and busbars.</span></td>
+            <td class="muted">Copper and electrical steel producers</td>
+            <td>long</td>
+            <td>0 names, 1 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Prefabricated and modular substation providers</strong><br /><span class="muted">Utilities and EPCs standardize designs and move toward factory-built assemblies to reduce field labor hours.</span></td>
+            <td class="muted">Specialized grid construction labor</td>
+            <td>mid</td>
+            <td>5 names, 61 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="risk">at risk</td>
+            <td><strong>Regulated utilities with volumetric rate structures</strong><br /><span class="muted">Fixed grid costs are spread over fewer kWh, increasing per-unit charges and incentivizing further defection.</span></td>
+            <td class="muted">Behind-the-meter generation and storage providers</td>
+            <td>long</td>
+            <td>5 names, 200 filings</td>
+          </tr>
+</table>
+
+<h2>Ranked names</h2>
+<table>
+<tr><th>Ticker</th><th>Company</th><th>Map node</th><th>Float</th><th>Exposure</th><th>Insider net 12m</th><th>Composite</th></tr>
+<tr>
+        <td class="mono">NWE</td>
+        <td>NorthWestern Energy Group, Inc.</td>
+        <td>Power generation developers facing interconnection bottlenecks</td>
+        <td>$3,149MM</td>
+        <td>direct</td>
+        <td>$0</td>
+        <td>69</td>
+      </tr>
+<tr>
+        <td class="mono">WULF</td>
+        <td>TERAWULF INC.</td>
+        <td>Data center developers</td>
+        <td>$1,272MM</td>
+        <td>direct</td>
+        <td>-$31.1MM</td>
+        <td>51</td>
+      </tr>
+<tr>
+        <td class="mono">RIOT</td>
+        <td>Riot Platforms, Inc.</td>
+        <td>Existing renewable generation assets in congested regions</td>
+        <td>$2,100MM</td>
+        <td>direct</td>
+        <td>$0</td>
+        <td>48</td>
+      </tr>
+<tr>
+        <td class="mono">WS</td>
+        <td>Worthington Steel, Inc.</td>
+        <td>Copper and electrical steel producers</td>
+        <td>$1,501MM</td>
+        <td>adjacent</td>
+        <td>$0</td>
+        <td>30</td>
+      </tr>
+<tr>
+        <td class="mono">ENS</td>
+        <td>EnerSys</td>
+        <td>Regulated utilities with volumetric rate structures</td>
+        <td>$4,153MM</td>
+        <td>adjacent</td>
+        <td>-$990M</td>
+        <td>22</td>
+      </tr>
+</table>
+
+<h2>Rubric</h2>
+<table>
+<tr><th>Dimension</th><th>Weight</th><th>Definition</th></tr>
+<tr><td>optionality</td><td>0.25</td><td class="muted">Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.</td></tr>
+<tr><td>revenueToOpportunity</td><td>0.2</td><td class="muted">Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.</td></tr>
+<tr><td>customerValidation</td><td>0.2</td><td class="muted">Proof that real customers are paying, from the customer graph: named enterprise customers, federal award dollars (USASpending), and how many other filers name the company as a supplier. 5 means material customer dollars from a named enterprise or government buyer; 0 means no customer evidence. Deterministic from the dossier.</td></tr>
+<tr><td>catalystDensity</td><td>0.15</td><td class="muted">Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.</td></tr>
+<tr><td>insiderConviction</td><td>0.1</td><td class="muted">Open-market buying by officers and directors over the trailing 12 months, from Form 4. 5 means a cluster buy of size (multiple insiders, net buying above the size threshold); 0 means heavy net selling. Grants and option exercises are excluded. Deterministic from the dossier.</td></tr>
+<tr><td>managementConviction</td><td>0.1</td><td class="muted">Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.</td></tr>
+</table>
+
+<h2>Theses</h2>
+<section class="thesis">
+        <h2>NWE: Regulated utility playing the grid buildout – but without the data center direct exposure</h2>
+<h3>Bear case first</h3>
+<p>NorthWestern’s $3.2B capital plan is funded by debt and equity, not by new data-center-driven load. The company has no named customer or program tied to hyperscale demand. Its 4–6% growth target is in line with baseline utility growth, not a supercycle. Insider buying is $0 – zero conviction from those closest to the business. The $209M in federal awards is for health services, not grid infrastructure, and no other filings name a data center customer. The thesis that grid capex for data centers will boost NWE assumes a channel that the evidence does not support.</p>
+<h3>Business today</h3>
+<p>NorthWestern is a regulated electric and gas utility operating primarily in Montana and South Dakota. For 2025, it reported revenue of $414.3MM and cash of $8.8MM (SEC XBRL). Earnings are driven by rate base; the company targets 4–6% annual rate base and EPS growth [0][2].</p>
+<h3>Chain position</h3>
+<p>NWE occupies the *regulated transmission and distribution* node of the grid capex chain. Its economic logic is that new generation interconnection (wind, solar) and regional transmission projects (e.g., North Plains Connector) require utility-owned infrastructure. However, the company does not explicitly reference data center load or interconnection queue bottlenecks – the seed thesis mechanism.</p>
+<h3>Customer graph</h3>
+<p>No named enterprise or data center customer. Federal awards total $209MM from the Department of Health and Human Services (USASpending) – not grid related. Two other filers name NWE in SEC filings (customer graph). Customer evidence is thin; the revenue base is regulated tariffs, not contracted commercial offtake.</p>
+<h3>Insider and management signal</h3>
+<p>Insider open-market activity: $0 net, 0 buys, 0 sales by 0 insiders over trailing 12 months (Form 4). Management language is quantified and confident: 4–6% growth targets, $3.2B capital plan, equity issuance beginning 2027 [2][3]. Absence of insider buying is a neutral-to-negative read given the stated conviction.</p>
+<h3>Street view</h3>
+<p>No sell-side consensus, mean target, or analyst count is available from the provided evidence. Coverage is effectively zero. For a $3.1B float company, this is thin and leaves room for a catalyst-driven re-rate – or for the thesis to remain unrecognized.</p>
+<h3>Non-linear case</h3>
+<p>For NWE to return a multiple of today’s business, the grid capex supercycle must translate into explicit data-center-related transmission projects that bypass normal rate case lags. The $700M North Plains Connector grant [6] could be the first domino – if it attracts co-located data center load that NWE serves. The company would need to file a major new transmission project with named customer(s) and accelerate equity issuance to capture the upside before rate base growth.</p>
+<h3>Evidence</h3>
+<ul>
+<li>[0] Target 4–6% annualized earnings and rate base growth.</li>
+<li>[1] $5.6B rate base investment.</li>
+<li>[2] Affirmed 2026 EPS guidance ($3.68–$3.83), 4–6% long-term growth, $3.2B capital plan.</li>
+<li>[3] Equity issuances beginning in 2027; targeting FFO/debt 14%.</li>
+<li>[4] Historical $2.72B invested vs. forecast $3.21B next 5 years.</li>
+<li>[5] Debt/cap target 50–55%.</li>
+<li>[6] North Plains Connector: $6B, 425-mile HVDC line, $700M grant.</li>
+<li>[7] No separate FERC rate base reporting.</li>
+<li>[8] Montana gas revenue step-down for natural gas asset depletion.</li>
+<li>[9] Coal generation rate base is a small %; revenue not easily identifiable.</li>
+<li>[10] Fully regulated, rate base is primary earnings driver.</li>
+<li>[11] Only 7–8% earnings from jointly owned coal generation.</li>
+<li>[12] 592 MW of Colstrip generation acquired 1/1/2026.</li>
+</ul>
+<h3>What would change our mind</h3>
+<p>1. A Form 4 filing showing insider open-market purchases exceeding $100K – would signal conviction.</p>
+<p>2. An 8-K or customer graph update naming a data center or hyperscale company as a customer or anchor tenant on a transmission project.</p>
+<p>3. A federal award or DOE grant specifically tied to data center grid interconnection, not general health services.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> This investment is expected to drive annualized earnings and rate base growth of approximately 4% - 6%. + The NorthWestern Value Proposition + 7 = = 2026-2030 Capital Investment ($ Millions) A Diversified Electric and Gas Utility 8 NorthWestern s 80/20 rules: Approximately 80% Electric and 80% Montana. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Nearly $5.6 billion of rate base investment to serve our customers. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> 20 Affirming 2026 Non-GAAP EPS Guidance of $3.68 - $3.83 per diluted share Affirming long-term growth rate from 2024 base1 EPS growth of 4% to 6% Rate base growth of 4% to 6% Continued focus on closing the gap between earned &amp; authorized returns $3.2 billion 5-year capital plan including approximately $300 million of investment for generation development in South Dakota Cash from operations and debt to fund base capital plan. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> Equity issuances expected beginning in 2027 to fund South Dakota generation investment Targeting FFO / Debt 14% (1) Based on 2024 Adjusted Diluted Non-GAAP EPS of $3.40 and 2024 estimated rate base of $5.38 billion. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> Track Record of Growing Capital Investment 21 $2.72 Billion invested over the last 5 years* $3.21 Billion forecasted over the next 5 years** * Historical Capital Investment includes property, plant, and equipment additions and AFUDC Credit, both from our cash flow statement, and change in capital expenditures included in accounts payable. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> Target: 50% - 55% - Annual ratio based on average of each quarter's debt/cap ratio Excludes Finance Leases and New Market Tax Credit Financing Data as of March 31, 2026 23 Disciplined Expense Program Per Customer Per Employee Per Rate Base NorthWestern ranks favorably among our regional peers for electric expense efficiency. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[6]</span> 55% 29 Regional Transmission Opportunities Colstrip Transmission System North Plains Connector (NPC) Consortium Project Approximately $6 billion, 425-mile, 525kv high-voltage direct-current transmission line connecting to Montana's Colstrip substation, bridging the eastern and western U.S. energy grids Project awarded $700M Grid Resilience &amp; Innovation Partnership grant by U.S. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[7]</span> Therefore, we do not separately reflect FERC authorized rate base or authorized returns. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[8]</span> (2) The Montana gas revenue requirement includes a step-down which approximates annual depletion of our natural gas production assets included in rate base. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[9]</span> Coal Generation Rate Base as a percentage of Total Rate Base Revenue from coal generation is not easily identifiable due to the use of bundled rates in South Dakota and other rate design and accounting considerations. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[10]</span> However, NorthWestern is a fully regulated utility company for which rate base is the primary driver of earnings. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[11]</span> The data to the left illustrates that NorthWestern only derives approximately 7-8% of earnings from its jointly owned coal generation rate base. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[12]</span> Rate Base &amp; Authorized Return Summary Appendix 36 2025 System Statistics 37 Note: Statistics above are as of 12/31/2025, including 592 MW of Colstrip generation supply acquired 1/1/2026. <span class="muted">(8-K, filed 2026-06-02, <a href="https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>WULF: Data center developer exposed to rising interconnection costs from the US grid capex supercycle</h2>
+<h3>Bear case first</h3>
+<p>The thesis relies on a bottleneck that raises TeraWulf’s own development costs. Insider selling of $31.1MM net over 10 buys and 15 sales (Form 4) signals conviction is weak inside the firm. No named customer has been disclosed, and zero federal awards appear in USASpending. Without a contract that ties the 1+ GW campus to a paying tenant, the acquisition merely adds land and power rights that may never generate revenue.</p>
+<h3>Business today</h3>
+<p>TeraWulf develops and operates large-scale digital infrastructure campuses for AI and high-performance computing. Revenue was $13.4MM and cash was $3266.4MM as of 2020-12-31 (SEC XBRL). The business today is a small fraction of the 1+ GW opportunity described.</p>
+<h3>Chain position</h3>
+<p>TeraWulf occupies the data center developer node (order 2, at_risk). The economic logic is that developers compete with grid operators for the same transformers and switchgear; as utilities impose larger interconnection cost allocations and lead times extend, project returns fall. The supercycle they help create thus works against their own economics.</p>
+<h3>Customer graph</h3>
+<p>No named enterprise customers exist in the filings. Federal awards are $0 (USASpending). Zero other filers name the company in their disclosures. Customer evidence is thin; the revenue base remains unproven beyond the existing small figure.</p>
+<h3>Insider and management signal</h3>
+<p>Insiders have sold a net $31.1MM in open-market transactions over the trailing 12 months (Form 4). Management language is highly specific: “defining constraint is power” and the site “Muskie” is described with 1+ GW capacity, a 345 kV substation, and a 765 kV network [4][5]. The verbal conviction is strong, but insider actions contradict it.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is absent: no analysts, no consensus, no mean target. For a company with $13MM revenue and a $1.3BN market cap, the lack of analyst research is itself a sign that the market has not yet priced the potential.</p>
+<h3>Non-linear case</h3>
+<p>If TeraWulf completes the 345 kV substation, secures a named hyperscaler tenant, and builds out the full 1+ GW campus, revenue could multiply by a factor of 100 or more. The defining constraint is power, and the Muskie site has redundant 765 kV transmission and already-zoned land [1][3]. The outcome requires execution certainty and a customer commitment, neither of which is demonstrated today.</p>
+<h3>Evidence</h3>
+<ul>
+<li>The acquisition expands the portfolio of large-scale digital infrastructure campuses and advances the strategy of developing shovel-ready AI/HPC sites. [0]</li>
+<li>Kentucky Power is constructing a 345 kV substation connected to the 765 kV network, designed to support the full 1+ GW campus. [1]</li>
+<li>Transmission infrastructure and energy service agreements were executed concurrently with the acquisition under the applicable Industrial General Service tariff. [2]</li>
+<li>The site is zoned, permitting is underway, and limited site work is required. [3]</li>
+<li>Management stated: “the defining constraint in this market is no longer computing hardware, it is power, transmission infrastructure, and execution certainty.” [4]</li>
+<li>Management described Muskie as combining scalable power, robust transmission, development readiness, and strategic positioning that is difficult to replicate. [5]</li>
+</ul>
+<h3>What would change our mind</h3>
+<ul>
+<li>A named customer contract or letter of intent filed on an 8-K or in a material definitive agreement.</li>
+<li>A Form 4 showing an insider open-market purchase of at least $1MM in a single transaction.</li>
+<li>A federal award (USASpending) or a utility interconnection milestone filing that confirms the substation is complete and energized.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> The acquisition meaningfully expands TeraWulf s portfolio of large-scale, energy-advantaged digital infrastructure campuses and advances the Company s strategy of developing shovel-ready AI and HPC sites with long-term power availability, robust transmission infrastructure, and strong community alignment. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Kentucky Power, an AEP Company, is constructing a 345 kV substation connected to the existing 765 kV transmission network, providing redundant, utility-scale power infrastructure designed to support the full 1+ GW campus. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Transmission infrastructure and energy service agreements were executed concurrently with the acquisition pursuant to the applicable Industrial General Service tariff structure for large loads, establishing a clear pathway to long-term, large-scale power delivery. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> The site is already zoned for its intended use, with permitting activities underway and limited site work required to support data center construction. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> As we said then, the defining constraint in this market is no longer computing hardware it is power, transmission infrastructure, and execution certainty. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> Prager continued, Muskie combines scalable power, robust transmission infrastructure, development readiness, and strategic regional positioning in a way that is increasingly difficult to replicate. <span class="muted">(8-K, filed 2026-05-26, <a href="https://www.sec.gov/Archives/edgar/data/1083301/000108330126000109/wulfeasternkypr5-26x26.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>RIOT: Data center pivot is speculative; core mining revenue faces headwinds from grid congestion and absent customer validation</h2>
+<h3>Bear case first</h3>
+<p>The company’s pivot to data centers is aspirational, with no named enterprise customers and zero federal awards (USASpending). Management’s forward-looking statements [0] lack quantified revenue targets, and the Rockdale lease NOI excludes capex and other material costs [1]. Insider trading is absent over the trailing 12 months (Form 4), signaling no conviction from those closest. The $647MM mining revenue (XBRL) is at risk from Bitcoin price volatility and rising competition, while the data center opportunity remains unquantified. Without customer validation, the thesis that grid congestion will yield cheap power for data centers is unsubstantiated.</p>
+<h3>Business today</h3>
+<p>Riot Platforms mines Bitcoin, earning revenue from mining rewards and power curtailment credits from ERCOT demand response programs [2][3]. As of 2025-12-31, revenue was $647.4MM and cash $233.5MM (XBRL).</p>
+<h3>Chain position</h3>
+<p>Riot is a commodity power consumer that buys low-cost electricity for energy-intensive computing. The seed thesis posits that grid congestion will increase curtailment, lowering power prices in congested regions – a potential benefit if Riot can flexibly curtail mining or repurpose capacity for data centers. The company’s ability to capture that value depends on interconnection agreements and operational flexibility, neither of which is proven.</p>
+<h3>Customer graph</h3>
+<p>Riot has no named enterprise customers for its data center plans, no federal awards (USASpending), and zero other filers list the company as a customer. The only revenue source is Bitcoin mining, an anonymous commodity market, not a customer relationship. Customer validation is entirely unproven.</p>
+<h3>Insider and management signal</h3>
+<p>No insider bought or sold shares open-market in the trailing 12 months (Form 4). Management provides forward-looking statements on data center development and lease contracts [0] but offers no concrete milestones or quantified targets. The absence of insider transactions suggests either a lack of conviction or restricted trading windows, but no positive signal.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is unknown; no analyst firm, consensus, or target is publicly available. Thin coverage leaves the stock underfollowed, which amplifies volatility but provides room for positive surprise if catalysts emerge.</p>
+<h3>Non-linear case</h3>
+<p>The non-linear outcome requires Riot to execute the Rockdale data center lease, secure additional customers, and convert cheap power into recurring NOI as described [0]. If grid congestion drives sustained negative power prices, Riot could monetize both mining and demand response. A successful pivot could multiply revenue from a single-digit multiple to double-digit multiple, but this depends on customer contracts, energization timelines (projected but not dated), and operational execution – all unproven.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Plans to develop data centers and the Rockdale lease are disclosed as forward-looking statements [0].</li>
+<li>Power curtailment credits from ERCOT demand response programs are recognized outside cost of revenue [2][3].</li>
+<li>Lease NOI is presented excluding capital expenditures, material financial obligations, and other costs that could materially affect results [1].</li>
+</ul>
+<h3>What would change our mind</h3>
+<ul>
+<li>A definitive data center lease agreement with a named enterprise customer filed via 8‑K or 10‑Q.</li>
+<li>Insider open-market purchases of at least $1MM aggregate within a quarter (Form 4).</li>
+<li>A federal award or grant for data center operations recorded in USASpending.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> These forward-looking statements may include, but are not limited to: plans to develop data centers; the Company&amp;#x2019;s data center lease at the Rockdale Site; total lease contract value over the term with and without exercising options and extension; net operating income (&amp;#x201C;NOI&amp;#x201D;) of the lease; projected delivery timeline of the site; forecasted demand for energy at the sites; construction plans; forecasted capital expenditures and descriptions thereof; projected energization timelines; and the Company&amp;#x2019;s other plans, objectives, expectations, and intentions. <span class="muted">(8-K, filed 2026-04-30, <a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> This measure excludes the impact of capital expenditures, material financial obligations, general and administrative expenses and depreciation and amortization, all of which have real economic effects and could materially affect the Company&amp;#x2019;s consolidated financial results. <span class="muted">(8-K, filed 2026-04-30, <a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> 3.Power curtailment credits are credited against our power invoices as a result of temporarily pausing our operations to participate in ERCOT&amp;#x2019;s Demand Response Service Programs. <span class="muted">(8-K, filed 2026-04-30, <a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> These credits are recognized in Power Curtailment Credits on our Consolidated Statement of Operations, outside of cost of revenue. <span class="muted">(8-K, filed 2026-04-30, <a href="https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>WS: Beneficiary of grid capex supercycle with limited direct evidence of exposure</h2>
+<h3>Bear case first</h3>
+<p>The filing evidence ties 80% of Worthington’s steel sold to automotive applications (clutch plates and electrical steel laminations) [0]. No customer or contract ties the company to the transformer or grid buildout. Electrical steel expansion in Canada, Mexico, and Germany is mentioned [1][2] but without quantified capacity, revenue contribution, or named buyers. The company’s $3.1B revenue base makes electrical steel likely a small fraction today. Zero insider trading (Form 4) and no federal awards (USASpending) offer no corroborating signal.</p>
+<h3>Business today</h3>
+<p>Worthington Steel sells flat-rolled steel products, with electrical steel laminations and clutch plates representing 80% of steel sold to the North American automotive market [0]. As of May 2025, revenue was $3,093.3MM and cash $38.0MM (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>The company is a producer of electrical steel, a material essential for transformer cores. In a grid capex supercycle, transformer demand rises, tightening electrical steel supply. Volume and price leverage accrue to producers, but Worthington’s current filings show no explicit link to grid or transformer customers.</p>
+<h3>Customer graph</h3>
+<p>No named enterprise customers. Federal awards total $0 (USASpending). One other filer names the company. Customer evidence is extremely thin; the primary end market identified is automotive [0].</p>
+<h3>Insider and management signal</h3>
+<p>No insider open-market buying or selling in the trailing 12 months (Form 4). Management language highlights expanding electrical steel capabilities via acquisitions (Sitem in Germany, licensed ablation technology) but provides no quantified targets, capacity timelines, or customer program names [1][2].</p>
+<h3>Street view</h3>
+<p>No sell-side coverage identified. Consensus and mean target are unavailable. The absence of analyst attention leaves the stock under-covered relative to a thematic name.</p>
+<h3>Non-linear case</h3>
+<p>If data center load drives a US transformer boom starting 2026, electrical steel demand could outstrip near-rigid supply. Worthington’s expansion in Canada, Mexico, and Germany [1][2] could capture a meaningful share. With high operating leverage, margins expand non-linearly. Electrical steel, a small portion today, could become the dominant earnings driver, multiplying the current business multiple.</p>
+<h3>Evidence</h3>
+<ul>
+<li>[0] Clutch plate and electrical steel laminations represent 80% of steel sold by Worthington to the automotive market; average North American vehicle contains ~2,000 lbs of flat-roll steel.</li>
+<li>[1] Expanding electrical steel capabilities in Canada and Mexico; licensed ablation technology; Sitem acquisition strengthens global presence for electrical steel.</li>
+<li>[2] Deferred tax asset adjustment for Tempel’s electrical steel facility in Nagold, Germany, included in Sitem Group purchase.</li>
+<li>[3] Free cash flow defined as operating cash flows less capital expenditures.</li>
+</ul>
+<h3>What would change our mind</h3>
+<p>1. A named transformer or grid equipment manufacturer as a customer, appearing in a Form 8-K or 10-K.</p>
+<p>2. A specific capacity addition with a target timeline and estimated output disclosed in a filing.</p>
+<p>3. Open-market insider purchases (Form 4) indicating conviction in the grid theme.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> 1 3 HYBRID Clutch plate and electrical steel laminations 80% of Steel Sold by Worthington to Automotive Market Supports Powertrain-Agnostic Parts *In North America, the average vehicle contains approximately 2,000 lbs of flat roll Steel (excluding the engine). <span class="muted">(8-K, filed 2026-06-25, <a href="https://www.sec.gov/Archives/edgar/data/1968487/000196848726000015/ws-ex99_2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Applying Transformation to corporate functions Expanding electrical steel capabilities in Canada and Mexico Licensed ablation technology to open new opportunities for TWB Sitem acquisition strengthens global presence for electrical steel Strong Cash Flow Supports Growth Initiatives Note: FY is fiscal year ended May 31. <span class="muted">(8-K, filed 2026-06-25, <a href="https://www.sec.gov/Archives/edgar/data/1968487/000196848726000015/ws-ex99_2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Deferred tax asset adjustment &amp;#x2013; Tempel&amp;#x2019;s electrical steel facility in Nagold, Germany was included as part of the purchase consideration for the Sitem Group acquisition. <span class="muted">(8-K, filed 2026-06-25, <a href="https://www.sec.gov/Archives/edgar/data/1968487/000196848726000015/ws-ex99_2.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> Free Cash Flow is defined as operating cash flows less capital expenditures. <span class="muted">(8-K, filed 2026-06-25, <a href="https://www.sec.gov/Archives/edgar/data/1968487/000196848726000015/ws-ex99_2.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>ENS: EnerSys lacks direct exposure to the US grid capex supercycle from data center load</h2>
+<h3>Bear case first</h3>
+<p>The company’s energy storage offerings address standard applications, demand charge reduction, utility backup, EV charging, with no disclosed investment or contracts tied to grid-scale infrastructure for data centers. Insider net selling of approximately $1M over the trailing 12 months signals low conviction from the one insider who traded (Form 4). Federal awards total $333.4MM, but the two largest are from the Department of Energy ($198.7MM) and Department of Defense ($18.3MM combined), not from investor-owned utilities or data center operators. The filings show no named enterprise customers, no revenue attribution to a grid-capex segment, and no dated catalysts. The seed thesis of a data-center-driven supercycle does not appear in EnerSys’s current evidence.</p>
+<h3>Business today</h3>
+<p>EnerSys, through its New Ventures segment, supplies energy storage and management systems for demand charge reduction, utility back-up power, and dynamic fast charging for electric vehicles [0]. As of fiscal Q3 2020, revenue was $216.1MM and cash was $438.7MM (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>EnerSys is a hardware and systems provider in the energy storage supply chain, not a utility or project developer. Its economic logic depends on selling modular storage to commercial and industrial customers, not on capturing utility-rate-base expansion or volumetric rate redesign.</p>
+<h3>Customer graph</h3>
+<p>Named enterprise customers: none in the evidence. Government awards total $333.4MM: $198.7MM from the Department of Energy (DEMS0000119), $9.2MM and $9.1MM from the Department of Defense (N0016408CGS07 and 0009) (USASpending). Five other SEC filers name EnerSys as a customer. Customer evidence is thin: a few federal awards and no disclosed commercial accounts.</p>
+<h3>Insider and management signal</h3>
+<p>One insider executed 1 buy and 2 sales for net open-market proceeds of approximately -$1M over the trailing 12 months (Form 4). Management language in the sole filing is generic (“various applications”) with no quantified targets, committed capex, or named programs [0].</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is unknown; consensus and mean target are not available. The absence of analyst estimates itself indicates the stock is under-covered relative to the grid-capex theme.</p>
+<h3>Non-linear case</h3>
+<p>EnerSys could win a large, multi-year grid-scale storage contract from a major utility or a hyperscaler seeking behind-the-meter backup for data centers. Such an award would appear in an 8-K or a new federal award on USASpending. If the company also demonstrated insider buying (Form 4) and management guided to a dedicated grid-capex revenue line, a re-rating would be possible. Today no evidence supports that path.</p>
+<h3>Evidence</h3>
+<ul>
+<li>[0] (8-K, 2026-05-20): New Ventures provides energy storage and management systems for demand charge reduction, utility back-up power, and dynamic fast charging for electric vehicles.</li>
+</ul>
+<h3>What would change our mind</h3>
+<p>1. A material grid-storage contract with a named utility or data center operator, disclosed in an 8-K.</p>
+<p>2. Open-market insider purchases totaling more than $500M (Form 4).</p>
+<p>3. A new federal award from the Department of Energy or a utility-specific RFP that exceeds $100MM (USASpending).</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> New Ventures provides energy storage and management systems for various applications including demand charge reduction, utility back-up power, and dynamic fast charging for electric vehicles. <span class="muted">(8-K, filed 2026-05-20, <a href="https://www.sec.gov/Archives/edgar/data/1289308/000162828026036903/ex992_dividendx4qfy26.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+</body>
+</html>

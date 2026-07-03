@@ -4,20 +4,28 @@
 
 create table runs (
   id text primary key,              -- run slug
-  seed text not null,
+  seed text not null,               -- the scenario
   created_at timestamptz not null default now(),
   float_band_mm int4range not null,
   mode text not null check (mode in ('live', 'fixture')),
-  rubric jsonb not null             -- weights + definitions frozen per run, so past ranks stay reproducible
+  rubric jsonb not null,            -- weights + definitions frozen per run, so past ranks stay reproducible
+  asof date,                        -- filings-only backtest bound, null = live
+  counter_of text references runs(id)
 );
 
 create table chain_nodes (
   id text not null,
   run_id text not null references runs(id) on delete cascade,
-  layer text not null check (layer in ('enabler', 'picks_and_shovels', 'second_order', 'disrupted')),
+  parent_id text,                   -- null = follows directly from the scenario
+  ord int not null check (ord >= 1),
+  polarity text not null check (polarity in ('beneficiary', 'at_risk')),
   name text not null,
+  mechanism text not null,
   logic text not null,
+  horizon text not null check (horizon in ('near', 'mid', 'long')),
   search_phrases jsonb not null,
+  filing_hits int,
+  white_space boolean,
   primary key (run_id, id)
 );
 

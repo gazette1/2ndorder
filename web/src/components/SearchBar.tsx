@@ -25,7 +25,7 @@ export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }:
         <input
           className="search-input"
           type="text"
-          placeholder="Search a thesis, theme, or company"
+          placeholder="Enter a scenario, thesis, or theme"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           disabled={busy}
