@@ -1,0 +1,55 @@
+{
+  "cik": "0001590584",
+  "ticker": "CVEO",
+  "name": "Civeo Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001590584-26-000021",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1590584/000159058426000021/cveo-20251231.htm"
+  },
+  "business": "Civeo Corp provides hospitality services to remote workforces in Australia and Canada, including catering, lodging, housekeeping, and maintenance at accommodation facilities that it or its customers own. Its customers include mining companies, major and independent oil companies, construction and engineering companies, and oilfield and mining service companies.",
+  "sellsTo": [
+    "mining companies",
+    "major and independent oil companies",
+    "construction and engineering companies",
+    "oilfield and mining service companies"
+  ],
+  "namedCustomers": [
+    "Fortescue Metals Group Ltd.",
+    "Suncor Energy Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We provide hospitality services to remote workforces in Australia and Canada, including catering and food service, lodging, housekeeping and maintenance at accommodation facilities that we or our customers own."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We primarily operate in some of the world's most active met coal, oil, iron ore and liquefied natural gas (LNG) producing regions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "In addition to these historical demand drivers, there is increasing demand, of relative significance, for our assets and services tied to data center construction."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Phase 1 of Kitimat LNG Facility and commencement of commercial operations",
+      "date": "2025-06-30",
+      "sentence": "Construction activity of Phase 1 of the Kitimat LNG Facility has been completed and commercial operations commenced in June 2025."
+    },
+    {
+      "event": "Acquisition of Qantac Pty Ltd",
+      "date": "2025-05-06",
+      "sentence": "On May 6, 2025, we acquired Qantac Pty Ltd (Qantac), located in Queensland, Australia (the Qantac Acquisition)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:13:21.810Z",
+  "model": "deepseek-v4-flash"
+}

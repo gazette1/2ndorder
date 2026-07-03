@@ -1,0 +1,72 @@
+{
+  "cik": "0001111335",
+  "ticker": "VC",
+  "name": "VISTEON CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001111335-26-000006",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1111335/000111133526000006/vc-20251231.htm"
+  },
+  "business": "Visteon is a global automotive technology company that designs and manufactures digital instrument clusters, information displays, infotainment systems, cockpit domain controllers, battery management systems, high voltage power electronics, and provides engineering services. It serves major global vehicle manufacturers such as BMW, Ford, General Motors, Volkswagen, and others.",
+  "sellsTo": [
+    "global automotive OEMs",
+    "two-wheeler OEMs",
+    "commercial vehicle OEMs"
+  ],
+  "namedCustomers": [
+    "BMW",
+    "Ford",
+    "Geely",
+    "General Motors",
+    "Honda",
+    "Jaguar/Land Rover",
+    "Mahindra",
+    "Mazda",
+    "Mercedes-Benz",
+    "Mitsubishi",
+    "Nissan",
+    "Renault",
+    "Stellantis",
+    "Tata",
+    "Toyota",
+    "Volkswagen"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Company offers CognitoAI , an in-house, automotive-grade A.I. software platform for the vehicle cockpit."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The Company offers SmartCore , an automotive-grade, integrated cockpit domain controller that can independently operate the infotainment system, instrument cluster, head-up display, rear-seat displays, and other features on a single, multi-core chip to improve efficiency, create a unified experience across products, and reduce power consumption and cost."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "The Company offers configurable battery management systems that support both wired and wireless battery sensing and control."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The Company's services include system architecture design, software development, user interface and human machine interaction design, functional safety, cybersecurity, software and system integration, and validation and testing activities."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Visteon products and services align with key industry trends and include digital instrument clusters, information displays, infotainment, cockpit domain controllers, CognitoAI TM , battery management systems, high voltage power electronics, and engineering services."
+    },
+    {
+      "tag": "other:automotive-displays",
+      "stance": "core_product",
+      "sentence": "The Company offers a range of information displays for various applications within the cockpit, incorporating a sleek profile, high perception quality displays and touch sensors designed to deliver high performance for the automotive market."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:45:54.505Z",
+  "model": "deepseek-v4-flash"
+}

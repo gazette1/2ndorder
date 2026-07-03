@@ -1,0 +1,53 @@
+{
+  "cik": "0001657573",
+  "ticker": "XMTR",
+  "name": "Xometry, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-066959",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526066959/xmtr-20251231.htm"
+  },
+  "business": "Xometry is an AI-native online marketplace that connects buyers with suppliers of custom manufacturing services, offering a range of manufacturing processes and additional services like advertising, financial services, and a cloud-based manufacturing execution system. Its buyers include engineers and procurement professionals from small businesses to Fortune 500 companies, and its suppliers are manufacturers who provide diverse processes such as CNC, 3D printing, injection molding, etc.",
+  "sellsTo": [
+    "Aerospace",
+    "Industrial",
+    "Medical Devices",
+    "Automotive",
+    "Consumer Goods",
+    "Defense",
+    "Government",
+    "Energy",
+    "Education",
+    "Robotics"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Xometry, Inc. is an AI-native global online manufacturing marketplace with a suite of services that are rapidly digitizing the custom manufacturing industry."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Workcenter, our cloud-based manufacturing execution system, gives suppliers a one-stop view into all of their Xometry and non-Xometry work."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In addition, our services include financial service products to facilitate faster payments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Thomas launched new platform tools including dynamic advertising platform and smart search",
+      "date": null,
+      "sentence": "In late 2025, Thomas launched new platform tools designed to help industrial buyers source the right suppliers, including a dynamic advertising platform and improved search technology."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:12:29.262Z",
+  "model": "deepseek-v4-flash"
+}

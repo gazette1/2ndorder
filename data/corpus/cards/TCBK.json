@@ -1,0 +1,41 @@
+{
+  "cik": "0000356171",
+  "ticker": "TCBK",
+  "name": "TRICO BANCSHARES /",
+  "source": {
+    "form": "10-K",
+    "accession": "0000356171-26-000010",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/356171/000035617126000010/tcbk-20251231.htm"
+  },
+  "business": "TriCo Bancshares is a bank holding company whose principal business is to serve as the holding company for Tri Counties Bank, a California-chartered commercial bank. The Bank offers consumer, small business and commercial banking services, including deposits, loans, treasury management, and wealth management through an arrangement with Raymond James. The majority of loans are secured by California real estate.",
+  "sellsTo": [
+    "Consumers",
+    "Small businesses",
+    "Commercial customers",
+    "Individuals and businesses in California"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also increasingly compete with financial technology or fintech companies for loans and other financial services customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks and exposures related to cybersecurity attacks, including litigation and enforcement risks, are expected to be elevated for the foreseeable future due to the rapidly evolving nature and sophistication of these threats, as well as due to the expanding use of Internet banking, mobile banking and other technology-based products and services by us and our customers."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The growing experimentation with and adoption of advanced technologies such as AI, quantum computing, distributed ledgers, tokenized deposits, blockchain, stablecoins, and other digital currencies, including the potential issuance, acceptance, and integration of central bank digital currencies has the potential to fundamentally reshape the financial services landscape."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:45:16.841Z",
+  "model": "deepseek-v4-flash"
+}

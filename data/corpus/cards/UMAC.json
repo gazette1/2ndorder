@@ -1,0 +1,102 @@
+{
+  "cik": "0001956955",
+  "ticker": "UMAC",
+  "name": "Unusual Machines, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-001730",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1956955/000168316826001730/umac_i10k-123125.htm"
+  },
+  "business": "Unusual Machines manufactures and sells drone components and drones across a diversified brand portfolio through business-to-business (B2B) sales and a curated retail channel, with brands including Unusual Machines, Rotor Riot, and Fat Shark.",
+  "sellsTo": [
+    "defense customers requiring NDAA-compliant supply chain",
+    "commercial drone manufacturers and system integrators",
+    "consumer retail via e-commerce"
+  ],
+  "namedCustomers": [
+    "Strategic Logix",
+    "Performance Drone Works",
+    "Red Cat",
+    "U.S. Army's 101st Airborne Division"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Unusual Machines is rapidly growing its business by onshoring the manufacturing of critical drone components in the United States. With the transition to onshoring drone component production, the Company is expanding B2B sales to customers that require a National Defense Authorization Act (NDAA)-compliant domestic supply chain."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Historically, Unusual Machines generated a significant portion of its revenue through direct-to-consumer sales via its Rotor Riot e-commerce platform."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Our products, including motors, batteries, and other advanced components, rely on rare earth metals for their manufacturing, of which a significant majority are sourced from China."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "We also plan to open a battery pack assembly and drone camera facility late in 2026."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Defense Contract Management Agency audits new drone components for supply chain and cybersecurity risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Secured $2.1 million order for domestically assembled drone systems for defense and government applications",
+      "date": "2026-01-15",
+      "sentence": "On January 15, 2026, we secured a $2.1 million order from a customer for domestically assembled drone systems for defense and government applications which includes Rotor Riot Brave flight controllers and ESCs, Fat Shark Aura analog cameras and video transmitters, HDO+ headsets and Unusual Machines motors."
+    },
+    {
+      "event": "Secured $3.75 million order from Performance Drone Works",
+      "date": "2025-12-22",
+      "sentence": "On December 22, 2025, we secured a $3.75 million order from Performance Drone Works (PDW) to support the scaling of PDW's FPV program."
+    },
+    {
+      "event": "Secured order from U.S. Army's 101st Airborne Division for 3,500 motors",
+      "date": "2025-10-15",
+      "sentence": "On October 15, 2025, we secured an order from the U.S. Army's 101st Airborne Division for 3,500 NDAA-compliance motors produced at our new U.S. based manufacturing facility."
+    },
+    {
+      "event": "Secured $800,000 purchase order from Red Cat",
+      "date": "2025-10-03",
+      "sentence": "On October 3, 2025, we secured an $800,000 purchase order for high-performance drone components from Red Cat."
+    },
+    {
+      "event": "Planned opening of battery pack assembly and drone camera facility",
+      "date": "2026-12-31",
+      "sentence": "We also plan to open a battery pack assembly and drone camera facility late in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global drone market projected to reach $57.8 billion by 2030",
+      "sentence": "According to Drone Industry Insights Global Drone Market Report 2025 2030, the global drone market is projected to reach approximately U.S. $57.8 billion by 2030."
+    },
+    {
+      "claim": "Drone accessories market valued at $25.2 billion in 2024, projected to reach $156 billion by 2034 at ~20% CAGR",
+      "sentence": "A Fact.MR report indicates the drone accessories market was valued at approximately $25.2 billion in 2024 and is projected to reach ~$156 billion by 2034 at a ~20% CAGR."
+    },
+    {
+      "claim": "Global drone flight controller system market $7.14 billion in 2024, expected to reach $13.05 billion by 2029 at ~12.8% CAGR",
+      "sentence": "Furthermore, the global drone flight controller system market was approximately $7.14 billion in 2024 and is expected to reach around $13.05 billion by 2029 (CAGR ~12.8%) according to the Business Research Company."
+    },
+    {
+      "claim": "Drone motor market valued at $4.7 billion in 2024, forecast to grow to $9.2 billion by 2030 and $15.9 billion by 2034 at ~13.1% CAGR",
+      "sentence": "Similarly, Global Market Insights reports that the drone motor market was valued at ~$4.7 billion in 2024 and is forecast to grow to ~$9.2 billion by 2030, and ~$15.9 billion by 2034 at a ~13.1% CAGR."
+    },
+    {
+      "claim": "Drone motor market $6.7 billion in 2025, expanding to $16.3 billion by 2034",
+      "sentence": "Fortune Business Insights likewise forecasts the motor market at $6.7 billion in 2025, with expansion toward $16.3 billion by 2034 as commercial and industrial drone deployment increases."
+    }
+  ],
+  "generatedAt": "2026-07-03T11:46:43.763Z",
+  "model": "deepseek-v4-flash"
+}

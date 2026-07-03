@@ -1,0 +1,77 @@
+{
+  "cik": "0001092796",
+  "ticker": "SWBI",
+  "name": "SMITH & WESSON BRANDS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-274254",
+    "filedAt": "2026-06-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1092796/000119312526274254/swbi-20260430.htm"
+  },
+  "business": "Smith & Wesson Brands, Inc. manufactures handguns, long guns, handcuffs, firearm suppressors, and other firearm-related products under the Smith & Wesson and Gemtech brands. It sells to firearm enthusiasts, collectors, hunters, sportsmen, competitive shooters, individuals desiring home and personal protection, law enforcement and security agencies and officers, and military agencies in the United States and worldwide. The company also sells manufacturing services to other businesses.",
+  "sellsTo": [
+    "firearm enthusiasts",
+    "collectors",
+    "hunters",
+    "sportsmen",
+    "competitive shooters",
+    "individuals desiring home and personal protection",
+    "law enforcement and security agencies and officers",
+    "military agencies",
+    "other businesses (manufacturing services)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We sell our products under the Smith & Wesson and Gemtech brands."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "During fiscal 2026, sales into our professional channel accounted for approximately 7.0% of our net sales, which included state and local law enforcement agencies, the federal government, and international customers."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "In fiscal 2025, we introduced a direct-to-consumer e-commerce website to offer non-serialized parts, accessories, and branded goods."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cybersecurity risks, including risks related to customer, employee, vendor, and other company data."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "High levels of inflation have adversely affected us and may continue to adversely affect us."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to protectionist trade restrictions, including tariffs and potential trade laws."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Continued new product introductions in fiscal 2027",
+      "date": null,
+      "sentence": "We plan to continue to introduce new products in fiscal 2027."
+    },
+    {
+      "event": "Capital expenditures of $40.0 million to $45.0 million in fiscal 2027",
+      "date": null,
+      "sentence": "Our current expectation that we will spend between $40.0 million to $45.0 million on capital expenditures in fiscal 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Annual domestic non-military firearm market approximately $2.7 billion for handguns and $1.7 billion for long guns, excluding shotguns",
+      "sentence": "We estimate that the annual domestic non-military firearm market based on industry shipments is approximately $2.7 billion for handguns and $1.7 billion for long guns, excluding shotguns."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:42:40.066Z",
+  "model": "deepseek-v4-flash"
+}

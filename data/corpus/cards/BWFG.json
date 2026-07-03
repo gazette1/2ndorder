@@ -1,0 +1,43 @@
+{
+  "cik": "0001505732",
+  "ticker": "BWFG",
+  "name": "Bankwell Financial Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001505732-26-000046",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1505732/000150573226000046/bwfg-20251231.htm"
+  },
+  "business": "Bankwell Financial Group, Inc. is a bank holding company that offers a broad range of financial services through its banking subsidiary, Bankwell Bank, a Connecticut state chartered bank. The bank provides commercial and consumer lending, deposit products, and digital banking services to small to medium-sized businesses, professionals, and not-for-profit organizations within a 100-mile radius of its branch network. It also selectively pursues commercial lending opportunities outside its market where it has strong relationships.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "professionals",
+    "not-for-profit organizations",
+    "commercial real estate investors",
+    "middle-market businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer online account opening, via our Bankwell Direct channel, providing a convenient and accessible way for clients to join our Bank."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure or disruption of the operating systems and technologies we use, including those of third parties, could adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of new full-service branch in Brooklyn, New York",
+      "date": "2026-03-31",
+      "sentence": "In December 2025, the Bank received regulatory approvals from the Federal Deposit Insurance Corporation ( FDIC ), the Connecticut Department of Banking ( CT DOB ), and the New York Department of Financial Services ( NY DFS ) to establish a new, full-service branch located in Brooklyn, New York which opened during the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:47:23.341Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0001704715",
+  "ticker": "AMR",
+  "name": "Alpha Metallurgical Resources, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001704715-26-000010",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/amr-20251231.htm"
+  },
+  "business": "Alpha Metallurgical Resources, Inc. is a mining company that produces metallurgical coal for the steel industry and thermal coal for utilities and industrial customers. It operates mines and coal preparation plants in Virginia and West Virginia, and owns a 65% interest in a coal export terminal.",
+  "sellsTo": [
+    "steel and coke producers",
+    "electric utilities",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We predominantly produce metallurgical ( met ) coal, which is shipped to domestic and international steel and coke producers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Kingston Wildcat underground mine begins production",
+      "date": "2026-03-31",
+      "sentence": "The mine, which will produce a Low-Vol. quality met coal, is expected to begin production in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. met coal production in 2024 was approximately 73.1 million tons.",
+      "sentence": "Of the approximately 73.1 million tons of met produced in the U.S. in 2024, we produced approximately 14.6 million tons, or 20%."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:15:16.914Z",
+  "model": "deepseek-v4-flash"
+}

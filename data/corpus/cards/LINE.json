@@ -1,0 +1,62 @@
+{
+  "cik": "0001868159",
+  "ticker": "LINE",
+  "name": "Lineage, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001868159-26-000012",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868159/000186815926000012/line-20251231.htm"
+  },
+  "business": "Lineage, Inc. is the world's largest global temperature-controlled warehouse REIT, operating a network of 501 warehouses with approximately 88 million square feet and 3.1 billion cubic feet of capacity. The company serves more than 11,000 customers, including household names among food retailers, manufacturers, processors, and food service distributors, generating $5.4 billion of revenue in 2025.",
+  "sellsTo": [
+    "food retailers",
+    "food manufacturers",
+    "food processors",
+    "food service distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "We believe we also have the largest automated temperature-controlled portfolio with 83 automated warehouses, 25 of which are fully automated and 58 of which are semi-automated."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our global integrated solutions segment provides our customers with solutions to move products through the food supply chain."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Through solar systems at our facilities, we had installed capacity of 222 megawatts of solar energy as of December 31, 2025."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Our approach to generating alternative sources of energy is primarily through the deployment of onsite solar, onsite battery capacity, and onsite generators."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be vulnerable to security breaches or cybersecurity incidents, which could disrupt our operations and have a material adverse effect on our financial condition and operating results."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to risks associated with artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hobart, Indiana cold storage facility expansion began operating",
+      "date": null,
+      "sentence": "In 2025, we also completed a new greenfield warehouse in Bremerhaven, Germany, and were near completion of a notable expansion at our Hobart, Indiana cold storage facility, which began operating in early 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:50:52.035Z",
+  "model": "deepseek-v4-flash"
+}

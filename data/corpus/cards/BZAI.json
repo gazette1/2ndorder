@@ -1,0 +1,65 @@
+{
+  "cik": "0001871638",
+  "ticker": "BZAI",
+  "name": "Blaize Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001871638-26-000011",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1871638/000187163826000011/blz-20251231.htm"
+  },
+  "business": "Blaize develops purpose-built AI-enabled computing solutions comprised of proprietary hardware and software, and complementary third-party hardware solutions. Its computing solutions are designed for efficient processing of AI inference workloads across edge and data center environments. The company also delivers third-party hardware solutions, primarily servers, that host its proprietary technology.",
+  "sellsTo": [
+    "edge environments",
+    "data center environments",
+    "automotive OEMs and Tier-1 suppliers",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Samsung Foundry",
+    "Plexus",
+    "VeriSilicon"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have created an AI computing accelerator, the GSP."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our computing solutions are designed for efficient processing of AI inference workloads across edge and data center environments."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our computing solutions are designed for efficient processing of AI inference workloads across edge and data center environments."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We outsource all of our manufacturing in relation to our AI chips and PCIe cards."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "This processor has been designed from the ground up for compute-intensive data parallel workloads, such as computer vision, machine learning, and AI applications."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "Our partnerships with certain automotive OEMs and Tier-1 suppliers are long-term in nature, and we will not receive firm purchase order commitments until we deliver our automotive-grade chip."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "We may conduct a portion of our business with third-party ecosystem partners to provide defensive solutions that incorporate our products to various foreign and domestic government agencies, which are subject to unique risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:59:41.306Z",
+  "model": "deepseek-v4-flash"
+}

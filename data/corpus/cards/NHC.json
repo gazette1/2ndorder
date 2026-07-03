@@ -1,0 +1,78 @@
+{
+  "cik": "0001047335",
+  "ticker": "NHC",
+  "name": "NATIONAL HEALTHCARE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005910",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926005910/nhc20251231_10k.htm"
+  },
+  "business": "National HealthCare Corporation (NHC) operates skilled nursing facilities, assisted living facilities, independent living facilities, homecare and hospice agencies, and behavioral health hospitals. It also provides management services, accounting and financial services, and insurance services to third-party operators of healthcare facilities. Net patient revenues are derived from Medicare, Medicaid, managed care, and private pay sources.",
+  "sellsTo": [
+    "Medicare",
+    "Medicaid",
+    "Managed care organizations",
+    "Private pay patients",
+    "Third-party healthcare operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "In addition, we provide management services, accounting and financial services, as well as insurance services to third party operators of health care facilities."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our I-SNP, which is called NHC Advantage, is a managed care insurance company that restricts enrollment to Medicare Advantage eligible individuals who, for 90 days or longer, have had or are expected to need the level of services provided in a skilled nursing facility."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "We continue to face workforce and labor shortages within all of our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CMS final rule for FY2026 SNF payment increase of 3.2% effective October 1, 2025",
+      "date": "2025-10-01",
+      "sentence": "The fiscal year 2026 rule equates to a net 3.2% increase in Medicare Part A payments to SNFs in fiscal year 2026 compared to 2025 levels."
+    },
+    {
+      "event": "CMS final rule for FY2026 home health payment decrease of 1.3% effective October 1, 2025",
+      "date": "2025-10-01",
+      "sentence": "CMS projects payments to home health agencies in fiscal year 2026 will decrease by 1.3% or $220 million, relative to the prior year."
+    },
+    {
+      "event": "CMS final rule for FY2026 hospice payment increase of 2.6% effective October 1, 2025",
+      "date": "2025-10-01",
+      "sentence": "CMS issued a rate increase of 2.6%, or $750 million, effective October 1, 2025."
+    },
+    {
+      "event": "Passage of One Big Beautiful Bill Act prohibiting CMS minimum staffing rule enforcement until October 1, 2034",
+      "date": "2025-07",
+      "sentence": "The passage of the One Big Beautiful Bill Act ( OBBB ) in July 2025 prohibited the Health and Human Services ( HHS ) from implementing, administering, or enforcing the Minimum Staffing Rule until October 1, 2034."
+    },
+    {
+      "event": "Tennessee Medicaid nursing facility rate increase effective July 1, 2025",
+      "date": "2025-07-01",
+      "sentence": "Effective July 1, 2025 and for the fiscal year 2026, the state of Tennessee implemented specific individual nursing facility increases. We estimate the resulting increase in revenue for the 2026 fiscal year will be approximately $3,000,000 annually, or $750,000 per quarter."
+    },
+    {
+      "event": "South Carolina proposed Medicaid nursing facility rate increase effective October 1, 2025",
+      "date": "2025-10-01",
+      "sentence": "Effective October 1, 2025 and for the fiscal year 2026, the state of South Carolina has proposed specific individual nursing facility increases. We estimate the resulting increase in revenue for the 2026 fiscal year will be approximately $4,200,000 annually, or $1,050,000 per quarter."
+    },
+    {
+      "event": "Acquisition of White Oak Management, Inc. on August 1, 2024",
+      "date": "2024-08-01",
+      "sentence": "On August 1, 2024, the Company purchased the assets of White Oak Management, Inc. ( White Oak )."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:49:17.192Z",
+  "model": "deepseek-v4-flash"
+}

@@ -14,6 +14,23 @@ import { CONFIG } from '../config.js';
 type Format = 'json' | 'markdown';
 export type Tier = 'heavy' | 'light';
 
+// USD per token, cache-miss input, from the provider's published pricing. Local
+// (ollama) and fixture calls cost nothing. Used to track real spend against a
+// budget for long batch jobs (Hermes backfill); not billing-accurate to the cent,
+// but close, since it reads the tokens the API itself reports per call.
+const PRICE_PER_TOKEN: Record<Tier, { in: number; out: number }> = {
+  light: { in: 0.14 / 1e6, out: 0.28 / 1e6 }, // deepseek-v4-flash
+  heavy: { in: 0.435 / 1e6, out: 0.87 / 1e6 }, // deepseek-v4-pro
+};
+
+let spentUSD = 0;
+export function getSpentUSD(): number {
+  return spentUSD;
+}
+export function resetSpentUSD(): void {
+  spentUSD = 0;
+}
+
 // Every prompt is written to disk before the call, so any output (live or fixture)
 // can be audited against the exact prompt that produced it.
 function savePrompt(slug: string, key: string, prompt: string) {
@@ -31,7 +48,7 @@ export async function llm(slug: string, key: string, prompt: string, format: For
     return finish(await callOllama(prompt, format, model), format);
   }
   if (provider === 'openai') {
-    return finish(await callOpenAiCompatible(prompt, format, model), format);
+    return finish(await callOpenAiCompatible(prompt, format, model, tier), format);
   }
 
   const ext = format === 'json' ? 'json' : 'md';
@@ -80,7 +97,7 @@ async function callOllama(prompt: string, format: Format, model: string): Promis
 }
 
 // Any OpenAI-compatible chat completions endpoint.
-async function callOpenAiCompatible(prompt: string, format: Format, model: string): Promise<string> {
+async function callOpenAiCompatible(prompt: string, format: Format, model: string, tier: Tier): Promise<string> {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('LLM_PROVIDER=openai needs OPENAI_API_KEY.');
   const body: Record<string, unknown> = {
@@ -96,7 +113,12 @@ async function callOpenAiCompatible(prompt: string, format: Format, model: strin
   });
   if (!res.ok) throw new Error(`LLM ${res.status}: ${await res.text()}`);
   const data = (await res.json()) as any;
-  console.log(`[llm] openai-compatible ${model} @ ${CONFIG.llm.openaiBaseURL}`);
+  const usage = data.usage;
+  if (usage) {
+    const price = PRICE_PER_TOKEN[tier];
+    spentUSD += (usage.prompt_tokens ?? 0) * price.in + (usage.completion_tokens ?? 0) * price.out;
+  }
+  console.log(`[llm] openai-compatible ${model} @ ${CONFIG.llm.openaiBaseURL} (spent so far $${spentUSD.toFixed(3)})`);
   return String(data.choices?.[0]?.message?.content ?? '');
 }
 

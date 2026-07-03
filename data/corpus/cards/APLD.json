@@ -1,0 +1,57 @@
+{
+  "cik": "0001144879",
+  "ticker": "APLD",
+  "name": "Applied Digital Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001144879-25-000021",
+    "filedAt": "2025-07-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000021/apld-20250531.htm"
+  },
+  "business": "Applied Digital Corp. is a U.S. designer, developer, and operator of next-generation data center infrastructure for high-performance computing (HPC) and artificial intelligence (AI). It operates two segments: Data Center Hosting Business providing energized infrastructure to crypto mining customers, and HPC Hosting Business building data centers for HPC and AI workloads. As of May 31, 2025, the Data Center Hosting Business serves one crypto mining customer with a 2.5-year contract, and the HPC Hosting Business has signed leases for 250 MW with CoreWeave.",
+  "sellsTo": [
+    "crypto mining companies",
+    "HPC and AI hyperscalers"
+  ],
+  "namedCustomers": [
+    "CoreWeave, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are a United States (\"U.S.\") designer, developer, and operator of next-generation data center infrastructure across North America."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We provide data center infrastructure solutions to the rapidly growing industries of high-performance computing (\"HPC\") and artificial intelligence (\"AI\")."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "Our Data Center Hosting Business provides energized infrastructure services to crypto mining customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First building of Polaris Forge 1 becomes operational",
+      "date": null,
+      "sentence": "We anticipate that this business segment will begin generating meaningful revenues once the first building within Polaris Forge 1 becomes operational, which is expected in calendar year 2025."
+    },
+    {
+      "event": "CoreWeave exercises option for additional 150MW at Polaris Forge 1",
+      "date": "2025-07-24",
+      "sentence": "In addition, on July 24, 2025, CoreWeave exercised its option for an additional 150MW in our third building at Polaris Forge 1, which is currently in planning stages with an anticipated ready for service date in 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global AI market expected to reach $500 billion by 2027",
+      "sentence": "The global AI market is expected to reach $500 billion by 2027, driven by increasing adoption across various industries, including healthcare, finance, transportation, and manufacturing."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:24:52.118Z",
+  "model": "deepseek-v4-flash"
+}

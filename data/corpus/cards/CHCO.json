@@ -1,0 +1,47 @@
+{
+  "cik": "0000726854",
+  "ticker": "CHCO",
+  "name": "CITY HOLDING CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000726854-26-000062",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000062/chco-20251231.htm"
+  },
+  "business": "City Holding Company is a financial holding company conducting community banking through its wholly-owned subsidiary, City National Bank of West Virginia, which provides banking, wealth and investment management, and other financial solutions. The company offers commercial banking, consumer banking, mortgage banking, and wealth and investment management services to individuals, businesses, and municipalities in West Virginia, Kentucky, Virginia, and southeastern Ohio.",
+  "sellsTo": [
+    "consumers",
+    "commercial and industrial businesses",
+    "commercial real estate borrowers",
+    "mortgage borrowers",
+    "wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition to traditional banking organizations, the Company competes with credit unions, finance companies, financial technology 'fintech' companies, including decentralized finance and cryptocurrency companies, mutual funds, insurance companies, and other financial service providers, many of which are able to provide specialty financial products and services to targeted customer groups."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Operational risk, including cybersecurity risk and risk of fraud, data processing system failures, and network breaches;"
+    },
+    {
+      "tag": "other:digital-assets-blockchain",
+      "stance": "risk_mention",
+      "sentence": "In addition, the emergence, adoption, and evolution of new technologies that do not require intermediation, including distributed ledgers such as digital assets and blockchain, as well as advances in automation, artificial intelligence, and robotics, could significantly affect the competition for financial services."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Criminals are committing fraud at an increasing rate and are using more sophisticated techniques, including the use of artificial intelligence technologies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:44:00.642Z",
+  "model": "deepseek-v4-flash"
+}

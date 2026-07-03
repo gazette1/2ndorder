@@ -1,0 +1,47 @@
+{
+  "cik": "0001789832",
+  "ticker": "HESM",
+  "name": "Hess Midstream LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071592",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1789832/000119312526071592/hesm-20251231.htm"
+  },
+  "business": "Hess Midstream LP provides fee-based midstream services including natural gas gathering, compression, processing, fractionation, crude oil gathering, terminaling, transportation, propane storage, and produced water handling. Its assets are primarily located in the Bakken and Three Forks shale plays in the Williston Basin area of North Dakota. The company generates substantially all of its revenues from long-term fee-based commercial agreements with Chevron and also serves third-party customers.",
+  "sellsTo": [
+    "Chevron (affiliate)",
+    "Third-party customers in Bakken"
+  ],
+  "namedCustomers": [
+    "Chevron"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a fee-based, growth-oriented, limited partnership that owns, operates, develops and acquires a diverse set of midstream assets and provides fee-based services to Chevron, its subsidiaries, and third-party customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "potential disruption or interruption of our business due to natural and human causes beyond our control, such as accidents, severe weather events, labor disputes, political crises, information technology failures, constraints or disruptions and cyber-attacks;"
+    },
+    {
+      "tag": "other:greenhouse-gas-regulations",
+      "stance": "risk_mention",
+      "sentence": "Legislative and regulatory measures to address greenhouse gas emissions (including carbon dioxide, methane and other gases) are in various phases of discussion, rescission or implementation, and some regulatory bodies have proposed or passed climate-related laws, rules and/or regulations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Additional greenfield compressor station placed in service increasing compression capacity by 50 MMcf/d",
+      "date": null,
+      "sentence": "Construction was also completed on an additional greenfield compressor station, which was placed in service in early 2026 and which further increased compression capacity by approximately 50 MMcf/d in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:28:06.581Z",
+  "model": "deepseek-v4-flash"
+}

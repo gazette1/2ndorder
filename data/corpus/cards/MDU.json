@@ -1,0 +1,85 @@
+{
+  "cik": "0000067716",
+  "ticker": "MDU",
+  "name": "MDU RESOURCES GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000067716-26-000014",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/67716/000006771626000014/mdu-20251231.htm"
+  },
+  "business": "MDU Resources Group Inc. is a pure-play regulated energy delivery company that generates, transmits, and distributes electricity and provides natural gas distribution, transportation, and storage services. It serves residential, commercial, industrial, and municipal customers across multiple states.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers",
+    "Municipal customers"
+  ],
+  "namedCustomers": [
+    "Applied Digital",
+    "Black Hills Power, Inc."
+  ],
+  "namedSuppliers": [
+    "Coyote Creek",
+    "Navajo Transitional Energy Company, LLC",
+    "Wyodak Resources Development Corp.",
+    "Black Hills Power, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In mid-2023 a data center began operating in the Company's service territory which led to an increase in retail sales revenue and volumes."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Montana-Dakota's generation resource capacity has increased to serve the needs of its customers, the carbon dioxide emission intensity of its electric generation resource fleet has been reduced by approximately 44 percent since 2005 through the addition of renewable generation and with the retirement of aging coal-fired electric generating units."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "As part of MISO's long range transmission plan, in August 2022, the Company announced its intent to develop, construct and co-own JETx with Otter Tail Power Company in central North Dakota."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "There have been cyber and physical attacks within the energy industry on energy infrastructure, such as substations, and such attacks may occur in the future."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "WBI Energy owns and operates WBI Energy Transmission, a FERC regulated pipeline, which consists of over 3,800 miles of natural gas transmission and storage lines and comprised approximately 94 percent of the segment's revenue in 2025."
+    },
+    {
+      "tag": "other:coal-fired generation",
+      "stance": "risk_mention",
+      "sentence": "The Company's primary GHG emission is carbon dioxide from fossil fuels combustion at Montana-Dakota's electric generating facilities, particularly its jointly owned coal-fired facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "JETx transmission line placed in service",
+      "date": "2028-12-31",
+      "sentence": "JETx is expected to be placed in service at the end of 2028."
+    },
+    {
+      "event": "Additional data center load online (100 MW)",
+      "date": "2026-06-30",
+      "sentence": "100 MW of the additional data center load is expected to be fully online in the second quarter of 2026."
+    },
+    {
+      "event": "Line Section 32 Expansion Project target in-service date",
+      "date": "2028-12-31",
+      "sentence": "The project is dependent on regulatory approvals and is targeted to be in service in late 2028."
+    },
+    {
+      "event": "Bakken East Pipeline Project binding open season",
+      "date": "2026-03-13",
+      "sentence": "The Company continues actively marketing the project and began a binding open season on February 2, 2026, which will conclude on March 13, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:15:37.765Z",
+  "model": "deepseek-v4-flash"
+}

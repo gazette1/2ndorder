@@ -1,0 +1,93 @@
+{
+  "cik": "0000824142",
+  "ticker": "AAON",
+  "name": "AAON, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000824142-26-000005",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000005/aaon-20251231.htm"
+  },
+  "business": "AAON is a leader in heating, ventilation, air conditioning, and liquid cooling solutions for commercial and industrial indoor environments. The company designs and manufactures highly configurable equipment including rooftop units, air handling units, data center cooling solutions, and cleanroom systems. Products are sold to property owners and contractors primarily through a network of independent manufacturers representatives.",
+  "sellsTo": [
+    "commercial markets",
+    "industrial markets",
+    "data center market",
+    "cleanroom market",
+    "retail",
+    "manufacturing",
+    "educational",
+    "lodging",
+    "supermarket",
+    "medical/pharmaceutical"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "Amazon Web Services",
+    "Google Cloud",
+    "QTS",
+    "Applied Digital",
+    "Texas AirSystems",
+    "Meriton",
+    "Ambient",
+    "Air Control Concepts"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "BASX engineers, manufactures, and sells a wide range of custom, high-performance cooling solutions for the rapidly growing hyperscale data center market"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our data center cooling solutions are designed to support increasingly dense and complex computing environments, including AI and high-performance computing (HPC) workloads."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "ventilation solutions for cleanroom environments in the biopharmaceutical, semiconductor, medical, and agricultural sectors"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence technologies may introduce operational, cybersecurity, reputational, and compliance risks that could adversely affect our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is subject to the risks of interruptions by cybersecurity attacks."
+    },
+    {
+      "tag": "other:iot",
+      "stance": "active_investment",
+      "sentence": "We have partnered with industry leaders to create our Internet of Things ( IoT ) solution and are beginning to utilize artificial intelligence ( AI ) tools to enhance efficiencies when developing our control algorithms and sequences of operation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduction of proprietary Coolant Distribution Unit (CDU) for liquid cooling",
+      "date": null,
+      "sentence": "In 2025, BASX expanded its liquid cooling portfolio with the introduction of its proprietary Coolant Distribution Unit (CDU)."
+    },
+    {
+      "event": "Introduction of water-free Free Cooling Chiller platform",
+      "date": null,
+      "sentence": "BASX also introduced a water-free Free Cooling Chiller platform designed for large-scale data center heat rejection in diverse and extreme climate conditions."
+    },
+    {
+      "event": "ERP system go-live at Longview, Texas facility",
+      "date": "2025-04-01",
+      "sentence": "The Company went live with its new Enterprise Resource Planning ( ERP ) system on April 1, 2025 at its Longview, Texas facility."
+    },
+    {
+      "event": "ERP system go-live at Memphis, Tennessee facility",
+      "date": "2025-11-01",
+      "sentence": "The Company also went live with its ERP at its Memphis, Tennessee facility on November 1, 2025 with minimal disruption."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:15:08.215Z",
+  "model": "deepseek-v4-flash"
+}

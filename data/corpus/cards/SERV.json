@@ -1,0 +1,58 @@
+{
+  "cik": "0001832483",
+  "ticker": "SERV",
+  "name": "Serve Robotics Inc. /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001832483-26-000010",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000010/patr-20251231.htm"
+  },
+  "business": "We are engaged in developing technologies intended to enable sustainable, autonomous robotic solutions for public and commercial spaces. While food delivery remains our primary commercial application, we are expanding our platform into adjacent markets, customer segments, and operating environments where autonomous mobility can address labor constraints, improve service levels, and reduce emissions. Following our acquisition of Diligent in January 2026, we also operate Moxi robots in hospital environments to assist clinical staff with logistical tasks.",
+  "sellsTo": [
+    "food delivery platforms",
+    "healthcare systems",
+    "restaurants",
+    "retailers",
+    "convenience brands"
+  ],
+  "namedCustomers": [
+    "Uber Eats",
+    "DoorDash"
+  ],
+  "namedSuppliers": [
+    "NVIDIA Corporation",
+    "Ouster, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We are engaged in developing technologies intended to enable sustainable, autonomous robotic solutions for public and commercial spaces."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Key suppliers of single and limited source components include NVIDIA Corporation, Ouster, Inc., and other vendors providing cameras, ultrasonic sensors, electronic motors, and modems."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "These systems incorporate diverse sensor modalities, including active sensors (such as LiDAR and ultrasonics) and passive sensors (such as cameras), allowing our robots to navigate complex environments with a high degree of reliability."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our AI models are used to perform a variety of tasks, including identification of sidewalk surfaces, intersections, doorways, elevators, traffic signals, obstacles, pedestrians and vehicles, and projecting the trajectory of other dynamic agents."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Our robots use multiple sensor modalities to detect and avoid obstacles in real time, including vehicles, pedestrians, furniture, medical equipment, and other dynamic objects in both outdoor and indoor environments."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:48:55.608Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,87 @@
+{
+  "cik": "0000926326",
+  "ticker": "OMCL",
+  "name": "OMNICELL, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000926326-26-000006",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/926326/000092632626000006/omcl-20251231.htm"
+  },
+  "business": "Omnicell is a healthcare technology provider focused on autonomous medication management, selling medication management infrastructure including storage and dispensing automation powered by an intelligence ecosystem. The company sells hardware, software, consumable solutions, and related services primarily to healthcare facilities worldwide, with 90% of revenues from the United States. Its solutions serve hospital and health systems, outpatient pharmacy markets (including specialty pharmacy, 340B, medication adherence, and retail pharmacy), and institutional pharmacy (long-term care, correctional facilities, etc.).",
+  "sellsTo": [
+    "hospitals",
+    "health systems",
+    "hospital and health system solutions",
+    "outpatient pharmacy solutions",
+    "specialty pharmacies",
+    "retail pharmacies",
+    "institutional pharmacies",
+    "long-term care facilities",
+    "correctional facilities",
+    "intellectual and developmental disabilities (IDD) pharmacy services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Safecor Health"
+  ],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our Central Pharmacy Dispensing Service, which combines advanced robotic technology, optimization and workflow software, as well as onsite and remote experts, is intended to automate and optimize the most cumbersome aspects of the medication dispensing process."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "incorporating artificial intelligence ( AI ) technology into our products, services and processes, and the use of AI by our vendors and competitors"
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our EnlivenHealth brand extends beyond the inpatient setting and into ambulatory care. This brand offers a portfolio of products designed to digitally enable retail and community pharmacies with connected patient engagement and clinical and financial workflows intended to elevate the patient-pharmacy experience and enhance financial performance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "disruptions to our information technology systems and breaches of data security or cyber-attacks on our systems or solutions"
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "certain of our products and solutions are regulated by the FDA and require 510(k) clearance under the FD&C Act prior to commercialization and marketing."
+    },
+    {
+      "tag": "other:cloud-software",
+      "stance": "core_product",
+      "sentence": "Our SaaS and Expert Services offerings, we provide a range of services to our customers including Central Pharmacy Dispensing Service (service portion), IV Compounding Service (service portion), EnlivenHealth, Specialty Pharmacy Services, 340B solutions, Inventory Optimization Service, and other software solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "DSCSA interoperability deadline",
+      "date": "2025-11-27",
+      "sentence": "Key compliance deadlines, such as the November 27, 2025 DSCSA interoperability deadline, are accelerating the need for advanced software backbones."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "In 2024, the United States spent $806 billion on prescription drugs, a 10.2% increase from 2023.",
+      "sentence": "In 2024, the United States spent $806 billion on prescription drugs, a 10.2% increase from 2023."
+    },
+    {
+      "claim": "The market size of the institutional pharmacies industry in the U.S. is $24 billion with 1,100 businesses servicing this sector.",
+      "sentence": "The market size of the institutional pharmacies industry in the U.S. is $24 billion with 1,100 businesses servicing this sector"
+    },
+    {
+      "claim": "Total U.S. prescription dispensing revenues across retail, mail-order, long-term care, and specialty pharmacies reached approximately $683 billion in 2024, up 9% from 2023.",
+      "sentence": "Total U.S. prescription dispensing revenues across retail, mail-order, long-term care, and specialty pharmacies reached approximately $683 billion in 2024, up 9% from 2023"
+    },
+    {
+      "claim": "The 340B Program is on track to exceed $200 billion in gross sales by 2026.",
+      "sentence": "The 340B Program allows qualified hospitals to stretch federal resources, a critical capability as the program is on track to exceed $200 billion in gross sales by 2026, surpassing the entire Medicare Part B market."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:57:10.022Z",
+  "model": "deepseek-v4-flash"
+}

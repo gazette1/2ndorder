@@ -1,0 +1,65 @@
+{
+  "cik": "0000827876",
+  "ticker": "CLSK",
+  "name": "CLEANSPARK, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-297510",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312525297510/clsk-20250930.htm"
+  },
+  "business": "CleanSpark is a data center developer focused on bitcoin mining and expanding into high-performance computing (HPC) and artificial intelligence (AI) hosting. It owns and operates data centers across Georgia, Tennessee, Mississippi, Wyoming, and recently Texas, with total contracted power capacity of approximately 1,027 MW as of September 30, 2025. Its principal revenue comes from bitcoin mining by contributing computing power to a mining pool, and it sells no other crypto assets.",
+  "sellsTo": [
+    "Bitcoin mining pool operators",
+    "Hyperscalers, cloud providers, and AI/HPC companies (under development)"
+  ],
+  "namedCustomers": [
+    "Foundry Digital (mining pool operator)"
+  ],
+  "namedSuppliers": [
+    "Bitmain Technologies Delaware Limited",
+    "Submer Technologies (collaborator for AI cooling)"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "CleanSpark is a data center developer, until recently focused exclusively on bitcoin mining."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We have been actively pursuing opportunities to develop portions of our sites and power pipeline for AI and HPC hosting and leasing."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Bitcoin mining has historically been our principal revenue generating business activity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquired 271 acres in Austin County, Texas and executed long-term power agreements totaling 285 MW for new data center campus.",
+      "date": "2025-10-27",
+      "sentence": "On October 27, 2025, the Company acquired approximately 271 acres in Austin County, Texas, and executed long-term power agreements totaling 285 megawatts to support a new data center campus."
+    },
+    {
+      "event": "Added Jeffrey Thomas as Senior Vice President of AI Data Centers.",
+      "date": "2025-10",
+      "sentence": "In October 2025, we added Jeffrey Thomas to our leadership team as Senior Vice President of AI Data Centers."
+    },
+    {
+      "event": "Announced collaboration with Submer to evaluate opportunities for future collaboration on AI data centers.",
+      "date": "2025-10",
+      "sentence": "In October 2025, we also announced that we are working with Submer, a global leader in sustainable, modular AI center design and construction to evaluate opportunities for future collaboration."
+    },
+    {
+      "event": "Issued $1,150,000 aggregate principal amount of 0.00% Convertible Senior Notes due 2032.",
+      "date": "2025-11",
+      "sentence": "In November 2025, we issued $1,150,000 aggregate principal amount of 0.00% Convertible Senior Notes due 2032 in a private offering."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:04:42.951Z",
+  "model": "deepseek-v4-flash"
+}

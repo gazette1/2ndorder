@@ -1,0 +1,66 @@
+{
+  "cik": "0001332349",
+  "ticker": "BKD",
+  "name": "Brookdale Senior Living Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001332349-26-000032",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm"
+  },
+  "business": "We are the nation's premier operator of senior living communities, operating and managing 584 communities in 41 states as of December 31, 2025, with the ability to serve approximately 51,000 residents. We offer independent living, assisted living, memory care, and continuing care retirement communities. We generated 93.9% of resident fee revenue from private pay residents.",
+  "sellsTo": [
+    "Private pay residents (93.9% of revenue)",
+    "Government reimbursement programs (Medicaid and Medicare) (4.8% of revenue)",
+    "Other payor sources (1.3% of revenue)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We operate and manage independent living, assisted living, memory care, and continuing care retirement communities (\"CCRCs\"). As of December 31, 2025, we owned 370 communities (33,262 units), leased 178 communities (10,608 units), and managed 36 communities (4,374 units)."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Increased competition for, or a shortage of, associates, wage pressures resulting from increased competition, low unemployment levels, minimum wage increases, changes in overtime laws, and union activity may have an adverse effect on our business, results of operations, and cash flow."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to maintain the security and functionality of our information systems and data, to prevent a cybersecurity attack or breach, or to comply with applicable privacy and consumer protection laws, including HIPAA, could adversely affect our business, reputation, and relationships with our residents, associates, and referral sources and subject us to remediation costs, government inquiries, and liabilities, any of which could materially and adversely impact our revenues, results of operations, and cash flow."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "our competitors or other third parties may incorporate advanced technology, including artificial intelligence, into their business operations or services more quickly or more successfully than us, which could impair our ability to compete effectively."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Because the techniques used to obtain unauthorized access to systems change frequently and may be difficult to detect for long periods of time, including from emerging technologies, such as advanced forms of artificial intelligence ( AI ) and quantum computing, we may be unable to anticipate these techniques or implement adequate preventive measures."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Annual rate adjustment for private pay residents",
+      "date": "2026-01-01",
+      "sentence": "We have recently made the annual rate adjustment effective January 1, 2026 for our in-place private pay residents."
+    },
+    {
+      "event": "Sale of 29 owned communities in 2026 expected to generate $200 million proceeds",
+      "date": null,
+      "sentence": "During 2026, we plan to sell 29 owned communities (2,364 units), which we believe will generate approximately $200.0 million of proceeds."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "over one million new potential residents per year for the next decade",
+      "sentence": "U.S. Census projections suggest that there will be over one million new potential residents per year for the next decade, and we believe that demand for senior care will increase as a result."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:51:45.644Z",
+  "model": "deepseek-v4-flash"
+}

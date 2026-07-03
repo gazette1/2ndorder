@@ -1,0 +1,88 @@
+{
+  "cik": "0001830214",
+  "ticker": "DNABW",
+  "name": "Ginkgo Bioworks Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012346",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1830214/000162828026012346/dna-20251231.htm"
+  },
+  "business": "Ginkgo sells services to government and commercial customers in two business segments: cell engineering, where it provides tools and biological R&D services across a range of industries, and biosecurity, where it provides services to identify, monitor, prevent, mitigate, and protect against biological threats.",
+  "sellsTo": [
+    "government",
+    "pharmaceutical and biotechnology",
+    "agriculture",
+    "industrial biotechnology"
+  ],
+  "namedCustomers": [
+    "Bayer Crop Sciences",
+    "Motif FoodWorks",
+    "BiomEdit",
+    "XpresCheck",
+    "Virica Biotech",
+    "CDC"
+  ],
+  "namedSuppliers": [
+    "Twist",
+    "Thermo Fisher Scientific Inc.",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We provide comprehensive R&D services spanning both small molecule therapeutics and biologics."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We provide comprehensive R&D services focused on advancing biological solutions for crop nutrition and plant health."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our Autonomous Lab is a flexible wet lab built from our Reconfigurable Automation Cart (RAC) systems capable of large scale data generation; it powers generative AI and machine learning (ML) tools that enable more successful biological R&D."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "In August 2023, we entered into a strategic partnership with Google Cloud to develop and deploy AI tools for biology and biosecurity, which included certain minimum annual commitment obligations that we must pay."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our primary biosecurity customers are governments."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We work with partners in the sustainable ingredients and chemical spaces, as well as across the flavors, fragrance, and colorant industries to support their R&D and manufacturing optimization efforts."
+    },
+    {
+      "tag": "other:biosecurity",
+      "stance": "core_product",
+      "sentence": "We currently provide biosecurity services via two core offerings: Canopy, which helps our customers generate high value genomic data from strategically-positioned nodes (like airports and border checkpoints) via end-to-end biomonitoring programs; and Horizon, our digital surveillance, analytics and insights platform that detects and monitors biothreats worldwide."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "One-time payment of $14 million to Google Cloud to be released from minimum annual commitment obligations",
+      "date": "2026-01",
+      "sentence": "The Company is required to make a one-time payment of $14.0 million to be released from its minimum annual commitment obligations under the original agreement in January 2026."
+    },
+    {
+      "event": "Non-refundable payment of $5 million to Twist",
+      "date": "2026-04-01",
+      "sentence": "The Company paid $4.0 million in April 2025 and is obligated to non-refundable payments of $5.0 million on April 1, 2026 and $6.0 million on April 1, 2027, respectively."
+    },
+    {
+      "event": "Fund a surety bond of $47 million for RAC equipment sale",
+      "date": "2026",
+      "sentence": "In 2026, the Company will be required to fund a surety bond in the amount of $47.0 million to fulfill its obligations under a contract with a U.S. Government National Laboratory related to the sale of RAC automation equipment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:54:52.187Z",
+  "model": "deepseek-v4-flash"
+}

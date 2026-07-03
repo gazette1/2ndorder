@@ -1,0 +1,56 @@
+{
+  "cik": "0000742278",
+  "ticker": "RES",
+  "name": "RPC INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021480",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/742278/000110465926021480/res-20251231x10k.htm"
+  },
+  "business": "RPC provides specialized oilfield services and equipment, including pressure pumping, wireline, downhole tools, coiled tubing, cementing, and rental tools, to independent and major oil and gas companies engaged in exploration, production, and development of oil and gas properties.",
+  "sellsTo": [
+    "Independent and major oil and gas companies",
+    "Domestic U.S. operators in Permian basin and other regions",
+    "Selected international markets including Africa, Canada, Argentina, Mexico, Latin America, and the Middle East"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "RPC provides a broad range of specialized oilfield services and equipment primarily to independent and major oil and gas companies engaged in the exploration, production and development of oil and gas properties throughout the United States, including the southwest, mid-continent, Gulf of America, Rocky Mountain and Appalachian regions, and in selected international markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, there is an increased likelihood that a potential rapid rise in the use of artificial intelligence would have significant energy consumption requirements and boost demand for power solutions, many of which use oil and natural gas."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Increased usage of Artificial Intelligence (AI) and machine learning technologies could expose us to operational, safety, cybersecurity, legal and reputational risks and could adversely affect our ability to compete, our operating results and our cash flows."
+    },
+    {
+      "tag": "other:geothermal",
+      "stance": "core_product",
+      "sentence": "Products are also used during workover operations and new market applications such as plug & abandonment, geothermal, and others."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations rely on digital systems and processes that are subject to cyberattacks or other threats that could have a material adverse effect on our business, consolidated results of operations and consolidated financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures of $150-180 million in 2026",
+      "date": "2026",
+      "sentence": "The Company currently expects capital expenditures to be between $150 million and $180 million in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:13:48.198Z",
+  "model": "deepseek-v4-flash"
+}

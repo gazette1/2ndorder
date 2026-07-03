@@ -1,0 +1,70 @@
+{
+  "cik": "0000915779",
+  "ticker": "DAKT",
+  "name": "DAKTRONICS INC /SD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-045262",
+    "filedAt": "2026-06-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/915779/000162828026045262/dakt-20260502.htm"
+  },
+  "business": "Daktronics designs, manufactures, and sells electronic display systems and related solutions used in sports, commercial, and transportation applications. Its product portfolio ranges from small scoreboards and electronic displays to large-scale video display systems deployed in stadiums, arenas, commercial facilities, and other public venues. The company operates globally with manufacturing, sales, and service capabilities.",
+  "sellsTo": [
+    "local main street business owners",
+    "out-of-home (OOH) advertising companies",
+    "governmental agencies",
+    "schools, colleges, and universities",
+    "owners and operators of premier professional sports arenas",
+    "transportation system operators",
+    "high school, park and recreation customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:led-displays",
+      "stance": "core_product",
+      "sentence": "Daktronics designs, manufactures, and sells electronic display systems and related solutions used in sports, commercial, and transportation applications."
+    },
+    {
+      "tag": "other:micro-led",
+      "stance": "core_product",
+      "sentence": "We focused these efforts on both standard display and control software offerings and in new emerging areas, including micro-LED displays and new software capabilities."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our supply chain includes semiconductor-type components including LEDs, printed circuit boards, and other integrated circuits, which are sourced or packaged directly or indirectly primarily through suppliers in Taiwan or China."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Similarly, increased industry demand for certain computing components associated with artificial intelligence and data center infrastructure investments has contributed to higher costs and supply constraints for certain inputs used in our products."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Similarly, increased industry demand for certain computing components associated with artificial intelligence and data center infrastructure investments has contributed to higher costs and supply constraints for certain inputs used in our products."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "Aluminum, which is used extensively in our display cabinets, structures, and related products, has experienced price increases driven by market conditions, tariffs, and supply chain factors, increasing our manufacturing costs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any information system failure or security breach could adversely affect our operations, and we cannot guarantee that our data could be restored and the vulnerabilities remediated."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plan to open a new manufacturing facility in Saltillo, Mexico",
+      "date": null,
+      "sentence": "Additionally, we plan to open a new manufacturing facility in Saltillo, Mexico during fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:29:59.918Z",
+  "model": "deepseek-v4-flash"
+}

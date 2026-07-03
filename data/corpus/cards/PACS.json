@@ -1,0 +1,35 @@
+{
+  "cik": "0002001184",
+  "ticker": "PACS",
+  "name": "PACS Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002001184-26-000005",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/2001184/000200118426000005/pacs-20251231.htm"
+  },
+  "business": "PACS Group, Inc. is a post-acute healthcare company primarily focused on delivering skilled nursing care through independently operated skilled nursing facilities. It also provides senior care, assisted living, and independent living options. The company generates revenue from services provided to patients, with a substantial portion from Medicare and Medicaid programs.",
+  "sellsTo": [
+    "Patients (primarily elderly)",
+    "Hospitals and referring providers",
+    "Payors (Medicare, Medicaid, managed care, private pay)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches, cybersecurity incidents, or our inability to effectively integrate, manage and keep our information systems secure and operational could violate security laws, disrupt our operations, and subject us to significant liability."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "CMS expects total industry expenditures to increase from $193.6 billion in 2022 to $283.3 billion in 2031, representing a CAGR of 4.3%.",
+      "sentence": "The SNF industry is large and growing, with the Centers for Medicare & Medicaid Services (CMS) expecting total industry expenditures to increase from $193.6 billion in 2022 to $283.3 billion in 2031, representing a compound annual growth rate (CAGR) of 4.3%."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:55:30.868Z",
+  "model": "deepseek-v4-flash"
+}

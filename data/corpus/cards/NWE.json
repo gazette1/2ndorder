@@ -1,0 +1,124 @@
+{
+  "cik": "0001993004",
+  "ticker": "NWE",
+  "name": "NorthWestern Energy Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001993004-26-000006",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000006/nweg-20251231.htm"
+  },
+  "business": "NorthWestern Energy provides electricity and/or natural gas to approximately 850,300 customers in Montana, South Dakota, Nebraska, and Yellowstone National Park. The company operates two segments: electric utility operations and natural gas utility operations. Its customer base consists of a mix of residential, commercial, and diversified industrial customers.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers",
+    "rural electric cooperatives",
+    "Yellowstone National Park"
+  ],
+  "namedCustomers": [
+    "Yellowstone National Park",
+    "Sabey Data Centers",
+    "Atlas Power Holdings LLC"
+  ],
+  "namedSuppliers": [
+    "Talen Montana, LLC",
+    "Williston Basin Interstate Pipeline",
+    "NOVA Gas Transmission Ltd.",
+    "Colorado Interstate Gas",
+    "Black Hills Energy",
+    "Many Islands Pipeline"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We had previously disclosed, in December 2024, two separate nonbinding letters of intent with Sabey Data Centers (Sabey) and Atlas Power Holdings LLC (Atlas) to provide electric supply services for data centers being developed in Montana."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "We provide wholesale transmission service and firm and non-firm transmission services for eligible transmission customers pursuant to our FERC OATT."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "Approximately $2.3 billion, or 70 percent, of our capital forecast above is projected to be spent on our distribution and transmission system."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Since 2011, we have added 1,096 MW of carbon-free generation (both owned and long-term contract) in Montana and South Dakota."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our regulated natural gas utility business in Montana, which is conducted through NW Corp, includes production, storage, transmission and distribution."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Although some of these resources include a battery component, they are primarily intermittent generation whose prices may be in excess of market prices during times of lower customer demand, and may not be able to generate electricity during peak times."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber crime, which includes the use of malware, phishing attempts, computer viruses, and other means for disruption or unauthorized access has increased in frequency, scope, and potential impact in recent years."
+    },
+    {
+      "tag": "other:coal",
+      "stance": "core_product",
+      "sentence": "We are a co-owner of the coal-fired Colstrip Units 3 & 4 generating facility."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of additional 592 MW ownership interest in Colstrip Units 3 & 4",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, we acquired an additional 592 MW of ownership interest in Colstrip Units 3 & 4."
+    },
+    {
+      "event": "Submission of FERC rate approval request for Puget Interests",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we submitted a request to the FERC for approval of cost-based rates for our subsidiary that will own the Puget Interests."
+    },
+    {
+      "event": "Nonbinding letter of intent with Quantica Infrastructure",
+      "date": "2025-07-01",
+      "sentence": "In July 2025, we entered into a nonbinding letter of intent with Quantica Infrastructure to evaluate the transmission infrastructure and generation resources needed to support their proposed need."
+    },
+    {
+      "event": "MPSC interim approval of PCCAM tariff waiver request for Avista Interests",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, the MPSC approved our PCCAM tariff waiver request on an interim basis with final approval or denial subject to the ongoing PCCAM docket process."
+    },
+    {
+      "event": "MPSC final order on Montana electric and natural gas rate review",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, the MPSC issued a final order approving the natural gas settlement agreement and partial electric settlement agreement."
+    },
+    {
+      "event": "Motion for Reconsideration of MPSC final order",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we filed a Motion for Reconsideration (Motion) as it relates to this final order."
+    },
+    {
+      "event": "Submission of SPP Expedited Resource Adequacy Study project for 131 MW natural gas facility",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we submitted a project with the SPP under their Expedited Resource Adequacy Study program for the construction of a 131 MW natural gas generating facility located in Aberdeen, South Dakota, to meet regional capacity needs by 2030."
+    },
+    {
+      "event": "Contract to sell dispatchable capacity from Puget Interests begins",
+      "date": "2026-01-01",
+      "sentence": "We have signed a contract to sell the dispatchable capacity and associated energy from the Puget Interests beginning January 1, 2026, through late 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The combined energy service requirement from data center letters of intent is expected to be 175 MW beginning in late 2027, with growth up to 1,100 MW by 2030.",
+      "sentence": "The combined energy service requirement associated with these letters of intent is currently expected to be 175 megawatts beginning in late 2027, or earlier, with growth of up to 1,100 megawatts or more by 2030."
+    }
+  ],
+  "generatedAt": "2026-07-03T11:52:40.184Z",
+  "model": "deepseek-v4-flash"
+}

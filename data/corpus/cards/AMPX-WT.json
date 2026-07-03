@@ -1,0 +1,91 @@
+{
+  "cik": "0001899287",
+  "ticker": "AMPX-WT",
+  "name": "Amprius Technologies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001899287-26-000015",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000015/ampx-20251231.htm"
+  },
+  "business": "Amprius Technologies, Inc. develops, manufactures and markets lithium-ion batteries for mobility applications, including aviation, ground and marine vehicles. Its disruptive silicon anode technology enables batteries with high energy density, high power density and fast charging capabilities over a wide range of operating temperatures. The company sells to customers in existing and emerging aviation applications, including unmanned aerial systems (UAS) such as drones and high-altitude pseudo satellites (HAPS), and has shipped over 4.2 million battery cells to over 500 customers since inception.",
+  "sellsTo": [
+    "aviation (UAS, drones, HAPS, eVTOL)",
+    "light electric vehicles (LEV)",
+    "defense and government",
+    "electric vehicle market (development stage)"
+  ],
+  "namedCustomers": [
+    "AALTO Airbus",
+    "AeroVironment",
+    "BAE Systems",
+    "Kraus Hamdani Aerospace",
+    "Nokia Drone Networks",
+    "Nordic Wing",
+    "Teledyne FLIR",
+    "U.S. Army"
+  ],
+  "namedSuppliers": [
+    "Berzelius",
+    "Amprius Korea Battery Alliance (consortium of South Korean companies)",
+    "Nanotech Energy",
+    "global contract manufacturers"
+  ],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Amprius Technologies, Inc. develops, manufactures and markets lithium-ion batteries for mobility applications, including aviation, ground and marine vehicles."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our batteries and their performance specifications have been tested and validated for application by various customers, including AALTO Airbus, AeroVironment, BAE Systems, Kraus Hamdani Aerospace, Nokia Drone Networks, Nordic Wing, Teledyne FLIR and the U.S. Army."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Currently, our batteries are primarily used for existing and emerging aviation applications, including unmanned aerial systems or UAS, such as drones and high-altitude pseudo satellites or HAPS."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Our high energy battery cells have powered AALTO Airbus Zephyr S stratospheric vehicle to numerous records since 2018."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "We are also currently developing an EV capable cell."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expand Fremont pilot line to 10 MWh capacity",
+      "date": null,
+      "sentence": "To support increased demand of our SiCore batteries, as of December 2025 and going forward into 2026, we are expanding this facility to increase the capacity of our pilot line to 10 MWh and expand our capabilities to support quick turn SiCore customer prototypes."
+    },
+    {
+      "event": "Award of $14.8 million contract from U.S. Defense Innovation Unit",
+      "date": "2025-07",
+      "sentence": "This expansion is accelerated by a $14.8 million contract awarded to us in July 2025, as amended, through the U.S. Government Defense Innovation Unit (DIU)."
+    },
+    {
+      "event": "Termination of Brighton, Colorado lease agreement",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, we entered into an agreement with the lessor to terminate this lease in exchange for a one-time payment of $20.0 million."
+    },
+    {
+      "event": "First U.S. contract manufacturing partnership with Nanotech Energy",
+      "date": "2026-01",
+      "sentence": "In January 2026, we announced our first partnership with a United States contract manufacturer, Nanotech Energy, located in California."
+    },
+    {
+      "event": "Expansion of SiCore product platform with 360 Wh/kg cell",
+      "date": "2025-01",
+      "sentence": "In January 2025, we announced the expansion of our SiCore product platform with a SiCore battery cell that provides energy density of 360 Wh/kg, extending runtimes while still exceeding 3,000 W/kg, with discharge rates of up to 10C without cooling and 15C with active cooling."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:50:24.393Z",
+  "model": "deepseek-v4-flash"
+}

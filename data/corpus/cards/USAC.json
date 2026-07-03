@@ -1,0 +1,60 @@
+{
+  "cik": "0001522727",
+  "ticker": "USAC",
+  "name": "USA Compression Partners, LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001522727-26-000015",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1522727/000152272726000015/usac-20251231.htm"
+  },
+  "business": "USA Compression Partners, LP is one of the largest independent providers of natural gas compression services in the U.S., providing compression services to customers primarily in connection with infrastructure applications, including allowing for the processing and transportation of natural gas through the domestic pipeline system and enhancing crude oil production through artificial lift processes.",
+  "sellsTo": [
+    "major oil companies",
+    "independent exploration and production companies",
+    "midstream companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Caterpillar Inc.",
+    "Cummins Inc.",
+    "INNIO Waukesha",
+    "TECO-Westinghouse",
+    "Air-X-Changers",
+    "Alfa Laval (US)",
+    "AXH air-coolers",
+    "EADS Cooling Solutions, LLC",
+    "R&R Engineering Co.",
+    "Ariel Corporation",
+    "Cooper Machinery Services Gemini products",
+    "Arrow Engine Company",
+    "Standard Equipment Company"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We provide compression services to our customers primarily in connection with infrastructure applications, including both allowing for the processing and transportation of natural gas through the domestic pipeline system and enhancing crude oil production through artificial lift processes."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Growth in power demands from the development of artificial intelligence is also expected to increase demand."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of J-W Power Acquisition",
+      "date": "2026-01-12",
+      "sentence": "On January 12, 2026, the Partnership and USA Compression Partners, LLC, a wholly owned subsidiary of the Partnership, completed the J-W Power Acquisition, pursuant to which USA Compression Partners, LLC purchased all of the issued and outstanding capital stock of J-W Energy from Westerman, Ltd. for aggregate consideration of approximately $860.0 million, subject to customary purchase price adjustments, consisting of (i) 18,175,323 common units representing limited partner interests in the Partnership and (ii) approximately $430.0 million in cash."
+    },
+    {
+      "event": "Delivery of $78.4 million of compression units within next twelve months",
+      "date": null,
+      "sentence": "As of December 31, 2025, we had binding commitments to purchase $78.4 million of additional compression units, all of which is expected to be delivered within the next twelve months."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:17:14.191Z",
+  "model": "deepseek-v4-flash"
+}

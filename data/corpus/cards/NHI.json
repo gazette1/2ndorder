@@ -1,0 +1,75 @@
+{
+  "cik": "0000877860",
+  "ticker": "NHI",
+  "name": "NATIONAL HEALTH INVESTORS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000877860-26-000053",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/877860/000087786026000053/nhi-20251231.htm"
+  },
+  "business": "National Health Investors, Inc. is a self-managed real estate investment trust that owns, leases, operates, and finances development of senior housing communities and medical facilities. It operates through two segments: Real Estate Investments (triple-net leases and financing arrangements) and Senior Housing Operating Portfolio (SHOP) where it owns and operates properties with third-party managers. Its revenues are derived from rental income, resident fees and services, and interest income from financing arrangements.",
+  "sellsTo": [
+    "senior housing operators and residents",
+    "medical facility operators",
+    "borrowers (tenants, operators, affiliates) for financing"
+  ],
+  "namedCustomers": [
+    "Senior Living",
+    "Bickford",
+    "NHC (National HealthCare Corporation)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:senior-housing",
+      "stance": "core_product",
+      "sentence": "We own, lease, operate and finance the development of high-quality real estate properties, focusing on senior housing communities and medical facilities."
+    },
+    {
+      "tag": "other:medical-facilities",
+      "stance": "core_product",
+      "sentence": "We own, lease, operate and finance the development of high-quality real estate properties, focusing on senior housing communities and medical facilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident or other form of data breach involving Company information could cause a loss of confidential consumer and other personal information, give rise to remediation and other expenses, expose us to liability under privacy and security and consumer protection laws, subject us to federal and state governmental inquiries, damage our reputation, and otherwise be disruptive to our business;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our use of artificial intelligence (AI) could expose us to various risks;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "NHC lease renewal notice",
+      "date": "2025-10-07",
+      "sentence": "On October 7, 2025, NHC informed us that it was exercising its option to renew the master lease for one five-year term commencing January 1, 2027."
+    },
+    {
+      "event": "Tenant purchase option monthly renewal through March 2026",
+      "date": "2026-03-01",
+      "sentence": "The purchase and sale agreement, as amended, is subject to monthly renewals through March 2026 by the tenant upon payment of a non-refundable fee."
+    },
+    {
+      "event": "Remaining loan funding obligations payable within 12 months",
+      "date": null,
+      "sentence": "As of December 31, 2025, $33.9 million of the remaining funding obligations were payable within 12 months."
+    },
+    {
+      "event": "Sale of 42-unit SLC in Michigan",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we sold a 42-unit SLC located in Michigan for $6.7 million in net cash consideration."
+    },
+    {
+      "event": "Acquisition of nine ALFs in Kentucky, South Carolina, and Tennessee",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we acquired a portfolio of nine ALFs located in Kentucky, South Carolina and Tennessee with a combined total of 460 units."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:54:10.123Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,56 @@
+{
+  "cik": "0001828318",
+  "ticker": "ENVX",
+  "name": "Enovix Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001828318-26-000006",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1828318/000182831826000006/envx-20251228.htm"
+  },
+  "business": "Enovix designs, develops, manufactures, and commercializes advanced lithium-ion batteries, including proprietary silicon-anode architectures, for smartphones, smart eyewear, defense, industrial, and emerging edge-AI applications. It also manufactures conventional lithium-ion batteries for defense and industrial sectors through its South Korea operations.",
+  "sellsTo": [
+    "smartphones",
+    "smart eyewear",
+    "defense",
+    "industrial",
+    "emerging edge-AI applications",
+    "drones"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "YBS International Berhad"
+  ],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We believe that demonstrated performance in smartphones will thereafter serve as a benchmark for the broader applicability of our AI-1 TM battery architecture across other emerging, fast-growing markets, including smart eyewear and other AI-powered applications that require higher energy density in increasingly space-constrained designs."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We serve customers in defense and industrial markets through our conventional and silicon-doped graphite battery products across a range of battery sizes and configurations optimized for high discharge rate applications, such as drones, subsea systems, and munitions defense systems."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Our large-scale Gen2 manufacturing lines require large-scale machinery... we may face challenges relating to the scaling up of production for new uses of our batteries, including in the EV market and the market for AI-powered devices."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Customer product launches in smart eyewear expected in 2026",
+      "date": "2026",
+      "sentence": "some of which are expected to launch products in 2026 as market adoption of AI-enabled smart eyewear grows."
+    },
+    {
+      "event": "Formal product qualification process with two smartphone OEM market leaders commenced in Q3 2025",
+      "date": "2025-07",
+      "sentence": "In the near term, we continue to focus on our engagement with two smartphone OEM market leaders and are continuing in their formal product qualification process, which commenced in the third quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:47:04.227Z",
+  "model": "deepseek-v4-flash"
+}

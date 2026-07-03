@@ -1,0 +1,88 @@
+{
+  "cik": "0001760689",
+  "ticker": "MVSTW",
+  "name": "Microvast Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018264",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1760689/000162828026018264/mvst-20251231.htm"
+  },
+  "business": "Microvast Holdings, Inc. designs, develops, and manufactures lithium-ion battery components and systems primarily for electric commercial vehicles and energy storage systems (ESS). The company sells to OEMs in commercial and specialty vehicle markets and to ESS customers.",
+  "sellsTo": [
+    "Electric commercial vehicle manufacturers",
+    "Energy storage system integrators and developers",
+    "Bus, truck, port, mining, and rail operators"
+  ],
+  "namedCustomers": [
+    "IVECO eDaily",
+    "BAIC Truck",
+    "Higer Bus",
+    "JBM Electric Vehicles",
+    "Kalmar Corp.",
+    "XCMG",
+    "LGMG",
+    "koda Group"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We specialize in the design, development, and manufacturing of battery components and systems primarily for electric commercial vehicles and energy storage systems (ESS)."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We specialize in the design, development, and manufacturing of battery components and systems primarily for electric commercial vehicles and energy storage systems (ESS)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "This demand is accelerated by rising electricity consumption from AI, high-performance computing, and data center expansion."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "This demand is accelerated by rising electricity consumption from AI, high-performance computing, and data center expansion."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First prototype vehicles integrating jointly developed battery electric multiple units expected to be completed",
+      "date": "2026-12-31",
+      "sentence": "The first prototype vehicles integrating the jointly developed battery electric multiple units are expected to be completed by the end of 2026 and are anticipated to be deployed starting in 2027."
+    },
+    {
+      "event": "Huzhou Phase 3.2 equipment installation conclusion, followed by commissioning and pilot production",
+      "date": "2026-12-31",
+      "sentence": "Installation of the production equipment is expected to be completed in 2026, with commissioning and pilot production to follow."
+    },
+    {
+      "event": "Customer deliveries from Clarksville pack assembly line",
+      "date": "2026-12-31",
+      "sentence": "Customer deliveries are expected from the pack line in 2026."
+    },
+    {
+      "event": "Sale of Lake Mary, Florida facility expected to close",
+      "date": "2026-06-30",
+      "sentence": "The Company currently anticipates that, if completed, the transaction would close during the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global power capacity grew by approximately 90 gigawatts, an estimated 23% increase from the previous year.",
+      "sentence": "In 2025, third-party industry data shows that global power capacity grew by approximately 90 gigawatts, an estimated 23% increase from the previous year."
+    },
+    {
+      "claim": "Average CAGR in deployed gigawatts of 23% between 2025 and 2035.",
+      "sentence": "Industry projections indicate expected further expansion, with an average CAGR in deployed gigawatts of 23% between 2025 and 2035."
+    },
+    {
+      "claim": "U.S. power capacity projected to increase from approximately 45 gigawatts in 2025 to approximately 125 gigawatts by 2030.",
+      "sentence": "The U.S. and China are expected to lead this growth, with U.S. power capacity projected to increase from approximately 45 gigawatts in 2025 to approximately 125 gigawatts by 2030."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:48:36.504Z",
+  "model": "deepseek-v4-flash"
+}

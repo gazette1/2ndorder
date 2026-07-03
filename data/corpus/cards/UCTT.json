@@ -1,0 +1,63 @@
+{
+  "cik": "0001275014",
+  "ticker": "UCTT",
+  "name": "Ultra Clean Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010744",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026010744/uctt-20251226.htm"
+  },
+  "business": "Ultra Clean Holdings is a leading developer and supplier of critical subsystems, components, parts, and ultra-high purity cleaning and analytical services primarily for the semiconductor industry. The company sells to customers in the semiconductor capital equipment and semiconductor integrated device manufacturing industries, as well as to the display, consumer, medical, energy, industrial, and research equipment industries.",
+  "sellsTo": [
+    "semiconductor capital equipment",
+    "semiconductor integrated device manufacturing",
+    "display",
+    "consumer",
+    "medical",
+    "energy",
+    "industrial",
+    "research"
+  ],
+  "namedCustomers": [
+    "Applied Materials, Inc.",
+    "Lam Research Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We are a leading developer and supplier of critical subsystems, components, parts, and ultra-high purity cleaning and analytical services primarily for the semiconductor industry."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "Our Products segment primarily designs, engineers and manufactures production tools, components and parts, and modules and subsystems for the semiconductor and display capital equipment markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We believe the semiconductor market we serve will continue to grow due to multi-year industry demand from a broad range of drivers, such as new device architecture (e.g. gate all around and backside power distribution), memory devices (e.g. high bandwidth memory) necessary for cloud, artificial intelligence ( AI ) and machine learning ( ML ) applications, and advanced packaging."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We believe the semiconductor market we serve will continue to grow due to multi-year industry demand from a broad range of drivers, such as new device architecture (e.g. gate all around and backside power distribution), memory devices (e.g. high bandwidth memory) necessary for cloud, artificial intelligence ( AI ) and machine learning ( ML ) applications, and advanced packaging."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Products include chemical delivery modules, frame assemblies, gas delivery systems, fluid delivery systems, precision robotics, process modules as well as other high-level assemblies."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our products include precision robotic solutions, gas delivery systems, sub-fab process equipment support racks, a variety of industrial and automation production equipment products, and subsystems that include wafer cleaning modules, chemical delivery modules, top-plate assemblies, frame assemblies, and process modules."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:44:31.917Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0001167419",
+  "ticker": "RIOT",
+  "name": "Riot Platforms, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-022322",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/riot-20251231x10k.htm"
+  },
+  "business": "Riot Platforms is a vertically integrated digital infrastructure company engaged in developing and optimizing large-scale power assets. It operates two reportable business segments: Bitcoin Mining and Engineering. The Bitcoin Mining segment mines bitcoin, while the Engineering segment designs and manufactures power-distribution equipment and engineered-to-order electrical products for large-scale industrial and governmental customers.",
+  "sellsTo": [
+    "Large-scale industrial customers",
+    "Governmental customers"
+  ],
+  "namedCustomers": [
+    "Advanced Micro Devices, Inc."
+  ],
+  "namedSuppliers": [
+    "MicroBT Electronics Technology Co., LTD"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are in the process of developing scalable data center platforms at our Corsicana Facility and Rockdale Facility."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "data center solutions designed to support non-mining workloads, including potential applications in AI and HPC."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Our Engineering business designs and manufactures power-distribution equipment and engineered-to-order electrical products."
+    },
+    {
+      "tag": "utilities",
+      "stance": "active_investment",
+      "sentence": "We voluntarily participate in load response programs operated by ERCOT and MISO, whereby we temporarily give ERCOT and MISO the right to curtail a set portion of our power load at their discretion in exchange for a fee."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Receipt of all miners under current purchase orders",
+      "date": "2026-06-30",
+      "sentence": "All miners under current purchase orders are expected to be received by the second quarter of 2026."
+    },
+    {
+      "event": "Kentucky Facility reaching total capacity of approximately 232 MW",
+      "date": "2026-12-31",
+      "sentence": "We are targeting the Kentucky Facility to reach a total capacity of approximately 232 MW through the remainder of 2026, with additional expansion anticipated."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:17:43.101Z",
+  "model": "deepseek-v4-flash"
+}

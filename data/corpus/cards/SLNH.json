@@ -1,0 +1,108 @@
+{
+  "cik": "0000064463",
+  "ticker": "SLNH",
+  "name": "Soluna Holdings, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-021847",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm"
+  },
+  "business": "Soluna develops, owns, and operates digital infrastructure for energy-intensive computing applications by colocating data centers with renewable energy power plants. It provides colocation and hosting services to third-party Bitcoin mining customers, engages in proprietary Bitcoin mining, and offers high-performance computing and demand response services.",
+  "sellsTo": [
+    "Bitcoin miners",
+    "AI/HPC customers",
+    "grid operators and utilities"
+  ],
+  "namedCustomers": [
+    "Blockware",
+    "Compass Mining",
+    "KULR Technology Group",
+    "Galaxy Digital",
+    "Cormint Data Systems"
+  ],
+  "namedSuppliers": [
+    "Spring Lane Capital",
+    "Navitas",
+    "Galaxy Digital",
+    "Generate Capital",
+    "Hewlett Packard Enterprise Company",
+    "Siemens",
+    "Metrobloks",
+    "Coinbase"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We develop, own, and operate digital infrastructure for energy-intensive computing applications by colocating data centers with renewable energy power plants."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "We mine Bitcoin through proprietary operations and joint ventures at our data centers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Through Soluna HPC, Inc., we are developing AI-ready data center leasing and hosting capabilities for AI and HPC workloads, beginning with Project Kati 2, which is being engineered for more than 300 MW of capacity in partnership with Metrobloks, LLC."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "We leverage our data center infrastructure to provide demand response services to grid operators and utilities."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Our mission is to make renewable energy a global superpower by using computing as a catalyst."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ERCOT approval for Project Kati 1 initial energization",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we received approval from the Electric Reliability Council of Texas (ERCOT) to commence the initial energization and phased commissioning of Project Kati 1."
+    },
+    {
+      "event": "Project Kati 1 revenue recognition begins",
+      "date": "2026-06-30",
+      "sentence": "The Company expects to begin recognizing hosting and/or mining revenue from this facility as capacity is ramped up throughout the first half of 2026."
+    },
+    {
+      "event": "Project Kati 1 full energization of 83 MW campus",
+      "date": "2026-12-31",
+      "sentence": "Both blocks are being deployed utilizing a three-phase commissioning approach, with full energization of the 83 MW campus expected to be completed during 2026."
+    },
+    {
+      "event": "2026 Standby Equity Purchase Agreement signed",
+      "date": "2026-03-24",
+      "sentence": "On March 24, 2026, we entered into a Standby Equity Purchase Agreement (the 2026 SEPA) with YA II PN, LTD., a Cayman Islands exempt limited company (YA)."
+    },
+    {
+      "event": "Appointment of Chief Financial Officer effective",
+      "date": "2026-04-01",
+      "sentence": "On January 19, 2026, Michael Picchi was appointed as the CFO and Treasurer of the Company, effective April 1, 2026 (the Effective Date)."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Soluna's renewable energy project pipeline is estimated at over 4.3 gigawatts (GW).",
+      "sentence": "Our renewable energy project pipeline currently estimated at over 4.3 gigawatts (GW) represents our most valuable strategic asset."
+    },
+    {
+      "claim": "The pipeline has the potential to support over 300 MW of new digital infrastructure annually over the next six to eight years.",
+      "sentence": "We believe this pipeline has the potential to support the development of over 300 MW of new digital infrastructure annually over the next six to eight years."
+    },
+    {
+      "claim": "Over 900 MW of facilities are in advanced development or near shovel-ready status.",
+      "sentence": "As of December 31, 2025, we had over 900 MW of facilities in advanced development or near shovel-ready status."
+    },
+    {
+      "claim": "Soluna operates 123 MW of capacity across two active sites.",
+      "sentence": "As of December 31, 2025, we operate approximately 123 MW of capacity across two active sites located in Murray, Kentucky and Silverton, Texas."
+    }
+  ],
+  "generatedAt": "2026-07-03T11:53:03.538Z",
+  "model": "deepseek-v4-flash"
+}

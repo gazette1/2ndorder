@@ -1,0 +1,66 @@
+{
+  "cik": "0001064728",
+  "ticker": "BTU",
+  "name": "PEABODY ENERGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001064728-26-000006",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1064728/000106472826000006/btu-20251231.htm"
+  },
+  "business": "Peabody is a leading producer of metallurgical and thermal coal, with interests in 16 active coal mining operations in the United States and Australia as of December 31, 2025.",
+  "sellsTo": [
+    "electricity generators",
+    "industrial facilities",
+    "steel manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "rare-earths",
+      "stance": "active_investment",
+      "sentence": "These workstreams related to projects such as the evaluation of rare earth element (REE) and critical mineral (CM) potential; power generation from coal mine gas; and continued development of renewable energy projects on certain reclaimed mining lands held by the Company."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Conversely, emerging technologies, including data centers, artificial intelligence and cryptocurrency, are expected to drive U.S. electricity demand in coming years."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "These workstreams related to projects such as the evaluation of rare earth element (REE) and critical mineral (CM) potential; power generation from coal mine gas; and continued development of renewable energy projects on certain reclaimed mining lands held by the Company."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Competition from alternative fuels such as natural gas and other fuel sources may also impact the Company's realized pricing."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Peabody is a leading producer of metallurgical and thermal coal."
+    },
+    {
+      "tag": "other:steel-making",
+      "stance": "risk_mention",
+      "sentence": "competing steel-making technologies that do not use coal as a manufacturing input, such as electric arc furnaces"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Full-scale longwall production commenced at Centurion Mine",
+      "date": "2026-02",
+      "sentence": "Full-scale longwall production commenced in February 2026."
+    },
+    {
+      "event": "Wyoming Energy Authority awarded funding for rare earth element pilot plant",
+      "date": "2026-02",
+      "sentence": "In February 2026, the Wyoming Energy Authority awarded Peabody funding of $6.25 million for a pilot plant using Peabody's Powder River Basin coal for REE/CM processing."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:20:21.025Z",
+  "model": "deepseek-v4-flash"
+}

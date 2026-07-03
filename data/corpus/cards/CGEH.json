@@ -1,0 +1,91 @@
+{
+  "cik": "0001009759",
+  "ticker": "CGEH",
+  "name": "Capstone Energy Plus, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-077817",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1009759/000110465926077817/cgeh-20260331x10k.htm"
+  },
+  "business": "Capstone Energy+, Inc. is a leading provider of behind-the-meter clean energy solutions for industrial and commercial operations, along with solutions designed for the next generation of artificial intelligence (AI) and data center applications. The company develops and sells oil-free, friction-free microturbine-based power generation systems that deliver low emissions and high uptime. Its products are used for on-site power generation, combined heat and power, microgrids, and other applications.",
+  "sellsTo": [
+    "data centers",
+    "hospitals",
+    "agriculture",
+    "industrial facilities",
+    "oil and gas operations",
+    "renewable energy",
+    "EV charging",
+    "ports"
+  ],
+  "namedCustomers": [
+    "E-Finity",
+    "Cal Microturbine",
+    "DTC",
+    "Lone Star",
+    "Horizon Power Systems"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Surging demand for AI compute power has driven unprecedented capital investment in data center infrastructure globally, while simultaneously exposing a critical vulnerability: the inability of traditional utility grids to deliver power at the speed, scale, and reliability that next-generation AI facilities require."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "Capstone is actively developing a flexible reference design for the data center topology of today and tomorrow."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Battery Energy Storage Systems (\"BESS\") - Rapid response to fast-changing electrical loads, including the dynamic demands of GPU-intensive computing"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Capstone's inverter-based microturbine technology serves as the dispatchable backbone of microgrid installations"
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Capstone has a long and proven track record in the natural resources market, where our microturbines provide onshore and offshore power for oil and gas operations"
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our microturbines operate efficiently and on a wide operating window when using biogas derived from landfills, wastewater treatment facilities, food processing plants, livestock operations, and agricultural waste."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our microturbine platform addresses a growing gap in EV charging infrastructure, particularly in locations where utility grid capacity is insufficient to support high-demand charging operations."
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "core_product",
+      "sentence": "The Company has successfully validated both 30% blended hydrogen with natural gas and 100% hydrogen operation through collaborative work with the University of California, Irvine, as well as through deployments with industrial customers internationally."
+    },
+    {
+      "tag": "other:bridge-power",
+      "stance": "core_product",
+      "sentence": "Capstone's microturbines are well-suited to serve as bridge power solutions in these situations, providing reliable, dispatchable on-site generation that enables customers to operate at full capacity while awaiting grid access."
+    },
+    {
+      "tag": "other:critical-power",
+      "stance": "core_product",
+      "sentence": "Capstone s microturbine solutions offer a compelling alternative to conventional uninterruptible power supply ( UPS ) systems and diesel backup generators for these mission-critical environments."
+    },
+    {
+      "tag": "other:800vdc",
+      "stance": "active_investment",
+      "sentence": "In October 2025, Capstone announced it has developed an 800-volt direct-current (\"VDC\") microturbine solution, a natural extension of our existing inverter-based power electronics platform, designed to directly interface with next-generation AI chip architectures including NVIDIA's forthcoming Kyber and Rubin Ultra platforms."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:51:50.775Z",
+  "model": "deepseek-v4-flash"
+}

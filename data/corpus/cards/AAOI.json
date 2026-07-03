@@ -1,0 +1,72 @@
+{
+  "cik": "0001158114",
+  "ticker": "AAOI",
+  "name": "APPLIED OPTOELECTRONICS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005875",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm"
+  },
+  "business": "Applied Optoelectronics, Inc. is a vertically integrated provider of fiber-optic networking products. It designs and manufactures optical communications products from components to complete turn-key equipment for internet data center, cable television (CATV), telecommunications, and fiber-to-the-home (FTTH) end-markets. The company sells primarily to hyperscale data center operators, CATV equipment manufacturers, telecom network equipment manufacturers, and internet service providers.",
+  "sellsTo": [
+    "Hyperscale data center operators",
+    "CATV equipment manufacturers and MSOs",
+    "Telecom network equipment manufacturers",
+    "Internet service providers (FTTH)"
+  ],
+  "namedCustomers": [
+    "Digicomm",
+    "Microsoft",
+    "ATX Networks",
+    "Oracle"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Recently the hyperscale data center operators have begun to build and upgrade their data centers to support AI, offering us a new growth opportunity."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our customers in this market are generally large internet-based (\"hyperscale\") data center operators, along with equipment suppliers who supply our products along with others to our hyperscale data center operator customers."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "In the telecom market, we benefit from deployment of new high-speed fiber-optic networks by telecom network operators, including 5G networks."
+    },
+    {
+      "tag": "other:catv-equipment",
+      "stance": "core_product",
+      "sentence": "The CATV market is our most established business, for which we supply a broad array of products, including lasers, transmitters and transceivers, and turn-key equipment."
+    },
+    {
+      "tag": "other:ftth-networking",
+      "stance": "core_product",
+      "sentence": "In the FTTH market, we benefit from continuing passive optical network deployments and system updates among telecom service providers."
+    },
+    {
+      "tag": "other:docsis-4.0",
+      "stance": "core_product",
+      "sentence": "Beginning in 2025, nearly all of our CATV equipment sold meets DOCSIS 4.0 standards."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expansion of U.S. and Taiwan manufacturing operations to contribute more meaningfully to revenue",
+      "date": "2026",
+      "sentence": "In 2026, we expect to expand our manufacturing operations in the U.S. and Taiwan, with these two locations contributing more meaningfully to total revenue than in prior years."
+    },
+    {
+      "event": "800 Gbps product sales expected to exceed 400 Gbps product sales",
+      "date": "2026",
+      "sentence": "we expect that sales of 800 Gbps products will likely exceed sales of 400 Gbps products later in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:29:22.143Z",
+  "model": "deepseek-v4-flash"
+}

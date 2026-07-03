@@ -1,0 +1,53 @@
+{
+  "cik": "0000090168",
+  "ticker": "SIF",
+  "name": "SIFCO INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-058405",
+    "filedAt": "2025-12-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/90168/000162828025058405/sif-20250930.htm"
+  },
+  "business": "SIFCO produces forgings, sub-assemblies, and machined components primarily for the Aerospace and Energy markets, including aerospace and defense, commercial space, energy, and semiconductor industries.",
+  "sellsTo": [
+    "OEMs",
+    "Tier 1 suppliers",
+    "Tier 2 suppliers",
+    "aftermarket service providers",
+    "U.S. government",
+    "commercial airlines"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "SIFCO is engaged in the production of forgings, sub-assemblies, and machined components primarily for the Aerospace and Energy ( A&E ) markets."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "SIFCO supplies new and spare components to the U.S military for aircraft, helicopters, vehicles, and munitions."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "SIFCO supplies components to the commercial space industry, which is experiencing rapid growth driven by increased launch cadence, expansion of satellite constellations, reusability, and new entrants."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "SIFCO supplies components used in semiconductor manufacturing industry."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "SIFCO supplies new and spare components to the energy sector."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:56:24.138Z",
+  "model": "deepseek-v4-flash"
+}

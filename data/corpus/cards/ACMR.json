@@ -1,0 +1,53 @@
+{
+  "cik": "0001680062",
+  "ticker": "ACMR",
+  "name": "ACM Research, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013231",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026013231/acmr-20251231.htm"
+  },
+  "business": "ACM Research supplies advanced capital equipment for the global semiconductor industry, including wet-cleaning, plating, furnace, PECVD, track, and advanced packaging tools. The company sells primarily to foundry/logic and memory chip manufacturers, with the majority of revenue from customers in Asia, especially mainland China.",
+  "sellsTo": [
+    "Foundry/Logic/Other",
+    "Memory",
+    "Advanced Packaging/Wafer Processing",
+    "Asia (primarily mainland China)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "We supply advanced, innovative capital equipment developed for the global semiconductor industry."
+    },
+    {
+      "tag": "other:advanced-packaging",
+      "stance": "core_product",
+      "sentence": "We also develop, manufacture and sell a range of advanced packaging equipment to wafer assembly and packaging customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Our current product portfolio addresses approximately $21 billion of the 2025 global wafer fab equipment, or WFE, market.",
+      "sentence": "We estimate, based on third-party reports and on customer and other information, that our current product portfolio addresses approximately $21 billion of the 2025 global wafer fab equipment, or WFE, market."
+    },
+    {
+      "claim": "By product line: wafer cleaning $7.3B, PECVD $5.3B, Track $3.0B, furnace $2.6B, ECP $1.5B, stress-free polishing/advanced packaging/wafer processing/other >$1.2B.",
+      "sentence": "By product line, we estimate an approximately $7.3 billion market opportunity is addressed by our wafer cleaning equipment, $5.3 billion by our Plasma-Enhanced Chemical Vapor Deposition, or PECVD, equipment, $3.0 billion by our Track equipment, $2.6 billion by our furnace equipment, $1.5 billion by our electro-chemical plating, or ECP, equipment, and more than $1.2 billion by our stress-free polishing, advanced packaging, wafer processing, and other processing equipment."
+    },
+    {
+      "claim": "Gartner estimates total worldwide semiconductor WFE market $111.6B in 2024, $123.9B in 2025, $138.5B in 2026.",
+      "sentence": "Gartner estimates the total worldwide semiconductor WFE market grew by 11.0% from $111.6 billion in 2024 to $123.9 billion in 2025, and estimates will increase by 11.8% to $138.5 billion in 2026."
+    },
+    {
+      "claim": "Gartner estimates China WFE $40.0B in 2024, $39.3B in 2025, $35.4B in 2026.",
+      "sentence": "Gartner estimates China WFE decreased by 1.7%, from $40.0 billion in 2024 to $39.3 billion in 2025, and is expected to decrease by 9.9% to $35.4 billion in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-03T11:53:53.462Z",
+  "model": "deepseek-v4-flash"
+}

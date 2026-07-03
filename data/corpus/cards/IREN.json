@@ -1,0 +1,78 @@
+{
+  "cik": "0001878848",
+  "ticker": "IREN",
+  "name": "IREN Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001878848-25-000063",
+    "filedAt": "2025-08-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000063/iren-20250630.htm"
+  },
+  "business": "IREN Ltd owns and operates next-generation data centers powered by 100% renewable energy, supporting GPU-based HPC/AI services and ASIC-based Bitcoin mining. The company generates revenue by mining Bitcoin and exchanging it for fiat currency, as well as by providing AI Cloud Services using NVIDIA GPUs.",
+  "sellsTo": [
+    "HPC and AI service customers",
+    "Bitcoin mining network"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bitmain",
+    "NVIDIA",
+    "Dell Technologies Inc.",
+    "Hunton Trane",
+    "Lenovo",
+    "Supermicro",
+    "WekaIO, Inc.",
+    "Kraken",
+    "Coinbase",
+    "Antpool",
+    "Foundry",
+    "Etana Custody"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our HPC and AI services include AI Cloud Services, launched in 2024, that generates revenue by providing access to cloud-based GPU computing to customers for AI training and inference workloads."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are a leading owner and operator of next-generation data centers powered by 100% renewable energy (whether from clean or renewable energy sources or through the purchase of renewable energy certificates ( RECs ))."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Our data centers are purpose-built for power dense computing applications and today support a combination of GPUs for HPC and AI services and ASICs for Bitcoin mining."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Our Bitcoin mining operations generate revenue by earning Bitcoin through a combination of block rewards and transaction fees from the operation of our specialized computers called ASICs (which we refer to as Bitcoin miners ) and exchanging these Bitcoin for fiat currencies such as USD or CAD."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Horizon 1 direct-to-chip liquid cooling deployment at Childress",
+      "date": "2025-12-31",
+      "sentence": "We are currently undertaking an expansion of our data center capacity at Childress to support a direct-to-chip liquid cooling deployment known as Horizon 1 with an IT load of up to 50MW (based on rack density of up to 200kW, subject to customer requirements) targeting energization by the end of calendar year 2025, to support potential growth opportunities for HPC and AI services."
+    },
+    {
+      "event": "Sweetwater 1 grid connection and substation energization",
+      "date": "2026-06-30",
+      "sentence": "Construction of substation infrastructure has commenced at Sweetwater 1 (along with site establishment works such as construction offices, laydown areas and warehouse construction), and we are targeting grid connection and a substation energization date in the second quarter of calendar year 2026 for Sweetwater 1"
+    },
+    {
+      "event": "Sweetwater 2 grid connection and substation energization",
+      "date": "2027-12-31",
+      "sentence": "and the fourth quarter of calendar year 2027 for Sweetwater 2."
+    },
+    {
+      "event": "Installation of additional GPUs at Prince George site",
+      "date": "2025-12-31",
+      "sentence": "Subsequent to June 30, 2025, we procured, through a combination of purchases and equipment leasing, approximately 5.5k NVIDIA B200 GPUs, 2.3k NVIDIA B300 GPUs and 1.2k NVIDIA GB300 GPUs to be installed at our Prince George site by the end of calendar year 2025, that will bring the total GPU fleet to approximately 10.9k NVIDIA GPUs."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:24:27.891Z",
+  "model": "deepseek-v4-flash"
+}

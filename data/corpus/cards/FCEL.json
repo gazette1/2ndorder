@@ -1,0 +1,92 @@
+{
+  "cik": "0000886128",
+  "ticker": "FCEL",
+  "name": "FUELCELL ENERGY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-122302",
+    "filedAt": "2025-12-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/886128/000110465925122302/fcel-20251031x10k.htm"
+  },
+  "business": "FuelCell Energy is a clean energy technology company that manufactures and sells proprietary molten carbonate fuel cell systems for large-scale, continuous clean power and advanced emissions management. The company's fuel cells generate electricity electrochemically without combustion, resulting in ultra-low emissions and high efficiency. Products are sold primarily in the U.S., Canada, the EU, the UK, and priority Asian markets including South Korea, Singapore, Malaysia, and Thailand.",
+  "sellsTo": [
+    "utilities and independent power producers",
+    "data centers",
+    "wastewater treatment facilities",
+    "commercial and hospitality sectors",
+    "microgrid applications"
+  ],
+  "namedCustomers": [
+    "UIL Holdings Corporation, Inc. (owned by Avangrid, Inc., a wholly owned subsidiary of Iberdrola)",
+    "Long Island Power Authority (LIPA)",
+    "Southern California Edison",
+    "E.ON Connecting Energies",
+    "Korea Southern Power Company (KOSPO)",
+    "Noeul Green Energy Co., Ltd.",
+    "Gyeonggi Green Energy Co., Ltd.",
+    "Toyota Motor North America",
+    "Ameresco, Inc.",
+    "CGN-Yulchon Generation Co., Ltd.",
+    "Pfizer, Inc.",
+    "Trinity College",
+    "University of Connecticut (UConn)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We target a range of markets and applications with our products, including utilities and independent power producers, data centers, wastewater treatment, commercial and hospitality, and microgrids, among others."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As global energy demand rises driven by artificial intelligence (AI), electrification, and the need for enhanced grid resiliency, we believe solutions like ours will be vital in addressing next-generation needs, helping to strengthen the grid, reducing pollution, and supporting decarbonization goals."
+    },
+    {
+      "tag": "carbon-capture",
+      "stance": "core_product",
+      "sentence": "Our carbonate fuel cell technology has the unique capability to capture CO2 from fuel cell exhaust."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Our carbonate fuel cell systems are engineered for seamless integration with a wide range of energy assets, including microgrid controllers, battery energy storage systems, turbines, reciprocating engines, solar arrays, wind farms, and Organic Rankine Cycle systems."
+    },
+    {
+      "tag": "hydrogen",
+      "stance": "core_product",
+      "sentence": "Our carbonate-based Tri-gen system produces zero-carbon hydrogen."
+    },
+    {
+      "tag": "hydrogen",
+      "stance": "active_investment",
+      "sentence": "Our solid oxide electrolysis technology (which is under development) may provide an additional route to low- or zero-carbon hydrogen."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The utilities and independent power producer market has historically been our largest market, with customers that include utilities on the East and West coasts of the United States, such as UIL Holdings Corporation, Inc. (owned by Avangrid, Inc., a wholly owned subsidiary of Iberdrola), the Long Island Power Authority (LIPA) and Southern California Edison."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hartford 7.4 MW fuel cell project commercial operation",
+      "date": "2026-12-01",
+      "sentence": "The current expectation is that we will complete construction in calendar year 2026 and commence commercial operations in December 2026, subject in each case to completing customary development steps and obtaining financing for the project."
+    },
+    {
+      "event": "Commissioning of remaining 14 replacement fuel cell modules for GGE Platform in South Korea",
+      "date": null,
+      "sentence": "The remaining 14 1.4-MW replacement fuel cell modules are expected to be commissioned in fiscal year 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global electricity demand from data centers is projected to more than double by 2030 to approximately 945 terawatt-hours.",
+      "sentence": "According to the International Energy Agency, global electricity demand from data centers is projected to more than double by 2030 to approximately 945 terawatt-hours."
+    }
+  ],
+  "generatedAt": "2026-07-03T12:08:45.222Z",
+  "model": "deepseek-v4-flash"
+}

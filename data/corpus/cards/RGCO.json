@@ -1,0 +1,79 @@
+{
+  "cik": "0001069533",
+  "ticker": "RGCO",
+  "name": "RGC RESOURCES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-036827",
+    "filedAt": "2025-12-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774925036827/rgco20250930_10k.htm"
+  },
+  "business": "RGC Resources Inc, through its subsidiary Roanoke Gas Company, distributes and sells natural gas to residential, commercial and industrial customers in Roanoke, Virginia and surrounding localities.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Columbia Gas Transmission Corporation, LLC",
+    "Columbia Gulf Transmission Corporation, LLC",
+    "East Tennessee Natural Gas, LLC",
+    "Tennessee Gas Pipeline",
+    "Midwestern Gas Transmission Company",
+    "Saltville Gas Storage Company, LLC",
+    "Mountain Valley Pipeline, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The principal service of Roanoke Gas is the distribution and sale of natural gas to residential, commercial and industrial customers within its service territory in Roanoke, Virginia and the surrounding localities."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In March 2023, Roanoke Gas began operation of its RNG facility."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "active_investment",
+      "sentence": "Midstream, a wholly owned subsidiary of Resources, is a less than 1% investor in the MVP, Southgate and Boost."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incident or cyber attacks on the Company’s computer or information technology systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "SAVE Rider rate effective October 1, 2025",
+      "date": "2025-10-01",
+      "sentence": "Roanoke Gas filed and received approval from the SCC for an updated annual SAVE Rider rate to become effective October 1, 2025 that will result in approximately $2,610,000 of SAVE-related revenues during fiscal 2026."
+    },
+    {
+      "event": "Non-gas base rate application filed December 2, 2025",
+      "date": "2025-12-02",
+      "sentence": "on December 2, 2025, the Company filed a non-gas base rate application with the SCC to increase revenues by $4.3 million annually."
+    },
+    {
+      "event": "Asset management agreement expires March 31, 2028",
+      "date": "2028-03-31",
+      "sentence": "The current asset management agreement expires March 31, 2028."
+    },
+    {
+      "event": "Southgate project completion targeted for 2028",
+      "date": "2028-12-31",
+      "sentence": "The targeted timing for completion of the Southgate project is 2028 and the Boost project is 2029."
+    },
+    {
+      "event": "Boost project completion targeted for 2029",
+      "date": "2029-12-31",
+      "sentence": "The targeted timing for completion of the Southgate project is 2028 and the Boost project is 2029."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:28:56.157Z",
+  "model": "deepseek-v4-flash"
+}

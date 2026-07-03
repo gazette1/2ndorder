@@ -1,0 +1,34 @@
+You are an equity analyst building a structured card for MESABI TRUST (MSB) from its own 10-K. Read the sections below and extract only what the filing supports.
+
+=== BUSINESS (Item 1) ===
+ITEM 1. Business 3 ITEM 1A. Risk Factors 3 ITEM 1B. Unresolved Staff Comments 3 ITEM 1C. Cybersecurity 3 ITEM 2. Properties 4 ITEM 3 Legal Proceedings 4 ITEM 4. Mine Safety Disclosures 4 PART II ITEM 5. Market for Registrant s Common Equity, Related Unitholder Matters and Issuer Purchases of Equity Securities 5 ITEM 6. Reserved 5 ITEM 7. Trustees Discussion and Analysis of Financial Condition and Results of Operations 5 ITEM 7A Quantitative and Qualitative Disclosures about Market Risk 5 ITEM 8. Financial Statements and Supplementary Data 5 ITEM 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 5 ITEM 9A. Controls and Procedures 5 ITEM 9B. Other Information 6 ITEM 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 6 PART III ITEM 10. Directors, Executive Officers and Corporate Governance 7 ITEM 11. Executive Compensation 9 ITEM 12. Security Ownership of Certain Beneficial Owners and Trustees and Related Unitholder Matters 11 ITEM 13. Certain Relationships and Related Transactions, and Director Independence 12 ITEM 14. Principal Accountant Fees and Services 13 PART IV ITEM 15. Exhibit and Financial Statement Schedules 14 ITEM 16. Form 10-K Summary 17 Signatures 18 2 Table of Contents PART I ITEM 1. BUSINESS. (a) General Development of Business . The information under the headings Trustees Discussion and Analysis of Financial Condition and Results of Operations, The Trust Estate, Leasehold Royalties, and Land Trust and Fee Royalties in the Annual Report of the Trustees of Mesabi Trust for the fiscal year ended January 31, 2026, filed as Exhibit 13 to this Form 10-K (the Annual Report ) is incorporated herein by reference. (b) Financial Information About Segments . Substantially all of the revenue, operating profits and assets of Mesabi Trust ( Mesabi Trust or the Trust ) relate to one business segment iron ore mining. (c) Narrative Description of Business . The information under the headings Overview, Overview of the Trust s Royalty Structure, Trustees Discussion and Analysis of Financial Condition and Results of Operations, The Trust Estate, Leasehold Royalties and Description of the Mineral Properties in the Annual Report is incorporated herein by reference. (d) Financial Information About Geographical Areas . All of the Trust s revenues are derived from the assets of the Trust, information of which is set forth under the headings The Trust Estate and Description of the Mineral Properties of the Annual Report. The information under the heading Selected Financial Data in the Annual Report is incorporated herein by reference. (e) Availability of Reports on Registrant s Website . The information on the cover page of the Annual Report is incorporated herein by reference.
+
+=== RISK FACTORS (Item 1A, excerpt) ===
+ITEM 1A. RISK FACTORS . The information under the heading Risk Factors in the Annual Report is incorporated by reference.
+
+=== MD&A (Item 7) ===
+(section not found)
+
+Extract:
+- "business": what the company sells and to whom, 2 to 3 plain factual sentences.
+- "sellsTo": end markets and customer types (short phrases).
+- "namedCustomers", "namedSuppliers": only names the filing states.
+- "exposures": every technology or theme the filing shows exposure to. "tag" MUST come from this vocabulary: ai-compute, data-centers, edge-ai, semiconductors, semi-equipment, robotics, industrial-automation, warehouse-automation, machine-vision, sensors, precision-motion, rare-earths, battery-storage, grid-equipment, transmission, utilities, nuclear, renewables, oil-gas-services, mining-materials, specialty-chemicals, electrical-steel, copper-aluminum, defense, space, cybersecurity, quantum, biotech-therapeutics, medical-devices, diagnostics, digital-health, fintech, insurance, staffing-labor, logistics, construction-eng, housing, agriculture, consumer-brands, ecommerce, gaming-media, telecom-networking, satellites, evs-mobility, aerospace-suppliers. If a real exposure fits no tag, use "other:<short-term>". "stance" is "core_product" (they sell it), "active_investment" (they are building it, named program or committed spend), or "risk_mention" (risk factors or trend name-dropping only). "sentence" is the EXACT sentence from the filing that supports the exposure, copied verbatim.
+- "catalysts": dated or datable events the filing commits to (capacity additions, qualifications, launches, contract milestones), each with its exact sentence.
+- "tamClaims": quantified market size claims the filing itself makes, each with its exact sentence.
+
+Rules:
+- Every exposure, catalyst, and TAM claim carries its exact filing sentence. No sentence, no entry.
+- Do not use outside knowledge of the company.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "business": "...",
+  "sellsTo": ["..."],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [{ "tag": "...", "stance": "core_product", "sentence": "..." }],
+  "catalysts": [{ "event": "...", "date": "YYYY-MM-DD or null", "sentence": "..." }],
+  "tamClaims": [{ "claim": "...", "sentence": "..." }]
+}

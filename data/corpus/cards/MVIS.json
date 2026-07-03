@@ -1,0 +1,77 @@
+{
+  "cik": "0000065770",
+  "ticker": "MVIS",
+  "name": "MICROVISION, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-008898",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/65770/000149315226008898/form10-k.htm"
+  },
+  "business": "MicroVision sells lidar sensors and perception software for automotive, industrial, and security & defense markets. Their portfolio includes solid-state lidar sensors (MOVIA, MAVIN, IRIS, HALO) and integrated software solutions. They target advanced driver assistance systems (ADAS), autonomous vehicles, and industrial automation applications.",
+  "sellsTo": [
+    "Automotive OEMs and Tier 1 suppliers",
+    "Industrial automation OEMs (robotics, warehouse, agriculture, mining)",
+    "Security & defense contractors"
+  ],
+  "namedCustomers": [
+    "Daimler Truck North America"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our diverse portfolio of lidar sensors, with both short- and long-range lidar solutions, feature solid-state sensors with varying wavelengths, advanced sensor architectures, design-to-cost engineering, and open software solutions."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Target industrial sectors include robotics, automated warehouse, agriculture, and mining."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Target industrial sectors include robotics, automated warehouse, agriculture, and mining."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Target industrial sectors include robotics, automated warehouse, agriculture, and mining."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Target industrial sectors include robotics, automated warehouse, agriculture, and mining."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our solutions enable advanced driver assistance systems (ADAS) and autonomy features for customers in a wide range of markets, including automotive, industrial, and security & defense."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our solutions enable advanced driver assistance systems (ADAS) and autonomy features for customers in a wide range of markets, including automotive, industrial, and security & defense."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our extensive experience in developing and productizing core lidar hardware and software components, along with our expertise in edge computing, positions us as a valuable commercial partner capable of delivering high-value, low-power products."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "MicroVision's perception software efficiently enables small object detection, lane detection, road boundaries, and dynamic object tracking and classification."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Although we are evaluating and, where we believe appropriate, incorporating the use of AI tools into our operations, such as the use of generative AI tools to assist in the development of code, our use of such tools may subject us to significant competitive, legal, regulatory and other risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T11:47:55.939Z",
+  "model": "deepseek-v4-flash"
+}

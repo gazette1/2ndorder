@@ -1,0 +1,50 @@
+{
+  "cik": "0000788965",
+  "ticker": "HNRG",
+  "name": "HALLADOR ENERGY CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027174",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/788965/000110465926027174/hnrg-20251231x10k.htm"
+  },
+  "business": "Hallador Energy Company is a vertically integrated independent power producer (IPP) and fuel company with operations primarily in Indiana. It sells accredited capacity and energy via its Merom Power Plant and mines bituminous coal from the Illinois Basin for power plants in the Midwest and Southeast. Its electric operations are within the MISO footprint and sell to utilities and other market participants.",
+  "sellsTo": [
+    "utilities",
+    "generation and transmission cooperatives",
+    "other energy market participants"
+  ],
+  "namedCustomers": [
+    "Hoosier Energy Rural Electric Cooperative, Inc.",
+    "Citadel Energy Marketing, LLC",
+    "MISO",
+    "Vectren Corporation",
+    "Orlando Utility Commission (OUC)",
+    "Duke Energy Corporation"
+  ],
+  "namedSuppliers": [
+    "Consolidated Asset Management Services (CAMS)",
+    "Alliance for Cooperative Energy Services Power Marketing, LLC (ACES)"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Hallador Power sells accredited capacity to utilities and other energy market participants within the MISO system mainly through power purchase agreements (PPAs) and other bilateral transactions."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Sunrise, the Company’s wholly-owned mining subsidiary, mines coal from reserves found in the Illinois Basin (ILB). Coal mined by Sunrise is used as a primary fuel source for generating electricity at various power plants in the Midwest and Southeast United States."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "This will enable us to supply high demand end users, such as data centers and on-shored industrial customers, with minimal impact to retail consumers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T12:17:03.509Z",
+  "model": "deepseek-v4-flash"
+}
