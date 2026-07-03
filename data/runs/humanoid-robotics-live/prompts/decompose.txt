@@ -1,7 +1,6 @@
-export function decomposePrompt(seed: string): string {
-  return `You are an equity analyst on a small-cap growth team. Decompose the seed thesis below into an adoption chain: the set of places in the economy where value shifts if the thesis plays out.
+You are an equity analyst on a small-cap growth team. Decompose the seed thesis below into an adoption chain: the set of places in the economy where value shifts if the thesis plays out.
 
-Seed thesis: ${seed}
+Seed thesis: Humanoid robotics reaches commercial deployment 2027-2030
 
 Produce 6 to 10 chain nodes across exactly these four layers:
 - "enabler": companies whose product must exist for the thesis to happen (components, materials, core technology).
@@ -23,5 +22,4 @@ Return only a JSON object:
     { "id": "kebab-case-id", "layer": "enabler|picks_and_shovels|second_order|disrupted", "name": "...", "logic": "...", "searchPhrases": ["...", "..."] }
   ],
   "themeKeywords": ["...", "..."]
-}`;
 }

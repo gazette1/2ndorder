@@ -1,0 +1,40 @@
+You are an equity analyst reading SEC filing excerpts for NATIONAL HEALTHCARE CORP (NHC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Humanoid robotics reaches commercial deployment 2027-2030
+Chain node this company was mapped to: Elderly care and assisted living facilities (second_order). Node logic: Humanoid robots can assist with daily tasks, reducing reliance on human caregivers. Facilities that adopt robots can lower labor costs (a major expense) and improve care consistency. Operating margins expand as robot costs decline; early adopters gain competitive advantage.
+8-K filings in the last 12 months: 17
+
+Excerpts:
+[0] (8-K, filed 2026-07-01) NHC operates multiple skilled nursing facilities, assisted living and independent living communities, as well as homecare and hospice agencies within this geographic footprint.
+[1] (8-K, filed 2026-07-01) Since we were already operating and offering many health care service lines, including assisted living, homecare, hospice, and behavioral health, within this geographic footprint, the acquisition also enhances and complements that continuum of care, Dr.
+[2] (8-K, filed 2026-07-01) NHC affiliates also operate 26 assisted living communities with 1,413 units, nine independent living communities with 775 units, three behavioral health hospitals, 34 homecare agencies, and 33 hospice agencies.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-3,496,249 across 1 buys and 5 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,517,781,000, net income $120,015,000, R&D $n/a, cash $92,829,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

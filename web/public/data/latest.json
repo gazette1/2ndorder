@@ -1,13 +1,13 @@
 {
   "run": {
-    "id": "humanoid-robotics",
+    "id": "humanoid-robotics-live",
     "seed": "Humanoid robotics reaches commercial deployment 2027-2030",
-    "createdAt": "2026-07-02T23:01:29.051Z",
+    "createdAt": "2026-07-03T02:02:20.007Z",
     "floatBandMM": [
       150,
       5000
     ],
-    "mode": "fixture",
+    "mode": "live",
     "rubric": {
       "weights": {
         "optionality": 0.25,
@@ -29,129 +29,123 @@
   },
   "chain": [
     {
-      "id": "precision-actuation",
+      "id": "precision-gear-components",
       "layer": "enabler",
-      "name": "Precision actuation and motion components",
-      "logic": "A humanoid platform carries roughly 30 to 40 actuated joints, so actuators, gearing, and motion control dominate the bill of materials. Component suppliers get paid per joint by every OEM regardless of which robot wins, and volume production would multiply a market that today serves low-volume industrial and medical niches.",
+      "name": "Precision gear and transmission components",
+      "logic": "Humanoid robots require high-precision, compact gearboxes such as harmonic drives for each joint. Suppliers of these components see volume growth proportional to robot units, with pricing power due to specialized manufacturing. As humanoid production scales to tens of thousands per year, revenue inflection is rapid.",
       "searchPhrases": [
-        "humanoid robot",
-        "precision motion control",
-        "harmonic drive"
+        "harmonic drive",
+        "precision reducer",
+        "servo actuator"
       ]
     },
     {
-      "id": "sensing-stack",
+      "id": "ai-inference-chips",
       "layer": "enabler",
-      "name": "Force, torque, and vision sensing",
-      "logic": "Manipulation in unstructured environments requires force and torque feedback plus machine vision at each end effector. Sensor content per humanoid is a step change over industrial arms, and qualification cycles create sticky design wins for incumbent sensor makers.",
+      "name": "AI inference processors for robotics",
+      "logic": "Humanoid robots need on-board inference for perception and control. Specialized AI chips low in power but high in TOPS are critical. Chip designers benefit from volume ramp and design wins; each robot may use multiple chips. Revenue is levered to robot adoption as chips are a high-value BOM item.",
       "searchPhrases": [
-        "force torque sensor",
-        "machine vision",
-        "tactile sensing"
+        "AI accelerator",
+        "edge inference",
+        "robotics processor"
       ]
     },
     {
-      "id": "magnet-materials",
+      "id": "high-energy-batteries",
       "layer": "enabler",
-      "name": "Rare earth magnet supply",
-      "logic": "High torque density joint motors depend on neodymium permanent magnets, and a humanoid uses several kilograms of magnet material versus grams in most consumer devices. Domestic magnet producers gain a demand source levered to unit volumes, on top of existing defense and EV demand.",
+      "name": "High-energy-density batteries",
+      "logic": "Humanoids require lightweight, long-duration power. Advanced battery chemistries (solid-state or high-NMC) are essential. Battery manufacturers targeting robotics see a new high-growth vertical; margins could improve as robotics demands higher energy density than EVs.",
       "searchPhrases": [
-        "rare earth magnets",
-        "neodymium",
-        "permanent magnet"
+        "solid-state battery",
+        "lithium-ion cell",
+        "high energy density",
+        "battery pack for robotics"
       ]
     },
     {
-      "id": "simulation-training",
+      "id": "simulation-software",
       "layer": "picks_and_shovels",
-      "name": "Simulation and training infrastructure",
-      "logic": "Humanoid control policies are trained in physics simulation before deployment, so simulation software and synthetic data pipelines sell to every program regardless of which OEM ships. Spending here scales with the number of programs, not the number of robots, which front-loads revenue ahead of deployment.",
+      "name": "Simulation and training platforms",
+      "logic": "Training humanoid robots via reinforcement learning requires virtual environments. Companies providing physics simulation and digital twin software see licensing revenue from robot developers. As humanoid models multiply, demand for simulation scales exponentially with compute hours.",
       "searchPhrases": [
-        "robot simulation",
+        "physics simulation",
         "digital twin",
-        "synthetic data"
+        "robot training",
+        "virtual environment"
       ]
     },
     {
-      "id": "test-qualification",
+      "id": "testing-calibration",
       "layer": "picks_and_shovels",
-      "name": "Test, measurement, and qualification equipment",
-      "logic": "Actuators, sensors, and full platforms need automated life testing and motion measurement before commercial deployment. Test equipment vendors are paid during the qualification phase, which is exactly the 2027 to 2030 window of the thesis, before robot unit economics are proven.",
+      "name": "Robotic calibration and test equipment",
+      "logic": "Each humanoid robot must be calibrated before deployment. Precision measurement and alignment tools are needed. Suppliers of laser trackers, force-torque sensors, and calibration fixtures see per-unit revenue; the niche grows with robot production volume.",
       "searchPhrases": [
-        "automated test equipment",
-        "motion capture"
+        "calibration equipment",
+        "laser tracker",
+        "force torque sensor",
+        "test fixture"
       ]
     },
     {
-      "id": "warehouse-adopters",
+      "id": "warehouse-automation-integrators",
       "layer": "second_order",
-      "name": "Warehouse and logistics automation adopters",
-      "logic": "Warehouse operators and automation integrators already run mobile robot fleets, and humanoids extend automation to the picking and handling tasks that still require human labor. Labor is the largest operating cost line for these incumbents, so even partial substitution inflects margins rather than revenue.",
+      "name": "Warehouse automation integrators",
+      "logic": "Warehouses are early adopters of humanoid robots for picking and moving. Integrators that incorporate humanoids alongside conveyors and automated storage see higher throughput and lower labor costs. Their service revenue and margins improve as they resell robots and provide maintenance.",
       "searchPhrases": [
         "warehouse automation",
-        "autonomous mobile robots"
+        "order fulfillment",
+        "material handling",
+        "logistics integration"
       ]
     },
     {
-      "id": "factory-adopters",
+      "id": "elderly-care-assistive",
       "layer": "second_order",
-      "name": "Flexible manufacturing adopters",
-      "logic": "Manufacturers with high-mix, low-volume lines cannot justify fixed automation and still depend on manual labor. Humanoids make those cells automatable without retooling, so incumbents that adopt early convert direct labor cost into depreciable capex and widen unit margins against slower peers.",
+      "name": "Elderly care and assisted living facilities",
+      "logic": "Humanoid robots can assist with daily tasks, reducing reliance on human caregivers. Facilities that adopt robots can lower labor costs (a major expense) and improve care consistency. Operating margins expand as robot costs decline; early adopters gain competitive advantage.",
       "searchPhrases": [
-        "factory automation",
-        "flexible manufacturing"
+        "assisted living",
+        "elderly care",
+        "caregiver shortage",
+        "robotic assistance"
       ]
     },
     {
-      "id": "light-industrial-staffing",
+      "id": "traditional-industrial-robots",
       "layer": "disrupted",
-      "name": "Light industrial staffing",
-      "logic": "Temporary staffing firms earn a spread on exactly the repetitive warehouse and line labor humanoids target first. Their revenue is priced per placed hour, so substitution shrinks the billable base directly, and the segment carries thin margins with little pricing power to absorb it.",
+      "name": "Traditional industrial robot manufacturers",
+      "logic": "Legacy industrial robot arms (e.g., for welding, assembly) are fixed and require dedicated setups. Humanoid robots offer flexibility and can perform multiple tasks without reconfiguration. As humanoids penetrate factories, demand for traditional robots stagnates or declines; incumbents face pricing pressure and volume loss.",
       "searchPhrases": [
-        "temporary staffing services",
-        "light industrial",
-        "staffing industry"
+        "industrial robot arm",
+        "robotic automation",
+        "assembly line robot",
+        "fixed automation"
       ]
     }
   ],
   "candidates": [
     {
-      "cik": "0001970622",
-      "ticker": "USAR",
-      "name": "USA Rare Earth, Inc.",
-      "nodeId": "magnet-materials",
-      "ftsHits": 74,
+      "cik": "0001498148",
+      "ticker": "AITX",
+      "name": "Artificial Intelligence Technology Solutions Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 100,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001213900-26-064453",
-        "filedAt": "2026-06-03",
-        "docId": "ea029340201ex10-1.htm"
+        "accession": "0001062993-26-003423",
+        "filedAt": "2026-06-30",
+        "docId": "exhibit99-1.htm"
       },
-      "publicFloatMM": 662,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001140102",
-      "ticker": "HQI",
-      "name": "HireQuest, Inc.",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 52,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001437749-26-016436",
-        "filedAt": "2026-05-12",
-        "docId": "ex_961192.htm"
-      },
-      "publicFloatMM": 66,
+      "publicFloatMM": 16,
       "status": "filtered_out",
-      "filterReason": "float $66MM outside $150MM to $5000MM band"
+      "filterReason": "float $16MM outside $150MM to $5000MM band"
     },
     {
       "cik": "0000063296",
       "ticker": "MATW",
       "name": "MATTHEWS INTERNATIONAL CORP",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 43,
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 58,
       "latestHit": {
         "form": "10-Q",
         "accession": "0000063296-26-000059",
@@ -162,89 +156,57 @@
       "status": "in_band"
     },
     {
-      "cik": "0001801368",
-      "ticker": "MP",
-      "name": "MP Materials Corp. / DE",
-      "nodeId": "magnet-materials",
-      "ftsHits": 39,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001801368-26-000029",
-        "filedAt": "2026-05-08",
-        "docId": "mp-20260331.htm"
-      },
-      "publicFloatMM": 5000,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001866226",
-      "ticker": "EMAT",
-      "name": "Evolution Metals & Technologies Corp.",
-      "nodeId": "magnet-materials",
-      "ftsHits": 33,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-061113",
-        "filedAt": "2026-05-26",
-        "docId": "ea029214001ex99-1.htm"
-      },
-      "publicFloatMM": 7,
-      "status": "filtered_out",
-      "filterReason": "float $7MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000278165",
-      "ticker": "OMQS",
-      "name": "OMNIQ Corp.",
-      "nodeId": "sensing-stack",
+      "cik": "0001759824",
+      "ticker": "ALTG-PA",
+      "name": "ALTA EQUIPMENT GROUP INC.",
+      "nodeId": "warehouse-automation-integrators",
       "ftsHits": 32,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001171843-26-003864",
-        "filedAt": "2026-06-02",
-        "docId": "exh_991.htm"
+        "accession": "0001193125-26-293422",
+        "filedAt": "2026-07-02",
+        "docId": "altg-ex99_1.htm"
       },
-      "publicFloatMM": 1,
-      "status": "filtered_out",
-      "filterReason": "float $1MM outside $150MM to $5000MM band"
+      "publicFloatMM": 162,
+      "status": "in_band"
     },
     {
-      "cik": "0000040570",
-      "ticker": "JOB",
-      "name": "GEE Group Inc.",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 26,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001477932-26-003070",
-        "filedAt": "2026-05-14",
-        "docId": "job_10q.htm"
-      },
-      "publicFloatMM": 18,
-      "status": "filtered_out",
-      "filterReason": "float $18MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001837240",
-      "ticker": "SYM",
-      "name": "Symbotic Inc.",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 22,
+      "cik": "0001844862",
+      "ticker": "SLDPW",
+      "name": "Solid Power, Inc.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 28,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001837240-26-000023",
-        "filedAt": "2026-05-06",
-        "docId": "symboticinvestorpresenta.htm"
+        "accession": "0001104659-26-079956",
+        "filedAt": "2026-07-02",
+        "docId": "tm2619489d1_ex99-1.htm"
       },
-      "publicFloatMM": 1000,
+      "publicFloatMM": 368,
       "status": "in_band"
+    },
+    {
+      "cik": "0001847986",
+      "ticker": "DFLIW",
+      "name": "Dragonfly Energy Holdings Corp.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 28,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-26-029189",
+        "filedAt": "2026-06-18",
+        "docId": "form8-k.htm"
+      },
+      "publicFloatMM": 6,
+      "status": "filtered_out",
+      "filterReason": "float $6MM outside $150MM to $5000MM band"
     },
     {
       "cik": "0001943289",
       "ticker": "SVCO",
       "name": "Silvaco Group, Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 21,
+      "nodeId": "simulation-software",
+      "ftsHits": 25,
       "latestHit": {
         "form": "8-K",
         "accession": "0001628280-26-032098",
@@ -256,73 +218,101 @@
       "filterReason": "float $45MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0000055135",
-      "ticker": "KELYB",
-      "name": "KELLY SERVICES INC",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 20,
+      "cik": "0001837240",
+      "ticker": "SYM",
+      "name": "Symbotic Inc.",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 24,
       "latestHit": {
         "form": "8-K",
-        "accession": "0000055135-26-000114",
-        "filedAt": "2026-05-07",
-        "docId": "a20261qearningsreleaseform.htm"
+        "accession": "0001837240-26-000023",
+        "filedAt": "2026-05-06",
+        "docId": "symboticinvestorpresenta.htm"
       },
-      "publicFloatMM": 364,
+      "publicFloatMM": 1000,
       "status": "in_band"
     },
     {
-      "cik": "0000890394",
-      "ticker": "PRSO",
-      "name": "Peraso Inc.",
-      "nodeId": "factory-adopters",
+      "cik": "0002049662",
+      "ticker": "FACWW",
+      "name": "Factorial Energy Inc.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 23,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-072433",
+        "filedAt": "2026-06-10",
+        "docId": "tm2617149d1_ex99-4.htm"
+      },
+      "publicFloatMM": 278,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001811414",
+      "ticker": "QS",
+      "name": "QuantumScape Corp",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 23,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001193125-26-177161",
+        "filedAt": "2026-04-24",
+        "docId": "qs-20260331.htm"
+      },
+      "publicFloatMM": 3000,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001881551",
+      "ticker": "STI",
+      "name": "Solidion Technology Inc.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 23,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001213900-26-059602",
+        "filedAt": "2026-05-20",
+        "docId": "ea0288674-10q_solidion.htm"
+      },
+      "publicFloatMM": 5,
+      "status": "filtered_out",
+      "filterReason": "float $5MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000886346",
+      "ticker": "KAI",
+      "name": "KADANT INC",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 20,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0000886346-26-000040",
+        "filedAt": "2026-05-13",
+        "docId": "kai-20260404.htm"
+      },
+      "publicFloatMM": 3653,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001760689",
+      "ticker": "MVSTW",
+      "name": "Microvast Holdings, Inc.",
+      "nodeId": "high-energy-batteries",
       "ftsHits": 19,
       "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-075082",
-        "filedAt": "2026-07-02",
-        "docId": "ea029639901ex99-1.htm"
+        "form": "10-Q",
+        "accession": "0001628280-26-033590",
+        "filedAt": "2026-05-11",
+        "docId": "mvst-20260331.htm"
       },
-      "publicFloatMM": 6,
-      "status": "filtered_out",
-      "filterReason": "float $6MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001512228",
-      "ticker": "NIOBW",
-      "name": "NIOCORP DEVELOPMENTS LTD",
-      "nodeId": "magnet-materials",
-      "ftsHits": 18,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001539497-26-000783",
-        "filedAt": "2026-02-25",
-        "docId": "exh99_1-closingpr.htm"
-      },
-      "publicFloatMM": 63,
-      "status": "filtered_out",
-      "filterReason": "float $63MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001396536",
-      "ticker": "DUOT",
-      "name": "DUOS TECHNOLOGIES GROUP, INC.",
-      "nodeId": "sensing-stack",
-      "ftsHits": 17,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001079973-26-000317",
-        "filedAt": "2026-03-17",
-        "docId": "duot_ex99z1.htm"
-      },
-      "publicFloatMM": 51,
-      "status": "filtered_out",
-      "filterReason": "float $51MM outside $150MM to $5000MM band"
+      "publicFloatMM": 683,
+      "status": "in_band"
     },
     {
       "cik": "0001057352",
       "ticker": "CSGP",
       "name": "COSTAR GROUP, INC.",
-      "nodeId": "simulation-training",
+      "nodeId": "simulation-software",
       "ftsHits": 17,
       "latestHit": {
         "form": "8-K",
@@ -335,104 +325,161 @@
       "filterReason": "float $33900MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0000097210",
-      "ticker": "TER",
-      "name": "TERADYNE, INC",
-      "nodeId": "test-qualification",
-      "ftsHits": 17,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001193125-26-201058",
-        "filedAt": "2026-05-01",
-        "docId": "ter-20260329.htm"
-      },
-      "publicFloatMM": 12700,
-      "status": "filtered_out",
-      "filterReason": "float $12700MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000851205",
-      "ticker": "CGNX",
-      "name": "COGNEX CORP",
-      "nodeId": "sensing-stack",
-      "ftsHits": 16,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0000851205-26-000040",
-        "filedAt": "2026-05-07",
-        "docId": "cgnx-20260405.htm"
-      },
-      "publicFloatMM": 5267,
-      "status": "filtered_out",
-      "filterReason": "float $5267MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000768899",
-      "ticker": "TBI",
-      "name": "TrueBlue, Inc.",
-      "nodeId": "light-industrial-staffing",
+      "cik": "0001047335",
+      "ticker": "NHC",
+      "name": "NATIONAL HEALTHCARE CORP",
+      "nodeId": "elderly-care-assistive",
       "ftsHits": 16,
       "latestHit": {
         "form": "8-K",
-        "accession": "0000768899-26-000018",
-        "filedAt": "2026-05-05",
-        "docId": "a2026-05investorroadshow.htm"
+        "accession": "0001437749-26-022306",
+        "filedAt": "2026-07-01",
+        "docId": "ex_983367.htm"
       },
-      "publicFloatMM": 200,
+      "publicFloatMM": 901,
       "status": "in_band"
     },
     {
-      "cik": "0001419806",
-      "ticker": "REEMF",
-      "name": "RARE ELEMENT RESOURCES LTD",
-      "nodeId": "magnet-materials",
+      "cik": "0000069488",
+      "ticker": "MYE",
+      "name": "MYERS INDUSTRIES INC",
+      "nodeId": "warehouse-automation-integrators",
       "ftsHits": 15,
       "latestHit": {
-        "form": "10-Q",
-        "accession": "0001419806-26-000008",
-        "filedAt": "2026-05-13",
-        "docId": "reemf-20260331x10q.htm"
+        "form": "10-K",
+        "accession": "0001193125-26-092521",
+        "filedAt": "2026-03-05",
+        "docId": "mye-20251231.htm"
       },
-      "publicFloatMM": 112,
-      "status": "filtered_out",
-      "filterReason": "float $112MM outside $150MM to $5000MM band"
+      "publicFloatMM": 458,
+      "status": "in_band"
     },
     {
-      "cik": "0000082811",
-      "ticker": "RRX",
-      "name": "REGAL REXNORD CORP",
-      "nodeId": "factory-adopters",
+      "cik": "0001093691",
+      "ticker": "PLUG",
+      "name": "PLUG POWER INC",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 15,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-072652",
+        "filedAt": "2026-06-11",
+        "docId": "tm2617557d1_ex99-1.htm"
+      },
+      "publicFloatMM": 1463,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001899287",
+      "ticker": "AMPX-WT",
+      "name": "Amprius Technologies, Inc.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 14,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001899287-26-000045",
+        "filedAt": "2026-05-07",
+        "docId": "ampx-20260331.htm"
+      },
+      "publicFloatMM": 518,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000887905",
+      "ticker": "LTC",
+      "name": "LTC PROPERTIES INC",
+      "nodeId": "elderly-care-assistive",
       "ftsHits": 14,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001628280-26-039279",
-        "filedAt": "2026-06-01",
-        "docId": "ipsleadershiptransitionpr_.htm"
+        "accession": "0001558370-25-010105",
+        "filedAt": "2025-08-04",
+        "docId": "ltc-20250804xex99d2.htm"
       },
-      "publicFloatMM": 9500,
-      "status": "filtered_out",
-      "filterReason": "float $9500MM outside $150MM to $5000MM band"
+      "publicFloatMM": 1561,
+      "status": "in_band"
     },
     {
-      "cik": "0001687187",
-      "ticker": "METCZ",
-      "name": "Ramaco Resources, Inc.",
-      "nodeId": "magnet-materials",
+      "cik": "0001332349",
+      "ticker": "BKD",
+      "name": "Brookdale Senior Living Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 14,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001332349-26-000048",
+        "filedAt": "2026-05-07",
+        "docId": "bkd-20260331.htm"
+      },
+      "publicFloatMM": 1600,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001826681",
+      "ticker": "PDYNW",
+      "name": "Palladyne AI Corp.",
+      "nodeId": "simulation-software",
       "ftsHits": 13,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001213900-26-062129",
-        "filedAt": "2026-05-28",
-        "docId": "ea029256101ex99-1.htm"
+        "accession": "0001193125-25-283918",
+        "filedAt": "2025-11-17",
+        "docId": "pdyn-ex99_1.htm"
       },
-      "publicFloatMM": 425,
+      "publicFloatMM": 316,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000002488",
+      "ticker": "AMD",
+      "name": "ADVANCED MICRO DEVICES INC",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 12,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0000002488-26-000072",
+        "filedAt": "2026-05-05",
+        "docId": "amdq126earningsslidesfin.htm"
+      },
+      "publicFloatMM": 232300,
+      "status": "filtered_out",
+      "filterReason": "float $232300MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001280263",
+      "ticker": "AMBA",
+      "name": "AMBARELLA INC",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 12,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001193125-26-245234",
+        "filedAt": "2026-05-28",
+        "docId": "d130687dex991.htm"
+      },
+      "publicFloatMM": 2200,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001819142",
+      "ticker": "SES-WT",
+      "name": "SES AI Corp",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 12,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001819142-26-000019",
+        "filedAt": "2026-04-23",
+        "docId": "ses-20260423xex99d1.htm"
+      },
+      "publicFloatMM": 279,
       "status": "in_band"
     },
     {
       "cik": "0001031308",
       "ticker": "BSY",
       "name": "BENTLEY SYSTEMS INC",
-      "nodeId": "simulation-training",
+      "nodeId": "simulation-software",
       "ftsHits": 12,
       "latestHit": {
         "form": "8-K",
@@ -445,87 +492,134 @@
       "filterReason": "float $7600MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001141103",
-      "ticker": "CCRN",
-      "name": "CROSS COUNTRY HEALTHCARE INC",
-      "nodeId": "light-industrial-staffing",
+      "cik": "0000728387",
+      "ticker": "CATX",
+      "name": "Perspective Therapeutics, Inc.",
+      "nodeId": "warehouse-automation-integrators",
       "ftsHits": 12,
       "latestHit": {
-        "form": "10-Q",
-        "accession": "0001628280-26-032542",
-        "filedAt": "2026-05-08",
-        "docId": "ccrn-20260331.htm"
+        "form": "8-K",
+        "accession": "0001193125-25-303895",
+        "filedAt": "2025-12-01",
+        "docId": "catx-ex99_1.htm"
       },
-      "publicFloatMM": 393,
+      "publicFloatMM": 213,
       "status": "in_band"
     },
     {
-      "cik": "0001787518",
-      "ticker": "DFNSW",
-      "name": "T3 Defense Inc.",
-      "nodeId": "simulation-training",
+      "cik": "0001788999",
+      "ticker": "XPER",
+      "name": "Xperi Inc.",
+      "nodeId": "ai-inference-chips",
       "ftsHits": 11,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001193125-26-076849",
+        "filedAt": "2026-02-26",
+        "docId": "xper-20251231.htm"
+      },
+      "publicFloatMM": 358,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001972529",
+      "ticker": "BTOC",
+      "name": "Armlogi Holding Corp.",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 10,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001213900-26-044073",
-        "filedAt": "2026-04-15",
-        "docId": "ea028627201ex99-1.htm"
+        "accession": "0001213900-26-055821",
+        "filedAt": "2026-05-13",
+        "docId": "ea029057901ex99-1.htm"
       },
-      "publicFloatMM": 40,
+      "publicFloatMM": 42,
       "status": "filtered_out",
-      "filterReason": "float $40MM outside $150MM to $5000MM band"
+      "filterReason": "float $42MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001142750",
-      "ticker": "AMN",
-      "name": "AMN HEALTHCARE SERVICES INC",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 11,
+      "cik": "0001828318",
+      "ticker": "ENVX",
+      "name": "Enovix Corp",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 9,
       "latestHit": {
         "form": "10-Q",
-        "accession": "0001628280-26-032419",
-        "filedAt": "2026-05-08",
-        "docId": "amn-20260331.htm"
+        "accession": "0001828318-26-000029",
+        "filedAt": "2026-05-14",
+        "docId": "envx-20260405.htm"
       },
-      "publicFloatMM": 788,
+      "publicFloatMM": 1640,
       "status": "in_band"
     },
     {
-      "cik": "0001345126",
-      "ticker": "CODI-PA",
-      "name": "Compass Diversified Holdings",
-      "nodeId": "magnet-materials",
-      "ftsHits": 10,
+      "cik": "0001043000",
+      "ticker": "SNDA",
+      "name": "SONIDA SENIOR LIVING, INC.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 9,
       "latestHit": {
-        "form": "10-Q",
-        "accession": "0001345126-26-000040",
-        "filedAt": "2026-05-06",
-        "docId": "codi-20260331.htm"
+        "form": "10-K",
+        "accession": "0001043000-26-000009",
+        "filedAt": "2026-03-12",
+        "docId": "snda-20251231.htm"
       },
-      "publicFloatMM": 419,
+      "publicFloatMM": 156,
       "status": "in_band"
     },
     {
-      "cik": "0000930420",
-      "ticker": "KFRC",
-      "name": "KFORCE INC",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 10,
+      "cik": "0001577526",
+      "ticker": "AI",
+      "name": "C3.ai, Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 8,
       "latestHit": {
         "form": "10-Q",
-        "accession": "0000930420-26-000041",
-        "filedAt": "2026-04-29",
-        "docId": "kfrc-20260331.htm"
+        "accession": "0001577526-26-000024",
+        "filedAt": "2026-03-11",
+        "docId": "ai-20260131.htm"
       },
-      "publicFloatMM": 632,
+      "publicFloatMM": 1200,
       "status": "in_band"
+    },
+    {
+      "cik": "0000050863",
+      "ticker": "INTC",
+      "name": "INTEL CORP",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0000050863-26-000079",
+        "filedAt": "2026-04-24",
+        "docId": "intc-20260328.htm"
+      },
+      "publicFloatMM": 99300,
+      "status": "filtered_out",
+      "filterReason": "float $99300MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001507605",
+      "ticker": "MARA",
+      "name": "MARA Holdings, Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 8,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001507605-26-000007",
+        "filedAt": "2026-03-02",
+        "docId": "mara-20251231.htm"
+      },
+      "publicFloatMM": 5700,
+      "status": "filtered_out",
+      "filterReason": "float $5700MM outside $150MM to $5000MM band"
     },
     {
       "cik": "0001682149",
       "ticker": "DVLT",
       "name": "Datavault AI Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 9,
+      "nodeId": "simulation-software",
+      "ftsHits": 8,
       "latestHit": {
         "form": "8-K",
         "accession": "0001104659-26-011064",
@@ -537,648 +631,180 @@
       "filterReason": "float $48MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0000700841",
-      "ticker": "RCMT",
-      "name": "RCM TECHNOLOGIES, INC.",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 9,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001437749-26-017057",
-        "filedAt": "2026-05-14",
-        "docId": "rcmt20260404_10q.htm"
-      },
-      "publicFloatMM": 99,
-      "status": "filtered_out",
-      "filterReason": "float $99MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001605888",
-      "ticker": "SQLLW",
-      "name": "ATLANTIC INTERNATIONAL CORP.",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 9,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001605888-26-000025",
-        "filedAt": "2026-06-22",
-        "docId": "altn-20260331.htm"
-      },
-      "publicFloatMM": 98,
-      "status": "filtered_out",
-      "filterReason": "float $98MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001805521",
-      "ticker": "FFAIW",
-      "name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-070874",
-        "filedAt": "2026-06-23",
-        "docId": "ea029552701ex99-1.htm"
-      },
-      "publicFloatMM": 224,
-      "status": "in_band"
-    },
-    {
-      "cik": "0000046129",
-      "ticker": "ALNT",
-      "name": "ALLIENT INC",
-      "nodeId": "precision-actuation",
+      "cik": "0001689548",
+      "ticker": "PRAX",
+      "name": "Praxis Precision Medicines, Inc.",
+      "nodeId": "simulation-software",
       "ftsHits": 8,
       "latestHit": {
         "form": "10-Q",
-        "accession": "0001104659-26-056256",
-        "filedAt": "2026-05-06",
-        "docId": "alnt-20260331x10q.htm"
-      },
-      "publicFloatMM": 518,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001049502",
-      "ticker": "MKSI",
-      "name": "MKS INC",
-      "nodeId": "precision-actuation",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001049502-26-000062",
+        "accession": "0001689548-26-000047",
         "filedAt": "2026-05-07",
-        "docId": "mksi-20260331.htm"
+        "docId": "prax-20260331.htm"
       },
-      "publicFloatMM": 6673,
-      "status": "filtered_out",
-      "filterReason": "float $6673MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001833756",
-      "ticker": "DRS",
-      "name": "Leonardo DRS, Inc.",
-      "nodeId": "magnet-materials",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001833756-26-000025",
-        "filedAt": "2026-05-05",
-        "docId": "drs-20260331.htm"
-      },
-      "publicFloatMM": 3508,
+      "publicFloatMM": 883,
       "status": "in_band"
     },
     {
-      "cik": "0001385849",
-      "ticker": "UUUU",
-      "name": "ENERGY FUELS INC",
-      "nodeId": "magnet-materials",
+      "cik": "0000877860",
+      "ticker": "NHI",
+      "name": "NATIONAL HEALTH INVESTORS INC",
+      "nodeId": "elderly-care-assistive",
       "ftsHits": 8,
       "latestHit": {
-        "form": "10-Q",
-        "accession": "0001385849-26-000021",
-        "filedAt": "2026-05-06",
-        "docId": "efr-20260331.htm"
-      },
-      "publicFloatMM": 1130,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001036262",
-      "ticker": "INTT",
-      "name": "INTEST CORP",
-      "nodeId": "test-qualification",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001036262-26-000032",
-        "filedAt": "2026-05-11",
-        "docId": "intt-20260331.htm"
-      },
-      "publicFloatMM": 85,
-      "status": "filtered_out",
-      "filterReason": "float $85MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000855658",
-      "ticker": "LSCC",
-      "name": "LATTICE SEMICONDUCTOR CORP",
-      "nodeId": "factory-adopters",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001437749-26-014686",
+        "form": "8-K",
+        "accession": "0000877860-26-000137",
         "filedAt": "2026-05-04",
-        "docId": "lscc20260404_10q.htm"
+        "docId": "q12026supplemental_final.htm"
       },
-      "publicFloatMM": 3426,
+      "publicFloatMM": 2900,
       "status": "in_band"
     },
     {
-      "cik": "0001435617",
-      "ticker": "PWDY",
-      "name": "POWERDYNE INTERNATIONAL, INC.",
-      "nodeId": "factory-adopters",
-      "ftsHits": 8,
+      "cik": "0001576873",
+      "ticker": "ABAT",
+      "name": "AMERICAN BATTERY TECHNOLOGY Co",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 7,
       "latestHit": {
         "form": "10-Q",
-        "accession": "0001493152-26-024678",
-        "filedAt": "2026-05-20",
+        "accession": "0001493152-26-022149",
+        "filedAt": "2026-05-11",
         "docId": "form10-q.htm"
       },
-      "publicFloatMM": 3,
+      "publicFloatMM": 208,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001398805",
+      "ticker": "BEEM",
+      "name": "Beam Global",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 7,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001437749-26-017368",
+        "filedAt": "2026-05-15",
+        "docId": "beem20260331_10q.htm"
+      },
+      "publicFloatMM": 23,
       "status": "filtered_out",
-      "filterReason": "float $3MM outside $150MM to $5000MM band"
+      "filterReason": "float $23MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0000026058",
-      "ticker": "CTS",
-      "name": "CTS CORP",
-      "nodeId": "factory-adopters",
-      "ftsHits": 8,
+      "cik": "0001899883",
+      "ticker": "FIP",
+      "name": "FTAI Infrastructure Inc.",
+      "nodeId": "simulation-software",
+      "ftsHits": 7,
       "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-26-189091",
-        "filedAt": "2026-04-29",
-        "docId": "cts-ex99_1.htm"
+        "form": "10-K",
+        "accession": "0001899883-26-000015",
+        "filedAt": "2026-03-16",
+        "docId": "ftai-20251231.htm"
       },
-      "publicFloatMM": 1242,
+      "publicFloatMM": 698,
       "status": "in_band"
     },
     {
-      "cik": "0000356171",
-      "ticker": "TCBK",
-      "name": "TRICO BANCSHARES /",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 8,
+      "cik": "0001897245",
+      "ticker": "HWH",
+      "name": "HWH International Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 7,
       "latestHit": {
-        "form": "8-K",
-        "accession": "0000356171-26-000040",
-        "filedAt": "2026-04-23",
-        "docId": "a2026q1tcbkinvestorprese.htm"
+        "form": "10-Q",
+        "accession": "0001493152-26-022793",
+        "filedAt": "2026-05-13",
+        "docId": "form10-q.htm"
       },
-      "publicFloatMM": 1400,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001474903",
-      "ticker": "BGSF",
-      "name": "BGSF, INC.",
-      "nodeId": "light-industrial-staffing",
-      "ftsHits": 8,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001474903-25-000086",
-        "filedAt": "2025-08-07",
-        "docId": "ex991q22025earnings.htm"
-      },
-      "publicFloatMM": 65,
+      "publicFloatMM": 2,
       "status": "filtered_out",
-      "filterReason": "float $65MM outside $150MM to $5000MM band"
+      "filterReason": "float $2MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001498148",
-      "ticker": "AITX",
-      "name": "Artificial Intelligence Technology Solutions Inc.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 7,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001062993-25-015375",
-        "filedAt": "2025-09-08",
-        "docId": "exhibit99-1.htm"
-      },
-      "publicFloatMM": 16,
-      "status": "filtered_out",
-      "filterReason": "float $16MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000884624",
-      "ticker": "OFIX",
-      "name": "Orthofix Medical Inc.",
-      "nodeId": "sensing-stack",
-      "ftsHits": 7,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-26-204999",
-        "filedAt": "2026-05-05",
-        "docId": "ofix-ex99_2.htm"
-      },
-      "publicFloatMM": 440,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001827899",
-      "ticker": "CPTKW",
-      "name": "Crown PropTech Acquisitions",
-      "nodeId": "magnet-materials",
-      "ftsHits": 7,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-067057",
-        "filedAt": "2026-06-10",
-        "docId": "ea029425601ex99-1.htm"
-      },
-      "publicFloatMM": 6,
-      "status": "filtered_out",
-      "filterReason": "float $6MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000903651",
-      "ticker": "INOD",
-      "name": "INNODATA INC",
-      "nodeId": "simulation-training",
-      "ftsHits": 7,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001104659-26-020514",
-        "filedAt": "2026-02-26",
-        "docId": "tm265812d1_ex99-1.htm"
-      },
-      "publicFloatMM": 1560,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001816581",
-      "ticker": "OUST",
-      "name": "Ouster, Inc.",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 7,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-26-206501",
-        "filedAt": "2026-05-05",
-        "docId": "d947395dex991.htm"
-      },
-      "publicFloatMM": 1310,
-      "status": "in_band"
-    },
-    {
-      "cik": "0000029002",
-      "ticker": "DIOD",
-      "name": "DIODES INC /DEL/",
-      "nodeId": "warehouse-adopters",
+      "cik": "0002033770",
+      "ticker": "DAICW",
+      "name": "CID Holdco, Inc.",
+      "nodeId": "warehouse-automation-integrators",
       "ftsHits": 6,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001193125-25-270059",
+        "accession": "0001213900-26-064773",
+        "filedAt": "2026-06-03",
+        "docId": "ea029343401ex99-1.htm"
+      },
+      "publicFloatMM": 7,
+      "status": "filtered_out",
+      "filterReason": "float $7MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001830214",
+      "ticker": "DNABW",
+      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 6,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001628280-25-050193",
         "filedAt": "2025-11-06",
-        "docId": "diod-ex99_3.htm"
+        "docId": "dna-20250930.htm"
       },
-      "publicFloatMM": 2400,
+      "publicFloatMM": 553,
       "status": "in_band"
-    },
-    {
-      "cik": "0001006281",
-      "ticker": "PLX",
-      "name": "Protalix BioTherapeutics, Inc.",
-      "nodeId": "factory-adopters",
-      "ftsHits": 6,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0001104659-26-029858",
-        "filedAt": "2026-03-18",
-        "docId": "plx-20251231x10k.htm"
-      },
-      "publicFloatMM": 113,
-      "status": "filtered_out",
-      "filterReason": "float $113MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001014763",
-      "ticker": "AIMDW",
-      "name": "Ainos, Inc.",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 5,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001493152-25-022312",
-        "filedAt": "2025-11-13",
-        "docId": "form10-q.htm"
-      },
-      "publicFloatMM": 4,
-      "status": "filtered_out",
-      "filterReason": "float $4MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001567900",
-      "ticker": "ALOY",
-      "name": "REALLOYS INC.",
-      "nodeId": "magnet-materials",
-      "ftsHits": 5,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001185185-26-002091",
-        "filedAt": "2026-05-22",
-        "docId": "realloysex99-1.htm"
-      },
-      "publicFloatMM": 16,
-      "status": "filtered_out",
-      "filterReason": "float $16MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001826681",
-      "ticker": "PDYNW",
-      "name": "Palladyne AI Corp.",
-      "nodeId": "test-qualification",
-      "ftsHits": 5,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-26-012228",
-        "filedAt": "2026-01-14",
-        "docId": "pdyn-ex99_1.htm"
-      },
-      "publicFloatMM": 316,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001385157",
-      "ticker": "TEL",
-      "name": "TE Connectivity plc",
-      "nodeId": "factory-adopters",
-      "ftsHits": 5,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001104659-26-046285",
-        "filedAt": "2026-04-22",
-        "docId": "tel-20260422xex99d2.htm"
-      },
-      "publicFloatMM": 42200,
-      "status": "filtered_out",
-      "filterReason": "float $42200MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001606242",
-      "ticker": "VTIX",
-      "name": "Virtuix Holdings Inc.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-072654",
-        "filedAt": "2026-06-26",
-        "docId": "ea029606401ex99-1.htm"
-      },
-      "publicFloatMM": 0,
-      "status": "filtered_out",
-      "filterReason": "float $0MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001963685",
-      "ticker": "RR",
-      "name": "RICHTECH ROBOTICS INC.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0001213900-26-005343",
-        "filedAt": "2026-01-20",
-        "docId": "ea0272362-10k_richtech.htm"
-      },
-      "publicFloatMM": 0,
-      "status": "filtered_out",
-      "filterReason": "float $0MM outside $150MM to $5000MM band"
     },
     {
       "cik": "0000877212",
       "ticker": "ZBRA",
       "name": "ZEBRA TECHNOLOGIES CORP",
-      "nodeId": "sensing-stack",
-      "ftsHits": 4,
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 6,
       "latestHit": {
-        "form": "10-K",
-        "accession": "0001628280-26-007668",
-        "filedAt": "2026-02-12",
-        "docId": "zbra-20251231.htm"
+        "form": "10-Q",
+        "accession": "0001628280-25-046778",
+        "filedAt": "2025-10-28",
+        "docId": "zbra-20250927.htm"
       },
       "publicFloatMM": 15500,
       "status": "filtered_out",
       "filterReason": "float $15500MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0002028707",
-      "ticker": "MRLN",
-      "name": "Merlin, Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-048884",
-        "filedAt": "2026-04-29",
-        "docId": "ea028818001ex10-1.htm"
-      },
-      "publicFloatMM": 258,
-      "status": "in_band"
-    },
-    {
-      "cik": "0000021535",
-      "ticker": "COHU",
-      "name": "COHU INC",
-      "nodeId": "test-qualification",
-      "ftsHits": 4,
+      "cik": "0001517413",
+      "ticker": "FSLY",
+      "name": "Fastly, Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 5,
       "latestHit": {
         "form": "10-K",
-        "accession": "0001437749-26-004339",
-        "filedAt": "2026-02-17",
-        "docId": "cohu20251227_10k.htm"
+        "accession": "0001517413-25-000063",
+        "filedAt": "2025-02-26",
+        "docId": "fsly-20241231.htm"
       },
-      "publicFloatMM": 879,
+      "publicFloatMM": 1000,
       "status": "in_band"
     },
     {
-      "cik": "0001433660",
-      "ticker": "JBTM",
-      "name": "JBT MAREL Corp",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 4,
+      "cik": "0001871638",
+      "ticker": "BZAIW",
+      "name": "Blaize Holdings, Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 5,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001628280-26-029903",
-        "filedAt": "2026-05-04",
-        "docId": "a2026q1earningsexhibit9918k.htm"
+        "accession": "0001871638-26-000030",
+        "filedAt": "2026-05-14",
+        "docId": "ex991-2026xq1pressrelease.htm"
       },
-      "publicFloatMM": 6184,
-      "status": "filtered_out",
-      "filterReason": "float $6184MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001290900",
-      "ticker": "CVGI",
-      "name": "Commercial Vehicle Group, Inc.",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001628280-24-040165",
-        "filedAt": "2024-09-12",
-        "docId": "cvgbarringtonconference-.htm"
-      },
-      "publicFloatMM": 56,
-      "status": "filtered_out",
-      "filterReason": "float $56MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001823584",
-      "ticker": "AENTW",
-      "name": "ALLIANCE ENTERTAINMENT HOLDING CORP",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001493152-26-006492",
-        "filedAt": "2026-02-13",
-        "docId": "ex99-1.htm"
-      },
-      "publicFloatMM": 117,
-      "status": "filtered_out",
-      "filterReason": "float $117MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001092796",
-      "ticker": "SWBI",
-      "name": "SMITH & WESSON BRANDS, INC.",
-      "nodeId": "factory-adopters",
-      "ftsHits": 4,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-25-142704",
-        "filedAt": "2025-06-18",
-        "docId": "d19177dex991.htm"
-      },
-      "publicFloatMM": 420,
+      "publicFloatMM": 217,
       "status": "in_band"
-    },
-    {
-      "cik": "0001318605",
-      "ticker": "TSLA",
-      "name": "Tesla, Inc.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "10-Q",
-        "accession": "0001628280-26-026673",
-        "filedAt": "2026-04-23",
-        "docId": "tsla-20260331.htm"
-      },
-      "publicFloatMM": 892930,
-      "status": "filtered_out",
-      "filterReason": "float $892930MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001814215",
-      "ticker": "BURUW",
-      "name": "Nuburu, Inc.",
-      "nodeId": "precision-actuation",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0000950170-24-124234",
-        "filedAt": "2024-11-08",
-        "docId": "buru-20231231.htm"
-      },
-      "publicFloatMM": 25,
-      "status": "filtered_out",
-      "filterReason": "float $25MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001646188",
-      "ticker": "ONDS",
-      "name": "Ondas Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-069889",
-        "filedAt": "2026-06-18",
-        "docId": "ea029504301ex99-3.htm"
-      },
-      "publicFloatMM": 392,
-      "status": "in_band"
-    },
-    {
-      "cik": "0002006291",
-      "ticker": "CCIXW",
-      "name": "Churchill Capital Corp IX/Cayman",
-      "nodeId": "simulation-training",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001193125-26-022577",
-        "filedAt": "2026-01-26",
-        "docId": "d96619dex991.htm"
-      },
-      "publicFloatMM": 302,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001024478",
-      "ticker": "ROK",
-      "name": "ROCKWELL AUTOMATION, INC",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001024478-26-000020",
-        "filedAt": "2026-05-05",
-        "docId": "q2fy26ex99.htm"
-      },
-      "publicFloatMM": 29100,
-      "status": "filtered_out",
-      "filterReason": "float $29100MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001173514",
-      "ticker": "HY",
-      "name": "HYSTER-YALE, INC.",
-      "nodeId": "warehouse-adopters",
-      "ftsHits": 3,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001173514-25-000128",
-        "filedAt": "2025-11-04",
-        "docId": "q32025investorpresentati.htm"
-      },
-      "publicFloatMM": 461,
-      "status": "in_band"
-    },
-    {
-      "cik": "0002074973",
-      "ticker": "CCXIW",
-      "name": "Churchill Capital Corp XI",
-      "nodeId": "precision-actuation",
-      "ftsHits": 2,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001213900-26-071287",
-        "filedAt": "2026-06-24",
-        "docId": "ea029548401ex99-1.htm"
-      },
-      "publicFloatMM": 423,
-      "status": "in_band"
-    },
-    {
-      "cik": "0001378140",
-      "ticker": "OPTT",
-      "name": "Ocean Power Technologies, Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 2,
-      "latestHit": {
-        "form": "8-K",
-        "accession": "0001493152-25-027865",
-        "filedAt": "2025-12-16",
-        "docId": "ex99-1.htm"
-      },
-      "publicFloatMM": 19,
-      "status": "filtered_out",
-      "filterReason": "float $19MM outside $150MM to $5000MM band"
     },
     {
       "cik": "0001854445",
       "ticker": "GGRP",
       "name": "Glimpse Group, Inc.",
-      "nodeId": "simulation-training",
-      "ftsHits": 2,
+      "nodeId": "simulation-software",
+      "ftsHits": 5,
       "latestHit": {
         "form": "8-K",
         "accession": "0001493152-25-016192",
@@ -1190,296 +816,428 @@
       "filterReason": "float $41MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001847064",
-      "ticker": "PSQH-WT",
-      "name": "PSQ Holdings, Inc.",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
+      "cik": "0001816581",
+      "ticker": "OUST",
+      "name": "Ouster, Inc.",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 5,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001213900-25-047426",
-        "filedAt": "2025-05-23",
-        "docId": "ea024325201ex99-1_psqhold.htm"
+        "accession": "0001193125-26-206501",
+        "filedAt": "2026-05-05",
+        "docId": "d947395dex991.htm"
       },
-      "publicFloatMM": 79,
-      "status": "filtered_out",
-      "filterReason": "float $79MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001275014",
-      "ticker": "UCTT",
-      "name": "Ultra Clean Holdings, Inc.",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0001628280-26-010744",
-        "filedAt": "2026-02-23",
-        "docId": "uctt-20251226.htm"
-      },
-      "publicFloatMM": 1020,
+      "publicFloatMM": 1310,
       "status": "in_band"
     },
     {
-      "cik": "0000006281",
-      "ticker": "ADI",
-      "name": "ANALOG DEVICES INC",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
+      "cik": "0001455863",
+      "ticker": "COLD",
+      "name": "AMERICOLD REALTY TRUST",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 5,
       "latestHit": {
-        "form": "10-K",
-        "accession": "0000006281-25-000153",
-        "filedAt": "2025-11-25",
-        "docId": "adi-20251101.htm"
+        "form": "8-K",
+        "accession": "0001628280-25-049853",
+        "filedAt": "2025-11-06",
+        "docId": "cold-investordeckq325.htm"
       },
-      "publicFloatMM": 81121,
-      "status": "filtered_out",
-      "filterReason": "float $81121MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0001074871",
-      "ticker": "MODD",
-      "name": "Modular Medical, Inc.",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0001213900-26-073223",
-        "filedAt": "2026-06-29",
-        "docId": "ea0294762-10k_modular.htm"
-      },
-      "publicFloatMM": 37,
-      "status": "filtered_out",
-      "filterReason": "float $37MM outside $150MM to $5000MM band"
-    },
-    {
-      "cik": "0000851520",
-      "ticker": "EXPO",
-      "name": "EXPONENT INC",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
-      "latestHit": {
-        "form": "10-K",
-        "accession": "0001193125-26-082508",
-        "filedAt": "2026-02-27",
-        "docId": "expo-20260102.htm"
-      },
-      "publicFloatMM": 3000,
+      "publicFloatMM": 4100,
       "status": "in_band"
     },
     {
-      "cik": "0002010653",
-      "ticker": "FVNNR",
-      "name": "Future Vision II Acquisition Corp.",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
+      "cik": "0001083743",
+      "ticker": "FLUX",
+      "name": "Flux Power Holdings, Inc.",
+      "nodeId": "warehouse-automation-integrators",
+      "ftsHits": 5,
       "latestHit": {
-        "form": "10-K",
-        "accession": "0001829126-26-001993",
-        "filedAt": "2026-03-06",
-        "docId": "futurevision2_10k.htm"
+        "form": "8-K",
+        "accession": "0001493152-26-021717",
+        "filedAt": "2026-05-07",
+        "docId": "ex99-1.htm"
       },
-      "publicFloatMM": 61,
+      "publicFloatMM": 20,
       "status": "filtered_out",
-      "filterReason": "float $61MM outside $150MM to $5000MM band"
+      "filterReason": "float $20MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001615063",
-      "ticker": "INSE",
-      "name": "Inspired Entertainment, Inc.",
-      "nodeId": "test-qualification",
-      "ftsHits": 2,
+      "cik": "0001782430",
+      "ticker": "STRW",
+      "name": "Strawberry Fields REIT, Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001641172-25-009375",
+        "filedAt": "2025-05-09",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 140,
+      "status": "filtered_out",
+      "filterReason": "float $140MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000357173",
+      "ticker": "OSBC",
+      "name": "OLD SECOND BANCORP INC",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0000357173-26-000020",
+        "filedAt": "2026-04-22",
+        "docId": "osbc-20260422xex99d2.htm"
+      },
+      "publicFloatMM": 761,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001611046",
+      "ticker": "MDLK",
+      "name": "ModuLink Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0001683168-26-004141",
+        "filedAt": "2026-05-20",
+        "docId": "modulink_i10q-033126.htm"
+      },
+      "publicFloatMM": 1,
+      "status": "filtered_out",
+      "filterReason": "float $1MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001014763",
+      "ticker": "AIMDW",
+      "name": "Ainos, Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 5,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001641172-25-009580",
+        "filedAt": "2025-05-12",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 4,
+      "status": "filtered_out",
+      "filterReason": "float $4MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001926599",
+      "ticker": "TDACW",
+      "name": "Translational Development Acquisition Corp.",
+      "nodeId": "high-energy-batteries",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001104659-26-076684",
+        "filedAt": "2026-06-23",
+        "docId": "tm2618552d1_ex99-1.htm"
+      },
+      "publicFloatMM": 178,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001378140",
+      "ticker": "OPTT",
+      "name": "Ocean Power Technologies, Inc.",
+      "nodeId": "simulation-software",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001493152-25-027865",
+        "filedAt": "2025-12-16",
+        "docId": "ex99-1.htm"
+      },
+      "publicFloatMM": 19,
+      "status": "filtered_out",
+      "filterReason": "float $19MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0002001184",
+      "ticker": "PACS",
+      "name": "PACS Group, Inc.",
+      "nodeId": "elderly-care-assistive",
+      "ftsHits": 4,
+      "latestHit": {
+        "form": "10-Q",
+        "accession": "0002001184-26-000023",
+        "filedAt": "2026-05-11",
+        "docId": "pacs-20260331.htm"
+      },
+      "publicFloatMM": 589,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001963685",
+      "ticker": "RR",
+      "name": "RICHTECH ROBOTICS INC.",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 4,
       "latestHit": {
         "form": "10-K",
-        "accession": "0001493152-26-009479",
-        "filedAt": "2026-03-10",
-        "docId": "form10-k.htm"
+        "accession": "0001213900-25-019499",
+        "filedAt": "2025-03-04",
+        "docId": "ea0232237-10ka2_richtech.htm"
       },
-      "publicFloatMM": 181,
+      "publicFloatMM": 0,
+      "status": "filtered_out",
+      "filterReason": "float $0MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001736297",
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001736297-26-000010",
+        "filedAt": "2026-02-20",
+        "docId": "alab-20251231.htm"
+      },
+      "publicFloatMM": 13200,
+      "status": "filtered_out",
+      "filterReason": "float $13200MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001040470",
+      "ticker": "AEHR",
+      "name": "AEHR TEST SYSTEMS",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001654954-26-003310",
+        "filedAt": "2026-04-07",
+        "docId": "aehr_ex991.htm"
+      },
+      "publicFloatMM": 335,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001646188",
+      "ticker": "ONDS",
+      "name": "Ondas Inc.",
+      "nodeId": "simulation-software",
+      "ftsHits": 3,
+      "latestHit": {
+        "form": "8-K",
+        "accession": "0001213900-26-069889",
+        "filedAt": "2026-06-18",
+        "docId": "ea029504301ex99-3.htm"
+      },
+      "publicFloatMM": 392,
       "status": "in_band"
     },
     {
       "cik": "0001593001",
       "ticker": "NGTF",
       "name": "NightFood Holdings, Inc.",
-      "nodeId": "sensing-stack",
-      "ftsHits": 1,
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 3,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001493152-26-028225",
-        "filedAt": "2026-06-11",
-        "docId": "ex99-1.htm"
+        "accession": "0001493152-26-015242",
+        "filedAt": "2026-04-06",
+        "docId": "ex10-1.htm"
       },
       "publicFloatMM": 2,
       "status": "filtered_out",
       "filterReason": "float $2MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001604191",
-      "ticker": "GRDX",
-      "name": "GridAI Technologies Corp.",
-      "nodeId": "sensing-stack",
-      "ftsHits": 1,
+      "cik": "0001711786",
+      "ticker": "RKTO",
+      "name": "Rocket One Inc.",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 2,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001104659-24-098369",
-        "filedAt": "2024-09-10",
-        "docId": "tm2423688d1_ex99-1.htm"
+        "accession": "0001213900-26-061789",
+        "filedAt": "2026-05-28",
+        "docId": "ea029245101ex99-1.htm"
       },
       "publicFloatMM": 15,
       "status": "filtered_out",
       "filterReason": "float $15MM outside $150MM to $5000MM band"
     },
     {
-      "cik": "0001037868",
-      "ticker": "AME",
-      "name": "AMETEK INC/",
-      "nodeId": "sensing-stack",
-      "ftsHits": 1,
+      "cik": "0000029002",
+      "ticker": "DIOD",
+      "name": "DIODES INC /DEL/",
+      "nodeId": "ai-inference-chips",
+      "ftsHits": 2,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001037868-24-000051",
-        "filedAt": "2024-10-31",
-        "docId": "ametek8kexhibit99210-31x24.htm"
+        "accession": "0001193125-26-212347",
+        "filedAt": "2026-05-07",
+        "docId": "diod-ex99_3.htm"
       },
-      "publicFloatMM": 41800,
-      "status": "filtered_out",
-      "filterReason": "float $41800MM outside $150MM to $5000MM band"
+      "publicFloatMM": 2400,
+      "status": "in_band"
     },
     {
-      "cik": "0001111335",
-      "ticker": "VC",
-      "name": "VISTEON CORP",
-      "nodeId": "sensing-stack",
+      "cik": "0001944013",
+      "ticker": "CR",
+      "name": "Crane Co",
+      "nodeId": "testing-calibration",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001944013-26-000095",
+        "filedAt": "2026-02-26",
+        "docId": "cr-20251231.htm"
+      },
+      "publicFloatMM": 9273,
+      "status": "filtered_out",
+      "filterReason": "float $9273MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000046619",
+      "ticker": "HEI-A",
+      "name": "HEICO CORP",
+      "nodeId": "testing-calibration",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0000046619-25-000082",
+        "filedAt": "2025-12-22",
+        "docId": "hei-20251031.htm"
+      },
+      "publicFloatMM": 28298,
+      "status": "filtered_out",
+      "filterReason": "float $28298MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001493594",
+      "ticker": "MTSI",
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "nodeId": "testing-calibration",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001493594-25-000054",
+        "filedAt": "2025-11-14",
+        "docId": "mtsi-20251003.htm"
+      },
+      "publicFloatMM": 5700,
+      "status": "filtered_out",
+      "filterReason": "float $5700MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001013857",
+      "ticker": "PEGA",
+      "name": "PEGASYSTEMS INC",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001013857-26-000017",
+        "filedAt": "2026-02-10",
+        "docId": "pega-20251231.htm"
+      },
+      "publicFloatMM": 5000,
+      "status": "in_band"
+    },
+    {
+      "cik": "0000851205",
+      "ticker": "CGNX",
+      "name": "COGNEX CORP",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0000851205-26-000012",
+        "filedAt": "2026-02-12",
+        "docId": "cgnx-20251231.htm"
+      },
+      "publicFloatMM": 5267,
+      "status": "filtered_out",
+      "filterReason": "float $5267MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001766368",
+      "ticker": "MEC",
+      "name": "Mayville Engineering Company, Inc.",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001104659-26-023496",
+        "filedAt": "2026-03-04",
+        "docId": "tmb-20251231x10k.htm"
+      },
+      "publicFloatMM": 315,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001177394",
+      "ticker": "SNX",
+      "name": "TD SYNNEX CORP",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001628280-26-003598",
+        "filedAt": "2026-01-27",
+        "docId": "snx-20251130.htm"
+      },
+      "publicFloatMM": 8744,
+      "status": "filtered_out",
+      "filterReason": "float $8744MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0001380106",
+      "ticker": "RPID",
+      "name": "RAPID MICRO BIOSYSTEMS, INC.",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0001380106-26-000034",
+        "filedAt": "2026-03-12",
+        "docId": "rmb-20251231.htm"
+      },
+      "publicFloatMM": 104,
+      "status": "filtered_out",
+      "filterReason": "float $104MM outside $150MM to $5000MM band"
+    },
+    {
+      "cik": "0000926326",
+      "ticker": "OMCL",
+      "name": "OMNICELL, INC.",
+      "nodeId": "traditional-industrial-robots",
+      "ftsHits": 2,
+      "latestHit": {
+        "form": "10-K",
+        "accession": "0000926326-26-000006",
+        "filedAt": "2026-02-26",
+        "docId": "omcl-20251231.htm"
+      },
+      "publicFloatMM": 1300,
+      "status": "in_band"
+    },
+    {
+      "cik": "0001972234",
+      "ticker": "VHUB",
+      "name": "VenHub Global, Inc.",
+      "nodeId": "traditional-industrial-robots",
       "ftsHits": 1,
       "latestHit": {
         "form": "8-K",
-        "accession": "0001111335-25-000127",
-        "filedAt": "2025-07-18",
-        "docId": "sennettpressreleaseasof071.htm"
+        "accession": "0001213900-26-015576",
+        "filedAt": "2026-02-12",
+        "docId": "ea027675201ex99-1_venhub.htm"
       },
-      "publicFloatMM": 2500,
-      "status": "in_band"
+      "publicFloatMM": 0,
+      "status": "filtered_out",
+      "filterReason": "float $0MM outside $150MM to $5000MM band"
     }
   ],
   "dossiers": [
-    {
-      "ticker": "USAR",
-      "cik": "0001970622",
-      "insider": {
-        "window": "trailing 12 months",
-        "netBuyUSD": -31069367,
-        "buyCount": 2,
-        "sellCount": 2,
-        "distinctBuyers": 2,
-        "transactions": [
-          {
-            "insider": "Trabuco Carolyn",
-            "role": "Director",
-            "code": "S",
-            "shares": 13000,
-            "price": 22.768,
-            "valueUSD": 295984,
-            "acquiredDisposed": "D",
-            "date": "2026-06-08",
-            "accession": "0001897745-26-000011"
-          },
-          {
-            "insider": "Trabuco Carolyn",
-            "role": "Director",
-            "code": "P",
-            "shares": 1300,
-            "price": 22.5994,
-            "valueUSD": 29379,
-            "acquiredDisposed": "A",
-            "date": "2026-01-29",
-            "accession": "0001897745-26-000004"
-          },
-          {
-            "insider": "BLITZER MICHAEL",
-            "role": "Director",
-            "code": "P",
-            "shares": 100000,
-            "price": 21.4386,
-            "valueUSD": 2143860,
-            "acquiredDisposed": "A",
-            "date": "2026-01-29",
-            "accession": "0001213900-26-009472"
-          },
-          {
-            "insider": "BLITZER MICHAEL",
-            "role": "Director",
-            "code": "S",
-            "shares": 2091849,
-            "price": 15.75,
-            "valueUSD": 32946622,
-            "acquiredDisposed": "D",
-            "date": "2025-08-13",
-            "accession": "0001213900-25-077642"
-          }
-        ],
-        "provenance": "sec_form4"
-      },
-      "fundamentals": {
-        "revenueUSD": 1643000,
-        "revenuePriorUSD": 0,
-        "netIncomeUSD": -297559000,
-        "rdExpenseUSD": 15885000,
-        "cashUSD": 359925000,
-        "asOf": "2025-12-31",
-        "provenance": "sec_xbrl"
-      },
-      "customers": {
-        "govAwards": [
-          {
-            "awardId": "W912HZ24P0132",
-            "agency": "Department of Defense",
-            "amountUSD": 99448,
-            "recipientMatched": "USA RARE EARTH LLC"
-          }
-        ],
-        "govAwardTotalUSD": 99448,
-        "reverseCites": [],
-        "reverseCiteCount": 0,
-        "namedCustomers": [],
-        "provenance": "usaspending"
-      },
-      "coverage": {
-        "analystCount": 5,
-        "consensusRating": "Buy",
-        "priceTargetMeanUSD": 27,
-        "ratingActions": [
-          {
-            "firm": "Morgan Stanley",
-            "action": "initiate",
-            "fromGrade": null,
-            "toGrade": "Overweight",
-            "priceTargetUSD": 30,
-            "date": "2026-04-15",
-            "url": "https://www.google.com/search?q=Morgan%20Stanley%20USAR%20rating%20price%20target"
-          },
-          {
-            "firm": "JPMorgan",
-            "action": "initiate",
-            "fromGrade": null,
-            "toGrade": "Neutral",
-            "priceTargetUSD": 24,
-            "date": "2026-03-02",
-            "url": "https://www.google.com/search?q=JPMorgan%20USAR%20rating%20price%20target"
-          },
-          {
-            "firm": "Canaccord Genuity",
-            "action": "upgrade",
-            "fromGrade": "Hold",
-            "toGrade": "Buy",
-            "priceTargetUSD": 29,
-            "date": "2026-05-20",
-            "url": "https://www.google.com/search?q=Canaccord%20USAR%20rating%20price%20target"
-          }
-        ],
-        "provenance": "stub"
-      }
-    },
     {
       "ticker": "MATW",
       "cik": "0000063296",
@@ -1661,357 +1419,335 @@
         "provenance": "usaspending"
       },
       "coverage": {
-        "analystCount": 4,
-        "consensusRating": "Hold",
-        "priceTargetMeanUSD": 31,
-        "ratingActions": [
-          {
-            "firm": "Sidoti",
-            "action": "downgrade",
-            "fromGrade": "Buy",
-            "toGrade": "Neutral",
-            "priceTargetUSD": 30,
-            "date": "2026-02-10",
-            "url": "https://www.google.com/search?q=Sidoti%20MATW%20rating%20price%20target"
-          },
-          {
-            "firm": "DA Davidson",
-            "action": "reiterate",
-            "fromGrade": "Neutral",
-            "toGrade": "Neutral",
-            "priceTargetUSD": 32,
-            "date": "2026-05-05",
-            "url": "https://www.google.com/search?q=DA%20Davidson%20MATW%20rating%20price%20target"
-          }
-        ],
+        "analystCount": null,
+        "consensusRating": null,
+        "priceTargetMeanUSD": null,
+        "ratingActions": [],
         "provenance": "stub"
       }
     },
     {
-      "ticker": "KELYB",
-      "cik": "0000055135",
+      "ticker": "SLDPW",
+      "cik": "0001844862",
       "insider": {
         "window": "trailing 12 months",
-        "netBuyUSD": -687972,
-        "buyCount": 7,
-        "sellCount": 6,
-        "distinctBuyers": 3,
+        "netBuyUSD": -260363,
+        "buyCount": 0,
+        "sellCount": 2,
+        "distinctBuyers": 0,
         "transactions": [
           {
-            "insider": "Williams Vanessa Peterson",
-            "role": "EVP, Gen Counsel &amp; Corp Sec",
-            "code": "S",
-            "shares": 29999.23,
-            "price": 9.777,
-            "valueUSD": 293302,
-            "acquiredDisposed": "D",
-            "date": "2026-05-14",
-            "accession": "0000055135-26-000148"
-          },
-          {
-            "insider": "Layden Christopher D.",
-            "role": "President, and CEO",
-            "code": "P",
-            "shares": 10000,
-            "price": 8.7561,
-            "valueUSD": 87561,
-            "acquiredDisposed": "A",
-            "date": "2026-03-24",
-            "accession": "0000055135-26-000101"
-          },
-          {
-            "insider": "Layden Christopher D.",
-            "role": "President, and CEO",
-            "code": "P",
-            "shares": 100,
-            "price": 13.515,
-            "valueUSD": 1352,
-            "acquiredDisposed": "A",
-            "date": "2026-03-24",
-            "accession": "0000055135-26-000101"
-          },
-          {
-            "insider": "Brock-Kyle Angela",
-            "role": "Director",
-            "code": "P",
-            "shares": 100,
-            "price": 14.77,
-            "valueUSD": 1477,
-            "acquiredDisposed": "A",
-            "date": "2026-03-04",
-            "accession": "0000055135-26-000079"
-          },
-          {
-            "insider": "Hunt James Christopher",
-            "role": "Director",
-            "code": "P",
-            "shares": 4000,
-            "price": 9.3,
-            "valueUSD": 37200,
-            "acquiredDisposed": "A",
-            "date": "2026-02-25",
-            "accession": "0000055135-26-000077"
-          },
-          {
-            "insider": "Hunt James Christopher",
-            "role": "Director",
-            "code": "P",
-            "shares": 10000,
-            "price": 9.43,
-            "valueUSD": 94300,
-            "acquiredDisposed": "A",
-            "date": "2026-02-23",
-            "accession": "0000055135-26-000075"
-          },
-          {
-            "insider": "Hunt James Christopher",
-            "role": "Director",
-            "code": "P",
-            "shares": 10000,
-            "price": 9.5733,
-            "valueUSD": 95733,
-            "acquiredDisposed": "A",
-            "date": "2026-02-20",
-            "accession": "0000055135-26-000073"
-          },
-          {
-            "insider": "Hunt James Christopher",
-            "role": "Director",
-            "code": "P",
-            "shares": 1000,
-            "price": 9.5799,
-            "valueUSD": 9580,
-            "acquiredDisposed": "A",
-            "date": "2026-02-18",
-            "accession": "0000055135-26-000071"
-          },
-          {
-            "insider": "MURPHY LESLIE A",
+            "insider": "Roe Lesa B",
             "role": "Director",
             "code": "S",
-            "shares": 47,
-            "price": 8.52,
-            "valueUSD": 400,
+            "shares": 39207,
+            "price": 2.66,
+            "valueUSD": 104291,
             "acquiredDisposed": "D",
-            "date": "2025-12-24",
-            "accession": "0000055135-25-000082"
+            "date": "2026-05-20",
+            "accession": "0001844862-26-000016"
           },
           {
-            "insider": "Malan Daniel H",
-            "role": "Senior Vice President",
+            "insider": "ANDERSON ERIK J",
+            "role": "Director",
             "code": "S",
-            "shares": 7840,
-            "price": 12.8646,
-            "valueUSD": 100858,
+            "shares": 30000,
+            "price": 5.2024,
+            "valueUSD": 156072,
             "acquiredDisposed": "D",
-            "date": "2025-09-25",
-            "accession": "0000055135-25-000072"
-          },
-          {
-            "insider": "Soares Nicola M",
-            "role": "Senior Vice President",
-            "code": "S",
-            "shares": 27412,
-            "price": 13.4268,
-            "valueUSD": 368055,
-            "acquiredDisposed": "D",
-            "date": "2025-09-23",
-            "accession": "0000055135-25-000070"
-          },
-          {
-            "insider": "Malan Daniel H",
-            "role": "Senior Vice President",
-            "code": "S",
-            "shares": 7650,
-            "price": 14.4,
-            "valueUSD": 110160,
-            "acquiredDisposed": "D",
-            "date": "2025-08-22",
-            "accession": "0000055135-25-000059"
-          },
-          {
-            "insider": "Malan Daniel H",
-            "role": "Senior Vice President",
-            "code": "S",
-            "shares": 10000,
-            "price": 14.24,
-            "valueUSD": 142400,
-            "acquiredDisposed": "D",
-            "date": "2025-08-21",
-            "accession": "0000055135-25-000059"
+            "date": "2025-12-04",
+            "accession": "0001225208-25-009787"
           }
         ],
         "provenance": "sec_form4"
       },
       "fundamentals": {
-        "revenueUSD": 4250900000,
-        "revenuePriorUSD": 4331800000,
-        "netIncomeUSD": -254100000,
-        "rdExpenseUSD": null,
-        "cashUSD": 33000000,
-        "asOf": "2025-12-28",
+        "revenueUSD": 17913000,
+        "revenuePriorUSD": 20139000,
+        "netIncomeUSD": -93410000,
+        "rdExpenseUSD": 72513000,
+        "cashUSD": 21607000,
+        "asOf": "2025-12-31",
         "provenance": "sec_xbrl"
       },
       "customers": {
         "govAwards": [
           {
-            "awardId": "HHSN27100002",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 53856902,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DEMS0000122",
+            "agency": "Department of Energy",
+            "amountUSD": 50000000,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95019F00029",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 30911743,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DEAR0001727",
+            "agency": "Department of Energy",
+            "amountUSD": 5600000,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100231",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 27562710,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DEEE0009189",
+            "agency": "Department of Energy",
+            "amountUSD": 3599989,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95019F00181",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 27090914,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DEAR0000399",
+            "agency": "Department of Energy",
+            "amountUSD": 3309250,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100149",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 26917137,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "FA821914C0008",
+            "agency": "Department of Defense",
+            "amountUSD": 2956650,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100055",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 25413850,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DESC0013236",
+            "agency": "Department of Energy",
+            "amountUSD": 1724705,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95021F00009",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 23800492,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "DEEE0008861",
+            "agency": "Department of Energy",
+            "amountUSD": 999982,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100073",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 22772662,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "HQ014715C7238",
+            "agency": "Department of Defense",
+            "amountUSD": 999823,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100089",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 21869763,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "FA945319C0614",
+            "agency": "Department of Defense",
+            "amountUSD": 749991,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100335",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 21769637,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "NNX15CC16C",
+            "agency": "National Aeronautics and Space Administration",
+            "amountUSD": 749899,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95019F00190",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 21218028,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "H9222214P0030",
+            "agency": "Department of Defense",
+            "amountUSD": 149985,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100115",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 20403059,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "1248379",
+            "agency": "National Science Foundation",
+            "amountUSD": 149978,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100152",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 19608528,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "FA945315M0487",
+            "agency": "Department of Defense",
+            "amountUSD": 149960,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "HHSN27100008",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 19281021,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "HQ014714C7863",
+            "agency": "Department of Defense",
+            "amountUSD": 129992,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95018F00024",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 18997799,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "NNX14CC50P",
+            "agency": "National Aeronautics and Space Administration",
+            "amountUSD": 124951,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95018F00015",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 18486940,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "W15QKN15C0011",
+            "agency": "Department of Defense",
+            "amountUSD": 99980,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95024F00119",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 18271647,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "W911QX17P0185",
+            "agency": "Department of Defense",
+            "amountUSD": 99786,
+            "recipientMatched": "SOLID POWER OPERATING, INC"
           },
           {
-            "awardId": "75N95018F00021",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 18265108,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "HSCG2815P7AA909",
+            "agency": "Department of Homeland Security",
+            "amountUSD": 6554,
+            "recipientMatched": "SOLID POWER INC"
           },
           {
-            "awardId": "75N95024F00126",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 18038402,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "HHSN27100147",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 17981370,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "HHSN27100226",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 17366318,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "75N95024F00129",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 17293868,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "75N95019F00184",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 17220050,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "HHSN27100028",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 17075949,
-            "recipientMatched": "KELLY SERVICES, INC."
-          },
-          {
-            "awardId": "75N95021F00004",
-            "agency": "Department of Health and Human Services",
-            "amountUSD": 16880999,
-            "recipientMatched": "KELLY SERVICES, INC."
+            "awardId": "HSCG2814P7AAAL1",
+            "agency": "Department of Homeland Security",
+            "amountUSD": 5300,
+            "recipientMatched": "SOLID POWER INC"
           }
         ],
-        "govAwardTotalUSD": 558354896,
+        "govAwardTotalUSD": 71606775,
+        "reverseCites": [],
+        "reverseCiteCount": 0,
+        "namedCustomers": [],
+        "provenance": "usaspending"
+      },
+      "coverage": {
+        "analystCount": null,
+        "consensusRating": null,
+        "priceTargetMeanUSD": null,
+        "ratingActions": [],
+        "provenance": "stub"
+      }
+    },
+    {
+      "ticker": "NHC",
+      "cik": "0001047335",
+      "insider": {
+        "window": "trailing 12 months",
+        "netBuyUSD": -3496249,
+        "buyCount": 1,
+        "sellCount": 5,
+        "distinctBuyers": 1,
+        "transactions": [
+          {
+            "insider": "HASSAN EMIL E",
+            "role": "Director",
+            "code": "S",
+            "shares": 5937,
+            "price": 200,
+            "valueUSD": 1187400,
+            "acquiredDisposed": "D",
+            "date": "2026-06-22",
+            "accession": "0001437749-26-021438"
+          },
+          {
+            "insider": "HASSAN EMIL E",
+            "role": "Director",
+            "code": "S",
+            "shares": 1563,
+            "price": 199.975,
+            "valueUSD": 312561,
+            "acquiredDisposed": "D",
+            "date": "2026-06-16",
+            "accession": "0001437749-26-021139"
+          },
+          {
+            "insider": "Piercey Lisa",
+            "role": "Director",
+            "code": "P",
+            "shares": 949,
+            "price": 184.2559,
+            "valueUSD": 174859,
+            "acquiredDisposed": "A",
+            "date": "2026-06-01",
+            "accession": "0001437749-26-019170"
+          },
+          {
+            "insider": "LAROCHE RICHARD F JR",
+            "role": "Director",
+            "code": "S",
+            "shares": 7500,
+            "price": 195.1421,
+            "valueUSD": 1463566,
+            "acquiredDisposed": "D",
+            "date": "2026-05-21",
+            "accession": "0001437749-26-018248"
+          },
+          {
+            "insider": "Shelly Timothy J.",
+            "role": "Sr.VP Operations",
+            "code": "S",
+            "shares": 1853,
+            "price": 197.2176,
+            "valueUSD": 365444,
+            "acquiredDisposed": "D",
+            "date": "2026-05-19",
+            "accession": "0001437749-26-017945"
+          },
+          {
+            "insider": "Shelly Timothy J.",
+            "role": "Sr.VP Operations",
+            "code": "S",
+            "shares": 2454,
+            "price": 139.42,
+            "valueUSD": 342137,
+            "acquiredDisposed": "D",
+            "date": "2025-12-17",
+            "accession": "0001437749-25-038286"
+          }
+        ],
+        "provenance": "sec_form4"
+      },
+      "fundamentals": {
+        "revenueUSD": 1517781000,
+        "revenuePriorUSD": 1307382000,
+        "netIncomeUSD": 120015000,
+        "rdExpenseUSD": null,
+        "cashUSD": 92829000,
+        "asOf": "2025-12-31",
+        "provenance": "sec_xbrl"
+      },
+      "customers": {
+        "govAwards": [],
+        "govAwardTotalUSD": 0,
         "reverseCites": [
           {
-            "cik": "0001436126",
-            "name": "Mistras Group, Inc.  (MG)",
+            "cik": "0001561032",
+            "name": "National Healthcare Properties, Inc.  (HLTC, HTIA, HTIBP)",
             "form": "8-K",
-            "filedAt": "2024-12-05"
+            "filedAt": "2024-09-30"
+          },
+          {
+            "cik": "0001725255",
+            "name": "AdaptHealth Corp.  (AHCO)",
+            "form": "8-K",
+            "filedAt": "2025-08-05"
+          }
+        ],
+        "reverseCiteCount": 2,
+        "namedCustomers": [],
+        "provenance": "usaspending"
+      },
+      "coverage": {
+        "analystCount": null,
+        "consensusRating": null,
+        "priceTargetMeanUSD": null,
+        "ratingActions": [],
+        "provenance": "stub"
+      }
+    },
+    {
+      "ticker": "PDYNW",
+      "cik": "0001826681",
+      "insider": {
+        "window": "trailing 12 months",
+        "netBuyUSD": 0,
+        "buyCount": 0,
+        "sellCount": 0,
+        "distinctBuyers": 0,
+        "transactions": [],
+        "provenance": "sec_form4"
+      },
+      "fundamentals": {
+        "revenueUSD": 5246000,
+        "revenuePriorUSD": 7786000,
+        "netIncomeUSD": 10039000,
+        "rdExpenseUSD": 12899000,
+        "cashUSD": 18219000,
+        "asOf": "2025-12-31",
+        "provenance": "sec_xbrl"
+      },
+      "customers": {
+        "govAwards": [],
+        "govAwardTotalUSD": 0,
+        "reverseCites": [
+          {
+            "cik": "0000065770",
+            "name": "MICROVISION, INC.  (MVIS)",
+            "form": "8-K",
+            "filedAt": "2025-07-24"
           }
         ],
         "reverseCiteCount": 1,
@@ -2019,229 +1755,603 @@
         "provenance": "usaspending"
       },
       "coverage": {
-        "analystCount": 3,
-        "consensusRating": "Hold",
-        "priceTargetMeanUSD": 16,
-        "ratingActions": [
+        "analystCount": null,
+        "consensusRating": null,
+        "priceTargetMeanUSD": null,
+        "ratingActions": [],
+        "provenance": "stub"
+      }
+    },
+    {
+      "ticker": "AMBA",
+      "cik": "0001280263",
+      "insider": {
+        "window": "trailing 12 months",
+        "netBuyUSD": -17936449,
+        "buyCount": 0,
+        "sellCount": 45,
+        "distinctBuyers": 0,
+        "transactions": [
           {
-            "firm": "Truist Securities",
-            "action": "downgrade",
-            "fromGrade": "Buy",
-            "toGrade": "Hold",
-            "priceTargetUSD": 15,
-            "date": "2026-04-28",
-            "url": "https://www.google.com/search?q=Truist%20KELYA%20rating%20price%20target"
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM",
+            "code": "S",
+            "shares": 10000,
+            "price": 88.84,
+            "valueUSD": 888400,
+            "acquiredDisposed": "D",
+            "date": "2026-07-01",
+            "accession": "0001280263-26-000053"
           },
           {
-            "firm": "William Blair",
-            "action": "reiterate",
-            "fromGrade": "Market Perform",
-            "toGrade": "Market Perform",
-            "priceTargetUSD": null,
-            "date": "2026-05-08",
-            "url": "https://www.google.com/search?q=William%20Blair%20KELYA%20rating%20price%20target"
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 16250,
+            "price": 90.08,
+            "valueUSD": 1463800,
+            "acquiredDisposed": "D",
+            "date": "2026-07-01",
+            "accession": "0001280263-26-000052"
+          },
+          {
+            "insider": "PAISLEY CHRISTOPHER B",
+            "role": "Director",
+            "code": "S",
+            "shares": 250,
+            "price": 62.01,
+            "valueUSD": 15503,
+            "acquiredDisposed": "D",
+            "date": "2026-06-26",
+            "accession": "0001280263-26-000049"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 3186,
+            "price": 67.87,
+            "valueUSD": 216234,
+            "acquiredDisposed": "D",
+            "date": "2026-06-17",
+            "accession": "0001280263-26-000047"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 1847,
+            "price": 66.98,
+            "valueUSD": 123712,
+            "acquiredDisposed": "D",
+            "date": "2026-06-17",
+            "accession": "0001280263-26-000047"
+          },
+          {
+            "insider": "Lee Chan W",
+            "role": "Chief Operations Officer",
+            "code": "S",
+            "shares": 2951,
+            "price": 67.87,
+            "valueUSD": 200284,
+            "acquiredDisposed": "D",
+            "date": "2026-06-17",
+            "accession": "0001280263-26-000046"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM",
+            "code": "S",
+            "shares": 2017,
+            "price": 67.87,
+            "valueUSD": 136894,
+            "acquiredDisposed": "D",
+            "date": "2026-06-17",
+            "accession": "0001280263-26-000045"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 6204,
+            "price": 67.87,
+            "valueUSD": 421065,
+            "acquiredDisposed": "D",
+            "date": "2026-06-17",
+            "accession": "0001280263-26-000044"
+          },
+          {
+            "insider": "Chen Yun-Lung",
+            "role": "VP, Business Development and",
+            "code": "S",
+            "shares": 9856,
+            "price": 67.06,
+            "valueUSD": 660943,
+            "acquiredDisposed": "D",
+            "date": "2026-06-12",
+            "accession": "0001280263-26-000039"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 400,
+            "price": 96,
+            "valueUSD": 38400,
+            "acquiredDisposed": "D",
+            "date": "2026-05-26",
+            "accession": "0001280263-26-000037"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 17285,
+            "price": 90.3791,
+            "valueUSD": 1562203,
+            "acquiredDisposed": "D",
+            "date": "2026-05-26",
+            "accession": "0001280263-26-000036"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 6065,
+            "price": 91.2294,
+            "valueUSD": 553306,
+            "acquiredDisposed": "D",
+            "date": "2026-05-26",
+            "accession": "0001280263-26-000036"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 9150,
+            "price": 92.0487,
+            "valueUSD": 842246,
+            "acquiredDisposed": "D",
+            "date": "2026-05-26",
+            "accession": "0001280263-26-000036"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 1971,
+            "price": 60,
+            "valueUSD": 118260,
+            "acquiredDisposed": "D",
+            "date": "2026-04-21",
+            "accession": "0001280263-26-000033"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 3038,
+            "price": 54.14,
+            "valueUSD": 164477,
+            "acquiredDisposed": "D",
+            "date": "2026-03-19",
+            "accession": "0001280263-26-000031"
+          },
+          {
+            "insider": "Lee Chan W",
+            "role": "Chief Operations Officer",
+            "code": "S",
+            "shares": 3641,
+            "price": 54.14,
+            "valueUSD": 197124,
+            "acquiredDisposed": "D",
+            "date": "2026-03-19",
+            "accession": "0001280263-26-000029"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 2155,
+            "price": 54.14,
+            "valueUSD": 116672,
+            "acquiredDisposed": "D",
+            "date": "2026-03-19",
+            "accession": "0001280263-26-000028"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 8083,
+            "price": 54.14,
+            "valueUSD": 437614,
+            "acquiredDisposed": "D",
+            "date": "2026-03-19",
+            "accession": "0001280263-26-000027"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 4577,
+            "price": 52.77,
+            "valueUSD": 241528,
+            "acquiredDisposed": "D",
+            "date": "2026-03-17",
+            "accession": "0001280263-26-000031"
+          },
+          {
+            "insider": "Lee Chan W",
+            "role": "Chief Operations Officer",
+            "code": "S",
+            "shares": 6729,
+            "price": 52.77,
+            "valueUSD": 355089,
+            "acquiredDisposed": "D",
+            "date": "2026-03-17",
+            "accession": "0001280263-26-000029"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 4729,
+            "price": 52.77,
+            "valueUSD": 249549,
+            "acquiredDisposed": "D",
+            "date": "2026-03-17",
+            "accession": "0001280263-26-000028"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 18976,
+            "price": 52.77,
+            "valueUSD": 1001364,
+            "acquiredDisposed": "D",
+            "date": "2026-03-17",
+            "accession": "0001280263-26-000027"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 1000,
+            "price": 56.832,
+            "valueUSD": 56832,
+            "acquiredDisposed": "D",
+            "date": "2026-03-02",
+            "accession": "0001280263-26-000022"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 1900,
+            "price": 58.77,
+            "valueUSD": 111663,
+            "acquiredDisposed": "D",
+            "date": "2026-03-02",
+            "accession": "0001280263-26-000022"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 2600,
+            "price": 59.5269,
+            "valueUSD": 154770,
+            "acquiredDisposed": "D",
+            "date": "2026-03-02",
+            "accession": "0001280263-26-000022"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 32460,
+            "price": 60.9127,
+            "valueUSD": 1977226,
+            "acquiredDisposed": "D",
+            "date": "2026-03-02",
+            "accession": "0001280263-26-000022"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 12040,
+            "price": 61.4236,
+            "valueUSD": 739540,
+            "acquiredDisposed": "D",
+            "date": "2026-03-02",
+            "accession": "0001280263-26-000022"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 7728,
+            "price": 75.583,
+            "valueUSD": 584105,
+            "acquiredDisposed": "D",
+            "date": "2026-01-05",
+            "accession": "0001280263-26-000002"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 3765,
+            "price": 70.32,
+            "valueUSD": 264755,
+            "acquiredDisposed": "D",
+            "date": "2025-12-30",
+            "accession": "0001280263-25-000074"
+          },
+          {
+            "insider": "PAISLEY CHRISTOPHER B",
+            "role": "Director",
+            "code": "S",
+            "shares": 500,
+            "price": 72.18,
+            "valueUSD": 36090,
+            "acquiredDisposed": "D",
+            "date": "2025-12-26",
+            "accession": "0001280263-25-000072"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 3791,
+            "price": 72.96,
+            "valueUSD": 276591,
+            "acquiredDisposed": "D",
+            "date": "2025-12-18",
+            "accession": "0001280263-25-000070"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 2579,
+            "price": 71.82,
+            "valueUSD": 185224,
+            "acquiredDisposed": "D",
+            "date": "2025-12-17",
+            "accession": "0001280263-25-000070"
+          },
+          {
+            "insider": "Lee Chan W",
+            "role": "Chief Operations Officer",
+            "code": "S",
+            "shares": 2406,
+            "price": 71.82,
+            "valueUSD": 172799,
+            "acquiredDisposed": "D",
+            "date": "2025-12-17",
+            "accession": "0001280263-25-000069"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 1342,
+            "price": 71.82,
+            "valueUSD": 96382,
+            "acquiredDisposed": "D",
+            "date": "2025-12-17",
+            "accession": "0001280263-25-000068"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 4950,
+            "price": 71.82,
+            "valueUSD": 355509,
+            "acquiredDisposed": "D",
+            "date": "2025-12-17",
+            "accession": "0001280263-25-000067"
+          },
+          {
+            "insider": "Schwarting Elizabeth M",
+            "role": "Director",
+            "code": "S",
+            "shares": 624,
+            "price": 72.3771,
+            "valueUSD": 45163,
+            "acquiredDisposed": "D",
+            "date": "2025-12-16",
+            "accession": "0001280263-25-000066"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 6156,
+            "price": 80.96,
+            "valueUSD": 498390,
+            "acquiredDisposed": "D",
+            "date": "2025-10-14",
+            "accession": "0001280263-25-000062"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Senior VP, Systems &amp; GM, Asia",
+            "code": "S",
+            "shares": 5057,
+            "price": 81.2919,
+            "valueUSD": 411093,
+            "acquiredDisposed": "D",
+            "date": "2025-10-13",
+            "accession": "0001280263-25-000062"
+          },
+          {
+            "insider": "Schwarting Elizabeth M",
+            "role": "Director",
+            "code": "S",
+            "shares": 2664,
+            "price": 85.3772,
+            "valueUSD": 227445,
+            "acquiredDisposed": "D",
+            "date": "2025-10-06",
+            "accession": "0001280263-25-000061"
+          },
+          {
+            "insider": "Young John Alexander",
+            "role": "CFO",
+            "code": "S",
+            "shares": 2566,
+            "price": 79.43,
+            "valueUSD": 203817,
+            "acquiredDisposed": "D",
+            "date": "2025-09-17",
+            "accession": "0001280263-25-000059"
+          },
+          {
+            "insider": "Lee Chan W",
+            "role": "Chief Operating Officer",
+            "code": "S",
+            "shares": 1947,
+            "price": 79.43,
+            "valueUSD": 154650,
+            "acquiredDisposed": "D",
+            "date": "2025-09-17",
+            "accession": "0001280263-25-000058"
+          },
+          {
+            "insider": "Kohn Leslie",
+            "role": "Chief Technology Officer",
+            "code": "S",
+            "shares": 2249,
+            "price": 79.43,
+            "valueUSD": 178638,
+            "acquiredDisposed": "D",
+            "date": "2025-09-17",
+            "accession": "0001280263-25-000057"
+          },
+          {
+            "insider": "Ju Chi-Hong",
+            "role": "Sr. Vice President, Systems",
+            "code": "S",
+            "shares": 1168,
+            "price": 79.43,
+            "valueUSD": 92774,
+            "acquiredDisposed": "D",
+            "date": "2025-09-17",
+            "accession": "0001280263-25-000056"
+          },
+          {
+            "insider": "Wang Feng-Ming",
+            "role": "CEO",
+            "code": "S",
+            "shares": 4928,
+            "price": 79.43,
+            "valueUSD": 391431,
+            "acquiredDisposed": "D",
+            "date": "2025-09-17",
+            "accession": "0001280263-25-000055"
+          },
+          {
+            "insider": "Chen Yun-Lung",
+            "role": "VP, Business Development",
+            "code": "S",
+            "shares": 8492,
+            "price": 84.42,
+            "valueUSD": 716895,
+            "acquiredDisposed": "D",
+            "date": "2025-09-10",
+            "accession": "0001280263-25-000049"
           }
         ],
+        "provenance": "sec_form4"
+      },
+      "fundamentals": {
+        "revenueUSD": 390702000,
+        "revenuePriorUSD": 284865000,
+        "netIncomeUSD": -75865000,
+        "rdExpenseUSD": 238519000,
+        "cashUSD": 191019000,
+        "asOf": "2026-01-31",
+        "provenance": "sec_xbrl"
+      },
+      "customers": {
+        "govAwards": [],
+        "govAwardTotalUSD": 0,
+        "reverseCites": [
+          {
+            "cik": "0000746598",
+            "name": "BRADY CORP  (BRC)",
+            "form": "8-K",
+            "filedAt": "2025-02-28"
+          },
+          {
+            "cik": "0000866291",
+            "name": "ALLEGRO MICROSYSTEMS, INC.  (ALGM)",
+            "form": "8-K",
+            "filedAt": "2026-06-18"
+          },
+          {
+            "cik": "0000056978",
+            "name": "KULICKE & SOFFA INDUSTRIES INC  (KLIC)",
+            "form": "10-K",
+            "filedAt": "2024-11-14"
+          },
+          {
+            "cik": "0001097864",
+            "name": "ON SEMICONDUCTOR CORP  (ON)",
+            "form": "10-Q",
+            "filedAt": "2026-05-04"
+          },
+          {
+            "cik": "0001819994",
+            "name": "Rocket Lab USA, Inc.  (RKLB)",
+            "form": "10-K",
+            "filedAt": "2025-04-30"
+          },
+          {
+            "cik": "0001910139",
+            "name": "Mobileye Global Inc.  (MBLY)",
+            "form": "10-K",
+            "filedAt": "2025-02-13"
+          },
+          {
+            "cik": "0001045810",
+            "name": "NVIDIA CORP  (NVDA)",
+            "form": "10-K",
+            "filedAt": "2026-02-25"
+          },
+          {
+            "cik": "0001173489",
+            "name": "CEVA INC  (CEVA)",
+            "form": "10-K",
+            "filedAt": "2026-02-27"
+          },
+          {
+            "cik": "0000921582",
+            "name": "IMAX CORP  (IMAX)",
+            "form": "10-K",
+            "filedAt": "2026-02-25"
+          }
+        ],
+        "reverseCiteCount": 9,
+        "namedCustomers": [],
+        "provenance": "usaspending"
+      },
+      "coverage": {
+        "analystCount": null,
+        "consensusRating": null,
+        "priceTargetMeanUSD": null,
+        "ratingActions": [],
         "provenance": "stub"
       }
     }
   ],
   "reads": [
-    {
-      "ticker": "USAR",
-      "cik": "0001970622",
-      "eightKCount12m": 25,
-      "quotes": [
-        {
-          "text": "For the avoidance of doubt, no interest or penalties shall accrue on the amount of a requested Disbursement between the date of the Disbursement Request and the Disbursement Date, and the making of any Disbursement under the Financing Documents shall not be deemed an approval or acceptance by the Department of any work, labor, supplies, materials or equipment furnished or supplied with respect to any Project.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "The Department shall have received evidence to its satisfaction of the resolution of the power infrastructure plan for the Magnet Project 2.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "With respect to the first Disbursement for each Project, the Project Commencement Date for such Project shall have occurred no later than the applicable Project Commencement Clawback Date; provided that the Recipient and the Department acknowledge and agree that, with respect to the Round Top Mine Project, the Stillwater Magnet Project, and the Stillwater Metal Project, the Project Commencement Date for each such Project occurred prior to the applicable Project Commencement Clawback Date.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "3729 3733); (f) all applicable federal labor and employment laws, including Title VII of the Civil Rights Act of 1964 (42 U.S.C.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "4712 and the whistleblower protections afforded to employees thereby to not discharge, demote, or otherwise discriminate against an employee as a reprisal for disclosing to a Body of Information that the employee reasonably believes is evidence of gross mismanagement of any Award, a gross waste of any Award, an abuse of authority relating to any Award, a substantial and specific danger to public health or safety, or a violation of law, rule or regulation related to a Federal award, subaward or contract under a Federal award or subaward; and (iii) inform its employees and contractors in writing, in the predominant native language of the workforce, of the rights under this Section 8.2.15(g).",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "With respect to the Stillwater Magnet Project and the Magnet Project 2, it shall ensure that at all times on and following the date of achievement of any Disbursement Milestone for which a minimum aggregate Magnet Purchase Commitment of any Product is required in accordance with the Disbursement Milestone Schedule, the relevant Recipient Parties shall maintain in full force and effect, and comply with the terms of, Magnet Purchase Commitments evidencing commitments for the sale of the relevant Product in an aggregate sales volume of no less than the minimum cumulative amount specified for such Disbursement Milestone in the Disbursement Milestone Schedule.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "31 The Recipient shall deliver true and correct copies to the Department of all Magnet Purchase Commitments no later than five (5) Business Days following the execution thereof by the relevant Recipient Party.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Title: Chief Financial Officer USA Rare Earth Project - Direct Funding Agreement Signature Page USA RARE EARTH MAGNETS, LLC, as Recipient Party By: /s/ W.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Additional Project means either the Magnet Project 2 or the Metal Project 2, as context may require.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Applicable Award means: (a) with respect to the Round Top Mine Project, the Round Top Mine Project Award; (b) with respect to the Stillwater Magnet Project, the Stillwater Magnet Project Award; (c) with respect to the Stillwater Metal Project, the Stillwater Metal Project Award; (d) with respect to the Magnet Project 2, the Magnet Project 2 Award; and (e) with respect to the Metal Project 2, the Metal Project 2 Award.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Facility means the Round Top Project Facility, the Stillwater Metal Project Facility, the Stillwater Magnet Project Facility, the Magnet Project 2 Facility, or the Metal Project 2 Facility, as context may require.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Annex A- 19 Magnet Post-Award Quotation Documents means for each Product, all documents submitted to a potential customer associated with the associated Magnet Post-Award Purchase LOI, including the following: the agreed pricing of each quoted Product; specification of each Product in reasonable detail; grades of Product; and detailed drawings of each Product.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Annex A- 20 Magnet Pre-Award Quotation Documents means, for each Product, all documents submitted to a potential customer associated with the associated Magnet Pre-Award Purchase LOI, including the following: (a) the agreed pricing of each quoted Product; (b) specification of each Product in reasonable detail; (c) grades of Product; and (d) detailed drawings of each Product.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Magnet Project 2 has the meaning given to the term in the recitals hereto.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Magnet Project 2 Award has the meaning given to the term in Section 2.1(a)(iv) ( Award Amount ).",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Magnet Project 2 Facility means the magnet manufacturing facility located at the Project Site for the Magnet Project 2 and including all the buildings, fixtures and other improvements situated, or to be situated, on such Project Site.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Magnet Project 2 Maximum Award Amount has the meaning given to the term in Section 2.1(a)(iv) ( Award Amount ).",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Magnet Purchase Commitments means, collectively, each Magnet Post-Award Purchase Commitment and each Magnet Pre-Award Purchase Commitment.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Product means: (a) with respect to the Round Top Mine Project, dysprosium oxide, gallium, gadolinium oxide, terbium oxide, yttrium oxide, hafnium, zirconium, and mixed heavy rare earth carbonate that includes holmium oxide, erbium oxide, thulium oxide, ytterbium oxide, and lutetium oxide; (b) with respect to the Stillwater Magnet Project, rare-earth magnets; (c) with respect to the Stillwater Metal Project, strip-cast neodymium-iron-boron metal; (d) with respect to the Magnet Project 2, rare-earth magnets; and (e) with respect to the Metal Project 2, strip-cast neodymium-iron-boron metal.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        },
-        {
-          "text": "Project Commencement Clawback Date means: (a) with respect to the Round Top Mine Project, the Award Date; (b) with respect to the Stillwater Magnet Project, the Award Date; (c) with respect to the Stillwater Metal Project, the Award Date; (d) with respect to the Magnet Project 2, June 30, 2027; and (e) with respect to the Metal Project 2, September 30, 2027.",
-          "form": "8-K",
-          "accession": "0001213900-26-064453",
-          "filedAt": "2026-06-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex10-1.htm"
-        }
-      ],
-      "exposure": "adjacent",
-      "subscores": {
-        "optionality": {
-          "score": 4,
-          "rationale": "The excerpts document a federal Direct Funding Agreement covering two magnet plants and two metal plants beyond the initial Stillwater projects, with Magnet Project 2 defined as a new magnet manufacturing facility. This is filing evidence of committed investment in capacity that does not generate revenue today. One point withheld because the excerpts show funding terms rather than realized output.",
-          "quoteIdx": [
-            8,
-            15,
-            2
-          ]
-        },
-        "revenueToOpportunity": {
-          "score": 4,
-          "rationale": "Disbursements are gated on Magnet Purchase Commitments and the agreement defines pre-award and post-award purchase LOIs and quotation documents, which indicates commercial volume is still being contracted rather than recognized. A company at this stage is small relative to the magnet demand the funding presumes, so success moves the whole company.",
-          "quoteIdx": [
-            5,
-            11,
-            12
-          ]
-        },
-        "catalystDensity": {
-          "score": 5,
-          "rationale": "The agreement carries dated, observable milestones inside the thesis window: project commencement clawback dates of June 30, 2027 for Magnet Project 2 and September 30, 2027 for Metal Project 2, disbursement milestones tied to minimum cumulative purchase commitments, and a power infrastructure condition for Magnet Project 2. The company filed 25 8-Ks in the last 12 months.",
-          "quoteIdx": [
-            19,
-            5,
-            1
-          ]
-        },
-        "managementConviction": {
-          "score": 3,
-          "rationale": "Signing a binding funding agreement with commencement deadlines and purchase commitment obligations is a concrete commitment, and the excerpts confirm three projects commenced before their clawback dates. The source is a legal exhibit rather than management narrative, so conviction language itself is not observable here.",
-          "quoteIdx": [
-            2,
-            5
-          ]
-        },
-        "insiderConviction": {
-          "score": 0,
-          "rationale": "Form 4: net $-31,069,367 over 2 buys and 2 sales by 2 insider(s), trailing 12 months.",
-          "quoteIdx": []
-        },
-        "customerValidation": {
-          "score": 4,
-          "rationale": "Customer graph: gov awards $99,448, 0 named customer(s), 0 other filers name the company.",
-          "quoteIdx": []
-        }
-      }
-    },
     {
       "ticker": "MATW",
       "cik": "0000063296",
@@ -2276,13 +2386,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
         },
         {
-          "text": "Acquisitions and Divestitures Fiscal 2026: In December 2025, the Company completed the sale of its interests in Matthews Automation Solutions, LLC, a Delaware limited liability company and wholly-owned subsidiary of Matthews, and certain related assets to Duravant LLC.",
-          "form": "10-Q",
-          "accession": "0000063296-26-000059",
-          "filedAt": "2026-05-01",
-          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
-        },
-        {
           "text": "In fiscal 2026 divestitures reflect the sale of the warehouse automation business.",
           "form": "10-Q",
           "accession": "0000063296-26-000059",
@@ -2311,13 +2414,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
         },
         {
-          "text": "These increases were partially offset by the impact of higher material, labor, and other production costs.",
-          "form": "10-Q",
-          "accession": "0000063296-26-000059",
-          "filedAt": "2026-05-01",
-          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
-        },
-        {
           "text": "The decrease in segment adjusted EBITDA reflected the impact of lower sales and margins on engineered products, lower product identification margins, the impact of divesting the Company's warehouse automation business in December 2025, and unfavorable sales mix for warehouse automation solutions for the fiscal 2026 period prior to the divestiture.",
           "form": "10-Q",
           "accession": "0000063296-26-000059",
@@ -2337,54 +2433,41 @@
           "accession": "0000063296-26-000059",
           "filedAt": "2026-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
-        },
-        {
-          "text": "Geopolitical instability, labor unrest, and economic disruptions in certain foreign jurisdictions may indirectly affect the Company's operations.",
-          "form": "10-Q",
-          "accession": "0000063296-26-000059",
-          "filedAt": "2026-05-01",
-          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
-        },
-        {
-          "text": "Although the Company does not have direct sales, operations, or customers in regions experiencing significant instability, such as Venezuela and the Middle East, recent labor strikes, political instability, including in Iran, and economic conditions in Venezuela may contribute to broader regional or global disruptions, including impacts on international trade relationships, energy markets, currency volatility, or global logistics networks.",
-          "form": "10-Q",
-          "accession": "0000063296-26-000059",
-          "filedAt": "2026-05-01",
-          "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000059/matw-20260331.htm"
         }
       ],
       "exposure": "peripheral",
       "subscores": {
         "optionality": {
-          "score": 1,
-          "rationale": "The excerpts state the company sold its warehouse automation business to Duravant in December 2025. The theme does not create a new business here; the filings discuss automation only as a divested segment, so the mapping is a keyword artifact of divestiture disclosure.",
+          "score": 0,
+          "rationale": "The company sold its warehouse automation business in December 2025, eliminating its direct involvement in the theme. No evidence of investment in humanoid robotics or new related segments.",
           "quoteIdx": [
             1,
             4
           ]
         },
         "revenueToOpportunity": {
-          "score": 1,
-          "rationale": "Remaining theme-linked revenue is not evidenced. References to warehouse automation in the period relate to sales prior to the divestiture and to divestiture-related tax and working capital effects.",
+          "score": 0,
+          "rationale": "No current revenue from warehouse automation or humanoid robotics; the business was divested. The theme's opportunity is irrelevant to the company's current operations.",
           "quoteIdx": [
-            7,
-            2,
-            11
+            1,
+            5
           ]
         },
         "catalystDensity": {
-          "score": 1,
-          "rationale": "No theme-linked catalysts appear in the excerpts. The disclosed events are completed divestitures of the automation, packaging, and tooling businesses, which remove rather than add theme exposure.",
+          "score": 0,
+          "rationale": "No catalysts related to humanoid robotics or warehouse automation are mentioned. The only notable event is the divestiture, which is a negative catalyst for the theme.",
           "quoteIdx": [
-            12
+            1,
+            4
           ]
         },
         "managementConviction": {
           "score": 0,
-          "rationale": "Management exited the automation business. There is no forward-looking language about robotics or automation adoption in the excerpts.",
+          "rationale": "Management language focuses on divestitures, not on building or investing in warehouse automation or robotics. No commitment to the theme.",
           "quoteIdx": [
-            1,
-            4
+            2,
+            3,
+            10
           ]
         },
         "insiderConviction": {
@@ -2400,52 +2483,49 @@
       }
     },
     {
-      "ticker": "KELYB",
-      "cik": "0000055135",
-      "eightKCount12m": 9,
+      "ticker": "SLDPW",
+      "cik": "0001844862",
+      "eightKCount12m": 16,
       "quotes": [
         {
-          "text": "Since inventing the staffing industry in 1946, we have become experts in the many industries and local and global markets we serve.",
+          "text": "(Nasdaq: SLDP), a leading U.S.-based developer of solid-state battery technology, today announced the appointment of Uwe Breitweg, Vice President Powertrain, Emission and Battery Strategy of the BMW Group, to its board of directors, effective July 1, 2026.",
           "form": "8-K",
-          "accession": "0000055135-26-000114",
-          "filedAt": "2026-05-07",
-          "url": "https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm"
+          "accession": "0001104659-26-079956",
+          "filedAt": "2026-07-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1844862/000110465926079956/tm2619489d1_ex99-1.htm"
         },
         {
-          "text": "Management also believes that such measures are used by those analyzing performance of companies in the staffing industry to compare current performance to prior periods and to assess future performance.",
+          "text": "Solid Power is developing solid-state battery technology to enable the next generation of batteries for the fast-growing EV and other markets.",
           "form": "8-K",
-          "accession": "0000055135-26-000114",
-          "filedAt": "2026-05-07",
-          "url": "https://www.sec.gov/Archives/edgar/data/55135/000005513526000114/a20261qearningsreleaseform.htm"
+          "accession": "0001104659-26-079956",
+          "filedAt": "2026-07-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1844862/000110465926079956/tm2619489d1_ex99-1.htm"
         }
       ],
-      "exposure": "peripheral",
+      "exposure": "adjacent",
       "subscores": {
         "optionality": {
           "score": 0,
-          "rationale": "The excerpts are two boilerplate sentences from an earnings release about the staffing industry generally. There is no evidence of any business the theme would create for this company, which is consistent with its chain position as a disrupted name rather than a beneficiary.",
+          "rationale": "No evidence in excerpts that the company is targeting humanoid robotics or developing a new business segment; the filing only mentions EV and other markets generically.",
           "quoteIdx": [
-            0,
             1
           ]
         },
         "revenueToOpportunity": {
-          "score": 1,
-          "rationale": "The exposure runs through the staffing revenue base that humanoid labor substitution would shrink, but the excerpts do not quantify the light industrial mix or address automation at all. Scored low for absence of evidence, not for absence of risk.",
+          "score": 0,
+          "rationale": "Excerpts do not discuss revenue or the size of the robotics battery opportunity, so no basis to assess revenue relative to theme TAM.",
+          "quoteIdx": []
+        },
+        "catalystDensity": {
+          "score": 0,
+          "rationale": "Only a board appointment is mentioned, which is not a near-term commercial catalyst such as design wins, qualification milestones, or capacity additions.",
           "quoteIdx": [
             0
           ]
         },
-        "catalystDensity": {
-          "score": 1,
-          "rationale": "Nine 8-K filings in the last 12 months, none evidenced as theme-linked in the excerpts. No dated events bearing on automation substitution appear.",
-          "quoteIdx": [
-            1
-          ]
-        },
         "managementConviction": {
           "score": 0,
-          "rationale": "No management language about automation, robotics, or labor substitution risk appears in the excerpts. A judgment on how management is positioning for the risk requires the 10-K risk factors, which this read did not cover.",
+          "rationale": "Language is generic ('leading developer', 'enabling next generation'); no named programs, committed capex, or quantified targets related to robotics.",
           "quoteIdx": [
             0,
             1
@@ -2453,12 +2533,184 @@
         },
         "insiderConviction": {
           "score": 1,
-          "rationale": "Form 4: net $-687,972 over 7 buys and 6 sales by 3 insider(s), trailing 12 months.",
+          "rationale": "Form 4: net $-260,363 over 0 buys and 2 sales by 0 insider(s), trailing 12 months.",
           "quoteIdx": []
         },
         "customerValidation": {
           "score": 5,
-          "rationale": "Customer graph: gov awards $558,354,896, 0 named customer(s), 1 other filers name the company.",
+          "rationale": "Customer graph: gov awards $71,606,775, 0 named customer(s), 0 other filers name the company.",
+          "quoteIdx": []
+        }
+      }
+    },
+    {
+      "ticker": "NHC",
+      "cik": "0001047335",
+      "eightKCount12m": 17,
+      "quotes": [
+        {
+          "text": "NHC operates multiple skilled nursing facilities, assisted living and independent living communities, as well as homecare and hospice agencies within this geographic footprint.",
+          "form": "8-K",
+          "accession": "0001437749-26-022306",
+          "filedAt": "2026-07-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926022306/ex_983367.htm"
+        },
+        {
+          "text": "Since we were already operating and offering many health care service lines, including assisted living, homecare, hospice, and behavioral health, within this geographic footprint, the acquisition also enhances and complements that continuum of care, Dr.",
+          "form": "8-K",
+          "accession": "0001437749-26-022306",
+          "filedAt": "2026-07-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926022306/ex_983367.htm"
+        },
+        {
+          "text": "NHC affiliates also operate 26 assisted living communities with 1,413 units, nine independent living communities with 775 units, three behavioral health hospitals, 34 homecare agencies, and 33 hospice agencies.",
+          "form": "8-K",
+          "accession": "0001437749-26-022306",
+          "filedAt": "2026-07-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926022306/ex_983367.htm"
+        }
+      ],
+      "exposure": "peripheral",
+      "subscores": {
+        "optionality": {
+          "score": 0,
+          "rationale": "No mention of robotics, automation, or any technology investment in the excerpts; the company describes only existing healthcare operations and acquisitions.",
+          "quoteIdx": []
+        },
+        "revenueToOpportunity": {
+          "score": 0,
+          "rationale": "No discussion of theme-related opportunity or TAM; revenue base is large but no data on potential impact from robotics.",
+          "quoteIdx": []
+        },
+        "catalystDensity": {
+          "score": 0,
+          "rationale": "No dated catalysts or events related to robotics or automation in the provided excerpts; 8-K filings only cover routine business operations.",
+          "quoteIdx": []
+        },
+        "managementConviction": {
+          "score": 0,
+          "rationale": "Management language does not address robotics or automation; no committed capex, quantified targets, or specific programs mentioned.",
+          "quoteIdx": []
+        },
+        "insiderConviction": {
+          "score": 0,
+          "rationale": "Form 4: net $-3,496,249 over 1 buys and 5 sales by 1 insider(s), trailing 12 months.",
+          "quoteIdx": []
+        },
+        "customerValidation": {
+          "score": 2,
+          "rationale": "Customer graph: gov awards $0, 0 named customer(s), 2 other filers name the company.",
+          "quoteIdx": []
+        }
+      }
+    },
+    {
+      "ticker": "PDYNW",
+      "cik": "0001826681",
+      "eightKCount12m": 13,
+      "quotes": [
+        {
+          "text": "It is designed to enable robotic systems to perceive their environment and quickly adapt to changing circumstances by generalizing (i.e., learning) from their past experience using dynamic real-time operations &#x201c;on the edge&#x201d; (i.e., on the robotic system) without extensive programming and with minimal robot training.",
+          "form": "8-K",
+          "accession": "0001193125-25-283918",
+          "filedAt": "2025-11-17",
+          "url": "https://www.sec.gov/Archives/edgar/data/1826681/000119312525283918/pdyn-ex99_1.htm"
+        }
+      ],
+      "exposure": "adjacent",
+      "subscores": {
+        "optionality": {
+          "score": 1,
+          "rationale": "Excerpt describes a product for general robot adaptation, not specifically simulation for humanoid training. No evidence of investment in simulation platforms.",
+          "quoteIdx": [
+            0
+          ]
+        },
+        "revenueToOpportunity": {
+          "score": 1,
+          "rationale": "Revenue is small ($5M) but excerpt does not quantify the theme opportunity or link it to revenue.",
+          "quoteIdx": []
+        },
+        "catalystDensity": {
+          "score": 1,
+          "rationale": "No specific near-term catalysts, design wins, or milestones mentioned in the excerpt.",
+          "quoteIdx": []
+        },
+        "managementConviction": {
+          "score": 1,
+          "rationale": "Language is descriptive but lacks quantified targets, named programs, or committed capital related to the simulation theme.",
+          "quoteIdx": [
+            0
+          ]
+        },
+        "insiderConviction": {
+          "score": 2,
+          "rationale": "Form 4: net $0 over 0 buys and 0 sales by 0 insider(s), trailing 12 months.",
+          "quoteIdx": []
+        },
+        "customerValidation": {
+          "score": 2,
+          "rationale": "Customer graph: gov awards $0, 0 named customer(s), 1 other filers name the company.",
+          "quoteIdx": []
+        }
+      }
+    },
+    {
+      "ticker": "AMBA",
+      "cik": "0001280263",
+      "eightKCount12m": 6,
+      "quotes": [
+        {
+          "text": "Our edge SoCs integrate all the AI accelerated computing functions (perception, fusion, AI accelerator, CPU and other system functions) together with our algorithms and software into a single SoC, Dr.",
+          "form": "8-K",
+          "accession": "0001193125-26-245234",
+          "filedAt": "2026-05-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526245234/d130687dex991.htm"
+        },
+        {
+          "text": "Ambarella s low-power systems-on-chip (SoCs) integrate proprietary and highly efficient perception and deep learning neural network AI accelerators, enabling electronic systems to become more productive with partial or complete levels of machine autonomy.",
+          "form": "8-K",
+          "accession": "0001193125-26-245234",
+          "filedAt": "2026-05-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526245234/d130687dex991.htm"
+        }
+      ],
+      "exposure": "adjacent",
+      "subscores": {
+        "optionality": {
+          "score": 2,
+          "rationale": "The company's edge SoCs with AI accelerators are already used in autonomous systems; humanoid robotics is a potential new application but not a distinct business line based on excerpts. No evidence of dedicated robotics investment.",
+          "quoteIdx": [
+            0,
+            1
+          ]
+        },
+        "revenueToOpportunity": {
+          "score": 1,
+          "rationale": "Current revenue of $390M is from existing edge AI markets. The humanoid robotics TAM is large but uncertain, and excerpts provide no quantification or exposure to this theme.",
+          "quoteIdx": []
+        },
+        "catalystDensity": {
+          "score": 0,
+          "rationale": "No design wins, milestones, or named programs in the excerpts. No near-term catalysts identified.",
+          "quoteIdx": []
+        },
+        "managementConviction": {
+          "score": 1,
+          "rationale": "Management language is generic, describing product capabilities without specific commitment to robotics or quantified targets.",
+          "quoteIdx": [
+            0,
+            1
+          ]
+        },
+        "insiderConviction": {
+          "score": 0,
+          "rationale": "Form 4: net $-17,936,449 over 0 buys and 45 sales by 0 insider(s), trailing 12 months.",
+          "quoteIdx": []
+        },
+        "customerValidation": {
+          "score": 3,
+          "rationale": "Customer graph: gov awards $0, 0 named customer(s), 9 other filers name the company.",
           "quoteIdx": []
         }
       }
@@ -2466,19 +2718,29 @@
   ],
   "theses": [
     {
-      "ticker": "USAR",
-      "score": 73,
-      "markdown": "# USAR: federally funded magnet capacity with dated 2027 milestones, priced on execution not on today's revenue\n\n## Bear case first\nThe numbers under the story are thin and the insiders have been net sellers. Trailing 12-month revenue is $1.6MM against a $297.6MM net loss (XBRL), so every dollar of the thesis is forward-dated. Insiders sold a net $31.1MM over the last year (Form 4), dominated by a Director disposing of 2.1MM shares at $15.75 in August 2025. Federal customer proof is one $99M Department of Defense contract (USASpending), not the multi-hundred-million funding headline. Disbursements depend on purchase commitments that may not convert to recognized sales [5], and the government can claw back the new projects if they do not commence by mid 2027 [19].\n\n## Business today\nThe company is pre-commercial: $1.6MM revenue, a $297.6MM net loss, and $360MM of cash on the balance sheet as of December 2025 (XBRL). It is building domestic rare earth capacity across five awarded projects, including two magnet plants and two strip-cast neodymium-iron-boron metal plants [9] [18], with commercial volume still being contracted through purchase letters of intent rather than recognized sales [11] [12].\n\n## Chain position\nEnabler, rare earth magnet supply. High torque density joint motors depend on neodymium magnets, and a humanoid platform carries kilograms of magnet material across 30 to 40 joints. Magnet producers are paid per unit by every robot OEM regardless of which platform wins.\n\n## Customer graph\nCustomer proof today is one Department of Defense contract worth $99M (USASpending, government buyer), plus purchase commitments that are contracted but not yet recognized as revenue [5] [6]. No other public filer names the company as a supplier in the last two years (reverse-citation returned none), which is consistent with a pre-commercial producer that has not yet shipped at volume. The buyer base is government and prospective, not a proven commercial book.\n\n## Insider and management signal\nNet insider activity is negative, a $31.1MM sale versus $2.2MM of buying (Form 4), which reads as post-transaction distribution rather than conviction. The offsetting detail: the most recent director action was an open-market purchase of 100,000 shares at $21.44 in January 2026, above the $15.75 August sale price. Management commitment shows up instead in the funding agreement obligations rather than in narrative [2] [5].\n\n## Street view\nCoverage is thin, which fits an under-covered small-cap: 5 analysts, consensus Buy, mean target $27 (sell-side aggregators, firm and grade only, reports paywalled). Morgan Stanley initiated Overweight at a $30 target in April 2026 and Canaccord Genuity moved to Buy, against a JPMorgan Neutral. The spread of views on a name this small is the kind of setup the engine is built to surface before the Street crowds in.\n\n## Non-linear case\nThe company is adding magnet capacity that does not exist in its current revenue base, backed by a federal Direct Funding Agreement [15] [8]. Disbursement milestones require minimum cumulative magnet purchase commitments, so contract wins are observable in filings as they happen [5] [6]. If humanoid deployment begins inside 2027 to 2030, it arrives as incremental demand on top of the defense and EV demand the funding already presumes, against capacity committed today [2] [19]. Success is a multiple of the current business because the current business is $1.6MM of revenue.\n\n## Evidence\n- Disbursements are gated on minimum cumulative Magnet Purchase Commitments [5], delivered to the Department within five business days of execution [6].\n- Magnet Project 2 must commence by June 30, 2027 and Metal Project 2 by September 30, 2027 [19].\n- Products are defined as rare-earth magnets and strip-cast neodymium-iron-boron metal, plus heavy rare earth oxides from Round Top [18].\n- Magnet Project 2 is a new magnet manufacturing facility [15], one of two Additional Projects [8].\n- Three of five projects commenced before their clawback dates [2].\n\n## What would change our mind\n- A missed commencement clawback date for either Additional Project, visible in an 8-K amendment to the funding agreement [19].\n- A shift from net insider selling to sustained open-market buying by officers, visible in Form 4.\n- Purchase commitment disclosures naming robotics customers, or new federal awards on USASpending beyond the current $99M contract.\n"
+      "ticker": "AMBA",
+      "score": 28,
+      "markdown": "# AMBA: Ambarella – a low-power edge AI chipmaker with no visible exposure to humanoid robotics, despite the narrative\n\n## Bear case first\nThe strongest disconfirming reading is that humanoid robotics is purely aspirational and not in the filings. Ambarella’s two 8-K excerpts describe generic edge SoCs with AI accelerators for autonomous systems, but never mention humanoid robots, a named customer, or a robotics program. Insider selling is extreme: net $-17.9MM in open-market sales, zero buys (Form 4). Customer evidence is thin – no federal awards, no named enterprise buyers, only 9 other filers name the company – and revenue of $390.7MM comes from existing edge AI markets with no disclosed exposure to robotics. Without design wins or dedicated investment, the thesis relies on unstated assumptions.\n\n## Business today\nAmbarella sells low-power systems-on-chip that integrate perception, deep-learning AI acceleration, CPU, and other system functions into a single SoC [0]. The chips enable electronic systems to achieve partial or complete machine autonomy [1]. As of January 2026, the company reported $390.7MM in revenue and $191.0MM in cash (SEC XBRL).\n\n## Chain position\nAmbarella positions itself as an enabler of on-board AI inference for autonomous systems, including potential humanoid robots. The economic logic is that each robot may require multiple such chips for perception and control, and that volume ramp in robotics would lever chip revenue as a high-value BOM item. However, no evidence links the company to any robotics platform or design win.\n\n## Customer graph\nAmbarella reports $0 in federal awards (USASpending) and zero named enterprise customers in the excerpts. Nine other SEC filers name the company, but the nature of those relationships is unproven. Customer evidence is thin and entirely anecdotal.\n\n## Insider and management signal\nOver the trailing 12 months, insiders sold $17.9MM in open-market shares via 45 transactions with zero purchases (Form 4). Management language in the filings is generic, describing product capabilities (“low-power,” “highly efficient perception and deep learning neural network AI accelerators”) without any commitment to robotics or quantified targets [0][1]. The combination of heavy selling and unspecific rhetoric signals low conviction.\n\n## Street view\nSell-side coverage for Ambarella is unknown; no analyst count, consensus, or mean target is reported. Thin coverage is itself a red flag for an under-followed small-cap ($2.2B float) that lacks a visible catalyst.\n\n## Non-linear case\nIf humanoid robotics reaches commercial deployment by 2027–2030 and Ambarella secures design wins as a supplier of low-power AI inference chips, each robot could use multiple SoCs, multiplying revenue per unit. The TAM is large but uncertain. For this to happen, the company must win contracts with robot OEMs, demonstrate chip integration, and ramp production – none of which is yet observable in filings.\n\n## Evidence\n- [0] Ambarella’s edge SoCs integrate AI-accelerated computing functions (perception, fusion, AI accelerator, CPU) into a single SoC (8-K, filed 2026-05-28).\n- [1] Ambarella’s low-power SoCs integrate proprietary perception and deep learning neural network AI accelerators for machine autonomy (8-K, filed 2026-05-28).\n\n## What would change our mind\n1. An 8-K or 10-K filing announcing a design win with a named humanoid robotics OEM for custom SoCs.  \n2. A Form 4 showing insider open-market purchases totaling at least $1MM (net).  \n3. A federal award (USASpending) from the Department of Defense or NASA for robotics-related chip development."
+    },
+    {
+      "ticker": "PDYNW",
+      "score": 26,
+      "markdown": "# PDYNW: Humanoid simulation bet has no evidence in the filings\n## Bear case first\nThe company’s product is a general robotic adaptation platform, not a physics simulation or digital twin environment for humanoid training. The only filing evidence [0] describes “dynamic real-time operations on the edge” and “generalizing from past experience,” which is the opposite of the simulation-heavy reinforcement learning pipeline the thesis requires. Palladyne’s revenue is $5.2M (SEC XBRL), and no customer is named in an excerpt; the customer graph shows zero federal awards and zero named enterprise buyers. With no insider buying (Form 4) and no disclosed simulator product, the company is mispositioned for the stated chain node.\n\n## Business today\nPalladyne AI Corp. sells software that enables robotic systems to perceive their environment and adapt to changing circumstances through learning on the edge, requiring minimal programming and training [0]. Revenue is $5.2M and cash is $18.2M (SEC XBRL).\n\n## Chain position\nThe seed thesis assigns Palladyne to the “simulation and training platforms” node of the humanoid robotics adoption chain. The company would need to provide physics simulation or digital twin software licensed to robot developers. The filing evidence describes a general adaptation platform, not a simulation environment, and no investment in simulation tools is disclosed.\n\n## Customer graph\nThe company has no named enterprise customers in the excerpts. Federal awards total $0 (USASpending). One other SEC filer names Palladyne, but the identity and context are not provided. Customer evidence is thin and unproven.\n\n## Insider and management signal\nOver the trailing 12 months, zero insiders bought or sold open-market shares (Form 4). Management language in the filing is descriptive and lacks quantified targets, named programs, or committed capital related to simulation or humanoid robotics.\n\n## Street view\nNo sell-side analysts cover the stock. Consensus and mean target are unavailable. Thin coverage is consistent with the company’s small market capitalization and lack of thematic visibility.\n\n## Non-linear case\nA multiple of today’s business would require Palladyne to pivot its edge-learning platform into a humanoid simulation service, or for humanoid developers to adopt the existing adaptation software at scale. The company would need to secure design wins with major humanoid OEMs and disclose simulation-related revenue. None of those steps are evident in the filings.\n\n## Evidence\n- The company’s software is “designed to enable robotic systems to perceive their environment and quickly adapt to changing circumstances by generalizing … from their past experience using dynamic real-time operations ‘on the edge’ … without extensive programming and with minimal robot training” [0].\n\n## What would change our mind\n- A filed contract (8‑K or customer disclosure) naming a humanoid robot developer as a paying customer for a simulation product.\n- Open-market insider purchases reported on Form 4, indicating management conviction in the humanoid thesis.\n- A federal award (USASpending) for research or deployment of humanoid training simulation software."
     },
     {
       "ticker": "MATW",
-      "score": 36,
-      "markdown": "# MATW: pass, the warehouse automation exposure was sold and the federal revenue is off-theme\n\n## Bear case first\nThis name reached the candidate list on warehouse automation language that is divestiture disclosure, not exposure. The company sold its warehouse automation business to Duravant in December 2025 [4] [1], and every subsequent theme reference in the 10-Q is accounting for that sale [2] [3] [11]. The customer graph looks strong at $236MM of federal awards (USASpending), but reading the awards shows they are Department of Veterans Affairs memorialization contracts, unrelated to robotics. Revenue is declining, $1,796MM against $1,881MM the prior year, with a $24.5MM net loss and $32.4MM of cash (XBRL). There is no remaining theme exposure.\n\n## Business today\nContinuing operations center on memorialization products, product identification, and purpose-built engineered products including energy storage for the electric vehicle market [6]. Revenue was $1,796MM with a $24.5MM net loss (XBRL). The automation, European packaging, and tooling businesses were all divested in the first quarter of fiscal 2026 [12].\n\n## Chain position\nMapped to the second-order adopter node, warehouse and logistics automation, on keyword frequency. The read shows the mapping is a false positive: the company was a seller of automation capability and has now exited that position [1] [4].\n\n## Customer graph\nThe $236MM federal total (USASpending) is the trap this section exists to catch. The awards are Department of Veterans Affairs contracts, memorialization products for national cemeteries, not automation or robotics. So the customer proof is real and material, and entirely off-theme. This is why customer validation is scored theme-agnostically and read alongside optionality: a high customer score on unrelated revenue does not make the name a theme beneficiary.\n\n## Insider and management signal\nNo officer or director open-market transactions in the last 12 months (Form 4), so there is no insider conviction signal either direction. Management has stated the exit from automation plainly [1] [4], which is the opposite of forward conviction on the theme.\n\n## Street view\nCoverage is limited and cooling: 4 analysts, consensus Hold, mean target $31 (sell-side aggregators, firm and grade only, reports paywalled). Sidoti moved off Buy to Neutral in February 2026. The muted Street view is consistent with a company that has just divested the segment that would have carried the theme.\n\n## Non-linear case\nNone supported by the evidence. The divestiture removes the segment through which humanoid adoption could have inflected results [10]. Any future theme exposure would require redeploying proceeds into automation-adjacent capacity, which the filings do not evidence.\n\n## Evidence\n- The warehouse automation business was sold for cash consideration on December 31, 2025 [1], to Duravant LLC [4].\n- The segment historically provided order fulfillment systems for picking and conveying products [0].\n- Fiscal 2026 results reflect the divestiture in sales [7], gross profit [8], segment EBITDA [10], taxes [2] [3], and working capital [11].\n- All three divested businesses exited in the first quarter of fiscal 2026 [12].\n\n## What would change our mind\n- An 8-K disclosing an acquisition or investment that rebuilds automation exposure.\n- Federal awards on USASpending shifting toward automation or robotics product lines rather than memorialization.\n\nVerdict: remove from the candidate list for this theme. The engine surfaced it correctly by keyword, the customer graph shows real but off-theme revenue, and the read rejects it.\n"
+      "score": 24,
+      "markdown": "# MATW: Divested warehouse automation, no exposure to humanoid robotics theme\n\n## Bear case first\nMatthews International sold its warehouse automation business on December 31, 2025, removing itself from the theme entirely [1]. The company now generates revenue from product identification, engineered products (energy storage, coating/converting equipment), and legacy tooling – none of which relate to humanoid robotics or warehouse integration. No insider has bought or sold stock in the trailing 12 months (Form 4), management language centers on divestitures rather than robotics investment [2][4], and the customer graph shows only government awards with no named enterprise customers. The strongest disconfirming read is that the company has already exited the channel through which humanoid robots would flow, making the theme’s opportunity irrelevant to its current operations.\n\n## Business today\nAfter the warehouse automation divestiture, Matthews International’s remaining segments are product identification (labels, marking systems) and purpose-built engineered products (energy storage solutions for EVs, coating and converting lines) [5]. Revenue for fiscal 2024 was $1,795.7MM; cash on hand was $32.4MM (SEC XBRL). The company also holds a legacy tooling business, partially divested alongside European packaging operations in December 2025 [10].\n\n## Chain position\nMatthews International no longer occupies any node of the humanoid robotics adoption chain. It previously held a position as a warehouse automation integrator, but that business was divested in December 2025 [1]. No post-divestiture investments or new segments related to robotics have been disclosed.\n\n## Customer graph\nFederal awards total $236.4MM, primarily from the Department of Veterans Affairs (e.g., $19.4MM award VA78615J0042, $18.8MM VA78613P0094, $18.3MM V101N87204) (USASpending). No named enterprise customers appear in the excerpts, and zero other filers name the company. Customer evidence is thin and predominantly government-based, with no exposure to warehouse operators or automation buyers.\n\n## Insider and management signal\nInsider activity is zero: net open-market $0 across 0 buys and 0 sales by 0 insiders in the trailing 12 months (Form 4). Management language in the 10-Q repeatedly references the warehouse automation divestiture as a completed event [2][4][9] and discusses lower sales from engineered products [5], with no mention of robotics or warehouse automation as a future focus.\n\n## Street view\nSell-side coverage is unknown: no identified analysts, consensus not available, mean target not reported. The stock is effectively uncovered, which for a small-cap with a $658MM public float is consistent with a lack of investor interest in the theme.\n\n## Non-linear case\nThe only scenario in which Matthews International benefits from humanoid robotics would require the company to re-enter the warehouse automation space through acquisition or internal development. No evidence of such a plan exists in the filings. Given the recent divestiture and management’s focus on streamlining, a reversal is unlikely. Without a new robotics-related pivot, the company’s revenue and margins will remain tied to legacy industrial markets.\n\n## Evidence\n- [0] The segment historically provided warehouse automation technologies and solutions, including order fulfillment systems for picking and conveying.\n- [1] On December 31, 2025, the Company sold its warehouse automation business for cash consideration.\n- [2] Fiscal 2026 tax expense reflects discrete tax expense related to the divestiture of the warehouse automation business.\n- [3] Effective tax rate variance driven by discrete tax expense related to the warehouse automation divestiture.\n- [4] Fiscal 2026 divestitures reflect the sale of the warehouse automation business.\n- [5] Lower sales of purpose-built engineered products (energy storage for EV, coating/converting) and impact of divesting warehouse automation and tooling.\n- [6] Higher product identification sales and increased warehouse automation sales prior to divestiture.\n- [7] Gross profit decline from higher costs and divestiture impact.\n- [8] Segment adjusted EBITDA decreased from lower engineered product sales and divestiture impact.\n- [9] Working capital change includes accrued income taxes related to warehouse automation divestiture.\n- [10] Company completed divestitures of warehouse automation and European packaging/tooling businesses in first quarter fiscal 2026.\n\n## What would change our mind\n1. An 8-K or 10-Q filing disclosing an acquisition of a humanoid robotics or warehouse automation company.\n2. Form 4 filings showing open-market insider buying by multiple executives.\n3. A new federal award (USASpending) for robotics-related warehouse integration services."
     },
     {
-      "ticker": "KELYB",
-      "score": 29,
-      "markdown": "# KELYB: disrupted-side watch item, and the customer graph shows the exact revenue at risk\n\n## Bear case first\nThe bear case runs against the read, not only the company. The theme excerpts are two sentences of earnings-release boilerplate [0] [1]; they say nothing about automation, humanoids, or the light industrial mix the disruption thesis targets. Scoring a staffing incumbent as disrupted on this evidence alone would be manufacturing a conclusion. What the dossier does add is context, not theme confirmation: revenue is $4,251MM and declining from $4,332MM, with a $254.1MM net loss (XBRL), and $558MM of federal staffing awards (USASpending). The honest statement is that the filing read did not reach the 10-K risk factors where automation substitution would be discussed.\n\n## Business today\nA staffing company that describes itself as having invented the staffing industry in 1946 [0], with $4,251MM of revenue and a $254.1MM net loss (XBRL). It places staff across commercial and government clients.\n\n## Chain position\nDisrupted, light industrial staffing. Staffing firms earn a spread on placed hours in exactly the repetitive warehouse and line tasks humanoids target first, so substitution shrinks the billable base directly.\n\n## Customer graph\nThe $558MM federal total (USASpending) is Department of Health and Human Services staffing work, government as customer. For a disrupted-side name this reframes the risk usefully: a large, identifiable book of government staffing revenue is part of the billable base that automation substitution would pressure over time. No other public filer names the company as a supplier in a theme context (one reverse-citation, unrelated). The buyer base is real and concentrated in government, which is a strength today and the exposure the thesis is about.\n\n## Insider and management signal\nNet insider activity is slightly negative, a net $688M sale across 7 buys and 6 sales by three insiders (Form 4). The detail that cuts the other way: the President and CEO made an open-market purchase of 10,000 shares at $8.76 in March 2026, while the net was pulled negative by an EVP disposing of 29,999 shares. A CEO buying while a non-executive sells is a mixed signal worth watching, not a conviction call.\n\n## Street view\nCoverage is thin, 3 analysts, consensus Hold, mean target $16 (sell-side aggregators, firm and grade only, reports paywalled). Truist downgraded to Hold in April 2026. Thin coverage on a large-revenue staffing name reflects a mature business the Street sees little growth in, which is the backdrop against which the disruption thesis would play out.\n\n## Non-linear case\nNot applicable on the long side. On the disrupted side, the non-linear risk is that per-hour billing has no floor under substitution: if humanoid labor becomes cheaper per task-hour, the affected billable base reprices toward it. Whether that base is 10 percent or 60 percent of revenue is not answerable from the excerpts and is the first question for a follow-up read.\n\n## Evidence\n- Company self-description and industry framing [0].\n- Management uses staffing industry comparison measures in its reporting [1].\n\n## What would change our mind\n- A 10-K risk factor addition naming robotics or automation as a substitution risk to light industrial placements.\n- Segment disclosure quantifying light industrial revenue share, which would size the disrupted base.\n- Sustained CEO or officer open-market buying on Form 4, which would argue management sees the stock as mispriced against the risk.\n\nVerdict: keep on the disrupted watch list. Rerun the read against the latest 10-K risk factors before drawing any conclusion.\n"
+      "ticker": "SLDPW",
+      "score": 22,
+      "markdown": "# SLDP: Humanoid robotics battery enabler? No evidence yet.\n\n## Bear case first\n\nSolid Power’s filings contain zero mention of humanoid robotics. The only reference to end markets is a generic “EV and other markets” [1]. Insider selling of $260,363 (Form 4) with no buys signals a lack of conviction from those closest to the business. Customer evidence is thin: $71.6MM in federal awards from three DOE grants, but no named enterprise customers, and no other filers name the company (USASpending). Without commercial revenue from robotics or a stated strategy, the thesis rests on an assumption the company does not appear to share.\n\n## Business today\n\nSolid Power develops solid-state battery technology for the fast-growing EV and other markets [1]. As of December 31, 2025, the company reported revenue of $17.9MM and cash of $21.6MM (SEC XBRL).\n\n## Chain position\n\nThe seed thesis places Solid Power as an enabler in the high-energy-density battery node for humanoid robotics. Humanoids require lightweight, long-duration power that advanced chemistries (solid-state or high-NMC) can provide. However, the chain position is speculative; the company’s filings do not indicate any focus on robotics as a distinct vertical.\n\n## Customer graph\n\nCustomers are unproven at the enterprise level. Federal awards total $71.6MM from the Department of Energy (three grants: $50.0MM, $5.6MM, $3.6MM) (USASpending). No named enterprise customers appear in the excerpts. Zero other filers name the company. The customer base is government-funded and lacks commercial diversity.\n\n## Insider and management signal\n\nOver the trailing 12 months, insiders sold $260,363 on the open market with zero buys (Form 4). Management language is generic: “leading developer” and “enabling the next generation” [1] – no quantified targets, committed capex, or named programs related to robotics.\n\n## Street view\n\nSell-side coverage is absent. Analyst count is zero, consensus is not available, and the mean target is not reported. For an under-covered small cap, this lack of attention is itself a negative signal.\n\n## Non-linear case\n\nThe non-linear outcome requires Solid Power to win design-ins from humanoid robot OEMs. If solid-state batteries prove superior in energy density and safety for humanoids, revenue could multiply beyond current $17.9MM. What must be true: the company actively develops robotic-specific cells, achieves qualification milestones, and secures multi-year supply agreements. None of these are visible in the filings today.\n\n## Evidence\n\n- [0] Solid Power announced the appointment of Uwe Breitweg (BMW Group VP) to its board, effective July 1, 2026.  \n- [1] Solid Power is developing solid-state battery technology to enable the next generation of batteries for the fast-growing EV and other markets.\n\n## What would change our mind\n\n1. An 8-K or S-1 filing disclosing a design win with a named humanoid robotics manufacturer.  \n2. A Form 4 showing net insider buying of at least $100,000 within one quarter.  \n3. A federal award (USASpending) explicitly funding robotics battery development."
+    },
+    {
+      "ticker": "NHC",
+      "score": 8,
+      "markdown": "# NHC: No exposure to humanoid robotics; legacy operator faces structural labor cost headwinds\n\n## Bear case first\nNHC fails as a robotics play because its filings contain no mention of robotics, automation, or technology investment. Operating margins are tied to human labor, a rising cost that the company does not address. Insider selling of $3.5MM over 12 months signals a lack of internal conviction. Customer concentration is unproven – no named enterprise or government accounts. The company could be disrupted by robotics-adopting competitors rather than benefit from the theme.\n\n## Business today\nNHC operates skilled nursing facilities, assisted living and independent living communities, homecare and hospice agencies, and behavioral health hospitals within a defined geographic footprint [0][1]. Revenue is $1,517.8MM, with $92.8MM in cash (SEC XBRL, 2025-12-31).\n\n## Chain position\nThe seed thesis places elderly care facilities as second-order adopters of humanoid robotics to reduce labor costs and improve care consistency. NHC’s filings describe only traditional healthcare operations and acquisitions – no robotics trials, partnerships, or capital allocation toward automation. The chain position is unoccupied for NHC; the company is a legacy operator, not an early adopter.\n\n## Customer graph\nNo named enterprise customers appear in filings. Federal awards total $0 (USASpending). Two other filers name NHC. Customer evidence is thin – all buyers are unproven.\n\n## Insider and management signal\nOne insider made net open-market sales of $3.5MM over 12 months, with 1 buy and 5 sales (Form 4). Management language in the 8-K filings discusses only routine business and acquisitions [0][1]; no mention of robotics, automation, or quantified technology targets.\n\n## Street view\nSell-side coverage is absent: no known analysts, consensus unavailable, mean target unavailable. The lack of coverage itself reflects the market’s disregard for NHC as a robotics thematic name.\n\n## Non-linear case\nFor NHC to become a humanoid robotics beneficiary, it must publicly commit to robot deployment in its facilities. A successful rollout could reduce labor costs (a major operating expense) and expand margins. But no evidence of planning, trials, or capital expenditure exists. The non-linear path requires management to initiate a multi-year automation strategy – a change from the current trajectory.\n\n## Evidence\n- NHC operates multiple skilled nursing facilities, assisted living and independent living communities, homecare and hospice agencies [0].\n- The acquisition enhances and complements the care continuum across assisted living, homecare, hospice, and behavioral health [1].\n- NHC affiliates operate 26 assisted living communities, 9 independent living communities, 3 behavioral health hospitals, 34 homecare agencies, and 33 hospice agencies [2].\n\n## What would change our mind\n1. A Form 4 filing showing insider open-market purchases totaling >$1MM in a single month.\n2. A filing (e.g., 8-K, 10-K, or 10-Q) that explicitly mentions robotics, automation, or a technology partnership for assisted living facilities.\n3. A USASpending record showing federal awards tied to NHC facilities, indicating government validation."
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "precision-gear-components",
+      "layer": "enabler",
+      "name": "Precision gear and transmission components",
+      "logic": "Humanoid robots require high-precision, compact gearboxes such as harmonic drives for each joint. Suppliers of these components see volume growth proportional to robot units, with pricing power due to specialized manufacturing. As humanoid production scales to tens of thousands per year, revenue inflection is rapid.",
+      "searchPhrases": [
+        "harmonic drive",
+        "precision reducer",
+        "servo actuator"
+      ]
+    },
+    {
+      "id": "ai-inference-chips",
+      "layer": "enabler",
+      "name": "AI inference processors for robotics",
+      "logic": "Humanoid robots need on-board inference for perception and control. Specialized AI chips low in power but high in TOPS are critical. Chip designers benefit from volume ramp and design wins; each robot may use multiple chips. Revenue is levered to robot adoption as chips are a high-value BOM item.",
+      "searchPhrases": [
+        "AI accelerator",
+        "edge inference",
+        "robotics processor"
+      ]
+    },
+    {
+      "id": "high-energy-batteries",
+      "layer": "enabler",
+      "name": "High-energy-density batteries",
+      "logic": "Humanoids require lightweight, long-duration power. Advanced battery chemistries (solid-state or high-NMC) are essential. Battery manufacturers targeting robotics see a new high-growth vertical; margins could improve as robotics demands higher energy density than EVs.",
+      "searchPhrases": [
+        "solid-state battery",
+        "lithium-ion cell",
+        "high energy density",
+        "battery pack for robotics"
+      ]
+    },
+    {
+      "id": "simulation-software",
+      "layer": "picks_and_shovels",
+      "name": "Simulation and training platforms",
+      "logic": "Training humanoid robots via reinforcement learning requires virtual environments. Companies providing physics simulation and digital twin software see licensing revenue from robot developers. As humanoid models multiply, demand for simulation scales exponentially with compute hours.",
+      "searchPhrases": [
+        "physics simulation",
+        "digital twin",
+        "robot training",
+        "virtual environment"
+      ]
+    },
+    {
+      "id": "testing-calibration",
+      "layer": "picks_and_shovels",
+      "name": "Robotic calibration and test equipment",
+      "logic": "Each humanoid robot must be calibrated before deployment. Precision measurement and alignment tools are needed. Suppliers of laser trackers, force-torque sensors, and calibration fixtures see per-unit revenue; the niche grows with robot production volume.",
+      "searchPhrases": [
+        "calibration equipment",
+        "laser tracker",
+        "force torque sensor",
+        "test fixture"
+      ]
+    },
+    {
+      "id": "warehouse-automation-integrators",
+      "layer": "second_order",
+      "name": "Warehouse automation integrators",
+      "logic": "Warehouses are early adopters of humanoid robots for picking and moving. Integrators that incorporate humanoids alongside conveyors and automated storage see higher throughput and lower labor costs. Their service revenue and margins improve as they resell robots and provide maintenance.",
+      "searchPhrases": [
+        "warehouse automation",
+        "order fulfillment",
+        "material handling",
+        "logistics integration"
+      ]
+    },
+    {
+      "id": "elderly-care-assistive",
+      "layer": "second_order",
+      "name": "Elderly care and assisted living facilities",
+      "logic": "Humanoid robots can assist with daily tasks, reducing reliance on human caregivers. Facilities that adopt robots can lower labor costs (a major expense) and improve care consistency. Operating margins expand as robot costs decline; early adopters gain competitive advantage.",
+      "searchPhrases": [
+        "assisted living",
+        "elderly care",
+        "caregiver shortage",
+        "robotic assistance"
+      ]
+    },
+    {
+      "id": "traditional-industrial-robots",
+      "layer": "disrupted",
+      "name": "Traditional industrial robot manufacturers",
+      "logic": "Legacy industrial robot arms (e.g., for welding, assembly) are fixed and require dedicated setups. Humanoid robots offer flexibility and can perform multiple tasks without reconfiguration. As humanoids penetrate factories, demand for traditional robots stagnates or declines; incumbents face pricing pressure and volume loss.",
+      "searchPhrases": [
+        "industrial robot arm",
+        "robotic automation",
+        "assembly line robot",
+        "fixed automation"
+      ]
+    }
+  ],
+  "themeKeywords": [
+    "humanoid robot",
+    "bipedal",
+    "general purpose robot",
+    "dexterous manipulation",
+    "AI powered robotics",
+    "autonomous mobile robot",
+    "labor substitution"
+  ]
+}
