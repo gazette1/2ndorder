@@ -14,6 +14,14 @@ Operations on the map, all shipped in the pipeline and API:
 - IC memo: one self-contained HTML document per run (print-to-PDF ready): scenario, map table, ranked names, rubric, theses, and every cited filing sentence with its SEC link.
 - Backtest: ASOF=YYYY-MM-DD bounds full-text search at a past date. Filings are point-in-time by construction, so the map is honest about what was knowable when.
 
+## Hermes: the offline filing reader
+
+The map-to-ticker step at query time depends on exact-phrase full-text search, which is high-variance. Hermes flips the architecture: read once, query many. An ingest worker (src/hermes/) pulls a company's latest 10-K, extracts the three sections that matter (Business, Risk Factors, MD&A, with a table-of-contents-aware section parser), and has the light model write a structured card: what the company sells and to whom, named customers and suppliers, theme exposures with a stance label (core_product, active_investment, or risk_mention, which kills divestiture-style false positives), dated catalysts, and TAM claims. Every entry carries its exact filing sentence, so the audit property survives indexing. Tags come from a controlled vocabulary (about 45 tags, versioned in src/hermes/card.ts) because free-form tags fragment the corpus into synonyms.
+
+Cost, measured against current DeepSeek pricing: the full small-cap band backfill (about 3,000 companies, 10-Ks only) is roughly $22 one-time on flash; nightly incremental upkeep is single-digit dollars a month; a full re-index after a schema change costs another $22, cheap enough to iterate. Local CPU inference was benchmarked at 58 tokens per second prefill on this machine, which prices the local backfill at about a month of continuous compute: not viable without a GPU, so the API is the path.
+
+Phasing: pilot cards from an existing run's in-band names (shipped, `npm run hermes -- pilot <run> <n>`), then the band-wide backfill (held for explicit go-ahead), then the map stage goes hybrid: corpus tags first, live FTS as the freshness catch-up for filers newer than the last ingest.
+
 ## Model routing
 
 Two tiers through one adapter. The heavy tier (default deepseek-v4-pro) carries open-ended reasoning: scenario decomposition, drill, counter-scenario inversion. The light tier (default deepseek-v4-flash) carries bounded work: filing reads against pre-extracted excerpts and templated drafting. The rubric arithmetic stays outside the model in both tiers. LLM_MODEL forces a single model for both (the local ollama case).

@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "id": "grid-equipment-oems",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Electrical Grid Equipment Manufacturers",
+      "mechanism": "Lower-than-expected demand from utilities for transformers, switchgear, and cables as grid capex remains at historical average.",
+      "logic": "Companies supplying high-voltage transmission and distribution equipment had priced in a wave of grid investment tied to data center load growth. If efficiency and on-site generation hold grid growth to historical norms, the expected demand super-cycle fails to materialize, pressuring order backlogs and pricing.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "power transformer",
+        "switchgear",
+        "transmission conductor",
+        "substation equipment"
+      ]
+    },
+    {
+      "id": "on-site-gen-suppliers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "On-site Power Generation Equipment Providers",
+      "mechanism": "Data centers adopt fuel cells, microturbines, and solar-plus-storage to self-supply electricity, reducing grid offtake.",
+      "logic": "To avoid grid interconnection delays and capacity charges, hyperscale data centers are increasingly commissioning dedicated on-site power systems. This directly benefits manufacturers of distributed generation technologies, whose order pipelines become more insulated from utility capex cycles.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "fuel cell power plant",
+        "microturbine",
+        "behind-the-meter",
+        "on-site generation"
+      ]
+    },
+    {
+      "id": "data-center-efficiency-tech",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Data Center Energy Efficiency Solutions",
+      "mechanism": "Operators invest in advanced cooling and server power management to lower PUE and curb load growth.",
+      "logic": "If data center electricity demand must be contained to avoid triggering grid upgrades, operators will double down on efficiency technologies. Providers of liquid cooling, high-efficiency UPS, and DCIM software see higher adoption rates as every watt saved reduces the need for costly on-site generation or grid expansion.",
+      "horizon": "near",
+      "searchPhrases": [
+        "liquid cooling",
+        "power usage effectiveness",
+        "data center cooling",
+        "cooling distribution unit"
+      ]
+    },
+    {
+      "id": "utility-rate-base-exposure",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Regulated Utilities with Data Center Growth Plans",
+      "mechanism": "Anticipated data center load growth fails to materialize, reducing required capital investments and rate base growth.",
+      "logic": "Some utilities have been planning multi-billion-dollar transmission and distribution investments based on aggressive data center demand forecasts. If actual load tracks closer to historical trends, regulators are likely to disallow some proposed capex, limiting rate base expansion and earnings growth relative to expectations.",
+      "horizon": "long",
+      "searchPhrases": [
+        "rate base growth",
+        "load forecast",
+        "transmission capex",
+        "capital expenditure plan"
+      ]
+    },
+    {
+      "id": "grid-asset-life-extension-services",
+      "parentId": "grid-equipment-oems",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Grid Asset Life Extension Services",
+      "mechanism": "Lower new equipment orders shift utility spending toward maintenance and upgrade of in-service assets.",
+      "logic": "When capex budgets are constrained, O&M budgets for existing grids increase as utilities sweat assets longer. This benefits providers of asset monitoring, repair services, and component upgrades.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "transmission line upgrade",
+        "substation refurbishment",
+        "asset condition monitoring",
+        "life extension program"
+      ]
+    },
+    {
+      "id": "electrical-infrastructure-metals-suppliers",
+      "parentId": "grid-equipment-oems",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Electrical Infrastructure Metals Suppliers",
+      "mechanism": "Reduced procurement of transmission cables and busbars lowers physical demand for copper and aluminum, pressuring pricing.",
+      "logic": "Grid infrastructure is a significant driver of copper and aluminum consumption. If utility buying weakens, metals suppliers face lower volumes and possible inventory gluts, particularly affecting premium products like high-conductivity wire.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "copper conductor",
+        "aluminum cable",
+        "electrical steel",
+        "busbar"
+      ]
+    },
+    {
+      "id": "merchant-gas-peaker-plant-owners",
+      "parentId": "on-site-gen-suppliers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Merchant Gas Peaker Plant Owners",
+      "mechanism": "Data center on-site generation reduces peak demand drawn from the grid, decreasing utilization of grid-connected gas peakers.",
+      "logic": "Peaker plants earn revenue from capacity markets and energy during high-demand periods. If large loads self-supply behind the meter, the residual grid demand flattens, reducing run hours and capacity payments for merchant peakers.",
+      "horizon": "long",
+      "searchPhrases": [
+        "peaker plant",
+        "gas turbine peaking",
+        "capacity revenue",
+        "spark spread"
+      ]
+    },
+    {
+      "id": "on-site-gas-supply-infrastructure-providers",
+      "parentId": "on-site-gen-suppliers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "On-site Gas Supply Infrastructure Providers",
+      "mechanism": "Increased deployment of gas-fired fuel cells or microturbines requires dedicated gas pipeline laterals and compression, benefiting midstream providers.",
+      "logic": "Data centers with on-site gas generation need firm gas supply, often requiring new pipeline connections and possibly upgraded local distribution networks. This creates incremental demand for gas distribution infrastructure and compression equipment.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "gas distribution pipeline",
+        "gas compression",
+        "firm gas supply",
+        "pipeline lateral"
+      ]
+    },
+    {
+      "id": "legacy-data-center-cooling-and-power-equipment",
+      "parentId": "data-center-efficiency-tech",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Legacy Data Center Cooling and Power Equipment",
+      "mechanism": "Shift from traditional air cooling and conventional UPS to advanced liquid cooling and high-efficiency UPS reduces demand for outdated equipment.",
+      "logic": "As data centers pursue more aggressive PUE targets, spending tilts away from standard CRAC units and low-efficiency UPS systems, shrinking the addressable market for legacy products.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "computer room air conditioning",
+        "air-cooled chiller",
+        "precision air conditioning",
+        "legacy cooling infrastructure"
+      ]
+    },
+    {
+      "id": "utility-scale-renewable-developers",
+      "parentId": "utility-rate-base-exposure",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Utility-Scale Renewable Developers",
+      "mechanism": "Reduced transmission expansion delays interconnection of utility-scale solar and wind projects.",
+      "logic": "Lack of new transmission capacity forces renewable projects to wait longer in interconnection queues or accept higher network upgrade costs, eroding project returns and slowing deployment.",
+      "horizon": "long",
+      "searchPhrases": [
+        "interconnection queue",
+        "transmission upgrade cost",
+        "renewable energy project",
+        "grid interconnection"
+      ]
+    },
+    {
+      "id": "mining-equipment-manufacturers",
+      "parentId": "electrical-infrastructure-metals-suppliers",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Mining Equipment Manufacturers",
+      "mechanism": "Reduced copper and aluminum demand softens mining company revenues, leading to cuts in exploration and equipment purchases.",
+      "logic": "Copper miners respond to lower pricing by deferring expansionary capex, reducing orders for mining trucks, shovels, and processing equipment.",
+      "horizon": "long",
+      "searchPhrases": [
+        "mining equipment",
+        "mining truck",
+        "surface mining",
+        "mineral processing"
+      ]
+    },
+    {
+      "id": "peaker-plant-natural-gas-suppliers",
+      "parentId": "merchant-gas-peaker-plant-owners",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Peaker Plant Natural Gas Suppliers",
+      "mechanism": "Reduced peaker plant operations lower demand for natural gas deliveries on peak days, depressing local basis prices and volumes for producers connected to those plants.",
+      "logic": "Peakers often take gas on interruptible contracts from nearby producers or via spot market. Lower utilization means less gas burned, reducing revenue for gas suppliers who serve those plants.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "natural gas supply",
+        "firm transportation",
+        "gas nomination",
+        "peaking gas demand"
+      ]
+    },
+    {
+      "id": "conventional-hvac-equipment-suppliers-for-data-centers",
+      "parentId": "legacy-data-center-cooling-and-power-equipment",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Conventional HVAC Equipment Suppliers for Data Centers",
+      "mechanism": "Data center cooling budget reallocation from air-based chillers to liquid cooling systems reduces sales of conventional HVAC products.",
+      "logic": "Large centrifugal chillers and air handlers are a major revenue segment for commercial HVAC firms; if the largest data center operators standardize on direct-to-chip or immersion cooling, the chiller market within the data center vertical shrinks.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "centrifugal chiller",
+        "air handler",
+        "air conditioning system",
+        "HVAC equipment"
+      ]
+    },
+    {
+      "id": "grid-monitoring-and-diagnostics-providers",
+      "parentId": "grid-asset-life-extension-services",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Grid Monitoring and Diagnostics Providers",
+      "mechanism": "Increased spending on grid monitoring and diagnostics benefits companies providing line sensors and asset health software.",
+      "logic": "As utilities extend asset life, they invest in real-time monitoring to manage risk, driving demand for sensor hardware and analytics platforms.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "line monitoring",
+        "substation monitoring",
+        "asset health analytics",
+        "grid sensor"
+      ]
+    }
+  ],
+  "themeKeywords": [
+    "data center",
+    "electricity demand",
+    "grid capex",
+    "on-site generation",
+    "efficiency",
+    "power usage effectiveness",
+    "transmission investment",
+    "data center load"
+  ]
+}

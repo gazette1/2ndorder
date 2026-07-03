@@ -7,7 +7,8 @@
   "scripts": {
     "stage": "tsx src/run.ts",
     "dry-run": "tsx src/run.ts all",
-    "serve": "tsx server/api.ts"
+    "serve": "tsx server/api.ts",
+    "hermes": "tsx src/hermes/ingest.ts"
   },
   "dependencies": {},
   "devDependencies": {

@@ -1,0 +1,71 @@
+{
+  "cik": "0001968487",
+  "ticker": "WS",
+  "name": "Worthington Steel, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-099742",
+    "filedAt": "2025-07-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1968487/000095017025099742/ws-20250531.htm"
+  },
+  "business": "Worthington Steel is one of North America's premier value-added processors of carbon flat-rolled steel, laser welded solutions, and electrical steel laminations. It serves customers across automotive, construction, machinery and equipment, agriculture, heavy trucks, and other markets. The company processes steel to exact customer specifications and also toll processes steel for mills and large end-users.",
+  "sellsTo": [
+    "Automotive",
+    "Construction",
+    "Machinery & Equipment",
+    "Agriculture",
+    "Heavy Trucks",
+    "Other"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cleveland-Cliffs Steel Inc.",
+    "NLMK Indiana LLC",
+    "North Star BlueScope Steel, LLC",
+    "Nucor Corporation",
+    "Steel Dynamics, Inc",
+    "United States Steel Corporation",
+    "Glencore Ltd",
+    "Nexa Resources US Inc.",
+    "Ritchey Metals Company Inc.",
+    "Teck Resources Limited",
+    "Trafigura Trading LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Electrical Steel Laminations : We manufacture precision magnetic steel laminations for the automotive (including applications for electrified vehicles), industrial motor, generator and transformer industries."
+    },
+    {
+      "tag": "electrical-steel",
+      "stance": "core_product",
+      "sentence": "We are one of the largest global producers of electrical steel laminations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "effects of cybersecurity breaches and other disruptions to information technology infrastructure"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "the operational, data privacy, security, regulatory, and legal risks associated with the Company's reliance on AI technologies as well as its inability to stay abreast of technological advancements and its dependence on third parties who rely on AI technologies;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of controlling equity stake in Sitem Group closed",
+      "date": "2025-06-03",
+      "sentence": "Finalized the definitive agreement to acquire a controlling equity stake in Italy-based Sitem Group. The transaction closed on June 3, 2025, subsequent to the end of fiscal 2025."
+    },
+    {
+      "event": "Declaration of quarterly dividend",
+      "date": "2025-06-25",
+      "sentence": "On June 25, 2025, the Worthington Steel Board of Directors (the Board ) declared a quarterly dividend of $0.16 per common share payable on September 26, 2025, to shareholders of record at the close of business on September 12, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T03:06:26.832Z",
+  "model": "deepseek-v4-flash"
+}

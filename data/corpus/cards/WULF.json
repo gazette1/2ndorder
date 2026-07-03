@@ -1,0 +1,79 @@
+{
+  "cik": "0001083301",
+  "ticker": "WULF",
+  "name": "TERAWULF INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001083301-26-000031",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000031/wulf-20251231.htm"
+  },
+  "business": "TeraWulf is a vertically integrated owner, developer, and operator of large-scale digital infrastructure in the United States, purpose-built to support high-performance computing workloads including artificial intelligence, machine learning, and advanced cloud applications. The company also operates legacy bitcoin mining facilities. It sells capacity to hyperscale and enterprise customers through long-term hosting arrangements.",
+  "sellsTo": [
+    "hyperscale and enterprise customers"
+  ],
+  "namedCustomers": [
+    "Core42",
+    "Fluidstack USA I Inc.",
+    "Fluidstack USA III",
+    "Fluidstack CS I Inc."
+  ],
+  "namedSuppliers": [
+    "Bitmain Technologies Limited",
+    "Foundry",
+    "NYDIG",
+    "New York Power Authority"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are a vertically integrated owner, developer, and operator of large-scale digital infrastructure in the United States, purpose-built to support high-performance computing ( HPC ) workloads, including artificial intelligence ( AI ), machine learning, and advanced cloud applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our HPC arrangements are structured as long term data center leases, typically with base terms ranging from 10 to 25 years, contractual escalators, and renewal and contraction options."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "While the Company operates legacy bitcoin mining facilities and leverages this flexible compute load to support early HPC infrastructure development, going forward capital allocation will be focused on HPC data center development, long-term hosting arrangements, and infrastructure supporting AI-driven compute workloads."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of HPC leasing operations at Lake Mariner Data Campus",
+      "date": "2025-07",
+      "sentence": "In July 2025, the Company commenced its HPC leasing operations."
+    },
+    {
+      "event": "Delivery of 60 MW critical IT load to Core42 at Lake Mariner Data Campus",
+      "date": null,
+      "sentence": "In December 2024, La Lupa entered into long-term data center lease agreements with Core42... pursuant to which we committed to deliver 60 MW of critical IT load... commissioning activities commenced in 2025 with phased deliveries aligned to meet Core42's deployment schedule."
+    },
+    {
+      "event": "Delivery of 378 MW critical IT load to Fluidstack at Lake Mariner Data Campus",
+      "date": null,
+      "sentence": "Under the Akela Fluidstack Leases, we will provide 378 MW of critical IT load at the Lake Mariner Data Campus... delivery expected to commence in 2026."
+    },
+    {
+      "event": "Completion and delivery of Abernathy HPC Campus (168 MW critical IT load)",
+      "date": "2026-H2",
+      "sentence": "Construction is proceeding in phases, with completion and delivery currently targeted for the second half of 2026."
+    },
+    {
+      "event": "Acquisition of Hawesville site",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, the Company entered into an Agreement of Purchase and Sale for a former industrial site in Hawesville, Kentucky... closed effective February 2, 2026."
+    },
+    {
+      "event": "Expected close of Morgantown acquisition",
+      "date": "2026-Q2",
+      "sentence": "The Company expects to close on the Morgantown acquisition in the second quarter of 2026, subject to receiving these consents and approvals."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T03:06:51.020Z",
+  "model": "deepseek-v4-flash"
+}
