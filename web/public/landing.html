@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Corollary. State a scenario. See what follows.</title>
+<meta name="description" content="Corollary maps the first, second, and third order consequences of any scenario for small and mid-cap equities, each claim linked to the exact filing sentence it came from." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0B0D10;
+    --surface: #14171B;
+    --surface-raised: #191D22;
+    --border: #262B31;
+    --border-strong: #363D46;
+    --text: #EDEFF2;
+    --text-muted: #9AA1AB;
+    --text-faint: #5C636D;
+    --accent: #D9A441;
+    --accent-hover: #E5B85E;
+    --accent-on: #0B0D10;
+    --beneficiary: #4E9B6F;
+    --beneficiary-tint: rgba(78, 155, 111, 0.12);
+    --beneficiary-border: rgba(78, 155, 111, 0.42);
+    --at-risk: #C1595A;
+    --at-risk-tint: rgba(193, 89, 90, 0.10);
+    --at-risk-border: rgba(193, 89, 90, 0.42);
+    --settle: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); }
+  body {
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+  @media (max-width: 640px) { .wrap { padding: 0 20px; } }
+
+  /* nav */
+  nav.top {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 0;
+  }
+  .wordmark {
+    font-family: "Newsreader", serif; font-style: italic; font-weight: 500;
+    font-size: 19px; letter-spacing: 0.01em; color: var(--text);
+    text-decoration: none;
+  }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    height: 44px; padding: 0 20px; border-radius: 3px;
+    font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 15px;
+    text-decoration: none; cursor: pointer; border: 1px solid transparent;
+    transition: background-color 120ms linear, border-color 120ms linear;
+  }
+  .btn-primary { background: var(--accent); color: var(--accent-on); }
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+  .btn-ghost:hover { border-color: var(--accent); }
+
+  /* hero */
+  .hero { padding: 64px 0 32px; }
+  .kicker {
+    font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.04em;
+    color: var(--text-faint); margin: 0 0 20px;
+  }
+  h1 {
+    font-family: "Newsreader", serif; font-weight: 400; font-optical-sizing: auto;
+    font-size: clamp(38px, 6vw, 72px); line-height: 1.08; letter-spacing: -0.01em;
+    margin: 0 0 24px; max-width: 15ch; color: var(--text);
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .subhead {
+    font-size: 19px; line-height: 1.55; color: var(--text-muted);
+    max-width: 56ch; margin: 0 0 40px;
+  }
+  .cta-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+  .cta-note {
+    font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--text-faint);
+    margin: 20px 0 0;
+  }
+
+  /* diagram */
+  .diagram-panel {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    margin-top: 64px; padding: 32px 24px 24px; overflow-x: auto;
+  }
+  .diagram-label {
+    font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.04em;
+    color: var(--text-faint); margin: 0 0 20px;
+  }
+  svg.tree { display: block; width: 100%; min-width: 720px; height: auto; }
+  .node-rect { fill: var(--surface-raised); stroke-width: 1; rx: 6; }
+  .node-rect.beneficiary { fill: var(--beneficiary-tint); stroke: var(--beneficiary-border); }
+  .node-rect.at-risk { fill: var(--at-risk-tint); stroke: var(--at-risk-border); }
+  .node-rect.root { fill: var(--surface-raised); stroke: var(--border-strong); }
+  .node-title { font-family: "IBM Plex Mono", monospace; font-size: 13.5px; fill: var(--text); }
+  .node-title.beneficiary-text { fill: #DCE7DF; }
+  .node-title.at-risk-text { fill: #E7D9D9; }
+  .node-meta { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--text-faint); }
+  .node-tag { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.06em; font-weight: 500; }
+  .edge { fill: none; stroke: var(--border-strong); stroke-width: 1.25; }
+  .node-group { opacity: 0; transform: translateY(6px); transition: opacity 500ms var(--settle), transform 500ms var(--settle); }
+  .node-group.in { opacity: 1; transform: translateY(0); }
+
+  /* explainer */
+  .steps { padding: 64px 0 96px; border-top: 1px solid var(--border); margin-top: 40px; }
+  .step { display: flex; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--border); }
+  .step:last-child { border-bottom: none; }
+  .step-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); width: 32px; flex-shrink: 0; padding-top: 3px; }
+  .step-title { font-family: "Newsreader", serif; font-size: 21px; margin: 0 0 6px; color: var(--text); }
+  .step-body { font-size: 15px; color: var(--text-muted); max-width: 62ch; margin: 0; }
+
+  footer { border-top: 1px solid var(--border); padding: 32px 0 48px; }
+  .foot-row { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; }
+  .foot-name { font-family: "Newsreader", serif; font-style: italic; font-size: 15px; color: var(--text-muted); }
+  .foot-note { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--text-faint); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="top">
+    <a class="wordmark" href="/">Corollary</a>
+    <a class="btn btn-ghost" href="/app">Sign in</a>
+  </nav>
+
+  <section class="hero">
+    <p class="kicker">SEC filings, read once, cited exactly</p>
+    <h1>State a scenario.<br />See what <em>follows</em>.</h1>
+    <p class="subhead">Corollary maps the first, second, and third order consequences of any scenario: the companies that benefit and the ones that do not, each claim linked to the exact sentence in the filing it came from.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="/app">Sign in</a>
+      <a class="btn btn-ghost" href="#how">See how it reads</a>
+    </div>
+    <p class="cta-note">No demo data. Every name and count below is illustrative.</p>
+
+    <div class="diagram-panel">
+      <p class="diagram-label">Illustrative scenario, three orders, both directions</p>
+      <svg class="tree" viewBox="0 0 1180 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a scenario deriving beneficiary and at-risk consequences across three orders">
+        <g id="edges"></g>
+        <g id="nodes"></g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="steps" id="how">
+    <div class="step">
+      <span class="step-num">01</span>
+      <div>
+        <h3 class="step-title">State a scenario</h3>
+        <p class="step-body">One sentence: a thesis, a macro call, a headline. No ticker required to start.</p>
+      </div>
+    </div>
+    <div class="step">
+      <span class="step-num">02</span>
+      <div>
+        <h3 class="step-title">Read what follows</h3>
+        <p class="step-body">Beneficiaries and casualties, ordered by how many steps removed from the scenario they sit, each backed by the filing sentence it was drawn from.</p>
+      </div>
+    </div>
+    <div class="step">
+      <span class="step-num">03</span>
+      <div>
+        <h3 class="step-title">Rank what is under-covered</h3>
+        <p class="step-body">Small and mid-cap names sized against market cap and trading liquidity, not against how many analysts already write about them.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-row">
+      <span class="foot-name">Corollary Research</span>
+      <span class="foot-note">Primary sources: SEC EDGAR. Not investment advice.</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var NS = "http://www.w3.org/2000/svg";
+  var edgesG = document.getElementById("edges");
+  var nodesG = document.getElementById("nodes");
+
+  // columns: root, order 1, order 2, order 3
+  var col = [40, 330, 660, 960];
+  var nodeW = [190, 220, 220, 200];
+
+  function rect(x, y, w, h, cls) {
+    var r = document.createElementNS(NS, "rect");
+    r.setAttribute("x", x); r.setAttribute("y", y);
+    r.setAttribute("width", w); r.setAttribute("height", h);
+    r.setAttribute("class", "node-rect " + cls);
+    return r;
+  }
+  function text(x, y, str, cls) {
+    var t = document.createElementNS(NS, "text");
+    t.setAttribute("x", x); t.setAttribute("y", y);
+    t.setAttribute("class", cls);
+    t.textContent = str;
+    return t;
+  }
+  function group(id) {
+    var g = document.createElementNS(NS, "g");
+    g.setAttribute("class", "node-group");
+    g.dataset.id = id;
+    return g;
+  }
+  function edgePath(x1, y1, x2, y2) {
+    var midX = (x1 + x2) / 2;
+    var d = "M " + x1 + " " + y1 + " C " + midX + " " + y1 + ", " + midX + " " + y2 + ", " + x2 + " " + y2;
+    var p = document.createElementNS(NS, "path");
+    p.setAttribute("d", d);
+    p.setAttribute("class", "edge");
+    return p;
+  }
+
+  function addNode(id, colIdx, cy, title, tag, meta, polarity) {
+    var lines = title.split("\n");
+    var w = nodeW[colIdx];
+    var h = polarity === "root" ? 74 : (meta ? 88 : 70);
+    var x = col[colIdx], y = cy - h / 2;
+    var g = group(id);
+    var polarityClass = polarity === "beneficiary" ? "beneficiary" : polarity === "at-risk" ? "at-risk" : "root";
+    g.appendChild(rect(x, y, w, h, polarityClass));
+
+    var tagColor = polarity === "beneficiary" ? "var(--beneficiary)" : polarity === "at-risk" ? "var(--at-risk)" : "var(--text-faint)";
+    var tagEl = text(x + 16, y + 22, tag, "node-tag");
+    tagEl.setAttribute("fill", tagColor);
+    g.appendChild(tagEl);
+
+    var titleCls = "node-title" + (polarity === "beneficiary" ? " beneficiary-text" : polarity === "at-risk" ? " at-risk-text" : "");
+    var titleTop = y + 43;
+    lines.forEach(function (line, i) {
+      g.appendChild(text(x + 16, titleTop + i * 18, line, titleCls));
+    });
+
+    if (meta) g.appendChild(text(x + 16, y + h - 14, meta, "node-meta"));
+
+    nodesG.appendChild(g);
+    return { x: x, y: cy, w: w, h: h, right: x + w, left: x };
+  }
+
+  // positions: two aligned rows (top tier, bottom tier) so edges read cleanly
+  // left to right; root sits vertically centered between them.
+  var TOP = 92, BOTTOM = 322;
+  var root = addNode("root", 0, (TOP + BOTTOM) / 2, "A scenario,\nstated in one sentence", "SCENARIO", null, "root");
+  var a = addNode("a", 1, TOP, "Substrate and\ninterposer suppliers", "BENEFICIARY", "4 names · 18 filings", "beneficiary");
+  var b = addNode("b", 1, BOTTOM, "Legacy wire-bond\nassembly", "AT RISK", "2 names · 6 filings", "at-risk");
+  var c = addNode("c", 2, TOP, "Advanced test and\ninspection equipment", "BENEFICIARY", "3 names · 11 filings", "beneficiary");
+  var d = addNode("d", 2, BOTTOM, "Older-node foundry\ncapacity", "AT RISK", "2 names · 5 filings", "at-risk");
+  var e = addNode("e", 3, TOP, "Thermal interface\nmaterials", "BENEFICIARY", "2 names · 4 filings", "beneficiary");
+
+  var edges = [
+    { from: root, to: a, tier: 1 },
+    { from: root, to: b, tier: 1 },
+    { from: a, to: c, tier: 2 },
+    { from: b, to: d, tier: 2 },
+    { from: c, to: e, tier: 3 }
+  ];
+
+  var edgeEls = edges.map(function (edge) {
+    var p = edgePath(edge.from.right, edge.from.y, edge.to.left, edge.to.y);
+    edgesG.appendChild(p);
+    var len = p.getTotalLength();
+    p.style.strokeDasharray = len;
+    p.style.strokeDashoffset = len;
+    return { el: p, len: len, tier: edge.tier };
+  });
+
+  function drawEdge(edgeObj, delay) {
+    setTimeout(function () {
+      edgeObj.el.style.transition = "stroke-dashoffset 900ms cubic-bezier(0.16, 1, 0.3, 1)";
+      edgeObj.el.style.strokeDashoffset = "0";
+    }, delay);
+  }
+  function revealNode(id, delay) {
+    setTimeout(function () {
+      var g = nodesG.querySelector('[data-id="' + id + '"]');
+      if (g) g.classList.add("in");
+    }, delay);
+  }
+
+  // root appears first, then each tier draws in with a sibling stagger
+  revealNode("root", 60);
+  edgeEls.filter(function (e) { return e.tier === 1; }).forEach(function (e, i) { drawEdge(e, 260); });
+  revealNode("a", 760); revealNode("b", 910);
+  edgeEls.filter(function (e) { return e.tier === 2; }).forEach(function (e, i) { drawEdge(e, 1360); });
+  revealNode("c", 1860); revealNode("d", 2010);
+  edgeEls.filter(function (e) { return e.tier === 3; }).forEach(function (e, i) { drawEdge(e, 2460); });
+  revealNode("e", 2960);
+})();
+</script>
+
+</body>
+</html>
