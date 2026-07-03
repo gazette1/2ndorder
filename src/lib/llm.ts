@@ -46,7 +46,15 @@ export async function llm(slug: string, key: string, prompt: string, format: For
 }
 
 function finish(text: string, format: Format): string {
-  return format === 'json' ? extractJson(text) : text.trim();
+  const clean = deSlop(text);
+  return format === 'json' ? extractJson(clean) : clean.trim();
+}
+
+// House style is a hard gate on generated output, and open models honor it
+// inconsistently from the prompt alone (both gemma4 and deepseek-v4 emitted
+// em-dashes). Enforce it deterministically: em-dash to comma, per the voice rule.
+function deSlop(text: string): string {
+  return text.replace(/\s*—\s*/g, ', ');
 }
 
 // Local Ollama. format:'json' uses Ollama's JSON mode to constrain the output.
