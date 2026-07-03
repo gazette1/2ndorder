@@ -13,13 +13,18 @@ async function throttle() {
   lastCall = Date.now();
 }
 
-// efts.sec.gov throws intermittent 500s on well-formed queries; retry before giving up.
+// efts.sec.gov throws intermittent 500s on well-formed queries, and fetch itself
+// occasionally throws a transient network error; retry both before giving up.
 async function get(url: string): Promise<Response> {
   for (let attempt = 1; ; attempt++) {
     await throttle();
-    const res = await fetch(url, { headers: { 'User-Agent': CONFIG.userAgent } });
-    if (res.ok) return res;
-    if (attempt >= 4 || res.status === 404) throw new Error(`EDGAR ${res.status} ${url}`);
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': CONFIG.userAgent } });
+      if (res.ok) return res;
+      if (attempt >= 4 || res.status === 404) throw new Error(`EDGAR ${res.status} ${url}`);
+    } catch (e) {
+      if (attempt >= 4) throw e;
+    }
     await new Promise((r) => setTimeout(r, attempt * 1500));
   }
 }
