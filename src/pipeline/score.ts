@@ -36,7 +36,9 @@ function customerValidation(d: Dossier): SubScore {
 }
 
 // Composite over all rubric weights, normalized so the scale stays 0 to 100
-// regardless of how many dimensions are weighted or how a PM re-weights them.
+// regardless of how many dimensions are weighted or how a PM re-weights them,
+// then gated by exposure: a peripheral name cannot outrank a direct one on
+// side dimensions alone. Multipliers live in rubric.json, arguable like weights.
 export function composite(read: Read): number {
   let weighted = 0;
   let sumW = 0;
@@ -46,7 +48,9 @@ export function composite(read: Read): number {
     weighted += weight * sub.score;
     sumW += weight;
   }
-  return sumW === 0 ? 0 : Math.round((weighted / (5 * sumW)) * 100);
+  if (sumW === 0) return 0;
+  const gate = (rubric.exposureGate as any)[read.exposure] ?? 1;
+  return Math.round((weighted / (5 * sumW)) * 100 * gate);
 }
 
 export async function score(slug: string): Promise<Record<string, number>> {

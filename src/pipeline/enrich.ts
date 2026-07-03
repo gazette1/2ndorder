@@ -1,12 +1,56 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { fullTextSearch, fundamentals, insiderSummary } from '../lib/edgar.js';
+import { debtUSD, fullTextSearch, fundamentals, insiderSummary, operatingCashFlowUSD, sharesHistory, submissions } from '../lib/edgar.js';
+import { advUSD } from '../lib/marketdata.js';
 import { coverage } from '../lib/coverage.js';
 import { cleanName, emptyCustomerGraph, govAwards } from '../lib/usaspending.js';
 import { load, save } from '../lib/store.js';
 import { CONFIG } from '../config.js';
 import { selectReadTargets } from './targets.js';
-import type { Candidate, Coverage, Dossier, ReverseCite } from '../types.js';
+import type { Candidate, Coverage, Decomposition, Dossier, Fundamentals, RealityCheck, ReverseCite } from '../types.js';
+
+// The SMID reality check: tradability, survivability, dilution. Deterministic,
+// keyless, and every threshold is a config assumption a PM can argue with.
+async function realityCheck(c: Candidate, funds: Fundamentals): Promise<RealityCheck> {
+  const R = CONFIG.reality;
+  const [adv, hist, debt, cfo, subs] = await Promise.all([
+    advUSD(c.ticker),
+    sharesHistory(c.cik),
+    debtUSD(c.cik),
+    operatingCashFlowUSD(c.cik),
+    submissions(c.cik),
+  ]);
+
+  const daysToBuild = adv ? Math.ceil(R.positionUSD / (adv * R.participationRate)) : null;
+  const netCashUSD = funds.cashUSD !== null ? funds.cashUSD - (debt ?? 0) : null;
+  const burnPerQuarter = cfo !== null && cfo < 0 ? -cfo / 4 : null;
+  const runwayQuarters =
+    burnPerQuarter && funds.cashUSD !== null ? Math.round((funds.cashUSD / burnPerQuarter) * 10) / 10 : null;
+  const sharesChangePct =
+    hist?.yearAgo ? Math.round(((hist.latest - hist.yearAgo) / hist.yearAgo) * 1000) / 10 : null;
+
+  const yearAgo = new Date(Date.now() - 365 * 86400_000).toISOString().slice(0, 10);
+  const r = subs.recent;
+  const shelfOnFile = r.form.some(
+    (f, i) => (f === 'S-3' || f === 'S-3/A' || f === '424B5') && r.filingDate[i] >= yearAgo,
+  );
+
+  const flags: string[] = [];
+  if (daysToBuild !== null && daysToBuild > R.thinLiquidityDays) {
+    flags.push(
+      `thin liquidity: about ${daysToBuild} trading days to build $${R.positionUSD / 1e6}MM at ${Math.round(R.participationRate * 100)} percent of volume`,
+    );
+  }
+  if (runwayQuarters !== null && runwayQuarters < R.minRunwayQuarters) {
+    flags.push(`cash runway about ${runwayQuarters} quarters at the current operating burn`);
+  }
+  if (sharesChangePct !== null && sharesChangePct > R.dilutionFlagPct) {
+    flags.push(`share count up ${sharesChangePct} percent in 12 months`);
+  }
+  if (shelfOnFile) flags.push('shelf registration on file (S-3 or 424B5, trailing 12 months)');
+
+  return { advUSD: adv, daysToBuild, netCashUSD, runwayQuarters, sharesChangePct, shelfOnFile, flags, provenance: ['yahoo', 'sec_xbrl'] };
+}
 
 // Coverage needs a key. When none is set, load an authored fixture so the feature
 // is demonstrable, and leave its provenance as stub so the UI marks it not live.
@@ -41,7 +85,8 @@ async function reverseCites(cik: string, name: string): Promise<ReverseCite[]> {
 
 export async function enrich(slug: string): Promise<Dossier[]> {
   const candidates = load<Candidate[]>(slug, 'candidates');
-  const targets = selectReadTargets(candidates);
+  const { nodes } = load<Decomposition>(slug, 'decompose');
+  const targets = selectReadTargets(candidates, nodes);
 
   const dossiers: Dossier[] = [];
   for (const c of targets) {
@@ -61,11 +106,14 @@ export async function enrich(slug: string): Promise<Dossier[]> {
     customers.reverseCites = cites;
     customers.reverseCiteCount = cites.length;
 
-    dossiers.push({ ticker: c.ticker, cik: c.cik, insider, fundamentals: funds, customers, coverage: cov });
+    const reality = await realityCheck(c, funds);
+
+    dossiers.push({ ticker: c.ticker, cik: c.cik, insider, fundamentals: funds, customers, coverage: cov, reality });
     console.log(
       `[enrich] ${c.ticker}: insider net $${insider.netBuyUSD.toLocaleString()} (${insider.buyCount}B/${insider.sellCount}S), ` +
         `gov $${awards.totalUSD.toLocaleString()} over ${awards.awards.length} awards, ${cites.length} reverse-cites, ` +
-        `coverage ${cov.analystCount ?? 'stub'}${cov.ratingActions.length ? ` (${cov.ratingActions.length} actions)` : ''}`,
+        `coverage ${cov.analystCount ?? 'stub'}${cov.ratingActions.length ? ` (${cov.ratingActions.length} actions)` : ''}, ` +
+        `reality ${reality.flags.length ? reality.flags.length + ' flag(s)' : 'clean'}`,
     );
   }
 

@@ -1,0 +1,43 @@
+You are an equity analyst reading SEC filing excerpts for GRAFTECH INTERNATIONAL LTD (EAF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Electricity-Intensive Commodity Producers (order 2, at_risk). Mechanism: Higher grid-delivered power costs inflate COGS for producers where electricity is a primary input, compressing margins in globally priced commodities. Node logic: Aluminum smelters, EAF steel mills, and chlor-alkali plants use large amounts of electricity per unit of output. Since T&D cost pass-through is structural, the cost disadvantage persists, making domestic production less competitive versus imports from regions with cheaper power. Over time, marginal plants may idle.
+8-K filings in the last 12 months: 10
+
+Excerpts:
+[0] (8-K, filed 2026-05-01) While volume trends are stable, current industry-wide pricing levels do not reflect the indispensable nature of graphite electrodes for electric arc furnace steelmaking.
+[1] (8-K, filed 2026-05-01) We continue to anticipate our full-year capital expenditures will be approximately $35 million, consistent with maintaining our assets at current utilization levels.
+[2] (8-K, filed 2026-05-01) The ongoing shift toward electric arc furnace steelmaking and growing demand for petroleum needle coke in battery applications are expected to support sustained industry growth.
+[3] (8-K, filed 2026-05-01) About GrafTech GrafTech International Ltd. is a leading manufacturer of high-quality graphite electrode products essential to the production of electric arc furnace steel and other ferrous and non-ferrous metals.
+[4] (8-K, filed 2026-05-01) Examples of forward-looking statements include, among others, statements we make regarding future estimated volume, pricing and revenue, and anticipated levels of capital expenditures and cost of goods sold.
+[5] (8-K, filed 2026-05-01) We define free cash flow, a non-GAAP financial measure, as net cash provided by or used in operating activities less capital expenditures.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $504,134,000, net income $-219,835,000, R&D $6,475,000, cash $176,878,000.
+Customer graph: federal awards $2,044,615 across 3 awards (top agency Department of Energy); 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

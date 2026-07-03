@@ -84,14 +84,22 @@ export function normalizeRunPayload(raw: unknown): RunPayload {
       id: run.id ?? '',
       seed: run.seed ?? '',
       createdAt: run.createdAt ?? '',
-      floatBandMM: run.floatBandMM ?? [0, 0],
+      // Old payloads sized by public float; new ones by market cap.
+      capBandMM: run.capBandMM ?? (run.floatBandMM as [number, number] | undefined) ?? [0, 0],
       mode: run.mode === 'fixture' ? 'fixture' : 'live',
       rubric: run.rubric ?? { weights: {}, definitions: {} },
       asof: typeof run.asof === 'string' ? run.asof : null,
       counterOf: typeof run.counterOf === 'string' ? run.counterOf : null,
     },
     chain: (p.chain ?? []).map(normalizeNode),
-    candidates: p.candidates ?? [],
+    candidates: (p.candidates ?? []).map((c) => {
+      const old = c as typeof c & { publicFloatMM?: number | null };
+      return {
+        ...c,
+        marketCapMM: c.marketCapMM ?? old.publicFloatMM ?? null,
+        capSource: c.capSource ?? (old.publicFloatMM !== undefined ? 'public_float' : null),
+      };
+    }),
     reads: p.reads ?? [],
     theses: p.theses ?? [],
     dossiers: p.dossiers ?? [],

@@ -285,8 +285,16 @@ export function App() {
     return m;
   }, [payload]);
 
-  const rows: CandidateRow[] = useMemo(() => {
-    if (!payload) return [];
+  // Split candidates by the polarity of their map node: beneficiary nodes feed
+  // the long table, at_risk nodes feed the short table. Candidates whose node
+  // is missing count as beneficiary. Each side keeps the existing internal
+  // ordering: scored by composite, then in-band by FTS hits, then filtered out.
+  const { longRows, shortRows } = useMemo(() => {
+    const empty = { longRows: [] as CandidateRow[], shortRows: [] as CandidateRow[] };
+    if (!payload) return empty;
+    const exposureGate = payload.run.rubric.exposureGate;
+    const polarityByNode = new Map<string, string>();
+    for (const n of payload.chain) polarityByNode.set(n.id, n.polarity);
     const all = payload.candidates
       .filter((c) => (selectedNodeId ? c.nodeId === selectedNodeId : true))
       .map((c) => {
@@ -294,21 +302,27 @@ export function App() {
         return {
           candidate: c,
           read,
-          score: read ? compositeScore(read, weights) : null,
+          score: read ? compositeScore(read, weights, exposureGate) : null,
           hasThesis: thesesByTicker.has(c.ticker),
           dossier: dossiersByTicker.get(c.ticker) ?? null,
         };
       });
-    const scored = all
-      .filter((r) => r.read !== null && r.candidate.status !== 'filtered_out')
-      .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
-    const inBand = all
-      .filter((r) => r.read === null && r.candidate.status !== 'filtered_out')
-      .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
-    const filteredOut = all
-      .filter((r) => r.candidate.status === 'filtered_out')
-      .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
-    return [...scored, ...inBand, ...filteredOut];
+    const order = (rows: CandidateRow[]) => {
+      const scored = rows
+        .filter((r) => r.read !== null && r.candidate.status !== 'filtered_out')
+        .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+      const inBand = rows
+        .filter((r) => r.read === null && r.candidate.status !== 'filtered_out')
+        .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
+      const filteredOut = rows
+        .filter((r) => r.candidate.status === 'filtered_out')
+        .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
+      return [...scored, ...inBand, ...filteredOut];
+    };
+    return {
+      longRows: order(all.filter((r) => polarityByNode.get(r.candidate.nodeId) !== 'at_risk')),
+      shortRows: order(all.filter((r) => polarityByNode.get(r.candidate.nodeId) === 'at_risk')),
+    };
   }, [payload, weights, selectedNodeId, readsByTicker, thesesByTicker, dossiersByTicker]);
 
   // Landing gate. Either card proceeds into the existing login/search flow.
@@ -324,7 +338,9 @@ export function App() {
   const openThesis = selectedTicker ? thesesByTicker.get(selectedTicker) ?? null : null;
   const openRead = selectedTicker ? readsByTicker.get(selectedTicker) ?? null : null;
   const openDossier = selectedTicker ? dossiersByTicker.get(selectedTicker) ?? null : null;
-  const openComposite = openRead ? compositeScore(openRead, weights) : null;
+  const openComposite = openRead
+    ? compositeScore(openRead, weights, payload?.run.rubric.exposureGate)
+    : null;
 
   const selectedNode =
     payload && selectedNodeId ? payload.chain.find((n) => n.id === selectedNodeId) ?? null : null;
@@ -400,7 +416,8 @@ export function App() {
             />
           )}
           <CandidateTable
-            rows={rows}
+            longRows={longRows}
+            shortRows={shortRows}
             chain={payload.chain}
             selectedTicker={selectedTicker}
             selectedNodeId={selectedNodeId}
@@ -421,6 +438,7 @@ export function App() {
             dossier={openDossier}
             weights={weights}
             composite={openComposite}
+            exposureGate={payload?.run.rubric.exposureGate}
             onClose={() => setSelectedTicker(null)}
           />
         )}

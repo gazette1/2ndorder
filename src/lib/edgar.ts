@@ -70,6 +70,9 @@ export async function fullTextSearch(phrase: string, startdt: string, enddt: str
 }
 
 // CIK -> { ticker, title } from the SEC's canonical mapping file, cached on disk.
+// A CIK can list several tickers (share classes, warrants); the file lists the
+// primary first, so keep the FIRST per CIK. This is what stops a warrant ticker
+// (PDYNW, SLDPW) from standing in for the company.
 export async function tickerMap(): Promise<Map<string, { ticker: string; title: string }>> {
   const p = cachePath('company_tickers.json');
   if (!fs.existsSync(p)) {
@@ -79,9 +82,53 @@ export async function tickerMap(): Promise<Map<string, { ticker: string; title: 
   const data = JSON.parse(fs.readFileSync(p, 'utf8')) as Record<string, { cik_str: number; ticker: string; title: string }>;
   const map = new Map<string, { ticker: string; title: string }>();
   for (const row of Object.values(data)) {
-    map.set(String(row.cik_str).padStart(10, '0'), { ticker: row.ticker, title: row.title });
+    const cik = String(row.cik_str).padStart(10, '0');
+    if (!map.has(cik)) map.set(cik, { ticker: row.ticker, title: row.title });
   }
   return map;
+}
+
+// Latest reported common shares outstanding (10-K/10-Q cover), quarterly-fresh.
+export async function sharesOutstanding(cik: string): Promise<number | null> {
+  const h = await sharesHistory(cik);
+  return h?.latest ?? null;
+}
+
+// Latest share count plus the closest reading from about a year earlier, for a
+// dilution read. Small caps fund themselves by printing shares; the change is the tell.
+export async function sharesHistory(cik: string): Promise<{ latest: number; yearAgo: number | null } | null> {
+  try {
+    const data = await getJson<any>(
+      `https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/dei/EntityCommonStockSharesOutstanding.json`,
+    );
+    const facts = (data.units?.shares ?? []).filter((f: any) => Number.isFinite(Number(f.val)) && Number(f.val) > 0);
+    if (!facts.length) return null;
+    facts.sort((a: any, b: any) => String(a.end).localeCompare(String(b.end)));
+    const last = facts[facts.length - 1];
+    const target = new Date(new Date(last.end).getTime() - 365 * 86400_000).toISOString().slice(0, 10);
+    let yearAgo: number | null = null;
+    for (let i = facts.length - 2; i >= 0; i--) {
+      if (facts[i].end <= target) {
+        yearAgo = Number(facts[i].val);
+        break;
+      }
+    }
+    return { latest: Number(last.val), yearAgo };
+  } catch {
+    return null;
+  }
+}
+
+// Total debt, approximate: the broadest long-term debt concept the filer reports.
+export async function debtUSD(cik: string): Promise<number | null> {
+  const hit = await latestAnnual(cik, ['LongTermDebt', 'LongTermDebtNoncurrent', 'DebtLongtermAndShorttermCombinedAmount']);
+  return hit?.val ?? null;
+}
+
+// Annual operating cash flow, for the burn-rate read on pre-profit names.
+export async function operatingCashFlowUSD(cik: string): Promise<number | null> {
+  const hit = await latestAnnual(cik, ['NetCashProvidedByUsedInOperatingActivities']);
+  return hit?.val ?? null;
 }
 
 // Latest dei:EntityPublicFloat in USD MM, or null when the company has never reported one.

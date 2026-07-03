@@ -1,7 +1,19 @@
 import { CONFIG } from '../config.js';
-import { fullTextSearch, publicFloatMM, tickerMap, type FtsResult } from '../lib/edgar.js';
+import { fullTextSearch, publicFloatMM, sharesOutstanding, tickerMap, type FtsResult } from '../lib/edgar.js';
+import { priceUSD } from '../lib/marketdata.js';
 import { load, save } from '../lib/store.js';
 import type { Candidate, Decomposition } from '../types.js';
+
+// Market cap in USD MM: delayed price x latest reported shares outstanding,
+// falling back to 10-K public float when either input is missing.
+async function marketCap(cik: string, ticker: string): Promise<{ capMM: number | null; source: Candidate['capSource'] }> {
+  const [price, shares] = await Promise.all([priceUSD(ticker), sharesOutstanding(cik)]);
+  if (price !== null && shares !== null) {
+    return { capMM: Math.round((price * shares) / 1e6), source: 'price_x_shares' };
+  }
+  const float = await publicFloatMM(cik);
+  return float === null ? { capMM: null, source: null } : { capMM: float, source: 'public_float' };
+}
 
 // Chain node -> small-cap tickers, via EDGAR full-text search on the node's phrases.
 // nodeIds limits mapping to a subset (the drill case); results merge into the
@@ -55,12 +67,12 @@ export async function mapTickers(slug: string, nodeIds?: string[]): Promise<Cand
     }
   }
 
-  const [lo, hi] = CONFIG.floatBandMM;
+  const [lo, hi] = CONFIG.capBandMM;
   const fresh: Candidate[] = [];
   for (const [cik, v] of best) {
     const listed = tickers.get(cik);
     if (!listed) continue; // no active ticker: delisted, private, or a co-filer
-    const floatMM = await publicFloatMM(cik);
+    const { capMM, source } = await marketCap(cik, listed.ticker);
     const base: Candidate = {
       cik,
       ticker: listed.ticker,
@@ -68,13 +80,14 @@ export async function mapTickers(slug: string, nodeIds?: string[]): Promise<Cand
       nodeId: v.nodeId,
       ftsHits: v.count,
       latestHit: v.latest.hit,
-      publicFloatMM: floatMM,
+      marketCapMM: capMM,
+      capSource: source,
       status: 'in_band',
     };
-    if (floatMM === null) {
-      fresh.push({ ...base, status: 'filtered_out', filterReason: 'no reported public float' });
-    } else if (floatMM < lo || floatMM > hi) {
-      fresh.push({ ...base, status: 'filtered_out', filterReason: `float $${floatMM}MM outside $${lo}MM to $${hi}MM band` });
+    if (capMM === null) {
+      fresh.push({ ...base, status: 'filtered_out', filterReason: 'no market cap data (no price and no reported float)' });
+    } else if (capMM < lo || capMM > hi) {
+      fresh.push({ ...base, status: 'filtered_out', filterReason: `market cap $${capMM}MM outside $${lo}MM to $${hi}MM band` });
     } else {
       fresh.push(base);
     }
@@ -103,6 +116,6 @@ export async function mapTickers(slug: string, nodeIds?: string[]): Promise<Cand
   save(slug, 'candidates', candidates);
   const inBand = candidates.filter((c) => c.status === 'in_band');
   const white = nodes.filter((n) => n.whiteSpace).length;
-  console.log(`[map] ${candidates.length} companies mapped, ${inBand.length} inside the float band, ${white} white-space nodes`);
+  console.log(`[map] ${candidates.length} companies mapped, ${inBand.length} inside the market cap band, ${white} white-space nodes`);
   return candidates;
 }

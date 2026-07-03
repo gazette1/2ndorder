@@ -1,6 +1,6 @@
 // Dollar convention: M for thousands, MM for millions.
 
-export function fmtFloatMM(v: number | null): string {
+export function fmtCapMM(v: number | null): string {
   if (v === null) return 'n/a';
   return '$' + Math.round(v).toLocaleString('en-US') + 'MM';
 }
@@ -39,7 +39,7 @@ export function fmtPriceTarget(v: number | null): string {
 }
 
 export function fmtBand(band: [number, number]): string {
-  return `Float band $${band[0].toLocaleString('en-US')}MM to $${band[1].toLocaleString('en-US')}MM`;
+  return `Market cap band $${band[0].toLocaleString('en-US')}MM to $${band[1].toLocaleString('en-US')}MM`;
 }
 
 export function fmtDateLong(iso: string): string {

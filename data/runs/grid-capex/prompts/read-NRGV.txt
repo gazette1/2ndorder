@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Energy Vault Holdings, Inc. (NRGV). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Behind-the-meter generation and storage providers (order 2, beneficiary). Mechanism: Declining DER costs combine with rising delivered power prices to improve project ROI. Node logic: Industrial consumers facing higher grid rates are increasingly evaluating solar, storage, and combined heat and power to reduce their exposure. The supercycle accelerates this trend, expanding the addressable market for DER developers and equipment suppliers. Payback periods shorten as the spread between self-generation costs and retail rates widens.
+8-K filings in the last 12 months: 27
+
+Excerpts:
+[0] (10-Q, filed 2026-05-19) We manage projects across the lifecycle, from sourcing and development through permitting and interconnection, engineering and construction management, commissioning, and operations, and we provide software enabled monitoring, controls, and services intended to support asset availability, operational efficiency, and lifecycle performance.
+[1] (10-Q, filed 2026-05-19) The Company no longer offers the software in a manner that permits customers to take possession and instead uses the software solely in hosted software-as-a-service arrangements and in its own operations, including Company-owned energy storage systems.
+[2] (10-Q, filed 2026-05-19) REVENUE RECOGNITION The Company recognized revenue for the product and service categories as follows for the three months ended March 31, 2026 and 2025 (amounts in thousands): Three Months Ended March 31, 2026 2025 Sale of energy storage products $ 19,710 $ 4,891 Tolling and power purchase agreement ( PPA ) revenue (1) 1,528 Operation and maintenance services 444 276 Software licensing 182 112 Intellectual property ( IP ) licensing 15 3,255 Total revenue $ 21,879 $ 8,534 __________________ (1) Revenue from the arrangement accounted for as an operating lease was $ 0.6 million for the three months ended March 31, 2026.
+[3] (10-Q, filed 2026-05-19) The refundable contribution was initially payable to the Company upon the customer s first gravity energy storage system achieving substantial completion, subject to potential downward adjustment for liquidated damages if specified performance metrics were not met.
+[4] (10-Q, filed 2026-05-19) The agreement is accounted for as a lease because the customer (the lessee ) has the right to obtain substantially all of the economic benefits from the use of the energy storage system and has the right to direct its use throughout the agreement's term.
+[5] (10-Q, filed 2026-05-19) The Company, as lessor, is entitled to receive monthly lease payments based on a contractual floor amount (the Monthly Floor ), which is subject to reduction each month based on the availability and round-trip efficiency of the energy storage system (the Effective Monthly Floor ).
+[6] (10-Q, filed 2026-05-19) The increase in depreciation and amortization expense related to property and equipment primarily reflects depreciation recognized after the Company placed its owned energy storage systems and the Snyder CDU into service in the second half of 2025.
+[7] (10-Q, filed 2026-05-19) Warranty Liabilities: The Company provides a limited warranty to its battery energy storage system ( BESS ) customers assuring that the BESSs are free from defects.
+[8] (10-Q, filed 2026-05-19) Notes to Condensed Consolidated Financial Statements (Unaudited) Asset Retirement Obligation In connection with the acquisition or development of energy storage systems, the Company may have the legal requirement to remove long-lived assets constructed on leased property and to restore the leased property to its condition prior to the construction of the long-lived asset.
+[9] (10-Q, filed 2026-05-19) If the Company determines that an ARO is necessary for a specific energy storage system, the Company records the present value of the estimated future liability when the energy storage system is placed in service as an ARO liability.
+[10] (10-Q, filed 2026-05-19) The Company accretes the ARO liability to its future value over the energy storage system s useful life in the condensed consolidated statements of operations and comprehensive loss.
+[11] (10-Q, filed 2026-05-19) The initial ARO is recorded as part of the carrying value of the related long-lived asset and depreciated over the energy storage system s useful life.
+[12] (10-Q, filed 2026-05-19) The CRC energy storage system is the only energy storage system currently subject to an ARO.
+[13] (10-Q, filed 2026-05-19) The initial ARO for the CRC energy storage system was $ 1.0 million.
+[14] (10-Q, filed 2026-05-19) The Company measured the ARO for the CRC energy storage system at fair value (level 3) using an expected present value technique.
+[15] (10-Q, filed 2026-05-19) Mesa Del Sol Project In March 2026, the Company entered into a reimbursement agreement with Public Service Company of New Mexico ( PNM ) to advance preliminary work related to electrical interconnection and related infrastructure planning activities in connection with the Company s potential development of a battery energy storage, power generation, and data center project in Albuquerque, New Mexico.
+[16] (10-Q, filed 2026-05-19) Japan K.K. to acquire certain development-stage assets and project rights related to a portfolio of battery energy storage system projects in Japan.
+[17] (10-Q, filed 2026-05-19) Energy Storage Regulation and Legislation U.S. federal, state, and local authorities continue to review, implement, and modify policies, incentives, regulations, and legislation that can affect the economics and deployment of energy storage, including through tax credits, permitting and interconnection rules, and wholesale market participation frameworks.
+[18] (10-Q, filed 2026-05-19) In addition, as we expand our Own and Operate activities through Asset Vault, we also compete with existing and emerging independent power producers, developers, and asset owners for project sites, interconnection capacity, offtake arrangements, and project financing.
+[19] (10-Q, filed 2026-05-19) As we pursue opportunities involving AI compute infrastructure, powered land, powered shell infrastructure, modular data center deployments, and related energy infrastructure, we may also compete with power infrastructure developers, generation asset owners, data center developers and operators, and other participants seeking access to power, land, interconnection 35 Table of Contents capacity, customers and project capital.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-808,369 across 12 buys and 6 sales by 5 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $203,671,000, net income $-103,611,000, R&D $14,635,000, cash $58,260,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

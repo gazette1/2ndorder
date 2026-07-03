@@ -20,9 +20,18 @@ interface Props {
   onReset: () => void;
 }
 
+const fmtGate = (n: number) => (Number.isInteger(n) ? n.toFixed(1) : String(n));
+
 export function RubricPanel({ rubric, weights, onChange, onReset }: Props) {
   const houseMax = Math.max(...Object.values(rubric.weights), 0.5);
   const sliderMax = houseMax * 2;
+  const gate = rubric.exposureGate;
+  const gateText = gate
+    ? ['direct', 'adjacent', 'peripheral']
+        .filter((k) => gate[k] !== undefined)
+        .map((k) => `${k} x${fmtGate(gate[k])}`)
+        .join(', ')
+    : 'direct x1.0, adjacent x0.85, peripheral x0.5';
 
   return (
     <section className="section">
@@ -51,6 +60,9 @@ export function RubricPanel({ rubric, weights, onChange, onReset }: Props) {
           </div>
         ))}
       </div>
+      <p className="section-note">
+        Composite is gated by exposure: {gateText} (rubric.exposureGate).
+      </p>
       <button type="button" className="reset-btn" onClick={onReset}>
         Reset to house weights
       </button>

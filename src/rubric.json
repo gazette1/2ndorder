@@ -1,4 +1,10 @@
 {
+  "exposureGate": {
+    "direct": 1.0,
+    "adjacent": 0.85,
+    "peripheral": 0.5,
+    "_definition": "Multiplier on the composite by theme exposure. A peripheral name cannot outrank a direct one on side dimensions alone: pure-play proximity is a gate, not a preference. Argue with the multipliers here."
+  },
   "weights": {
     "optionality": 0.25,
     "revenueToOpportunity": 0.2,

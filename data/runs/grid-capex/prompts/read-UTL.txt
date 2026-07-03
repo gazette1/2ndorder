@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for UNITIL CORP (UTL). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Regulated utilities with volumetric rate structures (order 3, at_risk). Mechanism: Fixed grid costs are spread over fewer kWh, increasing per-unit charges and incentivizing further defection. Node logic: When large industrial customers install DERs, they reduce their grid consumption, but the utility's fixed costs remain. Regulators may allow rate redesign, but transition periods are slow. In the interim, remaining customers face higher rates, which can create a negative feedback loop of further defections, threatening utility credit quality.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (10-Q, filed 2025-11-03) Granite State 3 Table of Contents provides Northern Utilities with interconnection to major gas pipelines and access to domestic gas supplies in the south and Canadian gas supplies in the north.
+[1] (10-Q, filed 2025-11-03) Granite State provides Northern Utilities with interconnection to three major gas pipelines and access to domestic gas supplies in the south and Canadian gas supplies in the north.
+[2] (10-Q, filed 2025-11-03) Granite State provides Northern Utilities with interconnection to three major natural gas pipelines and access to domestic natural gas supplies in the south and Canadian natural gas supplies in the north.
+[3] (10-Q, filed 2025-11-03) The Company intends to use the net proceeds from the ATM program for general corporate purposes, including capital contributions to the Company's utility subsidiaries, repayment of debt, acquisitions, capital expenditures and working capital, as described in the prospectus supplement relating to the ATM program.
+[4] (10-Q, filed 2025-11-03) The filing includes (1) a proposed multi-year rate plan, (2) a continuation of its revenue decoupling mechanism, (3) an update to the previously approved suite of proposed time of use (TOU) rates including rates for electric vehicles (4) resiliency programs to further the Company s commitment to reliability, (5) an Arrearage Management Program for financial hardship customers; and (6) other rate design and tariff changes.
+[5] (10-Q, filed 2025-11-03) On July 26, 2023, the MDPU issued an Order approving the Company's cumulative revenue requirement of $ 3.1 million associated with its 2019-2021 capital expenditures.
+[6] (10-Q, filed 2025-11-03) On September 11, 2024, the MDPU issued a final order approving the cumulative revenue requirement of $ 3.5 million associated with its 2019-2022 capital expenditures.
+[7] (10-Q, filed 2025-11-03) On November 1, 2024, Fitchburg filed its cumulative revenue requirement of $ 0.5 million associated with its 2023 capital expenditures, which reflects the transfer of capital expenditures associated with its 2019-2023 year investments into base distribution rates effective July 1, 2024.
+[8] (10-Q, filed 2025-11-03) Fitchburg - Grid Modernization - On July 1, 2021, Fitchburg submitted its Grid Modernization Plan (GMP) to the MDPU.
+[9] (10-Q, filed 2025-11-03) The GMP includes a five-year strategic plan, including a plan for the full deployment of advanced metering functionality, and a four-year short-term investment plan, which focuses on foundational investments to facilitate the interconnection and integration of distributed energy resources, optimizing system performance through command and control and self-healing measures, and optimizing system demand by facilitating consumer price-responsiveness.
+[10] (10-Q, filed 2025-11-03) On October 7, 2022, the MDPU issued a Track 1 Order approving a budget cap of $ 9.3 million through 2025 for previously deployed or preauthorized grid modernization investments.
+[11] (10-Q, filed 2025-11-03) Any spending over the total budget cap is not eligible for targeted cost recovery through its Grid Modernization Factor (GMF), and instead, may be recovered by the Company in a base distribution rate proceeding subsequent to a prudency finding by the MDPU in a GMF filing or term review Order.
+[12] (10-Q, filed 2025-11-03) The MDPU conducted a hearing on September 26, 2023 on the Company s then-pending GMF filings and Grid Modernization Term Report.
+[13] (10-Q, filed 2025-11-03) On April 24, 2023, Fitchburg submitted its 2022 Grid Modernization Plan Annual Report to the MDPU.
+[14] (10-Q, filed 2025-11-03) On April 15, 2024, the Company submitted its annual Grid Modernization Filing seeking recovery of costs related to grid modernization investments placed into service in 2023.
+[15] (10-Q, filed 2025-11-03) Fitchburg submitted its 2024 Grid Modernization Plan Annual Report on July 1, 2025.
+[16] (10-Q, filed 2025-11-03) Fitchburg - Grid Modernization Cost Recovery Factor - On April 15, 2023, Fitchburg filed its GMF rate adjustment and reconciliation filing for recovery of the costs incurred as a result of implementing the Company s 2022-2025 GMP, approved by the MDPU in Orders dated October 7, 2022 and November 30, 2022.
+[17] (10-Q, filed 2025-11-03) The MDPU conducted a hearing on September 26, 2023 regarding the Company s pending GMF filings and Grid Modernization Term Report.
+[18] (10-Q, filed 2025-11-03) 164 92B, Fitchburg submitted a draft Electric Sector Modernization Plan (ESMP) to the statutorily created Massachusetts Grid Modernization Advisory Council (Council) for the Council s review, input, and recommendations.
+[19] (10-Q, filed 2025-11-03) Among other directives, the Order directs Fitchburg and other Massachusetts EDCs to conduct a stakeholder process related to long term system planning related to forecasted DER interconnection and sets forth the criteria for biannual reports.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $536,000,000, net income $50,200,000, R&D $n/a, cash $15,600,000.
+Customer graph: federal awards $1,665,520 across 1 awards (top agency General Services Administration); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

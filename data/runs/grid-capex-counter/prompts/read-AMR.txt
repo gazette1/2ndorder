@@ -1,0 +1,54 @@
+You are an equity analyst reading SEC filing excerpts for Alpha Metallurgical Resources, Inc. (AMR). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex grows at a historical average pace through 2030 as data center electricity demand is largely offset by efficiency gains and on-site generation.
+Map node this company was mapped to: Mining Equipment Manufacturers (order 3, at_risk). Mechanism: Reduced copper and aluminum demand softens mining company revenues, leading to cuts in exploration and equipment purchases. Node logic: Copper miners respond to lower pricing by deferring expansionary capex, reducing orders for mining trucks, shovels, and processing equipment.
+8-K filings in the last 12 months: 15
+
+Excerpts:
+[0] (10-K, filed 2026-02-27) A comprehensive study of a range of options for the technical and economic viability of a mineral project that has advanced to a stage where a preferred method of mining or pit configuration, an effective method of mineral processing and an effective plan to sell the product has been determined.
+[1] (10-K, filed 2026-02-27) In contour mining, surface mining machinery follows the contours of a coal seam or seams around a ridge, excavating the overburden and recovering the coal seam or seams as a contour bench around the ridge is created.
+[2] (10-K, filed 2026-02-27) Procurement Principal goods and services used in our business include mining equipment, replacement parts and materials such as explosives, diesel fuel, tires, conveyance structure, ventilation supplies, lubricants, steel, magnetite and other raw materials, maintenance and repair services, electricity, and roof control and support items.
+[3] (10-K, filed 2026-02-27) In December 2022, we purchased substantially all of the assets of a mining equipment component manufacturing and rebuild business to help secure the supply of certain underground mining equipment parts needed for our operations.
+[4] (10-K, filed 2026-02-27) Surface Mining Control and Reclamation Act Surface Mining Control and Reclamation Act ( SMCRA ), which is administered by the Office of Surface Mining Reclamation and Enforcement ( OSM ), establishes mining, environmental protection, reclamation, and closure standards for all aspects of surface mining as well as many aspects of underground mining that effect surface expressions.
+[5] (10-K, filed 2026-02-27) There are three important sources of GHGs associated with the coal industry: first, the end use of our coal by our customers in electricity generation, coke plants, and steelmaking is a source of GHGs; second, combustion of fuel for mining equipment used in coal production; and third, coal mining can release methane, a GHG, directly into the atmosphere.
+[6] (10-K, filed 2026-02-27) These efforts, as well as concerted conservation and efficiency efforts that result in reduced electricity consumption, could cause coal prices and sales of our coal to materially decline and possibly increase our operating costs.
+[7] (10-K, filed 2026-02-27) Our surface mining operations are subject to numerous regulations relating to blasting activities.
+[8] (10-K, filed 2026-02-27) Combustion of fossil fuels like coal results in the creation of carbon dioxide, which is emitted into the atmosphere by coal end users such as coal-fired electric power generators, coke plants and steelmaking plants, and, to a lesser extent, by the combustion of fossil fuels by the mining equipment we use.
+[9] (10-K, filed 2026-02-27) These efforts, as well as concerted conservation and efficiency efforts that result in reduced electricity consumption and consumer and corporate preferences for non-coal fuel sources, could cause coal prices and sales of our coal to materially decline and could cause our costs to increase.
+[10] (10-K, filed 2026-02-27) When coal producers compete for skilled miners, recruiting becomes more difficult, and employee turnover rates typically increase, each of which negatively affect operating efficiency and costs.
+[11] (10-K, filed 2026-02-27) SMCRA establishes operational, reclamation and closure standards for all aspects of surface mining as well as deep mining.
+[12] (10-K, filed 2026-02-27) We depend on reliable supplies of mining equipment, replacement parts and materials such as explosives, diesel fuel, tires, steel, magnetite and other raw materials and consumables, which in some cases, do not have ready substitutes.
+[13] (10-K, filed 2026-02-27) Any significant reduction in availability or increase in cost of any mining equipment or key supplies could adversely affect our operations and increase our costs, which could adversely affect our operating results and cash flows.
+[14] (10-K, filed 2026-02-27) Active, liquid and orderly trading markets usually result in less price volatility and more efficiency in carrying out investors purchase and sale orders.
+[15] (10-K, filed 2026-02-27) Our asset retirement obligations arise from the federal Surface Mining Control and Reclamation Act of 1977 and similar state statutes, which require that mine property be restored in accordance with specified standards and an approved reclamation plan.
+[16] (10-K, filed 2026-02-27) Mining equipment, 88 Table of Contents ALPHA METALLURGICAL RESOURCES, INC.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $30,307,282 across 68 buys and 11 sales by 3 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $2,122,605,000, net income $-61,687,000, R&D $n/a, cash $365,974,000.
+Customer graph: federal awards $0 across 0 awards; 3 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

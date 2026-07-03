@@ -1,0 +1,46 @@
+You are an equity analyst reading SEC filing excerpts for Orion Group Holdings Inc (ORN). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Data center developers (order 2, at_risk). Mechanism: Lead times for transformers and switchgear extend, and utilities impose larger interconnection cost allocations. Node logic: Data centers themselves are large consumers of electrical infrastructure, and they compete directly with grid operators for the same equipment. The supercycle, which they are driving, creates a bottleneck that raises their own development costs. Higher interconnection charges and longer project timelines reduce returns on new data center builds.
+8-K filings in the last 12 months: 12
+
+Excerpts:
+[0] (8-K, filed 2025-10-29) Navy investments in infrastructure across Pacific to support DOD strategy Coastal Rehabilitation Increased disaster recovery from regional weather events, environmental remediation and sea level rise Energy and Petrochem Security Investment in domestic energy, LNG, chemical and petrochemical facilities Data Center Demand AI driving need for more data centers and power generation across US U.S.
+[1] (8-K, filed 2025-10-29) Navy deterrence strategy in the Pacific, port expansions and maintenance, coastal rehabilitation and energy infrastructure. &#xF0A7; Concrete segment growth driven by data center demand and a healthy share of projects coming to market with an expanding base of clients.
+[2] (10-K, filed 2026-03-04) Pipeline and Utility Marine Services We install and remove underwater pipelines and transmission infrastructure, including industrial intakes and outfalls, river crossing, and tie-ins.
+[3] (10-K, filed 2026-03-04) The amount of capital expenditures on port facilities and marine infrastructure in our markets is affected by the actual and anticipated shipping and vessel needs of the economy in general and in our geographic markets in particular.
+[4] (10-K, filed 2026-03-04) A number of other factors, including the financial condition of the shipping industry, could adversely affect our customers and their ability or willingness to fund capital expenditures in the future.
+[5] (10-K, filed 2026-03-04) Texas also continues to see growth in data center construction, supported by the availability of developable land and access to power and fiber infrastructure.
+[6] (10-K, filed 2026-03-04) Our primary liquidity needs are to finance our working capital and fund capital expenditures.
+[7] (10-K, filed 2026-03-04) Significant assumptions used in our forecasted model of liquidity include forecasted sales, costs, and capital expenditures, as well as expected timing and proceeds of planned asset sale transactions.
+[8] (10-K, filed 2026-03-04) These arrangements are not reasonably likely to have an effect on our financial condition, revenues or expenses, results of operations, liquidity, capital expenditures, or capital resources that is material to investors.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $852,260,000, net income $2,488,000, R&D $n/a, cash $1,588,000.
+Customer graph: federal awards $515,973,486 across 39 awards (top agency Department of Defense); 12 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

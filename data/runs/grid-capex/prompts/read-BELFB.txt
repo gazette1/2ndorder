@@ -1,0 +1,44 @@
+You are an equity analyst reading SEC filing excerpts for BEL FUSE INC /NJ (BELFB). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: High-voltage electrical equipment suppliers (order 1, beneficiary). Mechanism: Order books swell as utilities and data centers directly procure long-lead equipment. Node logic: Transformers, switchgear, and cable are the primary hardware of grid expansion, and their supply is constrained by manufacturing capacity. Orders are placed years in advance, providing revenue visibility and pricing power. Tight markets allow suppliers to raise prices and negotiate better terms.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (8-K, filed 2026-05-12) Power Transformers include standard and custom designs for use in a wide array of applications, including industrial instrumentation, alarm and security systems, motion control, elevators, and medical products.
+[1] (8-K, filed 2026-05-12) Bel, TRP Connector , MagJack Power Transformers Safety isolation and distribution.
+[2] (8-K, filed 2026-05-12) We expect to use this liquidity for operating expenses, investments in working capital, capital expenditures, interest, taxes, lease and purchase obligations, pension benefit obligations, dividends, purchases of common stock under our Repurchase Program, debt obligations and other long-term liabilities.
+[3] (8-K, filed 2026-05-12) The Company also had outstanding purchase orders related to capital expenditures which totaled $2.0 million at December 31, 2025, of which $1.4 million is expected to be paid in 2026.
+[4] (8-K, filed 2026-05-12) Payments due by period (dollars in thousands) Contractual Obligations Total Less than 1 year 1-3 years 3-5 years More than 5 years Long-term debt obligations(1) $ 197,500 $ - $ 197,500 $ - $ - Interest payments due on long-term debt(2) 26,798 10,032 16,766 - - Capital expenditure obligations 1,980 1,390 590 - - Operating leases(3) 26,945 9,203 10,894 4,414 2,434 Raw material purchase obligations 81,503 79,513 1,990 - - First quarter 2026 quarterly cash dividend declared 880 880 - - - Total $ 335,606 $ 101,018 $ 227,740 $ 4,414 $ 2,434 (1) Represents the principal amount of the debt required to be repaid in each period.
+[5] (8-K, filed 2026-05-12) Other significant estimates and assumptions include terminal value long-term growth rates, provisions for income taxes, future capital expenditures and changes in future cashless, debt-free working capital.
+[6] (8-K, filed 2026-05-12) The Company also had outstanding purchase orders related to capital expenditures in the amount of $ 2.0 million and $ 4.6 million at December 31, 2025 and December 31, 2024 , respectively.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-18,031,937 across 0 buys and 36 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $675,455,000, net income $61,536,000, R&D $30,867,000, cash $57,800,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

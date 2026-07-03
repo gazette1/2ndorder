@@ -79,7 +79,8 @@ export interface Candidate {
   nodeId: string;
   ftsHits: number;
   latestHit: FtsHit;
-  publicFloatMM: number | null;
+  marketCapMM: number | null;
+  capSource: 'price_x_shares' | 'public_float' | null;
   status: 'in_band' | 'filtered_out' | 'scored';
   filterReason?: string;
 }
@@ -105,6 +106,7 @@ export type Provenance =
   | 'sec_fts'
   | 'finnhub'
   | 'fmp'
+  | 'yahoo'
   | 'stub';
 
 export interface InsiderTx {
@@ -182,6 +184,17 @@ export interface Coverage {
   provenance: Provenance;
 }
 
+export interface RealityCheck {
+  advUSD: number | null;
+  daysToBuild: number | null;
+  netCashUSD: number | null;
+  runwayQuarters: number | null;
+  sharesChangePct: number | null;
+  shelfOnFile: boolean;
+  flags: string[];
+  provenance: Provenance[];
+}
+
 export interface Dossier {
   ticker: string;
   cik: string;
@@ -189,6 +202,7 @@ export interface Dossier {
   fundamentals: Fundamentals;
   customers: CustomerGraph;
   coverage: Coverage;
+  reality?: RealityCheck;
 }
 
 export interface Read {
@@ -216,13 +230,14 @@ export interface Thesis {
 export interface Rubric {
   weights: Record<string, number>;
   definitions: Record<string, string>;
+  exposureGate?: Record<string, number>;
 }
 
 export interface RunInfo {
   id: string;
   seed: string;
   createdAt: string;
-  floatBandMM: [number, number];
+  capBandMM: [number, number];
   mode: 'live' | 'fixture';
   rubric: Rubric;
   asof: string | null;

@@ -1,0 +1,54 @@
+Draft a one-page thesis for AAON, INC. (AAON) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US grid capex grows at a historical average pace through 2030 as data center electricity demand is largely offset by efficiency gains and on-site generation.
+Map position: Data Center Energy Efficiency Solutions (order 1, beneficiary, horizon near). Mechanism: Operators invest in advanced cooling and server power management to lower PUE and curb load growth. If data center electricity demand must be contained to avoid triggering grid upgrades, operators will double down on efficiency technologies. Providers of liquid cooling, high-efficiency UPS, and DCIM software see higher adoption rates as every watt saved reduces the need for costly on-site generation or grid expansion.
+Public float: $4993MM
+Composite score: 40/100
+Subscores:
+- optionality: 1/5 (weight 0.25). The company already provides data center cooling solutions (liquid cooling, air handlers); no evidence of a new business segment created by the theme.
+- revenueToOpportunity: 3/5 (weight 0.2). AAON's revenue of ~$1B is modest relative to the >$43B data center construction market, but the theme's TAM is large and the company has a specific product line (BASX) for it.
+- catalystDensity: 1/5 (weight 0.15). No specific near-term catalysts such as design wins, capacity additions, or named customer programs mentioned in the excerpts.
+- managementConviction: 2/5 (weight 0.1). Management discusses data center market size and TAM for BASX products, but lacks quantified targets, committed capex, or specific program names.
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-24,433,913 over 4 buys and 30 sales by 2 insider(s), trailing 12 months.
+- customerValidation: 4/5 (weight 0.2). Customer graph: gov awards $129,394, 0 named customer(s), 1 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-06-08, https://www.sec.gov/Archives/edgar/data/824142/000082414226000044/investorpresentation_jun.htm) Data centers, clean rooms, commercial/industrial Air handling, liquid cooling, cleanroom environments Fully custom 8 9 AAON brand overview &sup1; Data is based on trailing 12 months as of March 31, 2026 10 History Bridging the gap between basic, standard equipment and fully custom solutions for a compelling value Today A semi-custom, highly configurable solutions provider for commercial and industrial markets Sales by Products&sup1; Rooftop units Air handlers & condensing units Parts Other Sales by Location&sup1; 1,002.0 975.6 894.3 973.1 2023 2024 2025 TTM AAON brand sales ( M) Tulsa, OK Longview, TX What makes the AAON brand special?
+[1] (8-K, filed 2026-06-08, https://www.sec.gov/Archives/edgar/data/824142/000082414226000044/investorpresentation_jun.htm) In 2025, it was ~11GW, with data center buildout spending topping 43 billion.
+[2] (8-K, filed 2026-06-08, https://www.sec.gov/Archives/edgar/data/824142/000082414226000044/investorpresentation_jun.htm) Annualized put-in-place construction of data centers will grow to ~8-12 GWs Data center pipeline from a macro perspective is large and growing Source: Wood Mackenzie, S&P Global, FactSet, Company estimates 25 Currently, there is a pipeline of projects in development totaling ~240 GWs, with expectations of ~8-12 GWs added annually $0.0 $5.0 $10.0 $15.0 $20.0 $25.0 $30.0 $35.0 $40.0 $45.0 20252024202320222021202020192018201720162015 (in $ b ill io ns ) Data Center Spend (Annual 2015-2025) Data centers are a huge and growing market &sup1; The total cost of constructing data centers in 2025 &sup2; Source: U.S.
+[3] (8-K, filed 2026-06-08, https://www.sec.gov/Archives/edgar/data/824142/000082414226000044/investorpresentation_jun.htm) Our estimated TAM is related to the products BASX provides to data centers.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-24.4MM across 4 buys and 30 sales by 2 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue not reported, cash $13M.
+Customer graph: federal awards $129M (Department of Defense $69M (W912CL12P0063); Department of Defense $60M (W91ZLK09P1276)); named customers none in excerpts; 1 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

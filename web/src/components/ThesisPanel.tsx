@@ -11,10 +11,19 @@ interface Props {
   dossier: Dossier | null;
   weights: Record<string, number>;
   composite: number | null;
+  exposureGate?: Record<string, number>;
   onClose: () => void;
 }
 
-export function ThesisPanel({ thesis, read, dossier, weights, composite, onClose }: Props) {
+export function ThesisPanel({
+  thesis,
+  read,
+  dossier,
+  weights,
+  composite,
+  exposureGate,
+  onClose,
+}: Props) {
   const [activeCite, setActiveCite] = useState<number | null>(null);
   const blocks = useMemo(() => parseBlocks(thesis.markdown), [thesis.markdown]);
 
@@ -50,7 +59,14 @@ export function ThesisPanel({ thesis, read, dossier, weights, composite, onClose
         <div>
           <div className="thesis-ticker mono">{thesis.ticker}</div>
           {composite !== null && (
-            <div className="thesis-score">Composite {composite} under current weights</div>
+            <div className="thesis-score">
+              Composite {composite} under current weights
+              {read && exposureGate && (exposureGate[read.exposure] ?? 1) !== 1 && (
+                <span className="gate-note">
+                  x{exposureGate[read.exposure]} {read.exposure} gate
+                </span>
+              )}
+            </div>
           )}
         </div>
         <button type="button" className="close-btn" onClick={onClose} aria-label="Close thesis">

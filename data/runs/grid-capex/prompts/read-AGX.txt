@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for ARGAN INC (AGX). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Engineering and construction firms for utility infrastructure (order 1, beneficiary). Mechanism: Backlog grows from EPC contracts for substations, lines, and grid upgrades. Node logic: These firms provide the design, procurement, and construction services for transmission and distribution projects. The supercycle creates a multi-year pipeline of work, often under cost-plus or escalation-clause contracts, insulating them from input cost swings. Scale benefits and high demand allow them to be selective about projects.
+8-K filings in the last 12 months: 11
+
+Excerpts:
+[0] (10-Q, filed 2026-06-04) Market Outlook Most of our consolidated revenues relate to performance in the U.S. by the Power segment, which provides EPC services to design, build, and commission large-scale energy projects.
+[1] (10-Q, filed 2026-06-04) The pace of new power generation development continues to be constrained by a limited number of experienced EPC contractors, equipment supply limitations, interconnection delays, and specialized labor availability.
+[2] (10-Q, filed 2026-06-04) 860 MW Thermal Project In October 2025, we entered into an EPC services contract and received the corresponding full notice to proceed ( FNTP ) for the construction of an approximately 860 MW natural gas-fired power plant located in the Electric Reliability Council of Texas ( ERCOT ) market.
+[3] (10-Q, filed 2026-06-04) 1.4 GW Thermal Project In October 2025, we received FNTP on an EPC services contract for a 1.4 GW combined-cycle natural gas-fired power plant in Ward County, Texas.
+[4] (10-Q, filed 2026-06-04) 17 170 MW Thermal Project In July 2025, we entered into an EPC services contract for the construction of a power plant with a planned electricity generation capacity of approximately 170 MW in County Meath, Ireland.
+[5] (10-Q, filed 2026-06-04) Sandow Lakes Power Station In April 2025, we received a notice to proceed on an EPC services contract to build a 1.2 GW combined-cycle natural gas-fired power plant in Lee County, Texas.
+[6] (10-Q, filed 2026-06-04) Tarbert Next Generation Power Station In January 2025, we entered into an EPC services contract to build an approximately 300 MW biofuel power plant located in County Kerry, Ireland.
+[7] (10-Q, filed 2026-06-04) 700 MW Combined-Cycle Project In December 2024, we entered into an EPC services contract and received the corresponding FNTP to build an approximately 700 MW combined-cycle natural gas-fired power plant located in the U.S.
+[8] (10-Q, filed 2026-06-04) 405 MW Midwest Solar Project In August 2024, we received FNTP on an EPC services contract to construct a utility-scale solar field in Illinois with the capacity to provide 405 MW of electrical power.
+[9] (10-Q, filed 2026-06-04) Trumbull Energy Center In November 2022, we received FNTP related to an EPC services contract for the construction of a 950 MW combined-cycle natural gas-fired power plant in Lordstown, Ohio.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2026-01-31): revenue $944,606,000, net income $137,774,000, R&D $n/a, cash $339,481,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

@@ -9,7 +9,7 @@ export function RunHeader({ run }: { run: RunPayload['run'] }) {
       <div className="run-meta">
         <span>Run {fmtDateLong(run.createdAt)}</span>
         <span className="meta-sep">|</span>
-        <span>{fmtBand(run.floatBandMM)}</span>
+        <span>{fmtBand(run.capBandMM)}</span>
         <span className="meta-sep">|</span>
         <span>Run id {run.id}</span>
         {run.mode === 'fixture' && (

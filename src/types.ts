@@ -66,7 +66,10 @@ export interface Candidate {
   nodeId: string;
   ftsHits: number;
   latestHit: FtsHit;
-  publicFloatMM: number | null;
+  // Market cap = delayed price x latest reported shares outstanding. Falls back
+  // to 10-K public float when either input is missing; capSource says which.
+  marketCapMM: number | null;
+  capSource: 'price_x_shares' | 'public_float' | null;
   status: 'in_band' | 'filtered_out' | 'scored';
   filterReason?: string;
 }
@@ -116,7 +119,7 @@ export interface Read {
 
 // A source tag rides on every enriched block so the UI can mark filing-grade
 // data apart from rate-limited context. 'stub' means the seam is wired but no key.
-export type Provenance = 'sec_form4' | 'sec_xbrl' | 'usaspending' | 'sec_fts' | 'finnhub' | 'fmp' | 'stub';
+export type Provenance = 'sec_form4' | 'sec_xbrl' | 'usaspending' | 'sec_fts' | 'finnhub' | 'fmp' | 'yahoo' | 'stub';
 
 export interface InsiderTx {
   insider: string;
@@ -195,6 +198,19 @@ export interface Coverage {
   provenance: Provenance;
 }
 
+// The SMID reality check: can the fund actually own it, and will it live.
+// Deterministic from free data; every threshold sits in config for a PM to argue.
+export interface RealityCheck {
+  advUSD: number | null; // trailing 3-month average daily dollar volume
+  daysToBuild: number | null; // days to build the config position at the config participation rate
+  netCashUSD: number | null; // cash minus total debt (long-term debt concept, approximate)
+  runwayQuarters: number | null; // cash / quarterly operating burn; null when operations fund themselves
+  sharesChangePct: number | null; // share count change over ~12 months
+  shelfOnFile: boolean; // S-3 or 424B5 in the trailing 12 months
+  flags: string[]; // human-readable warnings derived from the above
+  provenance: Provenance[];
+}
+
 export interface Dossier {
   ticker: string;
   cik: string;
@@ -202,6 +218,7 @@ export interface Dossier {
   fundamentals: Fundamentals;
   customers: CustomerGraph;
   coverage: Coverage;
+  reality?: RealityCheck;
 }
 
 export interface Thesis {
@@ -220,7 +237,7 @@ export interface RunPayload {
     id: string;
     seed: string;
     createdAt: string;
-    floatBandMM: [number, number];
+    capBandMM: [number, number];
     mode: 'live' | 'fixture';
     rubric: Rubric;
     // Filings-only backtest: the map searched filings dated on or before this date.

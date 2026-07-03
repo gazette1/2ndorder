@@ -8,6 +8,7 @@ const PROVENANCE_LABELS: Record<Provenance, string> = {
   sec_fts: 'SEC full-text',
   finnhub: 'Finnhub',
   fmp: 'FMP',
+  yahoo: 'Yahoo (delayed)',
   stub: 'stub (no key)',
 };
 
@@ -39,7 +40,7 @@ interface FilingLink {
 }
 
 export function DossierPanel({ dossier, read }: Props) {
-  const { fundamentals: f, insider, customers, coverage } = dossier;
+  const { fundamentals: f, insider, customers, coverage, reality } = dossier;
 
   const yoy =
     f.revenueUSD !== null && f.revenuePriorUSD !== null && f.revenuePriorUSD !== 0
@@ -243,6 +244,88 @@ export function DossierPanel({ dossier, read }: Props) {
         )}
         {extraTx > 0 && <p className="dossier-more">+{extraTx} more</p>}
       </div>
+
+      {/* Reality check (liquidity, cash, dilution) */}
+      {reality && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Reality check</h4>
+            <span className="reality-tags">
+              {reality.provenance.map((p) => (
+                <SourceTag key={p} provenance={p} />
+              ))}
+            </span>
+          </div>
+          <dl className="fund-grid">
+            <div className="fund-item">
+              <dt>Avg daily $ volume</dt>
+              <dd className="mono">
+                {reality.advUSD === null ? 'not available' : fmtUSD(reality.advUSD)}
+              </dd>
+            </div>
+            <div className="fund-item">
+              <dt>Days to build</dt>
+              <dd className="mono">
+                {reality.daysToBuild === null
+                  ? 'not available'
+                  : `${reality.daysToBuild} trading days`}
+                <span className="fund-sub">$5MM position at 15 percent of volume</span>
+              </dd>
+            </div>
+            <div className="fund-item">
+              <dt>Net cash</dt>
+              <dd
+                className={
+                  reality.netCashUSD !== null && reality.netCashUSD > 0
+                    ? 'mono is-cash-pos'
+                    : reality.netCashUSD !== null && reality.netCashUSD < 0
+                      ? 'mono is-cash-neg'
+                      : 'mono'
+                }
+              >
+                {fmtUSD(reality.netCashUSD)}
+              </dd>
+            </div>
+            <div className="fund-item">
+              <dt>Runway</dt>
+              <dd className="mono">
+                {reality.runwayQuarters === null
+                  ? 'self-funding'
+                  : `${reality.runwayQuarters} quarters`}
+              </dd>
+            </div>
+            <div className="fund-item">
+              <dt>Share count 12m</dt>
+              <dd
+                className={
+                  reality.sharesChangePct !== null && reality.sharesChangePct > 10
+                    ? 'mono is-dilution'
+                    : 'mono'
+                }
+              >
+                {reality.sharesChangePct === null
+                  ? 'not available'
+                  : `${reality.sharesChangePct >= 0 ? '+' : ''}${reality.sharesChangePct.toFixed(1)}%`}
+              </dd>
+            </div>
+            <div className="fund-item">
+              <dt>Shelf on file</dt>
+              <dd className={reality.shelfOnFile ? 'mono is-shelf' : 'mono'}>
+                {reality.shelfOnFile ? 'yes (S-3 or 424B5)' : 'no'}
+              </dd>
+            </div>
+          </dl>
+          {reality.flags.length > 0 && (
+            <ul className="reality-flags">
+              {reality.flags.map((flag, i) => (
+                <li key={i} className="reality-flag">
+                  <span className="reality-flag-mark mono">flag:</span> {flag}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
 
       {/* Customer graph */}
       <div className="dossier-block">

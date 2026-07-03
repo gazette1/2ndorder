@@ -1,0 +1,40 @@
+You are an equity analyst reading SEC filing excerpts for Archrock, Inc. (AROC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex grows at a historical average pace through 2030 as data center electricity demand is largely offset by efficiency gains and on-site generation.
+Map node this company was mapped to: On-site Gas Supply Infrastructure Providers (order 2, beneficiary). Mechanism: Increased deployment of gas-fired fuel cells or microturbines requires dedicated gas pipeline laterals and compression, benefiting midstream providers. Node logic: Data centers with on-site gas generation need firm gas supply, often requiring new pipeline connections and possibly upgraded local distribution networks. This creates incremental demand for gas distribution infrastructure and compression equipment.
+8-K filings in the last 12 months: 19
+
+Excerpts:
+[0] (8-K, filed 2026-06-25) Singh has served since 2024 as an independent director of Powell Industries, a Houston-based leader in electrical engineering and power solutions serving critical infrastructure markets, including utilities, energy, petrochemicals, and data centers.
+[1] (8-K, filed 2026-06-25) About Archrock Archrock is an energy infrastructure company with a primary focus on midstream natural gas compression and a commitment to helping its customers produce, compress and transport natural gas in a safe and environmentally responsible way.
+[2] (8-K, filed 2026-06-25) Headquartered in Houston, Texas, Archrock is a premier provider of natural gas compression services to customers in the energy industry throughout the U.S. and a leading supplier of aftermarket services to customers that own compression equipment.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,489,818,000, net income $322,290,000, R&D $n/a, cash $1,553,000.
+Customer graph: federal awards $68,388 across 1 awards (top agency Department of the Interior); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

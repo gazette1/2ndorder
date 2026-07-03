@@ -21,7 +21,7 @@ export function buildPayload(slug: string): RunPayload {
       id: slug,
       seed: run.seed,
       createdAt: run.createdAt,
-      floatBandMM: CONFIG.floatBandMM,
+      capBandMM: CONFIG.capBandMM,
       mode: CONFIG.llm.provider === 'fixture' ? 'fixture' : 'live',
       rubric,
       asof: run.asof ?? null,

@@ -1,0 +1,43 @@
+You are an equity analyst reading SEC filing excerpts for SIFCO INDUSTRIES INC (SIF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Metal Treating and Finishing Services (order 2, at_risk). Mechanism: Rising electricity costs increase operating expenses for heat treating, electroplating, and powder coating shops, eroding margins in a fragmented industry with limited pricing power. Node logic: These service providers run energy-intensive ovens, furnaces, and plating lines. Structural electric rate hikes cannot be fully passed to customers because contract manufacturing is competitive. Smaller shops without capital for efficiency upgrades may close.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (10-K, filed 2025-12-22) Historically, compliance with such laws and regulations has not had, and is not presently expected to have a material effect on capital expenditures, earnings or competitive position of the Company or its subsidiaries under existing regulations and interpretations.
+[1] (10-K, filed 2025-12-22) In the event that we do not have sufficient liquidity, we may be required to seek additional capital, reduce or cut back our operating activities, capital expenditures or otherwise alter our business strategy.
+[2] (10-K, filed 2025-12-22) Our primary requirements for liquidity and capital resources besides our growth initiatives, are working capital, capital expenditures, principal and interest payments on our outstanding debt, and other general corporate needs.
+[3] (10-K, filed 2025-12-22) As of September 30, 2025, the Company was not party to any off-balance sheet arrangements that have had or are reasonably likely to have a current or future material effect on our financial condition, results of operations, liquidity, capital expenditures, or capital resources.
+[4] (10-K, filed 2025-12-22) The Company anticipates the total fiscal 2026 capital expenditures will be within the range of $1.0 million to $2.0 million.
+[5] (10-K, filed 2025-12-22) Cash provided for investing activities from discontinued operations was $14.4 million in fiscal 2025 and cash use of $1.4 million in 2024, related to proceeds received from its sale and outlays for capital expenditures.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-09-30): revenue $84,815,000, net income $-729,000, R&D $0, cash $491,000.
+Customer graph: federal awards $674,816 across 25 awards (top agency Department of Defense); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

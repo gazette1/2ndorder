@@ -1,0 +1,53 @@
+You are an equity analyst reading SEC filing excerpts for Mayville Engineering Company, Inc. (MEC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Metal Treating and Finishing Services (order 2, at_risk). Mechanism: Rising electricity costs increase operating expenses for heat treating, electroplating, and powder coating shops, eroding margins in a fragmented industry with limited pricing power. Node logic: These service providers run energy-intensive ovens, furnaces, and plating lines. Structural electric rate hikes cannot be fully passed to customers because contract manufacturing is competitive. Smaller shops without capital for efficiency upgrades may close.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (8-K, filed 2026-05-21) MEC intends to use the net proceeds from the offering, if completed, for reducing amounts outstanding under its senior secured revolving credit facility, capital expenditures focused on relevant growth sectors and working capital and general corporate purposes.
+[1] (8-K, filed 2026-05-21) MEC also possesses a broad range of finishing capabilities including shot blasting, e-coating, powder coating, wet spray and military grade chemical agent resistant coating (CARC) painting.
+[2] (10-K, filed 2026-03-04) Although we believe our current cash balance, along with our projected internal cash flows and available financing sources, will provide sufficient cash to support our currently anticipated operating and capital needs, if we are unable to generate sufficient cash to 20 Table of Contents purchase and maintain the property, plants and equipment necessary to operate our business, we may be required to reduce or delay planned capital expenditures or to incur additional indebtedness.
+[3] (10-K, filed 2026-03-04) The income approach is dependent on several key management assumptions, including estimates of future sales, gross margins, operating costs, interest expense, income tax rates, capital expenditures, changes in working capital requirements and the weighted average cost of capital or the discount rate.
+[4] (10-K, filed 2026-03-04) Twelve Months Ended December 31, 2025 2024 2023 Net cash provided by operating activities $ 38,562 $ 89,807 $ 40,363 Less: Capital expenditures 11,648 12,098 16,598 Free cash flow $ 26,914 $ 77,709 $ 23,765 Free Cash Flows Analysis Twelve Months Ended December 31, 2025 Compared to Twelve Months Ended December 31, 2024 Free cash flow for the year ended December 31, 2025 was $26,914 as compared to $77,709 for the twelve months ended December 31, 2024, a decrease of $50,795 or 65.4%.
+[5] (10-K, filed 2026-03-04) The decrease in free cash flow was primarily due to a decrease in cash provided by operating activities, slightly offset by a decrease in capital expenditures.
+[6] (10-K, filed 2026-03-04) The increase in free cash flow was primarily due to an increase in cash provided by operating activities and a decrease in capital expenditures.
+[7] (10-K, filed 2026-03-04) The $139,818 increase in cash used in investing activities was mainly due to the acquisition of Accu-Fab completed on July 1, 2025, partially offset by a decrease in capital expenditures.
+[8] (10-K, filed 2026-03-04) The Credit Agreement contains usual and customary negative covenants for agreements of this type, including, but not limited to, restrictions on our ability to, subject to certain exceptions, create, incur or assume indebtedness; create, incur, assume or suffer to exist liens; make certain investments; allow our subsidiaries to merge or consolidate with another entity; make certain asset dispositions; pay certain dividends or other distributions to shareholders; enter into transactions with affiliates; enter into sale leaseback transactions; and exceed the limits on annual capital expenditures.
+[9] (10-K, filed 2026-03-04) Capital Requirements and Sources of Liquidity During the twelve months ended December 31, 2025 and 2024, our capital expenditures were $11,648 and $12,098 respectively.
+[10] (10-K, filed 2026-03-04) Capital expenditures for the full year 2026 are expected to be between $15,000 and $20,000.
+[11] (10-K, filed 2026-03-04) We regularly monitor potential capital sources, including equity and debt financings, in an effort to meet our planned capital expenditures and liquidity requirements.
+[12] (10-K, filed 2026-03-04) However, future cash flows are subject to a number of variables, and additional capital expenditures will be required to conduct our operations.
+[13] (10-K, filed 2026-03-04) There can be no assurance that operations and other capital resources will provide cash in sufficient amounts to maintain planned or future levels of capital expenditures.
+[14] (10-K, filed 2026-03-04) In the event we make one or more acquisitions and the amount of capital required is greater than the amount we have available for acquisitions at that time, we could be required to reduce the expected level of capital expenditures and/or seek additional capital.
+[15] (10-K, filed 2026-03-04) If we are unable to obtain the funds we need, we may not be able to complete acquisitions that may be favorable to us or finance the capital expenditures necessary to conduct our operations.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $546,487,000, net income $-8,110,000, R&D $n/a, cash $1,502,000.
+Customer graph: federal awards $0 across 0 awards; 4 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

@@ -25,7 +25,7 @@ export async function draftTheses(slug: string): Promise<Thesis[]> {
         node,
         ticker: read.ticker,
         companyName: c.name,
-        publicFloatMM: c.publicFloatMM,
+        marketCapMM: c.marketCapMM,
         read,
         dossier,
         score: scores[read.ticker],

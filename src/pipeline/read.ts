@@ -1,6 +1,8 @@
+import { CONFIG } from '../config.js';
 import { docUrl, fetchDocText, submissions } from '../lib/edgar.js';
 import { llm } from '../lib/llm.js';
 import { load, save, saveText } from '../lib/store.js';
+import { extractSections } from '../hermes/sections.js';
 import { readPrompt } from '../prompts/read.js';
 import { selectReadTargets } from './targets.js';
 import rubric from '../rubric.json' with { type: 'json' };
@@ -29,7 +31,7 @@ export async function readFilings(slug: string): Promise<Read[]> {
   const decomp = load<Decomposition>(slug, 'decompose');
   const candidates = load<Candidate[]>(slug, 'candidates');
   const dossiers = load<Dossier[]>(slug, 'dossiers');
-  const targets = selectReadTargets(candidates);
+  const targets = selectReadTargets(candidates, decomp.nodes);
 
   const reads: Read[] = [];
   for (const c of targets) {
@@ -49,6 +51,34 @@ export async function readFilings(slug: string): Promise<Read[]> {
       filedAt: c.latestHit.filedAt,
       url: docUrl(c.cik, c.latestHit.accession, c.latestHit.docId),
     });
+
+    // Thin-read fallback: an earnings 8-K often carries two boilerplate sentences
+    // and nothing else. Pull the latest 10-K's Business, Risk Factors, and MD&A
+    // (the Hermes section extractor) and excerpt from those too.
+    if (quotes.length < CONFIG.minExcerptsBeforeFallback) {
+      try {
+        const r = subs.recent;
+        const tenK = r.form.findIndex((f) => f === '10-K');
+        if (tenK !== -1 && r.accessionNumber[tenK] !== c.latestHit.accession) {
+          const tkText = await fetchDocText(c.cik, r.accessionNumber[tenK], r.primaryDocument[tenK]);
+          const s = extractSections(tkText);
+          const more = excerpt([s.business, s.riskFactors, s.mdna].join(' '), [...decomp.themeKeywords, ...node.searchPhrases], {
+            form: '10-K',
+            accession: r.accessionNumber[tenK],
+            filedAt: r.filingDate[tenK],
+            url: docUrl(c.cik, r.accessionNumber[tenK], r.primaryDocument[tenK]),
+          });
+          const seen = new Set(quotes.map((q) => q.text));
+          for (const q of more) {
+            if (quotes.length >= 20) break;
+            if (!seen.has(q.text)) quotes.push(q);
+          }
+          console.log(`[read] ${c.ticker}: thin hit doc, added ${quotes.length} total excerpts via latest 10-K`);
+        }
+      } catch (e) {
+        console.warn(`[read] ${c.ticker}: 10-K fallback failed: ${(e as Error).message}`);
+      }
+    }
     if (!quotes.length) {
       console.warn(`[read] ${c.ticker}: no theme excerpts in ${c.latestHit.accession}, skipping`);
       continue;

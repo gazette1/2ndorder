@@ -21,7 +21,10 @@ function dossierFacts(d: Dossier | undefined): string {
     `Fundamentals (SEC XBRL, as of ${d.fundamentals.asOf ?? 'n/a'}): revenue ${d.fundamentals.revenueUSD === null ? 'not reported' : money(d.fundamentals.revenueUSD)}, cash ${d.fundamentals.cashUSD === null ? 'n/a' : money(d.fundamentals.cashUSD)}.`,
     `Customer graph: federal awards ${money(c.govAwardTotalUSD)}${awards ? ` (${awards})` : ''}; named customers ${c.namedCustomers.join(', ') || 'none in excerpts'}; ${c.reverseCiteCount} other filers name the company.`,
     `Street view (sell-side aggregators, firm and grade only, reports paywalled): ${cov.analystCount ?? 'unknown'} analysts, consensus ${cov.consensusRating ?? 'n/a'}, mean target ${cov.priceTargetMeanUSD ? `$${cov.priceTargetMeanUSD}` : 'n/a'}${actions ? `; recent actions ${actions}` : ''}.`,
-  ].join('\n');
+    d.reality
+      ? `Reality check (delayed price data plus SEC XBRL): average daily dollar volume ${d.reality.advUSD === null ? 'unknown' : money(d.reality.advUSD)}${d.reality.daysToBuild !== null ? `, about ${d.reality.daysToBuild} trading days to build a position` : ''}; net cash ${d.reality.netCashUSD === null ? 'unknown' : money(d.reality.netCashUSD)}${d.reality.runwayQuarters !== null ? `; cash runway about ${d.reality.runwayQuarters} quarters` : ''}${d.reality.sharesChangePct !== null ? `; share count ${d.reality.sharesChangePct >= 0 ? 'up' : 'down'} ${Math.abs(d.reality.sharesChangePct)} percent in 12 months` : ''}${d.reality.shelfOnFile ? '; shelf registration on file' : ''}.`
+      : '',
+  ].filter(Boolean).join('\n');
 }
 
 export function draftPrompt(args: {
@@ -29,7 +32,7 @@ export function draftPrompt(args: {
   node: ChainNode;
   ticker: string;
   companyName: string;
-  publicFloatMM: number | null;
+  marketCapMM: number | null;
   read: Read;
   dossier?: Dossier;
   score: number;
@@ -42,11 +45,12 @@ export function draftPrompt(args: {
     .map(([k, s]) => `- ${k}: ${s!.score}/5 (weight ${(args.rubric.weights as any)[k]}). ${s!.rationale}`)
     .join('\n');
 
-  return `Draft a one-page thesis for ${args.companyName} (${args.ticker}) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+  const shortSide = args.node.polarity === 'at_risk';
+  return `Draft a one-page thesis for ${args.companyName} (${args.ticker}) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.${shortSide ? '\n\nIMPORTANT: this name sits on an AT-RISK node. It is a short or avoid candidate, not a long. Write it that way: the bear case section argues why the SHORT fails (what protects the company), and the non-linear case is the downside path where the scenario compounds against it.' : ''}
 
 Seed thesis: ${args.seed}
 Map position: ${args.node.name} (order ${args.node.order}, ${args.node.polarity}, horizon ${args.node.horizon}). Mechanism: ${args.node.mechanism} ${args.node.logic}
-Public float: ${args.publicFloatMM === null ? 'not reported' : `$${args.publicFloatMM}MM`}
+Market cap: ${args.marketCapMM === null ? 'not available' : `$${args.marketCapMM}MM`}
 Composite score: ${args.score}/100
 Subscores:
 ${subs}
@@ -75,6 +79,8 @@ What sell-side coverage exists and how thin it is: analyst count, consensus, mea
 The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
 ## Evidence
 Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
 ## What would change our mind
 2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
 

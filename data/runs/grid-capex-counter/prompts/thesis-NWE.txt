@@ -1,0 +1,52 @@
+Draft a one-page thesis for NorthWestern Energy Group, Inc. (NWE) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US grid capex grows at a historical average pace through 2030 as data center electricity demand is largely offset by efficiency gains and on-site generation.
+Map position: Utility-Scale Renewable Developers (order 2, at_risk, horizon long). Mechanism: Reduced transmission expansion delays interconnection of utility-scale solar and wind projects. Lack of new transmission capacity forces renewable projects to wait longer in interconnection queues or accept higher network upgrade costs, eroding project returns and slowing deployment.
+Public float: $3149MM
+Composite score: 20/100
+Subscores:
+- optionality: 0/5 (weight 0.25). No evidence in excerpts of any new business related to renewable development or transmission. The cited project is for grid reliability, not renewable interconnection.
+- revenueToOpportunity: 0/5 (weight 0.2). No information linking company revenue to the theme opportunity. The excerpts do not discuss renewable or transmission-related revenue.
+- catalystDensity: 0/5 (weight 0.15). Only one project mentioned with a 2032 in-service date, which is beyond 18 months. No near-term, specific catalysts.
+- managementConviction: 0/5 (weight 0.1). Language is generic and not specific to the theme. No named programs or quantified targets related to renewable transmission.
+- insiderConviction: 2/5 (weight 0.1). Form 4: net $0 over 0 buys and 0 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 4/5 (weight 0.2). Customer graph: gov awards $209,190, 0 named customer(s), 2 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-06-02, https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm) Target: 50% - 55% - Annual ratio based on average of each quarter's debt/cap ratio Excludes Finance Leases and New Market Tax Credit Financing Data as of March 31, 2026 23 Disciplined Expense Program Per Customer Per Employee Per Rate Base NorthWestern ranks favorably among our regional peers for electric expense efficiency.
+[1] (8-K, filed 2026-06-02, https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/exh991invmtgpres26.htm) The project, targeting a 2032 in- service date, strengthens grid reliability and efficiency.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $414.3MM, cash $8.8MM.
+Customer graph: federal awards $209M (Department of Health and Human Services $172M (75H70924P00110); Department of Health and Human Services $37M (75H70925P00009)); named customers none in excerpts; 2 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

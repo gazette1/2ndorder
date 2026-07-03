@@ -109,10 +109,11 @@ export function buildMemo(slug: string): string {
         <td class="mono">${esc(r.ticker)}</td>
         <td>${esc(c?.name ?? '')}</td>
         <td>${esc(node?.name ?? '')}</td>
-        <td>${c?.publicFloatMM === null || c?.publicFloatMM === undefined ? 'n/a' : `$${c.publicFloatMM.toLocaleString('en-US')}MM`}</td>
+        <td>${c?.marketCapMM === null || c?.marketCapMM === undefined ? 'n/a' : `$${c.marketCapMM.toLocaleString('en-US')}MM`}</td>
         <td>${r.exposure}</td>
         <td>${d ? money(d.insider.netBuyUSD) : ''}</td>
         <td>${scores[r.ticker] ?? ''}</td>
+        <td class="muted">${esc((d?.reality?.flags ?? []).join('; ') || 'clean')}</td>
       </tr>`;
     })
     .join('\n');
@@ -165,7 +166,7 @@ export function buildMemo(slug: string): string {
 </head>
 <body>
 <h1>IC memo: ${esc(run.seed)}</h1>
-<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Float band $${CONFIG.floatBandMM[0].toLocaleString('en-US')}MM to $${CONFIG.floatBandMM[1].toLocaleString('en-US')}MM.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document.</p>
+<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band $${CONFIG.capBandMM[0].toLocaleString('en-US')}MM to $${CONFIG.capBandMM[1].toLocaleString('en-US')}MM.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document.</p>
 
 <h2>Consequence map</h2>
 <table>
@@ -175,7 +176,7 @@ ${mapRows}
 
 <h2>Ranked names</h2>
 <table>
-<tr><th>Ticker</th><th>Company</th><th>Map node</th><th>Float</th><th>Exposure</th><th>Insider net 12m</th><th>Composite</th></tr>
+<tr><th>Ticker</th><th>Company</th><th>Map node</th><th>Mkt cap</th><th>Exposure</th><th>Insider net 12m</th><th>Composite</th><th>Reality flags</th></tr>
 ${ranked}
 </table>
 

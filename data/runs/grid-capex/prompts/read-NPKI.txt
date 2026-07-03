@@ -1,0 +1,51 @@
+You are an equity analyst reading SEC filing excerpts for NPK International Inc. (NPKI). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Regulated electric utilities with T&D investment plans (order 1, beneficiary). Mechanism: Rate base growth from T&D investments accelerates allowed returns. Node logic: Data center load growth forces upgrades that enlarge the capital base on which utilities earn their authorized return. Because regulators typically grant rate recovery on prudently incurred capex, earnings rise proportionally with spending. The supercycle's duration ensures several years of elevated rate base growth.
+8-K filings in the last 12 months: 12
+
+Excerpts:
+[0] (8-K, filed 2026-05-01) Power transmission infrastructure accounted for 60% of TTM 1Q26 rental and service revenues.
+[1] (8-K, filed 2026-05-01) Strong multi-year market outlook in utilities underpinned by planned investment in power transmission infrastructure.
+[2] (8-K, filed 2026-05-01) Estimated net capital expenditures for 2026 between $75 million and $90 million for the full year 2026, primarily reflecting $35-$45 million investments to expand rental fleet in response to sustained strength in rental demand outlook and $30-$35 million to expand manufacturing capacity by ~ 50%.
+[3] (8-K, filed 2026-05-01) See reconciliation to the most comparable GAAP measure in Non-GAAP Financial Measures slides within this presentation. ** Represents capital expenditures for rental fleet assets less proceeds from sales of rental fleet assets.
+[4] (8-K, filed 2026-05-01) Leveraging Asset Base to Drive Solid Return on Net Assets ** * Capital expenditures, net includes $5m of finance purchases of vehicles and equipment ** Return on Net Assets represents Adjusted Income from Continuing Operations for divided by average quarterly total net assets, excluding cash and debt.
+[5] (10-K, filed 2026-02-27) Approximately 60% of our 2025 rental and service revenues were derived from customers in the power transmission sector and we expect customer activity in this sector will grow over the next several years, driven in part by the impacts of increasing energy demand and required investments in grid reliance initiatives, due to the aging grid infrastructure.
+[6] (10-K, filed 2026-02-27) Many factors, including the financial condition of the industry, could adversely affect our customers and their willingness to fund capital expenditures in the future.
+[7] (10-K, filed 2026-02-27) In addition, our capital expenditures in 2026 are expected to range between $45 million to $55 million, exclusive of any manufacturing expansion or future acquisitions.
+[8] (10-K, filed 2026-02-27) See Note 2 for depreciation, capital expenditures and significant operating and investing non-cash items related to discontinued operations.
+[9] (10-K, filed 2026-02-27) Net cash used in investing activities was $65.3 million for 2025, which includes $46.7 million in capital expenditures and $42.4 million associated with the Grassform acquisition (see Note 2 for additional information), partially offset by $16.6 million in additional proceeds from the sale of the Fluids Systems business.
+[10] (10-K, filed 2026-02-27) Net cash provided by investing activities was $8.3 million for 2024, which includes $48.5 million in initial net proceeds from the sale of the Fluids Systems business, partially offset by capital expenditures of $43.5 million.
+[11] (10-K, filed 2026-02-27) The substantial majority of our capital expenditures for 2025 and 2024 were directed to expanding our mat rental fleet.
+[12] (10-K, filed 2026-02-27) We expect future working capital requirements for our operations will generally fluctuate directionally with revenues, and we expect capital expenditures in 2026 to be $45 million to $55 million, exclusive of any manufacturing expansion or acquisition, with spending primarily focused on the expansion of our mat rental fleet to further support our market penetration efforts.
+[13] (10-K, filed 2026-02-27) 26 Under the terms of the Credit Facility, we may elect to borrow at a variable interest rate based on either the Term SOFR rate or an alternate base rate plus, in each case, a per annum applicable margin.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-6,429,368 across 0 buys and 19 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $277,043,000, net income $38,939,000, R&D $n/a, cash $5,140,000.
+Customer graph: federal awards $0 across 0 awards; 9 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
