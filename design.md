@@ -96,33 +96,39 @@ supporting copy, CTA). Nothing re-triggers.
 
 ## Effects
 
-One signature effect, revised 2026-07-03 at Russ's direction. The first
-version traced paths deliberately, hop by hop; it explained. The brief now is
-feeling over logic: the moment of connection itself, a brain lighting up,
-dots and neurons connecting everywhere at once. **The synapse field.**
+One signature effect, revised again 2026-07-03 at Russ's direction: the
+abstract flat field was not enough; the image should be the brain itself,
+three dimensional, registering the aha moment. **The cortex.**
 
-The hero background is a full-bleed canvas: a dense field of faint neuron
-points (the universe of companies, abstract, never labeled). Through it,
-bursts of connection propagate:
+The hero carries a procedurally generated brain: a point cloud sampled on
+the surface of two wrinkled hemisphere ellipsoids with a longitudinal
+fissure between them, a flattened base, and a cerebellum mass at the lower
+rear. No mesh asset, no 3D library: the cloud is rotated and perspective
+projected in plain canvas 2D. It turns slowly on its vertical axis and
+answers the cursor with a slight parallax tilt, which is what sells the
+three dimensionality.
 
-1. A neuron fires: it brightens to full `--accent` and its size ticks up
-   briefly, then decays back to faint over about a second. Flat fill, no
-   glow, the brightness IS the alpha.
-2. Firing propagates: each firing neuron ignites up to 3 nearby neighbors a
-   beat later (about 110ms per generation), drawing a thin lime stroke along
-   each connection as it jumps. Strokes fade over about 1.5 seconds.
-3. Small bursts (2 or 3 generations deep) happen continuously across the
-   field, staggered, so somewhere is always lighting up. Every 7 to 10
-   seconds one large burst runs 5 generations deep: the brain-blast beat.
-4. The field is aware of the visitor: cursor movement (or touch) excites the
-   nearest neuron into a small burst, rate-limited per neuron so deliberate
-   mousing paints cascades without strobing.
+Its life:
+1. At rest the brain is a calm, dim structure. Depth cues come from per
+   point size and alpha only (nearer points larger and brighter).
+2. Local cascades course across the cortex continuously: a neuron fires
+   (full `--accent`, size ticks up, decays over a second), igniting up to 3
+   surface neighbors per generation (about 110ms per beat), lime strokes
+   jumping along each connection and fading.
+3. Every 8 to 11 seconds, the aha: one deep cascade plus a spherical
+   wavefront that sweeps the entire structure from the origin point,
+   briefly lifting every neuron it passes. The whole brain registers the
+   thought, then settles.
+4. Cursor movement (or touch) excites the nearest neuron into a small
+   cascade, rate limited so deliberate mousing plays the instrument without
+   strobing.
 
 Rendering rules: flat strokes and fills only. No shadowBlur, no gradients,
-no bloom. Neuron spawning avoids the headline's bounding region so the copy
-sits on near-empty ground. Canvas pauses when the tab is hidden; under
-prefers-reduced-motion it renders one static composition of a completed
-burst instead of animating.
+no bloom; brightness is alpha. The brain sits in the open ground of the
+composition (upper right on desktop, upper center on mobile), never behind
+the headline. Canvas pauses when the tab is hidden; under
+prefers-reduced-motion it renders one static rotated brain with a completed
+cascade instead of animating.
 
 A second, quieter display treatment belongs to the brand: the hollow
 headline line. One line of the hero headline renders as stroke-only type
