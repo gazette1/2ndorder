@@ -73,26 +73,48 @@ Durations: `fast` 120ms (hover, focus), `base` 400ms (panel/section reveal),
 `draw` 900ms (the hero diagram's line-draw sequence, staggered per tier, see
 Effects).
 
-Nothing animates on loop. Nothing animates without a state change (page
-load counts as one state change, scroll-into-view counts as one, hover and
-focus count, nothing else does).
+Inside the app and on document surfaces, nothing animates on loop and nothing
+animates without a state change (page load counts as one state change,
+scroll-into-view counts as one, hover and focus count, nothing else does).
+
+One deliberate exception, decided 2026-07-03: the landing hero carries an
+ambient field (see Effects) that runs continuously. It is the only looping
+motion in the brand, it exists only on the marketing hero, and it must stay
+calm: slow cadence, low alpha, flat color, no flashing. It pauses when the
+tab is hidden and renders a static composition under prefers-reduced-motion.
 
 ## Effects
 
 One signature effect, chosen because it performs the product's mechanic
-rather than decorating the page: **the corollary tree draws itself.**
+rather than decorating the page: **the field.**
 
-On load, the scenario statement is already on screen. Then, tier by tier
-(order 1, then order 2, then order 3), thin connecting strokes draw from
-parent to child using `stroke-dasharray` / `stroke-dashoffset` animation
-(the classic "line draws itself" SVG technique), 900ms per tier with a
-150ms stagger between sibling nodes, eased with `settle`. Each node's card
-fades and settles into place as its connecting stroke completes, never
-before. The effect is the argument: a scenario, and what follows from it,
-being derived in front of you rather than pasted in as a screenshot.
+The hero background is a full-bleed canvas: a sparse constellation of faint
+mono-style points (the universe of companies, abstract, never labeled with
+real or fake tickers). Through it, an unseen machine continuously traces
+consequence paths. The behavior, not the styling, is what carries the
+"omnipresent, thinks ahead" identity, so the behavior is specified exactly:
+
+1. A tracer wakes at a node. Before moving, it previews 2 or 3 candidate
+   next hops as faint dashed ghost segments (about 450ms). This is the
+   "thinking ahead" beat and it is the soul of the effect.
+2. It commits to one: the ghost solidifies into a thin gold stroke
+   (`--accent`, 1.25px) drawn along its length in about 500ms with `settle`.
+   The abandoned ghosts fade.
+3. It hops 3 to 5 nodes this way, then the terminal node ticks once in a
+   polarity color (beneficiary green or at-risk red, flat fill, no glow)
+   and the whole traced path becomes residue: it stays visible and decays
+   to nothing over about 7 seconds.
+4. Two or three tracers run concurrently, staggered, waking in different
+   regions of the field. The machine is everywhere at once, always mapping.
+
+Rendering rules: flat strokes and fills only. No shadowBlur, no gradients,
+no bloom, no particles beyond the node points themselves. Node points avoid
+the headline's bounding region so the copy sits on near-empty ink. Canvas
+pauses when the tab is hidden; under prefers-reduced-motion it renders one
+static composition of completed paths instead of animating.
 
 No other motion effect is used on this page. No parallax, no scroll-jacking,
-no particles, no blur, no glow, no gradient mesh.
+no blur, no glow, no gradient mesh.
 
 ## Components
 

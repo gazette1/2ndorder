@@ -22,11 +22,7 @@
     --accent-hover: #E5B85E;
     --accent-on: #0B0D10;
     --beneficiary: #4E9B6F;
-    --beneficiary-tint: rgba(78, 155, 111, 0.12);
-    --beneficiary-border: rgba(78, 155, 111, 0.42);
     --at-risk: #C1595A;
-    --at-risk-tint: rgba(193, 89, 90, 0.10);
-    --at-risk-border: rgba(193, 89, 90, 0.42);
     --settle: cubic-bezier(0.16, 1, 0.3, 1);
   }
   * { box-sizing: border-box; }
@@ -41,7 +37,11 @@
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
   @media (max-width: 640px) { .wrap { padding: 0 20px; } }
 
-  /* nav */
+  /* the field: full-bleed hero stage with the ambient canvas behind the copy */
+  .stage { position: relative; min-height: 92vh; display: flex; flex-direction: column; }
+  #field { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .stage > .wrap { position: relative; z-index: 1; width: 100%; }
+
   nav.top {
     display: flex; align-items: center; justify-content: space-between;
     padding: 28px 0;
@@ -60,11 +60,11 @@
   }
   .btn-primary { background: var(--accent); color: var(--accent-on); }
   .btn-primary:hover { background: var(--accent-hover); }
-  .btn-ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+  .btn-ghost { background: rgba(11, 13, 16, 0.55); color: var(--text); border-color: var(--border-strong); }
   .btn-ghost:hover { border-color: var(--accent); }
 
-  /* hero */
-  .hero { padding: 64px 0 32px; }
+  .hero { padding-top: 10vh; padding-bottom: 96px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .hero-copy { max-width: 720px; }
   .kicker {
     font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.04em;
     color: var(--text-faint); margin: 0 0 20px;
@@ -77,39 +77,12 @@
   h1 em { font-style: italic; color: var(--accent); }
   .subhead {
     font-size: 19px; line-height: 1.55; color: var(--text-muted);
-    max-width: 56ch; margin: 0 0 40px;
+    max-width: 52ch; margin: 0 0 40px;
   }
-  .cta-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
-  .cta-note {
-    font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--text-faint);
-    margin: 20px 0 0;
-  }
-
-  /* diagram */
-  .diagram-panel {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
-    margin-top: 64px; padding: 32px 24px 24px; overflow-x: auto;
-  }
-  .diagram-label {
-    font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.04em;
-    color: var(--text-faint); margin: 0 0 20px;
-  }
-  svg.tree { display: block; width: 100%; min-width: 720px; height: auto; }
-  .node-rect { fill: var(--surface-raised); stroke-width: 1; rx: 6; }
-  .node-rect.beneficiary { fill: var(--beneficiary-tint); stroke: var(--beneficiary-border); }
-  .node-rect.at-risk { fill: var(--at-risk-tint); stroke: var(--at-risk-border); }
-  .node-rect.root { fill: var(--surface-raised); stroke: var(--border-strong); }
-  .node-title { font-family: "IBM Plex Mono", monospace; font-size: 13.5px; fill: var(--text); }
-  .node-title.beneficiary-text { fill: #DCE7DF; }
-  .node-title.at-risk-text { fill: #E7D9D9; }
-  .node-meta { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--text-faint); }
-  .node-tag { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.06em; font-weight: 500; }
-  .edge { fill: none; stroke: var(--border-strong); stroke-width: 1.25; }
-  .node-group { opacity: 0; transform: translateY(6px); transition: opacity 500ms var(--settle), transform 500ms var(--settle); }
-  .node-group.in { opacity: 1; transform: translateY(0); }
+  .cta-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 
   /* explainer */
-  .steps { padding: 64px 0 96px; border-top: 1px solid var(--border); margin-top: 40px; }
+  .steps { padding: 64px 0 96px; border-top: 1px solid var(--border); }
   .step { display: flex; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--border); }
   .step:last-child { border-bottom: none; }
   .step-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); width: 32px; flex-shrink: 0; padding-top: 3px; }
@@ -124,31 +97,28 @@
 </head>
 <body>
 
+<div class="stage">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <nav class="top">
+      <a class="wordmark" href="/">Corollary</a>
+      <a class="btn btn-ghost" href="/app">Sign in</a>
+    </nav>
+  </div>
+  <div class="wrap hero">
+    <div class="hero-copy" id="heroCopy">
+      <p class="kicker">SEC filings, read once, cited exactly</p>
+      <h1>State a scenario.<br />See what <em>follows</em>.</h1>
+      <p class="subhead">Corollary maps the first, second, and third order consequences of any scenario: the companies that benefit and the ones that do not, each claim linked to the exact sentence in the filing it came from.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="/app">Sign in</a>
+        <a class="btn btn-ghost" href="#how">See how it reads</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="wrap">
-  <nav class="top">
-    <a class="wordmark" href="/">Corollary</a>
-    <a class="btn btn-ghost" href="/app">Sign in</a>
-  </nav>
-
-  <section class="hero">
-    <p class="kicker">SEC filings, read once, cited exactly</p>
-    <h1>State a scenario.<br />See what <em>follows</em>.</h1>
-    <p class="subhead">Corollary maps the first, second, and third order consequences of any scenario: the companies that benefit and the ones that do not, each claim linked to the exact sentence in the filing it came from.</p>
-    <div class="cta-row">
-      <a class="btn btn-primary" href="/app">Sign in</a>
-      <a class="btn btn-ghost" href="#how">See how it reads</a>
-    </div>
-    <p class="cta-note">No demo data. Every name and count below is illustrative.</p>
-
-    <div class="diagram-panel">
-      <p class="diagram-label">Illustrative scenario, three orders, both directions</p>
-      <svg class="tree" viewBox="0 0 1180 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a scenario deriving beneficiary and at-risk consequences across three orders">
-        <g id="edges"></g>
-        <g id="nodes"></g>
-      </svg>
-    </div>
-  </section>
-
   <section class="steps" id="how">
     <div class="step">
       <span class="step-num">01</span>
@@ -183,117 +153,248 @@
 
 <script>
 (function () {
-  var NS = "http://www.w3.org/2000/svg";
-  var edgesG = document.getElementById("edges");
-  var nodesG = document.getElementById("nodes");
+  // The field: an ambient machine that maps consequence paths through a
+  // constellation of companies. Behavior spec lives in design.md, Effects.
+  var canvas = document.getElementById("field");
+  var ctx = canvas.getContext("2d");
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // columns: root, order 1, order 2, order 3
-  var col = [40, 330, 660, 960];
-  var nodeW = [190, 220, 220, 200];
+  var GOLD = "217, 164, 65";
+  var FAINT = "154, 161, 171";
+  var GREEN = "78, 155, 111";
+  var RED = "193, 89, 90";
 
-  function rect(x, y, w, h, cls) {
-    var r = document.createElementNS(NS, "rect");
-    r.setAttribute("x", x); r.setAttribute("y", y);
-    r.setAttribute("width", w); r.setAttribute("height", h);
-    r.setAttribute("class", "node-rect " + cls);
-    return r;
+  var W = 0, H = 0, DPR = 1;
+  var nodes = [];       // {x, y}
+  var neighbors = [];   // per node: array of node indices within reach
+  var residues = [];    // {segs: [{ax,ay,bx,by}], tx, ty, polarity, born}
+  var tracers = [];
+  var copyRect = null;
+
+  function inCopy(x, y, pad) {
+    if (!copyRect) return false;
+    return x > copyRect.left - pad && x < copyRect.right + pad &&
+           y > copyRect.top - pad && y < copyRect.bottom + pad;
   }
-  function text(x, y, str, cls) {
-    var t = document.createElementNS(NS, "text");
-    t.setAttribute("x", x); t.setAttribute("y", y);
-    t.setAttribute("class", cls);
-    t.textContent = str;
-    return t;
-  }
-  function group(id) {
-    var g = document.createElementNS(NS, "g");
-    g.setAttribute("class", "node-group");
-    g.dataset.id = id;
-    return g;
-  }
-  function edgePath(x1, y1, x2, y2) {
-    var midX = (x1 + x2) / 2;
-    var d = "M " + x1 + " " + y1 + " C " + midX + " " + y1 + ", " + midX + " " + y2 + ", " + x2 + " " + y2;
-    var p = document.createElementNS(NS, "path");
-    p.setAttribute("d", d);
-    p.setAttribute("class", "edge");
-    return p;
+  function segTouchesCopy(ax, ay, bx, by) {
+    for (var t = 0.25; t < 1; t += 0.25) {
+      if (inCopy(ax + (bx - ax) * t, ay + (by - ay) * t, 8)) return true;
+    }
+    return false;
   }
 
-  function addNode(id, colIdx, cy, title, tag, meta, polarity) {
-    var lines = title.split("\n");
-    var w = nodeW[colIdx];
-    var h = polarity === "root" ? 74 : (meta ? 88 : 70);
-    var x = col[colIdx], y = cy - h / 2;
-    var g = group(id);
-    var polarityClass = polarity === "beneficiary" ? "beneficiary" : polarity === "at-risk" ? "at-risk" : "root";
-    g.appendChild(rect(x, y, w, h, polarityClass));
+  function build() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = canvas.clientWidth; H = canvas.clientHeight;
+    canvas.width = W * DPR; canvas.height = H * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-    var tagColor = polarity === "beneficiary" ? "var(--beneficiary)" : polarity === "at-risk" ? "var(--at-risk)" : "var(--text-faint)";
-    var tagEl = text(x + 16, y + 22, tag, "node-tag");
-    tagEl.setAttribute("fill", tagColor);
-    g.appendChild(tagEl);
+    var el = document.getElementById("heroCopy");
+    var stage = canvas.getBoundingClientRect();
+    if (el) {
+      var r = el.getBoundingClientRect();
+      copyRect = { left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top };
+    }
 
-    var titleCls = "node-title" + (polarity === "beneficiary" ? " beneficiary-text" : polarity === "at-risk" ? " at-risk-text" : "");
-    var titleTop = y + 43;
-    lines.forEach(function (line, i) {
-      g.appendChild(text(x + 16, titleTop + i * 18, line, titleCls));
+    nodes = [];
+    var target = Math.floor((W * H) / 11000);
+    var guard = 0;
+    while (nodes.length < target && guard < target * 30) {
+      guard++;
+      var x = Math.random() * W, y = Math.random() * H;
+      if (inCopy(x, y, 24) && Math.random() < 0.92) continue;
+      var ok = true;
+      for (var i = 0; i < nodes.length; i++) {
+        var dx = nodes[i].x - x, dy = nodes[i].y - y;
+        if (dx * dx + dy * dy < 42 * 42) { ok = false; break; }
+      }
+      if (ok) nodes.push({ x: x, y: y });
+    }
+
+    var reach = 190;
+    neighbors = nodes.map(function (n, i) {
+      var list = [];
+      for (var j = 0; j < nodes.length; j++) {
+        if (j === i) continue;
+        var dx = nodes[j].x - n.x, dy = nodes[j].y - n.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 > 60 * 60 && d2 < reach * reach && !segTouchesCopy(n.x, n.y, nodes[j].x, nodes[j].y)) list.push(j);
+      }
+      return list;
     });
-
-    if (meta) g.appendChild(text(x + 16, y + h - 14, meta, "node-meta"));
-
-    nodesG.appendChild(g);
-    return { x: x, y: cy, w: w, h: h, right: x + w, left: x };
   }
 
-  // positions: two aligned rows (top tier, bottom tier) so edges read cleanly
-  // left to right; root sits vertically centered between them.
-  var TOP = 92, BOTTOM = 322;
-  var root = addNode("root", 0, (TOP + BOTTOM) / 2, "A scenario,\nstated in one sentence", "SCENARIO", null, "root");
-  var a = addNode("a", 1, TOP, "Substrate and\ninterposer suppliers", "BENEFICIARY", "4 names · 18 filings", "beneficiary");
-  var b = addNode("b", 1, BOTTOM, "Legacy wire-bond\nassembly", "AT RISK", "2 names · 6 filings", "at-risk");
-  var c = addNode("c", 2, TOP, "Advanced test and\ninspection equipment", "BENEFICIARY", "3 names · 11 filings", "beneficiary");
-  var d = addNode("d", 2, BOTTOM, "Older-node foundry\ncapacity", "AT RISK", "2 names · 5 filings", "at-risk");
-  var e = addNode("e", 3, TOP, "Thermal interface\nmaterials", "BENEFICIARY", "2 names · 4 filings", "beneficiary");
+  function makeTracer(delay) {
+    return {
+      state: "idle", until: performance.now() + delay,
+      at: -1, visited: [], segs: [], ghosts: [], target: -1,
+      hops: 0, maxHops: 3 + Math.floor(Math.random() * 3), progress: 0
+    };
+  }
 
-  var edges = [
-    { from: root, to: a, tier: 1 },
-    { from: root, to: b, tier: 1 },
-    { from: a, to: c, tier: 2 },
-    { from: b, to: d, tier: 2 },
-    { from: c, to: e, tier: 3 }
-  ];
+  function pickStart() {
+    for (var tries = 0; tries < 40; tries++) {
+      var i = Math.floor(Math.random() * nodes.length);
+      if (neighbors[i] && neighbors[i].length >= 2) return i;
+    }
+    return -1;
+  }
 
-  var edgeEls = edges.map(function (edge) {
-    var p = edgePath(edge.from.right, edge.from.y, edge.to.left, edge.to.y);
-    edgesG.appendChild(p);
-    var len = p.getTotalLength();
-    p.style.strokeDasharray = len;
-    p.style.strokeDashoffset = len;
-    return { el: p, len: len, tier: edge.tier };
+  function step(tr, now, dt) {
+    if (tr.state === "idle") {
+      if (now < tr.until) return;
+      tr.at = pickStart();
+      if (tr.at === -1) { tr.until = now + 1000; return; }
+      tr.visited = [tr.at]; tr.segs = []; tr.hops = 0;
+      tr.maxHops = 3 + Math.floor(Math.random() * 3);
+      tr.state = "preview"; tr.until = now + 420 + Math.random() * 200;
+      var cands = neighbors[tr.at].filter(function (j) { return tr.visited.indexOf(j) === -1; });
+      cands.sort(function () { return Math.random() - 0.5; });
+      tr.ghosts = cands.slice(0, 2 + Math.floor(Math.random() * 2));
+      return;
+    }
+    if (tr.state === "preview") {
+      if (now < tr.until) return;
+      if (!tr.ghosts.length) { finish(tr, now); return; }
+      tr.target = tr.ghosts[Math.floor(Math.random() * tr.ghosts.length)];
+      tr.state = "draw"; tr.progress = 0;
+      return;
+    }
+    if (tr.state === "draw") {
+      tr.progress += dt / 520;
+      if (tr.progress >= 1) {
+        tr.segs.push({ a: tr.at, b: tr.target });
+        tr.at = tr.target; tr.visited.push(tr.at); tr.hops++;
+        if (tr.hops >= tr.maxHops) { finish(tr, now); return; }
+        var cands = neighbors[tr.at].filter(function (j) { return tr.visited.indexOf(j) === -1; });
+        if (!cands.length) { finish(tr, now); return; }
+        cands.sort(function () { return Math.random() - 0.5; });
+        tr.ghosts = cands.slice(0, 2 + Math.floor(Math.random() * 2));
+        tr.state = "preview"; tr.until = now + 380 + Math.random() * 220;
+      }
+    }
+  }
+
+  function finish(tr, now) {
+    if (tr.segs.length) {
+      var end = nodes[tr.at];
+      residues.push({
+        segs: tr.segs.map(function (s) { return { ax: nodes[s.a].x, ay: nodes[s.a].y, bx: nodes[s.b].x, by: nodes[s.b].y }; }),
+        tx: end.x, ty: end.y,
+        polarity: Math.random() < 0.6 ? GREEN : RED,
+        born: now
+      });
+    }
+    var idle = 900 + Math.random() * 1800;
+    tr.state = "idle"; tr.until = now + idle; tr.segs = []; tr.ghosts = [];
+  }
+
+  function line(ax, ay, bx, by, rgb, alpha, width, dashed) {
+    ctx.strokeStyle = "rgba(" + rgb + ", " + alpha + ")";
+    ctx.lineWidth = width;
+    ctx.setLineDash(dashed ? [3, 5] : []);
+    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+  function dot(x, y, rgb, alpha, size) {
+    ctx.fillStyle = "rgba(" + rgb + ", " + alpha + ")";
+    ctx.fillRect(x - size / 2, y - size / 2, size, size);
+  }
+
+  var RESIDUE_LIFE = 7000;
+
+  function render(now) {
+    ctx.clearRect(0, 0, W, H);
+
+    for (var i = 0; i < nodes.length; i++) dot(nodes[i].x, nodes[i].y, FAINT, 0.26, 2);
+
+    for (var r = residues.length - 1; r >= 0; r--) {
+      var res = residues[r];
+      var age = (now - res.born) / RESIDUE_LIFE;
+      if (age >= 1) { residues.splice(r, 1); continue; }
+      var a = 0.4 * (1 - age);
+      res.segs.forEach(function (s) { line(s.ax, s.ay, s.bx, s.by, GOLD, a, 1); });
+      if (age < 0.35) dot(res.tx, res.ty, res.polarity, 0.85 * (1 - age / 0.35), 5);
+    }
+
+    tracers.forEach(function (tr) {
+      tr.segs.forEach(function (s) {
+        line(nodes[s.a].x, nodes[s.a].y, nodes[s.b].x, nodes[s.b].y, GOLD, 0.55, 1.25);
+      });
+      if (tr.state === "preview" && tr.at >= 0) {
+        var from = nodes[tr.at];
+        tr.ghosts.forEach(function (g) {
+          line(from.x, from.y, nodes[g].x, nodes[g].y, FAINT, 0.3, 1, true);
+        });
+      }
+      if (tr.state === "draw" && tr.at >= 0 && tr.target >= 0) {
+        var a2 = nodes[tr.at], b2 = nodes[tr.target];
+        var t = 1 - Math.pow(1 - Math.min(tr.progress, 1), 3);
+        var hx = a2.x + (b2.x - a2.x) * t, hy = a2.y + (b2.y - a2.y) * t;
+        line(a2.x, a2.y, hx, hy, GOLD, 0.9, 1.25);
+        dot(hx, hy, GOLD, 0.95, 3.5);
+      }
+      if (tr.at >= 0 && tr.state !== "idle") dot(nodes[tr.at].x, nodes[tr.at].y, GOLD, 0.8, 3.5);
+    });
+  }
+
+  var last = 0, running = true;
+  function loop(now) {
+    if (!running) return;
+    var dt = Math.min(now - last, 50); last = now;
+    tracers.forEach(function (tr) { step(tr, now, dt); });
+    render(now);
+    requestAnimationFrame(loop);
+  }
+
+  function staticComposition() {
+    // reduced motion: a few completed paths, no animation
+    var now = performance.now();
+    for (var k = 0; k < 3; k++) {
+      var tr = makeTracer(0); tr.state = "idle"; tr.until = 0;
+      var at = pickStart();
+      if (at === -1) continue;
+      var visited = [at], segs = [];
+      for (var h = 0; h < 4; h++) {
+        var cands = (neighbors[at] || []).filter(function (j) { return visited.indexOf(j) === -1; });
+        if (!cands.length) break;
+        var nx = cands[Math.floor(Math.random() * cands.length)];
+        segs.push({ a: at, b: nx }); at = nx; visited.push(at);
+      }
+      if (segs.length) {
+        residues.push({
+          segs: segs.map(function (s) { return { ax: nodes[s.a].x, ay: nodes[s.a].y, bx: nodes[s.b].x, by: nodes[s.b].y }; }),
+          tx: nodes[at].x, ty: nodes[at].y,
+          polarity: k % 2 ? RED : GREEN, born: now
+        });
+      }
+    }
+    render(now + 500);
+  }
+
+  function start() {
+    build();
+    if (reduced) { staticComposition(); return; }
+    var count = W < 700 ? 2 : 3;
+    tracers = [];
+    for (var i = 0; i < count; i++) tracers.push(makeTracer(400 + i * 1400));
+    last = performance.now();
+    requestAnimationFrame(loop);
+  }
+
+  document.addEventListener("visibilitychange", function () {
+    if (reduced) return;
+    if (document.hidden) { running = false; }
+    else { running = true; last = performance.now(); requestAnimationFrame(loop); }
   });
 
-  function drawEdge(edgeObj, delay) {
-    setTimeout(function () {
-      edgeObj.el.style.transition = "stroke-dashoffset 900ms cubic-bezier(0.16, 1, 0.3, 1)";
-      edgeObj.el.style.strokeDashoffset = "0";
-    }, delay);
-  }
-  function revealNode(id, delay) {
-    setTimeout(function () {
-      var g = nodesG.querySelector('[data-id="' + id + '"]');
-      if (g) g.classList.add("in");
-    }, delay);
-  }
+  var resizeT;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(function () { residues = []; start(); }, 200);
+  });
 
-  // root appears first, then each tier draws in with a sibling stagger
-  revealNode("root", 60);
-  edgeEls.filter(function (e) { return e.tier === 1; }).forEach(function (e, i) { drawEdge(e, 260); });
-  revealNode("a", 760); revealNode("b", 910);
-  edgeEls.filter(function (e) { return e.tier === 2; }).forEach(function (e, i) { drawEdge(e, 1360); });
-  revealNode("c", 1860); revealNode("d", 2010);
-  edgeEls.filter(function (e) { return e.tier === 3; }).forEach(function (e, i) { drawEdge(e, 2460); });
-  revealNode("e", 2960);
+  start();
 })();
 </script>
 
