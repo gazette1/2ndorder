@@ -1165,3 +1165,262 @@ body {
 .filings-list a {
   color: var(--accent);
 }
+
+/* Get started landing screen (dark theme, scoped with .gs- prefix).
+   Intentionally separate from the light analyst app above. */
+
+.gs-root {
+  --gs-bg: #1c1c21;
+  --gs-orange: #ff6803;
+  --gs-card-bg: #0a1422;
+  --gs-card-border: #142a40;
+  --gs-muted: #8b97a6;
+  --gs-sans: 'Plus Jakarta Sans', system-ui, 'Segoe UI', sans-serif;
+  --gs-display: 'Space Grotesk', system-ui, 'Segoe UI', sans-serif;
+
+  min-height: 100vh;
+  background: var(--gs-bg);
+  color: #ffffff;
+  font-family: var(--gs-sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 24px 64px;
+}
+
+.gs-inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gs-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gs-orange);
+  margin-bottom: 20px;
+}
+
+.gs-eyebrow-plus {
+  color: var(--gs-orange);
+  font-weight: 700;
+}
+
+.gs-headline {
+  font-family: var(--gs-display);
+  font-weight: 500;
+  font-size: clamp(34px, 6vw, 56px);
+  letter-spacing: -1.68px;
+  line-height: 1.05;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 44px;
+}
+
+.gs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 760px) {
+  .gs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gs-card {
+  background: var(--gs-card-bg);
+  border: 1px solid var(--gs-card-border);
+  border-radius: 24px;
+  padding: 24px;
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gs-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.gs-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--gs-card-border);
+  background: #08111d;
+  color: #c4cedb;
+  flex: 0 0 auto;
+}
+
+.gs-card-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.gs-preview {
+  flex: 1 1 auto;
+  min-height: 120px;
+  border-radius: 14px;
+  border: 1px solid var(--gs-card-border);
+  background: #08111d;
+  padding: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* Card 1 preview: mini terminal */
+
+.gs-term {
+  font-family: 'Consolas', 'SF Mono', monospace;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gs-term-line {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  color: #c4cedb;
+}
+
+.gs-term-prompt {
+  color: var(--gs-orange);
+  font-weight: 700;
+}
+
+.gs-term-text {
+  color: #8b97a6;
+}
+
+.gs-term-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gs-term-tick {
+  width: 48px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.gs-term-bar {
+  flex: 1 1 auto;
+  height: 6px;
+  border-radius: 9999px;
+  background: #142a40;
+  overflow: hidden;
+}
+
+.gs-term-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--gs-orange);
+}
+
+/* Card 2 preview: mini API payload */
+
+.gs-api {
+  font-family: 'Consolas', 'SF Mono', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #c4cedb;
+}
+
+.gs-api-line {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.gs-api-method {
+  color: var(--gs-orange);
+  font-weight: 700;
+}
+
+.gs-api-path {
+  color: #8b97a6;
+}
+
+.gs-api-brace {
+  color: #55697f;
+}
+
+.gs-api-kv {
+  padding-left: 14px;
+}
+
+.gs-api-key {
+  color: #ffffff;
+}
+
+.gs-card-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.gs-desc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--gs-muted);
+  margin: 0 0 16px;
+}
+
+.gs-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  border-radius: 9999px;
+  padding: 14px 22px;
+  font-family: var(--gs-sans);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.gs-btn-primary {
+  background: #f7f7f2;
+  color: #10141b;
+}
+
+.gs-btn-primary:hover {
+  background: #ffffff;
+}
+
+.gs-btn-secondary {
+  background: var(--gs-card-bg);
+  color: #ffffff;
+  border: 1px solid var(--gs-card-border);
+}
+
+.gs-btn-secondary:hover {
+  border-color: #1f4a6e;
+}
+
+.gs-note {
+  font-size: 12px;
+  color: var(--gs-muted);
+  margin: 12px 0 0;
+  text-align: center;
+}

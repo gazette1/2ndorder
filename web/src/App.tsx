@@ -7,6 +7,7 @@ import { CandidateTable, type CandidateRow } from './components/CandidateTable';
 import { RubricPanel } from './components/RubricPanel';
 import { ThesisPanel } from './components/ThesisPanel';
 import { LoginScreen } from './components/LoginScreen';
+import { GetStartedScreen } from './components/GetStartedScreen';
 import { SearchBar } from './components/SearchBar';
 import { useSession } from './auth';
 import {
@@ -28,9 +29,29 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; payload: RunPayload };
 
+const ENTERED_KEY = 'ac_entered';
+
 export function App() {
   const { session, signIn, signOut } = useSession();
   const token = session?.token ?? null;
+
+  // Landing gate: the get started screen sits in front of the login/search flow.
+  const [entered, setEntered] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem(ENTERED_KEY) === '1';
+    } catch {
+      return false;
+    }
+  });
+
+  const enter = useCallback(() => {
+    try {
+      localStorage.setItem(ENTERED_KEY, '1');
+    } catch {
+      // Ignore storage failures; in-memory state still advances the view.
+    }
+    setEntered(true);
+  }, []);
 
   const [state, setState] = useState<LoadState>({ status: 'idle' });
   const [offline, setOffline] = useState(false);
@@ -247,6 +268,11 @@ export function App() {
       .sort((a, b) => b.candidate.ftsHits - a.candidate.ftsHits);
     return [...scored, ...inBand, ...filteredOut];
   }, [payload, weights, selectedNodeId, readsByTicker, thesesByTicker, dossiersByTicker]);
+
+  // Landing gate. Either card proceeds into the existing login/search flow.
+  if (!entered) {
+    return <GetStartedScreen onEnter={enter} />;
+  }
 
   // Login gate.
   if (!session) {
