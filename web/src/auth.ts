@@ -1,6 +1,5 @@
-// Mock auth for the scaffold. Stores a session in localStorage under 'ac_session'.
-// Designed to swap for a real provider (Supabase Auth) later: the same shape
-// (token, email) is what a real session would carry.
+// Session client. The server issues HMAC-signed tokens and enforces the email
+// allowlist; this stores the session in localStorage under 'ac_session'.
 
 import { useCallback, useEffect, useState } from 'react';
 
@@ -33,7 +32,7 @@ export function clearSession(): void {
   localStorage.removeItem(STORAGE_KEY);
 }
 
-// POST /api/login with the given email. Any email works (mock session).
+// POST /api/login. The server checks the allowlist and returns a signed token.
 export async function login(email: string): Promise<Session> {
   const res = await fetch('/api/login', {
     method: 'POST',
@@ -41,7 +40,14 @@ export async function login(email: string): Promise<Session> {
     body: JSON.stringify({ email }),
   });
   if (!res.ok) {
-    throw new Error(`Sign in failed with status ${res.status}`);
+    let message = `Sign in failed with status ${res.status}`;
+    try {
+      const body = (await res.json()) as { error?: string };
+      if (body.error) message = body.error;
+    } catch {
+      // non-JSON error body; keep the status message
+    }
+    throw new Error(message);
   }
   const data = (await res.json()) as Session;
   const session: Session = { token: data.token, email: data.email };

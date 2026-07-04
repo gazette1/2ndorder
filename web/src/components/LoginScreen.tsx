@@ -46,7 +46,7 @@ export function LoginScreen({ onSignIn }: Props) {
         </button>
         {error && <p className="login-error">{error}</p>}
         <p className="login-note">
-          Session is mocked for this scaffold. Production uses Supabase Auth.
+          Research preview. Access is limited to invited emails.
         </p>
       </form>
     </div>

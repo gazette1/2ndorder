@@ -86,8 +86,124 @@ function readBody(req: http.IncomingMessage): Promise<any> {
   });
 }
 
-function authed(req: http.IncomingMessage): boolean {
-  return (req.headers.authorization ?? '').startsWith('Bearer ');
+// ---- sessions: HMAC-signed tokens, optional email allowlist, daily quotas ----
+// SESSION_SECRET signs tokens (a random one is generated per boot when unset,
+// which invalidates sessions on restart; set it in production).
+// ALLOWED_EMAILS is a comma-separated allowlist; empty means open pilot mode.
+// RUNS_PER_DAY caps expensive operations (scenario/article runs, drills,
+// counters, on-demand cards) per email per UTC day.
+import crypto from 'node:crypto';
+
+const SESSION_SECRET = process.env.SESSION_SECRET ?? crypto.randomBytes(32).toString('hex');
+if (!process.env.SESSION_SECRET) {
+  console.warn('[api] SESSION_SECRET not set: sessions will not survive a restart. Set it in production.');
+}
+const ALLOWED_EMAILS = (process.env.ALLOWED_EMAILS ?? '')
+  .split(',')
+  .map((e) => e.trim().toLowerCase())
+  .filter(Boolean);
+const RUNS_PER_DAY = Number(process.env.RUNS_PER_DAY ?? 12);
+const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7; // 7 days
+
+function signToken(email: string): string {
+  const payload = Buffer.from(JSON.stringify({ e: email, x: Date.now() + SESSION_TTL_MS })).toString('base64url');
+  const sig = crypto.createHmac('sha256', SESSION_SECRET).update(payload).digest('base64url');
+  return `${payload}.${sig}`;
+}
+
+function verifyToken(token: string): string | null {
+  const [payload, sig] = token.split('.');
+  if (!payload || !sig) return null;
+  const expect = crypto.createHmac('sha256', SESSION_SECRET).update(payload).digest('base64url');
+  const a = Buffer.from(sig);
+  const b = Buffer.from(expect);
+  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return null;
+  try {
+    const data = JSON.parse(Buffer.from(payload, 'base64url').toString()) as { e: string; x: number };
+    if (Date.now() > data.x) return null;
+    return data.e;
+  } catch {
+    return null;
+  }
+}
+
+function sessionEmail(req: http.IncomingMessage): string | null {
+  const h = req.headers.authorization ?? '';
+  if (!h.startsWith('Bearer ')) return null;
+  return verifyToken(h.slice(7));
+}
+
+// Per-email, per-UTC-day counter for spend-incurring operations.
+const usage = new Map<string, { day: string; used: number }>();
+function takeQuota(email: string): boolean {
+  const day = new Date().toISOString().slice(0, 10);
+  const u = usage.get(email);
+  if (!u || u.day !== day) {
+    usage.set(email, { day, used: 1 });
+    return true;
+  }
+  if (u.used >= RUNS_PER_DAY) return false;
+  u.used++;
+  return true;
+}
+const QUOTA_MSG = `Daily limit reached (${RUNS_PER_DAY} model runs per day during the research preview).`;
+
+// ---- static serving: one deployable process ----
+// When web/dist exists (a production build), this server also serves the
+// marketing landing at /, the app at /app, media, and the demo data payload.
+// In development vite serves the app instead and only /api hits this server.
+const WEB_PUBLIC = path.resolve('web/public');
+const WEB_DIST = path.resolve('web/dist');
+const MIME: Record<string, string> = {
+  '.html': 'text/html; charset=utf-8',
+  '.js': 'text/javascript',
+  '.css': 'text/css',
+  '.json': 'application/json',
+  '.mp4': 'video/mp4',
+  '.svg': 'image/svg+xml',
+  '.png': 'image/png',
+  '.ico': 'image/x-icon',
+  '.woff2': 'font/woff2',
+};
+
+function serveFile(res: http.ServerResponse, filePath: string): boolean {
+  if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) return false;
+  const ext = path.extname(filePath).toLowerCase();
+  res.writeHead(200, {
+    'Content-Type': MIME[ext] ?? 'application/octet-stream',
+    'Cache-Control': ext === '.html' ? 'no-cache' : 'public, max-age=3600',
+  });
+  res.end(fs.readFileSync(filePath));
+  return true;
+}
+
+// Resolve a URL path against a root, refusing traversal outside it.
+function safeJoin(root: string, urlPath: string): string | null {
+  const resolved = path.resolve(root, '.' + urlPath);
+  return resolved.startsWith(root) ? resolved : null;
+}
+
+function serveStatic(req: http.IncomingMessage, res: http.ServerResponse, pathname: string): boolean {
+  if (req.method !== 'GET') return false;
+  if (pathname === '/healthz') {
+    send(res, 200, { ok: true });
+    return true;
+  }
+  if (pathname === '/' || pathname === '/landing.html') {
+    return serveFile(res, path.join(WEB_PUBLIC, 'landing.html'));
+  }
+  if (pathname.startsWith('/media/') || pathname.startsWith('/data/')) {
+    const p = safeJoin(WEB_PUBLIC, pathname);
+    return p ? serveFile(res, p) : false;
+  }
+  if (pathname === '/app' || pathname.startsWith('/app/')) {
+    if (!fs.existsSync(WEB_DIST)) return false; // dev: vite owns the app
+    const rel = pathname.slice('/app'.length) || '/index.html';
+    const p = safeJoin(WEB_DIST, rel);
+    if (p && serveFile(res, p)) return true;
+    return serveFile(res, path.join(WEB_DIST, 'index.html')); // SPA fallback
+  }
+  return false;
 }
 
 const server = http.createServer((req, res) => {
@@ -100,15 +216,26 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
 
   if (req.method === 'OPTIONS') return send(res, 204, {});
 
-  // Mock login: any email is accepted and gets a token. Swap for Supabase Auth.
+  if (!pathname.startsWith('/api/') && serveStatic(req, res, pathname)) return;
+
+  // Login: HMAC-signed 7-day session. With ALLOWED_EMAILS set, only listed
+  // addresses get in; unset means open pilot mode. There is no password in the
+  // research preview; access control is the allowlist itself.
   if (req.method === 'POST' && pathname === '/api/login') {
     const { email } = await readBody(req);
-    if (!email) return send(res, 400, { error: 'email required' });
-    return send(res, 200, { token: Buffer.from(`${email}:${Date.now()}`).toString('base64'), email });
+    const normalized = String(email ?? '').trim().toLowerCase();
+    if (!normalized || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(normalized)) {
+      return send(res, 400, { error: 'a valid email is required' });
+    }
+    if (ALLOWED_EMAILS.length && !ALLOWED_EMAILS.includes(normalized)) {
+      return send(res, 403, { error: 'This email is not on the preview list. Ask for access.' });
+    }
+    return send(res, 200, { token: signToken(normalized), email: normalized });
   }
 
-  // Everything below requires a session.
-  if (!authed(req)) return send(res, 401, { error: 'sign in first' });
+  // Everything below requires a valid session.
+  const userEmail = sessionEmail(req);
+  if (!userEmail) return send(res, 401, { error: 'sign in first' });
 
   if (req.method === 'GET' && pathname === '/api/runs') {
     return send(res, 200, { runs: listRuns() });
@@ -144,6 +271,7 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
       if (CONFIG.llm.provider === 'fixture') {
         return send(res, 200, { status: 'needs_model', message: 'Carding needs a model provider (LLM_PROVIDER).' });
       }
+      if (!takeQuota(userEmail)) return send(res, 429, { error: QUOTA_MSG });
       const tickers = await tickerMap();
       let cik: string | null = null;
       let name = ticker;
@@ -213,6 +341,7 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
       if (CONFIG.llm.provider === 'fixture') {
         return send(res, 200, { status: 'needs_model', message: 'Drill needs a model provider (LLM_PROVIDER).' });
       }
+      if (!takeQuota(userEmail)) return send(res, 429, { error: QUOTA_MSG });
       const children = await drill(id, nodeId);
       await mapTickers(id, children.map((n) => n.id));
       return send(res, 200, { status: 'ready', added: children.length });
@@ -225,6 +354,7 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
       }
       const counterId = `${id}-counter`;
       if (hasRun(counterId)) return send(res, 200, { runId: counterId, status: 'ready' });
+      if (!takeQuota(userEmail)) return send(res, 429, { error: QUOTA_MSG });
       jobs.set(counterId, { status: 'running' });
       runCounter(id)
         .then(() => jobs.set(counterId, { status: 'ready' }))
@@ -257,6 +387,7 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
       const u = new URL(String(query).trim());
       const runId = slugify('news ' + u.hostname.replace(/^www\./, '') + ' ' + u.pathname).slice(0, 60) || 'news-run';
       if (hasRun(runId)) return send(res, 200, { runId, status: 'ready' });
+      if (!takeQuota(userEmail)) return send(res, 429, { error: QUOTA_MSG });
       jobs.set(runId, { status: 'running' });
       save(runId, 'run', { seed: 'Reading the article and extracting the scenario', sourceUrl: u.toString(), createdAt: new Date().toISOString() });
       runFromArticle(runId, u.toString())
@@ -280,6 +411,7 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
     }
 
     const runId = slugify(query);
+    if (!takeQuota(userEmail)) return send(res, 429, { error: QUOTA_MSG });
     jobs.set(runId, { status: 'running' });
     save(runId, 'run', { seed: query, createdAt: new Date().toISOString() });
     runAll(runId, query)

@@ -8,6 +8,9 @@
     "stage": "tsx src/run.ts",
     "dry-run": "tsx src/run.ts all",
     "serve": "tsx server/api.ts",
+    "start": "tsx server/api.ts",
+    "build": "cd web && npm run build",
+    "typecheck": "tsc --noEmit && cd web && npx tsc --noEmit",
     "hermes": "tsx src/hermes/ingest.ts"
   },
   "dependencies": {},
