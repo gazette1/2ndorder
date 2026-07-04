@@ -1,0 +1,37 @@
+{
+  "cik": "0002090787",
+  "ticker": "OHAC",
+  "name": "Oceanhawk Acquisition Corp.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001213900-26-058915",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/2090787/000121390026058915/ea0270561-03.htm"
+  },
+  "business": "Oceanhawk Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. It has not selected any specific business combination target. It intends to capitalize on the ability of its management team to identify, acquire and operate a business.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "If the company or business we acquire provides products or services which relate to the facilitation of financial transactions, such as funds or securities settlement system, and such products or services fail or are compromised, we may be subject to claims from both the firms to whom we provide our products and services and the clients they serve;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any business or company we acquire could be vulnerable to cyberattack or theft of individual identities or personal data;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Liquidation and distribution of trust account to public shareholders if no initial business combination completed by deadline",
+      "date": null,
+      "sentence": "If we have not completed our initial business combination within 15 months from the closing of this offering (or 18 months from the closing of this offering if we have executed a business combination agreement for an initial business combination within 15 months from the closing of this offering), we will distribute the aggregate amount then on deposit in the trust account, including interest (less permitted withdrawals and up to $100,000 of interest to pay dissolution expenses), pro rata to our public shareholders by way of redemption and cease all operations except for the purposes of winding up of our affairs, as further described herein."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:06:50.404Z",
+  "model": "deepseek-v4-flash"
+}

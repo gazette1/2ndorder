@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for CENTRUS ENERGY CORP (LEU). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Process equipment and automation suppliers for pharma ingredient production (order 1, beneficiary). Mechanism: New domestic API facilities require reactors, centrifuges, dryers, and process control systems, driving orders for specialized equipment makers. Node logic: Equipment spending is a large upfront capital cost for chemical synthesis plants. As multiple projects break ground concurrently, bidding tightens, lead times extend, and pricing power shifts to suppliers. The cyclic nature means that a sustained investment wave yields multi-quarter backlogs.
+8-K filings in the last 12 months: 22
+
+Excerpts:
+[0] (8-K, filed 2026-07-02) Transitioning from Demonstration to Commercialization Centrus won a contract in 2019 to build a cascade of advanced centrifuges in Piketon to demonstrate HALEU production with U.S. technology.
+[1] (8-K, filed 2026-07-02) Centrus is working with the Department on agreements to enable that transition, including a long-term lease extension for the American Centrifuge Plant in Piketon, Ohio.
+[2] (8-K, filed 2026-07-02) Importantly, Centrus' expects the initial build-out to allow it to achieve nth-of-a-kind centrifuge manufacturing costs.
+[3] (8-K, filed 2026-07-02) 430 jobs at Centrus' centrifuge manufacturing plant in Oak Ridge, Tennessee, and hundreds of additional jobs across Centrus' nationwide network of suppliers.
+[4] (8-K, filed 2026-07-02) Since 1998, the Company has provided its utility customers with more than 1,850 reactor years of fuel, which is equivalent to more than 7 billion tons of coal.
+[5] (10-K, filed 2026-02-11) Our current uranium enrichment involves HALEU production and other capabilities necessary for production of advanced nuclear fuel to power existing and next-generation reactors around the world.
+[6] (10-K, filed 2026-02-11) LEU is a critical component in the production of nuclear fuel for reactors that produce electricity.
+[7] (10-K, filed 2026-02-11) We supply LEU and its components to both domestic and international utilities for use in nuclear reactors worldwide.
+[8] (10-K, filed 2026-02-11) Our AC100M centrifuge currently is the only deployment-ready U.S. uranium enrichment technology that can meet these national security requirements.
+[9] (10-K, filed 2026-02-11) Centrus is pioneering U.S. production of HALEU, enabling the deployment of a new generation of HALEU-fueled reactors to meet the world s growing need for carbon-free power.
+[10] (10-K, filed 2026-02-11) HALEU is a high-performance nuclear fuel component that will be required by a number of advanced reactor and fuel designs that are now under development for commercial and government uses.
+[11] (10-K, filed 2026-02-11) While existing reactors typically operate on LEU with the U 235 concentration below 5%, HALEU is further enriched so that the U 235 concentration is between 5% and 20%.
+[12] (10-K, filed 2026-02-11) The higher U 235 concentration offers a number of potential advantages, which may include better fuel utilization, improved performance, fewer refueling outages, simpler reactor designs, reduced waste volumes, and greater nonproliferation resistance.
+[13] (10-K, filed 2026-02-11) The lack of HALEU supply is a major obstacle to the successful commercialization of these new reactors.
+[14] (10-K, filed 2026-02-11) For example, in surveys of advanced reactor developers conducted by the U.S.
+[15] (10-K, filed 2026-02-11) As the only company with a license from the NRC actively enriching up to 20% U 235 assay HALEU and that is operating a small scaled HALEU production facility, Centrus is uniquely positioned to fill a critical gap in the supply chain and facilitate the deployment of these promising next-generation reactors.
+[16] (10-K, filed 2026-02-11) The war in Ukraine, along with the Import Ban Act and the Russian Decree, have contributed to a significant increase in market prices for enrichment and have prompted calls for public and private investment in new, domestic uranium enrichment capacity not only for HALEU production but also for LEU production to support the existing fleet of reactors.
+[17] (10-K, filed 2026-02-11) In December 2025, we initiated design work on a 150,000 square foot training, operations and maintenance Facility in Piketon, Ohio and began domestic centrifuge manufacturing to support commercial LEU enrichment activities at our Piketon, Ohio, facility.
+[18] (10-K, filed 2026-02-11) The Company s work on HALEU began under the HALEU Demonstration Contract executed with the DOE in 2019, to construct a cascade of 16 AC100M centrifuges in Piketon, Ohio to demonstrate HALEU production.
+[19] (10-K, filed 2026-02-11) The DOE continues to pursue the availability of HALEU for the ARDP and for the advanced reactor market and the availability of domestically enriched uranium in a quantity that would be sufficient to address a supply disruption and gaps in domestic production and enrichment.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-62,286 across 0 buys and 1 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $448,700,000, net income $77,800,000, R&D $16,900,000, cash $1,957,200,000.
+Customer graph: federal awards $147,951,761 across 2 awards (top agency Department of Energy); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

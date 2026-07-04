@@ -8,6 +8,8 @@ import type {
   CapSource,
   ChainNode,
   CompanyCard,
+  Dossier,
+  MacroContext,
   Overlay,
   RawChainNode,
   RunPayload,
@@ -84,6 +86,52 @@ function normalizeNode(raw: RawChainNode): ChainNode {
   };
 }
 
+// Evidence-layer fields (events, holders, proxy, earnings language, hiring)
+// arrived after early runs. Default each one so an old dossier renders exactly
+// as before: absent lists stay undefined, absent objects become null, and the
+// evidence sections simply do not appear.
+function normalizeDossier(raw: Dossier): Dossier {
+  return {
+    ...raw,
+    events: Array.isArray(raw.events)
+      ? raw.events.filter((e) => e && Array.isArray(e.items))
+      : undefined,
+    holders: Array.isArray(raw.holders)
+      ? raw.holders.filter((h) => h && typeof h === 'object')
+      : undefined,
+    earningsLanguage:
+      raw.earningsLanguage && typeof raw.earningsLanguage === 'object'
+        ? {
+            ...raw.earningsLanguage,
+            hedges: Array.isArray(raw.earningsLanguage.hedges)
+              ? raw.earningsLanguage.hedges
+              : [],
+          }
+        : null,
+    governance:
+      raw.governance && typeof raw.governance === 'object' ? raw.governance : null,
+    hiring:
+      raw.hiring && typeof raw.hiring === 'object'
+        ? {
+            ...raw.hiring,
+            topDepartments: Array.isArray(raw.hiring.topDepartments)
+              ? raw.hiring.topDepartments
+              : [],
+          }
+        : null,
+  };
+}
+
+// Run-level macro context. Old runs carry none; render nothing in that case.
+function normalizeMacro(raw: unknown): MacroContext | null {
+  if (!raw || typeof raw !== 'object') return null;
+  const m = raw as Partial<MacroContext>;
+  if (!Array.isArray(m.series)) return null;
+  const series = m.series.filter((s) => s && typeof s === 'object');
+  if (series.length === 0) return null;
+  return { series, note: typeof m.note === 'string' ? m.note : '' };
+}
+
 export function normalizeRunPayload(raw: unknown): RunPayload {
   const p = raw as Partial<RunPayload> & { chain?: RawChainNode[] };
   const run = (p.run ?? {}) as Partial<RunPayload['run']> & Record<string, unknown>;
@@ -112,7 +160,8 @@ export function normalizeRunPayload(raw: unknown): RunPayload {
     }),
     reads: p.reads ?? [],
     theses: p.theses ?? [],
-    dossiers: p.dossiers ?? [],
+    dossiers: (p.dossiers ?? []).map(normalizeDossier),
+    macro: normalizeMacro(p.macro),
   };
 }
 

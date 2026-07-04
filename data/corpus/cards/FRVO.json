@@ -1,0 +1,88 @@
+{
+  "cik": "0001853868",
+  "ticker": "FRVO",
+  "name": "Fervo Energy Co",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-033127",
+    "filedAt": "2026-05-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026033127/fervoenergy-sx1a3.htm"
+  },
+  "business": "Fervo Energy develops enhanced geothermal systems (EGS) to generate electricity. It sells electricity under long-term power purchase agreements (PPAs) to utilities and hyperscale data centers. The company is currently constructing the Cape Station project in Utah.",
+  "sellsTo": [
+    "Utilities",
+    "Hyperscale data centers",
+    "Commercial and industrial customers"
+  ],
+  "namedCustomers": [
+    "Southern California Edison (SCE)",
+    "Clean Power Alliance (CPA)",
+    "Google Energy LLC (under GFA)"
+  ],
+  "namedSuppliers": [
+    "Turboden",
+    "Baker Hughes"
+  ],
+  "exposures": [
+    {
+      "tag": "other:geothermal",
+      "stance": "core_product",
+      "sentence": "Our standardized modular approach contemplates deployment across GeoClusters via 50- megawatt GeoBlocks, and our estimate of capital expenditures to construct a single GeoBlock was approximately $7,000 kW as of December 31, 2025 , inclusive of wellfield, surface facilities and plant equipment."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Negotiating PPAs with offtakers, including investment-grade utilities and hyperscalers seeking clean, firm 24 7 power"
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Negotiating PPAs with offtakers, including investment-grade utilities and hyperscalers seeking clean, firm 24 7 power"
+    },
+    {
+      "tag": "transmission",
+      "stance": "risk_mention",
+      "sentence": "We rely on power transmission facilities that we do not own or control."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "Transformers and related grid equipment are critical for interconnecting our GeoBlocks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First power from Cape Station",
+      "date": "2026-12-31",
+      "sentence": "We expect to begin delivering first power from our 500-megawatt Cape Station project by late 2026"
+    },
+    {
+      "event": "100 MW operating capacity at Cape Station",
+      "date": "2027-03-31",
+      "sentence": "and to reach approximately 100 megawatts of operating capacity by early 2027."
+    },
+    {
+      "event": "Cape Station Phase I Unit 1 COD deadline",
+      "date": "2026-10-01",
+      "sentence": "If we do not commence operations under our PPA on Cape Station Phase I (Unit 1) by October 1, 2026"
+    },
+    {
+      "event": "Cape Station Phase I Units 2-3 COD deadline",
+      "date": "2027-01-01",
+      "sentence": "Cape Station Phase I (Units 2-3) by January 1, 2027"
+    },
+    {
+      "event": "Cape Station Phase II COD deadline",
+      "date": "2028-06-01",
+      "sentence": "and Cape Station Phase II by June 1, 2028"
+    },
+    {
+      "event": "GFA termination if no definitive offtake",
+      "date": "2028-03-19",
+      "sentence": "either party may terminate the GFA entirely if no definitive offtake agreement has been executed by March 19, 2028"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:00:09.049Z",
+  "model": "deepseek-v4-flash"
+}

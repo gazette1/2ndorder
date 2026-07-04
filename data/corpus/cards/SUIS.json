@@ -1,0 +1,48 @@
+{
+  "cik": "0002060703",
+  "ticker": "SUIS",
+  "name": "Canary Staked SUI ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001999371-26-003132",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2060703/000199937126003132/sui-s1a_021226.htm"
+  },
+  "business": "Canary Staked SUI ETF (SUIS) offers Shares representing fractional undivided beneficial interest in a trust that holds SUI and engages in a staking program to generate additional SUI. The Shares trade on an exchange and provide indirect exposure to the price of SUI and staking rewards. The Trust is managed by the Sponsor, Canary Capital Group LLC.",
+  "sellsTo": [
+    "Investors on the Exchange through brokers",
+    "Authorized Participants who create and redeem Baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CoinDesk Indices, Inc.",
+    "Luganodes",
+    "Everstake",
+    "BitGo",
+    "U.S. Bancorp Fund Services, LLC",
+    "U.S. Bank, N.A.",
+    "Paralel Distributors LLC",
+    "CSC Delaware Trust Company",
+    "Canary Capital Group LLC",
+    "Jane Street",
+    "Virtu",
+    "Cumberland DRW",
+    "Kraken"
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "SUI is the native, proof-of-stake cryptographic token of SUI Network, a permissionless and decentralized blockchain network and development platform."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "In addition, pursuant to the Staking Program administered by the Sponsor, substantially all of the Trust's assets will be staked through one or more Staking Providers, except for SUI reserved by the Sponsor in its sole discretion to facilitate foreseeable redemption transactions, pay Trust expenses or otherwise protect the Trust and its assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:17:06.245Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,91 @@
+{
+  "cik": "0002110029",
+  "ticker": "EROC",
+  "name": "ERock, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-258942",
+    "filedAt": "2026-06-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110029/000119312526258942/d12401ds1a.htm"
+  },
+  "business": "ERock designs, deploys, operates and maintains multi-purpose distributed power systems consisting of proprietary natural gas generators and embedded software. The company primarily serves data centers, utilities, and large C&I businesses across nine U.S. states, with largest operating footprints in California and Texas. Revenues are generated from power system sales (product and installation services) and ongoing services (O&M and asset management).",
+  "sellsTo": [
+    "data centers",
+    "utilities",
+    "large C&I businesses"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "Wistron",
+    "Foxconn",
+    "Entergy",
+    "ComEd",
+    "H-E-B",
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We primarily serve data centers, utilities and large C&I businesses across nine U.S. states, with our largest operating footprints located in California and Texas, where we anticipate disproportionate growth and market potential driven by high data center demand in the near- and medium-term."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The United States is entering a historic upswing in power demand driven by the rapid expansion of AI, digital infrastructure and broader electrification, with load growth accelerating to its highest levels in 50 years, projected at approximately 5.7% annually for 2025-2030 representing approximately 43x total growth compared to 2015-2020."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We primarily serve data centers, utilities and large C&I businesses across nine U.S. states..."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Our power systems are configured as on-demand, fast-response resources and can be deployed by contract to market-facing objectives (such as peak-load management or grid-stability services)."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Our roadmap builds on the success of our RockBlock systems, with the goal of delivering greater reliability, simplified installation and improved operational flexibility, integration with other onsite energy technologies, such as battery energy storage systems, as well as additional, complementary products."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Fueled by natural gas delivered through underground pipelines with no runtime limitations, our power systems have proven capable of delivering uninterrupted power through hurricanes, winter storms and everyday grid outages."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We offer a turnkey solution for the design, delivery and installation of distributed power and resiliency projects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Increase annual assembly capacity to approximately 1.2 GW",
+      "date": "2026-12-31",
+      "sentence": "We assemble our proprietary engines and generators at our Titan facility and are targeting increasing our annual assembly capacity to approximately 1.2 GW by the end of 2026 with the development of our Hyperion facility, both located in Houston, Texas."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. electricity load growth projected at 5.7% annually for 2025-2030",
+      "sentence": "The United States is entering a historic upswing in power demand driven by the rapid expansion of AI, digital infrastructure and broader electrification, with load growth accelerating to its highest levels in 50 years, projected at approximately 5.7% annually for 2025-2030 representing approximately 43x total growth compared to 2015-2020."
+    },
+    {
+      "claim": "NERC projects North American peak electricity demand increase of over 224 GW summer and 245 GW winter over next 10 years",
+      "sentence": "NERC estimates that over the next 10 years, North American summer and winter peak electricity demand is projected to increase by over 224 GW and 245 GW respectively, representing the fastest growth since NERC's tracking started in 1995."
+    },
+    {
+      "claim": "Natural gas expected to expand by 175 TWh globally to meet data center load through 2035",
+      "sentence": "The IEA reports that natural gas is expected to expand by 175 TWh globally to meet data center load through 2035, with most of this growth occurring in the U.S."
+    },
+    {
+      "claim": "U.S. data center electricity demand projected to represent nearly half of all U.S. electricity demand growth from 2024 to 2030",
+      "sentence": "From 2024 to 2030 data centers alone are projected to represent nearly half of all U.S. electricity demand growth, a larger impact than in any other region in the world."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:03:44.801Z",
+  "model": "deepseek-v4-flash"
+}

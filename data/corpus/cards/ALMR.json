@@ -1,0 +1,54 @@
+{
+  "cik": "0002104204",
+  "ticker": "ALMR",
+  "name": "Alamar Biosciences, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-158122",
+    "filedAt": "2026-04-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/2104204/000119312526158122/d39680ds1a.htm"
+  },
+  "business": "We are a commercial-stage proteomics company establishing a gold standard in protein detection and analysis. Our proprietary NULISA technology was purpose-built to address the limitations of existing proteomics tools by detecting protein biomarkers at extremely low concentrations. We commercially launched our proprietary instrument, the ARGO HT System in January 2024 and have experienced rapid adoption with more than 300 customers across 25 countries.",
+  "sellsTo": [
+    "research and academic institutions",
+    "biopharmaceutical companies",
+    "contract research organizations",
+    "service labs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "GENER8 LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We are also developing a second instrument as part of our IVD platform, called the ARGO HT/DX instrument, for which we intend to provide a submission to the FDA in 2027 for marketing authorization."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our customers include top global research and academic institutions, biopharmaceutical companies, contract research organizations and service labs."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our current instrument, the ARGO HT System, is designed to fully automate high-sensitivity and high-plex proteomics analysis and is currently available for research use only ( RUO ) applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We believe high-quality, well-annotated biological data generated through our Precision Proteomics platform will play an important role in powering the emerging generation of foundational AI models in life sciences."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA submission for ARGO HT/DX instrument",
+      "date": "2027-01-01",
+      "sentence": "We are also developing a second instrument as part of our IVD platform, called the ARGO HT/DX instrument, for which we intend to provide a submission to the FDA in 2027 for marketing authorization."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:02:16.546Z",
+  "model": "deepseek-v4-flash"
+}

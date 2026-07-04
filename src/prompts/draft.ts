@@ -1,10 +1,10 @@
 import type { ChainNode, Dossier, Read, Rubric } from '../types.js';
 
-// Dollars formatted M for thousands, MM for millions, per house style.
+// Facts fed to the model carry exact dollars. The house M/MM convention is an
+// OUTPUT style rule; feeding "$46M" for $45,616 made a model read millions,
+// get confused, and leak its deliberation into a thesis. Inputs stay literal.
 function money(n: number): string {
-  if (Math.abs(n) >= 1e6) return `$${(n / 1e6).toFixed(1)}MM`;
-  if (Math.abs(n) >= 1e3) return `$${Math.round(n / 1e3)}M`;
-  return `$${n}`;
+  return `$${n.toLocaleString('en-US')}`;
 }
 
 function dossierFacts(d: Dossier | undefined): string {
@@ -87,8 +87,11 @@ Whether a small fund can actually own this: days to build a position at the stat
 Style rules, hard requirements:
 - Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
 - No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
-- Dollar amounts: M for thousands, MM for millions.
+- Dollar amounts in your output: M for thousands, MM for millions (the facts above are exact dollars).
 - Do not pad. Under 600 words.
+- Return ONLY the finished markdown document. No notes to yourself, no reasoning, no commentary
+  about the inputs. If two input facts appear to conflict, state the discrepancy in one factual
+  sentence inside the relevant section and move on.
 
 Return only the markdown document.`;
 }

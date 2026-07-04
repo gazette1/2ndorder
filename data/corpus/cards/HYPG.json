@@ -1,0 +1,58 @@
+{
+  "cik": "0002107730",
+  "ticker": "HYPG",
+  "name": "Grayscale Hyperliquid Staking ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-250471",
+    "filedAt": "2026-06-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/2107730/000119312526250471/hype_s-1_amendment_6.htm"
+  },
+  "business": "The Trust holds HYPE digital assets and aims to reflect the value of HYPE held, including staking consideration, less expenses. It issues shares that trade on NASDAQ under symbol HYPG, providing investors with exposure to HYPE.",
+  "sellsTo": [
+    "Investors seeking exposure to HYPE"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Anchorage Digital Bank N.A.",
+    "The Bank of New York Mellon",
+    "CSC Delaware Trust Company",
+    "CoinDesk"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is for the value of the Shares (based on HYPE per Share) to reflect the value of HYPE held by the Trust, including HYPE earned as Staking Consideration (to the extent that the Staking Condition is satisfied and Staking is implemented), determined by reference to the Index Price, less the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "The Trust Agreement provides that the Trust may engage in Staking, but only if (and, then, only to the extent that) the Staking Condition has been satisfied."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of Staking",
+      "date": null,
+      "sentence": "The Sponsor expects that the Staking Condition will be satisfied as to the particular form of Staking described herein, and the Sponsor intends to cause the Trust to engage in Staking as described herein, in connection with the commencement of the offering of the Shares pursuant to the registration statement of which this prospectus forms a part."
+    },
+    {
+      "event": "Listing of Shares on NASDAQ",
+      "date": null,
+      "sentence": "intends to list the Shares on NASDAQ under the symbol 'HYPG.'"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "As of March 31, 2026, the aggregate market value of HYPE was $9.4 billion.",
+      "sentence": "As of March 31, 2026, the aggregate market value of HYPE was $9.4 billion."
+    },
+    {
+      "claim": "HYPE was the tenth largest digital asset by market capitalization.",
+      "sentence": "As of March 31, 2026, HYPE was the tenth largest digital asset by market capitalization, as tracked by CoinMarketCap.com."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:12:28.364Z",
+  "model": "deepseek-v4-flash"
+}

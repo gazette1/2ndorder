@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "us-api-manufacturers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Domestic API and excipient producers",
+      "mechanism": "Tariffs and supply-security mandates raise the landed cost of foreign-sourced APIs, allowing domestic producers to raise prices while gaining volume as buyers reshore.",
+      "logic": "The policy intervention creates a direct price umbrella. Domestic capacity that was previously underutilized or competing at cost disadvantage now captures share. The effect is levered because fixed-cost absorption improves sharply with volume, and long-term supply agreements lock in the new pricing structure.",
+      "horizon": "near",
+      "searchPhrases": [
+        "active pharmaceutical ingredient",
+        "API manufacturing",
+        "excipient",
+        "FDA registered"
+      ],
+      "filingHits": 381,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-pharma-ingredient-equipment-suppliers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Process equipment and automation suppliers for pharma ingredient production",
+      "mechanism": "New domestic API facilities require reactors, centrifuges, dryers, and process control systems, driving orders for specialized equipment makers.",
+      "logic": "Equipment spending is a large upfront capital cost for chemical synthesis plants. As multiple projects break ground concurrently, bidding tightens, lead times extend, and pricing power shifts to suppliers. The cyclic nature means that a sustained investment wave yields multi-quarter backlogs.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pharmaceutical equipment",
+        "reactor",
+        "centrifuge",
+        "process control"
+      ],
+      "filingHits": 314,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-industrial-construction-pharma",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Industrial construction and engineering firms serving pharma",
+      "mechanism": "Capital projects for domestic API and formulation plants generate design, procurement, and construction contracts for US engineering firms.",
+      "logic": "Pharma construction requires specialized validation and cleanroom standards, creating a moat for experienced firms. The fixed-price or cost-plus contracts typically have high margins on change orders. Reshoring policy subsidizes or mandates new builds, creating a pipeline that extends years beyond policy enactment.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pharmaceutical construction",
+        "cleanroom construction",
+        "process engineering",
+        "cGMP facility"
+      ],
+      "filingHits": 212,
+      "whiteSpace": false
+    },
+    {
+      "id": "foreign-api-manufacturers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Foreign API producers reliant on US market",
+      "mechanism": "US tariffs and purchasing restrictions directly reduce export volumes and force price concessions to remain competitive, compressing margins.",
+      "logic": "The US is a major end market for generic APIs. Many foreign producers have dedicated capacity for US-bound shipments. Once tariffs apply, their cost advantage relative to domestic producers shrinks, making it hard to pass through costs. Excess capacity then depresses pricing globally.",
+      "horizon": "near",
+      "searchPhrases": [
+        "active pharmaceutical ingredient",
+        "US market",
+        "FDA approval",
+        "drug master file"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-pharma-companies-import-reliance",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "US pharmaceutical companies heavily dependent on imported ingredients",
+      "mechanism": "Higher landed costs of imported APIs and limited near-term domestic alternatives squeeze gross margins if drug pricing is constrained.",
+      "logic": "Many US-based finished dose manufacturers source over 80% of APIs from abroad. Switching to domestic suppliers involves qualification costs and regulatory delays, so they absorb tariff costs initially. This creates earnings headwinds in the near term, especially for generic drugmakers with limited pricing power.",
+      "horizon": "near",
+      "searchPhrases": [
+        "raw material costs",
+        "supply chain",
+        "import tariff",
+        "active pharmaceutical ingredient"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-specialty-chemical-suppliers",
+      "parentId": "us-api-manufacturers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Specialty chemical suppliers serving domestic API production",
+      "mechanism": "Increased US API manufacturing directly raises consumption of solvents, reagents, and catalysts, boosting volume and pricing for domestic chemical suppliers.",
+      "logic": "API synthesis is chemical-intensive, requiring large quantities of specialty inputs. As US API plants raise utilization, their chemical purchases rise proportionally. Many of these inputs are low-value, high-volume, so proximity matters; domestic suppliers gain a freight advantage over imports, reinforcing demand.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pharmaceutical intermediates",
+        "specialty chemicals",
+        "solvents",
+        "reagents"
+      ],
+      "filingHits": 320,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-cleanroom-hvac-suppliers",
+      "parentId": "us-industrial-construction-pharma",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Cleanroom equipment and HVAC suppliers for pharma facilities",
+      "mechanism": "New pharma construction projects require controlled-environment infrastructure, driving orders for laminar flow systems, HEPA filtration, and specialized HVAC.",
+      "logic": "Each facility needs cleanrooms for API and finished dose production. These systems are high-ticket items with significant engineering content. The suppliers often have long lead times, so a surge in orders results in backlog growth and potential pricing power. Their work is mandated by regulatory requirements, making it non-discretionary.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "cleanroom",
+        "HEPA filter",
+        "laminar flow",
+        "HVAC"
+      ],
+      "filingHits": 221,
+      "whiteSpace": false
+    },
+    {
+      "id": "global-api-margin-pressure",
+      "parentId": "foreign-api-manufacturers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Global API pricing pressure from diverted supply",
+      "mechanism": "API volumes that formerly went to the US are redirected to other markets, increasing competition and depressing margins for API producers worldwide.",
+      "logic": "The global API industry has excess capacity, particularly from Indian and Chinese producers serving the US. If US demand shrinks due to tariffs, those producers will seek volume in Europe, other Asia, and Latin America. This intensifies price competition, eroding margins for all players, including those not directly impacted by US tariffs.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pricing pressure",
+        "overcapacity",
+        "active pharmaceutical ingredient",
+        "competition"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-generic-drug-margin-compression",
+      "parentId": "us-pharma-companies-import-reliance",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "US generic drug manufacturers facing input cost inflation",
+      "mechanism": "Higher API costs, if not offset by price increases, directly reduce gross margins for generic drugmakers with limited ability to pass through to payers.",
+      "logic": "The US generic market is highly competitive, with prices often set by group purchasing organizations and pharmacy benefit managers. In many categories, there is little pricing power. If API costs rise, generic manufacturers either accept lower margins or risk losing bids. This dynamic intensifies with the speed of tariff implementation.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "generic drugs",
+        "cost of goods sold",
+        "pricing environment",
+        "raw material"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-chemical-logistics",
+      "parentId": "us-specialty-chemical-suppliers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "US tank truck and rail freight providers for chemicals",
+      "mechanism": "Growth in US specialty chemical shipments for API production increases demand for transportation services, benefiting bulk chemical logistics firms.",
+      "logic": "Many specialty chemicals for APIs are hazardous and require specialized tankers or railcars. As domestic production ramps, volumes of these chemicals moving from producers to API plants will rise. The logistics market is capacity-constrained, so incremental demand can lead to rate increases and improved utilization.",
+      "horizon": "long",
+      "searchPhrases": [
+        "chemical transportation",
+        "tank truck",
+        "hazardous materials",
+        "freight"
+      ],
+      "filingHits": 241,
+      "whiteSpace": false
+    },
+    {
+      "id": "small-global-api-producers-risk",
+      "parentId": "global-api-margin-pressure",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Small global API producers facing existential risk",
+      "mechanism": "Intensified price competition from oversupply threatens the viability of smaller API manufacturers with higher cost structures and limited diversification.",
+      "logic": "Larger players may withstand margin compression by leveraging scale and backward integration into intermediates. Smaller producers, often in high-cost regions or with narrow product lines, face cash flow depletion and may be forced to shut down or consolidate. The disruption could lead to supply gaps in niche APIs.",
+      "horizon": "long",
+      "searchPhrases": [
+        "active pharmaceutical ingredient",
+        "manufacturing facility",
+        "restructuring",
+        "shutdown"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "us-pharmacy-shortage-risk",
+      "parentId": "us-generic-drug-margin-compression",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "US hospital and retail pharmacy generic drug supply risk",
+      "mechanism": "If generic manufacturers reduce output or exit unprofitable lines due to margin contraction, pharmacies face higher procurement costs and potential shortfalls in certain drugs.",
+      "logic": "Generic supply chains are lean and concentrated. A margin squeeze can cause manufacturers to cease production of low-margin, high-competition molecules. This creates immediate shortages that force pharmacies to buy at spot prices or substitute more expensive alternatives, eroding pharmacy margins and patient access.",
+      "horizon": "long",
+      "searchPhrases": [
+        "drug shortage",
+        "generic supply",
+        "pharmacy cost",
+        "hospital formulary"
+      ],
+      "filingHits": 166,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "reshoring",
+    "tariff",
+    "supply chain security",
+    "pharmaceutical ingredients",
+    "API manufacturing",
+    "domestic production",
+    "active pharmaceutical ingredient",
+    "ingredient sourcing",
+    "onshoring",
+    "FDA"
+  ]
+}

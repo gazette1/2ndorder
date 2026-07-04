@@ -1,0 +1,38 @@
+{
+  "cik": "0002088139",
+  "ticker": "BHYP",
+  "name": "Bitwise Hyperliquid ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001213900-26-052317",
+    "filedAt": "2026-05-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/2088139/000121390026052317/ea0288809-s1a3_bitwise.htm"
+  },
+  "business": "The Bitwise Hyperliquid ETF is a trust that issues shares representing ownership of Hyperliquid, a digital asset. The Trust's shares are designed to track the performance of Hyperliquid, as measured by a pricing benchmark. Investors can buy and sell shares on a national securities exchange.",
+  "sellsTo": [
+    "investors seeking exposure to Hyperliquid"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The value of the Shares relates directly to the value of the Hyperliquid held by the Trust."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "It is possible that mathematical or technological advances, such as the development of quantum computers with significantly more power than computers presently available, could undermine or vitiate the cryptographic consensus mechanism underpinning the Hyperliquid Blockchain."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In the past, flaws in the source code for digital assets have been exposed and exploited, including flaws that disabled some functionality for users, exposed users personal information and/or resulted in the theft of users digital assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:14:10.949Z",
+  "model": "deepseek-v4-flash"
+}

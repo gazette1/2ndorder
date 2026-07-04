@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Niagen Bioscience, Inc. (NAGE). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Domestic API and excipient producers (order 1, beneficiary). Mechanism: Tariffs and supply-security mandates raise the landed cost of foreign-sourced APIs, allowing domestic producers to raise prices while gaining volume as buyers reshore. Node logic: The policy intervention creates a direct price umbrella. Domestic capacity that was previously underutilized or competing at cost disadvantage now captures share. The effect is levered because fixed-cost absorption improves sharply with volume, and long-term supply agreements lock in the new pricing structure.
+8-K filings in the last 12 months: 11
+
+Excerpts:
+[0] (8-K, filed 2026-05-06) FDA-registered 503B outsourcing facilities required to compound and distribute pharmaceutical-grade Niagen to clinics the Company s ability to remain on the U.S.
+[1] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities, in addition to compound pharmacies abroad, which compound and distribute Niagen intravenous (Niagen IV) and injectable Niagen formulations for use with a prescription.
+[2] (10-K, filed 2026-03-04) Food and Drug Administration (FDA) for compounding by 503B outsourcing facilities.
+[3] (10-K, filed 2026-03-04) Food-grade Niagen has twice been successfully reviewed under the FDA s new dietary ingredient (NDI) program, has been successfully notified to the FDA as GRAS, and has received approvals or authorizations from Health Canada, the European Commission, the Turkish Ministry of Agriculture, and the Therapeutic Goods Administration (TGA) of Australia.
+[4] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities, in each case in accordance with applicable regulatory requirements.
+[5] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities may compound pharmaceutical-grade Niagen into Niagen IV and injectable Niagen product formulations for administration pursuant to a valid prescription and applicable law.
+[6] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities in compounding activities.
+[7] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities and compounding pharmacies abroad, for use in compounding activities in accordance with applicable local regulatory requirements.
+[8] (10-K, filed 2026-03-04) FDA-registered 503B outsourcing facilities and collaborating with clinics that offer compounded products containing pharmaceutical-grade Niagen , primarily through educational outreach, technical support, and relationship management activities conducted in accordance with applicable regulatory requirements.
+[9] (10-K, filed 2026-03-04) In both 2015 and 2018, food-grade Niagen was successfully notified to the FDA as an NDI.
+[10] (10-K, filed 2026-03-04) Food-grade Niagen was also successfully notified to FDA as GRAS in August 2016.
+[11] (10-K, filed 2026-03-04) Pharmaceutical-grade Niagen is authorized by the FDA for compounding by 503B outsourcing facilities.
+[12] (10-K, filed 2026-03-04) Government Regulation Some of our operations are subject to regulation by various U.S. federal agencies and similar state and international agencies, including, but not limited to, the FDA, the Federal Trade Commission (FTC), the Consumer Product Safety Commission, the Department of Commerce, the Department of Transportation and the Department of Agriculture and various state pharmacy boards.
+[13] (10-K, filed 2026-03-04) FDA Regulation In the U.S., dietary supplements and food are subject to FDA regulations under the Federal Food, Drug and Cosmetic Act (FDCA).
+[14] (10-K, filed 2026-03-04) We are committed to meeting or exceeding all relevant FDA regulations under the FDCA.
+[15] (10-K, filed 2026-03-04) Advertising Regulations In addition to FDA regulations, the FTC regulates the advertising of dietary supplements, foods, cosmetics, over-the-counter drugs and other consumer products.
+[16] (10-K, filed 2026-03-04) The time required to obtain approval by a foreign country may be longer or shorter than that required for the FDA notification process, and the requirements may differ.
+[17] (10-K, filed 2026-03-04) These manufacturers operate in accordance with applicable regulatory requirements and quality standards, including standards established by the FDA and the International Organization for Standardization, as well as the high-quality standards we require.
+[18] (10-K, filed 2026-03-04) Concerns over inflation, tariffs, import/export regulations, trade disputes, geopolitical issues, the U.S. financial markets, higher interest rates, foreign exchange rates, capital and exchange controls, unstable global credit markets and financial conditions, have led to periods of significant economic instability, declines in consumer confidence and discretionary spending and diminished expectations for the global economy and expectations of slower global economic growth going forward.
+[19] (10-K, filed 2026-03-04) In September 2025, the FDA determined that nicotinamide mononucleotide (NMN) may be lawfully marketed as a dietary ingredient.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $45,616 across 2 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $129,423,000, net income $17,382,000, R&D $6,330,000, cash $44,500,000.
+Customer graph: federal awards $0 across 0 awards; 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

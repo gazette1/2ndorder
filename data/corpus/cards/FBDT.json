@@ -1,0 +1,54 @@
+{
+  "cik": "0001892704",
+  "ticker": "FBDT",
+  "name": "First Breach, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001493152-26-028434",
+    "filedAt": "2026-06-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1892704/000149315226028434/forms-1a.htm"
+  },
+  "business": "First Breach, Inc. manufactures ammunition and ammunition components. Its revenue primarily comes from selling these products to end-users, including law enforcement, government, and military customers, as well as ammunition manufacturers.",
+  "sellsTo": [
+    "end-users",
+    "law enforcement",
+    "government",
+    "military",
+    "ammunition manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Hellbender, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our business depends on the sale of our ammunition products, and our success requires the introduction of new products that achieve market acceptance."
+    },
+    {
+      "tag": "defense",
+      "stance": "active_investment",
+      "sentence": "We are dependent on Hellbender, Inc., a third-party contractor, for the design, engineering and prototyping of our attritable drone platforms, and our drone development program may not be completed on time, within budget or at all."
+    },
+    {
+      "tag": "other:commodities",
+      "stance": "risk_mention",
+      "sentence": "Shortages or a disruption in the availability, price or quality of raw materials may delay or reduce our sales and increase our costs, thereby harming our results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure of our information technology systems, or an interruption in their operation due to internal or external factors including cyber-attacks, could have a material adverse effect on our business, financial condition or results of operations."
+    },
+    {
+      "tag": "other:regulation",
+      "stance": "risk_mention",
+      "sentence": "We are subject to extensive regulation and could incur fines, penalties and other costs and liabilities under such requirements."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:15:56.312Z",
+  "model": "deepseek-v4-flash"
+}

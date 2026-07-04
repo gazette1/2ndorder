@@ -1,0 +1,46 @@
+{
+  "cik": "0002088896",
+  "ticker": "XE",
+  "name": "X-Energy, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-045175",
+    "filedAt": "2026-04-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/2088896/000110465926045175/tm2527015-19_s1a.htm"
+  },
+  "business": "X-Energy designs and develops the Xe-100 small modular nuclear reactor and TRISO-X fuel. It expects to generate revenue through technology licensing, fuel supply, and services to customers including utilities, industrial companies, and government entities.",
+  "sellsTo": [
+    "utilities",
+    "industrial customers",
+    "U.S. government",
+    "cloud computing providers"
+  ],
+  "namedCustomers": [
+    "Dow",
+    "Amazon",
+    "Centrica"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "In particular, in connection with our business plan, management anticipates additional increases in operating expenses and capital expenditures relating to the development and commercialization of the Xe-100."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "Under our agreements with Amazon, we have granted Amazon first-priority allocation of Xe-100 manufacturing queue slots across 2031 to 2039 to allocate to utilities and independent power producers, primarily current nuclear operators, who will ultimately own and operate the SMR facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Construction Permit Application for Dow project",
+      "date": "2027-03-31",
+      "sentence": "The Dow project's Construction Permit Application is anticipated to be received in the first quarter of 2027, following which construction can commence, and its commercial operations date is expected to be in the early 2030s."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:01:07.268Z",
+  "model": "deepseek-v4-flash"
+}

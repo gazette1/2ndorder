@@ -1,0 +1,50 @@
+You are an equity analyst reading SEC filing excerpts for FutureFuel Corp. (FF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Specialty chemical suppliers serving domestic API production (order 2, beneficiary). Mechanism: Increased US API manufacturing directly raises consumption of solvents, reagents, and catalysts, boosting volume and pricing for domestic chemical suppliers. Node logic: API synthesis is chemical-intensive, requiring large quantities of specialty inputs. As US API plants raise utilization, their chemical purchases rise proportionally. Many of these inputs are low-value, high-volume, so proximity matters; domestic suppliers gain a freight advantage over imports, reinforcing demand.
+8-K filings in the last 12 months: 14
+
+Excerpts:
+[0] (8-K, filed 2026-06-30) In its chemicals business, FutureFuel manufactures specialty chemicals for specific customers ("custom chemicals ), as well as multi-customer specialty chemicals ("performance chemicals ).
+[1] (8-K, filed 2026-06-30) FutureFuel s performance chemicals product portfolio includes polymer (nylon) modifiers and several small-volume specialty chemicals for diverse applications.
+[2] (10-K, filed 2026-03-16) We manufacture a diverse portfolio of inorganic chemicals, bio-based specialty chemicals, and biofuels in our integrated facility in Batesville, Arkansas.
+[3] (10-K, filed 2026-03-16) Operations and Revenue Mix For the year ended December 31, 2025, our revenue was distributed across three primary categories: Custom Manufacturing (54%): Producing unique specialty chemicals for strategic customers, typically under long-term contracts (e.g., biocides, specialty polymers, and dyes).
+[4] (10-K, filed 2026-03-16) Performance Chemicals (8%): Multi-customer specialty chemicals, such as polymer modifiers for stain resistance and various solvents.
+[5] (10-K, filed 2026-03-16) 2 Table of Contents Chemicals Segment (62% of Total 2025 Revenue) Our Chemicals segment is comprised of two distinct business models: Custom Manufacturing (manufacturing specialty chemicals for specific customers) and Performance Chemicals (multi-customer specialty chemicals).
+[6] (10-K, filed 2026-03-16) Specialty Solvents & Surfactants: Used in industrial and consumer cleaning.
+[7] (10-K, filed 2026-03-16) Expansion into Regulated Markets: By integrating GMP capabilities alongside our existing ISO 9001 and Biodiesel Quality ( BQ )-9000 certifications, we are positioned to expand into higher-value segments, including pharmaceutical intermediates and food-grade ingredients.
+[8] (10-K, filed 2026-03-16) 4 Table of Contents Competition The specialty chemicals industry has historically been characterized by high barriers to entry, driven by the concentration of proprietary technology and complex manufacturing capabilities among a limited number of established suppliers.
+[9] (10-K, filed 2026-03-16) Supply and Distribution Our specialty chemicals are generally high-unit-value products sold either in bulk or as low-volume packaged goods.
+[10] (10-K, filed 2026-03-16) As a producer of a broad and diverse portfolio of chemicals, our intellectual property relates to a wide variety of products and processes acquired through the development and manufacture of over 300 specialty chemicals.
+[11] (10-K, filed 2026-03-16) Performance chemicals consist of specialty chemicals that are manufactured to general market-determined specifications and are sold to a broad customer base.
+[12] (10-K, filed 2026-03-16) This group of products also includes other sulfonated monomers and hydrotropes, specialty solvents, polymer additives, and chemical intermediates, such as glycerin.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $90,800 across 2 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $95,742,000, net income $-49,397,000, R&D $3,866,000, cash $51,316,000.
+Customer graph: federal awards $32,231,905 across 18 awards (top agency Department of Energy); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

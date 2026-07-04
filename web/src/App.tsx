@@ -387,7 +387,7 @@ export function App() {
           {offline && (
             <p className="offline-note">Offline demo data (API not running)</p>
           )}
-          <RunHeader run={payload.run} />
+          <RunHeader run={payload.run} macro={payload.macro ?? null} />
           <ActionBar
             key={payload.run.id}
             token={token}

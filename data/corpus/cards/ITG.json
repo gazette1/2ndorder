@@ -1,0 +1,67 @@
+{
+  "cik": "0002110117",
+  "ticker": "ITG",
+  "name": "ITG, Inc./DE/",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-285598",
+    "filedAt": "2026-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110117/000119312526285598/d103576ds1a.htm"
+  },
+  "business": "The company provides infrastructure deployment and recurring engineering and maintenance services for digital and other utility infrastructure. It sells to broadband service providers, fiber providers, wireless carriers, data center operators, and public and private utilities. Revenue is highly concentrated, with top two customers accounting for 68% and 60% of total revenues in 2024 and 2025, respectively.",
+  "sellsTo": [
+    "broadband service providers",
+    "fiber providers",
+    "wireless carriers",
+    "data center operators",
+    "public and private utilities"
+  ],
+  "namedCustomers": [
+    "Comcast"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are capitalizing on secular tailwinds in data consumption and GenAI by expanding our service footprint within the data center end-market."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our end-to-end suite of services addresses the entire network lifecycle and creates a one-stop solution for engineering, construction, installation, and maintenance services for broadband service providers, fiber providers, wireless carriers, data center operators, and public and private utilities."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We currently provide certain infrastructure deployment services to both power and water utilities or asset owners and are currently pursuing a robust pipeline of opportunities within the utility infrastructure space."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our end-to-end suite of services addresses the entire network lifecycle and creates a one-stop solution for engineering, construction, installation, and maintenance services for broadband service providers, fiber providers, wireless carriers, data center operators, and public and private utilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Technological advances in the markets we serve, including from climate-related initiatives and use of AI, could render existing projects or technologies uncompetitive or obsolete"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Annual investment in the United States in outsourced engineering and construction services for digital and other utility infrastructure increased from approximately $14.8 billion in 2022 to approximately $26.9 billion in 2025, and is forecasted to grow to approximately $33.2 billion in 2029, according to the Altman Solon Report.",
+      "sentence": "Annual investment in the United States in outsourced engineering and construction services for digital and other utility infrastructure increased from approximately $14.8 billion in 2022 to approximately $26.9 billion in 2025, and is forecasted to grow to approximately $33.2 billion in 2029, according to the Altman Solon Report."
+    },
+    {
+      "claim": "According to the Altman Solon Report, annual investment in data center wireline infrastructure is forecasted to grow from approximately $4.7 billion in 2025 to approximately $6.8 billion in 2029.",
+      "sentence": "According to the Altman Solon Report, annual investment in data center wireline infrastructure is forecasted to grow from approximately $4.7 billion in 2025 to approximately $6.8 billion in 2029."
+    },
+    {
+      "claim": "According to the Altman Solon Report, these adjacencies include in 2025 approximately $4.0 billion of water and gas utility infrastructure services and approximately $14.0 billion of electric utility distribution contracting.",
+      "sentence": "According to the Altman Solon Report, these adjacencies include in 2025 approximately $4.0 billion of water and gas utility infrastructure services and approximately $14.0 billion of electric utility distribution contracting."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:16:36.156Z",
+  "model": "deepseek-v4-flash"
+}

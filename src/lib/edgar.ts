@@ -207,9 +207,10 @@ export async function insiderSummary(cik: string): Promise<InsiderSummary> {
   const r = subs.recent;
   const cutoff = new Date(Date.now() - CONFIG.enrich.insiderMonths * 30 * 86400_000).toISOString().slice(0, 10);
 
+  // Form 5 is the annual catch-up report; same XML schema as Form 4, same parser.
   const idx: number[] = [];
   for (let i = 0; i < r.form.length; i++) {
-    if (r.form[i] === '4' && r.filingDate[i] >= cutoff) idx.push(i);
+    if ((r.form[i] === '4' || r.form[i] === '5') && r.filingDate[i] >= cutoff) idx.push(i);
     if (idx.length >= CONFIG.enrich.insiderMaxFilings) break;
   }
 

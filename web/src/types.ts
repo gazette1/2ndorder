@@ -104,6 +104,12 @@ export type Provenance =
   | 'sec_xbrl'
   | 'usaspending'
   | 'sec_fts'
+  | 'sec_8k'
+  | 'sec_8k_ex99'
+  | 'sec_13dg'
+  | 'sec_def14a'
+  | 'fred'
+  | 'job_board'
   | 'finnhub'
   | 'fmp'
   | 'yahoo'
@@ -195,6 +201,71 @@ export interface RealityCheck {
   provenance: Provenance[];
 }
 
+// ---- Evidence layer (8-K events, holders, proxy, hiring, macro) ----
+// Every field is optional: runs made before the evidence layer existed carry
+// none of these, and the load-time normalizer defaults them so old runs render
+// exactly as before.
+
+export interface CorporateEvent {
+  filedAt: string;
+  items: Array<{ code: string; label: string }>; // 8-K item codes, decoded
+  signal: boolean; // true when any item is thesis-moving (M&A, CEO change, credit, impairment)
+  url: string;
+  accession: string;
+}
+
+// The free stand-in for transcript archives: what management leads with in the
+// earnings press release (8-K Item 2.02, EX-99), and how it moved vs last quarter.
+export interface EarningsLanguage {
+  emphasis: string | null;
+  drift: string | null; // quarter-over-quarter language movement, null with only one release
+  hedges: string[]; // recurring hedge phrases, quoted verbatim
+  releasesRead: number;
+  latestFiledAt: string;
+  provenance: Provenance;
+}
+
+export interface StakeDisclosure {
+  form: string; // SC 13D, SC 13G, amendments
+  activist: boolean; // 13D reserves the right to push for change; 13G is passive
+  holder: string | null; // cover-page reporting person, null when parsing fails
+  percent: number | null; // percent of class, null when parsing fails
+  filedAt: string;
+  url: string;
+}
+
+export interface Governance {
+  proxyUrl: string;
+  filedAt: string;
+  ceoCompUSD: number | null;
+  relatedParty: string | null; // one sentence, or null when the proxy reports none
+  shareholderProposals: number | null;
+  notes: string | null; // anything a PM would want flagged from the excerpts
+  provenance: Provenance;
+}
+
+export interface HiringSnapshot {
+  openRoles: number;
+  topDepartments: string[]; // "Engineering (14)" style
+  board: string; // 'greenhouse' | 'lever'
+  slug: string;
+  provenance: Provenance;
+}
+
+export interface MacroSeries {
+  id: string; // FRED series id
+  label: string;
+  latest: number;
+  asof: string;
+  yoyPct: number | null;
+  provenance: Provenance;
+}
+
+export interface MacroContext {
+  series: MacroSeries[];
+  note: string;
+}
+
 export interface Dossier {
   ticker: string;
   cik: string;
@@ -203,6 +274,11 @@ export interface Dossier {
   customers: CustomerGraph;
   coverage: Coverage;
   reality?: RealityCheck;
+  events?: CorporateEvent[];
+  earningsLanguage?: EarningsLanguage | null;
+  holders?: StakeDisclosure[];
+  governance?: Governance | null;
+  hiring?: HiringSnapshot | null;
 }
 
 export interface Read {
@@ -278,4 +354,6 @@ export interface RunPayload {
   reads: Read[];
   theses: Thesis[];
   dossiers: Dossier[];
+  // Scenario-level macro context (FRED, keyless). Null on older runs.
+  macro?: MacroContext | null;
 }

@@ -1,0 +1,73 @@
+{
+  "cik": "0001973062",
+  "ticker": "VIDA",
+  "name": "VIDA Global Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001493152-26-017137",
+    "filedAt": "2026-04-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973062/000149315226017137/forms-1a.htm"
+  },
+  "business": "VIDA Global Inc. is building the Vida Agent OS, a platform designed to enable enterprises, service providers, software vendors, and entrepreneurs to deploy, govern, and manage production-grade AI agents across voice, messaging, email, and web. The company sells primarily through a channel-led strategy, delivering agents through managed service providers, UCaaS/CCaaS platforms, telecom advisors, and SaaS vendors.",
+  "sellsTo": [
+    "Enterprises",
+    "Service providers",
+    "Software vendors",
+    "Entrepreneurs",
+    "Managed service providers",
+    "UCaaS/CCaaS platforms",
+    "Telecom advisors",
+    "SaaS vendors",
+    "SMBs",
+    "Mid-market companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "OpenClaw",
+    "Stripe",
+    "Chargebee"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-agents",
+      "stance": "core_product",
+      "sentence": "Our platform is designed to enable enterprises, service providers, software vendors, and entrepreneurs to deploy, govern, and manage production-grade AI agents across voice, messaging, email, and web."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Vida s omnichannel I/O is designed to work with a broad range of telephony systems, including session initiation protocols (SIP) used in voice over Internet Protocol (VoIP) and private branch exchanges (PBX) used in private telephone networks."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Agents can process payments through Stripe, Chargebee, and other payment providers."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "In certain deployments, particularly in healthcare and related verticals, conversation data may include electronic protected health information, or ePHI."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our SOC 2 program encompasses security, availability, and confidentiality across access, change management, vendor management, and incident response."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. spend for outsourced call and contact center services could be approximately $22.2 billion in 2026, $25.4 billion in 2028, and $29.1 billion by 2030.",
+      "sentence": "Using published estimates for the U.S. call and contact center outsourcing market and the associated growth rates, we estimate that U.S. spend for outsourced call and contact center services could be approximately $22.2 billion in 2026, $25.4 billion in 2028, and $29.1 billion by 2030."
+    },
+    {
+      "claim": "AI-enabled spend pool of approximately $19.1 billion in 2026, $23.5 billion in 2028, and $28.8 billion by 2030.",
+      "sentence": "Under our base case, this implies an AI-enabled spend pool of approximately $19.1 billion in 2026, $23.5 billion in 2028, and $28.8 billion by 2030, with a scenario range of approximately $18.4 $20.0 billion in 2026 and $22.6 $24.9 billion in 2028 under more conservative and more aggressive penetration assumptions, respectively."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:09:34.503Z",
+  "model": "deepseek-v4-flash"
+}

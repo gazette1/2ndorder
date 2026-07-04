@@ -34,5 +34,6 @@ export function buildPayload(slug: string): RunPayload {
     dossiers: tryLoad<any>(slug, 'dossiers', []),
     reads: tryLoad<any>(slug, 'reads', []),
     theses: tryLoad<any>(slug, 'theses', []),
+    macro: tryLoad<any>(slug, 'macro', null),
   };
 }

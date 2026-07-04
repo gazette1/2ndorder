@@ -1,0 +1,48 @@
+{
+  "cik": "0001856084",
+  "ticker": "RDGT",
+  "name": "Ridgetech Inc.",
+  "source": {
+    "form": "20-F",
+    "accession": "0001213900-25-067924",
+    "filedAt": "2025-07-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1856084/000121390025067924/ea0249910-20f_ridgetech.htm"
+  },
+  "business": "Ridgetech Inc. is a holding company that conducts wholesale distribution of pharmaceutical products and other healthcare products in China, both offline and online, selling to retail pharmacies, clinics, and other vendors. After divesting its retail pharmacy business, it now focuses on wholesale distribution, including through third-party online platforms and its own platform.",
+  "sellsTo": [
+    "retail pharmacies",
+    "clinics",
+    "third-party trading companies",
+    "local buyers"
+  ],
+  "namedCustomers": [
+    "Jiuzhou Pharmacy"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "including prescription drugs, OTC drugs, nutritional supplements, TCM products, sundry products, and medical devices."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We currently operate in the offline wholesale distribution of pharmaceutical products primarily to local buyers, while also engaging in online sales through both our self-operated and third-party platforms to customers nationwide."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Allright also operates its own online distribution platform, which is designed to provide services such as medication guidance, sales management, and customer health solutions while utilizing digital tools to enhance the user experience."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Its operations are supported by modern logistics systems, including automated and intelligent warehousing, and a focus on quality management and traceability to maintain product safety and transparency."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:11:47.226Z",
+  "model": "deepseek-v4-flash"
+}

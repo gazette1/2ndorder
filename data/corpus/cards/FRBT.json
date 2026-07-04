@@ -1,0 +1,51 @@
+{
+  "cik": "0001925062",
+  "ticker": "FRBT",
+  "name": "Forbright, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-041472",
+    "filedAt": "2026-06-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1925062/000162828026041472/forbright-sx1a2.htm"
+  },
+  "business": "Forbright, Inc. is a digital financial services company and a primarily direct bank. It provides lending across multiple strategies including lender finance, fund finance, healthcare finance, and construction and development loans.",
+  "sellsTo": [
+    "middle-market businesses",
+    "healthcare services providers",
+    "lender finance and fund finance clients",
+    "consumers for deposits"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Technological advances, including the development and implementation of generative and agentic AI and other AIML technologies, may impact our business and our ability to successfully adopt and implement new technologies that our customers desire."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failures in, or cybersecurity breaches of, our network security or other information technology systems could subject us to increased operating costs as well as litigation, damage to our reputation and other potential losses."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "As a digital financial services company and a primarily direct bank with a limited branch network, we significantly depend on technology to deliver our products and services and to otherwise conduct our business and operations."
+    },
+    {
+      "tag": "other:healthcare-lending",
+      "stance": "core_product",
+      "sentence": "Our healthcare finance lending strategy, which represents approximately 31% of our loan portfolio as of March 31, 2026, provides working capital and real estate bridge loans to providers of healthcare services throughout the United States."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "As of March 31, 2026, approximately 5.9% of the total dollar value of our loan portfolio, or $341.6 million, consisted of construction and development loans."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:16:17.398Z",
+  "model": "deepseek-v4-flash"
+}

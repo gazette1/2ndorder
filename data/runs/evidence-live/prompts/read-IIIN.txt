@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for INSTEEL INDUSTRIES INC (IIIN). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: US generic drug manufacturers facing input cost inflation (order 2, at_risk). Mechanism: Higher API costs, if not offset by price increases, directly reduce gross margins for generic drugmakers with limited ability to pass through to payers. Node logic: The US generic market is highly competitive, with prices often set by group purchasing organizations and pharmacy benefit managers. In many categories, there is little pricing power. If API costs rise, generic manufacturers either accept lower margins or risk losing bids. This dynamic intensifies with the speed of tariff implementation.
+8-K filings in the last 12 months: 10
+
+Excerpts:
+[0] (8-K, filed 2026-04-16) Insteel s second quarter results were unfavorably impacted by narrower spreads between selling prices and raw material costs, lower shipments and elevated unit manufacturing costs.
+[1] (8-K, filed 2026-04-16) Higher average selling prices reflect ongoing pricing actions implemented to offset increased raw material and operating costs.
+[2] (8-K, filed 2026-04-16) Woltz added, Beyond the near term effects of winter weather, broader market forces continue to shape our operating environment, particularly those tied to raw material availability and pricing, evolving U.S. trade policy, and ongoing geopolitical tension in the Middle East.
+[3] (8-K, filed 2026-04-16) Inflationary conditions continue to adversely affect our cost profile as we have experienced increased tariff costs, significant increases in energy costs, and recently, sharply escalating freight costs.
+[4] (10-K, filed 2025-10-23) Headquartered in Mount Airy, North Carolina, we operate eleven manufacturing facilities that are all located in the U.S. in close proximity to our customers and raw material suppliers.
+[5] (10-K, filed 2025-10-23) Raw Materials The primary raw material used to manufacture our products is hot-rolled carbon steel wire rod, which we purchase from both domestic and foreign suppliers and can generally be characterized as a commodity product.
+[6] (10-K, filed 2025-10-23) In most economic environments, domestic demand for wire rod exceeds domestic production capacity, and imports of wire rod are necessary to satisfy the supply requirements of the U.S. market.
+[7] (10-K, filed 2025-10-23) If we are unable to purchase raw materials and achieve manufacturing costs that are competitive with those of foreign producers, or if the margin and return requirements of foreign producers are substantially lower, our market share and profit margins could be negatively impacted.
+[8] (10-K, filed 2025-10-23) Our financial results can be negatively impacted by the volatility in the cost and availability of our primary raw material, hot-rolled carbon steel wire rod.
+[9] (10-K, filed 2025-10-23) The primary raw material used to manufacture our products is hot-rolled carbon steel wire rod, which we purchase from both domestic and foreign suppliers.
+[10] (10-K, filed 2025-10-23) If any key supplier that we rely on for hot-rolled carbon steel wire rod ceases or limits production, we may incur significant additional costs in order to find alternative, reliable raw material suppliers.
+[11] (10-K, filed 2025-10-23) Prices for wire rod have become increasingly volatile in recent years driven by the higher degree of variability in raw material costs for rod producers, changes in trade policy and the fluctuation of domestic supply.
+[12] (10-K, filed 2025-10-23) Additionally, when raw material costs decline, our financial results would be negatively impacted if the selling prices for our products decrease to an even greater extent and if we are consuming higher cost material from inventory.
+[13] (10-K, filed 2025-10-23) Our financial results can also be significantly impacted if raw material supplies are inadequate to satisfy our purchasing requirements.
+[14] (10-K, filed 2025-10-23) The imposition of tariffs, quotas or anti-dumping or countervailing duty margins by the U.S. government against exporting countries can have the effect of reducing or eliminating their competitiveness and participation in the domestic market.
+[15] (10-K, filed 2025-10-23) If we were unable to obtain adequate and timely delivery of our raw material requirements, we may be unable to manufacture sufficient quantities of our products or operate our manufacturing facilities in an efficient manner, which could result in lost sales and higher operating costs.
+[16] (10-K, filed 2025-10-23) Because tight market conditions typically affect the entire industry, during past periods of short raw material supply, margins and profitability have been favorably impacted due to curtailed availability of PC strand and WWR that supported higher average selling prices.
+[17] (10-K, filed 2025-10-23) However, there is no assurance that future short supply conditions in raw material markets would result in similar outcomes.
+[18] (10-K, filed 2025-10-23) Presidential actions increasing tariffs on steel and aluminum could materially and adversely affect our business, financial results and cash flows.
+[19] (10-K, filed 2025-10-23) The Section 232 tariff on steel and aluminum was recently increased to 50% from 25%.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-09-27): revenue $647,706,000, net income $41,020,000, R&D $n/a, cash $38,630,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

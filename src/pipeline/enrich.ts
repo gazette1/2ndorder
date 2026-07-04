@@ -1,6 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { debtUSD, fullTextSearch, fundamentals, insiderSummary, operatingCashFlowUSD, sharesHistory, submissions } from '../lib/edgar.js';
+import { corporateEvents, earningsLanguage } from '../lib/events.js';
+import { stakeDisclosures } from '../lib/holders.js';
+import { governance } from '../lib/governance.js';
+import { hiringSnapshot } from '../lib/jobs.js';
 import { advUSD } from '../lib/marketdata.js';
 import { coverage } from '../lib/coverage.js';
 import { cleanName, emptyCustomerGraph, govAwards } from '../lib/usaspending.js';
@@ -108,12 +112,36 @@ export async function enrich(slug: string): Promise<Dossier[]> {
 
     const reality = await realityCheck(c, funds);
 
-    dossiers.push({ ticker: c.ticker, cik: c.cik, insider, fundamentals: funds, customers, coverage: cov, reality });
+    // Evidence layer: all free sources. Each degrades to null or empty on its
+    // own; none of them can sink the dossier.
+    const [events, lang, holders, gov, hiring] = await Promise.all([
+      corporateEvents(c.cik).catch(() => []),
+      earningsLanguage(slug, c.ticker, c.cik).catch(() => null),
+      stakeDisclosures(c.cik).catch(() => []),
+      governance(slug, c.ticker, c.cik).catch(() => null),
+      hiringSnapshot(c.name, c.ticker).catch(() => null),
+    ]);
+
+    dossiers.push({
+      ticker: c.ticker,
+      cik: c.cik,
+      insider,
+      fundamentals: funds,
+      customers,
+      coverage: cov,
+      reality,
+      events,
+      earningsLanguage: lang,
+      holders,
+      governance: gov,
+      hiring,
+    });
     console.log(
       `[enrich] ${c.ticker}: insider net $${insider.netBuyUSD.toLocaleString()} (${insider.buyCount}B/${insider.sellCount}S), ` +
         `gov $${awards.totalUSD.toLocaleString()} over ${awards.awards.length} awards, ${cites.length} reverse-cites, ` +
         `coverage ${cov.analystCount ?? 'stub'}${cov.ratingActions.length ? ` (${cov.ratingActions.length} actions)` : ''}, ` +
-        `reality ${reality.flags.length ? reality.flags.length + ' flag(s)' : 'clean'}`,
+        `reality ${reality.flags.length ? reality.flags.length + ' flag(s)' : 'clean'}, ` +
+        `${events.length} events, ${holders.length} holders, lang ${lang ? 'read' : 'none'}, proxy ${gov ? 'read' : 'none'}, hiring ${hiring ? hiring.openRoles + ' roles' : 'no board'}`,
     );
   }
 

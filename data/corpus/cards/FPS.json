@@ -1,0 +1,82 @@
+{
+  "cik": "0002080126",
+  "ticker": "FPS",
+  "name": "Forgent Power Solutions, Inc.",
+  "source": {
+    "form": "S-1",
+    "accession": "0001193125-26-288605",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526288605/na-20260629.htm"
+  },
+  "business": "Forgent Power Solutions designs and manufactures electrical distribution equipment for data centers, power grid, and industrial facilities. Its products include automatic transfer switches, transformers, switchgear, power distribution units, and prefabricated solutions like eHouses and power skids. In fiscal 2025, it generated 42% of revenues from Data Center, 23% from Grid, 19% from Industrial, and 16% from other markets.",
+  "sellsTo": [
+    "Data Center market",
+    "Grid market",
+    "Industrial market",
+    "technology companies",
+    "power companies",
+    "utility companies",
+    "industrial companies",
+    "OEMs",
+    "integrators",
+    "contractors",
+    "distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We generated approximately 42% of our fiscal 2025 revenues from the Data Center end market."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Demand for our products is growing rapidly as (i) companies accelerate investment in data centers to meet the computational requirements for cloud computing and AI"
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Customers that can accelerate their interconnection by using mobile generation or on-site battery storage will customize their electrical distribution equipment to add control systems and connections for mobile power and battery energy storage systems (BESS)."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "We generated approximately 23% of our fiscal 2025 revenues from the Grid end market."
+    },
+    {
+      "tag": "industrial",
+      "stance": "core_product",
+      "sentence": "We generated approximately 19% of our fiscal 2025 revenues from the Industrial end market."
+    },
+    {
+      "tag": "other:reshoring",
+      "stance": "risk_mention",
+      "sentence": "manufacturers reshore their factories to secure their supply chains and mitigate the impact of tariffs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete installation of remaining production equipment",
+      "date": "2026-06-01",
+      "sentence": "We expect to complete the installation of the remaining production equipment by June 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Electrical distribution equipment sales CAGR of 20% from 2025 to 2030",
+      "sentence": "BCE forecasts that demand for electrical distribution equipment will continue to grow rapidly with sales increasing at a compound annual growth rate of 20% from 2025 to 2030."
+    },
+    {
+      "claim": "New data center requires $3.1M/MW, retrofit requires $2.5M/MW",
+      "sentence": "BCE estimates that a new data center requires $3.1 million of electrical distribution equipment per MW of capacity while a data center retrofit requires $2.5 million per MW of capacity."
+    },
+    {
+      "claim": "Data center electrical distribution equipment sales CAGR of 29% from 2025 to 2030",
+      "sentence": "According to BCE, sales of electrical distribution equipment to the data center end market will increase at a compound annual growth rate of 29% from 2025 to 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T18:59:44.210Z",
+  "model": "deepseek-v4-flash"
+}

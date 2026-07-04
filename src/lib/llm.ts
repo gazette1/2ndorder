@@ -71,9 +71,12 @@ function finish(text: string, format: Format): string {
 
 // House style is a hard gate on generated output, and open models honor it
 // inconsistently from the prompt alone (both gemma4 and deepseek-v4 emitted
-// em-dashes). Enforce it deterministically: em-dash to comma, per the voice rule.
+// em-dashes). Enforce it deterministically. Range dashes ("20–30%", "[0]–[14]")
+// become "to"; parenthetical em/en dashes become commas, per the voice rule.
 function deSlop(text: string): string {
-  return text.replace(/\s*—\s*/g, ', ');
+  return text
+    .replace(/([\d\]%])\s*[–—]\s*([\d[$])/g, '$1 to $2')
+    .replace(/\s*[—–]\s*/g, ', ');
 }
 
 // Local Ollama. format:'json' uses Ollama's JSON mode to constrain the output.

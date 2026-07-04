@@ -1,0 +1,55 @@
+{
+  "cik": "0002115027",
+  "ticker": "BAGZ",
+  "name": "Cryptex Digital Market Cap ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001213900-26-071931",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115027/000121390026071931/ea0295582-s1a1_cryptex.htm"
+  },
+  "business": "The Fund is a limited liability company incorporated in the Cayman Islands that continuously issues common shares representing fractional undivided beneficial interest in and ownership of the Fund. The Fund seeks to track the performance of an index of crypto assets. The Fund's shares are listed on an exchange for trading.",
+  "sellsTo": [
+    "Retail and institutional investors via exchange trading",
+    "Authorized Participants for creation and redemption of baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cryptex Finance, LLC (Sponsor)",
+    "Exchange Traded Concepts, LLC (Co-Sponsor)",
+    "U.S. Bancorp Fund Services, LLC (Administrator)",
+    "BitGo Custodian",
+    "Coinbase Custodian"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Fund will seek to track the performance of the Index."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "core_product",
+      "sentence": "Crypto Assets are a relatively new technological innovation with a limited history. There is no assurance that usage of Blockchains or Crypto Assets will continue to grow."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "active_investment",
+      "sentence": "The Fund will dedicate substantially all of the Fund's Crypto Assets to the Fund's staking program"
+    },
+    {
+      "tag": "other:volatility",
+      "stance": "risk_mention",
+      "sentence": "Crypto Asset trading prices have exhibited high levels of volatility"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The loss or destruction of certain private keys, including by the Custodians, could prevent the Fund from accessing its Crypto Assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:12:08.156Z",
+  "model": "deepseek-v4-flash"
+}

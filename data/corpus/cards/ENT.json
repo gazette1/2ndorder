@@ -1,0 +1,62 @@
+{
+  "cik": "0002028464",
+  "ticker": "ENT",
+  "name": "ENTRATA, INC.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-042574",
+    "filedAt": "2026-06-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/2028464/000162828026042574/entrata-sx1a1.htm"
+  },
+  "business": "Entrata provides a unified Operating System for the rental property ecosystem, connecting owners, operators, residents, and vendors. Its platform replaces legacy systems with a single end-to-end solution for property management, including AI-driven automation and embedded payments.",
+  "sellsTo": [
+    "multifamily housing operators (conventional, student, affordable)",
+    "enterprise property managers",
+    "residents",
+    "vendors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Worldpay",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "other:property-management-ai",
+      "stance": "core_product",
+      "sentence": "Entrata Layered Intelligence (ELI), our embedded agentic AI and automation engine, which powers agentic AI across operational domains such as leasing, payments, renewals, and maintenance."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Entrata operates as a payment facilitator and licensed insurance agency in all 50 states and partners with more than 1,000 utility companies and all three credit reporting bureaus."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Entrata operates as a payment facilitator and licensed insurance agency in all 50 states."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and our third-party service providers are exposed to cybersecurity risks and incidents, and any actual or perceived breach of our system, or of our service providers systems, or any other type of security breach or incident, could materially impact our reputation, brand, business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Core SAM of $13.6 billion based on 23.4 million multifamily units and ARPU of $580.",
+      "sentence": "We estimate our core SAM as the product of (a) the approximately 23.4 million multifamily units in the United States as of 2023 and (b) an ARPU of $580 based on the current highest levels of technology adoption. This equates to a core SAM of $13.6 billion."
+    },
+    {
+      "claim": "Global rental property technology spend expected to grow at 16.4% CAGR through 2034.",
+      "sentence": "Technology spend in the global market was approximately $47.1 billion in 2025, and is expected to grow at a 16.4% CAGR through 2034 as the market continues to modernize and professionalize operations."
+    },
+    {
+      "claim": "U.S. rental property market accounts for approximately $1 trillion of annual rental spend.",
+      "sentence": "We participate in what we believe is one of the largest, most durable, and least digitized markets of the U.S. economy the rental property market, which accounts for approximately $1 trillion of annual rental spend."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:15:14.243Z",
+  "model": "deepseek-v4-flash"
+}

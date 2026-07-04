@@ -1,0 +1,52 @@
+You are an equity analyst reading SEC filing excerpts for Fortrea Holdings Inc. (FTRE). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Global API pricing pressure from diverted supply (order 2, at_risk). Mechanism: API volumes that formerly went to the US are redirected to other markets, increasing competition and depressing margins for API producers worldwide. Node logic: The global API industry has excess capacity, particularly from Indian and Chinese producers serving the US. If US demand shrinks due to tariffs, those producers will seek volume in Europe, other Asia, and Latin America. This intensifies price competition, eroding margins for all players, including those not directly impacted by US tariffs.
+8-K filings in the last 12 months: 9
+
+Excerpts:
+[0] (8-K, filed 2026-05-05) (b) Restructuring and other charges represent amounts incurred in connection with the elimination of redundant positions to reduce overcapacity, align resources and facilities, and restructure certain operations.
+[1] (10-K, filed 2026-02-26) Competition Our operations in the drug development services industry involve high levels of competition, consisting of hundreds of small, limited-scope service providers, and a smaller number of large full-service drug development companies.
+[2] (10-K, filed 2026-02-26) Our main competition consists of these small and large CROs, as well as in-house departments of pharmaceutical, biotechnology, and medical device companies and, to a lesser extent, select universities and teaching hospitals and site management organizations.
+[3] (10-K, filed 2026-02-26) We believe we are positioned to be more flexible and customer-focused than our larger competition while offering the global scale that our smaller competition lacks.
+[4] (10-K, filed 2026-02-26) The industry standard for the conduct of clinical trials is embodied in the FDA s regulations for IRB/IECs, investigators and sponsors/monitors.
+[5] (10-K, filed 2026-02-26) These laws and regulations might not be similar to the laws and regulations administered by the FDA, and other laws and regulations regarding the protections of patient safety and privacy and the control of study pharmaceuticals, medical devices or other materials may apply.
+[6] (10-K, filed 2026-02-26) FDA laws and regulations may apply to clinical studies conducted outside the U.S. if, for example, such studies are conducted under an investigational new drug application ( IND ) or offered as support for an NDA.
+[7] (10-K, filed 2026-02-26) Prior to commencing human clinical trials in the U.S., a company developing a new drug must file an IND with the FDA.
+[8] (10-K, filed 2026-02-26) If the FDA does not object in writing within 30 days after filing, the IND becomes effective and the clinical trial may begin.
+[9] (10-K, filed 2026-02-26) The FDA will make a determination based on the prior mode of action as to which FDA center will take the lead on the review.
+[10] (10-K, filed 2026-02-26) For applications to the FDA, the FDA may require, or sponsors may voluntarily conduct, a fourth phase of clinical trials (phase IV) as a condition of approval or to obtain additional data on the product under investigation, respectively.
+[11] (10-K, filed 2026-02-26) The FDA s review may last from several months to several years.
+[12] (10-K, filed 2026-02-26) If an NDA/BLA is approved, the product may be marketed in the U.S., subject to any conditions imposed by the FDA as part of its approval.
+[13] (10-K, filed 2026-02-26) The FDA may require a Risk Evaluation and Mitigation Strategy ( REMS ).
+[14] (10-K, filed 2026-02-26) REMS may be required by the FDA for a product where serious safety concerns exist in order to help ensure the benefits of the product outweigh its risks.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-155,093 across 3 buys and 23 sales by 2 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $2,723,400,000, net income $-986,200,000, R&D $n/a, cash $174,600,000.
+Customer graph: federal awards $0 across 0 awards; 3 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

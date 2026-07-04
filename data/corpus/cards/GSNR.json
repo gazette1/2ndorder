@@ -1,0 +1,36 @@
+{
+  "cik": "0002025000",
+  "ticker": "GSNR",
+  "name": "Grayscale Near Trust (NEAR)",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-269337",
+    "filedAt": "2026-06-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2025000/000119312526269337/gsnr_s-1_amendment_1.htm"
+  },
+  "business": "Grayscale Near Trust (GSNR) is a grantor trust that holds NEAR tokens and issues shares representing fractional undivided beneficial interest. The trust's value derives from the price of NEAR, which is a digital asset on the Near Network. The trust may engage in staking of NEAR only if certain conditions (the Staking Condition) are satisfied.",
+  "sellsTo": [
+    "investors on NYSE Arca"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CoinDesk (Index Provider)",
+    "Custodian (unnamed in filing)"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "NEAR is a digital asset that is created and transmitted through the operations of the peer-to-peer Near Network, a decentralized network of computers that operates on cryptographic protocols."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "risk_mention",
+      "sentence": "The Trust will not be permitted to engage in Staking unless (and, then, only to the extent that) the Staking Condition is satisfied in addition to the Trust satisfying any additional requirements that may arise in connection with the satisfaction of the Staking Condition, which could negatively affect the value of the Shares."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:16:02.309Z",
+  "model": "deepseek-v4-flash"
+}

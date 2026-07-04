@@ -1,0 +1,46 @@
+{
+  "cik": "0001851491",
+  "ticker": "AMSS",
+  "name": "AMASS BRANDS",
+  "source": {
+    "form": "S-1",
+    "accession": "0001575872-26-000454",
+    "filedAt": "2026-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1851491/000157587226000454/amass028_s1.htm"
+  },
+  "business": "AMASS Brands sells alcoholic beverages, including wine and spirits, under the AMASS brand. It sells to retail customers through distributors and directly to consumers.",
+  "sellsTo": [
+    "Retailers (through distributors)",
+    "Direct-to-consumer"
+  ],
+  "namedCustomers": [
+    "Full Glass"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Demand for our products may be insufficient, consumers may prefer competing products, and we may be unable to produce and sell our products at profitable levels."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Our wine brands depend on the availability of agricultural raw materials, including grapes, which are sourced from third-party growers."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We rely on third parties to provide services essential to the success of our business, including warehousing, logistics, and fulfillment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our internal computer systems, or those of any of our manufacturers, contractors, consultants, collaborators or potential future collaborators, may fail or suffer security or data privacy breaches or other unauthorized or improper access to, use of, or destruction of our proprietary or confidential data, employee data or personal data, which could result in additional costs, loss of revenue, significant liabilities, harm to our brand and material disruption of our operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:10:17.426Z",
+  "model": "deepseek-v4-flash"
+}

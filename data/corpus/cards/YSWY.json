@@ -1,0 +1,77 @@
+{
+  "cik": "0001859836",
+  "ticker": "YSWY",
+  "name": "Yesway, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-044783",
+    "filedAt": "2026-04-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1859836/000110465926044783/tm2527636-13_s1a.htm"
+  },
+  "business": "Yesway is a U.S.-based convenience store operator that sells fuel, groceries, foodservice items, and private-label products primarily in rural and suburban markets across the Southwest and Midwest.",
+  "sellsTo": [
+    "rural and suburban consumers",
+    "local grocer customers",
+    "fuel shoppers",
+    "commercial fleet truck drivers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AMCON",
+    "Affiliated Foods",
+    "Valero",
+    "Alon",
+    "HF Sinclair"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "we also use third-party AI tools to complement our real estate experience and expertise in our new site selection and performance modeling."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "EV adoption is particularly slow in our current geography, a trend we believe insulates us from more dramatic long-term drops in demand for fuel."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence presents risks and challenges that can impact our business, including by posing security risks to our confidential information, proprietary information and Personal Information."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our private-label program generally allows us to cater to value-conscious customers by offering products at a discount to comparable national brand items while generating higher gross margins relative to national brands."
+    },
+    {
+      "tag": "other:foodservice",
+      "stance": "core_product",
+      "sentence": "Our Allsup's foodservice platform is a true destination offer, attracting customers to our stores specifically for our branded foodservice items."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of approximately six to eight new stores in 2026, with one already opened in Q1 2026",
+      "date": "2026-12-31",
+      "sentence": "We plan to open approximately 130 new stores over the next five years, including approximately six to eight new stores in 2026, which includes one store that was opened in the first quarter of 2026."
+    },
+    {
+      "event": "Sale of 29 stores in Iowa and Kansas closing",
+      "date": "2026-12-31",
+      "sentence": "we have signed an agreement to sell our 29 Yesway-branded stores in Iowa and Kansas and expect the transaction to close by the end of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The U.S. convenience retail industry generated $837.4 billion in total sales in 2024.",
+      "sentence": "The U.S. convenience retail industry generated $837.4 billion in total sales in 2024, according to NACS."
+    },
+    {
+      "claim": "There were approximately 152,000 convenience stores in the United States as of December 31, 2025.",
+      "sentence": "Of the approximately 152,000 stores in the United States as of December 31, 2025, 63% were controlled by operators with 10 stores or less, according to NACS."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:02:56.078Z",
+  "model": "deepseek-v4-flash"
+}

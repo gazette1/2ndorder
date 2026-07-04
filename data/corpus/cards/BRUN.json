@@ -1,0 +1,59 @@
+{
+  "cik": "0002090646",
+  "ticker": "BRUN",
+  "name": "Boost Run Inc.",
+  "source": {
+    "form": "S-1",
+    "accession": "0001493152-26-031923",
+    "filedAt": "2026-07-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/2090646/000149315226031923/forms-1.htm"
+  },
+  "business": "Boost Run Holdings provides high-performance GPU servers for AI and HPC workloads via rental agreements. It serves customers through its direct platform, third-party AI platforms, and GPU brokers. Its compute offerings are generally more affordable than major cloud providers.",
+  "sellsTo": [
+    "Enterprise AI workloads",
+    "AI platform providers",
+    "GPU brokers",
+    "Government and regulated industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Lenovo",
+    "Carahsoft",
+    "TierPoint",
+    "Lumen"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Boost Run Holdings owns, leases, and operates bare metal GPUs servers housed within top-tier certified data centers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Component supply constraints, power availability, and changes in data-center energy regulation could influence Boost Run Holdings ability to scale operations or maintain current pricing levels."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Component supply constraints, power availability, and changes in data-center energy regulation could influence Boost Run Holdings ability to scale operations or maintain current pricing levels."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The AI market expanded from $391 billion in 2025 to a projected $1.81 trillion by 2030, representing a compound annual growth rate of 27.67%.",
+      "sentence": "The AI market expanded from $391 billion in 2025 to a projected $1.81 trillion by 2030, representing a compound annual growth rate of 27.67%."
+    },
+    {
+      "claim": "Enterprise adoption accelerated from 55% of organizations utilizing AI in 2023 to 78% in 2024.",
+      "sentence": "Enterprise adoption accelerated from 55% of organizations utilizing AI in 2023 to 78% in 2024."
+    },
+    {
+      "claim": "Technology companies have announced capital expenditures exceeding $80 billion annually for AI infrastructure, with 70% allocated to AI servers.",
+      "sentence": "Technology companies have announced capital expenditures exceeding $80 billion annually for AI infrastructure, with 70% allocated to AI servers."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:02:00.573Z",
+  "model": "deepseek-v4-flash"
+}

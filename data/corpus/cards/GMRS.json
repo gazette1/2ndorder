@@ -1,0 +1,73 @@
+{
+  "cik": "0001898718",
+  "ticker": "GMRS",
+  "name": "GMR Solutions Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-059089",
+    "filedAt": "2026-05-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1898718/000110465926059089/tm2518736-23_s1a.htm"
+  },
+  "business": "GMR Solutions Inc. provides emergency and non-emergency medical transportation services, including ground and air ambulance, disaster response, and event medical services. It operates as a full-service national EMS provider delivering integrated solutions across patient acuity levels and use cases.",
+  "sellsTo": [
+    "communities",
+    "health systems",
+    "payors",
+    "government agencies"
+  ],
+  "namedCustomers": [
+    "FEMA (Federal Emergency Management Agency)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our Transport.Net platform, along with associated RapidCall and Concierge modules, provides health systems visibility into available resources and enables them to digitally request specific resources on-demand, significantly reducing the time to deploy."
+    },
+    {
+      "tag": "other:machine-learning",
+      "stance": "risk_mention",
+      "sentence": "our use or our third-party service providers or business partners use of Machine Learning Technologies and the evolving regulatory framework in this area could materially or adversely affect us;"
+    },
+    {
+      "tag": "other:cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity incidents could disrupt business operations, result in the unauthorized access to or disclosure or use of critical and other sensitive or regulated data and confidential information and adversely impact us;"
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our inability to attract and retain qualified and skilled personnel could adversely affect us;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Add approximately 15 new air bases",
+      "date": "2026",
+      "sentence": "For example, we intend to add approximately 15 new air bases in 2026."
+    },
+    {
+      "event": "Delivery of 38 new aircrafts",
+      "date": "2027",
+      "sentence": "We anticipate delivery of 38 new aircrafts between 2026 and 2027, the delivery of which is subject to the ability of aircraft manufacturers to deliver in accordance with schedule, which can be negatively impacted by various macro economic and geopolitical factors."
+    },
+    {
+      "event": "FAA Safety Management Systems (SMS) implementation deadline",
+      "date": "2027-05-28",
+      "sentence": "In May 2023, the FAA directed Part 135 operators to develop and implement Safety Management Systems ( SMS ), no later than May 28, 2027, that include safety policy, safety risk management, safety assurance, and safety promotion components."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Serviceable addressable market of $18-20 billion within a total addressable market of $35 billion.",
+      "sentence": "We are a leader across our markets, and we estimate our serviceable addressable market is approximately $18 to $20 billion (having grown from $14 billion in 2018) of a broader total addressable market of $35 billion."
+    },
+    {
+      "claim": "Serviceable addressable markets expected to grow at 5-7% CAGR through 2028.",
+      "sentence": "Our serviceable addressable markets emergent and non-emergent medical services, disaster response and event medical services are expected to grow at a CAGR of 5% to 7% through 2028 according to industry research."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:03:39.874Z",
+  "model": "deepseek-v4-flash"
+}

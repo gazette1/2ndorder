@@ -51,9 +51,19 @@ export const CONFIG = {
 
   // Enrichment (src/pipeline/enrich.ts), applied to the read set.
   enrich: {
-    // Form 4 look-back and a cap so a heavy filer does not stall the run.
+    // Form 4/5 look-back and a cap so a heavy filer does not stall the run.
     insiderMonths: 12,
     insiderMaxFilings: 60,
+  },
+
+  // Evidence layer look-backs and caps (src/lib/events, holders, governance).
+  evidence: {
+    eventsMonths: 12, // 8-K window
+    eventsMax: 10, // most recent material 8-Ks kept per name
+    holdersMonths: 18, // 13D/13G window; stakes go stale slower than events
+    holdersMax: 8,
+    releaseMaxChars: 9000, // per earnings press release fed to the language read
+    proxyMaxChars: 14000, // combined proxy excerpts fed to the governance read
   },
 
   // The SMID reality check: can the fund own it, and will it live. Every number

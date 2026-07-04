@@ -5,6 +5,7 @@ import { mapTickers } from './map.js';
 import { readFilings } from './read.js';
 import { score } from './score.js';
 import { load, save } from '../lib/store.js';
+import { macroContext } from '../lib/macro.js';
 import { fetchArticleText } from '../lib/article.js';
 import { llm } from '../lib/llm.js';
 import { articleScenarioPrompt } from '../prompts/decompose.js';
@@ -14,6 +15,14 @@ import { articleScenarioPrompt } from '../prompts/decompose.js';
 // data/runs/<slug>, so a failure can be resumed from the last completed stage.
 export async function runAll(slug: string, seed: string): Promise<void> {
   await decompose(slug, seed);
+  // Macro context (FRED, keyless): which published series bear on the scenario.
+  // Fails soft; a run without macro context is still a run.
+  try {
+    const macro = await macroContext(slug, seed);
+    if (macro) save(slug, 'macro', macro);
+  } catch {
+    // keyless endpoint hiccup; skip
+  }
   await mapTickers(slug);
   await enrich(slug);
   await readFilings(slug);

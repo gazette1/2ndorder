@@ -1,0 +1,52 @@
+{
+  "cik": "0001795851",
+  "ticker": "SWRD",
+  "name": "Stewards, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001663577-26-000199",
+    "filedAt": "2026-07-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1795851/000166357726000199/swrd_s1a5.htm"
+  },
+  "business": "Stewards, Inc. operates a private credit platform that provides merchant cash advances to small businesses. The company also has a real estate division that acquires and manages income-producing multifamily and commercial properties. The company is evaluating digital-asset technologies to potentially improve its operations and capital efficiency.",
+  "sellsTo": [
+    "Small businesses seeking capital",
+    "Residential and commercial tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "GCF Development, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "This stronger asset position improves lender confidence and provides flexibility in structuring credit facilities, ultimately enhancing net yields across our MCA originations and related credit activities."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our Real Estate Division, launched in 2025, focuses on acquiring and managing income-producing properties that complement our private credit platform."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Integration of Digital Asset Strategy within Private Credit The Company is evaluating the integration of digital-asset infrastructure within its Private Credit operations on a contingent and conditional basis only."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of Hawthorne acquisition",
+      "date": "2026-07-01",
+      "sentence": "Closing is expected to occur on or about July 1, 2026, subject to satisfaction of customary closing conditions and financing requirements."
+    },
+    {
+      "event": "Execution of Fifth Omnibus Amendment to extend maturity date of 1818 Park loan to August 1, 2026",
+      "date": "2026-08-01",
+      "sentence": "The Company and the lender have negotiated and prepared a Fifth Omnibus Amendment to Loan Documents that would extend the maturity date of the loan from June 1, 2026 to August 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:04:28.000Z",
+  "model": "deepseek-v4-flash"
+}

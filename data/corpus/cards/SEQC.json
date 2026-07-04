@@ -1,0 +1,60 @@
+{
+  "cik": "0001779977",
+  "ticker": "SEQC",
+  "name": "SeeQC, Inc.",
+  "source": {
+    "form": "S-1",
+    "accession": "0001213900-26-073222",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1779977/000121390026073222/ea0288470-02.htm"
+  },
+  "business": "SeeQC designs, develops, and manufactures quantum computing chips, firmware, and software for quantum system developers and integrators. The company's revenue is concentrated in a few customers and relies on government-funded programs. It faces significant technological barriers in producing chip solutions for quantum computers with high qubit counts and at high volume.",
+  "sellsTo": [
+    "quantum system developers",
+    "quantum integrators",
+    "government-funded programs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "We have not produced chip solutions for quantum computers with high qubit counts or at high volume and face significant barriers in our attempts to produce such chip solutions, including the need to invent and develop new technology."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "Our chip solutions may fail to meet customer system roadmap, performance and system integration specification requirements which could harm our business."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "If our chip solutions fail to enable our customers to achieve quantum advantage, our business, financial condition and future prospects may be harmed."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "The quantum computing industry is competitive on a global scale and we may not be successful in competing in this industry or establishing and maintaining confidence in our long -term business prospects among current and future partners and customers."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "The quantum computing industry is in its early stages and volatile, and if it does not develop, if it develops slower than we expect, if it develops in a manner that does not require use of our quantum computing solutions, if it encounters negative publicity or if its solution does not drive commercial engagement, the growth of our business will be harmed."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "We and several customers and partners using and/or co -developing our technology, to some extent, rely on government funded programs."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our ability to scale is dependent also upon components we must source from multiple industries including: from the electronics and semi -conductor industries with CPUs, GPUs, FPGAs, radio frequency (RF) electronics and components; from the cryogenic industry with dilution refrigerators and associated helium gas products, cryogenic RF electronics and components; and from the semiconductor industry with silicon wafers and other specialty materials, tooling and measurement equipment."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:15:30.810Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,39 @@
+{
+  "cik": "0001974044",
+  "ticker": "MNY",
+  "name": "MoneyHero Ltd",
+  "source": {
+    "form": "20-F",
+    "accession": "0001213900-26-049733",
+    "filedAt": "2026-04-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1974044/000121390026049733/ea0287136-20f_moneyhero.htm"
+  },
+  "business": "MoneyHero Ltd operates online comparison platforms for banking, insurance and other financial products, and provides advertising and marketing services and insurance brokerage services.",
+  "sellsTo": [
+    "Consumers comparing financial products",
+    "Businesses seeking advertising and marketing services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company and its subsidiaries (collectively, the Group) is primarily involved in the operation of online comparison platforms for banking, insurance and other financial products, the provision of advertising and marketing services and insurance brokerage services."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company and its subsidiaries (collectively, the Group) is primarily involved in the operation of online comparison platforms for banking, insurance and other financial products, the provision of advertising and marketing services and insurance brokerage services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failures, defects, errors, vulnerabilities in our systems or data (or those of our third parties with whom we work) or other compromise could adversely affect our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:09:44.342Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,80 @@
+{
+  "cik": "0002021728",
+  "ticker": "CBRS",
+  "name": "Cerebras Systems Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-033143",
+    "filedAt": "2026-05-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026033143/cerebras-sx1a2.htm"
+  },
+  "business": "Cerebras Systems sells AI infrastructure, including wafer-scale processors (WSE) and supercomputers for training and inference, delivered via on-premises deployments, cloud services, and partner clouds to hyperscalers, foundation model labs, enterprises, and sovereign AI initiatives.",
+  "sellsTo": [
+    "hyperscalers",
+    "foundation model labs",
+    "AI-native and digital-native businesses",
+    "enterprises",
+    "sovereign AI initiatives"
+  ],
+  "namedCustomers": [
+    "OpenAI",
+    "AWS",
+    "G42",
+    "MBZUAI"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are building the fastest AI infrastructure in the world."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "At the core of our solution is the Cerebras WSE, the largest and fastest AI processor ever brought to market in high volumes."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We expect to significantly increase our investments in cloud infrastructure and data centers to enable growth in our inference service."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our on-premises customers include large enterprises, national laboratories, the U.S. Department of Defense, and Sovereign AI initiatives."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Signed binding term sheet with AWS to deploy Cerebras in AWS data centers",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, we signed a term sheet with AWS, under which AWS will become the first hyperscaler to deploy Cerebras in its own data centers."
+    },
+    {
+      "event": "Entered into Master Revenue Agreement (MRA) with OpenAI",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we entered into the MRA with OpenAI, which represents a substantial portion of our projected revenues over the next several years."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The combined market for AI training infrastructure and our addressable market within AI inference is estimated to be $251 billion in 2025 and is expected to grow to $672 billion by 2029 a 28% CAGR, according to Bloomberg Intelligence.",
+      "sentence": "The combined market for AI training infrastructure and our addressable market within AI inference is estimated to be $251 billion in 2025 and is expected to grow to $672 billion by 2029 a 28% CAGR, according to Bloomberg Intelligence."
+    },
+    {
+      "claim": "According to Bloomberg Intelligence, our addressable market within the AI inference market is expected to grow from approximately $66 billion in 2025 to $292 billion by 2029, a 45% CAGR.",
+      "sentence": "According to Bloomberg Intelligence, our addressable market within the AI inference market is expected to grow from approximately $66 billion in 2025 to $292 billion by 2029, a 45% CAGR."
+    },
+    {
+      "claim": "According to Dell Oro Group, worldwide data center infrastructure capital expenditures are expected to grow from $679 billion in 2025 to $1.7 trillion by 2030, representing a 21% CAGR.",
+      "sentence": "According to Dell Oro Group, worldwide data center infrastructure capital expenditures are expected to grow from $679 billion in 2025 to $1.7 trillion by 2030, representing a 21% CAGR."
+    },
+    {
+      "claim": "The AI training infrastructure market is expected to grow from approximately $185 billion in 2025 to $380 billion by 2029, a 20% CAGR, according to Bloomberg Intelligence.",
+      "sentence": "The AI training infrastructure market is expected to grow from approximately $185 billion in 2025 to $380 billion by 2029, a 20% CAGR, according to Bloomberg Intelligence."
+    }
+  ],
+  "generatedAt": "2026-07-04T18:48:03.226Z",
+  "model": "deepseek-v4-flash"
+}

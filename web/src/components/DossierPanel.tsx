@@ -6,6 +6,12 @@ const PROVENANCE_LABELS: Record<Provenance, string> = {
   sec_xbrl: 'SEC XBRL',
   usaspending: 'USASpending.gov',
   sec_fts: 'SEC full-text',
+  sec_8k: 'SEC 8-K',
+  sec_8k_ex99: 'SEC 8-K EX-99',
+  sec_13dg: 'SEC 13D/G',
+  sec_def14a: 'SEC DEF 14A',
+  fred: 'FRED',
+  job_board: 'job board',
   finnhub: 'Finnhub',
   fmp: 'FMP',
   yahoo: 'Yahoo (delayed)',
@@ -21,10 +27,11 @@ const ACTION_LABELS: Record<string, string> = {
 };
 
 const TX_CAP = 8;
+const EVENT_CAP = 5;
 
 function SourceTag({ provenance }: { provenance: Provenance }) {
   const cls = provenance === 'stub' ? 'source-tag mono is-stub' : 'source-tag mono';
-  return <span className={cls}>{PROVENANCE_LABELS[provenance]}</span>;
+  return <span className={cls}>{PROVENANCE_LABELS[provenance] ?? provenance}</span>;
 }
 
 interface Props {
@@ -59,6 +66,17 @@ export function DossierPanel({ dossier, read }: Props) {
   const topAwards = [...customers.govAwards]
     .sort((a, b) => b.amountUSD - a.amountUSD)
     .slice(0, 3);
+
+  // Evidence layer. Each block renders only when its data exists, so runs made
+  // before these fields existed show no extra headers.
+  const signalEvents = (dossier.events ?? []).filter((e) => e.signal).slice(0, EVENT_CAP);
+  const namedHolders = (dossier.holders ?? []).filter((h) => h.holder !== null);
+  const governance = dossier.governance ?? null;
+  const earnLang =
+    dossier.earningsLanguage && dossier.earningsLanguage.emphasis !== null
+      ? dossier.earningsLanguage
+      : null;
+  const hiring = dossier.hiring ?? null;
 
   // Distinct filing documents for this ticker, from the read quotes. Deduped by
   // URL, most recent first. These are the primary source documents at SEC.
@@ -378,6 +396,139 @@ export function DossierPanel({ dossier, read }: Props) {
           )}
         </div>
       </div>
+
+      {/* Events (material 8-K items) */}
+      {signalEvents.length > 0 && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Events</h4>
+            <SourceTag provenance="sec_8k" />
+          </div>
+          <ul className="evt-list">
+            {signalEvents.map((e, i) => (
+              <li key={e.accession + i} className="evt-row">
+                <span className="evt-date mono">{fmtDateShort(e.filedAt)}</span>
+                <span className="evt-items">
+                  {e.items.map((it) => it.label).join(', ')}
+                </span>
+                <a href={e.url} target="_blank" rel="noreferrer" className="mono">
+                  8-K
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Holders (13D/13G stake disclosures) */}
+      {namedHolders.length > 0 && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Holders</h4>
+            <SourceTag provenance="sec_13dg" />
+          </div>
+          <ul className="holder-list">
+            {namedHolders.map((h, i) => (
+              <li key={h.url + i} className="holder-row">
+                <span className="holder-name">
+                  <a href={h.url} target="_blank" rel="noreferrer">
+                    {h.holder}
+                  </a>
+                </span>
+                {h.percent !== null && (
+                  <span className="holder-pct mono">{h.percent.toFixed(1)}%</span>
+                )}
+                {h.activist && (
+                  <span
+                    className="holder-tag mono"
+                    title="13D reserves the right to push for change; 13G is passive"
+                  >
+                    13D
+                  </span>
+                )}
+                <span className="evt-date mono">{fmtDateShort(h.filedAt)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Proxy (DEF 14A) */}
+      {governance && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Proxy</h4>
+            <SourceTag provenance={governance.provenance} />
+          </div>
+          {governance.ceoCompUSD !== null && (
+            <div className="cust-line">
+              <span className="cust-label">CEO comp:</span>{' '}
+              <span className="mono">{fmtUSD(governance.ceoCompUSD)}</span>
+            </div>
+          )}
+          {governance.relatedParty && (
+            <div className="cust-line">
+              <span className="cust-label">Related party:</span> {governance.relatedParty}
+            </div>
+          )}
+          {governance.notes && (
+            <div className="cust-line">
+              <span className="cust-label">Notes:</span> {governance.notes}
+            </div>
+          )}
+          <div className="cust-line">
+            <a href={governance.proxyUrl} target="_blank" rel="noreferrer">
+              DEF 14A
+            </a>
+            , filed {fmtDateShort(governance.filedAt)}
+          </div>
+        </div>
+      )}
+
+      {/* Earnings language (8-K press releases) */}
+      {earnLang && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Earnings language</h4>
+            <SourceTag provenance={earnLang.provenance} />
+          </div>
+          <p className="earnlang-line">{earnLang.emphasis}</p>
+          {earnLang.drift && <p className="earnlang-line">{earnLang.drift}</p>}
+          {earnLang.hedges.length > 0 && (
+            <div className="hedge-chips">
+              {earnLang.hedges.map((h, i) => (
+                <span key={i} className="hedge-chip mono">
+                  "{h}"
+                </span>
+              ))}
+            </div>
+          )}
+          <p className="street-caveat">
+            Read from press releases filed as 8-K exhibits, not call transcripts.
+          </p>
+        </div>
+      )}
+
+      {/* Hiring (public job board) */}
+      {hiring && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Hiring</h4>
+            <SourceTag provenance={hiring.provenance} />
+          </div>
+          <div className="cust-line">
+            <span className="mono">{hiring.openRoles}</span> open role
+            {hiring.openRoles === 1 ? '' : 's'}
+            {hiring.topDepartments.length > 0 && (
+              <>: {hiring.topDepartments.join(', ')}</>
+            )}
+          </div>
+          <p className="street-caveat">
+            Public job board (Greenhouse or Lever). No board found means no data, not no
+            hiring.
+          </p>
+        </div>
+      )}
 
       {/* SEC filings (primary source documents) */}
       {filings.length > 0 && (

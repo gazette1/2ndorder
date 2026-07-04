@@ -1,0 +1,43 @@
+{
+  "cik": "0002089283",
+  "ticker": "NUCL",
+  "name": "Eagle Nuclear Energy Corp.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-047040",
+    "filedAt": "2026-04-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/2089283/000110465926047040/tmb-20260228xs1a.htm"
+  },
+  "business": "New Eagle is a next-generation nuclear energy company that seeks to combine domestic uranium exploration and development with proprietary small modular reactor (SMR) technology. It owns the largest mineable, measured and indicated uranium deposit in the United States, referred to as the Aurora Uranium Project, and its SMR technology is developed under an exclusive license agreement with UNMRI. New Eagle's mission is to supply uranium to the growing nuclear energy industry and play a leading role in the global transition to clean, reliable, and affordable energy.",
+  "sellsTo": [
+    "energy producers",
+    "utilities",
+    "nuclear fuel fabricators",
+    "advanced reactor developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "UNMRI (University of New Mexico)"
+  ],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "New Eagle is a next-generation nuclear energy company that seeks to combine domestic uranium exploration and development with proprietary small modular reactor (SMR) technology."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "New Eagle owns the largest mineable, measured and indicated uranium deposit in the United States, referred to as the Aurora Uranium Project."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "New Eagle is committed to meeting rising demand for resilient, cost-effective energy and supporting advanced computing and artificial intelligence by providing uranium for both traditional nuclear reactors and the SMRs it plans to develop."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:06:27.842Z",
+  "model": "deepseek-v4-flash"
+}

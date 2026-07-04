@@ -1,0 +1,40 @@
+You are an equity analyst reading SEC filing excerpts for Aeluma, Inc. (ALMU). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Cleanroom equipment and HVAC suppliers for pharma facilities (order 2, beneficiary). Mechanism: New pharma construction projects require controlled-environment infrastructure, driving orders for laminar flow systems, HEPA filtration, and specialized HVAC. Node logic: Each facility needs cleanrooms for API and finished dose production. These systems are high-ticket items with significant engineering content. The suppliers often have long lead times, so a surge in orders results in backlog growth and potential pricing power. Their work is mandated by regulatory requirements, making it non-discretionary.
+8-K filings in the last 12 months: 11
+
+Excerpts:
+[0] (8-K, filed 2025-08-08) Aeluma is developing a streamlined business model from its headquarters in Santa Barbara, California that has a state-of-the-art manufacturing cleanroom.
+[1] (10-K, filed 2025-09-09) We operate in a 9,000 sq. ft. facility with a state-of-the-art research and development (R&D)/manufacturing cleanroom and access to world-class rapid prototyping capabilities.
+[2] (10-K, filed 2025-09-09) Aeluma is based in Goleta, California, where we operate in a 9,000 sq. ft. facility with a state-of-the-art R&D/manufacturing cleanroom and access to world-class rapid prototyping capabilities.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-2,827,305 across 0 buys and 1 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-06-30): revenue $4,665,000, net income $-3,022,000, R&D $1,295,000, cash $3,628,000.
+Customer graph: federal awards $5,015,899 across 9 awards (top agency Department of Defense); 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

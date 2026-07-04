@@ -1,0 +1,57 @@
+{
+  "cik": "0002109801",
+  "ticker": "VAT",
+  "name": "VARSAL TECH, INC.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001493152-26-031369",
+    "filedAt": "2026-07-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/2109801/000149315226031369/forms-1a.htm"
+  },
+  "business": "VARSAL TECH, INC. develops and supplies ISO-certified and GMP-compliant chemicals, intermediates, and customized product solutions supported by proprietary know-how. The company serves a diversified and global customer base in the pharmaceutical, electronics, industrial, personal care, and research markets.",
+  "sellsTo": [
+    "pharmaceutical",
+    "electronics",
+    "industrial",
+    "personal care",
+    "research"
+  ],
+  "namedCustomers": [
+    "Customer A",
+    "Customer B",
+    "Customer C"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We develop and supply ISO-certified and GMP-compliant chemicals, intermediates and other customized product solutions supported by proprietary know-how and deep domain and product expertise."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We anticipate that pharmaceutical intermediates will continue to represent the substantial majority of our revenues."
+    },
+    {
+      "tag": "other:electronics-chemicals",
+      "stance": "active_investment",
+      "sentence": "Our goal is to establish production of higher-value sulfonyl and other derivatives tailored to advanced electronics and pharmaceutical applications and other high-end industries, positioning us to move further up the value chain."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Customer B expected to resume purchases",
+      "date": null,
+      "sentence": "We expect Customer B to purchase further products during the fourth quarter of fiscal year 2026 and the first quarter of fiscal year 2027."
+    },
+    {
+      "event": "Ordering pattern normalization",
+      "date": null,
+      "sentence": "We expect the ordering pattern to normalize in the third and fourth quarters of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:13:48.034Z",
+  "model": "deepseek-v4-flash"
+}

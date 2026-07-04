@@ -73,3 +73,58 @@ export function extractSections(text: string): Sections {
     mdna: slice(mdna.start, mdna.end, CAPS.mdna),
   };
 }
+
+// S-1/S-11 prospectuses have no item numbers; they use named headings. Recent
+// IPOs live here before their first 10-K, and the disclosures are unusually
+// candid (unit economics, risks) before investor-relations polish sets in.
+//
+// Two traps in flattened prospectus text: table-of-contents rows keep their dot
+// leaders ("Risk factors ...... 27"), and prospectus-summary cross-references
+// repeat every heading. A real heading is followed by prose, not by dots.
+const PROSPECTUS = {
+  risk: [/risk\s+factors/gi],
+  // Entity-stripped apostrophes leave "Management s Discussion" in flat text.
+  mdna: [/management[\s'’]{0,2}s\s+discussion\s+and\s+analysis\s+of\s+financial/gi],
+  // The Business section usually follows MD&A and opens with a mission or
+  // overview line. Requiring that next word keeps mid-sentence "business" out.
+  business: [/\bbusiness\s+(?:overview|our\s+mission|our\s+company|we\s|introduction)/gi],
+  afterBusiness: [/executive\s+compensation/gi, /\bmanagement\s+(?:the\s+following|our\s+board|executive\s+officers)/gi, /certain\s+relationships/gi],
+};
+
+// First heading match followed by prose rather than a dot-leader TOC row, whose
+// span to the end marker looks like a real section.
+function prospectusSpan(text: string, startPats: RegExp[], endPats: RegExp[], from: number): { start: number; end: number } {
+  let searchFrom = from;
+  for (let attempt = 0; attempt < 12; attempt++) {
+    const start = findItem(text, startPats, searchFrom);
+    if (start === -1) return { start: -1, end: -1 };
+    const lookahead = text.slice(start, start + 320);
+    if (/\.{4,}/.test(lookahead)) {
+      searchFrom = start + 20; // TOC row or summary index; move past it
+      continue;
+    }
+    const end = findItem(text, endPats, start + 8);
+    if (end === -1) return { start, end: -1 };
+    if (end - start >= MIN_SECTION) return { start, end };
+    searchFrom = end;
+  }
+  return { start: -1, end: -1 };
+}
+
+export function extractProspectusSections(text: string): Sections {
+  const from = Math.floor(text.length * 0.03);
+
+  // Prospectus order: summary, risk factors, MD&A, business, management.
+  const risk = prospectusSpan(text, PROSPECTUS.risk, PROSPECTUS.mdna, from);
+  const mdna = prospectusSpan(text, PROSPECTUS.mdna, [...PROSPECTUS.business, ...PROSPECTUS.afterBusiness], risk.end > -1 ? risk.end : from);
+  const biz = prospectusSpan(text, PROSPECTUS.business, PROSPECTUS.afterBusiness, mdna.end > -1 ? mdna.end : risk.end > -1 ? risk.end : from);
+
+  const slice = (start: number, end: number, cap: number) =>
+    start === -1 ? '' : text.slice(start, end === -1 ? start + cap : Math.min(end, start + cap)).trim();
+
+  return {
+    business: slice(biz.start, biz.end, CAPS.business),
+    riskFactors: slice(risk.start, risk.end, CAPS.riskFactors),
+    mdna: slice(mdna.start, mdna.end, CAPS.mdna),
+  };
+}

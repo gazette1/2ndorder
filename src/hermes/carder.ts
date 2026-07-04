@@ -4,7 +4,7 @@ import { CONFIG } from '../config.js';
 import { docUrl, fetchDocText, submissions } from '../lib/edgar.js';
 import { llm } from '../lib/llm.js';
 import { cardPrompt } from './prompts.js';
-import { extractSections } from './sections.js';
+import { extractProspectusSections, extractSections } from './sections.js';
 import { cardFilename } from './card.js';
 import type { CompanyCard } from './card.js';
 
@@ -33,18 +33,27 @@ function saveCard(card: CompanyCard) {
 export async function cardCompany(cik: string, ticker: string, name: string): Promise<CompanyCard | null> {
   const subs = await submissions(cik);
   const r = subs.recent;
-  const idx = r.form.findIndex((f) => f === '10-K');
+  // Annual report first (10-K, or 20-F for foreign private issuers). A recent
+  // IPO has neither yet; its S-1/S-11 prospectus carries the same three
+  // sections under named headings, often more candidly.
+  let idx = r.form.findIndex((f) => f === '10-K' || f === '20-F');
+  let sourceForm: string = idx > -1 ? r.form[idx] : '';
   if (idx === -1) {
-    console.warn(`[hermes] ${ticker}: no 10-K in recent filings, skipping`);
+    idx = r.form.findIndex((f) => f === 'S-1' || f === 'S-1/A' || f === 'S-11' || f === 'S-11/A');
+    sourceForm = idx > -1 ? r.form[idx] : '';
+  }
+  if (idx === -1) {
+    console.warn(`[hermes] ${ticker}: no 10-K, 20-F, or S-1 in recent filings, skipping`);
     return null;
   }
+  const isProspectus = sourceForm.startsWith('S-1');
   const accession = r.accessionNumber[idx];
   const doc = r.primaryDocument[idx];
   const text = await fetchDocText(cik, accession, doc);
-  const sections = extractSections(text);
+  const sections = isProspectus ? extractProspectusSections(text) : extractSections(text);
   const found = [sections.business, sections.riskFactors, sections.mdna].filter(Boolean).length;
   if (!found) {
-    console.warn(`[hermes] ${ticker}: no sections extracted from ${accession}, skipping`);
+    console.warn(`[hermes] ${ticker}: no sections extracted from ${sourceForm} ${accession}, skipping`);
     return null;
   }
 
@@ -54,7 +63,7 @@ export async function cardCompany(cik: string, ticker: string, name: string): Pr
     cik,
     ticker,
     name,
-    source: { form: '10-K', accession, filedAt: r.filingDate[idx], url: docUrl(cik, accession, doc) },
+    source: { form: sourceForm, accession, filedAt: r.filingDate[idx], url: docUrl(cik, accession, doc) },
     business: String(parsed.business ?? ''),
     sellsTo: parsed.sellsTo ?? [],
     namedCustomers: parsed.namedCustomers ?? [],

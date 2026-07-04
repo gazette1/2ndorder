@@ -1,0 +1,40 @@
+{
+  "cik": "0002035053",
+  "ticker": "GAVA",
+  "name": "Grayscale Avalanche Staking ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-096950",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/2035053/000119312526096950/avax_s-1_amendment_6.htm"
+  },
+  "business": "Grayscale Avalanche Staking ETF is a grantor trust that holds AVAX and stakes it through Staking Providers to earn staking rewards. The Trust issues shares that trade on NASDAQ under the symbol GAVA. The Trust's only ordinary recurring expense is the Sponsor's Fee.",
+  "sellsTo": [
+    "Authorized Participants (registered broker-dealers)",
+    "Shareholders"
+  ],
+  "namedCustomers": [
+    "Jane Street Capital, LLC",
+    "Macquarie Capital (USA) Inc",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "CoinDesk"
+  ],
+  "exposures": [
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "The Sponsor, on behalf of the Trust, has entered into Staking Arrangements with the Custodian to stake the Trust's AVAX to one or more Staking Providers through Provider-Facilitated Staking."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "The value of the Shares relates directly to the value of AVAX held by the Trust, the value of which may be highly volatile and subject to fluctuations;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:16:25.561Z",
+  "model": "deepseek-v4-flash"
+}

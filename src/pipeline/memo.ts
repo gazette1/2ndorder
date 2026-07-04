@@ -3,7 +3,7 @@ import path from 'node:path';
 import { load, runDir } from '../lib/store.js';
 import { CONFIG } from '../config.js';
 import rubric from '../rubric.json' with { type: 'json' };
-import type { Candidate, ChainNode, Decomposition, Dossier, Read, Thesis } from '../types.js';
+import type { Candidate, ChainNode, Decomposition, Dossier, MacroContext, Read, Thesis } from '../types.js';
 
 // The IC memo: one self-contained HTML document per run, print-to-PDF ready.
 // Scenario, the consequence map, the ranked list, then the theses with their
@@ -84,6 +84,13 @@ export function buildMemo(slug: string): string {
   const dossiers = load<Dossier[]>(slug, 'dossiers');
   const scores = load<Record<string, number>>(slug, 'scores');
   const theses = load<Thesis[]>(slug, 'theses');
+  const macro = (() => {
+    try {
+      return load<MacroContext>(slug, 'macro');
+    } catch {
+      return null;
+    }
+  })();
 
   const nodeById = new Map(nodes.map((n) => [n.id, n]));
   const inBand = candidates.filter((c) => c.status === 'in_band');
@@ -144,6 +151,76 @@ export function buildMemo(slug: string): string {
     })
     .join('\n<hr />\n');
 
+  const macroSection = macro
+    ? `<h2>Macro context</h2>
+<table>
+<tr><th>Series</th><th>Latest</th><th>As of</th><th>Year over year</th></tr>
+${macro.series
+  .map(
+    (s) =>
+      `<tr><td>${esc(s.label)} <span class="mono muted">${esc(s.id)}</span></td><td>${s.latest}</td><td>${esc(s.asof)}</td><td>${
+        s.yoyPct !== null ? s.yoyPct + ' percent' : 'n/a'
+      }</td></tr>`,
+  )
+  .join('\n')}
+</table>
+<p class="meta">${esc(macro.note)}</p>`
+    : '';
+
+  // Per-name evidence appendix: material 8-Ks, significant holders, proxy read,
+  // earnings-release language, hiring. All free primary or near-primary sources.
+  const evidenceSections = [...reads]
+    .sort((a, b) => (scores[b.ticker] ?? 0) - (scores[a.ticker] ?? 0))
+    .map((r) => {
+      const d = dossiers.find((x) => x.ticker === r.ticker);
+      if (!d) return '';
+      const parts: string[] = [];
+      const signalEvents = (d.events ?? []).filter((e) => e.signal).slice(0, 5);
+      if (signalEvents.length) {
+        parts.push(
+          `<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul>${signalEvents
+            .map((e) => `<li>${esc(e.filedAt)}: ${esc(e.items.map((i) => i.label).join(', '))} (<a href="${esc(e.url)}">filing</a>)</li>`)
+            .join('')}</ul>`,
+        );
+      }
+      const holders = (d.holders ?? []).filter((h) => h.holder);
+      if (holders.length) {
+        parts.push(
+          `<p><strong>Significant holders (13D/13G).</strong> ${holders
+            .map((h) => `${esc(h.holder!)}${h.percent !== null ? ` ${h.percent} percent` : ''}${h.activist ? ' (13D, active intent)' : ''}`)
+            .join('; ')}.</p>`,
+        );
+      }
+      const g = d.governance;
+      if (g && (g.ceoCompUSD || g.relatedParty || g.notes)) {
+        const bits = [
+          g.ceoCompUSD ? `CEO total comp ${money(g.ceoCompUSD)}` : null,
+          g.relatedParty,
+          g.notes,
+        ].filter(Boolean);
+        parts.push(`<p><strong>Proxy (DEF 14A, filed ${esc(g.filedAt)}).</strong> ${esc(bits.join(' '))} <a href="${esc(g.proxyUrl)}">Proxy</a>.</p>`);
+      }
+      const lang = d.earningsLanguage;
+      if (lang?.emphasis) {
+        parts.push(
+          `<p><strong>Earnings release language${lang.releasesRead > 1 ? ', two most recent' : ''}.</strong> ${esc(lang.emphasis)}${
+            lang.drift ? ' ' + esc(lang.drift) : ''
+          }${lang.hedges.length ? ` Recurring hedges: ${esc(lang.hedges.map((h) => `"${h}"`).join(', '))}.` : ''} <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>`,
+        );
+      }
+      if (d.hiring) {
+        parts.push(
+          `<p><strong>Hiring.</strong> ${d.hiring.openRoles} open roles on the company job board${
+            d.hiring.topDepartments.length ? `, led by ${esc(d.hiring.topDepartments.join(', '))}` : ''
+          }.</p>`,
+        );
+      }
+      if (!parts.length) return '';
+      return `<h3 class="mono">${esc(r.ticker)}</h3>\n${parts.join('\n')}`;
+    })
+    .filter(Boolean)
+    .join('\n');
+
   const weights = Object.entries(rubric.weights)
     .map(([k, w]) => `<tr><td>${esc(k)}</td><td>${w}</td><td class="muted">${esc((rubric.definitions as any)[k] ?? '')}</td></tr>`)
     .join('\n');
@@ -184,11 +261,15 @@ export function buildMemo(slug: string): string {
 ${mapRows}
 </table>
 
+${macroSection}
+
 <h2>Ranked names</h2>
 <table>
 <tr><th>Ticker</th><th>Company</th><th>Map node</th><th>Mkt cap</th><th>Exposure</th><th>Insider net 12m</th><th>Composite</th><th>Reality flags</th></tr>
 ${ranked}
 </table>
+
+${evidenceSections ? `<h2>Company evidence</h2>\n${evidenceSections}` : ''}
 
 <h2>Rubric</h2>
 <table>

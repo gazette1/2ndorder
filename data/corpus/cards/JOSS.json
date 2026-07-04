@@ -1,0 +1,47 @@
+{
+  "cik": "0002067746",
+  "ticker": "JOSS",
+  "name": "JOSS Realty REIT, Inc.",
+  "source": {
+    "form": "S-11/A",
+    "accession": "0001829126-26-003457",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/2067746/000182912626003457/jossrealtyreit_s11a6.htm"
+  },
+  "business": "JOSS Realty REIT, Inc. is a real estate investment trust that owns and operates a portfolio of multi-tenant office properties leased to commercial tenants. The company generates revenue primarily through leasing office space to tenants in various industries. As of December 31, 2025, the portfolio consisted of three office properties with approximately 76% leased.",
+  "sellsTo": [
+    "commercial tenants",
+    "office space lessees"
+  ],
+  "namedCustomers": [
+    "Weston & Sampson Engineers, Inc.",
+    "National Philanthropic Trust",
+    "Reading Co-Operative Bank",
+    "Eliassen Group",
+    "Cannon Cochran Management Services, Inc.",
+    "Wells Fargo"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:office-real-estate",
+      "stance": "core_product",
+      "sentence": "Our portfolio consists primarily of multi-tenant leased office properties and we are dependent on our tenants for substantially all of our revenue."
+    },
+    {
+      "tag": "other:geographic-concentration",
+      "stance": "risk_mention",
+      "sentence": "As of December 31, 2025, all of our ABR came from commercial office properties in certain states and MSAs: Philadelphia, Northern California, and Boston."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of new premises to Cannon Cochran Management Services, Inc. following lease amendment",
+      "date": "2026-06-30",
+      "sentence": "The Delivery Date is expected to occur in the second quarter of 2026, and accordingly, this replacement lease is not reflected in the calculations below."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:14:23.711Z",
+  "model": "deepseek-v4-flash"
+}

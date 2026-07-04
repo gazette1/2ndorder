@@ -1,0 +1,73 @@
+{
+  "cik": "0002086716",
+  "ticker": "STDN",
+  "name": "Standard Nuclear, Inc.",
+  "source": {
+    "form": "S-1",
+    "accession": "0001213900-26-070215",
+    "filedAt": "2026-06-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/2086716/000121390026070215/ea0276071-09.htm"
+  },
+  "business": "Standard Nuclear designs, engineers, and manufactures advanced nuclear fuels with a primary focus on TRISO fuel utilized by Advanced Reactors. The company operates the only dedicated, privately funded, industrial scale TRISO production line in the United States and does not design, own or operate nuclear reactors. Its business model is based on long-term fuel supply arrangements under which customers deliver feedstock and purchase finished fuel products.",
+  "sellsTo": [
+    "Developers of Advanced Reactors (SMRs and microreactors)",
+    "Federal agencies (DOE, Department of War, NASA) pursuing HALEU-fueled demonstration reactors and mobile microreactor systems"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Standard Nuclear is a leading independent advanced nuclear fuel company and the only company in the United States with industrial -scale TRISO manufacturing facilities to date, based on our commercialized manufacturing capability supported by production -grade equipment, established processes, and facility infrastructure designed for sustained, high -throughput output and scalable expansion."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "According to the Wood Mackenzie Report, data center growth alone may increase overall U.S. electricity demand growth from approximately 1% per year to approximately 3% per year, supported by an estimated $700 billion of hyperscaler capital expenditure commitments in 2026."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In particular, next -generation AI training clusters and large -scale inference deployments require sustained, high -density electricity supply."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Oak Ridge SN -TN and Idaho SN -ID facilities expected to come online in second half of 2026",
+      "date": "2026-07-01",
+      "sentence": "We anticipate bringing our Oak Ridge SN -TN and Idaho SN -ID facilities online in the second half of 2026, both upon completion of a readiness review for each facility conducted in accordance with applicable DOE requirements."
+    },
+    {
+      "event": "Richland SN -F Facility planned to commence manufacturing in 2027",
+      "date": "2027-01-01",
+      "sentence": "The joint venture plans to commence manufacturing at the Richland SN -F Facility in 2027, pending receipt of regulatory approvals by the NRC and final equipment installation."
+    },
+    {
+      "event": "NRC approval of LAR targeted for summer 2026",
+      "date": "2026-06-01",
+      "sentence": "The LAR has been accepted for review, and is targeted to be finalized in the summer of 2026, subject to the NRC's completion of its review."
+    },
+    {
+      "event": "Target of up to 40 MTU aggregate run-rate TRISO production capacity expected no earlier than 2030",
+      "date": "2030-12-31",
+      "sentence": "Our plans for our Oak Ridge, Idaho Falls and Richland facilities are part of our broader scaling strategy to target up to 40 MTU of aggregate run -rate TRISO production capacity, which we expect to achieve no earlier than 2030, unless additional demand materializes earlier and results in an acceleration of our business plan."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market (TAM) of approximately 11.5 GWe per year of TRISO fuel for advanced reactor deployments by 2035.",
+      "sentence": "We also estimate a total addressable market (TAM) of approximately 11.5 GWe per year of TRISO fuel for advanced reactor deployments by 2035."
+    },
+    {
+      "claim": "Cumulative dollar-denominated TAM through 2030 will be over $4 billion.",
+      "sentence": "Applying our assumption of TRISO fuel pricing at approximately $50 – $80 million per MTU and approximately 16 MTU of TRISO fuel per GWe, based on the blended average fuel requirement across the mix of Advanced Reactor types management expects to be deployed at that time, we believe our cumulative dollar -denominated TAM through 2030 will be over $4 billion."
+    },
+    {
+      "claim": "Cumulative serviceable addressable market (SAM) opportunity approximately $3.2 billion through 2030.",
+      "sentence": "Furthermore, we estimate our cumulative serviceable addressable market (SAM) opportunity to be approximately $3.2 billion, representing approximately three quarters of the estimated TAM through 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:14:14.505Z",
+  "model": "deepseek-v4-flash"
+}

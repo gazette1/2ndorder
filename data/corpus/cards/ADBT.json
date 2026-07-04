@@ -1,0 +1,45 @@
+{
+  "cik": "0002084227",
+  "ticker": "ADBT",
+  "name": "Advasa Holdings, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001493152-26-030005",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2084227/000149315226030005/forms-1a.htm"
+  },
+  "business": "Advasa Holdings, Inc. is a financial technology and services company that provides an Earned Wage Access (EWA) solution called the FUKUPE platform, which allows employees to access their earned wages in real time. The platform is delivered as a hosted, cloud-based service and integrates with employers' existing HR and payroll systems. The company generates revenue from this single product.",
+  "sellsTo": [
+    "employees",
+    "employers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a financial technology and services company focused on improving the way employees access and manage their income."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our inability to protect our systems and data from continually evolving cybersecurity threats or other technological risks could adversely affect our ability to deliver our services; damage our reputation among our customers, card issuers, financial institutions, card networks, partners and cardholders; adversely affect our continued card network registration or membership and financial institution sponsorship; and expose us to penalties, fines, liabilities, legal claims and defense costs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Market launches in Indonesia and the United Arab Emirates",
+      "date": null,
+      "sentence": "Our platform is currently live in Japan, and we are preparing market launches in Indonesia and the United Arab Emirates."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "over 1.7 billion people globally lack access to basic financial services",
+      "sentence": "In parallel, over 1.7 billion people globally lack access to basic financial services, presenting a long-term opportunity for inclusive, digitally enabled financial platforms like ours."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:14:13.949Z",
+  "model": "deepseek-v4-flash"
+}

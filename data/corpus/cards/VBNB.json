@@ -1,0 +1,54 @@
+{
+  "cik": "0002066824",
+  "ticker": "VBNB",
+  "name": "VanEck BNB ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-035722",
+    "filedAt": "2026-05-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/2066824/000162828026035722/vaneckbnbs-1a5.htm"
+  },
+  "business": "The Trust is a passive investment vehicle that holds BNB and aims to reflect the performance of the price of BNB and rewards from staking a portion of the Trust's BNB (if implemented). It issues Shares that trade on an exchange and can be created or redeemed only in blocks of 25,000 Shares (Baskets) by Authorized Participants. The Trust does not speculate or use leverage.",
+  "sellsTo": [
+    "investors buying shares on the exchange",
+    "Authorized Participants creating or redeeming Baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Anchorage Digital Bank NA",
+    "State Street",
+    "CSC Delaware Trust Company",
+    "Van Eck Securities Corporation",
+    "Nonco LLC",
+    "Wincent Investment Fund PCC Limited",
+    "MarketVector",
+    "BITA GmbH"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-asset",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to reflect the performance of the price of BNB and rewards from staking a portion of the Trust's BNB to the extent the Sponsor in its sole discretion (i) implements staking and (ii) determines that the Trust may do so without undue legal or regulatory risk."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "The value of the Shares is subject to a number of factors relating to the fundamental investment characteristics of BNB as a digital asset, including the fact that digital assets are bearer instruments and loss, theft, destruction, or compromise of the associated private keys could result in permanent loss of the asset, and the capabilities and development of blockchain technologies such as the BNB Smart Chain."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "The Trust does not currently intend to engage in staking activities.",
+      "date": null,
+      "sentence": "As of the date of this Prospectus, the Trust does not intend to engage in Staking Activities."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "BNB's market capitalization is approximately $87 billion as of April 22, 2026, with average daily trading volume of approximately $564.5 million.",
+      "sentence": "As of April 22, 2026, BNB's market capitalization is approximately $87 billion, placing it among the top five cryptocurrencies globally (coinmarketcap.com), with an average daily trading volume of approximately $564.5 million (coinmarketcap.com, glassnode.com)."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:17:12.727Z",
+  "model": "deepseek-v4-flash"
+}

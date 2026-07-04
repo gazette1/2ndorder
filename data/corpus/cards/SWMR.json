@@ -1,0 +1,65 @@
+{
+  "cik": "0002092574",
+  "ticker": "SWMR",
+  "name": "Swarmer, Inc",
+  "source": {
+    "form": "S-1",
+    "accession": "0001104659-26-072392",
+    "filedAt": "2026-06-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/2092574/000110465926072392/tmb-20260331xs1.htm"
+  },
+  "business": "The company develops and sells software platforms and AI systems, including Swarmer OS, Swarmer AI, and Swarmer UI, for unmanned systems such as unmanned aircraft systems (UAS), unmanned ground vehicles, and unmanned surface vessels. The company's revenue is derived from operations outside the U.S., primarily in Ukraine, and its customers are primarily in the defense sector.",
+  "sellsTo": [
+    "defense sector",
+    "military end-users",
+    "defense industrial and government customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Microsoft Azure",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The current generation of our Swarmer OS, Swarmer AI and Swarmer UI technology platforms have only been developed in the last several years and will continue to evolve."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "If the commercial unmanned aircraft systems (UAS), unmanned ground vehicles and unmanned surface vessels (collectively, unmanned systems) markets do not experience significant growth, if we cannot expand our customer base or if our software and systems do not achieve broad acceptance, then we may not be able to achieve our anticipated level of growth."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Sales of our products primarily occur in the defense sector for battlefield operations, and should ongoing conflicts cease, the demand for our products will decrease and constrain the growth of our operational dataset of combat missions that provide us with training data, edge case identification, failure mode analysis and performance validation that are currently otherwise unavailable to our competitors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks through security vulnerabilities could lead to disruption of business, reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Our intellectual property incorporates internally developed software design incorporating machine and computer vision and was developed with AI and machine learning techniques."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FCC expanded Covered List to include all UAS and UAS critical components produced in foreign countries",
+      "date": "2025-12-22",
+      "sentence": "On December 22, 2025, the FCC’s Public Safety and Homeland Security Bureau announced a significant expansion of its Covered List."
+    },
+    {
+      "event": "Issuance of Series A-1 convertible preferred stock",
+      "date": "2026-01-01",
+      "sentence": "The information presented in this table does not give effect to the sale and issuance of our Series A-1 convertible preferred stock that occurred in January 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:04:42.995Z",
+  "model": "deepseek-v4-flash"
+}

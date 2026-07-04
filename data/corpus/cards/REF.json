@@ -1,0 +1,48 @@
+{
+  "cik": "0001787117",
+  "ticker": "REF",
+  "name": "Reformation Inc.",
+  "source": {
+    "form": "S-1",
+    "accession": "0001104659-26-077832",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1787117/000110465926077832/tm2513004-7_s1.htm"
+  },
+  "business": "The company sells sustainable apparel to consumers through retail stores and e-commerce. It relies on consumer discretionary spending and brand loyalty.",
+  "sellsTo": [
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We rely on consumer discretionary spending, which may be adversely affected by economic uncertainty or downturns and other macroeconomic conditions, trends, or factors."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "If we are unsuccessful in growing our e-commerce and retail channels and executing our expansion into new markets, our business, financial condition, results of operations, and growth prospects may suffer."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Shipping and delivery are critical parts of our business and any changes in, or disruptions to, our shipping and delivery arrangements could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "other:sustainability",
+      "stance": "risk_mention",
+      "sentence": "Our focus on using sustainable high-quality materials and reducing environmental impacts in our manufacturing processes and supply chain practices may increase our cost of revenue and hinder our net revenue growth."
+    },
+    {
+      "tag": "other:china-operations",
+      "stance": "risk_mention",
+      "sentence": "We have operations and do business in China, which exposes us to risks inherent in doing business there."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:15:41.635Z",
+  "model": "deepseek-v4-flash"
+}

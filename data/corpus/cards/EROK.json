@@ -1,0 +1,82 @@
+{
+  "cik": "0002104882",
+  "ticker": "EROK",
+  "name": "EagleRock Land, LLC",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001193125-26-215584",
+    "filedAt": "2026-05-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/2104882/000119312526215584/d37594ds1a.htm"
+  },
+  "business": "EagleRock Land, LLC owns or controls approximately 236,000 acres in the Permian Basin and generates revenue from surface use fees, resource sales (water, caliche), and royalties from produced water handling and other activities. It sells access and resources to oil and gas operators and other energy and infrastructure companies. The company does not own mineral rights and relies on customer activity on its land for revenue.",
+  "sellsTo": [
+    "Oil and gas operators",
+    "Midstream providers",
+    "Power and emerging industries (e.g., data centers, renewable energy)"
+  ],
+  "namedCustomers": [
+    "Chevron Corporation",
+    "ConocoPhillips Company",
+    "Devon Energy Corporation",
+    "Diamondback Energy, Inc.",
+    "Double Eagle",
+    "EOG Resources, Inc.",
+    "ExxonMobil Corporation",
+    "Matador Resources Company",
+    "Occidental Petroleum Corporation",
+    "Permian Resources Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We generate revenue from multiple sources, including the use of our surface acreage, the sale of water and other resources from our land and our water handling infrastructure."
+    },
+    {
+      "tag": "water-recycling",
+      "stance": "core_product",
+      "sentence": "Under the Hydrosource Recycling Agreement that will be entered into in connection with this offering, we will receive a fee for each barrel of recycled water Hydrosource sells on our land and within certain designated areas outside of our land, and Hydrosource is required to generate minimum annual royalty revenue of $5.0 million from its activities during the initial five years of the agreement."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We expect to evaluate and pursue opportunities to expand and diversify our revenue base, including potential projects related to solar power generation, energy storage, water treatment and desalination, fueling infrastructure, data centers, telecommunications assets and other complementary uses of our land, although there can be no assurance that these initiatives will be successful or that any resulting revenues will materially diversify our overall revenue mix."
+    },
+    {
+      "tag": "transmission",
+      "stance": "risk_mention",
+      "sentence": "For instance, Oncor Electric Delivery Company (Oncor) is in the process of developing a 765kV transmission line that is expected to traverse portions of our Delaware Basin acreage, which we anticipate will result in fees for the related easement across our land."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our Midland Basin land also hosts wind lease options with a potential combined 379 MW build-out, which would be supported by a base lease rate and royalty structure, with minimum projected lease revenue terms of 36 years."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Potential Future Activities* ... Battery storage & microgrids ... Lease, royalty"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Oncor 765kV transmission line expected to be energized",
+      "date": "2028-12-31",
+      "sentence": "Oncor anticipates the transmission line, if approved by regulators, will be energized by December 2028."
+    },
+    {
+      "event": "Hydrosource minimum annual royalty commitment of $5.0 million for initial five years",
+      "date": null,
+      "sentence": "Hydrosource is required to generate minimum annual royalty revenue of $5.0 million from its activities during the initial five years of the agreement."
+    },
+    {
+      "event": "DE Flow WSMA initial 10-year term",
+      "date": null,
+      "sentence": "Our relationship will be anchored by a long-term agreement with an initial term of 10 years and minimum annual royalty commitments, which is expected to provide predictable cash flows."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:04:01.010Z",
+  "model": "deepseek-v4-flash"
+}

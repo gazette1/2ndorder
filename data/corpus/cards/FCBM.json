@@ -1,0 +1,46 @@
+{
+  "cik": "0001531193",
+  "ticker": "FCBM",
+  "name": "First Carolina Financial Services, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001140361-26-024973",
+    "filedAt": "2026-06-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1531193/000114036126024973/ny20062301x9_s1a.htm"
+  },
+  "business": "First Carolina Financial Services, Inc. is a bank holding company that provides traditional banking services, including loans and deposits, to individuals and small to medium-sized businesses primarily in North Carolina and the surrounding Southeast region. The company also operates a Payments business through its BankMobile Platform, which partners with colleges, universities, and other organizations to offer financial disbursement services and deposit account offerings.",
+  "sellsTo": [
+    "individuals",
+    "small to medium-sized businesses",
+    "colleges and universities",
+    "students"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We have expanded our deposit gathering capabilities through our Payments business, which partners with colleges, universities, and other organizations to provide financial disbursement services and deposit account offerings to their constituents."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failures, breaches and interruptions in the availability of our platforms may adversely affect our business, results of operations, and financial condition."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "In addition, the implementation of technological changes, such as AI technologies, and upgrades to maintain current systems and integrate new systems may also cause service interruptions, transaction processing errors and system conversion delays, and may cause us to fail to comply with applicable laws or may otherwise result in an increase, potentially a material increase, in our expenses, or otherwise distract management from our core banking and lending business."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "In addition, the emergence, adoption and evolution of new technologies that do not require intermediation, including distributed ledgers such as digital assets and blockchains, as well as advances in robotic process automation, could significantly affect the competition for financial services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:05:06.069Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,36 @@
+{
+  "cik": "0002105398",
+  "ticker": "CSQR",
+  "name": "Csquare, Inc.",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-077451",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2105398/000110465926077451/tm264837-10_s1a.htm"
+  },
+  "business": "We provide carrier-neutral colocation and interconnection services to enterprise, network, cloud, and technology customers, owning and operating data centers in 21 major metropolitan markets across North America and the United Kingdom.",
+  "sellsTo": [
+    "enterprise",
+    "network",
+    "cloud",
+    "technology"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are a leading North American enterprise digital infrastructure platform providing carrier-neutral colocation and interconnection services that support the applications powering the modern economy."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As enterprise customer use cases continue to evolve including increased adoption of higher-density computing and AI-enabled workloads such as inference we believe we are well positioned to support rising power, cooling, and connectivity requirements within our existing facilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:13:29.579Z",
+  "model": "deepseek-v4-flash"
+}

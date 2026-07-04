@@ -1,0 +1,66 @@
+{
+  "cik": "0001681682",
+  "ticker": "NDRA",
+  "name": "ENDRA Life Sciences Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037617",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1681682/000121390026037617/ea0283994-10k_endra.htm"
+  },
+  "business": "ENDRA Life Sciences Inc. develops a thermo-acoustic enhanced ultrasound platform (TAEUS) for non-invasive assessment of liver fat, a biomarker for metabolic diseases. It plans to commercialize via a subscription-based model targeting pharmaceutical companies, clinical research organizations, concierge medicine, bariatric clinics, and primary care practices. The company also operates a Digital Asset Treasury initiative investing in decentralized finance assets.",
+  "sellsTo": [
+    "Pharmaceutical Companies and Clinical Research Organizations (CROs)",
+    "High-end Primary Care Networks (Concierge Medicine)",
+    "Bariatric and Metabolic Clinics",
+    "Primary and Internal Medicine Practices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "StarFish Product Engineering, Inc.",
+    "Arca Investment Management",
+    "Anchorage Digital Bank, N.A."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are developing a next-generation enhanced ultrasound technology platform Thermo- Acoustic Enhanced Ultrasound, or TAEUS ."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Our initial focus for the development and commercialization of TAEUS is a solution for the assessment of liver fat, a key biomarker associated with metabolic diseases."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We plan to offer a multi-year, subscription-based business model with recurring revenue, while continuing to support traditional capital equipment sales with associated service and upgrade offerings."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "Multiple pharmaceutical companies are actively developing GLP-1 receptor agonists and related therapies, reflecting significant industry investment in metabolic disease treatment."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "In 2025, the Company expanded its business strategy to include a Digital Asset Treasury ( DAT ) initiative, managed in collaboration with Arca Investment Management ( Arca ), which seeks to optimize capital preservation and generate non-dilutive returns through investments in decentralized finance ( DeFi ) assets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board initiated process to evaluate strategic alternatives",
+      "date": "2026-03-25",
+      "sentence": "On March 25, 2026, the Company announced that its Board of Directors initiated a process to evaluate a range of strategic alternatives aimed at maximizing shareholder value."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over two billion people worldwide are affected by steatotic liver disease, including more than 100 million in the United States.",
+      "sentence": "Rising SLD with No Reliable, Inexpensive, Point-of-Care Test SLD is a rapidly emerging global health crisis, affecting over two billion people worldwide, including more than 100 million individuals in the United States."
+    }
+  ],
+  "generatedAt": "2026-07-04T19:10:46.595Z",
+  "model": "deepseek-v4-flash"
+}

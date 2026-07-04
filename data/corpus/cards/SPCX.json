@@ -1,0 +1,71 @@
+{
+  "cik": "0001181412",
+  "ticker": "SPCX",
+  "name": "SPACE EXPLORATION TECHNOLOGIES CORP",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001628280-26-040364",
+    "filedAt": "2026-06-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm"
+  },
+  "business": "Space Exploration Technologies Corp provides space launch services, satellite-based connectivity services, and AI products. It sells to U.S. government agencies, enterprise customers, and consumers. The company operates through Space, Connectivity, and AI segments.",
+  "sellsTo": [
+    "U.S. government",
+    "enterprise customers",
+    "consumers"
+  ],
+  "namedCustomers": [
+    "NASA",
+    "Department of War",
+    "General Services Administration",
+    "Intelligence Community agencies"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Our launch services are subject to extensive regulation in the United States and internationally."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Our satellite connectivity, including our global satellite-to-mobile connectivity services under Starlink Mobile, depend on authorizations from the FCC in the United States and telecommunications regulators in other countries."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We hold FCC authorizations and licenses that allow us to provide a wide range of satellite-based connectivity services, including through the operation of our satellite system and related earth stations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "These contracts focus mainly on launch services, spacecraft development, and satellite deployment, and artificial intelligence products."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the scale and capacity of our satellite constellations"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FCC approval of spectrum purchase from EchoStar",
+      "date": "2026-05-12",
+      "sentence": "The Spectrum Transaction was approved by the FCC on May 12, 2026"
+    },
+    {
+      "event": "Closing of spectrum purchase from EchoStar",
+      "date": "2027-11",
+      "sentence": "We expect the Spectrum Transaction to close in November 2027."
+    },
+    {
+      "event": "Initial public offering of Class A common stock",
+      "date": null,
+      "sentence": "We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol SPCX."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:17:54.016Z",
+  "model": "deepseek-v4-flash"
+}

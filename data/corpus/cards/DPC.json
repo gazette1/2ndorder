@@ -1,0 +1,82 @@
+{
+  "cik": "0002107018",
+  "ticker": "DPC",
+  "name": "DPC Holdings Ltd",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001104659-26-076488",
+    "filedAt": "2026-06-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/2107018/000110465926076488/tm269965-16_s1a.htm"
+  },
+  "business": "DPC manufactures ultra-high strength, high temperature, and corrosion-resistant alloys. It sells to customers in the aerospace, industrial gas turbine (IGT), and transportation end markets. Its products are sold to OEM and Tier 1 suppliers.",
+  "sellsTo": [
+    "Aerospace",
+    "Industrial Gas Turbine (IGT)",
+    "Transportation",
+    "OEMs",
+    "Tier 1 suppliers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We produce ultra-high strength, high temperature and corrosion-resistant alloys designed for our customers demanding applications particularly in our Aerospace and IGT end markets."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "We obtain certain raw materials from suppliers and outsource certain processes to third parties that are critical to the manufacture of our products, including rare earth elements such as tungsten and hafnium."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "any decline in the increased demand for energy as the result of the rise of AI infrastructure and data centers projects or delays due to construction, grid availability, environmental permitting or other constraints may also decrease demand in the IGT end market."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our use of AI could expose us to liability or adversely affect our business."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "The use of new and evolving technologies, such as artificial intelligence, or AI, and quantum computing presents risks and challenges that can impact our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Information technology system failures, cyberattacks, and security breaches may threaten the integrity of our intellectual property, networks, products and other sensitive information, disrupt our business operations, and result in reputational harm and other negative consequences having a material adverse effect on our financial condition and results of operations."
+    },
+    {
+      "tag": "other:energy-supply",
+      "stance": "risk_mention",
+      "sentence": "Energy availability disruptions resulting from geopolitical instability have and may in the future impair our manufacturing operations and adversely affect our business."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "shifting sentiments between electric vehicles and gasoline or diesel fuel or other macroeconomic events, such as geopolitical conditions, including the ongoing conflicts in Iran and the Middle East, global conflict, political unrest or terrorist attacks, or an economic downturn or recession."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Any technological advances in alternative energy products, such as solar, wind, nuclear (including small modular reactors), hydropower, geothermal or hydrogen, improvements in the electric grid or other sources of power generation that use lower priced fuel or no fuel, or other fuel cell technologies may negatively affect the IGT end market."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "Any technological advances in alternative energy products, such as solar, wind, nuclear (including small modular reactors), hydropower, geothermal or hydrogen, improvements in the electric grid or other sources of power generation that use lower priced fuel or no fuel, or other fuel cell technologies may negatively affect the IGT end market."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We may be affected by global climate change or by legal, regulatory, customer, or supplier responses to such change."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:00:37.677Z",
+  "model": "deepseek-v4-flash"
+}

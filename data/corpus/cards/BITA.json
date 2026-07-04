@@ -1,0 +1,54 @@
+{
+  "cik": "0002089969",
+  "ticker": "BITA",
+  "name": "iShares Bitcoin Premium Income ETF",
+  "source": {
+    "form": "S-1/A",
+    "accession": "0001437749-26-020066",
+    "filedAt": "2026-06-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/2089969/000143774926020066/bitp20260605_s1a.htm"
+  },
+  "business": "The Shares represent units of fractional undivided beneficial interest in the net assets of the Trust. The Shares are intended to constitute a simple means of making an investment similar to an investment in bitcoin, while providing monthly premium income by selling monthly call options.",
+  "sellsTo": [
+    "investors seeking bitcoin exposure",
+    "investors seeking monthly income"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CF Benchmarks Ltd.",
+    "BofA Securities, Inc.",
+    "Goldman Sachs & Co. LLC",
+    "Jane Street Capital, LLC",
+    "JP Morgan Securities LLC",
+    "Virtu Americas LLC",
+    "Virtu Financial Singapore PTE. LTD.",
+    "BlackRock Investments, LLC",
+    "Coinbase"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "The value of the Shares relates directly to the value of bitcoin, the value of which may be highly volatile and subject to fluctuations due to a number of factors."
+    },
+    {
+      "tag": "other:options",
+      "stance": "core_product",
+      "sentence": "Other than the Trust's option strategy, the Trust does not engage in any activities designed to obtain a profit from, or to ameliorate losses caused by, changes in the price of IBIT shares."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The trading prices of many digital assets, including bitcoin, have experienced extreme volatility in recent periods and may continue to do so."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "The value of the Shares is subject to a number of factors relating to the fundamental investment characteristics of bitcoin as a digital asset, including the fact that digital assets are bearer instruments and loss, theft, destruction, or compromise of the associated private keys could result in permanent loss of the asset, and the capabilities and development of blockchain technologies such as the Bitcoin blockchain."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:13:25.396Z",
+  "model": "deepseek-v4-flash"
+}

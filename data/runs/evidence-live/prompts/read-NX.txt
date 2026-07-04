@@ -1,0 +1,49 @@
+You are an equity analyst reading SEC filing excerpts for Quanex Building Products CORP (NX). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
+Map node this company was mapped to: Industrial construction and engineering firms serving pharma (order 1, beneficiary). Mechanism: Capital projects for domestic API and formulation plants generate design, procurement, and construction contracts for US engineering firms. Node logic: Pharma construction requires specialized validation and cleanroom standards, creating a moat for experienced firms. The fixed-price or cost-plus contracts typically have high margins on change orders. Reshoring policy subsidizes or mandates new builds, creating a pipeline that extends years beyond policy enactment.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (8-K, filed 2026-06-04) Second Quarter 2026 Results Summary Quanex reported net sales of $462.4 million during the three months ended April 30, 2026, which represents an increase of 2.2% compared to $452.5 million for the same period in 2025, mainly due to favorable impacts from pricing, including tariff-related price recoveries, and foreign exchange translation.
+[1] (8-K, filed 2026-06-04) The Hardware Solutions and Extruded Solutions segments each reported modest increases in net sales for the second quarter of 2026, as lower volumes were offset by favorable impacts from pricing, including tariff-related recoveries and foreign exchange translation.
+[2] (8-K, filed 2026-06-04) (See Sales Analysis table for additional information) On a consolidated basis, the decrease in adjusted earnings for the second quarter of 2026 compared to the second quarter of 2025 was mainly due to reduced operating leverage from lower volumes related to ongoing macroeconomic uncertainty combined with weak consumer confidence, tariff-related costs and inflationary pressures.
+[3] (8-K, filed 2026-06-04) Looking ahead, Quanex plans to leverage its material science expertise and process engineering to expand into adjacent markets.
+[4] (10-K, filed 2025-12-12) The state of relationships between other countries and the United States with respect to trade policies, government relations and tariffs may impact our business.
+[5] (10-K, filed 2025-12-12) The U.S. government has and continues to make significant changes in U.S. trade policy and has taken certain actions that could negatively impact U.S. trade, including imposing tariffs on certain goods imported into the United States.
+[6] (10-K, filed 2025-12-12) There is concern that the imposition of tariffs by the United States could result in the adoption of tariffs or retaliatory measures by other countries, leading to a global trade war.
+[7] (10-K, filed 2025-12-12) Such tariffs or retaliatory measures could 10 Table of Contents raise the cost and reduce the supply of certain raw materials, such as aluminum and wood, which are critical to our ability to manufacture our products.
+[8] (10-K, filed 2025-12-12) General geopolitical instability and the responses to it, such as the possibility of sanctions, trade restrictions and changes in tariffs, and the possibility of additional tariffs, non-tariff barriers or other trade restrictions between the United States and other countries where we might in the future manufacture, distribute or sell products, could adversely impact our business.
+[9] (10-K, filed 2025-12-12) We are monitoring the rapidly evolving tariff and global trade policies and we are working with our suppliers to mitigate potential impacts on our business.
+[10] (10-K, filed 2025-12-12) The extent and duration of the tariffs and the resulting impact on general economic conditions on our business are uncertain and depend on various factors, such as negotiations between the U.S. and affected countries, the responses of other countries or regions, exemptions that may be granted, availability and cost of alternative sources of supply and demand for our products in affected markets.
+[11] (10-K, filed 2025-12-12) While the tariff situation remains fluid, we generally expect to pass along costs associated with tariffs to our customers through contractual or pricing mechanisms.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $99,276 across 3 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2024-10-31): revenue $1,277,862,000, net income $-250,806,000, R&D $n/a, cash $76,018,000.
+Customer graph: federal awards $0 across 0 awards; 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

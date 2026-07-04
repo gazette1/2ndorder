@@ -1,0 +1,50 @@
+{
+  "cik": "0002066925",
+  "ticker": "CAPI",
+  "name": "CAPSTONE 72, INC.",
+  "source": {
+    "form": "S-11/A",
+    "accession": "0001493152-26-029858",
+    "filedAt": "2026-06-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/2066925/000149315226029858/forms-11a.htm"
+  },
+  "business": "Capstone 72, Inc. is a vertically integrated real estate investment platform that acquires, renovates, and sells single-family homes, primarily in Ohio, and also assists buyers with property management after purchase.",
+  "sellsTo": [
+    "international investors (Seattle, Vancouver, Singapore)",
+    "U.S. investors (planned expansion to Los Angeles, San Francisco Bay Area)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Capstone 72 Properties LLC, our main operating subsidiary, is a U.S.-based, vertically integrated real estate investment platform specializing primarily in the acquisition, renovation, and sale of single-family homes (SFH)."
+    },
+    {
+      "tag": "other:ai-real-estate-platform",
+      "stance": "active_investment",
+      "sentence": "We conduct our own research and development (R&D) and maintain an in-house engineering team dedicated to exploring the development of a proprietary AI-powered investment platform."
+    },
+    {
+      "tag": "other:ai-real-estate-platform",
+      "stance": "risk_mention",
+      "sentence": "Our AI technology is still under development and may not perform as intended or achieve the expected business outcomes."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of AI-powered investment platform in stages",
+      "date": null,
+      "sentence": "It is expected to be launched in several stages through 2026."
+    },
+    {
+      "event": "Enter new U.S. markets (Los Angeles, San Francisco Bay Area, others)",
+      "date": null,
+      "sentence": "with plans to enter Los Angeles, the San Francisco Bay Area, and other U.S. markets in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T19:14:32.293Z",
+  "model": "deepseek-v4-flash"
+}
