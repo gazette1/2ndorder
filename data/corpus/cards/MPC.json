@@ -1,0 +1,79 @@
+{
+  "cik": "0001510295",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001510295-26-000009",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm"
+  },
+  "business": "MPC is a leading, integrated, downstream and midstream energy company operating one of the nation's largest refining systems with approximately 3.0 million barrels per day of crude oil refining capacity, and is one of the largest wholesale suppliers of gasoline and distillates to resellers in the United States. The company also produces and markets renewable diesel.",
+  "sellsTo": [
+    "wholesale marketing customers domestically and internationally",
+    "buyers on the spot market",
+    "independent entrepreneurs who operate primarily Marathon branded outlets",
+    "direct dealers who operate locations mainly under the ARCO brand",
+    "export customers",
+    "industrial, commercial and retail consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:refining",
+      "stance": "core_product",
+      "sentence": "We operate one of the nation's largest refining systems with approximately 3.0 million barrels per day of crude oil refining capacity."
+    },
+    {
+      "tag": "other:midstream",
+      "stance": "core_product",
+      "sentence": "Our integrated midstream energy asset network links producers of natural gas and NGLs from some of the largest supply basins in the United States to domestic and international markets."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "we are one of the largest producers and marketers of renewable diesel in the United States."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We hold a 49.9 percent equity interest in LF Bioenergy, an emerging producer of renewable natural gas ( RNG ) in the U.S."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We formed the Green Bison Soy Processing, LLC ( Green Bison Soy Processing ) joint venture with Archer-Daniels-Midland Company ( ADM ) with ADM owning 75 percent of the joint venture and MPC owning 25 percent."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "The Martinez renewable diesel joint venture (the Martinez Renewables joint venture) is a partnership structured as a 50/50 joint venture with Neste Corporation to refine renewable feedstocks into renewable diesel."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Demand for our refined products also may decrease as a result of low carbon fuel standard programs or electric vehicle mandates."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Martinez Renewables facility reached full capacity",
+      "date": "2024-12-31",
+      "sentence": "The Martinez Renewables facility, which has the capacity to produce 730 million gallons per year including pretreatment capabilities, reached full capacity in late 2024."
+    },
+    {
+      "event": "Phase 3 NOx reductions at Los Angeles Refinery completed by 2032",
+      "date": "2032-12-31",
+      "sentence": "The remaining 20 percent of NOx reductions required under Phase 3 must be completed by 2032."
+    },
+    {
+      "event": "One additional LF Bioenergy facility expected to come online",
+      "date": "2026-12-31",
+      "sentence": "Currently, there are six facilities in operation, with one additional facility under construction that is expected to come online over the next 12 months."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:06:33.411Z",
+  "model": "deepseek-v4-flash"
+}

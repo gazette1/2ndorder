@@ -1,0 +1,34 @@
+{
+  "cik": "0000352991",
+  "ticker": "AOXY",
+  "name": "ADVANCED OXYGEN TECHNOLOGIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-25-006652",
+    "filedAt": "2025-09-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/352991/000147793225006652/aoxy_10k.htm"
+  },
+  "business": "The company has two subsidiaries: ANV, which leases a single commercial real estate property, and Sharx, which earns commissions from sales of cargo security products. Sharx had no revenue in fiscal 2024 and 2025 due to supply chain issues.",
+  "sellsTo": [
+    "commercial real estate tenant",
+    "logistics and transportation industry"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Sharx is only selling one type of product and only to the logistics and transportation industry."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Rental Revenue is derived from the Commercial Property lease in which quarterly payments are received pursuant to the property lease which is in effect until 2026."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:38:58.594Z",
+  "model": "deepseek-v4-flash"
+}

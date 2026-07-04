@@ -1,0 +1,43 @@
+{
+  "cik": "0001818874",
+  "ticker": "SOFI",
+  "name": "SoFi Technologies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001818874-26-000013",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000013/sofi-20251231.htm"
+  },
+  "business": "SoFi provides a digital financial services platform offering lending products (personal loans, student loans, home loans) and financial services (checking/savings accounts, credit cards, crypto trading, investment accounts, financial management tools) to individual members, and technology platform services (cloud-native banking, event platforms, AI solutions) to enterprises.",
+  "sellsTo": [
+    "Individual members",
+    "Financial institutions",
+    "Government entities",
+    "Non-financial institutions"
+  ],
+  "namedCustomers": [
+    "Banco Nación"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer personal loans, student loans, home loans and related servicing and offer a variety of financial services products, such as SoFi Money, SoFi Credit Card, SoFi Crypto, SoFi Invest and SoFi Relay, that provide more daily interactions with our members."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "We also offer additional add-on technology solutions to support our clients and drive engagement, such as a conversational AI engine for customers of banks and financial institutions, and a real-time payment risk platform which employs AI and machine learning technology to enhance payment fraud mitigation strategies for financial customers."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "We intend to continue to explore other products for SoFi Bank over time, including stablecoin issuance and tokenized deposits."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:40:15.712Z",
+  "model": "deepseek-v4-flash"
+}

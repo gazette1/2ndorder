@@ -1,0 +1,83 @@
+{
+  "cik": "0001754301",
+  "ticker": "FOXA",
+  "name": "Fox Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-038077",
+    "filedAt": "2025-08-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828025038077/fox-20250630.htm"
+  },
+  "business": "Fox Corporation is a news, sports and entertainment company with two reportable segments: Cable Network Programming (produces and licenses news and sports content) and Television (produces, acquires, markets and distributes programming through the FOX broadcast network, Tubi AVOD service, and 29 full power broadcast television stations). The Company generates revenues from affiliate fees, advertising, and other operations, primarily in the U.S.",
+  "sellsTo": [
+    "Traditional MVPDs (cable, satellite, telco)",
+    "Virtual MVPDs",
+    "Advertisers",
+    "Consumers (viewers)",
+    "Third-party television stations (FOX Network affiliates)",
+    "Digital platforms (streaming, websites, apps)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "National Football League (NFL)",
+    "Major League Baseball (MLB)",
+    "NASCAR",
+    "FIFA",
+    "UEFA",
+    "Concacaf",
+    "CONMEBOL",
+    "INDYCAR",
+    "LIV Golf",
+    "Big Ten Conference",
+    "20th Television (Disney)",
+    "Sony Pictures Television",
+    "Warner Bros. Television"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "The Company is a news, sports and entertainment company, which manages and reports its businesses in four operating segments: Cable Network Programming, Television, Credible and the FOX Studio Lot with the following two reportable segments: Cable Network Programming, which produces and licenses news and sports content distributed through traditional cable television systems, direct broadcast satellite operators and telecommunication companies (traditional MVPDs), virtual multi-channel video programming distributors (virtual MVPDs) and other digital platforms, primarily in the U.S."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Credible is a U.S. consumer finance marketplace."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The degradation, failure or misuse of the Company's network and information systems and other technology could cause a disruption of services or improper disclosure of personal data or other confidential information, resulting in increased costs, liabilities or loss of revenue."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Other new technological developments are rapidly evolving in our industry such as the development and use of generative AI, including large language model applications, and the advantages and risks associated with its use are largely uncertain."
+    },
+    {
+      "tag": "other:sports-betting",
+      "stance": "active_investment",
+      "sentence": "The Company holds an equity interest in Flutter, an online sports betting and gaming company with operations in the U.S. and internationally."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of FOX One direct-to-consumer subscription streaming service",
+      "date": null,
+      "sentence": "the FOX One direct-to-consumer subscription streaming service is expected to launch by the Fall of 2025."
+    },
+    {
+      "event": "Completion of Credible put transaction (minority interest buyout)",
+      "date": null,
+      "sentence": "The put right held by the Credible minority interest shareholder was exercised in December 2024, and the put transaction is expected to be completed in the first half of fiscal 2026."
+    },
+    {
+      "event": "Semi-annual dividend payment",
+      "date": "2025-09-24",
+      "sentence": "Subsequent to June 30, 2025, the Company declared a semi-annual dividend of $0.28 per share on both the Class A Common Stock and the Class B Common Stock. The dividend declared is payable on September 24, 2025"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:42:22.222Z",
+  "model": "deepseek-v4-flash"
+}

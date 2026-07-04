@@ -1,0 +1,75 @@
+{
+  "cik": "0001853070",
+  "ticker": "SOAR",
+  "name": "Volato Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017343",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1853070/000162828026017343/soar-20251231.htm"
+  },
+  "business": "Volato is an aviation technology company that sells aircraft (Gulfstream G280) and provides proprietary software platforms including Vaunt (empty leg flight subscription), Mission Control (flight management for Part 135 operators), and Parslee (enterprise AI platform for Microsoft 365). The company targets private aviation travelers, Part 135 aircraft operators, and enterprise customers for AI solutions. It also has a proposed merger with M2i Global, Inc. to expand into the critical minerals sector.",
+  "sellsTo": [
+    "Private aviation travelers",
+    "Part 135 aircraft operators",
+    "Enterprise customers (AI platform)",
+    "Critical minerals sector (via proposed merger)"
+  ],
+  "namedCustomers": [
+    "flyExclusive",
+    "M2i Global, Inc."
+  ],
+  "namedSuppliers": [
+    "Gulfstream Aerospace Corporation",
+    "Microsoft Azure OpenAI",
+    "SAC Leasing G280, LLC",
+    "flyExclusive"
+  ],
+  "exposures": [
+    {
+      "tag": "other:private-aviation",
+      "stance": "core_product",
+      "sentence": "Volato is an aviation technology company that connects travelers to private, on-demand flight access and develops proprietary software platforms for enterprise and operational applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Parslee is an enterprise AI platform that deploys autonomous agents within Microsoft 365 environments to automate workflows, synthesize information across systems, and execute multi-step business processes; the platform includes optional deterministic document processing capabilities for applications requiring enhanced reliability and auditability, such as contract analysis and regulatory filings."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "Through its proposed merger with M2i Global, Inc., if consummated, Volato would expand into the critical minerals sector leveraging its software expertise to bring greater transparency, traceability, and operational intelligence to supply chains essential for U.S. national security and advanced technologies."
+    },
+    {
+      "tag": "other:enterprise-software",
+      "stance": "core_product",
+      "sentence": "Mission Control, our proprietary flight management system, addresses the limitations of traditional third-party solutions by leveraging real-time data, advanced automation, and a user-centric design, which collectively streamline complex workflows, improve fleet utilization, and enhance operational efficiency."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entry into Merger Agreement with M2i",
+      "date": "2025-07-28",
+      "sentence": "On July 28, 2025, we entered into an Agreement and Plan of Merger and Reorganization (as amended, the Merger Agreement ) with Volato Merger Subsidiary, Inc., a Nevada corporation and wholly-owned subsidiary of Volato ( Merger Sub ), and M2i Global, Inc., a Nevada corporation ( M2i ), pursuant to which Merger Sub will merge with and into M2i, with M2i surviving the merger as a wholly-owned subsidiary of Volato (together with all other transactions contemplated by the Merger Agreement, the Merger )."
+    },
+    {
+      "event": "Launch of Parslee and first paying pilot programs",
+      "date": "2025-09",
+      "sentence": "In September 2025, we launched Parslee, an enterprise AI based software platform for Microsoft 365 that combines document intelligence with autonomous workflow agents and entered our first paying pilot programs with external customers."
+    },
+    {
+      "event": "Fourth Amendment to Aircraft Management Services Agreement with flyExclusive",
+      "date": "2025-10-01",
+      "sentence": "On October 1, 2025, the Company entered into a Fourth Amendment (the Amendment ) to Aircraft Management Services Agreement (as amended the Agreement ) with flyExclusive to bring the Agreement in line with Company s anticipated shift in operations, new business directives, and to better accommodate the proposed Merger with M2i."
+    },
+    {
+      "event": "Fifth Amendment with flyExclusive - sale of intellectual property assets for $1.3 million",
+      "date": "2026-03-06",
+      "sentence": "On March 6, 2026, the Company signed amendment number five to the Agreement with flyExclusive, pursuant to which the Company sold certain unused intellectual property assets for $1.3 million payable in cash or shares of flyExclusive s Class A common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:08:27.495Z",
+  "model": "deepseek-v4-flash"
+}

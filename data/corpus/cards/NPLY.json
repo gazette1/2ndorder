@@ -1,0 +1,40 @@
+{
+  "cik": "0001978111",
+  "ticker": "NPLY",
+  "name": "Naploy Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-007786",
+    "filedAt": "2025-10-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1978111/000168316825007786/naploy_i10k-073125.htm"
+  },
+  "business": "Naploy Corp. operates a mobile application and website offering health news, a symptom diagnostic tool using AI, clinic search services for a fee, and advertising services for medical institutions. The company targets individuals seeking health information and medical institutions in Nigeria, with plans to expand to other African countries. As of the filing, the company has limited revenue and no clients for clinic search services yet.",
+  "sellsTo": [
+    "Individuals seeking health information",
+    "Medical institutions for advertising and clinic search",
+    "Patients needing medical institution recommendations via clinic search"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our primary focus is on launching a news blog that provides the latest updates on health-related topics, including but not limited to medical breakthroughs, healthy lifestyle tips, and updates on healthcare policies."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Symptom Diagnostic is an advanced tool that uses high-grade AI technology to provide diagnoses."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Improvement of the implemented AI technology: The app will provide Implemented AI technology that is in the process of being fully implemented, revision and will undergo continuous refinement and improvement to ensure the highest level of performance."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:05:32.342Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0000862651",
+  "ticker": "INVU",
+  "name": "Investview, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014042",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/862651/000149315226014042/form10-k.htm"
+  },
+  "business": "Investview operates a diversified series of business units including a direct-to-consumer marketing platform that sells financial education products, health/beauty/wellness products, and other services through a global network of independent distributors; an early-stage online retail brokerage platform; and a bitcoin mining operation.",
+  "sellsTo": [
+    "members/independent distributors",
+    "retail customers",
+    "wholesale and retail markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Total Protection Plus",
+    "DBR Capital",
+    "MPower Trading Systems"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our Conectiv unit markets its financial tools, content, products, and travel benefits through a network of independent distributors located both within and outside the United States using a direct sales model."
+    },
+    {
+      "tag": "other:bitcoin_mining",
+      "stance": "core_product",
+      "sentence": "Through our wholly owned subsidiary, SAFETek, LLC, we operate a vertically integrated, sustainability-focused blockchain infrastructure business specializing in Bitcoin mining and transaction validation."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "In October 2024, we entered the over-the-counter health, beauty, and wellness market when our subsidiary, myLife Wellness Company ( myLife Wellness ), acquired the business of Renu Laboratories, Inc. ( Renu Labs ), a contract developer and manufacturer, producing both proprietary and non-proprietary health, beauty, and wellness products for our wholly owned subsidiary myLife Wellness, LLC and third-party clients."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "active_investment",
+      "sentence": "Two such opportunities presented themselves when the Company, during October 2025 and March 2026, invested an aggregate of $3.25 million in a special purpose vehicle organized by Dream Ventures LLC, which participated in exempt private placements in an early-stage enterprise developing next generation nuclear power and infrastructure technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opencash expected to enter market as early as Q2 2026",
+      "date": "2026-04-01",
+      "sentence": "We believe these efforts will position Opencash to enter the market as early as the second quarter of 2026 with a modern, customer-first brokerage model built around low-cost, commission-free trading."
+    },
+    {
+      "event": "Stock repurchase program extended to March 31, 2027",
+      "date": "2027-03-31",
+      "sentence": "The stock repurchase program was extended to cover the repurchase of shares of the Company s common stock through March 31, 2027."
+    },
+    {
+      "event": "Appeal of UOKiK decision filed February 2026",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Company timely filed an appeal of UOKiK s administrative decision with Poland s Court of Competition and Consumer Protection."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:15:13.432Z",
+  "model": "deepseek-v4-flash"
+}

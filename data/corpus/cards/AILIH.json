@@ -1,0 +1,108 @@
+{
+  "cik": "0000018654",
+  "ticker": "AILIH",
+  "name": "Ameren Illinois Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001002910-26-000009",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/18654/000100291026000009/aee-20251231.htm"
+  },
+  "business": "Ameren Illinois operates rate-regulated electric transmission, electric distribution, and natural gas distribution businesses in Illinois. It serves residential, commercial, and industrial customers within its Illinois service territory.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers",
+    "Electric distribution customers",
+    "Natural gas customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Midcontinent Independent System Operator (MISO)",
+    "Illinois Power Agency (IPA)",
+    "Panhandle Eastern Pipe Line Company",
+    "Trunkline Gas Company",
+    "Natural Gas Pipeline Company of America",
+    "Mississippi River Transmission Corporation",
+    "Northern Border Pipeline Company",
+    "Spire MoGas Pipeline",
+    "Texas Eastern Transmission Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Ameren Illinois operates rate-regulated electric transmission, electric distribution, and natural gas distribution businesses in Illinois."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Ameren Illinois operates rate-regulated electric transmission, electric distribution, and natural gas distribution businesses in Illinois."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "current industry projections reflect the potential for significant growth in energy demand over the next decade, primarily arising from data centers and further augmented by onshoring and electrification of manufacturing and an increase in transportation electrification."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "As owners and operators of bulk power transmission systems and electric energy centers, we are subject to mandatory NERC reliability standards, including cybersecurity standards."
+    },
+    {
+      "tag": "other:energy-efficiency",
+      "stance": "core_product",
+      "sentence": "Ameren Illinois electric energy-efficiency investments are deferred as a regulatory asset and earn a return at the applicable WACC, with the ROE currently based on the annual average of the monthly yields of the 30-year United States Treasury bonds plus 580 basis points."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Ameren Illinois has contractual commitments to purchase approximately 3.1 million wind renewable energy credits per year and approximately 4.1 million solar renewable energy credits per year."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Ameren Illinois anticipates utilizing cost recovery mechanisms to allow Ameren Illinois to collect from, or refund to, customers differences between actual costs incurred from the purchase of the credits and the amounts collected from customers."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "active_investment",
+      "sentence": "Illinois law also required Ameren Illinois to enter into contracts to purchase zero emission credits in an amount equal to approximately 16% of the actual amount of electricity delivered to retail customers during calendar year 2014, pursuant to Illinois zero emission standard."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ICC order approving electric customer energy-efficiency revenue requirement of $138 million beginning January 2026",
+      "date": "2025-11",
+      "sentence": "In November 2025, the ICC issued an order in Ameren Illinois annual update filing that approved an electric customer energy-efficiency revenue requirement of $138 million beginning in January 2026."
+    },
+    {
+      "event": "ICC order approving Ameren Illinois energy-efficiency plan with annual investments of $126 million per year from 2026 through 2029",
+      "date": "2025-08",
+      "sentence": "In August 2025, the ICC issued an order approving Ameren Illinois energy-efficiency plan that includes annual investments in electric energy-efficiency programs of approximately $126 million per year from 2026 through 2029."
+    },
+    {
+      "event": "CRGA enacted, effective June 2026",
+      "date": "2026-01",
+      "sentence": "In January 2026, the CRGA was enacted and will become effective in June 2026."
+    },
+    {
+      "event": "Ameren Illinois filed Grid Plan for 2028-2031",
+      "date": "2026-01",
+      "sentence": "In January 2026, Ameren Illinois filed its Grid Plan for the years 2028 through 2031."
+    },
+    {
+      "event": "ICC order approving Ameren Illinois 2024 electric distribution service revenue requirement reconciliation adjustment",
+      "date": "2025-12",
+      "sentence": "In December 2025, the ICC issued an order approving Ameren Illinois 2024 electric distribution service revenue requirement reconciliation adjustment filing."
+    },
+    {
+      "event": "ICC order on natural gas delivery service rate review increasing annual revenues by $79 million",
+      "date": "2025-11",
+      "sentence": "In November 2025, the ICC issued an order in Ameren Illinois January 2025 natural gas delivery service regulatory rate review, which resulted in an increase to its annual revenues for natural gas delivery service of $79 million based on a 9.60% ROE, a capital structure composed of 50% common equity, a 2026 future test year, and a rate base of $3.2 billion."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:47:24.137Z",
+  "model": "deepseek-v4-flash"
+}

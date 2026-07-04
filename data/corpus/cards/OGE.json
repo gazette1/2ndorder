@@ -1,0 +1,77 @@
+{
+  "cik": "0001021635",
+  "ticker": "OGE",
+  "name": "OGE ENERGY CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-055414",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1021635/000119312526055414/oge-20251231.htm"
+  },
+  "business": "OGE Energy is a holding company whose primary investment provides electricity in Oklahoma and western Arkansas. Its subsidiary OG&E generates, transmits, distributes and sells electric energy to approximately 913,000 customers in Oklahoma and western Arkansas, and is the largest electric company in Oklahoma.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Oilfield",
+    "Public authorities and street light"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CPV Keenan",
+    "Edison Mission Energy",
+    "NextEra Energy"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "OG&E generates, transmits, distributes and sells electric energy in Oklahoma and western Arkansas and are reported through OGE Energy's electric company business segment."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "OG&E's ownership and access to wind and solar resources makes the renewable option a possible choice in meeting the renewable energy needs of OG&E's conservation-minded customers."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "OG&E owns and operates an interconnected electric generation, transmission and distribution system, located in Oklahoma and western Arkansas, which included 18 generating stations with an aggregate capability of 6,921 MWs at December 31, 2025."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We have seen increased interest for electric service from industries such as crypto mining and data mining, to support artificial intelligence, which are both large consumers of electricity."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant security breach of our information systems due to theft, ransomware, viruses, increased use of artificial intelligence technologies, denial of service, hacking, acts of war or terrorism, or inappropriate release of certain types of information, including confidential customer information or system operating information, could have a material adverse impact on our financial position, results of operations and cash flows."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "The intermittency of renewables remains a critical challenge particularly as long-duration energy storage is still in development."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Consolidated earnings per share growth target of 5-7% through 2030",
+      "date": "2030-12-31",
+      "sentence": "OGE Energy creates long-term shareholder value by targeting the consistent growth of consolidated earnings per share of five to seven percent through 2030, and consolidated earnings per share in the top half of the range in 2027 and 2028, supported by expected strong load growth enabled by low customer rates and a strategy of investing in lower risk infrastructure projects that improve the economic vitality of the communities it serves in Oklahoma and Arkansas."
+    },
+    {
+      "event": "Consolidated earnings per share in top half of 5-7% range in 2027 and 2028",
+      "date": null,
+      "sentence": "OGE Energy creates long-term shareholder value by targeting the consistent growth of consolidated earnings per share of five to seven percent through 2030, and consolidated earnings per share in the top half of the range in 2027 and 2028, supported by expected strong load growth enabled by low customer rates and a strategy of investing in lower risk infrastructure projects that improve the economic vitality of the communities it serves in Oklahoma and Arkansas."
+    },
+    {
+      "event": "Dividend growth over next five years targeting payout ratio of 60-70%",
+      "date": null,
+      "sentence": "OGE Energy plans to continue to grow its dividend over the next five years, targeting a payout ratio of 60 percent to 70 percent."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:17:26.150Z",
+  "model": "deepseek-v4-flash"
+}

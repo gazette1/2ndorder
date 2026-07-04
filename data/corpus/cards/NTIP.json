@@ -1,0 +1,66 @@
+{
+  "cik": "0001065078",
+  "ticker": "NTIP",
+  "name": "NETWORK-1 TECHNOLOGIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001072613-26-000270",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065078/000107261326000270/network1_10k-123125.htm"
+  },
+  "business": "The company develops, licenses, and protects intellectual property assets, primarily patents in M2M/IoT, high frequency trading, media content identification, and smart home technologies, and holds an investment in a biotech firm.",
+  "sellsTo": [
+    "Companies using eSIM in IoT, mobile devices, and automobiles",
+    "High frequency trading firms",
+    "Internet media and content platforms",
+    "Smart home IoT device manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "M2M and IoT Technologies, LLC",
+    "Dr. Ingemar Cox",
+    "John Nix (consultant)"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our M2M/IoT Patent Portfolio, acquired in December 2017 from M2M and IoT Technologies, LLC (M2M), relates to, among other things, enabling technology for authenticating and using eSIM (embedded Subscriber Identification Module) technology in IoT, Machine-to-Machine and other mobile devices including smartphones, tablets and computers, as well as automobiles."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our HFT Patent Portfolio covering certain advanced technologies relating to high frequency trading, which inventions specifically address technological problems associated with speed and latency and provide critical latency gains in trading systems."
+    },
+    {
+      "tag": "other:media-identification",
+      "stance": "core_product",
+      "sentence": "Our Cox Patent Portfolio relates to enabling technology for identifying media content on the Internet and taking further action to be performed after such identification."
+    },
+    {
+      "tag": "other:smart-home",
+      "stance": "core_product",
+      "sentence": "Our Smart Home Patent Portfolio relates to, among other things, enabling technology to support the interoperability of smart home IoT devices."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "active_investment",
+      "sentence": "We have invested $7,000,000 in ILiAD Biotechnologies, Inc. (ILiAD), a clinical stage biotechnology company dedicated to the prevention and treatment of human disease caused by Bordetella pertussis with a focus on validating its proprietary intranasal vaccine, BPZE1, for the prevention of pertussis (whooping cough)."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The increasing development of artificial intelligence could impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ILiAD completed a $115 million preferred stock financing, reducing NTIP's ownership to approximately 3.1% on a non-fully diluted basis.",
+      "date": "2026-02-05",
+      "sentence": "On February 5, 2026, ILiAD completed a $115,000,000 preferred stock financing."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:27:21.474Z",
+  "model": "deepseek-v4-flash"
+}

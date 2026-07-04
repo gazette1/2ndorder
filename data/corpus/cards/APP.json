@@ -1,0 +1,61 @@
+{
+  "cik": "0001751008",
+  "ticker": "APP",
+  "name": "AppLovin Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001751008-26-000010",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000010/app-20251231.htm"
+  },
+  "business": "AppLovin provides end-to-end artificial intelligence-powered advertising solutions for businesses to reach, monetize and grow their global audience. Revenue is generated from fees paid by advertisers using these solutions, with Axon Ads Manager comprising substantially all revenue. The company operates primarily in the mobile app ecosystem, including mobile gaming.",
+  "sellsTo": [
+    "advertisers",
+    "publishers",
+    "mobile app developers",
+    "e-commerce businesses",
+    "CTV content companies"
+  ],
+  "namedCustomers": [
+    "Meta",
+    "Google"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-advertising",
+      "stance": "core_product",
+      "sentence": "Axon Ads Manager is powered by our Axon AI advertising recommendation engine and matches advertiser demand with publisher supply through auctions at vast scale and at microsecond-level speeds."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "publishers are able to better monetize their gaming apps."
+    },
+    {
+      "tag": "other:connected-tv",
+      "stance": "core_product",
+      "sentence": "Wurl is our connected TV (\"CTV\") platform that both distributes streaming video for content companies and provides advanced advertising and publishing solutions to attract viewers and maximize revenue."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "since 2024 we have begun expanding our customer base to include web-based e-commerce advertisers."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Cost of revenue consists primarily of amortization of acquired technology-related intangible assets, amortization of finance lease right-of-use assets related to certain servers and networking equipment and datacenter costs related primarily to third-party cloud computing services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Apps business completed",
+      "date": "2025-06-30",
+      "sentence": "On June 30, 2025, we consummated the sale of the Apps business to the Purchasers for $400 million in cash, subject to closing adjustments, and equity consideration representing approximately 20% of Tripledot's fully-diluted equity at the time of closing."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:54:07.078Z",
+  "model": "deepseek-v4-flash"
+}

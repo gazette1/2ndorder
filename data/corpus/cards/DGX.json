@@ -1,0 +1,85 @@
+{
+  "cik": "0001022079",
+  "ticker": "DGX",
+  "name": "QUEST DIAGNOSTICS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001022079-26-000015",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000015/dgx-20251231.htm"
+  },
+  "business": "Quest Diagnostics provides diagnostic insights from laboratory testing to empower people, physicians, and organizations to improve health outcomes. The company operates two businesses: Diagnostic Information Services, which develops and delivers diagnostic information services, and Diagnostic Solutions, which includes risk assessment services and healthcare IT businesses.",
+  "sellsTo": [
+    "physicians",
+    "hospitals",
+    "patients and consumers",
+    "health plans",
+    "employers",
+    "government agencies",
+    "pharmaceutical companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We provide diagnostic insights from the results of our laboratory testing to empower people, physicians, and organizations to take action to improve health outcomes."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We offer health IT solutions, including our products and national healthcare provider network, to help healthcare organizations and clinicians empower better health by leveraging the power of our significant information assets."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We offer services to pharmaceutical companies, including clinical trials laboratory testing, population analytics and patient engagement services."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We also develop in vitro diagnostic tests for FDA submissions as companion diagnostics, laboratory developed testing services for complementary diagnostics."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "In 2025, we announced a collaboration with Google to use Google Cloud's data analytics and generative AI to help us streamline our data management, improve data analytics, and personalize the experiences we deliver to patients, providers, and other customers."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "We are leveraging automation and AI to improve quality and productivity across our entire value chain, not just in the laboratory."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our IT systems have been and are subject to potential cyberattacks, tampering or other security breaches."
+    },
+    {
+      "tag": "other:healthcare-reimbursement",
+      "stance": "risk_mention",
+      "sentence": "Pursuant to PAMA, reimbursement rates for many clinical laboratory tests provided under Medicare were reduced during 2018 - 2020."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Project Nova modernization completion",
+      "date": null,
+      "sentence": "We expect to deliver value throughout the implementation of Project Nova, which is expected to be completed in 2031 to 2032, as it unlocks a variety of streamlined operational benefits, reduced technology-related operating costs, accelerated revenue opportunities, and improvements to the customer and patient experience."
+    },
+    {
+      "event": "Dividend increase announced",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we announced that we increased our quarterly common stock cash dividend by approximately 7.5%, from $0.80 per common share to $0.86 per common share."
+    },
+    {
+      "event": "FDA Breakthrough Device Designation for Haystack Oncology MRD test",
+      "date": "2025-12-31",
+      "sentence": "In 2025, we received a breakthrough device designation from the U.S. Food and Drug Administration ( FDA ) for our Haystack Oncology MRD test for patients with an early stage colorectal cancer diagnosis."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:39:54.720Z",
+  "model": "deepseek-v4-flash"
+}

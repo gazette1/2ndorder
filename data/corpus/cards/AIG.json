@@ -1,0 +1,57 @@
+{
+  "cik": "0000005272",
+  "ticker": "AIG",
+  "name": "AMERICAN INTERNATIONAL GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000005272-26-000023",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000023/aig-20251231.htm"
+  },
+  "business": "American International Group, Inc. is a leading global insurance organization. It provides insurance solutions that help businesses and individuals in over 200 countries and jurisdictions protect their assets and manage risks. Its General Insurance business consists of North America Commercial, International Commercial, and Global Personal segments, offering property, casualty, financial lines, and personal insurance products.",
+  "sellsTo": [
+    "businesses",
+    "individuals",
+    "small and medium-sized businesses",
+    "multinational companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "AIG provides insurance solutions that help businesses and individuals in over 200 countries and jurisdictions protect their assets and manage risks."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "We use artificial intelligence (AI) in our business, including applying generative AI to certain aspects of the underwriting and claims processes in certain lines of business, which may raise technological, security, legal, regulatory and other risks and challenges that may adversely affect our operations, business or reputation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to certain risks if we are unable to maintain the availability of our critical technology systems and data and safeguard the confidentiality and integrity of our data, which could compromise our ability to conduct business and adversely affect our consolidated business, results of operations, financial condition and liquidity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closed strategic investments in Convex Group Limited and Onex Corporation",
+      "date": "2026-02-06",
+      "sentence": "On February 6, 2026, both transactions closed."
+    },
+    {
+      "event": "Acquisition of renewal rights of Everest global retail commercial insurance portfolios",
+      "date": "2025-10-27",
+      "sentence": "On October 27, 2025, AIG announced definitive agreements with Everest Group, Ltd. (Everest) to acquire the renewal rights of Everest s global retail commercial insurance portfolios for an aggregate purchase price of $301 million."
+    },
+    {
+      "event": "Strategic collaboration to form Lloyd's Syndicate 2479",
+      "date": null,
+      "sentence": "Announced a strategic collaboration with Amwins Group, Inc. and Blackstone Inc. to form Lloyd s Syndicate 2479, providing capacity for portfolio solutions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:22:06.526Z",
+  "model": "deepseek-v4-flash"
+}

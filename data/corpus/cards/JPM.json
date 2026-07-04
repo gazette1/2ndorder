@@ -1,0 +1,45 @@
+{
+  "cik": "0000019617",
+  "ticker": "JPM",
+  "name": "JPMORGAN CHASE & CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008131",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "business": "JPMorgan Chase & Co. is a leading financial services firm based in the United States of America, with operations worldwide. The Firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing and asset management.",
+  "sellsTo": [
+    "consumers and small businesses",
+    "corporate, institutional and government clients",
+    "worldwide"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competitors include other banks, brokerage firms, investment banking companies, merchant banks, hedge funds, commodity trading companies, private equity firms, insurance companies, mutual fund companies, investment managers, credit card companies, mortgage banking companies, trust companies, securities processing companies, automobile financing companies, leasing companies, e-commerce and other internet-based companies, digital asset and other financial technology companies, and other companies engaged in providing similar and new products and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Firm and its subsidiaries are subject to laws, rules and regulations globally concerning data, including data protection, consumer protection, privacy, cybersecurity, artificial intelligence and related matters."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Firm and its subsidiaries are subject to laws, rules and regulations globally concerning data, including data protection, consumer protection, privacy, cybersecurity, artificial intelligence and related matters."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "the potential adverse impacts of climate change on JPMorganChase's business and operations and those of its clients and customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:48:30.165Z",
+  "model": "deepseek-v4-flash"
+}

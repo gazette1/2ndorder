@@ -1,0 +1,62 @@
+{
+  "cik": "0000106535",
+  "ticker": "WY",
+  "name": "WEYERHAEUSER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051422",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/106535/000119312526051422/wy-20251231.htm"
+  },
+  "business": "Weyerhaeuser sells logs from its timberlands, wood products including structural lumber, oriented strand board, and engineered wood, and real estate and energy/natural resources rights. Its customers include homebuilders, repair and remodel contractors, and export markets, particularly in Japan and China. The company also earns revenue from recreational leases and energy royalties.",
+  "sellsTo": [
+    "U.S. housing market",
+    "Repair and remodeling activity",
+    "Japanese housing starts",
+    "Export demand"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Single-family construction is the primary driver for our business as compared to multi-family due to the amount of wood products used."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The strength of the U.S. housing market, particularly new residential construction, strongly affects demand in our Wood Products segment, as does repair and remodeling activity."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "The demand for pulpwood from our Timberlands segment is directly affected by the production of pulp, paper and oriented strand board (OSB), as well as the demand for biofuels, such as wood-burning pellets made from pulpwood."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our Real Estate, Energy and Natural Resources segment is affected by a variety of factors, including the general state of the economy, local real estate market conditions, the level of construction activity in the U.S. and evolution of emerging renewable energy and carbon-related markets."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "With that in mind, we believe we are uniquely positioned to help others achieve climate change mitigation goals through our Climate Solutions business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Return to normalized operating posture",
+      "date": "2026-03-31",
+      "sentence": "The company expects to return to a more normalized operating posture in first quarter 2026."
+    },
+    {
+      "event": "Start operations at Monticello TimberStrand facility",
+      "date": "2027-12-31",
+      "sentence": "Construction began in 2025, with the goal of starting operations in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:55.995Z",
+  "model": "deepseek-v4-flash"
+}

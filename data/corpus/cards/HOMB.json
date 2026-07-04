@@ -1,0 +1,59 @@
+{
+  "cik": "0001331520",
+  "ticker": "HOMB",
+  "name": "HOME BANCSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001331520-26-000051",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1331520/000133152026000051/homb-20251231.htm"
+  },
+  "business": "Home BancShares, Inc. is a bank holding company that provides commercial and retail banking and related financial services through its wholly owned subsidiary Centennial Bank to businesses, real estate developers, individuals, and municipalities in Arkansas, Florida, Texas, South Alabama, and New York City.",
+  "sellsTo": [
+    "businesses",
+    "real estate developers and investors",
+    "individuals",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ameriprise Financial Services, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Although the Company has a diversified loan portfolio, at December 31, 2025 and 2024, commercial real estate loans represented 53.2% and 57.6% of gross loans and 194.3% and 214.6% of total stockholders equity, respectively."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Agricultural loans include loans for financing agricultural production, including loans to businesses or individuals engaged in the production of timber, poultry, livestock or crops and are not categorized as part of real estate loans."
+    },
+    {
+      "tag": "other:marine-lending",
+      "stance": "core_product",
+      "sentence": "In 2018, we acquired Shore Premier Finance (SPF), a marine-lending division of Union Bank & Trust of Richmond, Virginia, and established the SPF division of Centennial Bank to build out a lending platform focusing on commercial and consumer marine loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of our operational or security systems, or those of our third-party service providers, including as a result of cyber-attacks, could disrupt our business, result in unintentional disclosure or misuse of confidential or proprietary information, damage our reputation, increase our costs and cause losses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry continues to undergo rapid technological changes, including the development and use of artificial intelligence (\"AI\")."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of acquisition of Mountain Commerce Bancorp, Inc. expected to close in second quarter of 2026",
+      "date": "2026-06-30",
+      "sentence": "The Merger is expected to close in the second quarter of 2026 and is subject to regulatory approvals and other conditions set forth in the Agreement."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:46:36.498Z",
+  "model": "deepseek-v4-flash"
+}

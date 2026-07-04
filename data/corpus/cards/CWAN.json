@@ -1,0 +1,70 @@
+{
+  "cik": "0001866368",
+  "ticker": "CWAN",
+  "name": "Clearwater Analytics Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001866368-26-000011",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1866368/000186636826000011/cwan-20251231.htm"
+  },
+  "business": "CWAN provides a cloud-native, AI-powered technology platform for investment management operations, serving as a single source of truth for global investment assets. The platform aggregates and normalizes data on over $10 trillion of assets for over 2,500 clients as of December 31, 2025. Clients include leading insurers, asset managers, hedge funds, banks, corporations, and government entities.",
+  "sellsTo": [
+    "insurance companies",
+    "asset managers",
+    "hedge funds",
+    "banks",
+    "corporations",
+    "government entities",
+    "pension funds",
+    "sovereign wealth funds",
+    "endowments and foundations",
+    "state and local governments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CWAN brings transparency to the opaque world of investment management with what we believe is the industry’s most comprehensive single instance, multi-tenant technology platform."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We believe that this architecture and consolidated dataset offers clients a unique ability to accelerate time-to-insight and efficiency through generative artificial intelligence (GenAI), artificial intelligence agents (AI Agents) and other cutting-edge technologies embedded into the CWAN platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we or our third-party service providers suffer a cybersecurity event, our reputation may be harmed, we may lose clients and we may incur significant liabilities, any of which would harm our business and results of operations."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We currently host substantially all of our cloud service from third-party data center facilities from several global locations operated by Amazon Web Services (AWS)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger closing expected in second quarter of 2026",
+      "date": null,
+      "sentence": "The Merger is expected to close in the second quarter of 2026 and is subject to certain closing conditions, including the approval of the Company’s stockholders, expiration or termination of the applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended (the HSR Act), the receipt of certain other specified regulatory approvals or consents, the absence of legal restraints prohibiting consummation of the Merger, and other customary conditions specified in the Merger Agreement."
+    },
+    {
+      "event": "Early termination of HSR waiting period granted",
+      "date": "2026-02-13",
+      "sentence": "Early termination of the waiting period under the HSR Act in connection with the Merger was granted effective February 13, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market estimated at $23 billion globally",
+      "sentence": "We estimate that our total addressable market is $23 billion globally, including $10 billion, $6 billion and $3 billion of spend from the asset management, insurance, and hedge fund industries, respectively."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:50:06.311Z",
+  "model": "deepseek-v4-flash"
+}

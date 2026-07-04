@@ -1,0 +1,80 @@
+{
+  "cik": "0000858877",
+  "ticker": "CSCO",
+  "name": "CISCO SYSTEMS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000858877-25-000111",
+    "filedAt": "2025-09-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm"
+  },
+  "business": "Cisco designs and sells a broad range of technologies that help to power, secure, and draw insights from the Internet, incorporating AI into product portfolios across networking, security, collaboration, and observability. The company operates globally through three geographic segments: Americas, EMEA, and APJC. Customers include businesses of all sizes, public institutions, governments, and service providers, including large webscale providers.",
+  "sellsTo": [
+    "enterprise",
+    "public sector",
+    "service provider and cloud",
+    "businesses of all sizes",
+    "public institutions",
+    "governments",
+    "large webscale providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We provide network infrastructure to power AI training and inference workloads for both webscale providers and enterprises."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are reinventing data center operations for our customers by simplifying the configuration, monitoring, and maintenance of fabrics, compute, networking and storage."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our security portfolio spans Network Security, Identity and Access Management, Secure Access Service Edge (SASE), and Threat Intelligence, Detection, and Response (TIDR) solutions."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "They are built on Cisco Silicon One and are equipped with quantum-resistant security and post-quantum cryptography to protect against future threats."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "built on Cisco Silicon One (which is our single, unified, and scalable networking silicon architecture)"
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our networking business is built on a foundation of industry-leading technologies, including switching, routing, wireless, and servers, offered through a comprehensive suite of both hardware and software solutions."
+    },
+    {
+      "tag": "other:observability",
+      "stance": "core_product",
+      "sentence": "Observability consists of our network assurance, monitoring and analytics and observability suite offerings."
+    },
+    {
+      "tag": "other:collaboration",
+      "stance": "core_product",
+      "sentence": "Our Collaboration portfolio consists of our Webex suite, collaboration devices, Contact Center and Communication Platform as a Service (CPaaS) offerings."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Substantial completion of restructuring plan",
+      "date": null,
+      "sentence": "We expect this plan to be substantially completed by the end of the second quarter of fiscal 2026."
+    },
+    {
+      "event": "Continue entering into additional purchase commitments for Cisco Silicon One and other products",
+      "date": null,
+      "sentence": "We expect to continue entering into these additional purchase commitments in fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:49:55.148Z",
+  "model": "deepseek-v4-flash"
+}

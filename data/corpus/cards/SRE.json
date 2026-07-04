@@ -1,0 +1,81 @@
+{
+  "cik": "0001032208",
+  "ticker": "SRE",
+  "name": "SEMPRA",
+  "source": {
+    "form": "10-K",
+    "accession": "0001032208-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000010/sre-20251231.htm"
+  },
+  "business": "Sempra is a holding company whose principal businesses are regulated utilities in California and Texas. It operates through three reportable segments: Sempra California (SDG&E and SoCalGas), Sempra Texas Utilities (Oncor), and Sempra Infrastructure (energy infrastructure including LNG, pipelines, and power). The company provides electric and natural gas services to residential, commercial, and industrial customers, and develops energy infrastructure projects.",
+  "sellsTo": [
+    "residential and commercial customers in California and Texas",
+    "wholesale electricity and natural gas markets",
+    "LNG customers",
+    "data centers and large commercial and industrial customers in ERCOT"
+  ],
+  "namedCustomers": [
+    "Shell"
+  ],
+  "namedSuppliers": [
+    "Bechtel"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Sempra is a holding company whose principal businesses are regulated utilities in California and Texas."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "In 2025 compared to 2024, Sempra's electric revenues increased by $256 million (6%) driven by Sempra California, which included: $31 million higher revenues from transmission operations."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Data center development in Oncor's service territory is expected to drive increasing electric demand and require a rapid and significant increase in Oncor's grid infrastructure."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "$115 million lower regulatory revenues from higher ITCs from standalone energy storage projects, which are offset in income tax expense."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "SI Partners reached a positive FID on the PA LNG Phase 2 project and issued a full notice-to-proceed under Bechtel's fixed-price EPC contract."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Agreement to sell 45% equity interest in SI Partners to KKR Partners",
+      "date": "2025-09",
+      "sentence": "In September 2025, we entered into an agreement to sell a 45% equity interest in SI Partners to the KKR Partners for $9.99 billion, subject to adjustments, and expect the sale to close in the second or third quarter of 2026, subject to closing conditions."
+    },
+    {
+      "event": "Oncor filed 2025 comprehensive base rate review, expects final order in first half of 2026",
+      "date": null,
+      "sentence": "Oncor filed its 2025 comprehensive base rate review and expects to receive a final order from the PUCT in the first half of 2026."
+    },
+    {
+      "event": "Texas House Bill 5247 (UTM) signed into law",
+      "date": "2025-06",
+      "sentence": "In June 2025, Texas House Bill 5247, which established the UTM, was signed into law and became effective."
+    },
+    {
+      "event": "Agreement to sell Ecogas",
+      "date": "2025-12",
+      "sentence": "In December 2025, we entered into an agreement to sell Ecogas for 9.0 billion Mexican pesos (approximately $500 million U.S. dollar-equivalent at December 31, 2025), subject to adjustments, and expect the sale to close in the second or third quarter of 2026."
+    },
+    {
+      "event": "Positive FID and full notice-to-proceed for PA LNG Phase 2",
+      "date": null,
+      "sentence": "SI Partners reached a positive FID on the PA LNG Phase 2 project and issued a full notice-to-proceed under Bechtel's fixed-price EPC contract."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:13:38.980Z",
+  "model": "deepseek-v4-flash"
+}

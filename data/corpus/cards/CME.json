@@ -1,0 +1,69 @@
+{
+  "cik": "0001156375",
+  "ticker": "CME",
+  "name": "CME GROUP INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001156375-26-000009",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000009/cme-20251231.htm"
+  },
+  "business": "CME Group enables clients to trade futures, options, cash and over-the-counter (OTC) products, optimize portfolios and analyze data. It operates one of the world's leading central counterparty clearing providers and offers market data and analytics.",
+  "sellsTo": [
+    "professional traders",
+    "financial institutions",
+    "institutional and individual investors",
+    "major corporations",
+    "manufacturers",
+    "producers",
+    "governments",
+    "central banks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CyrusOne",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CME Group provides primary price discovery and referential pricing information through its market data in a variety of formats, including real-time, historical and derived data for customers in both listed and cash products."
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "active_investment",
+      "sentence": "In 2021, we entered into a 10-year strategic partnership with Google Cloud to accelerate our move to the cloud."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our technology, our customers, our people and our third-party service providers are vulnerable to cyber-security threats, which could result in wrongful use of our data or our customers data or cause interruptions in our operations, our customers' operations, or our third-party service providers' operations, which could cause us to lose customers and trading volume and result in substantial liabilities."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "On November 27, 2025, our largest data center owned and operated by CyrusOne experienced a critical cooling failure caused by human error."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Securities clearing service launch",
+      "date": "2026-12-31",
+      "sentence": "We expect to launch this service later in 2026."
+    },
+    {
+      "event": "24/7 crypto trading launch",
+      "date": "2026-06-30",
+      "sentence": "We will begin offering 24/7 trading for our entire crypto suite in Q2 2026."
+    },
+    {
+      "event": "Migration of clearing applications to Google Cloud completion",
+      "date": "2026-03-31",
+      "sentence": "We anticipate completing the migration of the applications supporting clearing by the end of the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:04:43.929Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,99 @@
+{
+  "cik": "0001045810",
+  "ticker": "NVDA",
+  "name": "NVIDIA CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001045810-26-000021",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  "business": "NVIDIA is a data center scale AI infrastructure company that provides accelerated computing platforms including GPUs, CPUs, DPUs, networking, and software for AI, data analytics, scientific computing, robotics, and 3D graphics. It sells to markets including Data Center, Gaming, Professional Visualization, and Automotive, serving cloud service providers, AI model makers, enterprises, gamers, and professionals.",
+  "sellsTo": [
+    "cloud service providers",
+    "AI model makers",
+    "enterprises",
+    "gamers",
+    "professional artists and designers",
+    "automotive OEMs",
+    "system integrators",
+    "distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+    "Samsung Electronics Co., Ltd.",
+    "SK Hynix Inc.",
+    "Micron Technology, Inc.",
+    "Hon Hai Precision Industry Co., Ltd.",
+    "Wistron Corporation",
+    "Fabrinet"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "NVIDIA is now a data center scale AI infrastructure company reshaping all industries."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our Data Center infrastructure systems include supercomputing platforms and servers, bringing together our higher performance, energy efficient GPUs, CPUs, interconnects, and fully optimized AI and HPC software stacks."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our products for the gaming market include GeForce RTX GPUs for gaming desktop and laptop PCs, GeForce NOW cloud gaming service, as well as SoCs and development services for game consoles."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Automotive is comprised of platform solutions for automated driving from the cloud to the car."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "For physical AI, we provide an end-to-end platform spanning data center infrastructure, open models, systems, embedded compute modules, and software stacks to train, simulate, and deploy advanced automation and robotics solutions."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our networking offerings include NVLink interconnects and switches, end-to-end platforms for InfiniBand and Ethernet, consisting of network adapters, cables, DPUs, switch chips and systems, as well as software."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "It is deployed in cloud, hyperscale, on-premises and edge data centers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "While our approach starts with powerful chips, what makes it a full-stack computing platform is our large body of software, including the CUDA development platform, the CUDA-X collection of acceleration libraries, AI models and training data sets, APIs, SDKs, and domain-specific application frameworks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Shipment of production units of Blackwell Ultra platforms including GB300",
+      "date": null,
+      "sentence": "We began shipping production units of our new Blackwell Ultra platforms including GB300 in the second quarter of fiscal year 2026."
+    },
+    {
+      "event": "Unveiling of NVIDIA Rubin platform with expected production shipments",
+      "date": null,
+      "sentence": "In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027."
+    },
+    {
+      "event": "USG granted licenses to ship certain H20 products to China-based customers",
+      "date": null,
+      "sentence": "In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers."
+    },
+    {
+      "event": "USG granted license to ship small amounts of H200 products to specific China-based customers",
+      "date": null,
+      "sentence": "In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:47:40.697Z",
+  "model": "deepseek-v4-flash"
+}

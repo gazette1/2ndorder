@@ -1,0 +1,61 @@
+{
+  "cik": "0000077476",
+  "ticker": "PEP",
+  "name": "PEPSICO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000077476-26-000007",
+    "filedAt": "2026-02-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm"
+  },
+  "business": "PepsiCo is a leading global beverage and convenient food company with a complementary portfolio of brands including Lay's, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream, making, marketing, distributing and selling beverages and convenient foods to customers and consumers in more than 200 countries and territories.",
+  "sellsTo": [
+    "wholesale and other distributors",
+    "foodservice customers",
+    "grocery stores",
+    "drug stores",
+    "convenience stores",
+    "discount/dollar stores",
+    "mass merchandisers",
+    "membership stores",
+    "hard discounters",
+    "e-commerce retailers",
+    "authorized independent bottlers"
+  ],
+  "namedCustomers": [
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "We continue to monitor changes in the retail landscape and seek to identify actions we may take to build our global e-commerce and digital capabilities, such as expanding our direct-to-consumer business, and distribute our products effectively through all existing and emerging channels of trade and potentially mitigate any unfavorable impacts on our future results."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are building smarter systems with technologies like artificial intelligence to better serve our customers and consumers, so we can have the right products, at the right place, at the right price."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and other cyber incidents are occurring more frequently, and the techniques used to gain access to information technology systems and data, disable or degrade service or sabotage systems are constantly evolving and becoming more sophisticated in nature and are being carried out by groups and individuals with a wide range of expertise and motives."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may increase the frequency or severity of natural disasters and other extreme weather conditions, including rising temperatures and drought."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Incur pre-tax restructuring charges under the 2019 Multi-Year Productivity Plan",
+      "date": null,
+      "sentence": "In our 2026 financial results, we expect to incur pre-tax charges of approximately $900 million, including cash expenditures of approximately $750 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:53:40.189Z",
+  "model": "deepseek-v4-flash"
+}

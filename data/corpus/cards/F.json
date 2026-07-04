@@ -1,0 +1,61 @@
+{
+  "cik": "0000037996",
+  "ticker": "F",
+  "name": "FORD MOTOR CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000037996-26-000015",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm"
+  },
+  "business": "Ford develops and delivers Ford trucks, SUVs, commercial vans, cars, and Lincoln luxury vehicles, along with connected services including BlueCruise ADAS and security. Substantially all vehicles are sold through independently owned dealerships. The company also provides financial services through Ford Motor Credit Company.",
+  "sellsTo": [
+    "retail customers",
+    "commercial fleet customers",
+    "government",
+    "daily rental car companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Novelis Inc.",
+    "SK On Co., Ltd.",
+    "SK Battery America, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Ford develops and delivers innovative, must-have Ford trucks, sport utility vehicles, commercial vans and cars, and Lincoln luxury vehicles, along with connected services, including BlueCruise (ADAS) and security."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel), and rare earth minerals (e.g., magnets, neodymium, dysprosium)."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel), and rare earth minerals (e.g., magnets, neodymium, dysprosium)."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel), and rare earth minerals (e.g., magnets, neodymium, dysprosium)."
+    },
+    {
+      "tag": "other:autonomous-driving",
+      "stance": "risk_mention",
+      "sentence": "Autonomous vehicle and driver assist technologies continue to be scrutinized by the government, and actual or perceived failures or misuse of these technologies and features have led to government investigations and inquiries, including of Ford, which has responded to information requests from NHTSA and the National Transportation Safety Board about our hands-free highway driving system, BlueCruise."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of BOSK joint venture disposition",
+      "date": "2026-06-30",
+      "sentence": "Upon closing of the transactions contemplated by the JVDA (expected in the first half of 2026), we expect to recognize additional special item charges of about $3 billion..."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:15:54.402Z",
+  "model": "deepseek-v4-flash"
+}

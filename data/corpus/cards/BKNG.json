@@ -1,0 +1,51 @@
+{
+  "cik": "0001075531",
+  "ticker": "BKNG",
+  "name": "Booking Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001075531-26-000009",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm"
+  },
+  "business": "Booking Holdings provides online travel and restaurant reservation services through its brands Booking.com, Priceline, Agoda, KAYAK, and OpenTable, deriving revenues from commissions, payment facilitation, advertising, and other fees. The company serves travelers and travel service providers, including hotels, airlines, rental car companies, and restaurants.",
+  "sellsTo": [
+    "consumers (travelers)",
+    "travel service providers (hotels, airlines, rental car companies)",
+    "restaurants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "active_investment",
+      "sentence": "We offer consumer-facing Gen AI capabilities across our brands, including trip planners, AI assistants to answer consumer queries, and a price comparison tool."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "active_investment",
+      "sentence": "In 2025, we continued our investments in Gen AI to accelerate internal productivity and improve the consumer and partner experience."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "We continue to expand our merchant service offerings as part of a broader strategy to provide more payment options to travelers and travel service providers, increase the variety of our accommodations, and enable our long-term Connected Trip strategy."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If threat actors are able to circumvent, interrupt, or adversely affect our security measures, including as a result of our own acts or omissions, it could result in a compromise or breach of consumer, partner, or employee data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Realization of total annual run-rate savings from Transformation Program",
+      "date": "2026-12-31",
+      "sentence": "As of the end of 2025, we have enabled approximately $550 million in annual run-rate savings and we expect to realize these run-rate savings by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:56:44.492Z",
+  "model": "deepseek-v4-flash"
+}

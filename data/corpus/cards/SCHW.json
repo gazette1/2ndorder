@@ -1,0 +1,55 @@
+{
+  "cik": "0000316709",
+  "ticker": "SCHW",
+  "name": "SCHWAB CHARLES CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000316709-26-000009",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm"
+  },
+  "business": "Schwab provides wealth management, securities brokerage, banking, asset management, custody, and financial advisory services to individual investors and independent registered investment advisors through two segments: Investor Services and Advisor Services.",
+  "sellsTo": [
+    "individual investors",
+    "independent registered investment advisors",
+    "retirement plan sponsors",
+    "businesses and their employees"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TD Bank USA, National Association",
+    "TD Bank, National Association"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Digital assets cryptocurrency exchange-trade products (ETPs), options on select cryptocurrency ETPs, cryptocurrency futures, with expanded access to select cryptocurrencies expected to be offered to clients beginning in 2026;"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "These forward-looking statements... relate to, among other things: ... Industry and competitive trends including artificial intelligence, digital assets, private company securities and other alternative investments;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Forge Global Holdings, Inc. expected to close",
+      "date": "2026-03",
+      "sentence": "The transaction was approved by Forge's stockholders in January 2026, and is expected to close in March 2026, subject to customary closing conditions, including regulatory approvals."
+    },
+    {
+      "event": "Expanded access to select cryptocurrencies expected to be offered to clients",
+      "date": "2026",
+      "sentence": "Digital assets cryptocurrency exchange-trade products (ETPs), options on select cryptocurrency ETPs, cryptocurrency futures, with expanded access to select cryptocurrencies expected to be offered to clients beginning in 2026;"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Investable wealth in the U.S. currently exceeds $80 trillion",
+      "sentence": "Management estimates that investable wealth in the United States (U.S.) (consisting of assets in defined contribution, retail wealth management and brokerage, and registered investment advisor channels, along with bank deposits) currently exceeds $80 trillion, which means the Company's $11.90 trillion in client assets leaves substantial opportunity for growth."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:54:59.326Z",
+  "model": "deepseek-v4-flash"
+}

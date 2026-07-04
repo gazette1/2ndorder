@@ -1,0 +1,55 @@
+{
+  "cik": "0000036104",
+  "ticker": "USB",
+  "name": "US BANCORP DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0000036104-26-000011",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm"
+  },
+  "business": "U.S. Bancorp is a financial services holding company that provides a full range of financial services including lending and depository services, cash management, capital markets, trust and investment management, credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing. It serves individuals, businesses, institutional organizations, governmental entities and other financial institutions.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "institutional organizations",
+    "governmental entities",
+    "other financial institutions",
+    "wealth clients",
+    "middle market",
+    "large corporate",
+    "commercial real estate",
+    "government and institutional clients",
+    "consumer banking customers",
+    "small business banking customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches in data security; Failures or disruptions in or breaches of U.S. Bancorp’s operational, technology or security systems or infrastructure, or those of third parties, including as a result of cybersecurity incidents"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition has also increased from companies that are not subject to the same regulatory restrictions as domestic banks and bank holding companies, including by financial technology companies, or fintechs, which may offer bank-like products or services that compete directly with the Company’s products and services."
+    },
+    {
+      "tag": "other:employee_ai_training",
+      "stance": "active_investment",
+      "sentence": "The Company also launched an AI Essentials Channel on Skills Academy, which is designed to help team members build skills in effectively using Company-approved artificial intelligence tools in their daily work."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of BTIG expected to close",
+      "date": null,
+      "sentence": "The transaction is expected to close in the second quarter of 2026, subject to regulatory approvals and satisfaction of applicable closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:01:25.819Z",
+  "model": "deepseek-v4-flash"
+}

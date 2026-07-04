@@ -1,0 +1,62 @@
+{
+  "cik": "0001108524",
+  "ticker": "CRM",
+  "name": "Salesforce, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001108524-26-000060",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+  },
+  "business": "Salesforce is a global leader in customer relationship management technology, providing an AI-powered platform that unites sales, service, marketing, commerce, and other functions. The company sells subscription-based cloud services to businesses of all sizes, primarily through direct sales and partners.",
+  "sellsTo": [
+    "businesses of all sizes",
+    "enterprise customers",
+    "government entities",
+    "regulated industries",
+    "global markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our artificial intelligence (AI) powered Agentforce 360 Platform unites our offerings spanning sales, service, marketing, commerce, collaboration, data management, integration, analytics, IT service, industry verticals and more on a single, intelligent platform for trusted enterprise execution."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party data center hosting facilities and cloud computing platform providers located in the United States and other countries, as well as the many different underlying networks and services that power the Internet, to deliver our products and services and operate critical business systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security measures, or those of our third-party data center providers, cloud computing platform providers, customers, partners, other third-party vendors or the underlying Internet infrastructure, are breached or otherwise compromised, resulting in the unauthorized access to, disclosure, alteration, corruption, destruction or loss of customer data, our data or our IT systems, or disruption of authorized access thereto, our services may be perceived as insecure, customers may reduce or terminate their use of our services, and we may incur significant reputational harm, legal liability, regulatory scrutiny or a negative financial impact."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our Commerce offering helps connect every aspect of commerce from marketing and sales to service and fulfillment on a single, connected, AI-powered platform, enabling brands to deliver personalized, seamless shopping experiences across every customer touchpoint."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our industry vertical offerings meet the specific needs of our customers across different industries, such as financial services, healthcare and life sciences, manufacturing, automotive and government."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our industry vertical offerings meet the specific needs of our customers across different industries, such as financial services, healthcare and life sciences, manufacturing, automotive and government."
+    },
+    {
+      "tag": "other:government",
+      "stance": "risk_mention",
+      "sentence": "Risks related to government contracts and related procurement regulations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:57:21.652Z",
+  "model": "deepseek-v4-flash"
+}

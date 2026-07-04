@@ -1,0 +1,55 @@
+{
+  "cik": "0001436229",
+  "ticker": "BTCS",
+  "name": "BTCS Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012916",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1436229/000149315226012916/form10-k.htm"
+  },
+  "business": "BTCS Inc. is a blockchain technology company that generates revenue through blockchain infrastructure and decentralized finance (DeFi) activities, primarily on the Ethereum network. It operates validator nodes, builds and submits transaction blocks, and deploys digital assets into DeFi protocols. These services are sold to participants in the Ethereum ecosystem, including validators, block proposers, and DeFi protocol users.",
+  "sellsTo": [
+    "Ethereum network participants",
+    "validators and block proposers",
+    "DeFi protocol users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "BTCS operates as an active participant in the Ethereum ecosystem, generating digital asset denominated on-chain revenues through its operations."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In 2025, BTCS launched Imperium, a business line focused on deploying digital assets into decentralized finance protocols as a liquidity provider and market participant."
+    },
+    {
+      "tag": "other:proof-of-stake",
+      "stance": "core_product",
+      "sentence": "Under PoS, network security and transaction validation are performed by Validators that commit digital assets to the network and operate specialized software and infrastructure."
+    },
+    {
+      "tag": "other:block-building",
+      "stance": "core_product",
+      "sentence": "Through its Builder+ operations, BTCS participates in the blockspace value chain by operating proprietary block builders (Builders) that construct optimized transaction blocks for submission to Validators."
+    },
+    {
+      "tag": "other:smart-contracts",
+      "stance": "core_product",
+      "sentence": "Through Imperium, the Company deploys ETH and stablecoins into smart contract-based protocols that facilitate decentralized lending, borrowing, liquidity provision, and other on-chain financial activities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to cybersecurity incidents, digital asset theft, loss of private keys, and other security risks, and we do not maintain insurance covering losses of digital assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:09:01.306Z",
+  "model": "deepseek-v4-flash"
+}

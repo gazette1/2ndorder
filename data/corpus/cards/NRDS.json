@@ -1,0 +1,39 @@
+{
+  "cik": "0001625278",
+  "ticker": "NRDS",
+  "name": "NERDWALLET, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001625278-26-000014",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1625278/000162527826000014/nrds-20251231.htm"
+  },
+  "business": "NerdWallet, Inc. provides consumers and small and mid-sized businesses (SMBs) with trusted guidance across a broad range of finance topics through a digital platform that integrates independent editorial content, comparison tools, data-driven product marketplaces, and access to regulated financial services offered through its subsidiaries. The company generates revenue primarily through referral fees, lead generation, and partner-based monetization, as well as through revenue derived from brokering and advisory services.",
+  "sellsTo": [
+    "consumers",
+    "small and mid-sized businesses (SMBs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "NerdWallet, Inc. provides consumers and small and mid-sized businesses (SMBs) with trusted guidance across a broad range of finance topics through a digital platform that integrates independent editorial content, comparison tools, data-driven product marketplaces, and access to regulated financial services offered through our subsidiaries."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Insurance Marketplace (NerdWallet Insurance Services, Inc.) Provides quote comparison tools and introductions to carriers and licensed insurance professionals."
+    },
+    {
+      "tag": "other:ai-ml",
+      "stance": "core_product",
+      "sentence": "We use machine learning and rules-based systems to improve marketplace matching, predict user intent, and optimize performance for both users and partners."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:10:48.067Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,69 @@
+{
+  "cik": "0001101239",
+  "ticker": "EQIX",
+  "name": "EQUINIX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001101239-26-000032",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm"
+  },
+  "business": "Equinix provides digital infrastructure services including colocation, interconnection, and edge solutions. The company operates 280 data centers in 77 markets across 36 countries. It serves over 10,500 customers including telecommunications carriers, cloud providers, and enterprises.",
+  "sellsTo": [
+    "telecommunications carriers",
+    "mobile and other network services providers",
+    "cloud and IT services providers",
+    "digital media and content providers",
+    "financial services companies",
+    "global enterprise ecosystems"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Equinix is the world's digital infrastructure company... Our data centers around the world allow our customers to bring together and interconnect the infrastructure they need to seamlessly operate their business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "AI adoption is increasing the need for distributed, interconnected digital infrastructure. Equinix has curated a leading AI ecosystem of model providers, data platforms, neoclouds and gateways to serve the AI requirements of enterprises."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Equinix Managed Solutions and Enablement Services offer flexible and easy-to-consume managed platforms for cloud, storage, backup and firewall."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Equinix was the first data center company to set a goal of 100% clean and renewable energy coverage across our portfolio."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "AI-driven use cases spanning fraud detection, predictive maintenance, connected mobility, personalized retail, energy optimization and agentic connectivity depend on secure, low-latency pathways."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "we are anticipating chip shortages relative to those experienced in the market in prior years."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Deliver over 55,000 cabinets of retail capacity and 100 MW of xScale capacity through development projects",
+      "date": null,
+      "sentence": "We anticipate these development projects will deliver 55,000+ cabinets of retail capacity and 100+ MW of xScale capacity through 2028."
+    },
+    {
+      "event": "Seek additional joint ventures for hyperscale builds",
+      "date": null,
+      "sentence": "We have announced our intention to seek additional joint ventures for certain of our hyperscale builds."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:00:52.114Z",
+  "model": "deepseek-v4-flash"
+}

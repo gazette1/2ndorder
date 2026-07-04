@@ -1,0 +1,59 @@
+{
+  "cik": "0001576942",
+  "ticker": "SFIX",
+  "name": "Stitch Fix, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-042782",
+    "filedAt": "2025-09-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1576942/000162828025042782/sfix-20250802.htm"
+  },
+  "business": "Stitch Fix is an online personal styling service that sells apparel, shoes, and accessories to individual clients in the United States. Clients can receive curated shipments (Fixes) chosen by stylists and algorithms, or purchase directly via Freestyle on its website or app. The company uses AI and data science to personalize recommendations and manage inventory.",
+  "sellsTo": [
+    "Women's apparel",
+    "Men's apparel",
+    "Kids apparel",
+    "Petite",
+    "Maternity",
+    "Plus apparel"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We do this through our unique business model that pairs expert Stylists with best-in-class artificial intelligence (AI) and recommendation algorithms."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Clients primarily engage with us by (1) receiving a curated shipment of items informed by our algorithms and chosen by a Stitch Fix Stylist (a Fix); or (2) purchasing directly from our website or mobile app based on an individualized assortment of outfit and item recommendations (Freestyle)."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We offer a wide selection of clothing and accessories across multiple price points and styles from our brand partners and our own private brands."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We operate three fulfillment centers in the United States (located in Arizona, Georgia, and Indiana)."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "In our fulfillment centers, our algorithms increase efficiencies in processes such as allocation, batch picking, transportation, shipping, returns, and ongoing process improvement."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Incur approximately $4.2 million in non-ordinary course legal fees in fiscal 2026",
+      "date": null,
+      "sentence": "We estimate we will incur approximately $4.2 million in non-ordinary course legal fees in fiscal 2026 related to said class action lawsuit."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:12:31.892Z",
+  "model": "deepseek-v4-flash"
+}

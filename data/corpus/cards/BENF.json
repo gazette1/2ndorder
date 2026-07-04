@@ -1,0 +1,54 @@
+{
+  "cik": "0001775734",
+  "ticker": "BENF",
+  "name": "Beneficient",
+  "source": {
+    "form": "10-K",
+    "accession": "0001775734-26-000018",
+    "filedAt": "2026-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1775734/000177573426000018/ben-20260331.htm"
+  },
+  "business": "Beneficient provides liquidity, primary capital, trustee, custody, and trust administration services to participants in the alternative asset industry using a proprietary digital platform and fiduciary financing structure.",
+  "sellsTo": [
+    "mid-to-high net worth individual investors",
+    "small-to-midsize institutional investors",
+    "family offices",
+    "general partners and sponsors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Each of our liquidity, primary capital, custody, trustee, trust administration, transfer agent and broker-dealer products and services are structured to be deliverable to our Customers through our online digital platform, AltAccess."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Ben Insurance Services plans to provide insurance products and services to certain affiliates (as defined in the Kansas Captive Insurance Act), including the Customer ExAlt Trusts, custody accounts and other trusts for which BFF serves as trustee or custodian, to cover risks attendant to the ownership, management and transfer of alternative assets and financings related to alternative asset transactions."
+    },
+    {
+      "tag": "other:ml-underwriting",
+      "stance": "active_investment",
+      "sentence": "For example, we use a combination of statistical methods leveraging machine learning and artificial intelligence algorithms in connection with our underwriting and risk processes to review certain key alternative asset valuations, investment information, and limited partnership agreement terms."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Demand for liquidity from target market over $64 billion annually",
+      "sentence": "We estimate that the demand for liquidity from our target, underserved, market of MHNW and STMI institutional investors is over $64 billion annually."
+    },
+    {
+      "claim": "Demand for liquidity to grow to over $130 billion within five years",
+      "sentence": "Further, as our target markets grow in size and increase their allocations to alternative investments, we estimate the demand for liquidity to grow to over $130 billion within the next five years."
+    },
+    {
+      "claim": "Potential demand for primary commitments up to $330 billion",
+      "sentence": "Further, as fund sponsors continue to launch new products and face an increasingly competitive and challenging fund-raising environment, Ben estimates the potential demand for primary commitments to meet fundraising needs, which we can finance from our balance sheet, to be up to $330 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:12:00.522Z",
+  "model": "deepseek-v4-flash"
+}

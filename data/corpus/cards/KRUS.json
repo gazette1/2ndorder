@@ -1,0 +1,39 @@
+{
+  "cik": "0001772177",
+  "ticker": "KRUS",
+  "name": "KURA SUSHI USA, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-269773",
+    "filedAt": "2025-11-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1772177/000119312525269773/krus-20250831.htm"
+  },
+  "business": "KURA SUSHI USA, INC. operates sushi restaurants in the United States using revolving conveyor belts and automated equipment. The restaurants offer Japanese cuisine to guests primarily in retail centers, shopping malls, and other high-traffic locations.",
+  "sellsTo": [
+    "retail consumers",
+    "guests in high-traffic centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "We rely significantly on the operation of our revolving and express conveyor belts, sushi robots and other automated equipment, and any mechanical failure could prevent us from effectively operating our restaurants."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely significantly on information technology and cybersecurity, and any material failure, weakness, interruption or breach of security could prevent us from effectively operating our business."
+    },
+    {
+      "tag": "other:social-media",
+      "stance": "risk_mention",
+      "sentence": "Our marketing efforts rely heavily on the use of social media."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:09:45.239Z",
+  "model": "deepseek-v4-flash"
+}

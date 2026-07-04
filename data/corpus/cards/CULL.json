@@ -1,0 +1,39 @@
+{
+  "cik": "0001845799",
+  "ticker": "CULL",
+  "name": "Cullman Bancorp, Inc. /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-24-035099",
+    "filedAt": "2024-03-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1845799/000095017024035099/cull-20231231.htm"
+  },
+  "business": "The company's primary source of interest income is loans, which increased $2.1 million to $17.3 million for the year ended December 31, 2023. It offers deposit products, including interest-bearing demand deposits, regular savings, money market, and certificates of deposit.",
+  "sellsTo": [
+    "Residential borrowers",
+    "Commercial borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "One-to-four family residential real estate loans increased $6.7 million, or 3.9%, to $178.9 million at December 31, 2023 from $172.2 million at December 31, 2022."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Company has identified the following portfolio segments: One-to-four family Multi-family Commercial real estate Construction Commercial Home equity loans and line of credit Consumer loans"
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Commercial real estate loans increased $5.3 million, or 5.5% to $101.3 million at December 31, 2023 from $96.0 million at December 31, 2022."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:51:43.473Z",
+  "model": "deepseek-v4-flash"
+}

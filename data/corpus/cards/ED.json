@@ -1,0 +1,77 @@
+{
+  "cik": "0001047862",
+  "ticker": "ED",
+  "name": "CONSOLIDATED EDISON INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001047862-26-000031",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000031/ed-20251231.htm"
+  },
+  "business": "Consolidated Edison, Inc. is a holding company whose principal business operations are those of its subsidiaries: Consolidated Edison Company of New York, Inc. (CECONY), Orange and Rockland Utilities, Inc. (O&R), and Con Edison Transmission, Inc. CECONY provides regulated electric, gas, and steam delivery services to customers in New York City and Westchester County, while O&R provides regulated electric and gas delivery services in southeastern New York and northern New Jersey.",
+  "sellsTo": [
+    "residential customers",
+    "commercial and industrial customers",
+    "public authorities",
+    "full-service customers",
+    "retail choice customers"
+  ],
+  "namedCustomers": [
+    "New York Power Authority (NYPA)"
+  ],
+  "namedSuppliers": [
+    "Brooklyn Navy Yard Cogeneration Partners L.P."
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "CECONY's principal business operations are its regulated electric, gas and steam delivery businesses."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Con Edison Transmission, through its subsidiaries, develops and invests in electric transmission projects and owns, through joint ventures, both electric and gas assets."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "The following table shows the aggregate capacities of the DG projects connected to the Utilities distribution systems at the end of the last five years: ... Battery energy storage 116 90 47 25 18"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A Cyber Attack Could Adversely Affect The Companies."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "the company forecasts an average annual increase in hourly electric peak demand in its service area at design conditions over the next five years to be approximately 4.1 percent primarily due to anticipated load growth from commercial customers, including data centers, and electric vehicles, offset in part by energy efficiency programs."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "the company forecasts an average annual increase in hourly electric peak demand in its service area at design conditions over the next five years to be approximately 4.1 percent primarily due to anticipated load growth from commercial customers, including data centers, and electric vehicles, offset in part by energy efficiency programs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Propel NY Energy transmission project expected in-service",
+      "date": "2030",
+      "sentence": "Propel NY Energy, a project that is under development jointly with the NYPA, is a 90-mile electric transmission project that is expected to increase high voltage transmission connections between Long Island and the rest of New York State."
+    },
+    {
+      "event": "Sale of remaining interest in Mountain Valley Pipeline expected to close",
+      "date": "2026-06-30",
+      "sentence": "In January 2026, Con Edison Transmission completed the sale of approximately 40 percent of its approximately 6.6 percent interest in Mountain Valley Pipeline, LLC (MVP) to one of the founding members of MVP and expects to complete the sale of its remaining interest in MVP to another founding member during the first half of 2026 for total aggregate consideration of $357.5 million, subject to certain closing adjustments."
+    },
+    {
+      "event": "CECONY to develop reliability contingency plan by June 2026",
+      "date": "2026-06-30",
+      "sentence": "the NYSPSC issued an order directing CECONY to develop a reliability contingency plan by June 2026 to address projected reliability needs in New York City."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:21:45.337Z",
+  "model": "deepseek-v4-flash"
+}

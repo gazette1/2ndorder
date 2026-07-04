@@ -1,0 +1,66 @@
+{
+  "cik": "0001388320",
+  "ticker": "ATNM",
+  "name": "Actinium Pharmaceuticals, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036504",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1388320/000121390026036504/ea0279291-10k_actinium.htm"
+  },
+  "business": "Actinium Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company focused on the development of targeted radiotherapies for patients with relapsed or refractory cancer. The company has no products approved for commercial sale and has generated no revenue from product sales to date. Its pipeline includes product candidates such as ATNM-400, Actimab-A, and Iomab-ACT, which are in various stages of preclinical and clinical development.",
+  "sellsTo": [
+    "Patients with relapsed or refractory cancer",
+    "Clinical trial investigators",
+    "Potential commercial partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Actinium is a pioneer in the development of targeted radiotherapies intended to meaningfully improve outcomes for patients with relapsed or refractory cancer who have failed existing therapies."
+    },
+    {
+      "tag": "other:regulatory-risk",
+      "stance": "risk_mention",
+      "sentence": "We have not demonstrated that any of our products are safe or effective for any indication and will continue to expend substantial time and resources on clinical development before any of our current or future product candidates will be eligible for FDA approval, if ever."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is subject to cybersecurity risks."
+    },
+    {
+      "tag": "other:government-shutdown",
+      "stance": "risk_mention",
+      "sentence": "Disruptions at the FDA and other government agencies caused by government shutdowns, leadership changes, changes to regulatory approach, layoffs, funding shortages or global health concerns could negatively impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA determination requiring additional clinical trials for Iomab-B",
+      "date": "2024-08-05",
+      "sentence": "On August 5, 2024, we announced that the FDA determined that the SIERRA trial alone is not adequate to support a BLA filing and is requiring an additional randomized head-to-head clinical trial to demonstrate an OS benefit in an intent to treat population."
+    },
+    {
+      "event": "Workforce optimization reducing headcount by approximately fourteen percent",
+      "date": "2025-Q2",
+      "sentence": "In the second quarter of 2025, we conducted a workforce optimization that reduced our headcount by approximately fourteen percent and announced a strategic pipeline prioritization which led to further departures from the workforce in 2025."
+    },
+    {
+      "event": "Resignation of Chief Financial Officer Steve O'Loughlin",
+      "date": "2026-02",
+      "sentence": "In February 2026, Steve O Loughlin tendered his resignation as the Chief Financial Officer of our Company."
+    },
+    {
+      "event": "Appointment of Sandesh Seth as principal financial officer",
+      "date": "2026-02",
+      "sentence": "To fill this executive vacancy, our Board appointed Sandesh Seth, the current Chairman and Chief Executive Officer of the Company, to serve as our principal financial officer."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:29:33.524Z",
+  "model": "deepseek-v4-flash"
+}

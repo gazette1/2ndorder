@@ -1,0 +1,110 @@
+{
+  "cik": "0000882835",
+  "ticker": "ROP",
+  "name": "ROPER TECHNOLOGIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000882835-26-000009",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm"
+  },
+  "business": "Roper Technologies is a diversified technology company that designs and develops vertical software and technology-enabled products for defensible niche markets. It operates through three segments: Application Software, Network Software, and Technology Enabled Products. The company serves markets such as healthcare, insurance, construction, education, government contracting, and utilities.",
+  "sellsTo": [
+    "healthcare providers",
+    "property and casualty insurance carriers",
+    "government contractors",
+    "K-12 schools",
+    "higher education institutions",
+    "construction contractors",
+    "freight and logistics companies",
+    "food suppliers",
+    "life insurance and financial services firms",
+    "law firms",
+    "water utilities",
+    "long-term care and post-acute healthcare",
+    "faith-based organizations",
+    "entertainment and digital design industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Google Cloud Platform",
+    "Microsoft Azure",
+    "Oracle Cloud",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Microsoft"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Increasingly, this includes AI-enabled products and functionality embedded within customers' mission-critical workflows."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "risk_mention",
+      "sentence": "We face emerging risks from AI-powered attacks, including deepfakes used to impersonate executives or customers, AI-assisted social engineering, prompt injection attempts against AI systems, and data poisoning targeting machine learning models."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Global cybersecurity threats are rapidly evolving and attacks to identities, networks, platforms, systems, and endpoints can range from uncoordinated individual attempts to sophisticated and targeted measures known as advanced persistent threats, directed at the Company, its businesses, its customers, and/or its third-party service providers, including, but not limited to, cloud providers and providers of network management services."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Verathon medical devices that enable airway management, including bronchoscopes and video laryngoscopes, and bladder volume measurement solutions for healthcare providers."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Clinisys diagnostic and laboratory information management software solutions."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Vertafore cloud-based software for the property and casualty insurance industry, including agency and distribution management, compliance, AI-enabled workflows, and data solutions."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Transact/CBORD integrated campus technology and payment solutions, including secure access and campus identity software, commerce solutions, tuition management software and payment processing, as well as foodservice technologies, serving higher education, healthcare, K-12, and business campuses."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "DAT electronic marketplaces that automate broker and carrier freight capacity matching throughout the U.S. and Canada, freight tracking and financing, and AI-enabled analytics solutions."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "ConstructConnect cloud-based data, collaboration and estimating automation software and AI-enabled solutions focused on the pre-construction phase for a network of construction contractors and building product manufacturers/distributors."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Neptune water meters, enabling water utilities to remotely monitor their customers utilizing Automatic Meter Reading (AMR), Advanced Metering Infrastructure (AMI) technologies, and cloud-based software supporting meter data management and utility billing."
+    },
+    {
+      "tag": "other:education",
+      "stance": "core_product",
+      "sentence": "Frontline cloud-based software for K-12 school administration, connecting solutions for human capital management, student and special programs, and business operations, with powerful analytics that empower educators."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Foundry software technologies and AI-enabled solutions used to deliver visual effects and 3D content for the entertainment and digital design industries."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on business partners such as third-party data centers and cloud platforms, such as Amazon Web Services, Google Cloud Platform, Microsoft Azure, and Oracle Cloud to host certain enterprise and customer systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:26:52.612Z",
+  "model": "deepseek-v4-flash"
+}

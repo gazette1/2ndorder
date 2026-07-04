@@ -1,0 +1,41 @@
+{
+  "cik": "0001873722",
+  "ticker": "BBLR",
+  "name": "Bubblr Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013999",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1873722/000149315226013999/form10-k.htm"
+  },
+  "business": "Bubblr Inc., doing business as EthicalWeb AI, is an artificial intelligence company that owns patented intellectual property and is entering a period of revenue growth driven by the launch of its enterprise products, including AI Vault on AWS Marketplace to help enterprises minimize data security risks when using generative AI tools, AI Seek on the Apple App Store for customizable search, and the EthicalWeb.AI search platform based on its patented internet-based search mechanism.",
+  "sellsTo": [
+    "enterprises concerned about data security in generative AI",
+    "organizations that restrict personnel from using generative AI tools due to data leaks",
+    "global service providers and licensees for customized solutions",
+    "leading technology companies and firms across strategic sectors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "This innovative solution, called AI Vault, is available on AWS Marketplace. The target market includes organizations that restrict their personnel from using generative AI tools due to concerns about potential data leaks outside their premises."
+    },
+    {
+      "tag": "other:search-ai",
+      "stance": "core_product",
+      "sentence": "AI Seek is available on the Apple App Store. Its fully customizable search parameters provide a safe, trackable experience, which is a key differentiator."
+    },
+    {
+      "tag": "other:search-platform",
+      "stance": "core_product",
+      "sentence": "The EthicalWeb.AI search platform is the technical implementation of Patent No. 10977387. These applications search inventory data, providing users with real-time insights and an improved user experience."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:38:57.199Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0000062709",
+  "ticker": "MRSH",
+  "name": "MARSH & MCLENNAN COMPANIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000062709-26-000022",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000022/mrsh-20251231.htm"
+  },
+  "business": "Marsh & McLennan Companies, Inc. provides risk management, insurance/reinsurance broking, and consulting services in health, wealth, career, and management consulting. It serves businesses, government entities, professional service organizations, and individuals in 130 countries. The company generates revenue of $27 billion with over 95,000 colleagues.",
+  "sellsTo": [
+    "businesses",
+    "government entities",
+    "professional service organizations",
+    "individuals",
+    "mid-market organizations",
+    "insurers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We could incur significant liability or our reputation could be damaged if our information systems are breached or we otherwise fail to protect client or Company data or information systems."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "Our business performance and growth plans could be negatively affected if we are not able to develop and implement improvements in technology or respond effectively to the threat of digital disruption and other technological change such as AI."
+    },
+    {
+      "tag": "other:ai-training",
+      "stance": "active_investment",
+      "sentence": "Since the launch of our AI Academy in August 2024, more than 46,000 colleagues have received their AI Academy credentials."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "The Company also announced the formation of Business Client Services (\"BCS\"), to accelerate innovation and centralize investments in operational excellence, data, artificial intelligence and other analytics."
+    },
+    {
+      "tag": "other:ai-consulting",
+      "stance": "core_product",
+      "sentence": "Oliver Wyman includes the following specializations: Actuarial, AI Transformation, Climate and Sustainability, Customer Innovation and Growth, Finance, Risk and Restructuring, Mergers and Acquisitions and Performance Transformation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:05:02.952Z",
+  "model": "deepseek-v4-flash"
+}

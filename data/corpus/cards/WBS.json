@@ -1,0 +1,63 @@
+{
+  "cik": "0000801337",
+  "ticker": "WBS",
+  "name": "WEBSTER FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000801337-26-000008",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/801337/000080133726000008/wbs-20251231.htm"
+  },
+  "business": "Webster Financial Corp is a bank holding company offering financial products and services to businesses, individuals, and families through three lines of business: Commercial Banking, Healthcare Financial Services, and Consumer Banking.",
+  "sellsTo": [
+    "businesses",
+    "individuals",
+    "families",
+    "healthcare entities",
+    "government entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Consumer Banking also provides a fully digital banking experience through its mobile banking apps and BrioDirect."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Healthcare Financial Services includes HSA Bank and Ametros, with HSA Bank being one of the largest providers of employee benefits solutions including health savings accounts, and Ametros being the largest professional administrator of medical insurance claim settlements."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Ametros, the nation's largest professional administrator of medical insurance claim settlements, helps individuals manage their ongoing medical care through their CareGuard service and proprietary technology platform."
+    },
+    {
+      "tag": "other:private-credit",
+      "stance": "active_investment",
+      "sentence": "On July 19, 2024, the Company, through its subsidiary, MW Advisor Holding, LLC, entered into an agreement with Marathon Asset Management and formed a private credit joint venture, which is designed to deliver direct lending solutions for sponsor-backed middle market companies across the country."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Transaction with Banco Santander expected in second half of 2026",
+      "date": "2026-12-31",
+      "sentence": "The Transaction is expected to close in the second half of 2026."
+    },
+    {
+      "event": "Change in control of Marathon Asset Management by CVC Capital Partners announced January 26, 2026",
+      "date": "2026-01-26",
+      "sentence": "On January 26, 2026, CVC Capital Partners, a private markets investment firm, announced that it has agreed to acquire 100% of Marathon Asset Management, which will result in a change in control of Marathon Asset Management."
+    },
+    {
+      "event": "Bank's initial resolution plan information filing due on or before April 1, 2026",
+      "date": "2026-04-01",
+      "sentence": "The Bank's initial information filing submission is due on or before April 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:05:18.757Z",
+  "model": "deepseek-v4-flash"
+}

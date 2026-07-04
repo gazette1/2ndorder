@@ -1,0 +1,40 @@
+{
+  "cik": "0001819438",
+  "ticker": "GWH",
+  "name": "ESS Tech, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001819438-26-000012",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819438/000181943826000012/ghw-20251231.htm"
+  },
+  "business": "ESS is a long-duration energy storage company specializing in iron flow battery technology. Its current product focus is the gigawatt-hour scale Energy Base storage product and core power trains. It sells to utilities, independent power producers, and commercial and industrial customers.",
+  "sellsTo": [
+    "utilities",
+    "Independent Power Providers (IPPs)",
+    "Commercial and Industrial (C&I) end users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "ESS is a long-duration energy storage company specializing in iron flow battery technology."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Behind-the-meter customers may include data centers, microgrids, critical infrastructure assets and commercial and industrial customers."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our energy storage products are intended to supply long-duration power across this expanding spectrum of use cases... enable more rapid implementation of renewable energy while also improving grid stability."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:33:29.655Z",
+  "model": "deepseek-v4-flash"
+}

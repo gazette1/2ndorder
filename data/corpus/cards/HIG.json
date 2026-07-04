@@ -1,0 +1,83 @@
+{
+  "cik": "0000874766",
+  "ticker": "HIG",
+  "name": "HARTFORD INSURANCE GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000874766-26-000012",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000012/hig-20251231.htm"
+  },
+  "business": "The Hartford provides property and casualty insurance, employee group benefits insurance, and mutual funds and exchange-traded funds to individual and business customers in the United States and internationally.",
+  "sellsTo": [
+    "individuals",
+    "businesses of all sizes",
+    "AARP members",
+    "employer groups",
+    "associations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:telematics",
+      "stance": "core_product",
+      "sentence": "The Hartford's telematics program, TrueLane, which uses a mobile app solution to offer individualized pricing for policyholders based on their personal driving behavior including such attributes as braking, speed, distracted driving, and acceleration."
+    },
+    {
+      "tag": "other:ai-underwriting",
+      "stance": "core_product",
+      "sentence": "Through its industry-leading ICON quoting tool, The Hartford quotes over 75% of new business policies from admitted markets without human intervention."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Cyber risk exposure exists through stand-alone cyber policies as well as cyber coverage endorsements on some property, general liability, management liability and directors and officers policies."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Our business could be affected by other technological changes, including further advancements in automotive safety features, the development of autonomous or self-driving vehicles, and platforms that facilitate ride sharing."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Larger competitors, including those formed through consolidation or who may acquire new entrants to the market, such as insurtech firms, may have lower operating costs and an ability to absorb greater risk while maintaining their financial strength ratings, thereby allowing them to price their products more competitively."
+    },
+    {
+      "tag": "other:credit-political-risk",
+      "stance": "core_product",
+      "sentence": "The Company also provides credit and political risk insurance (\"CPRI\") offered to clients with global operations."
+    },
+    {
+      "tag": "other:ai-acceleration",
+      "stance": "active_investment",
+      "sentence": "Accelerating artificial intelligence enablement and responsibly leveraging data, analytics, and digital capabilities to deliver smarter, faster outcomes across the businesses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Prevail product rollout with 30 state launches",
+      "date": "2027-01-01",
+      "sentence": "In mid-2025, Prevail was also introduced in the agency distribution channel and it will continue to roll out over time with 30 state launches planned by early 2027."
+    },
+    {
+      "event": "AARP agreement expiration",
+      "date": "2032-12-31",
+      "sentence": "with the current agreement in place through December 31, 2032"
+    },
+    {
+      "event": "TRIPRA expiration",
+      "date": "2027-12-31",
+      "sentence": "TRIPRA 2019 expires on December 31, 2027"
+    },
+    {
+      "event": "Navigators ADC deferred gain fully amortized",
+      "date": "2025-09-30",
+      "sentence": "The deferred gain has been fully amortized as of September 30, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:26:08.911Z",
+  "model": "deepseek-v4-flash"
+}

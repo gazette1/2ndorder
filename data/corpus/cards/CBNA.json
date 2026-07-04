@@ -1,0 +1,59 @@
+{
+  "cik": "0001392272",
+  "ticker": "CBNA",
+  "name": "CHAIN BRIDGE BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-020177",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1392272/000162828026020177/chnbrdg-20251231.htm"
+  },
+  "business": "Chain Bridge Bancorp, Inc. offers commercial and personal banking services including deposits, treasury management, payments, loans, commercial lending, residential mortgage financing, consumer loans, trusts and estate administration, wealth management, and asset custody. It serves businesses, non-profit organizations, political organizations, individuals, and families nationwide, with a focus on political organizations and commercial clients. The majority of loans and trust services are concentrated in the Washington, D.C. metropolitan area.",
+  "sellsTo": [
+    "Businesses",
+    "Non-profit organizations",
+    "Political organizations",
+    "Individuals",
+    "Families",
+    "Washington, D.C. metropolitan area (for loans and trust services)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete for loans, deposits, capital and fiduciary services with other banks and other kinds of financial institutions and enterprises, such as securities firms, insurance companies, savings and loan associations, credit unions, mortgage brokers, fintechs, and private lenders, many of which have substantially greater resources or are subject to less stringent regulations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls or cybersecurity-related incidents could have a material adverse effect on our business, financial condition, results of operations, and reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence present risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "The use or support of stablecoins by us, or broader market adoption of stablecoins, may expose us to legal, regulatory, operational, and competitive risks."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "the emergence, adoption and evolution of new technologies that do not require intermediation, including stablecoins, digital assets, blockchains, and other technologies based on distributed ledgers, all of which have grown significantly in recent years."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entry into $15 million unsecured revolving credit facility at holding company level",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we entered into a $15.0 million unsecured revolving credit facility at the holding company level that may provide an additional source of contingent liquidity, subject to its terms and conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:22:59.297Z",
+  "model": "deepseek-v4-flash"
+}

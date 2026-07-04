@@ -1,0 +1,75 @@
+{
+  "cik": "0000867840",
+  "ticker": "POCI",
+  "name": "PRECISION OPTICS CORPORATION, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-007305",
+    "filedAt": "2025-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/867840/000168316825007305/poci_i10k-063025.htm"
+  },
+  "business": "Precision Optics Corporation develops and manufactures advanced optical instruments, including medical devices such as endoscopes and endocouplers, and components for defense/aerospace including satellite network communications. The company operates in medical devices and defense/aerospace markets.",
+  "sellsTo": [
+    "Medical device companies",
+    "Defense/aerospace companies",
+    "Industrial companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "SCHOTT North America, Inc.",
+    "Ohara Corporation",
+    "OmniVision Technologies, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We have been manufacturing medical products such as endoscopes and endocouplers since our formation in 1982."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We also manufacture and sell components and assemblies specially designed for defense/aerospace and industrial uses."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "We also apply our unique technologies to applications in the Defense / Aerospace markets including applications supporting satellite network communications."
+    },
+    {
+      "tag": "other:single-use-endoscopes",
+      "stance": "core_product",
+      "sentence": "characteristics that make them perfectly suited for medical imaging applications, particularly single-use or disposable endoscopes."
+    },
+    {
+      "tag": "other:unity-imaging-platform",
+      "stance": "core_product",
+      "sentence": "In January 2025, we launched our Unity Imaging Platform ( Unity ), comprising a standard baseline CMOS endoscopic system with customization options based on existing or newly designed modular sub-components."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We design and manufacture ultra-high precision endoscopes and very small Microprecision lenses, assemblies and complete medical devices to meet the surgical community s continuing demand for smaller, disposable, and more enhanced imaging systems for minimally invasive surgery."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business may be impacted by disruptions to our own or third-party information technology infrastructure, which could result from, among other causes, cyberattacks on or failures of such infrastructure or compromises to its physical security."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence presents risks and challenges that can impact our business, including by posing security risks to our confidential information, proprietary information and personal data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Unity Imaging Platform",
+      "date": null,
+      "sentence": "In January 2025, we launched our Unity Imaging Platform ( Unity ), comprising a standard baseline CMOS endoscopic system with customization options based on existing or newly designed modular sub-components."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:09:10.097Z",
+  "model": "deepseek-v4-flash"
+}

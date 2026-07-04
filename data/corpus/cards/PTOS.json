@@ -1,0 +1,45 @@
+{
+  "cik": "0001172069",
+  "ticker": "PTOS",
+  "name": "P2 Solar, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001640334-25-001215",
+    "filedAt": "2025-07-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1172069/000164033425001215/ptos_10k.htm"
+  },
+  "business": "P2 Solar, Inc. installs residential and commercial rooftop and ground mount solar energy systems in Canada. It purchases solar modules, inverters, and other parts from third parties and subcontracts installation work. The company's operations are currently concentrated in British Columbia with plans to expand to other Canadian regions and possibly the United States.",
+  "sellsTo": [
+    "Residential homeowners",
+    "Small commercial enterprises",
+    "Builders and contractors through educational seminars"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The Company's current business operations are focused on the construction and installation of residential and commercial rooftop and ground mount solar energy systems in Canada."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Significant developments in alternative technologies, such as advances in other forms of distributed solar power generation, storage solutions such as batteries, the widespread use or adoption of fuel cells for residential or commercial properties or improvements in other forms of centralized power production may materially and adversely affect the Company’s business and prospects in ways management of the Company do not currently anticipate."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "A material reduction in the retail price of traditional utility-generated electricity or electricity from other sources could have adverse effects on the Company's business, financial condition, results of operations, and prospects."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "less than 5% of total addressable market in Canada",
+      "sentence": "The broad market adoption of distributed commercial and residential solar energy remains relatively low, with penetration into less than 5% of its total addressable market in Canada."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:35:48.965Z",
+  "model": "deepseek-v4-flash"
+}

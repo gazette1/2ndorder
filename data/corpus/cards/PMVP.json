@@ -1,0 +1,60 @@
+{
+  "cik": "0001699382",
+  "ticker": "PMVP",
+  "name": "PMV Pharmaceuticals, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-095014",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312526095014/pmvp-20251231.htm"
+  },
+  "business": "PMV Pharmaceuticals is a precision oncology company developing small molecule therapies targeting p53 mutations. Its lead candidate, rezatapopt, targets the p53 Y220C mutation and is being developed for various solid tumors, with an initial focus on platinum-resistant/refractory ovarian cancer.",
+  "sellsTo": [
+    "cancer patients with TP53 Y220C mutations",
+    "oncologists"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Foundation Medicine, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a precision oncology company pioneering the discovery and development of small molecule, tumor-agnostic therapies targeting p53."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "active_investment",
+      "sentence": "In May 2024, we entered into a partnership with Foundation Medicine, Inc. to develop Foundation Medicine's tissue-based comprehensive genomic profiling test, FoundationOne CDx, as a companion diagnostic for rezatapopt."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Submit NDA for rezatapopt for platinum-resistant/refractory ovarian cancer with TP53 Y220C mutation",
+      "date": "2027-03-31",
+      "sentence": "We plan to submit a New Drug Application, or NDA, for the treatment of patients with platinum-resistant/refractory ovarian cancer harboring a TP53 Y220C mutation to the FDA for rezatapopt in the first quarter of 2027."
+    },
+    {
+      "event": "Granted orphan drug designation for rezatapopt for TP53 Y220C positive ovarian, fallopian tube, and primary peritoneal cancer",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, rezatapopt was granted orphan drug designation (ODD) from the FDA for the treatment of TP53 Y220C positive ovarian cancer, fallopian tube cancer, and primary peritoneal cancer."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "p53 mutations are found in approximately half of all cancers",
+      "sentence": "p53 mutations are found in approximately half of all cancers."
+    },
+    {
+      "claim": "p53 Y220C mutation is associated with approximately 1% of all cancers and 3% of ovarian cancers",
+      "sentence": "The p53 Y220C mutation is associated with approximately 1% of all cancers, including endometrial, breast, non-small cell lung cancer, or NSCLC, colorectal, pancreatic and notably, approximately 3% of ovarian cancers."
+    },
+    {
+      "claim": "Only 16% of metastatic cancer patients have tumors eligible for approved targeted agents",
+      "sentence": "a recent analysis found that only 16% of patients with metastatic cancer have tumors with genomic profiles eligible for treatment with an approved targeted agent, which leaves a large opportunity for precision oncology."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:04:17.234Z",
+  "model": "deepseek-v4-flash"
+}

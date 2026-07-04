@@ -1,0 +1,45 @@
+{
+  "cik": "0000900075",
+  "ticker": "CPRT",
+  "name": "COPART INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-042946",
+    "filedAt": "2025-09-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000162828025042946/cprt-20250731.htm"
+  },
+  "business": "Copart is a global provider of online auctions and vehicle remarketing services. It sells its services primarily to insurance companies, as well as dealers, individuals, charities, rental car companies, banks, finance companies, and fleet operators.",
+  "sellsTo": [
+    "insurance companies",
+    "dealers",
+    "individuals",
+    "charities",
+    "rental car companies",
+    "banks",
+    "finance companies",
+    "fleet operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "We offer Co.ai, a proprietary suite of total loss determination and valuation tools that leverage machine learning and computer vision to assist sellers in the vehicle claims evaluation process by providing online salvage value estimates, which helps sellers determine whether to repair a vehicle or deem it a total loss."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Disruptions to our information technology systems, including failure to prevent outages, maintain security, and prevent unauthorized access to our information technology systems and other confidential information, could disrupt our business and materially and adversely affect our reputation, consolidated results of operations, and financial condition."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "We obtained 81%, 81%, and 83% of the total number of vehicles processed during fiscal 2025, 2024, and 2023, respectively, from insurance company sellers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:35:56.002Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,70 @@
+{
+  "cik": "0000012659",
+  "ticker": "HRB",
+  "name": "H&R BLOCK INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001605297-25-000016",
+    "filedAt": "2025-08-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/12659/000160529725000016/hrb-20250630.htm"
+  },
+  "business": "H&R Block provides assisted and do-it-yourself (DIY) tax preparation services, financial products such as Refund Transfers, Emerald Card, Spruce mobile banking, and Emerald Advance loans, and small business solutions including bookkeeping, payroll, and payment processing, primarily to individuals and small businesses in the United States, Canada, and Australia.",
+  "sellsTo": [
+    "Individuals (U.S., Canada, Australia)",
+    "Small businesses (U.S., Canada, Australia)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Fidelity National Information Services, Inc. (FIS)",
+    "Galileo Financial Technologies, LLC",
+    "Pathward, N.A.",
+    "Microsoft Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "Our generative AI powered technology, AI Tax Assist, and human help is offered to clients who prepare a paid DIY online return at no additional charge."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our TIS program offers clients assistance in helping protect their tax identity and access to services to help restore their tax identity, if necessary."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Wave provides small business owners with an online solution to manage their finances, including payment processing, payroll and bookkeeping services."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "New technologies we utilize, such as those related to artificial intelligence, machine learning, automation, and algorithms, involve risks and may have unexpected consequences, which may be due to their limitations, potential manipulation or unintended uses, or our failure to use or implement them effectively."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A security breach of our systems, or third-party systems on which we rely, resulting in unauthorized access to personal information of our clients or employees or other sensitive, nonpublic information, may adversely affect the demand for our services and products, our reputation, and financial performance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fifth Amended and Restated Credit and Guarantee Agreement effective July 11, 2025 with maturity extended to July 11, 2030",
+      "date": "2025-07-11",
+      "sentence": "On July 11, 2025, we entered into a Fifth Amended and Restated Credit and Guarantee Agreement, which amended and restated the existing unsecured committed line of credit (CLOC), extended the scheduled maturity date to July 11, 2030, maintained the aggregate principal amount of $1.5 billion, and revised the interest rate table."
+    },
+    {
+      "event": "CEO retirement effective December 31, 2025 and appointment of successor effective same date",
+      "date": "2025-12-31",
+      "sentence": "On August 7, 2025, Jeffrey J. Jones II notified the Board of Directors of the Company of his intention to retire as President and Chief Executive Officer of the Company, effective as of December 31, 2025."
+    },
+    {
+      "event": "Amendment of Program Management Agreement with Pathward extending term to June 30, 2027",
+      "date": "2024-10-18",
+      "sentence": "Effective October 18, 2024, we amended our Program Management Agreement (PMA) with Pathward, N.A to extend the term of the PMA for two years until June 30, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:53:55.846Z",
+  "model": "deepseek-v4-flash"
+}

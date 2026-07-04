@@ -1,0 +1,97 @@
+{
+  "cik": "0001004980",
+  "ticker": "PCG",
+  "name": "PG&E Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001004980-26-000009",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000009/pcg-20251231.htm"
+  },
+  "business": "PG&E Corporation is a holding company whose primary operating subsidiary is Pacific Gas and Electric Company, a public utility operating in Northern and Central California. The Utility generates revenues mainly through the sale and delivery of electricity and natural gas to customers.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Agricultural",
+    "Public street and highway lighting",
+    "Core customers (small commercial and residential)",
+    "Non-core customers (industrial, large commercial, natural gas-fired electric generation facilities)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Citizens Energy Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Utility generates revenues mainly through the sale and delivery of electricity and natural gas to customers."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Utility owned the following generation facilities, all located in California, listed by energy source and further described below: Nuclear: Diablo Canyon, 2 units, 2,240 MW."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Of the 2025 estimated total net deliveries of electricity to retail customers from generated and procured resources, approximately 71% was generated from GHG-free resources (34% qualifying renewable energy resources, 32% nuclear, and 5% large hydroelectric)."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, the Utility owned 183 MW and has contracted for another 3,024 MW of operational energy storage capacity."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "System hardening entails repairing, replacing, or eliminating existing power lines in HFTD areas and installing stronger and more resilient equipment."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Utility owned approximately 18,000 circuit miles of interconnected transmission lines."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The Utility expects data centers, electric vehicle adoption, and building electrification to drive load growth."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "The Utility expects data centers, electric vehicle adoption, and building electrification to drive load growth."
+    },
+    {
+      "tag": "other:wildfire-mitigation",
+      "stance": "active_investment",
+      "sentence": "The Utility's wildfire mitigation initiatives include EPSS, PSPS, vegetation management, asset inspections, system hardening, situational awareness tools, and ignition response."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure forecast for 2026",
+      "date": "2026-12-31",
+      "sentence": "The Utility estimates that it will invest $12.4 billion in capital expenditures in 2026."
+    },
+    {
+      "event": "CPUC final decision on 2027 GRC expected",
+      "date": "2027-05-31",
+      "sentence": "The scoping memo indicates that the CPUC will issue a PD by March 2027 and a final decision by May 2027."
+    },
+    {
+      "event": "Proposed decision on Kincade and Dixie AB 1054 proceeding expected",
+      "date": "2026-11-30",
+      "sentence": "The scoping memo indicates that a PD will be issued by November 2026."
+    },
+    {
+      "event": "Dividend payout ratio target by 2028",
+      "date": "2028-12-31",
+      "sentence": "PG&E Corporation has announced a dividend policy entailing consistent dividend increases targeting a dividend payout ratio of approximately 20% of core earnings by 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:25:55.200Z",
+  "model": "deepseek-v4-flash"
+}

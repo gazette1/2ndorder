@@ -1,0 +1,58 @@
+{
+  "cik": "0000035527",
+  "ticker": "FITB",
+  "name": "FIFTH THIRD BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000035527-26-000124",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000124/fitb-20251231.htm"
+  },
+  "business": "Fifth Third Bancorp is a diversified financial services company that provides a wide range of banking and financial products to commercial, consumer, and wealth management customers through various channels. It operates three main businesses: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. As of December 31, 2025, it had $214 billion in assets and served customers primarily across 12 states.",
+  "sellsTo": [
+    "commercial sector",
+    "financial sector",
+    "retail sector",
+    "governmental sector",
+    "educational sector",
+    "energy sector",
+    "healthcare sector",
+    "individuals",
+    "corporations",
+    "not-for-profit organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "This includes a variety of checking, savings and money market accounts, wealth management solutions, payments and commerce solutions, securities products and services, insurance services and credit products such as commercial loans and leases, mortgage loans, credit cards, installment loans and other lending products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Fifth Third and its service providers are exposed to cybersecurity risks, including risk of cyber-attacks and other information security breaches, which create both operational and reputational risk for the Bank and its customers across all lines of business."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "Fifth Third may utilize new technology, such as AI, in connection with its business and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Close of merger with Comerica Incorporated",
+      "date": "2026-02-01",
+      "sentence": "On February 1, 2026, Fifth Third Bancorp closed the merger with Comerica Incorporated ( Comerica ) in an all-stock transaction valued at approximately $12.7 billion."
+    },
+    {
+      "event": "Final quarterly payment of special FDIC assessment",
+      "date": "2026-03-31",
+      "sentence": "The Bancorp expects to remit the final quarterly payment of the special assessment at the end of the first quarter of 2026 and believes the related expense has been fully recognized as of December 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:16:58.706Z",
+  "model": "deepseek-v4-flash"
+}

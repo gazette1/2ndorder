@@ -1,0 +1,50 @@
+{
+  "cik": "0001649739",
+  "ticker": "BAFN",
+  "name": "BayFirst Financial Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001649739-26-000014",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1649739/000164973926000014/bafn-20251231.htm"
+  },
+  "business": "BayFirst Financial Corp. is a bank holding company that operates through its wholly owned subsidiary, BayFirst National Bank, providing community banking services to consumers and small businesses in the Tampa Bay/Sarasota region. It offers a range of deposit products, loans (commercial, real estate, consumer, and government guaranteed), and related banking services. The company also originates USDA and SBA 504 loans through its community banking centers.",
+  "sellsTo": [
+    "Consumers and small businesses in the Tampa Bay/Sarasota region",
+    "Businesses seeking government guaranteed loans (USDA, SBA 504)",
+    "Healthcare businesses through a specialized healthcare banking solution"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's cybersecurity and information security practices incorporate preventative, detective, corrective, compensatory, and deterrent controls."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank offers... construction and development loans."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank also offers... residential mortgages, and home equity lines of credit."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The USDA guarantees up to 80% of USDA B&I loan balances as an incentive for financial institutions to make loans to businesses located in rural areas."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence by us or others, or our inability to effectively and timely implement its use, may adversely affect the Company."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:32:37.493Z",
+  "model": "deepseek-v4-flash"
+}

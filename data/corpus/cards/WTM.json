@@ -1,0 +1,52 @@
+{
+  "cik": "0000776867",
+  "ticker": "WTM",
+  "name": "WHITE MOUNTAINS INSURANCE GROUP LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012603",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/776867/000162828026012603/wtm-20251231.htm"
+  },
+  "business": "White Mountains Insurance Group Ltd. is an exempted Bermuda limited liability company that makes opportunistic acquisitions in insurance, financial services and related sectors, operating these businesses through subsidiaries. It conducts business in property and casualty insurance and reinsurance, municipal bond guarantee reinsurance, capital solutions for asset and wealth management firms, and specialty insurance distribution.",
+  "sellsTo": [
+    "insurance and reinsurance brokers",
+    "municipal bond issuers",
+    "asset and wealth management firms",
+    "insurance carriers"
+  ],
+  "namedCustomers": [
+    "Marsh & McLennan Companies, Inc.",
+    "Arthur J. Gallagher & Co",
+    "Aon plc",
+    "Howden Insurance Group",
+    "Willis Towers Watson plc"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "White Mountains is engaged in the business of making opportunistic and value-oriented acquisitions of businesses and assets in the insurance, financial services and related sectors, operating these businesses and assets through its subsidiaries and, if and when attractive exit valuations become available, disposing of these businesses and assets."
+    },
+    {
+      "tag": "other:municipal-bonds",
+      "stance": "core_product",
+      "sentence": "White Mountains s municipal bond guarantee reinsurance business is conducted through its subsidiary HG Global Ltd. and its reinsurance subsidiary HG Re Ltd."
+    },
+    {
+      "tag": "other:asset-management",
+      "stance": "core_product",
+      "sentence": "White Mountains provides capital solutions for asset and wealth management firms through its subsidiary Kudu Investment Management, LLC and its subsidiaries (collectively, Kudu)."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, which is characterized by higher temperatures, sea level rise and more extreme weather events including droughts, heavy storms, wildfires and stronger hurricanes, increases the frequency and severity of certain major natural catastrophes."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:52:13.401Z",
+  "model": "deepseek-v4-flash"
+}

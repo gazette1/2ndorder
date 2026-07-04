@@ -1,0 +1,85 @@
+{
+  "cik": "0001897762",
+  "ticker": "INGM",
+  "name": "Ingram Micro Holding Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013588",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026013588/ingm-20251227.htm"
+  },
+  "business": "Ingram Micro distributes IT products, cloud services, and solutions globally, serving as a link between technology vendors and reseller customers. The company operates in four geographic segments: North America, EMEA, Asia-Pacific, and Latin America. It offers a broad portfolio including client and endpoint solutions, advanced solutions, cloud-based solutions, and other services like IT asset disposition.",
+  "sellsTo": [
+    "value-added resellers",
+    "corporate resellers",
+    "retailers",
+    "custom installers",
+    "systems integrators",
+    "mobile network operators",
+    "managed service providers",
+    "cloud services providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft",
+    "Amazon Web Services",
+    "Google Cloud",
+    "NVIDIA",
+    "Advanced Micro Devices",
+    "Apple",
+    "Cisco",
+    "Dell Technologies",
+    "Hewlett Packard Enterprise",
+    "HP Inc.",
+    "Lenovo",
+    "Super Micro Computer",
+    "Proofpoint",
+    "Adobe"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We also offer customers AI-related products and offerings, DC / POS, physical security, audio visual & digital signage, Unified Communications and Collaboration ( UCC ), and IoT (smart office/home automation) products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Within this product category, we offer servers, storage, networking, hybrid and software-defined solutions, cybersecurity, and power and cooling solutions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Within this product category, we offer servers, storage, networking, hybrid and software-defined solutions, cybersecurity, and power and cooling solutions."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "core_product",
+      "sentence": "Our cloud portfolio comprises third-party services and subscriptions spanning a breadth of products from solution software to infrastructure-as-a-service."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our IT Asset Disposition ( ITAD ) and Reverse Logistics and Repairs businesses play an important role in advancing environmental sustainability and bridging the digital divide through electronic device reverse logistics, refurbishment, recycling, reuse and resale for organizations."
+    },
+    {
+      "tag": "other:iot",
+      "stance": "core_product",
+      "sentence": "We also offer customers AI-related products and offerings, DC / POS, physical security, audio visual & digital signage, Unified Communications and Collaboration ( UCC ), and IoT (smart office/home automation) products."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Within this product category, we offer servers, storage, networking, hybrid and software-defined solutions, cybersecurity, and power and cooling solutions."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "While many commercial markets remain economically volatile around the globe, our business remains well-positioned to benefit from technology megatrends, including cloud migration, enhanced security needs, automation and robotics, artificial intelligence ( AI ) and machine learning ( ML ) enabling Agentic AI, hyperconnected ecosystems, hybrid work and Internet-of-Things ( IoT )."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:41:14.160Z",
+  "model": "deepseek-v4-flash"
+}

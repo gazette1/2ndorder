@@ -1,0 +1,72 @@
+{
+  "cik": "0000764478",
+  "ticker": "BBY",
+  "name": "BEST BUY CO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000764478-26-000009",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm"
+  },
+  "business": "Best Buy sells a wide range of consumer technology products and services through its omnichannel platform, including computing, mobile phones, consumer electronics, appliances, entertainment, and services. The company serves consumers and businesses in the United States and Canada, with a focus on helping customers with their technology needs online, in stores, and in their homes. Its Best Buy Health segment provides health-related services.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "healthcare customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Apple",
+    "Samsung",
+    "HP",
+    "LG",
+    "Sony"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Starting with our digital experiences, we have already activated on ways to bring our products to life through artificial intelligence (AI) platforms, which will continue to grow during fiscal 2027."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The Domestic segment is comprised of our operations in all states, districts and territories of the U.S. and our Best Buy Health business."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Both segments operate an omnichannel platform that allows customers to come to us online, visit our stores or invite us into our homes."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Entertainment - drones, gaming (including hardware, peripherals and software, as well as augmented reality glasses), toys, virtual reality and other software;"
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Computing and Mobile Phones - computing (including desktops, notebooks and peripherals), mobile phones (including related mobile network carrier commissions), networking, tablets (including e-readers) and wearables (including smartwatches);"
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "disrupt the manufacturing and distribution of products or hardware components in the region, such as semiconductors and television panels sourced from Taiwan"
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "China maintains significant control over the majority of rare earth elements, which are essential elements in many electronic devices."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open approximately 4 new Domestic Best Buy stores by end of fiscal 2027",
+      "date": "2027-01-30",
+      "sentence": "We currently expect to increase our Domestic segment Best Buy store count by approximately 4 stores by the end of fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:52:28.100Z",
+  "model": "deepseek-v4-flash"
+}

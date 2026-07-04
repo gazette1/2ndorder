@@ -1,0 +1,83 @@
+{
+  "cik": "0002067129",
+  "ticker": "NP",
+  "name": "Neptune Insurance Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002067129-26-000007",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2067129/000206712926000007/nyse-20251231.htm"
+  },
+  "business": "Neptune is a data-driven MGA that underwrites and administers issuance of insurance policies for a panel of insurance and reinsurance companies, offering residential and commercial insurance products including primary flood insurance, excess flood insurance, and parametric earthquake insurance.",
+  "sellsTo": [
+    "Residential property owners",
+    "Commercial property owners",
+    "Insurance agents and brokers (distribution partners)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer a range of easy-to-purchase residential and commercial insurance products - including primary flood insurance, excess flood insurance, and parametric earthquake insurance - distributed through a nationwide network of agencies."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Our entirely digital underwriting engine, Triton, uses advanced technology, including proprietary AI and ML models, without any human underwriters, to assess risk with speed and precision."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant system or network disruption due to an actual or perceived breach in the security of our or our vendors information technology systems could have a negative impact on our reputation, regulatory compliance status, operations, sales, and operating results."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "An overall decline in the housing market or general economic conditions could have a material adverse effect on the financial condition and results of operations of our business."
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "risk_mention",
+      "sentence": "Reliance on cloud computing exposes us to technological disruptions and potential risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of excess flood insurance product",
+      "date": "2024-02",
+      "sentence": "In February 2024, we introduced our excess flood insurance product, to meet the needs of a significant portion of NFIP policyholders for whom transition to the private market is not economical due to continued substantial subsidies that currently support their NFIP policy premiums."
+    },
+    {
+      "event": "Beta test of indemnity earthquake product in California",
+      "date": "2025-12",
+      "sentence": "In December 2025, we launched a beta test of an indemnity earthquake product to a small group of agencies within the state of California."
+    },
+    {
+      "event": "Release of 546th product version of underwriting model",
+      "date": "2025-12",
+      "sentence": "In December 2025, we released the 546th product version of our underwriting model, demonstrating our commitment to continued improvements."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 100 million residential and commercial buildings in the U.S., many face flood risk, yet only a small fraction covered by flood insurance.",
+      "sentence": "According to the American Housing Survey and the Energy Information Administration, there are over 100 million residential and commercial buildings in the U.S., many of which face flood risk, yet only a small fraction are covered by flood insurance."
+    },
+    {
+      "claim": "Only approximately 2% of properties outside SFHAs are covered by flood insurance.",
+      "sentence": "Outside SFHAs, we estimate that flood insurance uptake in general is inadequate, with only approximately 2% of properties being covered by flood insurance, representing vast underinsurance and what we believe is a significant and untapped addressable market for our products."
+    },
+    {
+      "claim": "NFIP insured approximately 3.6 million properties and collected approximately $5.5 billion in total policy cost as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, the NFIP insured approximately 3.6 million properties and collected approximately $5.5 billion in total policy cost, with an average annual policy cost of $1,546 per policy, according to FEMA."
+    },
+    {
+      "claim": "Neptune accounted for just 8.2% of the U.S. primary residential flood insurance market as of December 31, 2025.",
+      "sentence": "Despite our significant achievements and expanding scale to date, based on data from NAIC and NFIP, we estimate that as of December 31, 2025, we accounted for just 8.2% of the U.S. primary residential flood insurance market."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:55:39.515Z",
+  "model": "deepseek-v4-flash"
+}

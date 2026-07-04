@@ -1,0 +1,60 @@
+{
+  "cik": "0001703056",
+  "ticker": "ADT",
+  "name": "ADT Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001703056-26-000022",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1703056/000170305626000022/adt-20251231.htm"
+  },
+  "business": "ADT Inc. is a leading provider of security, interactive, and smart home solutions serving residential and small business customers in the United States, with approximately 6.1 million security monitoring service subscribers as of December 31, 2025. The company primarily conducts business under the ADT brand and offers both professionally installed and self-installed solutions, including its proprietary ADT+ application. ADT's core security offerings include burglar and life safety alarms, smart security cameras, smart home automation systems, and video surveillance, along with monitoring and maintenance services under multi-year contracts.",
+  "sellsTo": [
+    "Residential customers",
+    "Small business customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our efforts are increasingly centered on our proprietary ADT+ application, which is designed to serve as a foundational ecosystem for both professionally installed and self-installed solutions, integrating human expertise with ambient sensing capabilities."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "Origin AI's technology uses artificial intelligence and radio frequency signals to detect and classify human presence and activity within the home without the use of cameras, audio, or wearable devices."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have implemented AI solutions for various customer interactions to improve service quality and response times and continue to explore opportunities to improve customer interactions with the use of AI."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We leverage AI across marketing and communications functions from brand governance and AI-powered sales agents to AI-driven content creation and ad platform optimization to enhance efficiency, personalization, and performance at scale."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity attacks or threats or other unauthorized access or attempts to access to our systems, or those of third parties, have in the past, and may in the future, compromise the security of our systems and otherwise disrupt our normal operations, which could have a material adverse effect on our reputation, business, financial condition, results of operations, and cash flows."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Origin AI, a provider of AI-enabled presence detection and ambient sensing technology",
+      "date": "2026-02-20",
+      "sentence": "On February 20, 2026, ADT acquired Origin Wireless, Inc. (Origin AI), a provider of AI-enabled presence detection and ambient sensing technology (the Origin AI Acquisition)."
+    },
+    {
+      "event": "Transition of certain non-ADT+ residential transactions to outright sales model",
+      "date": null,
+      "sentence": "Beginning in early 2026, the Company expects to refine its go-to-market approach for certain non-ADT+ residential transactions and will transition such transactions to an outright sales model where equipment will be customer owned, which aligns with the equipment ownership model for ADT+ transactions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:52:28.824Z",
+  "model": "deepseek-v4-flash"
+}

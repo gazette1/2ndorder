@@ -1,0 +1,75 @@
+{
+  "cik": "0001418135",
+  "ticker": "KDP",
+  "name": "Keurig Dr Pepper Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001418135-26-000016",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1418135/000141813526000016/kdp-20251231.htm"
+  },
+  "business": "Keurig Dr Pepper Inc. manufactures, markets, distributes, and sells hot and cold beverages and single serve brewing systems. It offers more than 125 owned, licensed, and partner brands, supported by powerful distribution capabilities. Its products are sold to retailers, bottlers, distributors, partners, away from home channel participants, and end-use consumers.",
+  "sellsTo": [
+    "retailers",
+    "bottlers and distributors",
+    "partners",
+    "away from home channel participants",
+    "end-use consumers"
+  ],
+  "namedCustomers": [
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Keurig Dr Pepper Inc. is a leading beverage company in North America that manufactures, markets, distributes, and sells hot and cold beverages and single serve brewing systems."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "With our Keurig.com website, we have a leading direct-to-consumer e-commerce platform which provides us insights and expertise in the e-commerce channel."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "In our DSD network, we have strategically located distribution capabilities that enable us to better align our operations with our customers and sales channels, ensure our products are available to meet consumer demand, reduce transportation costs, and have greater control over the timing and coordination of new product launches."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "We invest in new and emerging technologies, including the use of automation, connected data, robotics, and artificial intelligence throughout our operations, including in our manufacturing and distribution facilities and our sales organization."
+    },
+    {
+      "tag": "other:sustainable-packaging",
+      "stance": "active_investment",
+      "sentence": "We have also continued to progress in the development of our Keurig Alta brewer and K-Rounds plastic- and aluminum-free pods."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "The imposition of tariffs (including recent U.S. tariffs imposed or threatened to be imposed on Canada, Mexico, China, Brazil, and other countries, and any retaliatory actions taken by such countries), or otherwise, has and could continue to impact our profitability or otherwise have an adverse effect on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "JDE Peet's Acquisition closing",
+      "date": "2026-04-01",
+      "sentence": "The JDE Peet's Acquisition is expected to occur early in the second quarter of 2026."
+    },
+    {
+      "event": "Separation of beverage and coffee portfolios",
+      "date": null,
+      "sentence": "The Separation is expected to occur subsequent to the closure of the JDE Peet's Acquisition."
+    },
+    {
+      "event": "Launch of Keurig Alta brewer and K-Rounds pods",
+      "date": "2026-12-31",
+      "sentence": "We began in-home consumer beta testing during the year and expect to launch these products in late 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:19:29.889Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,60 @@
+{
+  "cik": "0001022652",
+  "ticker": "INSG",
+  "name": "INSEEGO CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001022652-26-000005",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1022652/000102265226000005/insg-20251231.htm"
+  },
+  "business": "Inseego is a leader in the design and development of cloud-managed wireless wide area network (WAN) and intelligent edge solutions. The company provides 5G mobile broadband and fixed wireless access solutions with associated cloud solutions for real time WAN visibility, monitoring, automation and control. It also offers a Communication Service Provider (CSP) subscriber lifecycle management SaaS solution for carriers management of their government and complex enterprise customer subscriptions.",
+  "sellsTo": [
+    "carriers",
+    "enterprises",
+    "small and medium businesses",
+    "government agencies via carriers"
+  ],
+  "namedCustomers": [
+    "Verizon Wireless",
+    "T-Mobile",
+    "AT&T",
+    "Rogers",
+    "Telus",
+    "TD Synnex",
+    "Get Wireless",
+    "Fastental"
+  ],
+  "namedSuppliers": [
+    "Foxconn (Hon Hai Precision Industry Co., Ltd.)",
+    "Inventec Appliance Corporation",
+    "Qualcomm"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Inseego is a leader in the design and development of cloud-managed wireless wide area network ( WAN ) and intelligent edge solutions."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our services use hardware and software from various third parties, some of which are procured from single suppliers. For example our MiFi mobile hotspots and fixed wireless access devices rely substantially on chipsets from Qualcomm."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduction of new generation 5G mobile hotspot using Qualcomm SDX72 chipset",
+      "date": null,
+      "sentence": "In 2019, Inseego developed and produced the world s first 5G mobile hotspot and in early 2026 we plan to introduce our new generation using the Qualcomm SDX72 chipset."
+    },
+    {
+      "event": "File registration statement with SEC for common shares",
+      "date": "2026-07-14",
+      "sentence": "The Exchange Agreement provides the Holder with customary registration rights with respect to the Common Shares, pursuant to which, among other things, the Company agreed to file a registration statement with the Securities and Exchange Commission within six months following the Closing Date."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:29:33.782Z",
+  "model": "deepseek-v4-flash"
+}

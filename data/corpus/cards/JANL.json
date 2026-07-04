@@ -1,0 +1,40 @@
+{
+  "cik": "0001133062",
+  "ticker": "JANL",
+  "name": "JANEL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-25-044581",
+    "filedAt": "2025-12-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1133062/000114036125044581/ef20054953_10k.htm"
+  },
+  "business": "Janel Corporation is a holding company with three segments: Logistics (freight forwarding, customs brokerage, warehousing), Life Sciences (antibodies, research and diagnostic reagents, custom services), and Manufacturing (mixing equipment). It serves academic, non-profit, commercial, and industrial customers.",
+  "sellsTo": [
+    "academic, non-profit and commercial customers (Life Sciences)",
+    "small- to mid-sized businesses and larger customers (Manufacturing)",
+    "diverse customers in various industries (Logistics)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The Logistics segment is a non-asset based, full-service provider of cargo transportation logistics management services, including freight forwarding via air, ocean and land-based carriers; customs brokerage services; warehousing and distribution services; trucking and other value-added logistics services."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "The Company’s Life Sciences segment manufactures and distributes antibodies as well as research and diagnostic reagents for, and provides custom services to academic, non-profit and commercial customers."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "The Company’s Manufacturing segment is comprised of Indco, Inc. (Indco). Indco is a wholly-owned subsidiary of the Company that manufactures and distributes mixing equipment and apparatuses for specific applications within various industries."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:11:13.281Z",
+  "model": "deepseek-v4-flash"
+}

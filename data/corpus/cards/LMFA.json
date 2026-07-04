@@ -1,0 +1,72 @@
+{
+  "cik": "0001640384",
+  "ticker": "LMFA",
+  "name": "LM FUNDING AMERICA, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-133333",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640384/000119312526133333/lmfa-20251231.htm"
+  },
+  "business": "LM Funding America, Inc. operates three business segments: Bitcoin treasury operations, Bitcoin mining, and specialty finance. The Bitcoin mining business deploys computing power to mine Bitcoin, while the specialty finance business provides funding to nonprofit community associations in Florida. The company sells Bitcoin mining services to mining pool operators and offers financial products to associations.",
+  "sellsTo": [
+    "mining pool operators",
+    "nonprofit community associations in Florida"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bitmain"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Our Bitcoin mining operation deploys our computing power to mine Bitcoin on the Bitcoin network."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "active_investment",
+      "sentence": "Our investment strategy with respect to our Bitcoin treasury operations involves retaining a majority of our currently held Bitcoin and acquiring new Bitcoin through our mining operations."
+    },
+    {
+      "tag": "other:specialty-finance",
+      "stance": "core_product",
+      "sentence": "the Company has historically engaged in the business of providing funding to nonprofit community associations primarily located in the state of Florida."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our management evaluates all cybersecurity matters, with the purpose of meeting at least semi-annually and providing recommendations with respect to our information technology use and protection, including, but not limited to, data governance, privacy, compliance and cybersecurity."
+    },
+    {
+      "tag": "other:bitcoin-halving",
+      "stance": "risk_mention",
+      "sentence": "Bitcoin halving is a phenomenon that has historically occurred approximately every four years on the Bitcoin network."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Deadline to regain Nasdaq minimum bid price compliance",
+      "date": "2026-07-06",
+      "sentence": "On January 7, 2026, we received a Notification Letter from The Nasdaq Stock Market LLC notifying the Company that it was not in compliance with the minimum bid price requirements ... the Company was afforded 180 days, or until July 6, 2026, to regain compliance."
+    },
+    {
+      "event": "Galaxy loan maturity date",
+      "date": "2026-04-24",
+      "sentence": "The maturity date for the October Loan was subsequently extended by agreement with the Lender with a new maturity date of April 24, 2026."
+    },
+    {
+      "event": "SE & AJ Liebel loan maturity",
+      "date": "2027-09-15",
+      "sentence": "The Additional Loan bears interest at a rate of 12.0% per annum and will mature on September 15, 2027."
+    },
+    {
+      "event": "Order for 300 Bitmain S19XP miners",
+      "date": "2026-02-05",
+      "sentence": "On February 5, 2026, we placed an order for 300 Bitmain S19XP miners for approximately $126,900."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:25:50.280Z",
+  "model": "deepseek-v4-flash"
+}

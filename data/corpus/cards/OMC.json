@@ -1,0 +1,55 @@
+{
+  "cik": "0000029989",
+  "ticker": "OMC",
+  "name": "OMNICOM GROUP INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000029989-26-000006",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000006/omc-20251231.htm"
+  },
+  "business": "Omnicom is a strategic holding company that provides marketing, sales, communications, and commerce services to large global companies through its networks and agencies. Its services cover media and advertising, precision marketing, public relations, healthcare, branding and retail commerce, experiential, and execution and support. It serves clients in virtually all sectors of the global economy.",
+  "sellsTo": [
+    "Large multinational corporations",
+    "All major industry sectors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "These capabilities include the integration of emerging AI-based tools, such as generative AI, into planning, creative advertising, media, and analytics workflows."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Precision Marketing includes technology and digital transformation consulting, decision sciences, digital experience design, customer relationship management, and e-commerce and enterprise platforms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face cybersecurity risks that threaten the confidentiality, integrity and availability of our information technology systems or data stored on such systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with IPG closed",
+      "date": "2025-11-26",
+      "sentence": "On November 26, 2025 (the Closing Date), Omnicom completed its Merger with IPG."
+    },
+    {
+      "event": "IPG Senior Notes Exchange Offers completed",
+      "date": "2025-12-02",
+      "sentence": "As a result of these exchange offers, which were completed on December 2, 2025, approximately 94% of IPG's outstanding senior notes were exchanged for $2.76 billion in aggregate principal amount of new notes issued by Omnicom."
+    },
+    {
+      "event": "Next generation Omni platform unveiled",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we unveiled our next generation of Omni, our proprietary marketing intelligence platform."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:43:28.923Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001433195",
+  "ticker": "APPF",
+  "name": "APPFOLIO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001433195-26-000011",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000011/appf-20251231.htm"
+  },
+  "business": "AppFolio provides a cloud-based platform for property management companies, offering subscription services and value-added services such as electronic payments, tenant screening, and risk mitigation. The platform helps property managers manage various property types and connect with stakeholders including residents, owners, and vendors.",
+  "sellsTo": [
+    "property management companies",
+    "property owners and investors",
+    "residents",
+    "vendors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "AppFolio Realm integrates artificial intelligence, or AI, directly into the platform s workflows."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our electronic payment services allow property managers to streamline their receivables and payables through a variety of online payment options."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "FolioGuard Renters Insurance, provided by our wholly-owned subsidiary AppFolio Insurance Services, Inc., protects the personal belongings of renters, as well as the property itself, from certain unexpected damages."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our primary customers are property management companies who manage a variety of property types, including single family, multifamily, affordable, commercial, student, and community associations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security vulnerabilities in our products, human error, or a breach of our security controls could result in the loss, theft, misuse, unauthorized disclosure, or unauthorized access to customer or employee data, or other confidential or sensitive information, which could harm our customer and/or employee relationships, competitiveness and reputation, and expose us to litigation, fines, or penalties."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "The development and incorporation of AI in our services may result in reputational harm or liability, which could adversely affect our business and operating results."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Third-party service providers provide the cloud computing infrastructure we use to host our platform."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:46:15.640Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,70 @@
+{
+  "cik": "0000731766",
+  "ticker": "UNH",
+  "name": "UNITEDHEALTH GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000731766-26-000062",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm"
+  },
+  "business": "UnitedHealth Group is a health care and well-being company with two businesses: Optum (health services including care delivery, data analytics, pharmacy services) and UnitedHealthcare (health benefit plans). It serves patients, consumers, care providers, employers, governments, and health plans through four reportable segments: Optum Health, Optum Insight, Optum Rx, and UnitedHealthcare.",
+  "sellsTo": [
+    "patients",
+    "consumers",
+    "care providers",
+    "employers",
+    "governments",
+    "health plans",
+    "life sciences companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "UnitedHealthcare offers a full range of health benefits, designed to simplify the health care experience and make it more affordable for consumers to access high-quality care."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Optum Health delivers patient-centered care, care management, wellness and consumer engagement, and health financial services; and serves consumers and care providers through advanced, on-demand digital health technologies, such as telehealth and remote patient monitoring."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Optum Financial, including Optum Bank, serves consumers through nearly 26 million consumer accounts with more than $27 billion in assets under management as of December 31, 2025."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our increasing use of AI presents legal, regulatory and business risks to our operations, reputation and financial results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are regularly the target of attempted cyberattacks and other security threats and have previously been, and may in the future be, subject to compromises of the information technology systems we use, information we hold, or information held on our behalf by third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Business realignment effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, we realigned certain of our businesses to respond to changes in the markets we serve and the opportunities that are emerging as the health system evolves."
+    },
+    {
+      "event": "Medicare Advantage advanced rate notice for 2027",
+      "date": null,
+      "sentence": "While the Final Notice for 2026 approached the expected industry forward medical cost trend, the Advanced Notice for 2027 is far below."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Health care spending accounted for 19% of GDP in 2025",
+      "sentence": "In the United States, health care spending has grown consistently for many years and accounted for 19% of gross domestic product (GDP) in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:50:25.907Z",
+  "model": "deepseek-v4-flash"
+}

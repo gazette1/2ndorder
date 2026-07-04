@@ -1,0 +1,110 @@
+{
+  "cik": "0000092122",
+  "ticker": "SO",
+  "name": "SOUTHERN CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000092122-26-000006",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm"
+  },
+  "business": "Southern Company is a holding company that owns three traditional electric operating companies (Alabama Power, Georgia Power, Mississippi Power) providing vertically integrated electric service to retail and wholesale customers in the Southeast; Southern Power develops and operates power generation assets including renewables and battery storage, selling at wholesale; Southern Company Gas distributes natural gas to residential, commercial, and industrial customers in four states.",
+  "sellsTo": [
+    "retail residential, commercial, and industrial customers in Alabama, Georgia, and Mississippi",
+    "wholesale customers including municipalities, electric cooperatives, and other utilities",
+    "natural gas customers in Illinois, Georgia, Virginia, and Tennessee",
+    "wholesale market counterparties (investor-owned utilities, IPPs, municipalities)"
+  ],
+  "namedCustomers": [
+    "AMEA",
+    "OPC (Oglethorpe Power Corporation)",
+    "MEAG Power",
+    "Dalton",
+    "PowerSouth",
+    "Cooperative Energy",
+    "SEPA"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Alabama Power owns, and contracts for the operation of, two nuclear units and Georgia Power holds undivided interests in, and contracts for the operation of, six nuclear units."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Southern Power develops, constructs, acquires, owns, operates, and manages power generation assets, including battery energy storage projects, and sells electricity at market-based rates in the wholesale market."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Southern Power develops, constructs, acquires, owns, operates, and manages power generation assets, including battery energy storage projects, and sells electricity at market-based rates in the wholesale market."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Since 2023, the traditional electric operating companies have contracted with new data centers and other large load customers covering approximately nine GWs of electric load, with each contract individually representing a maximum annual electric load greater than 100 MWs, that have been signed by the parties and/or reviewed by the state regulatory commissions."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Includes expenditures of approximately $3.1 billion for construction projects and related transmission investments approved in conjunction with the 2022 IRP, the 2023 IRP Update, and the 2025 IRP."
+    },
+    {
+      "tag": "other:natural-gas-distribution",
+      "stance": "core_product",
+      "sentence": "Southern Company Gas is an energy services holding company whose primary business is the distribution of natural gas in four states, Illinois, Georgia, Virginia, and Tennessee, through the natural gas distribution utilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "An information security incident, including a cybersecurity breach, or the failure of, or inability to remotely access, one or more key technology systems, networks, or processes could impact the ability of the Registrants to operate."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "The Registrants have incurred and may incur additional costs or delays in the construction of new plants or other facilities and may not be able to recover their investments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "NRC decision on subsequent license renewal application for Plant Hatch Units 1 and 2",
+      "date": "2026-06-30",
+      "sentence": "The NRC's decision on this application is anticipated by the end of the second quarter 2026."
+    },
+    {
+      "event": "Submission of subsequent license renewal application for Plant Farley Units 1 and 2",
+      "date": "2027-06-30",
+      "sentence": "The subsequent license renewal application is projected to be submitted by the second quarter 2027."
+    },
+    {
+      "event": "New long-term license expected for Harris Dam project",
+      "date": "2026-12-31",
+      "sentence": "The Harris Dam project will operate under annual licenses until a new long-term license is issued, which is expected by the fourth quarter 2026."
+    },
+    {
+      "event": "Service commencement for data center and large load contracts",
+      "date": "2028-12-31",
+      "sentence": "Service under the contracts is expected to begin through 2028."
+    },
+    {
+      "event": "Placement in service of new generation and battery storage projects certified in IRPs",
+      "date": "2030-12-31",
+      "sentence": "These projects are projected to be placed in service through 2030."
+    },
+    {
+      "event": "Expected completion of SNG pipeline project",
+      "date": "2029-12-31",
+      "sentence": "The operator of the joint venture anticipates will be completed by 2029."
+    },
+    {
+      "event": "FERC order accepting settlement agreement for SEEM pending compliance filing",
+      "date": "2026-02-05",
+      "sentence": "The compliance filing was submitted on February 5, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:59:55.690Z",
+  "model": "deepseek-v4-flash"
+}

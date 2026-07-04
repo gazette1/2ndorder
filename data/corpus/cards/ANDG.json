@@ -1,0 +1,42 @@
+{
+  "cik": "0002065708",
+  "ticker": "ANDG",
+  "name": "Andersen Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-128949",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/2065708/000119312526128949/d63874d10k.htm"
+  },
+  "business": "Andersen Group Inc. is a leading provider of independent tax, valuation and financial advisory services to individuals, wealthy families, businesses and institutional clients in the United States. The company offers services including Private Client Services, Business Tax Services, Alternative Investment Funds, and Valuation Services.",
+  "sellsTo": [
+    "individuals",
+    "wealthy families",
+    "businesses",
+    "institutional clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are leveraging an AI platform to review due diligence materials, streamline process management, and assist in contract negotiations in connection with our acquisition strategy and business combinations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Rapid technological changes, including the widespread adoption of AI, could significantly impact our competitive position, client relationships and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of acquisitions of four Andersen member firms and business combination with one member firm",
+      "date": "2026-06-30",
+      "sentence": "These transactions are expected to close in the second quarter of 2026, subject to the satisfaction of certain closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:56:08.719Z",
+  "model": "deepseek-v4-flash"
+}

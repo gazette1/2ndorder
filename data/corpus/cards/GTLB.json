@@ -1,0 +1,42 @@
+{
+  "cik": "0001653482",
+  "ticker": "GTLB",
+  "name": "Gitlab Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018731",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/gtlb-20260131.htm"
+  },
+  "business": "GitLab sells an intelligent orchestration platform for DevSecOps, enabling software teams and AI agents to collaborate across the software development lifecycle. It serves over 50 million registered users and counts more than 50% of the Fortune 100 companies as customers. The platform is offered via self-managed, SaaS, and dedicated deployment options, with revenue of $955.2 million in fiscal year 2026.",
+  "sellsTo": [
+    "teams of all sizes",
+    "Fortune 100 companies",
+    "public sector and enterprise",
+    "financial services, technology, healthcare, government, telecommunications, manufacturing"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "GitLab embeds security directly into workflows with comprehensive security testing running continuously throughout workflow execution, enabling organizations to shift security earlier in development without sacrificing velocity and to meet enterprise compliance requirements with granular permissions, auditing, and policy controls."
+    },
+    {
+      "tag": "other:ai-platform",
+      "stance": "core_product",
+      "sentence": "GitLab Duo Agent Platform enables intelligent orchestration of teams and AI agents across the software lifecycle."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GitLab Duo Agent Platform general availability",
+      "date": "2026-01-01",
+      "sentence": "Generally available in January 2026, GitLab Duo Agent Platform combines conversational AI assistance, purpose-built agents for specialized tasks, workflow automation, and enterprise controls, giving organizations the flexibility to deploy and govern AI across their development lifecycle."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:50:12.255Z",
+  "model": "deepseek-v4-flash"
+}

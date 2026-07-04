@@ -1,0 +1,55 @@
+{
+  "cik": "0001943896",
+  "ticker": "RBRK",
+  "name": "Rubrik, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001943896-26-000013",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm"
+  },
+  "business": "Rubrik sells the Rubrik Security Cloud (RSC) suite, a Zero Trust Data Security platform that secures data across enterprise, cloud, SaaS, unstructured data, and identity providers, and the Rubrik Agent Cloud (RAC) suite for AI agent operations. The company targets organizations of all sizes across various industries, including financial services, healthcare, public sector, and technology.",
+  "sellsTo": [
+    "financial services",
+    "retail, trade, and transportation",
+    "energy and industrials",
+    "healthcare and life sciences",
+    "public sector and education",
+    "technology, media, and communications",
+    "services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Super Micro Computer, Inc.",
+    "Google Cloud",
+    "Microsoft Azure",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We built the Rubrik Security Cloud ( RSC ) suite with Zero Trust design principles to secure data across enterprise, cloud, SaaS, unstructured data, and identity providers."
+    },
+    {
+      "tag": "other:agentic-ai-operations",
+      "stance": "core_product",
+      "sentence": "In fiscal 2026, we built Rubrik Agent Cloud ( RAC ), to accelerate enterprise AI transformation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "RAC became commercially available",
+      "date": "2026-02-01",
+      "sentence": "RAC became commercially available in February 2026."
+    },
+    {
+      "event": "Supermicro OEM agreement expires",
+      "date": "2026-11-30",
+      "sentence": "Our Original Equipment Manufacturer Agreement with Supermicro expires in November 2026, with the option to terminate upon each automatic annual renewal thereafter."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:50:22.350Z",
+  "model": "deepseek-v4-flash"
+}

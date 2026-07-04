@@ -1,0 +1,42 @@
+{
+  "cik": "0001630212",
+  "ticker": "ALBT",
+  "name": "Avalon GloboCare Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036474",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026036474/ea0283138-10k_avalon.htm"
+  },
+  "business": "The company operates through two segments: a consumer health technology segment distributing the Keto Air breathalyzer device in North America, and an artificial intelligence content technology segment operating the RPM platform, an AI-driven short-form video generation platform aimed at content creators.",
+  "sellsTo": [
+    "North American consumers for Keto Air breathalyzer",
+    "Content creators and marketers for RPM platform"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Qi Diagnostics"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our consumer health technology segment is centered on the Keto Air breathalyzer device, a non-invasive consumer health product that allows users to determine whether they are in a state of nutritional ketosis, and at what level, by exhaling into a compact, pen-like breathalyzer."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The RPM platform is an AI-driven, short-form video generation software."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Phase 2 of RPM platform",
+      "date": null,
+      "sentence": "Phase 2 of the RPM platform is currently in development and is expected to launch in Q3 of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:21:34.803Z",
+  "model": "deepseek-v4-flash"
+}

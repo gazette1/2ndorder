@@ -1,0 +1,45 @@
+{
+  "cik": "0002033807",
+  "ticker": "EZPZ",
+  "name": "Franklin Crypto Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-011942",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2033807/000114036126011942/ef20060838_10k.htm"
+  },
+  "business": "The Trust currently offers a single series, the Franklin Crypto Index ETF (the Fund), which is the sole series of the Trust. The Fund generally seeks to reflect the performance of the Digital Assets included in the CF Institutional Digital Asset Index US Settlement Price (the Underlying Index). The Fund issues Shares only to eligible financial institutions called Authorized Participants and only in one or more blocks of 50,000 Shares (Creation Units).",
+  "sellsTo": [
+    "Investors on Cboe BZX Exchange",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:crypto",
+      "stance": "core_product",
+      "sentence": "The Fund's investment objective is to seek to provide investment results that closely correspond, before Fund expenses and liabilities, to the performance of the Underlying Index."
+    },
+    {
+      "tag": "other:defi",
+      "stance": "risk_mention",
+      "sentence": "Smart contracts, including those relating to decentralized finance (DeFi) applications, are a new technology and their ongoing development and operation may result in problems, which could reduce the demand for Digital Assets or cause a wider loss of confidence in the Digital Asset’s networks, either of which could have an adverse impact on the value of the Digital Assets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fund commenced operations",
+      "date": "2025-02-20",
+      "sentence": "For the period February 20, 2025 (Date of Commencement of operations) to December 31, 2025"
+    },
+    {
+      "event": "Sponsor fee waiver period ends",
+      "date": "2025-08-29",
+      "sentence": "For a period from February 20, 2025 (the day the Shares were initially listed on the Exchange) to August 29, 2025, the Sponsor agreed to waive the entire Sponsor’s Fee on the first $10.0 billion of the Fund’s assets."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:44:18.545Z",
+  "model": "deepseek-v4-flash"
+}

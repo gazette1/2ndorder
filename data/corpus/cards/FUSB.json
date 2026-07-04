@@ -1,0 +1,43 @@
+{
+  "cik": "0000717806",
+  "ticker": "FUSB",
+  "name": "FIRST US BANCSHARES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-103635",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/717806/000119312526103635/fusb-20251231.htm"
+  },
+  "business": "First US Bancshares, Inc. is a bank holding company operating one wholly-owned banking subsidiary, First US Bank, which conducts a general commercial banking business. It offers banking services including demand, savings, individual retirement account and time deposits, personal and commercial loans, safe deposit box services, and remote deposit capture. The Bank provides commercial banking services to small- and medium-sized businesses, property managers, business executives, professionals, and other individuals, and also performs indirect lending through third-party retailers.",
+  "sellsTo": [
+    "small- and medium-sized businesses",
+    "property managers",
+    "business executives",
+    "professionals",
+    "other individuals",
+    "indirect lending customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We use information technology in our operations and offer online banking services to our customers, and unauthorized access to our customers confidential or proprietary information as a result of a cyber-attack or otherwise could expose us to reputational harm and litigation and adversely affect our ability to attract and retain customers."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of Artificial Intelligence ( AI ) presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The banking and financial services industries are undergoing rapid changes, with frequent introductions of new technology-driven products and services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:47:58.705Z",
+  "model": "deepseek-v4-flash"
+}

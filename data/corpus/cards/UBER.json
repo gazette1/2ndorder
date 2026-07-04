@@ -1,0 +1,53 @@
+{
+  "cik": "0001543151",
+  "ticker": "UBER",
+  "name": "Uber Technologies, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001543151-26-000015",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm"
+  },
+  "business": "Uber Technologies, Inc. is a technology platform that connects consumers with independent providers of ride services for ridesharing, connects consumers with merchants and delivery service providers for meal and grocery delivery, and connects shippers with carriers for freight transportation. The company also offers advertising and a membership program called Uber One.",
+  "sellsTo": [
+    "consumers (riders and eaters)",
+    "restaurants, grocers, and other merchants",
+    "shippers",
+    "carriers",
+    "advertisers/brands"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our growing use of artificial intelligence (AI) and machine learning may present additional risks, including risks associated with algorithm development or use, the tools and data sets used, and/or a complex, developing regulatory environment."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "risk_mention",
+      "sentence": "If we fail to offer autonomous vehicle technologies on our platform at competitive scale or fail to offer such technologies or scale on our platform before our competitors, or if such technologies fail to perform as expected, are inferior to those offered by our competitors, or are perceived as less safe than those offered by competitors or non-autonomous vehicles, our financial performance and prospects would be adversely impacted."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "In July 2025, we agreed to purchase, or have our designated fleet operators purchase, a minimum of 20,000 Lucid vehicles equipped with Nuro’s Level 4 autonomous driving systems over a six-year period following the start of production, which is targeted for 2026."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Mobility also includes activity related to our financial partnerships products and advertising."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Minimum purchase of 20,000 Lucid vehicles equipped with Nuro's Level 4 autonomous driving systems",
+      "date": null,
+      "sentence": "In July 2025, we agreed to purchase, or have our designated fleet operators purchase, a minimum of 20,000 Lucid vehicles equipped with Nuro’s Level 4 autonomous driving systems over a six-year period following the start of production, which is targeted for 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:56:29.426Z",
+  "model": "deepseek-v4-flash"
+}

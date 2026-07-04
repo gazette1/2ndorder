@@ -1,0 +1,90 @@
+{
+  "cik": "0002034012",
+  "ticker": "GSUI",
+  "name": "Grayscale Sui Staking ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0002034012-26-000008",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/2034012/000203401226000008/sui-20251231.htm"
+  },
+  "business": "Grayscale Sui Staking ETF (GSUI) is a passive investment vehicle that holds SUI tokens and issues shares designed to reflect the value of SUI held by the Trust, less expenses. The Trust may engage in staking SUI on the Sui Network to earn staking rewards, which are distributed to shareholders after fees. Shares are traded on NYSE Arca and are offered to investors seeking exposure to SUI.",
+  "sellsTo": [
+    "investors seeking digital asset exposure",
+    "authorized participants"
+  ],
+  "namedCustomers": [
+    "Sui Foundation, Ltd.",
+    "Digital Currency Group, Inc.",
+    "Jane Street Capital, LLC",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Coinbase, Inc.",
+    "CoinDesk",
+    "The Bank of New York Mellon",
+    "KPMG LLP"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust is a passive entity that is managed and administered by the Sponsor and does not have any officers, directors or employees. As of December 31, 2025, the Trust holds SUI and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of SUI."
+    },
+    {
+      "tag": "other:proof-of-stake",
+      "stance": "core_product",
+      "sentence": "Staking on the Sui Network refers to using SUI, or permitting SUI to be used through an agent or otherwise, in the Sui Network’s proof-of-stake validation protocol, in exchange for the receipt of staking rewards paid in-kind (\"Staking\")."
+    },
+    {
+      "tag": "other:smart-contracts",
+      "stance": "risk_mention",
+      "sentence": "The Sui Network was designed to allow users to write and implement smart contracts that is, general-purpose code that executes redundantly across the network and can instruct the transmission of information and value based on a sophisticated set of logical conditions."
+    },
+    {
+      "tag": "other:defi",
+      "stance": "risk_mention",
+      "sentence": "As of December 31, 2025, approximately $914.9 million was being used as collateral on DeFi platforms using the Sui Network."
+    },
+    {
+      "tag": "other:nfts",
+      "stance": "risk_mention",
+      "sentence": "In addition, the Sui Network and other smart contract platforms have been used for creating non-fungible tokens, or NFTs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of staking on the Sui Network",
+      "date": "2026-02-18",
+      "sentence": "On February 18, 2026, the Staking Condition was satisfied with respect to the form of Staking described in this Annual Report, and on that date the Trust commenced Staking pursuant to the Staking Arrangements described below."
+    },
+    {
+      "event": "Uplisting of shares to NYSE Arca",
+      "date": "2026-02-18",
+      "sentence": "Shares of the Trust began trading on NYSE Arca on February 18, 2026, under the ticker symbol GSUI."
+    },
+    {
+      "event": "Commencement of redemption program",
+      "date": "2026-02-17",
+      "sentence": "On February 17, 2026, in connection with the effectiveness of the registration statement on Form S-1 (File No. 333-291974), as amended, the Sponsor authorized the commencement of a redemption program."
+    },
+    {
+      "event": "Sui Foundation investment",
+      "date": "2026-02-17",
+      "sentence": "On February 17, 2026, the Trust entered into the Sui Foundation Subscription Agreement, pursuant to which the Sui Foundation acquired Shares of the Trust in a private offering for an aggregate purchase price of approximately 20,000,000 SUI tokens (the \"Sui Foundation Contribution\")."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets tracked by CoinMarketCap.com was approximately $2,678.0 billion as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market capitalization of approximately $2,678.0 billion (including the approximately $5.2 billion market cap of SUI), as calculated using market prices and total available supply of each digital asset, excluding stablecoins and tokens pegged to other assets."
+    },
+    {
+      "claim": "DeFi collateral on the Sui Network was approximately $914.9 million as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, approximately $914.9 million was being used as collateral on DeFi platforms using the Sui Network."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:42:16.625Z",
+  "model": "deepseek-v4-flash"
+}

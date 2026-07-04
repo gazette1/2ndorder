@@ -1,0 +1,75 @@
+{
+  "cik": "0001738177",
+  "ticker": "CMBMF",
+  "name": "Cambium Networks Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-201759",
+    "filedAt": "2026-05-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1738177/000119312526201759/cmbmf-20251231.htm"
+  },
+  "business": "Cambium Networks is a global technology company that designs, develops, and manufactures fixed wireless and PON/XGSPON based broadband, Wi-Fi, and local area networking (\"LAN\") switching infrastructure, and security gateway solutions for a wide range of applications, including broadband access, wireless backhaul, Internet of Things (IoT), public safety communications, and Wi-Fi access.",
+  "sellsTo": [
+    "public or private network operators",
+    "broadband and/or wireless LAN managed service providers",
+    "broadband internet service providers",
+    "mobile network operators",
+    "mid-market enterprises (education, hospitality, multi-dwelling units, retail)",
+    "state and local government",
+    "industrial (energy, mining, rail operators, utilities)",
+    "military agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "cnMaestro X Assurance, a cloud-based insights engine continuously learns from data reported from cnMaestro-managed devices. AI/ML algorithms are used to identify and predict trending issues across customer sites and proactive alerts are generated."
+    },
+    {
+      "tag": "other:ai-chatbot",
+      "stance": "core_product",
+      "sentence": "We designed a custom ChatGPT AI agent, accessible from our web site, to help users effortlessly explore and understand our diverse range of solutions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Prices for memory chips have increased rapidly for newer generations of memory, which has had an impact on the supply of current memory, impacting components for both Wi-Fi 7 and Wi-Fi 6. We expect this to continue for the foreseeable future due to the scaling of AI data centers."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "In addition, our PTP 700 operates in NATO Band IV from 4.4-5.9 GHz, as well as in the 7 GHz and 8 GHz bands, and meets stringent federal operating, performance, and security standards."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We are actively engaged with national defense connectivity initiatives, working closely with systems integration partners."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Network Service Edge (\"NSE\") delivers advanced security, network, and SD-WAN services for small and medium enterprise networks."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our cnReach IoT solutions offer connectivity for distributed sensors and controls across industrial deployments, delivering real-time monitoring, measurement and analytics to optimize system performance."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "We also see increased competition and pricing pressure from new competitors such as Starlink significantly driving down global connectivity prices, with satellite bandwidth costs dropping roughly 77% over the last five years due to its rapid constellation deployment and lower manufacturer costs."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Cambium Networks is a global technology company that designs, develops, and manufactures fixed wireless and PON/XGSPON based broadband, Wi-Fi, and local area networking (\"LAN\") switching infrastructure, and security gateway solutions for a wide range of applications, including broadband access, wireless backhaul, Internet of Things (IoT), public safety communications, and Wi-Fi access."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:04:36.815Z",
+  "model": "deepseek-v4-flash"
+}

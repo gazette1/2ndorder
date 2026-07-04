@@ -1,0 +1,59 @@
+{
+  "cik": "0002079720",
+  "ticker": "BUDA",
+  "name": "BUDA JUICE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012988",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2079720/000149315226012988/form10-k.htm"
+  },
+  "business": "Buda Juice sells UltraFresh, cold-crafted citrus-based juices, lemonades, and wellness shots to grocery retailers, using a continuous cold chain to deliver fresh products.",
+  "sellsTo": [
+    "grocery retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Buda Juice is pioneering the UltraFreshTM juice category through our end-to-end cold chain platform that delivers always cold, freshly crafted juice, lemonades and wellness shots to grocery retailers in Texas."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We maintain continuous 35°F temperature control from fruit to shelf, delivering products with 8–12 day shelf life."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Our products rely heavily on high-quality, fresh citrus which are agricultural commodities subject to seasonal variability, environmental conditions, possible tariffs, and supply chain constraints."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Phase Two Southeast hub in South Carolina completion",
+      "date": "2026",
+      "sentence": "Phase Two establishes a Southeast hub in South Carolina (projected to be completed in 2026) potentially serving 75 million consumers"
+    },
+    {
+      "event": "Phase Three Western hub in Arizona/Nevada completion",
+      "date": "2027",
+      "sentence": "followed by Phase Three’s Western hub in Arizona/Nevada (projected to be completed in 2027) potentially serving 60 million consumers."
+    },
+    {
+      "event": "Began trading on NYSE American",
+      "date": "2026-01-08",
+      "sentence": "On January 8, 2026, we began trading in the NYSE American under the ticker BUDA."
+    },
+    {
+      "event": "Statutory conversion from LLC to Delaware corporation",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, we undertook a statutory conversion from Buda Juice, LLC a Texas limited liability company to Buda Juice, Inc. a Delaware corporation"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:41:26.315Z",
+  "model": "deepseek-v4-flash"
+}

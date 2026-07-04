@@ -1,0 +1,57 @@
+{
+  "cik": "0000314808",
+  "ticker": "VAL",
+  "name": "Valaris Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0000314808-26-000029",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000031480826000029/val-20251231.htm"
+  },
+  "business": "Valaris Limited is a global offshore contract drilling company. It provides offshore contract drilling services to the international oil and gas industry. Its customers include major international and government-owned oil and gas companies as well as independent operators.",
+  "sellsTo": [
+    "Gulf of America",
+    "South America",
+    "North Sea",
+    "Mediterranean",
+    "Middle East",
+    "Africa",
+    "Asia Pacific",
+    "major international oil and gas companies",
+    "government-owned oil and gas companies",
+    "independent operators"
+  ],
+  "namedCustomers": [
+    "Petrobras",
+    "BP",
+    "Azule Energy"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of offshore contract drilling services to the international oil and gas industry."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "risk_mention",
+      "sentence": "our drilling rigs may be utilized as accommodation units or for other ancillary services such as well workovers and interventions, plug and abandonment and decommissioning work and carbon capture and sequestration projects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Pending Business Combination with Transocean",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, Valaris and Transocean entered into a business combination agreement."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 70% of expected deepwater project activity is associated with breakeven oil prices below $50 per barrel and over 80% below $60 per barrel.",
+      "sentence": "According to Rystad Energy estimates, approximately 70% of this expected activity is associated with projects with breakeven oil prices below $50 per barrel and over 80% is associated with projects with breakeven prices below $60 per barrel."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:53:06.678Z",
+  "model": "deepseek-v4-flash"
+}

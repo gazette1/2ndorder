@@ -1,0 +1,45 @@
+{
+  "cik": "0000737875",
+  "ticker": "FKYS",
+  "name": "FIRST KEYSTONE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000737875-26-000009",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/737875/000073787526000009/fkys-20251231x10k.htm"
+  },
+  "business": "First Keystone Corporation is a bank holding company whose wholly-owned subsidiary, First Keystone Community Bank, provides commercial banking and trust services. It serves individuals and small to medium sized businesses in Northeastern Pennsylvania. Its principal source of income is dividends from the Bank, and community banking is its only reportable segment.",
+  "sellsTo": [
+    "individuals",
+    "small to medium sized businesses",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, approximately 90.2% of the Corporation's loan portfolio was secured by real estate (including construction loans)."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the Bank also competes with non-bank and online firms, such as consumer finance companies and financial technology companies, for loans, mutual funds and other investment alternatives for deposits."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Corporation may use artificial intelligence (AI) in its business, and challenges with properly managing its use could result in disruption of its internal operations, reputational harm, competitive harm, legal liability and adversely affect the Corporation's results of operations and stock price."
+    },
+    {
+      "tag": "other:cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Corporation's operations of its business, including its transactions with customers, are increasingly done electronically, and this has increased its risks related to cybersecurity."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:38:15.945Z",
+  "model": "deepseek-v4-flash"
+}

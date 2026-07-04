@@ -1,0 +1,55 @@
+{
+  "cik": "0001192323",
+  "ticker": "SPST",
+  "name": "Superstar Platforms Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016892",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1192323/000149315226016892/form10-k.htm"
+  },
+  "business": "Superstar Platforms Inc. operates as a technology-focused holding company. It owns PawnTrust, a digital marketplace for pawn shops that facilitates borrowing, buying, and bartering transactions. The company also engages in capital deployment through structured lending arrangements.",
+  "sellsTo": [
+    "pawn shops",
+    "consumers",
+    "borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "PawnTrust is intended to enable participating pawn shops to digitize inventory and offer products and services through a mobile-accessible interface."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "The online marketplace digitizes the inventory using advanced image recognition algorithms to automate item descriptions of the participating pawn shops."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We could experience system failures, service interruptions, or security breaches that could negatively impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "PawnTrust marketplace expected to go live in Q2 2026",
+      "date": "2026-06-30",
+      "sentence": "The marketplace is in beta testing and is slated to go live in Q2/2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "approximately 11,000 pawn shops in the United States",
+      "sentence": "a technology-enabled marketplace platform designed to serve approximately 11,000 pawn shops in the United States."
+    },
+    {
+      "claim": "global technology sector projected to surpass 5.5 trillion in 2026",
+      "sentence": "The global technology sector is projected to surpass 5.5 trillion in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:56:21.998Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001538495",
+  "ticker": "ETST",
+  "name": "Earth Science Tech, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-029160",
+    "filedAt": "2026-06-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1538495/000149315226029160/form10-k.htm"
+  },
+  "business": "Earth Science Tech, Inc. operates as a diversified holding company in the health and wellness sector, integrating compounding pharmacy, telemedicine, clinical support, and patient fulfillment. It also has a real estate and asset management arm and an 80%-owned direct-to-consumer kitchen products brand. The company sells compounded medications, telemedicine consultations, healthcare services, and innovative kitchen products.",
+  "sellsTo": [
+    "patients needing compounded medications",
+    "telemedicine patients",
+    "healthcare providers",
+    "direct-to-consumer kitchenware buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The core of the Company's value proposition is the seamless integration of patient care, from consultation to fulfillment."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "MagneChef 80%-owned direct-to-consumer kitchen products brand using proprietary intellectual property."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "MagneChef 80%-owned direct-to-consumer kitchen products brand using proprietary intellectual property."
+    },
+    {
+      "tag": "housing",
+      "stance": "active_investment",
+      "sentence": "The Company completed construction of a residential property during the period, which is currently available for sale, at a total capitalized cost of $371,684."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Telemedicine prescription flexibilities expire",
+      "date": "2026-12-31",
+      "sentence": "We currently operate under the Fourth Temporary Extension of COVID-19 Telemedicine Flexibilities, which permits our affiliated healthcare providers to prescribe Schedule II-V controlled substances via telemedicine through December 31, 2026, without a prior in-person evaluation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:17:46.361Z",
+  "model": "deepseek-v4-flash"
+}

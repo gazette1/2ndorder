@@ -1,0 +1,75 @@
+{
+  "cik": "0001868640",
+  "ticker": "RDZN",
+  "name": "Roadzen Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-031069",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868640/000149315226031069/form10-k.htm"
+  },
+  "business": "Roadzen is an insurtech company that provides an AI-powered platform for auto insurance, including underwriting, distribution, claims processing, and road safety. It generates revenue through an Insurance as a Service (IaaS) platform (fee-based) and brokerage commissions from embedded and B2B2C insurance distribution. The company sells to insurers, automotive OEMs, fleets, and other distribution channels globally.",
+  "sellsTo": [
+    "Insurance companies, reinsurers, agents, brokers",
+    "Automotive OEMs, dealerships, online car sales platforms",
+    "Fleets (small/medium, taxi, ridesharing, commercial/corporate)",
+    "Other distribution channels (financial services, telematics companies)"
+  ],
+  "namedCustomers": [
+    "AXA",
+    "SCOR",
+    "Arch",
+    "Société Générale",
+    "Jaguar Land Rover",
+    "Audi",
+    "Mercedes",
+    "Volvo"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Roadzen is a leading Insurtech company on a mission to transform global auto insurance powered by advanced artificial intelligence (AI)."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Roadzen acts as an insurance broker utilizing its technology to sell insurance through our embedded and B2B2C distribution model."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Via : enables fleets, carmakers and insurers to inspect a vehicle using computer vision."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "DrivebuddyAI: enables any vehicle to get advanced driver-assistance capabilities utilizing cameras and neural networks to deliver better safety on the road."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Roadzen has four major client types: Insurance including insurance companies, reinsurers, agents, brokers; Automotive including carmakers, dealerships, online-to-offline car sales platforms; Fleets including small and medium fleets, taxi fleets, ridesharing platforms, commercial and corporate fleets; and Other distribution channels such as financial services companies providing auto loans, and telematics companies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of majority stake in California-based insurance broker and managing general underwriter",
+      "date": "2025-12-31",
+      "sentence": "We also operate a California-based insurance broker and managing general underwriter, after acquiring a majority stake in that company in the quarter ended December 31, 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global automotive insurance market was $923 billion in 2023, projected to reach $2.3 trillion by 2032 (10.8% CAGR).",
+      "sentence": "The global automotive insurance market was approximately $923 billion in 2023 and is projected to reach approximately $2.3 trillion by 2032, growing at a compounded annual rate of 10.8%, according to Allied Market Research."
+    },
+    {
+      "claim": "Approximately 1.55 billion vehicles on the road worldwide (excluding motorcycles).",
+      "sentence": "There are approximately 1.55 billion vehicles on the road worldwide, including cars, vans and trucks (excluding motorcycles), according to Organisation Internationale des Constructeurs d Automobiles (OICA)."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:37:34.826Z",
+  "model": "deepseek-v4-flash"
+}

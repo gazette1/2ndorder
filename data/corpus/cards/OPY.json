@@ -1,0 +1,77 @@
+{
+  "cik": "0000791963",
+  "ticker": "OPY",
+  "name": "OPPENHEIMER HOLDINGS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012313",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/791963/000162828026012313/opy-20251231.htm"
+  },
+  "business": "Oppenheimer Holdings Inc. is a leading middle-market investment bank and full service broker-dealer engaged in retail securities brokerage, institutional sales and trading, investment banking, research, market-making, trust services, and investment advisory and asset management services. The company serves high-net-worth individuals and families, corporate executives, public and private businesses, and institutional investors through a network of 924 financial advisors in 88 offices. As of December 31, 2025, the company held $143.3 billion in client assets under administration and $55.2 billion in assets under management.",
+  "sellsTo": [
+    "high-net-worth individuals and families",
+    "corporate executives",
+    "public and private businesses",
+    "institutional investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Oppenheimer encounters intense competition in all aspects of the securities and investment banking business and competes directly with other securities firms, banks and investment banking boutiques, a significant number of which have substantially greater resources and offer a wider range of financial services than the Company, including Fintech competitors offering online investment services to smaller investors."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Risks related to artificial intelligence, including our use of third-party products incorporating artificial intelligence, include the generation of factually incorrect or biased results, also known as hallucinations, data security vulnerabilities, potential IP infringement, mishandling of confidential, proprietary, or private information, and potentially problematic third-party license terms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company relies heavily on communications and information systems to conduct its business. Any failure, interruption or breach in security of these systems could result in failures or disruptions in the Company's customer relationship management, regulatory or other reporting, general ledger, and other systems."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The Company does not currently offer the direct purchase or sale of digital or related custody services, which may limit our ability to compete or adapt to market trends."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may cause extreme weather events that, among other things, could damage our facilities and equipment, injure our employees, disrupt operations at one or more of our primary locations, negatively affect our ability to service and interact with our clients, and adversely affect the value of our investments."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We continue to evaluate emerging technologies like agentic artificial intelligence for incorporation into our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Freedom Investments deregistration as broker-dealer effective",
+      "date": "2026-01-30",
+      "sentence": "Freedom s deregistration became effective on January 30, 2026."
+    },
+    {
+      "event": "Special dividend of $1.00 per share paid",
+      "date": "2026-01-01",
+      "sentence": "Our solid operating results and capital position allowed us to return additional value to shareholders in the form of a $1.00 per share special dividend in early January 2026."
+    },
+    {
+      "event": "Formation of Oppenheimer (Switzerland) AG for wealth management services",
+      "date": null,
+      "sentence": "Oppenheimer (Switzerland) AG, which is based in Zurich, Switzerland, was formed in late 2025 and has not yet commenced substantive operations."
+    },
+    {
+      "event": "One Big Beautiful Bill Act signed into law",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, President Trump signed into law the One Big Beautiful Bill Act (the OBBBA), which includes several U.S. federal income tax provisions affecting businesses."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:06:07.240Z",
+  "model": "deepseek-v4-flash"
+}

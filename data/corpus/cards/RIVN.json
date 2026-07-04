@@ -1,0 +1,109 @@
+{
+  "cik": "0001874178",
+  "ticker": "RIVN",
+  "name": "Rivian Automotive, Inc. / DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0001874178-26-000008",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm"
+  },
+  "business": "Rivian is an American automotive technology company that develops and manufactures electric vehicles and vertically integrated technologies and services. Vehicles are sold directly to consumer and commercial customers.",
+  "sellsTo": [
+    "Consumer vehicle buyers",
+    "Commercial fleet operators",
+    "Last-mile delivery companies"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Volkswagen Group"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Rivian is an American automotive technology company that develops and manufactures category-defining electric vehicles as well as vertically integrated technologies and services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our in-house autonomy system has been designed with an AI-centric end-to-end approach and leverages the large amount of miles driven by Rivian vehicles for training, enabling the Company to continuously improve the system."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "active_investment",
+      "sentence": "We design and develop a variety of components in the vehicle including the electric motors, gearboxes, inverters, battery packs, vehicle electronics, chassis systems, and most recently, the Rivian Autonomy Processor ( RAP1 ) which is expected to be included in our vehicles in the future."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We design and develop a variety of components in the vehicle including the electric motors, gearboxes, inverters, battery packs, vehicle electronics, chassis systems, and most recently, the Rivian Autonomy Processor ( RAP1 ) which is expected to be included in our vehicles in the future."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "magnet materials, particularly heavy rare earth minerals are currently required for multiple elements of our vehicles, are of limited supply geographically, and have limited supply options as a consequence of the specific requirements of the parts."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "Battery raw materials, including lithium, nickel, graphite, and cobalt, represent one of the most vulnerable parts of our supply chain."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "These include our insurance and financing offerings, which are created in conjunction with third parties but offered through the Rivian purchase process."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "These include our insurance and financing offerings, which are created in conjunction with third parties but offered through the Rivian purchase process."
+    },
+    {
+      "tag": "other:charging-infrastructure",
+      "stance": "core_product",
+      "sentence": "We design, develop, and manufacture Rivian Adventure Network Direct Current fast chargers which we operate at sites across North America (the Rivian Adventure Network)."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "Net cash provided by financing activities during the year ended December 31, 2025 primarily resulted from the issuance of $750 million in shares of Class A common stock to Volkswagen Group in connection with the achievement of the Financial Milestone, as well as capital contributed by outside parties in the formation of Mind Robotics, Inc. and Mind Robotics, LLC."
+    },
+    {
+      "tag": "other:autonomy-software",
+      "stance": "core_product",
+      "sentence": "Rivian is designing and developing advanced driver assistance features."
+    },
+    {
+      "tag": "other:software-subscriptions",
+      "stance": "core_product",
+      "sentence": "Across our consumer and commercial vehicles, we offer value added software subscriptions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "R2 customer deliveries begin",
+      "date": "2026-04-01",
+      "sentence": "We expect customer deliveries of R2 vehicles to begin in the second quarter of 2026."
+    },
+    {
+      "event": "Autonomy+ paid subscription launch",
+      "date": "2026-04-01",
+      "sentence": "We expect to begin charging a one-time or month-to-month fee for Autonomy+ advanced driver assistance features in consumer vehicles starting in April 2026."
+    },
+    {
+      "event": "Georgia plant vertical construction start",
+      "date": "2026-01-01",
+      "sentence": "We expect to begin vertical construction in 2026 and start production on the first manufacturing line in 2028."
+    },
+    {
+      "event": "Georgia plant production start",
+      "date": "2028-01-01",
+      "sentence": "We expect to begin vertical construction in 2026 and start production on the first manufacturing line in 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:42:00.062Z",
+  "model": "deepseek-v4-flash"
+}

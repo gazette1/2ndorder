@@ -1,0 +1,86 @@
+{
+  "cik": "0001088034",
+  "ticker": "USIO",
+  "name": "Usio, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008833",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1088034/000143774926008833/usio20251231_10k.htm"
+  },
+  "business": "Usio is a cloud-based Fintech payment processor that provides payment acceptance, card-based processing, prepaid card, payment facilitation, and electronic billing products and services to businesses, merchants, and consumers.",
+  "sellsTo": [
+    "businesses",
+    "merchants",
+    "consumers",
+    "utilities",
+    "financial institutions",
+    "legal",
+    "healthcare",
+    "property management",
+    "insurance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "North American Banking Company (NABC)",
+    "TransPecos Bank",
+    "Central Bank of St. Louis",
+    "Fifth Third Bank",
+    "Sunrise Banks, N.A.",
+    "Wells Fargo Bank",
+    "TriSource Solutions, LLC",
+    "Global Payments, Inc.",
+    "Card Connect / First Data Merchant Services Corp."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide integrated electronic payment processing services to merchants and businesses, including credit, and debit card-based processing services and electronic funds transfer via the ACH network."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security applications are breached by cyberattacks or are not adequate to address changing market conditions and customer concerns, we may incur significant losses and be unable to sell our services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI and machine learning technologies as supplementary tools in various aspects of our business, including fraud prevention, risk management, and customer service."
+    },
+    {
+      "tag": "other:wearable-devices",
+      "stance": "core_product",
+      "sentence": "In 2025 we also launched, and rolled out a new distribution strategy for our Prepaid card services, with a wearable device program."
+    },
+    {
+      "tag": "other:real-time-payments",
+      "stance": "core_product",
+      "sentence": "With the rise of Real Time Payments, or RTP, we began expansion into this market vertical in 2023, which serves as an alternative to ACH payments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New printer installed and operational",
+      "date": "2026-06-30",
+      "sentence": "a new printer in September 2025 that will be installed and operational in the first half of 2026."
+    },
+    {
+      "event": "Phased implementation of PostCredit projects and Usio One strategy",
+      "date": "2026-12-31",
+      "sentence": "We believe we will be able to implement phased portions of this strategy, and other PostCredit related projects, by the end of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Estimated retail e-commerce sales for 2024 were $1,192.6 billion, accounting for 16.1% of total sales.",
+      "sentence": "According to the U.S. Census Bureau, estimated retail e-commerce sales for 2024 were estimated at $1,192.6 billion, an increase of approximately 8.1% from 2023, and e-commerce sales in 2024 accounted for 16.1% of total sales"
+    },
+    {
+      "claim": "In 2024, credit and debit card payments accounted for 65% of U.S. consumers total payments per month.",
+      "sentence": "In 2024, credit and debit card payments accounted for 65% of U.S. consumers total payments per month"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:00:55.651Z",
+  "model": "deepseek-v4-flash"
+}

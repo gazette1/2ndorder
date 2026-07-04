@@ -1,0 +1,120 @@
+{
+  "cik": "0001938109",
+  "ticker": "PAPL",
+  "name": "Pineapple Financial Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-025962",
+    "filedAt": "2025-12-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1938109/000149315225025962/form10-k.htm"
+  },
+  "business": "Pineapple Financial is a Canadian mortgage technology and brokerage company. It provides mortgage brokerage services, technology solutions, back-office and pre-underwriting support services to mortgage agents, brokers, brokerages, and consumers. It also offers insurance products through its subsidiary Pineapple Insurance.",
+  "sellsTo": [
+    "mortgage agents",
+    "mortgage brokers",
+    "sub-brokers",
+    "mortgage brokerages",
+    "consumers",
+    "affiliate brokers"
+  ],
+  "namedCustomers": [
+    "Bank of Nova Scotia (Scotiabank)",
+    "Manulife Bank of Canada",
+    "Toronto-Dominion Bank",
+    "MCAP",
+    "First National Financial LP",
+    "Home Trust Company",
+    "Equitable Bank",
+    "Community Trust",
+    "Bank of Montreal (BMO)",
+    "Desjardins Mortgage Financing Services"
+  ],
+  "namedSuppliers": [
+    "Equifax",
+    "OneSpan",
+    "G Suite",
+    "Filogix",
+    "Industrial Alliance Inc.",
+    "Canary Capital Group LLC",
+    "Monarq Asset Management LLC",
+    "Bitgo Trust Company, Inc.",
+    "White Lion Capital LLC",
+    "Voltedge Finance Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide mortgage brokerage services and technology solutions to Canadian mortgage agents, brokers, sub-brokers, brokerages and consumers."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Pineapple Insurance Inc. is a wholly owned subsidiary of Pineapple Financial Inc."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Our financial performance is closely connected to the strength of the residential real estate market, which is subject to a number of general business and macroeconomic conditions beyond our control."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "In fiscal 2025, we established a digital asset treasury strategy (the Treasury Strategy ) as a component of our corporate treasury and strategic partnership program."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "We are conducting research and development to explore the application of distributed ledger and smart-contract technologies to selected elements of the mortgage lifecycle ( On-Chain Mortgage Development )."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Pineapple Insurance launch",
+      "date": "2024-10-01",
+      "sentence": "Pineapple Insurance officially launched in October 2024, marking a significant milestone in Pineapple Financial’s diversification strategy."
+    },
+    {
+      "event": "Private placement closing",
+      "date": "2025-09-04",
+      "sentence": "The private placement closed on September 4, 2025, raising approximately US $100 million in aggregate proceeds consisting of cash and Injective (INJ) tokens, all of which are held in escrow pending satisfaction of specified escrow release conditions under the Subscription Receipt Agreement."
+    },
+    {
+      "event": "Shareholder approval of share issuance",
+      "date": "2025-10-31",
+      "sentence": "On October 31, 2025, shareholders approved the issuance of the underlying common shares."
+    },
+    {
+      "event": "Execution of Securities Purchase Agreement for Injective Treasury",
+      "date": "2025-09-02",
+      "sentence": "On September 2, 2025, the Company entered into a Securities Purchase Agreement with certain accredited investors to issue 24,642,700 subscription receipts at an offering price of US $3.80 per subscription receipt, with respect to certain purchasers, and US $4.16 per subscription receipt, with respect to certain purchasers."
+    },
+    {
+      "event": "Execution of Common Stock Purchase Agreement with White Lion Capital",
+      "date": "2025-09-04",
+      "sentence": "On September 4, 2025, the Company entered into a Common Stock Purchase Agreement with White Lion Capital LLC, establishing an equity line of credit of up to US $250 million."
+    },
+    {
+      "event": "Execution of Master Loan and Security Agreement with Voltedge Finance",
+      "date": "2025-09-15",
+      "sentence": "On September 15, 2025, the Company executed a Master Loan and Security Agreement with Voltedge Finance Inc., providing for a revolving credit facility of up to US $15.0 million."
+    },
+    {
+      "event": "Escrow release upon SEC effectiveness and NYSE American approval",
+      "date": null,
+      "sentence": "Escrowed funds will be released upon SEC effectiveness of the registration statement and NYSE American approval of listing of the underlying shares."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total residential mortgage market valued at over $1.6 trillion",
+      "sentence": "According to the Bank of Canada, the total residential mortgage market is valued at over $1.6 trillion, driven by population growth, increasing borrower demand, and evolving consumer sentiment."
+    },
+    {
+      "claim": "Residential mortgage credit exceeding $1.8 trillion as of 2025",
+      "sentence": "The Canadian mortgage market represents one of the largest and most stable segments of the national financial system, with residential mortgage credit exceeding $1.8 trillion as of 2025, according to data from the Bank of Canada."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:34:58.143Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,86 @@
+{
+  "cik": "0001819848",
+  "ticker": "JOBY",
+  "name": "Joby Aviation, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001819848-26-000160",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm"
+  },
+  "business": "Joby Aviation, Inc. designs, tests, and intends to operate piloted all-electric vertical take-off and landing (eVTOL) air taxis for urban aerial ridesharing services. The company also sells aircraft directly to distributors and defense customers, and operates an air charter broker service through its acquired subsidiary Blade Urban Air Mobility. Joby targets carrying its first passengers in 2026 and plans to generate revenue through owned and operated air taxi services, affiliate services, and direct sales including defense applications.",
+  "sellsTo": [
+    "urban air mobility passengers",
+    "U.S. Department of Defense",
+    "international partners (e.g., Dubai RTA, Saudi Arabia, Kazakhstan)",
+    "air charter customers (via Blade)"
+  ],
+  "namedCustomers": [
+    "Toyota Motor Corporation",
+    "Uber Technologies, Inc.",
+    "Delta Air Lines, Inc.",
+    "U.S. Department of Defense (USAF)",
+    "Road and Transport Authority of Dubai",
+    "Abdul Latif Jameel",
+    "Alatau Advance Air Group",
+    "L3Harris"
+  ],
+  "namedSuppliers": [
+    "Toyota Motor Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We have spent more than a decade designing and testing a piloted, all-electric, vertical take-off and landing ( eVTOL ) air taxi which we intend to operate in cities around the world."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We are also working with L3Harris to adapt our existing eVTOL aircraft platform to address defense applications which may also involve aircraft sales in the future."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Improvements in battery technology or alternative methods of energy storage may allow us to increase the range, speed and/or payload of our vehicles, dramatically expanding the range of trips and use-cases we can serve."
+    },
+    {
+      "tag": "other:hydrogen-fuel-cells",
+      "stance": "active_investment",
+      "sentence": "In 2024, using a fuel cell system designed and built by H2FLY, we successfully flew a hydrogen-electric demonstrator based off of our current aircraft design more than 500 miles."
+    },
+    {
+      "tag": "other:autonomous-flight",
+      "stance": "active_investment",
+      "sentence": "In the summer of 2025, we participated in the USAF s Resolute Force Pacific ( REFORPAC ) exercise, successfully demonstrating our Superpilot (TM) autonomous flight technology, logging over 7,000 miles of autonomous operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Target to carry first passengers in 2026",
+      "date": "2026-12-31",
+      "sentence": "We are targeting carrying our first passengers in 2026."
+    },
+    {
+      "event": "eVTOL Integration Pilot Program (eIPP) established by Executive Order in September 2025",
+      "date": "2025-09-30",
+      "sentence": "Additionally, in September 2025 the President issued an Executive Order directing the U.S. Department of Transportation ( DOT ) and FAA to ensure that mature eVTOL aircraft can begin operations in select markets ahead of full FAA certification."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Urban air mobility total addressable market projected to reach $1 trillion globally by 2040",
+      "sentence": "According to a 2021 report by Morgan Stanley, the urban air mobility sector's total addressable market is projected to reach $1 trillion globally by 2040."
+    },
+    {
+      "claim": "More than 99% of urban routes in NYC and LA are significantly shorter than 100 miles",
+      "sentence": "According to our modeling, more than 99% of urban routes in cities such as New York City and Los Angeles are significantly shorter than this, enabling higher utilization through faster turnaround times of our aircraft."
+    },
+    {
+      "claim": "Journeys up to 10 times faster than driving",
+      "sentence": "By combining the freedom of air travel with the efficiency of our aircraft, we expect to deliver journeys that are up to 10 times faster than driving, and it is our goal to steadily drive down end-user pricing in the years following commercial launch to make the service widely accessible."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:24:40.382Z",
+  "model": "deepseek-v4-flash"
+}

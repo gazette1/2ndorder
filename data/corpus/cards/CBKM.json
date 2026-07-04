@@ -1,0 +1,40 @@
+{
+  "cik": "0001006830",
+  "ticker": "CBKM",
+  "name": "CONSUMERS BANCORP INC /OH/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-028445",
+    "filedAt": "2025-09-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1006830/000143774925028445/cbkm20250630_10k.htm"
+  },
+  "business": "Consumers Bancorp, Inc. is a bank holding company whose subsidiary, Consumers National Bank, offers commercial and consumer loan and deposit products, mortgage, financial planning, and investment services to individuals, farmers, and small and medium-sized businesses in Ohio and surrounding areas.",
+  "sellsTo": [
+    "individuals",
+    "farmers",
+    "small and medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank's 1-4 family residential real estate loan portfolio primarily consists of fixed and variable rate mortgage loans with amortization periods up to thirty years, residential construction loans with a fixed rate interest only period of up to 18-months that converts to a fixed or variable rate loan with amortization periods of up to thirty years, and variable rate home equity lines of credit."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Commercial & industrial, commercial real estate loans, and farmland loans are comprised of both variable rate notes subject to interest rate changes based on the prime rate or Treasury index, and fixed rate notes having maturities of generally not greater than twenty years."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "breaches of security or failures of our technology systems due to technological or other factors and cybersecurity threats;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:48:57.304Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0001807893",
+  "ticker": "SPFX",
+  "name": "STANDARD PREMIUM FINANCE HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001079973-26-000349",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1807893/000107997326000349/spfx_10k-123125.htm"
+  },
+  "business": "Standard Premium Finance Holdings, Inc. is a specialized finance company that makes collateralized loans to businesses and individuals to finance the premiums on commercial property and casualty insurance policies. The loans are originated through a network of independent insurance agents and brokers, with a typical loan term of nine to ten months and down payment of 20-25%. The company is licensed in 37 states and had approximately 18,846 active loans as of December 31, 2025.",
+  "sellsTo": [
+    "small- to medium-sized businesses",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "First Horizon Bank",
+    "Flagstar Bank",
+    "Cadence Bank"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a specialized finance company that makes collateralized loans to businesses and individuals to finance the insurance premiums they pay on their commercial property and casualty insurance policies."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our website includes a secure portal for our brokers and agents, which allows them to quote premiums, print drafts on our bank account to pay the balance of the insurance premium due upon initiation of the premium finance loan, and finance agreements online."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If one or more of these events occur, or if any of our financial, accounting or other data processing systems fail or have other significant shortcomings, this could jeopardize our or our customers confidential and other information processed and stored in, and transmitted through, our computer systems and networks or otherwise cause interruptions or malfunctions in our operations or the operations of our customers or counterparties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The Insurance Information Institute reported that $416.5 billion of commercial lines insurance premiums were generated in the U.S. in 2023.",
+      "sentence": "The Insurance Information Institute reported that $416.5 billion of commercial lines insurance premiums were generated in the U.S. in 2023."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:59:38.504Z",
+  "model": "deepseek-v4-flash"
+}

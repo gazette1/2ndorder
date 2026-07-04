@@ -1,0 +1,79 @@
+{
+  "cik": "0001416090",
+  "ticker": "BSAI",
+  "name": "BLUSKY AI INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014362",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1416090/000149315226014362/form10-k.htm"
+  },
+  "business": "BluSky AI Inc. is a pre-fabricated modular data center provider specializing in artificial intelligence (AI) and high-performance computing (HPC). The company plans to offer GPU-as-a-Service and modular data center solutions on a subscription or leasing basis.",
+  "sellsTo": [
+    "enterprises",
+    "research institutions",
+    "startups",
+    "government and academic institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NVIDIA",
+    "AMD"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "BluSky AI Inc. is a pre-fabricated modular data center provider specializing in artificial intelligence (AI) and high-performance computing (HPC)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "BluSky AI Inc. is a pre-fabricated modular data center provider specializing in artificial intelligence (AI) and high-performance computing (HPC)."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The global semiconductor supply chain remains volatile, with shortages, geopolitical restrictions, and high demand from cloud and AI companies impacting availability and pricing."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "The growing demand for data centers, combined with aging energy infrastructure in some regions, poses a risk to BluSky AI’s ability to secure reliable power for its facilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity threats pose another significant risk, as data centers are prime targets for malicious attacks."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "The focus on green power and renewable energy, while a competitive differentiator, also exposes the company to risks if renewable energy prices fluctuate or if new environmental regulations are enacted that affect operational costs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into ground lease for 51.6 acres in Milford, Utah",
+      "date": "2025-07-11",
+      "sentence": "On July 11, 2025, the Company entered into a Ground Lease with an Option to Purchase (the Lease) with Wild Mustang Ventures LLC, a Wyoming limited liability company (the Landlord), through which the Company leased 51.6 acres in Milford, Utah (the Milford Land) for a two-year term."
+    },
+    {
+      "event": "Settlement agreement with Mother Lode Mining resolving disputes",
+      "date": "2026-02-04",
+      "sentence": "On February 4, 2026, the Company and Mother Lode Mining entered into a settlement agreement resolving all disputes in connection with the LOI and the Clavo Rico mine."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "AI compute market predicted to be $1.81 trillion by 2030",
+      "sentence": "The Company is focused on artificial intelligence compute infrastructure and participating in the dynamic and expanding AI industry predicted to be $1.81 trillion by 2030 by Grandview Research."
+    },
+    {
+      "claim": "35.9% annual CAGR in data center market over next 7 years",
+      "sentence": "Grandview Research estimates a 35.9% annual CAGR in this market over the next 7 years."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:45:37.959Z",
+  "model": "deepseek-v4-flash"
+}

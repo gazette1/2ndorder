@@ -1,0 +1,51 @@
+{
+  "cik": "0001342916",
+  "ticker": "HNOI",
+  "name": "HNO International, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001342916-26-000008",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1342916/000134291626000008/hnoi10k.htm"
+  },
+  "business": "HNO International, Inc. provides green hydrogen systems engineering design, integration, and products to multiple markets. Its products include the HyGrid System (solar/hydrogen micro-power grid), Compact Hydrogen Refueling Station (CHRS), Scalable Hydrogen Energy Platform (SHEP), Hydrogen Carbon Cleaner (HCC), and a planned hydrogen production facility. The company targets zero-emission vehicle and mobile equipment markets, current and emerging hydrogen gas markets, and gasoline/diesel engine emissions reduction markets.",
+  "sellsTo": [
+    "zero-emission vehicle and mobile equipment market",
+    "hydrogen gas markets (ammonia, fertilizer, steel, mining, electronics, semiconductors, fuel cell electric vehicles)",
+    "gasoline and diesel engine emissions and maintenance reduction market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "HNO provides green hydrogen systems engineering design, integration, and products to multiple markets, which include: (i) the zero-emission vehicle and mobile equipment market consisting of hydrogen fuel cell electric passenger vehicles, material handling equipment such as forklifts and airport ground support equipment, as well as the medium and heavy-duty truck market."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our HyGrid TM System is a solar/hydrogen powered micro-power grid designed to provide power to a specific industrial development or residential community, for example, independent of the legacy power grid."
+    },
+    {
+      "tag": "other:hydrogen-production",
+      "stance": "core_product",
+      "sentence": "Small to mid-scale green hydrogen production facilities with a capacity of 100kg/day to 5,000kg/day."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hydrogen production facility expected to commence full-scale commercial production",
+      "date": "2026-01-01",
+      "sentence": "Following a brief pre-start-up interruption in September 2025, the Company has continued pre-operational activities and currently expects the facility to commence full-scale commercial production of hydrogen in early 2026."
+    },
+    {
+      "event": "Compact Hydrogen Refueling Station deliveries to customers",
+      "date": "2026-03-31",
+      "sentence": "We are marketing this product to customers for delivery to customers in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:50:39.196Z",
+  "model": "deepseek-v4-flash"
+}

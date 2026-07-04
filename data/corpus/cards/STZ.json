@@ -1,0 +1,63 @@
+{
+  "cik": "0000016918",
+  "ticker": "STZ",
+  "name": "CONSTELLATION BRANDS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000016918-26-000011",
+    "filedAt": "2026-04-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/16918/000001691826000011/stz-20260228.htm"
+  },
+  "business": "Constellation Brands is an international producer and marketer of beer, wine, and spirits. It sells its products principally to wholesale distributors, retailers, and government agencies, primarily in the U.S. and other international markets.",
+  "sellsTo": [
+    "wholesale distributors",
+    "retailers",
+    "state alcohol beverage control agencies",
+    "DTC purchasers",
+    "U.S. market",
+    "international markets"
+  ],
+  "namedCustomers": [
+    "Southern Glazer's Wine and Spirits"
+  ],
+  "namedSuppliers": [
+    "Owens-Illinois"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are an international producer and marketer of beer, wine, and spirits with operations in the U.S., Mexico, New Zealand, and Italy with powerful, consumer-connected, high-quality brands like Modelo Especial, Corona Extra, Pacifico, Victoria, Kim Crawford, Ruffino, The Prisoner Wine Company, Robert Mondavi Winery, Mi CAMPO, and High West."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "our enterprise-wide cybersecurity program, including our ability to prevent, identify, respond to, or mitigate the impacts of cyber threats or incidents"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The recent proliferation and rapid evolution of AI technologies, including generative AI, machine learning, and agentic AI, has resulted in new challenges, including business, legal and regulatory, and ethical considerations and uncertainty."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "The principal components in the production of our beer brands include water; agricultural products, such as yeast and grains; and packaging materials"
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "global supply chain disruptions and constraints"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Veracruz Brewery initial production",
+      "date": null,
+      "sentence": "initial production at the Veracruz Brewery expected to commence around the middle of Fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:40:54.401Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0001042046",
+  "ticker": "AFG",
+  "name": "AMERICAN FINANCIAL GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001042046-26-000010",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1042046/000104204626000010/afg-20251231.htm"
+  },
+  "business": "American Financial Group, Inc. is an insurance holding company engaged in property and casualty insurance, focusing on specialized commercial products for businesses. Through the operations of Great American Insurance Group, it provides a wide range of commercial coverages through 36 insurance businesses. The company's property and casualty insurance operations provide coverages for property, transportation, specialty casualty, specialty financial, and other lines.",
+  "sellsTo": [
+    "businesses",
+    "commercial entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Everest Reinsurance Company",
+    "Hannover Rueck SE",
+    "Swiss Reinsurance America Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Through the operations of Great American Insurance Group, AFG is engaged in property and casualty insurance, focusing on specialized commercial products for businesses."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Specialty Casualty... Other Liability Claims Made... includes coverage for... cyber."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Property and Transportation... Agricultural-related Federally reinsured multi-peril crop (allied lines) insurance covering most perils as well as crop-hail, equine mortality and other coverages for full-time operating farms/ranches and agribusiness operations on a nationwide basis."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Transportation-related Coverage for vehicles (such as buses and trucks) in a broad range of businesses, including the moving and storage and transportation industries, alternative risk transfer programs, a specialized physical damage product for the trucking industry and other specialty transportation niches."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "AFG may also utilize artificial intelligence or machine learning technologies (AI) to assist with modeled outputs and related analyses, the results of which may be unintentionally deficient, arbitrary, inaccurate or misleading."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:08:34.850Z",
+  "model": "deepseek-v4-flash"
+}

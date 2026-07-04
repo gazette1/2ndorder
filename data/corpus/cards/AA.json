@@ -1,0 +1,64 @@
+{
+  "cik": "0001675149",
+  "ticker": "AA",
+  "name": "Alcoa Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-077167",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526077167/aa-20251231.htm"
+  },
+  "business": "Alcoa Corporation is a vertically integrated aluminum company comprised of bauxite mining, alumina refining, aluminum production (smelting and casting), and energy generation. The company sells primary aluminum products to external customers and traders for use in fabrication operations.",
+  "sellsTo": [
+    "transportation",
+    "building and construction",
+    "packaging",
+    "wire",
+    "other industrial markets",
+    "traders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "Alcoa Corporation (Alcoa or the Company) is a vertically integrated aluminum company comprised of bauxite mining, alumina refining, aluminum production (smelting and casting), and energy generation."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Alcoa Corporation (Alcoa or the Company) is a vertically integrated aluminum company comprised of bauxite mining, alumina refining, aluminum production (smelting and casting), and energy generation."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "During the second quarter of 2025, the Company entered into firming contracts and a power purchase agreement (PPA) to manage the variability and intermittency of renewable energy sources and reduce spot market exposure at the Mosj en (Norway) smelter."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Full restart of San Ciprián smelter",
+      "date": "2026-06-30",
+      "sentence": "The smelter was operating at approximately 65 percent of its total annual capacity of 228 kmt as of December 31, 2025, and the Company expects that the restart will be completed by mid-2026."
+    },
+    {
+      "event": "Completion of strategic assessment under EPBC Act",
+      "date": "2027-08-31",
+      "sentence": "The Company is committed to working collaboratively with the Australian federal government to complete the strategic assessment by August 2027."
+    },
+    {
+      "event": "Ministerial decisions on Myara North and Holyoake mine approvals",
+      "date": "2026-12-31",
+      "sentence": "The Company is committed to continuing to work collaboratively with stakeholders to achieve Ministerial decisions by the end of 2026."
+    },
+    {
+      "event": "Conversion of mandatory convertible note to equity in San Ciprián joint venture",
+      "date": "2026-09-01",
+      "sentence": "In December 2025, Alcoa provided a mandatory convertible note of $153 (€130) to the joint venture that will convert to equity on or before September 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:05:08.295Z",
+  "model": "deepseek-v4-flash"
+}

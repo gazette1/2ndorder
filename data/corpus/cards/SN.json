@@ -1,0 +1,66 @@
+{
+  "cik": "0001957132",
+  "ticker": "SN",
+  "name": "SharkNinja, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001957132-26-000015",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000015/sharkninja-20251231.htm"
+  },
+  "business": "SharkNinja designs and sells small household appliances under the Shark and Ninja brands. The company sells its products through retailers and directly to consumers in 38 markets globally. As of December 31, 2025, the company had relationships with over 180 retailers globally.",
+  "sellsTo": [
+    "retailers",
+    "direct-to-consumer",
+    "distributors"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Costco",
+    "Walmart"
+  ],
+  "namedSuppliers": [
+    "JS Global"
+  ],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our scaled engineering organization possesses wide-ranging skillsets across mechanical design, mechatronics, electronics engineering, robotics, firmware, app and cloud, deep learning, algorithmic engineering and industrial design."
+    },
+    {
+      "tag": "sensors",
+      "stance": "risk_mention",
+      "sentence": "significant investment in the development and advancement of new technologies, such as artificial intelligence, data analytics, robotics, sensor technology, data storage, among others, as well as other technologies in the future that are not foreseen today."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our products are available, often with disproportionate share of shelf, across retailers in each channel and online."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company has identified two operating segments, Domestic and International, which are aggregated into one reportable segment that derives revenues from customers through the sale of the Company's small household appliances, which are sold under two brands, Shark and Ninja."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We have numerous retail and direct-to-consumer third-party logistics distribution centers across North America and Europe: eight 3PL distribution centers in the United States, three in Canada, two in Mexico and eleven in Europe."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "increased exposure to cybersecurity risks in foreign jurisdictions that may materially and adversely affect our business, financial condition and results of operations"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "significant investment in the development and advancement of new technologies, such as artificial intelligence, data analytics, robotics, sensor technology, data storage, among others"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:43:27.429Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0000092108",
+  "ticker": "SOCGM",
+  "name": "SOUTHERN CALIFORNIA GAS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001032208-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/92108/000103220826000010/sre-20251231.htm"
+  },
+  "business": "SoCalGas is a regulated public natural gas distribution utility serving customers throughout most of Southern California and part of central California. It sells natural gas to residential, commercial, and industrial customers under a regulatory framework that permits recovery of costs through rates.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "SoCalGas is a regulated public natural gas distribution utility, serving customers throughout most of Southern California and part of central California."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CPUC issued a final decision for SoCalGas cost of capital for 2026 through 2028",
+      "date": "2025-12-31",
+      "sentence": "The CPUC issued an FD for SDG&E's and SoCalGas cost of capital for 2026 through 2028"
+    },
+    {
+      "event": "SoCalGas recorded a charge from disallowed regulatory recovery of COVID-19 costs",
+      "date": "2025-12-31",
+      "sentence": "$25 million charge in 2025 from disallowed regulatory recovery of COVID-19 costs"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:06:48.316Z",
+  "model": "deepseek-v4-flash"
+}

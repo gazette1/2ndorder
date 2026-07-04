@@ -1,0 +1,44 @@
+{
+  "cik": "0001773383",
+  "ticker": "DT",
+  "name": "Dynatrace, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001773383-26-000019",
+    "filedAt": "2026-05-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1773383/000177338326000019/dt-20260331.htm"
+  },
+  "business": "Dynatrace sells a unified observability, runtime application security, and AI operations platform. The platform is deployed by large enterprises to monitor and manage complex IT environments across hybrid multicloud ecosystems.",
+  "sellsTo": [
+    "banking and financial services",
+    "government",
+    "insurance",
+    "retail and wholesale",
+    "transportation",
+    "software",
+    "large enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-observability",
+      "stance": "core_product",
+      "sentence": "AI Observability (LLM and Agentic AI Observability) provides observability to improve the performance, resilience, explainability, and compliance of generative AI applications, large language models ( LLMs ), and agentic systems - including agent-to-agent interactions and actions taken by agents to better monitor and manage these workloads."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Application Security automatically and continuously detects runtime vulnerabilities in applications, libraries, and code. It also provides near real-time detection and blocking to help protect against third-party cyber-attacks that can exploit critical vulnerabilities."
+    },
+    {
+      "tag": "other:log-management",
+      "stance": "core_product",
+      "sentence": "Log Management and Analytics provides a unified approach to unlock the value of log data in the Dynatrace platform and can be developed for different use cases with enterprise-grade extensibility and customization."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:00:48.210Z",
+  "model": "deepseek-v4-flash"
+}

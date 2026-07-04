@@ -1,0 +1,37 @@
+{
+  "cik": "0001288855",
+  "ticker": "OPHC",
+  "name": "OptimumBank Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-008143",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1288855/000149315226008143/form10-k.htm"
+  },
+  "business": "OptimumBank Holdings, Inc. operates as a bank holding company for OptimumBank, which offers a variety of commercial banking services including real estate loans, business lending, and treasury management to individual and corporate customers in South Florida.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "small and middle market businesses",
+    "skilled nursing facility clients",
+    "merchant cash advance providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:skilled-nursing-facilities",
+      "stance": "core_product",
+      "sentence": "The company provides stabilized owner-occupied and non-owner-occupied loans, as well as accounts receivable-based asset-based-lending ( ABL ) lines of credit to skilled nursing facility clients."
+    },
+    {
+      "tag": "other:merchant-cash-advance",
+      "stance": "core_product",
+      "sentence": "The Bank has carved out a niche in the MCA industry to provide treasury management services, including servicing of high-volumn ACH transactions to organizations with various entities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:59:38.985Z",
+  "model": "deepseek-v4-flash"
+}

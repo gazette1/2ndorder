@@ -1,0 +1,40 @@
+{
+  "cik": "0001332551",
+  "ticker": "ACR",
+  "name": "ACRES Commercial Realty Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-098916",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1332551/000119312526098916/acr-20251231.htm"
+  },
+  "business": "ACR is an externally-managed REIT focused on originating, holding and managing commercial real estate mortgage loans and equity investments. The company originates transitional floating-rate CRE loans targeting sizes between $10.0 million and $100.0 million. Its loan portfolio is secured by properties including multifamily, student housing, hospitality, office, self-storage, mixed-use and retail.",
+  "sellsTo": [
+    "multifamily",
+    "student housing",
+    "hospitality",
+    "office",
+    "self-storage",
+    "mixed-use",
+    "retail",
+    "industrial"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "First mortgage loans, which we refer to as whole loans. These loans are typically secured by first liens on CRE property, including the following property types: multifamily, student housing, hospitality, office, self-storage, mixed-use and retail."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is highly dependent on communications and information systems, and systems failures or cybersecurity incidents could significantly disrupt our business, which may, in turn, negatively affect the market price of our common stock and our ability to operate our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:33:37.830Z",
+  "model": "deepseek-v4-flash"
+}

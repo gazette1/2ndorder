@@ -1,0 +1,61 @@
+{
+  "cik": "0001594805",
+  "ticker": "SHOP",
+  "name": "SHOPIFY INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001594805-26-000007",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+  },
+  "business": "Shopify provides a comprehensive, multi-channel commerce platform that enables merchants to sell online, in store, and across various channels. It generates revenue from subscription solutions (platform fees, apps, domains) and merchant solutions (payment processing, lending, shipping). The platform serves millions of merchants in over 175 countries.",
+  "sellsTo": [
+    "Retail merchants of all sizes (small to enterprise)",
+    "Geographically diverse: United States, Europe, Middle East, Africa, Asia Pacific, Canada, Latin America"
+  ],
+  "namedCustomers": [
+    "Aldo",
+    "BarkBox",
+    "Carrier",
+    "Meta",
+    "Vuori",
+    "SKIMS",
+    "Supreme"
+  ],
+  "namedSuppliers": [
+    "Stripe",
+    "PayPal"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Shopify's all-in-one platform makes it easier to start, run and grow a business, powering sales online, in store, and everywhere in between."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We principally generate merchant solutions revenues from payment processing fees and currency conversion fees from Shopify Payments, our fully integrated payment solution."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our products and services involve the collection, storage, processing and transmission of a large amount of data. Failure to prevent or mitigate security breaches and improper access to or disclosure of our data, merchant data and data of buyers shopping with our merchants, including personal information, or payment information from merchants and their customers, could result in the loss, modification, disclosure, destruction or other misuse of such data, which could harm our business and reputation, diminish our competitive position and subject us to legal or regulatory action."
+    },
+    {
+      "tag": "other:ai-commerce",
+      "stance": "core_product",
+      "sentence": "Shopify provides a suite of AI-enabled features integrated across the Shopify platform, including Sidekick, our AI-enabled commerce assistant, and Agentic Storefronts, which enables agent-assisted product discovery and checkout across a number of AI platforms."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Founding member of Frontier with goal to collectively purchase over $1 billion of permanent carbon removal by end of 2030",
+      "date": "2030-12-31",
+      "sentence": "Shopify is also a founding member of Frontier, alongside Stripe, Alphabet and McKinsey, among others, with a goal to collectively purchase over $1 billion of permanent carbon removal by the end of 2030."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:55:58.463Z",
+  "model": "deepseek-v4-flash"
+}

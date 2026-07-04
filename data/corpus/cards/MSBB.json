@@ -1,0 +1,44 @@
+{
+  "cik": "0001967306",
+  "ticker": "MSBB",
+  "name": "Mercer Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-123303",
+    "filedAt": "2025-12-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1967306/000110465925123303/tmb-20250930x10k.htm"
+  },
+  "business": "Mercer Bancorp conducts its operations primarily through Mercer Savings Bank, which takes deposits from the general public and invests those deposits in one- to four-family residential mortgage loans and agricultural real estate loans secured by properties located in its primary market area.",
+  "sellsTo": [
+    "Individuals and businesses in Mercer and Darke Counties, Ohio, and Adams and Jay Counties, Indiana"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our loan portfolio consists primarily of residential mortgage loans secured by one- to four-family residential properties and agricultural real estate loans secured by farmland located in our primary market area."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our loan portfolio consists primarily of residential mortgage loans secured by one- to four-family residential properties and agricultural real estate loans secured by farmland located in our primary market area."
+    },
+    {
+      "tag": "other:automobile-lending",
+      "stance": "core_product",
+      "sentence": "In January 2023, we began implementing an indirect automobile lending program, in which loan applications are referred to us by car dealerships."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Begin marketing indirect auto loan pools to investor banks",
+      "date": null,
+      "sentence": "Efforts to market indirect auto loan pools to investor banks are currently anticipated to begin in the second calendar quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:41:24.614Z",
+  "model": "deepseek-v4-flash"
+}

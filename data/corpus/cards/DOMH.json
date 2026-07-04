@@ -1,0 +1,57 @@
+{
+  "cik": "0000012239",
+  "ticker": "DOMH",
+  "name": "Dominari Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036897",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/12239/000121390026036897/ea0283159-10k_domin.htm"
+  },
+  "business": "Dominari Holdings is a holding company that, through its subsidiaries, is engaged in wealth management, investment banking, sales and trading, asset management and insurance. It provides management support to its subsidiaries and seeks to grow through acquisitions of financial services firms.",
+  "sellsTo": [
+    "wealth management clients",
+    "investment banking clients",
+    "trading counterparties",
+    "asset management investors",
+    "insurance customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Dominari is a holding company that, through its various subsidiaries, is engaged in wealth management, investment banking, sales and trading, asset management and insurance."
+    },
+    {
+      "tag": "other:asset-management",
+      "stance": "core_product",
+      "sentence": "Dominari is a holding company that, through its various subsidiaries, is engaged in wealth management, investment banking, sales and trading, asset management and insurance."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Dominari Financial seeks partnership opportunities and acquisitions of third-party financial assets such as registered investment advisors and businesses, broker dealers, asset management and fintech firms, and insurance brokers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence could increase competitive, operational, legal and regulatory risks to our businesses in ways that we cannot predict."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity and security breaches of our technology systems, or those of our clients or other third-party vendors we rely on, could subject us to significant liability and harm our reputation."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "active_investment",
+      "sentence": "Gain on marketable securities, net: In 2025 we recognized a gain of approximately $42.3 million for the year ended December 31, 2025 primarily as a result of the Company's investment in American Bitcoin Corp ( ABTC ) that resulted in an unrealized gain of $39.4 for the year ."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:01:50.537Z",
+  "model": "deepseek-v4-flash"
+}

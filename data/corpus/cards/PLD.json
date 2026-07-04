@@ -1,0 +1,62 @@
+{
+  "cik": "0001045609",
+  "ticker": "PLD",
+  "name": "Prologis, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051453",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm"
+  },
+  "business": "Prologis is a self-administered REIT that owns, manages, and develops high-quality logistics facilities globally. It delivers integrated infrastructure solutions including leasing, property management, development, and services through the Prologis Essentials platform.",
+  "sellsTo": [
+    "logistics real estate tenants",
+    "supply chain companies",
+    "e-commerce and retail distributors"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Home Depot",
+    "FedEx",
+    "UPS",
+    "Walmart",
+    "GXO",
+    "Geodis",
+    "Pepsi",
+    "DHL",
+    "Lululemon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Consistent with this strategy, we are leveraging our development capabilities, energy solutions and strategic locations to deliver digital infrastructure requirements through selective development of data centers."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We have more than 1 gigawatt of solar generation and storage capacity on our O&M portfolio, including Prologis and third-party owned projects."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Changes in global business operations, such as the increasing adoption of artificial intelligence (\"AI\"), despite human oversight, may also adversely impact our business, financial condition or results of operations."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "risk_mention",
+      "sentence": "Factors that may affect real estate values and cash flows include: local conditions, such as oversupply or a reduction in demand; technological changes, such as reconfiguration of supply chains, autonomous vehicles, robotics, 3D printing or other technologies;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected completion of consolidated development portfolio with $5.1 billion TEI",
+      "date": "2027-09-30",
+      "sentence": "At December 31, 2025, the consolidated development portfolio, including properties under development and pre-stabilized properties, was expected to be completed before September 2027 with a TEI of $5.1 billion and was 53.5% leased, including $686 million of TEI for data centers."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:57:23.156Z",
+  "model": "deepseek-v4-flash"
+}

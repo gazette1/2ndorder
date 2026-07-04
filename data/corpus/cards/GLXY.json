@@ -1,0 +1,67 @@
+{
+  "cik": "0001859392",
+  "ticker": "GLXY",
+  "name": "Galaxy Digital Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001859392-26-000016",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000016/glxy-20251231.htm"
+  },
+  "business": "Galaxy is a global financial services and infrastructure company focused on digital assets and HPC. It serves institutional clients through Global Markets and Asset Management & Infrastructure Solutions within its Digital Assets segment. It also develops HPC data center infrastructure to meet demand for AI compute capacity.",
+  "sellsTo": [
+    "institutional clients",
+    "institutional allocators, asset managers, hedge funds, family offices, and high-net-worth individuals",
+    "companies in the digital assets ecosystem",
+    "banks, trust companies, custodians, and asset managers",
+    "cloud service providers",
+    "retail customers"
+  ],
+  "namedCustomers": [
+    "CoreWeave, Inc.",
+    "Forward Industries, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our Digital Assets operating business segment includes: Our Global Markets business, which provides over-the-counter ( OTC ) spot and derivatives trading, lending, and structured products, as well as mergers and acquisitions ( M&A ) advisory and equity and debt capital markets services."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our Data Centers operating business segment develops, and will in the future operate, HPC infrastructure to meet the growing demand for large-scale, power-ready facilities in the AI/HPC industry."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our Data Centers operating business segment develops, and will in the future operate, HPC infrastructure to meet the growing demand for large-scale, power-ready facilities in the AI/HPC industry."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of 133 MW of critical IT load at Helios data center campus",
+      "date": "2026-06-30",
+      "sentence": "The retrofit of Helios will be completed in phases, with the full 133 MW of critical IT load expected to be delivered by the end of the first half of 2026."
+    },
+    {
+      "event": "Initial closing of tokenized CLO",
+      "date": null,
+      "sentence": "In January 2026, we announced the initial $75 million closing of our tokenized CLO, the first tokenized CLO."
+    },
+    {
+      "event": "Phase II and Phase III leases expected to increase CoreWeave's contracted capacity to 526 MW of critical IT load",
+      "date": null,
+      "sentence": "Together, the Phase II Lease and the Phase III Lease are expected to increase CoreWeave s contracted capacity at the Helios data center campus to 526 MW of critical IT load by 2028."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 55 million U.S. cryptocurrency owners",
+      "sentence": "According to the National Cryptocurrency Association 2025 State of Crypto Holders Report, the number of U.S. cryptocurrency owners was over 55 million, or one in five Americans."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:16:26.275Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,69 @@
+{
+  "cik": "0001138118",
+  "ticker": "CBRE",
+  "name": "CBRE GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001138118-26-000005",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000005/cbre-20251231.htm"
+  },
+  "business": "CBRE is the world's largest commercial real estate services and investments firm (based on 2025 revenue). It provides integrated solutions for real estate investors and occupiers in more than 100 countries, serving nearly 90% of Fortune 100 companies and many of the world's largest institutional real estate investors.",
+  "sellsTo": [
+    "commercial real estate investors",
+    "large occupiers",
+    "Fortune 100 companies",
+    "institutional real estate investors",
+    "U.S. federal government",
+    "data center operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our digital infrastructure business line provides technical services, including services support infrastructure and facilities management services for data centers in the rapidly growing hyperscale market, as well as the colocation and enterprise markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the adoption and integration of artificial intelligence (AI) and machine learning technologies"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity threats or other threats to our information technology networks"
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "J&J Worldwide Services (now doing business as CBRE Government & Defense Services), which markedly increased the facilities-related services we provide to the U.S. federal government;"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Pearce Services, LLC (Pearce), a leading provider of advanced technical services for digital and power infrastructure, which we acquired in November 2025."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Anticipated capital expenditures up to $500 million in 2026",
+      "date": null,
+      "sentence": "Our expected capital requirements for 2026 include up to $500 million of anticipated capital expenditures, net of tenant concessions."
+    },
+    {
+      "event": "Funding of up to $70 million for co-investment funds in 2026",
+      "date": null,
+      "sentence": "as of December 31, 2025, we had aggregate future commitments of $216 million related to co-investments funds in our REI segment, up to $70 million of which is expected to be funded in 2026."
+    },
+    {
+      "event": "Share repurchase program extended through December 31, 2029",
+      "date": "2029-12-31",
+      "sentence": "The Board also extended the term of the 2024 program through December 31, 2029."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:22:16.372Z",
+  "model": "deepseek-v4-flash"
+}

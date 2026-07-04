@@ -1,0 +1,124 @@
+{
+  "cik": "0000060086",
+  "ticker": "L",
+  "name": "LOEWS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000060086-26-000008",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000008/l-20251231.htm"
+  },
+  "business": "Loews Corporation is a holding company with subsidiaries in commercial property and casualty insurance, natural gas and NGL transportation and storage, hotel operations, and rigid plastic packaging manufacturing.",
+  "sellsTo": [
+    "small, medium and large businesses",
+    "insurance companies",
+    "associations",
+    "professionals",
+    "electric power generators",
+    "local distribution companies",
+    "industrial and petrochemical users",
+    "LNG exporters",
+    "producers and marketers of natural gas",
+    "interstate and intrastate pipelines",
+    "pharmaceutical, dairy, household chemicals, food/nutraceuticals, industrial/specialty chemicals, water and beverage/juice companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "CNA Financial Corporation (together with its subsidiaries, CNA) is an insurance holding company."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Boardwalk Pipeline Partners, LP (together with its subsidiaries, Boardwalk Pipelines) is engaged in the business of transportation and storage of natural gas and natural gas liquids, olefins and other hydrocarbons."
+    },
+    {
+      "tag": "other:hotels",
+      "stance": "core_product",
+      "sentence": "Loews Hotels Holding Corporation (together with its subsidiaries, Loews Hotels & Co) operates a chain of 27 hotels."
+    },
+    {
+      "tag": "other:packaging",
+      "stance": "core_product",
+      "sentence": "Altium Packaging LLC ... is engaged in the manufacture of rigid plastic packaging solutions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The demand for gas by end-users such as electric power generators (including as a result of increased demand by AI data centers)"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Exposure to cyber risk is increasing systematically due to greater digital dependence, which increases the potential for, and the potential losses due to, a catastrophic cyber event."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change continues to attract considerable public, governmental and scientific attention."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Boardwalk Pipelines regularly reviews opportunities to expand its existing facilities and footprint to meet growing demand for transportation and storage services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Eunice-Iowa project expected to increase capacity by 0.1 Bcf/d",
+      "date": "2026-09-30",
+      "sentence": "Eunice - Iowa (a) Third quarter 2026 0.1"
+    },
+    {
+      "event": "Carnation Project expected to increase capacity by 0.2 Bcf/d",
+      "date": "2027-12-31",
+      "sentence": "Carnation Project (b) Fourth quarter 2027 0.2"
+    },
+    {
+      "event": "Northeast Texas Power Plant Project expected to increase capacity by 0.3 Bcf/d",
+      "date": "2027-12-31",
+      "sentence": "Northeast Texas Power Plant Project (c) Fourth quarter 2027 0.3"
+    },
+    {
+      "event": "Kosciusko Junction project (Kosci project) expected to increase capacity by 1.2 Bcf/d",
+      "date": "2028-06-30",
+      "sentence": "Kosciusko Junction project (Kosci project) (c) First half 2028 1.2"
+    },
+    {
+      "event": "Ohio Power Plant Project expected to increase capacity by 0.3 Bcf/d",
+      "date": "2028-06-30",
+      "sentence": "Ohio Power Plant Project (c) First half 2028 0.3"
+    },
+    {
+      "event": "SECURE project expected to increase capacity by 0.3 Bcf/d",
+      "date": "2028-06-30",
+      "sentence": "Southeast Compression for Utility Reliability Expansion project (SECURE project) (c) First half 2028 0.3"
+    },
+    {
+      "event": "PLUSS project expected to increase capacity by 0.2 Bcf/d",
+      "date": "2028-06-30",
+      "sentence": "Parks Line Upgrade and Sorrento Station Project (PLUSS project) (d) First half 2028 0.2"
+    },
+    {
+      "event": "Texas Gateway Project expected to increase capacity by 1.5 Bcf/d",
+      "date": "2029-12-31",
+      "sentence": "Texas Gateway Project (e) Second half 2029 1.5"
+    },
+    {
+      "event": "Petal Gas Storage Expansion expected to add 10 Bcf of storage working gas capacity",
+      "date": "2030-12-31",
+      "sentence": "Petal Gas Storage Expansion (f) Second half 2030 (f) ... is expected to add 10 Bcf of storage working gas capacity."
+    },
+    {
+      "event": "Americana by Loews Hotels replacement project expected to be completed",
+      "date": null,
+      "sentence": "Loews Hotels & Co expects to begin the replacement of the existing Arlington Sheraton Hotel with the Americana by Loews Hotels in Arlington, Texas. ... expected to be completed in 2029"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:40:49.674Z",
+  "model": "deepseek-v4-flash"
+}

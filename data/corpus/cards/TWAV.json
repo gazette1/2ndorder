@@ -1,0 +1,61 @@
+{
+  "cik": "0000746210",
+  "ticker": "TWAV",
+  "name": "TaoWeave, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009237",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/746210/000143774926009237/oblg20251231_10k.htm"
+  },
+  "business": "The company accumulates and stakes TAO, the native cryptocurrency of Bittensor, to generate yield. It also sells Mezzanine visual collaboration products and provides managed services for video collaboration and network solutions globally through direct sales and channel partners.",
+  "sellsTo": [
+    "Enterprises",
+    "Office environments",
+    "Conference rooms",
+    "Video collaboration users",
+    "Network services customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BitGo",
+    "Kraken"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Bittensor is a decentralized network, built on a dedicated Layer 1 blockchain called Subtensor using the Substrate framework, that creates an open marketplace for AI."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our principal asset is TAO, Bittensor s native cryptocurrency, which we accumulate and stake on the Bittensor network to generate yield."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our product is called Mezzanine, a family of turn-key products that enable dynamic and immersive visual collaboration across multi-users, multiple screens, multiple devices, and multiple locations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We provide our customers with network solutions that ensure reliable, high-quality, and secure traffic of video, data, and internet."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We provide a range of managed services for video collaboration, from automated to orchestrated, to simplify the user experience and drive adoption across our customers enterprises."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "End of sale of Mezzanine products and maintenance",
+      "date": "2026-03-31",
+      "sentence": "we expect to end the sale of Mezzanine products and maintenance after the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:16:54.532Z",
+  "model": "deepseek-v4-flash"
+}

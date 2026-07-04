@@ -1,0 +1,84 @@
+{
+  "cik": "0001454938",
+  "ticker": "TEAD",
+  "name": "Teads Holding Co.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001454938-26-000015",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1454938/000145493826000015/tead-20251231.htm"
+  },
+  "business": "Teads is a leading omnichannel advertising platform that operates a two-sided marketplace, connecting advertisers (including Fortune 500 brands, agencies, and SMBs) with media owners (premium publishers, CTV apps, and app developers) to drive outcomes across screens.",
+  "sellsTo": [
+    "global advertisers including Fortune 500 brands",
+    "agency holding companies",
+    "small-to-medium sized businesses",
+    "media owners such as premium publishers",
+    "connected TV application developers",
+    "content platforms"
+  ],
+  "namedCustomers": [
+    "Apple",
+    "LVMH"
+  ],
+  "namedSuppliers": [
+    "Axel Springer",
+    "BBC",
+    "Condé Nast",
+    "CNN",
+    "ESPN",
+    "Hearst",
+    "Le Monde",
+    "LG",
+    "New York Post",
+    "Samsung",
+    "Sky News"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We combine these signals with state-of-the-art large-scale AI models to predict full-funnel outcomes for all advertiser types with high precision and low latency."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We believe that our innovative CTV offering is a significant growth driver and enables omnichannel ad campaigns across premium online video and CTV environments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our failure or the failure of third parties to protect our sites, networks and systems against security breaches, or otherwise to protect the confidential information of us or our partners;"
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The proliferation of generative AI tools, particularly their integration into major search engines and web browsers, is causing a shift in how users discover and consume content online."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reduction in workforce of approximately 15% as part of Acquisition integration restructuring",
+      "date": "2025-02-03",
+      "sentence": "On February 3, 2025, in connection with the completion of the Acquisition, the Company announced a restructuring plan (the Plan), as part of its efforts to streamline operations and reduce duplication of roles."
+    },
+    {
+      "event": "Commencement of broader strategic restructuring plan to reduce operating costs",
+      "date": "2025-12-03",
+      "sentence": "On December 3, 2025, the Company commenced a broader strategic restructuring plan (the Strategic Plan) intended to reduce operating costs, improve operating margins and advance the Company’s commitment to profitable growth."
+    },
+    {
+      "event": "Repurchase of $9.3 million aggregate principal amount of the 10.000% Senior Secured Notes due 2030",
+      "date": "2025-06-17",
+      "sentence": "On June 17, 2025, the Company completed the repurchase of $9.3 million aggregate principal amount of the Notes for $8.0 million in cash, including accrued interest, at a discount of approximately 17% to the principal amount of the repurchased Notes."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The key areas where we operate (online video, high-impact display, CTV) are projected to grow from $140 billion in 2023 to $192 billion in 2027, an 8% CAGR.",
+      "sentence": "The key areas where we operate, namely online video, high-impact display, and CTV, are projected to grow from $140 billion of spend in 2023 to $192 billion in 2027, an 8% compound annual growth rate (CAGR), with video and CTV being the fastest growing segments, with a 10% and 12% CAGR for 2023 and 2027, respectively, as reflected in a third-party report commissioned by us."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:56:27.259Z",
+  "model": "deepseek-v4-flash"
+}

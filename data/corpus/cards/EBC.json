@@ -1,0 +1,42 @@
+{
+  "cik": "0001810546",
+  "ticker": "EBC",
+  "name": "Eastern Bankshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013126",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1810546/000162828026013126/ebc-20251231.htm"
+  },
+  "business": "Eastern Bankshares, Inc. is a bank holding company headquartered in Boston, Massachusetts, whose sole shareholder is Eastern Bank, a Massachusetts-chartered bank. Through Eastern Bank, the company provides a variety of banking and trust and investment services, including lending, deposit, and wealth management. The company serves retail, commercial, and small business customers primarily in eastern and central Massachusetts, southern New Hampshire, and Rhode Island.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "small business customers",
+    "corporate and institutional customers",
+    "municipal clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our most direct competition for deposits has historically come from banking institutions operating in our primary market area."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to certain operational risks, including data processing system failures and errors, inadequate or failed internal processes, customer or employee fraud and catastrophic failures resulting from terrorist acts or natural disasters."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "For example, a type of artificial intelligence program (AI) known as Agentic AI has further exacerbated risks by allowing bad actors to more easily use sophisticated and iterative methods of facilitating fraud through the creation of synthetic identities and deepfake images and documentation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:54:43.190Z",
+  "model": "deepseek-v4-flash"
+}

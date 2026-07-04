@@ -1,0 +1,60 @@
+{
+  "cik": "0001137774",
+  "ticker": "PRU",
+  "name": "PRUDENTIAL FINANCIAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001137774-26-000048",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000048/pru-20251231.htm"
+  },
+  "business": "Prudential Financial, Inc. is a global financial services leader that offers life insurance, annuities, retirement-related products and services, mutual funds, and investment management to individual and institutional customers through proprietary and third-party distribution networks.",
+  "sellsTo": [
+    "individual customers",
+    "institutional customers",
+    "retirement plan sponsors",
+    "mass affluent and affluent customers",
+    "mass middle customers",
+    "small businesses",
+    "affinity groups"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Through our subsidiaries and affiliates we offer a wide array of financial products and services, including life insurance, annuities, retirement-related products and services, mutual funds and investment management."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Fintech and insurtech companies and companies in other industries with greater access to customers and data have the potential to disrupt industries globally, and many participants have been partially funded by industry players."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our cybersecurity risk remains heightened because of, among other things, the rapidly evolving nature and pervasiveness of cyber threats, including advances in artificial intelligence ( AI ), our brand and reputation, our size and scale, our geographic presence and our role in the financial services industry and the broader economy."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our cybersecurity risk remains heightened because of, among other things, the rapidly evolving nature and pervasiveness of cyber threats, including advances in artificial intelligence ( AI ), our brand and reputation, our size and scale, our geographic presence and our role in the financial services industry and the broader economy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Voluntary suspension of new sales activity at Prudential of Japan for 90 days",
+      "date": "2026-02-09",
+      "sentence": "In February 2026, in conjunction with its previously announced internal investigation into employee misconduct in Japan, the Company voluntarily suspended new sales activity at Prudential of Japan for a 90-day period, commencing February 9, 2026."
+    },
+    {
+      "event": "Share repurchase authorization up to $1 billion for 2026",
+      "date": "2025-12-10",
+      "sentence": "On December 10, 2025, Prudential Financial s Board of Directors authorized the Company to repurchase, at management s discretion, up to $1 billion of its outstanding Common Stock during the period from January 1, 2026 through December 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:23:22.362Z",
+  "model": "deepseek-v4-flash"
+}

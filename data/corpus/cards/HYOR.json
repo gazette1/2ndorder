@@ -1,0 +1,68 @@
+{
+  "cik": "0001070789",
+  "ticker": "HYOR",
+  "name": "HyOrc Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013412",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1070789/000149315226013412/form10-k.htm"
+  },
+  "business": "HyOrc Corporation develops and commercializes clean-energy technologies including green methanol production, hydrogen power systems, and hydrogen locomotive retrofits. It sells to end markets such as shipping, rail, and off-grid power. Revenue is generated from engineering services and equipment sales.",
+  "sellsTo": [
+    "shipping",
+    "rail",
+    "off-grid power",
+    "industrial power generation",
+    "distributed energy applications"
+  ],
+  "namedCustomers": [
+    "Biliran Geothermal, Inc.",
+    "Banaras Locomotive Works",
+    "GB Railfreight"
+  ],
+  "namedSuppliers": [
+    "Toyo Denki",
+    "Leroy Somer",
+    "Siemens",
+    "Kirloskar",
+    "RJ Italia",
+    "John Crane",
+    "Crompton",
+    "Schneider",
+    "Vaigunth Enertek Private Limited",
+    "Joule Energie GmbH"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "HyOrc Corporation ( HyOrc, we, our, or the Company ) is a Wyoming corporation engaged in the research, development, and commercialization of clean-energy technologies designed to decarbonize heavy-duty transport, industrial power generation, and distributed energy applications."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Hydrogen Locomotive Retrofits converting existing diesel locomotives to hydrogen or natural gas fuelled systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Phase 1 pilot facility operational",
+      "date": "2026-07-31",
+      "sentence": "The Company anticipates that Phase 1 may not become operational until July 2026 or later, subject to permitting, equipment delivery, installation, commissioning, financing availability, and other customary project development risks."
+    },
+    {
+      "event": "Convertible loan agreement with GS Capital",
+      "date": "2026-03-01",
+      "sentence": "In early March 2026, the Company entered into a $150,000 convertible loan agreement with GS Capital."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Europe alone has more than 15,000 diesel locomotives in need of decarbonization.",
+      "sentence": "Europe alone has more than 15,000 diesel locomotives in need of decarbonization."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:08:41.963Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,63 @@
+{
+  "cik": "0000936395",
+  "ticker": "CIEN",
+  "name": "CIENA CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-056698",
+    "filedAt": "2025-12-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828025056698/cien-20251101.htm"
+  },
+  "business": "We are a network technology company, providing hardware, software, and services to a wide range of network operators and enabling enhanced network capacity, service delivery, and automation. Our solutions support network traffic across a wide range of applications, including cloud, voice, video, data, and artificial intelligence. Our network solutions are used globally by cloud providers, service providers, and other network operators across multiple industry verticals.",
+  "sellsTo": [
+    "Cloud Providers",
+    "Service Providers",
+    "Other Customers (cable and multiservice operators, governments, research and education, enterprises)"
+  ],
+  "namedCustomers": [
+    "AT&T"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our solutions support network traffic across a wide range of applications, including cloud, voice, video, data, and artificial intelligence ( AI )."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "A key element of our growth strategy is to expand our market relevance inside and around the data center."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "We are extending our solutions into metro and edge architectures by integrating Internet Protocol ( IP ) routing with coherent optical technologies."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our network solutions are used globally by cloud providers, service providers, and other network operators across multiple industry verticals."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "For example, the electro-optical component and semiconductor industries have been experiencing increased demand as a result of significant spending related to AI and other cloud-based applications, which has led to a constrained supply environment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our network environment and assets, and those of our third-party business partners, maintain information that is confidential, regulated, proprietary or sensitive to our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implement plan to reduce headcount by 4-5% and cease broadband development investments",
+      "date": "2025-11-01",
+      "sentence": "During the fourth quarter of fiscal 2025, we began implementing a plan intended to deliver increased operating efficiencies through a reduction in headcount of 4% to 5% of our global workforce and a decision to cease forward investment in certain broadband development initiatives, primarily 25G PON."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:11:46.974Z",
+  "model": "deepseek-v4-flash"
+}

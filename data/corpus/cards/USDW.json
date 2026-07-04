@@ -1,0 +1,50 @@
+{
+  "cik": "0001977837",
+  "ticker": "USDW",
+  "name": "MADE IN USA INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-005043",
+    "filedAt": "2026-06-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1977837/000168316826005043/madeinusa_i10k-022826.htm"
+  },
+  "business": "Made in USA Inc. provides certification and origin verification services to help U.S. producers document and substantiate Made in USA and Product of USA claims, and has developed an edge AI product, MIUSA Pulse, for industrial equipment monitoring. The company also plans to acquire and relocate overseas manufacturing to the United States, focusing on semiconductor, LED, and small electric-motor production. Its common stock is quoted on OTC Markets under the symbol USDW.",
+  "sellsTo": [
+    "U.S. producers needing origin verification",
+    "industrial customers needing equipment monitoring",
+    "government agencies (via CHIPS Act, USDA, DoD)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The Company owns and has developed MIUSA Pulse (formerly known as MIUSA Signal), an edge AI product that listens to machines and structures."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "active_investment",
+      "sentence": "Initial target sectors include semiconductor, LED, and small electric-motor production."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Pulse is designed to detect early-warning signs of failure such as bearing wear, misalignment, cavitation, belt slip, and gear chatter using on-device analysis that protects privacy and keeps data requirements low."
+    },
+    {
+      "tag": "defense",
+      "stance": "active_investment",
+      "sentence": "The Company is a veteran-owned business and has applied for a CAGE Code and SAM.gov registration (pending government processing and verification)."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "A final rule governing voluntary U.S.-origin claims for FSIS-regulated products took effect January 1, 2026 (9 C.F.R. Part 412)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:45:10.140Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0002078416",
+  "ticker": "LLYVA",
+  "name": "Liberty Live Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020657",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2078416/000110465926020657/tmb-20251231x10k.htm"
+  },
+  "business": "Liberty Live Holdings, Inc. is a holding company that beneficially owns approximately 69.6 million shares of Live Nation common stock and owns Quint, a provider of premium sports and entertainment experiences. Through Quint, the company sells official ticket-inclusive hospitality and experiential packages to individual consumers and corporate clients. The company also has interests in certain private assets and corporate cash and debt obligations.",
+  "sellsTo": [
+    "individual consumers",
+    "corporate clients",
+    "sports leagues and event organizers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Formula 1",
+    "MotoGP",
+    "Churchill Downs",
+    "NBA"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "Live Nation believes its global footprint is one of the world's largest music advertising networks for corporate brands and includes one of the world's leading ecommerce websites."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "active_investment",
+      "sentence": "Live Nation's Sponsorship & Advertising segment employs a sales force that creates and maintains relationships with sponsors through a combination of strategic, international, national and local opportunities that allow businesses to reach customers through Live Nation's concert, festival, venue and ticketing assets, including advertising on Live Nation's websites."
+    },
+    {
+      "tag": "other:sports-hospitality",
+      "stance": "core_product",
+      "sentence": "Quint is a leading global provider of premium sports and entertainment experiences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The degradation, failure or misuse of our information systems could cause a disruption of services or improper loss, use and disclosure of personal data or other confidential information, resulting in increased costs, liabilities or loss of revenue."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:19:51.186Z",
+  "model": "deepseek-v4-flash"
+}

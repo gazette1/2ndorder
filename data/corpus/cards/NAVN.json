@@ -1,0 +1,65 @@
+{
+  "cik": "0001639723",
+  "ticker": "NAVN",
+  "name": "Navan, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-023250",
+    "filedAt": "2026-04-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026023250/navn-20260131.htm"
+  },
+  "business": "Navan is a global AI-powered business travel and expense platform. It sells a platform that unifies travel booking, expense management, and corporate payments for companies of all sizes. It earns revenue from customers (per-trip fees and subscriptions), suppliers (commissions), and payment partners (fees based on transaction volume).",
+  "sellsTo": [
+    "enterprise businesses",
+    "middle-market companies",
+    "small and medium-sized businesses",
+    "industries including software and technology, real estate, health, media, retail, finance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Visa",
+    "Mastercard",
+    "Brex",
+    "Rho",
+    "Citi",
+    "Barclays",
+    "Citizens Bank"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-platform",
+      "stance": "core_product",
+      "sentence": "Navan is a global AI-powered business travel and expense platform."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We earn revenue from our payment partners from fees based on the dollar volume of spend on our corporate cards."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our collection, use, receipt, and other processing of data (including personal information) in our business subjects us to numerous U.S. state and federal and international laws and regulations addressing privacy, data protection, information security and the collection, storing, sharing, use, transfer, disclosure, protection, and processing of certain types of data, and use of personal information for marketing, advertising, and other activities conducted by telephone, email, mobile devices, and the Internet."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Navan Edge product",
+      "date": "2026-03-01",
+      "sentence": "We were incorporated in 2015, launched our Travel offering in 2016, introduced our Expense Management offerings in 2020, and in March 2026 launched our Navan Edge product."
+    },
+    {
+      "event": "Announced transition of R&M customers to Navan platform and retirement of R&M brand",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we announced that we will begin unifying our services under the Navan brand, which involves transitioning existing customers of our R&M service model to the Navan technology platform and, effective immediately, retiring the R&M brand for the purposes of new sales opportunities and conducting all new travel sales under a single unified Navan brand."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 65% of global business travel spend is unmanaged.",
+      "sentence": "According to Euromonitor survey results, spend across this unmanaged category represents approximately 65% of global business travel spend overall."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:43:18.477Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,106 @@
+{
+  "cik": "0000040533",
+  "ticker": "GD",
+  "name": "GENERAL DYNAMICS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000040533-26-000006",
+    "filedAt": "2026-01-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000006/gd-20251231.htm"
+  },
+  "business": "General Dynamics is a global aerospace and defense company specializing in business aviation, ship construction, land combat vehicles, and technology products and services. Its primary customer is the U.S. Department of War, which accounted for 68% of revenue in 2025. The company operates through four segments: Aerospace, Marine Systems, Combat Systems, and Technologies.",
+  "sellsTo": [
+    "U.S. government (68% of revenue)",
+    "U.S. commercial customers (15%)",
+    "Non-U.S. government customers (8%)",
+    "Non-U.S. commercial customers (9%)"
+  ],
+  "namedCustomers": [
+    "U.S. Department of War",
+    "U.S. Navy",
+    "U.S. Army",
+    "U.S. Marine Corps",
+    "Centers for Medicare and Medicaid Services",
+    "National Geospatial-Intelligence Agency",
+    "U.S. Space Development Agency",
+    "Canadian Army"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We offer a broad portfolio of products and services in business aviation; ship construction and repair; land combat vehicles, weapon systems and munitions; and technology products and services."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Mission Systems continues to advance our nation's position in the space domain."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "GDIT is also leveraging its zero trust capabilities to bolster CENTCOM's cyber defenses and protect against future cyber threats."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are utilizing AI/ML technologies to improve decision making, transition CENTCOM to a new cloud environment, and enhance the efficiency and effectiveness of its networks."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "Our Unmanned Undersea Vehicle (UUV) Manufacturing and Assembly Center of Excellence provides manufacturing, assembly, integration and testing capabilities for Mission Systems Bluefin Robotics UUVs, as well as the Hammerhead and MEDUSA programs for the Navy."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Our Marine Systems segment is the leading designer and builder of nuclear-powered submarines and a leader in surface combatant and auxiliary ship design and construction for the U.S. Navy."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Our Aerospace segment is recognized as a leading producer of business jets and the standard bearer in new technology aircraft, aircraft repair, customer support and custom completion services."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "some of our operating segments rely on the supply of semiconductors for the manufacture of our products, and any inability of or delay by our suppliers to meet our order demands ... could delay or disrupt our ability to procure semiconductors."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "G800 enters service",
+      "date": "2025-04",
+      "sentence": "The most recent addition to the in-service Gulfstream fleet is the ultra-long-range, ultra-large-cabin G800, which entered service in 2025 following U.S. Federal Aviation Administration (FAA) certification in April 2025."
+    },
+    {
+      "event": "G300 announced",
+      "date": "2025-H2",
+      "sentence": "In the second half of 2025, we announced the all new, super midsize G300 as the latest aircraft to join our next-generation fleet."
+    },
+    {
+      "event": "Miami Opa Locka FBO fully operational",
+      "date": "2026-Q2",
+      "sentence": "The facility is expected to be fully operational in mid-2026."
+    },
+    {
+      "event": "XM30 prototypes delivery",
+      "date": "2026",
+      "sentence": "The program is currently a Middle Tier Acquisition Rapid Prototyping with eight initial prototypes being delivered in 2026."
+    },
+    {
+      "event": "ARV moves to engineering and manufacturing development phase",
+      "date": "2026",
+      "sentence": "This program is expected to move to the engineering and manufacturing development phase in 2026 and reflects the evolution of the Marine Corps light armored vehicle (LAV) platform."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Columbia-class submarine program of record value exceeds $125 billion",
+      "sentence": "The value of the Navy's program of record is in excess of $125 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:01:04.710Z",
+  "model": "deepseek-v4-flash"
+}

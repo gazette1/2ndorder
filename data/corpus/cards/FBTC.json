@@ -1,0 +1,68 @@
+{
+  "cik": "0001852317",
+  "ticker": "FBTC",
+  "name": "Fidelity Wise Origin Bitcoin Fund",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071484",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1852317/000119312526071484/ck0001852317-20251231.htm"
+  },
+  "business": "Fidelity Wise Origin Bitcoin Fund (the Trust) is an exchange-traded product that issues common shares representing fractional undivided beneficial interest in bitcoin. The Trust's investment objective is to seek to track the performance of bitcoin, as measured by the Fidelity Bitcoin Reference Rate (the Index), adjusted for the Trust's expenses and other liabilities. The Trust holds bitcoin and does not invest in derivatives.",
+  "sellsTo": [
+    "retail investors",
+    "institutional investors",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Fidelity Digital Assets, N.A. (Custodian)",
+    "State Street Bank and Trust Company (Transfer Agent, Cash Custodian)",
+    "CSC Delaware Trust Company (Trustee)",
+    "FD Funds Management LLC (Sponsor)",
+    "Coin Metrics, Inc. (Calculation Agent)",
+    "Fidelity Product Services LLC (Index Provider)",
+    "Blockstream (data feed provider)",
+    "A1, Ltd. (bitcoin trading counterparty)",
+    "Cumberland DRW LLC (bitcoin trading counterparty)",
+    "Flow Traders B.V. (bitcoin trading counterparty)",
+    "Galaxy Digital Trading Cayman LLC (bitcoin trading counterparty)",
+    "JSCT, LLC (bitcoin trading counterparty)",
+    "Virtu Financial Singapore Pte. Ltd. (bitcoin trading counterparty)",
+    "Wintermute Trading Ltd (bitcoin trading counterparty)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to seek to track the performance of bitcoin, as measured by the performance of the Fidelity Bitcoin Reference Rate (the Index), adjusted for the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The trading prices of many digital assets, including bitcoin, have experienced extreme volatility in recent periods and may continue to do so."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Digital assets such as bitcoin have a limited operating history relative to traditional asset classes."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Bitcoin had a total market capitalization of approximately $1.75 trillion as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, bitcoin had a total market capitalization of approximately $1.75 trillion and represented approximately 57% of the entire digital asset market."
+    },
+    {
+      "claim": "Bitcoin represented approximately 57% of the entire digital asset market as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, bitcoin had a total market capitalization of approximately $1.75 trillion and represented approximately 57% of the entire digital asset market."
+    },
+    {
+      "claim": "CFTC regulated bitcoin futures represented between $1.46 billion and $15.23 billion in notional trading volume on Chicago Mercantile Exchange on a daily basis during 2025.",
+      "sentence": "From January 1, 2025 through December 31, 2025, CFTC regulated bitcoin futures represented between $1.46 billion and $15.23 billion in notional trading volume on Chicago Mercantile Exchange on a daily basis and notional volume was never below $5.05 billion and represented over $16.21 billion in open interest for the entirety of the period."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:44:30.175Z",
+  "model": "deepseek-v4-flash"
+}

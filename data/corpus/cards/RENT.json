@@ -1,0 +1,61 @@
+{
+  "cik": "0001468327",
+  "ticker": "RENT",
+  "name": "Rent the Runway, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001468327-26-000020",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm"
+  },
+  "business": "Rent the Runway operates a shared designer closet, offering clothing and accessory rentals via monthly subscription and a-la-carte reserve, as well as resale of pre-owned items. The company sources products directly from hundreds of designer brand partners through wholesale, consignment (Share by RTR), and exclusive designs. Customers access thousands of styles across hundreds of brands for everyday wear and special occasions.",
+  "sellsTo": [
+    "women ages 25-44 with household income $50,000+",
+    "subscribers (active and paused)",
+    "a-la-carte rental customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "We have implemented large-scale, innovative automation and other processes for garment storage, picking, shipping, receiving and restoration of garments to excellent condition."
+    },
+    {
+      "tag": "other:ai-personalization",
+      "stance": "active_investment",
+      "sentence": "We are working to transform the customer experience in 2026 from a traditional e-commerce grid to an AI-powered discovery model."
+    },
+    {
+      "tag": "other:ai-operations",
+      "stance": "active_investment",
+      "sentence": "We are also evaluating and investing in AI technologies to improve operational efficiencies within our fulfillment centers."
+    },
+    {
+      "tag": "other:rfid-technology",
+      "stance": "active_investment",
+      "sentence": "We tag each unit of apparel and all reusable garment bags with RFID tags, which increases throughput, reduces cost, improves rental product control and enables new forms of automation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launched RTR Marketplace pilot",
+      "date": "2026-03-01",
+      "sentence": "Launched RTR Marketplace Pilot: In March 2026, we began testing a highly curated purchase destination for wardrobe essentials including shoes, beauty, and basics to a subset of loyal subscribers with the goal to drive order 'attach rates.'"
+    },
+    {
+      "event": "Launched new search algorithm",
+      "date": "2026-02-01",
+      "sentence": "We have a new search algorithm that we launched in February 2026 that has performed approximately 10% better in subscription conversion rate;"
+    },
+    {
+      "event": "Launched AI-driven similar styles recommendation and Quick Hearting",
+      "date": "2025-12-01",
+      "sentence": "in December 2025, we launched a new AI-driven similar styles recommendation across our product detail pages (PDPs) and introduced Quick Hearting, a new way of browsing that now powers 28% of her new hearts."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:39:56.156Z",
+  "model": "deepseek-v4-flash"
+}

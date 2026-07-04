@@ -1,0 +1,85 @@
+{
+  "cik": "0000064803",
+  "ticker": "CVS",
+  "name": "CVS HEALTH Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000064803-26-000010",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/cvs-20251231.htm"
+  },
+  "business": "CVS Health is a health solutions company offering pharmacy benefit management, health insurance, retail pharmacy, and healthcare delivery services. It serves employers, government-sponsored plans, and individuals through its Aetna, CVS Caremark, CVS Pharmacy, MinuteClinic, Oak Street Health, and Signify Health brands.",
+  "sellsTo": [
+    "employer groups",
+    "government-sponsored plans (Medicare, Medicaid, CHIP)",
+    "individual consumers",
+    "insurance companies",
+    "health plans",
+    "unions",
+    "government agencies (CMS)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Health Care Benefits segment offers a broad range of traditional, voluntary and consumer-directed health insurance products and related services, including medical, pharmacy, dental and behavioral health plans, medical management capabilities, Medicare Advantage and Medicare Supplement plans, PDPs and Medicaid health care management services."
+    },
+    {
+      "tag": "other:retail-pharmacy",
+      "stance": "core_product",
+      "sentence": "The Pharmacy & Consumer Wellness segment dispenses prescriptions in its CVS Pharmacy retail locations and through its infusion operations, provides ancillary pharmacy services including pharmacy patient care programs and vaccination administration, and sells a wide assortment of health and wellness products and general merchandise."
+    },
+    {
+      "tag": "other:PBM",
+      "stance": "core_product",
+      "sentence": "The Health Services segment provides a full range of PBM solutions through its CVS Caremark operations and delivers health care services in its medical clinics, virtually, and in the home."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "MinuteClinic also offers virtual care services to connect customers with licensed providers to provide access to health services remotely."
+    },
+    {
+      "tag": "other:value-based-care",
+      "stance": "core_product",
+      "sentence": "The Company primarily operates in value-based care through its Oak Street Health primary care centers."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "The Company also offers diagnostic and preventive services and provides comprehensive medication review services while in the home."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Through Cordavis, the Company intends to develop a portfolio of products that will provide broader access to biosimilars in the U.S."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "The Company is making concerted investments in emerging technology capabilities such as artificial intelligence (AI) to further automate, augment and improve its operational capabilities, and to improve the experience for providers, patients, and consumers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Data governance failures, the failure or disruption of our information technology or infrastructure, a cyberattack or other information security incident can adversely affect our reputation, businesses and prospects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exit from individual public health insurance exchanges",
+      "date": "2026-01-01",
+      "sentence": "The Company exited the states in which Aetna operated on the Public Exchanges effective January 2026."
+    },
+    {
+      "event": "CMS final 2027 Medicare Advantage payment rates announcement",
+      "date": "2026-04-06",
+      "sentence": "CMS intends to publish the final 2027 rate announcement no later than April 6, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:57:48.480Z",
+  "model": "deepseek-v4-flash"
+}

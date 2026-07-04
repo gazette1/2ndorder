@@ -1,0 +1,62 @@
+{
+  "cik": "0000886982",
+  "ticker": "GS",
+  "name": "GOLDMAN SACHS GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000886982-26-000091",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm"
+  },
+  "business": "Goldman Sachs is a leading global financial institution delivering financial services including investment banking (advisory, underwriting), market-making (FICC, equities), asset management, wealth management, private banking, lending, credit cards, transaction banking, and deposit-taking to a diverse client base of corporations, financial institutions, governments, and individuals.",
+  "sellsTo": [
+    "Corporations",
+    "Financial institutions",
+    "Governments",
+    "Individuals",
+    "Institutional investors",
+    "Ultra-high-net worth individuals"
+  ],
+  "namedCustomers": [
+    "Apple",
+    "General Motors"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Substantially all of the revenues in Platform Solutions are from activities related to issuing credit cards to and raising deposits from Apple Card customers and related to businesses that have been exited."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure to protect our computer systems, networks and information, and our clients information, against cyber attacks and similar threats could impair our ability to conduct our businesses, result in the disclosure, theft or destruction of confidential information, damage our reputation and cause losses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI present risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "other:cryptocurrencies",
+      "stance": "risk_mention",
+      "sentence": "Our competitors may offer financial products that we do not offer and that our clients may prefer, including cryptocurrencies, stablecoins and other digital assets that we cannot or may choose not to provide."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In 2019, we announced a goal to deploy $750 billion in sustainable financing, investing and advisory activity by the beginning of 2030, which we have met."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition of Apple Card program to another issuer",
+      "date": null,
+      "sentence": "In December 2025, we entered into an agreement to transition the Apple Card program to another issuer. The transition is expected to be completed in approximately 24 months."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:51:56.305Z",
+  "model": "deepseek-v4-flash"
+}

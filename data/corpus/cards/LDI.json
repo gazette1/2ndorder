@@ -1,0 +1,58 @@
+{
+  "cik": "0001831631",
+  "ticker": "LDI",
+  "name": "loanDepot, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001831631-26-000028",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1831631/000183163126000028/ldi-20251231.htm"
+  },
+  "business": "loanDepot, Inc. is a provider of lending solutions for homeownership, offering a broad suite of mortgage loan products including conventional, FHA/VA, jumbo loans, and home equity lines, as well as servicing and ancillary real estate services. It originates loans through consumer direct, in-market loan officers, and joint venture channels.",
+  "sellsTo": [
+    "first-time homebuyers",
+    "real estate professionals",
+    "home builders",
+    "affinity partners",
+    "wholesale brokers",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our proprietary technology platform, mello, plays a role in improving the mortgage process by applying intelligent underwriting parameters for automated loan determination."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of lending solutions that make the American dream of homeownership more accessible and achievable for all, especially the increasingly diverse communities of first-time homebuyers"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "mello Home Services, LLC and mello Insurance Services, LLC are our wholly-owned captive real estate referral and insurance businesses."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cyberattacks, information or security breaches and technology disruptions or failures."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of artificial intelligence in our business, and challenges with properly managing its use could result in harm."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. annual one-to-four family residential mortgage origination volume expected to rise from $2.05 trillion in 2025 to $2.22 trillion in 2026.",
+      "sentence": "In February 2026, the MBA forecast an 8% increase in U.S. annual one-to-four family residential mortgage origination volume from $2.05 trillion in 2025 to $2.22 trillion in 2026, with a 10% increase in refinance activity."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:08:50.133Z",
+  "model": "deepseek-v4-flash"
+}

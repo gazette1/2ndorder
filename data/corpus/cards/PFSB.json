@@ -1,0 +1,38 @@
+{
+  "cik": "0001967656",
+  "ticker": "PFSB",
+  "name": "PFS Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-034464",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1967656/000110465926034464/pfsb-20251231x10k.htm"
+  },
+  "business": "PFS Bancorp, Inc. is a savings and loan holding company that operates through its wholly owned subsidiary, Peru Federal Savings Bank, a federally-chartered savings bank. The company's business consists primarily of accepting deposits from the general public and investing those deposits in one- to four-family residential mortgage loans secured by properties in its primary market area, as well as commercial real estate, agricultural, construction, commercial, home equity, and consumer loans to a lesser extent.",
+  "sellsTo": [
+    "Individuals and businesses in LaSalle County, Illinois, and contiguous areas of adjacent Bureau County and Putnam County, within a 30- to 35-mile radius from its offices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our loan portfolio consists primarily of one-to four-family residential mortgage loans."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "commercial real estate loans totaled $26.7 million, or 24.3% of total loans, of which $1.6 million was secured by agricultural properties."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "commercial real estate loans totaled $26.7 million, or 24.3% of total loans"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:31:32.668Z",
+  "model": "deepseek-v4-flash"
+}

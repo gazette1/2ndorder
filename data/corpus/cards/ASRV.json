@@ -1,0 +1,45 @@
+{
+  "cik": "0000707605",
+  "ticker": "ASRV",
+  "name": "AMERISERV FINANCIAL INC /PA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-031270",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/707605/000110465926031270/asrv-20251231x10k.htm"
+  },
+  "business": "AmeriServ Financial Inc. is a bank holding company whose principal activities consist of owning and operating its wholly owned subsidiary, AmeriServ Financial Bank. The company derives substantially all of its income from banking, bank related services, and trust and wealth management related services. It offers retail banking services to individuals and lending, depository, and related financial services to commercial, industrial, financial, and governmental customers, primarily within a 250-mile radius of Johnstown, Pennsylvania.",
+  "sellsTo": [
+    "retail banking customers",
+    "commercial, industrial, financial, and governmental customers",
+    "wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company faces strong competition from large national and regional banks, other community banks, credit unions, savings and loan associations, securities and brokerage companies, mortgage companies, insurance companies, finance companies, money market mutual funds, fintech companies, and other non-bank financial service providers, many of which have greater financial, marketing and technological resources than us."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "While the Company does not offer products relating to digital assets, including cryptocurrencies, stablecoins and other similar assets, there has been a significant increase in digital asset adoption globally over the past several years."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies, such as artificial intelligence (including machine learning, generative artificial intelligence and agentic artificial intelligence tools) and quantum computing, have the potential to intensify competition and accelerate disruption in the financial services industry."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies, such as artificial intelligence (including machine learning, generative artificial intelligence and agentic artificial intelligence tools) and quantum computing, have the potential to intensify competition and accelerate disruption in the financial services industry."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:04:21.824Z",
+  "model": "deepseek-v4-flash"
+}

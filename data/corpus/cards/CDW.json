@@ -1,0 +1,85 @@
+{
+  "cik": "0001402057",
+  "ticker": "CDW",
+  "name": "CDW Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001402057-26-000011",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000011/cdw-20251231.htm"
+  },
+  "business": "CDW is a leading multi-brand provider of information technology solutions to business, government, education, and healthcare customers in the United States, the United Kingdom, and Canada. Its offerings range from discrete hardware and software products to integrated IT solutions and services including on-premise and cloud capabilities across hybrid infrastructure, digital experience, and security.",
+  "sellsTo": [
+    "business",
+    "government",
+    "education",
+    "healthcare"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Adobe",
+    "APC",
+    "Apple",
+    "Amazon Web Services",
+    "Broadcom Inc.",
+    "Cisco",
+    "Dell Technologies",
+    "Google",
+    "Hewlett Packard Enterprise",
+    "HP Inc.",
+    "IBM",
+    "Intel",
+    "Lenovo",
+    "Microsoft",
+    "NetApp",
+    "Nutanix",
+    "Nvidia",
+    "Palo Alto Networks",
+    "Pure Storage",
+    "Samsung",
+    "Ingram Micro",
+    "TD SYNNEX"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We enable our customers with AI solutions that empower their end users and drive efficiency in business-critical functions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Security: We assess our customers security needs and provide them with tools and services to help effectively manage risk, increase business continuity and operational efficiency, and improve their end user experience."
+    },
+    {
+      "tag": "other:cloud",
+      "stance": "core_product",
+      "sentence": "Our migration, integration, and managed services help our customers simplify cloud adoption and management, across the entire IT lifecycle."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Hybrid Infrastructure: We assess our customers application infrastructure need, design flexible, resilient, and efficient solutions and manage the solution throughout its lifecycle."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our hardware category includes notebooks/mobile devices (including tablets), network communications (netcomm products), collaboration hardware, data storage and servers, desktop computers, and other hardware."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Segment realignment effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "Effective January 1, 2026, we realigned our customer-facing organization to better meet the evolving needs of our customers and end markets."
+    },
+    {
+      "event": "Continued ERP system transformation initiatives through incremental releases in 2026",
+      "date": null,
+      "sentence": "We expect to continue advancing these initiatives through incremental releases in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:12.754Z",
+  "model": "deepseek-v4-flash"
+}

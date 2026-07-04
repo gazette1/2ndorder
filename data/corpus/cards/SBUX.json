@@ -1,0 +1,57 @@
+{
+  "cik": "0000829224",
+  "ticker": "SBUX",
+  "name": "STARBUCKS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000829224-25-000114",
+    "filedAt": "2025-11-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm"
+  },
+  "business": "Starbucks is the premier roaster, marketer, and retailer of specialty coffee, operating in 89 markets. It purchases, roasts, and sells high-quality coffees, handcrafted beverages, and a variety of food items through company-operated and licensed stores, and also sells packaged coffee and tea via the Global Coffee Alliance with Nestlé.",
+  "sellsTo": [
+    "Consumers",
+    "Grocery and foodservice accounts",
+    "Licensed store operators",
+    "International markets (89 countries)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We purchase and roast high-quality coffees that we sell, along with handcrafted coffee, tea, and other beverages and a variety of high-quality food items through company-operated stores."
+    },
+    {
+      "tag": "other:digital-platform",
+      "stance": "active_investment",
+      "sentence": "In addition, by leveraging experiences gained through our stores and elsewhere, we continue to drive beverage, equipment, process, and technology innovation, including in our industry-leading digital platform."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Likewise, if we do not continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation to understand and maintain or grow consumer interest, brand loyalty, and market share while strategically expanding into other profitable categories of the commercial beverage industry, our business could be negatively affected."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The unauthorized access, use, theft, or destruction of customer or employee data (personal, financial, or other), or of Starbucks proprietary or confidential information, that is stored in our information systems or by third parties could impact our reputation and brand and expose us to potential liability and loss of revenues."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and extreme weather affecting input costs and availability"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of International store closures",
+      "date": "2026-03-31",
+      "sentence": "Our store closures in North America were substantially completed in fiscal 2025 and the International store closures are expected to be completed in the first half of fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:59:21.598Z",
+  "model": "deepseek-v4-flash"
+}

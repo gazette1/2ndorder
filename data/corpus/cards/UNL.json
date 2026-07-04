@@ -1,0 +1,46 @@
+{
+  "cik": "0001405513",
+  "ticker": "UNL",
+  "name": "United States 12 Month Natural Gas Fund, LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-023411",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1405513/000110465926023411/unl-20251231x10k.htm"
+  },
+  "business": "UNL is a commodity pool that issues limited partnership interests (shares) traded on the NYSE Arca, investing primarily in natural gas futures contracts to track daily percentage changes in the average price of specified short-term natural gas futures contracts (Benchmark Futures Contracts).",
+  "sellsTo": [
+    "investors seeking indirect exposure to natural gas prices",
+    "Authorized Participants purchasing Creation Baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "The Bank of New York Mellon",
+    "ALPS Distributors, Inc.",
+    "RBC Capital Markets LLC",
+    "Marex Capital Markets, Inc.",
+    "Macquarie Futures USA LLC",
+    "ADM Investor Services, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "other:natural-gas-futures",
+      "stance": "core_product",
+      "sentence": "UNL seeks to achieve its investment objective by investing primarily in futures contracts for natural gas that are traded on the NYMEX, ICE Futures Europe and ICE Futures U.S. (together, ICE Futures ), or other U.S. and foreign exchanges (collectively, Futures Contracts ) and, to a lesser extent, in order to comply with regulatory requirements, risk mitigation measures, liquidity requirements (including those that may be taken by UNL, UNL s future commission merchants ( FCMs ), counterparties or other market participants), liquidity requirements, or in view of market conditions, other natural gas - related investments such as cash-settled options on Futures Contracts, forward contracts for natural gas, cleared swap contracts, and non-exchange traded ( over-the-counter or OTC ) transactions that are based on the price of natural gas, crude oil and other petroleum-based fuels, as well as futures contracts for crude oil, heating oil, gasoline, and other petroleum-based fuels, Futures Contracts and indices based on the foregoing (collectively, Other Natural Gas-Related Investments )."
+    },
+    {
+      "tag": "other:energy-futures",
+      "stance": "risk_mention",
+      "sentence": "UNL may invest in Futures Contracts other than the Benchmark Futures Contracts and/or Other Natural Gas-Related Investments, if any, depends on various factors, including diversification of UNL s investments in Futures Contracts with respect to the month of expiration, and the prevailing price volatility of particular contracts."
+    },
+    {
+      "tag": "other:contango-backwardation",
+      "stance": "risk_mention",
+      "sentence": "This is because natural market forces called contango and backwardation may impact and have impacted the total return on an investment in UNL s shares during the past year relative to a hypothetical direct investment in natural gas and, in the future, it is likely that the relationship between the market price of UNL s shares and changes in the spot prices of natural gas will continue to be impacted by contango and backwardation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:14.598Z",
+  "model": "deepseek-v4-flash"
+}

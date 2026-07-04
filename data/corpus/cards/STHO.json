@@ -1,0 +1,47 @@
+{
+  "cik": "0001953366",
+  "ticker": "STHO",
+  "name": "Star Holdings",
+  "source": {
+    "form": "10-K",
+    "accession": "0001953366-26-000003",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1953366/000195336626000003/stho-20251231x10k.htm"
+  },
+  "business": "Star Holdings owns and manages a portfolio of legacy real estate assets, including development properties, loans, operating properties, and land, with the goal of monetizing them through sales and active management. It also holds shares of Safehold Inc. The company generates revenue from land development, operating leases, interest, and dividends from its Safe Shares.",
+  "sellsTo": [
+    "Homebuilders",
+    "Hotel guests",
+    "Tenants of commercial properties",
+    "Buyers of development sites"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Magnolia Green is an approximately 1,900 acre multi-generational master planned residential community that is entitled for 3,550 single and multifamily dwelling units"
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our current strategy for the Asbury Park Waterfront investment is to actively asset manage our operating assets, and strategically monetize the remaining development sites and our operating assets through sales to third party developers and operators"
+    },
+    {
+      "tag": "other:real-estate",
+      "stance": "core_product",
+      "sentence": "Our real estate portfolio is comprised of legacy assets from iStar’s historical real estate finance, operating properties and land and development businesses and the Safe Shares."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Maturity of the Margin Loan Facility and Safe Credit Facility",
+      "date": "2028-03-31",
+      "sentence": "The Margin Loan Facility and the Safe Credit Facility mature on March 31, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:40:24.465Z",
+  "model": "deepseek-v4-flash"
+}

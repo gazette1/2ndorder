@@ -1,0 +1,70 @@
+{
+  "cik": "0000874761",
+  "ticker": "AES",
+  "name": "AES CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000874761-26-000063",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000063/aes-20251231.htm"
+  },
+  "business": "AES Corp generates and distributes electricity, selling power to wholesale customers such as utilities and other intermediaries, as well as to large corporations, and its utilities sell to end-user customers in the residential, commercial, industrial, and governmental sectors in defined service areas.",
+  "sellsTo": [
+    "wholesale customers",
+    "utilities",
+    "large corporations",
+    "residential",
+    "commercial",
+    "industrial",
+    "governmental"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We completed construction of 3.2 GW of renewables and energy storage, and signed long-term PPAs for an additional 4.0 GW of new renewable energy."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We completed construction of 3.2 GW of renewables and energy storage, and signed long-term PPAs for an additional 4.0 GW of new renewable energy."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "On rare occasions, lithium-ion batteries can rapidly release the energy they contain by venting smoke and flames in a manner that can ignite nearby materials as well as other lithium-ion batteries."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Our utilities sell to end-user customers in the residential, commercial, industrial, and governmental sectors in a defined service area."
+    },
+    {
+      "tag": "transmission",
+      "stance": "risk_mention",
+      "sentence": "A disruption or failure of electric generation, transmission or distribution systems or natural gas production, transmission, storage, or distribution systems in the event of a hurricane, tornado, or other severe weather event, or otherwise, could prevent us from operating our business in the normal course"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business relies on electronic systems and network technologies to operate our generation, transmission and distribution infrastructure."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "Through AGIC, AES captive insurance company, we take certain insurance risk on our businesses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Shutdown and permanent retirement of OTC generating units at AES Huntington Beach, LLC and AES Alamitos, LLC by December 31, 2026, as extended in support of grid reliability.",
+      "date": "2026-12-31",
+      "sentence": "The SWRCB OTC Policy currently requires the shutdown and permanent retirement of the remaining OTC generating units at AES Huntington Beach, LLC and AES Alamitos, LLC by December 31, 2026, as extended in support of grid reliability."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:14:34.233Z",
+  "model": "deepseek-v4-flash"
+}

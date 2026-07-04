@@ -1,0 +1,60 @@
+{
+  "cik": "0001037976",
+  "ticker": "JLL",
+  "name": "JONES LANG LASALLE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001037976-26-000037",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000037/jll-20251231.htm"
+  },
+  "business": "JLL is a leading global commercial real estate services and investment management company. It provides coordinated, end-to-end delivery of real estate services including workplace management, project management, property management, leasing advisory, capital markets services, investment management, and software and technology solutions. It serves real estate owners, occupiers, investors, and developers across various property types including office, industrial, hotel, multi-family, retail, and data center properties.",
+  "sellsTo": [
+    "Real estate owners",
+    "Real estate occupiers",
+    "Real estate investors",
+    "Real estate developers",
+    "For-profit entities",
+    "Non-profit entities",
+    "Public sector entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "clients have trusted JLL, a Fortune 500 company, to help them confidently buy, build, occupy, manage and invest across a variety of industries and property types, including office, industrial, hotel, multi-family, retail and data center properties."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "JLL GPT is a generative AI assistant, purpose-built for the CRE industry, used by tens of thousands of our employees every day to increase efficiency and deliver customized solutions for clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Disruptions in computer systems, privacy breaches or cybersecurity issues, or failures to execute our enterprise-wide data strategy, could impact our ability to service our customers and adversely affect our business, damage our reputation and expose us to financial risk."
+    },
+    {
+      "tag": "other:proptech",
+      "stance": "active_investment",
+      "sentence": "We drive property technology (proptech) innovation across the real estate spectrum, supporting the development of an array of products and data analytics tools."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Software and Technology Solutions segment merger into Real Estate Management Services",
+      "date": "2026-01-01",
+      "sentence": "Effective January 1, 2026, the Software and Technology Solutions segment will merge into Real Estate Management Services with results of operations reported as a subsegment within Real Estate Management Services."
+    },
+    {
+      "event": "Reclassification of proptech investments from Software and Technology Solutions to All Other",
+      "date": "2025-07-01",
+      "sentence": "Effective July 1, 2025, we report the balances and activity associated with the investments historically reported within Software and Technology Solutions in 'All Other.'"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:55:18.189Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,90 @@
+{
+  "cik": "0001319161",
+  "ticker": "WMG",
+  "name": "Warner Music Group Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001319161-25-000034",
+    "filedAt": "2025-11-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1319161/000131916125000034/wmg-20250930.htm"
+  },
+  "business": "Warner Music Group Corp. is one of the world's leading music entertainment companies, with recorded music and music publishing segments. Its Recorded Music business generated $5.408 billion in fiscal 2025 (81% of total revenues), and its Music Publishing business generated $1.306 billion (19% of total revenues). The company sells recorded music and musical compositions to digital streaming services, physical retailers, broadcasters, and licensing partners.",
+  "sellsTo": [
+    "digital streaming services",
+    "online physical retailers",
+    "physical retail outlets",
+    "broadcasters and radio services",
+    "advertisers, film, television, video games"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Apple",
+    "Deezer",
+    "SoundCloud",
+    "Spotify",
+    "Tencent Music",
+    "YouTube",
+    "iHeart Radio",
+    "SiriusXM",
+    "Peloton",
+    "Twitch",
+    "MixCloud",
+    "Audiomak"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:music-streaming",
+      "stance": "core_product",
+      "sentence": "We adapted to streaming faster than other major music entertainment companies and, in 2016, were the first such company to report that streaming was the largest source of our recorded music revenue."
+    },
+    {
+      "tag": "other:music-publishing",
+      "stance": "core_product",
+      "sentence": "Warner Chappell Music, our global music publishing business, boasts an extraordinary catalog that includes timeless standards and contemporary hits, representing works by over 190,000 songwriters and composers, with a global collection of more than two million musical compositions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "AI is a transformative technology, introducing both substantial value creation opportunities and material risks for the music industry."
+    },
+    {
+      "tag": "other:physical-music",
+      "stance": "core_product",
+      "sentence": "According to the International Federation of the Phonographic Industry (IFPI), vinyl saw its eighteenth consecutive year of growth in 2024, generating over $1.8 billion in global revenue."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Beethoven joint venture with Bain Capital to accelerate catalog acquisitions",
+      "date": "2025-07",
+      "sentence": "In July 2025, we announced a joint venture with Bain Capital (the Beethoven JV) that will allow us to leverage third-party capital, capabilities, and resources to expand our buying power and accelerate our M&A initiatives."
+    },
+    {
+      "event": "2025 Restructuring Plan expected to be fully implemented by end of calendar year 2026",
+      "date": "2026-12-31",
+      "sentence": "The Plan is expected to be fully implemented by the end of calendar year 2026."
+    },
+    {
+      "event": "2025 Restructuring Plan expected to generate pre-tax cost savings of approximately $300 million on an annualized run-rate basis by the end of fiscal year 2027",
+      "date": "2027-09-30",
+      "sentence": "The Company expects the 2025 Restructuring Plan to generate pre-tax cost savings of approximately $300 million on an annualized run-rate basis by the end of the fiscal year 2027 and expects the majority of the cost savings under the 2025 Restructuring Plan to be accretive to Adjusted OIBDA."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global recorded music revenue was $29.6 billion in 2024, according to IFPI.",
+      "sentence": "The recorded music industry generated $29.6 billion in global revenue in 2024, according to IFPI, which represents a year-over-year increase of 4.8%, marking the tenth consecutive year of growth."
+    },
+    {
+      "claim": "Music publishing industry global revenue was $9.9 billion in 2024.",
+      "sentence": "According to Music & Copyright, the music publishing industry generated $9.9 billion in global revenue in 2024, representing an approximate 9.2% increase from $9.0 billion in 2023."
+    },
+    {
+      "claim": "Global paid music streaming subscribers totaled 752 million at the end of 2024.",
+      "sentence": "According to IFPI, global paid music streaming subscribers totaled 752 million at the end of 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:56:05.386Z",
+  "model": "deepseek-v4-flash"
+}

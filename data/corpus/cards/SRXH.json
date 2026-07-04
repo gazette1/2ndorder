@@ -1,0 +1,51 @@
+{
+  "cik": "0001471727",
+  "ticker": "SRXH",
+  "name": "SRX Global Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-026452",
+    "filedAt": "2025-12-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1471727/000149315225026452/form10-k.htm"
+  },
+  "business": "The company sells premium and super-premium pet health and wellness products under the Halo brand, including food, treats, and supplements for dogs and cats. It sells through e-commerce platforms, brick-and-mortar retail stores, and international distributors.",
+  "sellsTo": [
+    "E-commerce platforms (Amazon, Chewy, etc.)",
+    "Brick-and-mortar retail (specialty pet stores, grocery chains)",
+    "International distributors"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Chewy",
+    "Petflow",
+    "Thrive Market",
+    "Vitacost",
+    "Petco",
+    "Pet Supplies Plus"
+  ],
+  "namedSuppliers": [
+    "Alphia, Inc.",
+    "Barrett Petfood Innovations",
+    "Simmons Pet Food, Inc.",
+    "Thai Union Manufacturing Co., LTD.",
+    "BrightPet Nutrition Group, LLC",
+    "Carnivore Meat Company, LLC",
+    "Fidelitone"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company s continuing operations consist of the pet health and wellness business formerly operated by Better Choice."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The majority of net sales are generated online, reflecting both the Company s focus on digital channels and consumer preference for online purchasing."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:57:01.654Z",
+  "model": "deepseek-v4-flash"
+}

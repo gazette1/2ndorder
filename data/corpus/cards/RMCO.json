@@ -1,0 +1,56 @@
+{
+  "cik": "0001843656",
+  "ticker": "RMCO",
+  "name": "Royalty Management Holding Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-26-001737",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1843656/000147793226001737/rmco_10k.htm"
+  },
+  "business": "The company invests in or purchases assets with near and medium-term income potential, including natural resources assets (e.g., real estate and mining permits), patents, intellectual property, and emerging technologies. Its revenue primarily comes from environmental services (receiving or selling construction byproducts and providing contract labor to industrial clients), rental income, and fee income. It also holds investments in mining companies and convertible notes in technology and water firms.",
+  "sellsTo": [
+    "Industrial clients",
+    "Tenants on company-controlled properties",
+    "Mining companies (as lessees or royalty payers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "active_investment",
+      "sentence": "Ferrox is a mining company with operations in South Africa that is focused on extracting and selling iron, vanadium, titanium, and phosphate."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "active_investment",
+      "sentence": "FUB Mineral is an entity that owns or controls coal properties and real estate in the United States that can be leased to mining companies for rental income or a royalty on sales."
+    },
+    {
+      "tag": "other:environmental-services",
+      "stance": "core_product",
+      "sentence": "Environmental Services income is predominantly sourced from a combination of income the Company receives from receiving or selling construction byproducts, such as dirt and asphalt, or providing contract labor to industrial clients for a fee."
+    },
+    {
+      "tag": "other:patents-ip",
+      "stance": "active_investment",
+      "sentence": "The Company's business model is to invest or purchase assets that have near and medium-term income potential to provide RMC with accretive cash flow from which it can reinvest in new assets or expand cash flow from those existing assets. These assets typically are natural resources assets (including real estate and mining permits), patents, intellectual property, and emerging technologies."
+    },
+    {
+      "tag": "other:water",
+      "stance": "active_investment",
+      "sentence": "On December 2, 2022, the Company advanced $100,000 to Heart Water Inc. in exchange for an Unsecured Convertible Promissory Note."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New contract services agreement effective",
+      "date": "2025-02-01",
+      "sentence": "There was a new contract services agreement signed effective February 1, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:20:34.913Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001335288",
+  "ticker": "REOS",
+  "name": "ReoStar Energy CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001269678-10-000103",
+    "filedAt": "2010-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1335288/000126967810000103/reo10k033110.htm"
+  },
+  "business": "ReoStar Energy Corporation is an independent oil and gas company engaged in the acquisition, development, and exploration of oil and gas properties, primarily in Texas. It derives revenues from the sale of crude oil and natural gas produced from its properties.",
+  "sellsTo": [
+    "commodity markets",
+    "pipeline companies",
+    "refiners"
+  ],
+  "namedCustomers": [
+    "Copano Field Services/North Texas LLC",
+    "Parnon Gathering, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are an independent natural gas and oil company engaged in the acquisition, development, and exploration of oil and gas properties, primarily in Texas."
+    },
+    {
+      "tag": "sensors",
+      "stance": "active_investment",
+      "sentence": "The Company is currently testing a new technology in the Corsicana field involving the detection and recording of helium atoms through sub-surface sensors that are being placed throughout our leasehold."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "active_investment",
+      "sentence": "We entered into negotiations to test a new chemical foam technology that appears to have similar sweep efficiencies as surfactant polymer but at a reduced operational cost."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected implementation of pilot program for new chemical foam technology",
+      "date": null,
+      "sentence": "We have entered into negotiations with the company that owns the technology and expect to begin implementation of a pilot program to test the technology in the second quarter of the fiscal year."
+    },
+    {
+      "event": "Expected resumption of Barnett Shale development program",
+      "date": null,
+      "sentence": "However, we expect to resume the development program during the next fiscal year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:33:19.578Z",
+  "model": "deepseek-v4-flash"
+}

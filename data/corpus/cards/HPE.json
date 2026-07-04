@@ -1,0 +1,71 @@
+{
+  "cik": "0001645590",
+  "ticker": "HPE",
+  "name": "Hewlett Packard Enterprise Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001645590-25-000130",
+    "filedAt": "2025-12-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm"
+  },
+  "business": "Hewlett Packard Enterprise is a global technology leader focused on developing intelligent solutions that allow customers to capture, analyze and act upon data seamlessly from edge to cloud. The company's customers range from small-and-medium-sized businesses to large global enterprises and governmental entities. The company operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other.",
+  "sellsTo": [
+    "small-and-medium-sized businesses",
+    "large global enterprises",
+    "governmental entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Intel",
+    "AMD",
+    "Broadcom",
+    "NVIDIA"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "In AI infrastructure, HPE is focused on sovereign and enterprise customers, leveraging our supercomputing heritage and turnkey AI factory solutions, including HPE Private Cloud AI and scalable AI servers."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In our Ethernet Switch portfolio, we are investing in new Data Center Networking platforms and features to expand our total addressable market to complement the campus and branch segment."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "This portfolio of products includes the secure and versatile HPE ProLiant Rack and Tower servers; HPE Synergy, a composable infrastructure for traditional and cloud-native applications; HPE Scale Up Servers product lines for critical applications, including large enterprise software applications and data analytics platforms; HPE Edgeline servers; HPE Cray EX; HPE Cray XD (formerly known as HPE Apollo); and HPE NonStop."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We are expanding our security capabilities delivering stand-alone SSE; and integrating security with our software-defined wide area network (SD-WAN) capabilities to deliver a single-vendor SASE solution."
+    },
+    {
+      "tag": "quantum",
+      "stance": "active_investment",
+      "sentence": "Our research agenda focuses on developing technologies in the areas of AI, networking and fabrics, security, novel accelerators, quantum computing, future system architectures, and sustainability."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are expanding our wireless access portfolio to include new Wi-Fi (e.g., Wi-Fi 7) and private cellular (4G, LTE, and 5G) products to complement our existing portfolio."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed the Juniper Networks merger",
+      "date": "2025-07-02",
+      "sentence": "On July 2, 2025, we completed the Juniper Networks merger."
+    },
+    {
+      "event": "Entered into share purchase agreements to sell 10% of H3C Technologies shares",
+      "date": "2025-11-17",
+      "sentence": "On November 17, 2025, our subsidiary, H3C Holdings Limited (H3C Holdings), entered into (i) share purchase agreements with five counterparties, including Unisplendour International Technology Limited (UNIS), whereby such counterparties, in the aggregate, agreed to purchase 10% of the total issued share capital of H3C Technologies Co., Limited (H3C) for cash consideration of approximately $714 million and (ii) a side letter with UNIS, amending the Agreement on Subsequent Arrangements that was previously entered into on May 24, 2024, whereby, among other things, H3C Holdings and UNIS shall retain their put option and call option, respectively, relating to the remaining issued share capital of H3C held by H3C Holdings and have the right to exercise their respective option rights in respect of such shares up to three times, subject to the timing and terms as set forth therein."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:14:22.672Z",
+  "model": "deepseek-v4-flash"
+}

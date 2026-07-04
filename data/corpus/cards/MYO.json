@@ -1,0 +1,65 @@
+{
+  "cik": "0001369290",
+  "ticker": "MYO",
+  "name": "MYOMO, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-098531",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1369290/000119312526098531/myo-20251231.htm"
+  },
+  "business": "Myomo, Inc. develops and markets the MyoPro, a myoelectric-controlled upper limb orthosis for individuals with neuromuscular disorders and upper limb paralysis. The company primarily provides devices directly to patients and bills insurance companies directly, a channel called direct billing. It also sells through O&P providers, the Veterans Administration, and international markets including Europe and Australia.",
+  "sellsTo": [
+    "patients (direct billing)",
+    "O&P providers",
+    "Veterans Administration",
+    "international markets (Europe, Australia)"
+  ],
+  "namedCustomers": [
+    "VA"
+  ],
+  "namedSuppliers": [
+    "Cogmedix",
+    "AB Corp"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a wearable medical robotics company that offers functional improvement for those with neuromuscular disorders and upper limb paralysis."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We are a wearable medical robotics company that offers functional improvement for those with neuromuscular disorders and upper limb paralysis."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of MyoPro2x",
+      "date": "2025-04-30",
+      "sentence": "On April 30, 2025, we introduced an enhanced version of our flagship product, now known as the MyoPro 2x in the United States."
+    },
+    {
+      "event": "Updated CMS fee schedule effective",
+      "date": "2026-01-01",
+      "sentence": "These fees are typically updated annually to account for inflation and were recently updated to approximately $34,970 L8701 and $68,800 for L8702, effective January 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "6.3 million stroke prevalence in US, with 3.8 million having moderate to severe upper extremity impairment; 10-20% of those may be qualified candidates for MyoPro.",
+      "sentence": "The addressable market in the United States for products directed at all individuals with upper extremity paralysis, such as our MyoPro, is based on an estimated prevalence of 6.3 million people in the U.S. who have suffered a stroke according to Frontiers in Neurology, with approximately 60% of those having moderate to severe upper extremity impairment that persists up to six months after a stroke, or 3.8 million people."
+    },
+    {
+      "claim": "New stroke patients per year: 400,000-500,000, with 40,000-80,000 potentially suitable for MyoPro.",
+      "sentence": "In addition, we estimate that approximately 400,000 to 500,000 new patients are added to the prevalence population each year in the United States as a result of strokes."
+    },
+    {
+      "claim": "Median annual cost of long-term support services for seniors is $68,600, similar to one-time cost of MyoPro.",
+      "sentence": "For patients without caregivers, the median annual cost of such long term, full-time support services is approximately $68,600 annually according to Kaiser Family Foundation."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:20:48.569Z",
+  "model": "deepseek-v4-flash"
+}

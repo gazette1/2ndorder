@@ -1,0 +1,56 @@
+{
+  "cik": "0001499961",
+  "ticker": "BINI",
+  "name": "BOLLINGER INNOVATIONS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-001816",
+    "filedAt": "2025-01-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1499961/000143774925001816/muln20240930_10k.htm"
+  },
+  "business": "Mullen Automotive Inc. is a Southern California-based technology and electric vehicle company that builds and delivers commercial electric trucks in Classes 1 through 6, including the Mullen ONE cargo van, Mullen THREE chassis cab, and Bollinger B4 chassis cab. The company sells to fleet operators, commercial customers, and government entities through a network of dealer partnerships and direct sales. It also develops battery technology, including solid-state batteries, and intends to sell ZEV credits to other OEMs.",
+  "sellsTo": [
+    "fleet operators",
+    "commercial customers",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CATL",
+    "Roush Enterprises",
+    "Our Next Energy (ONE)",
+    "Romeo Power"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "The Company entered the Commercial Truck Business executing two opportunistic acquisitions in the later part of 2022."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Mullen has expanded its battery development and manufacturing capabilities by purchasing battery related assets of Romeo Power in September 2023 for $3.5 million."
+    },
+    {
+      "tag": "other:zev-credits",
+      "stance": "core_product",
+      "sentence": "The registration and sale of Zero-Emission Vehicles (ZEVs) in California will earn us ZEV credits that we can sell to other Original Equipment Manufacturers (OEMs)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Bollinger B5 Class 5 truck",
+      "date": "2025",
+      "sentence": "Bollinger is in development to launch a Class 5 (B5) in CY 2025 and Class 6 truck in the coming years."
+    },
+    {
+      "event": "Expand dealer network to 100-plus locations",
+      "date": "2025",
+      "sentence": "Bollinger expects to grow their national network to 100-plus dealership locations in 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:41:02.840Z",
+  "model": "deepseek-v4-flash"
+}

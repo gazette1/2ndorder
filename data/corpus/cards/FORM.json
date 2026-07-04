@@ -1,0 +1,97 @@
+{
+  "cik": "0001039399",
+  "ticker": "FORM",
+  "name": "FORMFACTOR INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001039399-26-000009",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm"
+  },
+  "business": "FormFactor, Inc. is a leading provider of electrical and optical test and measurement technologies along the full semiconductor product lifecycle. It sells high-performance probe cards, analytical probes, probe stations, thermal systems, and cryogenic systems to semiconductor companies and scientific institutions. Products are used from early research through high-volume production to optimize device performance, reduce scrap, and improve yields.",
+  "sellsTo": [
+    "semiconductor companies",
+    "scientific institutions",
+    "foundry & logic markets",
+    "DRAM markets",
+    "flash markets",
+    "display markets",
+    "sensor markets",
+    "quantum computer markets",
+    "fabless semiconductor suppliers"
+  ],
+  "namedCustomers": [
+    "SK hynix Inc.",
+    "Intel Corporation",
+    "Taiwan Semiconductor Manufacturing Company Ltd.",
+    "Samsung Electronics Co., Ltd."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The increase in DRAM product revenues in fiscal 2025 compared to fiscal 2024 was primarily driven by increased demand for HBM designs utilized in generative artificial intelligence applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are collaborating with certain customers to transition from the lab to the fab with co-packaged optics, which is poised to revolutionize chip-to-chip communication in the data center by significantly reducing power consumption at high data rates."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "FormFactor, Inc. is a leading provider of electrical and optical test and measurement technologies along the full semiconductor product lifecycle."
+    },
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "Our cryogenic systems include the manufacture of precision cryogenic instruments and semiconductor test and measurement systems... including quantum and superconducting computing applications."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "for high signal-fidelity devices such as wireless radio frequency transceivers and automotive radar chips"
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "high signal integrity testing of wireless radio frequency devices that operate up to millimeter-wave frequencies, a capability needed for components used in 5G applications."
+    },
+    {
+      "tag": "other:silicon-photonics",
+      "stance": "core_product",
+      "sentence": "In December 2025, we acquired Keystone Photonics. This acquisition strengthened our position at the forefront of AI infrastructure demand, and strengthened our position at the forefront of the explosive market growth in silicon photonics ( SiPh )"
+    },
+    {
+      "tag": "other:china-trade-risk",
+      "stance": "risk_mention",
+      "sentence": "approximately 7% of our fiscal 2025 revenue and 14% of our fiscal 2024 revenue was derived from sales to customers in China, which was one of the regions subject to the expanded export license requirements imposed by the United States government."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Farmers Branch manufacturing site production ramp beginning late fiscal 2026",
+      "date": null,
+      "sentence": "We have acquired a new manufacturing facility in Farmers Branch, Texas that is currently in the build out phase and is expected to support probe card production beginning in late fiscal 2026."
+    },
+    {
+      "event": "Consolidation of Carlsbad and Baldwin Park manufacturing facilities expected to be largely completed by the end of fiscal 2026",
+      "date": null,
+      "sentence": "Our current manufacturing operations in Carlsbad and Baldwin Park, California are consolidating to other sites, which we expect to be largely completed by the end of fiscal 2026."
+    },
+    {
+      "event": "Restructuring plan adopted in January 2026 with expected charges of $30-40 million",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we adopted restructuring plans that are intended to better align cost structure and support gross margin improvement to our target financial model, while also aligning manufacturing capabilities with current and anticipated business needs and our strategic priorities."
+    },
+    {
+      "event": "Factory start-up costs expected to be $20-25 million over fiscal 2026",
+      "date": null,
+      "sentence": "These costs are expected to increase as we continue the build-out, with an expected production ramp beginning late in the fourth quarter of fiscal 2026, and are expected to be between $20.0 million to $25.0 million over fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:10:10.760Z",
+  "model": "deepseek-v4-flash"
+}

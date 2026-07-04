@@ -1,0 +1,42 @@
+{
+  "cik": "0001321834",
+  "ticker": "QCLS",
+  "name": "Q/C TECHNOLOGIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016872",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321834/000149315226016872/form10-k.htm"
+  },
+  "business": "The company has shifted its business strategy to focus on energy-efficient blockchain and cryptocurrency infrastructure through quantum-class laser-based computing, leveraging an exclusive global licensing agreement with LightSolver Ltd. to deploy laser processing units (LPUs), including the qc-LPU100. The qc-LPU100 is intended to address complex combinatorial and physical problems and is targeted for applications in cryptocurrency infrastructure, decentralized physical infrastructure networks (DePin Tokens), and artificial intelligence-driven high-performance computing environments. Additionally, the company holds legacy pharmaceutical assets (Isomyosamine and Supera-CBD) and is evaluating strategic alternatives, including potential divestiture.",
+  "sellsTo": [
+    "blockchain and cryptocurrency infrastructure providers",
+    "decentralized physical infrastructure networks (DePin Tokens)",
+    "artificial intelligence-driven high-performance computing environments relying on decentralized systems"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "LightSolver Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "The Company s core strategy is centered on leveraging an exclusive global licensing agreement with LightSolver Ltd. ( LightSolver ) to deploy innovative laser processing units ( LPUs ), including the Company-branded qc-LPU100 (the qc-LPU100 )."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The qc-LPU100 is intended to address complex combinatorial and physical problems, including partial differential equations, and is targeted for applications in cryptocurrency infrastructure, decentralized physical infrastructure networks ( DePin Tokens ), and artificial intelligence ( AI )-driven high-performance computing environments that rely on decentralized or distributed systems."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "The Company s legacy pharmaceutical business remains a reportable segment and consists of the Company s therapeutic development programs, which includes Isomyosamine and Supera-CBD."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:28:59.803Z",
+  "model": "deepseek-v4-flash"
+}

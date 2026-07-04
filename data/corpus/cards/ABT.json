@@ -1,0 +1,78 @@
+{
+  "cik": "0000001800",
+  "ticker": "ABT",
+  "name": "ABBOTT LABORATORIES",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010185",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm"
+  },
+  "business": "Abbott Laboratories discovers, develops, manufactures, and sells a broad line of healthcare products. It operates four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices.",
+  "sellsTo": [
+    "wholesalers",
+    "distributors",
+    "government agencies",
+    "healthcare facilities",
+    "pharmacies",
+    "independent retailers",
+    "hospitals",
+    "commercial laboratories",
+    "clinics",
+    "physicians offices",
+    "consumers",
+    "alternate care testing sites",
+    "plasma protein therapeutic companies",
+    "institutions",
+    "ambulatory surgery centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Medical Devices: These products include a broad line of rhythm management, electrophysiology, heart failure, vascular, and structural heart devices for the treatment of cardiovascular diseases, and diabetes care and continuous glucose monitoring (CGM) products, as well as neuromodulation devices for the management of chronic pain and movement disorders."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Diagnostic Products: These products include a broad line of diagnostic systems and tests manufactured, marketed, and sold worldwide."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "and biologic products, which include biosimilars in the areas of oncology, immunology, and women's health."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "and informatics and automation solutions for use in various care settings, including laboratory automation systems such as the GLP systems Track, AlinIQ, a suite of informatics tools and professional services, the Indexor system for pre-analytics sample traceability, and the RALS point-of-care solution."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Nutritional Products: These products include a broad line of pediatric and adult nutritional products manufactured, marketed, and sold worldwide."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant cybersecurity incident or other disruption affecting these information systems or protected data could have a material adverse effect on Abbott’s business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dividend increase effective with payment in February 2026",
+      "date": "2026-02-01",
+      "sentence": "In December 2025, Abbott increased the company’s quarterly dividend by 6.8 percent to $0.63 per share from $0.59 per share, effective with the dividend paid in February 2026."
+    },
+    {
+      "event": "Expected pension plan contribution",
+      "date": "2026-12-31",
+      "sentence": "Abbott expects to contribute approximately $85 million to its pension plans in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:55:54.408Z",
+  "model": "deepseek-v4-flash"
+}

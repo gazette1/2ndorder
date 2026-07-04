@@ -1,0 +1,61 @@
+{
+  "cik": "0001760233",
+  "ticker": "GIFT",
+  "name": "GIFTIFY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-010887",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1760233/000149315226010887/form10-k.htm"
+  },
+  "business": "Giftify owns and operates Restaurant.com, a pioneer in the restaurant deal space, and CardCash, a gift card exchange platform. CardCash buys and sells gift cards from over 1,100 retailers. Restaurant.com sells discounted certificates and Dining Passes to consumers and businesses.",
+  "sellsTo": [
+    "Consumers",
+    "Businesses (corporations and marketers)"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Best Buy",
+    "CVS",
+    "Dell",
+    "Mastercard"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Giftify owns and operates Restaurant.com, a pioneer in the restaurant deal space and the nation's largest restaurant-focused digital deals brand."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "CardCash believes that more efficient use of machine-learning transaction processing, combined with richer data from a strategic subset, can enable it to scale its model to meet the needs of the gift card market."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Takeout7 is a restaurant technology company offering comprehensive online ordering solutions through its TakeOut7 platform and AI-powered digital marketing services through its Platr platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "With advanced fraud-prevention technology, FraudFix, CardCash ensures the security and integrity of all transactions on its platform."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger of Takeout7 into Restaurant.com",
+      "date": null,
+      "sentence": "In early 2026, Takeout7 and its operations were merged into our subsidiary, Restaurant.com."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global gift card market projected to reach $400 billion by 2026",
+      "sentence": "CardCash intends to grow its current four business channels, bulk to bulk, bulk to retail, retail to bulk, and retail to retail, to take advantage of the projected expansion by 2026 of the global market for gift cards to $400 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:26:40.236Z",
+  "model": "deepseek-v4-flash"
+}

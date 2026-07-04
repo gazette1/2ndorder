@@ -1,0 +1,64 @@
+{
+  "cik": "0001805526",
+  "ticker": "DFDV",
+  "name": "DeFi Development Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001805526-26-000006",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1805526/000180552626000006/dfdv-20251231.htm"
+  },
+  "business": "DeFi Development Corp. operates two segments: a digital asset treasury that acquires and manages Solana (SOL) tokens, generates staking rewards, and operates Solana validators; and a real estate technology platform that connects commercial mortgage and small business borrowers to lenders via an AI platform and provides SaaS subscriptions for real estate capital raising.",
+  "sellsTo": [
+    "Solana ecosystem participants (external staking providers, validators)",
+    "commercial property borrowers and lenders (banks, credit unions, REITs, debt funds)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Payward Inc (Kraken)",
+    "BitGo Trust Company, Inc.",
+    "Galaxy Digital Inc. (Galaxy)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-asset-treasury",
+      "stance": "core_product",
+      "sentence": "The digital asset treasury segment executes and manages the Company's treasury policy with the purpose of purchasing, holding and compounding our digital asset holdings through staking and operating validators."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We have developed a platform that connects commercial mortgage and small business borrowers looking for debt to refinance, build, or buy commercial property, including apartment buildings, to commercial property lenders."
+    },
+    {
+      "tag": "other:ai-platform",
+      "stance": "core_product",
+      "sentence": "We also provide an artificial intelligence (AI) platform that connects commercial mortgage and small business borrowers looking for debt to refinance, build, or buy commercial property, including apartment buildings, to commercial property lenders."
+    },
+    {
+      "tag": "other:Solana-blockchain",
+      "stance": "active_investment",
+      "sentence": "Our initial focus under this strategy is to accumulate and hold SOL, the native token of the Solana Network."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "Revenue is primarily generated through delegating our digital asset holdings with external staking providers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Issuance of warrant dividends with exercise price of $22.50 per share expiring January 21, 2028",
+      "date": "2025-10-27",
+      "sentence": "On October 27, 2025 the Company issued approximately 3.9 million of warrant dividends."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "$27.0 billion in SOL demand from agentic finance applications in coming years",
+      "sentence": "Research from DeFi Development Corp. estimates a base-case scenario of $27.0 billion in SOL demand driven solely by agentic finance applications in the coming years."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:46:17.085Z",
+  "model": "deepseek-v4-flash"
+}

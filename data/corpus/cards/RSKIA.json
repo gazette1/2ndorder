@@ -1,0 +1,49 @@
+{
+  "cik": "0000084112",
+  "ticker": "RSKIA",
+  "name": "GEORGE RISK INDUSTRIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001641172-25-023170",
+    "filedAt": "2025-08-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/84112/000164117225023170/form10-k.htm"
+  },
+  "business": "The company designs, manufactures, and sells custom computer keyboards, proximity switches, security alarm components and systems, pool access alarms, water sensors, electronic switching devices, high security switches, and wire and cable installation tools. The security products division, which comprises 96% of net revenues, sells to distributors and alarm dealers/installers. Keyboards and proximity switches are sold to original equipment manufacturers and keyboard distributors.",
+  "sellsTo": [
+    "Distributors",
+    "Alarm dealers/installers",
+    "Original equipment manufacturers (OEMs)",
+    "Distributors of off-the-shelf keyboards"
+  ],
+  "namedCustomers": [
+    "Ademco, Inc. (ADI)",
+    "Anixter, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Company is presently engaged in the design, manufacture, and sale of custom computer keyboards, proximity switches, security alarm components and systems, pool access alarms, EZ Duct wire covers, water sensors, electronic switching devices, high security switches and cable and wire installation tools."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Our Security sales division, which is our largest sales generator, is directly tied to the housing industry and we normally experience the same fluctuations."
+    },
+    {
+      "tag": "other:wireless",
+      "stance": "active_investment",
+      "sentence": "Wireless technology is a main area of focus for product development."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We believe a proactive approach to cybersecurity risks and threats is essential to achieving our business objectives and protecting our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:47:31.178Z",
+  "model": "deepseek-v4-flash"
+}

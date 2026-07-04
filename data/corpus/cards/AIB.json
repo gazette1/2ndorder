@@ -1,0 +1,70 @@
+{
+  "cik": "0002070542",
+  "ticker": "AIB",
+  "name": "AIB Data Centers Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036810",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026036810/ea0282624-10k_blockchain.htm"
+  },
+  "business": "BlockchAIn is engaged in data center operations, digital asset infrastructure services and providing hosting services for digital asset mining operators. The Company primarily operates a 40MW data center facility in Spartanburg County, South Carolina, providing power infrastructure, hosting services, and equipment leasing to customers engaged in blockchain computing, artificial intelligence (AI), and high-performance data processing.",
+  "sellsTo": [
+    "digital asset mining operators",
+    "AI and high-performance computing customers"
+  ],
+  "namedCustomers": [
+    "Blue Ridge Digital Mining",
+    "Code Green Apparel Corp.",
+    "Northstar Lending LLC",
+    "GreenVolt",
+    "BlockMetrix"
+  ],
+  "namedSuppliers": [
+    "Lockhart Power",
+    "PDM",
+    "Super Micro"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The Company primarily operates a 40MW data center facility in Spartanburg County, South Carolina, providing power infrastructure, hosting services, and equipment leasing to customers engaged in blockchain computing, artificial intelligence (AI), and high-performance data processing."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "As part of our planned transition and expansion, we are developing a modular deployment architecture intended to support the conversion of power-secured sites into AI-ready digital infrastructure."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Electricity cost is the major operating cost for the hosting services provided to customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expansion of South Carolina facility from 40 MW to 50 MW",
+      "date": null,
+      "sentence": "The planned expansion from 40 MW to 50 MW is pending our entry into a new electric service agreement."
+    },
+    {
+      "event": "Development of 25 MW AI-focused data center site in Minnesota",
+      "date": null,
+      "sentence": "we plan to develop a 25 MW AI-focused data center site in Minnesota intended to support AI hosting and high-performance computing workloads under long-term hosting and capacity arrangements."
+    },
+    {
+      "event": "Completion of business combination with Signing Day Sports",
+      "date": "2026-03-16",
+      "sentence": "Effective March 16, 2026 (the transaction date), the Company and SGN announced the successful completion of the business combination under the previously announced BCA."
+    },
+    {
+      "event": "Earnout shares issuance if 2026 EBITDA equals or exceeds $25 million",
+      "date": "2027-03-15",
+      "sentence": "if the 2026 EBITDA equals or exceeds $25 million. The Earnout Shares will equal 11.628% of the One Blockchain Merger Consideration, subject to adjustment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:30:22.426Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0001734750",
+  "ticker": "MOVE",
+  "name": "Corvex, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036609",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1734750/000121390026036609/ea0278320-10k_corvex.htm"
+  },
+  "business": "Corvex, Inc. operates two divisions: AI cloud computing, offering GPU-accelerated infrastructure for AI workloads including AI factories, GPU clusters, confidential computing, and the Token Factory (in development); and healthcare, consisting of the Wellness Ring (a wearable for women, currently paused) and the Medical Ring (FDA-cleared for pulse oximetry). The AI cloud business serves technology companies and plans to target healthcare, financial, and government sectors through direct sales and annual/multi-year commitments.",
+  "sellsTo": [
+    "technology companies",
+    "healthcare organizations",
+    "financial institutions",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NVIDIA"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our AI cloud computing business specializes in GPU-accelerated infrastructure for AI workloads."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We operate our platform in a Tier III data center facility located in Delaware."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Confidential computing is designed to protect customers valuable intellectual property and enhance compliance with data security mandates."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The Wellness Ring combines health and wellness metrics to give a full picture of one’s health, which include resting heart rate, heart rate variability, blood oxygen saturation, respiration rate, skin temperature variability, period and ovulation tracking, menstrual symptom tracking, activity profile, including steps, active minutes and calories burned, sleep stages and duration, and mood tracking."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Automatic conversion of Series B Preferred Stock into Common Stock",
+      "date": "2026-03-31",
+      "sentence": "Each share of Series B Preferred Stock will automatically convert into 1,000 shares of Common Stock on March 31, 2026."
+    },
+    {
+      "event": "Stockholder vote to approve conversion of Series C and Series D Preferred Stock",
+      "date": null,
+      "sentence": "Subject to and contingent upon the affirmative vote of a majority of the shares of common stock present or represented and entitled to vote at a meeting of stockholders of Company to approve, for purposes of the Nasdaq Listing Rules, the issuance of shares of Common Stock to the stockholders of Corvex upon conversion, (1) each share of Series C Preferred Stock will automatically convert into 1,000 shares of Common Stock and (2) each share of Series D Preferred Stock will be convertible into 1,000 shares of Common Stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:19:47.501Z",
+  "model": "deepseek-v4-flash"
+}

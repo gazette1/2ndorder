@@ -1,0 +1,107 @@
+{
+  "cik": "0001443646",
+  "ticker": "BAH",
+  "name": "Booz Allen Hamilton Holding Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-037521",
+    "filedAt": "2026-05-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm"
+  },
+  "business": "Booz Allen is an advanced technology company building products and solutions for government and business, primarily serving U.S. federal government customers including national security, defense, intelligence, civil agencies, and some commercial clients.",
+  "sellsTo": [
+    "U.S. Department of Defense",
+    "U.S. Intelligence Community",
+    "U.S. civil agencies",
+    "Commercial clients"
+  ],
+  "namedCustomers": [
+    "Department of Veterans Affairs",
+    "National Security Agency",
+    "Defense Intelligence Agency",
+    "Army",
+    "Navy/Marine Corps",
+    "Air Force",
+    "Space Force",
+    "Coast Guard",
+    "Office of the Secretary of Defense",
+    "Joint Staff"
+  ],
+  "namedSuppliers": [
+    "AWS",
+    "Andreessen Horowitz",
+    "Shield AI"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-solutions",
+      "stance": "core_product",
+      "sentence": "As the federal government's largest AI provider with approximately 400 active AI projects, we build secure AI solutions and advanced capabilities spanning agentic AI, physical AI, and AI-Radio Access Network (AI-RAN), and other emerging technologies designed for mission critical environments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We also have one of the most impactful cyber businesses globally, protecting U.S. federal, defense, and intelligence agencies, as well as private sector customers, including Fortune 500 and Global 1,000 companies."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We build secure AI-enabled defense tech products from first prototype to mission deployment in our three flagship engineering facilities, where we build mission-ready technology today, not years from now."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We develop, scale and deploy advanced capabilities across established and emerging technology domains, including AI, cyber, edge, autonomy, space, and quantum, for our customers most critical missions."
+    },
+    {
+      "tag": "other:autonomy",
+      "stance": "core_product",
+      "sentence": "We develop, scale and deploy advanced capabilities across established and emerging technology domains, including AI, cyber, edge, autonomy, space, and quantum, for our customers most critical missions."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "We develop, scale and deploy advanced capabilities across established and emerging technology domains, including AI, cyber, edge, autonomy, space, and quantum, for our customers most critical missions."
+    },
+    {
+      "tag": "quantum",
+      "stance": "active_investment",
+      "sentence": "Anticipate and invest in the next wave of transformative technologies, including Quantum and 6G."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "Anticipate and invest in the next wave of transformative technologies, including Quantum and 6G."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "risks related to the development and use of artificial intelligence, which include potential liability as well as regulatory, competition, reputational and other risks"
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "future technological advances, including quantum computing, could potentially compromise the cryptographic foundations of our systems, posing additional risk to the security of those systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CMMC Level 2 Certification",
+      "date": "2025-10-01",
+      "sentence": "Booz Allen achieved a Final C3PAO (CMMC Third Party Assessment Organization) CMMC Level 2 Certification in October 2025 which is valid for 3 years with a mandated annual attestation of compliance from the CISO."
+    },
+    {
+      "event": "Acquisition of Defy Security",
+      "date": "2026-06-30",
+      "sentence": "acquisition of Defy Security, which closed in the first quarter of fiscal 2027"
+    },
+    {
+      "event": "Headquarters relocation to Reston, Virginia",
+      "date": "2027-10-01",
+      "sentence": "We plan to relocate our headquarters in the fall of 2027 to Reston,Virginia, dependent upon the timing of the completion of various tenant improvements."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:34:32.849Z",
+  "model": "deepseek-v4-flash"
+}

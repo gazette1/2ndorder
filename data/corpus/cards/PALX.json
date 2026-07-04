@@ -1,0 +1,49 @@
+{
+  "cik": "0001938569",
+  "ticker": "PALX",
+  "name": "Palomino Laboratories Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014270",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1938569/000149315226014270/form10-k.htm"
+  },
+  "business": "Palomino Laboratories Inc. is a pre-revenue technology company developing microLED-based optical transceivers that use gallium nitride (GaN) to enable high-speed, energy-efficient data movement for AI servers, cloud computing, and supercomputers. The company targets short-reach optical links for PCIe Gen 6+ and Ethernet backplanes in hyperscale data centers, AI/ML infrastructure, and high-performance computing clusters.",
+  "sellsTo": [
+    "hyperscale data center operators",
+    "AI/ML infrastructure providers",
+    "high-performance computing clusters",
+    "semiconductor companies adopting chiplet architectures",
+    "networking OEMs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "University of California, Santa Barbara (UCSB)"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our first wave of products targets short-reach, high-speed optical links for PCIe Gen 6+ and Ethernet backplanes, especially in markets where speed, latency, energy consumption, and interconnect density are critical. These segments include AI/ML servers, high-performance computing (HPC), and next-generation data center infrastructure."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The addressable market, for Palomino's high speed LED-based optical interconnects, encompasses several high-growth verticals, including: Hyperscale data centers - large computing facilities run by companies such as Amazon, Microsoft, Google, and Meta demand ever-increasing bandwidth, energy efficiency, and density."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our technology is built around microLEDs tiny lights that can send data at extremely high speeds while using much less energy. This is especially important for big, power-hungry systems like artificial intelligence AI servers, cloud computing platforms, and supercomputers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Optical transceiver TAM expected to grow to $43.4 billion by calendar year 2030 from $16.4 billion in 2024 (18% CAGR) per LightCounting estimates cited by BofA Global Research.",
+      "sentence": "According to a Bank of America (BofA) Global Research report published in June 2025, LightCounting estimates optical transceiver total assessable market TAM across datacom and telecom to grow to $43.4 billion by calendar year 2030 from $16.4 billion in calendar year 2024, a +18% compound annual growth rate or CAGR."
+    }
+  ],
+  "generatedAt": "2026-07-04T17:07:35.076Z",
+  "model": "deepseek-v4-flash"
+}

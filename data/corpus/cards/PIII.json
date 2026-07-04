@@ -1,0 +1,50 @@
+{
+  "cik": "0001832511",
+  "ticker": "PIII",
+  "name": "P3 Health Partners Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001832511-26-000011",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1832511/000183251126000011/piii-20251231.htm"
+  },
+  "business": "P3 Health Partners provides population health management services for Medicare Advantage members through capitated contracts with health plans.",
+  "sellsTo": [
+    "Medicare Advantage health plans",
+    "primary care physicians"
+  ],
+  "namedCustomers": [
+    "Centene Corporation",
+    "Atrio Health Plans",
+    "United Healthcare",
+    "Humana",
+    "Aetna"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The backbone of our P3 Care Model is our proprietary technology platform P3 Technology/Health Hub which enables physicians, care teams, patients and their family members to engage in the care journey."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "MSO Management Services Agreement effective",
+      "date": "2026-01-01",
+      "sentence": "The MSO entered into a Management Services Agreement (MSA) with the ACOs that is effective January 1, 2026 that will govern the MSO’s oversight of clinical integration, provider management, data analytics, financial management, strategic planning, shared services, compliance operations, and related administrative and operational support for the benefit of the ACOs."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total Medicare market size of $1,118.0 billion in 2025.",
+      "sentence": "We operate in the $1,118.0 billion Medicare market, which covers more than 68 million eligible lives as of July 2025."
+    },
+    {
+      "claim": "Core addressable MA market size of over $300 billion.",
+      "sentence": "By multiplying these approximately 34 million MA members by an average $1,000 PMPM spend, we estimate this represents a core addressable market size of over $300 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:00:31.257Z",
+  "model": "deepseek-v4-flash"
+}

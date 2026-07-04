@@ -1,0 +1,53 @@
+{
+  "cik": "0001963088",
+  "ticker": "ATCH",
+  "name": "AtlasClear Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-094578",
+    "filedAt": "2025-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1963088/000110465925094578/atch-20250630x10k.htm"
+  },
+  "business": "AtlasClear Holdings, through its subsidiary Wilson-Davis, is a fintech-driven business-to-business platform that provides clearing, settlement, and banking services to financial services firms. The company targets brokerage firms, hedge funds, pension plans, and family offices with annual revenues up to $1 billion. It also offers innovative financial products such as crypto and operates a cutting-edge technology platform.",
+  "sellsTo": [
+    "financial services firms with annual revenues up to $1 billion",
+    "brokerage firms",
+    "hedge funds",
+    "pension plans",
+    "family offices"
+  ],
+  "namedCustomers": [
+    "Canaccord Genuity",
+    "Glendale Securities"
+  ],
+  "namedSuppliers": [
+    "Pacsquare",
+    "Lockbox Technologies"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a fintech driven business-to-business platform that expects to power innovation in fintech, investing, underwriting and trading."
+    },
+    {
+      "tag": "other:crypto",
+      "stance": "core_product",
+      "sentence": "Our goal is to build a cutting-edge technology enabled financial services firm that would create a more efficient platform for trading, clearing, settlement and banking, with evolving and innovative financial products such as crypto that focus on financial services firms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cybersecurity risks and interruptions or failures in our information technology systems and as we grow, we will need to expend additional resources to enhance our protection from such risks."
+    },
+    {
+      "tag": "other:ai-analytics",
+      "stance": "risk_mention",
+      "sentence": "Issues in the use of artificial intelligence, including machine learning and computer vision (together, AI), in our analytics platforms may result in reputational harm or liability."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:30:53.100Z",
+  "model": "deepseek-v4-flash"
+}

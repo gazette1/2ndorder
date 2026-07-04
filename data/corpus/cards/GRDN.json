@@ -1,0 +1,62 @@
+{
+  "cik": "0001802255",
+  "ticker": "GRDN",
+  "name": "Guardian Pharmacy Services, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-102172",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1802255/000119312526102172/d16111d10k.htm"
+  },
+  "business": "Guardian Pharmacy Services, Inc. provides technology-enabled pharmacy services to residents of long-term care facilities, including assisted living facilities (ALFs), behavioral health facilities (BHFs), and skilled nursing facilities (SNFs). The company's services include prescription dispensing, compliance packaging, and technology platforms like Guardian Compass and GuardianShield. As of December 31, 2025, the company served approximately 205,000 residents in about 8,400 LTCFs across 38 states.",
+  "sellsTo": [
+    "Assisted living facilities (ALFs)",
+    "Behavioral health facilities (BHFs)",
+    "Skilled nursing facilities (SNFs)",
+    "Residents of LTCFs",
+    "LTCF operators",
+    "Health plan payors"
+  ],
+  "namedCustomers": [
+    "Brookdale Senior Living",
+    "Life Care Services",
+    "Sunrise Senior Living"
+  ],
+  "namedSuppliers": [
+    "Cardinal Health, Inc.",
+    "McKesson Corporation",
+    "Smith Drug Company",
+    "Morris and Dickson Co. L.L.C."
+  ],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Specifically, we currently have over 100 automated dispensing machines deployed across our network."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our Guardian Compass platform offers insights to enhance efficiencies for our pharmacies, including proprietary real-time operational dashboards and metrics."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "We employ multiple levels of protection to minimize the risks associated with cybersecurity, ransomware and data breaches, including firewalls, cloud-based backups, multifactor authentication, encryption software, intrusion testing and security information and event management (SIEM) networking monitoring to ensure the integrity of our data and systems."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We service LTCFs typically within a radius of 200 miles or less of our pharmacy locations, depending on the metropolitan area. We typically deliver medications to these facilities at a minimum once each day."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. institutional pharmacy market revenues for 2025 would be approximately $24.3 billion.",
+      "sentence": "IBISWorld, an independent publisher of industry research reports, estimated that U.S. institutional pharmacy market revenues for 2025 would be approximately $24.3 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:00:01.984Z",
+  "model": "deepseek-v4-flash"
+}

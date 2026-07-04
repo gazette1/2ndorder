@@ -1,0 +1,81 @@
+{
+  "cik": "0001568385",
+  "ticker": "BMTM",
+  "name": "Bright Mountain Media, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-121933",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1568385/000119312526121933/bmtm-20251231.htm"
+  },
+  "business": "Bright Mountain Media is an end-to-end marketing services company that offers digital publishing, advertising technology, consumer insights, creative services, and media services. It sells advertising placements, facilitates real-time ad exchanges, provides research and competitive intelligence, and delivers creative and media campaigns to brands and agencies.",
+  "sellsTo": [
+    "brands",
+    "advertisers",
+    "agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:digital-publishing",
+      "stance": "core_product",
+      "sentence": "Our digital publishing division focuses on developing content that attracts an audience and monetizes that audience through advertising."
+    },
+    {
+      "tag": "other:advertising-technology",
+      "stance": "core_product",
+      "sentence": "Our advertising technology division focuses on delivering targeted ads to audiences on owned and operated sites as well as third-party publishers in a cost-effective manner through the deployment of proprietary technologies."
+    },
+    {
+      "tag": "other:consumer-insights",
+      "stance": "core_product",
+      "sentence": "Our consumer insights division focuses on providing primary and secondary research and competitive intelligence to address customers' strategic issues."
+    },
+    {
+      "tag": "other:creative-services",
+      "stance": "core_product",
+      "sentence": "Our creative services division transforms data into award-winning campaigns."
+    },
+    {
+      "tag": "other:media-services",
+      "stance": "core_product",
+      "sentence": "Our media services division focuses on advertisers and agencies by providing access to premium inventory, leveraging data to optimize programmatic campaigns."
+    },
+    {
+      "tag": "other:programmatic-advertising",
+      "stance": "core_product",
+      "sentence": "Programmatic advertising relies on software programs that leverage data and proprietary algorithms to match the optimal selection of an ad with a bid price offered by advertisers."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Our cutting-edge approach combines advanced data analytics, artificial intelligence, and comprehensive market research, to uncover actionable insights that drive informed decision-making."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Rapid changes in technology, including advancements in artificial intelligence, and intense competition in our markets could adversely affect our business."
+    },
+    {
+      "tag": "other:data-privacy",
+      "stance": "risk_mention",
+      "sentence": "The rejection of digital advertising by consumers, through opt-in, opt-out or ad-blocking technologies or other means or the restriction on the use of third party-cookies, mobile device identifiers or other tracking technologies, could adversely affect our business, results of operations, and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Debt maturity of Centre Lane Senior Secured Credit Facility",
+      "date": "2026-12-20",
+      "sentence": "The remaining balance of $81.5 million is due on December 20, 2026."
+    },
+    {
+      "event": "Quarterly amortization payment due on Centre Lane senior secured credit facility",
+      "date": "2026-03-31",
+      "sentence": "Quarterly amortization payments resumed and were due on March 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:31:34.057Z",
+  "model": "deepseek-v4-flash"
+}

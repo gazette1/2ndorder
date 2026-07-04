@@ -1,0 +1,87 @@
+{
+  "cik": "0001351636",
+  "ticker": "SSTI",
+  "name": "SOUNDTHINKING, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-132104",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1351636/000119312526132104/ssti-20251231.htm"
+  },
+  "business": "SoundThinking is a public safety technology company that provides a platform of data-driven solutions including gunshot detection, crime data analysis, case management, resource deployment, license plate recognition, and weapons detection, sold primarily to law enforcement and government agencies on a subscription basis.",
+  "sellsTo": [
+    "local governments and their agencies",
+    "police departments of major cities in the United States",
+    "federal agencies, foreign governments and higher education institutions",
+    "universities, corporate campuses, hospitals, casinos and key infrastructure and transportation centers"
+  ],
+  "namedCustomers": [
+    "City of New York",
+    "City of Chicago",
+    "Puerto Rico",
+    "New York City Police Department"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our gunshot detection solutions consist of highly-specialized, cloud-based software integrated with proprietary, internet-enabled sensors designed to detect outdoor gunfire."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "SafePointe, an AI-based weapons detection system designed to provide discreet, high-throughput screening that complements physical security measures without compromising visitor experience."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Research and development expense increased by $1.9 million, primarily due to an increase of $1.0 million in consulting expense associated with SafePointe and a $0.9 million increase in IT expense related to our investments in enhancing our AI capabilities."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Our primary IRC and a data center that hosts some of our customer services are located in the San Francisco Bay Area, a region known for seismic activity."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In the fourth quarter of 2024, an audit of our processes under a SOC2 Type 2 audit was completed."
+    },
+    {
+      "tag": "other:alpr",
+      "stance": "core_product",
+      "sentence": "In July 2024, we announced a strategic partnership to create and launch a new end-to-end vehicle and ALPR public safety solution, PlateRanger, Powered by Rekor."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of perimeter-based sniper gunshot detection solution targeting utility substations",
+      "date": "2025-03-31",
+      "sentence": "In the first quarter of 2025, we rolled out a perimeter-based sniper gunshot detection solution targeting utility substations, with initial pilots aimed at utility customers, conducted through SoundThinking Labs."
+    },
+    {
+      "event": "California AB 2975 mandate requiring weapons detection systems in hospitals by 2027",
+      "date": "2027-01-01",
+      "sentence": "We have an opportunity to grow in the healthcare vertical with California’s AB 2975 mandate, which requires weapons detection systems in all general acute care and psychiatric hospitals in 2027."
+    },
+    {
+      "event": "Resignation of executive officer Nasim Golzadeh",
+      "date": "2026-03-06",
+      "sentence": "On March 6, 2026, one of our executive officers, Nasim Golzadeh, notified us of her resignation as Managing Director, TechnoLogic and Executive Vice President, Investigative Solutions, effective March 31, 2026."
+    },
+    {
+      "event": "Partnership to launch PlateRanger ALPR solution",
+      "date": "2024-07-01",
+      "sentence": "In July 2024, we announced a strategic partnership to create and launch a new end-to-end vehicle and ALPR public safety solution, PlateRanger, Powered by Rekor."
+    },
+    {
+      "event": "Non-renewal of contract with City of Chicago",
+      "date": "2024-11-01",
+      "sentence": "The City of Chicago did not renew our contract in November 2024."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:35:52.426Z",
+  "model": "deepseek-v4-flash"
+}

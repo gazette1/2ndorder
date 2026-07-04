@@ -1,0 +1,117 @@
+{
+  "cik": "0001664703",
+  "ticker": "BE",
+  "name": "Bloom Energy Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-006516",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026006516/be-20251231.htm"
+  },
+  "business": "Bloom Energy manufactures a versatile fuel cell energy platform, supporting the commercial availability of two primary products: the Bloom Energy Server fuel cell system for generating electricity and the Bloom Electrolyzer for producing hydrogen. The company serves Fortune 500 companies across the data center, semiconductor manufacturing, AI infrastructure, utility, and other industrial sectors. Bloom has its Energy Server systems deployed across approximately 1,100 sites in 9 countries.",
+  "sellsTo": [
+    "Data Centers",
+    "Commercial & Industrial (C&I) sectors including advanced manufacturing, healthcare, retail, education, telecom",
+    "Utilities",
+    "South Korea (second-largest market)"
+  ],
+  "namedCustomers": [
+    "American Electric Power (AEP)",
+    "Oracle",
+    "SK ecoplant",
+    "Brookfield Asset Management"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Bloom serves Fortune 500 companies across the data center, semiconductor manufacturing, artificial intelligence (AI) infrastructure, utility, and other industrial sectors."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Data Centers AI workloads are increasing demand for reliable, continuously available electricity, and operators are increasingly evaluating onsite generation as part of their power architecture."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Utilities As demand for power continues to grow, and time to power becomes increasingly important, utilities are exploring alternative means of producing and supplying energy to their end customers, including our Energy Server systems."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Bloom serves Fortune 500 companies across the data center, semiconductor manufacturing, artificial intelligence (AI) infrastructure, utility, and other industrial sectors."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Certain renewable incentives have become more time-limited, affecting the pace and predictability of new renewable additions."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "China as a country supplies multiple components including rare earth metals and compounds used in electronic and electromechanical components that are part of our tier 2 and tier 3 sub-assembly suppliers."
+    },
+    {
+      "tag": "other:onsite-power-generation",
+      "stance": "core_product",
+      "sentence": "Time to power has become a central constraint for organizations planning new facilities or expansions providing an opportunity for power sources like our products that can be co-located on-site where the demand is needed and be grid-independent."
+    },
+    {
+      "tag": "hydrogen",
+      "stance": "core_product",
+      "sentence": "The Bloom Electrolyzer is designed to produce scalable and cost-effective hydrogen using the same solid oxide platform as our Energy Server system."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "core_product",
+      "sentence": "Carbon Capture Utilization and Storage (CCUS). Our Energy Server system, when combined with third-party carbon capture technology, can provide near zero-carbon electricity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expand annual production capacity from 1 GW to 2 GW by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "We are in the process of expanding our annual production capacity run rate at our Fremont facility from 1 gigawatt to 2 gigawatts and expect to complete the expansion by the end of 2026."
+    },
+    {
+      "event": "Issued 0% Convertible Senior Notes due November 2030 for $2.5 billion",
+      "date": "2025-11-04",
+      "sentence": "On November 4, 2025, we issued the 0% Notes in an aggregate principal amount of $2,500.0 million due November 2030, unless earlier repurchased, redeemed or converted."
+    },
+    {
+      "event": "Entered into exchange agreements for 2.5% Green Notes",
+      "date": "2025-05-07",
+      "sentence": "On May 7, 2025, we entered into privately negotiated exchange agreements (the Exchange Agreements) with certain holders of our 2.5% Green Notes."
+    },
+    {
+      "event": "Entered strategic partnership with Brookfield for up to $5 billion financing over five years",
+      "date": "2025-08-01",
+      "sentence": "In August 2025, we entered into a strategic partnership with Brookfield to support the long-term growth of our fuel cell business and accelerate deployment of clean energy solutions with a focus on powering AI infrastructure."
+    },
+    {
+      "event": "Agreed to issue warrant to Oracle for AI data center partnership",
+      "date": "2025-10-28",
+      "sentence": "In October 2025, in connection with our partnership with Oracle to provide on-site solid state power for AI data centers, subject to the negotiation of a warrant mutually acceptable to us and Oracle, we agreed to issue to Oracle a warrant to purchase up to an aggregate of 3,531,073 shares of our common stock."
+    },
+    {
+      "event": "Announced landmark 1 GW supply agreement with American Electric Power (AEP)",
+      "date": "2024-11-01",
+      "sentence": "Bloom Energy and American Electric Power (AEP) entered into a strategic partnership under a landmark supply agreement announced in November 2024, under which AEP is expected to procure up to 1 GW of Bloom's solid oxide fuel cells to support high-demand commercial applications such as AI data centers."
+    },
+    {
+      "event": "DOE proposed rulemaking on interconnection standardization issued October 2025",
+      "date": "2025-10-01",
+      "sentence": "On the national stage, the DOE Secretary issued a proposed rulemaking in October 2025 to standardize procedures for interconnecting large loads directly to the transmission system, including co-located load and generation."
+    },
+    {
+      "event": "Entered senior secured multicurrency revolving credit facility of $600 million",
+      "date": "2025-12-19",
+      "sentence": "On December 19, 2025, we entered into a senior secured multicurrency revolving credit facility (the Revolving Credit Facility) in an aggregate available amount of $600.0 million, including a $90.0 million letter of credit sub-facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:05:24.513Z",
+  "model": "deepseek-v4-flash"
+}

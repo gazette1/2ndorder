@@ -1,0 +1,55 @@
+{
+  "cik": "0001951667",
+  "ticker": "CTNT",
+  "name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-032699",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1951667/000110465926032699/ctnt-20251231x10k.htm"
+  },
+  "business": "The company provides logistics and warehousing services, primarily freight forwarding from the U.S. to mainland China and Hong Kong, and general labor services including loading and unloading. It previously sold parallel-import vehicles but discontinued that business in March 2025.",
+  "sellsTo": [
+    "U.S.-based merchants shipping to Asia",
+    "PRC dealers (historically)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our logistics and warehousing business focuses on providing freight forwarding services for clients shipping goods from the U.S. to mainland China or Hong Kong."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "We provide general labor and container loading and unloading workforce services to clients through TWEW."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "a shift in consumer preference toward domestic electric vehicles ( EVs )"
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Beginning in March 2025, following increases in U.S. tariffs on certain Chinese imports, the PRC government announced and implemented retaliatory measures against U.S.-origin goods."
+    },
+    {
+      "tag": "other:geopolitical-conflict",
+      "stance": "risk_mention",
+      "sentence": "We are currently operating in a period of economic uncertainty and capital markets disruption, which has been significantly impacted by geopolitical instability due to the ongoing military conflicts between Russia and Ukraine and in the Middle East and the increasingly strained relationship between the U.S. and China."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renewal of Ocean Transportation Intermediary License",
+      "date": "2027-05-31",
+      "sentence": "We intend to renew the license before it expires on May 31, 2027; however, there is no guarantee that we will obtain such renewal in a timely manner."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:14:46.030Z",
+  "model": "deepseek-v4-flash"
+}

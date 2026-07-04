@@ -1,0 +1,86 @@
+{
+  "cik": "0001682852",
+  "ticker": "MRNA",
+  "name": "Moderna, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001682852-26-000033",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/mrna-20251231.htm"
+  },
+  "business": "Moderna sells mRNA vaccines and therapeutics. Its three commercial products are Spikevax, mNEXSPIKE (COVID-19 vaccines), and mRESVIA (RSV vaccine). It sells to governments, wholesalers, distributors, retailers, and healthcare providers.",
+  "sellsTo": [
+    "commercial market",
+    "foreign governments and international organizations",
+    "wholesalers and distributors",
+    "retailers and healthcare providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Novocol Pharma"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We currently have three commercial products Spikevax and mNEXSPIKE (our COVID vaccines) and mRESVIA (our vaccine against respiratory syncytial virus (RSV))."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "We plan to leverage our global production network, artificial intelligence (AI) and digital tools to improve cost efficiency."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA PDUFA goal date for seasonal flu vaccine (mRNA-1010)",
+      "date": "2026-08-05",
+      "sentence": "the FDA accepted our BLA for review and assigned a Prescription Drug User Fee Act (PDUFA) goal date of August 5, 2026."
+    },
+    {
+      "event": "Completion of U.S. manufacturing expansion in Norwood",
+      "date": "2027-06-30",
+      "sentence": "Construction for the new drug product manufacturing capability has commenced, with completion targeted in the first half of 2027."
+    },
+    {
+      "event": "Start of Phase 3 trial for pandemic influenza vaccine (mRNA-1018)",
+      "date": "2026-03-31",
+      "sentence": "The Phase 3 trial is expected to begin in early 2026."
+    },
+    {
+      "event": "Start of registrational study for MMA therapeutic (mRNA-3705)",
+      "date": "2026-12-31",
+      "sentence": "mRNA-3705 has been selected by the FDA for the Support for Clinical Trials Advancing Rare Disease Therapeutics (START) pilot program, with a registrational study expected to begin in 2026."
+    },
+    {
+      "event": "Potential Phase 2 data readout for mRNA-4359",
+      "date": "2026-12-31",
+      "sentence": "we expect a potential Phase 2 data readout in 2026."
+    },
+    {
+      "event": "Target approvals in Japan and Taiwan for mNEXSPIKE",
+      "date": "2026-12-31",
+      "sentence": "we have filed and are targeting 2026 approvals in Japan and Taiwan."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Seasonal influenza causes three to five million cases of severe illness and 290,000 to 650,000 deaths each year.",
+      "sentence": "The WHO estimates that seasonal influenza viruses cause three to five million cases of severe illness and 290,000 to 650,000 deaths each year, resulting in a severe challenge to public health."
+    },
+    {
+      "claim": "Norovirus causes 685 million illnesses and 200,000 deaths annually.",
+      "sentence": "Annually, norovirus causes an estimated 685 million illnesses and 200,000 deaths, including more than 50,000 deaths in children under the age of five."
+    },
+    {
+      "claim": "Global economic impact of norovirus is estimated at $60 billion per year.",
+      "sentence": "Globally, the economic impact of norovirus is estimated at $60 billion per year."
+    },
+    {
+      "claim": "RSV causes up to 160,000 hospitalizations and 10,000 deaths per year in US adults 65+.",
+      "sentence": "RSV infection causes up to 160,000 hospitalizations and up to 10,000 deaths per year in adults aged 65 years or older in the United States."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:33:15.949Z",
+  "model": "deepseek-v4-flash"
+}

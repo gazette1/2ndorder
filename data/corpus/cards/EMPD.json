@@ -1,0 +1,61 @@
+{
+  "cik": "0001829794",
+  "ticker": "EMPD",
+  "name": "Empery Digital Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-002333",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1829794/000168316826002333/empery_i10k-123125.htm"
+  },
+  "business": "Empery Digital Inc. operates a digital asset treasury strategy focused on acquiring and holding Bitcoin, and also sells electric bicycles (E-Bikes) under the Brat brand. The company provides inventory financing services for golf carts and UTVs through agreements with Venom-EV LLC. It outsources manufacturing of its two-wheel products to Huaian PX Intelligent Manufacturing Co., Ltd.",
+  "sellsTo": [
+    "dealers (bicycle retailers)",
+    "consumers (direct via website)",
+    "international distributors (importers in Mexico, Caribbean, New Zealand)",
+    "Venom-EV LLC (for inventory financing)"
+  ],
+  "namedCustomers": [
+    "Venom-EV LLC"
+  ],
+  "namedSuppliers": [
+    "Huaian PX Intelligent Manufacturing Co., Ltd"
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "active_investment",
+      "sentence": "The Company has used the net proceeds of $452.0 million from the Private Placements (excluding the $28.0 million of BTC received) to purchase or otherwise acquire BTC and for the establishment of the Company’s cryptocurrency treasury operations."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "In the fourth quarter of 2022, we began selling an E-Bike, the Brat, which is manufactured by a third-party."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company also plans to expand its vehicle financing operations for golf carts and UTVs to generate positive cash flow by leveraging the spread between the Company’s cost of capital and interest income from vehicle financing."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Start selling new two-wheel motorcycle product",
+      "date": null,
+      "sentence": "We expect to start selling this product in the second half of 2026."
+    },
+    {
+      "event": "Launch new products in European markets",
+      "date": null,
+      "sentence": "the Company expects to concentrate on its two-wheel business, including the launch of new products in European markets in the second half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 190 public companies employ digital asset treasury strategies holding BTC, with another 10-20 holding other digital assets, collectively holding ~$100B in cryptocurrencies.",
+      "sentence": "According to an article by CNBC dated December 5, 2025, there are approximately 190 public companies employing digital asset treasury strategies that hold BTC, with another 10 to 20 companies employing digital asset treasury strategies that hold other digital assets. These companies are estimated to collectively hold approximately $100.0 billion worth of cryptocurrencies combined, according to data from The Block."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:42:07.312Z",
+  "model": "deepseek-v4-flash"
+}

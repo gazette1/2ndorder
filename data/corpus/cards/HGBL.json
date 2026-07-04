@@ -1,0 +1,42 @@
+{
+  "cik": "0000849145",
+  "ticker": "HGBL",
+  "name": "Heritage Global Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104062",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/849145/000119312526104062/hgbl-20251231.htm"
+  },
+  "business": "Heritage Global Inc. is an asset services company specializing in financial and industrial asset transactions. It provides services including market making, acquisitions, refurbishment, dispositions, valuations, and secured lending. The company focuses on identifying, valuing, acquiring, and monetizing tangible assets across more than twenty-five global sectors.",
+  "sellsTo": [
+    "financial institutions",
+    "manufacturing companies",
+    "biotech and pharma companies",
+    "end-users",
+    "dealers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our Refurbishment & Resale segment, through ALT, acquires, refurbishes and supplies specialized laboratory equipment."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "we have continued to be opportunistic as new lending facilities, such as FinTech, peer-to-peer and more recently Buy Now Pay Later lenders have expanded the availability of consumer credit."
+    },
+    {
+      "tag": "other:industrial-machinery",
+      "stance": "core_product",
+      "sentence": "Our Auction and Liquidation segment, through HGP, operates as a global full-service auction, appraisal and asset advisory firm, including the acquisition of turnkey manufacturing facilities and used industrial machinery and equipment."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:19:58.211Z",
+  "model": "deepseek-v4-flash"
+}

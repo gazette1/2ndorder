@@ -1,0 +1,43 @@
+{
+  "cik": "0002041869",
+  "ticker": "SOLC",
+  "name": "Canary Marinade Solana ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001999371-26-007348",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/2041869/000199937126007348/solc-10k_123125.htm"
+  },
+  "business": "The Trust is an exchange-traded fund that issues shares representing fractional undivided beneficial interest in SOL, seeking to provide exposure to the price of SOL held by the Trust, less expenses, and to earn additional SOL through staking on the Solana Network.",
+  "sellsTo": [
+    "Investors on Nasdaq",
+    "Authorized Participants for creation/redemption"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BitGo Trust Company, Inc.",
+    "Coinbase Custodian",
+    "U.S. Bank, N.A.",
+    "U.S. Bancorp Fund Services, LLC",
+    "Paralel Distributors LLC",
+    "CSC Delaware Trust Company",
+    "Canary Capital Group LLC",
+    "CoinDesk Indices"
+  ],
+  "exposures": [
+    {
+      "tag": "other:crypto",
+      "stance": "core_product",
+      "sentence": "The investment objective is to seek to provide exposure to the price of SOL held by the Trust, less the expenses of the Trust's operations and other liabilities."
+    },
+    {
+      "tag": "other:crypto",
+      "stance": "core_product",
+      "sentence": "A secondary investment objective is for the Trust to earn additional SOL through the validation of transactions in the SOL network's proof-of-stake process."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:46:12.821Z",
+  "model": "deepseek-v4-flash"
+}

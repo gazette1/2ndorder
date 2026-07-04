@@ -1,0 +1,48 @@
+{
+  "cik": "0001823529",
+  "ticker": "ACT",
+  "name": "Enact Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001823529-26-000060",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823529/000182352926000060/act-20251231.htm"
+  },
+  "business": "Enact Holdings, Inc. is a private mortgage insurance company that provides credit protection on low down payment residential mortgage loans, covering a portion of the unpaid principal balance in the event of borrower default. It serves lenders and investors in the United States housing finance market, operating in all 50 states and the District of Columbia since 1981.",
+  "sellsTo": [
+    "mortgage lenders",
+    "national banks",
+    "non-bank mortgage lenders",
+    "local mortgage bankers",
+    "community banks",
+    "credit unions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a leading private mortgage insurance company serving the United States housing finance market since 1981 with a mission to help people buy a house and keep it their home."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "IT risk, including cybersecurity risk, and any other risk that poses a material threat to the viability of the Company."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Artificial intelligence and machine learning in the areas of risk and portfolio management."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The GSEs held or guaranteed approximately $7.8 trillion as of September 30, 2025, or around 53%, of total United States 1-4 family residential mortgage debt.",
+      "sentence": "According to the earnings reports of the GSEs, the GSEs held or guaranteed approximately $7.8 trillion as of September 30, 2025, or around 53%, of total United States 1-4 family residential mortgage debt according to most recent data from the Federal Reserve."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:41:01.477Z",
+  "model": "deepseek-v4-flash"
+}

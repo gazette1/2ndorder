@@ -1,0 +1,71 @@
+{
+  "cik": "0000082473",
+  "ticker": "IHT",
+  "name": "INNSUITES HOSPITALITY TRUST",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-024361",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/82473/000149315226024361/form10-k.htm"
+  },
+  "business": "InnSuites Hospitality Trust owns interests in two hotels, operates them, provides management services, and licenses the InnSuites trademark. It also holds investments in a clean energy electricity generator and an independent boutique hotel reservation company.",
+  "sellsTo": [
+    "hotel guests (leisure, corporate, group, government)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Best Western International, Inc.",
+    "UniGen Power, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "other:hotel-ownership-and-management",
+      "stance": "core_product",
+      "sentence": "At January 31, 2026, and currently, the Trust owns a 79.18% sole general partner interest in the Partnership, which controls a 51.69% interest in the InnSuites hotel located in Tucson, Arizona, and a direct 21.90% interest in the InnSuites hotel located in Albuquerque, New Mexico."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "The Trust also holds a diversification investment in an efficient clean energy electricity generator innovation, as well as manages and holds an option to purchase, at cost, an independent boutique hotel reservation and independent hotel services investment."
+    },
+    {
+      "tag": "other:independent-hotel-services",
+      "stance": "active_investment",
+      "sentence": "In addition, our RRF Management subsidiary took over Management of InnDependent Boutique Collection, LLC (IBC Hotels), during the Fiscal Year just ended, January 31, 2026, raising expectations of additional profits in the area of independent/boutique hotel reservations, and other hotel services for Global boutique and independent resorts and hotels."
+    },
+    {
+      "tag": "other:merger-candidate",
+      "stance": "risk_mention",
+      "sentence": "We are experiencing increased interest from reverse merger candidates."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plan to sell one or both hotels within 36 months",
+      "date": null,
+      "sentence": "We plan to sell one or both of our remaining two Hotel properties within 36 months."
+    },
+    {
+      "event": "New UniGen management installed",
+      "date": "2026-02-20",
+      "sentence": "On February 20, 2026, the IHT President, Secretary/Treasurer, and CFO, were all three elected to similar management positions of UniGen Power, Inc."
+    },
+    {
+      "event": "Debenture warrants extended to June 30, 2029",
+      "date": "2029-06-30",
+      "sentence": "UniGen issued the Trust common stock purchase warrants (the Debenture Warrants) including to purchase up to 1,000,000 shares of Class A Common Stock. The Debenture Warrants, if the expiration dates are extended are exercisable at an exercise price of $1.00 per share of Class A Common Stock."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. electricity demand projected to double over next five years driven by data centers, EVs, and AI.",
+      "sentence": "The total market demand for electricity is projected to double in the U.S. over the next five years due to sharply increased demand from data centers, electric vehicles, and projected Artificial Intelligence usage."
+    },
+    {
+      "claim": "Independent hotels represent half of the world's hotels and resorts.",
+      "sentence": "Independent hotels represent half the world's hotels and resorts."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:45:46.470Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0001800227",
+  "ticker": "PPLI",
+  "name": "People Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009997",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1800227/000162828026009997/iaci-20251231.htm"
+  },
+  "business": "People Inc. is a digital and print publisher with over 40 iconic brands in entertainment, food, home, beauty, health, travel, finance, and other verticals. It generates revenue from digital advertising, performance marketing, licensing, and print subscriptions and advertising. Its digital business provides content across multiple formats and targets consumers through various channels.",
+  "sellsTo": [
+    "consumers (audience)",
+    "advertisers",
+    "marketers",
+    "licensing partners",
+    "subscribers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Performance marketing revenue includes commissions generated through affiliate commerce, performance marketing services and affinity marketing channels."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Health (all digital):Verywell Health, Health, Parents, and VeryWell Mind."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "People Inc. is one of the largest digital and print publishers in America and is committed to content made by people for people that delights, teaches, inspires and entertains."
+    },
+    {
+      "tag": "other:ai-licensing",
+      "stance": "core_product",
+      "sentence": "Content licensing royalties are earned from our relationship with AppleNews+ as well as other content use and distribution relationships, including utilization in large-language models and other artificial intelligence (AI) related activities."
+    },
+    {
+      "tag": "other:ai-risk",
+      "stance": "risk_mention",
+      "sentence": "Advances in AI and other digital technologies are changing the way people access and consume information, which could adversely affect traffic to our businesses, the effectiveness of our marketing and advertising offerings, and our results of operations."
+    },
+    {
+      "tag": "other:search-engine-dependence",
+      "stance": "risk_mention",
+      "sentence": "We rely on search engines to attract users to our various properties."
+    },
+    {
+      "tag": "other:advertising-concentration",
+      "stance": "risk_mention",
+      "sentence": "Advertising revenue represents a significant portion of our consolidated revenue."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:58:20.699Z",
+  "model": "deepseek-v4-flash"
+}

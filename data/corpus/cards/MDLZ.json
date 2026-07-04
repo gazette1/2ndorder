@@ -1,0 +1,63 @@
+{
+  "cik": "0001103982",
+  "ticker": "MDLZ",
+  "name": "Mondelez International, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-005345",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/mdlz-20251231.htm"
+  },
+  "business": "Mondelez International sells chocolate, biscuits and baked snacks, with additional businesses in gum & candy, cheese & grocery, and powdered beverages. The company sells its products in over 150 countries around the world.",
+  "sellsTo": [
+    "supermarket chains",
+    "wholesalers",
+    "supercenters",
+    "club stores",
+    "mass merchandisers",
+    "distributors",
+    "convenience stores",
+    "gasoline stations",
+    "drug stores",
+    "value stores",
+    "other retail food outlets",
+    "businesses and consumers via e-retail platforms",
+    "retailer digital platforms",
+    "direct-to-consumer websites",
+    "social media platforms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our core business is making and selling chocolate, biscuits and baked snacks, with additional businesses in adjacent, locally relevant categories including gum & candy, cheese & grocery and powdered beverages."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "Our digital commerce channel strategies play a critical role in our ambition to be the global leader in snacking."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our use of information technology and third-party service providers exposes us to cybersecurity risks and other business disruptions."
+    },
+    {
+      "tag": "other:erp-implementation",
+      "stance": "active_investment",
+      "sentence": "In July 2024, our Board of Directors approved funding of $1.2 billion for a multi-year systems transformation program to upgrade our global ERP and supply chain systems (the ERP System Implementation)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ERP System Implementation expected completion by year-end 2028",
+      "date": "2028-12-31",
+      "sentence": "The ERP System Implementation program will be implemented by region in several phases with spending continuing over the next three years, with expected completion by year-end 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:06:49.471Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0000049826",
+  "ticker": "ITW",
+  "name": "ILLINOIS TOOL WORKS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000049826-26-000008",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/49826/000004982626000008/itw-20251231.htm"
+  },
+  "business": "ITW is a global manufacturer of a diversified range of industrial products and equipment with 88 divisions in 49 countries. The company operates in seven segments: Automotive OEM, Food Equipment, Test & Measurement and Electronics, Welding, Polymers & Fluids, Construction Products, and Specialty Products. Products include automotive components, food equipment, testing and measurement equipment, welding equipment, adhesives, fasteners, and beverage packaging equipment.",
+  "sellsTo": [
+    "automotive original equipment manufacturers and tiers market",
+    "food service, food retail and food institutional/restaurant markets",
+    "electronics, general industrial, automotive original equipment manufacturers and tiers, energy, industrial capital goods and consumer durables markets",
+    "general industrial market, which includes fabrication, shipbuilding and other general industrial markets, and construction, energy, MRO, industrial capital goods and automotive original equipment manufacturers and tiers markets",
+    "automotive aftermarket, general industrial and MRO markets",
+    "residential construction, renovation/remodel and commercial construction markets",
+    "food and beverage, consumer durables, airlines, general industrial, industrial capital goods and printing and publishing markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Products in this segment include: conveyor systems and line automation for the food and beverage industries; plastic consumables that multi-pack cans and bottles and related equipment; foil, film and related equipment used to decorate consumer products; product coding and marking equipment and related consumables; plastic and metal closures and components for appliances; airport ground support equipment; and components for medical devices."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Businesses in this segment produce engineered adhesives, sealants, lubrication and cutting fluids, and fluids and polymers for auto aftermarket maintenance and appearance."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "This segment primarily serves the residential construction, renovation/remodel and commercial construction markets."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "This segment primarily serves the residential construction, renovation/remodel and commercial construction markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If the Company is unable to protect its information technology infrastructure against service interruptions, data corruption, cyber-based attacks or network security breaches, or if there is a violation of data privacy laws, there could be a negative impact on operating results or the Company may suffer financial or reputational damage."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Difficulties or delays in research, development, production or commercialization of new products and services or in the adoption of technological change, such as the use of artificial intelligence and machine learning, may reduce future revenues and adversely affect the Company's competitive position."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:06:33.923Z",
+  "model": "deepseek-v4-flash"
+}

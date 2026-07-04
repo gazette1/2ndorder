@@ -1,0 +1,89 @@
+{
+  "cik": "0000789933",
+  "ticker": "NC",
+  "name": "NACCO INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000789933-26-000070",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/789933/000078993326000070/nacco-20251231.htm"
+  },
+  "business": "NACCO Industries operates three reportable segments: Utility Coal Mining, which manages surface coal mines as exclusive long-term fuel providers for power generation companies; Contract Mining, which provides specialized contract mining services for producers of industrial minerals and products; and Minerals and Royalties, which acquires and promotes mineral and royalty interests, primarily in oil and gas. The company also runs Mitigation Resources for natural resource restoration and reclamation, and ReGen Resources for developing new power generation projects. Customers include electric utilities, independent power providers, limestone producers, construction firms, and oil and gas producers.",
+  "sellsTo": [
+    "electric utilities",
+    "independent power providers",
+    "limestone producers",
+    "construction firms",
+    "sand and gravel producers",
+    "oil and gas producers",
+    "coal producers"
+  ],
+  "namedCustomers": [
+    "Lithium Americas Corp.",
+    "General Motors Holdings LLC",
+    "U.S. Army Corps of Engineers"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "The Contract Mining segment, operated by North American Mining , is a leading provider of a broad range of specialized, long-term contract mining services."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The Minerals and Royalties segment, which includes the Catapult Mineral Partners (Catapult) business, acquires and promotes the development of mineral and royalty interests and other related investments."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Utility Coal Mining segment, operated by North American Coal , manages surface coal mines that are exclusive, long-term fuel providers for power generation companies."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We believe the increasing demand for 24/7 electricity, driven by data centers, on-shoring of manufacturing and general economic growth, combined with the current political environment, is fundamentally changing the sentiment surrounding fossil fuel-based power generation and provides stability the Utility Coal Mining business."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Current projects in development include solar arrays, solar-gas hybrid projects, thermal generation and carbon capture primarily on reclaimed mining properties in Louisiana, Mississippi, Ohio, Pennsylvania and Texas."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Sawtooth will supply all of the lithium-bearing ore requirements for our customer's Thacker Pass lithium processing facility, which is currently under construction."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "During 2025, the Contract Mining segment executed a multi-year dragline services contract for a U.S. Army Corps of Engineers construction project in Palm Beach County, Florida."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dragline services contract for U.S. Army Corps of Engineers project expected to be accretive to earnings beginning in the second quarter of 2026.",
+      "date": "2026-04-01",
+      "sentence": "This project should be accretive to earnings beginning in the second quarter of 2026."
+    },
+    {
+      "event": "Thacker Pass lithium project targeting initial lithium production in late 2027.",
+      "date": "2027-12-31",
+      "sentence": "Thacker Pass is targeting initial lithium production in late 2027."
+    },
+    {
+      "event": "SWEPCO obligated to acquire all capital stock of Sabine and complete remaining mine reclamation as of October 1, 2026.",
+      "date": "2026-10-01",
+      "sentence": "As of October 1, 2026, SWEPCO is obligated to acquire all of the capital stock of Sabine and complete the remaining mine reclamation."
+    },
+    {
+      "event": "Red Hills Power Plant began maintenance outage in mid-February 2026, expected to resume mid-March 2026.",
+      "date": "2026-02-15",
+      "sentence": "In February 2026, MLMC received notice from its customer that the Red Hills Power Plant experienced an unplanned outage, which is expected to lead to reduced demand and an anticipated operating loss for MLMC during 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:17:06.064Z",
+  "model": "deepseek-v4-flash"
+}

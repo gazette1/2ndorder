@@ -1,0 +1,64 @@
+{
+  "cik": "0001591890",
+  "ticker": "FGNX",
+  "name": "FG Nexus Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013032",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1591890/000149315226013032/form10-k.htm"
+  },
+  "business": "FG Nexus Inc. conducts business through digital assets (focusing on ETH and tokenization of real-world assets) and merchant banking (providing strategic, administrative, and regulatory support to newly formed SPACs).",
+  "sellsTo": [
+    "special purpose acquisition companies (SPACs)",
+    "newly formed companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Anchorage Digital Bank N.A.",
+    "BitGo Trust Company, Inc.",
+    "Galaxy Digital Capital Management LP"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "We currently conduct business through our business segments including digital assets and merchant banking."
+    },
+    {
+      "tag": "other:tokenization",
+      "stance": "core_product",
+      "sentence": "Our treasury strategy is focused on commercializing and expanding the tokenization of real-world assets, potentially including affordable housing, reinsurance, real estate and other asset classes."
+    },
+    {
+      "tag": "other:merchant-banking",
+      "stance": "core_product",
+      "sentence": "Merchant banking services include various strategic, administrative, and regulatory support services to newly formed SPACs (our SPAC platform)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reverse stock split effective",
+      "date": "2026-02-13",
+      "sentence": "The Reverse Stock Split became effective on February 13, 2026 (the Effective Date), at 9:30 a.m., Eastern Time, and our common shares began trading on a split-adjusted basis at the commencement of trading on the same day."
+    },
+    {
+      "event": "Initial closing of reinsurance business sale",
+      "date": "2026-01-02",
+      "sentence": "On January 2, 2026, we completed the initial closing of the sale of our reinsurance business"
+    },
+    {
+      "event": "Second closing of reinsurance business sale",
+      "date": "2026-03-23",
+      "sentence": "An additional closing of the sale of our reinsurance business occurred on March 23, 2026"
+    },
+    {
+      "event": "Expected closing of Quebec real estate sale",
+      "date": null,
+      "sentence": "The transaction, if completed, is expected to close during the first half of 2026, subject to the execution of definitive agreements, completion of due diligence, and satisfaction of customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:31:58.240Z",
+  "model": "deepseek-v4-flash"
+}

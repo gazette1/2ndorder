@@ -1,0 +1,53 @@
+{
+  "cik": "0001397911",
+  "ticker": "LPLA",
+  "name": "LPL Financial Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010705",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1397911/000162828026010705/lpla-20251231.htm"
+  },
+  "business": "LPL Financial Holdings Inc. is the largest independent broker-dealer, a leading investment advisory firm, and a top custodian. It supports over 32,000 financial advisors and approximately 1,200 financial institutions, servicing and custodying $2.4 trillion in assets. The firm provides advisor affiliation models, investment solutions, fintech tools, and practice management services.",
+  "sellsTo": [
+    "independent financial advisors",
+    "financial institutions (banks, credit unions, insurance companies)",
+    "independent registered investment advisers (RIAs)",
+    "employee advisors"
+  ],
+  "namedCustomers": [
+    "Prudential Advisors",
+    "M&T Bank Corporation",
+    "BMO Financial Advisors",
+    "CUNA Brokerage Services, Inc.",
+    "Wintrust Financial",
+    "People's United Bank",
+    "Bancwest Investment Services",
+    "Commerce Financial Advisors"
+  ],
+  "namedSuppliers": [
+    "Refinitiv US LLC (BETAHost)"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The firm provides a wide range of advisor affiliation models, investment solutions, fintech tools and practice management services"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack or other security breach of our technology systems or those of our advisors or third-party vendors could negatively impact our normal operations and, as a result, subject us to significant liability and harm our reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of conversion of assets from Commonwealth Equity Services (CES) to LPL Financial platform",
+      "date": null,
+      "sentence": "The Company expects to complete the conversion of assets from CES in the fourth quarter of 2026 and withdraw the related registrations of that entity thereafter."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:40:49.537Z",
+  "model": "deepseek-v4-flash"
+}

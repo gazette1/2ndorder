@@ -1,0 +1,78 @@
+{
+  "cik": "0000789019",
+  "ticker": "MSFT",
+  "name": "MICROSOFT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-100235",
+    "filedAt": "2025-07-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+  },
+  "business": "Microsoft creates platforms and tools powered by AI that deliver innovative solutions. It generates revenue from cloud-based solutions, software licensing, online advertising, and device sales. Customers include individuals and businesses.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "commercial customers",
+    "consumers",
+    "small and medium businesses",
+    "advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The OpenAI API is exclusive to Azure, runs on Azure, and is available through the Azure OpenAI Service."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units (GPUs) and other components."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Microsoft 365 Commercial cloud revenue growth: Revenue from Microsoft 365 Commercial subscriptions, comprising Microsoft 365 Commercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Xbox content and services revenue increased 16% driven by the impact of the Activision Blizzard acquisition and Xbox Game Pass."
+    },
+    {
+      "tag": "other:search-advertising",
+      "stance": "core_product",
+      "sentence": "Search and news advertising revenue excluding traffic acquisition costs increased 20% driven by higher search volume and higher revenue per search."
+    },
+    {
+      "tag": "other:devices",
+      "stance": "core_product",
+      "sentence": "Windows OEM and Devices revenue increased 3% driven by growth in Windows OEM, offset in part by a decline in Devices."
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "core_product",
+      "sentence": "Microsoft Cloud revenue increased 23% to $168.9 billion."
+    },
+    {
+      "tag": "other:linkedin",
+      "stance": "core_product",
+      "sentence": "LinkedIn revenue increased 9%."
+    },
+    {
+      "tag": "other:enterprise-software",
+      "stance": "core_product",
+      "sentence": "Dynamics 365 revenue grew 19% with growth across all workloads."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:47:48.739Z",
+  "model": "deepseek-v4-flash"
+}

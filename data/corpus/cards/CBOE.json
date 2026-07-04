@@ -1,0 +1,122 @@
+{
+  "cik": "0001374310",
+  "ticker": "CBOE",
+  "name": "Cboe Global Markets, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010013",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026010013/cboe-20251231.htm"
+  },
+  "business": "Cboe Global Markets operates a network of derivatives and securities exchanges, offering trading and clearing services in options, futures, equities, and foreign exchange. It serves financial institutions, broker-dealers, and individual investors across North America, Europe, and Asia Pacific. The company generates revenue from transaction and clearing fees, market data and access fees, and index licensing.",
+  "sellsTo": [
+    "Financial institutions",
+    "Trading platforms",
+    "Institutional investors",
+    "Individual investors",
+    "Professional traders",
+    "Banks",
+    "Futures commission merchants",
+    "Hedge funds",
+    "Asset managers",
+    "Proprietary trading firms",
+    "Commodity trading advisors",
+    "Corporates"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "OCC",
+    "NSCC",
+    "DTCC",
+    "CDS",
+    "LCH",
+    "ASX Clear Pty Ltd",
+    "SIX x-clear",
+    "Cboe Clear Europe",
+    "Cboe Clear U.S.",
+    "CTA",
+    "UTP Securities Information Processor",
+    "OPRA",
+    "FINRA",
+    "Wedbush Securities, Inc.",
+    "Morgan Stanley & Co. LLC",
+    "The Goldman Sachs Group, Inc.",
+    "Wolverine Execution Services, LLC",
+    "BOA",
+    "S&P Dow Jones Indices",
+    "Frank Russell Company",
+    "FTSE International Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "Cboe Clear U.S. is a CFTC-registered derivatives clearing organization (DCO) that provides clearing and settlement for a number of CFE products, including financially settled and continuous futures on Bitcoin and Ether."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are currently utilizing certain technologies, such as artificial intelligence (AI) and the cloud, in limited capacities, including using AI to improve internal processes such as code development, documentation, and operational efficiency"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The technology upon which we rely, including that of our service providers, may be susceptible to security vulnerabilities or breaches that could harm our business and our role in the global marketplace puts us at heightened risk relative to other public companies."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "we continue to explore the potential use of other new technologies, such as... quantum computing"
+    },
+    {
+      "tag": "other:cloud",
+      "stance": "risk_mention",
+      "sentence": "We utilize third-party cloud service providers to maintain secondary offsite backups of our and our customers' data and to distribute real-time data, and we may utilize third-party cloud service providers in the future for additional services."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "we continue to explore the potential use of other new technologies, such as... blockchain"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of migration of Bitcoin and Ether futures from Cboe Digital Exchange to CFE",
+      "date": "2025-06-09",
+      "sentence": "On June 9, 2025, Cboe successfully completed the migration of cash-settled Bitcoin and Ether futures contracts from Cboe Digital Exchange to CFE."
+    },
+    {
+      "event": "Appointment of Craig S. Donohue as CEO effective May 7, 2025",
+      "date": "2025-05-07",
+      "sentence": "On May 1, 2025, the Company announced that its Board of Directors appointed longtime global financial markets executive, Craig S. Donohue, as the Company's new Chief Executive Officer and a member of the Board, effective May 7, 2025."
+    },
+    {
+      "event": "Appointment of Robert A. Hocking as Global Head of Derivatives and Brian McElligott as Global Head of Cboe Data Vantage",
+      "date": "2025-10-01",
+      "sentence": "On September 30, 2025, the Company announced the appointment of two industry veterans to lead its Derivatives and Data Vantage businesses. Effective October 1, 2025, Robert A. Hocking rejoined as Executive Vice President, Global Head of Derivatives, and Brian McElligott joined as Senior Vice President, Global Head of Cboe Data Vantage."
+    },
+    {
+      "event": "Appointment of Scott Johnston as COO effective March 6, 2026",
+      "date": "2026-03-06",
+      "sentence": "Subsequent to December 31, 2025, on January 26, 2026, the Company announced the planned appointments of Scott Johnston as Executive Vice President, Chief Operating Officer... who is retiring from his role effective March 6, 2026."
+    },
+    {
+      "event": "Implementation of SEC Rule 605",
+      "date": "2026-08-01",
+      "sentence": "Rule 605 is expected to be implemented in August 2026"
+    },
+    {
+      "event": "Implementation of SEC Tick Size/Access Fee Cap proposals",
+      "date": "2026-11-01",
+      "sentence": "Tick Size/Access Fee Cap proposals are expected to be implemented in November 2026"
+    },
+    {
+      "event": "EU ban on payment for order flow effective",
+      "date": "2026-06-30",
+      "sentence": "ban on payment for order flow (effective June 30, 2026)"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:37:08.815Z",
+  "model": "deepseek-v4-flash"
+}

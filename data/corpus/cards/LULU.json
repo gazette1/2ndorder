@@ -1,0 +1,65 @@
+{
+  "cik": "0001397187",
+  "ticker": "LULU",
+  "name": "lululemon athletica inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001397187-26-000020",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000020/lulu-20260201.htm"
+  },
+  "business": "lululemon athletica inc. is principally a designer, distributor, and retailer of technical athletic apparel, footwear, and accessories. We offer a comprehensive line of technical athletic apparel, footwear, and accessories marketed under the lululemon brand. Our products are sold to guests through company-operated stores, e-commerce websites, and other channels.",
+  "sellsTo": [
+    "Individual consumers (guests) in Americas, China Mainland, Asia Pacific, and Europe and the Middle East",
+    "Wholesale partners including fitness studios, athletic organizations, corporate sales, and university campus retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "lululemon athletica inc. is principally a designer, distributor, and retailer of technical athletic apparel, footwear, and accessories."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We operate an omni-channel retail model and aim to efficiently and effectively serve our guests in the ways most convenient to them."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be unable to safeguard against security breaches which could damage our customer relationships and result in significant legal and financial exposure."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "risk_mention",
+      "sentence": "They utilize and rely on computer controlled and automated equipment, which means their operations may be subject to a number of risks related to malware, the proper operation of software and hardware, electronic or power interruptions, or other system failures."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The rapid rise of artificial intelligence (\"AI\") enabled shopping tools may reduce our control over consumer decision making and brand loyalty, as third party AI platforms increasingly influence product discovery and purchases on behalf of customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure guidance for 2026",
+      "date": null,
+      "sentence": "Capital expenditures are expected to range between $725.0 million and $745.0 million in 2026."
+    },
+    {
+      "event": "Planned store openings in China Mainland in 2026",
+      "date": null,
+      "sentence": "We plan to continue to invest in China Mainland and expect the most company-operated store openings in 2026 to be in this market."
+    },
+    {
+      "event": "Intent to file new APA submission in fiscal 2026",
+      "date": null,
+      "sentence": "We are in the process of reapplying under the APA program and intend to file a new APA submission with the CRA and IRS in fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:00:46.576Z",
+  "model": "deepseek-v4-flash"
+}

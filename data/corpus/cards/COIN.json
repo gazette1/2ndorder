@@ -1,0 +1,72 @@
+{
+  "cik": "0001679788",
+  "ticker": "COIN",
+  "name": "Coinbase Global, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001679788-26-000015",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm"
+  },
+  "business": "Coinbase provides a platform for customers to engage with crypto assets, and since December 2025 expanded to trading stocks, commodity futures, perpetual futures, and prediction markets. It offers transaction products (consumer trading, institutional trading, exchanges) and subscription products (stablecoins, staking, custody, Coinbase One, developer platform). Customers include retail consumers, institutions (market makers, asset managers, etc.), and developers.",
+  "sellsTo": [
+    "Retail consumers",
+    "Institutional investors",
+    "Developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Circle"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our platform serves as a secure and compliant on-ramp to the onchain economy and enables our customers to use their crypto assets in both first and third-party product experiences."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "We provide an onchain staking service, which allows our customers to stake their assets with a few clicks."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "core_product",
+      "sentence": "Stablecoins play a key role in updating the financial system and advancing economic freedom by combining the benefits of crypto rails, which are global, cheap, and fast, with an asset that is stable relative to fiat currencies."
+    },
+    {
+      "tag": "other:derivatives",
+      "stance": "core_product",
+      "sentence": "In December 2025, we took a major step forward to becoming the Everything Exchange dramatically expanding the assets available to trade on Coinbase, including stocks, commodity futures, perpetual futures, and prediction markets."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "core_product",
+      "sentence": "Base is a decentralized L2 Ethereum blockchain offering fast, low-cost, global onchain transactions."
+    },
+    {
+      "tag": "other:custody",
+      "stance": "core_product",
+      "sentence": "Through Coinbase Prime, we offer an institutional-grade custody platform with a highly secure cold storage solution both within the United States and globally."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and security breaches of our platform, or those impacting our customers or third parties, could adversely affect our brand, reputation, business, operating results, and financial condition."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "developments in mathematics and technology, including in digital computing, algebraic geometry, and quantum computing that could result or be perceived to result in the cryptography being used by Bitcoin and Ethereum becoming insecure or ineffective."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "Many of these legal and regulatory regimes were adopted prior to the advent of the internet, mobile technologies, crypto assets, generative artificial intelligence (AI) and related technologies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:21:35.023Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001516513",
+  "ticker": "DOCS",
+  "name": "Doximity, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001516513-26-000025",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651326000025/docs-20260331.htm"
+  },
+  "business": "Doximity provides a digital platform for U.S. medical professionals, offering AI-powered tools for collaboration, clinical workflow, and career management. The company generates revenue by selling Marketing, Hiring, and Workflow Solutions primarily to pharmaceutical manufacturers and health systems. Its platform includes telehealth, AI clinical assistants, and digital recruiting services.",
+  "sellsTo": [
+    "pharmaceutical manufacturers",
+    "health systems",
+    "medical recruiting firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We are the leading digital platform for U.S. medical professionals, with over 3 million registered members as of March 31, 2026."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Both increases were incurred to support our AI initiatives."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Our Hiring Solutions provide digital recruiting capabilities to health systems and medical recruiting firms, enabling them to identify, connect with, and hire from our network of both active and passive medical professional candidates."
+    },
+    {
+      "tag": "other:telehealth",
+      "stance": "core_product",
+      "sentence": "Our Workflow Solutions, which include our telehealth, on-call scheduling, digital fax and AI tools, are designed to streamline clinical workflow, reduce administrative burden, connect clinicians with patients and colleagues, and provide fast, evidence-based answers to clinical questions, including drug information."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to stringent and changing laws, regulations, self-regulatory schemes, contractual obligations, and standards related to privacy, data protection, and information security."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:57:13.473Z",
+  "model": "deepseek-v4-flash"
+}

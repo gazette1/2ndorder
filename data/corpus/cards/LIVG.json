@@ -1,0 +1,50 @@
+{
+  "cik": "0001593549",
+  "ticker": "LIVG",
+  "name": "Livento Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-020899",
+    "filedAt": "2026-05-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1593549/000149315226020899/form10-k.htm"
+  },
+  "business": "Livento Group, through its subsidiary BOXO Productions, engages in movie production and distribution, and offers an AI-driven portfolio management software called Elisee to investment entities.",
+  "sellsTo": [
+    "Investment entities",
+    "Movie distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have internally developed software called Elisee that can capture large amounts of data and create predictive behavior based on client inputs that assist the client in establishing its investment portfolio."
+    },
+    {
+      "tag": "other:movie-production",
+      "stance": "core_product",
+      "sentence": "Currently, the Company's primary focus is the activities of BOXO Productions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Production of five movies filmed during 2025",
+      "date": null,
+      "sentence": "We engaged in the production of five movies, that will be filmed during 2025."
+    },
+    {
+      "event": "Movie projects expected to be delivered by end of 2025",
+      "date": "2025-12-31",
+      "sentence": "Our receivables are mainly due movie projects that are expected to be delivered end of 2025."
+    },
+    {
+      "event": "Receivables to be fully paid within first 6 months of 2026",
+      "date": "2026-06-30",
+      "sentence": "We reached agreement wit our customers to fully pay this within first 6 months of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:52:20.930Z",
+  "model": "deepseek-v4-flash"
+}

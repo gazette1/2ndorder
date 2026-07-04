@@ -1,0 +1,47 @@
+{
+  "cik": "0001371782",
+  "ticker": "MVO",
+  "name": "MV Oil Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-033879",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1371782/000110465926033879/tm261062-1_10k.htm"
+  },
+  "business": "The Trust was created to acquire and hold the net profits interest for the benefit of the Trust unitholders. The net profits interest entitles the Trust to receive 80% of the net proceeds attributable to MV Partners interest from the sale of production from the underlying properties. The Trust does not have any employees, and the business and affairs of the Trust are managed by the Trustee.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:oil-and-gas",
+      "stance": "core_product",
+      "sentence": "The net profits interest entitles the Trust to receive 80% of the net proceeds attributable to MV Partners interest from the sale of production from the underlying properties."
+    },
+    {
+      "tag": "other:oil-and-gas",
+      "stance": "risk_mention",
+      "sentence": "Prices of oil, natural gas and natural gas liquids fluctuate, and lower prices could reduce proceeds to the Trust and cash distributions to Trust unitholders."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Termination of net profits interest",
+      "date": "2026-06-30",
+      "sentence": "the net profits interest will terminate on June 30, 2026 (the Termination Date), because the minimum amount of production (14.4 MMBoe) applicable to the net profits interest has been produced and sold"
+    },
+    {
+      "event": "Final quarterly cash distribution",
+      "date": "2026-07-24",
+      "sentence": "The Trustee will make a final quarterly cash distribution, if any, on or about July 24, 2026 to the Trust unitholders of record on the 15th day following June 30, 2026"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "the net profits interest would entitle the Trust to receive net proceeds from the sale of production of not less than 11.5 MMBoe of proved reserves during the term of the Trust",
+      "sentence": "the net profits interest would entitle the Trust to receive net proceeds from the sale of production of not less than 11.5 MMBoe of proved reserves during the term of the Trust"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:40:38.204Z",
+  "model": "deepseek-v4-flash"
+}

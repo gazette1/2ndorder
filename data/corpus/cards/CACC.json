@@ -1,0 +1,44 @@
+{
+  "cik": "0000885550",
+  "ticker": "CACC",
+  "name": "CREDIT ACCEPTANCE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000885550-26-000047",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000047/cacc-20251231.htm"
+  },
+  "business": "Credit Acceptance Corporation provides innovative financing solutions that enable automobile dealers to sell vehicles to consumers, regardless of their credit history. The company offers two programs: the Portfolio Program and the Purchase Program. Its financing programs are offered through a nationwide network of automobile dealers.",
+  "sellsTo": [
+    "Automobile dealers",
+    "Consumers with impaired or limited credit histories"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Credit Acceptance Corporation (referred to as the Company, Credit Acceptance, we, our or us) makes vehicle ownership possible by providing innovative financing solutions that enable automobile dealers to sell vehicles to consumers, regardless of their credit history."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our wholly owned subsidiary VSC Re Company (VSC Re) is engaged in the business of reinsuring coverage under vehicle service contracts sold to consumers by Dealers on vehicles indirectly financed by us."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We depend on secure information technology, and a breach of our systems or those of our third-party service providers could result in our experiencing significant financial, legal, and reputational exposure and could materially adversely affect our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:36:56.708Z",
+  "model": "deepseek-v4-flash"
+}

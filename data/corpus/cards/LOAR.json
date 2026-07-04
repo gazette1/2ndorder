@@ -1,0 +1,40 @@
+{
+  "cik": "0002000178",
+  "ticker": "LOAR",
+  "name": "Loar Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002000178-26-000003",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/2000178/000200017826000003/ck0002000178-20251231.htm"
+  },
+  "business": "Loar Holdings Inc. specializes in the design, manufacture, and sale of niche aerospace and defense components. It primarily serves three core end markets: commercial aerospace, business jet and general aviation, and defense. Approximately 55% of its 2025 net sales were derived from aftermarket products.",
+  "sellsTo": [
+    "commercial aerospace",
+    "business jet and general aviation",
+    "defense"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We specialize in the design, manufacture, and sale of niche aerospace and defense components that are essential for today's aircraft and aerospace and defense systems."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We primarily serve three core end markets: commercial aerospace, business jet and general aviation, and defense."
+    },
+    {
+      "tag": "other:aftermarket",
+      "stance": "core_product",
+      "sentence": "We estimate that approximately 55% of our 2025 net sales were derived from aftermarket products."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:31:08.264Z",
+  "model": "deepseek-v4-flash"
+}

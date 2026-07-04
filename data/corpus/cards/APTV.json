@@ -1,0 +1,91 @@
+{
+  "cik": "0001521332",
+  "ticker": "APTV",
+  "name": "Aptiv PLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001521332-26-000009",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000009/aptv-20251231.htm"
+  },
+  "business": "Aptiv is a global industrial technology company that provides hardware and software solutions for automation, electrification, and digitalization across automotive, aerospace, defense, and telecom markets. It operates three segments: Advanced Safety and User Experience (sensors, compute, software), Engineered Components Group (connection systems, interconnects), and Electrical Distribution Systems (power distribution). Its customers include the world's 25 largest automotive OEMs, leading aerospace and defense companies, and global telecom operators.",
+  "sellsTo": [
+    "automotive OEMs",
+    "aerospace and defense companies",
+    "global telecom operators",
+    "diversified industrials"
+  ],
+  "namedCustomers": [
+    "General Motors",
+    "Ford Motor Company",
+    "Stellantis N.V."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our Advanced Safety and User Experience segment provides advanced software and services, intelligent sensors and high-performance compute platforms;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are also continuing to develop market-leading automated driving solutions, such as automated driving software, sensing and perception technologies enhanced through artificial intelligence and machine learning."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Wind River is a global leader in delivering software for the intelligent edge for multiple industries, including automotive, by leveraging mixed-criticality software products and solutions enabling customers to develop in the cloud, deploy OTA and run and manage software at the vehicle edge."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We have identified high voltage electrification systems as a key product market."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Moreover, Electrification applies well beyond the automotive industry to other increasingly electrified devices and systems, as well as the infrastructure that supports them, such as data centers and energy storage systems."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "our customers include the 25 largest automotive original equipment manufacturers (OEMs) in the world, as well as many of the leading aerospace and defense companies and global telecom operators."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "our customers include the 25 largest automotive original equipment manufacturers (OEMs) in the world, as well as many of the leading aerospace and defense companies and global telecom operators."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "including aerospace and defense, telecom and datacom, and diversified industrials."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "active_investment",
+      "sentence": "On October 20, 2025, Aptiv entered into an agreement with StradVision, Inc. (StradVision), a provider of deep learning-based camera perception software for automotive applications, to convert the Company's existing preferred shares in StradVision into common shares, resulting in a common equity interest of approximately 41% in StradVision."
+    },
+    {
+      "tag": "other:autonomous-driving",
+      "stance": "active_investment",
+      "sentence": "In March 2020, we completed a transaction with Hyundai Motor Group (Hyundai) to form Motional AD LLC (Motional), a joint venture focused on the design, development and commercialization of autonomous driving technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Separation of Electrical Distribution Systems business into a new publicly traded company named Versigent",
+      "date": "2026-04-01",
+      "sentence": "The Company plans to complete the Separation by April 1, 2026, subject to customary closing conditions."
+    },
+    {
+      "event": "Renaming of Advanced Safety and User Experience segment to Intelligent Systems and Engineered Components Group to Engineered Components",
+      "date": "2026-03-31",
+      "sentence": "Commencing with the first Quarterly Report on Form 10-Q of 2026, Aptiv will rename its Advanced Safety and User Experience segment to Intelligent Systems, and will rename its Engineered Components Group segment to Engineered Components."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:03:58.494Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,43 @@
+{
+  "cik": "0001662991",
+  "ticker": "SEZL",
+  "name": "Sezzle Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001662991-26-000016",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000016/szl-20251231.htm"
+  },
+  "business": "Sezzle Inc. is a purpose-driven payments company that provides a digital shopping and payments platform offering consumers a flexible alternative to traditional credit through buy now, pay later products and paid subscription services. It primarily serves Gen Z and Millennial consumers and merchants ranging from small-to-medium sized businesses to enterprise merchants.",
+  "sellsTo": [
+    "Gen Z and Millennial consumers (ages 18-48)",
+    "small-to-medium sized businesses (SMB)",
+    "enterprise merchants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "WebBank",
+    "Visa U.S.A Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We have built a digital shopping and payments platform that provides consumers a flexible alternative to traditional credit."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Sezzle Platform can be integrated into merchants websites via pre-built widgets for select e-commerce platforms or our direct Application Programming Interface."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI/ML in various aspects of our operations, including fraud prevention, risk management, marketing and customer service."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:45:51.703Z",
+  "model": "deepseek-v4-flash"
+}

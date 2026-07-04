@@ -1,0 +1,47 @@
+{
+  "cik": "0000048465",
+  "ticker": "HRL",
+  "name": "HORMEL FOODS CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000048465-25-000059",
+    "filedAt": "2025-12-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000059/hrl-20251026.htm"
+  },
+  "business": "The Company develops, processes, and distributes a wide array of food products in a variety of markets and manufactures its products through various processing facilities and trusted co-manufacturers. The Company's products primarily consist of meat, nuts, and other food products sold across multiple distribution channels, such as U.S. retail, U.S. foodservice, and internationally.",
+  "sellsTo": [
+    "U.S. retail (grocery stores, mass merchandisers, club stores, natural food chains, drug, dollar and discount chains, e-commerce providers)",
+    "U.S. foodservice (restaurants, hospitality, healthcare, K-12, college and universities, convenience stores)",
+    "International retail and foodservice channels"
+  ],
+  "namedCustomers": [
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company is built on a foundation of innovation and integrity and a commitment to delivering high-quality, trusted food products across a diverse portfolio of brands and product solutions including Planters , SPAM , Jennie-O , Skippy , Applegate , Wholly , Hormel Black Label , Fontanini , Bacon1 , Hormel pepperoni, and more than 30 other beloved brands."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Fluctuations in commodity prices and availability of raw materials and other inputs could harm the Company s results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company may be adversely impacted if the Company is affected by cybersecurity attacks or other security breaches."
+    },
+    {
+      "tag": "other:climate-risk",
+      "stance": "risk_mention",
+      "sentence": "The potential impacts of a changing climate could have an adverse impact on the Company s results of operations and financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:58:54.060Z",
+  "model": "deepseek-v4-flash"
+}

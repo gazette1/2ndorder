@@ -1,0 +1,87 @@
+{
+  "cik": "0000004281",
+  "ticker": "HWM",
+  "name": "Howmet Aerospace Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000004281-26-000012",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-20251231.htm"
+  },
+  "business": "Howmet Aerospace Inc. is a leading global provider of advanced engineered solutions for the aerospace and transportation industries. Its primary businesses focus on jet engine components, aerospace fastening systems, and airframe structural components necessary for mission-critical performance and efficiency in aerospace and defense applications, as well as forged aluminum wheels for commercial transportation.",
+  "sellsTo": [
+    "commercial aerospace",
+    "defense aerospace",
+    "commercial transportation",
+    "gas turbines",
+    "other"
+  ],
+  "namedCustomers": [
+    "RTX Corporation",
+    "GE Aerospace",
+    "The Boeing Company"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Howmet is a leading global provider of advanced engineered solutions for the aerospace and transportation industries."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Third-party sales for the Engine Products segment increased $585, or 16%, in 2025 compared with 2024, primarily due to growth in the commercial aerospace, defense aerospace, and gas turbines markets, including engine spares growth."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The gas turbines market includes industrial gas turbines and oil and gas, which represented approximately 11% of the Company’s revenue in 2025."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Turbines across these size ranges serve growing demand for electricity generation, driven by accelerating data center build-out."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company believes that it faces threats of cyberattacks due to the industries it serves, the locations of its operations, and its technological innovations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use of new and evolving technologies, such as AI, presents risks and challenges that can impact our business."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "capital expenditures of $453 primarily related to Engine Products capacity expansion, various automation projects, and sustaining and return seeking capital projects across all segments."
+    },
+    {
+      "tag": "other:commercial-transportation",
+      "stance": "core_product",
+      "sentence": "The Company invented the forged aluminum truck wheel in 1948, and continues to advance technology to deliver breakthrough solutions that make trucks and buses lighter, more fuel efficient and sharper-looking."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Proposed CAM Acquisition expected closing",
+      "date": null,
+      "sentence": "The Proposed CAM Acquisition is expected to close in the first half of 2026, subject to customary closing conditions and regulatory approvals."
+    },
+    {
+      "event": "Brunner Manufacturing Co. Inc. acquisition closed",
+      "date": "2026-02-06",
+      "sentence": "On February 6, 2026, the Company acquired Brunner Manufacturing Co. Inc., a small privately-held manufacturer of high-quality fastener products located in the U.S., for an all-cash purchase price (the Brunner acquisition)."
+    },
+    {
+      "event": "Entry into Third Amended and Restated Five-Year Revolving Credit Agreement and 364-Day Revolving Credit Agreement",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, the Company entered into (i) the Third Amended and Restated Five-Year Revolving Credit Agreement ... and (ii) the 364-Day Revolving Credit Agreement ..."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:00:11.197Z",
+  "model": "deepseek-v4-flash"
+}

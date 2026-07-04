@@ -1,0 +1,58 @@
+{
+  "cik": "0001512673",
+  "ticker": "XYZ",
+  "name": "Block, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012254",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm"
+  },
+  "business": "Block, Inc. operates connected ecosystems including Square commerce solutions for sellers, Cash App financial services for consumers, TIDAL music platform for artists, and Bitcoin ecosystem with self-custody wallet, mining hardware, and open-source contributions. Square provides payment processing, software, hardware, and lending to small and mid-market businesses. Cash App offers peer-to-peer payments, debit card, BNPL, stock brokerage, bitcoin trading, and lending to individuals.",
+  "sellsTo": [
+    "small businesses",
+    "mid-market sellers",
+    "consumers (individuals)",
+    "artists",
+    "Bitcoin users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We apply data, automation, and AI to improve the speed, accuracy, and usability of our products."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "Our bitcoin ecosystem includes our bitcoin hardware projects, which include Bitkey, which is a self-custody bitcoin wallet, Proto, which is a bitcoin mining system, as well as Spiral, an independent team focused on contributing to bitcoin open source work."
+    },
+    {
+      "tag": "other:buy-now-pay-later",
+      "stance": "core_product",
+      "sentence": "Through the use of our BNPL products, consumers can split their purchases into generally three or four installments, typically due in two-week increments, without paying fees (if payments are made on time)."
+    },
+    {
+      "tag": "other:peer-to-peer-payments",
+      "stance": "core_product",
+      "sentence": "Cash App's foundation is its customer networks that engage with each other through peer to peer functionality."
+    },
+    {
+      "tag": "other:lending",
+      "stance": "core_product",
+      "sentence": "Square Loans facilitates loans to qualified Square sellers through Square Financial Services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Workforce reduction restructuring plan designed to better align organizational structure with operating model and strategic priorities; expected to reduce workforce by more than 40% and be substantially complete by end of Q2 2026.",
+      "date": "2026-06-30",
+      "sentence": "In February 2026 we announced a workforce reduction restructuring plan (the Workforce Plan ) designed to better align our organizational structure with our operating model and strategic priorities."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:18:55.329Z",
+  "model": "deepseek-v4-flash"
+}

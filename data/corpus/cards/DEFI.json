@@ -1,0 +1,36 @@
+{
+  "cik": "0001985840",
+  "ticker": "DEFI",
+  "name": "Hashdex Commodities Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001999371-26-007288",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1985840/000199937126007288/defi-10k_123125.htm"
+  },
+  "business": "The Fund issues shares of beneficial interest representing fractional undivided beneficial interests in a portfolio consisting primarily of bitcoin, with the investment objective to track the Nasdaq Bitcoin Reference Price - Settlement (NQBTCS). Shares trade on NYSE Arca under the symbol DEFI and are available to investors through broker-dealers.",
+  "sellsTo": [
+    "investors",
+    "broker-dealers",
+    "Authorized Purchasers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BitGo Trust Company, Inc.",
+    "U.S. Bank, N.A.",
+    "U.S. Bancorp Fund Services, LLC",
+    "Paralel Distributors LLC",
+    "Wilmington Trust"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "The Fund's assets consist of bitcoin and, potentially, limited amounts of cash."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:44:11.574Z",
+  "model": "deepseek-v4-flash"
+}

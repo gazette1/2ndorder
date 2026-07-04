@@ -1,0 +1,55 @@
+{
+  "cik": "0000740806",
+  "ticker": "FMBM",
+  "name": "F&M BANK CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-002891",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/740806/000165495426002891/fmbm_10k.htm"
+  },
+  "business": "F&M Bank Corp. is a one-bank holding company whose banking subsidiary, Farmers & Merchants Bank, offers a wide range of banking services including commercial and individual deposit accounts, loans, internet and mobile banking, ATMs, and courier service for commercial customers. The Bank also originates conventional and government agency sponsored mortgages for sale in the secondary market and has a large portfolio of residential mortgages and indirect auto loans. VSTitle, LLC provides title insurance services to customers in the market area.",
+  "sellsTo": [
+    "individuals and small to medium-sized businesses in the Shenandoah Valley of Virginia",
+    "commercial customers",
+    "agricultural borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Loan growth in 2025 was primarily driven by loans secured by farmland, residential mortgage loans, owner-occupied, and non-owner-occupied commercial real estate loans."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Loan growth in 2025 was primarily driven by loans secured by farmland, residential mortgage loans, owner-occupied, and non-owner-occupied commercial real estate loans."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank is an active lender with a diverse loan portfolio that includes commercial and residential real estate loans, commercial loans, consumer loans, construction and land development loans, and home equity loans."
+    },
+    {
+      "tag": "other:automobile-lending",
+      "stance": "core_product",
+      "sentence": "The Bank also makes various types of commercial and consumer loans, originates both conventional and government agency sponsored mortgages for sale in the secondary market, and has a large portfolio of residential mortgages and indirect auto loans."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company competes with large national and regional financial institutions, other independent community banks, nationally chartered savings banks, credit unions, consumer finance companies, mortgage companies, loan production offices, marketplace lenders and other financial technology firms and mutual funds."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We had no material cybersecurity incidents in 2025."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:33:30.128Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "0001641631",
+  "ticker": "XAIR",
+  "name": "Beyond Air, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-030287",
+    "filedAt": "2026-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1641631/000149315226030287/form10-k.htm"
+  },
+  "business": "Beyond Air is a commercial-stage medical device and biopharmaceutical company developing a platform of nitric oxide generators and delivery systems (LungFit) capable of generating NO from ambient air. Its first device, LungFit PH, received FDA premarket approval in June 2022 for improving oxygenation in term and near-term neonates with hypoxic respiratory failure associated with pulmonary hypertension (PPHN). The company also focuses on nontuberculous mycobacteria (NTM) lung infection and severe lung infections in COPD patients, and has majority-owned affiliates Beyond Cancer (solid tumors) and NeuroNOS (neurological conditions).",
+  "sellsTo": [
+    "Neonatal intensive care units (NICUs)",
+    "Hospitals treating pulmonary hypertension",
+    "Patients with NTM lung disease",
+    "Patients with severe lung infections",
+    "Solid tumor patients (via Beyond Cancer)",
+    "Autism spectrum disorder and other neurological conditions (via NeuroNOS)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NitricGen Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a commercial-stage medical device and biopharmaceutical company developing a platform of nitric oxide ( NO ) generators and delivery systems (the LungFit platform ) capable of generating NO from ambient air."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Through our majority-owned affiliate Beyond Cancer, Ltd. ( Beyond Cancer ), NO is used to target solid tumors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any cybersecurity incident affecting our products, infrastructure, suppliers, distributors, hospital customers or service providers could result in device malfunction, interruption of therapy delivery, data integrity issues, recalls, remediation costs, litigation, reputational harm, regulatory scrutiny or patient safety events."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA discussions for NTM program",
+      "date": "2026",
+      "sentence": "We anticipate having discussions with the FDA in calendar 2026 to identify a path forward."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. inhaled NO market ~$350M; worldwide ~$700M",
+      "sentence": "We believe the estimated total addressable market for inhaled NO in the U.S. is approximately $350 million and worldwide to be approximately $700 million or greater."
+    },
+    {
+      "claim": "Viral pneumonia U.S. market >$1.5B, worldwide >$3B",
+      "sentence": "For the broader annual viral pneumonia hospitalizations, we believe U.S. market potential to be greater than $1.5 billion and worldwide market potential to be greater than $3 billion."
+    },
+    {
+      "claim": "Bronchiolitis U.S. market >$500M, worldwide >$1.2B",
+      "sentence": "We believe the U.S. market potential for bronchiolitis to be greater than $500 million and worldwide market potential to be greater than $1.2 billion."
+    },
+    {
+      "claim": "NTM U.S. sales potential >$1B, worldwide >$2.5B",
+      "sentence": "For this indication, we believe U.S. sales potential to be greater than $1 billion and worldwide sales potential to be greater than $2.5 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:12:11.488Z",
+  "model": "deepseek-v4-flash"
+}

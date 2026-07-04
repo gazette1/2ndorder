@@ -1,0 +1,78 @@
+{
+  "cik": "0001048911",
+  "ticker": "FDX",
+  "name": "FEDEX CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001048911-25-000011",
+    "filedAt": "2025-07-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm"
+  },
+  "business": "FedEx Corporation provides transportation, e-commerce, and business services worldwide through its portfolio of companies, including express package delivery, less-than-truckload freight, and integrated logistics solutions. It serves customers and businesses across more than 220 countries and territories via its global air-ground network.",
+  "sellsTo": [
+    "Businesses worldwide",
+    "E-commerce retailers",
+    "Residential customers"
+  ],
+  "namedCustomers": [
+    "Amazon.com"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "FedEx International Connect Plus, an e-commerce service currently available from nearly 60 origin countries to over 190 destination countries, provides day-definite delivery typically within two to five business days."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The FedEx Logistics operating segment provides customs brokerage and global ocean and air freight forwarding, as well as integrated supply chain management solutions through FedEx Supply Chain."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "Many of these facilities utilize advanced automated unloading and sorting technology to streamline the handling of millions of packages daily."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "Federal Express is also testing autonomous, driverless technologies in the handling of large, non-conveyable packages, as well as robotic product sortation systems to sort small packages."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Leveraging the capabilities of FedEx Dataworks, developments in data and technology, including artificial intelligence and machine learning, are facilitating the execution of our DRIVE transformation by creating new opportunities to improve our operational efficiency."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "FedEx has a team of highly qualified professionals dedicated to securing information about our customers shipments and protecting our customers, vendors, and employees privacy, and we strive to provide a safe, secure online environment for our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FedEx Freight spin-off completion",
+      "date": "2026-06",
+      "sentence": "The transaction, which would be implemented through the spin-off of shares of the new company to FedEx stockholders, is expected to be tax-free for U.S. federal income tax purposes for FedEx stockholders and be completed by June 2026."
+    },
+    {
+      "event": "Launch of fdx commerce platform",
+      "date": "2024-09",
+      "sentence": "In September 2024, FedEx launched fdx, a fully integrated data-driven commerce platform that connects the entire customer journey."
+    },
+    {
+      "event": "Launch of trade clearance platform",
+      "date": "2025-05",
+      "sentence": "In May 2025, we launched a platform-based trade clearance solution to help our customers and other stakeholders navigate increasing operational complexities amid changing global trade policy."
+    },
+    {
+      "event": "Average list price increase for U.S. domestic and international services",
+      "date": "2025-01-06",
+      "sentence": "On January 6, 2025, a 5.9% average list price increase was implemented in the U.S. for domestic and international services."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:07:14.699Z",
+  "model": "deepseek-v4-flash"
+}

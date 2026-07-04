@@ -1,0 +1,38 @@
+{
+  "cik": "0001767057",
+  "ticker": "OBTC",
+  "name": "Osprey Bitcoin Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014439",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1767057/000149315226014439/form10-k.htm"
+  },
+  "business": "Osprey Bitcoin Trust is an exchange-traded fund that issues shares listed on The Nasdaq Stock Market LLC under the ticker OBTC, with the investment objective of reflecting the performance of Bitcoin as measured by the CME CF Bitcoin Reference Rate - New York Variant, less expenses and liabilities.",
+  "sellsTo": [
+    "investors seeking exposure to Bitcoin through a publicly listed security"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the performance of Bitcoin as measured by reference to the CME CF Bitcoin Reference Rate - New York Variant (the Index), less the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The loss, theft, compromise or destruction of a private key required to access a digital asset may be irreversible."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "The cryptography underlying Bitcoin could prove to be flawed or ineffective, or developments in mathematics and/or technology, including advances in digital computing, algebraic geometry and quantum computing, could result in such cryptography becoming ineffective."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:42:50.292Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0001564408",
+  "ticker": "SNAP",
+  "name": "Snap Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001564408-26-000013",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm"
+  },
+  "business": "Snap Inc. is a technology company that sells advertising products on its Snapchat platform to advertisers, subscription services such as Snapchat+ and Lens+ to users, and augmented reality glasses (Spectacles) to developers.",
+  "sellsTo": [
+    "Brand and direct response advertisers",
+    "Snapchat subscribers (users)",
+    "AR developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google Cloud",
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "We offer millions of augmented reality Lenses for self expression, learning, and play."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We also offer My AI, our AI-powered chatbot, which helps our community foster creativity and connection with friends, receive real-world recommendations, and learn more about their interests and favorite subjects."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Stories are a fun way to stay connected, and feature content from friends, our community, and our content partners."
+    },
+    {
+      "tag": "other:cloud-infrastructure",
+      "stance": "risk_mention",
+      "sentence": "We rely on Google Cloud and Amazon Web Services, or AWS, for the vast majority of our computing, storage, bandwidth, and other services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "The increase was primarily driven by a $143.0 million increase in infrastructure costs, attributable to DAU growth as well as investments in machine learning and AI."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of next generation Spectacles",
+      "date": null,
+      "sentence": "We are investing in the future of augmented reality, and in 2025 we announced that we would release our next generation of Spectacles in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:29:12.753Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,95 @@
+{
+  "cik": "0001831979",
+  "ticker": "SDST",
+  "name": "Stardust Power Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012709",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1831979/000149315226012709/form10-k.htm"
+  },
+  "business": "Stardust Power is developing a lithium refinery in Muskogee, Oklahoma, with expected capacity of producing up to 50,000 metric tpa of BGLC once fully operational. The Company plans to sell its products to and for the benefit of battery manufacturers, the United States defense industrial base, and Western original equipment manufacturers (OEMs).",
+  "sellsTo": [
+    "battery manufacturers",
+    "United States defense industrial base",
+    "Western original equipment manufacturers (OEMs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Prairie Lithium Limited",
+    "Mandrake Resources Limited",
+    "Usha Resources Ltd",
+    "QX Resources Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Stardust Power's mission is to help secure U.S. energy leadership for national security through the production of BGLC, with sustainability built into each step of its process."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "The Company plans to sell its products to and for the benefit of battery manufacturers, the United States defense industrial base, and Western original equipment manufacturers (OEMs)."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "The Company plans to sell its products to and for the benefit of battery manufacturers, the United States defense industrial base, and Western original equipment manufacturers (OEMs)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The accelerating deployment of hyperscale data centers, driven by artificial intelligence (AI) workloads and global digitalization, requires robust, high-density battery backup systems to ensure uninterrupted operations"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "the global transition to renewable energy is fueling ESS installations that rely heavily on lithium-based chemistries for grid stability and energy arbitrage."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Land purchase completed in Muskogee, Oklahoma",
+      "date": "2024-12-16",
+      "sentence": "On December 16, 2024, the Company completed the purchase and acquired title to the land."
+    },
+    {
+      "event": "FEL-3 report completed for Phase 1 of the refinery",
+      "date": "2025-08-01",
+      "sentence": "In August 2025, the Company announced the successful completion of the FEL-3 report."
+    },
+    {
+      "event": "Non-binding letter of intent with Prairie Lithium for feedstock supply",
+      "date": "2025-10-20",
+      "sentence": "On October 20, 2025, the Company entered into a non-binding letter agreement with Prairie Lithium Limited (Prairie), an Australia-based company, for the supply of 6,000 metric tons per annum of LCE in the form of lithium chloride."
+    },
+    {
+      "event": "Non-binding letter of intent with Mandrake Resources for feedstock supply",
+      "date": "2025-10-31",
+      "sentence": "On October 31, 2025, the Company entered into a non-binding letter agreement with Mandrake Resources Limited (Mandrake), an Australia-based company, for the supply of 7,500 metric tons per annum of LCE in the form of lithium chloride."
+    },
+    {
+      "event": "Exclusive license agreement with KMX for VMD technology",
+      "date": "2025-02-07",
+      "sentence": "On February 7, 2025 (the License Agreement Effective Date), the Company executed an exclusive license agreement with KMX (the License Agreement)."
+    },
+    {
+      "event": "Non-binding letter of intent with Sumitomo for offtake",
+      "date": "2025-01-28",
+      "sentence": "On January 28, 2025, the Company entered into a non-binding letter agreement with Sumitomo, contemplating a long-term commercial offtake agreement, pursuant to which Sumitomo would agree to acquire 20,000 metric tons of lithium carbonate per year from the Company's first line of production."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "US lithium demand estimated at over 200,000 tons LCE by 2030 and approximately 470,000 tons by mid-2030s",
+      "sentence": "The United States domestic demand market, which has been estimated in terms of lithium carbonate equivalent (LCE) to be over 200,000 tons by 2030, and to approximately 470,000 tons by the mid-2030s."
+    },
+    {
+      "claim": "Stardust Power estimates it can supply batteries for approximately 1 million EVs by 2035, representing about 8% of the US EV market estimated at 12.2 million EVs",
+      "sentence": "Given that the Company's refinery is expected to be able to produce up to 50,000 metric tpa of BGLC, Stardust Power estimates it should be able to supply batteries to approximately 1 million EVs, or approximately 8% of the United States EV market by 2035, which is estimated at 12.2 million EVs."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:44:17.002Z",
+  "model": "deepseek-v4-flash"
+}

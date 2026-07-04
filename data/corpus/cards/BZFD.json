@@ -1,0 +1,56 @@
+{
+  "cik": "0001828972",
+  "ticker": "BZFD",
+  "name": "BuzzFeed, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001828972-26-000030",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1828972/000182897226000030/bzfd-20251231.htm"
+  },
+  "business": "BuzzFeed is a premier digital media company with brands including BuzzFeed, HuffPost, and Tasty. The company generates revenue from advertising (display, programmatic, video), content (branded content, studio projects), and commerce (affiliate commissions and product licensing). Its customers include advertisers, content partners, and e-commerce operators, with Amazon representing approximately 28% of total revenue.",
+  "sellsTo": [
+    "advertisers",
+    "content partners",
+    "e-commerce operators",
+    "Fortune 500 companies"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Google",
+    "Target",
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "BuzzFeed is a premier digital media company."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Commerce and other revenues consist primarily of affiliate commissions earned on transactions initiated from our editorial shopping content."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are creating an AI-app incubator (Branch Office) with a focus on interactive storytelling, new content formats, and cutting-edge AI tools to power self-expression, connection, and creative exploration."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "AI-enabled search functionality has the potential to disrupt traffic, monetization, and content visibility, particularly for our news operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. e-commerce market expected to reach $1.8 trillion by 2030",
+      "sentence": "The U.S. e-commerce market is expected to reach $1.8 trillion by 2030 and comprise 29% of total retail sales, according to Forrester."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:34:46.196Z",
+  "model": "deepseek-v4-flash"
+}

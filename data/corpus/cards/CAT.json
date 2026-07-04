@@ -1,0 +1,76 @@
+{
+  "cik": "0000018230",
+  "ticker": "CAT",
+  "name": "CATERPILLAR INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000018230-26-000008",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+  },
+  "business": "Caterpillar is the world's leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives. It operates through segments: Construction Industries, Resource Industries, Power & Energy, and Financial Products. The company sells to customers in infrastructure, building construction, mining, oil and gas, power generation, marine, rail, and industrial applications.",
+  "sellsTo": [
+    "construction",
+    "mining",
+    "oil and gas",
+    "power generation",
+    "marine",
+    "rail",
+    "industrial",
+    "data centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Power Generation Sales increased in large reciprocating engines, primarily data center applications."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and Gas Sales increased in turbines and turbine-related services."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Our equipment is used to extract and haul copper, iron ore, coal, oil sands, aggregates, gold and other minerals and ores."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our Construction Industries segment is primarily responsible for supporting customers using machinery in infrastructure and building construction applications."
+    },
+    {
+      "tag": "other:rail",
+      "stance": "core_product",
+      "sentence": "diesel-electric locomotives and other rail-related products and services"
+    },
+    {
+      "tag": "other:marine",
+      "stance": "core_product",
+      "sentence": "reciprocating engines, drivetrain and integrated systems and solutions for the marine"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Q1 2026 dealer inventory build",
+      "date": "2026-03-31",
+      "sentence": "We expect machine dealer inventory to increase in excess of $1.0 billion during the first quarter of 2026, aligning with the seasonal pattern, compared to roughly flat levels in the first quarter of 2025."
+    },
+    {
+      "event": "Filing of Form 8-K for Rail division recast",
+      "date": "2026-03-31",
+      "sentence": "In March 2026, we will file a Form 8-K recasting historical periods to reflect the movement of the Rail division to Resource Industries."
+    },
+    {
+      "event": "2026 restructuring and capex plan",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we expect restructuring costs of approximately $300 million to $350 million and capital expenditures of around $3.5 billion."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:49:59.542Z",
+  "model": "deepseek-v4-flash"
+}

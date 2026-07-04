@@ -1,0 +1,44 @@
+{
+  "cik": "0002024899",
+  "ticker": "MFBI",
+  "name": "Monroe Federal Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-077799",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2024899/000110465926077799/mfbi-20260331x10k.htm"
+  },
+  "business": "Monroe Federal Bancorp, Inc. operates as a savings and loan holding company conducting operations through its wholly owned subsidiary, Monroe Federal Savings and Loan Association. The company accepts deposits from the general public and invests those deposits primarily in one- to four-family residential mortgage loans and, to a lesser extent, commercial real estate loans, both secured by properties in its primary market area.",
+  "sellsTo": [
+    "Individuals and businesses in Miami and Montgomery Counties, Ohio, and contiguous areas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our business consists primarily of accepting deposits from the general public and investing those deposits, together with funds generated from operations, primarily in one- to four-family residential mortgage loans and, to a lesser extent, commercial real estate loans, both secured by properties located in our primary market area."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also face competition for loans from mortgage banking firms, consumer finance companies, credit unions, and fintech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "These forward-looking statements are based on our current beliefs and expectations and are inherently subject to significant business, economic and competitive uncertainties and contingencies, many of which are beyond our control... a failure or breach of our operational or information security systems or infrastructure, including cyberattacks;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Begin selling one- to four-family residential mortgage loans to secondary market",
+      "date": null,
+      "sentence": "We anticipate beginning to sell one-to-four family residential mortgage loans early in fiscal year 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:10:14.130Z",
+  "model": "deepseek-v4-flash"
+}

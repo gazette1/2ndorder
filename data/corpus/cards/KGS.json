@@ -1,0 +1,60 @@
+{
+  "cik": "0001767042",
+  "ticker": "KGS",
+  "name": "Kodiak Gas Services, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001767042-26-000012",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000012/kgs-20251231.htm"
+  },
+  "business": "We are a leading provider and operator of large horsepower contract compression infrastructure in the U.S, supporting the critical movement and processing of natural gas across key production regions. Our business is centered on long term customer relationships, operational excellence, and disciplined capital deployment. Our Contract Services and related services are critical to our customers ability to reliably produce, gather and transport natural gas and oil.",
+  "sellsTo": [
+    "Upstream and midstream natural gas and oil companies",
+    "S&P 500 constituent investment-grade customers active in the Permian Basin"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a leading provider and operator of large horsepower contract compression infrastructure in the U.S, supporting the critical movement and processing of natural gas across key production regions."
+    },
+    {
+      "tag": "other:electric-compression",
+      "stance": "active_investment",
+      "sentence": "Electric motor driven compression is also part of our long-term strategy to reduce emissions intensity across our fleet."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "A climate-related decrease in demand for natural gas and oil could negatively affect Kodiak's business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Kodiak and its suppliers and vendors have been subject to, and will likely continue to be subject to, attempts to disrupt operations, any of which could result in a material decrease in revenues."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced acquisition of Distributed Power Solutions",
+      "date": "2026-02-05",
+      "sentence": "On February 5, 2026, the Company entered into a purchase agreement to acquire DPS, a provider of distributed power solutions in an equity and cash transaction valued at approximately $675.0 million at the time of signing per the terms of the purchase agreement, subject to adjustment in accordance with the purchase agreement."
+    },
+    {
+      "event": "New training facility opening",
+      "date": null,
+      "sentence": "To further expand capacity and strengthen our technical pipeline, we are constructing a significantly larger, state-of-the-art training facility for our new BEARS Academy home in Midland, scheduled to open in summer 2026."
+    },
+    {
+      "event": "Quarterly dividend declared",
+      "date": "2026-01-28",
+      "sentence": "On January 28, 2026, our Board declared a quarterly dividend of $0.49 per share of common stock, or approximately $43.1 million, which was paid on February 20, 2026 to stockholders of record at the close of business on February 13, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:33:26.366Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0001356093",
+  "ticker": "CREX",
+  "name": "CREATIVE REALITIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-012302",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1356093/000143774926012302/crex20251231c_10k.htm"
+  },
+  "business": "Creative Realities provides digital signage and media solutions including hardware resale, services, and SaaS software platforms. It serves enterprise customers in retail, entertainment, sports venues, restaurants, convenience stores, financial services, automotive, lottery, mixed-use developments, and DOOH advertising networks.",
+  "sellsTo": [
+    "Retail",
+    "Entertainment and Sports Venues",
+    "Restaurants (including QSR)",
+    "Convenience Stores",
+    "Financial Services",
+    "Automotive",
+    "Lottery",
+    "Mixed Use Developments",
+    "DOOH Advertising Networks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Samsung",
+    "BrightSign"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ad-tech",
+      "stance": "core_product",
+      "sentence": "The Company has developed and deployed the AdLogic and CPM+ platforms, which, working in conjunction with our CMS platforms, present completely integrated digital advertising solutions for existing and prospective customers seeking to monetize their in-store retail media networks."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are exploring ways to integrate AI and ML into many of our offerings."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cyber security risks and interruptions or failures in our information technology systems and those of third party partners with whom our applications are integrated, and will likely need to expend additional resources to enhance our protection from such risks."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our expertise in logistics improves deployment efficiency, reduces delays and problems, and saves customers time and money."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Our operations are dependent in part upon: network capacity provided by third-party telecommunications networks; data center services provider owned and leased infrastructure and capacity;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:18:17.824Z",
+  "model": "deepseek-v4-flash"
+}

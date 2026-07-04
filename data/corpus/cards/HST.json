@@ -1,0 +1,61 @@
+{
+  "cik": "0001070750",
+  "ticker": "HST",
+  "name": "HOST HOTELS & RESORTS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001070750-26-000054",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1070750/000107075026000054/hst-20251231.htm"
+  },
+  "business": "Host Hotels & Resorts is the largest publicly traded lodging REIT, owning 76 luxury and upper-upscale hotels primarily in the United States. It generates revenue from room sales, food and beverage, and other ancillary services. Its hotels are managed by third-party operators under long-term agreements, with customers consisting of transient, group, and contract business travelers.",
+  "sellsTo": [
+    "Transient business (individual business/leisure travelers)",
+    "Group business (association, corporate, SMERF)",
+    "Contract business (airline crews, etc.)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face the risk of material data breaches and disruptions of our managers or our own information technology systems, or the information technology systems of third parties on which we or our managers rely, which could materially adversely affect our business and results."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The introduction of AI, particularly generative AI, may also result in new or expanded risks and liabilities, including due to enhanced governmental or regulatory scrutiny, litigation, copyright infringement, compliance issues, ethical concerns, security risks relating to private and/or confidential information, as well as other factors that could adversely affect our business, reputation, and financial results."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Intensifying natural disasters and extreme weather events, including due to climate change, have directly affected the availability of insurance, increased premiums and deductibles, and reduced amounts that insurers are willing to underwrite."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of condominium villas at Four Seasons Resort Orlando",
+      "date": "2026-06-30",
+      "sentence": "the villas are expected to be completed in the first half of 2026."
+    },
+    {
+      "event": "Expiration of New York City collective bargaining agreement",
+      "date": "2026-06-30",
+      "sentence": "In June 2026, the collective bargaining agreement in New York City will expire."
+    },
+    {
+      "event": "Substantial completion of remaining Hyatt transformation properties",
+      "date": "2026-12-31",
+      "sentence": "in 2026, we expect to substantially complete the remaining three properties, Grand Hyatt Washington, Manchester Grand Hyatt San Diego and Hyatt Regency Reston."
+    },
+    {
+      "event": "Final determination on insurance claims for The Don CeSar",
+      "date": "2026-12-31",
+      "sentence": "Final determination on insurance claims related to The Don CeSar is expected in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:52:33.941Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,72 @@
+{
+  "cik": "0002052568",
+  "ticker": "LGN",
+  "name": "Legence Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002052568-26-000008",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2052568/000205256826000008/lgn-20251231.htm"
+  },
+  "business": "Legence Corp. provides engineering, installation and maintenance services for mission-critical mechanical, electrical, and plumbing (MEP) systems in buildings, focusing on high-growth sectors such as technology, life sciences, healthcare, and education. In 2025, the company generated over half of its revenues from data center & technology and life sciences & healthcare end-markets, and approximately 60% of revenues came from retrofits, upgrades, and maintenance for existing buildings.",
+  "sellsTo": [
+    "Large technology and industrial companies",
+    "Public sector institutions",
+    "Architects and general contractors (as intermediaries)",
+    "Federal government (less than 2% of revenues)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In 2025, we generated more than half of our revenues from high growth industries, which we define as clients operating in the data center & technology and life sciences & health care end-markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Includes facilities housing servers, networking equipment, systems critical for storing and managing data, operational facilities for internet service providers, software companies, information technologies (\"IT\") development hubs, AI (as defined below) development facilities and high-precision manufacturing plants producing semiconductor chips and electronics."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Includes facilities housing servers, networking equipment, systems critical for storing and managing data, operational facilities for internet service providers, software companies, information technologies (\"IT\") development hubs, AI (as defined below) development facilities and high-precision manufacturing plants producing semiconductor chips and electronics."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Includes facilities supporting life sciences research and development, pharmaceutical manufacturing and healthcare facilities providing inpatient and outpatient health services."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Includes a variety of other industries such as manufacturing, aerospace & defense, energy, agriculture, multi-family, hospitality & entertainment, among others, as well as the federal government."
+    },
+    {
+      "tag": "other:manufacturing",
+      "stance": "core_product",
+      "sentence": "Includes a variety of other industries such as manufacturing, aerospace & defense, energy, agriculture, multi-family, hospitality & entertainment, among others, as well as the federal government."
+    },
+    {
+      "tag": "other:energy",
+      "stance": "core_product",
+      "sentence": "Includes a variety of other industries such as manufacturing, aerospace & defense, energy, agriculture, multi-family, hospitality & entertainment, among others, as well as the federal government."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of The Bowers Group, Inc.",
+      "date": "2026-01-02",
+      "sentence": "On November 13, 2025, the Company entered into an equity purchase agreement to acquire all of the outstanding equity of The Bowers Group, Inc. The acquisition was completed on January 2, 2026."
+    },
+    {
+      "event": "Acquisition of Metrix Engineers, LLC",
+      "date": "2026-03-01",
+      "sentence": "On March 1, 2026, the Company acquired Metrix Engineers, LLC."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:01:54.519Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,87 @@
+{
+  "cik": "0001362988",
+  "ticker": "AYR",
+  "name": "Aircastle LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-026216",
+    "filedAt": "2026-04-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1362988/000162828026026216/ayr-20260228.htm"
+  },
+  "business": "Aircastle acquires, leases, and sells commercial jet aircraft to airlines worldwide. The company is a leading secondary market investor, sourcing aircraft through various channels including other lessors, airlines, financial institutions, and manufacturers. As of February 28, 2026, it owned and managed 282 aircraft leased to 76 lessees in 45 countries.",
+  "sellsTo": [
+    "airlines worldwide",
+    "airline customers",
+    "lessees in 45 countries"
+  ],
+  "namedCustomers": [
+    "IndiGo",
+    "United",
+    "KLM",
+    "American Airlines",
+    "LATAM",
+    "Frontier Airlines",
+    "WestJet",
+    "Viva Aerobus",
+    "Lion Air",
+    "Aerolineas Argentinas",
+    "Joint Stock Company Aurora Airlines",
+    "Joint Stock Company Rossiya Airlines"
+  ],
+  "namedSuppliers": [
+    "Airbus",
+    "Boeing",
+    "Embraer",
+    "Pratt & Whitney",
+    "Commercial Aircraft Corporation of China Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:aircraft-leasing",
+      "stance": "core_product",
+      "sentence": "Aircastle acquires, leases, and sells commercial jet aircraft to airlines worldwide."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Our portfolio, which is primarily comprised of new technology and mid-life narrow-body aircraft, will remain attractive to our airline customers."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "active_investment",
+      "sentence": "For the year ended February 28, 2026, 63% of our incremental net book value acquired was new technology aircraft with higher efficiency and lower emissions."
+    },
+    {
+      "tag": "other:geopolitical-risk",
+      "stance": "risk_mention",
+      "sentence": "Recent armed conflicts and heightened geopolitical tensions in the Middle East have increased uncertainty regarding regional stability."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may have a long-term impact on our business."
+    },
+    {
+      "tag": "other:trade-tariffs",
+      "stance": "risk_mention",
+      "sentence": "Escalating tariffs, trade tensions, and protectionist measures may adversely affect our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global aircraft fleet currently consists of approximately 28,000 commercial mainline passenger and freighter aircraft.",
+      "sentence": "Growth in commercial air traffic has historically been correlated with global economic activity and has grown at a rate of approximately one to two times that of global gross domestic product ( GDP ) growth."
+    },
+    {
+      "claim": "Aircraft leasing companies own approximately 49% of the world's commercial passenger jet aircraft.",
+      "sentence": "Aircraft leasing companies own approximately 49% of the world s commercial passenger jet aircraft."
+    },
+    {
+      "claim": "Under normal market conditions, the global fleet would be expected to continue expanding at an average annual rate of approximately 2 to 3%.",
+      "sentence": "Under normal market conditions, we would expect the global fleet to continue expanding at an average annual rate of approximately 2 to 3%."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:00:28.340Z",
+  "model": "deepseek-v4-flash"
+}

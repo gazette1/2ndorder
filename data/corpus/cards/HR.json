@@ -1,0 +1,41 @@
+{
+  "cik": "0001360604",
+  "ticker": "HR",
+  "name": "Healthcare Realty Trust Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001360604-26-000018",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1360604/000136060426000018/hr-20251231.htm"
+  },
+  "business": "The Company owns and operates properties that facilitate the delivery of healthcare services in primarily outpatient settings. It engages in leasing, management, acquisition, financing, development and redevelopment of such properties, focusing on facilities located on or near acute care hospital campuses.",
+  "sellsTo": [
+    "physician practices",
+    "health systems",
+    "surgery centers",
+    "imaging centers",
+    "cancer centers",
+    "diagnostic centers"
+  ],
+  "namedCustomers": [
+    "Prospect Medical",
+    "Hartford Health"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:healthcare-real-estate",
+      "stance": "core_product",
+      "sentence": "The Company owns and operates properties that facilitate the delivery of healthcare services in primarily outpatient settings."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company faces risks associated with security breaches through cyber attacks, cyber intrusions, or otherwise, as well as other significant disruptions of its information technology networks and related systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:34:55.251Z",
+  "model": "deepseek-v4-flash"
+}

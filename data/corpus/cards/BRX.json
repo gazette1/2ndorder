@@ -1,0 +1,48 @@
+{
+  "cik": "0001581068",
+  "ticker": "BRX",
+  "name": "Brixmor Property Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001581068-26-000007",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1581068/000158106826000007/brx-20251231.htm"
+  },
+  "business": "Brixmor Property Group Inc. owns and operates one of the largest publicly traded open-air retail portfolios in the United States, comprised primarily of grocery-anchored community and neighborhood shopping centers. As of December 31, 2025, its portfolio consisted of 348 shopping centers totaling approximately 63 million square feet of gross leasable area. The company leases space to non-discretionary and value-oriented retailers, as well as consumer-oriented service providers.",
+  "sellsTo": [
+    "retailers",
+    "consumer-oriented service providers"
+  ],
+  "namedCustomers": [
+    "The TJX Companies, Inc.",
+    "The Kroger Co.",
+    "Burlington Stores, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We own and operate one of the largest publicly traded open-air retail portfolios by gross leasable area (\"GLA\") in the United States (\"U.S.\"), comprised primarily of grocery-anchored community and neighborhood shopping centers."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "There are numerous shopping venues, including regional malls, outlet malls, other shopping centers, and e-commerce, which compete with our Portfolio in attracting and retaining retailers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and our tenants face risks relating to cybersecurity incidents that could cause the loss of confidential information or other business disruptions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The use of, or inability to use, artificial intelligence by us, our tenants, and/or our vendors presents risks that may adversely impact our business and operating results, the business and operating results of our tenants, or demand for properties in our Portfolio."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:19:18.602Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,82 @@
+{
+  "cik": "0001613103",
+  "ticker": "MDT",
+  "name": "Medtronic plc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-044354",
+    "filedAt": "2026-06-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026044354/mdt-20260424.htm"
+  },
+  "business": "Medtronic plc is a global healthcare technology company that develops, manufactures, and sells device-based medical therapies and services across three reportable segments: Cardiovascular Portfolio, Neuroscience Portfolio, and Medical Surgical Portfolio, as well as the Diabetes Business (now separated). Its products are used to treat conditions such as heart rhythm disorders, heart failure, structural heart disease, neurological disorders, and diabetes, among others.",
+  "sellsTo": [
+    "healthcare systems",
+    "physicians",
+    "clinicians",
+    "patients",
+    "hospitals",
+    "ambulatory surgical centers",
+    "physician offices",
+    "alternate site healthcare providers",
+    "home settings"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We have three reportable segments that primarily develop, manufacture, distribute, and sell device-based medical therapies and services: the Cardiovascular Portfolio, the Neuroscience Portfolio, and the Medical Surgical Portfolio."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Turn data, AI, and automation into action: We are confident in our ability to maximize new technology, AI, and data and analytics to tailor therapies in real-time, facilitating remote monitoring and care delivery that conveniently manages conditions, and creates new standards of care."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our Cranial & Spinal Technologies division ... offers ... Mazor robotic guidance systems used in robot-assisted spine procedures, and ... Hugo robotic-assisted surgery (RAS) system designed for a broad range of soft-tissue procedures."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Biologic solutions products, including our Infuse bone graft (InductOs in the European Union (E.U.)), which contains a recombinant human bone morphogenetic protein-2, rhBMP-2, for certain spinal, trauma, and oral maxillofacial applications."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Endoscopy products, including the GI Genius intelligent endoscopy module, the PillCam capsule endoscopy systems, the Bravo calibration-free reflux testing systems, the Endoflip 300 impedance planimetry system, the ManoScan high-resolution manometry system, and the Barrx platform."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Products focused on blood oxygen management and remote monitoring, including Nellcor pulse oximetry monitors and sensors, Healthcast Connectivity Solutions, and the RespArray patient monitor."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announcement of intent to separate Diabetes Business",
+      "date": "2025-05-01",
+      "sentence": "In May 2025, the Company announced its intent to separate the Diabetes Business, with the intention to create a new independent, publicly traded company, MiniMed Group, Inc. (MiniMed)."
+    },
+    {
+      "event": "MiniMed initial public offering completed",
+      "date": "2026-03-09",
+      "sentence": "On March 9, 2026, MiniMed completed an initial public offering (the IPO)."
+    },
+    {
+      "event": "Diabetes Operating Unit deconsolidated as reportable segment",
+      "date": "2026-06-30",
+      "sentence": "During the fourth quarter of fiscal year 2026, the Diabetes Operating Unit was no longer considered a reportable segment."
+    },
+    {
+      "event": "EU MDR extended implementation period for high-risk devices",
+      "date": "2027-12-31",
+      "sentence": "The European Commission extended the implementation period to the end of 2027 for high-risk devices and to the end of 2028 for medium and low risk devices."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:00:30.844Z",
+  "model": "deepseek-v4-flash"
+}

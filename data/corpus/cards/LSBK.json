@@ -1,0 +1,50 @@
+{
+  "cik": "0002059653",
+  "ticker": "LSBK",
+  "name": "Lake Shore Bancorp, Inc. /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-109481",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/2059653/000119312526109481/lsbk-20251231.htm"
+  },
+  "business": "Lake Shore Bancorp is a bank holding company whose subsidiary, Lake Shore Bank, attracts retail deposits from the general public and invests primarily in commercial real estate loans, one- to four-family residential mortgage loans, home equity lines of credit, and to a lesser extent commercial business loans, consumer loans, and investment securities. Its operations are concentrated in Erie and Chautauqua Counties of Western New York.",
+  "sellsTo": [
+    "retail customers in Western New York",
+    "commercial businesses in Western New York"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our principal lending activity is the origination of fixed rate and adjustable rate mortgage loans collateralized by commercial and residential real estate primarily located within our market area."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Potential risks and uncertainties that could cause our actual results to differ from those anticipated in any forward-looking statements include, but are not limited to, data loss or other security breaches, including a breach of our operational or security systems, policies or procedures, including cyber-attacks on us or on our third party vendors or service providers."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Technological advances have lowered barriers to entry in our local market area by allowing banks to expand their geographic reach by providing services over the internet and have made it possible for non-depository institutions, including fintech companies, to offer products and services that have traditionally been provided by banks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase of up to 5% of outstanding common stock may commence",
+      "date": "2026-07-20",
+      "sentence": "On October 22, 2025, the Board of Directors of the Company adopted a plan to repurchase up to 5% of its outstanding shares of common stock, which may commence following the one-year anniversary of the Conversion, or on July 20, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Erie and Chautauqua Counties had an estimated combined population of approximately 1.1 million.",
+      "sentence": "As of the most recent United States Census Bureau population census as of July 1, 2024, Erie and Chautauqua Counties had an estimated combined population of approximately 1.1 million."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:32:55.456Z",
+  "model": "deepseek-v4-flash"
+}

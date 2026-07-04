@@ -1,0 +1,86 @@
+{
+  "cik": "0001804176",
+  "ticker": "BFLY",
+  "name": "Butterfly Network, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001804176-26-000009",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1804176/000180417626000009/bfly-20251231.htm"
+  },
+  "business": "Butterfly Network, Inc. sells handheld ultrasound devices (Butterfly iQ+, iQ3) powered by its proprietary Ultrasound-on-Chip semiconductor platform, along with software subscriptions, enterprise software (Compass AI), educational tools, and services. It also licenses its semiconductor platform for co-development in non-competitive markets through the Butterfly Embedded program. Customers include healthcare systems, physicians, healthcare providers, veterinarians, and medical schools.",
+  "sellsTo": [
+    "healthcare systems",
+    "physicians and healthcare providers",
+    "veterinarians",
+    "medical schools",
+    "global health organizations (through partnerships)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TSMC",
+    "Benchmark Electronics, Inc.",
+    "Cardinal Health 105, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Butterfly is the pioneer of the Ultrasound-on-Chip semiconductor platform and a leader in semiconductor-based point-of-care ultrasound technology."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We are an innovative digital health business transforming care through a unique combination of portable, semiconductor-based ultrasound technology, intuitive software, services, and educational offerings that can make medical imaging more accessible than ever before."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Butterfly is the pioneer of the Ultrasound-on-Chip semiconductor platform and a leader in semiconductor-based point-of-care ultrasound technology."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our technology is designed for true mobility, not just because it is a single, portable imaging device suitable for any doctor or nurse, but also because it is powered by AI-driven tools, cloud connectivity, and seamless hospital integration."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "Examples of active engagement areas include brain computer interfaces, surgical robotics, and liver assessment technologies."
+    },
+    {
+      "tag": "other:wearable-implantable",
+      "stance": "active_investment",
+      "sentence": "Because our Ultrasound-on-Chip is cost-effective, power-efficient and offers an entire 3D-capable ultrasound machine on a chip about the size of two postage stamps we believe there is vast opportunity for innovation across wearable, implantable, interventional and therapeutic healthcare use cases, as well as a number of non-medical applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "TSMC Foundry Service Agreement expiration",
+      "date": "2026-12-31",
+      "sentence": "The FSA's current term expires on December 31, 2026, subject to automatic renewal for successive two-year terms unless terminated by either party upon three months notice prior to the end of the then-current term."
+    },
+    {
+      "event": "Benchmark Manufacture and Supply Agreement expiration",
+      "date": "2026-10-01",
+      "sentence": "The MSA's current term expires on October 1, 2026, subject to automatic renewal for successive two-year terms unless either party gives 180 days prior written notice before the end of the then-current term to the other party electing not to renew the MSA."
+    },
+    {
+      "event": "Cardinal Health Exclusive Distribution Agreement expiration",
+      "date": "2026-08-31",
+      "sentence": "The Distribution Agreement's current term expires on August 31, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Potential new addressable market exceeds $100 billion from point-of-care ultrasound and home care services.",
+      "sentence": "We believe our traditional point-of-care ultrasound market paired with home care services opportunities relating to congestive heart failure, peripheral artery disease and neurogenic bladder populations in long term care facilities create a potential new addressable market that we estimate exceeds $100 billion."
+    },
+    {
+      "claim": "Additional $325 billion total addressable market through Butterfly Embedded co-development in wearable, implantable, interventional and therapeutic healthcare.",
+      "sentence": "Beyond our POCUS and home services market, we believe we have the opportunity to expand our total addressable market by an additional $325 billion of relevant wearable, implantable, interventional and therapeutic healthcare technology opportunities through Butterfly Embedded co-development."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:01:19.207Z",
+  "model": "deepseek-v4-flash"
+}

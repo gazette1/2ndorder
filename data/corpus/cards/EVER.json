@@ -1,0 +1,39 @@
+{
+  "cik": "0001640428",
+  "ticker": "EVER",
+  "name": "EverQuote, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-066957",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640428/000119312526066957/ever-20251231.htm"
+  },
+  "business": "EverQuote operates a leading online marketplace for insurance shopping, connecting consumers with insurance provider customers including carriers and agents. The company derives revenue primarily from consumer inquiries sold as referrals to insurance providers.",
+  "sellsTo": [
+    "insurance carriers",
+    "insurance agents"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "We use and may further incorporate AI and machine learning in our business, and challenges with properly managing its use could result in reputational harm, competitive harm, and legal liability, and adversely affect our results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be materially and adversely affected by a cybersecurity breach or other attack, failure or interruption involving our computer systems or our third-party service providers."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We operate a leading online marketplace for insurance shopping, connecting consumers with insurance provider customers, which includes both carriers and agents."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:08:05.106Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0000829323",
+  "ticker": "INUV",
+  "name": "Inuvo, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-001943",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/829323/000165495426001943/inuvo_10k.htm"
+  },
+  "business": "Inuvo provides AI-driven data and advertising technology solutions, including a proprietary large language model for audience targeting. It generates revenue through two channels: Agencies & Brands (managed and self-service) and Platform (integrations for large consolidators of advertising demand).",
+  "sellsTo": [
+    "Agencies and brands",
+    "Large advertising platforms",
+    "Advertisers and advertising agencies"
+  ],
+  "namedCustomers": [
+    "Yahoo!",
+    "Google"
+  ],
+  "namedSuppliers": [
+    "Microsoft Azure",
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "Inuvo is a market leader in generative artificial intelligence for modeling media audiences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our primary competitive advantages include: patented, proprietary generative large language artificial intelligence technology for the categorization of consumer intent, enabling us to match online audiences to relevant products, services, or brands across screens; real-time visibility into advertising opportunities, allowing our technology to respond to over a million opportunities per second; and patented advertising fraud prevention technology that safeguards our clients investments."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:45:56.663Z",
+  "model": "deepseek-v4-flash"
+}

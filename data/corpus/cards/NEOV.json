@@ -1,0 +1,69 @@
+{
+  "cik": "0001748137",
+  "ticker": "NEOV",
+  "name": "NeoVolta Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-007304",
+    "filedAt": "2025-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1748137/000168316825007304/neovolta_i10k-063025.htm"
+  },
+  "business": "NeoVolta designs and manufactures high-performance energy storage systems (ESS) for residential and commercial applications. It markets and sells products primarily through certified solar installers and regional and national distributors. The company focuses on providing safe, flexible solutions for backup power, self-consumption, and energy resilience.",
+  "sellsTo": [
+    "Residential homeowners (retrofit and new installations)",
+    "Small commercial businesses",
+    "Commercial and industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We are a designer and manufacturer of high-performance energy storage systems ( ESS ) for residential and commercial applications."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Utilities are increasingly turning to rate reform, such as California s net-billing tariff, which improves the economics of pairing solar with batteries."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "We are positioning NeoVolta to compete in the emerging commercial and industrial ( C&I ) segment, where businesses are seeking solutions for resiliency, demand-charge management, and grid services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expanded into a larger manufacturing facility in Poway",
+      "date": "2025-02",
+      "sentence": "In February 2025, we expanded into a larger facility in Poway to support increased production."
+    },
+    {
+      "event": "Announced 250 kW / 430 kWh Commercial & Industrial BESS",
+      "date": null,
+      "sentence": "Subsequent to fiscal year end, we announced two additional products: (i) a Commercial & Industrial Battery Energy Storage System (BESS) with a 250 kW power rating and 430 kWh usable capacity, designed for larger-scale applications; and (ii) the NV16 kW AC hybrid inverter with 24 kW PV input, developed to support higher-capacity residential installations and whole-home backup."
+    },
+    {
+      "event": "NV16 kW inverter general availability",
+      "date": "2025-11",
+      "sentence": "The NV16 kW inverter is expected to become generally available in November 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "There are an estimated 4.2 million U.S. homes equipped with solar panels, and more than 3 million of these do not currently have battery storage.",
+      "sentence": "There are an estimated 4.2 million U.S. homes equipped with solar panels, and more than 3 million of these do not currently have battery storage."
+    },
+    {
+      "claim": "Nationally, only about 6% of residential solar systems included storage in 2020, compared to an estimated 15–20% by 2024.",
+      "sentence": "Nationally, only about 6% of residential solar systems included storage in 2020, compared to an estimated 15–20% by 2024."
+    },
+    {
+      "claim": "Wood Mackenzie reports ~458 MW added in Q1 2025 alone, the strongest first quarter on record.",
+      "sentence": "Wood Mackenzie reports ~458 MW added in Q1 2025 alone, the strongest first quarter on record."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:30:48.436Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001584207",
+  "ticker": "OMF",
+  "name": "OneMain Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001584207-26-000008",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1584207/000158420726000008/omf-20251231.htm"
+  },
+  "business": "OneMain Holdings, Inc. offers personal loans, secured auto financing, credit cards, and optional insurance products to nonprime consumers through a branch network and digital platform.",
+  "sellsTo": [
+    "nonprime consumers",
+    "consumers with limited access to credit"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our digital platform allows current and prospective customers the ability to apply for and close a personal loan or credit card online."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance business is conducted through our wholly-owned insurance subsidiaries, American Health and Life Insurance Company (AHL) and Triton Insurance Company (Triton)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business relies heavily on information systems to deliver products and services to our customers and to manage our operations. These systems have encountered, and may in the future encounter, service disruptions due to system, network or software vulnerabilities or failures, security breaches, cyber-attacks, social engineering, ransomware, viruses, accidents, power disruptions, telecommunications failures, acts of terrorism or war, physical or electronic break-ins, or other events, disruptions, or intrusions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. nonprime consumers have approximately $1.3 trillion of outstanding borrowings in personal loans, auto loans and leases, and credit cards.",
+      "sentence": "Using third party market data as of December 2025 and internally aligning to our current product offerings, we estimate U.S. nonprime consumers collectively have approximately $1.3 trillion of outstanding borrowings in the form of personal loans, auto loans and leases, and credit cards."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:36:02.971Z",
+  "model": "deepseek-v4-flash"
+}

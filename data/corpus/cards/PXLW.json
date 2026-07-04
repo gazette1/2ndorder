@@ -1,0 +1,41 @@
+{
+  "cik": "0001040161",
+  "ticker": "PXLW",
+  "name": "PIXELWORKS, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001040161-26-000019",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1040161/000104016126000019/pxlw-20251231.htm"
+  },
+  "business": "Pixelworks provides cinematic visualization solutions, including its flagship TrueCut Motion platform, which enables filmmakers to fine-tune motion appearance and preserve creative intent across all screens. The company licenses its technology to display makers and offers motion grading services to content creators.",
+  "sellsTo": [
+    "filmmakers",
+    "content distributors",
+    "display makers and brands"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:cinematic-visualization",
+      "stance": "core_product",
+      "sentence": "Following the Sale, the Company is focused on developing and licensing cinematic visualization solutions, including its flagship TrueCut Motion TM platform."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Examples include the increased adoption of artificial intelligence in visual processing systems, increased display resolution and size, faster screen refresh rates, video capability such as High Dynamic Range, the proliferation of new display devices and the drive to network display devices together."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of escrow funds upon resolution of tax matters in China",
+      "date": null,
+      "sentence": "Additionally, approximately RMB 8.7 million, or approximately $1.2 million in U.S. dollars, is being held in an escrow account to be released upon the resolution of certain tax matters in China."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:22:45.346Z",
+  "model": "deepseek-v4-flash"
+}

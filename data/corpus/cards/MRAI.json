@@ -1,0 +1,65 @@
+{
+  "cik": "0001844392",
+  "ticker": "MRAI",
+  "name": "Marpai, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-034129",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1844392/000121390026034129/ea0282918-10k_marpai.htm"
+  },
+  "business": "Marpai, Inc. provides Third Party Administrator (TPA), Pharmacy Benefit Management (PBM), and health plan services to self-insured employers through a technology platform. It designs and administers employer-sponsored health plans, handling claims processing, provider network access, and value-added services like care management. Most of its clients are small and medium-sized companies and local government entities.",
+  "sellsTo": [
+    "self-insured employers",
+    "small and medium-sized companies",
+    "local government entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We provide affordable, intelligent, healthcare programs for self-insured employers in the U.S."
+    },
+    {
+      "tag": "other:deep-learning",
+      "stance": "core_product",
+      "sentence": "We bring deep learning and data analytics to the rapidly growing, TPA sector to deliver affordable intelligent, healthcare to our Clients and their Members."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We serve our Clients primarily from third-party data-hosting facilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security measures are breached or unauthorized access to client data is otherwise obtained, our product and service offerings may be perceived as not being secure, Clients may reduce or stop the use of our services, and we may incur significant liabilities."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide administrative services, and act as TPA to self-insured employers who provide healthcare benefits to their employees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of claims processing consolidation onto single cloud-based platform",
+      "date": "2026-06-30",
+      "sentence": "We expect this realignment to be substantially complete by the end of the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. private health insurance spending reached $1.6 trillion in 2024.",
+      "sentence": "According to the Centers for Medicare and Medicaid Services (CMS), in 2024, U.S. private health insurance spending reached $1.6 trillion, creating significant market opportunities for technology and service providers who help manage costs, improve member experience, and provide other solutions to health plans and plan sponsors."
+    },
+    {
+      "claim": "67% of covered workers in small and medium-sized enterprises are enrolled in self-funded plans.",
+      "sentence": "According to the Kaiser Family Foundation, 67% of covered workers in SME are enrolled in self-funded plans."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:44:31.744Z",
+  "model": "deepseek-v4-flash"
+}

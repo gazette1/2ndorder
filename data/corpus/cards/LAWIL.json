@@ -1,0 +1,43 @@
+{
+  "cik": "0000750004",
+  "ticker": "LAWIL",
+  "name": "Light & Wonder, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000750004-26-000012",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/750004/000075000426000012/lnw-20251231.htm"
+  },
+  "business": "Light & Wonder is a leading cross-platform global games company that supplies game content, gaming machines, casino management systems (CMSs), table game products and services to licensed gaming entities, electronic pull-tabs and related services to charitable gaming entities, social casino and other online games to retail customers, and digital gaming content, distribution platforms, player account management systems, and iGaming content and services to iGaming operators.",
+  "sellsTo": [
+    "licensed gaming entities",
+    "charitable gaming entities",
+    "retail customers",
+    "iGaming operators"
+  ],
+  "namedCustomers": [
+    "Entain PLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "L&W is a leading cross-platform global games company with a focus on content and digital markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Rules governing new technological developments, such as developments in generative artificial intelligence (AI), remain unsettled, and these developments may affect aspects of our existing business model, including how we create our gaming products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our success depends on the security and integrity of the systems and products we offer, and security breaches, including cybersecurity breaches, or other disruptions could compromise our information or the information of our customers and expose us to liability, which would cause our business and reputation to suffer."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:07:25.989Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,85 @@
+{
+  "cik": "0000003453",
+  "ticker": "MATX",
+  "name": "Matson, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020944",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926020944/matx-20251231x10k.htm"
+  },
+  "business": "Matson, Inc. is a holding company that provides ocean transportation and logistics services through its subsidiaries, operating in two segments: Ocean Transportation and Logistics. The Ocean Transportation segment offers freight services to Hawaii, Alaska, Guam, Micronesia, China, Japan, and the South Pacific, along with terminal and stevedoring services. The Logistics segment provides multimodal transportation brokerage, freight forwarding, warehousing, and supply chain management services.",
+  "sellsTo": [
+    "Hawaii",
+    "Alaska",
+    "Guam",
+    "Micronesia",
+    "China",
+    "Japan",
+    "South Pacific",
+    "U.S. West Coast",
+    "U.S. government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Philly Shipyard",
+    "SSA Terminals, LLC (SSAT)"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Matson's Logistics business is conducted through Matson Logistics, Inc. ( Matson Logistics ), a wholly-owned subsidiary of MatNav. Established in 1987, Matson Logistics extends the geographic reach of Matson's transportation network throughout North America and Asia, and provides a variety of logistics services to its customers including: (i) multimodal transportation brokerage of domestic and international rail intermodal services, long-haul and regional highway trucking services, specialized hauling, flat-bed and project services, less-than-truckload services, and expedited freight services (collectively, Transportation Brokerage services); (ii) less-than-container load ( LCL ) consolidation and freight forwarding services (collectively, Freight Forwarding services); (iii) warehousing, trans-loading, value-added packaging and distribution services (collectively, Warehousing services); and (iv) purchase order management, booking services, and non-vessel operating common carrier ( NVOCC ) freight forwarding services (collectively, Supply Chain Management services)."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "This service mainly carries freight supporting the U.S. government including general sustenance cargo in both dry and refrigerated containers and household goods."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could impair the Company's ability to operate and adversely affect its business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "adoption of new and rapid changes in technology, such as the rise in artificial intelligence ( AI ) applications, may impact the transportation and logistics industry."
+    },
+    {
+      "tag": "other:lng-ready-vessels",
+      "stance": "active_investment",
+      "sentence": "The new vessels will have dual-fuel engines and will be equipped with tanks, piping and cryogenic equipment designed to operate on LNG, conventional fuels and alternative fuels."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of new Aloha Class vessel MAKUA",
+      "date": "2027-03-31",
+      "sentence": "Matson is constructing three new Aloha Class vessels with the following specifications and expected delivery dates: ... MAKUA Containership Q1 2027, MALAMA Containership Q3 2027, MAKENA Containership Q2 2028."
+    },
+    {
+      "event": "Delivery of new Aloha Class vessel MALAMA",
+      "date": "2027-09-30",
+      "sentence": "Matson is constructing three new Aloha Class vessels with the following specifications and expected delivery dates: ... MAKUA Containership Q1 2027, MALAMA Containership Q3 2027, MAKENA Containership Q2 2028."
+    },
+    {
+      "event": "Delivery of new Aloha Class vessel MAKENA",
+      "date": "2028-06-30",
+      "sentence": "Matson is constructing three new Aloha Class vessels with the following specifications and expected delivery dates: ... MAKUA Containership Q1 2027, MALAMA Containership Q3 2027, MAKENA Containership Q2 2028."
+    },
+    {
+      "event": "Completion of second phase of Sand Island terminal modernization program",
+      "date": "2026-12-31",
+      "sentence": "Additional projects for the second phase relate to improvements to its existing backup power generators and other terminal upgrades, which are expected to be completed within the next year."
+    },
+    {
+      "event": "Expansion into Pier 51A and portions of Pier 51B at Sand Island terminal after Pasha Hawaii relocation",
+      "date": "2027-12-31",
+      "sentence": "The third phase represents a broader and long-term expansion program at the Sand Island terminal facility. Matson expects to expand into Pier 51A and portions of Pier 51B after Pasha Hawaii ( Pasha ) relocates to, and is operational at, the Kapalama Container Terminal facility which is scheduled to occur in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:42:51.236Z",
+  "model": "deepseek-v4-flash"
+}

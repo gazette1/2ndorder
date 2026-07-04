@@ -1,0 +1,49 @@
+{
+  "cik": "0001815632",
+  "ticker": "TGCB",
+  "name": "Tego Cyber, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-24-000687",
+    "filedAt": "2024-01-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1815632/000165495424000687/tgcb_10k.htm"
+  },
+  "business": "Tego Cyber Inc. develops and commercializes cybersecurity solutions for threat intelligence and autonomous threat hunting/correlation. Its products include a curated threat intelligence feed and a threat correlation engine that integrates with existing SIEM and data lake platforms such as Splunk, Elastic, and Amazon Security Lake, targeting enterprise security teams.",
+  "sellsTo": [
+    "Enterprises using Splunk SIEM",
+    "Amazon Security Lake users",
+    "Organizations needing threat intelligence"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The company is focused on developing solutions for threat intelligence and autonomous threat hunting/correlation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of threat correlation integration for Databricks",
+      "date": null,
+      "sentence": "A threat correlation integration for Databricks is currently under development with expected release in early 2024."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global cybersecurity market projected to grow from $173 billion in 2020 to $270 billion by 2026 at an 8% CAGR (Gartner).",
+      "sentence": "Projections have this market growing at a Compound Annual Growth Rate (CAGR) of 8% from $173 billion in 2020 to $270 billion by 2026 (Gartner)."
+    },
+    {
+      "claim": "Cyber threat intelligence segment valued at $5.3 billion in 2018, projected to grow at 19.7% CAGR to $12.9 billion by 2023.",
+      "sentence": "The cyber threat intelligence segment of the overall cybersecurity market is estimated to be currently valued at $5.3 billion in 2018 and is projected to grow at a CAGR of 19.7% to reach $12.9 billion by 2023."
+    },
+    {
+      "claim": "Global cost of cybercrime expected to reach $5 trillion by 2024 (Juniper Research).",
+      "sentence": "A Juniper Research report on cybercrime from 2019, suggests that the cost of such malicious attacks will rise to US$5 trillion by 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:56:23.929Z",
+  "model": "deepseek-v4-flash"
+}

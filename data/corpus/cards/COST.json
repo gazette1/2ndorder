@@ -1,0 +1,51 @@
+{
+  "cik": "0000909832",
+  "ticker": "COST",
+  "name": "COSTCO WHOLESALE CORP /NEW",
+  "source": {
+    "form": "10-K",
+    "accession": "0000909832-25-000101",
+    "filedAt": "2025-10-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm"
+  },
+  "business": "Costco operates membership warehouses and e-commerce sites that offer a limited selection of nationally-branded and private-label products at low prices, generating high sales volumes and rapid inventory turnover. The company also provides ancillary services such as gasoline, pharmacy, optical, food court, hearing aids, and tire installation. Its membership model includes Gold Star and Business memberships with annual fees.",
+  "sellsTo": [
+    "Individual consumers",
+    "Businesses",
+    "Members in the U.S., Canada, and international markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our e-commerce operations give members convenience and a broader selection of goods and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Increased security threats and more sophisticated cyber misconduct pose a risk to our systems, networks, products and services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Some competitors have greater financial resources and technology capabilities, including the faster adoption of artificial intelligence"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure of $6,000 to $6,500 million in fiscal 2026",
+      "date": null,
+      "sentence": "It is our current intention to spend $6,000 to $6,500 during fiscal 2026."
+    },
+    {
+      "event": "Open up to 35 new warehouses in fiscal 2026",
+      "date": null,
+      "sentence": "We opened 27 new warehouses... in 2025, and plan to open up to 35 new warehouses, including five relocations, in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:50:22.667Z",
+  "model": "deepseek-v4-flash"
+}

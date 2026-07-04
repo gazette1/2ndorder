@@ -1,0 +1,45 @@
+{
+  "cik": "0001705012",
+  "ticker": "FATAQ",
+  "name": "Fat Brands, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-009125",
+    "filedAt": "2025-02-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1705012/000162828025009125/fat-20241229.htm"
+  },
+  "business": "FAT Brands Inc. is a leading multi-brand restaurant company that develops, markets, acquires and manages quick service, fast casual, casual dining and polished casual dining restaurant concepts around the world. We operate primarily as a franchisor of restaurants, generating revenue by charging franchisees an initial franchise fee as well as ongoing royalties. As of December 29, 2024, we had approximately 2,300 locations open or under construction, of which approximately 92% were franchised.",
+  "sellsTo": [
+    "franchisees",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "FAT Brands Inc. is a leading multi-brand restaurant company that develops, markets, acquires and manages quick service, fast casual, casual dining and polished casual dining restaurant concepts around the world."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Labor shortages or difficulty finding qualified employees could slow our growth, harm our business and reduce our profitability."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business may be adversely affected by cybersecurity incidents, which result in unauthorized access, theft, modification or destruction of confidential information that is stored in our systems or by third parties on our behalf."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Distribution of Twin Hospitality shares and NASDAQ listing",
+      "date": "2025-01",
+      "sentence": "In January 2025, we distributed approximately 5% of the fully-diluted shares of Class A Common Stock of Twin Hospitality to our common stockholders, and Twin Hospitality began trading as a standalone publicly traded company listed on NASDAQ under the symbol 'TWNP'."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:39:40.651Z",
+  "model": "deepseek-v4-flash"
+}

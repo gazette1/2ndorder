@@ -1,0 +1,38 @@
+{
+  "cik": "0001482430",
+  "ticker": "KBSR",
+  "name": "KBS Real Estate Investment Trust III, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001482430-26-000014",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482430/000148243026000014/kbsriii-20251231.htm"
+  },
+  "business": "KBS Real Estate Investment Trust III, Inc. is a REIT that owns a portfolio of 12 office properties as of December 31, 2025, and an investment in the equity securities of a Singapore real estate investment trust. The company leases office space to tenants and manages its real estate investments through an external advisor. It is focused on maximizing long-term value for stakeholders by managing loan maturities and property sales.",
+  "sellsTo": [
+    "Office tenants (corporate and commercial)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-office-real-estate",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, we owned 12 office properties and an investment in the equity securities of a Singapore real estate investment trust (the SREIT)."
+    },
+    {
+      "tag": "other:real-estate-equity-securities",
+      "stance": "active_investment",
+      "sentence": "We also own an investment in the equity securities of the SREIT."
+    },
+    {
+      "tag": "other:work-from-home",
+      "stance": "risk_mention",
+      "sentence": "Potential long-term changes in customer behavior, such as continued work-from-home arrangements, could materially and negatively impact the future demand for office space, further adversely impacting our operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:51:19.765Z",
+  "model": "deepseek-v4-flash"
+}

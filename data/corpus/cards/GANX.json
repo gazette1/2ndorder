@@ -1,0 +1,62 @@
+{
+  "cik": "0001819411",
+  "ticker": "GANX",
+  "name": "Gain Therapeutics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-035188",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819411/000110465926035188/ganx-20251231x10k.htm"
+  },
+  "business": "Gain Therapeutics is a biotechnology company developing novel small molecule therapeutics for central nervous system disorders, lysosomal storage disorders, metabolic disorders, and other diseases, using its Magellan computational platform to discover allosteric binding sites. Its lead product candidate, GT-02287, is being developed for the treatment of Parkinson's disease with or without GBA1 mutations.",
+  "sellsTo": [
+    "Patients with Parkinson's disease",
+    "Patients with Gaucher disease",
+    "Potential pharmaceutical partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Minoryx Therapeutics, S.L."
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a biotechnology company developing novel small molecule therapeutics to treat diseases across several therapeutic areas, including central nervous system (CNS) disorders, lysosomal storage disorders (LSDs), metabolic disorders, and other diseases that can be targeted through protein degradation, such as oncology."
+    },
+    {
+      "tag": "other:ai-drug-discovery",
+      "stance": "active_investment",
+      "sentence": "We use our computational target and drug discovery platform, Magellan, to discover novel allosteric binding sites on proteins implicated in a disease and to identify proprietary small molecules that bind these sites to modulate protein function and treat the underlying cause of the disease."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Part 2 of Phase 1b study for GT-02287",
+      "date": "2026-09",
+      "sentence": "We expect to complete Part 2 of the Phase 1b study in September 2026."
+    },
+    {
+      "event": "Initiation of Phase 2 clinical trial for GT-02287",
+      "date": "2026-Q3",
+      "sentence": "we are currently planning a Phase 2 study to commence during the second half of 2026."
+    },
+    {
+      "event": "Presentation of full analysis of Phase 1b Part 1 results",
+      "date": "2026",
+      "sentence": "we will be presenting the full analysis of Part 1 throughout 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Parkinson's disease affects more than ten million people worldwide.",
+      "sentence": "Parkinson's disease is reported to affect more than ten million people worldwide."
+    },
+    {
+      "claim": "Around 10% of Parkinson's disease patients carry GBA1 mutations.",
+      "sentence": "Around 10% of patients with Parkinson's disease carry GBA1 mutations, making it the largest genetic risk factor for the disease."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:51:52.492Z",
+  "model": "deepseek-v4-flash"
+}

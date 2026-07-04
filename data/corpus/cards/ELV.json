@@ -1,0 +1,66 @@
+{
+  "cik": "0001156039",
+  "ticker": "ELV",
+  "name": "Elevance Health, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001156039-26-000013",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000013/elv-20251231.htm"
+  },
+  "business": "Elevance Health is a leading health insurer offering managed care risk-based plans and fee-based administrative services to Individual, Employer Group, Medicaid, and Medicare markets, along with pharmacy services through CarelonRx and other specialty products.",
+  "sellsTo": [
+    "Individual",
+    "Employer Group",
+    "Medicaid",
+    "Medicare",
+    "Federal Employee Program",
+    "BlueCard"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CVS Health Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are one of the largest health insurers in the United States in terms of medical membership, serving approximately 45.2 million medical members through our affiliated health plans as of December 31, 2025."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our digital engagement platform, Sydney Health, is designed to give our members access to personalized health and wellness resources, medical, pharmacy, dental and vision benefits details, and virtual care services, all in one place."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "These requirements and restrictions include, among other things: ... cybersecurity requirements; ..."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Discontinuation of Medicare Part D plans",
+      "date": null,
+      "sentence": "In 2026, we will no longer offer Medicare Part D plans."
+    },
+    {
+      "event": "OBBBA provisions effective for commercial plans",
+      "date": "2026-01-01",
+      "sentence": "Implementation dates vary, with many provisions impacting commercial plans effective January 1, 2026, and many Medicaid-related provisions effective in 2027 and 2028."
+    },
+    {
+      "event": "Expiration of enhanced Premium Tax Credits",
+      "date": "2025-12-31",
+      "sentence": "The enhanced PTCs expired on December 31, 2025."
+    },
+    {
+      "event": "Medicare Advantage bonus payments based on 2026 Star Ratings",
+      "date": "2027-01-01",
+      "sentence": "CMS released our 2026 Star Ratings in October 2025, which will be used to determine our Medicare Advantage bonus payments in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:02:27.168Z",
+  "model": "deepseek-v4-flash"
+}

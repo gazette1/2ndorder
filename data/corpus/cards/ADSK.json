@@ -1,0 +1,47 @@
+{
+  "cik": "0000769397",
+  "ticker": "ADSK",
+  "name": "Autodesk, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000769397-26-000015",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm"
+  },
+  "business": "Autodesk is a global leader in 3D design, engineering, and entertainment technology solutions, serving architecture, engineering, construction, product design, manufacturing, media, and entertainment. The company sells professional software products globally through a combination of indirect (distributors and resellers) and direct channels (including online store and Solution Providers).",
+  "sellsTo": [
+    "Architecture, engineering, construction, and operations (AECO) firms",
+    "Manufacturers in automotive, transportation, industrial machinery, consumer products, and building products",
+    "Digital media and entertainment studios (film, video, game development)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We dedicate considerable technical and financial resources to research and development to deliver additional automation and insights to our customers through artificial intelligence (AI), machine learning, and generative design, which increase efficiency and sustainability and reduce waste."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our product development and manufacturing software provides manufacturers in automotive, transportation, industrial machinery, consumer products, and building product industries with comprehensive digital design, engineering, manufacturing, and production solutions."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our architecture, engineering, construction and operations products improve the way building, infrastructure, and industrial projects are designed, built, and operated."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our digital media and entertainment products provide tools for digital sculpting, modeling, animation, effects, rendering, and compositing for design visualization, visual effects, 3D animation, games production, and enable connection of workflows and data from pre-production to post-production."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:20:54.811Z",
+  "model": "deepseek-v4-flash"
+}

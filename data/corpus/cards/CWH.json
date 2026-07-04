@@ -1,0 +1,64 @@
+{
+  "cik": "0001669779",
+  "ticker": "CWH",
+  "name": "Camping World Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021548",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1669779/000110465926021548/cwh-20251231x10k.htm"
+  },
+  "business": "Camping World Holdings is America's largest retailer of RVs and related products and services. It sells new and used RVs, RV parts and accessories, repair and maintenance services, finance and insurance products, protection plans, roadside assistance, and Good Sam memberships. It serves RV owners and outdoor enthusiasts through a national network of dealerships and service centers.",
+  "sellsTo": [
+    "RV owners",
+    "outdoor enthusiasts",
+    "travelers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Thor Industries, Inc.",
+    "Forest River, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Camping World Holdings, Inc. (together with its subsidiaries) is America s largest retailer of RVs and related products and services."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our Good Sam Services and Plans segment consists of programs, plans and services that are geared towards protecting, insuring and promoting the RV & travel lifestyles, and include services such as extended vehicle service contracts, vehicle roadside assistance, property and casualty insurance, travel protection, travel planning and directories, and publications."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Through arrangements with third-party lenders we are able to facilitate financing for most of the new and used RVs we sell through our store locations."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We also operate the Good Sam Club, which we believe is the largest membership-based RV organization in the world, with approximately 1.6 million paid members as of December 31, 2025."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Fuel shortages, high prices for fuel, or changes in energy sources could have a negative effect on our business."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Regulations passed in December 2021 by the California Air Resources Board (CARB) will prohibit the sale of gas-powered generators in California beginning in 2028."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened two new RV dealerships in first quarter of 2026",
+      "date": "2026-03-31",
+      "sentence": "During the first quarter of 2026, we have opened two RV dealerships."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:12:52.297Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0000820027",
+  "ticker": "AMP",
+  "name": "AMERIPRISE FINANCIAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000820027-26-000011",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000011/amp-20251231.htm"
+  },
+  "business": "Ameriprise Financial provides financial planning, wealth management, asset management, insurance, and annuity products to individual and institutional clients, with a primary target market of households with $500,000 to $5,000,000 in investable assets.",
+  "sellsTo": [
+    "individual retail clients",
+    "institutional investors",
+    "high net worth households"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Genworth Financial, Inc.",
+    "Commonwealth Annuity and Life Insurance Company"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We increasingly compete with various financial technology companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operational systems and networks (as well as those of our franchise advisors and third parties) are subject to evolving cybersecurity or other technological risks, which could result in the disclosure of confidential information, loss of our proprietary information, damage to our reputation, additional costs to us, regulatory penalties and other adverse impacts."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "new and existing competitors may be better able to address trends, structural changes, or movement of assets resulting from new technologies, including Generative AI and blockchain"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide life and disability income insurance products to address the protection and risk management needs of our retail clients."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:20:33.163Z",
+  "model": "deepseek-v4-flash"
+}

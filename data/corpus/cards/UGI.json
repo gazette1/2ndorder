@@ -1,0 +1,72 @@
+{
+  "cik": "0000884614",
+  "ticker": "UGI",
+  "name": "UGI CORP /PA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000884614-25-000053",
+    "filedAt": "2025-11-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/884614/000088461425000053/ugi-20250930.htm"
+  },
+  "business": "UGI Corporation distributes and sells propane (LPG), natural gas, and electricity to residential, commercial, and industrial customers for heating and other purposes. It operates through segments: Utilities, Midstream & Marketing, UGI International, and AmeriGas Propane. The company also provides energy marketing and midstream services.",
+  "sellsTo": [
+    "residential",
+    "commercial",
+    "industrial",
+    "agricultural"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "In our Utilities segment, our distribution operations are subject to regulation by the PAPUC, WVPSC and MDPSC, depending on the state in which the operations are located."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We operate LPG distribution businesses in Europe through our subsidiaries."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our agricultural customers use LPG for purposes other than heating, including for crop drying, and unfavorable weather conditions, such as lack of precipitation, may impact the demand for LPG."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Investments in equity method investments was $38 million in Fiscal 2025 principally comprising continuing investments in renewable energy projects at our Midstream & Marketing segment."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Many of our customers rely on our energy products and services to heat their homes and businesses, our results of operations are adversely affected by warmer-than-normal heating season weather."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems and those of our third-party vendors have been the target of cybersecurity attacks in the past."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "UGI International divests LPG distribution business in Austria; expects gain upon closing in Q1 Fiscal 2026",
+      "date": null,
+      "sentence": "In October 2025, UGI International, through a wholly-owned subsidiary, entered into a definitive agreement to divest its LPG distribution business located in Austria. The Company expects to recognize a gain upon closing, which is expected in the first quarter of Fiscal 2026."
+    },
+    {
+      "event": "PA Gas Utility rate increase effective October 28, 2025",
+      "date": "2025-10-28",
+      "sentence": "On September 11, 2025, the PAPUC issued a final order approving a settlement providing for a $70 million annual base distribution rate increase, effective October 28, 2025."
+    },
+    {
+      "event": "WV Gas Utility IREP filing: expected order in December 2025 with rates effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "On July 31, 2025, WV Gas Utility submitted its 2025 IREP filing to the WVPSC requesting recovery of $24 million... An order from the WVPSC is expected in December, with new rates to be effective January 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:32:19.965Z",
+  "model": "deepseek-v4-flash"
+}

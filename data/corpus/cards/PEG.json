@@ -1,0 +1,105 @@
+{
+  "cik": "0000788784",
+  "ticker": "PEG",
+  "name": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-077446",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526077446/peg-20251231.htm"
+  },
+  "business": "Public Service Enterprise Group Inc is a public utility holding company that operates through subsidiaries as a predominantly regulated electric and gas utility and a nuclear generation business. PSE&G provides electric transmission and electric and natural gas distribution to residential, commercial, and industrial customers in New Jersey. PSEG Power sells energy and capacity from its nuclear generation units and wholesale natural gas under a full-requirements contract with PSE&G.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial and industrial customers",
+    "Wholesale energy markets",
+    "Long Island Power Authority (LIPA)"
+  ],
+  "namedCustomers": [
+    "PSE&G",
+    "Long Island Power Authority (LIPA)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We are a public utility holding company that, acting through our wholly owned subsidiaries, is a predominantly regulated electric and gas utility and a nuclear generation business."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "PSEG Power earns revenues primarily by selling energy and capacity from its nuclear generation units and from the sale of wholesale natural gas through a full-requirements contract with PSE&G."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "PSE&G earns revenues from its regulated rate tariffs under which it provides electric transmission and electric and natural gas distribution to residential, commercial and industrial (C&I) customers in its service territory."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "PSE&G also invests in regulated solar generation projects and regulated energy efficiency (EE) and related programs in New Jersey."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "we continue to invest in and pursue opportunities in regulated clean energy programs, including EE, electric vehicle (EV) make-ready charging infrastructure and other potential investments."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Our CEF-Energy Storage (ES) program, which was filed with the BPU in October 2018, is being held in abeyance."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "Our regulated capital investment program is estimated to be in a range of $22.5 billion to $25.5 billion."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "a significant increase in load is anticipated due to the increasing adoption of EVs, the expansion of data centers and other large users in our area"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "NERC Critical Infrastructure Protection standards establish cybersecurity and physical security protections for critical systems and facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GSMP III program investment begins",
+      "date": null,
+      "sentence": "Investment under the GSMP III program will begin in 2026 and continue through December 2028 plus trailing services replacement and paving costs into 2029."
+    },
+    {
+      "event": "ZEC sales concluded for Salem 1, Salem 2, Hope Creek",
+      "date": "2025-05-31",
+      "sentence": "In May 2025, PSEG Power s Salem 1, Salem 2 and Hope Creek nuclear plants zero emission certificate (ZEC) sales concluded."
+    },
+    {
+      "event": "Board approved first quarter 2026 dividend",
+      "date": "2026-02-24",
+      "sentence": "On February 24, 2026, our Board of Directors approved a $0.67 per share common stock dividend for the first quarter of 2026."
+    },
+    {
+      "event": "BGSS contract extension expiration",
+      "date": "2027-03-31",
+      "sentence": "In 2022, the BPU approved an extension of the long-term BGSS contract to March 31, 2027, and thereafter the contract remains in effect unless terminated by either party with a two-year notice."
+    },
+    {
+      "event": "Competitive transmission project in-service target",
+      "date": null,
+      "sentence": "PJM has directed that the project be placed in service in 2027."
+    },
+    {
+      "event": "PSEG LI contract extension approved",
+      "date": null,
+      "sentence": "In 2025, a five year extension of the contract was approved."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:22:35.838Z",
+  "model": "deepseek-v4-flash"
+}

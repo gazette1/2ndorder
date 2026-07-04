@@ -1,0 +1,73 @@
+{
+  "cik": "0001218683",
+  "ticker": "BGDE",
+  "name": "Big Digital Energy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037417",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1218683/000121390026037417/ea0281617-10k_mawson.htm"
+  },
+  "business": "Mawson is a technology company that designs, builds and operates digital infrastructure platforms for enterprise customers and for its own purposes, providing services spanning AI, HPC, digital assets including Bitcoin mining, and energy management.",
+  "sellsTo": [
+    "enterprise customers",
+    "AI and HPC markets",
+    "digital assets mining market",
+    "energy grid participants"
+  ],
+  "namedCustomers": [
+    "Celsius Mining LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Mawson offers customers the opportunity to colocate their specialized computers used in mining digital assets ( Miners ) and other equipment within our facilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Mawson s facilities and ready access to power offer other businesses and customers in the AI and HPC markets the opportunity to colocate their specialized computers and graphics processing units ( GPUs ) used for computation and processing purposes and other equipment within our facilities."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Company also has an energy management business, which utilizes software and analysis, to generate revenue when the Company participates in energy management programs related to the real-time needs of the power grid."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Digital asset mining involves the use of Miners to solve algorithmic problems, for example to update the distributed or decentralized ledger of Bitcoin transactions securely."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "The Company has a strategy to prioritize the usage of carbon-free energy sources, including nuclear energy, to power its digital infrastructure platforms and computational machines to support the rapid growth of the digital economy in an environmentally sustainable way."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "We hope to support the growth of further renewable or sustainable power into the grid."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Mawson, like almost all businesses around the world, is subject to malicious attempts to penetrate its systems."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "the development of quantum computing, and other new technologies."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our business relies on digital assets-specific hardware such as the Miners, and containers in which to operate the Miners, and also more general plant and equipment such as transformers, breakers, power boards exhaust fans, deflectors, monitoring equipment and many other parts."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:17:27.728Z",
+  "model": "deepseek-v4-flash"
+}

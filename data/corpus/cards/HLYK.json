@@ -1,0 +1,58 @@
+{
+  "cik": "0001680139",
+  "ticker": "HLYK",
+  "name": "HealthLynked Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037499",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1680139/000121390026037499/ea0282013-10k_health.htm"
+  },
+  "business": "HealthLynked is a healthcare technology company operating across three divisions: Digital Healthcare (HealthLynked Network cloud platform), Health Services (clinical operations), and Medical Distribution (discounted medical supplies). The company sells its platform to patients and healthcare providers, and distributes medical supplies to medical practices and consumers.",
+  "sellsTo": [
+    "patients",
+    "healthcare providers",
+    "medical practices",
+    "individual consumers",
+    "insurance companies",
+    "employers",
+    "pharmaceutical companies",
+    "medical research organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Within our Digital Healthcare division, we develop and manage the HealthLynked Network, a robust, cloud-based platform that centralizes personal medical records and streamlines communication between patients and healthcare providers."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our Medical Distribution division serves as a virtual distributor of discounted medical supplies to medical practices and individual consumers across the United States."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Refinancing of outstanding notes into consolidated Secured Convertible Promissory Note payable to Dr. Michael Dent",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we refinanced all past outstanding notes with aggregate principal totaling $4,338,192, accrued interest totaling $737,180, undocumented advances totaling $339,840 and accrued compensation liabilities totaling $300,600 into a new consolidated Secured Convertible Promissory Note in the principal amount of $5,715,812 payable to a trust controlled by Dr. Michael Dent (the February 2026 Dent Note)."
+    },
+    {
+      "event": "Filed S-1 registration statement for Common Stock Offering",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, we filed a Form S-1 registration statement with the SEC for the sale of up to $7,500,000 shares of our common stock at a proposed offering price between $4.00 and $6.00 per share (the Common Stock Offering)."
+    },
+    {
+      "event": "Plan to divest remaining clinical operations",
+      "date": null,
+      "sentence": "As our technology platform has matured, we have reduced the scope of our direct clinical operations and exited non-core practices and we expect to divest our remaining clinical operations over the next 12 months, subject to market conditions and customary regulatory and transactional considerations."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:58:41.292Z",
+  "model": "deepseek-v4-flash"
+}

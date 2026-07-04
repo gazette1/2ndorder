@@ -1,0 +1,41 @@
+{
+  "cik": "0000101382",
+  "ticker": "UMBF",
+  "name": "UMB FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-076496",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526076496/umbf-20251231.htm"
+  },
+  "business": "UMB Financial Corp is a financial holding company providing commercial banking, institutional banking, and personal banking services, as well as trust and securities processing, bankcard services, and brokerage. The company serves commercial customers, institutional clients, and individual consumers through its banking centers and fee-based services.",
+  "sellsTo": [
+    "Commercial customers",
+    "Institutional clients",
+    "Personal banking customers",
+    "Trust and securities processing clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "active_investment",
+      "sentence": "The increase in 2025 was primarily driven by the net gains from the Company's investment in Voyager Technologies, Inc., which completed its initial public offering in June 2025."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the Company's ability to maintain secure and functional financial, accounting, technology, data processing, or other operating systems or facilities, including its capacity to withstand cyber-attacks"
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "the Company's ability to keep pace with changes in technology that affect the Company or its customers, counterparties, or competitors, including technology changes with respects to digital assets"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:11:19.695Z",
+  "model": "deepseek-v4-flash"
+}

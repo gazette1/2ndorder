@@ -1,0 +1,79 @@
+{
+  "cik": "0001622536",
+  "ticker": "TLN",
+  "name": "Talen Energy Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001622536-26-000017",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm"
+  },
+  "business": "Talen owns and operates approximately 13.1 GW of power infrastructure in the United States, including 2.2 GW of nuclear power and a dispatchable fossil fleet. They produce and sell electricity, capacity, and ancillary services into wholesale U.S. power markets. They also serve the digital infrastructure industry, particularly artificial intelligence data centers.",
+  "sellsTo": [
+    "Wholesale power markets",
+    "Data centers",
+    "Industrial customers",
+    "Hyperscalers"
+  ],
+  "namedCustomers": [
+    "AWS"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "We own and operate approximately 13.1 GW of power infrastructure in the United States, including 2.2 GW of nuclear power"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are well-positioned to serve this growing industry, as artificial intelligence data centers increasingly demand more reliable power."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Prior to its sale to AWS, we initially developed the data center campus adjacent to our Susquehanna facility, the world s first 24x7 carbon-free, direct-connect data center campus"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are also subject to cyber-based security disruption and integrity risk, which could result in an adverse impact to our results of operations or business reputation."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, the penetration of renewable generation resources has, and may continue to have, negative effects on wholesale power prices and the economics of dispatchable generation units."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Our business model depends on us successfully operating in a competitive environment and, unlike regulated utilities, we are not assured of any rate of return on capital investments through a regulated rate structure."
+    },
+    {
+      "tag": "other:re-shoring",
+      "stance": "risk_mention",
+      "sentence": "Recently, the market outlook for competitive wholesale power generation has improved largely based on expected future demand from several sources, including data centers and other technology sector requirements, re-shoring of manufacturing in the U.S., the electrification of industry, and other demand drivers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Cornerstone Merger Agreement entered",
+      "date": "2026-01-15",
+      "sentence": "On January 15, 2026, we entered into the Cornerstone Merger Agreement to acquire from affiliates of Energy Capital Partners (ECP) the 875 MW Waterford Energy Center and 456 MW Darby Generating Station, both located in Ohio, and the 1,120 MW Lawrenceburg Power Plant located in Indiana, for an aggregate purchase price of $3.45 billion"
+    },
+    {
+      "event": "Cornerstone Acquisition expected closing",
+      "date": null,
+      "sentence": "The proposed Cornerstone Acquisition is subject to regulatory approvals and the satisfaction of other customary closing conditions, and is expected to close early in the second half of 2026."
+    },
+    {
+      "event": "RMR arrangements for Maryland generation facilities through May 2029",
+      "date": null,
+      "sentence": "In 2025, we reached a settlement with key stakeholders to continue running both of our Maryland generation facilities through May 2029 under RMR arrangements."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:55.814Z",
+  "model": "deepseek-v4-flash"
+}

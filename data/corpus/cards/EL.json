@@ -1,0 +1,49 @@
+{
+  "cik": "0001001250",
+  "ticker": "EL",
+  "name": "ESTEE LAUDER COMPANIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001001250-25-000099",
+    "filedAt": "2025-08-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000099/el-20250630.htm"
+  },
+  "business": "The Estee Lauder Companies Inc. is one of the world's leading manufacturers, marketers and sellers of quality skin care, makeup, fragrance and hair care products. We operate as a wholesaler, with our products sold in brick-and-mortar locations and on various e-commerce platforms, including those operated by department stores, duty-free retailers, specialty-multi retailers, online pure players, upscale perfumeries and pharmacies, and top-tier salons and spas. Additionally, we operate a direct-to-consumer business across freestanding stores, our brands' websites and third-party online platforms.",
+  "sellsTo": [
+    "department stores",
+    "duty-free retailers",
+    "specialty-multi retailers",
+    "online pure players",
+    "upscale perfumeries and pharmacies",
+    "top-tier salons and spas",
+    "consumers directly via freestanding stores, brands' websites, and third-party online platforms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Estee Lauder Companies Inc., founded in 1946 by Estee and Joseph Lauder, is one of the world's leading manufacturers, marketers and sellers of quality skin care, makeup, fragrance and hair care products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Additionally, we operate a direct-to-consumer business across freestanding stores, our brands' websites and third-party online platforms."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are leveraging artificial intelligence ( AI ) across the marketing value chain to enhance personalization at scale, increase speed to market and reduce costs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We experience cybersecurity incidents of varying degrees on our information technology and, as a result, unauthorized parties have obtained in the past, and may obtain in the future, access to our systems and data (including unauthorized acquisition of such data)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:31:35.181Z",
+  "model": "deepseek-v4-flash"
+}

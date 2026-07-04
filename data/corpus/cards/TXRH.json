@@ -1,0 +1,71 @@
+{
+  "cik": "0001289460",
+  "ticker": "TXRH",
+  "name": "Texas Roadhouse, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021292",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926021292/txrh-20251230x10k.htm"
+  },
+  "business": "Texas Roadhouse, Inc. is a growing restaurant company operating predominantly in the casual dining segment, offering steaks, ribs, seafood, chicken, and other items at moderate prices.",
+  "sellsTo": [
+    "consumers seeking high quality, affordable meals",
+    "dine-in and to-go customers",
+    "franchisees"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Texas Roadhouse, Inc. is a growing restaurant company operating predominantly in the casual dining segment."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our business could be adversely affected by increased labor costs or labor shortages."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely heavily on information technology, and any material failure, weakness, cybersecurity breach, or other interruption could prevent us from effectively operating our business."
+    },
+    {
+      "tag": "other:glp-1",
+      "stance": "risk_mention",
+      "sentence": "Medical conditions or treatments that restrict consumption of certain foods may cause consumers to avoid or consume less of our products and current and new medical treatments such as GLP-1 agonists may shift consumer preferences."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "As we implement new technology platforms and AI programs to improve productivity, there can be no guarantees that these platforms will operate as reliably or be as operationally impactful as intended and such platforms may increase our operational, privacy, cybersecurity, and intellectual property risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Menu price increase of approximately 1.9% in Q2 2026",
+      "date": null,
+      "sentence": "In addition, we plan to implement a menu price increase of approximately 1.9% in Q2 2026."
+    },
+    {
+      "event": "Capital expenditures of approximately $400 million in 2026",
+      "date": null,
+      "sentence": "In 2026, we expect capital expenditures of approximately $400 million."
+    },
+    {
+      "event": "Store week growth of 5% to 6% in 2026",
+      "date": null,
+      "sentence": "In 2026, we expect store week growth of 5% to 6% across all concepts, including the impact of franchise acquisitions."
+    },
+    {
+      "event": "Effective tax rate of 14% to 15% in 2026",
+      "date": null,
+      "sentence": "In 2026, we expect an effective tax rate of 14% to 15% based on forecasted operating results."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:04:45.584Z",
+  "model": "deepseek-v4-flash"
+}

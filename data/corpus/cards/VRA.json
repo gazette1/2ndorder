@@ -1,0 +1,55 @@
+{
+  "cik": "0001495320",
+  "ticker": "VRA",
+  "name": "Vera Bradley, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-021640",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1495320/000162828026021640/vra-20260131.htm"
+  },
+  "business": "Vera Bradley designs and sells women's handbags, luggage, travel items, fashion and home accessories, and unique gifts. The company operates through two segments: Vera Bradley Direct (full-line and outlet stores, e-commerce sites, and direct-to-consumer marketplaces) and Vera Bradley Indirect (specialty retail, department stores, national accounts, and licensing).",
+  "sellsTo": [
+    "Consumers (direct via stores and e-commerce)",
+    "Specialty retailers",
+    "Department stores",
+    "National accounts",
+    "Third-party inventory liquidators"
+  ],
+  "namedCustomers": [
+    "Amazon.com",
+    "Anthropologie"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Vera Bradley is a leading designer of women's handbags, luggage and travel items, fashion and home accessories, and unique gifts."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The VB Direct business consists of sales of Vera Bradley products through Vera Bradley full-line and outlet stores in the United States; e-commerce sites (verabradley.com, outlet.verabradley.com, and international.verabradley.com); direct to consumer marketplaces; and typically the Vera Bradley annual outlet sale in Fort Wayne, Indiana."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Vera Bradley owns a 428,500 square-foot distribution center in Roanoke, Indiana."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A data security or privacy breach could damage our reputation and our relationships with our customers, expose us to litigation risk and adversely affect our business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The use of or failure to adopt artificial intelligence technologies may impact our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:40:12.021Z",
+  "model": "deepseek-v4-flash"
+}

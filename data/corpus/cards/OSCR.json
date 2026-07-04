@@ -1,0 +1,56 @@
+{
+  "cik": "0001568651",
+  "ticker": "OSCR",
+  "name": "Oscar Health, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001568651-26-000011",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000011/oscr-20251231.htm"
+  },
+  "business": "Oscar is a leading healthcare technology company built around a full stack technology platform and a relentless focus on member experience. It offers health plans through the ACA serving individuals, families, and employees. The company also provides health technology solutions through its +Oscar platform and brokerage services.",
+  "sellsTo": [
+    "Individuals",
+    "Families",
+    "Employees (via ICHRA)",
+    "Providers and payors (via +Oscar platform)",
+    "Brokers (via enrollment platform)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Google"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer health plans through the ACA serving individuals, families, and employees."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Oscar is a leading healthcare technology company built around a full stack technology platform and a relentless focus on member experience."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have established a program of security measures intended to protect our computer systems from security breaches and malicious activity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expansion to 20 states for 2026 policy year",
+      "date": "2026-01-01",
+      "sentence": "We have expanded our offerings to 20 states for 2026."
+    },
+    {
+      "event": "Entry into $475.0 million secured three-year revolving credit facility",
+      "date": "2026-02-06",
+      "sentence": "On February 6, 2026, we entered into a $475.0 million secured three-year revolving credit facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:19:16.794Z",
+  "model": "deepseek-v4-flash"
+}

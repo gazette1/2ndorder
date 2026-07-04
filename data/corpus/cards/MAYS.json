@@ -1,0 +1,52 @@
+{
+  "cik": "0000054187",
+  "ticker": "MAYS",
+  "name": "MAYS J W INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001206774-25-000720",
+    "filedAt": "2025-10-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/54187/000120677425000720/mays4503731-10k.htm"
+  },
+  "business": "J.W. Mays, Inc. operates commercial real estate properties. It has 28 full-time employees and a union contract covering about 21% of employees. The company's website is https://www.jwmays.com.",
+  "sellsTo": [
+    "commercial tenants",
+    "governmental agencies",
+    "medical institutions",
+    "industrial institutions",
+    "educational institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "J.W. Mays, Inc. (the Company or Registrant ) with executive offices at Nine Bond Street, Brooklyn, New York 11201, operates a number of commercial real estate properties, which are described in Item 2 Properties."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "As online retail operations continue to expand nationwide, retailers are facing increased competition which reduces the need for the leasing of properties."
+    },
+    {
+      "tag": "other:remote-work",
+      "stance": "risk_mention",
+      "sentence": "Remote work since the pandemic has resulted in tenants careful evaluation and reduction of office space needs and a decline in demand of commercial office space rentals from increasing competition."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "As a result of the current high interest rate environment and less liquidity available to smaller businesses, even formerly financially strong tenants may be at risk."
+    },
+    {
+      "tag": "other:environmental-liability",
+      "stance": "risk_mention",
+      "sentence": "We also may be subject to environmental liability as an owner or operator of properties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:56:20.875Z",
+  "model": "deepseek-v4-flash"
+}

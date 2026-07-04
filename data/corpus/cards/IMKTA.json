@@ -1,0 +1,67 @@
+{
+  "cik": "0000050493",
+  "ticker": "IMKTA",
+  "name": "INGLES MARKETS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000050493-25-000019",
+    "filedAt": "2025-11-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/50493/000005049325000019/imkt-20250927x10k.htm"
+  },
+  "business": "Ingles Markets operates a supermarket chain in the Southeast United States, selling grocery, non-food, perishable, and fuel products. The company also operates a fluid dairy processing plant and earns shopping center rentals. As of September 27, 2025, it had 194 supermarkets and 112 in-store pharmacies and 106 fuel stations.",
+  "sellsTo": [
+    "end consumers",
+    "other retailers",
+    "food service distributors",
+    "grocery warehouses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Ingles supermarkets offer customers a wide variety of nationally advertised food products, including grocery, meat and dairy products, produce, frozen foods and other perishables and non-food products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "The Ingles Curbside service allows customers to order any product in the Company's stores online."
+    },
+    {
+      "tag": "other:fuel-retail",
+      "stance": "core_product",
+      "sentence": "Non-food products include fuel centers, pharmacies, health/beauty/cosmetic products and general merchandise."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "The Company is self-insured for workers compensation, general liability, and group medical and dental benefits."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reopening of three stores temporarily closed due to Hurricane Helene",
+      "date": null,
+      "sentence": "Four stores sustained damage that required that they be temporarily closed, of which, as of the date of this Annual Report on Form 10-K, three remain closed and are currently expected to reopen at various times during 2026 or in 2027."
+    },
+    {
+      "event": "Planned capital expenditures for fiscal 2026",
+      "date": "2026-09-26",
+      "sentence": "Ingles capital expenditure plans for fiscal year 2026 include investments of approximately $120 to $140 million."
+    },
+    {
+      "event": "Maturity of interest rate swap with notional amount $12.5 million",
+      "date": "2027-10-01",
+      "sentence": "Both the floating rate debt and the interest rate swap have monthly principal amortization of $0.5 million and mature October 1, 2027."
+    },
+    {
+      "event": "Maturity of $155 million loan secured by real estate",
+      "date": "2030-01-01",
+      "sentence": "Both the floating rate debt and the interest rate swap have monthly principal amortization of $0.65 million and mature in fiscal year 2030."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:02:50.525Z",
+  "model": "deepseek-v4-flash"
+}

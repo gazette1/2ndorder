@@ -1,0 +1,46 @@
+{
+  "cik": "0001065696",
+  "ticker": "LKQ",
+  "name": "LKQ CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001065696-26-000012",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm"
+  },
+  "business": "LKQ Corporation is a global distributor of vehicle products, including replacement parts, components and systems used in the repair and maintenance of vehicles, and specialty aftermarket products and accessories to improve the performance, functionality and appearance of vehicles. Buyers of vehicle replacement products have the option to purchase from four sources: new OEM products, aftermarket products, salvaged products from total loss vehicles, and reconditioned products. The company sells to wholesale customers (collision and mechanical repair shops, new and used car dealerships) and retail customers.",
+  "sellsTo": [
+    "wholesale customers including collision and mechanical repair shops and new and used car dealerships",
+    "retail customers",
+    "insurance companies influence demand"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Thus, an increase in electric vehicles as a percentage of vehicles sold could have a negative impact on our sales of engines, transmissions, and other related parts."
+    },
+    {
+      "tag": "other:scrap-metal",
+      "stance": "core_product",
+      "sentence": "Our recycling operations generate scrap metal and precious metals (such as platinum, palladium, and rhodium) as well as other metals that we sell."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board initiated comprehensive review of strategic alternatives including potential sale of the company",
+      "date": "2026-01-26",
+      "sentence": "On January 26, 2026 our Board of Directors announced it has initiated a comprehensive review of strategic alternatives to enhance shareholder value."
+    },
+    {
+      "event": "Commenced process to explore potential sale of Specialty segment",
+      "date": null,
+      "sentence": "Additionally, in 2025, aligning with our ongoing strategy to simplify our portfolio and concentrate on our core segments, we commenced a process to explore the potential sale of our Specialty segment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:38:03.220Z",
+  "model": "deepseek-v4-flash"
+}

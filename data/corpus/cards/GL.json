@@ -1,0 +1,52 @@
+{
+  "cik": "0000320335",
+  "ticker": "GL",
+  "name": "GLOBE LIFE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000320335-26-000090",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000090/gl-20251231.htm"
+  },
+  "business": "Globe Life Inc. is an insurance holding company whose subsidiaries write nonparticipating ordinary life insurance products (traditional whole life, term life) and offer Medicare Supplement and limited-benefit supplemental health insurance products (accident, cancer, critical illness, etc.). It markets to lower-middle to middle-income Americans, working families, and seniors through direct-to-consumer channels, exclusive agents, and independent agents.",
+  "sellsTo": [
+    "lower-middle to middle-income Americans",
+    "working families",
+    "labor union members",
+    "seniors (Medicare beneficiaries)",
+    "children (juvenile insurance)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Globe Life's insurance subsidiaries write a variety of nonparticipating ordinary life insurance products."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "the Division has made considerable investments in information technology, including a customer relationship management (\"CRM\") tool for the agency force."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The failure to maintain effective information systems or manage responsible use of emerging technologies, including artificial intelligence, could adversely affect our financial condition and results of operations at the Company."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may increase the frequency and severity of weather-related events and natural disasters, which may adversely impact our mortality and morbidity rates and disrupt our business operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Malicious third parties, employee or agent errors or disasters affecting our information systems could impair our business operations, regulatory compliance, and financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:57:48.521Z",
+  "model": "deepseek-v4-flash"
+}

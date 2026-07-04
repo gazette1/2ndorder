@@ -1,0 +1,39 @@
+{
+  "cik": "0001289490",
+  "ticker": "EXR",
+  "name": "Extra Space Storage Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001289490-26-000011",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000011/exr-20251231.htm"
+  },
+  "business": "Extra Space Storage Inc. owns, operates, manages, acquires, develops and redevelops self-storage properties and provides tenant reinsurance for loss of goods stored by tenants.",
+  "sellsTo": [
+    "individuals needing storage space",
+    "businesses needing storage space"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our tenant reinsurance activities include the reinsurance of risks relating to the loss of goods stored by tenants in our stores."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "From time to time, we, and certain of our service providers, are subject to cyberattacks and security incidents."
+    },
+    {
+      "tag": "other:ai-usage",
+      "stance": "active_investment",
+      "sentence": "We have begun and may continue to use artificial intelligence and machine learning (collectively, AI ) tools in our operations. We use AI in assessing marketing decisions and operating our stores."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:28:00.479Z",
+  "model": "deepseek-v4-flash"
+}

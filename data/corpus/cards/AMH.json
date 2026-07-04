@@ -1,0 +1,45 @@
+{
+  "cik": "0001562401",
+  "ticker": "AMH",
+  "name": "American Homes 4 Rent",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562401-26-000010",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562401/000156240126000010/amh-20251231.htm"
+  },
+  "business": "American Homes 4 Rent is a Maryland REIT focused on developing, renovating, leasing and managing single-family homes as rental properties. As of December 31, 2025, it owned 61,479 single-family properties in select submarkets of metropolitan statistical areas across 24 states.",
+  "sellsTo": [
+    "Households in select submarkets of metropolitan statistical areas within 24 states",
+    "Tenants who choose to rent single-family homes"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are focused on developing, renovating, leasing and managing single-family homes as rental properties."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our confidential information is compromised or corrupted, including as a result of a cybersecurity incident, our business operations and reputation could be damaged, which could adversely affect our financial condition and operating results."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Information security risks have generally increased in recent years due to the rise in new technologies, such as artificial intelligence ( AI ), and the increased sophistication and activities of perpetrators of cyber-attacks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board authorized new share repurchase program",
+      "date": null,
+      "sentence": "In February 2026, the Company's board of trustees authorized a new share repurchase program to repurchase up to $500.0 million of outstanding Class A common shares and up to $250.0 million of outstanding preferred shares from time to time in the open market or in privately negotiated transactions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:58:07.306Z",
+  "model": "deepseek-v4-flash"
+}

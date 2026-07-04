@@ -1,0 +1,70 @@
+{
+  "cik": "0000895728",
+  "ticker": "ENB",
+  "name": "ENBRIDGE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-049810",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/895728/000119312526049810/enb-20251231.htm"
+  },
+  "business": "Enbridge operates in Liquids Pipelines, Gas Transmission, Gas Distribution and Storage, and Renewable Power Generation segments. It transports crude oil, natural gas, and natural gas liquids, distributes natural gas to residential, commercial, and industrial customers, and generates electricity from renewable sources. The company's revenues depend on volume throughput, regulated rates, and power purchase agreements.",
+  "sellsTo": [
+    "Residential, commercial, and industrial natural gas customers",
+    "Crude oil and natural gas shippers",
+    "Power purchasers under long-term agreements"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our Liquids Pipelines, Gas Transmission, and Gas Distribution and Storage assets face economic regulation risk."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Earnings from our Renewable Power Generation assets are highly dependent on weather and atmospheric conditions, as well as continued operational availability of these energy producing assets."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Customers of our gas distribution franchises are billed on both a fixed charge and volumetric basis, and our ability to collect the total revenue requirement (the cost of providing service, including a reasonable return to the utility) in certain jurisdictions, depends on achieving the forecast distribution measures set during the rate-making process."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Our Gas Transmission business competes with similar facilities that serve the same supply and market areas."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Commodities transported in our pipelines increasingly compete with emerging alternatives for end-users, such as electricity and electric batteries."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Our ability to add new customers could be impacted by housing market conditions, such as interest rates and affordability on new home construction, and energy transition trends."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Advances in technologies such as renewable power, carbon capture and storage, and other lower-carbon energy infrastructure can help reduce our emissions, extend the life of our assets, and diversify our business."
+    },
+    {
+      "tag": "other:carbon-pricing",
+      "stance": "risk_mention",
+      "sentence": "Carbon pricing in the form of carbon charges, carbon levies, or other carbon pricing frameworks poses risks to our business, including potential reduced demand for our services and decreased economic viability for our projects."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "The announcement and imposition of tariffs by the US, together with potential, announced or implemented retaliatory tariffs by other governments on imports from the US, and other potential measures, including duties, fees, economic sanctions or other trade measures, as well as the potential impacts of these tariffs and trade measures, present significant risks to our business operations and financial results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:59:37.657Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,46 @@
+{
+  "cik": "0002055510",
+  "ticker": "GDOG",
+  "name": "Grayscale Dogecoin Trust ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104226",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2055510/000119312526104226/ck0002055510-20251231.htm"
+  },
+  "business": "The Trust holds DOGE (Dogecoin) and issues Shares in Creation Baskets to provide investors with a cost-effective way to gain investment exposure to DOGE. The Trust's investment objective is for the value of the Shares to reflect the value of DOGE held by the Trust, determined by reference to the Index Price, less expenses and liabilities.",
+  "sellsTo": [
+    "investors seeking exposure to DOGE"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:dogecoin-digital-asset",
+      "stance": "core_product",
+      "sentence": "The Trust holds DOGE and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of DOGE."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of Trust operations",
+      "date": "2025-01-30",
+      "sentence": "The period from January 30, 2025 (the commencement of the Trust s operations) to December 31, 2025."
+    },
+    {
+      "event": "Uplisting of Shares to NYSE Arca and start of redemption program",
+      "date": "2025-11-24",
+      "sentence": "Shares of the Trust began trading on NYSE Arca on November 24, 2025, following the effectiveness of the Trust s registration statement on Form S-1, as amended."
+    },
+    {
+      "event": "Fee waiver period expiration",
+      "date": "2026-02-25",
+      "sentence": "Effective November 24, 2025, the Sponsor has determined to waive a portion of the Sponsor s Fee until the earlier of (x) February 25, 2026 and (y) the first date on which the NAV of the Trust exceeds $1.0 billion (such period, the Fee Waiver Period )."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:59.984Z",
+  "model": "deepseek-v4-flash"
+}

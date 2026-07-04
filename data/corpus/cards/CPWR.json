@@ -1,0 +1,65 @@
+{
+  "cik": "0000827099",
+  "ticker": "CPWR",
+  "name": "Ocean Thermal Energy Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-002627",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/827099/000165495426002627/cpwr_10k.htm"
+  },
+  "business": "Ocean Thermal Energy Corp develops designs for renewable energy systems, primarily Ocean Thermal Energy Conversion (OTEC), Seawater Air Conditioning (SWAC), and Lake Source Cooling (LSC). The company targets tropical and subtropical regions for OTEC, SWAC, and LSC, and worldwide markets for SWAC and LSC. As of the filing, the company has not completed any projects but is developing a project in the South Pacific under a U.S. Department of Defense contract.",
+  "sellsTo": [
+    "U.S. Department of Defense",
+    "U.S. Department of Agriculture",
+    "governments",
+    "utilities",
+    "large resorts",
+    "hospitals",
+    "educational institutions",
+    "municipalities"
+  ],
+  "namedCustomers": [
+    "U.S. Department of Defense",
+    "U.S. Army",
+    "Ministry of Earth Sciences (Government of India)",
+    "Engineering Company from France"
+  ],
+  "namedSuppliers": [
+    "General Electric",
+    "Siemens",
+    "DCO Energy",
+    "Johnson Controls"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We use our proprietary technology to develop designs for renewable energy systems, primarily for Ocean Thermal Energy Conversion (OTEC), Seawater Air Conditioning (SWAC), and Lake Source Cooling (LSC)."
+    },
+    {
+      "tag": "defense",
+      "stance": "active_investment",
+      "sentence": "We are currently under contract with the U.S. Army through Johnson Controls Government Systems to provide detailed engineering designs and financial analyses for an OTEC system at a remote military installation in the Pacific."
+    },
+    {
+      "tag": "other:desalination",
+      "stance": "core_product",
+      "sentence": "We also intend to develop projects for renewable power generation, desalinated water production, and air conditioning using our proprietary technologies designed to extract energy from the temperature differences between warm surface water and cold deep water."
+    },
+    {
+      "tag": "other:ammonia",
+      "stance": "core_product",
+      "sentence": "The working fluid is typically ammonia, as it has a low boiling point."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Our market includes 68 countries and 29 territories with suitable sea depth, shore configuration, and need.",
+      "sentence": "Our market includes 68 countries and 29 territories with suitable sea depth, shore configuration, and need."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:59:14.865Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,88 @@
+{
+  "cik": "0000097476",
+  "ticker": "TXN",
+  "name": "TEXAS INSTRUMENTS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000097476-26-000059",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm"
+  },
+  "business": "Texas Instruments designs and manufactures semiconductors (analog and embedded processing) that it sells to electronics designers and manufacturers globally.",
+  "sellsTo": [
+    "Industrial",
+    "Automotive",
+    "Data center",
+    "Personal electronics",
+    "Communications equipment"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We design and manufacture semiconductors that we sell to electronics designers and manufacturers all over the world."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our Analog products are used in many markets, including industrial, automotive, data center, personal electronics and communications equipment."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our Embedded Processing products are used in many markets, particularly industrial and automotive."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our Embedded Processing products are used in many markets, particularly industrial and automotive."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Signal Chain includes products that sense, condition and measure real-world signals and convert them into data that can be transferred or converted for further processing and control."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Power includes products that help customers manage power in electronic systems, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated DC/DC switching regulators, power switches, linear and low-dropout regulators, voltage references, multiphase controllers and power stages, and lighting products."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our Embedded Processing segment includes microcontrollers, processors, wireless connectivity and radar products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operating results and our reputation could be adversely affected by cybersecurity events, breaches, disruptions or other incidents relating to our information technology systems."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "These events could be caused by factors such as computer viruses, ransomware, malware, software vulnerabilities, system failures, restricted network access, unauthorized access, terrorism, nation-state espionage, employee malfeasance, use of artificial intelligence (AI) tools, or human error."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to political, social and economic conditions, security risks, acts of war, terrorism or other hostile acts, pandemics, epidemics or other public health crises, labor conditions, climate change risks and possible disruptions in power, water supply, transportation, communications and information technology networks of the various countries in which we operate."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Silicon Labs",
+      "date": "2027-06-30",
+      "sentence": "As announced on February 4, 2026, we have entered into a definitive agreement to acquire Silicon Labs for $231.00 per share in an all-cash transaction, representing a total enterprise value of approximately $7.5 billion ... expected to close in the first half of 2027."
+    },
+    {
+      "event": "Ramping production at new 300mm wafer fabs",
+      "date": null,
+      "sentence": "In 2025, we continued qualifying and ramping production at our newest 300mm wafer fabs in Richardson and Sherman, Texas, and Lehi, Utah."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:52:23.272Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "0000102729",
+  "ticker": "VMI",
+  "name": "VALMONT INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000102729-26-000007",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/102729/000010272926000007/vmi-20251227x10k.htm"
+  },
+  "business": "Valmont Industries, Inc. is a diversified manufacturer of products and services for infrastructure and agriculture markets. The Infrastructure segment produces structures for utility, lighting, transportation, telecommunications, and solar markets, plus coatings services. The Agriculture segment manufactures mechanized irrigation equipment and precision agriculture technology solutions.",
+  "sellsTo": [
+    "electric utilities",
+    "engineering, procurement, and construction firms",
+    "solar developers",
+    "independent power producers",
+    "wireless carriers",
+    "cell site operators",
+    "state and federal agencies",
+    "farmers",
+    "growers",
+    "commercial construction companies",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "We design, engineer, and manufacture structures made of steel, pre-stressed concrete, and composites to support the infrastructure necessary for electrical transmission, substations, and distribution applications within the utility industry."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our single-axis solar tracker is a fully integrated system that combines steel structures, electric motors, and electronic controllers."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We design, manufacture, and distribute a broad range of products for the wireless communication market."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "This segment consists of the manufacture of center pivot and linear irrigation equipment components for agricultural markets, including aftermarket parts and tubular products, and advanced technology solutions for precision agriculture."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "In addition, demand from data center construction is increasing as cloud computing, artificial intelligence, and digitalization drive the need for reliable power infrastructure, transmission capacity, and grid resiliency to support energy-intensive facilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use of artificial intelligence presents risks and challenges that may adversely impact our business and operating results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations could be adversely affected if our information technology systems and networks are compromised or subjected to cyberattacks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:13:01.031Z",
+  "model": "deepseek-v4-flash"
+}

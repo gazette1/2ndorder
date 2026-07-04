@@ -1,0 +1,54 @@
+{
+  "cik": "0000707549",
+  "ticker": "LRCX",
+  "name": "LAM RESEARCH CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000707549-25-000075",
+    "filedAt": "2025-08-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm"
+  },
+  "business": "Lam Research Corporation is a global supplier of innovative wafer fabrication equipment and services to the semiconductor industry. Its customer base includes leading semiconductor memory, foundry, and integrated device manufacturers that make products such as non-volatile memory (NVM), dynamic random-access memory (DRAM), and logic devices.",
+  "sellsTo": [
+    "Memory (NVM, DRAM)",
+    "Foundry",
+    "Logic/IDM",
+    "Advanced packaging"
+  ],
+  "namedCustomers": [
+    "Samsung Electronics Company, Ltd.",
+    "Taiwan Semiconductor Manufacturing Company"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Demand from cloud computing (the Cloud), artificial intelligence, 5G, the Internet of Things (IoT), and other markets is driving the need for increasingly powerful and cost-efficient semiconductors."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "These trends are driving significant inflections in semiconductor manufacturing, such as the increasing importance of vertical scaling strategies like three-dimensional (3D) architecture as well as multiple patterning to enable shrinks."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We offer advanced packaging solutions that support fan-out panel-level packaging, a process in which chips or chiplets are cut from a large format substrate sheet several times the size of a traditional silicon wafer, which increases yield and reduces waste and solutions that meet the need for 3D stacking of high bandwidth memory (HBM)."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the U.S. Government has enacted a number of export controls regulating the sales of certain technologies to customers in China, including entity listings of multiple customers, thus restricting the sales of equipment and spare parts by U.S. equipment suppliers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In addition, the emergence of big data and new tools such as machine learning and artificial intelligence (AI) that capitalize on the availability of large data sets is leading semiconductor manufacturers and equipment manufacturers to pursue new products and approaches that exploit those tools to advance technology development."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:49:29.460Z",
+  "model": "deepseek-v4-flash"
+}

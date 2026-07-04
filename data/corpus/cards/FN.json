@@ -1,0 +1,81 @@
+{
+  "cik": "0001408710",
+  "ticker": "FN",
+  "name": "Fabrinet",
+  "source": {
+    "form": "10-K",
+    "accession": "0001408710-25-000039",
+    "filedAt": "2025-08-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871025000039/fn-20250627.htm"
+  },
+  "business": "Fabrinet provides advanced optical packaging and precision manufacturing services to OEMs of complex products such as optical communication components, industrial lasers, automotive components, medical devices, and sensors. Its revenues are primarily from optical communications products (76.6% of fiscal 2025 revenues) and non-optical communications products (23.4%) including automotive, industrial lasers, medical, and sensors. Key customers include NVIDIA Corporation and Cisco Systems, Inc.",
+  "sellsTo": [
+    "optical communications",
+    "automotive",
+    "industrial lasers",
+    "medical",
+    "sensors"
+  ],
+  "namedCustomers": [
+    "NVIDIA Corporation",
+    "Cisco Systems, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "active optical cables providing high-speed interconnect capabilities for data centers and computing clusters"
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "tunable lasers, transceivers, and transponders that eliminate, at a significant cost savings to the service provider, the need to stock individual fixed wavelength optical transceivers and transponders used in voice and data communications networks"
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "solid state, diode-pumped, gas and fiber lasers (collectively referred to as industrial lasers ) used across a broad array of industries, including semiconductor processing (wafer inspection, wafer dicing, wafer scribing)"
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "solid state, diode-pumped, gas and fiber lasers (collectively referred to as industrial lasers ) used across a broad array of industries, including biotechnology and medical device (DNA sequencing, flow cytometry, hematology, antibody detection)"
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "solid state, diode-pumped, gas and fiber lasers (collectively referred to as industrial lasers ) used across a broad array of industries, including medical device (DNA sequencing, flow cytometry, hematology, antibody detection)"
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "solid state, diode-pumped, gas and fiber lasers (collectively referred to as industrial lasers ) used across a broad array of industries, including material processing (metal, polymer, textile drilling and cutting, annealing, marking, engraving, and welding)"
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "sensors, including differential pressure, micro-gyro, fuel and other sensors that are used in automobiles, and non-contact temperature measurement sensors for the medical industry"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Revenues from data communication products, primarily for artificial intelligence applications"
+    },
+    {
+      "tag": "other:automotive",
+      "stance": "core_product",
+      "sentence": "Revenues from non-optical communications products... increased by $206.0 million, or 34.7%, compared to prior fiscal year, primarily due to growth in automotive revenue"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Began construction of a new manufacturing facility at Chonburi campus",
+      "date": "2025-02-01",
+      "sentence": "In February 2025, we began construction of a new manufacturing facility of approximately 2.0 million square feet at our Chonburi campus. The total expected cost of the project is approximately $132.5 million (Thai baht 4.45 billion)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:46:50.400Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,59 @@
+{
+  "cik": "0001995807",
+  "ticker": "LB",
+  "name": "LandBridge Co LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-072404",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526072404/lb-20251231.htm"
+  },
+  "business": "LandBridge Co LLC owns or manages more than 315,000 surface acres in the Delaware Basin and generates revenue from surface use royalties, resource sales, and oil and gas royalties. Its customers are primarily oil and natural gas exploration and production companies, water midstream companies, and other industrial users. The company's strategy is to actively manage its land to support energy and infrastructure development, with customers bearing most operating and capital costs.",
+  "sellsTo": [
+    "Oil and gas producers",
+    "Water midstream companies",
+    "Infrastructure developers",
+    "Renewable energy project developers",
+    "Digital infrastructure operators"
+  ],
+  "namedCustomers": [
+    "WaterBridge",
+    "VTX Energy",
+    "ConocoPhillips",
+    "EOG Resources",
+    "Occidental Petroleum"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Access to expansive surface acreage is necessary for oil and natural gas development, solar power generation, power storage, digital infrastructure and non-hazardous oilfield reclamation and solid waste facilities."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We are also party to a lease development agreement for the development of a data center and related facilities on approximately 2,000 acres of our land in Reeves County, Texas with PowLan."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "We have entered into, or are currently pursuing, primarily long-term commercial relationships with businesses focused on solar power generation, power storage, microgrids, cryptocurrency mining and data management, as well as other renewable energy production, among other industries and applications."
+    },
+    {
+      "tag": "other:solar-power-generation",
+      "stance": "active_investment",
+      "sentence": "In September of 2025, we sold a 3,000-acre solar energy generation project in Reeves County, Texas, to a leading, publicly-traded energy infrastructure developer."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Data center site development commencement milestone under PowLan lease development agreement",
+      "date": null,
+      "sentence": "PowLan is obligated to meet certain timing milestones to maintain its lease, including the commencement of site development within a two-year period and the construction of the data center within a subsequent four-year period."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:48:38.541Z",
+  "model": "deepseek-v4-flash"
+}

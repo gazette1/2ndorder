@@ -1,0 +1,53 @@
+{
+  "cik": "0001614806",
+  "ticker": "RPT",
+  "name": "Rithm Property Trust Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001614806-26-000010",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1614806/000161480626000010/rpt-20251231.htm"
+  },
+  "business": "Rithm Property Trust Inc. is an externally managed REIT that focuses on investments in the commercial real estate (CRE) sector. It originates and acquires CRE-related investments including senior and subordinated mortgage loans, mezzanine loans, preferred equity, commercial mortgage servicing rights, CRE properties, and other CRE-related debt and equity investments. The company has no employees and is managed by RCM GA, an affiliate of Rithm.",
+  "sellsTo": [
+    "commercial real estate borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "RCM GA",
+    "Newrez",
+    "Thetis Asset Management",
+    "Gregory Funding"
+  ],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "active_investment",
+      "sentence": "Under RCM GA's management, the Company repositioned its business from a predominantly residential mortgage strategy to a flexible CRE focused investment strategy, which includes originating and acquiring CRE-related investments and managing a diversified portfolio of assets."
+    },
+    {
+      "tag": "other:office-properties",
+      "stance": "active_investment",
+      "sentence": "In December 2025, as part of the execution of its CRE investment strategy, the Company acquired an indirect minority interest in PGOP, which through its affiliates and joint ventures owns a portfolio (the PGRE Portfolio) of CRE properties, through an investment (the PGRE Investment) in affiliated aggregator vehicles formed in connection with Rithm's acquisition of Paramount Group, Inc."
+    },
+    {
+      "tag": "other:commercial-mortgage-servicing",
+      "stance": "active_investment",
+      "sentence": "Target investments may include senior and subordinated mortgage loans, mezzanine loans, preferred equity, commercial mortgage servicing rights, CRE properties and other CRE-related debt and equity investments."
+    },
+    {
+      "tag": "other:cmbs",
+      "stance": "active_investment",
+      "sentence": "The increase in CMBS interest income reflects the reinvestment of proceeds from sales of residential mortgage loans and RMBS into CMBS investments with a higher net interest margin."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "The Company has largely transitioned away from residential mortgage loans and RMBS and does not expect to make further investments in RPLs, NPLs or RMBS."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:38:50.422Z",
+  "model": "deepseek-v4-flash"
+}

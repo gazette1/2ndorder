@@ -1,0 +1,50 @@
+{
+  "cik": "0000750574",
+  "ticker": "AUBN",
+  "name": "AUBURN NATIONAL BANCORPORATION, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-111012",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/750574/000119312526111012/d87304d10k.htm"
+  },
+  "business": "Auburn National Bancorporation, Inc. is a bank holding company whose principal subsidiary, AuburnBank, offers checking, savings, transaction deposit accounts, certificates of deposit, and residential mortgages, as well as commercial, financial, agricultural, real estate construction, and consumer loan products. The company operates primarily in East Alabama, including Lee County and surrounding areas.",
+  "sellsTo": [
+    "Individuals and families in East Alabama",
+    "Small and medium businesses in East Alabama",
+    "Government entities (state, county, local)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "About the same time, smaller banks engagement with third-party vendors or partners providing digital, electronic and (BaaS) and fintech relationships raised bank regulatory concerns and enforcement actions regarding such activities and their effects on bank safety and soundness; the banks strategic, capital and liquidity plans and contingency plans; and vendor diligence and risk management."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our online banking services, bill payment and electronic services are subject to certain cybersecurity risks."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank offers checking, savings, transaction deposit accounts and certificates of deposit, and is an active residential mortgage lender in its primary service area."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence is at an early stage of development and is expensive, but may offer opportunities for better customer services at reduced costs, but with a high level of unknown risks."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our commercial real estate ( CRE ) loans, including $59.6 million of loans on owner occupied property, as of December 31, 2025 totaled $325.5 million (58% of total loans)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:45:53.727Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,71 @@
+{
+  "cik": "0001254699",
+  "ticker": "QVCCQ",
+  "name": "QVC INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001254699-26-000004",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1254699/000125469926000004/qvc-20251231.htm"
+  },
+  "business": "QVC is a live social shopping company that curates and sells a wide variety of consumer products through video-driven commerce on most every screen. It offers products in home, apparel, beauty, accessories, electronics, and jewelry categories. The company reaches over 200 million worldwide households and generates significant revenue from repeat customers.",
+  "sellsTo": [
+    "Consumers in the United States, Japan, Germany, the United Kingdom, and Italy",
+    "Repeat customers (92% of shipped sales)",
+    "Core demographic: women over age 50 (73% of QxH customers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "QVC provides customers with curated collections of unique products, made personal and relevant by the power of storytelling."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We believe we are a global leader in video retailing, e-commerce, mobile commerce and social commerce, with operations based in the United States (\"U.S.\"), Japan, Germany, the U.K., and Italy."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "rapid technological changes, including the increased use of artificial intelligence by us and our competitors"
+    },
+    {
+      "tag": "other:cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "failure to protect the security of personal information, including as a result of cybersecurity threats and cybersecurity incidents, subjecting us to potentially costly government enforcement actions and/or private litigation and reputational damage"
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "changes and uncertainty surrounding tariffs, trade policy and trade relations with China, the United Kingdom (U.K.) and other countries"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of Chapter 11 Cases",
+      "date": "2026-04-15",
+      "sentence": "On or about April 15, 2026 (the Petition Date), QVC Group and certain of its direct and indirect subsidiaries (excluding subsidiaries outside of the U.S. with the exception of one non-operating subsidiary in Luxembourg), including QVC Inc. (collectively, the Company Parties), intend to commence voluntary cases (the Chapter 11 Cases) under Chapter 11 of Title 11 of the United States Code (the Bankruptcy Code) in the United States Bankruptcy Court for the Southern District of Texas (the Bankruptcy Court)."
+    },
+    {
+      "event": "Completion of St. Petersburg campus closure",
+      "date": "2025-09-30",
+      "sentence": "The consolidation is part of QVC's organizational and strategic changes intended to support its WIN strategy. As a result, QVC accelerated depreciation related to the closure of the St. Petersburg, FL campus, which was completed as of September 30, 2025 (the \"Completion Date\")"
+    },
+    {
+      "event": "Announcement of reorganization plan under WIN strategy",
+      "date": "2025-03-27",
+      "sentence": "On March 27, 2025, QVC announced a plan to reorganize teams across the Company as part of the WIN strategy, which is intended to increase revenue through growth initiatives while maintaining Adjusted OIBDA margin."
+    },
+    {
+      "event": "Sale of remaining St. Petersburg property expected to be completed",
+      "date": null,
+      "sentence": "The sale of the remaining property is expected to be completed within the next twelve months."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:07:06.249Z",
+  "model": "deepseek-v4-flash"
+}

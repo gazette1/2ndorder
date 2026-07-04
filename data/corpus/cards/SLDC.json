@@ -1,0 +1,64 @@
+{
+  "cik": "0001427644",
+  "ticker": "SLDC",
+  "name": "Solidus Communications, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001099910-22-000217",
+    "filedAt": "2022-11-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1427644/000109991022000217/telcocuba_10k.htm"
+  },
+  "business": "Telco Cuba, Inc. offers telecommunication services and equipment, including mobile phones, mobile voice service, VoIP service, and calling cards. It also provides technology solutions such as software development, web development, hosting, and colocation. The target market is the Cuban-American demographic in the United States, with plans to enter the Cuban telecommunications market.",
+  "sellsTo": [
+    "Cuban-American demographic in the United States",
+    "travelers to Cuba",
+    "expat Cubans worldwide",
+    "US Government through NS2020 initiative"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "IDT",
+    "Next Communications",
+    "Next Group Holdings"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Telco Cuba, Inc. offers telecommunication services and equipment, including mobile phones, mobile voice service, VoIP service, and calling cards."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "As part of a landmark deal, Telco Cuba will offer cell phone roaming services in Cuba."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Amgentech, Inc. also offers managed collocated and leased servers."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "The Company still controls its interest in the Grand Chenier oil and gas project in Louisiana which is listed as Assets Held for Sale in the accompanying financial statements."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "Telco Cuba has signed a teaming agreement to offer services to the US Government through the governments NS2020 initiative."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Over 2 million Cubans residing in the United States",
+      "sentence": "Telco Cuba s Cuba centric plans, marketing and promotions will address the needs of over 2 million Cuban s residing in the United States."
+    },
+    {
+      "claim": "9.0 million barrels of oil in the Grand Chenier property",
+      "sentence": "The property contains an estimate 9.0 million barrels of oil and was in production until approximately 2009 when the then operator failed to manage the interests and certain repairs were not made leading to the cessation of production."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:37:18.144Z",
+  "model": "deepseek-v4-flash"
+}

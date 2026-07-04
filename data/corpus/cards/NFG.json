@@ -1,0 +1,68 @@
+{
+  "cik": "0000070145",
+  "ticker": "NFG",
+  "name": "NATIONAL FUEL GAS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000070145-25-000039",
+    "filedAt": "2025-11-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/70145/000007014525000039/nfg-20250930.htm"
+  },
+  "business": "National Fuel Gas Company is a diversified energy company engaged in the production, gathering, transportation, storage, and distribution of natural gas. It operates an integrated business with assets centered in western New York and Pennsylvania, focusing on the Marcellus and Utica shale formations. The company sells natural gas and related services to markets in the eastern United States and Canada.",
+  "sellsTo": [
+    "Eastern US and Canadian markets",
+    "Residential, commercial, and industrial utility customers",
+    "Natural gas producers and marketers",
+    "Power generation and data center developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "DTE Energy Trading, Inc.",
+    "Emera Energy Services, Inc.",
+    "Chevron Natural Gas",
+    "Shell Energy North America",
+    "NRG Business Marketing, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Supply Corporation is well positioned to support potential data center and power generation development in both New York and Pennsylvania through the expansion of its existing facilities, including via its Line N pipeline, which interconnects with multiple interstate pipelines and is proximate to significant in-basin natural gas production."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Utility segment operations are carried out by National Fuel Gas Distribution Corporation, a New York corporation. Distribution Corporation provides natural gas utility services to approximately 756,000 customers through a local distribution system located in western New York and northwestern Pennsylvania."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The Integrated Upstream and Gathering segment is composed of the operations of Seneca Resources Company, LLC and National Fuel Gas Midstream Company, LLC, both Pennsylvania limited liability companies. Seneca is engaged in the exploration for, and development of, natural gas reserves in the Appalachian region of the United States."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "The Pipeline and Storage segment operations are carried out by National Fuel Gas Supply Corporation, a Pennsylvania corporation, and Empire Pipeline, Inc., a New York corporation. Supply Corporation and Empire provide interstate natural gas transportation services for affiliated and nonaffiliated companies through integrated natural gas pipeline systems in Pennsylvania and New York."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Tioga Pathway Project in-service",
+      "date": "2026-12-31",
+      "sentence": "This project has a target in-service date in late calendar 2026 and a preliminary cost estimate of approximately $101 million."
+    },
+    {
+      "event": "Shippingport Lateral Project in-service",
+      "date": "2026-09-30",
+      "sentence": "the incremental capacity expected to come online as early as Fall 2026 and a preliminary cost estimate of approximately $57 million."
+    },
+    {
+      "event": "CenterPoint Ohio acquisition closing",
+      "date": "2026-12-31",
+      "sentence": "Closing is expected to occur in the fourth quarter of calendar 2026, pending completion of a notice filing and review with the Public Utilities Commission of Ohio, Hart-Scott-Rodino review, and other customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:32:15.656Z",
+  "model": "deepseek-v4-flash"
+}

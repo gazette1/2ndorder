@@ -1,0 +1,39 @@
+{
+  "cik": "0000019584",
+  "ticker": "CHE",
+  "name": "CHEMED CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562762-26-000020",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/19584/000156276226000020/che-20251231x10k.htm"
+  },
+  "business": "Chemed Corporation, through its subsidiaries VITAS and Roto-Rooter, provides hospice and palliative care services to terminally ill patients and plumbing, drain cleaning, excavation, and water restoration services to residential and commercial customers.",
+  "sellsTo": [
+    "Government (Medicare/Medicaid) for hospice services",
+    "Residential and commercial customers for plumbing and drain services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "in October of 2025, access to our systems was gained by a threat actor in a cybersecurity attack."
+    },
+    {
+      "tag": "other:ai-platforms",
+      "stance": "risk_mention",
+      "sentence": "Also, effective marketing and advertising may become more expensive and more difficult as search engines revise algorithms, customers use of artificial intelligence (AI) platforms become more prevalent and business models and customers change how they find our services."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "significant tariffs on certain products, such as steel for Roto-Rooter's cabling machines and pharmaceuticals utilized by VITAS, could materially increase the costs of Roto-Rooter and VITAS."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:40:15.373Z",
+  "model": "deepseek-v4-flash"
+}

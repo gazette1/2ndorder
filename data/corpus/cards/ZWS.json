@@ -1,0 +1,55 @@
+{
+  "cik": "0001439288",
+  "ticker": "ZWS",
+  "name": "Zurn Elkay Water Solutions Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-006372",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1439288/000162828026006372/zws-20251231.htm"
+  },
+  "business": "Zurn Elkay Water Solutions Corporation is a pure-play water management business that designs, procures, manufactures, and markets a broad sustainable product portfolio of specification-driven water management solutions including water safety and control, flow systems, hygienic and environmental, and filtered drinking water products for public and private spaces.",
+  "sellsTo": [
+    "institutional and commercial buildings",
+    "waterworks and residential construction markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:connected-products",
+      "stance": "core_product",
+      "sentence": "Our digital strategy for a customer productivity platform is based on the integration of technology with Zurn Elkay's leading portfolio of products. Our secure online portal, plumbSMART, allows for real-time insights from our Connected Products including wireless monitoring of usage trends, filter status, water consumption, possible issues and alerts through digitally connected product solutions that can be retrofitted to the installed base of our products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "There have been significant and increasing instances of data and security breaches, malicious interference with technology systems and industrial espionage involving companies in numerous industries, including cloud providers, and cybersecurity threats are becoming more complex."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If our competitors successfully leverage artificial intelligence, including generative artificial intelligence and machine learning to enhance efficiency, improve customer experience, or accelerate innovation more quickly or more successfully than us, this could affect our competitive position, profitability and results of operations."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "The long-term effect of climate change could decrease demand for certain of our products."
+    },
+    {
+      "tag": "other:pfas-reduction",
+      "stance": "core_product",
+      "sentence": "Elkay's drinking water solutions... up to 10,000 gallon filtration capacity... filters certified to NSF/ANSI 42, 53, and 401 requirements to reduce PFAS, lead, microplastics, asbestos and other contaminants."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Elkay launched Pro Filtration bottle filling station line",
+      "date": null,
+      "sentence": "In 2025, Elkay launched Pro Filtration TM , the latest evolution of our trusted ezH2O Bottle Filling Station line, advancing both water quality and sustainability with up to 10,000 gallon filtration capacity."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:26:47.498Z",
+  "model": "deepseek-v4-flash"
+}

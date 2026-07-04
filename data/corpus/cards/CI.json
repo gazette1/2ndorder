@@ -1,0 +1,58 @@
+{
+  "cik": "0001739940",
+  "ticker": "CI",
+  "name": "Cigna Group",
+  "source": {
+    "form": "10-K",
+    "accession": "0001739940-26-000006",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1739940/000173994026000006/ci-20251231.htm"
+  },
+  "business": "The Cigna Group is a global health company with two segments: Evernorth Health Services (pharmacy benefit and specialty care services) and Cigna Healthcare (medical and coordinated solutions). It sells pharmacy, medical, behavioral, dental, and related products and services to employers, individuals, government entities, and other clients.",
+  "sellsTo": [
+    "employers",
+    "government programs",
+    "individuals",
+    "managed care organizations",
+    "health insurers",
+    "third-party administrators"
+  ],
+  "namedCustomers": [
+    "Centene Corporation",
+    "Prime Therapeutics LLC",
+    "Department of War (TRICARE)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We offer clinical programs to help our clients, including third-party administrators, drive better whole-person health outcomes through our Care Delivery (MD Live by Evernorth (\"MD Live\") virtual care) and Care Management (EviCore by Evernorth (\"EviCore\") benefits management, behavioral health services, network services and health coaching capabilities) offerings."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity protections continue to be a top priority across The Cigna Group digital offerings to further strengthen our security posture and grow the trust of those we serve."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We use artificial intelligence (\"AI\") to support health care transformation by helping to enable the next generation of accessible, effective, affordable and enhanced health care solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Adoption of rebate-free model for fully insured customers",
+      "date": "2027-01-01",
+      "sentence": "Cigna Healthcare will adopt this new model for its fully insured customers beginning in 2027."
+    },
+    {
+      "event": "Standard rebate-free model available for Evernorth Health Services pharmacy benefit clients",
+      "date": "2028-01-01",
+      "sentence": "It will become the standard model available for Evernorth Health Services pharmacy benefit clients beginning in 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:08:26.824Z",
+  "model": "deepseek-v4-flash"
+}

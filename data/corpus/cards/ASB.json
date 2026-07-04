@@ -1,0 +1,52 @@
+{
+  "cik": "0000007789",
+  "ticker": "ASB",
+  "name": "ASSOCIATED BANC-CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000007789-26-000071",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778926000071/asb-20251231.htm"
+  },
+  "business": "Associated Banc-Corp is a bank holding company that provides banking and nonbanking products and services to individuals and businesses primarily within its four-state branch footprint of Wisconsin, Illinois, Minnesota, and Missouri, through 184 branches. It operates through three segments: Corporate and Commercial Specialty, Community Consumer and Business, and Risk Management and Shared Services. It is the largest bank holding company headquartered in Wisconsin.",
+  "sellsTo": [
+    "Individuals",
+    "Businesses",
+    "Corporate and commercial entities",
+    "Community customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete directly with other bank and nonbank institutions located within our markets, internet-based banks, out-of-market banks and bank holding companies that advertise or otherwise serve our markets, money market funds and other mutual funds, brokerage houses, and various other financial institutions; additionally, we compete with insurance companies, leasing companies, regulated small loan companies, credit unions, governmental agencies, and commercial entities offering financial services products, including nonbank lenders and financial technology companies, including those related to cryptocurrencies (including stablecoins)."
+    },
+    {
+      "tag": "other:cryptocurrencies",
+      "stance": "risk_mention",
+      "sentence": "We compete directly with other bank and nonbank institutions located within our markets, internet-based banks, out-of-market banks and bank holding companies that advertise or otherwise serve our markets, money market funds and other mutual funds, brokerage houses, and various other financial institutions; additionally, we compete with insurance companies, leasing companies, regulated small loan companies, credit unions, governmental agencies, and commercial entities offering financial services products, including nonbank lenders and financial technology companies, including those related to cryptocurrencies (including stablecoins)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized disclosure of sensitive or confidential client or customer information (including personal information), whether through a cyber-attack, other breach of our computer systems or otherwise, could severely harm our business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The use of AI in connection with our business and operations contains inherent risks that may expose us to material harm and any actual or perceived failure to comply with evolving regulatory frameworks around the development and use of AI could adversely affect our business, results of operations, and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of American National expected to close",
+      "date": null,
+      "sentence": "The transaction is expected to close in the second quarter of 2026 subject to customary closing conditions including the receipt of regulatory approvals."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:46:17.398Z",
+  "model": "deepseek-v4-flash"
+}

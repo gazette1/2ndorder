@@ -1,0 +1,42 @@
+{
+  "cik": "0001419951",
+  "ticker": "DTST",
+  "name": "Data Storage Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001731122-26-000564",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1419951/000173112226000564/e7502_10k.htm"
+  },
+  "business": "Nexxis, a subsidiary of Data Storage Corp, provides fully managed business voice, internet, data transport, and SD-WAN communication solutions engineered for enterprise-grade reliability, cloud performance, and simplified operations. It delivers integrated technology services designed to support modern, cloud-centric work environments with continuous uptime, superior quality of service, and a single point of management for complex connectivity needs. The company serves businesses across multiple verticals including healthcare, professional services, financial services, manufacturing, and distributed enterprise environments.",
+  "sellsTo": [
+    "healthcare",
+    "professional services",
+    "financial services",
+    "manufacturing",
+    "distributed enterprise"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Nexxis is a provider of fully managed business voice, internet, data transport, and SD-WAN communication solutions engineered for enterprise-grade reliability, cloud performance, and simplified operations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We intend to leverage our management’s expertise in technology and pursue acquisitions of companies in complementary and high-growth technology sectors which may include the following: o Artificial Intelligence (AI), Enabled Vertical Software-as-a-Service (SaaS), GPU Infrastructure-as-a-Service (IaaS) o Cybersecurity solutions and related applications and services, such as SOC."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We intend to leverage our management’s expertise in technology and pursue acquisitions of companies in complementary and high-growth technology sectors which may include the following: o Artificial Intelligence (AI), Enabled Vertical Software-as-a-Service (SaaS), GPU Infrastructure-as-a-Service (IaaS) o Cybersecurity solutions and related applications and services, such as SOC."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:07:15.064Z",
+  "model": "deepseek-v4-flash"
+}

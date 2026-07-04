@@ -1,0 +1,92 @@
+{
+  "cik": "0001031308",
+  "ticker": "BSY",
+  "name": "BENTLEY SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001031308-26-000007",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1031308/000103130826000007/bsy-20251231.htm"
+  },
+  "business": "Bentley Systems is the infrastructure engineering software company. It sells a comprehensive portfolio of integrated software offerings for designing, building, and operating infrastructure assets across the infrastructure lifecycle. Its customers are engineering and construction contracting firms (52% of revenues) and infrastructure asset owners/operators (48% of revenues).",
+  "sellsTo": [
+    "Engineering and construction contracting firms",
+    "Infrastructure asset owners and operators",
+    "Public Works/Utilities sectors",
+    "Resources sectors (mining, oil & gas, renewables)",
+    "Industrial sectors (manufacturing, power generation)",
+    "Commercial/Facilities sectors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft (Azure)",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Public Works/Utilities, which represents approximately 59% of our sector-attributable annualized recurring revenues (ARR) (1)(2) , includes roads, rail, bridges, tunnels, airports, and ports; federal, state, and municipal agencies; and networks for electricity, gas, water, wastewater, and communications;"
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Resources, which represents approximately 27% of our sector-attributable ARR (1)(2) , includes mining, oil and gas upstream activities, offshore, pipelines, environmental management, and renewable energy;"
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Resources, which represents approximately 27% of our sector-attributable ARR (1)(2) , includes mining, oil and gas upstream activities, offshore, pipelines, environmental management, and renewable energy;"
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Resources, which represents approximately 27% of our sector-attributable ARR (1)(2) , includes mining, oil and gas upstream activities, offshore, pipelines, environmental management, and renewable energy;"
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Industrial, which represents approximately 9% of our sector-attributable ARR (1)(2) , includes process and discrete manufacturing, oil and gas downstream activities, and power generation;"
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Commercial/Facilities, which represents approximately 5% of our sector-attributable ARR (1)(2) , includes campuses, office buildings, retail facilities, and hospitals;"
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We are also embedding AI capabilities across our comprehensive portfolio of integrated software offerings."
+    },
+    {
+      "tag": "other:digital-twin",
+      "stance": "core_product",
+      "sentence": "we are developing a new generation of digital-twin native, AI-powered, and Bentley Infrastructure Cloud -connected applications to further improve individual and team productivity and collaboration."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security measures or those of our third party cloud data hosts, cloud computing platform providers, or third party service partners, are breached, and unauthorized access is obtained to an account s data, our data or our IT systems, our services may be perceived as not being secure, accounts may curtail or stop using our services, and we may incur significant legal and financial exposure and liabilities."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Recent and potential tariffs imposed by the U.S. government or a global trade war could increase the cost of our products and services and the cost of conducting our business, which could harm our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "other:foreign-exchange",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to fluctuations in currency exchange rates that could negatively impact our financial results and cash flows."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repayment of 2026 Convertible Notes upon maturity",
+      "date": "2026-01-15",
+      "sentence": "The 2026 Notes matured on January 15, 2026. Upon maturity, we repaid $678,254, which consisted of the remaining outstanding principal balance and accrued interest on the 2026 Notes using borrowings under the Credit Facility and available cash on hand."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:19:55.395Z",
+  "model": "deepseek-v4-flash"
+}

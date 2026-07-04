@@ -1,0 +1,74 @@
+{
+  "cik": "0000918646",
+  "ticker": "EXP",
+  "name": "EAGLE MATERIALS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-230979",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/918646/000119312526230979/exp-20260331.htm"
+  },
+  "business": "Eagle Materials produces cement, concrete, aggregates, gypsum wallboard, and recycled paperboard. Its products are used in public infrastructure, residential, and commercial construction. The company operates cement plants, gypsum wallboard plants, and a recycled paperboard mill.",
+  "sellsTo": [
+    "public infrastructure",
+    "private nonresidential construction",
+    "residential construction",
+    "repair and remodel activities",
+    "manufactured housing"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Demand for our construction products and building materials is directly related to the level of activity in the construction industry, which includes residential, commercial, and infrastructure construction."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The principal sources of demand for gypsum wallboard are residential construction, repair and remodel activities, private nonresidential construction, and other markets such as manufactured housing."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "The aggregates business consists of mining, extracting, producing, and selling crushed stone, sand, and gravel."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A disruption, cyber attack or data security breach affecting our information technology systems may negatively affect our businesses, financial condition, and operating results."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Electric power is also a major cost component in the manufacturing process for both cement and slag, and we have sought to diminish overall power costs by adopting interruptible power supply agreements at certain locations."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "PSO has been moving its fuel source dependency to natural gas and investing in wind energy, which could affect our electricity rates in future years."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. cement consumption in calendar 2025 was 112.3 million short tons.",
+      "sentence": "In calendar 2025, cement consumption in the United States, as stated by the American Cement Association (ACA), was 112.3 million short tons, which was approximately 2% lower than calendar 2024 consumption levels."
+    },
+    {
+      "claim": "Imported cement represented nearly 23% of total U.S. sales in calendar 2025 and 2024.",
+      "sentence": "Imported cement consumption represented nearly 23% of total U.S. sales in both calendar 2025 and 2024."
+    },
+    {
+      "claim": "Gypsum wallboard industry shipments in calendar 2025 were 25.4 billion square feet.",
+      "sentence": "According to the Gypsum Association, industry shipments of gypsum wallboard decreased approximately 7% to 25.4 billion square feet in calendar 2025."
+    },
+    {
+      "claim": "ACA forecasts U.S. cement consumption will decline approximately 2.5% in calendar 2026.",
+      "sentence": "The ACA forecasts cement consumption will decline approximately 2.5% in calendar 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:37:44.309Z",
+  "model": "deepseek-v4-flash"
+}

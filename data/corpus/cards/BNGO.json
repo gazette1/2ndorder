@@ -1,0 +1,54 @@
+{
+  "cik": "0001411690",
+  "ticker": "BNGO",
+  "name": "Bionano Genomics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001411690-26-000007",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1411690/000141169026000007/bngo-20251231.htm"
+  },
+  "business": "Bionano Genomics offers genome analysis solutions including optical genome mapping (OGM) systems, a platform-agnostic software solution, nucleic acid extraction and purification solutions, and OGM-based diagnostic testing services. These products are used for applications in basic, translational, and clinical research, as well as bioprocessing. The company primarily sells to academic and governmental research institutions, clinical laboratories, and pharmaceutical, biotechnology, and contract research companies.",
+  "sellsTo": [
+    "academic and governmental research institutions",
+    "academic and commercial clinical laboratories",
+    "pharmaceutical, biotechnology and contract research companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We offer OGM solutions for applications across basic, translational and clinical research, and for other applications including bioprocessing."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We expect to see OGM adoption in cytogenomics, in discovery research and in cell and gene therapy applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems or data or those of third parties upon which we rely, are or were compromised, we could experience adverse consequences resulting from such compromise, including but not limited to regulatory investigations or actions; litigation; fines and penalties; disruptions of our business operations; reputational harm; loss of revenue or profits; loss of customers or sales; and other adverse consequences."
+    },
+    {
+      "tag": "other:bioprocessing",
+      "stance": "core_product",
+      "sentence": "We offer OGM solutions for applications across basic, translational and clinical research, and for other applications including bioprocessing."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "We believe the economic potential for OGM in these markets is approximately $10.0 billion annually, $3.0 billion of which we attribute to cell and gene therapy applications.",
+      "sentence": "Based on these estimates, we believe the economic potential for OGM in these markets is approximately $10.0 billion annually, $3.0 billion of which we attribute to cell and gene therapy applications."
+    },
+    {
+      "claim": "The clinical NGS market is estimated at approximately $4.1 billion in 2025 and predicted to grow to approximately $8.2 billion in 2029, representing a compound annual growth rate of 18.8%.",
+      "sentence": "Additionally, we believe the market for our platform-agnostic software solution, which can be used in next-generation sequencing and microarray data analysis, includes the clinical NGS market which The Business Research Company has estimated at approximately $4.1 billion in 2025 and predicted would grow to approximately $8.2 billion in 2029, representing a compound annual growth rate of 18.8%."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:52:28.258Z",
+  "model": "deepseek-v4-flash"
+}

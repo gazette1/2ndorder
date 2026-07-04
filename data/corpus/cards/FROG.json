@@ -1,0 +1,44 @@
+{
+  "cik": "0001800667",
+  "ticker": "FROG",
+  "name": "JFrog Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051382",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526051382/frog-20251231.htm"
+  },
+  "business": "JFrog provides a unified platform for managing and securing the software supply chain, enabling organizations to unify development, security, governance, and delivery of software applications. The platform serves enterprise customers including a majority of the Fortune 500.",
+  "sellsTo": [
+    "Fortune 500 enterprises",
+    "technology organizations",
+    "financial services organizations",
+    "retail organizations",
+    "healthcare organizations",
+    "telecommunications organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Hugging Face",
+    "Amazon Web Services (AWS)",
+    "Microsoft Azure",
+    "Alphabet Inc. s Google Cloud",
+    "GitHub"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "JFrog Xray (Security Essentials). JFrog Xray continuously scans JFrog Artifactory to secure all software packages stored in it."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "JFrog AI Catalog is offered as an extension of JFrog Curation functionality that allows companies to secure, govern, consume and deploy AI technologies, including first- and third-party ML models."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:12:42.903Z",
+  "model": "deepseek-v4-flash"
+}

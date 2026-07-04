@@ -1,0 +1,77 @@
+{
+  "cik": "0001807794",
+  "ticker": "CRDO",
+  "name": "Credo Technology Group Holding Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-043303",
+    "filedAt": "2026-06-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm"
+  },
+  "business": "Credo sells high-speed copper and optical interconnect products including Active Electrical Cables, optical transceivers, retimers, DSPs, SerDes chiplets, and software. These products are used in data centers, AI infrastructure, and telecom networks. The company sells to hyperscalers, NeoClouds, OEMs, ODMs, and optical module manufacturers.",
+  "sellsTo": [
+    "hyperscalers",
+    "NeoClouds",
+    "OEMs",
+    "ODMs",
+    "optical module manufacturers",
+    "enterprise",
+    "HPC"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TSMC",
+    "Amkor",
+    "ASE",
+    "KYEC",
+    "Sigurd",
+    "BizLink"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Artificial Intelligence (AI) has bred a new generation of data centers over the past 5 years that depend much more heavily on high speed, reliable communications for Front End, Scale Out, Scale Up and emerging Scale In Networks."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The multibillion-dollar data infrastructure market that we serve is driven largely by hyperscale data centers (hyperscalers) and emerging NeoClouds building AI/Machine Learning (ML) Infrastructure as well as general compute and data centers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our product families include integrated circuits (ICs), Active Electrical Cables (AECs) and SerDes Chiplets."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Credo optical digital signal processors (DSPs) are core components within optical transceivers deployed in AI clusters, hyperscale data centers, service provider networks, enterprise networks, and 5G wireless infrastructure."
+    },
+    {
+      "tag": "space",
+      "stance": "risk_mention",
+      "sentence": "low earth orbit satellite IP solutions such as Starlink offer disruptive performance and cost for users who cannot access the existing infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduced Bluebird, first 200G/lane DSP on 3nm process",
+      "date": "2025-09-01",
+      "sentence": "In September 2025, Credo introduced Bluebird, its first 200G/lane DSP, manufactured on a 3nm process node."
+    },
+    {
+      "event": "Introduced OmniConnect architecture and Weaver product",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, Credo introduced OmniConnect architecture and Weaver, the first product in the OmniConnect family."
+    },
+    {
+      "event": "PILOT released for evaluation on Toucan PCIe retimers",
+      "date": "2025-06-01",
+      "sentence": "PILOT was released for evaluation on Credo’s Toucan PCIe retimers in the first quarter of fiscal 2026 and Credo made PILOT available across Credo’s SerDes, retimers and system level AECs during fiscal year 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:18:12.743Z",
+  "model": "deepseek-v4-flash"
+}

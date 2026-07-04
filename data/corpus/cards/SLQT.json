@@ -1,0 +1,86 @@
+{
+  "cik": "0001794783",
+  "ticker": "SLQT",
+  "name": "SelectQuote, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001794783-25-000081",
+    "filedAt": "2025-08-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1794783/000179478325000081/slqt-20250630.htm"
+  },
+  "business": "SelectQuote is a technology-enabled, direct-to-consumer distribution platform for selling insurance policies and healthcare services. It earns commissions from insurance carrier partners for policies sold on their behalf and generates pharmacy revenue from its SelectRx pharmacy. Its primary customers are senior consumers.",
+  "sellsTo": [
+    "Senior consumers",
+    "Medicare-eligible individuals",
+    "Life insurance consumers",
+    "Auto and home insurance consumers"
+  ],
+  "namedCustomers": [
+    "UnitedHealthcare",
+    "Humana",
+    "Aetna",
+    "WellCare",
+    "Mutual of Omaha",
+    "TruStage",
+    "Pacific Life",
+    "Safeco",
+    "Progressive",
+    "Travelers",
+    "Anthem"
+  ],
+  "namedSuppliers": [
+    "OptumRx",
+    "Caremark CVS",
+    "Express Scripts"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance distribution business, which has operated continuously for over 40 years, allows consumers to transparently and conveniently shop for senior health, life, and automobile and home insurance policies from a curated panel of the nation's leading insurance carriers."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our healthcare services business seeks to provide consumers with a wide breadth of products supporting their needs, such as SelectRx, our Patient-Centered Pharmacy Home TM accredited pharmacy, which has already demonstrated SelectQuote's ability to leverage our strong consumer engagement to drive immediate value using our existing operational infrastructure."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "SelectQuote, Inc. is a leading technology-enabled, direct-to-consumer (DTC) distribution and engagement platform for selling insurance policies and healthcare services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We have also deployed conversational AI technologies that automate routine enrollment processes."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Our proprietary technology platform integrates artificial intelligence and data science based machine learning models to analyze and identify high-quality consumer leads from diverse online and offline channels."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened new SelectRx fulfillment facility in Olathe, Kansas",
+      "date": "2025-04-01",
+      "sentence": "In April 2025, we opened a new SelectRx fulfillment facility in Olathe, Kansas."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable pharmaceutical market in the United States over $640 billion.",
+      "sentence": "We estimate the total addressable pharmaceutical market in the United States to be over $640 billion."
+    },
+    {
+      "claim": "Total value-based care market for Medicare Advantage patients over $600 billion.",
+      "sentence": "We estimate the total value-based care market for Medicare Advantage patients to be over $600 billion."
+    },
+    {
+      "claim": "Total addressable market for the insurance products we distribute greater than $200 billion.",
+      "sentence": "We estimate that the total addressable market for the insurance products we distribute is greater than $200 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:30:07.932Z",
+  "model": "deepseek-v4-flash"
+}

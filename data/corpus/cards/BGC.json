@@ -1,0 +1,65 @@
+{
+  "cik": "0001094831",
+  "ticker": "BGC",
+  "name": "BGC Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013162",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094831/000162828026013162/bgcg-20251231.htm"
+  },
+  "business": "BGC Group is a global marketplace, data, and financial technology company. It specializes in brokerage and trade execution of a broad range of ECS and financial products, including derivatives, commodities, fixed income, foreign exchange, and equities. The company also provides market data, network connectivity, and post-trade services to a diverse client base including banks, broker-dealers, hedge funds, governments, and commodity trading firms.",
+  "sellsTo": [
+    "wholesale financial markets",
+    "energy, commodity, and shipping markets",
+    "banks",
+    "broker-dealers",
+    "hedge funds",
+    "governments",
+    "corporations",
+    "commodity trading firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Fenics is the foundation for our Fully Electronic and associated Hybrid transactions across all asset classes."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the impact of artificial intelligence on the economy, our industry, our products and business, and the businesses of our clients and vendors;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "information technology risks, including capacity constraints, failures, or disruptions in our operational systems or infrastructure, or those of our clients, counterparties, exchanges, clearing facilities, or other parties with which we interact, including increased demands on such systems and on the telecommunications infrastructure from remote working, cybersecurity risks and incidents, privacy risk and exposure to potential liability and regulatory focus;"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The private network currently operates from six concurrent core data centers (three of which are in the U.K., and one each in Trumbull, Connecticut, Weehawken, New Jersey and Secaucus, New Jersey) and many hub cities throughout the world acting as distribution points for all private network customers."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our Energy, Commodities and Shipping business provides expert innovative carbon offset solutions and advice to the world s green energy markets, from transactions and financing to technology and consulting."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We provide brokerage services for the most widely traded energy and commodities products, including futures and OTC products covering refined and crude oil, power and electricity, natural gas, liquefied natural gas, environmental and emissions products, weather derivatives, base metals, coal and soft commodities."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "As part of our network business, our Lucera brand delivers high-performance technology solutions designed to be secure and scalable and to power demanding financial applications across several offerings: LumeFX, LumeMarkets, Connect, and Compute."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:51:25.474Z",
+  "model": "deepseek-v4-flash"
+}

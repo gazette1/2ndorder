@@ -1,0 +1,79 @@
+{
+  "cik": "0001744489",
+  "ticker": "DIS",
+  "name": "Walt Disney Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001744489-25-000155",
+    "filedAt": "2025-11-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/dis-20250927.htm"
+  },
+  "business": "The Walt Disney Company is a diversified worldwide entertainment company with operations in three segments: Entertainment, Sports, and Experiences. Entertainment includes linear networks (ABC, Disney, FX, National Geographic), direct-to-consumer services (Disney+, Hulu), and content sales/licensing (theatrical, TV/VOD, home entertainment). Sports includes ESPN-branded television channels and direct-to-consumer services. Experiences includes theme parks and resorts (Walt Disney World, Disneyland, international parks), cruise line, vacation club, and consumer products licensing and retail.",
+  "sellsTo": [
+    "Consumers (individuals for DTC services, theme park visits, merchandise)",
+    "Advertisers",
+    "Multichannel video programming distributors (MVPDs)",
+    "Theaters",
+    "Retail partners and wholesalers",
+    "Licensees of intellectual property"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "active_investment",
+      "sentence": "Cash used in other investing activities was $1.5 billion in fiscal 2024 reflecting an investment in Epic Games, Inc."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Consumer Products: Licensing of our trade names, characters, visual, literary and other IP to various manufacturers, game developers, publishers and retailers throughout the world, for use on merchandise, published materials and games."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "Technological developments, including developments in generative AI tools that can be used to create competing low-cost content and products, increase competition in these areas."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks related to... malware and other cyber-related attacks or intrusions or other widespread computing, telecommunications or payment processing failures, from time to time disrupt our ability to provide our products and services, raise the cost of providing our products and services and in certain instances affect our ability to obtain insurance coverage with respect to some of these events."
+    },
+    {
+      "tag": "other:ai-regulation",
+      "stance": "risk_mention",
+      "sentence": "Regulations governing new technological developments, such as developments in artificial intelligence (AI), including generative AI and large language model tools, remain unsettled, and these developments may affect aspects of our existing business models, including revenue streams for the use of our IP, how we create our entertainment offerings and the competition we face."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Disney Destiny cruise ship begins sailing",
+      "date": "2025-11-20",
+      "sentence": "The Disney Destiny will be approximately 140,000 tons with 1,250 staterooms and is scheduled to begin sailing on November 20, 2025 in North America."
+    },
+    {
+      "event": "Disney Adventure cruise ship begins sailing in Southeast Asia",
+      "date": "2026-03-01",
+      "sentence": "The Disney Adventure will be approximately 200,000 tons with approximately 2,100 staterooms and is scheduled to begin sailing in March 2026 in Southeast Asia."
+    },
+    {
+      "event": "Combination of certain Hulu Live TV assets with FuboTV",
+      "date": "2025-10-29",
+      "sentence": "On October 29, 2025, the Company and FuboTV Inc. (Fubo), a publicly traded vMVPD, combined certain of Hulu Live TV assets, including its carriage agreements, subscription agreements and related data, advertising and sponsorship agreements and intellectual property exclusively related to the Live TV brand, with Fubo."
+    },
+    {
+      "event": "Expected close of NFL Network acquisition",
+      "date": "2026-12-31",
+      "sentence": "The NFL Transaction is expected to close in calendar year 2026, subject to certain regulatory approvals, including from federal and foreign antitrust authorities, and other customary closing conditions."
+    },
+    {
+      "event": "Release of approximately 20 films in fiscal 2026",
+      "date": "2026-09-27",
+      "sentence": "During fiscal year 2026, we expect to release approximately 20 films."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:55:33.003Z",
+  "model": "deepseek-v4-flash"
+}

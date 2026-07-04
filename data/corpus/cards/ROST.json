@@ -1,0 +1,61 @@
+{
+  "cik": "0000745732",
+  "ticker": "ROST",
+  "name": "ROSS STORES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000745732-26-000006",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000006/rost-20260131.htm"
+  },
+  "business": "Ross Stores, Inc. operates two off-price retail brands: Ross Dress for Less and dd's DISCOUNTS, selling apparel, accessories, footwear, and home fashions at discounts of 20-60% and 20-70% respectively. Target customers are middle-income households for Ross and lower-to-moderate income households for dd's DISCOUNTS.",
+  "sellsTo": [
+    "middle income households",
+    "lower-to-moderate income households",
+    "value-driven customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Information or data security breaches, including cyberattacks on our transaction processing and computer information systems (including malware intrusion, data exfiltration, identity theft, and other types of cybersecurity threats), could disrupt our operations, result in theft or unauthorized disclosure of our confidential and valuable business information or credit card and other customer information, and could adversely affect our business, disrupt our operations, damage our reputation, increase our costs, and create significant legal exposure."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "While our business is exclusively in brick-and-mortar stores, consumer e-commerce spending continues to increase."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "A disruption within our logistics or supply chain network could adversely affect our ability to timely and efficiently transport merchandise to our stores or our distribution centers, which could impair our ability to meet customer demand for products and result in lost sales or increased supply chain costs."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Advancements in technology (including artificial intelligence or other emerging technologies) will present opportunities to inform merchandising, pricing, assortment, and other key business decisions; however, there are costs, risks and potential adverse consequences from premature adoption or over-reliance on those emerging technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plan to open approximately 110 new stores in fiscal 2026, consisting of 85 Ross and 25 dd's DISCOUNTS stores.",
+      "date": null,
+      "sentence": "Looking forward to 2026, we expect to open approximately 110 new stores, which represents 5% growth."
+    },
+    {
+      "event": "Capital expenditures for fiscal 2026 projected to be approximately $1.1 billion, including investments in new stores, distribution centers, and IT systems.",
+      "date": null,
+      "sentence": "Capital expenditures for fiscal 2026 are projected to be approximately $1.1 billion."
+    },
+    {
+      "event": "Board approved a new two-year stock repurchase program up to $2.55 billion through January 29, 2028.",
+      "date": null,
+      "sentence": "In March 2026, our Board of Directors approved a new, two-year program to repurchase up to $2.55 billion of the Company's common stock through January 29, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:10:36.456Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001809104",
+  "ticker": "ALIT",
+  "name": "Alight, Inc. / Delaware",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011108",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1809104/000162828026011108/alit-20251231.htm"
+  },
+  "business": "Alight is a technology-enabled services company delivering human capital management solutions to many of the world's largest and most complex organizations. This includes the implementation and administration of employee benefits (e.g., health, wealth and leaves) solutions. Participants can access their solutions digitally, including through a mobile application on Alight Worklife, our intuitive, cloud-based employee engagement platform.",
+  "sellsTo": [
+    "Fortune 500 companies",
+    "public institutions",
+    "mid-market businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft Azure Cloud",
+    "Wipro"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We are increasingly building AI and ML into many of our offerings including in our generative AI-enhanced Search and Chat functions for Alight Worklife as well as our intelligent document processing tools."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Employer Solutions is driven by our Alight Worklife platform, and includes integrated benefits administration, healthcare navigation, financial wellbeing, leave of absence management and retiree healthcare."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Employer Solutions is driven by our Alight Worklife platform, and includes integrated benefits administration, healthcare navigation, financial wellbeing, leave of absence management and retiree healthcare."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Improper access to, misappropriation, destruction or disclosure of confidential, personal or proprietary data as a result of employee or vendor malfeasance or cyber-attacks could result in financial loss, regulatory scrutiny, legal liability or harm to our reputation."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on the efficient, uninterrupted and secure operation of complex information technology systems, and networks and data centers, some of which are outsourced to third-party providers, including cloud infrastructure service providers such as Amazon Web Services (AWS) and Microsoft Azure Cloud."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:10:18.406Z",
+  "model": "deepseek-v4-flash"
+}

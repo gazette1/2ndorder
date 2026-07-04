@@ -1,0 +1,49 @@
+{
+  "cik": "0000714712",
+  "ticker": "JUVF",
+  "name": "JUNIATA VALLEY FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-034395",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/714712/000110465926034395/juvf-20251231x10k.htm"
+  },
+  "business": "Juniata Valley Financial Corp. is a bank holding company that delivers retail and commercial banking, trust, estate, and wealth management services through 14 branch locations in central and northern Pennsylvania. Its customers are primarily consumers and small to mid-sized businesses in those markets.",
+  "sellsTo": [
+    "consumers",
+    "small and mid-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Bank s service area is characterized by a high level of competition for banking and financial services among commercial banks, varying in size from local community banks to regional and national banks, credit unions, savings and loan associations and non-bank financial institutions, including fintech-based loan and deposit providers, insurance companies, investment counseling firms, and mutual funds and other business firms and individuals in corporate and trust investment management services located inside and outside the Bank s market area."
+    },
+    {
+      "tag": "other:stablecoin",
+      "stance": "risk_mention",
+      "sentence": "The Guiding and Establishing National Innovation for U.S. Stablecoins Act ( Genius Act ) established a regulatory framework for payments with stablecoin. Wide acceptance of stablecoin as a payment vehicle could lead to a reduction in deposits, negatively impacting Juniata s liquidity position."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company s potential use of artificial intelligence technologies, and future adoptions of similar technologies, could expose the Company to operational, regulatory, reputational and competitive risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents could disrupt business operations, result in the loss of critical and confidential information, and adversely impact the Company s reputation and results of operations."
+    },
+    {
+      "tag": "other:low-income-housing",
+      "stance": "active_investment",
+      "sentence": "The Company qualifies for a federal tax credit for investments in low-income housing partnerships. The tax credit was $329,000 for both the year ended December 31, 2025 and the year ended December 31, 2024."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:56:43.124Z",
+  "model": "deepseek-v4-flash"
+}

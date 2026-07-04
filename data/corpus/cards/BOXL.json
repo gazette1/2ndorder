@@ -1,0 +1,65 @@
+{
+  "cik": "0001624512",
+  "ticker": "BOXL",
+  "name": "Boxlight Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-025273",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1624512/000162828026025273/boxl-20251231.htm"
+  },
+  "business": "We are a technology company that develops, sells, and services interactive solutions predominantly for the global education market, but also for the corporate and government sectors. We currently design, produce, and distribute interactive technologies including our interactive and non-interactive flat-panel displays, LED video walls, media players, classroom audio and campus communication, cameras, and other peripherals for the education market and non-interactive solutions, including flat-panels, LED video walls, and digital signage for the enterprise market. We also distribute science, technology, engineering, and math (or STEM ) products, including our 3D printing and robotics solutions, and our portable science lab.",
+  "sellsTo": [
+    "global education market",
+    "corporate sector",
+    "government sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We also distribute science, technology, engineering, and math (or STEM ) products, including our 3D printing and robotics solutions, and our portable science lab."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "emerging technologies such as artificial intelligence and immersive learning tools are being adapted for educational uses on the Internet, mobile devices, and through cloud-computing, which permits the sharing of digital files and programs among multiple computers or other devices at the same time through a virtual network."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a breach in security of our electronic data or our information technology systems, including any cybersecurity attack"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of FrontRow Symphony IP-based campus communication platform",
+      "date": "2026-01",
+      "sentence": "In January 2026, we launched FrontRow Symphony , an IP-based, campus-wide communication platform that integrates classroom audio with school-wide systems for bells, paging, intercom, and emergency alerting."
+    },
+    {
+      "event": "Clevertouch Pro Series begins shipping in North America",
+      "date": "2025-09",
+      "sentence": "The Clevertouch Pro Series began shipping in North America in September 2025 and is intended to support districts seeking standardized, Google-certified interactive display solutions."
+    },
+    {
+      "event": "Supreme Court invalidates IEEPA-based tariffs",
+      "date": "2026-02-20",
+      "sentence": "On February 20, 2026, the Supreme Court of the United States ruled that the International Emergency Economic Powers Act ( IEEPA ) does not authorize the imposition of tariffs, effectively invalidating IEEPA-based tariffs that had been in effect since February 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global K-12 education technology market estimated at $44.3 billion in 2026, projected to reach $325.1 billion by 2035 (24.5% CAGR).",
+      "sentence": "According to a March 2026 Market Growth Reports study, the global K-12 education technology market was estimated at approximately $44.3 billion in 2026 and is projected to reach $325.1 billion by 2035, representing a compound annual growth rate of 24.5% over the forecast period."
+    },
+    {
+      "claim": "Global expenditure on education and training expected to reach $10 trillion by 2030.",
+      "sentence": "the global expenditure on education and training from governments, parents, individuals and corporates continues to grow to historic levels and is expected to reach USD $10 trillion by 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:22:43.203Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,72 @@
+{
+  "cik": "0001004989",
+  "ticker": "SGRP",
+  "name": "SPAR Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010508",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1004989/000143774926010508/sgrp20251231_10k.htm"
+  },
+  "business": "SPAR Group is a leading merchandising and brand marketing services company, providing a broad range of sales enhancing services to retailers across most classes of trade and consumer goods manufacturers and distributors. As of December 31, 2025, the Company operated in the U.S. and Canada. The Company has more than 50 years of experience.",
+  "sellsTo": [
+    "Mass Merchandisers",
+    "Grocery",
+    "HBA",
+    "Pharmacies",
+    "Discount",
+    "Dollar",
+    "Convenience",
+    "Cash and Carry",
+    "Home Improvement",
+    "Consumer Electronics",
+    "Automotive",
+    "Office Supply",
+    "Independents",
+    "Personal Technology",
+    "Beverage",
+    "Household Products",
+    "Consumables",
+    "Financial Products",
+    "Automotive Aftermarket"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Fulfillment & Distribution is a critical service offering that encompasses a range of services including (i) Distribution Center Staffing, which provides the necessary workforce for the effective operation of distribution centers, including handling and sorting,"
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Fulfillment & Distribution is a critical service offering that encompasses a range of services including ... (v) picking and packing services, which are crucial for order fulfillment, involving the selection of the correct products from inventory and packing them for shipment to the customer or retail outlet, and (vi) inventory services which provide comprehensive management of stock levels, including tracking, auditing, and reporting, to ensure inventory accuracy and availability."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The changing retail landscape and need for enhanced digital, e-commerce, and fulfillment capability along with the opportunities arising from the emergence of Artificial Intelligence (\"AI\"), deep learning, and computer vision shapes our thinking."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "retailers with physical store locations are facing increasing consolidation and competition from eCommerce/virtual stores."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity breach that results in unauthorized access to sensitive consumer or corporate information contained in these systems may adversely affect the Company's reputation and lead to claims against it."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of CIC Agreement",
+      "date": "2027-01",
+      "sentence": "the CIC Agreement expires in January 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:37:10.354Z",
+  "model": "deepseek-v4-flash"
+}

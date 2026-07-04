@@ -1,0 +1,61 @@
+{
+  "cik": "0001801661",
+  "ticker": "FIRY",
+  "name": "Firy Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001801661-26-000020",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1801661/000180166126000020/sklz-20251231.htm"
+  },
+  "business": "Skillz Inc. operates a proprietary multi-player platform for competitive mobile gaming and an AI-powered advertising technology segment (RZR). The platform enables game developers to monetize their content through real-money tournaments and provides end-users with interactive entertainment. RZR delivers advertising solutions for brands and mobile apps using machine learning and behavioral models.",
+  "sellsTo": [
+    "game developers",
+    "end-users/players",
+    "advertisers"
+  ],
+  "namedCustomers": [
+    "Tether",
+    "Big Run"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our proprietary multi-player platform, a form of social media solution, provides interactive entertainment through competitive game content."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer a payments infrastructure that includes ACH instant and fast withdrawals."
+    },
+    {
+      "tag": "other:ai-advertising",
+      "stance": "core_product",
+      "sentence": "Paired with RZR (formerly Aarki), our AI-powered advertising technology segment, Skillz operates an ecosystem that combines content, audience, and performance into a unified growth engine."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Strong anti-cheat and anti-fraud protections are among the most critical elements required to foster a healthy fair-play competitive ecosystem."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We primarily rely, and expect to continue to rely, on Amazon Web Services (AWS) to deliver our offerings to users on our platform and any failure or disruption of or interference with our use of AWS could adversely affect our business, financial condition, results of operations and prospects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trial in Papaya Gaming litigation scheduled to begin",
+      "date": "2026-04-13",
+      "sentence": "The trial is currently scheduled to begin on April 13, 2026 (see Note 9, Commitments and Contingencies, in Part II, Item 8 of this Annual Report)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:30:33.406Z",
+  "model": "deepseek-v4-flash"
+}

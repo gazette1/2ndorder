@@ -1,0 +1,60 @@
+{
+  "cik": "0001510964",
+  "ticker": "CVSI",
+  "name": "CV Sciences, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-126598",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1510964/000119312526126598/cvsi-20251231.htm"
+  },
+  "business": "CV Sciences, Inc. is a consumer wellness company specializing in nutraceuticals and plant-based foods. It sells hemp extracts and other natural ingredients through B2B and B2C channels, with brands including +PlusCBD, +PlusHLTH, Cultured Foods, and Lunar Fox. Additionally, it manufactures encapsulated softgels and tinctures for the supplement and nutrition industry.",
+  "sellsTo": [
+    "B2B",
+    "B2C",
+    "online",
+    "brick-and-mortar retailers",
+    "distributors",
+    "e-tailers",
+    "Europe retail"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our +PlusCBD branded products are sold at select retail locations throughout the U.S. and are the top-selling brands of hemp extracts in the natural products market, according to SPINS, the leading provider of syndicated data and insights for the natural, organic and specialty products industry."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "We also have a dormant drug development program focused on developing and commercializing CBD-based novel therapeutics, which may be pursued further, subject to available capital."
+    },
+    {
+      "tag": "other:softgel-manufacturing",
+      "stance": "core_product",
+      "sentence": "We are also a manufacturer of encapsulated softgels and tinctures for the supplement and nutrition industry."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Regulatory change prohibiting sale of hemp-derived products with more than 0.4 mg total THC per container after November 12, 2026",
+      "date": "2026-11-12",
+      "sentence": "The changes take effect November 12, 2026, creating a one-year transition period."
+    },
+    {
+      "event": "Amendment of secured promissory notes to include conversion feature",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, the Company amended the Note and the New Note (collectively, the Notes ) to include a conversion feature pursuant to which the outstanding balance of the Notes may be converted into shares of common stock of the Company at a fixed conversion price of $0.06 per share."
+    },
+    {
+      "event": "Launch of Lunar Fox brand in the U.S. market",
+      "date": "2025-01-01",
+      "sentence": "In January 2025, we launched Lunar Fox , a brand that is focused on distribution of plant-based products in the U.S. market."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:16:25.923Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,57 @@
+{
+  "cik": "0001579298",
+  "ticker": "BURL",
+  "name": "Burlington Stores, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-116001",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526116001/burl-20260131.htm"
+  },
+  "business": "Burlington Stores is a nationally recognized off-price retailer of high-quality, branded merchandise at everyday low prices. Its core customer is 25-49 years old, more ethnically diverse than the general population, with an annual household income of $25,000-$100,000.",
+  "sellsTo": [
+    "value-oriented and brand-conscious customers",
+    "core customer aged 25-49",
+    "household income $25,000-$100,000",
+    "midsize to large metropolitan areas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a nationally recognized off-price retailer of high-quality, branded merchandise at everyday low prices."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "More generally, consumer e-commerce spending may continue to increase, as it has in recent years, while our business is exclusively in brick-and-mortar stores. If we fail to compete effectively, our sales and results of operations could be adversely affected. In addition, existing competitors may consolidate with other retailers, expand their merchandise offerings, expand their e-commerce capabilities, and/or add new sales channels, change their pricing strategies, or use technology more effectively than we do, including the use of artificial intelligence ( AI ) or other emerging technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we are unable to protect our information systems against service interruption, misappropriation of data, breaches of security, or other cyber-related attacks, our operations could be disrupted, we may suffer financial losses and our reputation may be damaged."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Ellabell, Georgia distribution center fully operational",
+      "date": "2027-01-30",
+      "sentence": "The purchase option was exercised during Fiscal 2024, and the building is expected to be fully operational during Fiscal 2026."
+    },
+    {
+      "event": "Buckeye, Arizona distribution center operational",
+      "date": "2029-02-03",
+      "sentence": "During Fiscal 2025, we purchased 178 acres of land in Buckeye, Arizona for the purpose of building a distribution center, which is expected to be operational in Fiscal 2028."
+    },
+    {
+      "event": "Exchange of 2027 Convertible Notes closing",
+      "date": "2026-03-19",
+      "sentence": "These exchange transactions are expected to close on or around March 19, 2026, subject to the satisfaction of customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:46:15.463Z",
+  "model": "deepseek-v4-flash"
+}

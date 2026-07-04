@@ -1,0 +1,62 @@
+{
+  "cik": "0000091767",
+  "ticker": "SON",
+  "name": "SONOCO PRODUCTS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000091767-26-000008",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/91767/000009176726000008/son-20251231.htm"
+  },
+  "business": "Sonoco Products Company is a global designer, developer, and manufacturer of highly engineered and sustainable packaging. It operates in two reportable segments: Consumer Packaging (rigid paper, metal, and plastic containers) and Industrial Paper Packaging (paperboard tubes, cores, and recycled paperboard). Products serve multiple end markets including food, beverage, household, personal care, pharmaceutical, home building, appliances, and construction.",
+  "sellsTo": [
+    "consumer staples market (food, beverage, household, personal, pharmaceutical products)",
+    "consumer discretionary market (home building, appliances, apparel, home furnishings)",
+    "industrials market (construction and building products, industrial distribution)",
+    "adhesives and sealants sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Products within the Consumer Packaging segment consist of rigid packaging (paper, metal, and plastic), primarily serving the consumer staples market focused on food, beverage, household, personal, and pharmaceutical products."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Products across this segment support multiple end markets in consumer staples (food and beverage, food distribution, household and personal products), consumer discretionary (home building, appliances, apparel, and home furnishings), and industrials (construction and building products, and industrial distribution), as well as various other end markets."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Products across this segment support multiple end markets in consumer staples (food and beverage, food distribution, household and personal products), consumer discretionary (home building, appliances, apparel, and home furnishings), and industrials (construction and building products, and industrial distribution), as well as various other end markets."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "in July 2025 the Company announced plans to invest $30 million of capital into three rigid paper can facilities in the United States to increase its production capacity in the adhesives and sealants sector."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "growing use of AI by our competitors could disrupt our business model and lower the barriers to entry in the markets we serve."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Invest $30 million into three rigid paper can facilities to increase production capacity for adhesives and sealants",
+      "date": "2025-07",
+      "sentence": "in July 2025 the Company announced plans to invest $30 million of capital into three rigid paper can facilities in the United States to increase its production capacity in the adhesives and sealants sector."
+    },
+    {
+      "event": "Industrial and specialty plastics business to be reported within Industrial Paper Packaging segment, discontinuing All Other category",
+      "date": "2026-01-01",
+      "sentence": "Effective January 1, 2026, this business will be reported within the Industrial Paper Packaging segment and the use of the All Other category will be discontinued."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:49:04.856Z",
+  "model": "deepseek-v4-flash"
+}

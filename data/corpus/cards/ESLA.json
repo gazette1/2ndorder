@@ -1,0 +1,66 @@
+{
+  "cik": "0001844417",
+  "ticker": "ESLA",
+  "name": "Estrella Immunopharma, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-029357",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1844417/000121390026029357/ea0276230-10k_estrella.htm"
+  },
+  "business": "Estrella Immunopharma, Inc. is a clinical-stage biopharmaceutical company developing T-cell therapies for cancers and autoimmune diseases. Its lead product candidate, EB103, is a CD19-directed ARTEMIS T-cell therapy currently in a Phase I/II clinical trial for relapsed or refractory B-cell non-Hodgkin's lymphoma. The company also develops EB104 (dual-targeting CD19/CD22) and explores a mark-and-kill strategy with Imugene's CF33-CD19t oncolytic virus for solid tumors.",
+  "sellsTo": [
+    "patients with blood cancers and solid tumors",
+    "patients with autoimmune diseases"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Eureka Therapeutics, Inc.",
+    "Imugene"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a clinical-stage biopharmaceutical company developing T-cell therapies to address treatment challenges for patients with cancers and autoimmune diseases."
+    },
+    {
+      "tag": "other:immunotherapy",
+      "stance": "core_product",
+      "sentence": "Our innovative ARTEMIS T Cell Receptor Platform uniquely designs T cells that, unlike a traditional CAR-T cell, are activated and regulated upon engagement with cancer targets using cellular mechanisms more resembling those from the endogenous T-cell receptor (TCR)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Phase I dose-escalation portion of STARLIGHT-1 trial",
+      "date": "2025-12-31",
+      "sentence": "As of December 2025, we have completed the second dose cohort in the Phase I dose-escalation portion of our STARLIGHT-1 Phase I/II clinical trial of EB103, and an independent Data Safety Monitoring Board (DSMB) has completed its review of safety data from the Phase I dose-escalation phase (n=9) and recommended advancing the trial into the Phase II expansion phase at the recommended Phase II dose (RP2D)."
+    },
+    {
+      "event": "Initiation of Phase II expansion phase of STARLIGHT-1 trial",
+      "date": "2026-01-01",
+      "sentence": "Patient dosing for Phase II has commenced in January 2026 to further evaluate EB103 at RP2D in a larger patient cohort to confirm the Phase I results."
+    },
+    {
+      "event": "Anticipated completion of Phase II portion of STARLIGHT-1 trial",
+      "date": "2027-06-30",
+      "sentence": "We anticipate completing the Phase II portion of the STARLIGHT-1 clinical trial in 1H2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global CAR T-cell therapy market size estimated at $5.82 billion in 2025 and projected to reach $22.36 billion by 2033, growing at a CAGR of 18.06% from 2026 to 2033.",
+      "sentence": "According to Grand View Research, the global CAR T-cell therapy market size was estimated at $5.82 billion in 2025 and is projected to reach $22.36 billion by 2033, growing at a compounded annual growth rate of 18.06% from 2026 to 2033."
+    },
+    {
+      "claim": "Currently only about 20% of eligible patients are treated by current CAR-T therapies.",
+      "sentence": "However, currently only about 20% of eligible patients are treated by current CAR-T therapies, due to their various limitations described above."
+    },
+    {
+      "claim": "Solid tumors represent approximately 1,600,000 new cancer cases, or 90% of total cancer diagnoses in the United States, each year.",
+      "sentence": "Solid tumors represent approximately 1,600,000 new cancer cases, or 90% of total cancer diagnoses in the United States, each year."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:19:58.362Z",
+  "model": "deepseek-v4-flash"
+}

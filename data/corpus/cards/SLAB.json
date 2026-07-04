@@ -1,0 +1,64 @@
+{
+  "cik": "0001038074",
+  "ticker": "SLAB",
+  "name": "SILICON LABORATORIES INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001038074-26-000005",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000005/slab-20260103.htm"
+  },
+  "business": "Silicon Laboratories Inc. provides analog-intensive, mixed-signal solutions for use in a variety of electronic products in a broad range of applications for the Internet of Things (IoT). The company groups its products into Industrial & Commercial and Home & Life target markets.",
+  "sellsTo": [
+    "Industrial & Commercial markets (e.g., industrial automation, smart metering)",
+    "Home & Life markets (e.g., smart home, connected health)",
+    "Distributors and contract manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Taiwan Semiconductor Manufacturing Co. (TSMC)",
+    "Semiconductor Manufacturing International Corporation (SMIC)"
+  ],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We provide analog-intensive, mixed-signal solutions for use in a variety of electronic products in a broad range of applications for the IoT."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our Industrial IoT solutions drive energy efficiency, operational excellence, and enables the intelligent and secure use of industrial assets."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our low-power, high-performance wireless SoCs and modules simplify this process and accelerate time-to-market to develop secure, reliable, smart medical devices."
+    },
+    {
+      "tag": "other:smart-home",
+      "stance": "core_product",
+      "sentence": "Our secure, reliable, and robust smart home solutions also include support for emerging applications like Matter and Amazon Sidewalk that are designed to streamline customer adoption while providing functionality that reinforces privacy, simplicity, and performance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We also focus design and engineering efforts on technologies that simplify and accelerate customer adoption of security features engineered into our silicon chips."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "Machine learning is bringing greater intelligence to the edge on battery-powered devices."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Texas Instruments expected to close in first half of 2027",
+      "date": null,
+      "sentence": "the Merger is expected to close in the first half of 2027, subject to customary closing conditions, including approval by our stockholders and the receipt of required regulatory approvals."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:34:43.770Z",
+  "model": "deepseek-v4-flash"
+}

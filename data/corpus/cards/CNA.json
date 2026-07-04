@@ -1,0 +1,42 @@
+{
+  "cik": "0000021175",
+  "ticker": "CNA",
+  "name": "CNA FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000021175-26-000011",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/21175/000002117526000011/cna-20251231.htm"
+  },
+  "business": "CNA Financial Corporation is an insurance holding company whose property and casualty and life and group insurance operations are primarily conducted through subsidiaries. Its insurance products primarily include commercial property and casualty coverages, including surety, and services include warranty, risk management information services, and claims administration.",
+  "sellsTo": [
+    "small, medium and large businesses",
+    "insurance companies",
+    "associations",
+    "professionals",
+    "other groups"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance products primarily include commercial property and casualty coverages, including surety."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are vulnerable to material losses from natural and man-made disasters. ... cyber-attacks ..."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "Policyholder use of AI could introduce novel exposures that may result in new or increased claims."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:59:37.282Z",
+  "model": "deepseek-v4-flash"
+}

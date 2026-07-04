@@ -1,0 +1,47 @@
+{
+  "cik": "0001610940",
+  "ticker": "BDRY",
+  "name": "Amplify Commodity Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-092470",
+    "filedAt": "2025-09-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1610940/000121390025092470/ea0256815-10k_amplify.htm"
+  },
+  "business": "Amplify Commodity Trust operates two commodity pools, Breakwave Dry Bulk Shipping ETF (BDRY) and Breakwave Tanker Shipping ETF (BWET), that seek to provide investors with exposure to daily changes in the price of dry bulk freight futures and crude oil tanker freight futures, respectively, by tracking benchmark portfolios of exchange-cleared futures contracts.",
+  "sellsTo": [
+    "investors trading on NYSE Arca",
+    "authorized participants (broker-dealers) that create and redeem baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Breakwave Advisors LLC",
+    "Marex Financial",
+    "U.S. Bank",
+    "Foreside Fund Services, LLC",
+    "Wilmington Trust Company",
+    "Amplify Investments LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "BDRY's investment objective is to provide investors with exposure to the daily change in the price of dry bulk freight futures by tracking the performance of a portfolio (the BDRY Benchmark Portfolio) consisting of exchange-cleared futures contracts on the cost of shipping dry bulk freight (Dry Freight Futures)."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "BWET's investment objective is to provide investors with exposure to the daily change in the price of crude oil tanker freight futures by tracking the performance of a portfolio (the BWET Benchmark Portfolio) consisting of exchange-cleared futures contracts on the cost of shipping crude oil (Oil Freight Futures)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of contractual expense cap and CTA fee waiver for both funds",
+      "date": "2025-12-31",
+      "sentence": "The assumption of expenses and waiver of the CTA Fee are contractual on the part of the Sponsor and Breakwave, respectively, through December 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:04.658Z",
+  "model": "deepseek-v4-flash"
+}

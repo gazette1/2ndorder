@@ -1,0 +1,74 @@
+{
+  "cik": "0001546853",
+  "ticker": "SKKY",
+  "name": "Skkynet Cloud Systems, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-26-000435",
+    "filedAt": "2026-01-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1546853/000147793226000435/skky_10k.htm"
+  },
+  "business": "Skkynet is an industrial software and services vendor that specializes in providing secure connectivity and data acquisition to a wide variety of industrial and office hardware and software products and making that data available over a network using industry-standard protocols. The company also offers a Cloud-based SaaS product targeting the Industrial Internet of Things (IoT) market, often referred to as Industry 4.0. Skkynet sells to systems integrators, OEMs, resellers, and end customers in industries including aerospace, automation, chemicals, energy, financial, healthcare, and manufacturing.",
+  "sellsTo": [
+    "Systems integrators",
+    "OEMs",
+    "Resellers",
+    "End customers in aerospace, automation & control, chemicals, communications, education, engineering, energy & utilities, financial, food & beverage, government & municipal, healthcare & pharmaceutical, instrumentation, manufacturing, natural resources"
+  ],
+  "namedCustomers": [
+    "Siemens",
+    "ABB",
+    "BASF",
+    "Equinor"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft Azure"
+  ],
+  "exposures": [
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We are an industrial software and services vendor that specializes in providing secure connectivity and data acquisition to a wide variety of industrial and office hardware and software products and making that data available over a network using industry-standard protocols."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Security is based on Skkynet s patented technology that uses outbound-only connections to ensure that no attack surface is exposed on a local plant network."
+    },
+    {
+      "tag": "cloud",
+      "stance": "core_product",
+      "sentence": "Skkynet was established to enhance Cogent s existing business lines through the integration of cloud-based systems ( Cloud ), and to deliver a Software-as-a-Service ( SaaS ) product targeting the Industrial Internet of Things ( IoT ) market."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Specifically, Skkynet provides software and related systems and facilities to collect process and distribute real-time information over networks. This capability allows our customers to both locally and remotely manage, supervise and control industrial processes and financial information systems."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Skkynet provides the secure, real-time industrial data pipeline that industrial AI demands, zero-trust OT access, unified live datasets ready for models, and battle-tested reliability to close the loop safely and at scale."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Third, is the application of our products and services to new business lines such as AI-focused providers, embedded products or combination solutions... where edge-processing is required (e.g. remote AI-enabled monitoring, analysis and control of assets over third party networks)."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Although we are primarily involved thus far in the areas of industrial processing and financial services, the concepts and software underlying our existing products and services are applicable to a variety of areas including fleet tracking , energy usage monitoring and control including wind power, solar power and agriculture."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Goldman Sachs issued guidance that over $1Trillion will be put towards AI capital expenditures in the coming years.",
+      "sentence": "Goldman Sachs issued guidance that over $1Trillion will be put towards AI capital expenditures in the coming years."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:37:18.762Z",
+  "model": "deepseek-v4-flash"
+}

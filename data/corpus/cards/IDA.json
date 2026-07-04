@@ -1,0 +1,104 @@
+{
+  "cik": "0001057877",
+  "ticker": "IDA",
+  "name": "IDACORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001057877-26-000028",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1057877/000105787726000028/ida-20251231.htm"
+  },
+  "business": "Idaho Power is an electric utility engaged in the generation, transmission, distribution, sale, and purchase of electric energy and capacity. It provides electric utility service to approximately 664,000 retail customers in southern Idaho and eastern Oregon. Its principal commercial and industrial customers are involved in food processing, electronics and general manufacturing, agriculture, health care, government, education, and information technology.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Irrigation",
+    "Wholesale"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bridger Coal Company (BCC)",
+    "Williams-Northwest Pipeline",
+    "Williams-Mt. West Overthrust Pipeline",
+    "Tallgrass-Ruby Pipeline",
+    "Spire Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Idaho Power is an electric utility engaged in the generation, transmission, distribution, sale, and purchase of electric energy and capacity."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Idaho Power is jointly working with various partners on the development of three significant transmission projects."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Through 2025, 307 MW of company-owned battery storage were installed, with another 250 MW expected to be in service by the end of 2026."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Idaho Power has agreements with non-PURPA solar projects for 125 MW and 500 MW, expected to be online in 2026 and 2027, respectively."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "active_investment",
+      "sentence": "Idaho Power is the parent of IERCo, a joint-owner of BCC, which mines and supplies coal to the Jim Bridger plant owned in part by Idaho Power."
+    },
+    {
+      "tag": "other:hydropower",
+      "stance": "core_product",
+      "sentence": "Idaho Power operates 17 hydropower projects located on the Snake River and its tributaries."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The utility industry is continuing to experience an increase in the frequency and sophistication of cybersecurity incidents."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "B2H transmission line in-service",
+      "date": "2027-12-31",
+      "sentence": "Idaho Power commenced construction on the B2H transmission line, with an expected in-service date of late 2027;"
+    },
+    {
+      "event": "100 MW battery storage facility online",
+      "date": "2027-04-30",
+      "sentence": "Idaho Power has a 20-year agreement to utilize the storage capacity from a 100 MW battery storage facility scheduled to be online in April 2027."
+    },
+    {
+      "event": "Conversion of North Valmy unit 2 to natural gas completed",
+      "date": "2026-06-30",
+      "sentence": "the conversion of North Valmy unit 2 is expected to be completed by mid-2026."
+    },
+    {
+      "event": "125 MW solar project online",
+      "date": "2026-12-31",
+      "sentence": "Idaho Power has agreements with non-PURPA solar projects for 125 MW and 500 MW, expected to be online in 2026 and 2027, respectively."
+    },
+    {
+      "event": "500 MW solar project online",
+      "date": "2027-12-31",
+      "sentence": "Idaho Power has agreements with non-PURPA solar projects for 125 MW and 500 MW, expected to be online in 2026 and 2027, respectively."
+    },
+    {
+      "event": "167 MW natural gas generating capacity in-service",
+      "date": "2028-12-31",
+      "sentence": "Idaho Power filed a CPCN request with the IPUC for 167 MW of natural gas-fueled generating capacity next to the existing Bennett Mountain power plant, with an expected in-service date in 2028."
+    },
+    {
+      "event": "HCC license issuance",
+      "date": "2027-01-01",
+      "sentence": "Idaho Power believes issuance of a new HCC license by the FERC will be as early as 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:26:57.621Z",
+  "model": "deepseek-v4-flash"
+}

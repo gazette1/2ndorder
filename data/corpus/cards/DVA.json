@@ -1,0 +1,79 @@
+{
+  "cik": "0000927066",
+  "ticker": "DVA",
+  "name": "DAVITA INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000927066-26-000012",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm"
+  },
+  "business": "DaVita is a leading provider of kidney dialysis services for patients suffering from end stage renal disease (ESRD), and also offers integrated kidney care management and other ancillary services. The company's U.S. dialysis business treats approximately 200,500 patients as of December 31, 2025, and its international operations serve about 94,500 patients in 14 countries. Revenues are primarily derived from government-based programs (Medicare, Medicaid) and commercial insurance plans.",
+  "sellsTo": [
+    "Government-based programs (Medicare, Medicare Advantage, Medicaid, managed Medicaid, other government programs)",
+    "Commercial insurance plans (including hospital dialysis services)",
+    "Patients (primarily those with end stage kidney disease)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our U.S. dialysis business is a leading provider of kidney dialysis services for patients suffering from ESKD."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "Our IKC business provides comprehensive care management for complex CKD patients nationwide, with payment models that include a variety of structures to advance and encourage integrated and value-based care."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "Certain of these factors, in particular mortality rates for dialysis or CKD patients, have been impacted by global health conditions, including severe flu seasons and the ongoing incidence of other infectious diseases such as COVID-19."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "During the second quarter of 2025, we experienced a cybersecurity incident that impacted certain elements of our network and resulted in a temporary disruption of our operations."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "The underlying ESKD dialysis patient population grew at an approximate compound annual rate of 1.8% from 2013 to 2023 and 0.2% from 2018 to 2023 as compared to an increase in annual growth of 0.5% from 2022 to 2023."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CMS final rule for 2026 Medicare ESRD PPS payment rate and policies effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "In November 2025, CMS issued a final rule to update the Medicare ESRD PPS payment rate and policies for calendar year 2026."
+    },
+    {
+      "event": "Phosphate binders incorporated into ESRD PPS bundle on January 1, 2025",
+      "date": "2025-01-01",
+      "sentence": "On January 1, 2025, phosphate binders, a drug class taken orally by many ESKD patients to reduce absorption of dietary phosphate, were incorporated into the ESRD PPS bundled payment rate."
+    },
+    {
+      "event": "Transitional Drug Add-on Payment Adjustment (TDAPA) for phosphate binders set to expire at end of 2026",
+      "date": "2026-12-31",
+      "sentence": "The TDAPA period currently is set to expire at the end of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 557,000 ESKD dialysis patients in the U.S. in 2023",
+      "sentence": "Based on the most recent 2025 annual data report from the United States Renal Data System (USRDS), there were over 557,000 ESKD dialysis patients in the U.S. in 2023."
+    },
+    {
+      "claim": "CAGR of 1.8% from 2013 to 2023 and 0.2% from 2018 to 2023 for ESKD dialysis patient population",
+      "sentence": "The underlying ESKD dialysis patient population grew at an approximate compound annual rate of 1.8% from 2013 to 2023 and 0.2% from 2018 to 2023 as compared to an increase in annual growth of 0.5% from 2022 to 2023."
+    },
+    {
+      "claim": "DaVita has approximately 36% share of U.S. dialysis market",
+      "sentence": "We estimate that we have approximately a 36% share of the U.S. dialysis market based upon the number of patients we serve."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:55:36.291Z",
+  "model": "deepseek-v4-flash"
+}

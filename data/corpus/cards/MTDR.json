@@ -1,0 +1,45 @@
+{
+  "cik": "0001520006",
+  "ticker": "MTDR",
+  "name": "Matador Resources Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001520006-26-000002",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1520006/000152000626000002/mtdr-20251231.htm"
+  },
+  "business": "Matador Resources Company is an independent energy company engaged in the exploration, development, production, and acquisition of oil and natural gas resources in the United States, with a focus on the Delaware Basin in Southeast New Mexico and West Texas. It also conducts midstream operations, including natural gas processing, oil transportation, and produced water disposal services, for its own operations and for third parties. The company sells its oil and natural gas production primarily into spot markets and through contracts based on spot market prices.",
+  "sellsTo": [
+    "Spot markets for oil and natural gas",
+    "Third-party midstream customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are an independent energy company engaged in the exploration, development, production and acquisition of oil and natural gas resources in the United States, with an emphasis on oil and natural gas shale and other unconventional plays."
+    },
+    {
+      "tag": "other:midstream",
+      "stance": "core_product",
+      "sentence": "Additionally, we conduct midstream operations in support of, and to provide flow assurance for, our exploration, development and production operations and provide natural gas processing, oil transportation services, oil, natural gas and produced water gathering services and produced water disposal services to third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hugh Brinson Pipeline expected to come online in the fourth quarter of 2026",
+      "date": null,
+      "sentence": "We also secured firm transportation on Energy Transfer s Hugh Brinson Pipeline, which is expected to come online in the fourth quarter of 2026, to move 500,000 MMBtu per day of natural gas production out of the Permian Basin to East Texas and markets along the Gulf Coast where demand and pricing have historically been significantly higher than at the Waha Hub."
+    },
+    {
+      "event": "Marlan Processing Plant expansion came online in Q2 2025",
+      "date": "2025-04-01",
+      "sentence": "The Marlan Processing Plant expansion came online in the second quarter of 2025 and increased San Mateo s total natural gas cryogenic processing capacity 38% to 720 MMcf per day."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:43:47.604Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0001509957",
+  "ticker": "NASC",
+  "name": "Can B Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-24-014686",
+    "filedAt": "2024-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1509957/000149315224014686/form10-k.htm"
+  },
+  "business": "Can B Corp sells products containing cannabinoids derived from hemp biomass, including CBD, CBN, CBG, delta-8, and delta-10, under brands Canbiola and Pure Leaf Oil. It also licenses durable medical equipment such as ultrasound devices and back braces through its Duramed division. The company recently acquired patents for liquid cannabis formulations and plans to commercialize them.",
+  "sellsTo": [
+    "Medical professionals",
+    "No-fault insurance market",
+    "Direct consumers via website"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Sam International",
+    "ZetrOZ Systems LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "The Company is in the business of promoting health and wellness through its development, manufacture and sale of products containing cannabinoids derived from hemp biomass and the licensing of durable medical devices."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Through its medical device division, Duramed, Inc. (Duramed) and Duramed MI LLC, a Nevada limited liability company fka DuramedNJ, LLC (Duramed MI), the Company serves the post-surgery medical patient arena aiming to aid in recovery and pain reduction."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company currently has two in-house branded CBD products that are manufactured by PHP and sold to consumers, Canbiola and Pure Leaf Oil."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Currently, it is less expensive to buy crude oil and isolate than to produce such from hemp grown by the Company. Accordingly, the Company has stopped its Green Grow operations in favor of buying raw products from third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquired liquid cannabis formulation patents",
+      "date": "2024-02",
+      "sentence": "In February 2024, our 67% owned subsidiary, Nascent Pharma, LLC, acquired composition of matter and use patents covering liquid formulations of cannabis."
+    },
+    {
+      "event": "Auction of hemp division assets",
+      "date": "2024-03-14",
+      "sentence": "On March 14, 2024, an auction of the assets of our hemp division was conducted under Article 9 of the Uniform Commercial Code following allegations by certain affiliated creditors that we were in breach of our obligations under certain notes and a forbearance agreement."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The patents cover a portion of the hemp and cannabis industry potentially up to 50%.",
+      "sentence": "This constitutes a considerable portion of the hemp and cannabis industry, potentially up to 50%."
+    }
+  ],
+  "generatedAt": "2026-07-04T17:06:14.191Z",
+  "model": "deepseek-v4-flash"
+}

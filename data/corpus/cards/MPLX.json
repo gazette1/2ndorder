@@ -1,0 +1,42 @@
+{
+  "cik": "0001552000",
+  "ticker": "MPLX",
+  "name": "MPLX LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001552000-26-000009",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000009/mplx-20251231.htm"
+  },
+  "business": "MPLX LP is a diversified master limited partnership that owns and operates midstream energy infrastructure, including pipelines, terminals, storage, and processing facilities for crude oil, refined products, natural gas, and NGLs. It generates revenue primarily through fee-based services under long-term contracts, with approximately 48% of revenues from its sponsor MPC in 2025. The company operates in two segments: Crude Oil and Products Logistics and Natural Gas and NGL Services.",
+  "sellsTo": [
+    "refiners",
+    "exploration and production companies",
+    "end-use natural gas and NGL markets"
+  ],
+  "namedCustomers": [
+    "MPC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a diversified, large-cap master limited partnership formed by MPC in 2012 (as our sponsor) that owns and operates midstream energy infrastructure and logistics assets, and provides fuels distribution services."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The Crude Oil and Products Logistics segment primarily engages in the gathering, transportation, storage and distribution of crude oil, refined products, other hydrocarbon-based products, and renewables."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our assets include a network of crude oil and refined product pipelines; an inland marine business; light-product, asphalt, heavy oil and marine terminals; storage caverns; refinery tanks, docks, loading racks, and associated piping; crude oil and natural gas gathering systems and pipelines; as well as natural gas and NGL treating, processing and fractionation facilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:14:26.339Z",
+  "model": "deepseek-v4-flash"
+}

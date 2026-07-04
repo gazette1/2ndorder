@@ -1,0 +1,77 @@
+{
+  "cik": "0001847360",
+  "ticker": "BCOW",
+  "name": "1895 Bancorp of Wisconsin, Inc. /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-24-038577",
+    "filedAt": "2024-03-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1847360/000095017024038577/bcow-20231231.htm"
+  },
+  "business": "1895 Bancorp of Wisconsin, Inc. is a bank holding company whose subsidiary, PyraMax Bank, FSB, offers deposit accounts and originates loans, including commercial real estate, residential real estate, commercial, and consumer loans. The company operates six full-service banking offices in Milwaukee, Waukesha, and Ozaukee Counties, Wisconsin, and considers its primary lending market area to be southeastern Wisconsin.",
+  "sellsTo": [
+    "Individuals and businesses in southeastern Wisconsin",
+    "Commercial real estate borrowers",
+    "Residential mortgage borrowers",
+    "Commercial and industrial borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our business consists primarily of taking deposits from the general public and investing those deposits, together with funds generated from operations, in one- to four-family residential real estate loans, commercial real estate loans, commercial loans and consumer loans."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our market area has a high concentration of financial institutions, including large money center and regional banks, community banks, fintech companies and credit unions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "There have been increasing efforts by third parties to breach data security at financial institutions."
+    },
+    {
+      "tag": "other:insurance",
+      "stance": "core_product",
+      "sentence": "PyraMax Bank has one subsidiary, PyraMax Insurance Services LLC, which offers a comprehensive set of insurance and risk management products for personal and business needs."
+    },
+    {
+      "tag": "commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Commercial real estate growth has been the primary source of recent loan growth, and commercial business loan originations have also been emphasized."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed first balance sheet repositioning strategy",
+      "date": "2023-09-30",
+      "sentence": "During the third quarter of 2023, the Company completed its first balance sheet repositioning strategy related to its investment portfolio."
+    },
+    {
+      "event": "Completed second balance sheet repositioning strategy",
+      "date": "2023-12-31",
+      "sentence": "During the fourth quarter of 2023, the Company completed its second balance sheet repositioning strategy related to its investment portfolio."
+    },
+    {
+      "event": "Adoption of CECL accounting standard",
+      "date": "2023-01-01",
+      "sentence": "On January 1, 2023, the Company adopted ASU 2016-13 which replaced the incurred loss methodology, which was previously used to calculate the allowance for loan losses, with an expected lifetime loss methodology (\"CECL\")."
+    },
+    {
+      "event": "Enactment of Wisconsin Act 19 changing tax treatment for financial institutions",
+      "date": "2023-07-05",
+      "sentence": "The enactment of 2023 Wisconsin Act 19 (the \"Act\"), on July 5, 2023, by the Wisconsin legislature."
+    },
+    {
+      "event": "Implemented reduction-in-force",
+      "date": "2023-04-30",
+      "sentence": "In April 2023, a reduction-in-force (\"RIF\") was implemented which resulted in the termination of five employees and a $575,000 reduction in annual salaries and benefits expense."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:51:16.734Z",
+  "model": "deepseek-v4-flash"
+}

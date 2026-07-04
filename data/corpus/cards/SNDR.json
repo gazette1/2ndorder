@@ -1,0 +1,76 @@
+{
+  "cik": "0001692063",
+  "ticker": "SNDR",
+  "name": "Schneider National, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001692063-26-000013",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692063/000169206326000013/sndr-20251231.htm"
+  },
+  "business": "Schneider National provides multimodal transportation and logistics solutions including truckload, intermodal, and logistics services across North America. Its services are offered to approximately 7,400 customers including 136 Fortune 500 companies. The company employs about 19,000 associates and is headquartered in Green Bay, Wisconsin.",
+  "sellsTo": [
+    "consumer products",
+    "retail",
+    "automotive",
+    "chemicals",
+    "electronics and appliances",
+    "e-commerce",
+    "home improvement",
+    "food and beverage"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CSX Transportation",
+    "UP (Union Pacific)",
+    "CPKC (Canadian Pacific Kansas City)",
+    "MLSI"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our comprehensive and diverse portfolio spans truckload, intermodal, and logistics services, delivering flexible options to meet the needs of a broad customer base across the U.S., Canada, and Mexico."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "We operate one of the largest BEV fleets in North America, with nearly 100 Class 8 BEVs deployed."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our trucks are equipped with roll stability, collision mitigation, lane departure warnings, MirrorEye, and/or forward-, side-, and rear-facing cameras."
+    },
+    {
+      "tag": "other:autonomous-trucking",
+      "stance": "risk_mention",
+      "sentence": "We are constantly reevaluating our existing technology to find efficiencies and drive innovation, with some of our current efforts focused on exploring autonomous trucking and additional safety technologies."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "Leveraging advanced technologies, including agentic AI, data science, and predictive analytics, we create innovative, data-driven solutions designed to ensure the safe, efficient, and timely movement of goods."
+    },
+    {
+      "tag": "other:telematics",
+      "stance": "core_product",
+      "sentence": "Our in-cab telematics platform delivers on-board technology through our private application store to enable communication, regulatory compliance, and driver productivity."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We continue to pursue opportunities to reduce CO2 emissions across our operations, including initiatives to increase the fuel efficiency of our existing fleet, explore alternative fuel vehicles, and deploy BEVs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "2026 net capital expenditures expected between $400M and $450M",
+      "date": "2026",
+      "sentence": "We expect 2026 net capital expenditures to range from $400.0 - $450.0 million, including $78.2 million of firm purchase commitments."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:40:46.449Z",
+  "model": "deepseek-v4-flash"
+}

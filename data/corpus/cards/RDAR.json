@@ -1,0 +1,44 @@
+{
+  "cik": "0001384365",
+  "ticker": "RDAR",
+  "name": "Telvantis, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001393905-16-000844",
+    "filedAt": "2016-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1384365/000139390516000844/rdar_10k.htm"
+  },
+  "business": "Raadr, Inc. provides a web-based tool called RAADR that monitors children's social media activity for inappropriate language and uses facial recognition to detect potential online bullying or predatory behavior. The company targets parents and guardians seeking to protect their children online.",
+  "sellsTo": [
+    "parents and guardians"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "This is where our facial recognition software comes into play as well."
+    },
+    {
+      "tag": "other:social-media-monitoring",
+      "stance": "core_product",
+      "sentence": "RAADR have developed a web based tool that provides families with peace of mind when it comes to knowing that children are safe from bullying and predatory behavior unfortunately so prevalent today."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "RAADR software live online",
+      "date": "2015-07-01",
+      "sentence": "As of July 1st 2015 the RAADR software is live online at www.raadr.com"
+    },
+    {
+      "event": "Launch of RAADR application on iOS and Android",
+      "date": "2015-09-30",
+      "sentence": "The launch of the RAADR application on IOS and ANDROID is scheduled for late September 2015."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:56:50.939Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,34 @@
+{
+  "cik": "0001757499",
+  "ticker": "SHPH",
+  "name": "Shuttle Pharmaceuticals Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014131",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1757499/000149315226014131/form10-k.htm"
+  },
+  "business": "The company sells the Molecule.ai platform, an AI-driven software platform for molecular discovery and early-stage drug development, to researchers in the pharmaceutical industry.",
+  "sellsTo": [
+    "pharmaceutical researchers",
+    "drug development companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Molecule.ai platform adapts state of the art AI algorithms to create a practical, domain-specific AI infrastructure layer for molecular research and development."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "By combining modern AI techniques with structured scientific workflows, the Molecule.ai platform helps researchers explore the chemical space more efficiently, evaluate molecular ideas with greater clarity and make more informed decisions during the earliest stages of drug development."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:28:24.807Z",
+  "model": "deepseek-v4-flash"
+}

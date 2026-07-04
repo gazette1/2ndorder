@@ -1,0 +1,57 @@
+{
+  "cik": "0002088295",
+  "ticker": "BBCQ",
+  "name": "Bleichroeder Acquisition Corp. II",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-028387",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/2088295/000121390026028387/ea0281701-10k_bleichroeder2.htm"
+  },
+  "business": "We are a blank check company incorporated as a Cayman Islands exempted company and formed for the purpose of effecting a Business Combination.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Adoption of AI capabilities such as machine learning and natural-language processing which is either currently impacting or has the near-term potential to impact effectively all industries"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Widespread adoption of cloud computing and other solutions that allow small and medium-sized companies to thrive without incurring substantial fixed costs"
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "Emergence of autonomous robotics across manufacturing, logistics, healthcare, and consumer applications enhancing productivity, reducing costs, and enabling entirely new classes of services and business models"
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Early-stage commercialization of quantum computing centered on capturing value from the industry shift from equipment & components to application software & services enhancing accessibility and integration across sectors"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Autonomous mobility aiming to shift towards intelligent, zero emission mobility ecosystems from traditional transportation with priorities on sustainability, efficiency, and user-centric innovation"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Digital-trust technologies facilitating the continued development of online and mobile-first solutions across sensitive sectors (e.g., financial technology, payments, communications, etc.)"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete initial Business Combination",
+      "date": "2028-01-09",
+      "sentence": "We must complete our initial Business Combination by January 9, 2028, the end of our completion window, which is 24 months from the closing of our Initial Public Offering."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:15:36.248Z",
+  "model": "deepseek-v4-flash"
+}

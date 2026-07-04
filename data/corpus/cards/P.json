@@ -1,0 +1,82 @@
+{
+  "cik": "0001474432",
+  "ticker": "P",
+  "name": "Everpure, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001474432-26-000027",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000027/pstg-20260201.htm"
+  },
+  "business": "Everpure provides an integrated storage and data management platform (Everpure Platform) for enterprises of all sizes, including Fortune 500 companies and hyperscalers, to store, manage, and extract value from data across on-premises, hybrid, public cloud, and edge environments.",
+  "sellsTo": [
+    "enterprise",
+    "hyperscaler",
+    "service provider",
+    "government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "In March 2025, we introduced FlashBlade//EXA to expand our AI portfolio and address the performance requirements of specialty GPU cloud and HPC environments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We also provide advanced SLAs tailored to specific needs, including defined recovery time objectives through our Cyber Recovery and Resilience add-on."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our flash-optimized systems generally require 5-10x less labor to operate, and use 2-5x less power and space compared to competitive all-flash storage configurations, resulting in at least 50% lower total cost of ownership."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "core_product",
+      "sentence": "Everpure Cloud services deliver an enterprise-grade, virtual block storage array that provides customers the flexibility to operate a hybrid cloud model with seamless data mobility across on-premises and public cloud environments."
+    },
+    {
+      "tag": "other:container-storage",
+      "stance": "core_product",
+      "sentence": "Portworx by Everpure is the market leader in cloud-native Kubernetes data management."
+    },
+    {
+      "tag": "other:edge-computing",
+      "stance": "core_product",
+      "sentence": "In fiscal 2026, we introduced the new FlashArray//RC20, which offers enterprise-class performance, reliability, and agility at capacities and prices that are more accessible for edge use cases and smaller deployments."
+    },
+    {
+      "tag": "other:hyperscaler-storage",
+      "stance": "core_product",
+      "sentence": "During fiscal 2026, shipments began on the industry-first Flash design win with a major hyperscaler."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of FlashBlade//EXA for AI and HPC workloads",
+      "date": "2025-03",
+      "sentence": "In March 2025, we introduced FlashBlade//EXA to expand our AI portfolio and address the performance requirements of specialty GPU cloud and HPC environments."
+    },
+    {
+      "event": "Launch of FlashArray//RC20 for edge and smaller deployments",
+      "date": "2026-02-01",
+      "sentence": "In fiscal 2026, we introduced the new FlashArray//RC20, which offers enterprise-class performance, reliability, and agility at capacities and prices that are more accessible for edge use cases and smaller deployments."
+    },
+    {
+      "event": "Agreement to acquire 1touch for data intelligence and governance",
+      "date": "2026-02",
+      "sentence": "In February 2026, we entered into a definitive agreement to acquire 1touch, which provides data intelligence and governance tools."
+    },
+    {
+      "event": "First Flash design win shipments with a major hyperscaler",
+      "date": null,
+      "sentence": "During fiscal 2026, shipments began on the industry-first Flash design win with a major hyperscaler."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:37:48.850Z",
+  "model": "deepseek-v4-flash"
+}

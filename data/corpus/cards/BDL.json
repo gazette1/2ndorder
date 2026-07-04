@@ -1,0 +1,44 @@
+{
+  "cik": "0000012040",
+  "ticker": "BDL",
+  "name": "FLANIGANS ENTERPRISES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001174947-25-001463",
+    "filedAt": "2025-12-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/12040/000117494725001463/ea0268707-10k_flanigans.htm"
+  },
+  "business": "Flanigan's Enterprises operates restaurants, package liquor stores, and combination units under brand names Flanigan's Seafood Bar and Grill and Big Daddy's Liquors, and also franchises additional units.",
+  "sellsTo": [
+    "General public in South Florida",
+    "General public in Central Florida"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our restaurants and package liquor stores offer online ordering for to-go sales and our package liquor stores also offer delivery services by third-party vendors."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Increases in minimum wages and minimum tip credit wages, extensions of personal and other leave policies, other governmental regulations affecting labor costs and a diminishing pool of potential staff members when the unemployment rate falls and legal immigration is restricted, especially in certain localities, could significantly increase our labor costs and make it more difficult to fully staff our restaurants, any of which could materially adversely affect our financial performance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we are unable to protect our customers credit card data, we could be exposed to data loss, litigation and liability, and our reputation could be significantly harmed."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We operate our package liquor stores and restaurants under the service marks: Big Daddy's Liquors, Big Daddy's Wine & Liquors, Flanigan's Seafood Bar and Grill, and Flanigan's."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:54:19.667Z",
+  "model": "deepseek-v4-flash"
+}

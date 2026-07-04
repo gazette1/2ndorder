@@ -1,0 +1,64 @@
+{
+  "cik": "0001853825",
+  "ticker": "DTCX",
+  "name": "Datacentrex, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016375",
+    "filedAt": "2026-04-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1853825/000149315226016375/form10-k.htm"
+  },
+  "business": "Datacentrex, Inc. is a digital infrastructure and capital deployment company that owns and operates Scrypt-based proof-of-work compute assets. It generates revenue by deploying owned Scrypt ASIC hardware to produce hashrate and monetizing it primarily through a hashrate marketplace model, with settlement typically denominated in Bitcoin. Its operations contribute hashrate to the Litecoin blockchain and, through merged mining, simultaneously secure additional Scrypt-based networks including Dogecoin.",
+  "sellsTo": [
+    "miners",
+    "infrastructure operators",
+    "trading firms",
+    "arbitrage participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "ViaBTC",
+    "Nicehash"
+  ],
+  "exposures": [
+    {
+      "tag": "other:scrypt-compute",
+      "stance": "core_product",
+      "sentence": "Our current operating platform is centered on owned and operated Scrypt-based proof-of-work (PoW) compute deployed through third-party colocation facilities."
+    },
+    {
+      "tag": "other:merged-mining",
+      "stance": "core_product",
+      "sentence": "Through merged-mining architecture, that same hashrate can simultaneously secure and validate additional Scrypt-based networks, including Dogecoin and other auxiliary Scrypt chains, without incremental energy consumption."
+    },
+    {
+      "tag": "other:hashrate-marketplace",
+      "stance": "core_product",
+      "sentence": "We primarily monetize our Scrypt compute through a hashrate marketplace model."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "Settlement under the hashrate marketplace model is typically denominated in Bitcoin."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We deploy our mining equipment primarily through third-party colocation and hosting arrangements."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be exposed to cybersecurity threats and breaches."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The rapid growth in demand for data center capacity driven by artificial intelligence (AI) and high-performance computing (HPC) workloads has intensified competition for power infrastructure across the United States."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:03:29.814Z",
+  "model": "deepseek-v4-flash"
+}

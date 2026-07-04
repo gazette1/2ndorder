@@ -1,0 +1,51 @@
+{
+  "cik": "0000102752",
+  "ticker": "VSEC",
+  "name": "VSE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000102752-26-000015",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000015/vsec-20251231.htm"
+  },
+  "business": "VSE Corporation is a leading provider of aftermarket distribution and maintenance, repair and overhaul services for air transportation assets for commercial and government markets. It operates as a single reportable segment: Aviation. The Company supplies parts through global distribution centers and provides MRO services from repair facilities.",
+  "sellsTo": [
+    "commercial airlines",
+    "regional airlines",
+    "air cargo transporters",
+    "MRO integrators and providers",
+    "aviation manufacturers",
+    "corporate and private aircraft owners",
+    "fixed-base operators",
+    "government markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "VSE Corporation, through its subsidiaries (collectively, \"VSE\" or the \"Company\") is a leading provider of aftermarket distribution and maintenance, repair and overhaul (\"MRO\") services for air transportation assets for commercial and government markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company faces cybersecurity risk related to its computer systems and data, which may include unauthorized access, acts by computer hackers, computer viruses, malicious code, organized cybersecurity attacks and other security problems and system disruptions, including possible unauthorized access to the Company and its customers' information."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "In addition, rapid technological changes and digital disruption, including the increasing adoption of artificial intelligence and data-driven platforms by competitors, customers, suppliers, and other market participants, as well as the development and introduction of new aircraft components, advanced replacement parts, and digitally enabled or AI-optimized maintenance solutions, may alter competitive dynamics and customer expectations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of PAG Acquisition",
+      "date": null,
+      "sentence": "The PAG Acquisition is subject to customary closing conditions and approvals and is expected to close in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:40:09.265Z",
+  "model": "deepseek-v4-flash"
+}

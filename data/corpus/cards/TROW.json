@@ -1,0 +1,44 @@
+{
+  "cik": "0001113169",
+  "ticker": "TROW",
+  "name": "PRICE T ROWE GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008002",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026008002/trow-20251231.htm"
+  },
+  "business": "T. Rowe Price Group is a financial services holding company providing global investment advisory services to individual and institutional investors. It offers investment solutions across equity, fixed income, multi-asset, and alternatives capabilities. Additionally, it provides administrative services such as distribution, transfer agent, recordkeeping, and brokerage services.",
+  "sellsTo": [
+    "individual investors",
+    "financial advisors",
+    "institutional investors",
+    "retirement plan sponsors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Pershing"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The recent advancements in and increased use of artificial intelligence (AI) present risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyberattack or a failure to implement effective information and cybersecurity policies, procedures and capabilities could disrupt operations and cause financial losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dispose of certain owned buildings",
+      "date": null,
+      "sentence": "the decision to exit certain owned buildings with plans to dispose of the properties in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:38:54.785Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,78 @@
+{
+  "cik": "0001830072",
+  "ticker": "IPW",
+  "name": "iPower Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-007480",
+    "filedAt": "2025-10-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316825007480/ipower_i10k-063025.htm"
+  },
+  "business": "iPower Inc. is an online supplier of consumer goods, including hydroponics equipment, general gardening supplies, and consumer home goods. It sells through its e-commerce platforms and channel partners, and has fulfillment centers in Rancho Cucamonga, California.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "end consumers",
+    "Amazon customers"
+  ],
+  "namedCustomers": [
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Driven by tech and data, iPower Inc. is an online supplier of consumer goods, including hydroponics equipment, general gardening supplies, and consumer home goods."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are actively developing our in-house branded products and through supply chain partners, which to date include the iPower and Simple Deluxe brands and more, some of which have been designated as Amazon best seller product leaders and Amazon Choice products, among others."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "The availability and cost of transportation for our products is vital to our success"
+    },
+    {
+      "tag": "other:china-imports",
+      "stance": "risk_mention",
+      "sentence": "Approximately 96% of the products we purchased for resale during the fiscal year ended June 30, 2025 were manufactured in and imported from China."
+    },
+    {
+      "tag": "other:cannabis",
+      "stance": "risk_mention",
+      "sentence": "Our hydroponic gardening products are multi-purpose products designed and intended for growing a wide range of plants and are generally purchased from retailers by end users who may grow any variety of vegetables and plants, including cannabis."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the risk of cybersecurity incidents has increased in connection with the ongoing war"
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Any changes in U.S. trade policy, or an escalation in the ongoing trade disputes, could trigger retaliatory actions, resulting in trade wars and an increase in costs for goods imported into the United States."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Heightened inflation, increased interest rates and other economic conditions including potential recession and credit market disruptions could negatively impact our business."
+    },
+    {
+      "tag": "other:amazon-dependence",
+      "stance": "risk_mention",
+      "sentence": "A substantial proportion of our sales occur on Amazon and, as such, should our Company experience any negative actions by Amazon, our sales could be significantly affected."
+    },
+    {
+      "tag": "other:digital-asset",
+      "stance": "risk_mention",
+      "sentence": "On June 17, 2025, the Company adopted a digital asset reserve, allocation and development strategy (the Digital Treasury Strategy) with the plan of creating a Digital Treasury Strategy business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:31:26.721Z",
+  "model": "deepseek-v4-flash"
+}

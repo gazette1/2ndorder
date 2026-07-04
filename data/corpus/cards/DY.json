@@ -1,0 +1,50 @@
+{
+  "cik": "0000067215",
+  "ticker": "DY",
+  "name": "DYCOM INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000067215-26-000008",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000008/dy-20260131.htm"
+  },
+  "business": "Dycom is a leading provider of specialty contracting services focused on the digital infrastructure, telecommunications and utilities industries throughout the United States. Its services include program management, engineering, construction, maintenance, and fulfillment for telecommunications providers, electric and gas utilities, and data center customers. The company operates through two reportable segments: Communications and Building Systems.",
+  "sellsTo": [
+    "Telecommunications providers (telephone companies, cable multiple system operators, wireless carriers)",
+    "Electric and gas utilities",
+    "Data center general contractors"
+  ],
+  "namedCustomers": [
+    "AT&T Inc.",
+    "Verizon Communications, Inc.",
+    "Lumen Technologies Inc.",
+    "Comcast Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Demand for high-speed and low-latency connectivity is expanding, driven by data-intensive applications and mobile usage, necessitating extensive wireline network upgrades and extensions, new and expanding fiber and electrical infrastructure for data centers to meet the current and future needs of cloud compute and artificial intelligence ( AI ), and advanced wireless network deployments."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The Building Systems segment specializes in providing comprehensive building infrastructure solutions, including electrical, energy management, security, and fire safety systems for data centers and other critical facilities."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We provide these services for both telephone companies and cable multiple system operators in connection with the deployment, expansion, or maintenance of new and existing networks."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We also provide underground facility locating services for various utilities, including telecommunications providers, as well as other construction and maintenance services for electric and gas utilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:57:18.154Z",
+  "model": "deepseek-v4-flash"
+}

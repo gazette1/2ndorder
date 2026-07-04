@@ -1,0 +1,70 @@
+{
+  "cik": "0001498067",
+  "ticker": "CTGL",
+  "name": "SKYTECH ORION GLOBAL CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016841",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1498067/000149315226016841/form10-k.htm"
+  },
+  "business": "SkyTech Orion Global Corp. is a U.S.-based corporation with subsidiaries in Israel, focused on building end-to-end drone solutions from innovative modular drone platforms to large-scale production. The company's flagship platform is the SkyTech Replicator Modular Drone Platform, which employs a modular architecture that separates intelligent core systems from airframe, power, sensors, communications, and payload components. Its solutions are designed as Dual-Use modular systems for defense and civilian applications.",
+  "sellsTo": [
+    "defense agencies",
+    "U.S. Department of Defense",
+    "Israeli Ministry of Defense",
+    "allied defense markets",
+    "dual-use civilian sectors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "The Company develops advanced drone technologies and platforms, led by its flagship platform, the SkyTech Replicator Modular Drone Platform."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Core is designed to connect seamlessly with a wide range of drone configurations, supporting: ... Tactical Payloads: Various cameras, pilot views for explosives, fiber-optic connections, and other tactical end-point devices."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Energy Systems: Supports batteries of different sizes and capacities tailored to the mission's current and endurance requirements."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We incorporate AI capabilities and generative AI capabilities, some of which we develop internally and some of which we obtain or license from third parties, into some of the products and solutions and in some of our development processes and business operations, and we expect to do so more in the future."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure in the Company's information technology systems, including cybersecurity attacks or other data security incidents, could significantly disrupt its operations."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The products rely on the availability of key components, including semiconductors, sensors, communication modules, propulsion systems, and batteries."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global UAV and drone market stood at USD 44.54 billion in 2025 and is predicted to increase from USD 52.65 billion in 2026 to approximately USD 209.91 billion by 2035, representing a CAGR of 16.77% from 2026 to 2035.",
+      "sentence": "Market value stood at USD 44.54 billion in 2025 and predicted to increase from USD 52.65 billion in 2026 to approximately USD 209.91 billion by 2035, representing a CAGR of 16.77% from 2026 to 2035."
+    },
+    {
+      "claim": "The small drone market size was valued at USD 27.34 billion in 2025 and is projected to grow from USD 34.89 billion in 2026 to USD 168.30 billion by 2034, exhibiting a CAGR of 21.70%.",
+      "sentence": "The small drone market size was valued at USD 27.34 billion in 2025 and is projected to grow from USD 34.89 billion in 2026 to USD 168.30 billion by 2034, exhibiting a CAGR of 21.70% during the forecast period."
+    },
+    {
+      "claim": "North America dominated the small drone market with a share of 31.44% in 2025.",
+      "sentence": "North America dominated the small drone market with a share of 31.44% in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:55:11.424Z",
+  "model": "deepseek-v4-flash"
+}

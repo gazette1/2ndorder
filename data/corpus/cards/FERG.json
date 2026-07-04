@@ -1,0 +1,62 @@
+{
+  "cik": "0002011641",
+  "ticker": "FERG",
+  "name": "Ferguson Enterprises Inc. /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0002011641-25-000027",
+    "filedAt": "2025-09-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2011641/000201164125000027/ferg-20250731.htm"
+  },
+  "business": "Ferguson is the largest value-added distributor serving the water and air specialized professional in the North American construction market. It sells a wide range of products including plumbing, HVAC, appliances, lighting, PVF, water and wastewater solutions. The company serves residential and non-residential customers.",
+  "sellsTo": [
+    "residential contractors",
+    "non-residential contractors",
+    "industrial customers",
+    "repair, maintenance and improvement (RMI)",
+    "new construction"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell through a common network of distribution centers, branches, counter service and expert sales associates, showroom consultants and e-commerce channels."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "These MDCs include automated picking and replenishment systems for the majority of items."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face global cybersecurity threats, which range from uncoordinated individual attempts to sophisticated and targeted measures, known as advanced persistent threats, directed at us and our customers, suppliers, and service providers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the rapid evolution of AI and machine learning technologies and the implementation of pilot programs integrating generative AI into both our internal and external-facing systems may intensify our cybersecurity, privacy and data security risks"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential and non-residential markets each account for approximately half of our net sales, with net sales within these combined markets balanced between RMI (approximately two-thirds of our net sales) and new construction (approximately one-third of our net sales), based on management’s estimates."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Ferguson is the largest value-added distributor serving the water and air specialized professional in our $340 billion residential and non-residential North American construction market."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "$340 billion residential and non-residential North American construction market",
+      "sentence": "Ferguson is the largest value-added distributor serving the water and air specialized professional in our $340 billion residential and non-residential North American construction market."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:20:25.567Z",
+  "model": "deepseek-v4-flash"
+}

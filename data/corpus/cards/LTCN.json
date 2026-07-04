@@ -1,0 +1,47 @@
+{
+  "cik": "0001732406",
+  "ticker": "LTCN",
+  "name": "Grayscale Litecoin Trust (LTC)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001732406-25-000005",
+    "filedAt": "2025-09-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1732406/000173240625000005/ltcn-20250630.htm"
+  },
+  "business": "Grayscale Litecoin Trust holds Litecoin (LTC) and issues Shares representing fractional undivided beneficial interest in the Trust. The Trust's investment objective is for the value of the Shares to reflect the value of LTC held by the Trust, determined by reference to the Index Price, less the Trust's expenses and other liabilities. The Trust is a passive entity and does not engage in any activities designed to obtain a profit from changes in the market price of LTC.",
+  "sellsTo": [
+    "Investors seeking a cost-effective and convenient way to gain investment exposure to LTC without direct purchase and custody"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Grayscale Securities, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:litecoin",
+      "stance": "core_product",
+      "sentence": "The Trust holds LTC and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of LTC."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "NYSE Arca filed application to list Shares of the Trust",
+      "date": "2025-01-24",
+      "sentence": "On January 24, 2025, NYSE Arca filed an application with the SEC pursuant to Rule 19b-4 under the Exchange Act to list the Shares of the Trust on NYSE Arca."
+    },
+    {
+      "event": "Next scheduled halving of Litecoin miner reward (from 6.25 to 3.125 LTC per block)",
+      "date": "2027-07",
+      "sentence": "The current miner reward of 6.25 LTC per block was reduced from 12.5 LTC per block by 50% in August 2023, and will be further reduced by another 50% every 840,000 blocks, or approximately four years, thereafter."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "As of June 30, 2025, the total market capitalization of alternative digital assets tracked by CoinMarketCap.com was approximately $3,072.1 billion, including approximately $6.5 billion market cap of LTC.",
+      "sentence": "As of June 30, 2025, the alternative digital assets tracked by CoinMarketCap.com, had a total market capitalization of approximately $3,072.1 billion (including the approximately $6.5 billion market cap of LTC)."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:42:40.242Z",
+  "model": "deepseek-v4-flash"
+}

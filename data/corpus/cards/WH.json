@@ -1,0 +1,54 @@
+{
+  "cik": "0001722684",
+  "ticker": "WH",
+  "name": "WYNDHAM HOTELS & RESORTS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001722684-26-000007",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm"
+  },
+  "business": "Wyndham Hotels & Resorts is the world's largest hotel franchising company by number of franchised properties, with over 8,300 affiliated hotels and approximately 869,000 rooms located in approximately 100 countries. The company operates a portfolio of 25 hotel brands primarily in secondary and tertiary cities. Revenues are generated from royalty fees, marketing and reservation fees, and ancillary services from franchisees.",
+  "sellsTo": [
+    "franchisees (hotel owners)",
+    "guests (travelers)",
+    "co-branded credit card partners",
+    "Travel + Leisure Co."
+  ],
+  "namedCustomers": [
+    "Travel + Leisure Co."
+  ],
+  "namedSuppliers": [
+    "Sabre Corporation",
+    "Salesforce",
+    "Canary",
+    "Oracle Hospitality"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are at risk of attack by cybercriminals operating on a global basis attempting to gain access to such information."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We have incorporated artificial intelligence (AI) solutions into our business, offerings, services and features, primarily through third-party AI applications provided by Salesforce and Canary, and these applications may become increasingly important to our operations over time."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "System-wide room growth target of 4.0% - 4.5% in 2026",
+      "date": "2026-12-31",
+      "sentence": "Grow our system-wide rooms by approximately 4.0% - 4.5% in 2026."
+    },
+    {
+      "event": "Quarterly cash dividend increase to $0.43 per share approved by Board",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Board approved an increase in the quarterly cash dividend to $0.43 per share."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:41:20.477Z",
+  "model": "deepseek-v4-flash"
+}

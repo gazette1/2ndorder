@@ -1,0 +1,71 @@
+{
+  "cik": "0000880266",
+  "ticker": "AGCO",
+  "name": "AGCO CORP /DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0000880266-26-000010",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000010/agco-20251231.htm"
+  },
+  "business": "AGCO is a global leader in agricultural machinery and precision agriculture technologies. It distributes most products through approximately 2,800 independent dealers and distributors in approximately 140 countries. It also provides retail and wholesale financing through finance joint ventures with Rabobank.",
+  "sellsTo": [
+    "independent dealers and distributors",
+    "farmers and end-users",
+    "retail and wholesale financing through joint ventures"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Tractors and Farm Equipment Limited (TAFE)",
+    "SDF S.p.A.",
+    "Carraro S.p.A.",
+    "Iseki & Company, Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "AGCO is a global leader in agricultural machinery and precision agriculture technologies."
+    },
+    {
+      "tag": "other:precision-agriculture",
+      "stance": "core_product",
+      "sentence": "PTx combines precision ag technologies from the cornerstones of AGCO's tech stack: Precision Planting and our joint venture, PTx Trimble, to deliver industry leading solutions across the crop cycle by creating a global-leading mixed-fleet precision agriculture platform."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "In 2025, we unveiled additional Outrun autonomous solutions, a platform of retrofit autonomy technologies, for tillage and fertilization, with the tillage application currently in beta testing and the fertilization application in alpha testing."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "our precision agriculture solutions are based on connectivity, automation and digitalization and include satellite-based steering, field data collection, product self-adjustment and yield-mapping."
+    },
+    {
+      "tag": "other:telemetry",
+      "stance": "core_product",
+      "sentence": "We provide telemetry-based fleet management tools, including remote monitoring and diagnostics, which help farmers improve uptime, machine and yield optimization, mixed fleet optimization and decision support, with critical data privacy choices and convenient mobile tools that offer access to data and information."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of FarmENGAGE mixed fleet digital platform",
+      "date": null,
+      "sentence": "In 2025, we launched FarmENGAGE, our new mixed fleet digital platform designed to deploy work plans, track fieldwork and collect test data from all machines on the farm regardless of brand."
+    },
+    {
+      "event": "Unveiling of Outrun autonomous solutions for tillage and fertilization",
+      "date": null,
+      "sentence": "In 2025, we unveiled additional Outrun autonomous solutions, a platform of retrofit autonomy technologies, for tillage and fertilization, with the tillage application currently in beta testing and the fertilization application in alpha testing."
+    },
+    {
+      "event": "Closure of PTx Trimble joint venture acquisition",
+      "date": "2024-04-01",
+      "sentence": "We closed the acquisition of the agriculture assets and technologies of Trimble through the formation of the PTx Trimble joint venture, of which we own 85%, on April 1, 2024."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:26:15.638Z",
+  "model": "deepseek-v4-flash"
+}

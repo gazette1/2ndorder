@@ -1,0 +1,68 @@
+{
+  "cik": "0000096943",
+  "ticker": "TFX",
+  "name": "TELEFLEX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000096943-26-000019",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000019/tfx-20251231.htm"
+  },
+  "business": "Teleflex is a global provider of medical technology products that enhance clinical benefits, improve patient and provider safety and reduce total procedural costs. We primarily design, develop, manufacture and supply single-use medical devices used by hospitals and healthcare providers for common diagnostic and therapeutic procedures in critical care and surgical applications. We market and sell our products to hospitals and healthcare providers worldwide through a combination of our direct sales force and distributors.",
+  "sellsTo": [
+    "hospitals",
+    "healthcare providers",
+    "distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Sterigenics U.S., LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We primarily design, develop, manufacture and supply single-use medical devices used by hospitals and healthcare providers for common diagnostic and therapeutic procedures in critical care and surgical applications."
+    },
+    {
+      "tag": "other:glp-1-competition",
+      "stance": "risk_mention",
+      "sentence": "The indicators of a potential impairment primarily arose from lower than expected sales of our Titan SGS product line and anticipated continuing reduced demand for bariatric surgery procedures in future periods, driven by the growing adoption of GLP-1 products."
+    },
+    {
+      "tag": "other:china-volume-based-procurement",
+      "stance": "risk_mention",
+      "sentence": "China has implemented regional and national programs for volume-based procurement of medical device products designed to reduce healthcare costs, which require manufacturers to meet specific quality, quantity and pricing requirements to be awarded tenders."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "During 2025, we experienced a general stabilization in overall cost inflation however, recently enacted U.S. tariffs and accompanying retaliatory measures adversely impacted results, primarily due to higher import costs associated with our operations in the European Union, as well as to products manufactured in Mexico that are not currently compliant with the United States-Mexico-Canada Agreement (USMCA)."
+    },
+    {
+      "tag": "other:ethylene-oxide-regulation",
+      "stance": "risk_mention",
+      "sentence": "Disruptions in sterilization of our products or regulatory initiatives further restricting the use of ethylene oxide in sterilization facilities could adversely affect our results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Strategic Divestitures (sale of Acute Care, Interventional Urology, and OEM businesses)",
+      "date": null,
+      "sentence": "Both transactions, which were approved at the same time by our Board of Directors, remain subject to certain closing adjustments, customary regulatory approvals and other closing conditions and are expected to be completed in the second half of 2026."
+    },
+    {
+      "event": "Realization of pre-tax savings from VI Business integration plan",
+      "date": null,
+      "sentence": "We expect to achieve annual pre-tax savings of $24 million to $30 million in connection with the VI Business integration plan once it is fully implemented and we expect to begin realizing a portion of these plan-related savings in 2026."
+    },
+    {
+      "event": "EU Medical Device Regulation (EU MDR) compliance completion",
+      "date": null,
+      "sentence": "We anticipate our products will be compliant with EU MDR in 2026, with all associated registration activities and related expenditures anticipated to be completed within the same year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:47:07.297Z",
+  "model": "deepseek-v4-flash"
+}

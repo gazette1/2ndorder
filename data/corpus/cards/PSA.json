@@ -1,0 +1,51 @@
+{
+  "cik": "0001393311",
+  "ticker": "PSA",
+  "name": "Public Storage",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-007696",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm"
+  },
+  "business": "Public Storage is a REIT that owns, develops, and operates self-storage facilities in the United States. It also provides tenant reinsurance, third-party management services for self-storage facilities, and bridge lending to third-party self-storage owners.",
+  "sellsTo": [
+    "personal and business customers needing self-storage space",
+    "third-party self-storage owners (for management and lending)",
+    "tenants (for insurance coverage)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We have embarked on a solar program under which we plan to install solar panels on over 1,600 of our self-storage facilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "For example, we have begun to utilize artificial intelligence technologies in various aspects of our business, which are susceptible to errors and other malfunctions which could lead to operational challenges and reputational risks."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We implemented a lending program in 2024, under which we provide bridge lending financing to third-party self-storage owners for operating properties that we manage."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "A wholly-owned, consolidated subsidiary of Public Storage fully reinsures these policies and thereby assumes all risk of losses under the policies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Solar program spending of approximately $60 million in 2026",
+      "date": "2026-12-31",
+      "sentence": "We spent approximately $71 million on the program in 2025, and expect to spend approximately $60 million in 2026 on this effort."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:14:29.516Z",
+  "model": "deepseek-v4-flash"
+}

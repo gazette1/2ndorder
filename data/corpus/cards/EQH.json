@@ -1,0 +1,62 @@
+{
+  "cik": "0001333986",
+  "ticker": "EQH",
+  "name": "Equitable Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001333986-26-000012",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1333986/000133398626000012/eqh-20251231.htm"
+  },
+  "business": "Equitable Holdings is a leading provider of retirement, asset management and wealth management solutions for individual and institutional clients.",
+  "sellsTo": [
+    "individuals",
+    "families",
+    "institutions",
+    "small businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of retirement, asset management and wealth management solutions for individual and institutional clients."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and deployment of AI tools and technologies, including generative AI, and its use and anticipated use by us or by third parties on whom we rely, may increase the operational risks discussed above or create new operational risks that we are not currently anticipating."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to protect the confidentiality, integrity, or availability of customer information or proprietary business information."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "RGA Reinsurance Transaction completed",
+      "date": "2025-07-31",
+      "sentence": "On July 31, 2025, Equitable Financial, as well as Equitable America and Equitable Financial L&A (each a Ceding Company and, collectively, the Ceding Companies ), completed the master transaction agreement with RGA entered into on February 23, 2025 pursuant to which and subject to the terms and conditions set forth in such agreement, RGA entered into reinsurance agreements, as reinsurer, with each Ceding Company, to effect the RGA Reinsurance Transaction."
+    },
+    {
+      "event": "Novation of legacy variable annuity policies",
+      "date": "2025-01-17",
+      "sentence": "Effective January 17, 2025, Equitable Financial novated certain legacy variable annuity policies sold between 2006-2008, comprised of non-New York Accumulator policies containing fixed rate GMIB and/or GMDB guarantees reinsured by Venerable under the combined co-insurance and modified coinsurance basis agreement executed on June 1, 2021."
+    },
+    {
+      "event": "Purchase of AB Holding Units pursuant to AB Tender Offer",
+      "date": "2025-04-03",
+      "sentence": "On April 3, 2025, Holdings purchased (the Purchase ) 19.7 million AB Holding Units pursuant to the AB Tender Offer for an aggregate cost of $758 million."
+    },
+    {
+      "event": "Productivity program to achieve $150 million run-rate expense savings by 2027",
+      "date": null,
+      "sentence": "in May 2023, we began a new program expected to achieve $150 million of run-rate expense savings by 2027, of which $120 million has been achieved as of December 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:07:37.187Z",
+  "model": "deepseek-v4-flash"
+}

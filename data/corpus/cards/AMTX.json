@@ -1,0 +1,70 @@
+{
+  "cik": "0000738214",
+  "ticker": "AMTX",
+  "name": "AEMETIS, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008289",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/738214/000143774926008289/amtx20251231_10k.htm"
+  },
+  "business": "Aemetis is an international renewable natural gas and renewable fuels company that operates a 65 million gallon per year ethanol plant in California, produces renewable natural gas from dairy waste using anaerobic digesters, and operates an 80 million gallon per year biodiesel plant in India. The company sells ethanol, RNG, biodiesel, and byproducts such as wet distillers grains, distillers corn oil, condensed distillers solubles, refined glycerin, and carbon dioxide.",
+  "sellsTo": [
+    "fuel blenders",
+    "local dairies and feedlots",
+    "government oil marketing companies in India",
+    "pharmaceutical, personal care, paint, adhesive industries"
+  ],
+  "namedCustomers": [
+    "J.D. Heiskell",
+    "Murex LLC",
+    "A.L. Gilbert",
+    "Hindustan Petroleum",
+    "Bharat Petroleum",
+    "Indian Oil Corporation"
+  ],
+  "namedSuppliers": [
+    "J.D. Heiskell"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Aemetis, Inc. is an international renewable natural gas and renewable fuels company focused on the operation, acquisition, development, and commercialization of innovative technologies to produce low and negative carbon intensity renewable fuels that lower fuel costs and reduce emissions."
+    },
+    {
+      "tag": "other:carbon_capture",
+      "stance": "active_investment",
+      "sentence": "We are developing a Carbon Capture and Underground Sequestration (CCUS) facility, to be located at the Riverbank Industrial Complex, that is designed to inject carbon dioxide more than one mile underground for geologic storage to reduce greenhouse gas emissions to the atmosphere that contribute to global warming."
+    },
+    {
+      "tag": "other:sustainable_aviation_fuel",
+      "stance": "active_investment",
+      "sentence": "We are developing a sustainable aviation fuel (SAF) and renewable diesel (RD) production plant to be located at the Riverbank Industrial Complex in Riverbank, CA."
+    },
+    {
+      "tag": "other:mechanical_vapor_recompression",
+      "stance": "active_investment",
+      "sentence": "We are in the process of procuring and installing a mechanical vapor recompression (MVR) system that is expected to reduce natural gas consumption at the Keyes Plant by more than 80%."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "RNG fuel dispensing station begins operating",
+      "date": "2026",
+      "sentence": "We are also building our own RNG fuel dispensing station, which is planned to begin operating in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "There were approximately 191 commercial ethanol production facilities in the U.S. with a combined production of approximately 18.5 billion gallons per year as of January 1, 2025.",
+      "sentence": "According to the U.S. Energy Information Agency (the EIA), on January 1, 2025, there were approximately 191 commercial ethanol production facilities in the U.S. with a combined production of approximately 18.5 billion gallons per year."
+    },
+    {
+      "claim": "California's total fuel ethanol consumption is approximately 1.4 billion gallons annually.",
+      "sentence": "However, since there is insufficient production capacity in California to supply the state's total fuel ethanol consumption (approximately 1.4 billion gallons annually), we compete with ethanol transported into California principally from Midwestern producers or imported from other countries, primarily Brazil."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:39:25.581Z",
+  "model": "deepseek-v4-flash"
+}

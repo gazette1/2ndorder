@@ -1,0 +1,40 @@
+{
+  "cik": "0001524769",
+  "ticker": "CHKR",
+  "name": "CHESAPEAKE GRANITE WASH TRUST",
+  "source": {
+    "form": "10-K",
+    "accession": "0001524769-24-000005",
+    "filedAt": "2024-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1524769/000152476924000005/chkr-2023x1231x10k.htm"
+  },
+  "business": "The Trust owns royalty interests in oil and natural gas properties located in the Colony Granite Wash play in Washita County, Oklahoma. It receives a percentage of proceeds from sales of oil, natural gas and NGL production from these properties, but has no operations or employees. The Trust's business is limited to owning the Royalty Interests and related activities.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Williams Partners, L.P.",
+    "Energy Transfer LP"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The Royalty Interests entitle the Trust to receive 90% of the proceeds from sales of oil, natural gas and NGL production attributable to the Operator's net revenue interest in the Producing Wells."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Oil, natural gas and NGL prices fluctuate widely, and lower prices for an extended period of time are likely to have a material adverse effect on proceeds to the Trust and cash distributions to unitholders."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trust dissolution and liquidation",
+      "date": "2031-06-30",
+      "sentence": "The Trust will dissolve and begin to liquidate on June 30, 2031 (the Termination Date), or earlier upon certain events, and will soon thereafter wind up its affairs and terminate."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:47:38.494Z",
+  "model": "deepseek-v4-flash"
+}

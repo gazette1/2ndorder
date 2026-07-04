@@ -1,0 +1,74 @@
+{
+  "cik": "0000885725",
+  "ticker": "BSX",
+  "name": "BOSTON SCIENTIFIC CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000885725-26-000010",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000010/bsx-20251231.htm"
+  },
+  "business": "Boston Scientific is a global developer, manufacturer and marketer of medical devices used in interventional medical specialties. The company's products help physicians diagnose and treat cardiovascular, respiratory, digestive, oncological, neurological and urological conditions. It sells to hospitals, clinics, outpatient facilities and medical offices in 127 countries worldwide.",
+  "sellsTo": [
+    "hospitals",
+    "clinics",
+    "outpatient facilities",
+    "medical offices",
+    "group purchasing organizations",
+    "hospital networks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Boston Scientific Corporation is a global developer, manufacturer and marketer of medical devices that are used in a broad range of interventional medical specialties."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our product offerings include ... remote patient management systems (LATITUDE) and cardiac monitoring systems (BodyGuardian Remote Cardiac Monitoring Systems)."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our portfolio includes intravascular imaging and multi-modality guidance systems that enhance procedural visualization and decision-making (OptiCross IVUS Imaging Catheters and AVVIGO + Multi-Modality Guidance System)."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Digital technologies, including artificial intelligence (AI) and machine learning capabilities, have and may continue to increase in their applicability and importance to various aspects of our business, operating and competitive environments, research and development (R&D) pipeline and product portfolio."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "New competitors may emerge in the future, potentially including companies introducing new sales or distribution models to our industry or leveraging genomic, robotic, navigation, and/or other automation technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on information technology (IT) and operational technology (OT) systems, including technology from third party vendors, to manufacture and ship our products, as well as to process, transmit and store electronic information in our day-to-day operations."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "This includes emerging technologies which increase our threat landscape, such as generative AI and quantum computing, which are evolving rapidly in their practicality and use for cyber-attacks including through enhanced social engineering, and for cyber-attacks on industry standard data protections through increased computing capabilities."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our business and operations are subject to risks related to natural disasters, climate change and other extreme weather."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Penumbra expected to close",
+      "date": null,
+      "sentence": "The transaction is expected to close during 2026, subject to customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:12:15.893Z",
+  "model": "deepseek-v4-flash"
+}

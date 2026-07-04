@@ -1,0 +1,52 @@
+{
+  "cik": "0001585689",
+  "ticker": "HLT",
+  "name": "Hilton Worldwide Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001585689-26-000007",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000007/hlt-20251231.htm"
+  },
+  "business": "Hilton is one of the largest global hospitality companies, with 9,158 properties comprising 1,351,351 rooms in 143 countries and territories. It operates through a management and franchise segment (providing hotel management and licensing of brands) and an ownership segment (leasing and operating hotels). Its primary customers are third-party hotel owners, franchisees, and guests.",
+  "sellsTo": [
+    "hotel owners",
+    "franchisees",
+    "guests (transient and group)",
+    "strategic partners (e.g., co-branded credit card providers)"
+  ],
+  "namedCustomers": [
+    "American Express",
+    "Hilton Grand Vacations Inc."
+  ],
+  "namedSuppliers": [
+    "CrowdStrike Holdings, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are incorporating artificial intelligence technologies into our processes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "From time to time we and our third-party service providers experience cyber-attacks, attempted and actual breaches of our or their information technology systems and networks or similar events, which could result in a loss of sensitive business or customer information, systems interruption or the disruption of our operations."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "labor shortages, which could restrict our ability to efficiently operate or grow our business and/or increase our costs"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Additional $3.5 billion share repurchase authorization",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, our board of directors authorized an additional $3.5 billion for share repurchases under our stock repurchase program."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:07:19.030Z",
+  "model": "deepseek-v4-flash"
+}

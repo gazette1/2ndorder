@@ -1,0 +1,51 @@
+{
+  "cik": "0001646972",
+  "ticker": "ACI",
+  "name": "Albertsons Companies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001646972-26-000032",
+    "filedAt": "2026-04-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm"
+  },
+  "business": "Albertsons Companies, Inc. is one of the largest food and drug retailers in the United States, operating 2,244 stores across 35 states and the District of Columbia. It offers grocery products, general merchandise, health and beauty care products, pharmacy, fuel, and other items through its stores and digital channels, including delivery and curbside pickup. The company serves approximately 36.5 million customers per week.",
+  "sellsTo": [
+    "Consumers",
+    "Pharmacy patients",
+    "Fuel customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our eCommerce capabilities are integrated with our store network, supporting store based fulfillment and allowing customers to engage with our banners seamlessly across digital and in store channels."
+    },
+    {
+      "tag": "other:retail-media",
+      "stance": "core_product",
+      "sentence": "We operate a retail media business through Albertsons Media Collective (the \"Media Collective\") that leverages customer engagement across our digital and in store platforms to deliver targeted marketing opportunities for vendor partners, supported by first party customer data and advanced analytics developed through our loyalty and digital platforms."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The emergence of artificial intelligence powered agentic shopping tools, through which AI agents autonomously research, compare and purchase products on behalf of consumers, could further disrupt traditional grocery retail."
+    },
+    {
+      "tag": "other:retail-automation",
+      "stance": "active_investment",
+      "sentence": "We have continued to enhance our capabilities, including automated self-checkout options, to meet customer demand for convenience and flexibility."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Collective bargaining agreements covering approximately 22,000 employees scheduled to expire",
+      "date": null,
+      "sentence": "In fiscal 2026, collective bargaining agreements covering approximately 22,000 employees are scheduled to expire."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:38:06.066Z",
+  "model": "deepseek-v4-flash"
+}

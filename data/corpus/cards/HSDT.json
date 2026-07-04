@@ -1,0 +1,73 @@
+{
+  "cik": "0001610853",
+  "ticker": "HSDT",
+  "name": "Solana Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037194",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1610853/000110465926037194/hsdt-20251231x10k.htm"
+  },
+  "business": "Solana Co is a listed digital asset treasury dedicated to acquiring and holding Solana tokens (SOL). It is also, to a lesser extent, a neurotechnology company selling the Portable Neuromodulation Stimulator (PoNS) medical device for treatment of gait and balance deficits.",
+  "sellsTo": [
+    "public market investors seeking direct exposure to Solana",
+    "patients with gait deficit due to multiple sclerosis, traumatic brain injury, or stroke (prescription only)",
+    "clinics and rehabilitation facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "FalconX",
+    "Nonco",
+    "Wintermute",
+    "Anchorage Digital",
+    "Coinbase",
+    "Kamino"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a listed digital asset treasury ( DAT ) dedicated to acquiring and holding Solana tokens ( SOL )."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are, to a lesser extent, also a neurotechnology company focused on neurological wellness."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our product, known as the Portable Neuromodulation Stimulator, or PoNS , is an innovative non-implantable medical device, inclusive of a controller and mouthpiece, which delivers mild electrical stimulation to the surface of the tongue to provide treatment of gait deficit and chronic balance deficit."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We believe that Solana represents a uniquely scalable, high-performance blockchain platform that aligns with our long-term vision of integrating innovative technologies into our services."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We believe Solana s clear emphasis on stablecoin based payments, the development of onchain digital capital markets via tokenization, growing institutional adoption, and integration of artificial intelligence agents are expected to drive widespread adoption within the Solana ecosystem and support the long-term value of SOL."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we or the third parties with whom we work experience a security breach, cyber incident, or vulnerability impacting our systems or our data, or if unauthorized parties obtain access to our Solana, or if our private keys are lost or destroyed, or other similar circumstances or events occur, we may lose some or all of our Solana and our financial condition and results of operations could be materially adversely affected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA 510(k) submission for PoNS device label expansion seeking indication for gait deficit in chronic stroke patients; awaiting determination",
+      "date": null,
+      "sentence": "In September 2025, we filed a FDA 510(k) submission for the PoNS device label expansion seeking an indication for gait deficit in patients with chronic stroke symptoms."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "SOL remains earlier in institutional treasury adoption curve than Bitcoin: 4% of Bitcoin market cap and 1% of SOL held by institutions versus 16% for Bitcoin",
+      "sentence": "We believe SOL remains earlier in its institutional treasury adoption curve than Bitcoin, at 4% of Bitcoin market capitalization and 1% of SOL held by institutions compared to 16% for Bitcoin as of year-end."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:43:37.924Z",
+  "model": "deepseek-v4-flash"
+}

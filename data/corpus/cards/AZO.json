@@ -1,0 +1,64 @@
+{
+  "cik": "0000866787",
+  "ticker": "AZO",
+  "name": "AUTOZONE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-102611",
+    "filedAt": "2025-10-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm"
+  },
+  "business": "AutoZone, Inc. is a leading retailer and distributor of automotive replacement parts and accessories in the Americas. The company sells automotive hard parts, maintenance items, accessories and non-automotive products through www.autozone.com, and commercial customers can make purchases through www.autozonepro.com. It also sells the ALLDATA brand of automotive diagnostic, repair, collision and shop management software through www.alldata.com.",
+  "sellsTo": [
+    "DIY customers",
+    "local, regional and national repair garages",
+    "dealers",
+    "service stations",
+    "fleet owners",
+    "commercial accounts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely heavily on information technology systems for our key business processes."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our business depends upon hiring, training and retaining qualified employees, including members of management and other key personnel."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "A disruption to our supply chain or distribution network could adversely affect our ability to receive and distribute inventory in a timely manner, which could result in low inventory availability, lost sales, increased supply chain costs and loss of customer loyalty, among other things."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Increased prevalence of electric vehicles, whether due to changes in consumer preferences or regulatory actions incentivizing the purchase of electric vehicles, can result in less frequent parts failures and reduced need for parts."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We also sell automotive hard parts, maintenance items, accessories and non-automotive products through www.autozone.com, and our commercial customers can make purchases through www.autozonepro.com."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Issued $500 million 5.125% Senior Notes due June 2030",
+      "date": "2025-04-14",
+      "sentence": "On April 14, 2025, we issued $500 million 5.125% Senior Notes due June 2030 under our automatic shelf registration statement on Form S-3, filed with the SEC on July 19, 2022 (File No. 333-266209) (the 2022 Shelf Registration Statement)."
+    },
+    {
+      "event": "Board authorized additional $1.5 billion share repurchase",
+      "date": "2025-10-08",
+      "sentence": "On October 8, 2025, the Board voted to authorize the repurchase of an additional $1.5 billion of our common stock in connection with our ongoing share repurchase program."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:16:51.234Z",
+  "model": "deepseek-v4-flash"
+}

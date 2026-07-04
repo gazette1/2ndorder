@@ -1,0 +1,51 @@
+{
+  "cik": "0001005101",
+  "ticker": "MGLD",
+  "name": "Marygold Companies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-014286",
+    "filedAt": "2025-09-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1005101/000149315225014286/form10-k.htm"
+  },
+  "business": "The Marygold Companies is a holding company that operates through subsidiaries in financial services (ETF management and fintech), food products (bakery and printing), beauty products (vegan hair and skin care), and previously security systems (sold post-year-end). It sells fund management services to exchange-traded funds, baked goods and food wrappers to grocery chains and convenience stores in New Zealand, and beauty products globally through distribution channels.",
+  "sellsTo": [
+    "ETF investors",
+    "grocery chains, convenience stores, petrol stations in New Zealand",
+    "salons, resorts, grocery stores, health food stores, e-tail sites, and direct consumers"
+  ],
+  "namedCustomers": [
+    "United States Oil Fund, LP",
+    "United States Natural Gas Fund, LP",
+    "USCF Midstream Energy Income Fund"
+  ],
+  "namedSuppliers": [
+    "SecurTek"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In 2019, we entered the financial services industry to explore opportunities in the financial technology ( Fintech ) space and formed Marygold & Co., a Delaware corporation ( Marygold ) headquartered in Walnut Creek, California."
+    },
+    {
+      "tag": "other:commodity-etf-management",
+      "stance": "core_product",
+      "sentence": "Currently, USCF LLC and USCF Advisers collectively manage and service 16 ETFs, the shares or other interests of which are listed and traded on the NYSE Arca, Inc. ( NYSE Arca )."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Gourmet Foods is a commercial-scale bakery producing meat pies, sausage rolls and patisserie cakes from leased manufacturing facilities located in Tauranga, New Zealand."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Original Sprout is engaged in the retail sales and wholesale distribution of hair and skin care products under the brand name Original Sprout on a global scale."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:13:07.899Z",
+  "model": "deepseek-v4-flash"
+}

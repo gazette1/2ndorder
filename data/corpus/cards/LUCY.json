@@ -1,0 +1,70 @@
+{
+  "cik": "0001808377",
+  "ticker": "LUCY",
+  "name": "Innovative Eyewear Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001829126-26-002695",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1808377/000182912626002695/innovativeeye_10k.htm"
+  },
+  "business": "The company develops and sells smart eyewear including prescription eyeglasses, ready-to-wear sunglasses, safety glasses, and sport glasses. Its products enable hands-free use of voice assistants and ChatGPT. The company sells through e-commerce channels and a network of retail stores.",
+  "sellsTo": [
+    "individual consumers",
+    "independent optical stores",
+    "national retailers",
+    "big box retailers",
+    "online marketplaces"
+  ],
+  "namedCustomers": [
+    "Best Buy",
+    "Dick's Sporting Goods"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Lucyd app, available for iOS and Android, is a free application that enables the user to converse with the extremely popular ChatGPT AI language model on our glasses, to instantly gain the benefit of one of the world’s most powerful AI assistants in a hands-free ergonomic interface."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our smart eyewear products enable the wearer to listen to music, take and make calls, and use voice assistants and ChatGPT to perform many common smartphone tasks hands-free."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell our products both through multiple online channels and multiple categories of brick-and-mortar retail stores."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "Eyeglasses are regulated as medical devices by the FDA, and our failure, or the failure of any third-party manufacturer or optical laboratory, to obtain and maintain the necessary marketing authorizations for our products could have a material adverse effect on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of fourth variant of Lucyd Armor",
+      "date": "2026-03-31",
+      "sentence": "the fourth variant is planned to launch in the first quarter of 2026."
+    },
+    {
+      "event": "Launch of Reebok Powered by Lucyd premium optical collection",
+      "date": "2026-06-30",
+      "sentence": "We plan to launch the Reebok Powered by Lucyd premium optical collection in the first half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market for eyewear in the U.S. was $69.5 billion in 2025",
+      "sentence": "According to the Vision Council, the total addressable market for eyewear in the U.S. was $69.5 billion in 2025, up 4.4% from 2024."
+    },
+    {
+      "claim": "Smartglass market size was estimated at $2.5 billion worldwide in 2025",
+      "sentence": "The smartglass market size was estimated at $2.5 billion worldwide in 2025, and is expected to grow at a compounded annual growth rate of 24% from 2026 to 2033 according to Grand View Research."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:16:11.218Z",
+  "model": "deepseek-v4-flash"
+}

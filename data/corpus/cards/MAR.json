@@ -1,0 +1,62 @@
+{
+  "cik": "0001048286",
+  "ticker": "MAR",
+  "name": "MARRIOTT INTERNATIONAL INC /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001048286-26-000007",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000007/mar-20251231.htm"
+  },
+  "business": "Marriott is a worldwide franchisor, operator, and licensor of hotel, residential, timeshare, and other lodging properties under a portfolio of brands at different price and service points. It earns fees from franchise, management, and license agreements, and from co-branded credit card programs.",
+  "sellsTo": [
+    "travelers",
+    "hotel owners",
+    "Loyalty Program members",
+    "credit card issuers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the introduction of AI capabilities by existing and emerging travel intermediaries may change the way guests plan, book, and pay for travel"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are incorporating AI and other emerging technologies into certain of our processes, offerings, and services"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to risks and costs associated with protecting the integrity and security of data."
+    },
+    {
+      "tag": "other:technology-systems",
+      "stance": "active_investment",
+      "sentence": "This multi-year transformation of our reservations, property management, and loyalty systems is focused on introducing new technology that delivers more choices for guests, new capabilities for associates, and new revenue opportunities for hotels in our system."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We have co-branded credit cards associated with Marriott Bonvoy in 11 countries."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected net rooms growth of 4.5 to 5.0 percent in 2026",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we expect net rooms growth of 4.5 to 5.0 percent."
+    },
+    {
+      "event": "Capital expenditures and other investments expected to total approximately $1.0 billion to $1.1 billion for 2026",
+      "date": "2026-12-31",
+      "sentence": "We expect capital expenditures and other investments will total approximately $1.0 billion to $1.1 billion for 2026, including capital and technology expenditures, loan advances, contract acquisition costs, and other investing activities, but excluding any potential property or brand acquisitions, which we cannot forecast with sufficient accuracy and which may be significant."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:01:16.695Z",
+  "model": "deepseek-v4-flash"
+}

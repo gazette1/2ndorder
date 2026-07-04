@@ -1,0 +1,78 @@
+{
+  "cik": "0001575793",
+  "ticker": "WATT",
+  "name": "Energous Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-035214",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1575793/000110465926035214/watt-20251231x10k.htm"
+  },
+  "business": "Energous develops and sells over-the-air Wireless Power Network (WPN) technology including transmitter systems, receiver integrated circuits, and supporting software for battery-free IoT devices in retail, industrial, healthcare, and logistics environments.",
+  "sellsTo": [
+    "retail",
+    "logistics",
+    "healthcare",
+    "industrial",
+    "enterprise"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our WPN technology consists of transmitter systems, receiver integrated circuits, and supporting software designed to deliver power and data to battery-free IoT devices across a range of operating distances and power levels."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Applications include retail sensors, electronic shelf labels (ESLs), asset trackers, air quality monitors, motion detectors, and other monitoring solutions."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We categorize our target markets based on deployments of our WPN platform across transmitter systems and receiver-enabled devices used in commercial and industrial IoT applications."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We have developed scalable, over-the-air Wireless Power Network (WPN) technology that integrates advanced semiconductor chipsets, software controls, hardware designs, and antenna systems to enable radio frequency (RF)-based charging for ambient Internet of Things (IoT) devices, transforming supply chain capabilities from limited tracking to overall business intelligence."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "PowerBridge transmitter systems are deployed in environments such as retail locations, warehouses, fulfillment centers, healthcare facilities, and other enterprise settings to support battery-free IoT applications."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Device Type Application RF Tags Cold Chain, Asset Tracking, Medical IoT"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduction of battery-free e-Sense tag and e-Compass cloud-based software platform",
+      "date": "2025-06-30",
+      "sentence": "In the second quarter of 2025, we introduced the battery-free e-Sense tag and the e-Compass cloud-based software platform, which together supported the first end-to-end wireless power-enabled IoT device monitoring and management solution."
+    },
+    {
+      "event": "Completion of regulatory process for PowerBridge Pro across all EU member states and UK",
+      "date": "2025-12-16",
+      "sentence": "on December 16, 2025, we announced completion of the regulatory process for our PowerBridge Pro across all EU member states and the UK, enabling commercialization there."
+    },
+    {
+      "event": "Completion of regulatory process for PowerBridge LITE in multiple countries",
+      "date": "2025-12-31",
+      "sentence": "As of December 31, 2025, we announced completion of the regulatory process for our PowerBridge LITE [formerly known as the 1W transmitter] wireless charging technology in the U.S., Canada, Europe, India, China, UK, Korea, Australia and New Zealand."
+    },
+    {
+      "event": "International regulatory approvals in over 110 countries",
+      "date": "2026-03-15",
+      "sentence": "As of March 15, 2026, products integrating our WPT technology had received international regulatory approvals in over 110 countries."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:33:37.751Z",
+  "model": "deepseek-v4-flash"
+}

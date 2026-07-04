@@ -1,0 +1,36 @@
+{
+  "cik": "0001707753",
+  "ticker": "ESTC",
+  "name": "Elastic N.V.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001707753-26-000018",
+    "filedAt": "2026-06-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000018/estc-20260430.htm"
+  },
+  "business": "Elastic N.V. provides the Elasticsearch Platform, a search AI platform combining search and AI intelligence, available as a cloud service or self-managed software, and offers three solutions: Search & AI, Elastic Observability, and Elastic Security. The platform enables customers to ingest, store, search, and analyze data from any source in any format. Customers include organizations of all sizes across industries, enterprises, educational institutions, and government entities.",
+  "sellsTo": [
+    "enterprises",
+    "educational institutions",
+    "government entities",
+    "channel partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:search-ai",
+      "stance": "core_product",
+      "sentence": "Elastic, the Search AI Company, enables its customers to transform data into answers, actions, and outcomes with Search AI."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Elastic Security is an agentic security operations platform where agents handle the full lifecycle from data ingestion through response, and human analysts handle judgment, verification, and approval."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:44:06.562Z",
+  "model": "deepseek-v4-flash"
+}

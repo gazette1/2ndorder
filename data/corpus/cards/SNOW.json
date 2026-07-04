@@ -1,0 +1,73 @@
+{
+  "cik": "0001640147",
+  "ticker": "SNOW",
+  "name": "Snowflake Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001640147-26-000008",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm"
+  },
+  "business": "Snowflake delivers the AI Data Cloud, a cloud-native platform that integrates storage, compute, and cloud services to enable data analytics, AI, data engineering, applications, and collaboration. The platform is used globally by organizations of all sizes across a broad range of industries, including Financial Services, Healthcare, Retail, and the Public Sector. Revenue is generated primarily from consumption-based fees for compute, storage, and data transfer resources.",
+  "sellsTo": [
+    "Financial Services",
+    "Advertising, Media and Entertainment",
+    "Retail & Consumer Goods",
+    "Healthcare & Life Sciences",
+    "Manufacturing",
+    "Technology",
+    "Telecom",
+    "Travel & Hospitality",
+    "Public Sector",
+    "Forbes Global 2000 enterprises",
+    "Government and regulated organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud Platform"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Snowpark Container Services, a graphics processing unit (GPU)-powered, managed compute service."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "This architecture is built on three major public clouds across 53 regional deployments around the world."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Security and governance, including the encryption of customer data at rest and in transit to and from our platform, are part of our core design values."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are investing significantly in AI Technology."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Crunchy Data Solutions, Inc.",
+      "date": "2025-06-06",
+      "sentence": "On June 6, 2025, we acquired all of the outstanding capital stock of Crunchy Data Solutions, Inc."
+    },
+    {
+      "event": "Acquisition of Observe, Inc.",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we acquired all the outstanding capital stock of Observe, Inc."
+    },
+    {
+      "event": "General availability of Snowflake Postgres, Snowflake Cortex Code, and Semantic View Autopilot",
+      "date": "2026-04-30",
+      "sentence": "Capabilities like Snowflake Postgres, Snowflake Cortex Code, and Semantic View Autopilot became generally available during the first quarter of our fiscal year ending January 31, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:02:03.962Z",
+  "model": "deepseek-v4-flash"
+}

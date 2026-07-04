@@ -1,0 +1,47 @@
+{
+  "cik": "0000014177",
+  "ticker": "BRID",
+  "name": "BRIDGFORD FOODS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-004079",
+    "filedAt": "2026-01-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/14177/000149315226004079/form10-k.htm"
+  },
+  "business": "Bridgford Foods Corporation manufactures, markets, and distributes frozen and snack food products, including biscuits, bread dough, roll dough, dry sausage, salami, and beef jerky. Its products are sold to food service and retail customers across the United States.",
+  "sellsTo": [
+    "food service establishments",
+    "retail customers (supermarkets, mass merchandise, convenience stores)"
+  ],
+  "namedCustomers": [
+    "Wal-Mart",
+    "Dollar General"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Bridgford currently operates in two business segments - the processing and distribution of frozen food products and the processing and distribution of snack food products."
+    },
+    {
+      "tag": "logistics",
+      "stance": "active_investment",
+      "sentence": "The Company intends to reorganize its direct-store-delivery route system in response to lower sales volume through that distribution channel, including reducing the number of routes, storage units and vehicles while maintaining superior service to our customers."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Fluctuations in commodity prices and the availability of raw materials could negatively impact our financial results."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "We have been experiencing high levels of inflations the past few years, which has had varying impacts on our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:06:46.276Z",
+  "model": "deepseek-v4-flash"
+}

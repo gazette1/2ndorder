@@ -1,0 +1,52 @@
+{
+  "cik": "0000887343",
+  "ticker": "COLB",
+  "name": "COLUMBIA BANKING SYSTEM, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000887343-26-000088",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/887343/000088734326000088/colb-20251231.htm"
+  },
+  "business": "Columbia Banking System, Inc. is a financial holding company that, through its principal subsidiary Columbia Bank, provides a broad range of banking, private banking, mortgage, wealth management, and other financial services to corporate, institutional, small business, and individual customers primarily in the western United States.",
+  "sellsTo": [
+    "Corporate, middle market, and small business customers",
+    "Individual consumers and residents",
+    "Wealth management clients (individuals, families, businesses)",
+    "Commercial real estate borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of our operational or security systems, or those of our third-party service providers, including as a result of cyberattacks, could disrupt our business, result in unintentional disclosure or misuse of confidential or proprietary information, damage our reputation, increase our costs, and cause losses."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete with traditional banking institutions, as well as non-bank financial service providers, such as credit unions, mortgage companies, fintechs, and online based financial service providers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of Artificial Intelligence (AI) presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of systems conversion and branch consolidations related to the Pacific Premier acquisition",
+      "date": "2026-03-31",
+      "sentence": "Systems conversion and branch consolidations are on track to be completed during the first quarter of 2026."
+    },
+    {
+      "event": "Realization of all cost savings from the Pacific Premier acquisition",
+      "date": "2026-06-30",
+      "sentence": "The Company expects to realize all related cost savings by June 30, 2026 and expects to stay within the original expected merger-related expense amount of $185 million for this acquisition."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:20:16.730Z",
+  "model": "deepseek-v4-flash"
+}

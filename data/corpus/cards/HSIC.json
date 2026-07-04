@@ -1,0 +1,63 @@
+{
+  "cik": "0001000228",
+  "ticker": "HSIC",
+  "name": "HENRY SCHEIN INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001000228-26-000013",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000013/hsic-20251227.htm"
+  },
+  "business": "Henry Schein is a solutions company for health care professionals, distributing health care products and services primarily to office-based dental and medical practitioners and alternate care sites. It offers more than 300,000 branded and corporate brand products, and operates through three reportable segments: Global Distribution and Value-Added Services, Global Specialty Products, and Global Technology.",
+  "sellsTo": [
+    "dental practices",
+    "physician practices",
+    "ambulatory surgery centers",
+    "government clinics",
+    "institutional health care clinics",
+    "home health providers",
+    "alternate care clinics",
+    "DSOs",
+    "GPOs",
+    "IDNs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Global Distribution and Value-Added Services includes distribution to the global dental and medical markets of national brand and corporate brand merchandise, as well as equipment and related technical services."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Global Technology includes development and distribution of practice management software, e-services and other products, which are distributed to health care providers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In October 2023 Henry Schein experienced a cybersecurity incident that primarily affected the operations of our North American and European dental and medical distribution businesses."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We have increased and expect to continue to increase our use of AI technologies in various contexts to improve customer and patient experiences and drive efficiencies in certain areas of our business, including, without limitation, making AI features available within our practice management systems, which, among other things, helps dentists and clinical staff detect caries."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Appointment of new CEO Frederick M. Lowery",
+      "date": "2026-03-02",
+      "sentence": "On January 12, 2026, we announced the appointment of Frederick M. Lowery as our new CEO, effective March 2, 2026, at which time Mr. Lowery will join our Board of Directors."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total national health care spending in 2024 was approximately $5.3 trillion, or 18.0% of GDP.",
+      "sentence": "The Centers for Medicare and Medicaid Services, or CMS, published National Health Expenditure Data indicating that total national health care spending reached approximately $5.3 trillion in 2024, or 18.0% of the nation's gross domestic product, the benchmark measure for annual production of goods and services in the United States."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:19:04.262Z",
+  "model": "deepseek-v4-flash"
+}

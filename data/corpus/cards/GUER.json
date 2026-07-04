@@ -1,0 +1,53 @@
+{
+  "cik": "0001832487",
+  "ticker": "GUER",
+  "name": "Guerrilla RF, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009848",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1832487/000143774926009848/guer20251231_10k.htm"
+  },
+  "business": "Guerrilla RF is a fabless semiconductor company that designs and sells high-performance MMIC products for wireless connectivity to customers in wireless infrastructure, automotive, and catalog markets.",
+  "sellsTo": [
+    "Wireless Infrastructure OEMs",
+    "Automotive OEMs and tier-1 suppliers",
+    "Catalog markets (satellite navigation, cellular repeaters, point-to-point radios, defense, test and measurement, etc.)"
+  ],
+  "namedCustomers": [
+    "Richardson RFPD, Inc.",
+    "RFMW, a division of Exponential Technology Group, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Guerrilla RF is a fabless semiconductor company based in Greensboro, NC."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We support wireless infrastructure OEMs worldwide with a comprehensive portfolio of RF solutions covering all major frequency bands below 7 GHz."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Our Satellite Communication (SatCom) solutions enable seamless connectivity between satellite and cellular infrastructure."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We offer a comprehensive range of automotive RF connectivity solutions, including low-noise amplifiers (LNAs), linear driver amplifiers, switches, power amplifiers (PAs), and front-end modules."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "our RF solutions enhance RFID/asset tracking and defense radios by enabling longer battery life and improved signal coverage."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:31:07.967Z",
+  "model": "deepseek-v4-flash"
+}

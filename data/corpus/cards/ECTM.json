@@ -1,0 +1,48 @@
+{
+  "cik": "0001487798",
+  "ticker": "ECTM",
+  "name": "ECA Marcellus Trust I",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-033852",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1487798/000110465926033852/tm261060d1_10k.htm"
+  },
+  "business": "ECA Marcellus Trust I is a statutory trust that holds royalty interests in natural gas properties in the Marcellus Shale formation in Greene County, Pennsylvania. The trust receives proceeds from the sale of natural gas production from these properties after deducting post-production costs and taxes. The trust does not conduct any operations; its income depends on the performance of the operator, Greylock Production.",
+  "sellsTo": [
+    "natural gas purchasers",
+    "energy markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Greylock Production, LLC",
+    "The Bank of New York Mellon Trust Company, N.A.",
+    "Wilmington Trust Company"
+  ],
+  "exposures": [
+    {
+      "tag": "other:oil-gas-royalty",
+      "stance": "core_product",
+      "sentence": "The Trust derives all or substantially all of its income and cash flows from the Royalty Interests."
+    },
+    {
+      "tag": "other:natural-gas-price-risk",
+      "stance": "risk_mention",
+      "sentence": "Natural gas prices fluctuate due to a number of factors that are beyond the control of the Trust and Greylock Production, and lower prices would reduce proceeds to the Trust and cash distributions to Trust unitholders."
+    },
+    {
+      "tag": "other:climate-regulation",
+      "stance": "risk_mention",
+      "sentence": "Climate change laws and regulations restricting emissions of greenhouse gases could result in increased operating costs and reduced demand for the natural gas that Greylock Production produces while the physical effects of climate change could disrupt Greylock Production’s production and cause Greylock Production to incur significant costs in preparing for or responding to those effects."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks or other failures in telecommunications or information technology systems could result in information theft, data corruption and significant disruption of Greylock Energy’s or the Trustee’s business operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:56:46.801Z",
+  "model": "deepseek-v4-flash"
+}

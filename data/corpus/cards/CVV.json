@@ -1,0 +1,67 @@
+{
+  "cik": "0000766792",
+  "ticker": "CVV",
+  "name": "CVD EQUIPMENT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013567",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/766792/000149315226013567/form10-k.htm"
+  },
+  "business": "CVD Equipment Corp designs, develops, and manufactures chemical vapor deposition, gas control, and other equipment and process solutions used to develop and manufacture materials and coatings for industrial applications and research. Its systems are utilized in markets including power electronics, battery materials, aerospace, nano and advanced electronic components.",
+  "sellsTo": [
+    "power electronics",
+    "battery materials",
+    "aerospace",
+    "nano and advanced electronic components",
+    "universities",
+    "government-funded research laboratories",
+    "industrial applications"
+  ],
+  "namedCustomers": [
+    "Stony Brook University (SBU)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "our systems are being used by our customers to produce ceramic matrix composite materials ( CMCs ) that will be used in next generation gas turbine jet engines with the objective of reducing jet fuel consumption and to produce specialty coatings for advanced high temperature environments."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "In October 2025, we received an order for two PVT150 units from Stony Brook University (SBU) for their new semiconductor research center - onsemi Silicon Carbide Crystal Growth Center."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Our products are utilized to develop and manufacture materials and coatings for industrial and research applications that are used in numerous markets including but not limited to power electronics, battery materials, aerospace, nano and advanced electronic components."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Volatility in the availability and cost of materials, including rare earth elements"
+    },
+    {
+      "tag": "other:nanotechnology",
+      "stance": "core_product",
+      "sentence": "If demand declines for chemical vapor deposition/infiltration, physical vapor transport, gas control and related equipment, or for carbon nanotube and nanowire deposition systems, our financial position and results of operations could be materially adversely affected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of SDC business division to Atlas Copco Group",
+      "date": "2026-03-23",
+      "sentence": "On March 23, 2026, we entered into a definitive agreement under which our SDC business division will be sold to a subsidiary of the Atlas Copco Group."
+    },
+    {
+      "event": "Order for two PVT150 units from Stony Brook University",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we received an order for two PVT150 units from Stony Brook University (SBU) for their new semiconductor research center - onsemi Silicon Carbide Crystal Growth Center."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:09:55.216Z",
+  "model": "deepseek-v4-flash"
+}

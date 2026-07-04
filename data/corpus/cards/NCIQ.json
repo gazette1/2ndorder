@@ -1,0 +1,33 @@
+{
+  "cik": "0002031069",
+  "ticker": "NCIQ",
+  "name": "Hashdex Nasdaq CME Crypto Index ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-034018",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2031069/000121390026034018/ea0282137-10k_hashdex.htm"
+  },
+  "business": "The Trust is an exchange-traded fund designed to provide investors with price exposure to certain crypto assets by tracking the Nasdaq CME Crypto Settlement Price Index.",
+  "sellsTo": [
+    "investors seeking price exposure to crypto assets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "BitGo Trust Company, Inc.",
+    "Fidelity Digital Asset Services, LLC",
+    "U.S. Bank National Association"
+  ],
+  "exposures": [
+    {
+      "tag": "other:crypto-index",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Index Constituents were bitcoin (BTC), ether (ETH), XRP, solana (SOL), cardano (ADA), chainlink (LINK) and stellar (XLM)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:44:07.984Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,36 @@
+{
+  "cik": "0001837671",
+  "ticker": "CPPTL",
+  "name": "Copper Property CTL Pass Through Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001837671-26-000019",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1837671/000183767126000019/cpt-20251231.htm"
+  },
+  "business": "Copper Property CTL Pass Through Trust owns retail properties and distribution centers, which it leases to Penney Intermediate Holdings LLC as the sole tenant under master leases, and sells properties to third-party purchasers. Its operations consist of owning, operating, and leasing the properties, as well as selling them subject to market conditions.",
+  "sellsTo": [
+    "Penney Intermediate Holdings LLC (tenant)",
+    "Third-party real estate purchasers"
+  ],
+  "namedCustomers": [
+    "Penney Intermediate Holdings LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We expect our competitors to continue to improve their information technology systems, including with the use of artificial intelligence ( AI ) and machine learning solutions, possibly to interact with lessees and buyers, provide regular updates on maintenance status and predict maintenance requirements for their properties, sell their properties and support and grow their customer base."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "It is also possible that liabilities from newly-discovered non-compliance or contamination could have a material adverse effect on our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:02:39.862Z",
+  "model": "deepseek-v4-flash"
+}

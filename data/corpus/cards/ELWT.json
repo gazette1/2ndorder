@@ -1,0 +1,57 @@
+{
+  "cik": "0002063863",
+  "ticker": "ELWT",
+  "name": "Elauwit Connection, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037748",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/2063863/000110465926037748/tmb-20251231x10k.htm"
+  },
+  "business": "Elauwit Connection, Inc. is a provider of broadband Internet networks for the multifamily and student housing property sector. It offers Managed Services and Network-as-a-Service solutions designed to modernize and enhance the Internet connectivity experience for residents while driving financial benefits for property owners.",
+  "sellsTo": [
+    "multifamily property owners",
+    "student housing property owners"
+  ],
+  "namedCustomers": [
+    "Hanover Company",
+    "Elme Communities",
+    "JBG Smith",
+    "Thompson Thrift"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a provider of broadband Internet networks for the multifamily and student housing property sector."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are subject to various risks associated with the adoption and utilization of AI technologies by both our Company and our competitors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be negatively impacted by cyber security threats, attacks and other disruptions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "12 million units in addressable market of properties with 100 units or more",
+      "sentence": "Through our own market research using the CoStar data, we estimate there are 12 million units in our addressable market of properties with 100 units or more for overbuilds, or installing our network in a multifamily building with an existing network."
+    },
+    {
+      "claim": "11.5 million units likely spending over $8 billion annually on Internet access service",
+      "sentence": "We further estimate that these 11.5 million units are likely spending over $8 billion annually on Internet access service, using the US nationwide average of approximately $70 per month per household spent on Internet access."
+    },
+    {
+      "claim": "Pipeline represents approximately $120 million of potential network construction revenue and an estimated $26 million in annual recurring revenue",
+      "sentence": "As of March 20, 2026, our total pipeline tops 120,600 units, representing approximately $120 million of potential network construction revenue and an estimated $26 million in annual recurring revenue, if we were able to successfully complete all of these opportunities."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:14:39.605Z",
+  "model": "deepseek-v4-flash"
+}

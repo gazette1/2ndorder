@@ -1,0 +1,79 @@
+{
+  "cik": "0001211805",
+  "ticker": "MYSZ",
+  "name": "My Size, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016874",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1211805/000149315226016874/form10-k.htm"
+  },
+  "business": "My Size, Inc. is a fashion technology company providing AI-driven size and fit solutions, overstock management, second-hand fashion recommerce, and international brand distribution to fashion brands and retailers globally through its subsidiaries Naiz Fit, Orgad, Percentil, and Ten Peacks.",
+  "sellsTo": [
+    "fashion brands",
+    "e-commerce retailers",
+    "third-party marketplace (Amazon)",
+    "Israeli distributors"
+  ],
+  "namedCustomers": [
+    "Levi's",
+    "Desigual",
+    "Canali",
+    "Moschino",
+    "Pepe Jeans",
+    "Kiabi",
+    "Alberta Ferretti",
+    "Hackett",
+    "Fabiana Filippi",
+    "Boglioli"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Naiz Fit is our AI-driven size and fit technology platform, or the Naiz Fit Platform, serving as the technology backbone of the MySize group."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Orgad is a technology-enabled e-commerce retailer that uses machine learning and data analytics to identify, source, and sell fashion and footwear products on Amazon.com."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Percentil operates a managed recommerce model, which distinguishes it from peer-to-peer resale platforms; rather than simply connecting sellers and buyers, Percentil takes physical custody of garments, applies a rigorous quality control and filtering process, photographs and prices each item individually, manages all logistics and fulfillment, and handles post-sale customer service."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The platform is currently deployed by more than 100 international fashion and footwear brands, including Levi s, Desigual, Canali, Moschino, Pepe Jeans, Kiabi, Alberta Ferretti, Hackett, Fabiana Filippi, and Boglioli, among others."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We could be harmed by improper disclosure or loss of sensitive or confidential company, employee, or customer data, including personal data."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global fashion e-commerce market expected to reach approximately $1.06 trillion in 2025.",
+      "sentence": "The global fashion e-commerce market grew from approximately $821 billion in 2023 to approximately $951 billion in 2024, and is expected to reach approximately $1.06 trillion in 2025, reflecting a compound annual growth rate of approximately 11.2%."
+    },
+    {
+      "claim": "Global second-hand apparel market projected to reach $367 billion by 2029.",
+      "sentence": "The global second-hand apparel market is projected to reach $367 billion by 2029, growing at a compound annual growth rate of approximately 10%, according to ThredUp s 2025 Resale Report, based on research conducted by GlobalData."
+    },
+    {
+      "claim": "Global AI in fashion market valued at $1.77 billion in 2025, projected to grow to $6.99 billion by 2029.",
+      "sentence": "The global market for artificial intelligence in fashion was valued at approximately $1.77 billion in 2025 and is projected to grow to approximately $6.99 billion by 2029, at a compound annual growth rate of approximately 40% to 41%, according to research published by The Business Research Company."
+    },
+    {
+      "claim": "Global fashion technology market projected to grow from $254 billion in 2025 to $345 billion by 2030.",
+      "sentence": "The global fashion technology market is projected to grow from approximately $254 billion in 2025 to approximately $345 billion by 2030, at a CAGR of approximately 6.3%, according to Grand View Research."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:27:31.248Z",
+  "model": "deepseek-v4-flash"
+}

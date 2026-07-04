@@ -1,0 +1,57 @@
+{
+  "cik": "0001319947",
+  "ticker": "DBI",
+  "name": "Designer Brands Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001319947-26-000022",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1319947/000131994726000022/dsw-20260131.htm"
+  },
+  "business": "Designer Brands Inc. designs, produces, and retails footwear and accessories through its Retail segment (DSW, The Shoe Co., Rubino) and Brand Portfolio segment (wholesale of exclusive and licensed brands and direct-to-consumer e-commerce). The Retail segment sells directly to consumers via stores and e-commerce, while the Brand Portfolio segment sells to retailers, the Retail segment, and international distributors.",
+  "sellsTo": [
+    "direct-to-consumer customers",
+    "retailers",
+    "international distributors",
+    "own Retail segment"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Designer Brands Inc., originally founded as DSW Inc., is one of the world's largest designers, producers, and retailers of footwear and accessories."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our e-commerce platforms offer customers convenient, 24/7 access to our products through our websites, including mobile-optimized sites, and our mobile applications."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "For our U.S. store operations, the majority of our inventory is shipped directly from suppliers to our distribution centers located in Columbus, Ohio (\"Midwest Logistics Center\") and Glendale, Arizona (\"West Coast Logistics Center\") where the inventory is then processed, sorted, and shipped to one of our pool locations located throughout the country, and then on to the stores."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks related to our electronic processing of sensitive and confidential personal and business data."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our e-commerce operations are important to our business and are subject to various risks of operating online and mobile selling capabilities, such as the failure of our IT infrastructure, including any third-party hardware or software, resulting in downtime or other technical issues; inability to respond to technological changes, such as those related to artificial intelligence; credit card fraud; or other information security breaches."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition of payment processing service provider by May 31, 2026",
+      "date": "2026-05-31",
+      "sentence": "In February 2026, we entered into an amendment to the agreement with such entity and its affiliates pursuant to which, among other things, the termination notice was withdrawn, and the entity and its affiliates agreed to continue to provide us with the payment processing services for a transition period ending no later than May 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:22:25.058Z",
+  "model": "deepseek-v4-flash"
+}

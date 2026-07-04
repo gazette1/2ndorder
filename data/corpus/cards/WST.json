@@ -1,0 +1,50 @@
+{
+  "cik": "0000105770",
+  "ticker": "WST",
+  "name": "WEST PHARMACEUTICAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000105770-26-000010",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000010/wst-20251231.htm"
+  },
+  "business": "West Pharmaceutical Services is a leading global manufacturer of integrated containment and delivery systems for injectable drugs and healthcare products. The company sells proprietary packaging, containment solutions, drug delivery systems, and contract manufacturing services. Its customers include biologic, generic, pharmaceutical, diagnostic, and medical device companies.",
+  "sellsTo": [
+    "biologic companies",
+    "generic pharmaceutical companies",
+    "pharmaceutical drug companies",
+    "diagnostic companies",
+    "medical device companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Daikyo"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "increase in sales of self-injection devices for obesity and diabetes"
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "These devices are patient-centric technologies that are easy-to-use and can be combined with connected health technologies that have the potential to increase adherence."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "If (i) our customers fail to continue to sell, develop and deploy injectable products and opt for products delivered via alternative means, such as oral GLP-1s; (ii) our customers reconfigure their drug product or develop new drug products requiring less frequent dosing; or (iii) we are unable to develop new products that assist in the delivery of drugs by alternative methods, our sales and profitability may suffer."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Synchrony Prefillable Syringe (PFS) System",
+      "date": "2026-01",
+      "sentence": "due primarily to increased investment in integrated systems related to the Company's Synchrony Prefillable Syringe (PFS) System, which launched in January 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:37:29.268Z",
+  "model": "deepseek-v4-flash"
+}

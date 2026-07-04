@@ -1,0 +1,46 @@
+{
+  "cik": "0001915328",
+  "ticker": "ISRLF",
+  "name": "Israel Acquisitions Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037809",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1915328/000110465926037809/isrlu-20251231x10k.htm"
+  },
+  "business": "Israel Acquisitions Corp is a blank check company incorporated to effect a merger or similar combination with one or more businesses, focusing on Israeli high-growth technology companies. It has generated no revenues to date. Its proposed business combination target is Gadfin Ltd., a company specializing in hydrogen-powered drones for logistics and cargo delivery.",
+  "sellsTo": [
+    "healthcare",
+    "logistics",
+    "industrial supply chains"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Gadfin is a pioneering technology company revolutionizing the logistics and cargo delivery industry with its innovative hydrogen-powered drones."
+    },
+    {
+      "tag": "other:hydrogen-powered-drones",
+      "stance": "core_product",
+      "sentence": "Specializing in long-range, heavy-duty, zero-emission aerial delivery, Gadfin provides cutting-edge solutions for time-critical, essential cargo transport, especially to less accessible areas."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "Gadfin s proprietary technology is designed to address the evolving needs of sectors such as healthcare, logistics, and industrial supply chains, enabling efficient, sustainable, and reliable deliveries across urban and remote areas."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Termination date for the Business Combination Agreement if transactions not consummated",
+      "date": "2026-04-15",
+      "sentence": "Pursuant to the Third Amendment, the Company and Gadfin agreed to revise Section 7.1(d) to extend the termination date to April 15, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:42:54.109Z",
+  "model": "deepseek-v4-flash"
+}

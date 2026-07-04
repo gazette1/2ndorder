@@ -1,0 +1,70 @@
+{
+  "cik": "0001580490",
+  "ticker": "IONI",
+  "name": "I-ON Digital Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016842",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1580490/000149315226016842/form10-k.htm"
+  },
+  "business": "I-ON Digital Corp. develops and provides solutions for digitizing and securitizing real-world assets (RWA), converting ownership records into secure, asset-backed digital certificates on a proprietary blockchain platform using smart contracts and AI. The company primarily targets claim holders with rights to proven gold reserves and institutional buyers in banking and financial services. Revenue is generated through licensing fees, service charges, transaction fees, and gold-backed token issuance.",
+  "sellsTo": [
+    "claim holders with validated rights to proven gold reserves",
+    "institutional buyers and high-net-worth investors in banking and financial services",
+    "banks, broker-dealers, and other financial intermediaries"
+  ],
+  "namedCustomers": [
+    "GGBR Inc.",
+    "RAAC.io",
+    "Marshall Zehr"
+  ],
+  "namedSuppliers": [
+    "Instruxi Limited",
+    "Fireblocks",
+    "Chainlink",
+    "M2 Compliance LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our platform uses a proprietary blockchain platform employing smart contracts, workflow automation, and artificial intelligence (AI) to digitize ownership records and geological data relative to recoverable gold, precious metals, and mineral asset reserves."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "I-ON's blockchain platform deploys its asset-backed digital certificates, by design, to carry recognized value, and continuously improve liquidity, while its zero-trust (never trust, always verify) security architecture supports the secure digitization of ownership records, mineral asset and assignment rights for proven gold and other precious metals reserves converting them into compliant digital tokens that can be readily transferred or traded in the marketplace."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our cutting-edge technology includes a hybrid blockchain architecture that incorporates state-of-the-art smart contracts and sophisticated workflow management, inclusive of AI technologies."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Quantum computing, in particular, could render traditional encryption methods obsolete, exposing us to increased risks of cyber-attacks and data breaches."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into Master Treasury Lease and Custody Agreement with GGBR Inc.",
+      "date": "2025-07",
+      "sentence": "In July 2025, the Company entered into a Master Treasury Lease and Custody Agreement (MTLCA) with GGBR Inc."
+    },
+    {
+      "event": "Executed multiple Business Services Agreements for commercial deployment of ION.au",
+      "date": "2025",
+      "sentence": "In 2025 I-ON executed multiple Business Services Agreements involving commercial deployment and distribution of ION.au."
+    },
+    {
+      "event": "Plan to conduct private placements to raise up to $100 million",
+      "date": "2025",
+      "sentence": "Management currently intends to conduct one or more private placements during the balance of 2025 to raise up to $100 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:09:38.485Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001844971",
+  "ticker": "GREE",
+  "name": "Greenidge Generation Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001844971-26-000011",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1844971/000184497126000011/gree-20251231.htm"
+  },
+  "business": "Greenidge develops and operates datacenters for bitcoin mining and power generation. It generates revenue from datacenter hosting, cryptocurrency self-mining, and wholesale power sales. The company is also focused on expanding into AI and HPC datacenter infrastructure.",
+  "sellsTo": [
+    "Cryptocurrency miners (via hosting)",
+    "Wholesale electricity market (NYISO)",
+    "Future AI/HPC datacenter operators"
+  ],
+  "namedCustomers": [
+    "NYDIG ABL LLC affiliates"
+  ],
+  "namedSuppliers": [
+    "Empire Pipeline Inc.",
+    "Emera Energy"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We currently build, maintain and operate datacenters focused on bitcoin mining, along with related power and electric infrastructure."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We generate revenue from (1) datacenter hosting, (2) cryptocurrency self-mining, and (3) power and capacity sales."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are increasingly focused on leveraging our power generation assets, grid interconnection rights and datacenter development expertise to support artificial intelligence ( AI ) and high-performance computing ( HPC ) workloads, which we believe represent a significant long-term growth opportunity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "40 MW datacenter capacity in Columbus, Mississippi expected",
+      "date": "2027-03-31",
+      "sentence": "We also own a 34-acre greenfield site in Columbus, Mississippi, which we expect will provide access to 40 MW of datacenter capacity by the first quarter of 2027."
+    },
+    {
+      "event": "Exchange offer for Senior Notes expires",
+      "date": "2026-04-08",
+      "sentence": "The Exchange Offer commenced on March 11, 2026 and is scheduled to expire at 5:00 p.m., New York City time, on April 8, 2026, unless extended or earlier terminated by us."
+    },
+    {
+      "event": "Evaluation of coal fly ash for beneficial use expected",
+      "date": "2026-06-30",
+      "sentence": "The registration authorizes landfill reclamation activities, including the excavation and handling of coal fly ash from the previously closed disposal site, which enables us to evaluate and test such materials for potential beneficial use, subject to applicable regulatory requirements, which we expect to complete during the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:30:33.211Z",
+  "model": "deepseek-v4-flash"
+}

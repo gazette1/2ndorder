@@ -1,0 +1,79 @@
+{
+  "cik": "0000091419",
+  "ticker": "SJM",
+  "name": "J M SMUCKER Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000091419-26-000050",
+    "filedAt": "2026-06-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000050/sjm-20260430.htm"
+  },
+  "business": "The J. M. Smucker Company manufactures and markets branded food and beverage products, primarily in the United States. Its principal products include coffee, frozen handheld products, sweet baked goods, pet snacks, peanut butter, cat food, fruit spreads, portion control products, toppings and syrups, and baking mixes and ingredients. Products are sold through retail outlets, foodservice distributors, and other channels to consumers, food retailers, club stores, discount and dollar stores, online retailers, pet specialty stores, drug stores, military commissaries, mass merchandisers, distributors, convenience stores, vending channels, healthcare operators, restaurants, educational institutions, offices, and lodging and gaming establishments.",
+  "sellsTo": [
+    "food retailers",
+    "club stores",
+    "discount and dollar stores",
+    "online retailers",
+    "pet specialty stores",
+    "drug stores",
+    "military commissaries",
+    "mass merchandisers",
+    "distributors",
+    "convenience stores",
+    "vending channel",
+    "foodservice distributors and operators",
+    "healthcare operators",
+    "restaurants",
+    "educational institutions",
+    "offices",
+    "lodging and gaming establishments"
+  ],
+  "namedCustomers": [
+    "Walmart Inc. and subsidiaries, including Sam's Club"
+  ],
+  "namedSuppliers": [
+    "Keurig Dr. Pepper (KDP)",
+    "Graham Packaging Company, L.P."
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We operate principally in one industry, the manufacturing and marketing of branded food and beverage products on a worldwide basis, although the majority of our sales are in the United States ( U.S. )."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "We are committed to serving customers and consumers in e-commerce, transforming our manufacturing, commercial, and corporate operations through digital technologies, and enhancing our data analytics capabilities to develop new commercial insights."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant interruption in the operation of any of our manufacturing or distribution capabilities, or the manufacturing or distribution capabilities of our suppliers, distributors, or contract manufacturers, or a service failure by a third-party service provider, whether as a result of adverse weather conditions or a natural disaster, fire, or water availability, as a result of climate change or otherwise; work stoppage or labor shortages; cybersecurity breaches; political instability, terrorism, or geopolitical conflicts; pandemic illness; government restrictions or government trade policies (including changes in tariffs); or other causes could significantly impair our ability to operate our business."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Disruption to the timely supply of these services or increases in the cost of these services for any reason, including availability or cost of fuel, regulations affecting the industry (including changes in tariffs), labor shortages in the transportation industry, service failures by third-party service providers, carrier capacity, accidents, natural disasters, inflation, geopolitical conflicts, a pandemic illness, or a cybersecurity breach or attack, may impact our ability to obtain reliable transportation for products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of collective bargaining agreements covering approximately 5% of employees",
+      "date": "2027-12-31",
+      "sentence": "These contracts vary in term depending on location, with three contracts expiring in 2027, representing approximately 5 percent of our total employees."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Private label held a 14.0 dollar average market share during the 52 weeks ended April 19, 2026, for the categories in which we compete.",
+      "sentence": "For the U.S. Retail and Sweet Baked Snacks reportable segments, private label held a 14.0 dollar average market share during the 52 weeks ended April 19, 2026, for the categories in which we compete, as compared to a 13.7 dollar average market share during the same period in the prior year."
+    },
+    {
+      "claim": "For the Away From Home reportable segment, private label held a 22.2 dollar average market share during 2026, for the categories in which we compete.",
+      "sentence": "For the Away From Home reportable segment, private label held a 22.2 dollar average market share during 2026, for the categories in which we compete, as compared to a 22.9 dollar average market share during the prior year."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:06:35.945Z",
+  "model": "deepseek-v4-flash"
+}

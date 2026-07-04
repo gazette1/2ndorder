@@ -1,0 +1,76 @@
+{
+  "cik": "0000091388",
+  "ticker": "SFD",
+  "name": "SMITHFIELD FOODS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000091388-26-000014",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000014/smf-20251228.htm"
+  },
+  "business": "Smithfield Foods produces a wide variety of packaged meats and fresh pork products primarily in the United States. The company operates through three reportable segments: Packaged Meats, Fresh Pork, and Hog Production. Products are sold to retail, foodservice, industrial customers, and export markets.",
+  "sellsTo": [
+    "national and regional retailers",
+    "foodservice industry including restaurants and hotel chains",
+    "industrial customers for raw materials",
+    "export markets in China, Mexico, Japan, South Korea, Canada"
+  ],
+  "namedCustomers": [
+    "Walmart Inc. (including Sam's West, Inc.)"
+  ],
+  "namedSuppliers": [
+    "Murphy Family Farms LLC",
+    "VisionAg Hog Production, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "We employ automation in our plants to redeploy labor to higher value tasks, improve yields and drive efficiency by reducing complexity."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "We use automation in our distribution centers to pick and fulfill orders and thereby reduce labor costs."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "by-products that were once considered waste are now used to create renewable natural gas through our biogas joint ventures and lifesaving pharmaceuticals through our bioscience business."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our Bioscience operations use raw materials from hogs that we process to manufacture heparin products, including an active pharmaceutical ingredient that mitigates the risk of blood clots."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "we will employ new and advanced technologies, including artificial intelligence and robotic process automation, that will allow us to drive significant improvements in operational efficiency and productivity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Construction of new Sioux Falls processing facility",
+      "date": "2027-06-30",
+      "sentence": "construction is anticipated to begin in the first half of 2027 with production estimated to commence by the end of 2028."
+    },
+    {
+      "event": "Acquisition of Nathan's Famous Inc.",
+      "date": "2026-06-30",
+      "sentence": "The closing of the transaction is expected to occur in the first half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. pork product export volume was 3.5 million tons in 2025.",
+      "sentence": "According to the USDA, total U.S. pork product export volume was 3.5 million tons in 2025."
+    },
+    {
+      "claim": "U.S. share of the global pork export market increased to 30% in 2025 from 2% in 1990.",
+      "sentence": "According to the U.S. Department of Agriculture (USDA), the U.S. share of the global pork export market increased to 30% in 2025 from 2% in 1990."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:19:28.244Z",
+  "model": "deepseek-v4-flash"
+}

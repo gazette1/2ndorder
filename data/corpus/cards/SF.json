@@ -1,0 +1,52 @@
+{
+  "cik": "0000720672",
+  "ticker": "SF",
+  "name": "STIFEL FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067130",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/720672/000119312526067130/sf-20251231.htm"
+  },
+  "business": "Stifel Financial Corp. is a financial holding company providing wealth management, investment banking, and retail/commercial banking services through subsidiaries. Its principal activities include private client brokerage, institutional equity and fixed income sales and trading, investment banking (mergers and acquisitions, public offerings, private placements), and banking (lending, deposits). The company serves individuals, corporations, municipalities, and institutions across the United States, Europe, and Canada.",
+  "sellsTo": [
+    "private clients (individuals)",
+    "institutional investors",
+    "corporations",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:cloud-data-ai",
+      "stance": "active_investment",
+      "sentence": "Mr. Sliney leads our company’s technology and operational areas with emphasis on cloud, data, and AI capabilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In May 2024, the SEC adopted amendments to Regulation S-P, which includes a requirement for broker-dealers, investment companies, RIAs, and transfer agents to adopt written policies and procedures for an incident response program with respect to unauthorized access to or use of customer information."
+    },
+    {
+      "tag": "other:ai-regulation",
+      "stance": "risk_mention",
+      "sentence": "The E.U. Artificial Intelligence Act, which has tiered compliance dates, poses further challenges for organizations in managing transparency, fairness, and accountability for AI use."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Three-for-two stock split effective",
+      "date": "2026-02-26",
+      "sentence": "On January 26, 2026, our Board declared a 50% stock dividend, in the form of a three-for-two stock split, of our common stock payable on February 26, 2026, to shareholders of record as of February 12, 2026."
+    },
+    {
+      "event": "Sale of Stifel Independent Advisors to Equitable affiliate",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, the Company sold Stifel Independent Advisors, LLC, a wholly owned subsidiary and independent contractor broker-dealer, to an affiliate of Equitable, a financial services organization and principal franchise of Equitable Holdings, Inc."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:12:19.180Z",
+  "model": "deepseek-v4-flash"
+}

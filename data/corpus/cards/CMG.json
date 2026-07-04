@@ -1,0 +1,61 @@
+{
+  "cik": "0001058090",
+  "ticker": "CMG",
+  "name": "CHIPOTLE MEXICAN GRILL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001058090-26-000009",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm"
+  },
+  "business": "Chipotle Mexican Grill owns and operates restaurants that serve burritos, bowls, quesadillas, tacos, and salads. The company sources high-quality ingredients and sells to consumers in the United States and internationally. As of December 31, 2025, it owned 3,938 U.S. restaurants and 104 international restaurants, with 14 partner-operated restaurants.",
+  "sellsTo": [
+    "Restaurant guests (in-store and digital)",
+    "Consumers in the United States",
+    "Consumers internationally"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Modernize our business model with industry-leading technology, including leveraging AI and relaunching our Rewards Program, to elevate the experience for our guests and teams."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches or other unauthorized access, theft, modification or destruction of guest and/or employee personal information, or Chipotle confidential or proprietary information that is stored in our information technology systems or by third parties could damage our reputation and expose us to potential liabilities and loss of revenue."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "If we are not able to hire, train and retain qualified restaurant employees and/or appropriately plan our workforce, our growth plan and profitability could be adversely affected."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "If our supply chain capacity does not expand to support our new restaurant growth, our long-term growth goals could be impaired or delayed."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Increases in the costs of ingredients, restaurant equipment and other materials could adversely affect our financial results."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "Our digital platform continues to be a strategic driver of our growth."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reduce absolute Scope 1, 2 and 3 greenhouse gas emissions 50% by 2030 from a 2019 base year",
+      "date": "2030-12-31",
+      "sentence": "We previously announced that we had set science-based targets validated by the Science Based Targets Initiative to reduce absolute Scope 1, 2 and 3 greenhouse gas emissions 50% by 2030 from a 2019 base year"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:19:45.049Z",
+  "model": "deepseek-v4-flash"
+}

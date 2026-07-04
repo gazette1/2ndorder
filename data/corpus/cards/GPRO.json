@@ -1,0 +1,75 @@
+{
+  "cik": "0001500435",
+  "ticker": "GPRO",
+  "name": "GoPro, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001500435-26-000006",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1500435/000150043526000006/gpro-20251231.htm"
+  },
+  "business": "GoPro sells cameras, mountable and wearable accessories, subscriptions, and services. It sells globally through retailers, distributors, and its own website GoPro.com. Its products are used by consumers to capture and share immersive content.",
+  "sellsTo": [
+    "Retailers",
+    "Distributors",
+    "Direct-to-consumer (GoPro.com)",
+    "Independent specialty retailers",
+    "Big box retailers",
+    "Mid-market retailers",
+    "Consumers"
+  ],
+  "namedCustomers": [
+    "Amazon.com, Inc.",
+    "Best Buy, Inc.",
+    "Target Corporation",
+    "Walmart, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We believe our strategy of investing in our new next-generation, AI-driven system-on-chip (SoC), GP3, will result in new types and categories of cameras and accessories, and subscription and service offerings that will improve our performance moving forward."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Additionally, we believe revenue growth will be driven by the introduction of new types and categories of cameras, accessories, subscription and service offerings, and our AI Training program launched in 2025, which enables U.S. subscribers who opted in to monetize their GoPro cloud-based content for AI model 6 training."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Memory component prices have recently increased significantly year-over-year, as much as 80%."
+    },
+    {
+      "tag": "sensors",
+      "stance": "risk_mention",
+      "sentence": "In particular, our flagship camera designs incorporate custom system-on-chip (SoC), image sensors, lens, batteries, and memory solutions that critically impact the performance of our products."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our cameras, mountable and wearable accessories, subscription and service, and implied post contract support have generated substantially all of our revenue."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell our products globally through retailers, distributors, and on GoPro.com."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected launch of GP3-based cameras",
+      "date": null,
+      "sentence": "As part of our strategic focus on operational efficiency and implementation of our 2026 operational plan, we have adjusted certain investments in research and development while continuing to prioritize projects that support long-term growth of our company, including the expected launch of our new system-on-chip GP3-based cameras beginning in the second quarter of 2026."
+    },
+    {
+      "event": "Entered into securities purchase agreement for convertible debentures",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we entered into a securities purchase agreement (Securities Purchase Agreement) with YA II PN, Ltd. (YA II PN), a fund of Yorkville Advisors Global, LP in connection with the issuance and sale by us of convertible debentures (the Convertible Debentures) issuable in an aggregate principal amount of up to $50.0 million, which Convertible Debentures will be convertible into shares of our Class A common stock, par value $0.0001 per share (the Common Stock) (as converted, the Conversion Shares)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:35:37.574Z",
+  "model": "deepseek-v4-flash"
+}

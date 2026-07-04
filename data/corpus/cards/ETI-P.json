@@ -1,0 +1,57 @@
+{
+  "cik": "0001427437",
+  "ticker": "ETI-P",
+  "name": "ENTERGY TEXAS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1427437/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy Texas generates, transmits, distributes, and sells electric power to retail and wholesale customers in portions of Texas. As of December 31, 2025, it served approximately 538,000 electric customers. Its rates are established through base rate proceedings and various cost recovery riders.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers (primarily petroleum refining and chemical industries)",
+    "Governmental customers",
+    "Wholesale/Other"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Entergy Texas holds a certificate of convenience and necessity from the PUCT to provide electric service to areas within approximately 27 counties in eastern Texas."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "These riders include a transmission cost recovery factor rider mechanism for the recovery of transmission-related capital investments."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "The distribution cost recovery factor permitted utilities once per year to implement an increase or decrease in rates above or below amounts reflected in base rates to reflect distribution-related depreciation expense, federal income tax and other taxes, and return on investment."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The success of certain Utility operating companies investments in new generation and transmission assets to support large-scale data centers depends on a limited number of such customers, the continued demand for electricity to power data centers and the successful completion of the associated generation and transmission projects."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "In January 2022, Entergy Texas filed an application requesting approval to implement two voluntary renewable option tariffs, Rider Small Volume Renewable Option (Rider SVRO) and Rider Large Volume Renewable Option (Rider LVRO)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Terrorist attacks and sabotage, physical attacks, cyber attacks, system failures, data breaches or other disruptions of Entergy s and its subsidiaries or their suppliers physical infrastructure or technology systems may adversely affect Entergy s business and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:33.031Z",
+  "model": "deepseek-v4-flash"
+}

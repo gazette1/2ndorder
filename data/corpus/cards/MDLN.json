@@ -1,0 +1,41 @@
+{
+  "cik": "0002046386",
+  "ticker": "MDLN",
+  "name": "Medline Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002046386-26-000009",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2046386/000204638626000009/mdln-20251231.htm"
+  },
+  "business": "Medline Inc. is the largest provider of medical-surgical products and supply chain solutions, serving all points of care. It offers approximately 335,000 med-surg products through two segments: Medline Brand (190,000 products) and Supply Chain Solutions (145,000 products). The company sells to hospitals, surgery centers, physician offices, and post-acute facilities.",
+  "sellsTo": [
+    "hospitals",
+    "surgery centers",
+    "physician offices",
+    "post-acute facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Medline is the largest provider of medical-surgical (med-surg) products and supply chain solutions serving all points of care."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We distribute these products through our expansive network of global distribution facilities and our owned fleet of MedTrans trucks."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "We utilize artificial intelligence (AI) and robotics technology in over 26 million square feet of warehouse space in the United States to improve efficiency and capacity to optimize distribution logistics and maximize utilization."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:07:09.933Z",
+  "model": "deepseek-v4-flash"
+}

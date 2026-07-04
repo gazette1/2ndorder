@@ -1,0 +1,69 @@
+{
+  "cik": "0001514416",
+  "ticker": "BAND",
+  "name": "Bandwidth Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001514416-26-000017",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000017/band-20251231.htm"
+  },
+  "business": "Bandwidth provides a cloud communications platform (Communications Cloud) comprising APIs and an owned-and-operated global network that enables enterprises to embed voice, messaging, emergency services, and AI capabilities into their applications. The company sells to UCaaS and CCaaS platform leaders, Global 2000 enterprises, and messaging platforms.",
+  "sellsTo": [
+    "UCaaS/CCaaS platforms",
+    "Global 2000 enterprises",
+    "SaaS platforms",
+    "messaging platforms"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "Google",
+    "Zoom",
+    "Cisco",
+    "RingCentral",
+    "Genesys",
+    "Five9"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Pindrop",
+    "OpenAI"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-voice",
+      "stance": "core_product",
+      "sentence": "Our Maestro platform and Communications Cloud are designed to support this evolution, enabling the orchestration of AI voice agents across diverse environments with superior quality, reliability, and scale."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Backed by the Bandwidth Communications Cloud, our global owned-and-operated network spanning more than 65 countries reaching over 90 percent of global gross domestic product (GDP), innovative enterprises use Bandwidth's APIs to easily embed voice, messaging, emergency services, and artificial intelligence (AI) capabilities into software and applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our Trust Services portfolio also includes STIR/SHAKEN attestation, voice bio-authentication, inbound call verification, campaign registration support, and fraud monitoring capabilities."
+    },
+    {
+      "tag": "other:emergency-services",
+      "stance": "core_product",
+      "sentence": "We provide complete communications solutions (full PSTN replacement) with integrated local emergency services in 42 countries around the globe."
+    },
+    {
+      "tag": "other:messaging",
+      "stance": "core_product",
+      "sentence": "Our Programmable Messaging market offering is aimed at large messaging customers that use Bandwidth to deliver digital engagement experiences, primarily through our text messaging solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FCC 911 outage reporting compliance deadline",
+      "date": "2025-04-15",
+      "sentence": "By April 15, 2025, Bandwidth and its service provider customers will be required to comply with the FCC's new 911 outage reporting requirements."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:01:09.294Z",
+  "model": "deepseek-v4-flash"
+}

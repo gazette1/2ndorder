@@ -1,0 +1,76 @@
+{
+  "cik": "0001099800",
+  "ticker": "EW",
+  "name": "Edwards Lifesciences Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001099800-26-000009",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000009/ew-20251231.htm"
+  },
+  "business": "Edwards Lifesciences is the leading global structural heart innovation company, offering surgical and transcatheter therapies for heart valve disease. Its products are categorized into Transcatheter Aortic Valve Replacement (TAVR), Transcatheter Mitral and Tricuspid Therapies (TMTT), and Surgical Structural Heart. The company sells to hospitals and healthcare providers in approximately 100 countries through direct sales forces and independent distributors.",
+  "sellsTo": [
+    "hospitals and other health care providers",
+    "physicians, hospital executives, nursing, and clinical-based customers",
+    "group purchasing organizations (GPOs) and integrated delivery networks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our products are categorized into the following groups: Transcatheter Aortic Valve Replacement (TAVR), Transcatheter Mitral and Tricuspid Therapies (TMTT), and Surgical Structural Heart (Surgical)."
+    },
+    {
+      "tag": "other:heart-failure",
+      "stance": "active_investment",
+      "sentence": "R&D expenses increased in 2025 compared to 2024 primarily due to increased investments in implantable heart failure management innovations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of, or our failure to effectively and timely utilize, emerging technologies, including AI, could adversely impact our business and financial results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to protect our information technology infrastructure and our products against cybersecurity attacks, network security breaches, service interruptions, or data corruption could materially disrupt our operations and adversely affect our business and operating results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA approval for SAPIEN 3 platform for asymptomatic severe aortic stenosis patients",
+      "date": "2025",
+      "sentence": "we received United States Food and Drug Administration (FDA) approval for the SAPIEN 3 platform for severe aortic stenosis patients without symptoms"
+    },
+    {
+      "event": "FDA and CE Mark approval and launch of SAPIEN M3 mitral valve replacement system",
+      "date": "2025",
+      "sentence": "we received FDA and CE Mark approval for the SAPIEN M3 mitral valve replacement system, launching in both Europe and the U.S."
+    },
+    {
+      "event": "CE Mark and launch of KONECT RESILIA aortic valved conduit in Europe",
+      "date": "2025",
+      "sentence": "we received a CE Mark for and launched in Europe the KONECT RESILIA aortic valved conduit"
+    },
+    {
+      "event": "Completed enrollment in CLASP IIF trial for PASCAL transcatheter valve repair system",
+      "date": "2025",
+      "sentence": "we completed enrollment in the CLASP IIF trial for the PASCAL transcatheter valve repair system"
+    },
+    {
+      "event": "Founding sponsorship of American Heart Association's Heart Valve Initiative",
+      "date": "2025",
+      "sentence": "we announced our founding sponsorship of the American Heart Association's Heart Valve Initiative"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "More than 28 million people worldwide live with heart valve disease.",
+      "sentence": "we announced our founding sponsorship of the American Heart Association's Heart Valve Initiative, a national effort to improve care and outcomes for the more than 28 million people living with heart valve disease worldwide."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:16:34.410Z",
+  "model": "deepseek-v4-flash"
+}

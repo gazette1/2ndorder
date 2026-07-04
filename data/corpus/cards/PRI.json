@@ -1,0 +1,56 @@
+{
+  "cik": "0001475922",
+  "ticker": "PRI",
+  "name": "Primerica, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-082233",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"
+  },
+  "business": "Primerica is a leading provider of financial products and services to middle-income households in the United States and Canada. It underwrites term life insurance and distributes mutual funds, annuities, managed investments, and other financial products primarily on behalf of third parties.",
+  "sellsTo": [
+    "middle-income households",
+    "United States",
+    "Canada"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We assist our clients in meeting their needs for term life insurance, which we underwrite, and mutual funds, annuities, managed investments and other financial products, which we distribute primarily on behalf of third parties."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any failure to protect the confidentiality of client information could adversely affect our reputation and have a material adverse effect on our business."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence present risks and challenges that could materially adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hold five regional summits in the U.S. and Canada in 2026",
+      "date": null,
+      "sentence": "In lieu of a biennial international convention in 2026, we will hold five regional summits in the U.S. and Canada in 2026 and then host our next international convention in July 2027 at the Mercedes-Benz Stadium, which aligns with the Company's 50th anniversary."
+    },
+    {
+      "event": "Host next international convention in July 2027",
+      "date": "2027-07-01",
+      "sentence": "In lieu of a biennial international convention in 2026, we will hold five regional summits in the U.S. and Canada in 2026 and then host our next international convention in July 2027 at the Mercedes-Benz Stadium, which aligns with the Company's 50th anniversary."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 52% of U.S. households fall in the middle-income range ($30,000 to $130,000 annual income).",
+      "sentence": "According to the 2024 U.S. Census Bureau Current Population Survey, the latest period for which data is available, approximately 52% of U.S. households fall in this range."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:22:51.278Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,43 @@
+{
+  "cik": "0001597892",
+  "ticker": "JRSS",
+  "name": "JRSIS HEALTH CARE Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-24-036467",
+    "filedAt": "2024-04-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1597892/000121390024036467/ea0204092-10k_jrsis.htm"
+  },
+  "business": "JRSIS Health Care Corp, through its variable interest entity Yongzhou Jumi, develops and markets a smart environment for retail distribution of pharmaceutical products, including the JM-YF-2000 Automatic Medicine Dispenser and related software. The products are sold to pharmacies, hospitals, and online distributors, and also support government Healthy City projects.",
+  "sellsTo": [
+    "Pharmacies",
+    "Hospitals",
+    "Online distributors",
+    "Government healthcare projects"
+  ],
+  "namedCustomers": [
+    "Guangzhou JIE"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The core business of Yongzhou Jumi is the development and marketing of a multi-faceted smart environment for the retail distribution of pharmaceutical products by pharmacies, hospitals and online distributors."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "A single employee delivers inventory to the Digital Solution, which is sorted by bar code, recorded, and restocked through a robotics network."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "AI analysis assures the safety of the chosen medicine for the individual patient, avoiding conflicting effects."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:57:32.129Z",
+  "model": "deepseek-v4-flash"
+}

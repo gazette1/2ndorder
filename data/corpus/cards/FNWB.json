@@ -1,0 +1,63 @@
+{
+  "cik": "0001556727",
+  "ticker": "FNWB",
+  "name": "First Northwest Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008021",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1556727/000143774926008021/fnwb20251231_10k.htm"
+  },
+  "business": "First Northwest Bancorp is a bank holding company that, through its subsidiary First Fed, provides banking services including lending, deposits, and money movement primarily to individuals, businesses, and nonprofits in Washington State.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "nonprofits",
+    "communities in Washington State"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Woodside Credit, LLC",
+    "First Help Financial",
+    "Triad Financial Services",
+    "Bankers Healthcare Group",
+    "Northpointe Bank"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "First Northwest's limited partnership investments include Canapi Ventures Fund, LP; BankTech Ventures, LP; and JAM FINTOP Frontier Fund, LP. These limited partnerships invest in fintech-related businesses with a focus on developing digital solutions applicable to the banking industry."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We continue to originate one-to-four family residential mortgage loans, primarily for sale into the secondary market to generate noninterest gain on sale and servicing fee revenue and manage interest rate risk or retain select loans in our portfolio to enhance interest income."
+    },
+    {
+      "tag": "other: commercial-real-estate-lending",
+      "stance": "core_product",
+      "sentence": "We offer both fixed- and adjustable-rate loans on commercial and multi-family real estate, which may include balloon payments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our security measures may not be sufficient to mitigate the risk of a cyber-attack."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Unwind investment in Hero Fund through capital distributions",
+      "date": "2026-04",
+      "sentence": "Subsequent to year end, the Bank signed a redemption agreement which sets forth the path to unwind its investment in the Hero Fund through capital distributions beginning in April 2026."
+    },
+    {
+      "event": "Closure of King County branch",
+      "date": "2026-04-30",
+      "sentence": "The branch located in King County will be closing on April 30, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:42:33.639Z",
+  "model": "deepseek-v4-flash"
+}

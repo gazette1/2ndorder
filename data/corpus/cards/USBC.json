@@ -1,0 +1,71 @@
+{
+  "cik": "0001074828",
+  "ticker": "USBC",
+  "name": "USBC, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-002725",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1074828/000165495426002725/usbc_10k.htm"
+  },
+  "business": "USBC develops transformative financial services, including digital assets and banking solutions, with a key focus on the further development of the USBC tokenized deposit offering, a blockchain-based tokenized representation of a U.S.-dollar denominated bank deposit account. The company also holds Bitcoin as a treasury reserve asset and has a legacy non-invasive sensor business that it is divesting. The tokenized deposit platform is designed to serve retail users, fintech partners, and institutional counterparties.",
+  "sellsTo": [
+    "Retail deposit customers",
+    "Distribution partners (fintech companies)",
+    "Institutional counterparties"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Payward Interactive, Inc.",
+    "Vast Holdings, Inc.",
+    "Hyrcanian Asset Management, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "A key focus of USBC is the further development of the USBC tokenized deposit offering, a tokenized representation of a U.S.-dollar denominated bank deposit account that operates on blockchain technology and is embedded with digital identity."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "USBC has implemented a Bitcoin treasury strategy to bolster development and research across its various divisions."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "risk_mention",
+      "sentence": "Our Science Division, which includes the legacy Know Labs business, remains focused on advancing our proprietary sensor technology."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Formalized collaboration with Uphold and Vast Bank for tokenized deposit program",
+      "date": "2026-01-20",
+      "sentence": "On January 20, 2026, we formalized our collaboration with Uphold HQ Inc. ( Uphold ) and Vast Bank, N.A. ( Vast Bank ), which will serve as the initial issuing bank for the U.S. Bank Coin ( USBC ) tokenized-deposit offering."
+    },
+    {
+      "event": "Initiated Phase 1 of multi-phase delivery strategy for tokenized deposit product",
+      "date": "2026-03-10",
+      "sentence": "On March 10, 2026, we initiated Phase 1 of our multi-phase delivery strategy for how we will bring the USBC tokenized deposit product to market."
+    },
+    {
+      "event": "Entered into Master Loan Agreement with Payward Interactive for up to $25 million Bitcoin-collateralized facility",
+      "date": "2026-03-18",
+      "sentence": "On March 18, 2026, we entered into a Master Loan Agreement (the MLA ) with Payward Interactive, Inc. (the Lender ), pursuant to which the Company may, from time to time, borrow fiat currency or digital assets on the terms set forth therein in an aggregate principal amount of up to $25.0 million for up to a twelve-month term, subject to execution of one or more individual loan term sheets."
+    },
+    {
+      "event": "Completed evaluation of legacy sensor business and elected to proceed with divestiture",
+      "date": null,
+      "sentence": "In February 2026, we completed our evaluation of the legacy non-invasive sensor business and we have elected to proceed with a divestiture transaction."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total supply of fiat-backed stablecoins estimated at approximately $300 billion as of October 2025",
+      "sentence": "In the public crypto markets, the total supply of fiat-backed stablecoins was estimated at approximately $300 billion as of October 2025, according to publicly available industry data."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:34:23.374Z",
+  "model": "deepseek-v4-flash"
+}

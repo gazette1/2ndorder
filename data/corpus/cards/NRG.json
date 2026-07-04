@@ -1,0 +1,125 @@
+{
+  "cik": "0001013871",
+  "ticker": "NRG",
+  "name": "NRG ENERGY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001013871-26-000004",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000004/nrg-20251231.htm"
+  },
+  "business": "NRG Energy, Inc. serves electricity, natural gas, and smart-home technology solutions to approximately 8 million residential customers, plus large commercial and industrial, data center, and wholesale customers. The company also provides smart home security and automation services.",
+  "sellsTo": [
+    "residential",
+    "commercial and industrial",
+    "data center",
+    "wholesale",
+    "smart home"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "GE Vernova",
+    "Kiewit"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "NRG Energy, Inc., or NRG or the Company, serves electricity, natural gas, and smart-home technology solutions to approximately 8 million residential customers (comprised of 6 million retail energy and 2 million smart home), in addition to large commercial and industrial, data center, and wholesale customers."
+    },
+    {
+      "tag": "other:smart-home",
+      "stance": "core_product",
+      "sentence": "The Company also provides smart home security and automation services that deepen customer relationships and support long-term engagement."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "A smart home has multiple devices integrated into a single expandable platform that incorporates artificial intelligence ( AI ) and machine-learning in its operating system"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The electricity industry is expected to experience a surge in demand driven primarily by new manufacturing, industrial and data center facilities (including to support the expected increase in demand for AI and generative AI (GenAI))."
+    },
+    {
+      "tag": "other:demand-response",
+      "stance": "core_product",
+      "sentence": "This includes (i) demand response and virtual power plants ( VPP ), which help manage costs and improve affordability for customers"
+    },
+    {
+      "tag": "other:vpp",
+      "stance": "core_product",
+      "sentence": "This includes (i) demand response and virtual power plants ( VPP ), which help manage costs and improve affordability for customers"
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Company s core power and natural gas business consists of approximately 12 GW of competitive power generation, primarily in Texas, and a natural gas portfolio that serves approximately 1,900 MMDth annually."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Company owns a diversified wholesale generation portfolio with approximately 12 GW of fossil fuel, and renewable generation capacity at 23 plants."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "NRG develops, engineers and executes major plant projects as well as new build generation, uprates, and energy storage projects that enhance the value of its generation portfolio and provide options to meet generation growth needs (including BYOP arrangements for data centers and other large load customers)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The operation of the Company's businesses is subject to advanced persistent cyber-based security threats and integrity risk."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "active_investment",
+      "sentence": "NRG signed a strategic Project Development Agreement with GE Vernova (GEV) and Kiewit's subsidiary, TIC, to develop and construct up to 5.4 GW of new gas-fired, combined cycle generation projects."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "For the domestic fleet, NRG purchased approximately 15 million tons of coal in 2025, all of which was Powder River Basin coal."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commercial operation of T.H. Wharton peaker plant",
+      "date": "2026-06",
+      "sentence": "The projects include a 415 MW peaker plant at T.H. Wharton, expected to be operational in June 2026"
+    },
+    {
+      "event": "Commercial operation of Cedar Bayou 5 combined cycle facility",
+      "date": "2028-07",
+      "sentence": "plus a 689 MW combined cycle generating facility at Cedar Bayou 5, and a 443 MW peaker plant at Greens Bayou 6, both of which are expected to be operational in mid-2028."
+    },
+    {
+      "event": "Commercial operation of Greens Bayou 6 peaker plant",
+      "date": "2028-07",
+      "sentence": "plus a 689 MW combined cycle generating facility at Cedar Bayou 5, and a 443 MW peaker plant at Greens Bayou 6, both of which are expected to be operational in mid-2028."
+    },
+    {
+      "event": "First projects under development agreement commence operations",
+      "date": "2029-12",
+      "sentence": "The first projects under this comprehensive development agreement are expected to commence operations by the end of 2029."
+    },
+    {
+      "event": "Completion of LSP Portfolio acquisition",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, NRG completed the acquisition of the LSP Portfolio"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "500 TWh of incremental load across the U.S. through 2030",
+      "sentence": "The U.S. Energy Information Administration's 2023 Annual Energy Outlook, combined with external forecasts, shows the potential for 500 TWh of incremental load across the U.S. through 2030, as compared to 2023."
+    },
+    {
+      "claim": "ERCOT peak demand increasing from 86 GW in 2024 to 139 GW in 2030",
+      "sentence": "ERCOT's current long term load forecast shows peak demand increasing from 86 GW in 2024 to 139 GW in 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:32:16.976Z",
+  "model": "deepseek-v4-flash"
+}

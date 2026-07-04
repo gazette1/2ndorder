@@ -1,0 +1,70 @@
+{
+  "cik": "0000088941",
+  "ticker": "SMTC",
+  "name": "SEMTECH CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000088941-26-000005",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000005/smtc-20260125.htm"
+  },
+  "business": "Semtech Corp. is a provider of high-performance semiconductors for data center networking, IoT connectivity, and cellular infrastructure, and also offers IoT systems and connectivity services. Its products are sold into infrastructure, high-end consumer, and industrial end markets to OEMs, IoT device makers, enterprises, and solution providers.",
+  "sellsTo": [
+    "Infrastructure (data centers, PON, base stations, optical networks)",
+    "High-End Consumer (smartphones, tablets, wearables)",
+    "Industrial (IoT applications, smart utilities, medical, automotive)",
+    "Original equipment manufacturers (OEMs)",
+    "IoT device makers",
+    "Enterprises",
+    "Solution providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of high-performance semiconductors powering data center networking, Internet of Things (\"IoT\") connectivity and cellular infrastructure solutions"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our portfolio of optical and copper connectivity solutions continue to address the demand for greater bandwidth and higher performance, while using less power by our global hyper-scale data center customers."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The growing deployment of on-device AI in IoT applications further strengthens this opportunity: edge AI architectures transmit processed insights rather than raw sensor data, dramatically reducing bandwidth requirements and making the long-range, low-power characteristics of LoRa an ideal complement to AI-enabled IoT devices across industrial, security, smart city applications and more."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "A growing concentration of demand in AI-related semiconductors may increase our exposure to cyclical industry trends and competitive pressures, which may adversely affect our results of operations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We supply cellular wireless devices and provide services in the wireless communications and information technology industries, enabling connectivity for IoT solutions through cellular and short-range wireless technologies."
+    },
+    {
+      "tag": "other:iot",
+      "stance": "core_product",
+      "sentence": "We design, develop, manufacture and market a portfolio of high-performance analog and mixed-signal semiconductors and advanced algorithms, as well as wireless semiconductors, connectivity modules, gateways, routers and connected services for IoT."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our unique sensing technology enables proximity sensing, force sensing, and advanced user interface solutions for mobile, consumer, computing and automotive products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of HieFo Corporation",
+      "date": "2026-03-03",
+      "sentence": "On March 3, 2026, we completed the acquisition of HieFo Corporation in an all-cash transaction representing a total purchase consideration of approximately $34.0 million"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:58:39.604Z",
+  "model": "deepseek-v4-flash"
+}

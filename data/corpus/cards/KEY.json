@@ -1,0 +1,65 @@
+{
+  "cik": "0000091576",
+  "ticker": "KEY",
+  "name": "KEYCORP /NEW/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010546",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm"
+  },
+  "business": "KeyCorp is a bank holding company that provides retail and commercial banking, commercial leasing, investment management, consumer finance, student loan refinancing, commercial mortgage servicing, and investment banking products and services. It serves individual, corporate, and institutional clients through two segments: Consumer Bank and Commercial Bank.",
+  "sellsTo": [
+    "individuals",
+    "small businesses",
+    "middle market clients",
+    "large corporate clients",
+    "institutional clients",
+    "non-profit clients",
+    "high-net-worth individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Data Center $ 695 $ 272 $ 423"
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and gas $ 2,092 $ 28 $ 13"
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Utilities $ 9,044 $ 358 $ 9,044"
+    },
+    {
+      "tag": "other:technology",
+      "stance": "core_product",
+      "sentence": "Technology $ 1,108 $ 17 $ 82"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Key competes with other providers of financial services, such as BHCs, commercial banks, savings associations, credit unions, mortgage banking companies, finance companies, mutual funds, insurance companies, investment management firms, private credit funds, investment banking firms, broker-dealers, financial technology companies, and other local, regional, national, and global institutions that offer financial services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board authorized $1.0 billion share repurchase program",
+      "date": "2025-03-13",
+      "sentence": "On March 13, 2025, our Board of Directors authorized a share repurchase program pursuant to which we may purchase up to $1.0 billion of KeyCorp common shares, in the open market or in privately negotiated transactions."
+    },
+    {
+      "event": "Entered into repurchase agreement with Scotiabank",
+      "date": "2025-02-01",
+      "sentence": "In February 2025, we entered into an agreement with Scotiabank to permit Scotiabank to participate, through a periodic true-up right, in any repurchase by KeyCorp of its common stock on a pro rata basis."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:38:38.113Z",
+  "model": "deepseek-v4-flash"
+}

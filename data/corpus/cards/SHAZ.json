@@ -1,0 +1,77 @@
+{
+  "cik": "0002068385",
+  "ticker": "SHAZ",
+  "name": "SharonAI Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014068",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226014068/form10-k.htm"
+  },
+  "business": "SharonAI Holdings Inc. is an Australian neocloud operator that provides enterprise, government, and research organizations with sovereign, low-latency access to advanced accelerated computing hardware, including NVIDIA GPUs. It offers GPU-as-a-Service, AI Studio (PaaS), and cloud storage solutions for AI and HPC workloads.",
+  "sellsTo": [
+    "enterprises",
+    "hyperscalers",
+    "AI labs",
+    "research institutes and universities",
+    "governmental authorities",
+    "AI start-ups and developers",
+    "GPU aggregators and marketplaces"
+  ],
+  "namedCustomers": [
+    "Canva",
+    "GMI Cloud US Inc."
+  ],
+  "namedSuppliers": [
+    "NVIDIA Corporation",
+    "NEXTDC Limited",
+    "Cisco Systems Inc.",
+    "World Wide Technology",
+    "Lenovo Group Limited",
+    "VAST Data Inc.",
+    "Megaport Limited",
+    "Digital Alpha Advisors LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "SharonAI Holdings, Inc. is an Australian neocloud operator, purpose-built to power the next generation of artificial intelligence ( AI ) and high-performance computing ( HPC )."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "Rather than incurring large capital expenditure and multi-year investment in building its own data centers, the Company deploys its infrastructure directly into the facilities of data center partners such as NEXTDC, under long-term contractual arrangements."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We are substantially dependent on NVIDIA Corporation as a supplier of graphics processing units ( GPUs ), and any disruption in our ability to obtain NVIDIA GPUs could materially and adversely affect our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "B200 GPU cluster deployment coming online",
+      "date": "2026-06-30",
+      "sentence": "The balance of this cluster is expected to consist of NVIDIA B200 GPUs expected to come online in the first half of 2026."
+    },
+    {
+      "event": "B300 GPU cluster deployment coming online",
+      "date": "2026-06-30",
+      "sentence": "We are also deploying a 1,024-unit NVIDIA B300 GPU cluster which will be located at NEXTDC’s S3 data center and expected to be coming online in the first half of 2026."
+    },
+    {
+      "event": "Potential investment from Digital Alpha of up to $200 million and strategic technology partnership with Cisco",
+      "date": null,
+      "sentence": "On January 19, 2026, we announced a potential investment from Digital Alpha of up to $200 million and a strategic technology partnership with Cisco, subject to execution of definitive documentation."
+    },
+    {
+      "event": "Debt facility of up to US$500 million from USD.AI",
+      "date": null,
+      "sentence": "On January 22, 2026, we announced that USD.AI had approved a debt facility of up to US$500 million for SharonAI, a subsidiary of the Company, subject to execution of definitive documentation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:01:45.072Z",
+  "model": "deepseek-v4-flash"
+}

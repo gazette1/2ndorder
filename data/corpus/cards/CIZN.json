@@ -1,0 +1,54 @@
+{
+  "cik": "0001075706",
+  "ticker": "CIZN",
+  "name": "CITIZENS HOLDING CO /MS/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-24-009993",
+    "filedAt": "2024-03-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1075706/000143774924009993/cizn20231231c_10k.htm"
+  },
+  "business": "Citizens Holding Co is a one-bank holding company that engages in a wide range of commercial and personal banking activities, including accepting deposits, making loans, and providing trust services. Its primary lending area is the state of Mississippi and contiguous states. Revenues from lending activities constitute the largest component of operating revenues.",
+  "sellsTo": [
+    "Individuals and businesses in Mississippi and contiguous states",
+    "Commercial and personal banking customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company has the technology for consumers to perform many of the routine, transaction-related items through its online and mobile platforms."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company also provides certain services that are closely related to commercial banking such as credit life insurance and title insurance for its loan customers through third-party relationships."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "At December 31, 2023, approximately 82.7% of the Company's loan portfolio was attributed to real estate lending."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "At December 31, 2023, ... 14.6% of the Company's loan portfolio was comprised of commercial, industrial and agricultural production loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The unauthorized disclosure, misappropriation, mishandling or misuse of personal, non-public, confidential or proprietary information of customers could result in significant regulatory consequences, reputational damage and financial loss."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Fintech developments, such as blockchain and other distributed ledger technologies, have the potential to disrupt the financial industry and change the way banks do business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:52:40.395Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001492691",
+  "ticker": "KNX",
+  "name": "Knight-Swift Transportation Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001492691-26-000016",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1492691/000149269126000016/knx-20251231.htm"
+  },
+  "business": "Knight-Swift Transportation Holdings Inc. is one of North America's largest and most diversified freight transportation companies, providing multiple full truckload, LTL, intermodal, and other complementary services. The company operates a nationwide network of business units and terminals in the US and Mexico to serve customers throughout North America.",
+  "sellsTo": [
+    "large corporations in retail, food and beverage, consumer products, paper products, transportation and logistics, housing and building, automotive, and manufacturing industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The adoption of artificial intelligence (\"AI\") and other emerging technologies may become significant to operating results in the future, including in areas such as brokerage, dispatch, routing, pickup and delivery appointments, and other areas where automation is possible."
+    },
+    {
+      "tag": "other:autonomous-trucks",
+      "stance": "risk_mention",
+      "sentence": "Future use of autonomous and alternative fuel tractors could increase the price of new tractors and decrease the value of used, non-autonomous tractors."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Future use of autonomous and alternative fuel tractors could increase the price of new tractors and decrease the value of used, non-autonomous tractors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business and operations could be adversely affected in the event of a system failure, disruption, or security breach that causes a delay, interruption, or impairment of our services and operations."
+    },
+    {
+      "tag": "software-ai",
+      "stance": "active_investment",
+      "sentence": "We have purchased and developed software for our logistics businesses that provides greater visibility of the capacity of our third-party providers and enhances our ability to provide our customers with solutions that offer a superior level of service."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Rebranding of LTL businesses under AAA Cooper brand effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "During 2025, we decided to adopt the strong and historically significant AAA Cooper brand across our entire LTL business, effective as of January 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:04:38.648Z",
+  "model": "deepseek-v4-flash"
+}

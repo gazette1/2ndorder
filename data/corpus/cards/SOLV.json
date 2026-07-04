@@ -1,0 +1,53 @@
+{
+  "cik": "0001964738",
+  "ticker": "SOLV",
+  "name": "Solventum Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001964738-26-000007",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/solv-20251231.htm"
+  },
+  "business": "Solventum is a leading global healthcare company developing, manufacturing, and commercializing a broad portfolio of solutions that leverages deep material science, data science, and digital capabilities to address critical customer and patient needs. Its three reportable segments are MedSurg, Dental Solutions, and Health Information Systems, offering products such as negative pressure wound therapy, advanced wound dressings, dental and orthodontic products, and software solutions for revenue cycle management and clinician productivity. The company serves a diverse customer base ranging from multidisciplinary hospitals to local clinics/practices.",
+  "sellsTo": [
+    "multidisciplinary hospitals",
+    "local clinics/practices",
+    "physicians",
+    "other health care providers",
+    "payers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "MedSurg (57.9% of 2025 total sales) is a provider of solutions including negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies Original Equipment Manufacturer (\"OEM\")."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Health Information Systems (16.3% of 2025 total sales) provides healthcare systems with software solutions including computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms that are designed to eliminate revenue cycle waste, create more time for patient care, and support value-based care."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of sale of Purification and Filtration business to Thermo Fisher Scientific Inc.",
+      "date": "2025-09-01",
+      "sentence": "On September 1, 2025, Solventum completed the sale of the Business to the Buyer in accordance with the terms of the Agreement."
+    },
+    {
+      "event": "Acquisition of Acera Surgical",
+      "date": "2025-12-23",
+      "sentence": "On December 23, 2025, subsequent to our annual impairment test, the Company completed the acquisition of Acera."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Of the $5.3 trillion in annual U.S. healthcare spending, an estimated 25% represents administrative costs that do not contribute to health outcomes and which we believe to be potentially wasteful.",
+      "sentence": "Of the $5.3 trillion in annual U.S. healthcare spending, an estimated 25% represents administrative costs that do not contribute to health outcomes and which we believe to be potentially wasteful based on overall spending data reported by the Centers for Medicare & Medicaid Services in the NHE Fact Sheet (available on CMS.gov as of January 14, 2026) and administrative spending estimates published in JAMA (Shrank et. al., \"Waste in the US Health Care System: Estimated Costs and Potential for Savings\", published October 7, 2019)."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:59:22.413Z",
+  "model": "deepseek-v4-flash"
+}

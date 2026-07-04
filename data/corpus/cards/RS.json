@@ -1,0 +1,69 @@
+{
+  "cik": "0000861884",
+  "ticker": "RS",
+  "name": "RELIANCE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020651",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/861884/000110465926020651/rs-20251231x10k.htm"
+  },
+  "business": "Reliance, Inc. operates metals service centers that process and distribute metal products, primarily aluminum and steel, to a variety of customers. The company reintroduced approximately 259,000 tons of recycled scrap material into the manufacturing life cycle in 2025. It serves industries such as non-residential construction, semiconductor, energy, automotive, aerospace, and heavy equipment.",
+  "sellsTo": [
+    "non-residential construction",
+    "semiconductor",
+    "energy",
+    "automotive",
+    "aerospace",
+    "heavy equipment"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We sell many products to industries that are cyclical, such as the non-residential construction, semiconductor, energy, automotive, aerospace and heavy equipment industries."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We sell many products to industries that are cyclical, such as the non-residential construction, semiconductor, energy, automotive, aerospace and heavy equipment industries."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We sell many products to industries that are cyclical, such as the non-residential construction, semiconductor, energy, automotive, aerospace and heavy equipment industries."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In addition, our systems and data are susceptible to cybersecurity incidents, such as viruses, malware, ransomware and other cybersecurity attacks."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten our cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change might adversely impact our supply chain or our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reintroduction of 259,000 tons of recycled scrap material into manufacturing life cycle",
+      "date": "2025-12-31",
+      "sentence": "We reintroduced approximately 259,000 tons of recycled scrap material into the manufacturing life cycle in 2025."
+    },
+    {
+      "event": "Increase in quarterly dividend from $1.20 to $1.25 per share effective first quarter 2026",
+      "date": "2026-01-01",
+      "sentence": "We have paid regular quarterly dividends to our stockholders for 66 consecutive years and increased the quarterly dividend on our common stock 33 times since our 1994 IPO, with the most recent increase of 4.2% from $1.20 per share to $1.25 per share effective in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:47:42.750Z",
+  "model": "deepseek-v4-flash"
+}

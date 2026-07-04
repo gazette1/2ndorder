@@ -1,0 +1,89 @@
+{
+  "cik": "0001819994",
+  "ticker": "RKLB",
+  "name": "Rocket Lab Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001819994-26-000013",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm"
+  },
+  "business": "Rocket Lab is an end-to-end space company delivering reliable launch services (Electron, developing Neutron), spacecraft design services, spacecraft components, spacecraft manufacturing, optical systems, and on-orbit management solutions. It sells to government customers (U.S. Department of War, NASA, DARPA, NRO) and commercial spacecraft operators (Blacksky Holdings, Canon, Kin is, Capella Space, Planet, OHB Group, Synspective). The company also provides spacecraft components to the merchant market.",
+  "sellsTo": [
+    "U.S. government agencies",
+    "commercial spacecraft operators",
+    "merchant market for spacecraft components"
+  ],
+  "namedCustomers": [
+    "Blacksky Holdings",
+    "Canon",
+    "Kin is",
+    "Capella Space",
+    "Planet",
+    "OHB Group",
+    "Synspective",
+    "DoW",
+    "NASA",
+    "DARPA",
+    "NRO",
+    "SDA"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "We deliver reliable launch services, spacecraft design services, spacecraft components, spacecraft manufacturing, optical systems and other spacecraft and on-orbit management solutions that make it faster, easier and more affordable to access space."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "We provide spacecraft solutions for government and commercial customers ranging from selling individual spacecraft components for use by customers in constructing their own spacecraft to complete spacecraft design, manufacture and on-orbit operations."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our Optical Systems business develops and builds advanced electro-optical and infrared (EO/IR) sensor payloads for national security space missions."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "each of these strategic acquisitions brought incremental vertically-integrated capabilities for our own family of spacecraft and also enabled Rocket Lab to deliver high-volume manufacturing of critical spacecraft components and software solutions at scale prices to the broader merchant market."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our optical systems are used for space domain awareness to track and monitor space objects of interest, for missile warning, tracking and defense, and for space protection to identify potential threats to satellites and other space assets."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Key raw materials and components used in our operations include chemicals; composites; electronic, electro-mechanical and mechanical components; rare earth minerals; subassemblies; and subsystems that are integrated with the manufactured parts for final assembly into finished products and systems."
+    },
+    {
+      "tag": "other:hypersonic",
+      "stance": "core_product",
+      "sentence": "HASTE is a suborbital testbed launch vehicle derived from Rocket Lab's heritage Electron rocket. HASTE provides reliable, high-cadence flight test opportunities needed to advance hypersonic and suborbital system technology development."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "SDA Tracking Layer Tranche 3 contract awarded",
+      "date": "2025-12-17",
+      "sentence": "On December 17, 2025, we entered into an agreement with the Space Development Agency (SDA) to design, manufacture and provide operations and sustainment for 18 satellites for the Tracking Layer Tranche 3 program (Tranche 3) under the Proliferated Warfighter Space Architecture. The contract with SDA has a total potential value of $816 million, which includes a base amount of $806 million and options totaling $10 million. Work under the agreement will begin immediately with final delivery of the satellites for launch expected in 2029."
+    },
+    {
+      "event": "Neutron first launch target",
+      "date": null,
+      "sentence": "Neutron's first launch is now targeted for Q4 2026."
+    },
+    {
+      "event": "LC-3 expected to be in service",
+      "date": null,
+      "sentence": "LC-3, which is expected to be in service in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:13:04.871Z",
+  "model": "deepseek-v4-flash"
+}

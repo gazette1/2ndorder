@@ -1,0 +1,50 @@
+{
+  "cik": "0001566826",
+  "ticker": "LGMK",
+  "name": "LogicMark, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-035359",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1566826/000121390026035359/ea0275203-10k_logicmark.htm"
+  },
+  "business": "LogicMark provides personal emergency response systems (PERS), health communications devices, and IoT technology that creates a connected care platform. The company sells direct-to-consumer through its eCommerce website and Amazon.com, through dealers and resellers, and directly to the United States Veterans Health Administration and other government agencies via a GSA contract.",
+  "sellsTo": [
+    "VHA",
+    "direct consumers",
+    "dealers and resellers",
+    "federal, state, and local governments"
+  ],
+  "namedCustomers": [
+    "United States Veterans Health Administration (VHA)",
+    "U.S. General Services Administration (GSA)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "LogicMark, Inc. (quoted on the over-the-counter market under the symbol LGMK) ( LogicMark , the Company , we , us or our ) provides personal emergency response systems ( PERS ), health communications devices, and Internet of Things ( IoT ) technology that creates a connected care platform."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "LogicMark, Inc. (quoted on the over-the-counter market under the symbol LGMK) ( LogicMark , the Company , we , us or our ) provides personal emergency response systems ( PERS ), health communications devices, and Internet of Things ( IoT ) technology that creates a connected care platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Significant disruptions of information technology systems or security breaches could materially adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GSA Agreement renewed for another five-year term",
+      "date": "2026-02-01",
+      "sentence": "The Company obtained GSA approval to sell its products to the federal government when it was awarded the five-year GSA Agreement in July 2021 and was renewed for another five-year term in February 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:37:15.206Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001562088",
+  "ticker": "DUOL",
+  "name": "Duolingo, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012494",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm"
+  },
+  "business": "Duolingo sells a freemium language-learning app with over 250 language courses, and recently added Math, Music, and Chess courses. It also offers the Duolingo English Test, an online English proficiency assessment. Its customers are individual learners worldwide, with a small portion converting to paid subscribers.",
+  "sellsTo": [
+    "individual learners",
+    "students",
+    "English proficiency test takers",
+    "schools (Duolingo for Schools)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Apple (App Store)",
+    "Google (Play Store)",
+    "Amazon Web Services",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "A significant portion, if not almost all, of our product traffic, data storage, data processing and other computing services and systems is hosted by AWS and Google Cloud."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "While the use of AI enhances the learning experience and supports product innovation at scale, it also requires increased investment in computing infrastructure and related costs, which we actively manage as we continue to expand these capabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Consumer spend on language learning expected to reach $123 billion by 2027",
+      "sentence": "According to HolonIQ in January 2024, consumer spend on both online and offline language learning is expected to reach about $123 billion by 2027."
+    },
+    {
+      "claim": "Approximately 2 billion potential language learners globally",
+      "sentence": "There is an enormous pool of potential language learners globally that HolonIQ estimates at approximately 2 billion people."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:48:01.625Z",
+  "model": "deepseek-v4-flash"
+}

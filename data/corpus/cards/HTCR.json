@@ -1,0 +1,55 @@
+{
+  "cik": "0001892322",
+  "ticker": "HTCR",
+  "name": "HeartCore Enterprises, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014236",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1892322/000149315226014236/form10-k.htm"
+  },
+  "business": "HeartCore Enterprises provides GO IPO consulting services to Japanese companies seeking to list on U.S. stock exchanges, including assistance with regulatory compliance, documentation, and introductions to professional advisors. It also offers consulting services related to digital securities through its subsidiary Higgs Field Co., Ltd.",
+  "sellsTo": [
+    "Japanese private companies seeking initial public offerings in the United States",
+    "issuers of digital securities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Since February 2022, we have been offering Go IPO consulting services to a number of private Japanese companies where we assist such private Japanese companies and/or their affiliates with their initial public offerings ( IPOs ) in the United States as well as their simultaneous listings onto the Nasdaq Stock Market, the New York Stock Exchange or the NYSE American."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Higgs Field Co., Ltd. is currently engaged in providing consulting services related to digital securities, including self-offered corporate bonds and similar instruments."
+    },
+    {
+      "tag": "other:process-mining",
+      "stance": "core_product",
+      "sentence": "Provision of process mining and task mining licenses for internal audit and internal control;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of HeartCore Japan Sale",
+      "date": "2025-10-31",
+      "sentence": "The HeartCore Japan Sale closed on October 31, 2025."
+    },
+    {
+      "event": "Payment of deferred consideration from HeartCore Japan Sale",
+      "date": "2028-10-31",
+      "sentence": "Subject to the provisions of the HeartCore Japan Agreement, an amount of 387,078,650 (the Deferred Consideration ), which shall consist of a principal amount of 322,700,000 with an uncompounded rate of interest of 6.65% per annum, will be retained by Smith Japan from the Closing Payment and will be paid by Smith Japan on October 31, 2028, the third annual anniversary of the closing date."
+    },
+    {
+      "event": "Deadline to regain compliance with Nasdaq minimum bid price requirement",
+      "date": "2026-05-01",
+      "sentence": "On November 4, 2025, the Nasdaq Staff notified us of its determination that HeartCore USA is eligible for an additional 180-day period, or until May 1, 2026, to regain compliance with the Minimum Bid Price Requirement."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:17:41.536Z",
+  "model": "deepseek-v4-flash"
+}

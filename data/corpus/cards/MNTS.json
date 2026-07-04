@@ -1,0 +1,81 @@
+{
+  "cik": "0001781162",
+  "ticker": "MNTS",
+  "name": "Momentus Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-022291",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1781162/000162828026022291/mnts-20251231.htm"
+  },
+  "business": "Momentus is a U.S. commercial space company that offers satellites, satellite buses, and other satellite components, transportation, communication, and infrastructure services, including hosted payloads and other in-orbit services. Government and commercial satellite operators and space technology companies and organizations are our principal customers and target customers.",
+  "sellsTo": [
+    "Government and commercial satellite operators",
+    "Space technology companies and organizations",
+    "U.S. government agencies (NASA, Department of Defense, DARPA, Space Development Agency)"
+  ],
+  "namedCustomers": [
+    "DARPA",
+    "Space Development Agency"
+  ],
+  "namedSuppliers": [
+    "SpaceX",
+    "Relativity Space",
+    "Blue Origin",
+    "United Launch Alliance",
+    "Rocket Factory Augsburg",
+    "Velo3D"
+  ],
+  "exposures": [
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Momentus is a U.S. commercial space company that offers satellites, satellite buses, and other satellite components, transportation, communication, and infrastructure services, including hosted payloads and other in-orbit services."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Momentus offers or plans to offer production and operation of small satellites to meet a range of defense, government, and commercial needs such as communications, tracking of missiles, remote sensing, and space domain awareness."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Momentus is also seeking business in support of U.S. government missions for departments and agencies like NASA and the U.S Department of Defense."
+    },
+    {
+      "tag": "sensors",
+      "stance": "active_investment",
+      "sentence": "The award supports the in-space flight demonstration of a novel, low-cost multi-spectral sensor suite for RPO, scheduled for early 2026."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "We plan to equip future vehicles with robotic arms and an ability to maneuver in close proximity to other spacecraft and grapple, dock, or berth with them."
+    },
+    {
+      "tag": "other:water-propulsion",
+      "stance": "core_product",
+      "sentence": "developed other innovative technologies, such as our Microwave Electrothermal Thruster (MET) that uses water as a propellant, designed to efficiently accomplish missions such as transportation of customer payloads and small satellites to custom orbits."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FCC license granted for Vigoride 7 mission",
+      "date": "2026-01-30",
+      "sentence": "Momentus applied for an FCC license for the Vigoride 7 mission planned for the first half of 2026, which was granted by the FCC on January 30, 2026."
+    },
+    {
+      "event": "NOAA temporary license issued for RPO demonstration",
+      "date": "2026-02-13",
+      "sentence": "On February 13, 2026, NOAA issued a temporary license."
+    },
+    {
+      "event": "In-space flight demonstration of multi-spectral sensor suite for RPO",
+      "date": null,
+      "sentence": "The award supports the in-space flight demonstration of a novel, low-cost multi-spectral sensor suite for RPO, scheduled for early 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:36:50.314Z",
+  "model": "deepseek-v4-flash"
+}

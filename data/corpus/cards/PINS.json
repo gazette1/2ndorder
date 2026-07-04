@@ -1,0 +1,52 @@
+{
+  "cik": "0001506293",
+  "ticker": "PINS",
+  "name": "PINTEREST, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001506293-26-000021",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm"
+  },
+  "business": "Pinterest is an AI-powered visual search and discovery platform, positioned at the intersection of search, social, and commerce. It offers a unique experience that enables people to go from inspiration to action on one consumer internet property. Substantially all of its revenue is generated from third-party advertising, and it serves advertisers across multiple verticals including retail, consumer packaged goods, financial services, technology, entertainment, travel, and auto.",
+  "sellsTo": [
+    "advertisers",
+    "advertising agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Pinterest is an AI-powered visual search and discovery platform."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Using our proprietary AI technology and computer vision, we can leverage our data sets to analyze trends, understand intent and predict consumer behavior at a massive scale to help serve personalized and relevant recommendations for users and improved ads delivery for our customers."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The inspiration-to-action journey on Pinterest aligns with the advertiser marketing funnel, allowing us to help brands reach customers at every stage, from discovery to purchase, through digital ads."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of tvScientific",
+      "date": null,
+      "sentence": "In December 2025, we entered into a definitive agreement to acquire tvScientific, for $450.0 million in cash, subject to certain adjustments, which is also due within the next 12 months."
+    },
+    {
+      "event": "Global restructuring plan initiated",
+      "date": "2026-03-31",
+      "sentence": "During the first quarter of 2026, we initiated a global restructuring plan (the Plan) to support our transformation initiatives of reallocating resources to AI-focused roles and teams that drive AI adoption and execution, prioritizing AI-powered products and capabilities, and accelerating the transformation of our sales and go-to-market approach."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:06:22.266Z",
+  "model": "deepseek-v4-flash"
+}

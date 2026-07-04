@@ -1,0 +1,71 @@
+{
+  "cik": "0001604821",
+  "ticker": "NTRA",
+  "name": "Natera, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020881",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465926020881/ntra-20251231x10k.htm"
+  },
+  "business": "Natera is a diagnostics company applying proprietary cell-free DNA technology to change disease management. It commercializes blood-based tests in oncology, women's health, and organ health, including Signatera, Panorama, Horizon, Prospera, and others. Its customers include healthcare providers, integrated health systems, transplant centers, oncology clinics, nephrologists, IVF centers, and research laboratories and pharmaceutical companies.",
+  "sellsTo": [
+    "healthcare providers",
+    "physician practices",
+    "integrated health systems",
+    "transplant centers",
+    "oncology clinics",
+    "nephrologists",
+    "IVF centers",
+    "research laboratories",
+    "pharmaceutical companies",
+    "laboratory distribution partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Illumina, Inc.",
+    "Streck",
+    "DNAnexus, Inc.",
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We are a diagnostics company with proprietary molecular and bioinformatics technology that we are applying to change disease management worldwide."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our Constellation software forms the core of our cloud-based distribution model."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Panorama leverages artificial intelligence to enable highly accurate results on samples for which a result would otherwise be difficult to determine."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Illumina supply agreement expiration",
+      "date": "2033-08",
+      "sentence": "a supply agreement that expires in August 2033."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market in the United States for recurrence monitoring for solid tumor cancers is approximately $21 billion, and for blood cancers is approximately $3 billion.",
+      "sentence": "The total addressable market in the United States for recurrence monitoring for solid tumor cancers, including immunotherapy treatment response monitoring, is estimated to be approximately $21 billion, and for blood cancers is estimated to be approximately $3 billion."
+    },
+    {
+      "claim": "Therapy selection market opportunity is approximately $7.0 billion.",
+      "sentence": "Based on our internal estimates, therapy selection represents an approximate $7.0 billion market opportunity."
+    },
+    {
+      "claim": "Total addressable market in the United States for kidney, heart and lung transplant rejection tests is over $3.8 billion.",
+      "sentence": "Based on our internal estimates, we believe the total addressable market in the United States for tests such as ours that assess kidney, heart and lung transplant rejection is over $3.8 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:22:35.921Z",
+  "model": "deepseek-v4-flash"
+}

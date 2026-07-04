@@ -1,0 +1,79 @@
+{
+  "cik": "0001532619",
+  "ticker": "PW",
+  "name": "Power REIT",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014062",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1532619/000149315226014062/form10-k.htm"
+  },
+  "business": "Power REIT is a real estate investment trust that owns a portfolio of real estate assets related to transportation, energy infrastructure, and Controlled Environment Agriculture (CEA) in the United States. It derives revenue from leasing properties to tenants, including railroad infrastructure, utility-scale solar land, and greenhouse facilities. The trust is currently focused on monetizing its greenhouse portfolio and exploring distressed real estate opportunities.",
+  "sellsTo": [
+    "Transportation companies (railroad)",
+    "Solar energy operators",
+    "Cannabis and food cultivators in greenhouses"
+  ],
+  "namedCustomers": [
+    "Norfolk Southern Railway",
+    "Regulus Solar LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Power REIT owns approximately 112 miles of railroad infrastructure and related real estate which is owned by its subsidiary, Pittsburgh & West Virginia Railroad."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "approximately 447 acres of fee simple land leased to a utility scale solar power generating project with an aggregate generating capacity of approximately 82 Megawatts."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "approximately 82 acres of land with approximately 357,000 square feet of CEA properties in the form of greenhouses."
+    },
+    {
+      "tag": "other:cannabis",
+      "stance": "risk_mention",
+      "sentence": "Our greenhouse properties are related to a nascent industry resulting in payment and other lease defaults and a significant portion of the Greenhouse Portfolio is vacant which can result in a deterioration of value."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Greenhouse Loan settlement via deeds-in-lieu of foreclosure for Michigan and Nebraska properties",
+      "date": "2025-04-11",
+      "sentence": "Effective as of April 11, 2025, Power REIT resolved issues with its lender concerning the Greenhouse Loan by entering into a settlement agreement with the lender and, pursuant to the terms thereof, providing to the lender deeds-in-lieu of foreclosure for Greenhouse Portfolio properties in Michigan and Nebraska."
+    },
+    {
+      "event": "Entered into Sales Agreement for at-the-market offering of common shares",
+      "date": "2025-01-24",
+      "sentence": "On January 24, 2025, the Trust entered into a sales agreement (the Sales Agreement ), with A.G.P./Alliance Global Partners ( AGP ) pursuant to which it may, from time to time, issue and sell its common shares in an at the market offering, however, AGP is not obligated to sell any common shares and there are limits on the dollar amount of common shares it can sell pursuant to the Sales Agreement."
+    },
+    {
+      "event": "Sale of Tam 13 greenhouse property in Ordway, Colorado",
+      "date": "2025-06-09",
+      "sentence": "On June 9, 2025, a wholly owned subsidiary of Power REIT, PW CO CanRE MF LLC, sold a cannabis related greenhouse cultivation property located in Ordway, Colorado."
+    },
+    {
+      "event": "Sale of Tam 18 greenhouse property in Ordway, Colorado",
+      "date": "2025-01-31",
+      "sentence": "On January 31, 2025, a wholly owned subsidiary of Power REIT, PW CO CanRE JAB LLC, sold one of its interests in a cannabis related greenhouse cultivation property located in Ordway, Colorado."
+    },
+    {
+      "event": "Modification of seller financing note from Sherman 6/Tamarack 14 sale",
+      "date": "2025-05-30",
+      "sentence": "On May 30, 2025, PW MF agreed to modify the terms of the note whereby payments are based on a 5-year amortization schedule at an 11% per annum interest rate and with monthly payments of $16,052 from May 1, 2025 to April 1, 2030 and a balloon payment for the balance due on May 1, 2030."
+    },
+    {
+      "event": "Potential tax foreclosure on Greenhouse Portfolio if taxes remain delinquent",
+      "date": "2026-03-31",
+      "sentence": "If the property taxes remain delinquent, the Greenhouse Portfolio will be subject to tax foreclosure actions starting in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:22:00.436Z",
+  "model": "deepseek-v4-flash"
+}

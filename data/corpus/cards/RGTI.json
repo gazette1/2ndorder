@@ -1,0 +1,60 @@
+{
+  "cik": "0001838359",
+  "ticker": "RGTI",
+  "name": "Rigetti Computing, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-023454",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926023454/rgti-20251231x10k.htm"
+  },
+  "business": "Rigetti builds and operates quantum computers based on superconducting qubits, and sells quantum processing units (QPUs), cloud-based quantum computing as a service (QCaaS), and development contracts. Its customers include U.S. government agencies, commercial enterprises, and academic institutions. Revenue is primarily from development contracts and QPU sales.",
+  "sellsTo": [
+    "U.S. government agencies",
+    "commercial enterprises",
+    "academic institutions",
+    "international government entities"
+  ],
+  "namedCustomers": [
+    "Amazon Web Services (AWS)",
+    "Standard Chartered Bank",
+    "Moody's",
+    "Defense Advanced Research Projects Agency (DARPA)",
+    "Department of Energy (DOE)",
+    "Air Force Research Laboratory (AFRL)",
+    "India's Centre for Development of Advanced Computing (C-DAC)",
+    "Montana State University",
+    "Fermi National Accelerator Laboratory (Fermilab)",
+    "National Aeronautics and Space Administration (NASA)"
+  ],
+  "namedSuppliers": [
+    "Quanta"
+  ],
+  "exposures": [
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "We build and operate quantum computers."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our partners and customers include ... U.S. government organizations such as Defense Advanced Research Projects Agency (DARPA), Department of Energy (DOE), and Air Force Research Laboratory (AFRL)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of two Novera QPU systems expected in first half of 2026",
+      "date": null,
+      "sentence": "Delivery for both systems is expected in the first half of 2026."
+    },
+    {
+      "event": "Deployment of a 108-qubit quantum computer to C-DAC expected in the second half of 2026",
+      "date": null,
+      "sentence": "The system will be installed on-premises at C-DAC's Bengaluru center and is expected to be deployed in the second half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:41:48.942Z",
+  "model": "deepseek-v4-flash"
+}

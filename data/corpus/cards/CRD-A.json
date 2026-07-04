@@ -1,0 +1,52 @@
+{
+  "cik": "0000025475",
+  "ticker": "CRD-A",
+  "name": "CRAWFORD & CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085465",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/25475/000119312526085465/crda-20251231.htm"
+  },
+  "business": "Crawford & Company is the world's largest publicly listed independent provider of claims management and outsourcing solutions to insurance carriers, brokers, and corporations. It operates through four segments: North America Loss Adjusting, International Operations, Broadspire, and Platform Solutions. Services include claims adjusting, third-party administration, medical management, contractor networks, and catastrophe response.",
+  "sellsTo": [
+    "insurance carriers",
+    "self-insured entities",
+    "brokers",
+    "corporations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "North America Loss Adjusting provides claims management services to insurance carriers and self-insured entities related to property and casualty losses."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Staff Augmentation, which provides temporary staffing resources for our clients to address resource capacity needs due to weather volatility, staff shortages, and/or special projects where we provide dedicated property and casualty adjuster resources which are not measured by cases."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to increased frequency and complexity of cybersecurity attacks."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We use, and plan to expand the use of, artificial intelligence and machine learning in our services with the goal of improving efficiency and reducing costs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Discretionary contribution to U.S. Qualified Pension Plan",
+      "date": null,
+      "sentence": "In 2026, we expect to make discretionary contributions of $3.0 million to minimize future required contributions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:12:05.372Z",
+  "model": "deepseek-v4-flash"
+}

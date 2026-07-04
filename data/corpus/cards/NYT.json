@@ -1,0 +1,69 @@
+{
+  "cik": "0000071691",
+  "ticker": "NYT",
+  "name": "NEW YORK TIMES CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000071691-26-000011",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000011/nyt-20251231.htm"
+  },
+  "business": "The New York Times Company is a global media organization that creates and distributes news and information through digital and print products. It generates revenue primarily from subscriptions to its digital and print products and from advertising sales. It also earns revenue from licensing, affiliate referrals, and commercial printing.",
+  "sellsTo": [
+    "consumers (individual subscribers)",
+    "advertisers (brands, companies)",
+    "licensees (digital platforms, academic institutions)",
+    "corporate and education groups"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Domtar Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "active_investment",
+      "sentence": "In 2026, we plan to continue prioritizing these areas, with a focus on strengthening our data management infrastructure, enhancing the platforms that power our multiproduct digital bundle, and advancing machine-learning and artificial intelligence (AI) applications across our business."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "Generative AI technology has negatively impacted, and we expect will continue to negatively impact, our ability to attract, engage, and retain audience and subscribers; maintain and grow demand among advertisers and licensees; protect and monetize our intellectual property; maintain and grow other revenue streams; and our reputation and trust in our brand; and may involve other risks."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "our other interest-specific products, including The Athletic (our sports media product), Audio (our audio offering available as a separate subscription through our news app), Cooking (our recipes and cooking content product) and Games (our puzzle games product)"
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our Wirecutter product’s affiliate referrals (which generate revenue by offering direct links to merchants in exchange for a portion of the sale price upon completion of a transaction)"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incidents and other network and information systems disruptions could affect our ability to conduct our business effectively, cause us to incur significant costs, subject us to significant liability and/or damage our reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reach 15 million total subscribers",
+      "date": "2027-12-31",
+      "sentence": "Our current aim is to reach 15 million total subscribers by year-end 2027, up from approximately 12.78 million at the end of 2025."
+    },
+    {
+      "event": "Increase quarterly dividend to $0.23 per share",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, our Board of Directors approved a quarterly dividend of $0.23 per share, an increase of $0.05 per share from the previous quarter."
+    },
+    {
+      "event": "Capital expenditures of $51 million",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we expect capital expenditures of approximately $51 million, which will be funded from cash on hand."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:09:07.595Z",
+  "model": "deepseek-v4-flash"
+}

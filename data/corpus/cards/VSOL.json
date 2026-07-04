@@ -1,0 +1,43 @@
+{
+  "cik": "0002028541",
+  "ticker": "VSOL",
+  "name": "VanEck Solana ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0000930413-26-000939",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2028541/000093041326000939/c115938_10k-ixbrl.htm"
+  },
+  "business": "The Trust is a passive investment vehicle that owns Solana (SOL) and issues shares representing fractional undivided beneficial interests in the Trust, with the objective of reflecting the performance of the price of SOL and rewards from staking a portion of the Trust's SOL, less expenses. The Trust sells and redeems its Shares only in blocks of 25,000 Shares (Baskets) to Authorized Participants, which are registered broker-dealers or other financial institutions, in exchange for cash or SOL. The Shares are listed for trading on The Nasdaq Stock Market LLC under the ticker symbol VSOL.",
+  "sellsTo": [
+    "Authorized Participants (registered broker-dealers and other financial institutions)",
+    "Secondary market investors via Nasdaq"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Gemini Trust Company, LLC",
+    "Coinbase Custody Trust Company, LLC",
+    "State Street Bank and Trust Company",
+    "SOL Strategies, Inc.",
+    "Van Eck Securities Corporation",
+    "Nonco, LLC",
+    "Virtu Financial Singapore Pte. Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust’s investment objective is to reflect the performance of the price of SOL, and rewards earned from staking a portion of the Trust’s SOL, to the extent the Sponsor in its sole discretion determines that the Trust may do so without undue legal or regulatory risk, such as, without limitation, by jeopardizing the Trust’s ability to qualify as a grantor trust for U.S. federal income tax purposes, less the expenses of the Trust’s operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Staking Services Provider fee waiver period ends",
+      "date": "2026-02-17",
+      "sentence": "During the period commencing on November 17, 2025 (the day the Shares are initially listed on the Exchange) and ending on February 17, 2026, the Staking Services Provider has agreed to waive its fees for staking the Trust’s staked assets."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:48.978Z",
+  "model": "deepseek-v4-flash"
+}

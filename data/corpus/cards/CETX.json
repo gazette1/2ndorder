@@ -1,0 +1,47 @@
+{
+  "cik": "0001435064",
+  "ticker": "CETX",
+  "name": "CEMTREX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-029383",
+    "filedAt": "2025-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1435064/000149315225029383/form10-k.htm"
+  },
+  "business": "Cemtrex operates two segments: Security (Vicon) providing end-to-end video surveillance and access control solutions using AI-based analytics, and Industrial Services (AIS) offering rigging, millwrighting, in-plant maintenance, and equipment installation for industrial markets. The company also invests in digital assets, primarily Solana (SOL).",
+  "sellsTo": [
+    "system integrators or channel partners",
+    "government agencies",
+    "commercial businesses",
+    "manufacturing, chemical, packaging, printing, electronics, automotive, construction, and metallurgical processing industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Vicon provides innovative, mission critical security and video surveillance solutions utilizing Artificial Intelligence (AI) based data algorithms."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "AIS installs high precision equipment in a wide variety of industrial markets like automotive, printing and graphics, industrial automation, packaging, and chemicals, among others."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "We have invested in digital assets, primarily Solana (SOL), which we hold and stake for potential yield."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Invocon, Inc. to establish Aerospace & Defense segment",
+      "date": "2026-01-01",
+      "sentence": "The agreement provides for the acquisition of 100% of the issued and outstanding shares of Invocon for a purchase price of $7,060,000. The transaction is expected to close on or around January 1, 2026, subject to customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:23:50.125Z",
+  "model": "deepseek-v4-flash"
+}

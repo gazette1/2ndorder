@@ -1,0 +1,81 @@
+{
+  "cik": "0000022701",
+  "ticker": "SUNE",
+  "name": "SUNation Energy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000022701-26-000003",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/22701/000002270126000003/sune-20251231x10k.htm"
+  },
+  "business": "SUNation Energy sells solar energy systems, battery storage, and grid services to residential, commercial, and municipal customers. It operates in New York and Hawaii, and also offers residential roofing solutions in New York through its SUNation NY unit.",
+  "sellsTo": [
+    "residential homeowners",
+    "commercial owners",
+    "municipal customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Enphase",
+    "Tesla",
+    "FranklinWH",
+    "Generac",
+    "GAF"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The primary product we offer to customers is a photovoltaic solar energy system, which is almost always installed on the roof, although can at times be ground mounted."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Battery storage is an increasingly important piece of our offering."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "In the Hawaiian market we also offer energy management control devices on solar systems that are paired with batteries that help homeowners generate ongoing revenue streams by aggregating their batteries into a fleet, thus creating a virtual power plant and selling grid services to the utility."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our New York business unit further integrates a broader range of services, including residential roofing solutions, to ensure seamless solar installations and long-term durability."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "We also compete, on a cost basis, with traditional utilities that supply electricity to our potential customers"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expanding product offering to include Generac full home ecosystem",
+      "date": null,
+      "sentence": "In 2026, we will be expanding this product offering to include the Generac full home ecosystem, which includes their new power electronics, whole home batteries, standby generators, and smart thermostat that control the entire system."
+    },
+    {
+      "event": "Hawaii BYOD Plus program implementation",
+      "date": "2025-05",
+      "sentence": "In May 2025, Hawaii implemented a new BYOD Plus program."
+    },
+    {
+      "event": "One Big Beautiful Bill Act signed into law",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, the President signed H.R. 1, the One Big Beautiful Bill Act, or OBBBA , into law"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "75%+ of residential solar market served by regional or local installer",
+      "sentence": "According to Wood Mackenzie, as of 2025 Q4, 75%+ of the residential solar market is served by a regional or local installer."
+    },
+    {
+      "claim": "Over 4,000 residential solar sales and installation companies in the U.S.",
+      "sentence": "There are over 4,000 residential solar sales and installation companies in the U.S."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:58:31.137Z",
+  "model": "deepseek-v4-flash"
+}

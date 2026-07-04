@@ -1,0 +1,48 @@
+{
+  "cik": "0001617640",
+  "ticker": "ZG",
+  "name": "ZILLOW GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001617640-26-000015",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764026000015/z-20251231.htm"
+  },
+  "business": "Zillow Group operates a residential real estate marketplace connecting consumers with real estate professionals, mortgage lenders, and rental services. The company provides tools for home buyers, sellers, renters, and real estate professionals to facilitate transactions. Revenue is generated from advertising, mortgage origination, and rental services.",
+  "sellsTo": [
+    "home buyers and sellers",
+    "renters",
+    "real estate agents and brokers",
+    "mortgage professionals",
+    "property managers",
+    "home builders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are reimagining residential real estate to make home a reality for more and more people."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Mortgages revenue primarily includes revenue generated through mortgage originations and the related sale of mortgages on the secondary market through Zillow Home Loans and revenue from advertising sold to mortgage lenders and other mortgage professionals on a cost per lead basis, primarily through our Connect services."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "We may also explore additional opportunities in the future, including but not limited to, home insurance, home renovation services, moving services and home appraisal services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market is $202 billion for the year ended December 31, 2025, comprising residential real estate transaction fees ($108B), mortgage origination revenue ($50B), title and escrow fees ($18B), rentals advertising spend ($17B), and property management software revenue ($9B).",
+      "sentence": "The amounts listed below represent the estimated total industry size associated with these opportunities for the year ended December 31, 2025 (in billions): Residential real estate industry transaction fees $108 U.S. mortgage origination revenue $50 Title and escrow services transaction fees $18 Rentals advertising spend $17 Property management software revenue $9 TAM $202."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:31:35.047Z",
+  "model": "deepseek-v4-flash"
+}

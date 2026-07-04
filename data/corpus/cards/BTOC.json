@@ -1,0 +1,49 @@
+{
+  "cik": "0001972529",
+  "ticker": "BTOC",
+  "name": "Armlogi Holding Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-091684",
+    "filedAt": "2025-09-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1972529/000121390025091684/ea0258391-10k_armlogi.htm"
+  },
+  "business": "We are a fast-growing U.S.-based warehousing and logistics service provider that offers a comprehensive package of supply-chain solutions relating to warehouse management and order fulfillment. We provide one-stop warehousing and logistics services to cross-border e-commerce merchants outside the U.S. who seek to sell in the U.S. market. We also provide warehousing and logistics services to our U.S.-based commercial customers, who are typically domestic e-commerce merchants.",
+  "sellsTo": [
+    "cross-border e-commerce merchants",
+    "U.S. domestic e-commerce merchants",
+    "PRC-based customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "FedEx",
+    "UPS",
+    "MEGA CORP LOGISTIC LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We provide one-stop warehousing and logistics services to cross-border e-commerce merchants outside the U.S. who seek to sell in the U.S. market."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The majority of our customers consist of PRC e-commerce merchants who sell their merchandise into the U.S. market through e-commerce platforms."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Our warehouses are equipped with automated sorting systems, heavy-duty forklifts, and pallets and trays that are suitable for processing bulky items."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents could disrupt our business operations, result in the loss of critical and confidential information, adversely impact our reputation, and harm our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:50:12.335Z",
+  "model": "deepseek-v4-flash"
+}

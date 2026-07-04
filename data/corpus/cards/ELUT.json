@@ -1,0 +1,54 @@
+{
+  "cik": "0001708527",
+  "ticker": "ELUT",
+  "name": "ELUTIA INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027664",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1708527/000110465926027664/elut-20251231x10k.htm"
+  },
+  "business": "Elutia develops proprietary drug-eluting biomatrix products for use in surgical reconstruction and related applications, designed to reduce complications such as infection, migration, erosion, implant rejection, and fibrosis. The company markets and sells biologic matrix products including SimpliDerm (a human acellular dermal matrix for soft tissue reconstruction) and its cardiovascular repair portfolio comprising ProxiCor, VasCure, and Tyke. Products are sold directly to healthcare facilities through independent sales agents.",
+  "sellsTo": [
+    "hospitals",
+    "healthcare facilities",
+    "ambulatory surgery centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Berkeley",
+    "Cook Biotech Incorporated (Cook, now owned by Evergen)"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We develop proprietary drug-eluting biomatrix products for use in surgical reconstruction and related applications."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "In NXT-41x, antibiotics are incorporated into the matrix and released locally over extended periods, offering broad-spectrum antimicrobial protection against common causes of post-surgical infection."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA clearance of NXT-41",
+      "date": "2026-12-31",
+      "sentence": "We expect FDA clearance of NXT-41 in the second half of 2026"
+    },
+    {
+      "event": "FDA clearance of NXT-41x",
+      "date": "2027-06-30",
+      "sentence": "and anticipate FDA clearance for NXT-41x by mid-2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Biologic matrices represent an estimated $1.5 billion U.S. market opportunity",
+      "sentence": "We believe biologic matrices represent an estimated $1.5 billion U.S. market opportunity and account for more than 60% of reconstruction spending, yet meaningful innovation has been limited and significant unmet medical need remains."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:19:20.550Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0001680873",
+  "ticker": "HFFG",
+  "name": "HF Foods Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001680873-26-000015",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1680873/000168087326000015/hffg-20251231.htm"
+  },
+  "business": "HF Foods Group Inc. is a marketer and distributor of fresh produce, frozen and dry food, and non-food products to Asian restaurants and other foodservice customers throughout the United States. The company operates a national distribution platform with sixteen distribution centers and four cross-docks, serving approximately 15,000 customer locations.",
+  "sellsTo": [
+    "Asian restaurants",
+    "other foodservice customers",
+    "independent restaurants",
+    "takeout restaurants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We operate a national distribution platform comprised of sixteen distribution centers and four cross-docks, supported by a fleet of over 400 vehicles, which collectively spans 46 states and covers approximately 95% of the contiguous United States."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "The Company plans to incorporate automated material handling and warehouse management technologies at the facility to support operating efficiency."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The risk of cybersecurity attacks may increase as AI capabilities improve and are increasingly used to identify vulnerabilities and construct increasingly sophisticated cybersecurity attacks."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In addition, generative AI tools may inadvertently expose, misuse, or incorporate our confidential, personal, or third-party data, which could result in data leakage, intellectual property risks, privacy violations, or contractual breaches."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened new distribution center in Powder Springs, GA",
+      "date": "2025-12-18",
+      "sentence": "On December 18, 2025, the Company officially opened its newest 182,000 square foot distribution center located outside Atlanta, in Powder Springs, Georgia."
+    },
+    {
+      "event": "Appointed Paul McGarry as Chief Financial Officer",
+      "date": "2026-01-27",
+      "sentence": "Effective January 27, 2026, the Board of Directors appointed Mr. McGarry to serve as the Company's Chief Financial Officer."
+    },
+    {
+      "event": "Approved amendments to executive severance plan",
+      "date": "2026-01-27",
+      "sentence": "On January 27, 2026, the Board approved amendments to the Amended and Restated HF Foods Group Inc. Severance Plan, effective January 27, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:51:43.057Z",
+  "model": "deepseek-v4-flash"
+}

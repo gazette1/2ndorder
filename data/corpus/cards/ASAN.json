@@ -1,0 +1,53 @@
+{
+  "cik": "0001477720",
+  "ticker": "ASAN",
+  "name": "Asana, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477720-26-000021",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000021/asan-20260131.htm"
+  },
+  "business": "Asana is a cloud-based work management platform that enables collaboration between humans and AI agents. It serves over 180,000 paying customers across 200 countries and territories. The platform is offered in tiered subscription plans (Personal, Starter, Advanced, Enterprise, Enterprise+) and includes AI products like AI Teammates and AI Studio.",
+  "sellsTo": [
+    "technology",
+    "retail",
+    "education",
+    "non-profit",
+    "government",
+    "healthcare",
+    "hospitality",
+    "media",
+    "manufacturing",
+    "professional services",
+    "financial services",
+    "individuals to global organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We provide a comprehensive solution where humans and AI agents can collaborate effectively so that individuals work smarter, teams move faster, and organizations deliver results."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Developments in AI technology may also change how work is performed or how software tools are used, which could reduce demand for certain work management capabilities or require us to adapt our platform and business model."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems, or those of third parties with whom we work, or our data are compromised or operate in an unintended way, we could experience adverse consequences, including but not limited to regulatory investigations or actions; litigation; fines and penalties; disruptions of our business operations; reputational harm; loss of revenue or profits; and other adverse consequences."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:03:17.437Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,104 @@
+{
+  "cik": "0001711269",
+  "ticker": "EVRG",
+  "name": "Evergy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001711269-26-000017",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231.htm"
+  },
+  "business": "Evergy is a public utility holding company that generates, transmits, distributes, and sells electricity to approximately 1.7 million customers in Kansas and Missouri, with a total generating capacity of approximately 15,800 megawatts.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Wholesale",
+    "Transmission",
+    "Other"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Evergy is a public utility holding company incorporated in 2017 and headquartered in Kansas City, Missouri."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "In February 2026, the Evergy Companies signed electric service agreements (ESAs) with multiple large load customers to serve data centers with a projected peak steady state load of approximately 1,900 MWs."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Evergy Transmission Company owns 13.5% of Transource Energy, LLC (Transource) with the remaining 86.5% owned by AEP Transmission Holding Company, LLC, a subsidiary of American Electric Power Company, Inc. (AEP). Transource is focused on the development of competitive electric transmission projects."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Evergy has an indirect 94% ownership interest in Wolf Creek Generating Station (Wolf Creek), which is subject to regulation by the Nuclear Regulatory Commission (NRC) with respect to licensing, operations and safety-related requirements."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The actual 2025 fuel mix and fuel cost in cents per net kilowatt hour (kWh) delivered are outlined in the following table. Fuel Mix (a) Actual 2025: Wind, landfill gas and solar (b) 28%"
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "targeting approximately $21.6 billion of expected capital investments through 2030 including new generation of approximately $9.3 billion which is expected to be primarily natural gas, renewable generation and battery storage capacity in support of historic economic development opportunities in Kansas and Missouri."
+    },
+    {
+      "tag": "other:natural-gas",
+      "stance": "active_investment",
+      "sentence": "In October 2024, Evergy announced its plan to construct two combined-cycle natural gas plants located in Kansas."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Evergy Kansas Central new retail rates effective",
+      "date": "2025-10-01",
+      "sentence": "In September 2025, the KCC approved the unanimous settlement agreement and new rates took effect in October 2025."
+    },
+    {
+      "event": "Evergy Missouri West new retail rates effective",
+      "date": "2025-01-01",
+      "sentence": "new Evergy Missouri West retail rates effective in January 2025"
+    },
+    {
+      "event": "Wolf Creek next refueling outage",
+      "date": "2027-03-20",
+      "sentence": "Wolf Creek's next refueling outage is planned to begin in the spring of 2027."
+    },
+    {
+      "event": "Sumner County CCGT plant begins operations",
+      "date": "2029-03-20",
+      "sentence": "The first plant, a combined cycle gas turbine (CCGT) facility located in Sumner County, is expected to begin operations by spring of 2029"
+    },
+    {
+      "event": "Reno County CCGT plant begins operations",
+      "date": "2030-03-20",
+      "sentence": "the second plant, a CCGT facility located in Reno County, is expected to begin operations by spring of 2030"
+    },
+    {
+      "event": "Missouri simple-cycle natural gas plant begins operations",
+      "date": "2030-12-31",
+      "sentence": "Additionally, Evergy Missouri West plans to construct a 440 MW simple-cycle natural gas plant located in Missouri. The plant is expected to begin operations in 2030."
+    },
+    {
+      "event": "Sunflower Sky and Foxtrot solar facilities begin operations",
+      "date": "2027-06-30",
+      "sentence": "The solar generation facilities are expected to begin operations by summer of 2027."
+    },
+    {
+      "event": "Large load customer ESAs service start",
+      "date": null,
+      "sentence": "The ESAs' terms reflect the applicable provisions of the Evergy Companies LLPS rate plans and the service of these large load customers, inclusive of a 5-year transitional load period, is expected to begin at dates ranging from 2026 to 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:46:15.651Z",
+  "model": "deepseek-v4-flash"
+}

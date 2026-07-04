@@ -1,0 +1,58 @@
+{
+  "cik": "0001132105",
+  "ticker": "SPWH",
+  "name": "SPORTSMAN'S WAREHOUSE HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-134702",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1132105/000119312526134702/spwh-20260131.htm"
+  },
+  "business": "Sportsman's Warehouse Holdings, Inc. operates retail stores and an e-commerce platform selling firearms, ammunition, hunting, fishing, camping, and outdoor gear. Its products appeal to consumers who regularly hunt, camp, fish, and participate in shooting sports. The company is subject to extensive federal, state, and local regulations, particularly regarding firearm sales.",
+  "sellsTo": [
+    "outdoor enthusiasts",
+    "hunters",
+    "fishermen",
+    "shooting sports participants",
+    "general consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Because we sell firearms at all of our retail stores, we are subject to regulation by the Bureau of Alcohol, Tobacco, Firearms and Explosives (the \"ATF\")."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our e-commerce business is subject to the Mail or Telephone Order Merchandise Rule and related regulations promulgated by the Federal Trade Commission (the \"FTC\"), which affect our catalog mail order operations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our outfitters and personnel use generative artificial intelligence ( AI ) and/or automated decision-making technologies to perform their work, and the disclosure and use of personal data in AI technologies are subject to various privacy laws and other privacy obligations."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We currently rely on a single distribution center in Salt Lake City, Utah for our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Virginia HB 2117 potential effective date if passed",
+      "date": "2026-07-01",
+      "sentence": "For instance, we are actively monitoring Virginia HB 2117 which, if passed as currently drafted, would take effect July 1, 2026."
+    },
+    {
+      "event": "Oregon Supreme Court decision on Ballot Measure 114",
+      "date": "2026-12-31",
+      "sentence": "We anticipate a decision in the case will be rendered by the Oregon Supreme Court in late 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:13:12.768Z",
+  "model": "deepseek-v4-flash"
+}

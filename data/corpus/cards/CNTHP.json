@@ -1,0 +1,84 @@
+{
+  "cik": "0000023426",
+  "ticker": "CNTHP",
+  "name": "CONNECTICUT LIGHT & POWER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008461",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/23426/000162828026008461/es-20251231.htm"
+  },
+  "business": "Connecticut Light and Power (CL&P) is a regulated electric utility that delivers electricity to residential, commercial and industrial customers in parts of Connecticut. CL&P does not own any generation facilities; it purchases electricity from competitive suppliers and passes through the cost without markup. As of December 31, 2025, CL&P served approximately 1.32 million customers in 157 cities and towns in Connecticut.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Millstone",
+    "Seabrook"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "CL&P's distribution business consists primarily of the purchase, delivery and sale of electricity to its residential, commercial and industrial customers."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "CL&P, NSTAR Electric and PSNH each own and maintain transmission facilities that are part of an interstate power transmission grid over which electricity is transmitted throughout New England."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "CL&P's transmission projects include transmission line upgrades, the installation of new transmission interconnection facilities, substations and lines, and transmission substation enhancements."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "CL&P is required by both state legislation and regulation to purchase electric generation from Millstone and Seabrook under PURA-approved PPAs entered in 2019."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "A Federally Mandated Congestion Charge (FMCC), which recovers any costs imposed by the FERC as part of the New England Standard Market Design, including ... purchase contracts with zero-carbon energy generators (including the Millstone and Seabrook nuclear contracts) and with renewable energy generators."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks that seek to exploit potential vulnerabilities in the utility industry and seek to disrupt electric, natural gas and water transmission and distribution systems are increasing in sophistication including artificial intelligence, magnitude and frequency."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CL&P 2025 Series A First Mortgage Bonds issuance of $400.0 million",
+      "date": "2025-01",
+      "sentence": "CL&P 2025 Series A First Mortgage Bonds 4.95% 400.0 January 2025 January 2030 Repaid short-term debt, paid capital expenditures and working capital"
+    },
+    {
+      "event": "CL&P 2020 Series A First Mortgage Bonds maturity and repayment of $400.0 million",
+      "date": "2025-12",
+      "sentence": "CL&P 2020 Series A First Mortgage Bonds 0.75% (400.0) December 2025 December 2025 Paid at maturity"
+    },
+    {
+      "event": "CL&P projected transmission capital expenditures 2026-2030 total $1.598 billion",
+      "date": "2026-01-01",
+      "sentence": "CL&P Transmission $ 520 $ 358 $ 349 $ 241 $ 130 $ 1,598"
+    },
+    {
+      "event": "PURA final decision on Yankee Gas rate case reconsideration expected",
+      "date": "2026-03-15",
+      "sentence": "A final decision on the reconsideration is expected from PURA by March 15, 2026."
+    },
+    {
+      "event": "PURA final decision on Aquarion sale remand expected",
+      "date": "2026-03-25",
+      "sentence": "A final decision is expected by PURA on March 25, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:50:20.852Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,66 @@
+{
+  "cik": "0001937987",
+  "ticker": "FBYD",
+  "name": "Falcon's Beyond Global, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-131874",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1937987/000119312526131874/fbyd-20251231.htm"
+  },
+  "business": "Falcon's Beyond Global operates through segments including Falcon's Creative Group (master planning, attraction design, experiential entertainment, content production, interactives, and software), Destinations Operations (resort and theme park management fees), Falcon's Attractions (design, engineering, manufacturing of ride systems and attraction hardware), and Falcon's Beyond Brands-other. The company sells to theme parks, location-based entertainment venues, and destination developments worldwide. After deconsolidation of FCG, the company provides shared services support to FCG.",
+  "sellsTo": [
+    "theme parks",
+    "location-based entertainment venues",
+    "destination developments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:attraction-design",
+      "stance": "core_product",
+      "sentence": "FCG generates revenues from master planning, attraction design, experiential entertainment, content production, interactives, and software."
+    },
+    {
+      "tag": "other:ride-systems",
+      "stance": "core_product",
+      "sentence": "Falcon's Attractions designs, engineers, manufactures, and sells proprietary and customized ride systems, attraction hardware, and related technologies for theme parks, location based entertainment venues, and destination developments worldwide."
+    },
+    {
+      "tag": "other:destination-management",
+      "stance": "core_product",
+      "sentence": "The principal sources of revenues for the Destinations Operations segment are resort and theme park management and incentive fees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "PDP sold all shares of Tertian (Tenerife Sale)",
+      "date": "2025-05-30",
+      "sentence": "On May 30, 2025, PDP sold all the shares of Tertian XXI, S.L., ('Tertian') a wholly-owned subsidiary of PDP, which owned the real estate assets comprising the resort hotel at Tenerife, the ('Tenerife Sale')."
+    },
+    {
+      "event": "Warrant agreement amendment effective",
+      "date": "2025-01-14",
+      "sentence": "The warrant agreement was amended effective January 14, 2025."
+    },
+    {
+      "event": "Earnout participants forfeited earnout shares",
+      "date": "2024-09-30",
+      "sentence": "On September 30, 2024, earnout participants agreed to forfeit all remaining earnout shares held in escrow, which were to be released and earned based on meeting EBITDA and revenue targets."
+    },
+    {
+      "event": "New line of credit agreement",
+      "date": "2025-11-10",
+      "sentence": "On November 10, 2025, we entered into a new $15.0 million line of credit agreement and amended our existing line of credit agreement to reduce the borrowing capacity to $5.5 million."
+    },
+    {
+      "event": "Exchange of debt for Series B Preferred Stock",
+      "date": "2025-09-08",
+      "sentence": "On September 8, 2025, the Company exchanged $20.5 million of debt and accrued interest with Infinite Acquisitions for the issuance of $20.5 million of shares of Series B Preferred Stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:07:15.050Z",
+  "model": "deepseek-v4-flash"
+}

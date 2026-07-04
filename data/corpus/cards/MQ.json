@@ -1,0 +1,65 @@
+{
+  "cik": "0001522540",
+  "ticker": "MQ",
+  "name": "Marqeta, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001522540-26-000017",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1522540/000152254026000017/mq-20251231.htm"
+  },
+  "business": "Marqeta provides a cloud-based payment platform for card issuing and transaction processing, enabling customers to create customized and innovative payment card programs. The company serves customers across multiple industry verticals including financial services, on-demand services, lending, expense management, and e-commerce enablement.",
+  "sellsTo": [
+    "financial services",
+    "on-demand services",
+    "lending (including BNPL)",
+    "expense management",
+    "e-commerce enablement"
+  ],
+  "namedCustomers": [
+    "Block, Inc."
+  ],
+  "namedSuppliers": [
+    "Sutton Bank",
+    "Visa",
+    "Mastercard",
+    "PULSE"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Marqeta serves customers in multiple industry verticals including financial services, on-demand services, lending, including BNPL, expense management, and e-commerce enablement."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized parties have attempted and will continue to attempt to gain access to our platform, systems, or facilities, and those of our customers, vendors, and other third parties with which we do business using a variety of methods such as cloud account takeover attacks, software lifecycle compromise, denial-of-service attacks, generative artificial intelligence impersonation, phishing attacks and other forms of social engineering, and ransomware and other malicious code."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "We have incorporated and may continue to incorporate artificial intelligence (AI) solutions and features (including, for example, AI solutions utilizing generative AI, model context protocol (MCP) servers and agentic AI) into our platform and other aspects of our business and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sutton Bank agreement expiration",
+      "date": null,
+      "sentence": "The current term of the agreement expires in 2029, after which it automatically renews on the same terms and conditions for a two-year renewal term, unless either party provides written notice of its intent not to renew at least 180 days prior to the expiration of the then-current term."
+    },
+    {
+      "event": "Block Cash App and Square Debit Card program expiration",
+      "date": "2028-06-30",
+      "sentence": "Pursuant to the terms of the 2023 Block Amendments, the term of the Cash App and the Square Debit Card programs will expire on June 30, 2028 and automatically renew thereafter for successive one-year periods, unless terminated earlier by either party."
+    },
+    {
+      "event": "PULSE contract expiration",
+      "date": null,
+      "sentence": "The current term of the contract expires in 2031 and automatically renews annually thereafter, unless either party provides written notice of its intent not to renew."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:02:36.689Z",
+  "model": "deepseek-v4-flash"
+}

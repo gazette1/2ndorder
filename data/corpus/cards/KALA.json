@@ -1,0 +1,41 @@
+{
+  "cik": "0001479419",
+  "ticker": "KALA",
+  "name": "KALA BIO, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-043782",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1479419/000110465926043782/kala-20251231x10k.htm"
+  },
+  "business": "KALA BIO is developing a dedicated, on-premises artificial intelligence infrastructure platform (Researgency) for biotechnology and pharmaceutical companies, while also seeking to monetize its legacy mesenchymal stem cell secretome (MSC-S) biologics assets.",
+  "sellsTo": [
+    "biotechnology companies",
+    "pharmaceutical companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Younet AI"
+  ],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Researgency is designed for on-premises deployment within client environments, enabling customers to leverage advanced AI capabilities while maintaining complete control over their proprietary biological data and intellectual property."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our AI platform services depend, in part, on access to graphics processing unit (\"GPU\") infrastructure and other specialized computational resources."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "We are preserving our MSC-S platform intellectual property, including the KPI-012 and KPI-014 product candidates and related patents and know-how, and are evaluating strategic options with respect to those assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:27:15.476Z",
+  "model": "deepseek-v4-flash"
+}

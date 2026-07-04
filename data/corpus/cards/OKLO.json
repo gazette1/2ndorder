@@ -1,0 +1,90 @@
+{
+  "cik": "0001849056",
+  "ticker": "OKLO",
+  "name": "Oklo Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018698",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm"
+  },
+  "business": "Oklo develops next-generation fast fission power plants called Aurora powerhouses to produce electricity and heat. The company also commercializes nuclear fuel recycling technology to convert used nuclear fuel into usable fuel. Its primary business model is to sell energy through power purchase agreements (PPAs) rather than selling reactor designs.",
+  "sellsTo": [
+    "data centers",
+    "military and other government facilities",
+    "factories",
+    "industrial customers",
+    "off-grid and remote communities",
+    "commercial and institutional campuses",
+    "utilities"
+  ],
+  "namedCustomers": [
+    "Switch, Ltd.",
+    "Equinix, Inc.",
+    "Diamondback E&P LLC",
+    "Prometheus Hyperscale",
+    "Meta Platforms, Inc.",
+    "Tennessee Valley Authority (TVA)",
+    "Eielson Air Force Base"
+  ],
+  "namedSuppliers": [
+    "Siemens Energy, Inc.",
+    "Amentum Technology Inc.",
+    "Kiewit Nuclear Solutions Co. (Kiewit)",
+    "Centrus Energy Corp."
+  ],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "We are developing next-generation fast fission power plants called powerhouses."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our robust pipeline of potential customer engagements spans a number of industries. For example, we have signed non-binding letters of intent with Equinix, Inc."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We are exploring opportunities with the Tennessee Valley Authority (TVA) to recycle the utility's used fuel at a new facility and to evaluate potential power sales from future Oklo powerhouses in the region to TVA."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Furthermore, we have been tentatively selected to provide electricity and heat to Eielson Air Force Base outside of Fairbanks, Alaska."
+    },
+    {
+      "tag": "other:radioisotopes",
+      "stance": "core_product",
+      "sentence": "Through our wholly owned subsidiary, Atomic Alchemy, we are combining our growing expertise in building and operating powerhouses and nuclear fuel recycling with Atomic Alchemy's expertise in radioisotope production."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Deploy first Aurora powerhouse",
+      "date": "2028",
+      "sentence": "We have an ambitious target of deploying our first powerhouse in 2028 amidst a range of supply chain, construction, macroeconomic, and design complexities."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global electricity production expected to increase over 75% by 2050",
+      "sentence": "According to the International Energy Agency, global electricity production is expected to increase over 75% by 2050 driven by electrification of buildings, transportation, and industry; increased use of air conditioning in the developing world; and increased consumption from data centers and cloud services."
+    },
+    {
+      "claim": "Energy reserves in used nuclear fuel equivalent to approximately 1.2 trillion barrels of oil equivalent",
+      "sentence": "We estimate that the existing energy reserves contained in the used nuclear fuel in the U.S. that are made accessible through our fast fission reactor technology are equivalent to approximately 1.2 trillion barrels of oil equivalent (BOE), nearly five times the oil reserves of Saudi Arabia."
+    },
+    {
+      "claim": "Enough energy in used nuclear fuel to power U.S. for 100 years",
+      "sentence": "Used nuclear fuel still contains approximately 95% of its energy content, and it has been estimated there is enough energy in the form of used nuclear fuel in the U.S. to power the expected electrical needs in the U.S. for 100 years with fast fission power plants."
+    },
+    {
+      "claim": "Over 90,000 metric tons of used nuclear fuel generated since 1950",
+      "sentence": "According to the DOE, more than 90,000 metric tons of used nuclear fuel have been generated since 1950, and an additional 2,000 metric tons are generated every year."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:22:31.169Z",
+  "model": "deepseek-v4-flash"
+}

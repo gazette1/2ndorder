@@ -1,0 +1,57 @@
+{
+  "cik": "0001609253",
+  "ticker": "CRC",
+  "name": "California Resources Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001609253-26-000051",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1609253/000160925326000051/crc-20251231.htm"
+  },
+  "business": "California Resources Corp (CRC) is an independent oil and natural gas exploration and production company with operations primarily in California. It also owns and operates power generation facilities and is developing carbon capture and storage projects through its Carbon TerraVault joint venture. The company sells crude oil, natural gas, natural gas liquids, and electricity to wholesale markets and utilities.",
+  "sellsTo": [
+    "load-serving entities",
+    "California Independent System Operator (CAISO) wholesale power market",
+    "third-party transportation pipelines",
+    "California public utility"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our sales prices of oil, NGLs and natural gas in the U.S. are set by the market and are not presently regulated."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We enter into resource adequacy capacity contracts with load-serving entities which are tasked with ensuring there is sufficient available generating capacity to support their forecasted customer energy demand."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "In August 2022, we entered into a joint venture with Brookfield to inject CO2 into the 26R reservoir in our Elk Hills field for permanent CO2 storage."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First CO2 injection at Carbon TerraVault I",
+      "date": null,
+      "sentence": "We anticipate the first CO2 injection at these sites in spring 2026."
+    },
+    {
+      "event": "Final decision on Class VI UIC permits for CTV I, II, III",
+      "date": null,
+      "sentence": "We expect a final decision on Class VI UIC permits for our CTV I A1-A2 CO2 storage reservoir at Elk Hills and our Class VI permits for CTV II (Union Island) and CTV III (Victoria Island) in 2026."
+    },
+    {
+      "event": "Receipt of permits for new oil and gas wells",
+      "date": null,
+      "sentence": "As of January 31, 2026, we had received 16 permits for new oil and gas wells and expect to receive additional permits during the course of the year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:55:52.638Z",
+  "model": "deepseek-v4-flash"
+}

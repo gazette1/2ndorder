@@ -1,0 +1,85 @@
+{
+  "cik": "0001449792",
+  "ticker": "PPSI",
+  "name": "PIONEER POWER SOLUTIONS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-015715",
+    "filedAt": "2026-04-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1449792/000149315226015715/form10-k.htm"
+  },
+  "business": "Pioneer Power Solutions designs, manufactures, integrates, services, and sells distributed energy resources, on-site and mobile power generation equipment, and mobile electric vehicle (EV) charging solutions. Products and services are sold to utility, industrial, and commercial markets. Customers include federal and state government entities, package delivery businesses, school bus fleet operators, EV charging infrastructure developers and owners, and distributed energy developers.",
+  "sellsTo": [
+    "utility, industrial and commercial markets",
+    "Federal and State government entities",
+    "package delivery businesses",
+    "school bus fleet operators",
+    "EV charging infrastructure developers and owners",
+    "distributed energy developers"
+  ],
+  "namedCustomers": [
+    "Eneridge, Inc.",
+    "SparkCharge",
+    "INF Associates, LLC",
+    "British Columbia Hydro and Power Authority"
+  ],
+  "namedSuppliers": [
+    "Taylor Power Systems, Inc.",
+    "Gillette Generators Inc.",
+    "Winco, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our Critical Power business designs, manufactures and sells mobile EV charging solutions under our e-Boost suite of products, in addition to distributing new power generation equipment, refurbishing and reselling used power generation equipment, and performing service and maintenance on our customers existing equipment."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Our Critical Power business provides customers with our suite of mobile EV charging solutions, power generation equipment and all forms of services, including but not limited to, preventative maintenance, repairs, fuel polishing, and remote monitoring."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The explosion of Generative Artificial Intelligence (AI) and Edge Computing has created an unprecedented demand for localized, behind-the-meter power."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "To meet this need, our PRYMUS mobile microgrid provides 1 MW to 10 MW blocks of onsite power with a 6-month deployment lead time, significantly faster than traditional infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of PRYMUS mobile on-site power system",
+      "date": "2025-12",
+      "sentence": "In December of 2025, the Company launched two new product platforms: 1. PRYMUS - a new, mobile on-site power system concentrating on customers with requirements of 1-10 megawatts of mobile power to supplement their current energy profile, 2. PowerCore - a residential and small commercial based primary generator system integrating a DC fast charger into one solution."
+    },
+    {
+      "event": "Launch of PowerCore residential generator system",
+      "date": "2025-12",
+      "sentence": "In December of 2025, the Company launched two new product platforms: 1. PRYMUS - a new, mobile on-site power system concentrating on customers with requirements of 1-10 megawatts of mobile power to supplement their current energy profile, 2. PowerCore - a residential and small commercial based primary generator system integrating a DC fast charger into one solution."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. electric vehicle charging station market projected to grow at CAGR of 29.1% through 2030",
+      "sentence": "The U.S. electric vehicle charging station market is projected to grow at a CAGR of 29.1% through 2030, with the fastest growth occurring in high-power DC fast charging segments ( 250 kW) necessary for commercial and autonomous operations."
+    },
+    {
+      "claim": "Global electricity demand for data centers projected to double by 2030",
+      "sentence": "Global electricity demand for data centers is projected to double by 2030, with AI-optimized servers expected to account for 44% of total data center power consumption by that time."
+    },
+    {
+      "claim": "Global microgrid market forecast to reach $24.44 billion by 2026",
+      "sentence": "the global microgrid market is forecast to reach $24.44 billion by 2026, driven specifically by a 20.1% CAGR in the 5 10 MW segment often utilized for industrial and data center optimization."
+    },
+    {
+      "claim": "Level 2 infrastructure expected to see incremental growth of over 5 million units by 2026",
+      "sentence": "With Level 2 infrastructure expected to see an incremental growth of over 5 million units by 2026, providing an all-in-one resiliency and high-speed charging solution captures a critical convergence of the residential and transportation energy markets."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:19:19.622Z",
+  "model": "deepseek-v4-flash"
+}

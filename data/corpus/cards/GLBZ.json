@@ -1,0 +1,52 @@
+{
+  "cik": "0000890066",
+  "ticker": "GLBZ",
+  "name": "GLEN BURNIE BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001558370-25-004608",
+    "filedAt": "2025-04-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/890066/000155837025004608/glbz-20241231x10k.htm"
+  },
+  "business": "Glen Burnie Bancorp is a bank holding company that, through its subsidiary The Bank of Glen Burnie, provides commercial and retail banking services including deposit accounts, residential and commercial mortgage loans, commercial and industrial loans, and consumer loans. Its primary market area is Anne Arundel County, Maryland, serving individuals, small to medium-sized businesses, and professionals. It also offers digital banking services such as mobile and internet banking.",
+  "sellsTo": [
+    "individuals",
+    "small to medium-sized businesses",
+    "professionals and executives",
+    "real estate investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In addition to traditional deposit services, we offer telephone banking services, mobile banking, internet banking services and internet bill paying services to our customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "Glen Burnie Bancorp maintains a cyber risk management program that is designed to prevent, detect, and respond to information security threats."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank s real estate financing consists of residential first and second mortgage loans, home equity lines of credit and commercial mortgage loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of Linthicum branch",
+      "date": "2025-01-31",
+      "sentence": "As of January 31, 2025, the Bank closed the Linthicum branch and anticipates closing the Severna Park branch by May 31, 2025."
+    },
+    {
+      "event": "Anticipated closing of Severna Park branch",
+      "date": "2025-05-31",
+      "sentence": "As of January 31, 2025, the Bank closed the Linthicum branch and anticipates closing the Severna Park branch by May 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:54:28.133Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,73 @@
+{
+  "cik": "0001965052",
+  "ticker": "MGTE",
+  "name": "Marblegate Capital Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-125186",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1965052/000119312526125186/ck0001965052-20251231.htm"
+  },
+  "business": "Marblegate Capital Corporation is a fully integrated operating platform combining fleet operations and medallion-backed specialty finance, with operations focused in the New York City regulated mobility market. The company generates revenue from interest income on a portfolio of loans primarily collateralized by NYC taxi medallions and from fleet revenue by leasing taxicab vehicles and medallions to licensed TLC drivers. The company serves the NYC taxi medallion market, which is capped at 13,587 medallions.",
+  "sellsTo": [
+    "Licensed TLC drivers (fleet leasing)",
+    "Borrowers (medallion loans)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Field Point Servicing, LLC",
+    "Marblegate Asset Management, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:nyc-taxi-medallion",
+      "stance": "core_product",
+      "sentence": "Our business is centered on the NYC taxi medallion a scarce, municipally regulated license that is the sole authorization to operate a vehicle for street-hail service in the City of New York which we view as a critical piece of NYC s mobility infrastructure."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "risk_mention",
+      "sentence": "We believe the most significant long-term competitive dynamic is the potential impact of autonomous vehicle (AV) technology."
+    },
+    {
+      "tag": "other:ride-sharing",
+      "stance": "risk_mention",
+      "sentence": "Yellow taxis operate alongside a range of transportation alternatives including ridesharing platforms (Uber, Lyft), for-hire vehicles (FHVs), public transit (the MTA subway and bus system), cycling infrastructure (Citi Bike), and emerging micromobility options."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "risks related to cybersecurity threats, data privacy, and litigation"
+    },
+    {
+      "tag": "other:cbd-tolling",
+      "stance": "risk_mention",
+      "sentence": "risks related to changes in regulation of the NYC taxi industry, including TLC requirements, WAV mandates, and the CBD Tolling Program"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Business Combination closing",
+      "date": "2025-04-07",
+      "sentence": "On April 7, 2025 (the Closing Date), MAC consummated the Business Combination pursuant to a Business Combination Agreement dated February 14, 2023, as amended."
+    },
+    {
+      "event": "Signal Taxi Acquisition",
+      "date": "2025-04-07",
+      "sentence": "we acquired all outstanding equity interests in Signal Taxi, resulting in Signal Taxi becoming a wholly owned subsidiary of DePalma II on April 7, 2025."
+    },
+    {
+      "event": "TML IV acquisition",
+      "date": "2025-12-30",
+      "sentence": "TML IV was acquired on December 30, 2025 in connection with the Credit Facility and holds investments in NYC taxi medallions and medallion loans."
+    },
+    {
+      "event": "Interest rate hedge execution",
+      "date": "2026-01-26",
+      "sentence": "the hedge was executed on January 26, 2026, within the contractual deadline of January 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:44:56.208Z",
+  "model": "deepseek-v4-flash"
+}

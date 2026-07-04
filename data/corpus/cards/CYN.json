@@ -1,0 +1,83 @@
+{
+  "cik": "0001874097",
+  "ticker": "CYN",
+  "name": "Cyngn Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-034900",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1874097/000121390026034900/ea0277796-10k_cyngn.htm"
+  },
+  "business": "Cyngn Inc. is an autonomous vehicle technology company that focuses on industrial uses. It sells the Enterprise Autonomy Suite (EAS), which includes DriveMod autonomous driving software, Cyngn Insight fleet management tools, and Cyngn Evolve development tools, to industrial vehicle OEMs and end customers in manufacturing and distribution.",
+  "sellsTo": [
+    "Industrial vehicle OEMs",
+    "Manufacturing and distribution companies",
+    "Material handling operators"
+  ],
+  "namedCustomers": [
+    "John Deere",
+    "G&J Pepsi",
+    "Coats Automotive",
+    "USC",
+    "Arauco"
+  ],
+  "namedSuppliers": [
+    "Motrec",
+    "BYD"
+  ],
+  "exposures": [
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We have already deployed DriveMod software on more than ten different vehicle form factors that range from tow tractors and stand-on floor scrubbers to 14-seat shuttles and electric forklifts in a combination of commercially released products, prototypes, and proof of concept projects, demonstrating the extensibility of our AV building blocks."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "EAS provides a differentiated solution that we believe will drive pervasive adoption of industrial autonomy and create value for customers at every stage of their automation growth."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our core competencies are in DriveMod, the on-vehicle AV technology stack that is underpinned by AI and robotics expertise and paramount to enabling autonomous mobility."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Our perception architecture streamlines DriveMod deployments on new vehicles."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "DriveMod is designed to be compatible with sensors and components from leading hardware technology providers and integrate our proprietary AV software to produce differentiated autonomous vehicles."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commercial release of DriveMod MT160 Tugger",
+      "date": "2024",
+      "sentence": "The DriveMod MT160 Tugger with a 12,000-lb towing capacity was commercially released in 2024 in partnership with Motrec and is now deployed with multiple customers."
+    },
+    {
+      "event": "Commercial availability of DriveMod Stockchaser",
+      "date": "early 2023",
+      "sentence": "The DriveMod Stockchaser with a 6,000-lb towing capacity became commercially available in early 2023 and was first commercially deployed with our partner-customer US Continental (USC)"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Material handling equipment market valued at $213.4 billion in 2021",
+      "sentence": "According to a Grand View Research report, the material handling equipment market was valued at $213.4 billion in 2021."
+    },
+    {
+      "claim": "Over $250 billion spent on workplace injuries each year",
+      "sentence": "According to the Economic Policy Institute, over $250 billion are spent on workplace injuries each year."
+    },
+    {
+      "claim": "Only 9% of manufacturers have adopted autonomous technologies",
+      "sentence": "According to PWC s Industrial Mobility: How autonomous vehicles can change manufacturing report, only 9% of manufacturers have currently adopted autonomous technologies"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:42:36.619Z",
+  "model": "deepseek-v4-flash"
+}

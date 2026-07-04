@@ -1,0 +1,53 @@
+{
+  "cik": "0002057463",
+  "ticker": "GLIBA",
+  "name": "Liberty Capital Corp/NV",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-013442",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/2057463/000110465926013442/tmb-20251231x10k.htm"
+  },
+  "business": "GCI Liberty, through its wholly owned subsidiary GCI Holdings, provides data, wireless, voice, and managed services to residential, business, government, educational, and medical customers primarily in Alaska. As of December 31, 2025, it has fully exited the video business.",
+  "sellsTo": [
+    "residential customers",
+    "businesses",
+    "governmental entities",
+    "educational institutions",
+    "medical institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "GCI Holdings provides a full range of data, wireless, voice, and managed services to residential customers, businesses, governmental entities, and educational and medical institutions primarily in Alaska under the GCI brand."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "GCI faces competition, including from non-geostationary satellites and other providers receiving federal grants to construct additional terrestrial networks, that may reduce its market share and harm its financial performance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks or other network disruptions could have an adverse effect on our Company and GCI's business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Issues related to the use of AI in GCI's business could give rise to legal or regulatory action, damage GCI's reputation or otherwise materially harm GCI's business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Preferred stock mandatory redemption",
+      "date": "2032-07-14",
+      "sentence": "The mandatory redemption date is July 14, 2032."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:07:53.475Z",
+  "model": "deepseek-v4-flash"
+}

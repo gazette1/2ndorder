@@ -1,0 +1,51 @@
+{
+  "cik": "0001362516",
+  "ticker": "CLRI",
+  "name": "Cleartronic, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001091818-25-000175",
+    "filedAt": "2025-12-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1362516/000109181825000175/clri-093025_10k.htm"
+  },
+  "business": "Cleartronic, through its subsidiary ReadyOp Communications, sells web-based software platforms (ReadyOp, ReadyMed, Alastar) for planning, managing, and emergency response communications, as well as AudioMate IP gateways for radio interoperability. It offers these as SaaS subscriptions and hardware products to government agencies, corporations, healthcare entities, and other organizations.",
+  "sellsTo": [
+    "local, state and federal government agencies",
+    "corporations",
+    "school districts",
+    "utilities",
+    "hospitals",
+    "healthcare industry (hospitals, clinics, doctor's offices, health insurance companies, workers compensation insurance companies)",
+    "end-users",
+    "Value Added Resellers (VARs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "ReadyOp is used by local, state and federal government agencies, corporations, school districts, utilities, hospitals and others to manage and report daily operations as well as the ability to handle incidents and emergency situations."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "ReadyMed is a web-based secure communications platform initially designed for the healthcare industry."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Company offers a proprietary line of Internet Protocol Gateways branded as AudioMate 360 IP Gateway."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FedRAMP Authorization expected completion",
+      "date": "2026-01-01",
+      "sentence": "The Company commenced the FedRamp certification process in 2023 and expects to have completed the certification in early 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:28:12.461Z",
+  "model": "deepseek-v4-flash"
+}

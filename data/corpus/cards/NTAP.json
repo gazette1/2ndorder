@@ -1,0 +1,53 @@
+{
+  "cik": "0001002047",
+  "ticker": "NTAP",
+  "name": "NetApp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-259683",
+    "filedAt": "2026-06-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526259683/ntap-20260424.htm"
+  },
+  "business": "NetApp sells data storage and management software, hardware, and cloud services for hybrid and multi-cloud environments. Their flagship ONTAP software and all-flash arrays support mission-critical workloads. They serve enterprises across industries including energy, financial services, government, and technology.",
+  "sellsTo": [
+    "energy",
+    "financial services",
+    "government",
+    "technology",
+    "internet",
+    "life sciences",
+    "healthcare services",
+    "manufacturing",
+    "media",
+    "entertainment",
+    "animation",
+    "video postproduction",
+    "telecommunications",
+    "global enterprises",
+    "local businesses",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our AI-ready infrastructure solutions, including the NetApp AI Data Engine and validated reference architectures with partners like NVIDIA, help organizations streamline data pipelines, accelerate model training, and derive actionable insights from their data."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our solutions offer robust ransomware protection, automated data backup and recovery, disaster recovery, and comprehensive governance features."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "core_product",
+      "sentence": "Public Cloud offers a portfolio of products delivered primarily as-a-service, including related support. This portfolio includes cloud storage, data services and operational services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:30:30.850Z",
+  "model": "deepseek-v4-flash"
+}

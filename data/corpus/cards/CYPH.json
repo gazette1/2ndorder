@@ -1,0 +1,65 @@
+{
+  "cik": "0001509745",
+  "ticker": "CYPH",
+  "name": "CYPHERPUNK TECHNOLOGIES INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028566",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1509745/000110465926028566/cyph-20251231x10k.htm"
+  },
+  "business": "Cypherpunk Technologies Inc. is a privacy technology company implementing a digital asset treasury strategy anchored by Zcash, and through its wholly-owned subsidiary Leap Therapeutics, it is developing novel therapies for cancer. The company does not currently have any approved products for sale and has not generated product revenue.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Gemini Space Sciences LLC",
+    "ThermoFisher Scientific",
+    "Eli Lilly and Company",
+    "Adimab, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our subsidiary, Leap, is a biopharmaceutical company developing novel biomarker-targeted antibody therapies designed to treat patients with cancer and other diseases with high unmet medical need."
+    },
+    {
+      "tag": "other:digital-asset",
+      "stance": "active_investment",
+      "sentence": "We are a privacy technology company implementing a digital asset treasury strategy anchored by Zcash."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and cyberattacks are of particular concern with respect to digital assets, including ZEC."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Quantum computing, in particular, presents a long-term threat to the cryptographic assumptions underpinning the Zcash Network."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "EU regulations prohibiting transactions with anonymous wallets and privacy-focused digital assets such as ZEC take effect",
+      "date": "2027-07-01",
+      "sentence": "beginning on July 1, 2027, regulations in the European Union will prohibit transactions involving anonymous wallets and privacy-focused digital assets such as ZEC."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 2.3 million new cases of colorectal cancer globally in 2030, with nearly 1.1 million deaths",
+      "sentence": "According to the World Health Organization (WHO), there will be over 2.3 million new cases of CRC in 2030, with nearly 1.1 million deaths."
+    },
+    {
+      "claim": "In the United States, 158,850 newly diagnosed cases of CRC and 55,230 estimated deaths from CRC",
+      "sentence": "According to the American Cancer Society (ACS), in the United States, there will be 158,850 newly diagnosed cases of CRC and 55,230 estimated deaths from CRC."
+    },
+    {
+      "claim": "Fixed maximum supply of 21 million ZEC",
+      "sentence": "The Zcash protocol establishes a fixed maximum supply of 21 million ZEC, which are introduced into circulation over time through block rewards."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:02:18.721Z",
+  "model": "deepseek-v4-flash"
+}

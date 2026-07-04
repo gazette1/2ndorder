@@ -1,0 +1,60 @@
+{
+  "cik": "0001725911",
+  "ticker": "NBND",
+  "name": "NetBrands Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016806",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1725911/000149315226016806/form10-k.htm"
+  },
+  "business": "NetBrands Corp. is a blockchain infrastructure company focused on cryptocurrency mining, digital asset treasury (DAT) management, and related blockchain technology initiatives. It currently mines Bitcoin and other cryptocurrencies using ASIC miners hosted at a facility in Cedar Falls, Iowa. The company also plans to develop a 5-megawatt Bitcoin mining facility and establish a layered digital asset treasury holding Bitcoin, Ethereum, and AAVE.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Simple Mining LLC",
+    "Bitmain"
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency-mining",
+      "stance": "core_product",
+      "sentence": "On July 15, 2025, the Company announced that it had pivoted to become a blockchain infrastructure business focused on cryptocurrency mining, digital asset treasury (DAT) management, and related blockchain technology initiatives."
+    },
+    {
+      "tag": "other:digital-asset-treasury",
+      "stance": "core_product",
+      "sentence": "The Company announced plans to establish layered digital asset treasury targeting Bitcoin, Ethereum and AAVE as a long-term reserve assets."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "core_product",
+      "sentence": "On July 15, 2025, the Company announced that it had pivoted to become a blockchain infrastructure business focused on cryptocurrency mining, digital asset treasury (DAT) management, and related blockchain technology initiatives."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Purchased 10 ASIC miners consisting of Bitmain S21+",
+      "date": "2025-07-17",
+      "sentence": "The Company purchased 10 ASIC miners consisting of Bitmain S21+ on July 17, 2025."
+    },
+    {
+      "event": "Signed hosting agreement with Simple Mining LLC",
+      "date": "2025-07-22",
+      "sentence": "Following the purchase of the initial batch of ASIC miners, the Company announced on July 22, 2025, that it had signed a hosting agreement with Simple Mining LLC to host its fleet of miners."
+    },
+    {
+      "event": "All miners plugged in and hashing at full capacity",
+      "date": "2025-07-30",
+      "sentence": "As of July 30, 2025, all miners were plugged in and hashing at full capacity."
+    },
+    {
+      "event": "Purchased additional 10 ASICs consisting of Bitmain L9 Scrypt Miners",
+      "date": "2025-11-19",
+      "sentence": "The Company purchased additional 10 ASICs consisting of Bitmain L9 Scrypt Miners on November 19 th . 2025 rounding up its hybrid fleet to 20 ASICs."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:40:29.190Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001562151",
+  "ticker": "CWGL",
+  "name": "Crimson Wine Group, Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018796",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562151/000162828026018796/cwgl-20251231.htm"
+  },
+  "business": "Crimson Wine Group produces and sells luxury wines that retail for over $16 per 750ml bottle. The company sells through wholesale distributors and directly to consumers via wine clubs, tasting rooms, and ecommerce. It owns seven wine estates and brands including Pine Ridge Vineyards, Archery Summit, and Seghesio Family Vineyards.",
+  "sellsTo": [
+    "Wholesale distributors (domestic and export)",
+    "Direct-to-consumer (wine clubs, tasting rooms, ecommerce)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Crimson is in the business of producing and selling luxury wines (i.e., wines that retail for over $16 per 750ml bottle)."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Crimson has increased its emphasis on direct sales to consumers, through wine clubs, the wineries tasting rooms, and the Ecommerce channel."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "On June 30, 2024, the Company detected a cybersecurity incident in which an unauthorized third party gained access to certain information systems of the Company."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Crimson produces wine from estate grown grapes as well as from grapes and bulk wine purchased under contract and on the spot market."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Raeburn wine brand from Purple Wine Company",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, Pine Ridge Winery, LLC (Pine Ridge), a Delaware limited liability company and the Company's wholly-owned subsidiary, entered into, and closed the transaction contemplated by, that certain Asset Purchase Agreement, dated as of February 9, 2026 (the Asset Purchase Agreement), with Purple Wine Company, LLC, a California limited liability company (Purple Wine Company)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:51:12.247Z",
+  "model": "deepseek-v4-flash"
+}

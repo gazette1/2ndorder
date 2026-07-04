@@ -1,0 +1,65 @@
+{
+  "cik": "0001569345",
+  "ticker": "CXM",
+  "name": "Sprinklr, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001569345-26-000015",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1569345/000156934526000015/cxm-20260131.htm"
+  },
+  "business": "Sprinklr provides a Unified Customer Experience Management (Unified-CXM) platform that helps organizations manage customer interactions across channels and teams. The platform is AI-native and enables customer-facing teams to collaborate and leverage AI to deliver better customer experiences. It primarily serves large global enterprises, including 59% of the Fortune 100 companies.",
+  "sellsTo": [
+    "global enterprises",
+    "Fortune 100 companies",
+    "marketing agencies",
+    "government departments",
+    "non-profit organizations",
+    "educational institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft",
+    "Accenture",
+    "Deloitte",
+    "Salesforce",
+    "SAP",
+    "ServiceNow",
+    "Adobe",
+    "Oracle",
+    "X",
+    "Meta",
+    "Snap"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our artificial intelligence (AI) native platform enables customer-facing teams, from Customer Service to Marketing, to collaborate across internal silos, communicate with customers across digital and traditional channels, and leverage AI to deliver better customer experiences at scale."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party data centers and cloud computing providers, and any interruption or delay in service from these facilities could impair the delivery of our Unified-CXM platform and harm our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our platform is designed to meet the industry security controls. For example, we are certified in International Organization for Standardization (ISO) 27001, maintain annual American Institute of CPAs (AICPA) System and Organization Controls (SOC) 1, SOC 2, and SOC 3 Type II reports and have an environment that is assessed under Payment Card Industry Data Security Standard (PCI-DSS) as Service Provider Level 1."
+    },
+    {
+      "tag": "other:contact-center",
+      "stance": "core_product",
+      "sentence": "Sprinklr Service is a comprehensive, cloud-native, AI-based customer service platform that enables agents to seamlessly serve customers across digital, social and voice channels and empowers the leadership with complete visibility into contact center operations to drive transformation and impact."
+    },
+    {
+      "tag": "other:social-media",
+      "stance": "core_product",
+      "sentence": "Sprinklr Social helps our customers to manage their social media across multiple brands, teams and geographies by providing the broadest channel coverage, best-in-class AI, enterprise-grade governance and a Unified-CXM platform that integrates social media with consumer intelligence, marketing and customer service."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:05:40.709Z",
+  "model": "deepseek-v4-flash"
+}

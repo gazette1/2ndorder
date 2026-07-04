@@ -1,0 +1,93 @@
+{
+  "cik": "0001730168",
+  "ticker": "AVGO",
+  "name": "Broadcom Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001730168-25-000121",
+    "filedAt": "2025-12-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+  },
+  "business": "Broadcom Inc. designs, develops and supplies semiconductor and semiconductor-based solutions and infrastructure software solutions. Its products are used in enterprise and AI data centers, networking, storage, broadband, wireless, industrial, and other applications. Its software solutions include private cloud, mainframe, cybersecurity, and enterprise software, serving Fortune 500 companies and government agencies.",
+  "sellsTo": [
+    "Networking Connectivity",
+    "Wireless Device Connectivity",
+    "Servers and Storage Systems",
+    "Broadband",
+    "Industrial",
+    "Private Cloud",
+    "Mainframe Software",
+    "Cybersecurity",
+    "Enterprise Software",
+    "FC SAN Management",
+    "hyperscalers",
+    "original equipment manufacturers (OEMs)",
+    "system integrators",
+    "large enterprises",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+    "Advanced Semiconductor Engineering, Inc.",
+    "Foxconn Technology Group",
+    "Amkor Technology, Inc.",
+    "Siliconware Precision Industries Co., Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our AI semiconductor solutions include custom accelerators or XPUs, Ethernet switching and routing silicon, Ethernet NICs, physical layer devices (PHYs) and optical components, as well as racks and systems based on our XPUs."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our solutions are used in a wide array of environments, end products and applications, such as enterprise and artificial intelligence (AI) data centers, servers and networking and connectivity equipment, as well as storage systems, home connectivity devices, set-top boxes, broadband access, telecommunication equipment, wireless devices and base stations, factory automation, power generation and alternative energy systems, and electronic displays."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our cybersecurity portfolio. Our solutions utilize threat intelligence from a global network of security engineers, threat analyst and researchers, as well as advanced AI and machine learning engines, enabling customers to protect data, connect authorized users with trusted applications, protect data on any app, device or network across on-premises and cloud infrastructures, and detect and respond to advanced targeted attacks."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our service provider switch portfolio enables carrier networks to support prioritized delivery of data traffic in the wireless backhaul, access, aggregation and core of their networks."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We provide a broad variety of factory automation, renewable energy and automotive electronic solutions, including optocouplers, industrial fiber optics, industrial and medical sensors, motion encoders, light emitting diode devices, and Ethernet ICs."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our industrial products are used in a diverse set of applications, spanning industrial automation, power generation and distribution systems, medical systems and equipment, defense and aerospace, and vehicle subsystems including those used in electric vehicle powertrain, infotainment and advanced driver assistance systems."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our semiconductor and semiconductor-based solutions include a broad portfolio of complex digital and mixed signal devices based on silicon wafers with complementary metal oxide semiconductor (CMOS) transistors, III-V based devices, network interface cards (NICs) and other modules, switches, subsystems and, in some cases, racks."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "VMware Cloud Foundation Edge : This solution is designed to deliver frictionless management of edge apps and infrastructure across many sites with limited resources."
+    },
+    {
+      "tag": "other:mainframe-software",
+      "stance": "core_product",
+      "sentence": "Our portfolio includes AIOps & Automation, Database & Data Management, DevX & DevOps, Cybersecurity & Compliance and Foundational & Open Mainframe solutions that enable customers to innovate with their mainframe as part of their hybrid environment, and amplify the value of their mainframe investments through open tools and technologies."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The semiconductor industry is undergoing profound change due to the adoption and proliferation of AI and has experienced a significant upturn, which may not be sustainable."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:48:11.940Z",
+  "model": "deepseek-v4-flash"
+}

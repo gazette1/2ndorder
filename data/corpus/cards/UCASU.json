@@ -1,0 +1,45 @@
+{
+  "cik": "0001723517",
+  "ticker": "UCASU",
+  "name": "UC Asset LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-21-039922",
+    "filedAt": "2021-08-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1723517/000121390021039922/f10k2020_ucassetlp.htm"
+  },
+  "business": "UC Asset LP is a partnership that invests in portfolio investments for capital appreciation, primarily in residential real estate in metropolitan Atlanta. It also develops innovative property concepts such as SHOC (Shared Home-Office Community) to target business travelers. The company operates through wholly-owned subsidiaries that acquire, renovate, and sell or rent properties.",
+  "sellsTo": [
+    "Residential property buyers and renters in Atlanta",
+    "Potential business travelers for SHOC properties"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our partnership primarily invest in residential properties for capital appreciation in the Atlanta metropolitan area."
+    },
+    {
+      "tag": "other:shared-home-office",
+      "stance": "active_investment",
+      "sentence": "We founded SHOC LLC in the fourth quarter of 2020 by contributing an initial capital of $900,000."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "we are very interested in the application of block-chain technology and non-fungible token(NFT) technology into real estate development and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "SHOC LLC first investment in 10-unit apartment building in downtown Atlanta",
+      "date": "2021-04-01",
+      "sentence": "It would make its first investment by acquiring a 10-unit apartment building in downtown Atlanta in April, 2021, for a consideration of approximately $750,000."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:57:17.402Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0000036270",
+  "ticker": "MTB",
+  "name": "M&T BANK CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000036270-26-000010",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+  },
+  "business": "M&T Bank Corp offers a wide range of retail and commercial banking, wealth management, trust and institutional services to consumers, businesses, professional clients, governmental entities and financial institutions, primarily through its bank subsidiaries M&T Bank and Wilmington Trust, N.A.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "professional clients",
+    "governmental entities",
+    "financial institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company competes not only with commercial and other banks and thrifts, but also with private credit funds, insurance companies, mutual funds, hedge funds, securities brokerage firms, financial technology companies and other companies offering financial services in the U.S., globally and over the Internet."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's information systems may experience interruptions or breaches in security, such as cyber attacks, including due to events beyond the Company's control."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI, including by third parties, presents risks and challenges that may adversely impact M&T."
+    },
+    {
+      "tag": "other:climate",
+      "stance": "risk_mention",
+      "sentence": "The Company's assets, communities, operations, reputation and customers could be adversely affected by the impacts of climate-related risk."
+    },
+    {
+      "tag": "other:digital-assets-blockchain",
+      "stance": "risk_mention",
+      "sentence": "In addition, the emergence, adoption and evolution of new technologies that do not require intermediation, including distributed ledgers such as digital assets and blockchain, as well as advances in robotic process automation and AI, could significantly affect the competition for financial services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:26:21.835Z",
+  "model": "deepseek-v4-flash"
+}

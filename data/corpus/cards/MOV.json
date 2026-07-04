@@ -1,0 +1,55 @@
+{
+  "cik": "0000072573",
+  "ticker": "MOV",
+  "name": "MOVADO GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-115298",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/72573/000119312526115298/mov-20260131.htm"
+  },
+  "business": "Movado Group designs, sources, markets and distributes quality watches globally, as well as jewelry and other accessories, under owned and licensed brands. The company sells to department stores, major jewelry store chains, independent jewelers, third-party e-commerce retailers, and directly to consumers through owned e-commerce websites and retail outlet stores.",
+  "sellsTo": [
+    "department stores",
+    "major jewelry store chains",
+    "independent jewelers",
+    "third-party e-commerce retailers",
+    "direct-to-consumer via owned e-commerce websites",
+    "retail outlet stores"
+  ],
+  "namedCustomers": [
+    "Macy's",
+    "Nordstrom",
+    "Signet Jewelers, Ltd.",
+    "Helzberg Diamonds Corp.",
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Movado Group designs, sources, markets and distributes quality watches globally."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company sells all of its brands in the U.S. Watch and Accessory Brands market primarily to department stores, including Macy's and Nordstrom; major jewelry store chains, including Signet Jewelers, Ltd. and Helzberg Diamonds Corp.; independent jewelers; and third-party e-commerce retailers, including Amazon; as well as directly to consumers through the Company's owned e-commerce websites, including www.movado.com and www.mvmt.com."
+    },
+    {
+      "tag": "other:smartwatches",
+      "stance": "risk_mention",
+      "sentence": "The Company also faces significant competition from companies introducing and selling smart wearable devices including smart watches."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Kate Spade New York watch collection",
+      "date": null,
+      "sentence": "In July 2025 the Company signed a license agreement with Coach Services, Inc. pursuant to which the Company has the exclusive right to manufacture, market and distribute watches globally under the Kate Spade New York brand name, with the first collection planned to launch in the spring of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:08:19.224Z",
+  "model": "deepseek-v4-flash"
+}

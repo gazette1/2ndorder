@@ -1,0 +1,46 @@
+{
+  "cik": "0000909724",
+  "ticker": "TLF",
+  "name": "TANDY LEATHER FACTORY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-006550",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/909724/000114036126006550/ef20060825_10k.htm"
+  },
+  "business": "Tandy Leather Factory, Inc. is one of the world's largest specialty retailers of leather and leathercraft-related items. It sells products primarily through company-leased stores, global websites, and a commercial division. The company also produces leather lace, cut leather pieces, and most of the do-it-yourself kits sold in its stores and online.",
+  "sellsTo": [
+    "Retail Customers (hobbyists, institutions, small businesses)",
+    "Commercial Customers (spending >$20,000 annually)",
+    "Affinity groups (Military, First Responders)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell our products primarily through company-owned stores and through orders generated from our global websites, and through direct account representatives in our commercial division."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to protect the integrity and security of personal information of our customers and employees could result in substantial costs, expose us to litigation and damage our reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Improve our overall digital and technological capabilities to include artificial intelligence where applicable across our entire operation and channels."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renewed credit facility through October 31, 2026",
+      "date": "2026-10-31",
+      "sentence": "In the fourth quarter of 2025, the Company renewed the promissory note under its Credit Agreement with JPMorgan Chase Bank, N.A. through October 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:42:06.118Z",
+  "model": "deepseek-v4-flash"
+}

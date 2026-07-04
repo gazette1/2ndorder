@@ -1,0 +1,55 @@
+{
+  "cik": "0000005513",
+  "ticker": "UNM",
+  "name": "Unum Group",
+  "source": {
+    "form": "10-K",
+    "accession": "0000005513-26-000008",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000008/unm-20251231.htm"
+  },
+  "business": "We are a leading provider of financial protection benefits in the United States and the United Kingdom. Our products include disability, life, accident, critical illness, dental and vision, and other related services. We market our products primarily through the workplace.",
+  "sellsTo": [
+    "employers",
+    "employees",
+    "workplace groups"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Fortitude Reinsurance Company Ltd.",
+    "Commonwealth Annuity and Life Insurance Company",
+    "Fairwind Insurance Company"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of financial protection benefits in the United States and the United Kingdom."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber attack or other security breach could disrupt our operations, result in compromised data, the unauthorized disclosure or loss of confidential data, damage our reputation or relationships, and expose us to significant financial and legal liability, which may adversely affect our business, results of operations, or financial condition."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of artificial intelligence technology, as well as changes in artificial intelligence laws and regulations, could lead to regulatory noncompliance, operational risk, and competitive challenges."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Discontinuation of new enrollments on existing group long-term care policies",
+      "date": "2026-02",
+      "sentence": "As of February 2026, we discontinued new enrollments on existing group long-term care policies."
+    },
+    {
+      "event": "Execution of coinsurance agreement with Fortitude Re",
+      "date": "2025-07",
+      "sentence": "In February 2025, Unum America entered into a master transaction agreement with Fortitude Reinsurance Company Ltd. (Fortitude Re) which resulted in the execution of a coinsurance agreement (reinsurance agreement) during July 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:56:00.600Z",
+  "model": "deepseek-v4-flash"
+}

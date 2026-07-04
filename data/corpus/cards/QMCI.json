@@ -1,0 +1,77 @@
+{
+  "cik": "0001101433",
+  "ticker": "QMCI",
+  "name": "QUOTEMEDIA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-003294",
+    "filedAt": "2026-04-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1101433/000165495426003294/qmci_10k.htm"
+  },
+  "business": "QuoteMedia, Inc. provides financial data, market research, analytics, news feeds, and financial software solutions to online brokerages, banks, clearing firms, financial service companies, media portals, and public corporations. Its products include streaming stock market data feeds, research and analysis, content applications, portfolio management systems, and custom development. The company offers a comprehensive single-source market data provider service.",
+  "sellsTo": [
+    "online brokerages",
+    "mutual fund companies",
+    "full-service brokerage firms",
+    "internet service providers",
+    "banks and other financial institutions",
+    "media companies",
+    "financial websites",
+    "publishers and data firms",
+    "web portals",
+    "wealth management companies",
+    "public companies",
+    "individual traders and investors",
+    "investor relations firms",
+    "securities exchanges"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "QuoteMedia, Inc. (OTCQB: QMCI) is a leading provider of financial data, market research information, analytics, news feeds, and financial software solutions to online brokerages, banks, clearing firms, financial service companies, media portals, and public corporations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We plan to continue to leverage artificial intelligence (AI) tools, where possible, to automate this process."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We expect our competitors to continue to improve the performance of their current services, to enhance data content and coverage and to introduce new services and technologies such as artificial intelligence (AI)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "A prolonged outage at one of our data centers that we share could result in reduced revenue and the loss of customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be required to expend significant capital and resources to protect against the threat of such security breaches or to alleviate problems caused by such breaches."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "New tariffs or taxes could impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Broad expansion of data and news coverage, addition of international exchange data and news, video feeds, expansion of fixed-income coverage, and introduction of new products for 2026",
+      "date": null,
+      "sentence": "Important development projects for 2026 include broad expansion of data and news coverage, including the addition of a wide array of international exchange data and news, video feeds, expansion of fixed-income coverage, and the introduction of several new and upgraded market information products."
+    },
+    {
+      "event": "New deployments of trade integration capabilities for brokerage clients",
+      "date": null,
+      "sentence": "New deployments of our trade integration capabilities, which allow our Quotestream applications to interact with our brokerage clients back-end trade execution and reporting platforms (enabling on-the-fly trade execution and tracking of holdings) are underway and will continue to be a priority in the coming year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:51:41.717Z",
+  "model": "deepseek-v4-flash"
+}

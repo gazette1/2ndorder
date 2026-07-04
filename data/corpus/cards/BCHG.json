@@ -1,0 +1,52 @@
+{
+  "cik": "0001732409",
+  "ticker": "BCHG",
+  "name": "Grayscale Bitcoin Cash Trust (BCH)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001732409-25-000005",
+    "filedAt": "2025-09-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1732409/000173240925000005/bchg-20250630.htm"
+  },
+  "business": "The Trust holds BCH and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of BCH. The Shares are intended to offer investors an opportunity to gain exposure to digital assets through an investment in securities.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Grayscale Securities, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Trust holds BCH and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of BCH."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security threats to the Digital Asset Account could result in the halting of Trust operations and a loss of Trust assets or damage to the reputation of the Trust, each of which could result in a reduction in the value of the Shares."
+    },
+    {
+      "tag": "other:digital-asset-markets",
+      "stance": "risk_mention",
+      "sentence": "The price of BCH on public Digital Asset Trading Platforms has a very limited history, and during this history, BCH prices on the Digital Asset Markets more generally, and on Digital Asset Trading Platforms individually, have been volatile and subject to influence by many factors, including operational interruptions."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "Prices of BCH may be affected due to stablecoins (including Tether and USDC), the activities of stablecoin issuers and their regulatory treatment."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets tracked by CoinMarketCap.com was approximately $3,072.1 billion as of June 30, 2025, including $10.1 billion for BCH.",
+      "sentence": "As of June 30, 2025, the alternative digital assets tracked by CoinMarketCap.com, had a total market capitalization of approximately $3,072.1 billion (including the approximately $10.1 billion market cap of BCH), as calculated using market prices and total available supply of each digital asset, excluding tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:45:05.358Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,81 @@
+{
+  "cik": "0001521036",
+  "ticker": "LNTH",
+  "name": "Lantheus Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-073498",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526073498/lnth-20251231.htm"
+  },
+  "business": "Lantheus Holdings is a radiopharmaceutical-focused company that sells diagnostic imaging agents (PYLARIFY for prostate cancer, DEFINITY for echocardiography, Neuraceq for Alzheimer's) and provides radiopharmaceutical contract development and manufacturing (CDMO) services. Its products are used by healthcare professionals including cardiologists, neurologists, oncologists, radiologists, and urologists.",
+  "sellsTo": [
+    "hospitals",
+    "independent imaging centers",
+    "government facilities",
+    "pharmaceutical companies (for clinical trials)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Jubilant HollisterStier (JHS)",
+    "Institute for Radioelements (IRE)",
+    "Australian Nuclear Science and Technology Organisation (ANSTO)",
+    "NTP Radioisotopes (NTP)"
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "PYLARIFY, an F-18-labeled PET imaging agent targeting PSMA, was approved by the FDA in May 2021 and commercially launched in the United States in June 2021."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "DEFINITY is the most utilized ultrasound enhancing agent in the United States and is indicated for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricular chamber and to improve the delineation of the left ventricular endocardial border."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our Digital Solutions include artificial intelligence medical device software, such as aPROMISE and Automated Bone Scan Index, both of which are FDA cleared and received a European Conformity Marking."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on our computer networks and systems, some of which are managed by third-parties, to manage and store electronic information (including sensitive data such as confidential business information, personally identifiable data and personal health information), and to manage or support a variety of critical business processes and activities."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "active_investment",
+      "sentence": "PNT2002 is an investigational PSMA-targeted radiopharmaceutical therapy for the treatment of mCRPC."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "PDUFA target action date for LNTH-2501",
+      "date": "2026-03-29",
+      "sentence": "FDA has set a PDUFA target action date of March 29, 2026 for LNTH-2501."
+    },
+    {
+      "event": "PDUFA target action date for MK-6240",
+      "date": "2026-08-13",
+      "sentence": "FDA has set a PDUFA target action date of August 13, 2026 for MK-6240."
+    },
+    {
+      "event": "PDUFA target action date for new formulation of F-18 PSMA PET imaging agent",
+      "date": "2026-03-06",
+      "sentence": "the FDA has set a PDUFA target action date of March 6, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 28 to 30 million echocardiograms performed in the United States in 2024",
+      "sentence": "Based on estimates from third party sources, we believe there were approximately 28 to 30 million echocardiograms performed in the United States in 2024 (the latest time period for which full year data is available)."
+    },
+    {
+      "claim": "Approximately 5 to 9 million suboptimal echocardiograms in 2024",
+      "sentence": "Assuming that between 20% and 30% of echocardiograms produce suboptimal images, as stated in the clinical literature, we estimate that approximately 5 to 9 million echocardiograms in 2024 produced suboptimal images."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:35:12.447Z",
+  "model": "deepseek-v4-flash"
+}

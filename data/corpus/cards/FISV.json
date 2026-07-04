@@ -1,0 +1,55 @@
+{
+  "cik": "0000798354",
+  "ticker": "FISV",
+  "name": "FISERV INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000798354-26-000009",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm"
+  },
+  "business": "Fiserv, Inc. is a leading global provider of payments and financial services technology solutions. We serve clients around the globe, including merchants, banks, credit unions, other financial institutions, corporate and public sector clients. Our products include account processing, digital banking, card issuer processing, merchant acquiring, and the Clover point-of-sale platform.",
+  "sellsTo": [
+    "merchants",
+    "banks",
+    "credit unions",
+    "financial institutions",
+    "corporate clients",
+    "public sector clients",
+    "small businesses",
+    "enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Fiserv, Inc. is a leading global provider of payments and financial services technology solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We also provide security, risk and fraud management solutions, which incorporate machine learning-based predictive technology, that help financial institutions operate and grow their business by preventing fraud."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "We are embedding artificial intelligence (AI) capabilities in our account processing solutions, led by Finxact."
+    },
+    {
+      "tag": "other:stablecoin",
+      "stance": "active_investment",
+      "sentence": "We are building our stablecoin capabilities with the launch of FIUSD, embedded within our existing banking and payments ecosystem"
+    },
+    {
+      "tag": "other:embedded-finance",
+      "stance": "core_product",
+      "sentence": "Additionally, our embedded finance solutions enable merchants and others to deliver personalized financial experiences to their customers through a combination of Fiserv solutions including Finxact, Payfare, Commerce Hub, card manufacturing and processing, as well as third-party services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:35:34.449Z",
+  "model": "deepseek-v4-flash"
+}

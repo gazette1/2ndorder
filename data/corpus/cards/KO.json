@@ -1,0 +1,73 @@
+{
+  "cik": "0000021344",
+  "ticker": "KO",
+  "name": "COCA COLA CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010047",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm"
+  },
+  "business": "The Coca-Cola Company is a total beverage company that sells beverage products bearing its trademarks in more than 200 countries and territories. It owns or licenses and markets numerous beverage brands including Coca-Cola, Sprite, Fanta, and others. The company generates revenue by selling concentrates and syrups to independent bottling partners, and also through finished product operations.",
+  "sellsTo": [
+    "Consumers worldwide",
+    "Independent bottling partners",
+    "Distributors",
+    "Wholesalers",
+    "Retailers",
+    "Fountain retailers",
+    "E-commerce retailers"
+  ],
+  "namedCustomers": [
+    "Coca-Cola FEMSA",
+    "Coca-Cola Europacific Partners plc",
+    "Coca-Cola HBC AG",
+    "Arca Continental",
+    "Swire Coca-Cola Limited",
+    "Monster Beverage Corporation"
+  ],
+  "namedSuppliers": [
+    "Cutrale Citrus Juices U.S.A., Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Coca-Cola Company is a total beverage company, and beverage products bearing our trademarks, sold in the United States since 1886, are now sold in more than 200 countries and territories."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The rapid growth of e commerce may create additional consumer price deflation by, among other things, facilitating comparison shopping, and could potentially threaten the value of some of our legacy route-to-market strategies and thus negatively affect revenues."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are also subject to various federal, state and international laws and regulations related to cybersecurity, privacy and data protection"
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Disruption of our supply chain, including increased commodity, raw material, packaging, energy, transportation and other input costs, may adversely affect our financial condition or results of operations."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Adverse weather conditions may affect the supply of agricultural commodities from which key ingredients for our products are derived and manufactured."
+    },
+    {
+      "tag": "other:weight-loss-drugs",
+      "stance": "risk_mention",
+      "sentence": "the effects or perceived effects of the usage of weight-loss drugs on consumption patterns"
+    },
+    {
+      "tag": "other:digitalization",
+      "stance": "risk_mention",
+      "sentence": "If we are not successful in our efforts to digitalize the Coca-Cola system, our financial results could be negatively affected."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:50:51.149Z",
+  "model": "deepseek-v4-flash"
+}

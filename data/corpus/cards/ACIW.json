@@ -1,0 +1,67 @@
+{
+  "cik": "0000935036",
+  "ticker": "ACIW",
+  "name": "ACI WORLDWIDE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000935036-26-000011",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm"
+  },
+  "business": "ACI Worldwide develops, markets, installs, and supports software solutions for intelligent payments orchestration. Its products enable banks, merchants, and billers to process and manage digital payments, enable omni-commerce payments, present and process bill payments, and manage fraud and risk. The company also provides professional services such as implementation, integration, and support.",
+  "sellsTo": [
+    "banks",
+    "intermediaries",
+    "merchants",
+    "billers",
+    "third-party digital payment processors",
+    "payment associations",
+    "switch interchanges"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft Corporation",
+    "Amazon",
+    "HPE",
+    "IBM",
+    "Red Hat",
+    "Oracle",
+    "Concerto",
+    "Opus Technologies",
+    "Synechron",
+    "Cognizant Technology Solutions Corporation",
+    "Diebold",
+    "NCR",
+    "Wincor-Nixdorf",
+    "Visa",
+    "Mastercard",
+    "Swift"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "ACI develops, markets, installs, and supports a broad line of software solutions that deliver intelligent payments orchestration to banks, merchants, and billers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "ACI Fraud Management for merchants and billers provides a combination of patented AI technology, referred to as incremental machine learning models, fraud and payments data, predictive and behavioral analytics, positive profiling, customizable fraud strategies, expert support, and consortium data to mitigate risks and reduce the burden of compliance, delivered as a multi-tenant platform, deployed in the public cloud, or on-premises."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "ACI Fraud Management for financial institutions offers banks, intermediaries, and merchants with private-label portfolios a robust, sophisticated, and easy-to-integrate solution that is able to deliver precise and actionable intelligence in real time by using a combination of sophisticated AI powered algorithms, data orchestration capabilities, network intelligence, and advanced predictive analytics to help prevent fraud and reduce the burden of compliance, delivered as a service, or deployed in the public cloud, or on-premises."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of ACI Connetic cloud-native banking platform",
+      "date": "2025",
+      "sentence": "ACI Connetic our fully cloud native banking platform launched in 2025 advances this strategy by conforming fully to Cloud Native Computing Foundation principles and by being deployable across public cloud environments such as Microsoft Azure and Amazon Web Services, as well as customers private clouds."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:50:10.915Z",
+  "model": "deepseek-v4-flash"
+}

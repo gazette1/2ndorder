@@ -1,0 +1,44 @@
+{
+  "cik": "0001746618",
+  "ticker": "RVLV",
+  "name": "Revolve Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071307",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1746618/000119312526071307/rvlv-20251231.htm"
+  },
+  "business": "REVOLVE is the next-generation fashion retailer for Millennial and Generation Z consumers, selling a curated offering of over 140,000 apparel, footwear, beauty, and accessories styles through two complementary segments, REVOLVE and FWRD. The company connects a community of millions of consumers, thousands of global fashion influencers, and over 1,600 emerging, established, and owned brands. It sources a significant portion of its products from China and other countries, and relies on third-party logistics providers for shipping.",
+  "sellsTo": [
+    "Millennial and Generation Z consumers",
+    "United States",
+    "International markets (e.g., China, India)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "UPS",
+    "FedEx",
+    "DHL"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "REVOLVE is the next-generation fashion retailer for Millennial and Generation Z consumers."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We primarily rely on two major vendors for our shipping."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Over the course of 2025, we offered over 1,200 emerging and established brands through REVOLVE, including 28 owned brands, and over 500 brands through FWRD."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:03:13.801Z",
+  "model": "deepseek-v4-flash"
+}

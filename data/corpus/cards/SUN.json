@@ -1,0 +1,67 @@
+{
+  "cik": "0001552275",
+  "ticker": "SUN",
+  "name": "Sunoco LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001552275-26-000021",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000021/sun-20251231.htm"
+  },
+  "business": "Sunoco LP is a master limited partnership engaged in energy infrastructure and distribution of motor fuels across 32 countries and territories in North America, the Greater Caribbean and Europe. It operates over 14,000 miles of pipeline and over 160 terminals, and distributes over 15 billion gallons annually to approximately 11,000 Sunoco and partner branded locations, as well as independent dealers and commercial customers. It also owns a refinery (Burnaby Refinery) that produces gasoline, diesel, and jet fuel.",
+  "sellsTo": [
+    "third-party dealers and distributors",
+    "commission agent operators",
+    "commercial businesses",
+    "directly operated convenience retail facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Chevron",
+    "Exxon",
+    "Phillips 66",
+    "Valero"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are primarily engaged in energy infrastructure and distribution of motor fuels across 32 countries and territories in North America, the Greater Caribbean and Europe."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The refinery meets federal and provincial regulations for lower carbon intensity transportation fuels through a combination of co-processing of bio feedstocks (i.e. canola oil, tallow, tall oil and others) and blending of low-carbon intensity fuels such as bio-diesel, renewable diesel, ethanol and others."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "We cannot predict whether or not these regulatory repeals will ultimately be successful or if future administrations may seek to restore incentives and further promote or mandate the adoption of electric vehicles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The information and operational technology infrastructure we use is important to the operation of our business and to our ability to perform"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Parkland",
+      "date": "2025-10-31",
+      "sentence": "On October 31, 2025, we completed the previously announced acquisition of Parkland, whereby Sunoco Retail LLC (Sunoco Retail), a wholly owned corporate subsidiary of the Partnership, indirectly acquired all the outstanding shares of Parkland, in exchange for cash and SunocoCorp units that were contributed by SunocoCorp to the Partnership at the close of the Parkland Acquisition."
+    },
+    {
+      "event": "Acquisition of TanQuid",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, the Partnership completed the previously announced acquisition of TanQuid for approximately 465 million (approximately $540 million as of January 16, 2026), including approximately 300 million of assumed debt, less approximately 39 million of cash acquired."
+    },
+    {
+      "event": "Commitment to ensure SunocoCorp unitholders receive equivalent distributions for two years",
+      "date": "2025-10-31",
+      "sentence": "For a period of two years following closing of the transaction, Sunoco will ensure that SunocoCorp unitholders receive distributions on a per unit basis that are equivalent to the per unit distributions to Sunoco unitholders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:03:43.224Z",
+  "model": "deepseek-v4-flash"
+}

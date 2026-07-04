@@ -1,0 +1,66 @@
+{
+  "cik": "0001389545",
+  "ticker": "SDEV",
+  "name": "Stablecoin Development Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009090",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926009090/nby20251231_10k.htm"
+  },
+  "business": "We have adopted a capital allocation strategy focused on acquiring digital assets that provide exposure to economic participation within open digital financial networks. Our core business consists of the accumulation, holding, and deployment of operating digital assets for use within blockchain-based networks to support protocol-level services, including staking, governance participation, validation, and related activities. We also continue to maintain a limited legacy wound care business.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Fireblocks, Inc.",
+    "Payward Financial, Inc. (Kraken)",
+    "Station70"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "SKY is the initial and sole digital asset approved by the Digital Asset Strategy Advisory Committee as of the date of this filing"
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "active_investment",
+      "sentence": "The Sky network (also referred to herein as the Sky Protocol) is a decentralized protocol developed around the USDS stablecoin that is managed by Sky ecosystem governance."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "active_investment",
+      "sentence": "USDS is the native stablecoin of the Sky Protocol. USDS was introduced in late 2024 as an upgraded version of the DAI stablecoin."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "SKY supports staking, and we intend to stake SKY, for which efforts we may receive rewards."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyberattack or other malicious attack on the SKY Protocol could have a material impact on the value of SKY held by the Company."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks relating to the custody of our SKY tokens, including the loss or destruction of private keys required to access our SKY tokens and cyberattacks or other data loss relating thereto."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Decentralized finance arrangements may expose us to risks of smart contract risk, operational failures and cybersecurity threats."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Special meeting of stockholders to approve conversion of pre-funded warrants",
+      "date": "2026-03-12",
+      "sentence": "upon the receipt of stockholder approval at the March 12, 2026 special meeting of stockholders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:32:54.656Z",
+  "model": "deepseek-v4-flash"
+}

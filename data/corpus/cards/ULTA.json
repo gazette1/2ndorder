@@ -1,0 +1,72 @@
+{
+  "cik": "0001403568",
+  "ticker": "ULTA",
+  "name": "Ulta Beauty, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-035243",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926035243/ulta-20260131x10k.htm"
+  },
+  "business": "Ulta Beauty, Inc. is an international specialty beauty retailer offering cosmetics, fragrance, skin care, wellness, hair care, and salon services. It targets beauty enthusiasts and operates in the U.S., U.K., Ireland, Mexico, and the Middle East. It differentiates through a broad assortment, omnichannel footprint, loyalty program, and guest experiences.",
+  "sellsTo": [
+    "beauty enthusiasts",
+    "U.S. and international consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "L'Oréal",
+    "Estée Lauder"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Ulta Beauty, Inc. (we, us, our, Ulta Beauty, or the Company) is an international specialty beauty retailer and a premier beauty destination for cosmetics, fragrance, skin care products, wellness products, hair care products, and salon services."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company's digital channels enable always-on shopping and discovery, and our diverse fulfillment options, including buy online pick-up in store, buy online pick-up curbside, ship from store, ship from distribution center, and same-day delivery, provide guests with value and convenience."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to risks relating to our information technology systems, and any failure to adequately protect our critical information technology systems, successfully upgrade our information technology systems, or any material disruption of our information systems could negatively impact financial results and materially adversely affect our business operations, particularly during the holiday season."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use or misuse of AI or the failure to use AI present risks and challenges that may negatively affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Space NK completed",
+      "date": "2025-07-10",
+      "sentence": "On July 10, 2025, the Company announced the acquisition of Space NK, a leading British beauty retailer."
+    },
+    {
+      "event": "Target Ulta Beauty at Target partnership concludes",
+      "date": "2026-08-01",
+      "sentence": "On August 14, 2025, Ulta Beauty and Target announced a mutual agreement to not renew the Ulta Beauty at Target shop-in-shop partnership when the current agreement concludes in August 2026."
+    },
+    {
+      "event": "UB Marketplace launch",
+      "date": null,
+      "sentence": "In fiscal 2025, the Company launched UB Marketplace, an integrated online marketplace accessible through Ulta U.S.'s e-commerce channels."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately $126 billion in sales for the U.S. beauty products and salon services industry in 2025.",
+      "sentence": "In 2025, this market represented approximately $126 billion in sales according to Euromonitor International and IBIS World Inc."
+    },
+    {
+      "claim": "Approximately 140 million beauty enthusiasts in the U.S.",
+      "sentence": "Based on the Company's consumer insights research, management estimates there are approximately 140 million beauty enthusiasts in the U.S."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:47:14.542Z",
+  "model": "deepseek-v4-flash"
+}

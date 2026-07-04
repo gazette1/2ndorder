@@ -1,0 +1,62 @@
+{
+  "cik": "0000200406",
+  "ticker": "JNJ",
+  "name": "JOHNSON & JOHNSON",
+  "source": {
+    "form": "10-K",
+    "accession": "0000200406-26-000016",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm"
+  },
+  "business": "Johnson & Johnson engages in research, development, manufacture and sale of healthcare products through two segments: Innovative Medicine (pharmaceuticals in oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular/metabolism) and MedTech (cardiovascular, orthopaedics, surgery, and vision products). Products are distributed to retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription or professional use.",
+  "sellsTo": [
+    "retailers",
+    "wholesalers",
+    "distributors",
+    "hospitals",
+    "healthcare professionals",
+    "physicians",
+    "nurses",
+    "eye care professionals",
+    "clinics"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    {
+      "name": "Genmab A/S",
+      "sentence": "Genmab A/S owns two patent families related to DARZALEX, and Janssen Biotech, Inc. (a wholly-owned subsidiary of the Company) has an exclusive license to those patent families."
+    }
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "The Innovative Medicine segment is focused on the following therapeutic areas: Oncology, Immunology, Neuroscience, Pulmonary Hypertension, Infectious Diseases, and Cardiovascular and Metabolism."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The MedTech segment develops and manufactures a broad portfolio of products used in cardiovascular, orthopaedics, surgery, and vision."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "This portfolio includes instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned separation of Orthopaedics business",
+      "date": null,
+      "sentence": "In October 2025, the Company announced its intention to separate its Orthopaedics business. The Company intends to explore multiple paths to effect the planned separation with a targeted completion within 18 to 24 months after the initial announcement."
+    },
+    {
+      "event": "Agreement with U.S. Administration on medicine access and costs",
+      "date": "2026-01",
+      "sentence": "In January 2026, the Company reached an agreement with the U.S. Administration to improve access to medicines and lower costs for U.S. patients."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:49:17.142Z",
+  "model": "deepseek-v4-flash"
+}

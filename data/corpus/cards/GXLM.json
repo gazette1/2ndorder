@@ -1,0 +1,68 @@
+{
+  "cik": "0001761325",
+  "ticker": "GXLM",
+  "name": "Grayscale Stellar Lumens Trust (XLM)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-297570",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1761325/000119312525297570/gxlm-20250930.htm"
+  },
+  "business": "The Trust holds XLM and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of XLM. The Trust's investment objective is for the value of the Shares (based on XLM per Share) to reflect the value of the XLM held by the Trust, determined by reference to the Index Price, less the Trust's expenses and other liabilities.",
+  "sellsTo": [
+    "Investors on OTCQX"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Grayscale Securities, LLC",
+    "CoinDesk"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust holds XLM and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of XLM."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Competition from the emergence or growth of other digital assets could have a negative impact on the price of XLM and adversely affect the value of the Shares."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Stellar Network is in direct competition with other smart contract platforms, such as the Ethereum, Solana, Polkadot, Avalanche and Cardano networks."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Competition from central bank digital currencies (CBDCs) and emerging payments initiatives involving financial institutions could adversely affect the price of XLM and other digital assets."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Prices of XLM may be affected due to stablecoins (including Tether and U.S. Dollar Coin (USDC)), the activities of stablecoin issuers and their regulatory treatment."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The Stellar Development Foundation has control over the distribution of a significant amount of XLM."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Change in Index from CoinDesk Stellar Price Index (XLMX) to CoinDesk XLM CCIXber Reference Rate",
+      "date": "2025-10-01",
+      "sentence": "As of October 1, 2025, the Index is the CoinDesk XLM CCIXber Reference Rate."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "As of September 30, 2025, the alternative digital assets tracked by CoinMarketCap.com, had a total market capitalization of approximately $3,632.7 billion (including the approximately $11.6 billion market cap of XLM).",
+      "sentence": "As of September 30, 2025, the alternative digital assets tracked by CoinMarketCap.com, had a total market capitalization of approximately $3,632.7 billion (including the approximately $11.6 billion market cap of XLM), as calculated using market prices and total available supply of each digital asset, excluding tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:43:03.141Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,48 @@
+{
+  "cik": "0002029297",
+  "ticker": "GTAO",
+  "name": "Grayscale Bittensor Trust (TAO)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104209",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2029297/000119312526104209/tao-20251231.htm"
+  },
+  "business": "The Trust is a passive investment vehicle that holds TAO tokens and issues Shares to provide investors with exposure to TAO. Its investment objective is for the value of the Shares to reflect the value of TAO held by the Trust, less expenses. The Trust does not engage in active management, staking, or derivatives.",
+  "sellsTo": [
+    "Investors seeking exposure to TAO through a security",
+    "Authorized Participants (currently only Grayscale Securities, LLC)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BitGo Trust Company, Inc. (Custodian)",
+    "CoinDesk Indices, Inc. (Index Provider)",
+    "Grayscale Securities, LLC (Authorized Participant)"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The Bittensor Network was designed to facilitate an open access, peer-to-peer marketplace for artificial intelligence (AI) models."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security threats to the Digital Asset Account could result in the halting of Trust operations and a loss of Trust assets or damage to the reputation of the Trust, each of which could result in a reduction in the value of the Shares."
+    },
+    {
+      "tag": "other:digital-asset-market",
+      "stance": "risk_mention",
+      "sentence": "Competition from the emergence or growth of other digital assets could have a negative impact on the price of TAO and adversely affect the value of the Shares."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets tracked by CoinMarketCap.com was approximately $2,678.0 billion as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com, had a total market capitalization of approximately $2,678.0 billion (including the approximately $2.3 billion market cap of TAO), as calculated using market prices and total available supply of each digital asset, excluding stablecoins and tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:44:09.556Z",
+  "model": "deepseek-v4-flash"
+}

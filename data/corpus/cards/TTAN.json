@@ -1,0 +1,50 @@
+{
+  "cik": "0001638826",
+  "ticker": "TTAN",
+  "name": "ServiceTitan, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001638826-26-000028",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000028/ttan-20260131.htm"
+  },
+  "business": "ServiceTitan is the operating system that powers the trades, providing a cloud-based software platform that connects, manages, and automates business workflows such as advertising, job scheduling, dispatching, estimates, invoicing, and payment processing for trades businesses.",
+  "sellsTo": [
+    "trades businesses in the United States and Canada",
+    "residential homes",
+    "commercial buildings",
+    "new construction"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft",
+    "OpenAI"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our usage-based revenue consists primarily of payment processing, where we connect to third-party processors to allow our customers to accept payments."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We have incorporated a number of AI features into our platform and believe that providing AI tools and insights will become increasingly important to the value that our solutions and services deliver to our customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the use of AI applications may result in future cybersecurity incidents that implicate the Personal Information of end users of such applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into second amendment to credit agreement increasing revolving credit facility to $250 million and extending term to January 30, 2031",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, we entered into a second amendment (the Second Amendment) to the Original Credit Agreement (as amended by the First Amendment and the Second Amendment, the Amended Credit Agreement) that increased the total borrowing capacity of the revolving credit facility made available under the Amended Credit Agreement from $140.0 million to $250.0 million and extended the term of the Amended Credit Agreement through January 30, 2031."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:35:08.216Z",
+  "model": "deepseek-v4-flash"
+}

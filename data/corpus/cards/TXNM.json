@@ -1,0 +1,90 @@
+{
+  "cik": "0001108426",
+  "ticker": "TXNM",
+  "name": "TXNM ENERGY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001108426-26-000006",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000006/pnm-20251231.htm"
+  },
+  "business": "TXNM Energy Inc is a holding company with two regulated electric utilities, PNM and TNMP, providing electric generation, transmission, and distribution services to approximately 842,000 residential, commercial, and industrial customers in New Mexico and Texas.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers",
+    "wholesale transmission customers",
+    "retail electric providers (REPs)"
+  ],
+  "namedCustomers": [
+    "Meta"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Data center load, including distribution and transmission, has increased 70.5% in 2025 compared to 2024."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "The NMPRC has approved plans for PNM to procure energy and RECs from additional resources to serve retail customers and a data center located in PNM's service territory, some of which are expected to be in service by summer of 2026 and others that will be available for the 2028 summer peak."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "PNM's approved resources have a generation capacity of 1,453 MW. This includes approximately 285 MW of additional capacity under the Community Solar Act which will provide customers an additional option of accessing solar energy."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "TNMP owns 1,049 miles of electric transmission lines that interconnect with other utilities in Texas."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "PNM's plan to modernize its electricity grid through infrastructure and technology improvements increases the efficiency, reliability, resilience, and security of PNM's electric system."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "PNM is participating in the three units of PVNGS with APS (the operating agent), SRP, EPE, SCE, SCPPA, and the Department of Water and Power of the City of Los Angeles."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "PNM implemented its first TEP in 2022 and received approval of its 2024-2026 TEP in 2024."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company faces the risk of physical and cybersecurity attacks, both threatened and actual, against generation facilities, transmission and distribution infrastructure, information technology systems, and network infrastructure, which could negatively impact the ability of the Company to generate, transmit, and distribute power, or otherwise operate facilities in the most efficient manner or at all."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Blackstone Infrastructure expected to close",
+      "date": "2026-12-31",
+      "sentence": "The Merger Agreement does not contain any financing condition and is currently expected to close in the second half of 2026."
+    },
+    {
+      "event": "TNMP Base Rate Review rates expected effective",
+      "date": "2026-06-30",
+      "sentence": "If approved by the PUCT, the new rates are expected to become effective in mid-2026."
+    },
+    {
+      "event": "PNM to file 2026 Integrated Resource Plan",
+      "date": "2026-09-01",
+      "sentence": "PNM expects to file its 2026 IRP with the NMPRC on or before September 1, 2026."
+    },
+    {
+      "event": "PNM plans to join Extended Day-Ahead Market (EDAM)",
+      "date": "2027-01-01",
+      "sentence": "PNM also plans to join the EDAM, which is a voluntary day-ahead regional market that expands on CAISO's EIM market, as early as 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:41:08.843Z",
+  "model": "deepseek-v4-flash"
+}

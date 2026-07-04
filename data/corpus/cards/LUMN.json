@@ -1,0 +1,80 @@
+{
+  "cik": "0000018926",
+  "ticker": "LUMN",
+  "name": "Lumen Technologies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000018926-26-000014",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/18926/000001892626000014/lumn-20251231.htm"
+  },
+  "business": "Lumen Technologies provides digital networking services to enterprise and mass market customers. The company operates two segments: Business (serving large enterprise, mid-market, public sector, wholesale, and international customers) and Mass Markets (serving residential and small business customers). Products include dark fiber, edge cloud, IP, managed security, SD-WAN, optical services, Ethernet, VPN, legacy voice, and private line, among others.",
+  "sellsTo": [
+    "Large Enterprise",
+    "Mid-Market Enterprise",
+    "Public Sector",
+    "Wholesale",
+    "International",
+    "Residential",
+    "Small Business"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a leading digital networking services company, empowering enterprise businesses to fuel growth in a multi-cloud, AI-first marketplace by connecting people, data, and applications quickly, securely, and effortlessly."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Managed Security Services : We provide enterprise security solutions that help our customers secure networks, mitigate malicious attacks, and identify potential security threats."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "expand our network capacity through our artificial intelligence (\"AI\") backbone initiative"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "If AI-related demand proves weaker, slower, or materially different from our assumptions in strategic plans or guidance, we risk misallocating resources and failing to meet growth objectives."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Shifts in data center connectivity demand could reduce or even eliminate future PCF profitability."
+    },
+    {
+      "tag": "other:edge-cloud",
+      "stance": "core_product",
+      "sentence": "Edge Cloud Services : We provide access to both public and private cloud solutions that allow our customers to optimize cost and performance by offloading workloads. Lumen s cloud access products are designed to leverage our network edge to provide low-latency secure services for our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Mass Markets Fiber-to-the-Home business to AT&T",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we completed our sale of our Mass Markets Fiber-to-the-Home business in the Territory (\"Mass Markets Fiber-to-the-Home business\") to AT&T in exchange for gross cash proceeds of $5.75 billion, subject to post-closing adjustments."
+    },
+    {
+      "event": "Payment of RDOF relinquishment amounts",
+      "date": "2026-01",
+      "sentence": "In January 2026, we paid the $95 million of revenue and fees summarized above, along with an additional $4 million relating to our 2024 relinquishment as repayment of funds previously received and remittance of the fees incurred."
+    },
+    {
+      "event": "Expected receipt of federal income tax refund",
+      "date": null,
+      "sentence": "We filed a refund claim for approximately $400 million of federal estimated income taxes in July 2025 that we anticipate receiving in the first half of 2026."
+    },
+    {
+      "event": "Voluntary pension contribution",
+      "date": "2026-01",
+      "sentence": "We made a voluntary contribution to the trust for the Combined Pension Plan of $101 million in January 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:32:33.825Z",
+  "model": "deepseek-v4-flash"
+}

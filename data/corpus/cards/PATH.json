@@ -1,0 +1,71 @@
+{
+  "cik": "0001734722",
+  "ticker": "PATH",
+  "name": "UiPath, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001734722-26-000012",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000012/path-20260131.htm"
+  },
+  "business": "UiPath sells an integrated enterprise software platform for agentic automation, combining AI agents, robots, and people to orchestrate end-to-end business processes. The platform is used by enterprises across various industries including financial services, healthcare, and manufacturing.",
+  "sellsTo": [
+    "financial services",
+    "insurance",
+    "healthcare",
+    "public sector",
+    "retail",
+    "supply chain",
+    "manufacturing",
+    "enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our platform allows users to seamlessly design and combine agentic AI, UI automations, API integrations, and AI-based document understanding, while supporting low-code, pro-code, and pre-built AI agent templates in a unified environment."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "UI automation capabilities use a combination of document understanding and AI Computer Vision to interact with application interfaces, including the ability to adapt to changes in those interfaces without manual reconfiguration."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our platform provides centralized governance, security, and standard-based architecture that integrates with existing technology and AI ecosystems, allowing organizations to safely scale AI adoption in an enterprise environment with built-in guardrails."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of UiPath Platform version 25.10",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, we released version 25.10 of the UiPath Platform."
+    },
+    {
+      "event": "Acquisition of Peak",
+      "date": "2025-03-01",
+      "sentence": "In March 2025, we acquired Peak, a U.K.-based software company offering an AI platform that provides pricing and inventory intelligence to customers in manufacturing and retail."
+    },
+    {
+      "event": "Acquisition of WorkFusion, Inc.",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we acquired WorkFusion, Inc., a U.S.-based software company specializing in AI agents for financial crimes compliance."
+    },
+    {
+      "event": "Release of purpose-built vertical solutions",
+      "date": "2026-02-01",
+      "sentence": "Further, we use our platform as a foundation for the introduction of new purpose-built vertical solutions, such as medical records summarization for healthcare, loan quality control for commercial lenders, and quote generation and approval for supply chain and retail, all released in February 2026."
+    },
+    {
+      "event": "Authorization of new $500 million stock repurchase program",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, our board of directors authorized a new stock repurchase program, pursuant to which we may repurchase from time to time up to $500.0 million of our Class A common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:45:14.272Z",
+  "model": "deepseek-v4-flash"
+}

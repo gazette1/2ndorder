@@ -1,0 +1,60 @@
+{
+  "cik": "0000822416",
+  "ticker": "PHM",
+  "name": "PULTEGROUP INC/MI/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000822416-26-000007",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/phm-20251231.htm"
+  },
+  "business": "PulteGroup is a homebuilder that constructs and sells single-family homes. It also provides mortgage financing, title services, and insurance agency commissions through its Financial Services segment. Customers are homebuyers in 47 markets across 26 states.",
+  "sellsTo": [
+    "homebuyers",
+    "move-up buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Homebuilding offers a broad product line to meet the needs of homebuyers in our targeted markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Information technology failures or data security breaches could harm our business and result in substantial costs."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our development, integration, and use of artificial intelligence ( AI ) technology in our operations remains in the early phases."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repay or refinance Pulte Mortgage's master repurchase agreement",
+      "date": "2026-08-12",
+      "sentence": "In August 2026, we need to repay or refinance Pulte Mortgage's master repurchase agreement with third-party lenders"
+    },
+    {
+      "event": "Unsecured senior notes due",
+      "date": "2026-03-01",
+      "sentence": "our unsecured senior notes, the next tranche of which becomes due in March 2026"
+    },
+    {
+      "event": "Dividend increase effective",
+      "date": "2026-01-01",
+      "sentence": "an 18% increase in our dividends from $0.22 to $0.26 per share effective with our January 2026 dividend payment"
+    },
+    {
+      "event": "Share repurchase authorization effective",
+      "date": "2025-01-30",
+      "sentence": "approving an additional $1.5 billion share repurchase authorization effective January 2025"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:37:45.255Z",
+  "model": "deepseek-v4-flash"
+}

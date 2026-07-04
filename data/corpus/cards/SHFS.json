@@ -1,0 +1,57 @@
+{
+  "cik": "0001854963",
+  "ticker": "SHFS",
+  "name": "SHF Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016778",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226016778/form10-k.htm"
+  },
+  "business": "SHF Holdings provides compliance infrastructure, technology, and loan origination services to financial institutions that wish to offer banking and lending services to cannabis-related businesses (CRBs). The company generates revenue through account fee income, loan program income, and investment income on CRB deposits held at partner financial institutions.",
+  "sellsTo": [
+    "Financial institutions serving the cannabis industry",
+    "Cannabis-related businesses (CRBs)",
+    "Ancillary service providers to the cannabis industry"
+  ],
+  "namedCustomers": [
+    "Partner Colorado Credit Union (PCCU)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide compliance and loan origination services to financial institutions that wish to offer business banking, private banking, and commercial banking services to clients operating in or adjacent to the state-legal cannabis industry."
+    },
+    {
+      "tag": "other:cannabis-banking",
+      "stance": "core_product",
+      "sentence": "Our mission is to provide reliable, compliant financial services to the legal cannabis, hemp, and related industries by enabling financial institution customers to offer compliant banking, lending, and other financial services to CRBs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Second Amended CAA effective date (retroactive to October 1, 2025)",
+      "date": "2025-10-01",
+      "sentence": "The Second Amended CAA increased the Company's share of loan program income from approximately 35% to up to 65% and has been recognized as a Type 1 subsequent event under ASC 855."
+    },
+    {
+      "event": "Establishment of $150 million Equity Line of Credit (ELOC) with CREO",
+      "date": "2025-09-30",
+      "sentence": "The September 2025 Recapitalization ... resulted in the establishment of the $150 million Equity Line of Credit (ELOC) with CREO Investments LLC (CREO) that can potentially be expanded to $500 million."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. state-licensed cannabis market revenues estimated at approximately $30.4 billion in 2025, projected to exceed $76 billion by 2030.",
+      "sentence": "In 2025, total U.S. state-licensed cannabis market revenues were estimated at approximately $30.4 billion, with forecasts projecting the market to reach approximately $31.5 billion in 2025 and potentially exceed $76 billion by 2030, reflecting a compound annual growth rate of approximately 19%."
+    },
+    {
+      "claim": "Intoxicating hemp market estimated value of $21.8 billion in 2025.",
+      "sentence": "In addition, the intoxicating hemp market had an estimated value of $21.8 billion in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:30:06.043Z",
+  "model": "deepseek-v4-flash"
+}

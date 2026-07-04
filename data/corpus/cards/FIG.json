@@ -1,0 +1,53 @@
+{
+  "cik": "0001579878",
+  "ticker": "FIG",
+  "name": "Figma, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009228",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm"
+  },
+  "business": "Figma sells a cloud-based platform for collaborative design and product development, including products like Figma Design, FigJam, Dev Mode, Figma Slides, Figma Make, Figma Sites, Figma Buzz, Figma Draw, and Figma Weave. It serves teams from freelancers to large enterprises across various industries such as banking, consumer-packaged goods, energy, manufacturing, and software.",
+  "sellsTo": [
+    "independent freelancers",
+    "product teams at Fortune 500 companies",
+    "organizations in banking, consumer-packaged goods, energy, manufacturing, and software",
+    "government customers",
+    "educators and students"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "For example, in the short-term, we expect that our AI investments and use of AI technologies, including spend on AI inference and model training, will impact our cost of revenue, research and development expenses, and sales and marketing expenses, which we expect to negatively impact our gross margins and operating margins."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have embedded AI deeply across the Figma platform through products like Figma Make, which lets anyone turn simple text prompts or existing Figma designs into workable prototypes or even full web apps, and features that bring the power of prompting and editing with AI directly to the Figma canvas."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, we held approximately 173 Bitcoins for investment purposes with a fair value of $15.1 million based on observable market prices, which is included within digital assets, non-current on the consolidated balance sheets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Enforcement of AI credit limits and rollout of pay-as-you-go AI credit plans",
+      "date": "2026-03-01",
+      "sentence": "Starting in March 2026, we intend to begin enforcing AI credit limits and start rolling out the ability for customers to purchase an additional AI credit subscription or opt into a pay-as-you-go AI credit plan based on their needs."
+    },
+    {
+      "event": "Received FedRAMP authorization",
+      "date": null,
+      "sentence": "We received FedRAMP authorization in early 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:15:28.811Z",
+  "model": "deepseek-v4-flash"
+}

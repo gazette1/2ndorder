@@ -1,0 +1,46 @@
+{
+  "cik": "0001014473",
+  "ticker": "VRSN",
+  "name": "VERISIGN INC/CA",
+  "source": {
+    "form": "10-K",
+    "accession": "0001014473-26-000006",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000006/vrsn-20251231.htm"
+  },
+  "business": "Verisign is a global provider of critical internet infrastructure and domain name registry services, enabling internet navigation for many of the world's most recognized domain names. It provides registration services and authoritative resolution for the .com and .net top-level domains. The company sells domain name registration services to ICANN-accredited registrars, who in turn sell to end-users.",
+  "sellsTo": [
+    "ICANN-accredited registrars",
+    "registrants (individuals and organizations)",
+    "internet users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "As an operator of critical internet infrastructure, we experience a high rate of cyber-attacks and attempted security breaches targeting our systems and services, including the most sophisticated forms of attacks, such as advanced persistent threat attacks, exploitation of zero-day vulnerabilities, ransomware attacks, and social engineering attacks."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "For example, recent advances in AI-based tools have made, and will continue to make, cyber-attacks more sophisticated, harder to defend, and easier and faster to launch."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Our main operations infrastructure consists of secure data centers in Dulles, Virginia; Ashburn, Virginia; and New Castle, Delaware; as well as more than 200 other points of presence around the world."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Quarterly cash dividend increase to $0.81 per share",
+      "date": "2026-02-27",
+      "sentence": "On February 3, 2026, our Board of Directors approved a 5.2% increase in the quarterly cash dividend to $0.81 per share of the Company's outstanding common stock to stockholders of record as of the close of business on February 19, 2026, payable on February 27, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:41:16.166Z",
+  "model": "deepseek-v4-flash"
+}

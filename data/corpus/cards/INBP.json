@@ -1,0 +1,49 @@
+{
+  "cik": "0001016504",
+  "ticker": "INBP",
+  "name": "INTEGRATED BIOPHARMA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-029711",
+    "filedAt": "2025-09-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1016504/000143774925029711/inbp20250630_10k.htm"
+  },
+  "business": "The Company is engaged primarily in the business of manufacturing, distributing, marketing and sale of vitamins, nutritional supplements and herbal products. The Company's customers are located primarily throughout the United States and Luxembourg.",
+  "sellsTo": [
+    "Dietary supplement companies",
+    "Contract manufacturing clients",
+    "Nutraceutical product distributors"
+  ],
+  "namedCustomers": [
+    "Life Extension",
+    "Herbalife",
+    "Trusted Influencers Inc. (Hotpack Global, Inc. in 2024)",
+    "Thermosource Tooling and Manufacturing",
+    "Life Technologies, Inc.",
+    "Eastern Drayage"
+  ],
+  "namedSuppliers": [
+    "DSM Nutritional Products LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company is engaged primarily in the business of manufacturing, distributing, marketing and sale of vitamins, nutritional supplements and herbal products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity breach could result in the loss or theft of investor data or funds, the inability to access electronic systems, loss or theft of proprietary information or corporate data, disruption of our operations, physical damage to a computer or network system, or costs associated with system repairs."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "The Company has seen a slight negative impact in its margins due to inflation and tightened labor markets as the Company strives to increase prices to customers as its operating costs increase."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:13:13.948Z",
+  "model": "deepseek-v4-flash"
+}

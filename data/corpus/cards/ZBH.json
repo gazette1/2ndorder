@@ -1,0 +1,41 @@
+{
+  "cik": "0001136869",
+  "ticker": "ZBH",
+  "name": "ZIMMER BIOMET HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-059853",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526059853/zbh-20251231.htm"
+  },
+  "business": "Zimmer Biomet manufactures and markets orthopedic implants and surgical instruments for knees, hips, sports medicine, extremities, trauma, craniomaxillofacial, and thoracic procedures, as well as technology and data solutions, bone cement, and surgical products.",
+  "sellsTo": [
+    "hospitals",
+    "hospital systems",
+    "ambulatory surgical centers",
+    "doctors offices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "In the global markets for our knees, hips, and S.E.T. products, our major competitors include Johnson & Johnson MedTech (formerly the DePuy Synthes Companies of Johnson & Johnson), Stryker Corporation and Smith & Nephew plc."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and our business partners are dependent on sophisticated information technology and if we fail to effectively maintain or protect our information systems and data, including from cybersecurity events, our business could be adversely affected."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "suffer outages or disruptions in our operations, supply chain, products and/or services, including our ZBEdge ecosystem"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:51:55.907Z",
+  "model": "deepseek-v4-flash"
+}

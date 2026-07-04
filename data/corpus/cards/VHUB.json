@@ -1,0 +1,56 @@
+{
+  "cik": "0001972234",
+  "ticker": "VHUB",
+  "name": "VenHub Global, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-033427",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1972234/000121390026033427/ea0280137-10k_venhub.htm"
+  },
+  "business": "VenHub Global, Inc. sells fully autonomous robotic Smart Stores that use AI, sensors, and robotics to provide a 24/7 self-service shopping experience. The company generates revenue from the sale of Smart Stores to independent store owners and from product sales at company-owned locations. It also plans to offer SaaS and maintenance services in the future.",
+  "sellsTo": [
+    "store owners",
+    "retail partners",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "At present, our deployed AI and machine learning systems are focused on operational functions such as product verification through computer vision, robotic navigation, and predictive maintenance of hardware."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our Version 1 Smart Stores are currently available and include autonomous robotic systems for product selection, bagging, and delivery; inventory tracking and restocking alerts; a mobile application for browsing and purchasing; and store owner access to basic operational analytics."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "By utilizing advanced sensors, artificial intelligence (AI), and robotics, VenHub currently delivers a smooth and autonomous shopping experience, focused on accuracy, efficiency, and reliability."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "At present, our deployed AI and machine learning systems are focused on operational functions such as product verification through computer vision, robotic navigation, and predictive maintenance of hardware."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Like others, we are also subject to significant system or network disruptions from numerous causes, including computer viruses and other cyber-attacks, facility access issues, new system implementations and energy blackouts."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Nasdaq listing",
+      "date": "2026-01-30",
+      "sentence": "The Company was quoted on the Nasdaq Stock Market beginning on January 30, 2026, under the symbol VHUB ."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:49:21.149Z",
+  "model": "deepseek-v4-flash"
+}

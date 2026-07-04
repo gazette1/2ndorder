@@ -1,0 +1,74 @@
+{
+  "cik": "0000004962",
+  "ticker": "AXP",
+  "name": "AMERICAN EXPRESS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000004962-26-000080",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm"
+  },
+  "business": "American Express is a global payments and premium lifestyle brand powered by technology. It offers credit and charge cards, travel and lifestyle services, banking products, merchant acquiring, and network services. The company serves consumers, small businesses, mid-sized companies, and large corporations worldwide.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "mid-sized companies",
+    "large corporations",
+    "merchants",
+    "network partners"
+  ],
+  "namedCustomers": [
+    "Delta Air Lines",
+    "Marriott International",
+    "British Airways",
+    "Hilton Worldwide Holdings",
+    "Amazon",
+    "Lowe's",
+    "Coinbase",
+    "Credit Saison",
+    "Global Business Travel Group"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "active_investment",
+      "sentence": "We also continue to explore ways to deploy new and developing technologies to enhance our payments platform and customer experience, such as uses for generative artificial intelligence (AI) and the integration of our products and services in agentic commerce."
+    },
+    {
+      "tag": "other:agentic-commerce",
+      "stance": "risk_mention",
+      "sentence": "The development of agentic commerce solutions, in which autonomous or semi-autonomous AI agents initiate and execute transactions on behalf of users, has accelerated as generative AI technologies have advanced and become more popular."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "In addition, the use of stablecoins, which can be used for payments in a number of settings, including in e-commerce and cross-border and B2B payments, has grown."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Another aspect of competition is the dynamic and rapid growth of alternative payment and financing mechanisms, systems and products, which include payment facilitators and processors, digital payment, open banking and electronic wallet platforms, point-of-sale lenders and buy now, pay later products, real-time settlement and processing systems, financial technology companies, digital currencies developed by both the private sector and central banks, tokenization, blockchain and similar distributed ledger technologies, prepaid systems and gift cards, and systems linked to customer accounts or that provide payment solutions."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The use of AI & ML technologies, including generative AI and agentic commerce, has increased rapidly and may be transformative to the payments industry, heightening the risks described herein and others in ways that may be unpredictable and disadvantageous to us."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Swisscard joint venture partner's interest",
+      "date": "2026-01-12",
+      "sentence": "On January 12, 2026, we acquired our partner’s interest in our Switzerland joint venture (Swisscard AECS GmbH), resulting in Swisscard becoming a wholly owned subsidiary."
+    },
+    {
+      "event": "Increase in regular quarterly dividend",
+      "date": null,
+      "sentence": "We plan to increase the regular quarterly dividend on common shares outstanding by approximately 16 percent beginning with the first quarter 2026 dividend declaration."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:53:05.147Z",
+  "model": "deepseek-v4-flash"
+}

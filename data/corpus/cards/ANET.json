@@ -1,0 +1,68 @@
+{
+  "cik": "0001596532",
+  "ticker": "ANET",
+  "name": "Arista Networks, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001596532-26-000013",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm"
+  },
+  "business": "Arista Networks delivers a data-driven, client-to-cloud networking-as-a-service platform anchored by its Extensible Operating System (EOS) and Network Data Lake (NetDL). The company sells switching and routing platforms, software, and services to Cloud and AI Titans, AI and Specialty Providers, and Enterprise customers. Its solutions are used in AI centers, data centers, campus networks, and WANs.",
+  "sellsTo": [
+    "Cloud and AI Titans",
+    "AI and Specialty Providers",
+    "Enterprise",
+    "financial services organizations",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Jabil Inc.",
+    "Sanmina Corporation",
+    "Foxconn Hon Hai",
+    "Broadcom"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Arista Etherlink portfolio comprises a family of over twenty products designed to support the diverse range of AI Scale Out and Scale Across use cases today and Scale Up in the future."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our network-as-a-service approach now empowers customers of all sizes to seamlessly leverage their data through offerings spanning three key categories: Core (AI, Cloud, and Data Center Networking)..."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We offer a comprehensive suite of security solutions that align with the Cybersecurity and Infrastructure Security Agency's Zero Trust Maturity Model and help organizations accelerate toward optimal zero trust maturity."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Arista's Cloud-Grade Routing platforms, powered by EOS, combine high-performance routing, high port density, deep buffers, integrated dense wavelength division multiplexing (DWDM), and wire-speed encryption."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "In particular, we are primarily reliant upon our predominant merchant silicon vendor, Broadcom, for our switching chips."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Power and space constraints, along with the need for AI inference closer to the edge, are driving the need for distributed clusters spread across large geographic distances."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of new building in Santa Clara, California",
+      "date": "2026-12-31",
+      "sentence": "The estimated capital expenditures related to this project is expected to be approximately $170.0 million to $195.0 million through the end of fiscal 2026 when construction is expected to be completed."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:53:15.764Z",
+  "model": "deepseek-v4-flash"
+}

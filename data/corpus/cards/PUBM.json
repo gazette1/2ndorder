@@ -1,0 +1,44 @@
+{
+  "cik": "0001422930",
+  "ticker": "PUBM",
+  "name": "PubMatic, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001422930-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422930/000142293026000010/pubm-20251231.htm"
+  },
+  "business": "PubMatic is an independent, artificial intelligence-powered advertising technology company that provides a platform for publishers to monetize their ad inventory and for buyers to purchase digital advertising. It generates revenue primarily through fees charged to publishers and from additional solutions such as OpenWrap, Connect, Activate, and Convert.",
+  "sellsTo": [
+    "publishers",
+    "buyers (advertisers, agencies, agency trading desks, demand side platforms)",
+    "data partners and curators",
+    "retail and commerce media participants"
+  ],
+  "namedCustomers": [
+    "Google LLC",
+    "The Trade Desk, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "PubMatic, Inc. is an independent, artificial intelligence-powered advertising technology company that delivers digital advertising performance."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We own and operate our proprietary software and hardware infrastructure around the world which saves significant costs and gives us the efficiencies, control, and independence compared to companies that rely on public cloud alternatives."
+    },
+    {
+      "tag": "other:connected-tv",
+      "stance": "core_product",
+      "sentence": "For example, as streaming video continues to expand and ad-supported models become more prevalent, advertising budgets have shifted from linear television to CTV."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:10:47.451Z",
+  "model": "deepseek-v4-flash"
+}

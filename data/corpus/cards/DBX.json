@@ -1,0 +1,64 @@
+{
+  "cik": "0001467623",
+  "ticker": "DBX",
+  "name": "DROPBOX, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001467623-26-000008",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000008/dbx-20251231.htm"
+  },
+  "business": "Dropbox sells subscription-based cloud content collaboration platform to individuals, families, teams, and organizations. Customers range from freelancers to Fortune 100 companies across industries such as professional services, technology, media, education, industrial, consumer and retail, and financial services. The platform includes features for file storage, sharing, collaboration, e-signature, document analytics, and AI-powered search.",
+  "sellsTo": [
+    "individuals",
+    "families",
+    "teams",
+    "organizations",
+    "freelancers",
+    "small businesses",
+    "Fortune 100 companies",
+    "professional services",
+    "technology",
+    "media",
+    "education",
+    "industrial",
+    "consumer and retail",
+    "financial services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We have also made investments in developing products that incorporate artificial intelligence (\"AI\") technologies, further expanding the value of our platform and deepening user engagement."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Security protections. We employ strong protections for all of the data on our platform."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We have datacenter co-location facilities in Oregon, Texas, Virginia, Paris and Hamburg."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Maturity of 2026 Notes",
+      "date": "2026-03-01",
+      "sentence": "The 2026 Notes mature on March 1, 2026."
+    },
+    {
+      "event": "Repayment of 2026 Notes",
+      "date": null,
+      "sentence": "We expect to pay the 2026 Notes using proceeds from the loans prior to or at maturity in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:38:30.028Z",
+  "model": "deepseek-v4-flash"
+}

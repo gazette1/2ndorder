@@ -1,0 +1,69 @@
+{
+  "cik": "0001841425",
+  "ticker": "VGAS",
+  "name": "Verde Clean Fuels, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-021763",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1841425/000162828026021763/vgasw-20251231.htm"
+  },
+  "business": "Verde Clean Fuels owns a proprietary gas-to-liquids technology (STG+) that converts syngas from natural gas or biomass into finished gasoline, and it plans to license this technology and provide engineering, technical, and operational services. The company has not yet generated revenue and is still deploying its technology. Its strategy is focused on capital-lite opportunities such as licensing and services.",
+  "sellsTo": [
+    "fuel refiners",
+    "importers",
+    "distributors",
+    "blenders",
+    "retailers",
+    "trading organizations",
+    "energy companies",
+    "project developers",
+    "industrial operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Chemex Global, LLC (a Shaw Group company)",
+    "Koch Modular Process Systems, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our renewable gasoline, when paired with carbon capture and sequestration, represents a significant reduction in lifecycle carbon emissions as compared to the carbon emissions resulting from gasoline derived from petroleum refining."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our technology generates in-basin demand for associated natural gas resulting from oil production, alleviating pipeline and takeaway constraints."
+    },
+    {
+      "tag": "other:sustainable-aviation-fuel",
+      "stance": "risk_mention",
+      "sentence": "Our STG+ process has also been adapted to produce methanol and may be adapted to produce other transportation fuels, which could include sustainable aviation fuel or renewable diesel."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implement cost savings initiatives targeting a 50% reduction in costs in 2026 compared to 2025",
+      "date": null,
+      "sentence": "Related to our revised strategy, we have implemented and intend to continue implementing aggressive cost savings initiatives targeting a 50% reduction in costs in 2026 as compared to 2025."
+    },
+    {
+      "event": "Appointed George Burdette as CEO and engaged Roth Capital Partners as financial advisor to evaluate strategic alternatives",
+      "date": "2026-03-20",
+      "sentence": "On March 20, 2026, we announced the appointment of George Burdette as Chief Executive Officer ( CEO ) and engagement of Roth Capital Partners ( Roth ) as financial advisor to assist the Company in evaluating strategic alternatives."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Using Verde's STG+ process, waste biomass could produce over 25 billion gallons of gasoline per year",
+      "sentence": "Using Verde s STG+ process to produce gasoline from biomass, waste from forest and agricultural sources could produce over 25 billion gallons of gasoline per year."
+    },
+    {
+      "claim": "25 billion gallons of renewable gasoline could meet approximately 19% of 2022 U.S. gasoline demand of 132 billion gallons",
+      "sentence": "Achieving production of 25 billion gallons of renewable gasoline could meet approximately 19% of the EIA s estimated 2022 gasoline demand of 132 billion gallons."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:18:20.093Z",
+  "model": "deepseek-v4-flash"
+}

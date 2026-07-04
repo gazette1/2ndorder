@@ -1,0 +1,52 @@
+{
+  "cik": "0001353612",
+  "ticker": "FXC",
+  "name": "Invesco CurrencyShares Canadian Dollar Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083543",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1353612/000119312526083543/fxc-20251231.htm"
+  },
+  "business": "The investment objective of the Trust is for the Shares to reflect the price in USD of the Canadian Dollar plus accrued interest, if any, less the expenses of the Trust’s operations. The Shares are intended to provide institutional and retail investors with a simple, cost-effective means of gaining investment benefits similar to those of holding Canadian Dollars.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "JPMorgan Chase Bank, N.A., London Branch",
+    "The Bank of New York Mellon"
+  ],
+  "exposures": [
+    {
+      "tag": "other:currency-exposure",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the price in USD of the Canadian Dollar plus accrued interest, if any, less the expenses of the Trust’s operations."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "If interest earned by the Trust does not exceed the Trust’s expenses, the Trustee will withdraw Canadian Dollars from the Trust to pay these excess expenses, which will reduce the amount of Canadian Dollars represented by each Share on an ongoing basis and may result in adverse tax consequences for Shareholders."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Changes to United States tariff and trade policies may increase the volatility of foreign exchange rates."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Due to the increased use of technologies, intentional and unintentional cyber attacks pose operational and information security risks."
+    },
+    {
+      "tag": "other:geopolitical-conflict",
+      "stance": "risk_mention",
+      "sentence": "As a result of increasingly interconnected global economies and financial markets, armed conflict between countries or in a geographic region, including related geopolitical tensions or emergency measures, may impact the value of the currencies held by the Fund."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:13.662Z",
+  "model": "deepseek-v4-flash"
+}

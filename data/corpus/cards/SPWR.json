@@ -1,0 +1,58 @@
+{
+  "cik": "0001838987",
+  "ticker": "SPWR",
+  "name": "SunPower Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-043623",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026043623/ea0283920-10k_sunpower.htm"
+  },
+  "business": "SunPower Inc. provides solar energy systems and services to residential homeowners, home builders, and small to medium-sized businesses. It operates through a network of sales partners and installation partners. The company also offers battery storage solutions.",
+  "sellsTo": [
+    "Residential homeowners",
+    "Home builders",
+    "Small to medium-sized commercial businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Enphase"
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our mission is to deliver energy-efficient solutions to homeowners and small to medium-sized businesses that allow them to lower their energy bills while reducing their carbon footprint."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We have an opportunity to increase our revenue and margin in the battery space through our partnership with Enphase."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Our primary competitors are the traditional utilities that supply electricity to potential customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Termination of Section 25D residential clean energy credit",
+      "date": "2025-12-31",
+      "sentence": "As modified by the OBBBA, the Section 25D Credit terminated with respect to expenditures made after December 31, 2025."
+    },
+    {
+      "event": "Ineligibility for Section 45Y credit for solar facilities beginning construction after July 4, 2026",
+      "date": "2026-07-04",
+      "sentence": "solar facilities that begin construction after July 4, 2026 are ineligible for the Code Section 45Y credit if placed in service after December 31, 2027."
+    },
+    {
+      "event": "Maturity of Sunder Seller Note",
+      "date": "2026-05-15",
+      "sentence": "The maturity date of the Seller Note is the earlier of (i) May 15, 2026 and (ii) the date on which all amounts under the Seller Note otherwise become due and payable following an event of default."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:44:51.337Z",
+  "model": "deepseek-v4-flash"
+}

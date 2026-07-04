@@ -1,0 +1,75 @@
+{
+  "cik": "0000100493",
+  "ticker": "TSN",
+  "name": "TYSON FOODS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000100493-25-000095",
+    "filedAt": "2025-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/100493/000010049325000095/tsn-20250927.htm"
+  },
+  "business": "Tyson Foods is a world-class food company and recognized leader in protein, selling a broad portfolio of iconic products including Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright, State Fair, Aidells and ibp. The company operates in four reportable segments: Beef, Pork, Chicken and Prepared Foods. Products are marketed to grocery retailers, foodservice distributors, restaurant operators, and international export markets.",
+  "sellsTo": [
+    "grocery retailers",
+    "grocery wholesalers",
+    "meat distributors",
+    "warehouse club stores",
+    "military commissaries",
+    "industrial food processing companies",
+    "chain restaurants or their distributors",
+    "live markets",
+    "international export companies",
+    "domestic distributors serving restaurants and foodservice operations"
+  ],
+  "namedCustomers": [
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In addition, new technologies, such as artificial intelligence and quantum computing, may present new technological risks or vulnerabilities."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "In addition, new technologies, such as artificial intelligence and quantum computing, may present new technological risks or vulnerabilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have in the past experienced, and may in the future face, cyber attacks, other cyber incidents, disruptions or security breaches, and there can be no assurance that we will always be able to sufficiently mitigate the impact to our business and operations."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "To the extent we are not able to effectively gauge the direction of our key markets and successfully identify, develop, manufacture and market new or improved products in these changing markets, such as adapting to emerging e-commerce channels, our financial results and our competitive position will suffer."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "We have a Manufacturing Automation Center in Springdale, Arkansas, designed to develop new manufacturing solutions and to enhance team member training on new technology."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may have a long-term adverse impact on our business and the results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures expected between $0.7 billion and $1.0 billion for fiscal 2026",
+      "date": "2026-09-30",
+      "sentence": "We expect capital expenditures between $0.7 billion and $1.0 billion for fiscal 2026."
+    },
+    {
+      "event": "Expected pension plan contribution of approximately $15 million in fiscal 2026",
+      "date": "2026-09-30",
+      "sentence": "We contributed $14 million in fiscal 2025 and expect to contribute approximately $15 million of cash to our pension plans in fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:44:46.479Z",
+  "model": "deepseek-v4-flash"
+}

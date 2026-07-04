@@ -1,0 +1,53 @@
+{
+  "cik": "0001769628",
+  "ticker": "CRWV",
+  "name": "CoreWeave, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001769628-26-000104",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
+  },
+  "business": "CoreWeave provides a cloud computing platform purpose-built for AI workloads, including model training, inference, and agent development. The company sells its services primarily through multi-year committed contracts to AI labs, enterprises, and technology companies. As of December 31, 2025, CoreWeave had $60.7 billion of remaining performance obligations.",
+  "sellsTo": [
+    "AI labs",
+    "enterprises",
+    "technology companies"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "OpenAI",
+    "Meta"
+  ],
+  "namedSuppliers": [
+    "NVIDIA",
+    "AMD",
+    "Intel"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "CoreWeave Cloud platform enables the full lifecycle of AI, including large-scale model training, inference, data movement, continuous iteration, and agentic workflows."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We operate our platform across a distributed network of purpose-built data centers interconnected through a proprietary global network backbone."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "For example, as a result of our obligations in our current customer contracts, all of the GPUs used in our infrastructure today are NVIDIA GPUs."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Our business would be harmed if we were not able to access sufficient power or by increased costs to procure power, prolonged power outages, shortages, or capacity constraints."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:18:49.607Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,38 @@
+{
+  "cik": "0001850391",
+  "ticker": "BTCW",
+  "name": "WisdomTree Bitcoin Fund",
+  "source": {
+    "form": "10-K",
+    "accession": "0001214659-26-003899",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1850391/000121465926003899/wtb32026010k.htm"
+  },
+  "business": "The Trust is a passive investment vehicle that holds bitcoin and values its shares daily based on the CME CF Bitcoin Reference Rate – New York Variant, offering exposure to the price of bitcoin. The Trust issues common shares listed on the Cboe BZX Exchange and sells them to Authorized Participants in blocks of 5,000 shares. Its investment objective is to track the price of bitcoin, less expenses and liabilities.",
+  "sellsTo": [
+    "Authorized Participants (U.S. registered broker-dealers)",
+    "Investors through brokerage accounts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company LLC",
+    "CF Benchmarks Ltd.",
+    "Delaware Trust Company"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to gain exposure to the price of bitcoin, less expenses and liabilities of the Trust's operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global bitcoin existence was approximately 19,970,000, as of December 31, 2025.",
+      "sentence": "Global bitcoin existence was approximately 19,970,000, as of December 31, 2025, although not all of such bitcoin were in circulation as of such date, which amount varies day-over-day."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:44:33.419Z",
+  "model": "deepseek-v4-flash"
+}

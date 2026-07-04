@@ -1,0 +1,79 @@
+{
+  "cik": "0001163389",
+  "ticker": "NWPP",
+  "name": "NEW PEOPLES BANKSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001903596-26-000116",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1163389/000190359626000116/nwpp_10k.htm"
+  },
+  "business": "New Peoples Bankshares, Inc. is a Virginia financial holding company whose business is conducted primarily through New Peoples Bank, Inc., offering a range of banking and related financial services focused on individuals, small to medium size businesses, and the professional community. The Bank also offers investment services through its broker-dealer relationship with Osaic Institutions, Inc. and insurance referral services through NPB Insurance Services, Inc.",
+  "sellsTo": [
+    "individuals",
+    "small to medium size businesses",
+    "professional community",
+    "customers in southwestern Virginia, southern West Virginia, northeastern Tennessee, and western North Carolina"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Osaic Institutions, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our residential mortgage loans consist of residential first and second mortgage loans, residential construction loans, home equity lines of credit and term loans secured by first and second mortgages on the residences of borrowers."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Construction lending entails significant additional risks compared to residential mortgage lending."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "Certain areas are more reliant upon agriculture, coal mining, and natural gas."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Certain areas are more reliant upon agriculture, coal mining, and natural gas."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Tri-State Area has a diversified economy supported by agriculture, healthcare, education, technology, manufacturing, services industries, and natural resources including coal, natural gas, limestone, and timber."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry continues to undergo rapid technological change, with increased competition from non-banks offering products and services traditionally offered by banks as well as new technologies and services, including new ways that customers can make payments or manage their accounts, the use of stablecoins and other forms of cryptocurrency, tokens, and other digital assets or alternative payment systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity. Federal regulators expect that financial institutions design multiple layers of security controls to establish lines of defense and to ensure that their risk management processes also address the risk posed by compromised customer credentials, including security measures to reliably authenticate customers accessing internet-based services of the financial institution."
+    },
+    {
+      "tag": "other:algorithmic-underwriting",
+      "stance": "risk_mention",
+      "sentence": "CFPB and other federal regulatory guidance reiterates that creditors are not excused from the adverse action notice requirements under the Equal Opportunity Act if they rely on complex algorithmic underwriting models."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "NPB Insurance Services, Inc. (NPB Insurance) is a subsidiary of the Bank and generates revenue through the referral of insurance services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dividend declared",
+      "date": "2026-02-23",
+      "sentence": "On February 23, 2026, the Board of Directors declared a dividend of $0.09 per share, to be paid on March 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:43:59.814Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,46 @@
+{
+  "cik": "0001720265",
+  "ticker": "ZCSH",
+  "name": "Grayscale Zcash Trust (ZEC)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104253",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720265/000119312526104253/zcsh-20251231.htm"
+  },
+  "business": "Grayscale Zcash Trust (ZEC) (ZCSH) is a passive investment vehicle that holds ZEC and issues shares to provide investors with exposure to the price of ZEC, determined by reference to the Index Price, less expenses and liabilities.",
+  "sellsTo": [
+    "Investors seeking exposure to ZEC"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Grayscale Securities, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "The Trust holds ZEC and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of ZEC."
+    },
+    {
+      "tag": "other:privacy-enhancing-technology",
+      "stance": "risk_mention",
+      "sentence": "ZEC accomplishes this privacy preservation by using zk-SNARKs to protect both the amount and the sender and recipient of the transaction."
+    },
+    {
+      "tag": "other:digital-asset-competition",
+      "stance": "risk_mention",
+      "sentence": "ZEC faces competition from a wide range of digital assets. For example, XMR, DASH, and ROSE are all focused on enhancing privacy."
+    },
+    {
+      "tag": "other:stablecoin-risk",
+      "stance": "risk_mention",
+      "sentence": "Prices of ZEC may be affected due to stablecoins (including Tether and USDC), the activities of stablecoin issuers and their regulatory treatment."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:42:28.178Z",
+  "model": "deepseek-v4-flash"
+}

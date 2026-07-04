@@ -1,0 +1,40 @@
+{
+  "cik": "0002011535",
+  "ticker": "EZET",
+  "name": "Franklin Ethereum Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-026753",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/2011535/000114036126026753/ef20070483_10k.htm"
+  },
+  "business": "Franklin Ethereum Trust (EZET) is a trust that holds ether and issues shares representing fractional undivided beneficial interest in the trust, allowing investors to gain exposure to the price of ether without directly acquiring, holding, or trading ether. The trust is a passive investment vehicle and its shares are listed on the Cboe BZX Exchange. The trust's only ordinary recurring expense is the sponsor's fee, which is accrued daily at an annualized rate equal to 0.19% of the net asset value.",
+  "sellsTo": [
+    "retail investors",
+    "institutional investors",
+    "authorized participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Fund seeks to reflect generally the performance of the price of ether before payment of the Fund's expenses and liabilities."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Advancements in capabilities of quantum computing and similar technologies may pose challenges to the security of digital asset networks, including the Ethereum network."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Digital assets including ether remain susceptible to cyber security events, fraud, manipulation or similar disruptions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:45:20.148Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,57 @@
+{
+  "cik": "0000884269",
+  "ticker": "APT",
+  "name": "ALPHA PRO TECH LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007797",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926007797/apt20251231_10k.htm"
+  },
+  "business": "Alpha Pro Tech develops, manufactures and markets disposable protective apparel for cleanroom, industrial, pharmaceutical, medical and dental markets, and building supply construction weatherization products for the residential construction market. The company's products are sold under the Alpha Pro Tech brand and private label.",
+  "sellsTo": [
+    "construction building supply and roofing distributors",
+    "pharmaceutical manufacturing",
+    "bio-pharmaceutical manufacturing",
+    "medical device manufacturing",
+    "lab animal research",
+    "high technology electronics manufacturing (including semiconductor market)",
+    "medical and dental distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Harmony Plastics Private Limited",
+    "Maple Industries"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The housing market in 2025 proved to be a year of sustained challenges for single-family housing starts, which were down by 7.0% through October 2025 (the latest data available)."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our products are used primarily in cleanrooms, industrial safety manufacturing environments and health care facilities, such as hospitals, laboratories and dental offices."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our target customers are construction building supply and roofing distributors; companies in pharmaceutical manufacturing, bio-pharmaceutical manufacturing, medical device manufacturing, lab animal research, and high technology electronics manufacturing (which includes the semi-conductor market); and medical and dental distributors."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Uncertainties with respect to the development, deployment, and use of artificial intelligence in our business and products may result in harm to our business and reputation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and other disruptions to the Company’s information technology infrastructure could interfere with the Company’s operations, compromise information belonging to the Company and our customers and suppliers and expose the Company to liability, which could adversely impact the Company’s business and reputation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:08:08.614Z",
+  "model": "deepseek-v4-flash"
+}

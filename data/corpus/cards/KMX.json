@@ -1,0 +1,87 @@
+{
+  "cik": "0001170010",
+  "ticker": "KMX",
+  "name": "CARMAX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001170010-26-000021",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000021/kmx-20260228.htm"
+  },
+  "business": "CarMax is the nation's largest retailer of used vehicles, operating 256 used car stores as of February 28, 2026. It retails used vehicles and related products such as extended protection plans and vehicle repair service. It also operates wholesale auctions and provides auto financing through its CAF segment.",
+  "sellsTo": [
+    "individual consumers",
+    "licensed auto dealers",
+    "CarMax retail customers (financing)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ally Financial",
+    "American Credit Acceptance",
+    "Bank of America",
+    "Capital One Auto Finance",
+    "Exeter Finance Corp.",
+    "Santander Consumer USA",
+    "Westlake Financial Services",
+    "Assurant, Inc.",
+    "CNA National Warranty Corporation",
+    "Fidelity Warranty Services, Inc.",
+    "Safe-Guard Products International LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Demand for EVs is driving the need to adapt our business to source, recondition and service EVs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We collect sensitive confidential information from our customers. A breach of this confidentiality, whether due to a cybersecurity or other incident, could result in harm to our customers and damage to our brand."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CarMax Auto Finance. CAF provides financing solely to customers buying retail vehicles from CarMax."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our omni-channel experience provides a common platform across all of CarMax that empowers our customers to buy a vehicle on their terms, whether online, in-store or through a seamless combination of both."
+    },
+    {
+      "tag": "logistics",
+      "stance": "active_investment",
+      "sentence": "We also continued to streamline our cost structure and lower the cost to bring cars to market, helping us offer more affordable vehicles."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open four stores, two stand-alone reconditioning/auction centers, and two stand-alone auction facilities",
+      "date": null,
+      "sentence": "During fiscal 2027, we anticipate opening four stores as well as two stand-alone reconditioning/auction centers and two stand-alone auction facilities."
+    },
+    {
+      "event": "Nationwide rollout of EPP product enhancements",
+      "date": null,
+      "sentence": "We expect to achieve nationwide rollout of these products by the second quarter of fiscal 2027, which we anticipate will result in an increase in EPP margin per unit of approximately $35 in fiscal 2027."
+    },
+    {
+      "event": "Increase Tier 2 target originations to approximately 30%",
+      "date": null,
+      "sentence": "In fiscal 2027, we intend to increase the target originations for Tier 2 to approximately 30% of the total volume across the Tier 2 spectrum."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 39 million used vehicles sold in the U.S. in calendar 2025, of which approximately 20 million were age 0- to 10-year old vehicles.",
+      "sentence": "Based on industry data, there were approximately 39 million used vehicles sold in the U.S. in calendar 2025, of which approximately 20 million were estimated to be age 0- to 10-year old vehicles."
+    },
+    {
+      "claim": "Auto finance sector represented approximately $1.7 trillion in outstanding receivables as of December 31, 2025.",
+      "sentence": "According to industry sources, this sector represented approximately $1.7 trillion in outstanding receivables as of December 31, 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:32:53.869Z",
+  "model": "deepseek-v4-flash"
+}

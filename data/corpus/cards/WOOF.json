@@ -1,0 +1,33 @@
+{
+  "cik": "0001826470",
+  "ticker": "WOOF",
+  "name": "Petco Health & Wellness Company, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-106114",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm"
+  },
+  "business": "Petco is a pet specialty retailer offering a broad assortment of national brands, owned brands, and exclusive merchandise, complemented by services including veterinary care, grooming, and training. The company sells pet food, supplies, and companion animals through more than 1,500 pet care centers in the U.S., Mexico, Puerto Rico, and Chile, as well as through its e-commerce site and mobile app.",
+  "sellsTo": [
+    "pet parents (consumers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Petco.com, our e-commerce site, and the Petco app, our personalized mobile app, together serve as hubs for pet parents to book appointments and manage all of their pets needs, while enabling them to shop wherever, whenever, and however they want."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our reputation and business may be harmed if our or our vendors computer network security or any of the databases containing customer, employee, or other personal information maintained by us or our third-party providers is compromised, which could materially adversely affect our results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:09:00.167Z",
+  "model": "deepseek-v4-flash"
+}

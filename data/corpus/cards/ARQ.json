@@ -1,0 +1,83 @@
+{
+  "cik": "0001515156",
+  "ticker": "ARQ",
+  "name": "Arq, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001515156-26-000021",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1515156/000151515626000021/arq-20251231.htm"
+  },
+  "business": "Arq, Inc. is an environmental technology company principally engaged in the sale of consumable air, water, and soil treatment solutions, primarily based on activated carbon. Our proprietary AC products enable customers to reduce air, water, and soil contaminants, including mercury, PFAS and other pollutants.",
+  "sellsTo": [
+    "coal-fired power generation",
+    "industrial",
+    "water treatment",
+    "water and soil remediation",
+    "municipal water treatment facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Our proprietary AC products enable customers to reduce air, water, and soil contaminants, including mercury, PFAS and other pollutants."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "we own the Five Forks Mine, a lignite coal mine that currently supplies the primary raw material for the manufacturing of the majority of our products."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Additionally, demand for power generation has and continues to grow driven by macroeconomic trends, such as increased consumption related to data and computer centers, electric vehicles, and other large scale power consumers."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Additionally, demand for power generation has and continues to grow driven by macroeconomic trends, such as increased consumption related to data and computer centers, electric vehicles, and other large scale power consumers."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "In addition, we are exploring uses for certain rare earth minerals and critical elements that can be isolated during the manufacturing process at our Corbin Facility for use in a variety of applications."
+    },
+    {
+      "tag": "other:asphalt",
+      "stance": "risk_mention",
+      "sentence": "We intend to secure customer interest in Corbin Wetcake as an additive into other markets, such as a component for asphalt, or for use in the purified coal and synthetic graphite industries."
+    },
+    {
+      "tag": "other:synthetic-graphite",
+      "stance": "risk_mention",
+      "sentence": "We intend to secure customer interest in Corbin Wetcake as an additive into other markets, such as a component for asphalt, or for use in the purified coal and synthetic graphite industries."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "EPA finalized repeal of the 2024 MATS amendment",
+      "date": "2026-02-19",
+      "sentence": "On February 19, 2026, the EPA followed through with its proposal and finalized the repeal of the 2024 MATS amendment, reverting required compliance standards back to the existing standards set in 2012."
+    },
+    {
+      "event": "EPA likely extends PFAS compliance deadline to 2031 with rulemaking in Spring 2026",
+      "date": null,
+      "sentence": "The EPA has since indicated that it will likely extend the compliance date from April 2029 to April 2031 through a rule making expected to commence in Spring of 2026."
+    },
+    {
+      "event": "Company does not expect material GAC revenue in fiscal year 2026",
+      "date": "2026-12-31",
+      "sentence": "Due to the issues described above, we do not expect material GAC revenue in fiscal year 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 400 coal-fired units in operation in the U.S. as of December 31, 2025.",
+      "sentence": "We estimate that 60% of the coal-fired units that were operating in December 2012 when the MATS Rule was finalized have been permanently shut down, leaving approximately 400 units in operation in the U.S. as of December 31, 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:43:49.916Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001367993",
+  "ticker": "HAFG",
+  "name": "Holistic Asset Finance Group Co., Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-035271",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1367993/000121390026035271/ea0283285-10k_holistic.htm"
+  },
+  "business": "The company operates two business lines: Digital Marketing and Video Production (providing marketing and video production services) and Products Sale and Export Trading (selling Australian-branded nutrition, health and wellness products and export trading). Its digital marketing services focus on Singapore, Taiwan, Australia and Hong Kong markets. In 2025, the company generated $1,784,075 in revenues from digital marketing and video production, accounting for 100% of total revenues, while product sales generated no revenue.",
+  "sellsTo": [
+    "Singapore, Taiwan, Australia, Hong Kong and other Asian regions",
+    "companies for digital marketing services",
+    "individuals and companies in Taiwan for product sales (historical)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:digital-marketing",
+      "stance": "core_product",
+      "sentence": "We provide marketing and video production services, including digital marketing and offline advertising, focusing on Singapore, Taiwan, Australia and Hong Kong markets."
+    },
+    {
+      "tag": "other:third-party-platforms",
+      "stance": "risk_mention",
+      "sentence": "Our video production business in part depends on the commercial success and stable supply of third-party media channels, such as YouTube, and TikTok, through which we may help our clients place custom-made short videos."
+    },
+    {
+      "tag": "other:health-products",
+      "stance": "core_product",
+      "sentence": "The Company is also engaged in export trading activities of various products. In 2024, the Company sold Australian-branded nutrition, health and wellness products in Taiwan, primarily through offline group-buying activities."
+    },
+    {
+      "tag": "other:foreign-exchange",
+      "stance": "risk_mention",
+      "sentence": "Our results of operations may be adversely affected by changes in foreign currency exchange rates and other risks inherent to international operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:35:38.433Z",
+  "model": "deepseek-v4-flash"
+}

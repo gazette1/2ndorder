@@ -1,0 +1,35 @@
+{
+  "cik": "0001353614",
+  "ticker": "FXA",
+  "name": "Invesco CurrencyShares Australian Dollar Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083544",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1353614/000119312526083544/fxa-20251231.htm"
+  },
+  "business": "The Invesco CurrencyShares Australian Dollar Trust (FXA) is a grantor trust that holds Australian Dollars and issues shares tracking the Australian Dollar's price in USD plus interest less expenses. The shares are sold to institutional and retail investors seeking a cost-effective means of gaining investment benefits similar to holding the Australian Dollar.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:currency",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the price in USD of the Australian Dollar plus accrued interest, if any, less the expenses of the Trust s operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trust termination",
+      "date": "2046-06-08",
+      "sentence": "The Trust will terminate upon the occurrence of any of the termination events listed in the Depositary Trust Agreement and will otherwise terminate on June 8, 2046."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:49:10.586Z",
+  "model": "deepseek-v4-flash"
+}

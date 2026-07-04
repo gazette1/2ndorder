@@ -1,0 +1,43 @@
+{
+  "cik": "0000072971",
+  "ticker": "WFC",
+  "name": "WELLS FARGO & COMPANY/MN",
+  "source": {
+    "form": "10-K",
+    "accession": "0000072971-26-000133",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm"
+  },
+  "business": "Wells Fargo & Company is a financial holding company that provides a diversified set of banking, investment and mortgage products and services, as well as consumer and commercial finance, to individuals, businesses and institutions, primarily in the U.S. and also internationally. The company offers consumer financial products including checking and savings accounts, credit and debit cards, and home, auto, personal, and small business lending. It also provides financial solutions to corporations, municipalities, and institutional clients through corporate banking, investment banking, treasury management, and capital markets services.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "institutions",
+    "private companies",
+    "family-owned companies",
+    "public companies",
+    "municipalities",
+    "corporate clients",
+    "commercial real estate clients",
+    "government clients",
+    "institutional clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry is also becoming more competitive as further technological advances and the expansion of a digital economy have enabled non-depository institutions to offer products and services traditionally offered by banks and have enabled financial institutions, technology companies, and others to deliver electronic and internet-based financial solutions, including electronic securities trading, lending, savings, and payment solutions."
+    },
+    {
+      "tag": "other:cryptocurrencies",
+      "stance": "risk_mention",
+      "sentence": "Additionally, digital assets and alternative payment methods, such as cryptocurrencies, stablecoins, and tokens, as well as distributed ledger-based payment, clearing, and settlement processes have the potential to reduce reliance on traditional depository institutions and other financial intermediaries, could lead to a reduction in deposits at banks, and could lead to changes in how financial services are accessed, offered, and delivered."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:52:19.672Z",
+  "model": "deepseek-v4-flash"
+}

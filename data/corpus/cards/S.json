@@ -1,0 +1,54 @@
+{
+  "cik": "0001583708",
+  "ticker": "S",
+  "name": "SentinelOne, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001583708-26-000020",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000020/s-20260131.htm"
+  },
+  "business": "SentinelOne sells subscriptions to its Singularity Platform, an AI-powered autonomous cybersecurity platform that provides threat prevention, detection, response, and exposure management across endpoints, cloud workloads, and identity credentials. Its customers include large enterprises, small and medium businesses, and government organizations globally.",
+  "sellsTo": [
+    "Large enterprises",
+    "Small and medium businesses",
+    "Government organizations",
+    "Managed security service providers",
+    "Managed detection and response providers",
+    "Incident response firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our Singularity Platform delivers AI-powered autonomous threat prevention, detection, response, and exposure management capabilities across an organization’s endpoints, cloud workloads, and identity credentials."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We pioneered the world s first purpose-built AI-powered cybersecurity platform for autonomous defense."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our distributed AI models run both locally on every endpoint and every cloud workload, as well as on our cloud platform."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Singularity can be flexibly deployed on the environments that our customers choose, including public, private, or hybrid clouds."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Prompt Security and Observo AI",
+      "date": "2025-09",
+      "sentence": "in September 2025, we expanded our platform capabilities through the acquisitions of Prompt Security and Observo AI."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:44:49.232Z",
+  "model": "deepseek-v4-flash"
+}

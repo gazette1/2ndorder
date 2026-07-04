@@ -1,0 +1,92 @@
+{
+  "cik": "0001667313",
+  "ticker": "ZDGE",
+  "name": "Zedge, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-103098",
+    "filedAt": "2025-10-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1667313/000121390025103098/ea0262035-10k_zedge.htm"
+  },
+  "business": "Zedge builds digital marketplaces and friendly competitive games around content that people use to express themselves. Products include Zedge App (freemium digital content marketplace for mobile personalization), GuruShots (skill-based photo challenge game), Emojipedia (emoji reference), and DataSeeds (B2B marketplace for images). Revenue primarily from advertising, subscriptions, and in-app purchases.",
+  "sellsTo": [
+    "consumers",
+    "creators",
+    "advertisers",
+    "enterprises for AI training data"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google",
+    "Liftoff",
+    "AppLovin",
+    "Apple",
+    "Google Play",
+    "Meta"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our leading products include Zedge Ringtones and Wallpapers, which we refer to as our Zedge App, a freemium digital content marketplace offering mobile phone wallpapers, video wallpapers, ringtones, and notification sounds as well as pAInt, a generative AI wallpaper maker, GuruShots, a skill-based photo challenge game, and Emojipedia, the #1 trusted source for all things emoji."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "In fiscal 2023, we introduced pAInt, a generative AI wallpaper maker in the Zedge App."
+    },
+    {
+      "tag": "other:digital-advertising",
+      "stance": "core_product",
+      "sentence": "In fiscal 2025, approximately 75% of our revenues (excluding GuruShots) were generated from selling advertising inventory."
+    },
+    {
+      "tag": "other:platform-dependency",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party platforms, primarily the iOS App Store, Meta, and Google Play Store, to distribute our apps, process payments, and collect revenues generated on these platforms."
+    },
+    {
+      "tag": "other:creator-economy",
+      "stance": "risk_mention",
+      "sentence": "We are part of the Creator Economy, which is estimated to be worth between $191 billion and $250 billion globally in 2025"
+    },
+    {
+      "tag": "other:emerging-markets",
+      "stance": "risk_mention",
+      "sentence": "In fiscal 2025, 76.7% of our Zedge App s users were located in emerging markets with 23.3% of users in well-developed regions compared to 21.1% and 78.9% respectively in fiscal 2024."
+    },
+    {
+      "tag": "other:geopolitical-risk",
+      "stance": "risk_mention",
+      "sentence": "Given our operations in Israel, the impact of economic, political, geopolitical, and military conditions in the region directly affects us, including conflicts involving missile strikes, infiltrations, and terrorism."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "TikTok divestiture compliance deadline",
+      "date": "2025-12-16",
+      "sentence": "Should TikTok fail to complete an approved divestiture or meet U.S. requirements under the PAFACA and its implementing regulations by December 16, 2025, enforcement of the federal ban could resume, including removal of the app from U.S. app stores and other restrictions."
+    },
+    {
+      "event": "Google SERP update enabling direct emoji copy",
+      "date": "2025-09-30",
+      "sentence": "In late September 2025, Google released an update to its Search Engine Results Page (SERP) enabling users to copy emojis directly from search results rather than being directed to third-party sites such as Emojipedia."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Creator Economy worth between $191 billion and $250 billion globally in 2025",
+      "sentence": "We are part of the Creator Economy, which is estimated to be worth between $191 billion and $250 billion globally in 2025, with some forecasts placing the global market size as high as $848 billion by 2032"
+    },
+    {
+      "claim": "Over 207 million active content creators worldwide",
+      "sentence": "According to multiple reports, there are now over 207 million active content creators worldwide."
+    },
+    {
+      "claim": "Total addressable market of amateur photographers is 30-40 million people per month",
+      "sentence": "We estimate that the total addressable market of amateur photographers using their smartphones to take and publicly share artistic photos is 30-40 million people per month"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:18:53.980Z",
+  "model": "deepseek-v4-flash"
+}

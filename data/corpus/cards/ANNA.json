@@ -1,0 +1,89 @@
+{
+  "cik": "0001845123",
+  "ticker": "ANNA",
+  "name": "AleAnna, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036606",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1845123/000121390026036606/ea0281737-10k_aleanna.htm"
+  },
+  "business": "AleAnna is a natural gas resource company focused on delivering conventional natural gas and renewable natural gas to Europe through onshore exploration and development in Italy. It sells natural gas from the Longanesi field and electricity from renewable natural gas plants. The company has a gas sale agreement with Shell Energy Europe Limited for its share of Longanesi production.",
+  "sellsTo": [
+    "European natural gas market",
+    "Italian electricity grid",
+    "Shell Energy Europe Limited"
+  ],
+  "namedCustomers": [
+    "Shell Energy Europe Limited"
+  ],
+  "namedSuppliers": [
+    "Padana (operator and working interest partner)",
+    "DeGolyer & MacNaughton (reserve engineer)"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "AleAnna is a natural gas resource company focused on delivering critical natural gas supplies to Europe through both onshore conventional natural gas exploration and development and renewable natural gas development in Italy."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In 2023, we launched a renewable natural gas development business focused on bringing to market carbon negative renewable natural gas derived from animal and agricultural waste."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Recent advancements in Artificial Intelligence (AI) are leading to increased global power demand for data centers."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Our natural gas can be brought to market at costs of approximately $1-3 per 10^3 ft^3; ... geographically advantaged developments that are adjacent to a well-developed pipeline network containing large excess transport capacity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First production at Longanesi field achieved",
+      "date": "2025-03-13",
+      "sentence": "On March 13, 2025, we achieved a key milestone with the first production from our working interest in five wells in the Longanesi field, and the field reached sustained maximum production during the first half of 2025."
+    },
+    {
+      "event": "Permanent processing facility completion and commissioning",
+      "date": "2027-01-01",
+      "sentence": "The permanent processing facility is under construction and is expected to be installed in phases during 2026, with completion and commissioning expected in early 2027."
+    },
+    {
+      "event": "Gradizza production concession approval",
+      "date": "2026-01-01",
+      "sentence": "During the third quarter of 2025, we reached an agreement with the Emilia Romagna Region (the Intesa) in support of our pending application for a production concession related to the Gradizza field. The second application was approved in January 2026."
+    },
+    {
+      "event": "Campagnatico greenfield facility construction start",
+      "date": "2026-10-01",
+      "sentence": "The facility is fully permitted, and construction is expected to begin on an additional facility in the fourth quarter of 2026."
+    },
+    {
+      "event": "Expected Italian government incentives issuance",
+      "date": "2026-03-31",
+      "sentence": "The Italian government is expected to issue additional incentives in the first quarter of 2026 with similar economic conditions."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Italy imported 96% of its natural gas in 2022",
+      "sentence": "in 2022 Italy imported 96% of its natural gas and has one of the highest concentrations of natural gas as a component of total energy use, at almost 40% by kilotons of oil equivalent."
+    },
+    {
+      "claim": "Natural gas is almost 40% of Italy's total energy use",
+      "sentence": "in 2022 Italy imported 96% of its natural gas and has one of the highest concentrations of natural gas as a component of total energy use, at almost 40% by kilotons of oil equivalent."
+    },
+    {
+      "claim": "Italian government 15-year guaranteed biomethane floor price of $39.30 per 10^3 ft^3",
+      "sentence": "the Italian government's 15-year guaranteed biomethane floor price of $39.30 per 10^3 ft^3 substantially mitigates pricing risk from the renewable natural gas business"
+    }
+  ],
+  "generatedAt": "2026-07-04T14:38:08.738Z",
+  "model": "deepseek-v4-flash"
+}

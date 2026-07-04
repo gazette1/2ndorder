@@ -1,0 +1,85 @@
+{
+  "cik": "0001665918",
+  "ticker": "USFD",
+  "name": "US Foods Holding Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001665918-26-000008",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1665918/000166591826000008/usfd-20251227.htm"
+  },
+  "business": "US Foods is a broadline foodservice distributor that supplies fresh, frozen, and dry food products, as well as non-food items, to approximately 250,000 customer locations. It operates as a single business segment with a focus on independent restaurants, healthcare, and hospitality customers.",
+  "sellsTo": [
+    "independent restaurants",
+    "chain restaurants",
+    "healthcare",
+    "hospitality",
+    "government",
+    "education",
+    "group purchasing organizations (GPOs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our extensive network of over 70 distribution facilities and fleet of over 6,500 trucks, along with over 90 cash and carry locations, allow us to operate efficiently and provide high levels of customer service."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We have a broad assortment of products and brands designed to meet customers needs. In many categories, we offer products under a spectrum of private brands based on price and quality, covering a range of values and qualities."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our relationship with our customers is further strengthened by our industry-leading MOX digital platform that makes it easy for our customers to manage their orders and inventories, while also providing valuable support for their business."
+    },
+    {
+      "tag": "other:foodservice-ai",
+      "stance": "core_product",
+      "sentence": "Our new AI-powered Menu IQ tool helps operators better manage their recipes and menu items, helping them have even more control over their profitability and understand the cost of every ingredient."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident may negatively affect our operations, business, financial condition and our relationships with customers."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "We face risks related to labor relations and increased labor costs, which could have an adverse effect on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, or the legal, regulatory or market measures being implemented to address climate change, may have an adverse impact on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Jake's Finer Foods",
+      "date": "2025-01-10",
+      "sentence": "On January 10, 2025, USF completed the acquisition of Jake s Finer Foods and Gourmet Ranch in Houston, Texas, for a purchase price of $92 million."
+    },
+    {
+      "event": "Acquisition of Shetakis",
+      "date": "2025-11-14",
+      "sentence": "On November 14, 2025, USF completed the acquisition of Shetakis, for a purchase price of $46 million."
+    },
+    {
+      "event": "Fiscal year 2026 capital expenditure plan",
+      "date": null,
+      "sentence": "We expect total cash capital expenditures in fiscal year 2026 to be between $400 million and $450 million."
+    },
+    {
+      "event": "Renegotiation of 11 CBAs in fiscal year 2026",
+      "date": null,
+      "sentence": "During fiscal year 2026, 11 CBAs covering approximately 2,100 union associates will be subject to renegotiation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:42:55.230Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,76 @@
+{
+  "cik": "0001324759",
+  "ticker": "HGYN",
+  "name": "HONG YUAN HOLDING GROUP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-021954",
+    "filedAt": "2026-05-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324759/000149315226021954/form10-k.htm"
+  },
+  "business": "The Company focuses on supply chain management services, primarily engaged in the wholesale and internet sales of fast-moving consumer goods, including food, daily necessities, and electronic products. It also develops and operates offline brand-authorized stores, selling Baijiu, red wine, cigarettes, tea, and other products. The company sells to members and partners through store service providers and to other trading companies.",
+  "sellsTo": [
+    "Members and partners through store service providers",
+    "Other trading companies and e-commerce platforms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The Company, through its subsidiary and the Agreements with Fengcuiyuan, focuses on supply chain management services, primarily engaged in the wholesale and internet sales of fast-moving consumer goods, including food, daily necessities, and electronic products."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company, through its subsidiary and the Agreements with Fengcuiyuan, focuses on supply chain management services, primarily engaged in the wholesale and internet sales of fast-moving consumer goods, including food, daily necessities, and electronic products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company, through its subsidiary and the Agreements with Fengcuiyuan, focuses on supply chain management services, primarily engaged in the wholesale and internet sales of fast-moving consumer goods, including food, daily necessities, and electronic products."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Supply chain companies help optimize all the activities involved in procuring raw materials and transforming them into products, as well as managing logistics, storage, sales, and shipping those products to consumers, all of which is done using technology such as artificial intelligence, IoT, blockchain, and robots."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "Supply chain companies help optimize all the activities involved in procuring raw materials and transforming them into products, as well as managing logistics, storage, sales, and shipping those products to consumers, all of which is done using technology such as artificial intelligence, IoT, blockchain, and robots."
+    },
+    {
+      "tag": "other:iot",
+      "stance": "risk_mention",
+      "sentence": "Supply chain companies help optimize all the activities involved in procuring raw materials and transforming them into products, as well as managing logistics, storage, sales, and shipping those products to consumers, all of which is done using technology such as artificial intelligence, IoT, blockchain, and robots."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "Supply chain companies help optimize all the activities involved in procuring raw materials and transforming them into products, as well as managing logistics, storage, sales, and shipping those products to consumers, all of which is done using technology such as artificial intelligence, IoT, blockchain, and robots."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Online sales of alcoholic beverages exceeded 30-billion-yuan, accounting for 29% of the total industry scale.",
+      "sentence": "Data from 2025 shows that the online sales of alcoholic beverages have exceeded 30-billion-yuan, accounting for 29% of the total industry scale."
+    },
+    {
+      "claim": "Annual growth rate of GMV in live-streaming sales reached 137%.",
+      "sentence": "The annual growth rate of GMV in live-streaming sales has reached 137%"
+    },
+    {
+      "claim": "Profit share of CR6 liquor enterprises reached 86% in 2024.",
+      "sentence": "In 2024, the profit share of CR6 liquor enterprises (such as Moutai and Wuliangye) reached 86%"
+    },
+    {
+      "claim": "Market size of plain bottle liquor exceeded 150 billion yuan.",
+      "sentence": "the market size of plain bottle liquor has exceeded 150 billion yuan"
+    }
+  ],
+  "generatedAt": "2026-07-04T16:25:16.837Z",
+  "model": "deepseek-v4-flash"
+}

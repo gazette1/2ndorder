@@ -1,0 +1,101 @@
+{
+  "cik": "0001318605",
+  "ticker": "TSLA",
+  "name": "Tesla, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-003952",
+    "filedAt": "2026-01-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  "business": "Tesla designs, develops, manufactures, sells, and leases fully electric vehicles and energy generation and storage systems, and increasingly delivers AI-related software and services. It sells directly to customers through its website and company-owned stores, and operates two reportable segments: automotive and energy generation and storage.",
+  "sellsTo": [
+    "residential customers",
+    "commercial and industrial customers",
+    "utilities",
+    "ride-hailing customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Panasonic",
+    "Contemporary Amperex Technology Co. Limited (CATL)",
+    "Samsung"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We generally sell our products directly to customers, and continue to grow our global retail, service and charging footprint to accelerate the widespread adoption of our products."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Powerwall and Megapack are our lithium-ion battery energy storage products."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We sell energy generation systems directly to customers and also through channel partners."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We are also applying our artificial intelligence learnings from self-driving technology to Bots, such as Optimus, a general purpose, autonomous humanoid robot in development."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "This includes additional compute hardware to better enable the massive amounts of field data captured by our vehicles to continually train and improve these artificial neural networks for real-world performance."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We currently expect our capital expenditures to be in excess of $20 billion in 2026, driven by our AI initiatives, including investments in compute infrastructure and data centers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "active_investment",
+      "sentence": "In 2025, we further expanded Cortex, our training cluster at Gigafactory Texas, and announced a new collaboration with Samsung to manufacture advanced semiconductors for AI inference and training in the U.S."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In 2021, we launched our insurance product using real-time driving behavior in select states, which offers rates that are often better than other alternatives and promotes safer driving."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Robotaxi service launched",
+      "date": "2025-06-01",
+      "sentence": "In June 2025, we launched our Robotaxi service, an autonomous ride-hailing platform that harnesses our technology and vehicles."
+    },
+    {
+      "event": "First Tesla Diner opened",
+      "date": "2025-12-31",
+      "sentence": "In 2025, we opened the first Tesla Diner in California, which offers Supercharging as well as Tesla themed food and merchandise."
+    },
+    {
+      "event": "Ramp six new production lines",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we will be ramping six new production lines across vehicle, Bots, energy storage and battery manufacturing, while further leveraging our existing factory, charging and service center footprints to support future growth."
+    },
+    {
+      "event": "Megapack 3 and Megablock introduced",
+      "date": "2025-12-31",
+      "sentence": "In 2025, we introduced Megapack 3 and Megablock, our next-generation industrial storage product, and began manufacturing a new residential retrofit solar panel."
+    },
+    {
+      "event": "Lithium refinery began operations",
+      "date": "2026-01-01",
+      "sentence": "Our in-house lithium refinery in Texas, which began operations in January 2026."
+    },
+    {
+      "event": "New residential retrofit solar panel customer deliveries began",
+      "date": "2026-01-01",
+      "sentence": "We began manufacturing a new residential retrofit solar panel in 2025, and began initial customer deliveries in January 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:48:08.102Z",
+  "model": "deepseek-v4-flash"
+}

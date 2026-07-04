@@ -1,0 +1,63 @@
+{
+  "cik": "0000921557",
+  "ticker": "RBCAA",
+  "name": "REPUBLIC BANCORP INC /KY/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-024523",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926024523/rbcaa-20251231x10k.htm"
+  },
+  "business": "Republic Bancorp, Inc. is a financial holding company headquartered in Louisville, Kentucky. Through its subsidiary Republic Bank & Trust Company, it provides both traditional and non-traditional banking products and services through five reportable segments using a multitude of delivery channels. The company serves clients across the U.S. through physical locations and non-brick-and-mortar channels.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "mortgage bankers",
+    "tax preparers",
+    "subprime borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Through the Bank, the RPS segment offers both issuing solutions and money movement capabilities."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In recent years, competitive pressures have intensified as non-bank institutions particularly financial technology companies, or Fin-techs have expanded their presence in the marketplace."
+    },
+    {
+      "tag": "other:insurance",
+      "stance": "core_product",
+      "sentence": "Other sources of Traditional Banking income include service charges on consumer and commercial deposit accounts, mortgage banking income, debit and credit card interchange fee income, title insurance commissions, swap fee income and increases in the cash surrender value of BOLI."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "The Company monitors these developments closely and continues to invest in digital capabilities, cybersecurity, fraud prevention, and operational infrastructure to maintain its competitive position and meet evolving customer expectations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Largest Tax Provider contract expired in October 2025",
+      "date": "2025-10-31",
+      "sentence": "the Company's largest Tax Provider contract within TRS based on product volume expired in October 2025 and the Company did not enter into a new contract with this Tax Provider for the 2026 Tax Season (which began in December 2025)."
+    },
+    {
+      "event": "Sale of St. Louis RBF operations closed in February 2026",
+      "date": "2026-02-28",
+      "sentence": "The transaction closed in February 2026 and the Company recorded a gain, net of broker commissions, of $6 million as a result of the sale in the first quarter of 2026."
+    },
+    {
+      "event": "Sold consumer credit card portfolio in Q2 2025",
+      "date": "2025-06-30",
+      "sentence": "In 2024, the Traditional Bank ceased originating new consumer credit cards and sold its $5 million portfolio in the second quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:02:29.593Z",
+  "model": "deepseek-v4-flash"
+}

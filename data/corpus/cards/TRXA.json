@@ -1,0 +1,52 @@
+{
+  "cik": "0001437750",
+  "ticker": "TRXA",
+  "name": "T-REX Acquisition Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-25-007836",
+    "filedAt": "2025-10-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437750/000147793225007836/trex_10k.htm"
+  },
+  "business": "T-REX Acquisition Corp., through its subsidiary Raptor Mining LLC, operates a Bitcoin mining business and explores co-location hosting, equipment fabrication, and other blockchain infrastructure services. Revenue is generated from Bitcoin mining rewards and hosting fees.",
+  "sellsTo": [
+    "Bitcoin network participants",
+    "third-party mining equipment owners for co-location hosting"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Clearwater Electric"
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency-mining",
+      "stance": "core_product",
+      "sentence": "On June 21, 2021, we pivoted from seeking an acquisition candidate to operating a cryptocurrency mining business."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We formed Megalodon to investigate and potentially pursue a cryptocurrency co-location business model."
+    },
+    {
+      "tag": "other:bitcoin-price-risk",
+      "stance": "risk_mention",
+      "sentence": "As previously disclosed, our operating results will depend in large part upon the value of Bitcoin because it's the primary cryptocurrency we currently mine."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Resumed consolidated mining operations at new Orofino facility",
+      "date": "2025-03-21",
+      "sentence": "On March 8, 2024, mining operations were suspended, and we resumed consolidated mining operations at our new facility on March 21, 2025."
+    },
+    {
+      "event": "Acquisition of Orofino data center closed",
+      "date": "2025-03-01",
+      "sentence": "The transaction closed in March 2025, and the costs of operation paid on behalf of the seller of the facility for that five-month period prior to the acquisition of approximately $93,000 (as part of the purchase consideration) were capitalized into the acquisition cost."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:46:05.716Z",
+  "model": "deepseek-v4-flash"
+}

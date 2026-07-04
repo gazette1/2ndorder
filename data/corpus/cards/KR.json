@@ -1,0 +1,76 @@
+{
+  "cik": "0000056873",
+  "ticker": "KR",
+  "name": "KROGER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037723",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926037723/kr-20260131x10k.htm"
+  },
+  "business": "Kroger Co. operates a retail grocery business with pharmacies and fuel centers, and also generates alternative profit streams through retail media (advertising) and data analytics services. The company sells products to customers through stores and online platforms, and earns revenue from third-party media and data services.",
+  "sellsTo": [
+    "Consumers (households)",
+    "Consumer-packaged goods companies (advertisers)",
+    "Pharmacy patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We offer a convenient shopping experience for our customers regardless of how they choose to shop with us, including Pickup and Delivery."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our Brands play an important role in our merchandising strategy and represented over $39 billion of our sales in 2025."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We accept payments using a variety of methods, including cash and checks, select credit and debit cards, and Kroger Pay, a mobile payment solution."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our technology systems have been, and may be in the future, disrupted from circumstances beyond our control, as we regularly defend against and respond to data security related attacks."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "risk_mention",
+      "sentence": "If we do not develop and maintain our eCommerce plan and profitability improvements of our customer fulfillment centers, our financial condition, results of operations or cash flows could be adversely affected."
+    },
+    {
+      "tag": "other:retail-media",
+      "stance": "core_product",
+      "sentence": "Kroger Precision Marketing, our retail media business, leverages our rich first-party data and deep customer relationships to provide targeted, measurable advertising solutions for consumer-packaged goods companies and a growing number of other industry partners."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The emergence of artificial intelligence-powered agentic shopping tools, in which AI agents autonomously research, compare and purchase products on behalf of consumers could further disrupt traditional grocery retail."
+    },
+    {
+      "tag": "other:fuel-retail",
+      "stance": "core_product",
+      "sentence": "Fuel sales are an important part of our revenue, net earnings and loyalty offering."
+    },
+    {
+      "tag": "other:pharmacy",
+      "stance": "core_product",
+      "sentence": "Our Company is built on the foundation of our retail grocery business, which includes the added convenience of our retail pharmacies and fuel centers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Disclosure of updated climate risk assessment",
+      "date": null,
+      "sentence": "We expect to disclose results of an updated climate risk assessment in the next reporting year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:27:19.556Z",
+  "model": "deepseek-v4-flash"
+}

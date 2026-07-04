@@ -1,0 +1,88 @@
+{
+  "cik": "0001258602",
+  "ticker": "NNI",
+  "name": "NELNET INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001258602-26-000014",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1258602/000125860226000014/nni-20251231.htm"
+  },
+  "business": "Nelnet is an operating holding company with primary businesses in consumer lending, loan servicing, payments, and technology-enabled services, many of which are focused on serving customers in the education sector. The Company also has businesses including banking, asset management, real estate development and management, reinsurance operations, and renewable energy development. It earns substantially all of its revenue from external customers in the United States.",
+  "sellsTo": [
+    "K-12 schools",
+    "higher education institutions",
+    "businesses in the United States and internationally",
+    "federal government (Department of Education)",
+    "state and local governments",
+    "financial institutions",
+    "students and consumers"
+  ],
+  "namedCustomers": [
+    "Department of Education",
+    "Discover Financial Services",
+    "SoFi Lending Corp."
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud Computing Services"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our development and deployment of artificial intelligence (AI) technologies has improved operational performance but these advancements also present risks that could result in reputational or competitive harm, legal liability, regulatory scrutiny, and other adverse effects on our business."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "The Company has equity interests in partnerships that make solar tax equity contributions in entities that promote renewable energy sources."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Nelnet Bank operates as an internet industrial bank franchise focused on the private education and unsecured consumer loan markets, with a home office in Salt Lake City, Utah."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Nelnet Insurance Services operating segment leverages the Company's captive insurance companies capital through multiple reinsurance treaties on primarily property and casualty policies."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "The Company provided fiber communication services through ALLO, a former majority-owned subsidiary, until a recapitalization in 2020 resulted in a deconsolidation of ALLO from the Company's consolidated financial statements; the Company continues to hold a partial ownership in ALLO."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure or security breach of our information technology infrastructure could disrupt our businesses, cause material financial losses, result in regulatory action and legal exposure, and damage our reputation."
+    },
+    {
+      "tag": "other:venture-capital",
+      "stance": "active_investment",
+      "sentence": "The Company holds partial ownership interests in early-stage and emerging growth companies, as well as in various funds."
+    },
+    {
+      "tag": "other:education-services",
+      "stance": "core_product",
+      "sentence": "NBS provides education and payment technology and services for K-12 schools, higher education institutions, and businesses in the United States and internationally."
+    },
+    {
+      "tag": "other:loan-servicing",
+      "stance": "core_product",
+      "sentence": "NDS focuses on student and consumer loan servicing, loan servicing-related technology solutions, and outsourcing business services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Canadian student loan servicing business",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, the Company acquired a Canadian student loan servicing business for CAD $130.5 million (USD $95.7 million)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:55:09.478Z",
+  "model": "deepseek-v4-flash"
+}

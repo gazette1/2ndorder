@@ -1,0 +1,92 @@
+{
+  "cik": "0002063380",
+  "ticker": "FSOL",
+  "name": "Fidelity Solana Fund",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-123930",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2063380/000119312526123930/fsol-20251231.htm"
+  },
+  "business": "Fidelity Solana Fund (FSOL) is an exchange-traded product that seeks to track the performance of SOL, the native token of the Solana blockchain, through a passively managed trust holding SOL and staking it to earn rewards. The Trust issues Shares listed on NYSE Arca, providing investors with exposure to SOL without directly holding or trading the digital asset. The Trust sells and redeems Shares only with Authorized Participants in blocks of 25,000 Shares (a Basket).",
+  "sellsTo": [
+    "investors in traditional brokerage accounts",
+    "authorized participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Anchorage Digital Bank N.A.",
+    "BitGo Bank & Trust N.A.",
+    "Coinbase Custody Trust Company, LLC",
+    "State Street Bank and Trust Company",
+    "Fidelity Product Services LLC",
+    "Coin Metrics, Inc.",
+    "CSC Delaware Trust Company",
+    "Blockstream"
+  ],
+  "exposures": [
+    {
+      "tag": "other:solana",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to seek to track the performance of solana (SOL), the native token of the Solana blockchain, as measured by the performance of Fidelity Solana Reference Rate (the Index), adjusted for the Trust's expenses and other liabilities, plus an amount based on the staking rewards associated with SOL."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "Pursuant to its investment objective, the Sponsor will utilize the services of the Custodians to stake, or cause to be staked, all of the Trust's SOL with one or more trusted node operators (which may include the Custodians or their affiliates) (each, a Node Operator), except for SOL reserved by the Sponsor in its sole discretion to facilitate foreseeable redemption transactions, pay Trust expenses, protect the Trust and its assets, and comply with the Sponsor's adopted liquidity risk management program."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Solana network has been used for DeFi or open finance platforms, which seek to democratize access to financial services, such as borrowing, lending, custody, trading, derivatives and insurance, by removing third-party intermediaries."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "risk_mention",
+      "sentence": "As of December 31, 2025 more than 300 DApps are currently built on the Solana network, including DApps in the collectible non-fungible token, gaming, music streaming, and decentralized finance (DeFi) categories."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "All distributed networks are vulnerable to various forms of attack. Like other blockchain systems, the Solana network may contain design or implementation vulnerabilities that could be exploited."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trust commencement of operations",
+      "date": "2025-11-17",
+      "sentence": "The Trust's commencement of operation was November 17, 2025."
+    },
+    {
+      "event": "Shares commenced trading on NYSE Arca",
+      "date": "2025-11-18",
+      "sentence": "On November 18, 2025, Shares of the Trust commenced trading on the Exchange."
+    },
+    {
+      "event": "Sponsor Fee waiver period end (unless extended)",
+      "date": "2026-05-18",
+      "sentence": "The waiver period began on the date the Trust first issued Shares, which commenced trading on the Exchange November 18, 2025, following the effectiveness of the registration statement, and ends after a period of six months, unless extended by the Sponsor in its sole discretion."
+    },
+    {
+      "event": "Staking Fees waiver period end on first $1.0 billion of assets",
+      "date": "2026-05-18",
+      "sentence": "The Sponsor contractually agreed to waive Staking Fees in their entirety on the staking rewards received by the Trust generated from the first $1.0 billion of Trust assets for a period of six months beginning on the date the Trust first issues Shares, which commenced trading on the Exchange November 18, 2025, following the effectiveness of the Trust's registration statement."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "As of December 31, 2025, approximately $9.3 billion was being used as collateral on DeFi platforms using the Solana network.",
+      "sentence": "As of December 31, 2025, approximately $9.3 billion was being used as collateral on DeFi platforms using the Solana network."
+    },
+    {
+      "claim": "CME SOL Futures have traded approximately $174.2 million daily through December 31, 2025.",
+      "sentence": "Since their launch in March 2025, CME SOL Futures have traded approximately $174.2 million daily through December 31, 2025."
+    },
+    {
+      "claim": "The annualized trailing 30-day average net staking reward rate of the Fund derived from staking activity, after staking fees, was 4.51% as of December 31, 2025.",
+      "sentence": "Net staking reward rate (3) 4.51 %"
+    }
+  ],
+  "generatedAt": "2026-07-04T16:46:14.022Z",
+  "model": "deepseek-v4-flash"
+}

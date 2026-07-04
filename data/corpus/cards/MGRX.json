@@ -1,0 +1,42 @@
+{
+  "cik": "0001938046",
+  "ticker": "MGRX",
+  "name": "MANGOCEUTICALS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014478",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1938046/000149315226014478/form10-k.htm"
+  },
+  "business": "MANGOCEUTICALS, INC. distributes men's health and wellness products, including Mango ED, Mango GROW, and Mango SLIM, through a telehealth platform. The company sells its products directly to consumers via its website, after a telehealth consultation. It relies on a related party pharmacy, Epiq Scripts, for compounding and fulfillment services.",
+  "sellsTo": [
+    "men seeking health and wellness products",
+    "direct-to-consumer via telehealth"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Epiq Scripts"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "As a distributor of men s health and wellness products, the Company faces an inherent risk of exposure to product liability claims if its future products are alleged to have caused significant loss or injury."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our operations are subject to extensive government regulation, from the entry into agreements with physicians or groups of physicians to provide telehealth services to our potential customers, to the marketing and promotion of our products, the creation of our products, and the sale of our products through licensed pharmacists."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Epiq Scripts expects to obtain Alabama pharmacy license",
+      "date": "2026-03-31",
+      "sentence": "It is also in the process of applying for a state license for Alabama and hopes to obtain that by the end of the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:07:07.912Z",
+  "model": "deepseek-v4-flash"
+}

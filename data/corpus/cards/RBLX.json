@@ -1,0 +1,69 @@
+{
+  "cik": "0001315098",
+  "ticker": "RBLX",
+  "name": "Roblox Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001315098-26-000024",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm"
+  },
+  "business": "Roblox operates an immersive gaming and creation platform consisting of the Roblox Client, Roblox Studio, and Roblox Cloud. The platform allows users to explore experiences built by a community of creators, and generates revenue primarily through sales of virtual currency (Robux) used to purchase virtual items. As of December 31, 2025, it had 127 million average daily active users across over 180 countries.",
+  "sellsTo": [
+    "consumer users (players)",
+    "creators (developers)",
+    "advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Apple App Store",
+    "Google Play Store",
+    "Amazon Web Services",
+    "Blackhawk",
+    "ePay",
+    "Incomm",
+    "PayPal",
+    "Stripe",
+    "Microsoft",
+    "Sony PlayStation Network",
+    "Xsolla",
+    "Tipalti"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Roblox is an immersive gaming and creation platform (the Roblox Platform or Platform ) that offers people millions of ways to be together, inviting its community to explore, create, and share endless unique experiences."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We continue to expand our graphics processing units (GPU) infrastructure both in our owned and operated data centers and in the public cloud."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security compromises of our Platform, our private information, and our users private information could disrupt our internal operations and harm public perception of our Platform, which could cause our business and reputation to suffer."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We leverage text-filtering, voice moderation, content moderation, and other automated systems powered by artificial intelligence (AI) such as Roblox Sentinel."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "active_investment",
+      "sentence": "We are innovating aggressively in AI to accelerate the creation of content, improve the safety of our Platform, and fuel ongoing user engagement, discovery, and monetization improvements."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Mandatory age-check systems implementation in all chat-enabled regions",
+      "date": "2026-01",
+      "sentence": "Beginning in January 2026, we implemented mandatory age-check systems in all chat-enabled regions designed to check a user s age prior to accessing chat on our Platform."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:21:56.867Z",
+  "model": "deepseek-v4-flash"
+}

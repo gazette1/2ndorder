@@ -1,0 +1,40 @@
+{
+  "cik": "0001835579",
+  "ticker": "IMA",
+  "name": "ImageneBio, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-099434",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835579/000119312526099434/ima-20251231.htm"
+  },
+  "business": "ImageneBio is a clinical-stage biopharmaceutical company developing therapeutics for patients with immunological, autoimmune and inflammatory diseases. Its lead asset, IMG-007, is a non-depleting anti-OX40 monoclonal antibody being developed for atopic dermatitis and potentially other autoimmune diseases.",
+  "sellsTo": [
+    "pharmaceutical companies",
+    "biotechnology companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a clinical-stage biopharmaceutical company developing therapeutics for patients with immunological, autoimmune and inflammatory diseases."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems or those third parties with whom we work or our data are or were compromised, we could experience adverse consequences resulting from such compromise, including, but not limited to, interruptions to our operations such as our clinical trials, claims that we breached our data protection obligations, harm to our reputation, regulatory investigations or actions, litigation, fines and penalties, disruptions of our business operations, reputational harm, loss of revenue or profits, and other adverse consequences."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Topline data from Phase 2b clinical trial of IMG-007 for atopic dermatitis",
+      "date": "2027",
+      "sentence": "Topline data from the Phase 2b clinical trial is expected in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:04:34.965Z",
+  "model": "deepseek-v4-flash"
+}

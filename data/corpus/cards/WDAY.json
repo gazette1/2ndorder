@@ -1,0 +1,96 @@
+{
+  "cik": "0001327811",
+  "ticker": "WDAY",
+  "name": "Workday, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001327811-26-000014",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm"
+  },
+  "business": "Workday provides an enterprise AI platform for managing people, money, and agents, offering cloud-based AI-powered applications for human capital management, financial management, spend management, and planning. It sells to over 11,500 organizations, including more than 65% of the Fortune 500, across industries such as financial services, government, healthcare, higher education, hospitality, manufacturing, professional and business services, retail, technology and media, and transportation. The company also serves medium-sized enterprises through Workday GO.",
+  "sellsTo": [
+    "financial services",
+    "government",
+    "healthcare",
+    "higher education",
+    "hospitality",
+    "manufacturing",
+    "professional and business services",
+    "retail",
+    "technology and media",
+    "transportation",
+    "medium enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services, Inc.",
+    "Google Cloud",
+    "Microsoft Corporation",
+    "Automatic Data Processing, Inc.",
+    "Remote Technology, Inc.",
+    "Strada"
+  ],
+  "exposures": [
+    {
+      "tag": "other:enterprise-ai",
+      "stance": "core_product",
+      "sentence": "Workday is the enterprise AI platform for managing people, money, and agents."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Workday offers a suite of cloud-based enterprise solutions that address the evolving needs of the C-suite on a platform designed to be open, extensible, and configurable, allowing integration with other applications and the ability for customers and our partners to build custom applications."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Workday delivers HCM solutions to help organizations build an agile, skills-based workforce, streamline operations, increase efficiency, and deliver better employee experiences, empowering CHROs to champion the potential of their workforce."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We host our applications and serve our customers and users globally from data centers operated by third parties and rely upon third-party vendors to operate certain aspects of our services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any compromise of our information technology systems or security measures (including of our critical suppliers and service partners), or the unauthorized access of customer or user data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced new Workday AI agents expected to be available in fiscal 2027",
+      "date": "2027-01-31",
+      "sentence": "In fiscal 2026, we also announced new Workday AI agents that are expected to be available in fiscal 2027, purpose-built to assist with complex human capital management (HCM) and finance processes, such as performance reviews, workforce planning, and financial close."
+    },
+    {
+      "event": "Workday Build with Flowise Agent Builder expected to be available to early adopter customers in fiscal 2027",
+      "date": "2027-01-31",
+      "sentence": "Workday Build will feature Workday Flowise Agent Builder, a low-code tool designed to simplify building, deploying, and managing custom AI agents within Workday that is expected to be available to early adopter customers in fiscal 2027."
+    },
+    {
+      "event": "Workday Data Cloud expected to become available later in fiscal 2027",
+      "date": "2027-01-31",
+      "sentence": "The Workday Data Cloud is expected to become available later in fiscal 2027."
+    },
+    {
+      "event": "Acquisition of Paradox in September 2025",
+      "date": "2025-09-30",
+      "sentence": "In September 2025, we acquired Paradox, a candidate experience agent that uses conversational AI to simplify every step of the job application journey, for purchase consideration of $1.1 billion."
+    },
+    {
+      "event": "Acquisition of Sana in November 2025",
+      "date": "2025-11-30",
+      "sentence": "In November 2025, we acquired Sana, a leading AI company building the next generation of enterprise knowledge tools, for purchase consideration of $1.1 billion."
+    },
+    {
+      "event": "Announced Fiscal 2027 Restructuring Plan in February 2026",
+      "date": "2026-02-28",
+      "sentence": "In February 2026, we announced an additional restructuring plan (Fiscal 2027 Restructuring Plan) intended to better align our people and resources to our highest priorities in fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:28:31.228Z",
+  "model": "deepseek-v4-flash"
+}

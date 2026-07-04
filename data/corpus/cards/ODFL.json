@@ -1,0 +1,44 @@
+{
+  "cik": "0000878927",
+  "ticker": "ODFL",
+  "name": "OLD DOMINION FREIGHT LINE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067161",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/878927/000119312526067161/odfl-20251231.htm"
+  },
+  "business": "Old Dominion Freight Line is one of the largest North American less-than-truckload (LTL) motor carriers. It provides regional, inter-regional and national LTL services through a single integrated, union-free organization. Over 98% of its revenue comes from transporting LTL shipments for customers whose demand is tied to industrial production and the U.S. domestic economy.",
+  "sellsTo": [
+    "Industrial and commercial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We are one of the largest North American less-than-truckload ( LTL ) motor carriers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems are subject to cyber and other risks, some of which are beyond our control, which could have a material adverse effect on our business, results of operations and financial position."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We currently incorporate AI solutions into our business, and these applications may become more important over time."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure plan for 2026",
+      "date": "2026-12-31",
+      "sentence": "We currently estimate capital expenditures will be approximately $265 million for the year ending December 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:19:32.419Z",
+  "model": "deepseek-v4-flash"
+}

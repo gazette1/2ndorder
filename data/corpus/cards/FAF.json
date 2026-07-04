@@ -1,0 +1,61 @@
+{
+  "cik": "0001472787",
+  "ticker": "FAF",
+  "name": "First American Financial Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-055516",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526055516/faf-20251231.htm"
+  },
+  "business": "First American Financial Corporation provides title insurance, settlement services, and other financial services and risk solutions through its title insurance and services segment and home warranty segment. The title insurance segment issues policies on residential and commercial property in the U.S. and internationally, and offers closing/escrow services, data analytics, banking, trust, and wealth management. The home warranty segment sells residential service contracts covering systems and appliances.",
+  "sellsTo": [
+    "real estate owners and mortgage lenders",
+    "real estate agents, brokers, mortgage brokers, attorneys, originators, homebuilders, escrow providers",
+    "commercial principals, developers, investors, REITs, law firms, commercial lenders, life insurance companies",
+    "consumers for home warranty contracts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company, through its subsidiaries, is engaged in the business of providing title insurance, settlement services and other financial services and risk solutions through its title insurance and services segment and its home warranty segment."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "The substantial majority of our business is dependent upon activity in the real estate and mortgage markets."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "In an effort to speed the delivery of our products, increase efficiency, improve quality, improve the customer experience and decrease risk, we are utilizing innovative technologies, processes and techniques, including artificial intelligence, in the production and delivery of our products and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company dedicates significant resources to securing its systems and to protecting non-public personal information and other confidential information."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "We are deploying innovation solutions that leverage our bank to make the closing process more flexible."
+    },
+    {
+      "tag": "other:data-analytics",
+      "stance": "core_product",
+      "sentence": "Our data and analytics business offers property information and analytic solutions for title underwriting automation, fraud risk management, identity verification, compliance and valuation that are powered by our extensive collection of real estate property data, ownership data and recorded documents."
+    },
+    {
+      "tag": "other:venture-capital",
+      "stance": "active_investment",
+      "sentence": "Our venture investment portfolio consists primarily of investments in the equity of private venture-stage companies that operate in the real-estate industry and related industries (many of which offer technology-enabled products and services)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:34:45.712Z",
+  "model": "deepseek-v4-flash"
+}

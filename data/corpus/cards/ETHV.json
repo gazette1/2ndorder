@@ -1,0 +1,45 @@
+{
+  "cik": "0001860788",
+  "ticker": "ETHV",
+  "name": "VanEck Ethereum ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0000930413-26-000942",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1860788/000093041326000942/c115874_10k-ixbrl.htm"
+  },
+  "business": "The VanEck Ethereum ETF (the Trust) was formed as a Delaware statutory trust on March 1, 2021. The purpose of the Trust is to own ETH transferred to the Trust in exchange for shares issued by the Trust (the Shares). The Trust's investment objective is to reflect the performance of the price of ETH less the expenses of the Trust's operations. The Shares are listed for trading on the Cboe BZX Exchange, Inc. under the ticker symbol ETHV.",
+  "sellsTo": [
+    "Authorized Participants (registered broker-dealers or other securities market participants)",
+    "Secondary market investors"
+  ],
+  "namedCustomers": [
+    "Jane Street Capital, LLC",
+    "Virtu Americas LLC",
+    "Macquarie Capital Inc.",
+    "ABN AMRO Clearing USA LLC"
+  ],
+  "namedSuppliers": [
+    "Gemini Trust Company, LLC",
+    "Coinbase Custody Trust Company, LLC",
+    "State Street Bank and Trust Company",
+    "CSC Delaware Trust Company",
+    "Van Eck Securities Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to reflect the performance of the price of ETH less the expenses of the Trust's operations."
+    },
+    {
+      "tag": "other:ethereum",
+      "stance": "risk_mention",
+      "sentence": "The trading prices of many digital assets, including ETH, have experienced extreme volatility in recent periods and may continue to do so."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:55.315Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0000875357",
+  "ticker": "BOKF",
+  "name": "BOK FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000875357-26-000013",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/875357/000087535726000013/bokf-20251231.htm"
+  },
+  "business": "BOK Financial offers full service banking in Oklahoma, Texas, New Mexico, Northwest Arkansas, Colorado, Arizona, and Kansas/Missouri, operating three principal segments: Commercial Banking, Consumer Banking, and Wealth Management. Products and services include loans, deposits, cash management, fiduciary services, mortgage banking, and brokerage and trading services to middle-market businesses, financial institutions, and consumers.",
+  "sellsTo": [
+    "middle-market businesses",
+    "financial institutions",
+    "consumers",
+    "small businesses",
+    "high net-worth clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Developments in fintech and cryptocurrencies have the potential to disrupt the financial industry and change the way banks do business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of emerging technologies like artificial intelligence, machine learning, and generative artificial intelligence presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks for financial institutions have increased significantly in recent years in part because of the proliferation of new technologies, the increased use of the internet and mobile technologies to conduct financial transactions, and the increased sophistication and ever changing cyberattack techniques used by organized crime, hackers, terrorists, hostile foreign governments, and other external parties to obtain confidential customer information and misappropriate customer funds, and may disrupt operations through ransomware."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We also offer products that leverage our energy financing expertise and enable us to offer commodity derivatives for customers to use in their risk management."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "At December 31, 2025, 11% of BOK Financial's total loan portfolio was comprised of loans to borrowers in the energy industry."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide liquidity to the mortgage markets through trading of U.S. government agency issued mortgage-backed securities and related derivative contracts and currently service approximately $127 billion of assets under management or administration."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "risk_mention",
+      "sentence": "Our loan portfolio includes commercial real estate loans."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:25:51.386Z",
+  "model": "deepseek-v4-flash"
+}

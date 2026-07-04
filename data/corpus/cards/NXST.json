@@ -1,0 +1,49 @@
+{
+  "cik": "0001142417",
+  "ticker": "NXST",
+  "name": "NEXSTAR MEDIA GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-078361",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm"
+  },
+  "business": "Nexstar Media Group, Inc. generates revenue primarily from distribution and advertising. Distribution revenue consists of retransmission fees from MVPDs, vMVPDs, and OTT services. Advertising revenue comes from local and national advertising across its stations, networks, and digital platforms.",
+  "sellsTo": [
+    "MVPDs",
+    "vMVPDs",
+    "direct-to-consumer OTT services",
+    "local advertisers",
+    "national advertisers",
+    "political advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks could adversely affect our operating effectiveness and operating results."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "risk_mention",
+      "sentence": "Intense competition in the television industry and alternative forms of media could limit our growth and profitability."
+    },
+    {
+      "tag": "other:big-tech-competition",
+      "stance": "risk_mention",
+      "sentence": "Our advertising revenue and operating results may be affected by big tech and other media and technology competitors"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected closing of TEGNA merger",
+      "date": null,
+      "sentence": "The transaction is anticipated to close by the second half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:48:51.569Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0002019505",
+  "ticker": "HIT",
+  "name": "Health In Tech, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-034211",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2019505/000121390026034211/ea0283147-10k_health.htm"
+  },
+  "business": "Health in Tech (HIT) is an AI-enabled insurance technology platform company that offers a marketplace for stop-loss policy options for self-funded benefits plans. It provides underwriting, quoting, and administrative services through subsidiaries SMR, ICE, and HI Card. Its customers are employers of all sizes that need health insurance plans, facilitated through brokers, TPAs, and carriers.",
+  "sellsTo": [
+    "employers",
+    "brokers",
+    "third-party administrators (TPAs)",
+    "insurance carriers",
+    "managing general underwriters (MGUs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Ciklum"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Health in Tech ( HIT ) is an AI-enabled insurance technology platform company, which offers a marketplace that improves processes in the healthcare industry through vertical integration, process simplification, and automation."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We are a health insurance marketplace where insurance companies can list various stop-loss policy options for self-funded benefits plans."
+    },
+    {
+      "tag": "other:ai-insurtech",
+      "stance": "core_product",
+      "sentence": "Our eDIYBS platform is backed by third-party AI technology utilizing machine learning."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Resume HI Card development",
+      "date": "2026-01-01",
+      "sentence": "We currently expect to resume HI Card development early in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. healthcare spending reached approximately $5.3 trillion in 2024.",
+      "sentence": "According to the Centers for Medicare & Medicaid Services (CMS), U.S. health care spending reached approximately $5.3 trillion in 2024, or $15,474 per person, representing 18.0% of U.S. GDP."
+    },
+    {
+      "claim": "U.S. group health insurance market totaled approximately $1.41 trillion in 2024.",
+      "sentence": "Third-party market research estimates the U.S. group health insurance market totaled approximately $1.41 trillion in 2024."
+    },
+    {
+      "claim": "Self-funded health plan market represents $0.9 trillion.",
+      "sentence": "According to the KFF 2025 Employer Health Benefits Survey, in 2024, 67% of covered workers were enrolled in a self-funded health plan, representing a $0.9 trillion market."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:01:28.556Z",
+  "model": "deepseek-v4-flash"
+}

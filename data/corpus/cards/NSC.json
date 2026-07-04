@@ -1,0 +1,43 @@
+{
+  "cik": "0000702165",
+  "ticker": "NSC",
+  "name": "NORFOLK SOUTHERN CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-006268",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm"
+  },
+  "business": "Norfolk Southern Corporation is a freight railroad company that transports raw materials, intermediate products, and finished goods primarily in the Southeast, East, and Midwest United States. It also transports overseas freight through Atlantic and Gulf Coast ports. The company offers intermodal network services in the eastern U.S.",
+  "sellsTo": [
+    "Agriculture, forest and consumer products",
+    "Chemicals",
+    "Metals and construction",
+    "Automotive",
+    "Intermodal",
+    "Coal"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We are primarily engaged in the rail transportation of raw materials, intermediate products, and finished goods primarily in the Southeast, East, and Midwest and, via interchange with rail carriers, to and from the rest of the United States (U.S.)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant cybersecurity incident or other disruption to our technology infrastructure resulting from internal and external threats could disrupt our business operations."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Volatility in energy prices could have a significant effect on a variety of items including, but not limited to: the economy; demand for transportation services; business related to the energy sector, including crude oil, natural gas, and coal; fuel prices; and, fuel surcharges, each of which could have a material impact on our business and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:08:46.112Z",
+  "model": "deepseek-v4-flash"
+}

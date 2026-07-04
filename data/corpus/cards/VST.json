@@ -1,0 +1,125 @@
+{
+  "cik": "0001692819",
+  "ticker": "VST",
+  "name": "Vistra Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001692819-26-000006",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm"
+  },
+  "business": "Vistra is an integrated retail electricity and power generation company that provides essential power resources to customers, businesses, and communities from California to Maine. We serve approximately 5 million residential, commercial, and industrial retail customers with electricity and natural gas. Our generation fleet totals approximately 44,000 megawatts of generation capacity powered by a diverse portfolio, including natural gas, nuclear, coal, solar, and battery energy storage facilities.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers",
+    "18 states and the District of Columbia"
+  ],
+  "namedCustomers": [
+    "Amazon Web Services",
+    "Meta Platforms, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Our generation fleet totals approximately 44,000 megawatts of generation capacity powered by a diverse portfolio, including natural gas, nuclear, coal, solar, and battery energy storage facilities."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We also own the trade names for Ambit Energy, Dynegy Energy Services, Homefield Energy, TriEagle Energy, Public Power, and U.S. Gas & Electric. We believe that we have differentiated ourselves by providing a distinctive customer experience predicated on delivering reliable and innovative power products and solutions to our customers, including 100% wind and solar options, as well as thermostats, dashboards, and other programs designed to encourage reduced electricity consumption and increased energy efficiency."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Our generation fleet totals approximately 44,000 megawatts of generation capacity powered by a diverse portfolio, including natural gas, nuclear, coal, solar, and battery energy storage facilities."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "To support growing demand from large scale electricity consumers, we continue to engage in discussions with various counterparties regarding the potential long-term sale of power from our generation facilities, and we are progressing a series of development initiatives across our generation portfolio, including nuclear uprates and other capacity expansions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Electricity demand drivers including the rise of large scale data centers, the electrification of oil field operations, and electric vehicle load building are contributing to a projected fast paced load growth in the regions we serve."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Electricity demand drivers including the rise of large scale data centers, the electrification of oil field operations, and electric vehicle load building are contributing to a projected fast paced load growth in the regions we serve."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Electricity demand drivers including the rise of large scale data centers, the electrification of oil field operations, and electric vehicle load building are contributing to a projected fast paced load growth in the regions we serve."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "We announced plans to repower the Coleto Creek and Miami Fort coal generation facilities as natural gas-fueled facilities upon their retirement no later than 2027 and the middle of 2028, respectively."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Vistra is an integrated retail electricity and power generation company that provides essential power resources to customers, businesses, and communities from California to Maine."
+    },
+    {
+      "tag": "other:natural_gas",
+      "stance": "core_product",
+      "sentence": "Our natural gas-fueled generation fleet is comprised of 28 CCGT generation facilities totaling 22,167 MW and 12 peaking generation facilities totaling 4,822 MW."
+    },
+    {
+      "tag": "other:coal",
+      "stance": "core_product",
+      "sentence": "Our coal/lignite-fueled generation fleet is comprised of seven generation facilities totaling 8,743 MW of generation capacity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Power delivery to Amazon Web Services from Comanche Peak Nuclear Power Plant under 20-year PPA begins",
+      "date": "2027-10-01",
+      "sentence": "We anticipate power delivery to begin in the fourth quarter of 2027 and ramp to full capacity by 2032."
+    },
+    {
+      "event": "Power delivery to Meta Platforms from PJM nuclear plants under 20-year PPAs begins (operating capacity)",
+      "date": "2026-12-01",
+      "sentence": "We anticipate commencing delivery on a portion of the operating energy and capacity in late 2026 and full delivery by year end 2027."
+    },
+    {
+      "event": "Power delivery to Meta Platforms from PJM nuclear uprates begins",
+      "date": "2031-01-01",
+      "sentence": "We anticipate commencing delivery on a portion of the uprate energy and capacity by 2031 and full delivery by year end 2034."
+    },
+    {
+      "event": "Completion of 860 MW peaking plants in West Texas",
+      "date": "2028-01-01",
+      "sentence": "We anticipate the units will be online in 2028."
+    },
+    {
+      "event": "Cogentrix Energy acquisition expected close",
+      "date": "2026-09-01",
+      "sentence": "The transaction is expected to close in mid-to-late 2026."
+    },
+    {
+      "event": "Coleto Creek repowering as natural gas-fueled plant upon coal retirement",
+      "date": "2027-12-31",
+      "sentence": "We announced plans to repower the Coleto Creek and Miami Fort coal generation facilities as natural gas-fueled facilities upon their retirement no later than 2027 and the middle of 2028, respectively."
+    },
+    {
+      "event": "Miami Fort repowering as natural gas-fueled plant upon coal retirement",
+      "date": "2028-07-01",
+      "sentence": "We announced plans to repower the Coleto Creek and Miami Fort coal generation facilities as natural gas-fueled facilities upon their retirement no later than 2027 and the middle of 2028, respectively."
+    },
+    {
+      "event": "Nuclear uprate capacity additions (433 MW) at Perry, Davis-Besse, Beaver Valley",
+      "date": "2031-01-01",
+      "sentence": "We anticipate commencing delivery on a portion of the uprate energy and capacity by 2031 and full delivery by year end 2034."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:16:45.899Z",
+  "model": "deepseek-v4-flash"
+}

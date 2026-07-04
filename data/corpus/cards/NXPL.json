@@ -1,0 +1,72 @@
+{
+  "cik": "0001058307",
+  "ticker": "NXPL",
+  "name": "NextPlat Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010668",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1058307/000143774926010668/nxpl20251231_10k.htm"
+  },
+  "business": "NextPlat Corp is a global e-commerce and healthcare services company operating through two reportable segments: e-Commerce Operations and Healthcare Operations. The e-Commerce segment provides satellite-enabled communication products and services, while the Healthcare segment offers pharmacy services, healthcare technology solutions, and data analytics. The company serves consumers, enterprises, healthcare providers, government organizations, and other institutions across multiple geographic markets.",
+  "sellsTo": [
+    "consumers",
+    "enterprises",
+    "healthcare providers",
+    "government organizations",
+    "military",
+    "humanitarian organizations",
+    "individual users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "McKesson"
+  ],
+  "exposures": [
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "We provide Mobile Satellite Services (MSS) solutions to fulfill the growing global demand for satellite-enabled voice, data, personnel and asset tracking, Machine-to-Machine (M2M) and Internet of Things (IoT) connectivity services."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our e-commerce segment provides satellite communications products, connectivity services, and related equipment to customers globally through proprietary online platforms and third-party marketplaces."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "ClearMetrX offers personalized healthcare services and technology that provides prescription pharmaceuticals and risk and data management services to healthcare organizations and providers."
+    },
+    {
+      "tag": "other:340b",
+      "stance": "risk_mention",
+      "sentence": "A material portion of our pharmacy segment gross profit is derived from participation in the federal 340B Drug Pricing Program, including revenues generated through contract pharmacy arrangements."
+    },
+    {
+      "tag": "other:amazon",
+      "stance": "risk_mention",
+      "sentence": "Amazon marketplaces represented approximately 31% and 33% of total e-Commerce revenue for the years ended December 31, 2025 and 2024, respectively, and we anticipate that these marketplaces will continue to represent a significant portion of our revenue for the foreseeable future."
+    },
+    {
+      "tag": "other:china-tariffs",
+      "stance": "risk_mention",
+      "sentence": "Retaliatory tariffs imposed by China in response to tariffs enacted by the United States expose us to significant trade-policy risk."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reverse stock split approved by board",
+      "date": "2026-03-27",
+      "sentence": "On March 27, 2026, the Board of Directors voted to approve a reverse stock split at a ratio of 1-to-10."
+    },
+    {
+      "event": "Deadline to regain Nasdaq Minimum Bid Price compliance",
+      "date": "2026-04-27",
+      "sentence": "If we cannot maintain our stock price above $1.00 for at least ten consecutive trading days prior to April 27, 2026, then we will be subject to delisting from Nasdaq."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:42:45.762Z",
+  "model": "deepseek-v4-flash"
+}

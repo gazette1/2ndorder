@@ -1,0 +1,52 @@
+{
+  "cik": "0001771995",
+  "ticker": "APHP",
+  "name": "American Picture House Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013430",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1771995/000149315226013430/form10-k.htm"
+  },
+  "business": "American Picture House Corporation is an entertainment company focused on the development, packaging, financing and production of feature films and limited series. It seeks to operate as a publicly traded independent film co-financier and co-producer, applying disciplined underwriting and structured deal terms. Revenue is generated from project-level financing arrangements and licensing of film rights.",
+  "sellsTo": [
+    "independent film distributors",
+    "streaming platforms",
+    "theatrical exhibitors",
+    "international licensees"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:film-production",
+      "stance": "core_product",
+      "sentence": "American Picture House Corporation ( APHP ) , also known as American Picture House Pictures, is an entertainment company focused on the development, packaging, financing and production of feature films and limited series."
+    },
+    {
+      "tag": "other:streaming",
+      "stance": "risk_mention",
+      "sentence": "Consumer viewing has shifted toward subscription streaming, ad-supported streaming, FAST channels, mobile and connected-TV viewing, and other digital platforms, while release windows, licensing practices, advertising models and platform economics continue to evolve."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Target release of MOTION in Q2 2026",
+      "date": "2026-06-30",
+      "sentence": "MOTION is in post-production; APHP served as a production company co-financing and co-production company on the film, and the Company is currently targeting a release during the second quarter of 2026, although timing is subject to change."
+    },
+    {
+      "event": "Labrys Fund II note amortization begins",
+      "date": "2026-03-23",
+      "sentence": "The note includes customary covenants and events of default and provides for amortization beginning March 23, 2026, subject to the note's terms."
+    },
+    {
+      "event": "Option to acquire ownership interest in POSE expires",
+      "date": "2026-03-31",
+      "sentence": "On December 29, 2025, the Company entered into Amendment No. 1 to its August 1, 2025 agreement with SSS Entertainment, LLC, which (i) extended the Company's option relating to POSE through March 31, 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:49:18.491Z",
+  "model": "deepseek-v4-flash"
+}

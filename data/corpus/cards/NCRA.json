@@ -1,0 +1,70 @@
+{
+  "cik": "0001756180",
+  "ticker": "NCRA",
+  "name": "NOCERA, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-003002",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1756180/000168316826003002/nocera_i10k-123125.htm"
+  },
+  "business": "Nocera operates through two segments: Fish Trading (trading of eels in Taiwan) and E-Commerce (acting as an agent facilitating third-party product sales via live-streaming platforms), and also provides RAS design and consulting services. In January 2026, it allocated $2.0 million to purchase Bitcoin as part of its corporate treasury strategy. The company sells to customers in Japan, Taiwan, China, the United States, South Africa, and France.",
+  "sellsTo": [
+    "Japan",
+    "Taiwan",
+    "China",
+    "United States",
+    "South Africa",
+    "France"
+  ],
+  "namedCustomers": [
+    "Sano Morio",
+    "Handou Syuji",
+    "Ming-Chi Chen",
+    "Kai-Ling Chen",
+    "Sano Morimoto"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "In the E-Commerce segment, which is administered through Xinca, an unincorporated division of the Company ( Xinca ), we act as an agent in facilitating the sale of third-party products through live-streaming e-commerce platforms."
+    },
+    {
+      "tag": "other:fish-trading",
+      "stance": "core_product",
+      "sentence": "Our Fish Trading segment is carried out by our wholly-owned subsidiary, Nocera Inc. Taiwan Branch ( NTB ). NTB engages in the trading of fish, primarily eels, in the Republic of Taiwan, or Taiwan."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "active_investment",
+      "sentence": "In January 2026, the Company allocated an aggregate $2.0 million of corporate funds to purchase Bitcoin as part of its corporate treasury strategy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Bitcoin purchase",
+      "date": "2026-01-25",
+      "sentence": "The Company completed the first $1.0 million tranche on January 25, 2026 and the remaining $1.0 million tranche on January 29, 2026, acquiring approximately 12 Bitcoin at an average purchase price of approximately $83,000."
+    },
+    {
+      "event": "Issuance of senior secured convertible note",
+      "date": "2025-11-03",
+      "sentence": "On November 3, 2025, we consummated the initial closing under the purchase agreement, pursuant to which it issued to the investor a senior secured convertible note in the principal amount of $8,000,000 (the Initial Note) for a purchase price of $7,280,000."
+    },
+    {
+      "event": "Issuance of Series B Preferred Stock",
+      "date": "2025-08-29",
+      "sentence": "On August 29, 2025, we entered into a Securities Purchase Agreement with an institutional accredited investor, pursuant to which we and issued and sold 3,500 shares of Series B Preferred Stock for an aggregate purchase price of $3.15 million at the initial closing."
+    },
+    {
+      "event": "Equity investment in LONGWOOL",
+      "date": "2025-12-01",
+      "sentence": "On December 1, 2025, we entered into a Stock Purchase Agreement with LONGWOOL, a French corporation (société par actions simplifiée, or SAS), we agreed to purchase from LONGWOOL, and LONGWOOL the Company agreed to issue and sell to us that number of equity securities representing 35% of the LONGWOOL's outstanding equity."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:28:40.035Z",
+  "model": "deepseek-v4-flash"
+}

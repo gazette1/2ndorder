@@ -1,0 +1,47 @@
+{
+  "cik": "0001541401",
+  "ticker": "ESRT",
+  "name": "Empire State Realty Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001541401-26-000008",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1541401/000154140126000008/esrt-20251231.htm"
+  },
+  "business": "Empire State Realty Trust, Inc. is a real estate investment trust that owns and operates a portfolio of office, retail, and multifamily properties in New York City. It also operates the Empire State Building Observatory, a tourist attraction. The company leases commercial space to tenants and sells tickets to the Observatory.",
+  "sellsTo": [
+    "Office tenants",
+    "Retail tenants",
+    "Multifamily residents",
+    "Observatory visitors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We license the use of the Empire State Building broadcasting mast to third-party television and radio broadcasters."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and any failure to comply with related laws could negatively impact us."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "We have begun the use of AI capabilities in our business and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Debt maturity of $50.0 million mortgage",
+      "date": "2026-04",
+      "sentence": "Our next mortgage debt maturity is for $50.0 million in April 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:03:03.708Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,46 @@
+{
+  "cik": "0001787414",
+  "ticker": "BSBK",
+  "name": "Bogota Financial Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010056",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1787414/000143774926010056/bsbk20251231_10k.htm"
+  },
+  "business": "Bogota Financial Corp. is a bank holding company whose subsidiary, Bogota Savings Bank, is a New Jersey-chartered savings bank that attracts deposits from the general public and municipalities and originates one- to four-family residential real estate loans, commercial real estate and multi-family loans, and to a lesser extent consumer, commercial and industrial, and construction loans. The company also invests in securities. Its market area primarily includes Bergen, Morris, Essex, Monmouth, and Ocean Counties in New Jersey.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our one- to four-family residential loan portfolio consists of mortgage loans that enable borrowers to purchase or refinance existing homes, most of which serve as the primary residence of the borrower, as well as home equity loans and lines of credit."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "We view the growth of commercial real estate and multi-family lending as a means of increasing our interest income and the yield on our loan portfolio, and reducing the average terms of our loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our risk and exposure to cyber attacks or other information security breaches remains heightened because of, among other things, the evolving nature of these threats."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening a new branch in Point Pleasant, New Jersey",
+      "date": null,
+      "sentence": "We are opening a new branch in Point Pleasant during the second quarter of 2026, which we hope will be an additional source for deposit growth."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:37:45.130Z",
+  "model": "deepseek-v4-flash"
+}

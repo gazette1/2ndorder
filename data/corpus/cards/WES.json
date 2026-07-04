@@ -1,0 +1,57 @@
+{
+  "cik": "0001423902",
+  "ticker": "WES",
+  "name": "Western Midstream Partners, LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001423902-26-000030",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390226000030/wes-20251231.htm"
+  },
+  "business": "Western Midstream Partners, LP is a midstream energy partnership engaged in gathering, compressing, treating, processing, and transporting natural gas; gathering, stabilizing, and transporting condensate, NGLs, and crude oil; and gathering, transporting, recycling, treating, supplying, and disposing of produced water. The company's assets are located in Texas, New Mexico, and the Rocky Mountains (Colorado, Utah, and Wyoming). For the year ended December 31, 2025, 60% of total revenues and other were attributable to production owned or controlled by Occidental.",
+  "sellsTo": [
+    "oil and gas producers",
+    "Occidental"
+  ],
+  "namedCustomers": [
+    "Occidental"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a midstream energy company organized as a publicly traded partnership, engaged in the business of gathering, compressing, treating, processing, and transporting natural gas; gathering, stabilizing, and transporting condensate, NGLs, and crude oil; and gathering, transporting, recycling, treating, supplying, and disposing of produced water."
+    },
+    {
+      "tag": "other:hydraulic-fracturing",
+      "stance": "risk_mention",
+      "sentence": "Changes in laws or regulations regarding hydraulic fracturing could result in increased costs, operating restrictions, or delays in the completion of oil and natural-gas wells, which could decrease the need for our gathering and processing services."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Adoption of new or more stringent climate-change or other air-emissions legislation or regulations restricting emissions of GHGs or other air pollutants could negatively impact us, our producer customers, or downstream customers by increasing operating costs and reducing volumetric throughput on our systems due to reduced demand for the gathering, processing, compressing, treating, transporting, supply, and produced-water disposal services we provide."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be negatively affected by security threats, including cyber-threats, and other disruptions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Aris closed",
+      "date": "2025-10-15",
+      "sentence": "On October 15, 2025, we closed on the acquisition of Aris by merger in an equity-and-cash transaction."
+    },
+    {
+      "event": "Start-up of North Loving plant",
+      "date": "2025-02-28",
+      "sentence": "We completed the start-up of the North Loving plant in late-February 2025, increasing gas processing capacity at the West Texas complex by 250 MMcf/d to a total of 2,190 MMcf/d."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:00.586Z",
+  "model": "deepseek-v4-flash"
+}

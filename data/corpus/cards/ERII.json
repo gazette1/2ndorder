@@ -1,0 +1,62 @@
+{
+  "cik": "0001421517",
+  "ticker": "ERII",
+  "name": "Energy Recovery, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001421517-26-000022",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1421517/000142151726000022/erii-20251231.htm"
+  },
+  "business": "Energy Recovery designs and manufactures energy-saving pressure exchanger technology for water treatment and industrial applications. Its products are used in seawater reverse osmosis desalination and wastewater treatment. The company also developed a CO2 refrigeration product but wound down operations in 2026.",
+  "sellsTo": [
+    "Megaproject desalination plants",
+    "OEM small to medium desalination and wastewater systems",
+    "Aftermarket spare parts and services",
+    "Wastewater treatment facilities",
+    "CO2 refrigeration (wind down)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:desalination",
+      "stance": "core_product",
+      "sentence": "The PX, which we believe is today’s industry standard in energy recovery in desalination, establishes a value proposition by reducing energy use by up to 60% in SWRO facilities."
+    },
+    {
+      "tag": "other:wastewater",
+      "stance": "core_product",
+      "sentence": "We have introduced a number of products designed specifically for the wastewater market in the last few years, including the Ultra High-Pressure PX family of products and the low pressure PX."
+    },
+    {
+      "tag": "other:co2-refrigeration",
+      "stance": "risk_mention",
+      "sentence": "On February 25, 2026, we decided to wind down operations of the CO2 retail grocery business within our Emerging Technologies segment due to a fundamental change in the outlook of the business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Wind down of CO2 retail grocery business",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, we decided to wind down operations of the CO2 retail grocery business within our Emerging Technologies segment due to a fundamental change in the outlook of the business."
+    },
+    {
+      "event": "Substantial completion of wind down",
+      "date": "2026-03-31",
+      "sentence": "We expect to substantially complete the wind down in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global freshwater demand will exceed supply by 40% by 2030",
+      "sentence": "It has been projected by the United Nations General Assembly that by 2030, global freshwater demand will exceed freshwater supply by 40%."
+    },
+    {
+      "claim": "Desalination plants using our products produce over 43 million cubic meters of water per day",
+      "sentence": "Worldwide seawater desalination plants using our products produce over 43 million cubic meters of water per day (m3/day)."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:13:47.132Z",
+  "model": "deepseek-v4-flash"
+}

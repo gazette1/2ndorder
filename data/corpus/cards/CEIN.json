@@ -1,0 +1,72 @@
+{
+  "cik": "0001309082",
+  "ticker": "CEIN",
+  "name": "CAMBER ENERGY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-26-001710",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1309082/000147793226001710/cei_10k.htm"
+  },
+  "business": "Camber Energy holds majority interests in entities owning intellectual property for medical waste treatment using ozone technology, electric broken conductor protection systems, and an exclusive license for a clean energy and carbon-capture system. It also has a 49% interest in Simson-Maxwell, which provides custom energy and power solutions to commercial and industrial clients in North America. The company currently does not generate revenue.",
+  "sellsTo": [
+    "commercial and industrial clients",
+    "electric utilities",
+    "medical and bio-hazard waste treatment facilities",
+    "third parties for clean energy systems"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ozone-medical-waste",
+      "stance": "core_product",
+      "sentence": "a majority interest in an entity with intellectual property rights to a fully developed, patented, proprietary medical and bio-hazard waste treatment system using ozone technology"
+    },
+    {
+      "tag": "other:broken-conductor-protection",
+      "stance": "core_product",
+      "sentence": "a majority interest in entities with the intellectual property rights to fully developed, patented and patent pending, proprietary electric transmission and distribution broken conductor protection systems"
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "core_product",
+      "sentence": "a license to a patented clean energy and carbon-capture system with exclusivity in Canada and for multiple locations in the United States"
+    },
+    {
+      "tag": "utilities",
+      "stance": "active_investment",
+      "sentence": "a forty-nine percent interest in Simson-Maxwell Ltd., a Canadian corporation, that provides custom energy and power solutions to commercial and industrial clients in North America"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "VKIN-300 medical waste pretreatment unit passed acceptance review for French certification",
+      "date": "2025-11-01",
+      "sentence": "In November, 2025, Viking Ozone was advised that its flagship VKIN-300 medical and bio-hazardous waste pre-treatment unit (the VKIN-300 Unit) passed the acceptance review by Laboratoire national de métrologie et d'essais (LNE) in France to obtain official certification of compliance with French Standard NFX 30-503"
+    },
+    {
+      "event": "Acquisition of 51% interest in Viking Distribution for broken conductor protection",
+      "date": "2025-08-01",
+      "sentence": "On August 1, 2025, Viking acquired a 51% interest in Viking Distribution which owns the intellectual property rights to patented and patent pending proprietary electric distribution broken conductor protection systems"
+    },
+    {
+      "event": "Amendment to IPLA adding Scuderi Group as additional licensor",
+      "date": "2025-08-13",
+      "sentence": "On August 13, 2025, Viking, ESG and Scuderi Group, Inc. signed an Amendment to the IPLA pursuant to which Scuderi was added, effective as of such date, as an additional licensor or grantor"
+    },
+    {
+      "event": "ESG Clean Energy filed for Chapter 11 bankruptcy",
+      "date": "2025-07-01",
+      "sentence": "In July 2025, ESG filed a voluntary bankruptcy petition under Chapter 11 with the Massachusetts Bankruptcy Court"
+    },
+    {
+      "event": "Simson-Maxwell restructuring and deconsolidation",
+      "date": "2025-04-01",
+      "sentence": "On April 1, 2025, Viking entered into a Share Subscription Agreement (the SSA) with T&T Power Group Inc., Remora EQ LP, Simmax Corp., and Simson-Maxwell"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:09:48.661Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0000354190",
+  "ticker": "AJG",
+  "name": "Arthur J. Gallagher & Co.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008662",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm"
+  },
+  "business": "Arthur J. Gallagher & Co. provides insurance brokerage, reinsurance brokerage, consulting, and third-party property/casualty claims settlement and administration services. The company acts as an intermediary between underwriting enterprises and clients and does not assume net underwriting risks. It operates through three segments: brokerage (87% of 2025 revenues), risk management (13%), and corporate.",
+  "sellsTo": [
+    "commercial entities",
+    "nonprofit organizations",
+    "public sector entities",
+    "insurance companies",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are engaged in providing insurance brokerage, reinsurance brokerage, consulting, and third-party property/casualty claims settlement and administration services to entities and individuals around the world."
+    },
+    {
+      "tag": "other:data-analytics",
+      "stance": "core_product",
+      "sentence": "We provide sophisticated data analysis and other data and benchmarking insights through a product offering we refer to as Gallagher Drive to help our clients make insurance decisions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We are subject to risks associated with AI."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Improper disclosure of confidential, personal or proprietary information and cybersecurity attacks or other security breach of our information systems, or those of third-party vendors we rely on, could result in regulatory scrutiny, legal liability or reputational harm, and could adversely affect our business, financial condition and reputation."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Our clean energy investments are subject to various risks and uncertainties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:12:47.566Z",
+  "model": "deepseek-v4-flash"
+}

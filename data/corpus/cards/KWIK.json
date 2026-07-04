@@ -1,0 +1,52 @@
+{
+  "cik": "0001884164",
+  "ticker": "KWIK",
+  "name": "KwikClick, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-002512",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1884164/000168316826002512/kwikclick_i10k-123125.htm"
+  },
+  "business": "KwikClick operates a social interaction, selling, and referral software platform that enables sellers to offer products or services at a self-determined discount in exchange for exposure and increased sales volume. The platform connects sellers to promoters, influencers, and customers, generating revenue from incentive budgets paid by brands and from custom design services for brand integrations.",
+  "sellsTo": [
+    "Brands (sellers)",
+    "Affiliates (influencers/promoters)",
+    "Consumers (buyers)",
+    "Network marketing companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "KwikClick is a social interaction, selling, and referral software platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we experience a technology disruption or failure that results in a loss of information, if personal data or sensitive information about members of our community or employees is misused or disclosed, or if we or our third-party providers are unable to protect against software and hardware vulnerabilities, service interruptions, cyber incidents, ransomware, security incidents, or security breaches, then members of our community may curtail use of our platform, we may be exposed to liability or incur additional expenses, and our reputation could suffer."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are also seeking protections for inventions covering all aspects of AI/ML processing, security systems, and the Hyperlink Data structure and messaging system, which we see as a foundation of using our wave compensation system."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into an arrangement with a brand for programming services integrating KWIK software into their website, providing monthly payment of $50,000 for 18 months.",
+      "date": null,
+      "sentence": "In December 2024, the Company entered into an arrangement with a brand to provide programming services to integrate the KWIK software into their website."
+    },
+    {
+      "event": "Entered into an arrangement with another brand for programming services integrating KWIK software into their website, providing monthly payment of $125,000 for 12 months.",
+      "date": null,
+      "sentence": "In October 2025, the Company also entered into an arrangement with another brand to provide programming services to integrate the KWIK software into their website."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:18:47.621Z",
+  "model": "deepseek-v4-flash"
+}

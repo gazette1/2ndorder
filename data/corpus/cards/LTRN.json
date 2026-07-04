@@ -1,0 +1,57 @@
+{
+  "cik": "0001763950",
+  "ticker": "LTRN",
+  "name": "Lantern Pharma Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013612",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1763950/000149315226013612/form10-k.htm"
+  },
+  "business": "Lantern Pharma Inc. is an artificial intelligence-focused company developing cancer therapies using its proprietary RADR AI platform. The company has three clinical-stage small molecule drug candidates (LP-300, LP-184, LP-284) targeting various cancers, and also offers AI-powered platforms (PredictBBB, withZeta) for researchers and biopharma companies.",
+  "sellsTo": [
+    "biopharma companies",
+    "researchers",
+    "clinicians",
+    "cancer patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our development portfolio includes three clinical stage oncology focused product candidates and consists of small molecules that others have tried, but failed, to develop into an approved commercialized drug, as well as new compounds that we are developing with the assistance of our proprietary A.I. platform and our biomarker driven approach."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our A.I. platform, known as RADR , currently includes more than 200 billion data points, and uses big data analytics ... and machine learning to rapidly uncover biologically relevant genomic signatures correlated to drug response."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "In January 2026, we introduced withZeta.ai a generative AI platform purpose-built to empower researchers and clinicians to accelerate rare cancer research and drug development, dramatically improve research quality, and reduce R&D costs."
+    },
+    {
+      "tag": "other:precision-oncology",
+      "stance": "core_product",
+      "sentence": "This data-driven, genomically-targeted and biomarker-driven approach allows us to pursue a transformational drug development strategy that identifies, rescues or develops, and advances potential small molecule drug candidates at what we believe is a fraction of the time and cost associated with traditional cancer drug development."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Type C meeting with FDA to discuss proposed protocol amendments to HARMONIC study (LP-300 Phase 2 trial)",
+      "date": "2026-05-15",
+      "sentence": "The meeting, currently scheduled for mid May 2026, seeks FDA feedback and concurrence on proposed protocol amendments to the HARMONIC study."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Market opportunity for LP-184 in biomarker-defined NSCLC estimated to exceed $2 billion annually",
+      "sentence": "The second planned LP-184 Phase 1b/2 trial is positioned to evaluate LP-184 in a biomarker-defined population of non-small cell lung cancer (NSCLC) patients harboring KEAP1 and/or STK11 mutations with low PD-L1 expression, in combination with the immune checkpoint inhibitors nivolumab and ipilimumab a population with high unmet clinical need and a market opportunity estimated to exceed $2 billion annually."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:12:34.353Z",
+  "model": "deepseek-v4-flash"
+}

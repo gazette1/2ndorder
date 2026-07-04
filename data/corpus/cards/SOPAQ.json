@@ -1,0 +1,54 @@
+{
+  "cik": "0001817511",
+  "ticker": "SOPAQ",
+  "name": "SOCIETY PASS INCORPORATED.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-032266",
+    "filedAt": "2025-04-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1817511/000121390025032266/ea0237222-10k_society.htm"
+  },
+  "business": "SOCIETY PASS INCORPORATED builds a next-generation digital ecosystem and loyalty platform in Southeast Asia, operating verticals including loyalty, lifestyle e-commerce, telecommunications, digital media, and travel. The company markets to both consumers and merchants in Singapore, Vietnam, Indonesia, Philippines, and Thailand, and generates revenue from digital marketing, online ticketing and reservations, e-commerce, and other segments.",
+  "sellsTo": [
+    "consumers",
+    "merchants",
+    "corporate customers for travel"
+  ],
+  "namedCustomers": [
+    "Customer A"
+  ],
+  "namedSuppliers": [
+    "Vendor A"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company operates an online lifestyle business in Vietnam to enable the consumers to purchase high-end brands of all categories under its own brand name of Leflair."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Using our Society Pass loyalty platform, consumers may earn, and merchants may issue, loyalty points or Society Points across our subsidiaries."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Company operates a Singapore-based online telecommunication reseller platform under the brand name of Gorilla to enable the consumers to subscribe to overseas internet data."
+    },
+    {
+      "tag": "other:digital-media",
+      "stance": "core_product",
+      "sentence": "The acquisition of a digital media platform, TMG, amplifies the reach and engagement of the Company's e-commerce ecosystem and retail partners."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "SEA Internet sector GMV is forecast to grow to over $300 billion by 2025.",
+      "sentence": "In fact, the SEA Internet sector GMV is forecast to grow to over $300 billion by 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:36:49.641Z",
+  "model": "deepseek-v4-flash"
+}

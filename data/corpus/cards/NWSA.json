@@ -1,0 +1,83 @@
+{
+  "cik": "0001564708",
+  "ticker": "NWSA",
+  "name": "NEWS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001564708-25-000419",
+    "filedAt": "2025-08-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm"
+  },
+  "business": "News Corporation is a global, diversified media and information services company focused on creating and distributing authoritative and engaging content and other products and services to consumers and businesses throughout the world. The Company comprises businesses across a range of media, including information services and news, digital real estate services and book publishing.",
+  "sellsTo": [
+    "consumers",
+    "enterprise customers (financial professionals, compliance, energy)",
+    "real estate agents and brokers",
+    "homebuilders and landlords",
+    "advertisers"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Apple",
+    "Barnes & Noble",
+    "Tesco"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "The Company is pursuing multiple strategies to further exploit these opportunities, including leveraging global audience scale and valuable data and sharing technologies and practices across geographies and businesses."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "including new licensing and partnership arrangements with large technology companies and AI-focused platforms and digital offerings that leverage the Company's existing content."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "Dow Jones produces customized Due Diligence Reports to assist its customers with regulatory compliance, including IntegrityCheck, a generative AI-enabled automated report."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The professional information business also faces increasing competition from a variety of AI-powered platforms and services."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company's Digital Real Estate Services segment consists of its 61.4% interest in REA Group, a publicly-traded company listed on ASX (ASX: REA), and its 80% interest in Move."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company's Book Publishing segment consists of HarperCollins, the second largest consumer book publisher in the world based on global revenue, with operations in 15 countries."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The News Media segment consists primarily of News Corp Australia, News UK and the New York Post."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "REA Group's financial services business encompasses a digital property search and financing experience and mortgage broking services under its Mortgage Choice brand."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "News UK has assembled a portfolio of complementary ancillary product offerings, including betting and gaming products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Stock repurchase program authorization",
+      "date": "2025-07-15",
+      "sentence": "On July 15, 2025, the Company announced a new stock repurchase program authorizing the Company to purchase up to $1 billion in the aggregate of the Company's outstanding Class A Common Stock and Class B Common Stock"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:57:53.915Z",
+  "model": "deepseek-v4-flash"
+}

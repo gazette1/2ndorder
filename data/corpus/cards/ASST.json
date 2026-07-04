@@ -1,0 +1,55 @@
+{
+  "cik": "0001920406",
+  "ticker": "ASST",
+  "name": "Strive, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-019879",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026019879/asst-20251231.htm"
+  },
+  "business": "Strive is a structured finance company and institutional asset manager that has adopted bitcoin as its hurdle rate for capital deployment, and it operates a perpetual preferred equity instrument called SATA Stock. Through its subsidiary Semler Scientific, it markets a patented and FDA-cleared vascular testing product, QuantaFlo, to healthcare insurance plans, integrated delivery networks, and other healthcare entities.",
+  "sellsTo": [
+    "investors in listed securities",
+    "healthcare insurance plans",
+    "integrated delivery networks",
+    "independent physician groups",
+    "hospitals",
+    "risk assessment groups",
+    "retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "Our bitcoin strategy generally involves, from time to time, subject to market conditions and the need for cash and cash equivalents to meet short-term working capital requirements, (i) acquiring bitcoin through open market purchases using available cash, which may be raised from our operating activities as well as capital raising initiatives, such as issuing equity and fixed income offerings, among other capital raise strategies (collectively, beta initiatives) and (ii) acquiring bitcoin through alpha strategies, such as acquiring bitcoin through strategic M&A activity or other transactions, resulting in the acquisition of bitcoin at a discount relative to market value, which are intended to deliver returns above and beyond what beta initiatives may deliver alone."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our subsidiary, Semler Scientific, currently markets a patented and FDA-cleared, vascular testing product, QuantaFlo."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company has developed our SATA Stock, our perpetual preferred equity instrument, that incorporates an at the market ( ATM ) program, creating a flexible and continuous capital formation mechanism."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "For example, malicious attacks by miners, inadequate mining fees to incentivize validating of bitcoin transactions, hard forks of the bitcoin blockchain into multiple blockchains, and advances in digital computing, algebraic geometry, and quantum computing could undercut the integrity of the bitcoin blockchain and negatively affect the price of bitcoin."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Asset-management segment to operate within single-digit-million dollar operating loss to single-digit-million dollar operating profit range",
+      "date": "2026-01-01",
+      "sentence": "Beginning in fiscal year 2026, we plan to operate our asset-management segment within a single-digit-million dollar operating loss to single-digit-million dollar operating profit range."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:07:00.941Z",
+  "model": "deepseek-v4-flash"
+}

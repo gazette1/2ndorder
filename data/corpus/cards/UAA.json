@@ -1,0 +1,48 @@
+{
+  "cik": "0001336917",
+  "ticker": "UAA",
+  "name": "Under Armour, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001336917-26-000073",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1336917/000133691726000073/ua-20260331.htm"
+  },
+  "business": "Our principal business activities are the design, development, marketing and global distribution of branded performance apparel, footwear and accessories for men, women and youth. We generate net revenues from the sale of our products to national, regional, independent and specialty retailers and distributors worldwide. We also generate net revenues through our direct-to-consumer channel, which includes our owned Brand and Factory House stores and e-commerce platforms.",
+  "sellsTo": [
+    "retailers",
+    "distributors",
+    "direct-to-consumer",
+    "athletes",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our principal business activities are the design, development, marketing and global distribution of branded performance apparel, footwear and accessories for men, women and youth."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We also generate net revenues through our direct-to-consumer channel, which includes our owned Brand and Factory House stores and e-commerce platforms."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "If we encounter problems with our distribution system, our ability to deliver our products to the market could be adversely affected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Substantial completion of the 2025 restructuring plan",
+      "date": "2026-12-31",
+      "sentence": "The 2025 restructuring plan is now expected to be substantially complete by December 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:59:28.922Z",
+  "model": "deepseek-v4-flash"
+}

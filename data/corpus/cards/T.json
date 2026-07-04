@@ -1,0 +1,71 @@
+{
+  "cik": "0000732717",
+  "ticker": "T",
+  "name": "AT&T INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000732717-26-000120",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm"
+  },
+  "business": "AT&T is a leading provider of telecommunications and technology services globally. The Communications segment provides wireless and wireline telecom and broadband services to consumers in the United States and businesses globally. The Latin America segment provides wireless service in Mexico.",
+  "sellsTo": [
+    "consumers in the United States",
+    "businesses globally",
+    "wireless subscribers in Mexico"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a leader in providing connectivity services through our market focus areas of 5G and fiber."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Streaming, augmented reality, smart technologies, user generated content and artificial intelligence (AI) are expected to continue to drive greater demand for broadband"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are using and intend to further use AI-driven efficiencies in our network design and operations, software development, sales, marketing, customer support services and general and administrative costs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks impacting our networks, systems or data or those of our suppliers or vendors may have a material adverse effect on our operations or results of operations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "Continuing our deployment of Open RAN to build a more robust ecosystem of network infrastructure providers and suppliers, fostering lower network costs, improved operational efficiencies and allowing for continued investment in our fast-growing broadband network."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of acquisition of spectrum licenses from United States Cellular Corporation",
+      "date": "2026-01-13",
+      "sentence": "We completed our acquisition of these licenses on January 13, 2026, with a cash payment of $1,018."
+    },
+    {
+      "event": "Completion of acquisition of Lumen's Mass Markets fiber business",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we completed the transaction and expect to manage the customer relationships in our Consumer Wireline business and place the fiber network assets in a new, wholly owned subsidiary."
+    },
+    {
+      "event": "Board authorization to repurchase additional $10,000 of common stock",
+      "date": "2026-01-27",
+      "sentence": "On January 27, 2026, the Board approved an authorization to repurchase an additional $10,000 of common stock."
+    },
+    {
+      "event": "Expected close of spectrum license acquisition from EchoStar Corporation",
+      "date": null,
+      "sentence": "The transaction is expected to close in early 2026 and is subject to regulatory approval and other closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:56:46.123Z",
+  "model": "deepseek-v4-flash"
+}

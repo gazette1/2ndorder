@@ -1,0 +1,56 @@
+{
+  "cik": "0001076930",
+  "ticker": "NOVT",
+  "name": "NOVANTA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-064230",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526064230/novt-20251231.htm"
+  },
+  "business": "The company develops and manufactures products for medical device, life sciences, and advanced industrial applications, including microelectronics and industrial capital equipment. Its products are subject to medical device regulations in the U.S. and EU.",
+  "sellsTo": [
+    "life sciences and pharmaceutical companies",
+    "microelectronics sector",
+    "industrial capital equipment sector",
+    "medical device customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "We are subject to extensive and dynamic medical device regulations, which may impede or hinder the approval, certification or sale of our products and, in some cases, may ultimately result in an inability to obtain approval or certification of certain products or may result in the recall or seizure of previously approved or certified products."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "changes in the regulatory environment affecting life sciences and pharmaceutical companies, and reduced budget allocations to government agencies that fund research and development activities, such as the U.S. National Institutes of Health, or NIH, or targeted cancellations by the U.S. federal government of certain grants or contracts, could adversely affect our business or results of operations."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "certain sub-segments of the advanced industrial market that we serve, including the microelectronics and industrial capital equipment sector, are cyclical and have historically experienced periods of oversupply, resulting in downturns in demand for capital equipment in which many of our products are used."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "certain sub-segments of the advanced industrial market that we serve, including the microelectronics and industrial capital equipment sector, are cyclical and have historically experienced periods of oversupply, resulting in downturns in demand for capital equipment in which many of our products are used."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The rapid advancement of artificial intelligence and machine learning technologies may accelerate the pace of innovation in our industry, potentially shortening product lifecycles, enabling competitors to achieve faster time-to-market, and requiring us to invest more heavily in AI-enabled capabilities to remain competitive."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business may be adversely affected by cyberattacks or other incidents that cause significant disruption in, or breach the security of, our information technology systems or those of our third-party providers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:46:44.499Z",
+  "model": "deepseek-v4-flash"
+}

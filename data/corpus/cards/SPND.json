@@ -1,0 +1,35 @@
+{
+  "cik": "0000867038",
+  "ticker": "SPND",
+  "name": "SPINDLETOP OIL & GAS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001017386-26-000048",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/867038/000101738626000048/spnd_2025dec31-10k.htm"
+  },
+  "business": "Spindletop Oil & Gas Co. is an independent oil and natural gas company engaged in the exploration, development, and production of crude oil and natural gas in the United States. The company also generates revenue from lease operations, gas gathering and compression services, and real estate rentals.",
+  "sellsTo": [
+    "oil and natural gas purchasers",
+    "working interest owners (for lease operations)",
+    "utilities (implied through gas gathering)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and natural gas revenues for the year ended December 31, 2025, were $3,829,000 compared to $3,659,000 for the year ended December 31, 2024, an increase of $170,000 or 4.65%."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Oil and natural gas compete with other forms of energy available to customers, including alternate forms of energy such as wind, solar, and nuclear generated electricity, coal and biofuels."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:40:28.625Z",
+  "model": "deepseek-v4-flash"
+}

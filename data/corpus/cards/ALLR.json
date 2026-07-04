@@ -1,0 +1,53 @@
+{
+  "cik": "0001860657",
+  "ticker": "ALLR",
+  "name": "Allarity Therapeutics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010310",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1860657/000143774926010310/allr20251231_10k.htm"
+  },
+  "business": "Allarity Therapeutics is a clinical-stage precision medicine pharmaceutical company focused on developing novel anti-cancer therapeutics, primarily stenoparib, guided by its proprietary Drug Response Predictor (DRP) companion diagnostic platform. It generates revenue from DRP analysis and gene expression services. The company targets cancer patients with high unmet medical need.",
+  "sellsTo": [
+    "oncology patients",
+    "biotech companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Eisai Pharmaceuticals",
+    "Chosa Oncology"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are now singularly focused on the development of stenoparib and the parallel development of the stenoparib-DRP as a companion diagnostic."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Our patented DRP platform is a proprietary technology that enables the development of cancer drug-specific companion diagnostics that may be used to identify patients most likely to benefit from a particular cancer therapy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initiation of new clinical trial protocol for stenoparib in platinum resistant ovarian cancer at two dose levels, enrolling 40 patients",
+      "date": "2025-06",
+      "sentence": "This new trial protocol was initiated in June 2025 and is currently enrolling patients randomized into 2 dose levels: 600 mg daily given twice daily (200 mg in the morning and 400 mg in the evening) and 800 mg given twice daily (400 mg for each of the morning and evening doses)."
+    },
+    {
+      "event": "Initiation of trial combining stenoparib with Temozolomide in relapsed Small Cell Lung Cancer",
+      "date": "2026-01",
+      "sentence": "In addition to this new trial protocol in Platinum Resistant Ovarian Cancer patients, we have also begun a trial combining stenoparib with Temozolomide in relapsed Small Cell Lung Cancer (SCLC)."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "PARP inhibitor market sales were $9.0 billion in 2023, forecasted to exceed $21.0 billion by 2031",
+      "sentence": "Sales of FDA-approved PARP inhibitors were approximately $9.0 billion in 2023 and are forecasted to be over $21.0 billion by 2031."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:40:19.109Z",
+  "model": "deepseek-v4-flash"
+}

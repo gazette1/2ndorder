@@ -1,0 +1,80 @@
+{
+  "cik": "0000087050",
+  "ticker": "NEON",
+  "name": "Neonode Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008759",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/87050/000143774926008759/neon20251231_10k.htm"
+  },
+  "business": "Neonode provides software solutions for machine perception using machine learning algorithms and optical sensing solutions for touch and gesture. The company licenses its technology to OEMs and automotive Tier 1 suppliers, primarily in the automotive and printer markets. It also offers non-recurring engineering services.",
+  "sellsTo": [
+    "automotive market",
+    "printer and office equipment market",
+    "amusement market",
+    "holographic interaction market",
+    "industrial automation",
+    "medical",
+    "military",
+    "avionics",
+    "retail automated self-service check-out (potential)"
+  ],
+  "namedCustomers": [
+    "Seiko Epson",
+    "Alps Alpine",
+    "Hewlett-Packard",
+    "Commercial Vehicle OEM"
+  ],
+  "namedSuppliers": [
+    "Texas Instruments",
+    "ST Microelectronics"
+  ],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Neonode provides software solutions for machine perception that feature advanced machine learning algorithms to detect and track persons and objects in video streams from cameras and other types of imagers."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Neonode also provides advanced optical sensing solutions for touch, contactless touch, and gesture sensing using our zForce technology platform."
+    },
+    {
+      "tag": "other:automotive",
+      "stance": "core_product",
+      "sentence": "We market and sell our solutions to customers mainly in the automotive market."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "We are no longer selling the zForce technology to new customers but will continue supporting existing customers in various markets and segments such as office equipment, automotive, industrial automation, medical, military, and avionics."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "We are no longer selling the zForce technology to new customers but will continue supporting existing customers in various markets and segments such as office equipment, automotive, industrial automation, medical, military, and avionics."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "We are no longer selling the zForce technology to new customers but will continue supporting existing customers in various markets and segments such as office equipment, automotive, industrial automation, medical, military, and avionics."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trial in Apple patent litigation",
+      "date": "2027-02-22",
+      "sentence": "The Court also ordered claim construction briefing beginning March 27, 2026 and concluding April 17, 2026. The Court also ordered... trial by February 22, 2027."
+    },
+    {
+      "event": "Mediation in Apple patent litigation",
+      "date": "2026-12-08",
+      "sentence": "The Court also ordered... mediation by December 8, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:46:39.677Z",
+  "model": "deepseek-v4-flash"
+}

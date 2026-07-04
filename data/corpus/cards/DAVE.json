@@ -1,0 +1,43 @@
+{
+  "cik": "0001841408",
+  "ticker": "DAVE",
+  "name": "Dave Inc./DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085370",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526085370/dave-20251231.htm"
+  },
+  "business": "Dave Inc. is a neobank providing a mobile-first financial services platform designed to help Americans manage their money more effectively. The company generates revenue through three primary business activities: ExtraCash (short-term credit), Dave Checking (digital banking account), and subscription-based personal financial management tools. It serves members underserved by traditional financial institutions.",
+  "sellsTo": [
+    "members underserved by traditional financial institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Evolve Bank & Trust",
+    "Coastal Community Bank",
+    "Mastercard"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company is a neobank providing a mobile-first financial services platform designed to help Americans manage their money more effectively."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Company's proprietary AI-powered underwriting engine, CashAI, analyzes checking account transaction data in real-time to determine eligibility and credit approval amounts without requiring FICO scores or credit bureau data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition of ExtraCash receivables to off-balance sheet structure substantially finalized",
+      "date": "2026-12-31",
+      "sentence": "under our Program Agreement with Coastal, we expect to transition ExtraCash receivables to an off-balance sheet structure as existing Members migrate to Coastal, which we anticipate will be substantially finalized by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:54:43.203Z",
+  "model": "deepseek-v4-flash"
+}

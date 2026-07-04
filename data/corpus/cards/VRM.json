@@ -1,0 +1,92 @@
+{
+  "cik": "0001580864",
+  "ticker": "VRM",
+  "name": "Vroom, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-126253",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526126253/vrm-20251231.htm"
+  },
+  "business": "Vroom owns United Auto Credit Corporation (UACC), an automotive finance company offering vehicle financing to consumers through third-party dealers, primarily in the non-prime market. Vroom also owns CarStory, an AI-powered analytics and digital services provider for the automotive industry. The company wound down its ecommerce used vehicle dealership business in early 2024 and emerged from Chapter 11 in January 2025.",
+  "sellsTo": [
+    "dealers",
+    "consumers (non-prime)",
+    "automotive financial services companies",
+    "automotive industry participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "UACC is an indirect lender that offers vehicle financing to consumers through a network of motor vehicle dealers under the UACC brand, focusing primarily on the non-prime market."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "UACC finances the purchase of Vehicle Service Contracts (\"VSCs\") and Guaranteed Asset Protection (\"GAP\") products."
+    },
+    {
+      "tag": "other:ai-analytics",
+      "stance": "core_product",
+      "sentence": "CarStory offers AI-powered analytics and digital services to dealers, automotive financial services companies, and others in the automotive industry."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to numerous federal, state and local laws, regulations and industry standards regarding privacy, cybersecurity and the collection, use, disclosure and other processing of personal information and other data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Emergence from Chapter 11 bankruptcy",
+      "date": "2025-01-14",
+      "sentence": "We emerged from the Prepackaged Chapter 11 Case on January 14, 2025."
+    },
+    {
+      "event": "Common stock listing on Nasdaq Global Market",
+      "date": "2025-02-20",
+      "sentence": "On February 20, 2025, our Common Stock began trading on the Nasdaq Global Market under the ticker symbol VRM."
+    },
+    {
+      "event": "Warrants trading on OTCQX",
+      "date": "2025-07-07",
+      "sentence": "On July 7, 2025, the Company's Warrants commenced trading on the OTCQX Best Market under the symbol VRMWW."
+    },
+    {
+      "event": "Issuance of 5.00% Convertible Notes due 2030",
+      "date": "2025-08-29",
+      "sentence": "On August 29, 2025, we issued $10.0 million aggregate principal amount of 5.00% Convertible Notes due 2030."
+    },
+    {
+      "event": "Issuance of Senior Secured Delayed Draw Notes due 2026",
+      "date": "2025-11-25",
+      "sentence": "On November 25, 2025, we entered into a Note Purchase Agreement with Robert J. Mylod, Jr., pursuant to which the Company issued Senior Secured Delayed Draw Notes due 2026 in a maximum aggregate principal commitment amount of $10.5 million."
+    },
+    {
+      "event": "Launch of proprietary automated underwriting decision engine",
+      "date": "2025-06",
+      "sentence": "We modernized our lending infrastructure by launching a proprietary automated underwriting decision engine in June 2025."
+    },
+    {
+      "event": "Launch of redeveloped custom credit-scoring model",
+      "date": "2025-09",
+      "sentence": "In September 2025, we launched our redeveloped custom credit-scoring model, which we believe should better evaluate segments of risk and enhance our risk precision."
+    },
+    {
+      "event": "Launch of upgraded Fast Lane dealer portal",
+      "date": null,
+      "sentence": "Launched in early 2026, this upgraded platform leverages direct dealer feedback to minimize friction, increase application volume, and streamline the user experience."
+    },
+    {
+      "event": "Issuance of Series A and Series B preferred units by Vroom Automotive",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, Vroom Automotive, LLC, a Delaware limited liability company and an indirect subsidiary of Vroom Inc. issued to SPE Holdings 2026-1, a Delaware statutory trust (SPE Holdings), 15,000 newly issued Series A preferred units and 7,500 newly issued Series B preferred units (collectively, the \"Vroom Automotive Preferred Units\") for aggregate gross proceeds of $22.5 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:19:31.492Z",
+  "model": "deepseek-v4-flash"
+}

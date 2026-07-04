@@ -1,0 +1,50 @@
+{
+  "cik": "0001842022",
+  "ticker": "DTM",
+  "name": "DT Midstream, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001842022-26-000003",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1842022/000184202226000003/dtm-20251231.htm"
+  },
+  "business": "DT Midstream is an owner, operator, and developer of an integrated portfolio of natural gas midstream assets. It provides natural gas services through its Pipeline and Gathering segments. The company serves natural gas producers, local distribution companies, electric power generators, industrials, and national marketers.",
+  "sellsTo": [
+    "natural gas producers",
+    "local distribution companies",
+    "electric power generators",
+    "industrials",
+    "national marketers",
+    "LNG export terminals"
+  ],
+  "namedCustomers": [
+    "Expand Energy"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are an owner, operator, and developer of an integrated portfolio of natural gas midstream assets."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Alternative fuel sources such as coal, fuel oils, or nuclear energy, as well as technological advances and renewable sources of energy, could reduce demand for natural gas in our markets and have an adverse effect on our business."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Risks related to climate change could materially adversely affect our business, financial condition, results of operations, cash flow, access to and cost of capital or insurance, reputation, and business strategies."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "We advanced our carbon capture and sequestration project in Louisiana through completion of the Class V test well."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:55:35.167Z",
+  "model": "deepseek-v4-flash"
+}

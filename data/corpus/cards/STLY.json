@@ -1,0 +1,59 @@
+{
+  "cik": "0000797465",
+  "ticker": "STLY",
+  "name": "HG Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009993",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/797465/000143774926009993/stly20251231_10k.htm"
+  },
+  "business": "HG Holdings provides title insurance through its subsidiary National Consumer Title Insurance Company and title agency services through its subsidiaries, primarily in Florida. It also offers management advisory services to related parties and holds an equity investment in a REIT focused on government properties.",
+  "sellsTo": [
+    "Residential real estate buyers and mortgage lenders",
+    "Commercial real estate entities",
+    "Related party entities (HP Risk, HPMA)"
+  ],
+  "namedCustomers": [
+    "HP Risk Solutions, LLC",
+    "HP Managing Agency, LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company engages in the business of providing title insurance through its subsidiary, NCTIC, and providing title agency services through its subsidiaries, NCTG, TAV, ONTA, ONF and ONP."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks and cyber incidents may adversely affect our business in the event we or any other party that provides us with essential services experiences cyber incidents."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We may use artificial intelligence in our business and we are subject to risks related to such use."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Change in reportable segments",
+      "date": "2025-01-01",
+      "sentence": "Effective January 1, 2025, the Company changed its reportable segments to: (i) Title Insurance and (ii) Corporate and Other."
+    },
+    {
+      "event": "Master Services Agreement with HP Risk becomes effective",
+      "date": "2025-06-01",
+      "sentence": "On April 21, 2025, the Company entered into a Master Services Agreement, effective June 1, 2025, with HP Risk Solutions, LLC (HP Risk), a wholly-owned subsidiary of HP Holding Company, LLC, which is wholly owned by certain affiliates of Mr. Hale, pursuant to which the Company provides certain managerial and operational services to HP Risk for consideration from HP Risk of $6 million per year over the course of three years."
+    },
+    {
+      "event": "Closing of Assignment and Contribution Agreement with ACMAT",
+      "date": "2025-06-30",
+      "sentence": "The transaction closed on June 30, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:38:57.913Z",
+  "model": "deepseek-v4-flash"
+}

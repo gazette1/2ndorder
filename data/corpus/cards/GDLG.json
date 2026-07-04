@@ -1,0 +1,45 @@
+{
+  "cik": "0001848672",
+  "ticker": "GDLG",
+  "name": "Glidelogic Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001096906-26-000615",
+    "filedAt": "2026-04-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1848672/000109690626000615/gdlg-20260131_10k.htm"
+  },
+  "business": "Glidelogic Corp. is developing AI-driven platforms, including ResearchMind and related compliance and intelligence solutions. The company previously engaged in e-commerce and fintech consulting, including TikTok-related advertising and livestream service operations, but has discontinued those activities to focus on AI-native solutions.",
+  "sellsTo": [
+    "e-commerce businesses",
+    "fintech firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-platforms",
+      "stance": "core_product",
+      "sentence": "During the 10 year, the Company focused on restructuring its business model and developing new AI-driven platforms, including ResearchMind and related compliance and intelligence solutions, which are expected to contribute to future revenue growth."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The decrease in revenue compared to the prior year was primarily attributable to the Company s strategic realignment toward AI-native solutions and the discontinuation of certain legacy e-commerce and fintech consulting activities, including TikTok-related advertising and livestream service operations."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The decrease in revenue compared to the prior year was primarily attributable to the Company s strategic realignment toward AI-native solutions and the discontinuation of certain legacy e-commerce and fintech consulting activities, including TikTok-related advertising and livestream service operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Uplisted to OTCQB",
+      "date": "2025-04-16",
+      "sentence": "On April 16, 2025, Glidelogic GDLG has advanced from OTC PINK to OTCQB, the OTC Markets Group's Venture Market tier."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:07:45.778Z",
+  "model": "deepseek-v4-flash"
+}

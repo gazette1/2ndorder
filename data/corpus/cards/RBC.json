@@ -1,0 +1,110 @@
+{
+  "cik": "0001324948",
+  "ticker": "RBC",
+  "name": "RBC Bearings INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-057626",
+    "filedAt": "2026-05-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324948/000121390026057626/ea0288814-10k_rbcbear.htm"
+  },
+  "business": "RBC Bearings manufactures highly engineered precision bearings, components, and essential systems for the Aerospace & Defense and Industrial markets. The company focuses on the higher end of the bearing market where value-added manufacturing and engineering capabilities enhance profitability. As of March 28, 2026, the company had 65 facilities in 11 countries, of which 44 are manufacturing facilities.",
+  "sellsTo": [
+    "Aerospace & Defense (commercial aerospace, defense aerospace, defense marine, defense ground vehicles, missiles and guided munitions, space and satellite applications)",
+    "Industrial (construction, mining, forestry, energy, agricultural and other machinery; aggregate and cement handling; food and beverage manufacturing; grain and agricultural product handling; metals and mining material handling; chemicals, oil and gas production; warehousing and logistics; manufacturing automation and semiconductor equipment; power generation; waste and water management; rail and transportation)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Commercial aerospace net sales increased 17.8% due to the increased build rates from large OEMs."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "defense sales, which represented approximately 40.0% of segment sales during the year, were up 64.5% for the year."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Industrial... used in various industrial applications including: ... manufacturing automation and semiconductor equipment."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... warehousing and logistics"
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... grain and agricultural product handling; ... food and beverage manufacturing."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... metals and mining material handling."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... chemicals, oil and gas production."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... aggregate and cement handling."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Aerospace & Defense... used in... space and satellite applications."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "Industrial... used in... semiconductor equipment."
+    },
+    {
+      "tag": "precision-motion",
+      "stance": "core_product",
+      "sentence": "Our precision solutions are integral to the manufacture and operation of most machines and mechanical systems, reduce wear to moving parts, facilitate proper power transmission, and reduce damage and energy loss caused by friction."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Use of artificial intelligence could expose us to operational, compliance, and data-related risk."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We maintain a data protection and cybersecurity risk management program based upon the National Institute of Standards and Technology (NIST) Cybersecurity framework to assess, identify and manage cybersecurity risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of VACCO Industries",
+      "date": "2025-07-18",
+      "sentence": "VACCO, which we acquired on July 18, 2025."
+    },
+    {
+      "event": "Amendment of Credit Agreement to extend Revolving Credit Facility expiration",
+      "date": "2025-10-28",
+      "sentence": "on October 28, 2025, the Credit Agreement was amended to, among other things, (i) extend the expiration date of the Revolving Credit Facility to October 2030, (ii) eliminate the minimum interest coverage ratio covenant from the Credit Agreement, and (iii) reduce the margin cap within the pricing grid on Term SOFR-based loans under the Revolving Credit Facility from 2.00% to 1.75%."
+    },
+    {
+      "event": "Expiration of Interest Rate Swap",
+      "date": "2025-12-30",
+      "sentence": "the Company maintained an interest rate swap prior to its expiration on December 30, 2025 (the Interest Rate Swap)."
+    },
+    {
+      "event": "Conversion of Series A Mandatory Convertible Preferred Stock into common stock",
+      "date": "2024-10-15",
+      "sentence": "on that date each then-outstanding share of the MCPS converted into 0.4413 shares of common stock, resulting in the retirement of the MCPS and the issuance of 2,029,955 shares of common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:46:36.645Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,71 @@
+{
+  "cik": "0001830081",
+  "ticker": "RUM",
+  "name": "RUM Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-024099",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1830081/000121390026024099/ea0277968-10k_rumble.htm"
+  },
+  "business": "Rumble operates two business units: Rumble Services, which includes a video sharing platform, livestreaming, advertising marketplace, and crypto wallet for creators; and Rumble Cloud, an infrastructure-as-a-service offering. The company generates revenue from advertising, subscriptions, tipping, and cloud services, serving creators, advertisers, publishers, and businesses.",
+  "sellsTo": [
+    "creators",
+    "advertisers",
+    "publishers",
+    "businesses (SMBs, governments, enterprise)",
+    "users/subscribers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cosmic Inc.",
+    "Kosmik Development Skopje doo"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Rumble Cloud: an infrastructure as a service (IaaS) offering consisting of a portfolio of compute, storage, security, and networking offerings."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Rumble plans to augment its cloud business with an AI infrastructure offering consisting of GPU as a service (GPUaaS) and data center services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Rumble Wallet: a non-custodial crypto wallet integrated directly into the Rumble platform that supports USAT, a U.S.-regulated, dollar-backed stablecoin, Tether (USDT), Tether Gold (XAUt), and Bitcoin (BTC), enabling audiences to tip creators natively in crypto."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Rumble Cloud: an infrastructure as a service (IaaS) offering consisting of a portfolio of compute, storage, security, and networking offerings."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our increasing use of artificial intelligence technologies presents significant regulatory, legal, operational, cybersecurity, and reputational risks that could materially and adversely affect our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Close of Northern Data business combination",
+      "date": null,
+      "sentence": "The ND Business Combination is expected to close in the second quarter of 2026, subject to satisfaction of closing conditions and regulatory approvals."
+    },
+    {
+      "event": "Tether advertising commitment commencement",
+      "date": "2026-01-01",
+      "sentence": "The Company also announced a $100 million advertising commitment from Tether, representing $50 million per year over a two-year period beginning in the first quarter of 2026."
+    },
+    {
+      "event": "Launch of exchange offer for Northern Data shares",
+      "date": null,
+      "sentence": "The launch of the Exchange Offer is expected to occur during the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:02:50.577Z",
+  "model": "deepseek-v4-flash"
+}

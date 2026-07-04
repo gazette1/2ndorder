@@ -1,0 +1,81 @@
+{
+  "cik": "0001314196",
+  "ticker": "OLB",
+  "name": "OLB GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037906",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/ea0282959-10k_olbgroup.htm"
+  },
+  "business": "OLB Group is primarily a FinTech company that focuses on a suite of products in the merchant services marketplace, providing integrated business solutions to merchants throughout the United States. The company also has products that provide support for crowdfunding and other capital raising initiatives. It markets and sells its products and services to small and midsized businesses (SMBs) and underbanked communities.",
+  "sellsTo": [
+    "merchants throughout the United States",
+    "small and midsized businesses (SMBs)",
+    "underbanked communities",
+    "ISOs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft Azure",
+    "MVB Bank, Inc.",
+    "Maxim Group LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are primarily a FinTech company that focuses on a suite of products in the merchant services marketplace that seeks to provide integrated business solutions to merchants throughout the United States."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The online E-commerce industry is subject to rapid and significant changes in technology, frequent new service introductions and evolving industry standards."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "active_investment",
+      "sentence": "DMINT initiated the first phase of its Bitcoin mining operation by placing data centers and ASIC-based Antminer S19J Pro mining computers specifically configured to mine Bitcoin in Pennsylvania."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "DMINT initiated the first phase of its Bitcoin mining operation by placing data centers and ASIC-based Antminer S19J Pro mining computers specifically configured to mine Bitcoin in Pennsylvania."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our inability to protect our systems and data from continually evolving cybersecurity risks or other technological risks could affect our reputation among our merchants and consumers and may expose us to liability."
+    },
+    {
+      "tag": "blockchain",
+      "stance": "risk_mention",
+      "sentence": "including chip technology, tokenization, Blockchain and other safety and security technologies."
+    },
+    {
+      "tag": "other:cloud-infrastructure",
+      "stance": "risk_mention",
+      "sentence": "We currently rely on Microsoft Azure to serve as our technology provider and all escrow accounts are held at MVB Bank, Inc."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "DMINT spin-off distribution",
+      "date": null,
+      "sentence": "Our planned DMINT spin-off distribution (the Spin-Off Distribution) will occur upon DMINT's Form S-1 Registration Statement filing being declared effective by the Securities and Exchange Commission, and the approval by the Nasdaq Capital Market (NASDAQ) of the listing of DMINT's common shares on the NASDAQ."
+    },
+    {
+      "event": "Capital raise in Q1 2026",
+      "date": null,
+      "sentence": "During the first quarter of 2026, the Company raised capital through a direct offering and a PIPE."
+    },
+    {
+      "event": "Vendor transitions completed by Q1 2026",
+      "date": "2026-03-31",
+      "sentence": "The majority of the transitions have been completed, and vendors will be in use by Q1 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:13:42.422Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,75 @@
+{
+  "cik": "0001932393",
+  "ticker": "GEHC",
+  "name": "GE HealthCare Technologies Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001932393-26-000007",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000007/gehc-20251231.htm"
+  },
+  "business": "GE HealthCare sells advanced medical technology, pharmaceutical diagnostics, AI, cloud and software solutions, medical devices, consumables, and services. Customers include hospitals, health systems, and researchers in over 160 countries.",
+  "sellsTo": [
+    "hospitals",
+    "health systems",
+    "researchers",
+    "public institutions",
+    "private institutions",
+    "academic institutions",
+    "government institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We generate revenue from the sale of medical devices, consumable products, service capabilities, and AI-enabled cloud and software solutions."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Our PDx segment supplies contrast and radiopharmaceutical imaging agents to the global radiology and nuclear medicine industries."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We also offer a suite of AI-enabled software and applications that help clinicians improve productivity, address staff shortages, and deliver better patient outcomes."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our radiopharmaceuticals support diagnosis and therapy selection in various care areas, such as neurology, cardiology, and oncology, and are also used by pharmaceutical companies and researchers in selecting target populations for clinical trials."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "Our business strategy includes substantial investment in R&D, with a focus on AI, cloud, edge computing, and software offerings."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "Our increasing focus on and investment in cloud, edge computing, AI, and software offerings present risks to our business."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "We rely upon supplies of certain raw materials, including helium, iodine, and rare earth minerals."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Increased cybersecurity requirements, vulnerabilities, threats, and more sophisticated and targeted cybercrimes pose a risk to our systems, networks, products, solutions, services, and data, as well as our reputation, which could adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced agreement to acquire Intelerad",
+      "date": "2025-11-20",
+      "sentence": "Additionally, on November 20, 2025, we announced an agreement to acquire Intelerad for a purchase price of $2,300 million to be paid in cash as described in Note 8, Acquisitions, Goodwill, and Other Intangible Assets."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:32:05.941Z",
+  "model": "deepseek-v4-flash"
+}

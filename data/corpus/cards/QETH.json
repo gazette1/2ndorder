@@ -1,0 +1,67 @@
+{
+  "cik": "0001995569",
+  "ticker": "QETH",
+  "name": "Invesco Galaxy Ethereum ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083578",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1995569/000119312526083578/qeth-20251231.htm"
+  },
+  "business": "Invesco Galaxy Ethereum ETF (the Trust) is a Delaware statutory trust that issues common shares representing fractional undivided beneficial interest in and ownership of the Trust. The Trust's investment objective is to reflect the performance of the spot price of ether as measured using the Lukka Prime Ethereum Reference Rate, less the Trust's expenses and other liabilities. The Trust holds ether and is passively managed.",
+  "sellsTo": [
+    "Authorized Participants (eligible financial institutions)",
+    "Investors in the secondary market"
+  ],
+  "namedCustomers": [
+    "ABN AMRO Clearing Chicago LLC",
+    "BNY Mellon Capital Markets, LLC",
+    "Citadel Securities LLC",
+    "Goldman Sachs & Co.",
+    "Jane Street Capital LLC",
+    "Jefferies LLC",
+    "Macquarie Capital (USA) Inc.",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Galaxy Digital Funds LLC",
+    "The Bank of New York Mellon",
+    "Invesco Distributors, Inc.",
+    "CSC Delaware Trust Company",
+    "Lukka Inc.",
+    "Virtu Financial Singapore Pte. Ltd.",
+    "JSCT, LLC",
+    "Wintermute Trading Ltd.",
+    "Flow Traders B.V.",
+    "FalconX Bravo, Inc.",
+    "Cumberland DRW LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to reflect the performance of the spot price of ether as measured using the Lukka Prime Ethereum Reference Rate (the Benchmark), less the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "The Trust holds ether."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of trading on Cboe BZX Exchange",
+      "date": "2024-07-23",
+      "sentence": "The Trust commenced trading on the Cboe BZX Exchange, Inc. (the Exchange) on July 23, 2024."
+    },
+    {
+      "event": "GENIUS Act signed into law",
+      "date": "2025-07-18",
+      "sentence": "On July 18, 2025, the GENIUS Act was signed into law, becoming the first federal law specifically regulating the issuance, custody and other stablecoin-related matters in the United States."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:43:42.660Z",
+  "model": "deepseek-v4-flash"
+}

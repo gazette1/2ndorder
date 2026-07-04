@@ -1,0 +1,63 @@
+{
+  "cik": "0000071508",
+  "ticker": "ENJ",
+  "name": "ENTERGY NEW ORLEANS, LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/71508/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy New Orleans, LLC is a retail electric utility serving the City of New Orleans, Louisiana. It also had a natural gas distribution business until its sale on July 1, 2025. As of December 31, 2025, it served approximately 209,000 electric customers.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers",
+    "Governmental customers",
+    "Wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The success of certain Utility operating companies investments in new generation and transmission assets to support large-scale data centers depends on a limited number of such customers, the continued demand for electricity to power data centers and the successful completion of the associated generation and transmission projects."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Terrorist attacks and sabotage, physical attacks, cyber attacks, system failures, data breaches or other disruptions of Entergy s and its subsidiaries or their suppliers physical infrastructure or technology systems may adversely affect Entergy s business and results of operations."
+    },
+    {
+      "tag": "climate-change",
+      "stance": "risk_mention",
+      "sentence": "Entergy could be negatively affected by the effects of climate change, including physical risks, such as increased frequency and intensity of hurricanes, availability of water, droughts, and other severe weather and wildfires, and transition risks, such as environmental and regulatory obligations intended to combat the effects of climate change, including by compelling greenhouse gas emission reductions or reporting, or increasing clean or renewable energy requirements, or placing a price on greenhouse gas emissions."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "In May 2021 the City Council established the Renewable and Clean Portfolio Standard. The four components implemented were: (1) a mandatory requirement that Entergy New Orleans achieve 100% net zero carbon emissions by 2040; (2) reliance on renewable energy credits purchased without the associated energy for compliance with the standard being phased out over the ten-year period from 2040 to 2050; (3) no carbon-emitting resources in the portfolio of resources Entergy New Orleans uses to serve New Orleans by 2050; and (4) a mechanism to limit costs in any one plan year to no more than one percent of plan year total utility retail sales revenues."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "System Energy sells its power and capacity from Grand Gulf at wholesale to Entergy Arkansas, Entergy Mississippi, and Entergy New Orleans."
+    },
+    {
+      "tag": "transmission",
+      "stance": "risk_mention",
+      "sentence": "The Utility operating companies participate in the MISO regional transmission planning process and are subject to risks associated with planning decisions that MISO makes in the exercise of control over the planning of the Utility operating companies transmission assets that are under MISO s functional control."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Formula rate plan filing for 2026 test year",
+      "date": null,
+      "sentence": "In October 2023 the City Council granted Entergy New Orleans s request for an extension, subject to minor modifications, for filings in 2024, 2025, and 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:48:23.846Z",
+  "model": "deepseek-v4-flash"
+}

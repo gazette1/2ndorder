@@ -1,0 +1,45 @@
+{
+  "cik": "0001324424",
+  "ticker": "EXPE",
+  "name": "Expedia Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001324424-26-000008",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm"
+  },
+  "business": "Expedia Group, Inc. is the global travel marketplace. We connect travelers, partners, and advertisers throughout our trusted brands, leading technology, and rich first-party data. We make available, on a stand-alone and package basis, travel services provided by numerous lodging properties, airlines, car rental companies, activities and experiences providers, cruise lines, alternative accommodations property owners and managers, and other travel product and service companies.",
+  "sellsTo": [
+    "travelers",
+    "travel suppliers",
+    "advertisers",
+    "B2B partners (airlines, offline travel agents, online retailers, corporate travel management, financial institutions)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amadeus",
+    "Sabre",
+    "American Express Global Business Travel"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We have leveraged AI by integrating it into our products and technology as well as to drive efficiencies from enhancing developer productivity and improving resolution speed in our customer service teams."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The rapid emergence and adoption of generative and agentic AI is likely to further intensify competition for our services from established technology companies and new market entrants who may deploy AI-driven travel search, planning, and booking capabilities more effectively or rapidly than we can."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global travel spending estimated at over $2 trillion in 2026",
+      "sentence": "Phocuswright estimates global travel spending, inclusive of alternative accommodations and tours and activities, at over $2 trillion in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:29:22.678Z",
+  "model": "deepseek-v4-flash"
+}

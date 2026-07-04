@@ -1,0 +1,65 @@
+{
+  "cik": "0001582982",
+  "ticker": "CCLD",
+  "name": "CareCloud, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-009872",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1582982/000149315226009872/form10-k.htm"
+  },
+  "business": "CareCloud is a provider of technology-enabled revenue cycle management and generative AI solutions for healthcare providers, from small practices to enterprise medical groups, hospitals, and health systems. Its portfolio includes cloud-based software for practice management, electronic health records, artificial intelligence tools, and digital health services. The company serves approximately 45,000 providers in 2,900 practices and 80 non-practice clients across the United States.",
+  "sellsTo": [
+    "healthcare providers",
+    "small medical practices",
+    "large physician groups",
+    "hospitals",
+    "health systems",
+    "service organizations serving the healthcare community"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "CareCloud cirrusAI is designed to serve as a digital healthcare assistant, helping to enhance clinical decision-making, streamline workflows, reduce administrative burdens, optimize revenue management, and promote patient-centered care."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Digital health: Chronic Care Management (CCM) is a program that supports care for patients with chronic conditions by certified care managers that operate under the supervision of the patient's regular physician; Remote Patient Monitoring (RPM) enables patient data collected outside the clinical setting through remote devices to be fed into their provider's EHR to enable proactive patient care; and Telemedicine solutions which allow healthcare providers to conduct remote patient visits and extend the timely delivery of care to patients unable to travel to a provider's office."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Systems failures, cyberattacks or other events and resulting interruptions in the availability of or degradation in the performance of our websites, applications, products or services could harm our business."
+    },
+    {
+      "tag": "other:healthcare-it",
+      "stance": "core_product",
+      "sentence": "Our integrated SaaS platform includes technology-enabled revenue cycle management (RCM), practice management (PM), electronic health records (EHR), artificial intelligence (AI) tools, business intelligence, telehealth, patient experience management (PXM) solutions and complementary software tools and business services for high-performance medical groups and health systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. Healthcare IT industry market was approximately $322.59 billion in 2024 and projected to reach $792.05 billion by 2034, growing at 9.39% CAGR.",
+      "sentence": "According to Statifacts, the U.S. Healthcare IT industry market was calculated to be approximately $322.59 billion in 2024 and is projected to attain $792.05 billion by 2034, growing at a 9.39% compound annual growth rate (CAGR) from 2025 to 2034."
+    },
+    {
+      "claim": "Revenue cycle management sub-segment nearly $172.2 billion in 2024, projected to grow at 10.1% CAGR through 2030.",
+      "sentence": "Its largest sub-segment, RCM, is reported to be nearly $172.2 billion in 2024 and is projected to grow at a 10.1% CAGR through 2030 according to Grand View Research."
+    },
+    {
+      "claim": "U.S. EHR market estimated at $12.9 billion in 2024, expected to grow at 2.55% CAGR from 2025 to 2030.",
+      "sentence": "The U.S. EHR market was estimated to be valued at $12.9 billion in 2024 and expected to grow at a CAGR of 2.55% from 2025 to 2030."
+    },
+    {
+      "claim": "Telehealth market approximately $42.61 billion in 2024, expected to grow to $358.96 billion by 2034 with CAGR of 23.84%.",
+      "sentence": "The Telehealth market is estimated to be approximately $42.61 billion in 2024 and expected to grow to $358.96 billion by 2034 with a CAGR of 23.84%."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:45:48.484Z",
+  "model": "deepseek-v4-flash"
+}

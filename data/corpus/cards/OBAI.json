@@ -1,0 +1,73 @@
+{
+  "cik": "0001756064",
+  "ticker": "OBAI",
+  "name": "Our Bond, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014133",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1756064/000149315226014133/form10-k.htm"
+  },
+  "business": "Our Bond, Inc. provides preventative personal security powered by AI via a cloud-based platform, offering 14 services through a phone app and 24/7 support from Personal Security Agents in Bond Command Centers. The company sells subscriptions to corporations for their employees (B2B) and directly to consumers (DTC).",
+  "sellsTo": [
+    "Corporations (B2B)",
+    "Direct to consumers (DTC)",
+    "Universities, municipalities, government agencies (B2G)",
+    "Through corporations to consumers (B2B2C)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Twilio",
+    "Bandwidth",
+    "ChatGPT",
+    "Amazon Web Services (AWS)",
+    "Apple",
+    "Google Play"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We provide preventative personal security powered by AI."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security measures are breached or unauthorized access to individually identifiable biometric or other personally identifiable information is otherwise obtained, our reputation may be harmed, and we may incur significant liabilities."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "Bond's AI (which is currently in production) consists largely of proprietary rule-based systems that assist us in identification of potential anomalies for further review by our agents."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Bond is developing its physical world services that include a Drone First Responder (DFR) solution (meant to assist Bond members by dispatching a Bond drone to their location)."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "Patented techniques for autonomous drone navigation and collision avoidance."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The application will then monitor various dimensions of the current surroundings of the member via the phone: location, motion, route, pace, sound, imagery, manner in which the phone is held by the member, battery, connectivity and other inputs."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our business model contemplates that we will transmit a significant amount of PII through our platform."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The personal security market is projected to reach $338.23 billion by 2030.",
+      "sentence": "The personal security market is set to explode, reaching $338.23 billion by 2030 according to an Allied Market Research report."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:45:33.053Z",
+  "model": "deepseek-v4-flash"
+}

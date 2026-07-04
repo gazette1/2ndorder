@@ -1,0 +1,68 @@
+{
+  "cik": "0001393052",
+  "ticker": "VEEV",
+  "name": "VEEVA SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001393052-26-000014",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000014/veev-20260131.htm"
+  },
+  "business": "Veeva is the leading provider of industry cloud solutions for the global life sciences industry. Its offerings span cloud software, data, and business consulting, designed to meet the needs of life sciences companies from R&D through commercialization. It also delivers solutions to companies in the consumer products industries.",
+  "sellsTo": [
+    "life sciences industry (pharmaceutical, biotechnology, medical device companies)",
+    "contract sales organizations",
+    "contract research organizations",
+    "consumer products industries"
+  ],
+  "namedCustomers": [
+    "Bayer AG",
+    "Boehringer Ingelheim GmbH",
+    "Eli Lilly and Company",
+    "Gilead Sciences, Inc.",
+    "Merck Sharp & Dohme Corp.",
+    "Novartis Pharma AG",
+    "Alkermes Inc.",
+    "Alnylam Pharmaceuticals, Inc.",
+    "bluebird bio, Inc.",
+    "Idorsia Pharmaceuticals Ltd."
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Salesforce",
+    "Anthropic",
+    "Zoom"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Veeva is the leading provider of industry cloud solutions for the global life sciences industry."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Veeva AI adds agentic artificial intelligence ( AI ) to our proprietary Veeva Vault platform and deep, industry-specific agents for Veeva applications."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "risk_mention",
+      "sentence": "if their products or services are more technologically capable than ours (including as a result of new or better use of evolving AI technologies), or if customers replace our solutions with custom-built software, then our revenues could be adversely affected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase authorization",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, our board of directors authorized a share repurchase program of up to $2 billion of our outstanding shares of common stock."
+    },
+    {
+      "event": "End of support for Veeva CRM on Salesforce platform",
+      "date": "2029-12-31",
+      "sentence": "Veeva CRM will be supported until December 31, 2029."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:31:25.786Z",
+  "model": "deepseek-v4-flash"
+}

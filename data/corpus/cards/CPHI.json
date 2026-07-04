@@ -1,0 +1,80 @@
+{
+  "cik": "0001106644",
+  "ticker": "CPHI",
+  "name": "CHINA PHARMA HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-038521",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1106644/000121390026038521/ea0283939-10k_china.htm"
+  },
+  "business": "China Pharma Holdings, Inc., through its subsidiary Helpson, develops, manufactures, and markets pharmaceutical products for human use in China, sold on a prescription basis to hospitals and OTC pharmacies via licensed pharmaceutical logistic companies.",
+  "sellsTo": [
+    "Hospitals",
+    "OTC pharmacies",
+    "Pharmaceutical distributors (GSP certified)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Helpson manufactures pharmaceutical products in the form of dry powder injectables, liquid injectables, tablets, capsules, and cephalosporin oral solutions."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Helpson launched N95 Medical Protective masks in early 2023."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Helpson launched Noni enzyme, a natural, Xeronine-rich antioxidant food supplement at the end of 2018."
+    },
+    {
+      "tag": "other:contract-manufacturing",
+      "stance": "core_product",
+      "sentence": "In April 2024, Helpson began serving as a Contract Manufacturing Organization (CMO) for a project, undertaking its R&D and post-market commercial production."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Candesartan passes consistency evaluation",
+      "date": "2023-08-01",
+      "sentence": "its flagship product, Candesartan, passed the evaluation of consistency in August 2023."
+    },
+    {
+      "event": "CMO project completes process verification",
+      "date": "2025-01-01",
+      "sentence": "This project successfully completed process verification in January 2025 and is currently undergoing stability testing."
+    },
+    {
+      "event": "NMPA registration application for CMO project",
+      "date": "2025-09-30",
+      "sentence": "Registration with the National Medical Products Administration (NMPA) has made in the third quarter of 2025."
+    },
+    {
+      "event": "Acquisition of invention patent for Apst Vector and Method for Its Preparation",
+      "date": null,
+      "sentence": "In 2025, Helpson, our wholly owned subsidiary, acquired an invention patent of an Apst Vector and Method for Its Preparation from Yan Yang."
+    },
+    {
+      "event": "Acquisition of invention patent for Topiroxostat Nanoemulsion and Method for Its Preparation",
+      "date": null,
+      "sentence": "In 2026, Helpson, our wholly owned subsidiary, acquired an invention patent of a Topiroxostat Nanoemulsion and Method for Its Preparation from Xiaoyun Chen."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "China's entire TCM industrial chain size reached RMB 1.05 trillion (~USD 146 billion) in 2024, expected to exceed RMB 1.13 trillion (~USD 157 billion) in 2025.",
+      "sentence": "the scale of China’s entire TCM industrial chain reached RMB 1.05 trillion (approximately USD 146 billion) in 2024, a year-on-year increase of 11.6%, and is expected to exceed RMB 1.13 trillion (approximately USD 157 billion) in 2025."
+    },
+    {
+      "claim": "China's health service industry size expected to reach RMB 16 trillion (~USD 2.5 trillion) by 2030.",
+      "sentence": "the total size of China’s health service industry is expected to reach RMB 16 trillion (approximately $2.5 trillion) by 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:34:46.168Z",
+  "model": "deepseek-v4-flash"
+}

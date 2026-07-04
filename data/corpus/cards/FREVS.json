@@ -1,0 +1,44 @@
+{
+  "cik": "0000036840",
+  "ticker": "FREVS",
+  "name": "FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001174947-26-000102",
+    "filedAt": "2026-01-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/36840/000117494726000102/frevsob-20251031.htm"
+  },
+  "business": "First Real Estate Investment Trust of New Jersey, Inc. acquires, develops, constructs and holds real estate properties for long-term investment. Its properties include residential apartment communities and commercial properties in New Jersey and New York. The company generates revenue from rental income and related charges from tenants.",
+  "sellsTo": [
+    "residential tenants",
+    "commercial tenants (retailers)"
+  ],
+  "namedCustomers": [
+    "Stop & Shop Supermarket Co.",
+    "TJ Maxx",
+    "T-Bowl, Inc.",
+    "CVS"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "FREIT's developed properties include residential apartment communities and commercial properties that consist of multi and single tenanted properties."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "retailers at FREIT's commercial properties face increasing competition from online shopping, outlet malls and discount shopping clubs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to various cybersecurity risks, including but not limited to: Data Breaches and Unauthorized Access: We collect, process, and store significant amounts of sensitive data, including Personally Identifiable Information (PII) of our tenants and employees."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:29:19.741Z",
+  "model": "deepseek-v4-flash"
+}

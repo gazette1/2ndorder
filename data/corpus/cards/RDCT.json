@@ -1,0 +1,60 @@
+{
+  "cik": "0001376804",
+  "ticker": "RDCT",
+  "name": "VNUE, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001829126-24-002516",
+    "filedAt": "2024-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1376804/000182912624002516/vnue_10k.htm"
+  },
+  "business": "VNUE is a music technology company that records live concerts and sells the recordings immediately through its Set.fm platform and physical collectible products via DiscLive Network. It also offers livestreamed ticketed performances through its Stage It platform. Its customers are fans of live music, as well as artists and record labels seeking monetization.",
+  "sellsTo": [
+    "fans of live music",
+    "artists and record labels",
+    "venues"
+  ],
+  "namedCustomers": [
+    "Rob Thomas",
+    "Patty Smyth and Scandal",
+    "The White Buffalo",
+    "King s X",
+    "Paul Rodgers",
+    "Scott Stapp",
+    "The Music of Cream",
+    "Matchbox Twenty"
+  ],
+  "namedSuppliers": [
+    "DiscLive Network",
+    "RockHouse Live Media Productions, Inc.",
+    "PEX",
+    "Ticketmaster"
+  ],
+  "exposures": [
+    {
+      "tag": "other:live-recording",
+      "stance": "core_product",
+      "sentence": "We are a music technology company that utilizes our platforms to record live concerts and commercializes the content by making the content immediately available for purchase through our website and the website at Set.fm"
+    },
+    {
+      "tag": "other:livestreaming",
+      "stance": "core_product",
+      "sentence": "With the addition of Stage It (Stage It.com), we have the ability to livestream concerts and other events, adding to the pool of other live music-focused technology services that include concerts or other live events that may be ticketed (just like an in-person event), and fans who pay for tickets may enjoy a performance or other engagement by watching digital video as it occurs on their web browser."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Soundstr - a comprehensive music identification and rights management Cloud platform that we are developing, when fully deployed, can accurately track and audit public performances of music, creating a more transparent ecosystem for general music licensing and associated royalty payments, which will help ensure the correct stakeholders are compensated through the use of our big data collection."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Matchbox Twenty Australian tour leg",
+      "date": null,
+      "sentence": "Due to COVID-19, the tour has been three times rescheduled, most recently to Summer 2023 for the North American Leg and Spring 2024 for the Australian leg."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:06:53.800Z",
+  "model": "deepseek-v4-flash"
+}

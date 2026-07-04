@@ -1,0 +1,56 @@
+{
+  "cik": "0001275158",
+  "ticker": "NDLS",
+  "name": "NOODLES & Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001275158-26-000021",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1275158/000127515826000021/ndls-20251230.htm"
+  },
+  "business": "Noodles & Company operates a fast-casual restaurant chain offering globally-inspired noodle and pasta dishes, salads, soups, and appetizers. It sells to consumers through company-owned and franchise restaurants, digital ordering, and third-party delivery.",
+  "sellsTo": [
+    "Consumers",
+    "Digital ordering guests",
+    "Third-party delivery customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our core offerings include noodle and pasta dishes, staples of many different cuisines, with the goal of delivering fresh ingredients and flavors from around the world under one roof."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "In 2025, approximately 59% of our sales were derived from digital ordering, where guests have the opportunity to select in restaurant quick pick-up or delivery to their home or office."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our or our franchisees technology systems, or those of third-party vendors we or our franchisees rely upon, are compromised as a result of a cyber-attack (including from circumvention of security systems, denial-of-service attacks, hacking, phishing attacks, computer viruses, ransomware, malware, or social engineering) or other external or internal methods, it could materially adversely affect our reputation, business, financial condition, results of operations or cash flows."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our business could be adversely affected by difficulties in hiring and retaining qualified employees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closure of 30 to 35 company-owned restaurants",
+      "date": null,
+      "sentence": "We continue to analyze our restaurant portfolio and expect to close approximately 30 to 35 company-owned restaurants in 2026."
+    },
+    {
+      "event": "Digital menu board installation at franchise locations",
+      "date": null,
+      "sentence": "All franchise locations are committed to have digital menu boards by September 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:47:16.610Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,76 @@
+{
+  "cik": "0001571949",
+  "ticker": "ICE",
+  "name": "Intercontinental Exchange, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001571949-26-000004",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm"
+  },
+  "business": "Intercontinental Exchange, Inc. is a leading global provider of technology and data to a broad range of customers including financial institutions, corporations and government entities. Its products span major asset classes including futures, equities, fixed income and U.S. residential mortgages.",
+  "sellsTo": [
+    "financial institutions",
+    "corporations",
+    "government entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Intercontinental Exchange, Inc. is a leading global provider of technology and data to a broad range of customers including financial institutions, corporations and government entities."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide a technology platform that offers customers comprehensive, digital workflow tools that aim to address inefficiencies and mitigate risks that exist in the U.S. residential mortgage market life cycle, from application through closing, servicing and the secondary market."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The ICE Global Network offers highly secure, low latency connectivity solutions to reach over 150 trading venues and over 750 data sources."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is susceptible to cyberattacks due to our reliance on technology and software used by us and third parties, as well as due to our use and retention of confidential data."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "The increased demand for data and capacity is due to our continued strategic investments in our data center infrastructure."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We are leveraging artificial intelligence to further our efforts to enable automation for our customers by building tools that drive efficiency and deliver enhanced analytical insights."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Default insurance renewed for ICE Clear Europe, ICE Clear U.S., and ICE Clear Credit",
+      "date": "2025-09",
+      "sentence": "The default insurance was renewed in September 2025 and has a three-year term for the following clearing houses in the following amounts: ICE Clear Europe - $100 million; ICE Clear U.S. - $25 million; and ICE Clear Credit - $75 million."
+    },
+    {
+      "event": "SEC ceased collecting Section 31 fees",
+      "date": "2025-05",
+      "sentence": "In May 2025, the SEC announced that it had ceased collecting Section 31 fees from self-regulatory organizations due to the expectation that the entire fiscal year 2025 appropriation would be collected before the date of the announcement."
+    },
+    {
+      "event": "Enactment of the One Big Beautiful Bill Act (OBBBA)",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, the One Big Beautiful Bill Act, or OBBBA, was enacted into law."
+    },
+    {
+      "event": "EU Commission adopted Delegated Act for Active Account Requirement under EMIR 3.0",
+      "date": "2025-10",
+      "sentence": "In October 2025, the EU Commission adopted a Delegated Act for the Active Account Requirement, or AAR, under the European Market Infrastructure Regulation, or EMIR, known as EMIR 3.0."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:09:06.969Z",
+  "model": "deepseek-v4-flash"
+}

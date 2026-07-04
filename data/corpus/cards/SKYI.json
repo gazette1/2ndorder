@@ -1,0 +1,50 @@
+{
+  "cik": "0001555017",
+  "ticker": "SKYI",
+  "name": "Sky Century Investment, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001555017-25-000006",
+    "filedAt": "2025-12-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1555017/000155501725000006/skyi-20250831_10k.htm"
+  },
+  "business": "Sky Century Investment, Inc. generates revenue from two primary business lines: IT Services (technical support and server leasing) and the sale of RSS feeds and podcasts about cannabis news. As of August 31, 2025, RSS feeds and podcasts accounted for 89% of total revenue, while IT services contributed 11%. The company also operates a Cannabis News mobile application and marketing services, neither of which currently generate revenue.",
+  "sellsTo": [
+    "businesses",
+    "individual clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The first primary business line of the Sky Century Investment, Inc. is IT Services. This segment primarily involves: 1) Technical Support: the Company provides to clients ongoing technical support, including maintenance, troubleshooting, and system upgrades, minimizing downtime and optimizing operational efficiency for clients; 2) Server Leasing: the Company offers leased high-performance servers to clients, enabling them to scale operations without significant upfront capital investment."
+    },
+    {
+      "tag": "other:content-syndication",
+      "stance": "core_product",
+      "sentence": "Another aspect of the Company’s business operations represents the selling of RSS feeds and Podcasts."
+    },
+    {
+      "tag": "other:digital-marketing",
+      "stance": "active_investment",
+      "sentence": "The marketing division provides services such as internet marketing and a podcast directory, which are not generating revenue at this time."
+    },
+    {
+      "tag": "other:cannabis-news-app",
+      "stance": "active_investment",
+      "sentence": "The Company’s Cannabis News application is not commercially viable at this stage, and the Company`s marketing efforts have yet to yield any revenue."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Enhance and expand marketing and IT services offerings",
+      "date": "2026-12-31",
+      "sentence": "The Company expects to enhance and expand these services by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:35:11.336Z",
+  "model": "deepseek-v4-flash"
+}

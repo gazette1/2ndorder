@@ -1,0 +1,40 @@
+{
+  "cik": "0000069422",
+  "ticker": "INTG",
+  "name": "INTERGROUP CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-016154",
+    "filedAt": "2025-09-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/69422/000149315225016154/form10-k.htm"
+  },
+  "business": "InterGroup Corp owns and operates a 544-room Hilton hotel in San Francisco through its majority-owned subsidiary, along with sixteen apartment complexes, one commercial property, three single-family houses, and unimproved land. The company also invests in marketable securities including equity and debt instruments, and provides related-party financing to its subsidiary.",
+  "sellsTo": [
+    "business and leisure travelers",
+    "apartment residents",
+    "commercial tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Properties include sixteen apartment complexes, one commercial real estate property and three single-family houses."
+    },
+    {
+      "tag": "other:hotel-operations",
+      "stance": "core_product",
+      "sentence": "The Hotel is a full-service Hilton brand hotel pursuant to a Franchise License Agreement with HLT Franchise Holding LLC ( Hilton ) through January 31, 2030."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks could disrupt our operations and adversely affect our business, even though no material incidents have occurred."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:44:52.967Z",
+  "model": "deepseek-v4-flash"
+}

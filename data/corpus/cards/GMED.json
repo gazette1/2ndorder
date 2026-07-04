@@ -1,0 +1,77 @@
+{
+  "cik": "0001237831",
+  "ticker": "GMED",
+  "name": "GLOBUS MEDICAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011209",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026011209/gmed-20251231.htm"
+  },
+  "business": "Globus Medical, Inc. is a medical device company that develops and commercializes healthcare solutions to improve the quality of life of patients with musculoskeletal disorders. It separates its products and services into two major categories: Musculoskeletal Solutions and Enabling Technologies. The company sells its products through a combination of direct sales representatives and exclusive independent distributors.",
+  "sellsTo": [
+    "hospitals",
+    "ambulatory surgery centers",
+    "physicians",
+    "surgeons"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Globus Medical, Inc. ... is a medical device company that develops and commercializes healthcare solutions whose mission is to improve the quality of life of patients with musculoskeletal disorders."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our INR solutions include the ExcelsiusGPS platform, which is a robotic guidance and navigation system that supports minimally invasive and open procedures with screw and interbody spacer placement applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The ExcelsiusGPS platform has a modular design that we expect will serve as a foundation for future clinical applications using artificial intelligence (AI) and augmented reality."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our neuromonitoring services use proprietary software-driven nerve detection and avoidance technology and include intraoperative neuromonitoring (IONM) services to aid spine surgery."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we experience a breach, cyber-attack or other disruption to these systems or data, our business, results of operations and financial condition could be adversely affected."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The increasing utilization of AI in the medical device and healthcare industries presents novel obstacles and risks to our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Nevro Merger",
+      "date": "2025-04-03",
+      "sentence": "On April 3, 2025, pursuant to the terms of that certain merger agreement (the Nevro Merger Agreement) with Nevro Corp. (Nevro) and Palmer Merger Sub, Inc., a wholly owned subsidiary of the Company (Palmer Merger Sub), Palmer Merger Sub merged with and into Nevro (the Nevro Merger), with Nevro surviving as a wholly owned subsidiary of the Company."
+    },
+    {
+      "event": "NuVasive Merger",
+      "date": "2023-09-01",
+      "sentence": "On September 1, 2023, pursuant to that certain merger agreement (the NuVasive Merger Agreement) with NuVasive, Inc. (NuVasive) and Zebra Merger Sub Inc., a wholly owned subsidiary of the Company (Zebra Merger Sub), Zebra Merger Sub merged with and into NuVasive, with NuVasive surviving as a wholly owned subsidiary of the Company (the NuVasive Merger)."
+    },
+    {
+      "event": "Product launches in 2025 including Excelsius XR and Reline 3D Towers",
+      "date": null,
+      "sentence": "We launched 9 new products in 2025, including Excelsius XR to further expand our Excelsius ecosystem and Reline TM 3D Towers increasing our spinal products portfolio."
+    },
+    {
+      "event": "Acquisition of biotechnology company for hemostasis solutions",
+      "date": null,
+      "sentence": "In 2024, we completed a share acquisition of a biotechnology company focused on research and development for hemostasis solutions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:15:14.968Z",
+  "model": "deepseek-v4-flash"
+}

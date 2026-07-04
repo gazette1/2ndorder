@@ -1,0 +1,55 @@
+{
+  "cik": "0001023128",
+  "ticker": "LAD",
+  "name": "LITHIA MOTORS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001023128-26-000015",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000015/lad-20251231.htm"
+  },
+  "business": "Lithia Motors is a global automotive retailer operating 455 locations in the United States, the United Kingdom, and Canada. The company offers new and used vehicles, financing and insurance products, and aftersales repair and maintenance services. It sells to individual consumers and commercial customers through its network of stores and e-commerce platforms including Driveway.",
+  "sellsTo": [
+    "individual consumers",
+    "commercial fleets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Honda",
+    "Toyota",
+    "Ford",
+    "BMW",
+    "Stellantis"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "GreenCars is a leading source of knowledge designed to promote the acceleration of electric vehicle and alternative powertrain offerings like Hybrid adoption by educating the consumer on such topics as fuel-efficient offerings from model comparisons, personalized incentives, and local rebates to charging network."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Driveway provides a differentiated retail experience for customers who prefer the simplicity and convenience of online shopping and the optionality of home delivery."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "our captive auto financing division allows us to provide financing solutions for customers"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We also offer related products such as extended warranties, insurance contracts, and vehicle and theft protection."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Simple, convenient and transparent experiences are offered through our comprehensive network of physical locations, e-commerce platforms, captive finance solutions, fleet management offerings, and other synergistic adjacencies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:38:40.285Z",
+  "model": "deepseek-v4-flash"
+}

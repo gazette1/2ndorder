@@ -1,0 +1,80 @@
+{
+  "cik": "0000080661",
+  "ticker": "PGR",
+  "name": "PROGRESSIVE CORP/OH/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000080661-26-000086",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm"
+  },
+  "business": "Progressive writes personal and commercial auto insurance, personal residential property insurance, and insurance for motorcycles, watercraft, and other recreational vehicles. It also offers business-related general liability, commercial property insurance for small businesses, workers compensation for the transportation industry, and other specialty property-casualty insurance.",
+  "sellsTo": [
+    "individuals",
+    "small businesses",
+    "transportation network companies"
+  ],
+  "namedCustomers": [
+    "Uber Technologies subsidiaries"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance subsidiaries write personal and commercial auto insurance, personal residential property insurance, and insurance for motorcycles, watercraft, and other recreational vehicles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be materially adversely affected by a security breach or other attack involving our technology systems or the systems of one or more of our vendors."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "If we do not handle these transitions effectively and bring such innovations to market with the requisite speed and agility, the quality of our products and services, our relationships with our customers and agents, and our business prospects, may be materially adversely affected."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "Our development and use of new technology, such as generative and agentic artificial intelligence, may present additional risks, may not be successful, and could have a material adverse effect on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of personal auto product model 9.0",
+      "date": null,
+      "sentence": "In the third quarter 2025, we started rolling out our latest personal auto product offering, model 9.0, which contains new and expanded coverage features."
+    },
+    {
+      "event": "Expected first state elevation of personal auto product model 9.1",
+      "date": null,
+      "sentence": "Our 9.1 model is currently in execution planning, and we expect the first state to elevate in early 2027."
+    },
+    {
+      "event": "Launch of special lines product model R17",
+      "date": null,
+      "sentence": "Our newest special lines product model (R17), which was first launched in late 2024, consists of 27 product enhancements that expand segmentation."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "There are approximately 230 competitors in the U.S. private passenger auto insurance market.",
+      "sentence": "There are approximately 230 competitors in this market."
+    },
+    {
+      "claim": "The leading 15 private passenger auto insurers each write over $3 billion of premiums annually and comprise about 85% of the market.",
+      "sentence": "Progressive and the other leading 15 private passenger auto insurers, each of which writes over $3 billion of premiums annually, comprise about 85% of this market."
+    },
+    {
+      "claim": "There are approximately 360 competitors in the U.S. homeowners insurance market.",
+      "sentence": "There are approximately 360 competitors in the homeowners insurance market nationwide."
+    },
+    {
+      "claim": "Progressive and the leading commercial auto insurers (64 companies with over $200 million premiums each) comprise 88% of the commercial auto market.",
+      "sentence": "Progressive and these leading commercial auto insurers comprise 88% of this market."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:57:36.153Z",
+  "model": "deepseek-v4-flash"
+}

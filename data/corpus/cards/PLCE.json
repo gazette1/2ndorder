@@ -1,0 +1,64 @@
+{
+  "cik": "0001041859",
+  "ticker": "PLCE",
+  "name": "Childrens Place, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-024672",
+    "filedAt": "2026-04-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1041859/000162828026024672/plce-20260131.htm"
+  },
+  "business": "The Children's Place, Inc. designs, contracts to manufacture, and sells fashionable, high-quality apparel, accessories, and footwear predominantly at value prices under its proprietary brands The Children's Place and Gymboree. Its global retail and wholesale network includes two digital storefronts, 498 stores in North America, wholesale marketplaces, and 223 international points of distribution in 12 countries through nine international franchise and wholesale partners. The company targets value-conscious mothers buying for infants and children.",
+  "sellsTo": [
+    "North America (U.S., Canada, Puerto Rico)",
+    "International (12 countries through franchise partners)",
+    "Value-conscious mothers",
+    "Wholesale customers including Amazon"
+  ],
+  "namedCustomers": [
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We design, contract to manufacture, and sell fashionable, high-quality apparel, accessories and footwear predominantly at value prices, primarily under our proprietary brands: The Children's Place and Gymboree."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our global retail and wholesale network includes two digital storefronts, 498 stores in North America, wholesale marketplaces, 223 international points of distribution in 12 countries through nine international franchise and wholesale partners, and social media channels on Instagram, Facebook, and X, formerly known as Twitter."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "In the United States, we own and operate a 700,000 square foot distribution center in Alabama, which supports our retail store operations, e-commerce, and wholesale operations both in the United States and in Canada."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Rapidly evolving technological and regulatory developments related to artificial intelligence (AI) and related technologies may also increase competitive, legal, and security risks facing the Company."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We self-insure and purchase insurance policies to provide for workers compensation, general liability and property losses, cybersecurity coverage, as well as director and officers liability, vehicle liability, and employee medical benefits."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plan to open additional Gymboree stand-alone stores",
+      "date": "2027-01-30",
+      "sentence": "In November 2024, we opened our first Gymboree stand-alone store in Paramus, New Jersey, with plans to open additional stores in Fiscal 2026."
+    },
+    {
+      "event": "Expected realization of approximately $15 million in gross annualized benefits from transformation initiatives",
+      "date": "2027-01-30",
+      "sentence": "We have already implemented actions related to home office headcount reductions, supply chain optimization, and third-party non-merchandise spend, which is expected to generate approximately $30 million in gross annualized benefits, with further gross benefits of approximately $15 million expected to be actioned and realized in Fiscal 2026, bringing total gross benefits to approximately $45 million, partially offset by approximately $10 million to $15 million in one-time and recurring operating costs."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:03:17.432Z",
+  "model": "deepseek-v4-flash"
+}

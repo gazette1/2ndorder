@@ -1,0 +1,70 @@
+{
+  "cik": "0000002969",
+  "ticker": "APD",
+  "name": "Air Products & Chemicals, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000002969-25-000055",
+    "filedAt": "2025-11-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296925000055/apd-20250930.htm"
+  },
+  "business": "Air Products produces and sells industrial gases (atmospheric gases like oxygen, nitrogen, argon; process gases like hydrogen, helium, carbon dioxide, carbon monoxide, syngas; and specialty gases) and related equipment (turbomachinery, membrane systems, cryogenic containers). It also develops, engineers, builds, owns, and operates clean hydrogen projects. Its customers include industries such as refining, chemicals, metals, electronics, manufacturing, medical, and food.",
+  "sellsTo": [
+    "refining",
+    "chemicals",
+    "metals",
+    "electronics",
+    "manufacturing",
+    "medical",
+    "food"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:hydrogen",
+      "stance": "core_product",
+      "sentence": "Hydrogen is a process gas that is typically produced by purifying byproduct sources obtained from chemical and petrochemical industries without carbon capture, commonly referred to as gray hydrogen."
+    },
+    {
+      "tag": "other:clean-energy",
+      "stance": "active_investment",
+      "sentence": "We also develop, engineer, build, own, and operate some of the world’s largest clean hydrogen projects supporting the transition to low- and zero-carbon energy, particularly in industrial applications and the heavy-duty transportation sector."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "It is widely used in semiconductor and fiber optics manufacturing, MRI magnet cooling, and for purging and pressurizing rocket fuel systems in aerospace launches."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "It is widely used in semiconductor and fiber optics manufacturing, MRI magnet cooling, and for purging and pressurizing rocket fuel systems in aerospace launches."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "It is widely used in semiconductor and fiber optics manufacturing, MRI magnet cooling, and for purging and pressurizing rocket fuel systems in aerospace launches."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The refining industry uses hydrogen to facilitate the conversion of heavy crude feedstock and lower the sulfur content of gasoline and diesel fuels."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "We also develop, engineer, build, own, and operate some of the world’s largest clean hydrogen projects supporting the transition to low- and zero-carbon energy, particularly in industrial applications and the heavy-duty transportation sector."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "NEOM Green Hydrogen Project onstream and green ammonia delivery",
+      "date": "2027-01-01",
+      "sentence": "We have made significant progress on the construction of several energy transition projects, including the NEOM Green Hydrogen Project, which we expect to come onstream and deliver green ammonia in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:11:08.555Z",
+  "model": "deepseek-v4-flash"
+}

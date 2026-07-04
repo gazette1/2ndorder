@@ -1,0 +1,58 @@
+{
+  "cik": "0000876437",
+  "ticker": "MTG",
+  "name": "MGIC INVESTMENT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000876437-26-000010",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/876437/000087643726000010/mtg-20251231.htm"
+  },
+  "business": "MGIC Investment Corp provides private mortgage insurance, other mortgage credit risk management solutions, and ancillary services to residential mortgage lenders.",
+  "sellsTo": [
+    "Savings institutions",
+    "Commercial banks",
+    "Mortgage brokers",
+    "Credit unions",
+    "Mortgage bankers",
+    "Other lenders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "we provide private mortgage insurance, other mortgage credit risk management solutions, and ancillary services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Executed an excess of loss reinsurance transaction providing up to $184 million of coverage on NIW in 2026.",
+      "date": null,
+      "sentence": "In 2025, we executed an XOL Transaction which will provide up to $184 million of reinsurance coverage on NIW in 2026."
+    },
+    {
+      "event": "Executed a $324 million excess of loss reinsurance agreement covering policies from January 1, 2022 to March 31, 2025.",
+      "date": "2026-01",
+      "sentence": "In January 2026, through an insurance linked note transaction, we executed a $324 million excess of loss reinsurance agreement that covers certain policies written between January 1, 2022 and March 31, 2025."
+    },
+    {
+      "event": "Executed two 40% quota share reinsurance transactions covering eligible NIW in 2026 and NIW in 2027.",
+      "date": null,
+      "sentence": "We executed two 40% QSR Transactions with groups of unaffiliated reinsurers covering eligible NIW in 2026 and NIW in 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "In 2025, $311 billion of mortgages were insured with primary coverage by private mortgage insurers.",
+      "sentence": "In 2025, $311 billion of mortgages were insured with primary coverage by private mortgage insurers, compared to $299 billion in 2024, and $284 billion in 2023."
+    },
+    {
+      "claim": "Total estimated primary mortgage insurance (PMI, FHA, USDA, VA) was $818 billion in 2025.",
+      "sentence": "Estimated Total of PMI, FHA, USDA, and VA Primary Mortgage Insurance (in billions) Year Ended December 31, 2025: $818"
+    }
+  ],
+  "generatedAt": "2026-07-04T13:45:14.507Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "0000845819",
+  "ticker": "KTEL",
+  "name": "KonaTel, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-017104",
+    "filedAt": "2026-04-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/845819/000149315226017104/form10-k.htm"
+  },
+  "business": "KonaTel, Inc. provides Hosted Services through Apeiron Systems, including a suite of CPaaS services such as VoIP, SMS/MMS, and IoT data management, and Mobile Services through IM Telecom, including retail/wholesale cellular voice/text/data and government-subsidized Lifeline and ACP services. It sells to individual and business customers nationwide, as well as low-income households eligible for Lifeline, through websites, sales staff, retail locations, and independent sales organizations.",
+  "sellsTo": [
+    "individual customers",
+    "business customers",
+    "low-income households",
+    "wholesale market",
+    "government program beneficiaries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Verizon",
+    "AT&T",
+    "T-Mobile",
+    "Prepaid Wireless Group (PWG)",
+    "Telispire"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our principal products and services, provided through Apeiron Systems and IM Telecom, include our CPaaS suite of services ( SIP/VoIP, SMS/MMS, POTS Replacement ), wholesale and retail mobile voice and mobile data IoT services, wholesale voice termination services and our ETC and ACP subsidized services for low-income Americans."
+    },
+    {
+      "tag": "iot",
+      "stance": "core_product",
+      "sentence": "Additionally, Apeiron s Cloud Services include Information Data Dips, SD-WAN and IoT data and device management, of which IoT provides device connectivity via wireless 4G/5G."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Healthcare vertical acceleration",
+      "date": "2026",
+      "sentence": "We continue to remain optimistic that the IM Telecom health care vertical will begin to accelerate in 2026."
+    },
+    {
+      "event": "Viva-US MVNO launch implementation",
+      "date": null,
+      "sentence": "The first 10,000 SIM cards have been purchased by and delivered to Viva for deployment. The Company has completed its pre-launch obligations; we continue to wait for launch implementation by Viva."
+    },
+    {
+      "event": "POTS replacement solution targeting large telecom providers",
+      "date": null,
+      "sentence": "one of the Company s new services, deployed and tested throughout 2025, includes a wireless POTS replacement solution targeted at large national telecommunication service providers."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "22 million commercial copper-wire POTS analog phone lines scheduled for phase-out",
+      "sentence": "Based on FCC data, it is estimated there are approximately 22 million commercial (i.e., used in commercial operations) copper-wire Plain Old Telephone Service ( POTS ) analog phone lines."
+    },
+    {
+      "claim": "7 million current Lifeline users and 34 million eligible Lifeline customers",
+      "sentence": "Considering there are approximately 7,000,000 current Lifeline users and approximately 34,000,000 eligible Lifeline customers (according to Universal Service Administrative Company, a governmental body that administers the Universal Service Fund of the FCC [the USF ]), this would be a draconian move; however, it is a possibility."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:03:15.186Z",
+  "model": "deepseek-v4-flash"
+}

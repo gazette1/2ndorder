@@ -1,0 +1,59 @@
+{
+  "cik": "0001437226",
+  "ticker": "MHH",
+  "name": "Mastech Digital, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-112845",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437226/000119312526112845/mhh-20251231.htm"
+  },
+  "business": "Our business involves the delivery of professional services and is labor-intensive. We operate through IT Staffing Services and Data and Analytics Services segments. Our revenues are highly dependent on clients located in North America, with approximately 54% coming from financial services clients.",
+  "sellsTo": [
+    "North America",
+    "Financial services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Our business involves the delivery of professional services and is labor-intensive."
+    },
+    {
+      "tag": "other:data-analytics",
+      "stance": "core_product",
+      "sentence": "Our Data and Analytics Services segment markets a multi-year service offering known as a Center of Excellence."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We use artificial intelligence and machine learning technologies in our operations and services."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "risk_mention",
+      "sentence": "A significant number of organizations are choosing to migrate their IT business applications to advanced technologies, such as artificial intelligence, cloud services, data science-based solution, mobility, and social analytics."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and other disruptions could compromise our information and expose us to liability, which would cause our business and reputation to suffer."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Risks posed by climate change may materially increase our compliance costs and adversely impact our profitability."
+    },
+    {
+      "tag": "other:pandemic",
+      "stance": "risk_mention",
+      "sentence": "Pandemics, epidemics or other outbreaks of diseases have had and may in the future have a material adverse impact upon our business, liquidity, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:47:01.749Z",
+  "model": "deepseek-v4-flash"
+}

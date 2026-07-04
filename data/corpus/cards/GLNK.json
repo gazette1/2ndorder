@@ -1,0 +1,74 @@
+{
+  "cik": "0001852025",
+  "ticker": "GLNK",
+  "name": "Grayscale Chainlink Trust ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104216",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1852025/000119312526104216/glnk-20251231.htm"
+  },
+  "business": "Grayscale Chainlink Trust ETF (GLNK) is a passive investment vehicle that holds LINK tokens and issues shares to investors seeking exposure to the price of LINK. The Trust does not engage in active management and relies on third-party service providers for custody, administration, and trading. Investors can buy and sell shares on NYSE Arca.",
+  "sellsTo": [
+    "investors seeking exposure to LINK",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company",
+    "Coinbase Inc.",
+    "Jane Street Capital, LLC",
+    "Virtu Americas LLC",
+    "Macquarie Capital (USA) Inc.",
+    "ABN AMRO Clearing USA LLC",
+    "CoinDesk (Index Provider)",
+    "KPMG LLP"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust holds LINK and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of LINK."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "LINK is the native digital asset for the Chainlink Network, which is an oracle network designed to connect smart contracts on any blockchain to real-world data, events and off-chain computation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security threats to the Trust's Vault Balance or Settlement Balance could result in the halting of Trust operations, including the creation and redemption of Baskets, and a loss of Trust assets or damage to the reputation of the Trust, each of which could result in a reduction in the value of the Shares."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Stablecoins are digital assets designed to have a stable value over time as compared to typically volatile digital assets, and are typically marketed as being pegged to the value of a referenced asset, normally a fiat currency, such as the U.S. dollar."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition, LINK is in direct competition to other oracle service providers, such as Uniswap v3 Time-Weighted Average Price (TWAP) oracles, Band, PYTH and DIA."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of redemption program and listing on NYSE Arca",
+      "date": "2025-12-02",
+      "sentence": "Effective as of December 2, 2025, the Trust established an ongoing share creation and redemption program and the Shares of the Trust were listed to NYSE Arca."
+    },
+    {
+      "event": "Sponsor fee waiver period",
+      "date": null,
+      "sentence": "Effective December 2, 2025, the Sponsor has determined to waive a portion of the Sponsor's Fee until the earlier of (x) March 2, 2026 and (y) the first date on which the NAV of the Trust exceeds $1.0 billion."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets (excluding stablecoins and pegged tokens) was approximately $2,678.0 billion as of December 31, 2025, including LINK's $8.6 billion market cap.",
+      "sentence": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market capitalization of approximately $2,678.0 billion (including the approximately $8.6 billion market cap of LINK), as calculated using market prices and total available supply of each digital asset, excluding stablecoins and tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:44:54.585Z",
+  "model": "deepseek-v4-flash"
+}

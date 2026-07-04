@@ -1,0 +1,67 @@
+{
+  "cik": "0000823277",
+  "ticker": "CHSCP",
+  "name": "CHS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000823277-25-000038",
+    "filedAt": "2025-11-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327725000038/chscp-20250831.htm"
+  },
+  "business": "CHS Inc. is an integrated agricultural cooperative providing grain, food, agronomy, and energy resources to businesses and consumers globally. The company operates in three segments: Energy (petroleum refining and marketing), Ag (grain origination, oilseed processing, renewable fuels, and agronomy), and Nitrogen Production (equity method investment in CF Nitrogen). It also provides financing and hedging services through subsidiaries.",
+  "sellsTo": [
+    "agricultural producers",
+    "member cooperatives",
+    "independent retailers",
+    "food companies",
+    "energy companies",
+    "livestock producers",
+    "feed mills",
+    "international customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CF Industries Nitrogen, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "CHS Inc. (referred to herein as \"CHS,\" \"company,\" \"we,\" \"us\" or \"our\") is the nation's leading integrated agricultural cooperative, providing grain, food, agronomy and energy resources to businesses and consumers on a global basis."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our Energy segment derives its revenues through refining, wholesaling and retailing of petroleum products."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our renewable fuels business annually produces 267 million gallons of fuel-grade ethanol, 71 million pounds of inedible corn oil and 645,000 tons of dried distillers grains with solubles (\"DDGS\")."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial Intelligence ( AI ), including generative AI, advancements are progressing at an unprecedented pace, which brings risks that could subject us to loss through various technical, legal, and opportunistic-related risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We utilize information technology systems to support our business. The ongoing multiyear implementation of an enterprisewide resource planning system, reliance on multiple legacy business systems as well as third-party data management providers and other vendors, security breaches or other disruptions to our information technology systems or assets could interfere with our operations, compromise the security of our customers' or suppliers' information and expose us to liability that could adversely impact our business and reputation."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "In addition, a number of companies have announced their intention to phase out production of gasoline- and diesel-powered light-duty vehicles by the mid-2030s."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Growing electrification and rapidly developing and increasing technology use (such as artificial intelligence, computer processing, cryptocurrency mining, cloud storage, data centers and power supplies required to support these activities) will also likely increase the intermittency and decrease the reliability of electricity supplies, particularly for grids highly dependent upon wind and solar power, which would exacerbate the foregoing challenges."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:47:15.814Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "0001650164",
+  "ticker": "TOST",
+  "name": "Toast, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001650164-26-000057",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000057/tost-20251231.htm"
+  },
+  "business": "Toast provides a cloud-based, all-in-one digital technology platform for the restaurant community, including software-as-a-service products, financial technology solutions, integrated payment processing, and hardware.",
+  "sellsTo": [
+    "restaurants",
+    "food and beverage retailers",
+    "small and mid-sized operators",
+    "enterprise customers",
+    "multi-location customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Toast IQ is a conversational artificial intelligence, or AI, assistant built into our platform that uses real-time and historical data from our customers operations to help surface actionable business insights and enable operators to ask questions in natural language and take actions directly within the Toast system."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide a comprehensive platform of software-as-a-service, or SaaS, products and financial technology solutions, including integrated payment processing, restaurant-grade hardware, and a broad ecosystem of third-party partners."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any actual or perceived breach of our system that would result in disclosure of such information could materially impact our business."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Toast s payroll and team management products offer a centralized hub that streamlines the employee onboarding, management, and payroll process."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We provide software solutions that allow customers to take control of and consolidate digital ordering and delivery across Toast-provided solutions and third-party ordering channels."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board authorized increase of $500 million to share repurchase program",
+      "date": null,
+      "sentence": "In February 2026, our board of directors authorized an increase of $500 million to our share repurchase program."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:51:11.041Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "0001962481",
+  "ticker": "BOF",
+  "name": "BranchOut Food Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014040",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1962481/000149315226014040/form10-k.htm"
+  },
+  "business": "BranchOut Food Inc. sells clean-label, plant-based dried fruit and vegetable snacks. It distributes through BranchOut-branded products, private-label offerings, and industrial ingredient sales. Customers include retail grocery stores, club stores, online retailers, and food manufacturers.",
+  "sellsTo": [
+    "retail grocery stores",
+    "club stores",
+    "online retailers",
+    "direct-to-consumer e-commerce platforms",
+    "food manufacturers",
+    "major North American retailers"
+  ],
+  "namedCustomers": [
+    "Costco",
+    "Walmart"
+  ],
+  "namedSuppliers": [
+    "EnWave Corporation",
+    "MicroDried"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "BranchOut Food Inc., (collectively with its subsidiary, BranchOut, the Company, we, us or our ), is a growth-stage consumer packaged foods company focused on developing, manufacturing, marketing, and distributing clean-label, plant-based dried fruit and vegetable snacks for retail and foodservice markets through BranchOut-branded products, private-label offerings, and industrial ingredient sales."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "Our production depends on the availability, quality, and cost of agricultural raw materials, which are subject to volatility driven by weather conditions, climate variability, temperature extremes, drought, flooding, crop disease, and other environmental factors."
+    },
+    {
+      "tag": "other:food-processing",
+      "stance": "core_product",
+      "sentence": "We utilize proprietary GentleDry technology to convert fresh fruits and vegetables into clean-label snacks and industrial ingredients within approximately 10 days."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expansion of manufacturing capabilities at Peru Facility for high-protein dairy applications",
+      "date": "2026-03-31",
+      "sentence": "To support these initiatives, the Company incurred capital expenditures in the first quarter of 2026 to expand manufacturing capabilities at the Peru Facility, including the installation of additional dehydration capacity for high-protein dairy applications."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. CPG industry approximately $1.5 trillion to nearly $2 trillion annually",
+      "sentence": "U.S. CPG industry is approximately $1.5 trillion to nearly $2 trillion annually reflecting continued demand for convenient food options."
+    },
+    {
+      "claim": "Global better-for-you snacks market estimated at approximately $50.4 billion in 2024",
+      "sentence": "The global better-for-you snacks market is estimated at approximately $50.4 billion in 2024, with the U.S. characterized by significant product innovation and demand for snacks made with natural and organic ingredients."
+    },
+    {
+      "claim": "U.S. private-label sales reached a record $282.8 billion in 2025",
+      "sentence": "U.S. private-label sales reached a record $282.8 billion in 2025, indicating sustained retailer and consumer adoption of store-brand products across categories, including food."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:56:54.751Z",
+  "model": "deepseek-v4-flash"
+}

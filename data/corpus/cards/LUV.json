@@ -1,0 +1,103 @@
+{
+  "cik": "0000092380",
+  "ticker": "LUV",
+  "name": "SOUTHWEST AIRLINES CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000092380-26-000004",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "business": "Southwest Airlines Co. operates Southwest Airlines, a major passenger airline that provides scheduled air transportation in the United States and near-international markets. As of December 31, 2025, Southwest served 117 destinations and had 803 Boeing 737 aircraft.",
+  "sellsTo": [
+    "Leisure passengers",
+    "Business travelers",
+    "Rapid Rewards loyalty program members",
+    "Corporate travel customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "The Boeing Company",
+    "T-Mobile",
+    "JPMorgan Chase Bank, N.A.",
+    "RECARO",
+    "Sunrise Banks N.A."
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company is increasingly exposed to cybersecurity attacks and data incidents impacting its IT Systems, and such incidents could have a disruptive and material adverse effect on the Company's business, financial position, or results of operations."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "The Company's business is labor intensive, with most Employees represented by labor unions; therefore, the Company could be materially adversely affected in the event of conflict with its Employees or its Employees' representatives."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "risk_mention",
+      "sentence": "The Company is currently dependent on Boeing as the sole manufacturer of the Company's aircraft."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "The Company's ability to make progress towards its sustainability goals and the advancement of related initiatives will depend on factors outside of its control, including, among other things, the future availability and cost of sustainable aviation fuel."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company also began offering the Southwest Airlines Rapid Rewards Debit Card, a Visa debit card issued by Sunrise Banks N.A., in November 2025."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "The Company continues to invest in technology to support artificial intelligence (\"AI\")-based marketing efforts."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Assigned and extra legroom seating becomes operational",
+      "date": "2026-01-27",
+      "sentence": "On January 27, 2026, Southwest began operating assigned and extra legroom seating to better align with airline passenger preferences."
+    },
+    {
+      "event": "New service at Cyril E. King International Airport in St. Thomas",
+      "date": null,
+      "sentence": "announcing service at five new locations beginning in 2026, including Cyril E. King International Airport in St. Thomas"
+    },
+    {
+      "event": "New service at McGhee Tyson Airport in Knoxville, Tennessee",
+      "date": "2026-03-05",
+      "sentence": "McGhee Tyson Airport in Knoxville, Tennessee beginning March 5, 2026"
+    },
+    {
+      "event": "New service at Princess Juliana International Airport in St. Maarten",
+      "date": "2026-04-07",
+      "sentence": "Princess Juliana International Airport on St. Maarten beginning April 7, 2026"
+    },
+    {
+      "event": "New service at Charles M. Schulz Sonoma County Airport in Santa Rosa, California",
+      "date": "2026-04-07",
+      "sentence": "Charles M. Schulz Sonoma County Airport in Santa Rosa, California beginning April 7, 2026"
+    },
+    {
+      "event": "New service at Ted Stevens Anchorage International Airport in Alaska",
+      "date": null,
+      "sentence": "Ted Stevens Anchorage International Airport in Anchorage, Alaska beginning in the first half of 2026"
+    },
+    {
+      "event": "Delivery of 66 Boeing 737-8 aircraft in 2026",
+      "date": null,
+      "sentence": "expects 66 -8 aircraft deliveries in 2026"
+    },
+    {
+      "event": "Retirement of approximately 60 aircraft in 2026",
+      "date": null,
+      "sentence": "plans to retire approximately 60 aircraft in 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:39:07.434Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0000352915",
+  "ticker": "UHS",
+  "name": "UNIVERSAL HEALTH SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071676",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526071676/uhs-20251231.htm"
+  },
+  "business": "Universal Health Services Inc. owns and operates acute care hospitals, outpatient facilities, and behavioral health care facilities in the United States, United Kingdom, and Puerto Rico. It provides healthcare services to patients and generates revenue from commercial health insurers, Medicare, Medicaid, and other government payers. The company also operates a commercial health insurer.",
+  "sellsTo": [
+    "patients",
+    "commercial health insurers",
+    "Medicare",
+    "Medicaid",
+    "state and county-based programs",
+    "United Kingdom government payers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber security incident could cause a violation of HIPAA, breach of patient or other persons privacy, or other negative impacts."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "We are experiencing inflationary pressures, primarily in personnel costs, and we anticipate continuing impacts on other cost areas within the next twelve months."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "If significant tariffs or other restrictions are imposed on our imported pharmaceutical ingredients, medical devices, medical equipment and their ingredients and components, there could be significant strain on our supply chains."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "technological developments and pharmaceutical improvements may reduce the demand for healthcare services or the profitability of the services we offer."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "We have made significant investments in technology to adopt and utilize electronic health records and to become meaningful users of health information technology."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Net revenues from our acute care hospitals, outpatient facilities and commercial health insurer accounted for approximately 57% of our consolidated net revenues during each of 2025 and 2024."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of Hanover Hill Behavioral Health facility in Bethlehem, PA",
+      "date": "2026-01-13",
+      "sentence": "The facility opened on January 13, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:22:37.139Z",
+  "model": "deepseek-v4-flash"
+}

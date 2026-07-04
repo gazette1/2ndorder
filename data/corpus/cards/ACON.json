@@ -1,0 +1,65 @@
+{
+  "cik": "0001635077",
+  "ticker": "ACON",
+  "name": "Aclarion, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-001986",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1635077/000168316826001986/aclarion_i10k-123125.htm"
+  },
+  "business": "Aclarion is a healthcare technology company that leverages Magnetic Resonance Spectroscopy (MRS) and proprietary biomarkers to optimize clinical treatments. It sells NOCISCAN, a SaaS platform that post-processes MRS data to help physicians distinguish painful from nonpainful discs in the lumbar spine. The company first addresses the chronic low back pain market, aiming to improve surgical decision-making.",
+  "sellsTo": [
+    "spine surgeons",
+    "imaging centers",
+    "third-party payers"
+  ],
+  "namedCustomers": [
+    "RadNet, Inc.",
+    "ATEC Spine, Inc. (subsidiary of Alphatec Holdings, Inc.)"
+  ],
+  "namedSuppliers": [
+    "SIEMENS Healthcare GmbH",
+    "Philips",
+    "Regents of the University of California, San Francisco (UCSF)"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "NOCISCAN is Registered as a Class I Medical Device with the FDA."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "By providing physicians information about whether a disc has the chemical and structural makeup consistent with pain or not, we believe the treatment plan for each patient will lead to more efficient and targeted care."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "NOCIGRAM is commercially available in the United States as Clinical Decision Support Software under the 21 st Century Cures Act, and as such is not considered a medical device nor regulated by the FDA."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company is currently utilizing Artificial Intelligence ( AI ) to assist in quality control processes that flag spectroscopy data indicative of a poor MRS study."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The $134.5B U.S. low back and neck pain market is the most costly healthcare condition in the United States.",
+      "sentence": "Aclarion s technology addresses the $134.5B U.S. low back and neck pain market, which according to a 2020 JAMA (Journal of the American Medical Association) article is now the most costly healthcare condition in the United States."
+    },
+    {
+      "claim": "The current NOCISCAN product addresses approximately $10 billion spent annually in the U.S. on spine fusion procedures.",
+      "sentence": "The current NOCISCAN product addresses the approximately $10 billion spent annually in the United States on spine fusion procedures."
+    },
+    {
+      "claim": "If NOCISCAN data is correlated to improved surgical outcomes for all spine surgeries, the market opportunity could expand from $10B to an estimated $40B inclusive of pre-surgical conservative therapy costs.",
+      "sentence": "If we are able to correlate specific MRS findings to improved surgical outcomes for all spine surgeries, we believe this would expand the size of our market opportunity in the U.S. from what we believe is $10B, to an estimated $40B, inclusive of pre-surgical conservative therapy costs."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:06:52.307Z",
+  "model": "deepseek-v4-flash"
+}

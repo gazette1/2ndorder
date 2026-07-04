@@ -1,0 +1,68 @@
+{
+  "cik": "0001364954",
+  "ticker": "CHGG",
+  "name": "CHEGG, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001364954-26-000021",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1364954/000136495426000021/chgg-20251231.htm"
+  },
+  "business": "Chegg is a learning platform that offers Chegg Skilling (language learning and workforce skilling) and Academic Services (Chegg Study Pack). It sells to businesses for workforce development and to students for academic support. The company leverages AI to deliver personalized learning experiences.",
+  "sellsTo": [
+    "businesses",
+    "students",
+    "lifelong learners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We also continue to offer students artificial intelligence (AI)-driven, personalized support."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our workforce skilling programs align workforce needs with learner outcomes by combining in-demand technical skills such as AI, coding, data analytics, and cybersecurity"
+    },
+    {
+      "tag": "other:data-analytics",
+      "stance": "core_product",
+      "sentence": "Our workforce skilling programs align workforce needs with learner outcomes by combining in-demand technical skills such as AI, coding, data analytics, and cybersecurity"
+    },
+    {
+      "tag": "other:coding",
+      "stance": "core_product",
+      "sentence": "Our workforce skilling programs align workforce needs with learner outcomes by combining in-demand technical skills such as AI, coding, data analytics, and cybersecurity"
+    },
+    {
+      "tag": "other:language-learning",
+      "stance": "core_product",
+      "sentence": "Our language learning platform provides subscribers access to a premium language learning platform that offers comprehensive support through self-paced lessons, live classes with expert tutors and a community of members to practice alongside."
+    },
+    {
+      "tag": "other:generative-ai-competition",
+      "stance": "risk_mention",
+      "sentence": "In August 2024, Google broadly rolled out its AIO search experience, which displays AI-generated content at the top of its search results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repurchase of $20.0 million principal amount of 2026 notes",
+      "date": "2026-02-13",
+      "sentence": "On February 13, 2026, we entered into an individual, privately negotiated repurchase agreement with a holder of our outstanding 2026 notes to repurchase $20.0 million in aggregate principal amount of the 2026 notes for an aggregate cash repurchase price of $19.4 million"
+    },
+    {
+      "event": "Maturity of 2026 notes",
+      "date": "2026-09-01",
+      "sentence": "The 2026 notes mature on September 1, 2026 unless converted, redeemed, or repurchased in accordance with their terms prior to such date."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:36:43.895Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,69 @@
+{
+  "cik": "0000080424",
+  "ticker": "PG",
+  "name": "PROCTER & GAMBLE Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000080424-25-000076",
+    "filedAt": "2025-08-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000076/pg-20250630.htm"
+  },
+  "business": "Procter & Gamble is a multinational consumer goods company that provides branded products of superior quality, performance, and value. Its products are sold in about 180 countries and territories through various retail and e-commerce channels.",
+  "sellsTo": [
+    "mass merchandisers",
+    "e-commerce channels",
+    "grocery stores",
+    "membership club stores",
+    "drug stores",
+    "department stores",
+    "distributors",
+    "wholesalers",
+    "specialty beauty stores (including airport duty-free stores)",
+    "high-frequency stores",
+    "pharmacies",
+    "electronics stores",
+    "professional channels",
+    "direct to consumers"
+  ],
+  "namedCustomers": [
+    "Walmart Inc. and its affiliates"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Procter & Gamble Company (the Company) is a world-leading multinational consumer goods company focused on providing trusted, branded products of superior quality, performance and value to improve the lives of consumers around the world"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant information security or operational technology incident, including a cybersecurity incident, or the failure of one or more key information or operations technology systems, networks, hardware, processes and/or associated sites involving the Company or one of its service providers could have a material adverse impact on our business or reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We must also successfully respond to technological advances made by, and intellectual property rights granted to, competitors, customers and vendors, including the timely, responsible and effective adoption of emerging technologies such as artificial intelligence"
+    },
+    {
+      "tag": "other:e-commerce",
+      "stance": "core_product",
+      "sentence": "The Company utilizes various distribution channels, including retail stores, e-commerce platforms and direct-to-consumer platforms to deliver our products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Clorox purchase of P&G's minority interest in the Glad joint venture at fair market value",
+      "date": "2026-01-31",
+      "sentence": "Under the terms of the agreement, Clorox will purchase the Company s minority interest in the venture at fair market value as of the agreement termination in January 2026."
+    },
+    {
+      "event": "Portfolio and productivity plan with reduction of up to 7,000 non-manufacturing overhead personnel by end of fiscal 2027",
+      "date": "2027-06-30",
+      "sentence": "These restructuring activities include a plan for a reduction of up to 7,000 non-manufacturing overhead personnel by the end of fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:50:54.051Z",
+  "model": "deepseek-v4-flash"
+}

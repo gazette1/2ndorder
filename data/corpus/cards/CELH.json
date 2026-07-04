@@ -1,0 +1,57 @@
+{
+  "cik": "0001341766",
+  "ticker": "CELH",
+  "name": "Celsius Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001341766-26-000024",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000024/celh-20251231.htm"
+  },
+  "business": "Celsius Holdings, Inc. operates as a functional energy drink and wellness beverage company, developing, processing, marketing, selling, manufacturing and distributing products under the CELSIUS, Alani Nu, and Rockstar brands. Its products are sold in the U.S., Canada, Europe, the Middle East, and Asia-Pacific regions through multiple channels including conventional grocery, natural-food stores, convenience stores, fitness centers, mass-market retailers, vitamin specialty retailers, and e-commerce platforms.",
+  "sellsTo": [
+    "conventional grocery",
+    "natural-food stores",
+    "convenience stores",
+    "fitness centers",
+    "mass-market retailers",
+    "vitamin specialty retailers",
+    "e-commerce platforms"
+  ],
+  "namedCustomers": [
+    "Pepsi"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Celsius operates as a functional energy drink and wellness beverage company in the U.S. and internationally."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "Our industry is also being affected by the growth in sales through e-commerce retailers, e-commerce websites, mobile commerce applications and subscription services, which may result in a shift away from physical retail operations to digital channels."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We must continually maintain, protect, and upgrade our information-technology systems, including protecting against internal and external cyber-security threats, data breaches and emerging AI-driven attacks."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The rapid growth of AI-generated content increases the risk that misinformation, manipulated media, or unauthorized endorsements relating to our products could be created and disseminated without our knowledge or consent."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Payment of contingent consideration related to Alani Nu acquisition",
+      "date": null,
+      "sentence": "we expect to pay the contingent consideration in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:27:22.728Z",
+  "model": "deepseek-v4-flash"
+}

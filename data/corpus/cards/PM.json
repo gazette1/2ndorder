@@ -1,0 +1,60 @@
+{
+  "cik": "0001413329",
+  "ticker": "PM",
+  "name": "Philip Morris International Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-005939",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm"
+  },
+  "business": "Philip Morris International Inc. sells cigarettes and smoke-free products, including heat-not-burn, nicotine pouch, and e-vapor products, to adult smokers and nicotine users in approximately 170 markets for cigarettes and 106 markets for smoke-free products. The company also has a wellness unit, Aspeya, focusing on oral consumer wellness offerings, including cannabinoid products.",
+  "sellsTo": [
+    "adult smokers and nicotine users",
+    "distributors",
+    "retailers",
+    "consumers via e-commerce and brand retail"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our current product portfolio primarily consists of cigarettes and smoke-free products, including heat-not-burn, nicotine pouch and e-vapor products."
+    },
+    {
+      "tag": "other:wellness",
+      "stance": "core_product",
+      "sentence": "The business strategy of our wellness unit, Aspeya, currently focuses on developing and commercializing primarily oral consumer wellness offerings."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implementation of evolved organizational model with two primary business units: International and U.S.",
+      "date": "2026-01-01",
+      "sentence": "This change was implemented effective January 1, 2026, and as a result we realigned our reportable segments accordingly."
+    },
+    {
+      "event": "Reporting of new reportable segments (International Smoke-Free, International Combustibles, and U.S.) begins",
+      "date": "2026-03-31",
+      "sentence": "As of the first quarter of 2026, our reporting will reflect these changes."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total international market (cigarettes and HTUs, excluding China and U.S.) was 2,587 billion units in 2025.",
+      "sentence": "Total Market, billion units (excluding China and the U.S.) 2,587 2,596 2,560"
+    },
+    {
+      "claim": "PMI's total international market share was 29.2% in 2025.",
+      "sentence": "Total International Market Share (1) 29.2% 29.0% 28.6%"
+    },
+    {
+      "claim": "Total shipment volume (cigarettes and smoke-free products in equivalent units) was 786.5 billion units in 2025.",
+      "sentence": "Total Shipment Volume (equivalent units in billions) 786.5 179.1 155.1 20.7 3.3 607.4"
+    }
+  ],
+  "generatedAt": "2026-07-04T11:52:07.053Z",
+  "model": "deepseek-v4-flash"
+}

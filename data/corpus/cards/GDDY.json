@@ -1,0 +1,101 @@
+{
+  "cik": "0001609711",
+  "ticker": "GDDY",
+  "name": "GoDaddy Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001609711-26-000010",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/gddy-20251231.htm"
+  },
+  "business": "GoDaddy provides domain registration, website building, online marketing, and commerce solutions to entrepreneurs, small businesses, individuals, organizations, developers, designers, and domain investors.",
+  "sellsTo": [
+    "Independents (microbusinesses and non-commercial)",
+    "WebPros (website designers and developers)",
+    "Domain Investors",
+    "Domain Registrars, Third Party Registrars, Corporate Domain Portfolio owners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft",
+    "ProofPoint",
+    "Barracuda",
+    "Titan",
+    "Open Xchange",
+    "cPanel",
+    "Plesk",
+    "WordPress"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "The Airo platform is an intelligent AI-experience that can help customers proactively build and grow their businesses with the power of generative and agentic AI solutions."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "risk_mention",
+      "sentence": "Our use, development, adoption, deployment and maintenance of AI and other new and evolving technologies may present significant risks, which could result in increased costs, litigation, reputational harm and liability."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We own one data center in Arizona and lease our remaining data center capacity."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "A substantial portion of our cloud infrastructure is provisioned through AWS, which hosts several of our products and our integrated platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our security product portfolio is a comprehensive suite of tools designed to help our customers secure their online presence."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "GoDaddy Payments enables our customers in both the U.S. and Canada to accept all major forms of payment, including Visa, MasterCard, American Express, Discover and contactless payments, including Apple Pay and Google Pay, with no long-term contracts or monthly minimums."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We also continue to grow our commerce offerings with tailored OmniCommerce solutions, POS systems, financial tools such as GoDaddy Capital and Instant Payouts and SaaS plans with premium features and discounted transaction fees to merchants."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our Websites + Marketing product includes online store capabilities, which allows our customers to transact business directly on their websites."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Next round of ICANN new gTLD program expected to open",
+      "date": "2026-06-30",
+      "sentence": "The next round of the Expansion Program is expected to open in Q2 2026."
+    },
+    {
+      "event": "Board approved additional $3.0 billion share repurchase authorization through end of 2027",
+      "date": "2027-12-31",
+      "sentence": "In April 2025, our board of directors approved the repurchase of up to an additional $3.0 billion of our Class A common stock through the end of 2027."
+    },
+    {
+      "event": "Expected completion of restructuring payments",
+      "date": "2026-06-30",
+      "sentence": "We expect to make substantially all remaining restructuring payments pursuant to these activities by the end of the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 36.2 million small businesses in the U.S.",
+      "sentence": "According to the U.S. Small Business Administration's Office of Advocacy, 99.9% of all firms in the U.S. are small businesses, of which there were approximately 36.2 million, based on the Census Bureau's 2022 Statistics of U.S. Businesses."
+    },
+    {
+      "claim": "Approximately 387 million domain names registered worldwide as of December 31, 2025",
+      "sentence": "Based on information reported in VeriSign's most recent Domain Name Industry Brief, this represented approximately 21% of the approximately 387 million domain names registered worldwide as of December 31, 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:10:14.785Z",
+  "model": "deepseek-v4-flash"
+}

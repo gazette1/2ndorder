@@ -1,0 +1,84 @@
+{
+  "cik": "0001370637",
+  "ticker": "ETSY",
+  "name": "ETSY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001370637-26-000019",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm"
+  },
+  "business": "Etsy operates two-sided online marketplaces that connect millions of creative entrepreneurs with buyers around the world. It generates revenue primarily from marketplace activities, including transaction fees, payments processing fees, listing fees, and optional seller services such as on-site advertising and shipping labels. The Etsy marketplace is the global destination for unique, creative goods from independent sellers, and Depop is a leading fashion resale marketplace.",
+  "sellsTo": [
+    "creative entrepreneurs (sellers)",
+    "buyers around the world",
+    "U.S. buyers",
+    "non-U.S. buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google Cloud",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Etsy operates two-sided online marketplaces that connect millions of creative entrepreneurs with buyers around the world."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We generate revenue primarily from marketplace activities, including transaction fees (inclusive of offsite advertising), payments processing fees, and listing fees, as well as from optional seller services such as on-site advertising and shipping labels."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We use AI in connection with our business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "In 2025, we began re-architecting our search and recommendation systems to better understand buyer intent and listing attributes, improving relevance and conversion."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We launched optional, AI-powered tools to support shop management tasks so sellers can spend more time creating and curating their items."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "risk_mention",
+      "sentence": "We rely on Google Cloud for a substantial portion of the computing, storage, data processing, networking, and other services for the Etsy Marketplace."
+    },
+    {
+      "tag": "other:cloud-services",
+      "stance": "risk_mention",
+      "sentence": "Depop relies on Amazon Web Services for its primary production environment, and that marketplace is thus subject to analogous risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Depop to eBay expected to close",
+      "date": "2026-Q2",
+      "sentence": "On February 15, 2026, Etsy and eBay Inc. (eBay) entered into a Sale and Purchase Agreement (the Purchase Agreement) for eBay to purchase Depop, for $1.2 billion in cash, subject to certain adjustments as set forth in the Purchase Agreement. The sale is currently expected to close in the second quarter of 2026, subject to regulatory approval and certain other closing conditions as set forth in the Purchase Agreement."
+    },
+    {
+      "event": "CEO transition effective January 1, 2026",
+      "date": "2026-01-01",
+      "sentence": "Etsy's President and Chief Growth Officer, Kruti Patel Goyal, was appointed Chief Executive Officer and to Etsy's Board of Directors effective January 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Online market size across relevant retail categories for Etsy marketplace within core geographies is approximately $600 billion, and approximately $2 trillion when including offline sales.",
+      "sentence": "We estimate that the online market size across all relevant retail categories for the Etsy marketplace within our core geographies represents an approximately $600 billion market opportunity, and an approximately $2 trillion market opportunity when including offline sales."
+    },
+    {
+      "claim": "Global e-commerce revenue in core geographies is estimated to grow by a compounded annual growth rate of 7% through 2029.",
+      "sentence": "Global e-commerce revenue in our core geographies is estimated to grow by a compounded annual growth rate of 7% through 2029, and we see significant potential for Etsy to grow and gain share within this context, particularly as we offer highly differentiated items compared with more commoditized marketplaces."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:36:44.766Z",
+  "model": "deepseek-v4-flash"
+}

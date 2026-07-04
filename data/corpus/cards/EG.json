@@ -1,0 +1,51 @@
+{
+  "cik": "0001095073",
+  "ticker": "EG",
+  "name": "EVEREST GROUP, LTD.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001095073-26-000006",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000006/eg-20251231.htm"
+  },
+  "business": "Everest Group, Ltd. is a Bermuda-based reinsurance and insurance organization that underwrites property, casualty, and specialty reinsurance and insurance solutions worldwide. The company serves a diverse group of clients through brokers, direct relationships, and general agents, providing extensive product and distribution capabilities.",
+  "sellsTo": [
+    "reinsurance ceding companies",
+    "insurance insureds via brokers and agents",
+    "global wholesale and specialty insurance markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company’s principal business, conducted through its Reinsurance and Insurance reportable segments, is the underwriting of reinsurance and insurance in the U.S., Bermuda and other international markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Professional Liability business, which accounted for 17.3% of Insurance gross written premiums, consists predominantly of policies covering Directors & Officers Liability, Errors & Omissions, Cyber Liability and other ancillary financial lines products."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the emergence of new technologies, including artificial intelligence ( AI ), requiring in new skill sets and changes in local employment legislation, taxation and the approach of regulatory bodies to compensation practices within our operating jurisdictions may result in difficulty in attracting, developing and retaining key personnel."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "AIG transition services payments",
+      "date": "2026-01-01",
+      "sentence": "Under the sale agreements, AIG has also agreed to pay the Company a total of $10 million per month for nine months for specified transition services starting January 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Worldwide net premium written by top 40 global reinsurance groups estimated at $347 billion in 2024",
+      "sentence": "The worldwide net premium written by the Top 40 global reinsurance groups for both life and non-life business was estimated to be $347 billion in 2024 according to data compiled by S&P."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:56:31.040Z",
+  "model": "deepseek-v4-flash"
+}

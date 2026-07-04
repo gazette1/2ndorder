@@ -1,0 +1,71 @@
+{
+  "cik": "0001490978",
+  "ticker": "SDGR",
+  "name": "Schrodinger, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001490978-26-000010",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1490978/000149097826000010/sdgr-20251231.htm"
+  },
+  "business": "Schrodinger sells a physics-based computational platform for drug discovery and materials science. The platform is licensed to biopharmaceutical and industrial companies, academic institutions, and government laboratories. The company also conducts collaborative and proprietary drug discovery programs.",
+  "sellsTo": [
+    "Biopharmaceutical companies",
+    "Industrial companies (materials science)",
+    "Academic institutions",
+    "Government laboratories"
+  ],
+  "namedCustomers": [
+    "Ajax Therapeutics, Inc.",
+    "Bristol-Myers Squibb Company (BMS)",
+    "Bright Angel Therapeutics Inc.",
+    "Eli Lilly and Company (Lilly)",
+    "Novartis Pharma AG",
+    "Otsuka Pharmaceutical Co., Ltd.",
+    "Sanofi S.A.",
+    "Structure Therapeutics Inc.",
+    "Nimbus Therapeutics, LLC",
+    "Gates Ventures, LLC",
+    "Bill & Melinda Gates Foundation",
+    "Morphic Holding, Inc.",
+    "Copernic Catalysts, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our differentiated, physics-based computational platform enables discovery of high-quality, novel molecules for drug development and materials applications more rapidly and at a lower cost, compared to traditional methods."
+    },
+    {
+      "tag": "other:materials-science",
+      "stance": "core_product",
+      "sentence": "we have been able to extend our computational platform to materials science applications in fields such as aerospace, energy, semiconductors, electronic displays, and chemicals."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have built our platform on a foundation of rigorous, physics-based methods, combined with the rapid data processing and scaling advantages of machine learning"
+    },
+    {
+      "tag": "other:predictive-toxicology",
+      "stance": "core_product",
+      "sentence": "In 2024, we launched an initiative to expand our computational platform to predict toxicology risk early in drug discovery, which is being funded by $19.5 million in grants from the Bill & Melinda Gates Foundation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Report initial data from Phase 1 clinical trial of SGR-3515",
+      "date": "2026-06-30",
+      "sentence": "We anticipate reporting initial data from the trial in the second quarter of 2026."
+    },
+    {
+      "event": "Commercial launch of predictive toxicology solution",
+      "date": null,
+      "sentence": "We expect to launch our predictive toxicology solution commercially and make it available more broadly to our customers during 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:06:05.557Z",
+  "model": "deepseek-v4-flash"
+}

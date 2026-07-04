@@ -1,0 +1,114 @@
+{
+  "cik": "0001868941",
+  "ticker": "FLNC",
+  "name": "Fluence Energy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001868941-25-000081",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm"
+  },
+  "business": "Fluence Energy is a global market leader delivering intelligent energy storage and optimization software for renewables and storage. The company sells energy storage solutions, operational and maintenance services, and digital applications to utilities, independent power producers, developers, and commercial and industrial customers. As of September 30, 2025, it had 6.8 GW of deployed assets and a global pipeline of 128.8 GW.",
+  "sellsTo": [
+    "Utilities and load-serving entities",
+    "Independent power producers (IPPs)",
+    "Developers",
+    "Conglomerates",
+    "Commercial and industrial (C&I) customers"
+  ],
+  "namedCustomers": [
+    "AES"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Fluence is a global market leader delivering intelligent energy storage and optimization software for renewables and storage."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Our energy storage solutions and operational services are designed to help create a more resilient grid and unlock the full potential of renewable portfolios."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Global Transition Toward Renewable Energy: The ongoing transition from fossil to renewable generation is expected to continue to require significant increases in energy storage capacity to both offset potential grid instability caused by intermittent renewable resources and enable the use of power from renewable generation assets at times when natural resources may be unavailable."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Increased Electricity Demand: Driven by factors such as the rise of data centers and AI."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We sell our energy storage solutions, services, and digital offerings to a wide range of customers around the world, including utilities and load-serving entities, IPPs, developers, conglomerates, and commercial and industrial (C&I) customers."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Ultrastack: Designed to meet the critical system requirements of distribution and transmission networks, including stringent requirements around availability, uptime, and information technology (IT) security, and advanced controls applications that deliver a suite of highly technical grid services, such as synthetic inertia and power oscillation damping."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We believe that competitive factors in the energy storage market include, but are not limited to: ... cybersecurity components of energy storage solutions and components ..."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "Many components and parts of our integrated energy storage solutions are sourced from suppliers and stakeholders from all over the world and are reliant on various raw materials including steel, aluminum, copper, nickel, iron phosphate, graphite, manganese, lithium carbonate, lithium hydroxide, and cobalt."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "In fiscal year 2022, we saw prices for lithium-ion batteries increase from prior years, though prices returned to their historical trend of declining year-over-year in fiscal years 2023 through 2025, due in part to manufacturing overcapacity and saturation in the market and lower cost of the underlying raw materials, including lithium as well as softening demand from the electric vehicle (EV) sector."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Domestic production of battery modules started in Utah",
+      "date": "2024-09",
+      "sentence": "We initiated domestic production of these battery modules at our contract manufacturer’s facility in Utah in September 2024"
+    },
+    {
+      "event": "Arizona contract manufacturer commissioned new facility and began scaling production",
+      "date": "2025",
+      "sentence": "This second contract manufacturer in Arizona commissioned their new facility in 2025, and began scaling production."
+    },
+    {
+      "event": "OBBBA signed into law",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, the OBBBA was signed into law."
+    },
+    {
+      "event": "Deadline for Treasury to issue OBBBA implementation regulations",
+      "date": "2026-12-31",
+      "sentence": "The OBBBA includes substantive details regarding PFE restriction compliance requirements and requires U.S. Department of Treasury to issue implementation regulations by December 31, 2026."
+    },
+    {
+      "event": "Final determination of AD/CV tariffs on graphite AAM imports",
+      "date": null,
+      "sentence": "The AD/CV tariff rate and scope of imports subject to the tariffs may change at the final determination by DOC, which was previously expected by December 5, 2025, but is now likely to be delayed by approximately 30 to 60 days because of the U.S. government shutdown in 2025."
+    },
+    {
+      "event": "Italy awarded 10 GWh of battery storage assets under MACSE",
+      "date": "2025-10",
+      "sentence": "In October 2025, Teena S.p.A., the Italian transmission service operator, awarded 10 GWh of battery storage assets to be delivered in 2028 under the first round of the tenders pursuant to the Electricity Storage Procurement Mechanism (MACSE) launched by Italy in 2024."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global utility-scale energy storage market (ex-China) will add approximately 3,201 GWh between 2024 and 2035.",
+      "sentence": "BloombergNEF estimated in its 2H 2025 Energy Storage Market Outlook published on October 20, 2025 that the global utility scale market, excluding China, will add approximately 3,201 GWh between 2024 and 2035."
+    },
+    {
+      "claim": "Data centers are expected to consume approximately 6.7% to 12% of total U.S. electricity by 2028.",
+      "sentence": "In another report by the U.S. Department of Energy in December 2024, data centers are expected to consume approximately 6.7% to 12% of total U.S. electricity by 2028."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:59:03.395Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001698022",
+  "ticker": "FMFG",
+  "name": "Farmers & Merchants Bancshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009952",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1698022/000143774926009952/fmfg20251231_10k.htm"
+  },
+  "business": "Farmers and Merchants Bancshares, Inc. is a bank holding company whose primary business is serving as the parent company of Farmers and Merchants Bank, a Maryland commercial bank that offers commercial and retail banking services. The Bank also holds a protected cell captive insurance company that reinsured certain risks of the Bank and other unaffiliated entities through November 2022.",
+  "sellsTo": [
+    "residential and commercial customers in Maryland",
+    "small to medium size businesses",
+    "agricultural community"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank grants available credit for residential mortgages (including Federal Housing Administration and Veterans Affairs loans), construction loans, home equity lines, personal installment loans and other consumer financing."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Bank also is engaged in financing commerce and industry by providing credit and deposit services for small to medium size businesses and the agricultural community in the Bank’s market area."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Insurance Subsidiary is one protected cell of a protected cell captive insurance company. From its formation through November 7, 2022, the Insurance Subsidiary reinsured certain risks of the Bank as well as other groups of entities that were not affiliated with the Bank for which it received premiums."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Technology and other changes are allowing parties to complete financial transactions through alternative methods that historically have involved banks. ... consumers can now maintain funds that would have historically been held as bank deposits in brokerage accounts, mutual funds or general-purpose reloadable prepaid cards. Consumers can also complete transactions, such as paying bills and/or transferring funds directly without the assistance of banks. ... transactions utilizing digital assets, including cryptocurrencies, stablecoins and other similar assets, have increased substantially."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A breach in security or other failure could result in legal claims, regulatory penalties, disruptions in operations, increased expenses, loss of customers and business partners, and damage to our reputation, which could in turn adversely affect our business, financial condition and/or results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:05:39.142Z",
+  "model": "deepseek-v4-flash"
+}

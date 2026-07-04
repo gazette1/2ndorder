@@ -1,0 +1,39 @@
+{
+  "cik": "0001953984",
+  "ticker": "BCG",
+  "name": "Binah Capital Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037897",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1953984/000110465926037897/tmb-20251231x10k.htm"
+  },
+  "business": "Binah Capital Group is a platform provider for retail wealth management businesses, owning and operating ten entities including broker-dealers, registered investment advisors, and insurance entities. It offers hybrid, independent, and W2 business models to financial advisors, who serve clients through commission and advisory fee-based products. Revenue is derived primarily from fees and commissions on products and advisory services offered by advisors to their clients.",
+  "sellsTo": [
+    "financial advisors",
+    "retail wealth management businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company is a leading platform provider for retail wealth management businesses that owns and operates ten entities, four of which are broker-dealers, three of which are registered investment advisors, and three of which are insurance entities, that have over 1,600 registered individuals working within the financial services industries."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "three of which are insurance entities"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incidents or real or perceived errors, failures or bugs in our systems or our website could impair our operations, result in loss of personal customer information, damage our reputation, and brand, and harm our business and operating results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:35:39.876Z",
+  "model": "deepseek-v4-flash"
+}

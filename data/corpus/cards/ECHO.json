@@ -1,0 +1,69 @@
+{
+  "cik": "0001415404",
+  "ticker": "ECHO",
+  "name": "EchoStar CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021817",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1415404/000110465926021817/tmb-20251231x10k.htm"
+  },
+  "business": "EchoStar Corporation is a holding company that offers pay-TV services under the DISH and SLING brands, wireless communication services under Boost Mobile and Gen Mobile, broadband satellite internet and satellite services to consumers, enterprises, and government customers.",
+  "sellsTo": [
+    "Consumers in the United States",
+    "Enterprise customers (retailers, financial institutions, aircraft connectivity providers, lottery agencies, multi-branch networks)",
+    "U.S. government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AT&T",
+    "T-Mobile"
+  ],
+  "exposures": [
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "We offer broadband satellite technologies and broadband internet products and services to consumer customers."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We offer nationwide Wireless services to subscribers primarily under our Boost Mobile and Gen Mobile brands."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of AT&T License Purchase Agreement",
+      "date": "2026-06-30",
+      "sentence": "The closing is expected to occur in the first half of 2026."
+    },
+    {
+      "event": "Spectrum Transfer Closing for SpaceX Transactions",
+      "date": "2026-06-30",
+      "sentence": "The Spectrum Transfer Closing is expected to occur in the first half of 2026."
+    },
+    {
+      "event": "Spectrum Acquisition Closing for SpaceX Transactions",
+      "date": "2027-11-30",
+      "sentence": "The Spectrum Acquisition Closing is expected to occur on or about November 30, 2027."
+    },
+    {
+      "event": "Sixth Amendment of NSA with AT&T becomes effective through December 31, 2031",
+      "date": "2025-10-01",
+      "sentence": "In the fourth quarter of 2025, we gave notice to AT&T that we had met such thresholds, triggering the Sixth Amendment rates and AT&T agreed to provide these services to us through December 31, 2031."
+    },
+    {
+      "event": "Extended final deployment deadline for certain wireless spectrum licenses",
+      "date": "2026-12-14",
+      "sentence": "the final deployment deadlines for the licenses subject to the Extension Request (listed in Appendix G) shall be extended to December 14, 2026."
+    },
+    {
+      "event": "Further extended final deployment deadline for certain wireless spectrum licenses",
+      "date": "2028-06-14",
+      "sentence": "the final deployment deadlines for the licenses subject to the Extension Request (listed in Appendix G) shall be further extended to June 14, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:32:31.581Z",
+  "model": "deepseek-v4-flash"
+}

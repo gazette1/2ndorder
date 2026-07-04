@@ -1,0 +1,62 @@
+{
+  "cik": "0000796343",
+  "ticker": "ADBE",
+  "name": "ADOBE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000796343-26-000003",
+    "filedAt": "2026-01-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm"
+  },
+  "business": "Adobe develops cloud-based software for content creation (Creative Cloud), document productivity (Acrobat), and digital experience management (Experience Cloud). Its products serve creative professionals, business professionals, consumers, and marketing professionals.",
+  "sellsTo": [
+    "creative professionals",
+    "business professionals",
+    "consumers",
+    "marketing professionals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Firefly family of models are infused across Adobe's solutions and powering new solutions that enhance creativity, marketing and productivity workflows for our customers."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Adobe Commerce offers a highly customizable, end-to-end e-commerce platform to manage, personalize and optimize the commerce experience for physical and digital goods across every touchpoint by bringing together digital commerce, order management and predictive intelligence to enable engaging shopping experiences across B2B, B2C and direct-to-consumer."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Maintaining the security of our solutions is a critical issue for us and our customers."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "If we fail to plan infrastructure capacity appropriately and expand it proportionally with the needs of our customer and user base, and we experience a rapid and significant demand on the capacity of our data centers or those of third parties, service outages or performance issues could occur, which may impact our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Combine Digital Media, Digital Experience and Publishing and Advertising into a single reportable segment",
+      "date": null,
+      "sentence": "Effective in the first quarter of fiscal 2026, we will combine our prior segments Digital Media, Digital Experience and Publishing and Advertising into a single operating and reportable segment due to changes in how management intends to evaluate results, allocate resources and execute the strategic opportunities outlined above."
+    },
+    {
+      "event": "Acquisition of Semrush Holdings, Inc.",
+      "date": null,
+      "sentence": "On November 18, 2025, we entered into a definitive agreement to acquire Semrush Holdings, Inc., a publicly held brand visibility platform company, for approximately $1.9 billion of cash consideration. The transaction is subject to regulatory approvals and customary closing conditions and is expected to close in the first half of fiscal 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "billions of potential users in the Business Professionals & Consumers customer group",
+      "sentence": "Our Acrobat solutions, from our freemium Acrobat Reader to Acrobat AI Assistant to our AI-powered productivity and creativity destination, Acrobat Studio, facilitate frictionless onboarding and scaled reach in serving the billions of potential users in this customer group."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:04:34.661Z",
+  "model": "deepseek-v4-flash"
+}

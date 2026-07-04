@@ -1,0 +1,85 @@
+{
+  "cik": "0000319201",
+  "ticker": "KLAC",
+  "name": "KLA CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000319201-25-000024",
+    "filedAt": "2025-08-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm"
+  },
+  "business": "KLA supplies industry-leading equipment and services for process control and process-enabling in semiconductor and electronics manufacturing. Its products include inspection, metrology, and deposition tools for wafers, reticles, ICs, and PCBs. The services business accounts for approximately 22% of revenue.",
+  "sellsTo": [
+    "Semiconductor manufacturers",
+    "Electronics device manufacturers",
+    "Wafer and reticle manufacturers",
+    "Printed circuit board manufacturers"
+  ],
+  "namedCustomers": [
+    "Taiwan Semiconductor Manufacturing Company Limited",
+    "Samsung Electronics Co., Ltd."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Within the Semiconductor Process Control segment, our comprehensive portfolio of inspection, metrology and software products, as well as related services, help IC, wafer, reticle/mask and chemical/materials manufacturers achieve target yields throughout the entire fabrication process, from R&D to final volume production."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "We provide advanced process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (IC or chip), packaged ICs and printed circuit boards (PCB), as well as comprehensive support and services across our installed base."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Within the Specialty Semiconductor Process segment, we develop and sell advanced vacuum deposition and etching process tools, which are used by a broad range of specialty semiconductor customers, including manufacturers of microelectromechanical systems (MEMS), radio frequency (RF) communication semiconductors, and power semiconductors for automotive and industrial applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Increasing complexity and value of semiconductor packages, particularly for AI and High-performance computing (HPC) applications, is also driving significant growth in the advanced packaging business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Demand for advanced semiconductor technologies, particularly evident in the 2-nanometer node, which is seeing higher levels of investment and process control intensity, continues to drive investments in AI."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "risk_mention",
+      "sentence": "Adoption of EUV in high volume manufacturing (HVM) for Logic and DRAM memory is driving new process control requirements and growth in key markets for KLA."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "The digitization of all industries, including 5G markets and advances in healthcare and industrial applications, together with the increasing adoption of electric vehicles and intelligence in automobiles, are powering leading-edge design node technology investments and capacity expansions."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "The digitization of all industries, including 5G markets and advances in healthcare and industrial applications, together with the increasing adoption of electric vehicles and intelligence in automobiles, are powering leading-edge design node technology investments and capacity expansions."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "The digitization of all industries, including 5G markets and advances in healthcare and industrial applications, together with the increasing adoption of electric vehicles and intelligence in automobiles, are powering leading-edge design node technology investments and capacity expansions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into long-term virtual power purchase agreement for solar energy",
+      "date": "2025-01-01",
+      "sentence": "In January 2025, we entered into a long-term virtual power purchase agreement to purchase a portion of the output generated from a solar energy project for a fixed price."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Construction of an advanced IC fabrication facility can cost over $10 billion",
+      "sentence": "Construction of an advanced IC fabrication facility today can cost well above $10 billion, substantially more than previous-generation facilities."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:51:08.644Z",
+  "model": "deepseek-v4-flash"
+}

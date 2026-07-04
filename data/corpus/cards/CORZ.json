@@ -1,0 +1,61 @@
+{
+  "cik": "0001839341",
+  "ticker": "CORZ",
+  "name": "Core Scientific, Inc./tx",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013305",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013305/core-20251231.htm"
+  },
+  "business": "Core Scientific designs, builds and operates large-scale, purpose-built data centers that support high-density colocation services and digital asset mining for its own account and third-party customers. Its data centers are optimized for power-intensive, mission-critical computing workloads with a focus on artificial intelligence and other high-performance computing applications. The company intends to convert every megawatt in its portfolio to high-density colocation infrastructure over the next three years.",
+  "sellsTo": [
+    "hyperscale cloud providers",
+    "AI operators",
+    "large enterprises",
+    "third-party digital asset miners"
+  ],
+  "namedCustomers": [
+    "CoreWeave, Inc."
+  ],
+  "namedSuppliers": [
+    "Bitmain Technologies Limited",
+    "Block, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our data centers are optimized for power-intensive, mission-critical computing workloads, with a focus on artificial intelligence ( AI ) and other high-performance computing ( HPC ) applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Core Scientific, Inc. designs, builds and operates large-scale, purpose-built data centers that support high-density colocation services and digital asset mining for both our own account and to a lesser extent, third- party customers."
+    },
+    {
+      "tag": "other:digital-asset-mining",
+      "stance": "core_product",
+      "sentence": "Our Digital Asset Self-Mining segment generates revenue from the deployment and operation of our own large fleet of specialized computers, or miners within our owned digital infrastruc ture as part of a pool of users that solve complex cryptographic algorithms to validate transactions conducted on one or more blockchain networks."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "In response to the significant increase in power demand driven by the continued proliferation of AI infrastructure, a growing number of electric utility providers have adjusted their commercial and operational requirements, particularly in markets with limited availability of incremental power capacity, where the pace of new generation and grid infrastructure development has not kept up with demand from large-scale data center projects."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "Certain components, including high-voltage transformers, switchgear, generators and advanced cooling systems, can require lead times of 12 to 18 months or longer, which can materially affect data center construction schedules."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems or those of the third parties with whom we work or our data, are or were compromised, we could experience adverse consequences resulting from such compromise, including but not limited to regulatory investigations or actions; litigations; fines and penalties; disruptions of our business operations; reputational harm; loss of revenue or profits; and other adverse consequences."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:31:10.576Z",
+  "model": "deepseek-v4-flash"
+}

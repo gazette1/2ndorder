@@ -1,0 +1,62 @@
+{
+  "cik": "0001616862",
+  "ticker": "AXTA",
+  "name": "Axalta Coating Systems Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008008",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1616862/000162828026008008/axta-20251231.htm"
+  },
+  "business": "Axalta Coating Systems Ltd. is a leading global manufacturer, marketer and distributor of high-performance coatings systems and products. It operates in two segments: Performance Coatings (refinish and industrial end-markets) and Mobility Coatings (light vehicle and commercial vehicle end-markets).",
+  "sellsTo": [
+    "refinish body shops (independent, MSOs, OEM dealerships)",
+    "industrial manufacturers",
+    "light vehicle OEMs",
+    "commercial vehicle OEMs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Advanced Mobility Solutions encompasses products and applications for trends like sustainability, mass customization, two-tone and digital paint. It includes coatings with enhanced functionality that improve LiDAR and radar performance and exterior protection for electric vehicle platforms and components."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Vehicle manufacturers continue to develop new safety features such as collision avoidance technology and autonomous vehicles."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We have launched a completely automated and hands-free mixing machine for our automotive refinish customers, Axalta Irus Mix."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Energy & Battery Solutions: Innovative technologies in liquid and powder coatings for battery performance, insulation and conduction to enable innovation in the electrification and energy transition market."
+    },
+    {
+      "tag": "other:environmental_sustainability",
+      "stance": "core_product",
+      "sentence": "Sustainability is another important component of coatings supplier selection as the current market trend is for products that are inherently more environmentally friendly and use less energy, such as our specially-formulated waterborne and our high solids solventborne products that improve productivity and performance, while reducing the impact on the environment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger outside date for completion of the AkzoNobel merger",
+      "date": "2027-05-18",
+      "sentence": "if the Merger is not consummated on or before the outside date of May 18, 2027 (subject to extension to November 18, 2027 under certain circumstances)"
+    },
+    {
+      "event": "Expected realization of additional $20 million in run-rate savings from the 2024 Transformation Initiative",
+      "date": null,
+      "sentence": "we expect approximately $20 million to be realized in 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:32:54.783Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "0001937891",
+  "ticker": "AMCI",
+  "name": "AMC Robotics Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-018144",
+    "filedAt": "2026-04-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1937891/000149315226018144/form10-k.htm"
+  },
+  "business": "AMC sells smart hardware products including security cameras, driving recorders, action cameras, and Retina K cameras, primarily through e-commerce platforms in the United States, Canada, and Europe. The company earns revenue from product sales and revenue-sharing arrangements with related party service providers, including Kami.",
+  "sellsTo": [
+    "residential homes",
+    "small businesses",
+    "commercial use"
+  ],
+  "namedCustomers": [
+    "Kami Vision Incorporated"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "AMC's mission is to make the world a safer place through the use of high-quality, affordable and accessible vision AI technology."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use of machine learning, natural language processing, computer vision, and predictive analytics to support functionalities such as monitoring, automation, and data analysis."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "AMC intends to expand its product offering in the future to include additional AI-based intelligent devices such as wearable devices, including AI glasses, drones and AI robots, as well as related functionality and features for these products."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "Edge Computing (Under Evaluation) The Company is assessing technologies that enable data processing at or near the device level to potentially reduce latency; however, no active development initiatives are currently in place."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "22nm Semiconductor Design A chip design based on a 22nm process that may provide cost efficiencies, improve thermal performance, and reduced current leakage."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Yi brand name license expiry",
+      "date": "2026-10-22",
+      "sentence": "We have been granted permission by Shanghai Xiaoyi Technology Co., Ltd., the owner of the Yi brand name, to utilize such name in all of our products in our online sales through October 22, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:37:57.383Z",
+  "model": "deepseek-v4-flash"
+}

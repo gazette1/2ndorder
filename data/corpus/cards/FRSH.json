@@ -1,0 +1,44 @@
+{
+  "cik": "0001544522",
+  "ticker": "FRSH",
+  "name": "Freshworks Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001544522-26-000036",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452226000036/frsh-20251231.htm"
+  },
+  "business": "Freshworks provides people-first AI service software that organizations use to deliver exceptional employee and customer experiences. The company's employee experience (EX) products include Freshservice, Freshservice for Business Teams, Device42, and FireHydrant, while customer experience (CX) products include the Freshdesk suite. AI offerings such as Freddy AI Agents, Freddy AI Copilot, and Freddy AI Insights further enhance these experiences.",
+  "sellsTo": [
+    "global businesses of all sizes",
+    "SMB (organizations with 250 or fewer employees)",
+    "mid-market (organizations with 251 to 5,000 employees)",
+    "enterprise (organizations with 5,001 or more employees)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Our AI offerings, which include Freddy AI Agents, Freddy AI Copilot and Freddy AI Insights, further enhance the employee and customer experience and are designed to boost productivity."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We maintain a cybersecurity and cloud-security program designed to protect the confidentiality, integrity, and availability of our systems and customer data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of FireHydrant, Inc.",
+      "date": "2026-01",
+      "sentence": "In January 2026, the Company completed the acquisition of FireHydrant, Inc., a provider of AI-powered incident management software."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:59:00.911Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001114936",
+  "ticker": "UMEW",
+  "name": "UMeWorld Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-13-000247",
+    "filedAt": "2013-01-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114936/000147793213000247/alrx_10k.htm"
+  },
+  "business": "AlphaRx is a specialty pharmaceutical company developing therapies to treat and manage pain, including Indaflex for osteoarthritis and ARX-8203. It also operates an online video business through UMeLook, providing foreign video content to Chinese viewers.",
+  "sellsTo": [
+    "patients with osteoarthritis",
+    "advertisers in China",
+    "Chinese viewers"
+  ],
+  "namedCustomers": [
+    "Andromaco"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Indaflex is a topical NSAID (Non-Steroidal Anti-inflammatory Drug) formulation currently in clinical development for the reduction of signs and symptoms associated with osteoarthritis of the knee."
+    },
+    {
+      "tag": "other:online-video",
+      "stance": "core_product",
+      "sentence": "UMeLook is an early stage online video company focuses on providing unique foreign video content to Chinese viewers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "15 million Americans taking prescription NSAIDs for arthritis, 68 million prescriptions per year",
+      "sentence": "With an estimated 15 million Americans taking prescription NSAIDs for arthritis, and an estimated 68 million prescriptions a year being written for these products, according to the FDA, the market for NSAIDs is strong."
+    },
+    {
+      "claim": "U.S. prescription market for oral solid NSAIDs was $2.6 billion in 2009",
+      "sentence": "The U.S. prescription market for oral solid NSAIDs was approximately $2.6 billion in 2009, of which 72% was accounted for by Celebrex, according to IMS."
+    },
+    {
+      "claim": "Arthritis afflicts 10% of world population",
+      "sentence": "Arthritis is the most common chronic disease in North America and afflicts an estimated 10% of the world's population."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:44:57.352Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,82 @@
+{
+  "cik": "0001621832",
+  "ticker": "AQMS",
+  "name": "Aqua Metals, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010705",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1621832/000143774926010705/aqms20251231_10k.htm"
+  },
+  "business": "Aqua Metals is developing and commercializing proprietary recycling and refining technologies for the recovery of critical minerals and metals, primarily using its AquaRefining process for lithium-ion battery recycling. The company sells recycled high-purity metals and materials such as lithium, nickel, cobalt, copper, and manganese to the battery manufacturing supply chain and broader metals markets.",
+  "sellsTo": [
+    "battery manufacturers",
+    "metals markets",
+    "advanced manufacturing industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Batteries used in mobility applications, such as electric vehicles (\"EVs\"), are expected to remain the largest driver of battery demand and may represent approximately 85% of projected battery demand by 2035."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "grid-scale battery energy storage systems ( BESS ) are expected to represent one of the fastest-growing segments of battery demand."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "growth in internet data centers"
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "active_investment",
+      "sentence": "exploratory initiatives related to polymetallic nodules and other sources of critical minerals."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "active_investment",
+      "sentence": "including emerging battery chemistries and alternative sources of critical minerals and rare earth materials."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed multi-week continuous 24-hour operating campaign at pilot facility",
+      "date": "2024-12-31",
+      "sentence": "In late 2024, the Company completed a multi-week continuous 24-hour operating campaign at its pilot facility, demonstrating the ability to deliver exceptional recovery rates and produce battery-grade critical minerals."
+    },
+    {
+      "event": "Entered non-binding term sheet to acquire Lion Energy, LLC",
+      "date": "2026-02-06",
+      "sentence": "On February 6, 2026, the Company entered into a non-binding term sheet with Lion Energy, LLC"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global battery demand projected to grow from ~2 TWh in 2025 to ~4.2 TWh by 2030 and ~6.8 TWh by 2035",
+      "sentence": "Global battery demand is projected to grow from approximately 2 terawatt-hours (\"TWh\") in 2025 to around 4.2 TWh by 2030, and potentially reaching about 6.8 TWh by 2035"
+    },
+    {
+      "claim": "Global installed BESS capacity projected to grow ~50% annually through 2030, reaching 500-700 GWh",
+      "sentence": "Global installed BESS capacity is projected to grow at an annual rate of approximately 50% through 2030 and could reach between 500 and 700 gigawatt-hours ( GWh ) by that time"
+    },
+    {
+      "claim": "Global BESS market value estimated at $120-$150 billion by 2030",
+      "sentence": "The global BESS market is expected to continue expanding rapidly, with projected market value estimates ranging from approximately $120 billion to $150 billion by 2030"
+    },
+    {
+      "claim": "Energy storage installations reached ~37.1 GWh in 2024, projected to exceed 50 GWh in 2025",
+      "sentence": "In 2024, energy storage installations reached approximately 37.1 GWh, and installations were projected to exceed 50 GWh in 2025."
+    },
+    {
+      "claim": "More than 100 additional battery manufacturing facilities may need to be constructed globally by 2030",
+      "sentence": "industry forecasts suggest that more than one hundred additional battery manufacturing facilities may need to be constructed globally by 2030"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:58:06.738Z",
+  "model": "deepseek-v4-flash"
+}

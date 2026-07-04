@@ -1,0 +1,63 @@
+{
+  "cik": "0001983736",
+  "ticker": "GOAI",
+  "name": "Eva Live Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-010305",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1983736/000149315226010305/form10-k.htm"
+  },
+  "business": "Eva Live Inc. provides digital advertising services through its AI-powered Eva Platform, which matches ad campaigns to ad spots one at a time using conversion mapping tables and big data analytics. The company also operates the Eva XML Platform for media traffic arbitrage across major advertising networks. Its customers are primarily advertising agencies and businesses in various industries in North America.",
+  "sellsTo": [
+    "Advertising agencies (SIC7319)",
+    "Media companies",
+    "Financial institutions",
+    "Retail entities",
+    "North American (US and Canada) businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-advertising",
+      "stance": "core_product",
+      "sentence": "We execute our business through the Eva Platform based on Artificial Intelligence, or AI, to match advertising campaigns to specific ad spots one at a time."
+    },
+    {
+      "tag": "other:big-data",
+      "stance": "core_product",
+      "sentence": "We leverage big data, an accumulation of data that is too large and complex for traditional database management tools to process."
+    },
+    {
+      "tag": "other:digital-advertising",
+      "stance": "core_product",
+      "sentence": "We operate at the junction of digital marketing and media monetization."
+    },
+    {
+      "tag": "other:ad-fraud",
+      "stance": "core_product",
+      "sentence": "Our system continually learns to achieve trusted and impactful digital advertising solutions, eliminating ad fraud, lag, and error to produce unmatched digital advertising optimization."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "These factors may include, among other things, the following: ... changes in the developing fintech industries"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our survival depends on the success of our efforts to gain market acceptance and shares of our products and services in the U.S. debt management market, with the main focus on student loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Common stock started trading on Nasdaq",
+      "date": "2026-01-28",
+      "sentence": "On January 28, 2026, after obtaining the required Nasdaq approval, our common stock started to trade on Nasdaq under the symbol GOAI."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:46:54.026Z",
+  "model": "deepseek-v4-flash"
+}

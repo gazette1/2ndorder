@@ -1,0 +1,70 @@
+{
+  "cik": "0001051470",
+  "ticker": "CCI",
+  "name": "CROWN CASTLE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001051470-26-000016",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000016/cci-20251231.htm"
+  },
+  "business": "Crown Castle owns, operates, and leases towers and other shared communications infrastructure to wireless carriers in the United States. Its core business is providing access to its towers via long-term tenant contracts. The company operates as a REIT and derives approximately 90% of its site rental revenues from T-Mobile, AT&T, and Verizon Wireless.",
+  "sellsTo": [
+    "Wireless carriers",
+    "Tenants on towers"
+  ],
+  "namedCustomers": [
+    "T-Mobile",
+    "AT&T",
+    "Verizon Wireless",
+    "DISH Wireless L.L.C."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our core business is providing access, including space or capacity, to our towers via long-term tenant contracts in the U.S."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the adoption of other bandwidth-intensive applications (such as cloud services, artificial intelligence and video communications)"
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "satellite (such as low earth orbiting) and mesh transmission systems may serve as substitutes for, or alternatives to, leasing on communications infrastructure"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Signing of Strategic Fiber Agreement to sell Fiber segment",
+      "date": "2025-03-13",
+      "sentence": "On March 13, 2025, management signed a definitive agreement ('Strategic Fiber Agreement') to sell our Fiber segment, together with certain supporting assets and personnel ('Fiber Business'), with Zayo Group Holdings Inc. ('Zayo') acquiring the fiber solutions business and EQT Active Core Infrastructure fund ('EQT') acquiring the small cell business ('Strategic Fiber Transaction')."
+    },
+    {
+      "event": "Expected closing of Strategic Fiber Transaction",
+      "date": null,
+      "sentence": "The Strategic Fiber Transaction is expected to close in the first half of 2026, subject to certain closing conditions and regulatory approvals."
+    },
+    {
+      "event": "Delivery of notice of default and termination to DISH",
+      "date": "2026-01-12",
+      "sentence": "On January 12, 2026, we delivered a notice of default and termination to DISH relating to our Master Lease Agreement and underlying agreements with DISH as a result of DISH failing to make required payments and defaulting on its obligations under the agreements."
+    },
+    {
+      "event": "Initiation of 2026 Restructuring Plan",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we initiated a restructuring plan ('2026 Restructuring Plan') as part of our efforts to enhance the efficiency and effectiveness of our tower business."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "$23.7 billion of expected future cash inflows from tenant contracts",
+      "sentence": "as of December 31, 2025, exclusive of renewals exercisable at the tenants' option, our tenant contracts had a weighted-average remaining life of approximately six years and represented $23.7 billion of expected future cash inflows, exclusive of amounts owed from DISH Wireless L.L.C. ('DISH')."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:27:48.233Z",
+  "model": "deepseek-v4-flash"
+}

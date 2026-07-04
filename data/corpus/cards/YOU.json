@@ -1,0 +1,75 @@
+{
+  "cik": "0001856314",
+  "ticker": "YOU",
+  "name": "Clear Secure, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001856314-26-000006",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1856314/000185631426000006/you-20251231.htm"
+  },
+  "business": "Clear Secure, Inc. is a secure identity company that provides frictionless experiences through its CLEAR+ consumer travel subscription service, which enables access to dedicated airport security lanes, and its CLEAR1 B2B multi-layered identity verification solution for organizations in healthcare, workforce, and government sectors. The company also offers TSA PreCheck Enrollment Provided by CLEAR and other travel-related services.",
+  "sellsTo": [
+    "Consumers (travelers)",
+    "Airports",
+    "Airlines",
+    "Healthcare organizations",
+    "Workforce entities",
+    "Governmental organizations"
+  ],
+  "namedCustomers": [
+    "Delta Air Lines",
+    "United Airlines",
+    "Alaska Airlines",
+    "Hawaiian Airlines",
+    "American Express"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:identity-verification",
+      "stance": "core_product",
+      "sentence": "CLEAR confirms identity on an opt-in basis using document authentication (e.g., driver's license, passport), best-in-class biometric capture technology, liveness detection and other anti-spoofing technologies, biometric matching, source corroboration, and other proprietary technologies to link an individual's identity with their biometrics (e.g., face)."
+    },
+    {
+      "tag": "other:biometrics",
+      "stance": "core_product",
+      "sentence": "CLEAR confirms identity on an opt-in basis using document authentication (e.g., driver's license, passport), best-in-class biometric capture technology, liveness detection and other anti-spoofing technologies, biometric matching, source corroboration, and other proprietary technologies to link an individual's identity with their biometrics (e.g., face)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "CLEAR1 is our business to business (B2B) multi-layered identity verification solution."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "We partner with a breadth of organizations, with a particular focus on Healthcare, Workforce and Governmental organizations where high fidelity identity security is paramount to their operational success."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company generates additional revenue from TSA PreCheck Enrollment Provided by CLEAR."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of TSA PreCheck Enrollment Provided by CLEAR",
+      "date": "2025-02-01",
+      "sentence": "In February 2025, we launched TSA PreCheck Enrollment Provided by CLEAR, which as of December 31, 2025 was available in 61 airports and 340 retail locations nationwide."
+    },
+    {
+      "event": "Multi-year renewal of American Express partnership",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we executed a multi-year renewal of the partnership with American Express."
+    },
+    {
+      "event": "Rollout of eGates",
+      "date": null,
+      "sentence": "Building on this foundation, in 2025 we also began rolling out eGates, which integrate our proprietary hardware and software to enable Members to verify their identity in approximately five seconds and proceed directly into physical screening."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:31:19.255Z",
+  "model": "deepseek-v4-flash"
+}

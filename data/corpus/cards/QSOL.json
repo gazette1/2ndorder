@@ -1,0 +1,42 @@
+{
+  "cik": "0002074409",
+  "ticker": "QSOL",
+  "name": "Invesco Galaxy Solana ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-096851",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/2074409/000119312526096851/qsol-20251231.htm"
+  },
+  "business": "Invesco Galaxy Solana ETF (the Trust) is a Delaware statutory trust that holds Solana (SOL) and seeks to reflect the performance of the spot price of SOL as measured by the Lukka Prime Solana Reference Rate, adjusted for staking rewards and expenses. The Trust issues shares to Authorized Participants in blocks of 5,000 Shares based on the quantity of SOL attributable to each Share. The Trust's investment objective is to hold SOL and stake substantially all of it to earn staking rewards.",
+  "sellsTo": [
+    "Eligible financial institutions (Authorized Participants)",
+    "Secondary market investors through exchange listing"
+  ],
+  "namedCustomers": [
+    "BNY Mellon Capital Markets, LLC",
+    "Jane Street Capital LLC",
+    "Macquarie Capital (USA) Inc.",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC (Solana Custodian)",
+    "Galaxy Digital Funds LLC (Execution Agent)",
+    "Galaxy Blockchain Infrastructure LLC (Staking Provider)",
+    "The Bank of New York Mellon (Administrator, Transfer Agent, Cash Custodian)",
+    "Lukka Inc. (Benchmark Provider)",
+    "Invesco Distributors, Inc. (Marketing Agent)",
+    "CSC Delaware Trust Company (Trustee)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to reflect the performance of the spot price of Solana (SOL) as measured using Lukka Prime Solana Reference Rate (the Benchmark), as adjusted to reflect the SOL staking rewards earned by the Trust and the Trust's expenses and other liabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:42:20.391Z",
+  "model": "deepseek-v4-flash"
+}

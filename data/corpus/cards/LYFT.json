@@ -1,0 +1,71 @@
+{
+  "cik": "0001759509",
+  "ticker": "LYFT",
+  "name": "Lyft, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-006960",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026006960/lyft-20251231.htm"
+  },
+  "business": "Lyft, Inc. operates a global mobility platform offering rideshare, taxis, private hire vehicles, executive chauffeur services, car sharing, bikes and scooters. Substantially all of its revenue is generated from its ridesharing marketplace that connects drivers and riders, collecting service fees and commissions from drivers. The company also serves organizations through its Lyft Business offerings and generates revenue from licensing, advertising, and bike sales.",
+  "sellsTo": [
+    "Riders",
+    "Drivers",
+    "Organizations (Lyft Business)",
+    "Advertisers (Lyft Ads)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "ADT",
+    "RapidSOS"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Substantially all of our revenue is generated from our ridesharing marketplace that connects drivers and riders."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Utilizing machine learning capabilities to predict future behavior based on many years of historical data and use cases, we employ various levers to balance supply and demand in the marketplace."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We also procure third-party insurance policies to cover various operations-related risks including employment practices liability, workers compensation, business interruptions, cybersecurity and data breaches, crime, directors and officers liability and general business liabilities."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "We rely on a limited number of third-party insurance service providers for our auto-related insurance claims, and if such providers fail to service insurance claims to our expectations or we do not maintain business relationships with them, our business, financial condition and results of operations could be adversely affected."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "If such litigation is successful in one or more jurisdictions, we may be required to classify drivers as employees rather than independent contractors in those jurisdictions."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "There are also a number of companies developing and introducing AV technology and TaaS offerings that either are competing with us or may compete with us in the future, including Alphabet (Waymo), Amazon (Zoox), Baidu, Bolt, and Tesla as well as many other technology companies and automobile manufacturers and suppliers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Intent to repurchase $500 million of Class A common stock by end of Q2 2026",
+      "date": "2026-06-30",
+      "sentence": "and we announced our intent to utilize $500.0 million of this authorization before the end of the second quarter of 2026."
+    },
+    {
+      "event": "Board authorized new share repurchase program of up to $1.0 billion",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, our board of directors authorized a new share repurchase program for the repurchase of up to $1.0 billion of our Class A common stock, in addition to amounts remaining available under our initial repurchase program."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:48:08.748Z",
+  "model": "deepseek-v4-flash"
+}

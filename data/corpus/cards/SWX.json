@@ -1,0 +1,99 @@
+{
+  "cik": "0001692115",
+  "ticker": "SWX",
+  "name": "Southwest Gas Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001692115-26-000062",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692115/000169211526000062/swx-20251231.htm"
+  },
+  "business": "Southwest Gas Holdings, Inc., through its operating wholly-owned subsidiary Southwest Gas, engages in the business of purchasing, distributing, and transporting natural gas for its customers in portions of Arizona, Nevada, and California, serving residential, commercial, and industrial customers.",
+  "sellsTo": [
+    "Residential and small commercial customers",
+    "Other sales customers",
+    "Transportation customers",
+    "Electric generation customers"
+  ],
+  "namedCustomers": [
+    "NV Energy"
+  ],
+  "namedSuppliers": [
+    "El Paso",
+    "Kern River",
+    "Transwestern",
+    "NWPL",
+    "Tuscarora",
+    "Southern California Gas Company",
+    "Great Basin",
+    "Ruby",
+    "Spire Storage West"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Company, through its operating wholly-owned subsidiary Southwest Gas, engages in the business of purchasing, distributing, and transporting natural gas for its customers."
+    },
+    {
+      "tag": "transmission",
+      "stance": "active_investment",
+      "sentence": "Subject to approval from FERC to construct and operate the system expansion, Great Basin estimates a potential capital investment of approximately $1.7 billion in the next three years with an expected in-service date of late 2028."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Southwest Gas currently has authority to make certain purchases of RNG in California and Nevada."
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "active_investment",
+      "sentence": "Southwest Gas held a public hearing for its 2024 hydrogen blending application in California to help determine a hydrogen injection standard."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident has the potential to disrupt normal business operations, expose sensitive and confidential customer, employee or Company information, and/or lead to physical damages, and may result in legal claims or damage to our reputation."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "The adoption of this type of legislation by Congress or similar legislation by state governments mandating a substantial reduction in GHGs, reduction in pipeline or project permitting, or decarbonization generally, could have significant impacts on the energy industry."
+    },
+    {
+      "tag": "other:electrification",
+      "stance": "risk_mention",
+      "sentence": "Electric utilities are the principal competitors of Southwest Gas for the residential and small commercial markets throughout its service areas."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Certain of our costs, such as operating expenses (including labor, fuel, and materials) at Southwest Gas, and interest and general and administrative expenses at both Southwest Gas and the Company could be adversely impacted by periods of heightened inflation, which could have an adverse impact on our results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Great Basin Expansion Project in-service",
+      "date": "2028-12-31",
+      "sentence": "Subject to approval from FERC to construct and operate the system expansion, Great Basin estimates a potential capital investment of approximately $1.7 billion in the next three years with an expected in-service date of late 2028."
+    },
+    {
+      "event": "California general rate case final decision and rates effective",
+      "date": "2026-04-30",
+      "sentence": "Southwest Gas anticipates a final decision in the first quarter of 2026, and new rates are expected to be effective by April 2026."
+    },
+    {
+      "event": "Nevada triennial resource plan decision",
+      "date": "2026-04-30",
+      "sentence": "Southwest Gas expects a decision on its triennial resource plan in April 2026."
+    },
+    {
+      "event": "Arizona SIM surcharge application filing",
+      "date": "2026-03-31",
+      "sentence": "The first SIM surcharge application is expected to be filed with the ACC in March 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:40:21.945Z",
+  "model": "deepseek-v4-flash"
+}

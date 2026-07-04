@@ -1,0 +1,42 @@
+{
+  "cik": "0001958928",
+  "ticker": "CTWO",
+  "name": "COTWO ADVISORS PHYSICAL EUROPEAN CARBON ALLOWANCE TRUST",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-021883",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1958928/000121390026021883/ea0277806-10k_cotwo.htm"
+  },
+  "business": "The Trust's assets consist of EU Carbon Emission Allowances (EUAs) and cash. The investment objective is for the Shares to reflect the performance of the price of EUAs, less expenses. Shares represent fractional undivided beneficial interest in the Trust's net assets and are listed on NYSE Arca under the symbol CTWO.",
+  "sellsTo": [
+    "Investors trading on NYSE Arca"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Vertis Environmental Finance Ltd.",
+    "Redshaw Advisors Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:carbon-allowances",
+      "stance": "core_product",
+      "sentence": "The Trust's assets will consist of EU Carbon Emission Allowances (EUAs), the unit of account within the European Union Emissions Trading System (EU ETS), and cash."
+    },
+    {
+      "tag": "other:carbon-allowances",
+      "stance": "risk_mention",
+      "sentence": "Until greater clarity is provided regarding the scope and timing of any potential amendments to the program, we expect elevated price volatility in EUAs to persist."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Conclusion of the EU's comprehensive review of the EU ETS framework",
+      "date": "2026-09",
+      "sentence": "Market participants are currently focused on the outcome of the EU's regularly scheduled comprehensive review of the EU ETS framework, which is expected to conclude in the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:45:07.832Z",
+  "model": "deepseek-v4-flash"
+}

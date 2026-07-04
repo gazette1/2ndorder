@@ -1,0 +1,65 @@
+{
+  "cik": "0001496690",
+  "ticker": "BCRD",
+  "name": "BlueOne Technologies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001641172-25-025687",
+    "filedAt": "2025-08-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1496690/000164117225025687/form10-k.htm"
+  },
+  "business": "The company sells advanced payment infrastructure solutions (Payment Hub, ISO 20022 migration, remittance-as-a-service) to banks, financial institutions, and fintechs, and also offers a remittance platform for converting stablecoin USDT to USD.",
+  "sellsTo": [
+    "banks",
+    "financial institutions",
+    "fintech companies",
+    "remittance users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Following the acquisition of Millennium EBS Inc., we have evolved from our foundational business in prepaid card program management to now a diversified, global provider of advanced payment infrastructure solutions for banks, financial institutions (FIs), and emerging fintech companies."
+    },
+    {
+      "tag": "other:stablecoin-remittance",
+      "stance": "core_product",
+      "sentence": "BlueOne Card will now introduce BlueOne Pay, a platform which will enable a seamless, low-cost conversion of stablecoin USDT (Tether) into USD, delivering funds through bank transfers, prepaid cards, or cash pick up."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Strategic partnership with Abeam Consulting to promote ISO 20022 and Payment Hub solutions",
+      "date": null,
+      "sentence": "We have formed a strategic partnership with a global business consulting firm, Abeam Consulting, to leverage their extensive network of banking clients to promote and implement our ISO 20022 and Payment Hub solutions."
+    },
+    {
+      "event": "Engagement with a large commercial bank in Nepal for ISO 20022 transition",
+      "date": null,
+      "sentence": "We have secured an engagement with a large commercial bank in Nepal to facilitate its transition to the ISO 20022 standard, serving as a critical reference case in the South Asian market."
+    },
+    {
+      "event": "Discussions for strategic partnership with a Fortune 500 company",
+      "date": null,
+      "sentence": "Millennium EBS is in discussions to form a strategic partnership with a Fortune 500 company that serves over 600 financial institutions in more than 140 countries."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Outbound remittances in the U.S. exceed $150 billion annually",
+      "sentence": "more than $150 billion outbound remittances are sent annually in the U.S."
+    },
+    {
+      "claim": "Over 500 million people globally own crypto assets including USDT",
+      "sentence": "over 500 million people are globally utilizing and own crypto assets including USDT."
+    },
+    {
+      "claim": "USDT daily trading volume exceeds $70 billion",
+      "sentence": "USDT is the most widely used stablecoin, with a daily trading volume exceeding $70 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:47:12.537Z",
+  "model": "deepseek-v4-flash"
+}

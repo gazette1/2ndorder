@@ -1,0 +1,71 @@
+{
+  "cik": "0001333493",
+  "ticker": "EHTH",
+  "name": "eHealth, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001333493-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1333493/000133349326000010/ehth-20251231.htm"
+  },
+  "business": "eHealth, Inc. is a leading private health insurance marketplace with a technology and service platform that provides consumer engagement, education, and health insurance enrollment solutions. The company offers a broad choice of insurance products from over 180 health insurance carriers, including Medicare Advantage, Medicare Supplement, Medicare Part D, individual, family, small business, and ancillary plans. Revenue is derived from commissions and other compensation paid by health insurance carrier partners, not from consumers.",
+  "sellsTo": [
+    "Medicare-eligible consumers",
+    "Individuals and families under 65",
+    "Small businesses",
+    "Health insurance carrier partners (as customers)"
+  ],
+  "namedCustomers": [
+    "Humana",
+    "UnitedHealthcare",
+    "Aetna"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our omnichannel consumer engagement platform differentiates our offering from our competitors and enables consumers to use our services through our self-service online platform, by telephone with a licensed and trained insurance agent, or benefit advisor, or through a hybrid online assisted interaction that includes live agent chat and co-browsing capabilities."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We have created a consumer-centric marketplace that offers consumers a broad choice of insurance products that includes thousands of Medicare Advantage, Medicare Supplement, Medicare Part D prescription drug, individual, family, small business, and other ancillary health insurance products from over 180 health insurance carriers nationwide, including approximately 50 Medicare health insurance carriers."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "We scaled our Artificial Intelligence (AI) screener during this past AEP, which resulted in increased efficiencies to our model while reducing call wait times."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "We plan to continue utilizing our AI Center of Excellence to help guide and prioritize our AI and technology initiatives."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "The markets in which we participate are intensely competitive. ... we face challenges associated with evolving distribution models, industry and regulatory standards, consumer price sensitivity, AI automation and search aggregation, and macro-economic conditions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into a new $125.0 million asset-backed revolving credit facility with CCP Agency, LLC",
+      "date": "2025-12-31",
+      "sentence": "On December 31, 2025, eHealthInsurance Services, Inc. (the Borrower), a wholly owned indirect subsidiary of eHealth, Inc., entered into a a credit agreement (the Revolving Credit Agreement) with CCP Agency, LLC, as agent (the Agent), and the lenders party thereto."
+    },
+    {
+      "event": "Repaid in full all obligations outstanding under term loan credit facility with Blue Torch Finance LLC",
+      "date": "2025-12-31",
+      "sentence": "A portion of the proceeds were used to repay in full all obligations outstanding under the term loan credit facility with Blue Torch Finance LLC, and to pay fees and expenses associated with the transactions contemplated by the Revolving Credit Agreement and the H.I.G. Investment Agreement Amendment."
+    },
+    {
+      "event": "Implemented a reduction in force eliminating approximately 14% of workforce",
+      "date": "2026-01",
+      "sentence": "in January 2026, we implemented a reduction in force in which we eliminated approximately 14% of our workforce and targeted reductions in vendor spend."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:10:27.112Z",
+  "model": "deepseek-v4-flash"
+}

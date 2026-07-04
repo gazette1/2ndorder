@@ -1,0 +1,53 @@
+{
+  "cik": "0000714310",
+  "ticker": "VLY",
+  "name": "VALLEY NATIONAL BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000714310-26-000017",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/714310/000071431026000017/vly-20251231.htm"
+  },
+  "business": "Valley National Bancorp is a financial holding company that provides commercial, retail, and trust and investment services through its subsidiary Valley National Bank. It offers traditional deposit and lending products, commercial real estate financing, asset-based loans, equipment financing, insurance, and wealth management solutions. Its customers include consumers, small to middle market businesses, commercial real estate developers, and niche segments like homeowners associations and cannabis-related businesses.",
+  "sellsTo": [
+    "consumers",
+    "small to middle market businesses",
+    "commercial real estate developers",
+    "homeowners associations",
+    "cannabis-related businesses",
+    "venture banking clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents and other disruptions to our information systems, as well as those of our third-party service providers, could expose us to liability, losses, operational disruption and escalating operating costs."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Fintech and direct bank competitors provide innovative digital solutions to traditional retail banking services and products, and in some cases without the extensive burden associated with being a regulated depository institution."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Valley's consolidated subsidiaries include, but are not limited to: an insurance agency offering property and casualty, life and health insurance."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Adoption of artificial intelligence tools by us and by our third-party vendors and service providers may increase the risk of errors, omissions, bias, unfair treatment or fraudulent behavior by our employees, clients, or counterparties, or other third parties which may result in reputational harm, liability, or impact our results of operations."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and severe weather could adversely impact our operations, business, and clients."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:27:04.525Z",
+  "model": "deepseek-v4-flash"
+}

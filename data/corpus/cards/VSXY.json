@@ -1,0 +1,51 @@
+{
+  "cik": "0001856437",
+  "ticker": "VSXY",
+  "name": "Victoria's Secret & Co.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001856437-26-000004",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm"
+  },
+  "business": "Victoria's Secret & Co. is a specialty retailer of women's intimates and other apparel and beauty products marketed under the Victoria's Secret, PINK, and Adore Me brand names. The company operates approximately 860 company-operated stores in the U.S., Canada, and China, as well as digital channels and over 560 partner-operated stores in about 70 countries. It is the world's largest intimate apparel company.",
+  "sellsTo": [
+    "Women (intimates, apparel, beauty)",
+    "Young women (PINK brand)",
+    "Women across budgets (Adore Me brand)",
+    "International customers through franchise, license, wholesale, and joint venture partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Victoria s Secret & Co. (together with its subsidiaries unless the context otherwise requires, we , us , our or the Company ) is a specialty retailer of women s intimates and other apparel and beauty products marketed under the Victoria s Secret, PINK and Adore Me brand names."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "In fiscal 2025, approximately 31% of our total net revenue was derived from our digital channels, including our websites and mobile applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems, as well as those of our and our third-party service providers and vendors, are vulnerable to damage, interruption or breach from a variety of sources, including cyberattacks, rans"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "our long-term strategic growth plan and strategic initiatives include investments in information technology, data science and artificial intelligence (AI)."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If we are unable to incorporate artificial intelligence and other emerging technological applications into our business operations successfully and ethically, our business, reputation and results of operations may be adversely affected."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:42:25.002Z",
+  "model": "deepseek-v4-flash"
+}

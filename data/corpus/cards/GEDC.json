@@ -1,0 +1,85 @@
+{
+  "cik": "0001174891",
+  "ticker": "GEDC",
+  "name": "CalEthos, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014045",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1174891/000149315226014045/form10-k.htm"
+  },
+  "business": "CalEthos, through its subsidiary TerraVolt, is a developer of large-scale infrastructure focused on a master-planned data center campus with onsite natural gas power generation. It provides construction-ready building sites that are pre-permitted and fully equipped with power, utilities, and fiber connectivity to hyperscalers, colocation providers, and data center developers.",
+  "sellsTo": [
+    "hyperscalers",
+    "colocation providers",
+    "data center developers",
+    "large-scale technology and cloud service providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our business model is focused on the infrastructure development stage of data center construction, where we provide construction-ready sites that are pre-permitted and approved, and fully-equipped with the power and utilities necessary for a data center company to build and operate its data center facilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "This growth is fundamentally driven by the scaling of Artificial Intelligence ( AI ), which is anticipated to represent half of all workloads by 2030."
+    },
+    {
+      "tag": "other:natural-gas-power",
+      "stance": "core_product",
+      "sentence": "We intend to offer a natural gas-powered energy platform that provides 24/7 baseload power."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Next-generation designs often combine natural gas with Battery Energy Storage Systems (BESS) and solar, positioning the data center as a dynamic asset that can support the grid while maintaining its own critical load."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "Nuclear potential participation in the northwest U.S. nuclear corridor for future Small Modular Reactors (SMRs) upgrade for additional clean baseload power."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "TerraVolt's proposed solution is a Physical Infrastructure-as-a-Service (PIaaS) platform that will integrate onsite behind-the-meter (BTM) power with construction-ready data center building sites that include utilities and fiber connectivity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Secure land-use and conditional zone change approvals",
+      "date": "2026-12-31",
+      "sentence": "We anticipate securing land-use and conditional zone change approvals by year-end 2026."
+    },
+    {
+      "event": "Submit design and environmental documentation for onsite natural gas power plant",
+      "date": "2026-06-30",
+      "sentence": "Additionally, we expect to submit to applicable state agencies all design and environmental documentation for the onsite natural gas power plant by mid-2026."
+    },
+    {
+      "event": "Secure all necessary construction approvals",
+      "date": "2027-06-30",
+      "sentence": "We expect to file these reports before the end of 2026, with the aim of securing all necessary construction approvals by the second quarter of 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total capital requirements projected to reach $3 trillion by 2030",
+      "sentence": "According to PricewaterhouseCoopers ( PwC ), the data center industry has entered a profound infrastructure investment supercycle, with total capital requirements projected to reach $3 trillion by 2030."
+    },
+    {
+      "claim": "Global data center capacity expected to nearly double from 103 GW to 200 GW between 2026 and 2030",
+      "sentence": "Global data center capacity is expected to nearly double, growing from 103 GW to 200 GW between 2026 and 2030."
+    },
+    {
+      "claim": "Global market size valued at $386.71 billion in 2025, projected to exceed $1.1 trillion by 2035",
+      "sentence": "The global market size was valued by PwC at approximately $386.71 billion in 2025 and is projected to exceed $1.1 trillion by 2035."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:41:23.469Z",
+  "model": "deepseek-v4-flash"
+}

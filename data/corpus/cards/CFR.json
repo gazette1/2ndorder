@@ -1,0 +1,49 @@
+{
+  "cik": "0000039263",
+  "ticker": "CFR",
+  "name": "CULLEN/FROST BANKERS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000039263-26-000011",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000011/cfr-20251231.htm"
+  },
+  "business": "Cullen/Frost Bankers, Inc. provides banking and financial services primarily to customers across Texas through financial centers in the Austin, Dallas, Fort Worth, Gulf Coast, Houston, Permian Basin, and San Antonio regions. The company offers a range of products including loans, deposits, and other financial services. Its municipal bond portfolio consists of securities issued by Texas political subdivisions or agencies.",
+  "sellsTo": [
+    "Customers across Texas",
+    "Texas political subdivisions and agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our objective for managing cybersecurity risk is to proactively identify, mitigate, and respond to the most impactful cyber threats."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "The rapid development of quantum computing poses a material risk to the encryption standards currently securing our financial systems, as future quantum capabilities could enable unauthorized decryption of sensitive data, disruption of transaction integrity and invalidation of digital identities, potentially leading to financial losses and reputational damage."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The activity of fintechs/wealthtechs has grown significantly over recent years and is expected to continue to grow."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our increased use of cloud and other technologies, such as remote work technologies, adoption of artificial intelligence, and the increased connectivity of third parties and electronic devices to our systems also increases our risk of being subject to a cyber-attack."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "In July 2025, President Trump signed into law the GENIUS Act, which establishes a regulatory framework for payment stablecoins and their issuers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:18:34.119Z",
+  "model": "deepseek-v4-flash"
+}

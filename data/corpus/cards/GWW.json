@@ -1,0 +1,55 @@
+{
+  "cik": "0000277135",
+  "ticker": "GWW",
+  "name": "W.W. GRAINGER, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000277135-26-000011",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713526000011/gww-20251231.htm"
+  },
+  "business": "W.W. Grainger, Inc. is a broad line distributor of maintenance, repair and operating (MRO) products and services with operations primarily in North America, Japan and the United Kingdom. The company serves more than 4.6 million customers worldwide, ranging from smaller businesses to large corporations, government entities and other institutions. No single end customer accounted for more than 10% of total sales in 2025.",
+  "sellsTo": [
+    "commercial",
+    "healthcare",
+    "manufacturing",
+    "smaller businesses",
+    "large corporations",
+    "government entities",
+    "institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Zoro offers approximately 13 million products and MonotaRO provides access to approximately 29 million products, primarily through its websites and catalogs."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The growth of Grainger’s eCommerce platforms exposes Grainger to additional risks which could adversely affect Grainger’s reputation, financial condition and operating results."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Grainger has also increased, and expects to continue to increase, its investments in developing, managing and implementing AI, such as large language model technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "information systems are still vulnerable to damage or interruption from natural or human induced disasters, power losses, telecommunication failures, user error, third-party actions such as malicious computer programs, denial-of-service attacks and cybersecurity breaches, and other problems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed sale of Cromwell business",
+      "date": "2025-12-17",
+      "sentence": "On December 17, 2025, Grainger completed the sale of the Cromwell business."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:12:41.900Z",
+  "model": "deepseek-v4-flash"
+}

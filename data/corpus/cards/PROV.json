@@ -1,0 +1,50 @@
+{
+  "cik": "0001010470",
+  "ticker": "PROV",
+  "name": "PROVIDENT FINANCIAL HOLDINGS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000939057-25-000242",
+    "filedAt": "2025-08-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1010470/000093905725000242/prov-20250630x10k.htm"
+  },
+  "business": "Provident Financial Holdings, Inc. is a bank holding company whose subsidiary, Provident Savings Bank, provides community banking services including accepting deposits and originating single-family, multi-family, and commercial real estate loans. The company serves consumers and small to mid-sized businesses in the Inland Empire region of Southern California through 13 full-service banking offices.",
+  "sellsTo": [
+    "consumers in Riverside and San Bernardino counties",
+    "small to mid-sized businesses in the Inland Empire"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The business activities of the Bank consist of community banking, investment services and trustee services for real estate transactions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our third-party providers encounter difficulties including those resulting from breakdowns or other disruptions in communication services provided by a vendor, failure of a vendor to handle current or higher transaction volumes, cyber-attacks and security breaches or if we otherwise have difficulty in communicating with them, our ability to adequately process and account for transactions could be affected, and our ability to deliver products and services to our customers and otherwise conduct business operations could be adversely impacted."
+    },
+    {
+      "tag": "other:wildfires",
+      "stance": "risk_mention",
+      "sentence": "The January 2025 wildfires in Los Angeles, California did not have a material direct impact on the Bank's customers or collateral in our market area."
+    },
+    {
+      "tag": "other:interest_rate_risk",
+      "stance": "risk_mention",
+      "sentence": "Fluctuating interest rates can adversely affect our profitability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Declaration of cash dividend of $0.14 per share",
+      "date": "2025-09-04",
+      "sentence": "On July 24, 2025, the Corporation announced that the Provident Board of Directors declared a cash dividend of $0.14 per share."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:41:10.854Z",
+  "model": "deepseek-v4-flash"
+}

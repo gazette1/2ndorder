@@ -1,0 +1,44 @@
+{
+  "cik": "0001297341",
+  "ticker": "KFFB",
+  "name": "Kentucky First Federal Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-093967",
+    "filedAt": "2025-09-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1297341/000121390025093967/ea0258344-10k_kentucky.htm"
+  },
+  "business": "Kentucky First Federal Bancorp operates two community-oriented savings institutions that offer traditional financial services, primarily originating residential mortgage loans to consumers in eastern and central Kentucky.",
+  "sellsTo": [
+    "individual consumers",
+    "local businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Historically, our primary lending activity is the origination of mortgage loans to enable borrowers to purchase or refinance existing homes in the Banks respective market areas."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Technology has lowered barriers to entry into the financial services market and made it possible for financial technology companies and other non-bank entities to offer financial products and services traditionally provided by banks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to certain risks in connection with our use of technology. Our security measures may not be sufficient to mitigate the risk of a cyber attack."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "Rising interest rates may hurt our profits and asset values."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:20:11.180Z",
+  "model": "deepseek-v4-flash"
+}

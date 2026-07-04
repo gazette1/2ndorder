@@ -1,0 +1,72 @@
+{
+  "cik": "0000353184",
+  "ticker": "AIRT",
+  "name": "AIR T INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000353184-26-000054",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/353184/000035318426000054/airt-20260331.htm"
+  },
+  "business": "Air T, Inc. is a holding company with five operating segments: Overnight air cargo, which provides air express delivery services under contract with FedEx; Ground support equipment, which manufactures mobile deicers and other specialized equipment for airlines, airports, and the military; Commercial aircraft, engines and parts, which trades, leases, and provides parts and services for aircraft engines and components; Digital solutions, which provides data aggregation and software services to the aviation industry; and Regional airline, which operates scheduled passenger and freight services in Australia under the Rex brand.",
+  "sellsTo": [
+    "Airlines",
+    "Airports",
+    "Military (USAF)",
+    "Industrial customers",
+    "General aviation community",
+    "Regional communities in Australia"
+  ],
+  "namedCustomers": [
+    "FedEx Corporation",
+    "United States Air Force"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "In October 2021, GGS was awarded a new contract to supply deicing trucks to the USAF."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "MAC and CSA have had a relationship with FedEx spanning more than 40 years. They operate and maintain Cessna Caravan, SkyCourier, ATR-42 and ATR-72 aircraft that fly daily small-package cargo routes throughout the eastern United States."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Contrail is a commercial aircraft trading, leasing and parts solutions provider. Its primary focus revolves around the CFM International CFM56-3/-5/-7 engines and the International Aero Engines V2500A5 engine, which power the two most prevalent narrow body, single aisle aircraft that are currently flown commercially the Boeing 737 Classic / 737 NG and the Airbus A320 family."
+    },
+    {
+      "tag": "other:aviation-data",
+      "stance": "core_product",
+      "sentence": "WACD is a data aggregator that collects global air cargo shipping data. It partners with customers to collect and verify their data as part of a data partnership."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dry-lease agreements with FedEx expire",
+      "date": "2026-08-31",
+      "sentence": "The current dry-lease agreements are set to expire on August 31, 2026."
+    },
+    {
+      "event": "USAF deicing contract expires",
+      "date": "2027-10-21",
+      "sentence": "with all option years expected to be executed by the government, this contract would expire on October 21, 2027."
+    },
+    {
+      "event": "Delivery of 14 deicers to USAF in Q2 FY2027",
+      "date": null,
+      "sentence": "GGS received confirmed orders of 14 deicers for fiscal year 2027 and currently expects delivery of both GL1800 and ER 2875 models in the second quarter of fiscal year 2027."
+    },
+    {
+      "event": "Third NPA additional advance of $10 million",
+      "date": "2026-05-30",
+      "sentence": "Investors are obligated to advance to the Issuer an additional aggregate $60.0 million in $10.0 million increments, each on or within fifteen days of the following dates: ... May 30, 2026 $10.0 million"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:02:55.089Z",
+  "model": "deepseek-v4-flash"
+}

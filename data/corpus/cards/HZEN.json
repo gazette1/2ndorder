@@ -1,0 +1,44 @@
+{
+  "cik": "0001748945",
+  "ticker": "HZEN",
+  "name": "Grayscale Horizen Trust (ZEN)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-297573",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1748945/000119312525297573/hzen-20250930.htm"
+  },
+  "business": "The Trust holds ZEN, the digital asset of the Horizen protocol, and issues Shares representing fractional undivided beneficial interests in its ZEN. The Trust's investment objective is for the value of the Shares (based on ZEN per Share) to reflect the value of ZEN held by the Trust, determined by reference to the Reference Rate Price, less the Trust's expenses and other liabilities.",
+  "sellsTo": [
+    "investors seeking a cost-effective and convenient way to gain investment exposure to ZEN"
+  ],
+  "namedCustomers": [
+    "Digital Currency Group, Inc.",
+    "Grayscale Securities, LLC"
+  ],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Coin Metrics, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Trust holds ZEN and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of ZEN."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Trust holds ZEN, the primary digital asset related to the Horizen protocol, a decentralized protocol designed to facilitate modular privacy and sustainable on-chain utility."
+    },
+    {
+      "tag": "other:privacy-blockchains",
+      "stance": "risk_mention",
+      "sentence": "The cryptography used to enhance the privacy of transactions that utilize the Horizen protocol is new and could ultimately fail, or could be used to facilitate illicit activities, and businesses that facilitate transactions in ZEN may be at increased risk of criminal or civil lawsuits, or of having services cut off, which could negatively affect the price of ZEN and the value of the Shares."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:42:32.135Z",
+  "model": "deepseek-v4-flash"
+}

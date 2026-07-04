@@ -1,0 +1,59 @@
+{
+  "cik": "0000839087",
+  "ticker": "VASO",
+  "name": "VASO Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037664",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/839087/000121390026037664/ea0281952-10k_vasocorp.htm"
+  },
+  "business": "Vaso Corporation operates three segments: IT (managed network and security services via VasoTechnology, with healthcare IT divested in November 2025), Professional Sales Service (exclusive sales representative for GE HealthCare diagnostic imaging and ultrasound equipment to the health provider middle market), and Equipment (design, manufacture, and sale of proprietary medical devices and software, including EECP therapy systems, Holter monitors, and cloud-based ARCS software).",
+  "sellsTo": [
+    "health provider middle market",
+    "hospitals and clinics in the U.S. and China",
+    "international customers through independent distributors",
+    "businesses needing managed network and security services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "GE HealthCare Technologies, Inc. (GEHC)"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "VasoMedical's proprietary devices and software primarily consist of cardiovascular diagnostic and therapeutic applications, including: Biox series Holter monitors and ambulatory blood pressure recorders; ARCS series analysis, reporting and communication software for ECG and blood pressure signals, including cloud-based software suite and algorithm in the form of a SaaS (software as a service) subscription; MobiCare multi-parameter wireless vital-sign monitoring system; EECP therapy systems for non-invasive, outpatient treatment of ischemic heart disease."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "ARCS series analysis, reporting and communication software for ECG and blood pressure signals, including cloud-based software suite and algorithm in the form of a SaaS (software as a service) subscription."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "VasoTechnology's current offerings include: Managed network infrastructure (routers, switches and other core equipment). Managed network transport (FCC licensed carrier reselling 175+ facility partners). Managed network security services."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "VasoTechnology's current offerings include: Managed network infrastructure (routers, switches and other core equipment). Managed network transport (FCC licensed carrier reselling 175+ facility partners). Managed network security services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Among the factors that could cause actual results to differ materially are the following: ... the effect of the dramatic changes taking place in IT and healthcare, including the use of artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GEHC Agreement extended to December 31, 2030",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, the Company extended the GEHC Agreement an additional four years through December 31, 2030 and concluded that is more likely than not that the remaining tax benefits related to net operating loss carryforwards will be utilized in the future tax years of 2027 to 2030."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:28:44.597Z",
+  "model": "deepseek-v4-flash"
+}

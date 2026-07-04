@@ -1,0 +1,97 @@
+{
+  "cik": "0000066740",
+  "ticker": "MMM",
+  "name": "3M CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000066740-26-000014",
+    "filedAt": "2026-02-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000014/mmm-20251231.htm"
+  },
+  "business": "3M is a diversified technology company with three business segments: Safety and Industrial, Transportation and Electronics, and Consumer. Its products include industrial abrasives, adhesives, tapes, personal safety equipment, electronics materials, and consumer goods. 3M sells through direct sales, wholesalers, retailers, jobbers, distributors, and dealers globally.",
+  "sellsTo": [
+    "industrial users",
+    "wholesalers and retailers",
+    "automotive OEMs and aftermarket",
+    "electronics and semiconductor manufacturers",
+    "data center operators",
+    "aerospace and defense contractors",
+    "home improvement retailers",
+    "office supply retailers",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Automotive electrification Data center solutions Extended reality Semiconductor Graphic and architectural films Aerospace and defense solutions."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Automotive electrification Data center solutions Extended reality Semiconductor Graphic and architectural films Aerospace and defense solutions."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Grid modernization Robotics and automation"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Grid modernization Robotics and automation"
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Automotive electrification Data center solutions Extended reality Semiconductor Graphic and architectural films Aerospace and defense solutions."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Aerospace, industrial/commercial solutions"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Automotive electrification Data center solutions Extended reality Semiconductor Graphic and architectural films Aerospace and defense solutions."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Home improvement Home cleaning Stationary Office supplies Automotive appearance Consumer health care"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Home improvement Home cleaning Stationary Office supplies Automotive appearance Consumer health care"
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "supply chain disruptions (including limitations on access to rare earth minerals and other raw materials)"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Network disruptions, security and data breaches, cyberattacks, and other cybersecurity incidents involving the Company’s information technology systems, networks and infrastructure could disrupt or interfere with the Company’s operations"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exit from PFAS manufacturing",
+      "date": "2025-12-31",
+      "sentence": "3M completed its exit of PFAS manufacturing at the end of 2025."
+    },
+    {
+      "event": "Dividend increase for Q1 2026",
+      "date": null,
+      "sentence": "In February 2026, 3M's Board of Directors declared a first-quarter 2026 dividend of $0.78 per share, an increase of 7 percent."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:05:23.291Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0000910073",
+  "ticker": "FLG",
+  "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+  "source": {
+    "form": "10-K",
+    "accession": "0000910073-26-000025",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/910073/000091007326000025/fbc-20251231.htm"
+  },
+  "business": "Flagstar Bank, National Association is a national banking association that offers traditional banking products, non-deposit investment products, and insurance. It serves customers through a retail branch network, private banking, and digital channels, with a focus on the greater New York/New Jersey metropolitan region, upper Midwest, Florida, and the West Coast.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "high-net-worth individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our offerings include traditional banking products, non-deposit investment products, and insurance."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Additionally, we face competition from fintech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Data privacy and cybersecurity risks have become a subject of heightened legislative and regulatory focus in"
+    },
+    {
+      "tag": "other:climate-risk",
+      "stance": "active_investment",
+      "sentence": "We have conducted a climate change scenario analysis to understand how physical risk events may impact our owned and operated properties over time."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of loans from a single borrower relationship finalized by bankruptcy court; expected to close in Q1 2026",
+      "date": "2026-03-31",
+      "sentence": "The bankruptcy auction was finalized and confirmed by the bankruptcy court in January 2026, and we expect to close on the sale of these loans during the three months ending March 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:41:26.965Z",
+  "model": "deepseek-v4-flash"
+}

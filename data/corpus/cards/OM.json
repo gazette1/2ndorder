@@ -1,0 +1,43 @@
+{
+  "cik": "0001484612",
+  "ticker": "OM",
+  "name": "Outset Medical, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051278",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1484612/000119312526051278/om-20251231.htm"
+  },
+  "business": "Outset Medical sells the Tablo Hemodialysis System, a compact console that integrates water purification and on-demand dialysate production, to hospitals, clinics, and home settings. Revenue is generated from console sales, consumables (cartridges), and service agreements.",
+  "sellsTo": [
+    "Acute care hospitals",
+    "Skilled nursing facilities (SNFs)",
+    "Long-term acute care hospitals (LTACHs)",
+    "Home dialysis patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TACNA"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our technology is designed to elevate the dialysis experience for patients and help providers overcome traditional care delivery challenges."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Tablo leverages cloud technology, making it possible for providers to monitor devices remotely, view treatment data, perform patient and population analytics, and automate clinical recordkeeping."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our customers continue to face prolonged periods of rising interest rates, capital budget constraints, volatility, uncertainty, staffing shortages, cash flow challenges, rising costs and other financial pressures, whether due to general macroeconomic conditions, evolving policy changes under the current administration (including trade policy developments, reductions in government reimbursement or shifts in healthcare policy), cybersecurity events or other factors, it could ultimately adversely impact our ability to expand existing customer relationships or attract new customers of Tablo, timely collect amounts due, effectively manage our inventory levels, and have a material adverse effect on our bookings, revenues, results of operations, financial condition, and, ultimately, our future growth and profitability."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:46:31.151Z",
+  "model": "deepseek-v4-flash"
+}

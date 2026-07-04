@@ -1,0 +1,60 @@
+{
+  "cik": "0001727263",
+  "ticker": "FTDR",
+  "name": "Frontdoor, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-076548",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000119312526076548/ftdr-20251231.htm"
+  },
+  "business": "Frontdoor is the leading provider of home warranties and new home builder warranties in the United States, operating under brands including American Home Shield, HSA, OneGuard, Landmark and 2-10 HBW. It offers customizable home warranties that protect homeowners from breakdowns of home systems and appliances, and also provides non-warranty services such as HVAC upgrades and smart water shut-off device installations. Its customer base includes homeowners, home builders, and real estate professionals.",
+  "sellsTo": [
+    "homeowners",
+    "home builders",
+    "real estate professionals",
+    "existing warranty customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Frontdoor is the leading provider of home warranties and new home builder warranties in the United States, as measured by revenue, and operates under the American Home Shield, HSA, OneGuard, Landmark and 2-10 HBW brands."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our customizable home warranties help customers protect and maintain their homes, typically their most valuable asset, from costly and unplanned breakdowns of essential home systems and appliances."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "active_investment",
+      "sentence": "We also leverage our technology platform to utilize video chat capabilities, augmented reality, computer vision and machining learning to offer real time help to homeowners from our Virtual Experts who may be able to guide homeowners to fix the repair, reducing the need for an in-home visit from a professional."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity breaches, disruptions or failures in our technology systems"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "technological developments in artificial intelligence"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The home warranty category is currently estimated to represent over $4 billion in annual revenue.",
+      "sentence": "The home warranty category is currently estimated to represent over $4 billion in annual revenue."
+    },
+    {
+      "claim": "Frontdoor primarily operates within U.S. home services industry which has an estimated annual revenue of over $500 billion.",
+      "sentence": "Frontdoor primarily operates within U.S. home services industry which has an estimated annual revenue of over $500 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:49:14.508Z",
+  "model": "deepseek-v4-flash"
+}

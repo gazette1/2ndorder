@@ -1,0 +1,44 @@
+{
+  "cik": "0001039828",
+  "ticker": "ANG-PD",
+  "name": "American National Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001039828-26-000004",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982826000004/angpd-20251231.htm"
+  },
+  "business": "The company offers a range of insurance and retirement services through its Annuities and Life Insurance segments. Its products include fixed index annuities, fixed rate annuities, pension risk transfer, and life insurance policies. The company serves customers in 50 states, the District of Columbia, Bermuda, Guam, and Puerto Rico.",
+  "sellsTo": [
+    "individuals",
+    "institutions (corporate pension plans)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our business is presently conducted through our subsidiaries under two operating segments, which we refer to as our Annuities and Life Insurance segments."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Compliance with existing and emerging rules and regulations governing the use of artificial intelligence (AI) and generative AI could result in increased compliance costs and/or lead to changes in business practices and policies, and challenges with properly managing the use of AI could result in reputational harm, competitive harm and legal liability."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to maintain the security of our information and technology systems could have an adverse effect on our business."
+    },
+    {
+      "tag": "other:quantum-computing",
+      "stance": "risk_mention",
+      "sentence": "The sophistication of the threats continues to evolve and grow, including the risk associated with the use of emerging technologies, such as AI and quantum computing, for nefarious purposes."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:07:23.526Z",
+  "model": "deepseek-v4-flash"
+}

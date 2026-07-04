@@ -1,0 +1,43 @@
+{
+  "cik": "0001880343",
+  "ticker": "AMZE",
+  "name": "AMAZE HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014431",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1880343/000149315226014431/form10-k.htm"
+  },
+  "business": "Amaze Holdings is a technology-enabled, creator-powered commerce platform that enables creators, brands, and consumers to transact at scale. The platform provides end-to-end infrastructure for creators and brands to design, launch, market, and fulfill products. The company operates in two segments: E-commerce/Subscriptions (core) and Wine Products (non-core).",
+  "sellsTo": [
+    "creators",
+    "brands",
+    "consumers",
+    "wholesale distributors",
+    "retail accounts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company operates a technology-enabled creator commerce platform that integrates commerce infrastructure, data generation, and distribution capabilities."
+    },
+    {
+      "tag": "other:ai-systems",
+      "stance": "risk_mention",
+      "sentence": "We use AI-enabled systems, which could expose us to liability or adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Proposed reverse stock split to maintain NYSE American listing",
+      "date": "2026-05-31",
+      "sentence": "While we intend to propose a reverse split of our common stock at our stockholder meeting expected to be held in May 2026, in the event such proposed is not approved, or our meeting is delayed, we may be delisted from the NYSE American."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:12:43.869Z",
+  "model": "deepseek-v4-flash"
+}

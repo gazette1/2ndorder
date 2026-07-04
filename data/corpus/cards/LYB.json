@@ -1,0 +1,76 @@
+{
+  "cik": "0001489393",
+  "ticker": "LYB",
+  "name": "LyondellBasell Industries N.V.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001489393-26-000012",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000012/lyb-20251231.htm"
+  },
+  "business": "LyondellBasell is a chemical company with five reportable segments: Olefins and Polyolefins-Americas, Olefins and Polyolefins-Europe, Asia, International, Intermediates and Derivatives, Advanced Polymer Solutions, and Technology. Its products include ethylene, propylene, polyethylene, polypropylene, oxyfuels, and other chemical products, as well as technology licensing and catalysts. Customers are in industrial, automotive, and housing markets.",
+  "sellsTo": [
+    "industrial markets",
+    "automotive industry",
+    "housing industry"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "specialty products we produce may become commoditized over time."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In 2024, we secured power purchase agreements with an aggregate generation capacity that will enable us to procure at least 50 percent of our electricity from renewable sources by 2030, based on 2020 procured levels."
+    },
+    {
+      "tag": "other:chemical-recycling",
+      "stance": "active_investment",
+      "sentence": "In 2025, we advanced the construction of our MoReTec-1 plant, our first industrial-scale chemical recycling plant at our site in Wesseling, Germany which will use our proprietary MoReTec technology to convert post-consumer plastic waste into feedstock for producing new plastic materials."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "risk_mention",
+      "sentence": "Our ambition to achieve net zero scope 1 and 2 GHG emissions by 2050 will require the development of robust infrastructure and enabling technologies such as cracker electrification, hydrogen utilization, carbon capture and storage (CCS), and carbon utilization along with market demand for low-carbon products."
+    },
+    {
+      "tag": "other:cracker-electrification",
+      "stance": "risk_mention",
+      "sentence": "Our ambition to achieve net zero scope 1 and 2 GHG emissions by 2050 will require the development of robust infrastructure and enabling technologies such as cracker electrification, hydrogen utilization, carbon capture and storage (CCS), and carbon utilization along with market demand for low-carbon products."
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "risk_mention",
+      "sentence": "Our ambition to achieve net zero scope 1 and 2 GHG emissions by 2050 will require the development of robust infrastructure and enabling technologies such as cracker electrification, hydrogen utilization, carbon capture and storage (CCS), and carbon utilization along with market demand for low-carbon products."
+    },
+    {
+      "tag": "other:circular-economy",
+      "stance": "active_investment",
+      "sentence": "With respect to circularity, we are now aiming to produce and market 800 thousand metric tons of recycled and renewable-based polymers annually by 2030."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Targeted startup for MoReTec-1 chemical recycling plant",
+      "date": null,
+      "sentence": "Targeted startup for this facility is set for 2027."
+    },
+    {
+      "event": "Closing of sale of certain European olefins and polyolefins assets",
+      "date": "2026-06-30",
+      "sentence": "The sites to be sold are located in Berre l'Etang (France), Münchsmünster (Germany), Carrington (United Kingdom), and Tarragona (Spain), and closing is expected in the second quarter of 2026."
+    },
+    {
+      "event": "Shutdown of Houston refining operations",
+      "date": "2025-03-31",
+      "sentence": "We also completed the shutdown of refining operations at our Houston refinery in the first quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:50:28.740Z",
+  "model": "deepseek-v4-flash"
+}

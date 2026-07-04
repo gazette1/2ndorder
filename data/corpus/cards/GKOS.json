@@ -1,0 +1,51 @@
+{
+  "cik": "0001192448",
+  "ticker": "GKOS",
+  "name": "GLAUKOS Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-061944",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526061944/gkos-20251231.htm"
+  },
+  "business": "Glaukos develops and commercializes ophthalmic medical devices and pharmaceutical therapies for the treatment of glaucoma, corneal health, and retinal disorders. The company's products include the iStent family of implantable devices for glaucoma, iDose TR travoprost intracameral implant, Photrexa pharmaceutical therapy for keratoconus, and the recently approved Epioxa therapy. These products are used by healthcare providers such as surgeons in hospitals and ambulatory surgery centers.",
+  "sellsTo": [
+    "hospitals",
+    "ambulatory surgery centers",
+    "physician private practices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ripple Therapeutics Corporation",
+    "Attillaps",
+    "Iveena Delivery Systems, Inc.",
+    "Stuart Therapeutics, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Class III devices, which include our iStent family of products that produce the majority of our revenue, are deemed to pose the greatest risk, such as life-sustaining, life-supporting or implantable devices and devices deemed not substantially equivalent to a predicate device that the FDA has already cleared for marketing."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Several of our products, including our recently-approved iDose TR and Epioxa drug-led combination products as well as a number of potential future products in our pipeline, are subject to this regulatory approval process."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Epioxa FDA approval",
+      "date": "2025-10",
+      "sentence": "In October 2025, the FDA approved Epioxa, an innovation in keratoconus care, offering an incision-free alternative to traditional corneal cross-linking procedure, which the Company plans to begin commercializing in early 2026."
+    },
+    {
+      "event": "iDose TR commercial launch",
+      "date": "2024-02",
+      "sentence": "Our iDose TR travoprost intracameral implant was approved for sale in the U.S. by the FDA in December 2023 and we began commercializing the product in a controlled manner in February 2024."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:27:23.618Z",
+  "model": "deepseek-v4-flash"
+}

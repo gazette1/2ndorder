@@ -1,0 +1,61 @@
+{
+  "cik": "0001422892",
+  "ticker": "SGLY",
+  "name": "Singularity Future Technology Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-098514",
+    "filedAt": "2025-10-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422892/000121390025098514/ea0256681-10k_singularity.htm"
+  },
+  "business": "Singularity Future Technology Ltd. provides freight logistics services including shipping, warehouse services, and logistical support, primarily to steel companies. The company also plans to expand into the solar panel production and distribution business through its subsidiary New Energy Tech Ltd., and has entered a joint venture for commodity trading. Revenue is highly concentrated on one customer, Chongqing Iron & Steel Ltd., which accounted for 94.4% of revenue in fiscal 2025.",
+  "sellsTo": [
+    "steel companies",
+    "logistics customers"
+  ],
+  "namedCustomers": [
+    "Chongqing Iron & Steel Ltd."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Currently, we primarily focus on providing freight logistics services, which mainly include shipping, warehouse services and other logistical support to steel companies."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "The parties also plan to expand into the sale of solar panels."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We plan to build a solar energy production facility in the United States."
+    },
+    {
+      "tag": "other:commodity-trading",
+      "stance": "active_investment",
+      "sentence": "New Energy entered into a joint venture development agreement with Market One Services Corp., a Wyoming corporation, to establish a joint venture to carry out the commodity trading business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Remediation of material weaknesses in internal control and disclosure deficiencies",
+      "date": "2026-06-30",
+      "sentence": "comply with certain undertakings to remediate its material weaknesses in the internal control and disclosure deficiencies by June 30, 2026"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "North America has installed more than 80 GW of solar power, could grow to more than 400 GW by 2030",
+      "sentence": "It is estimated that North America has installed more than 80 GW of solar power, a figure that could grow to more than 400 GW by 2030."
+    },
+    {
+      "claim": "About 26,000 tons of photovoltaic panels wasted in 2020, waste to grow to millions of tons in 2030s",
+      "sentence": "Bloomberg News estimates that about 26,000 tons of photovoltaic panels were wasted in 2020, and as photovoltaic panels reach the end of their life in the 2030s, the amount of waste will grow to millions of tons."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:27:34.798Z",
+  "model": "deepseek-v4-flash"
+}

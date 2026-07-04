@@ -1,0 +1,92 @@
+{
+  "cik": "0001833498",
+  "ticker": "MDAI",
+  "name": "Spectral AI, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-033808",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1833498/000121390026033808/ea0282879-10k_spectral.htm"
+  },
+  "business": "Spectral AI provides the DeepView System, an AI-powered multispectral imaging device that predicts burn wound healing potential by classifying tissue as healing or non-healing at the initial point of wound presentation. The system is sold to healthcare providers such as burn centers, trauma centers, and emergency rooms, and the company also generates revenue from U.S. government contracts, primarily with BARDA and the Defense Health Agency.",
+  "sellsTo": [
+    "burn centers",
+    "trauma centers",
+    "emergency rooms",
+    "U.S. government agencies (BARDA, DHA)"
+  ],
+  "namedCustomers": [
+    "BARDA",
+    "Defense Health Agency (DHA)"
+  ],
+  "namedSuppliers": [
+    "Cobalt Product Solutions"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The DeepView System delivers a binary prediction on the wound's capacity to heal or not-heal by a specified time point in the future. Our DeepView System's output is specifically engineered to assist the health care professional in making a more accurate, timely and informed decision regarding the treatment of the patient's wounds."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We are an AI company focused on predictive medical diagnostics."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "DeepView is a predictive analytics platform that combines AI algorithms and MSI imaging for an assessment of wound healing potential."
+    },
+    {
+      "tag": "defense",
+      "stance": "active_investment",
+      "sentence": "In addition to our DeepView System, our primary additional technology is the DeepView SnapShot M, a fully handheld, portable, and wireless diagnostic tool based on the DeepView System's AI platform. The DeepView SnapShot M provides a potential enhanced and expanded use for the U.S. government and emergency care, first responders and potentially home health care professionals."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The MSI technology, which comprises one part of the DeepView System, consists of patented proprietary multi-spectral optics and sensors, capturing injured tissue images ranging from near UV lights, through the human visible wavelengths, into the near infrared range (NIR)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "UKCA marking registration completed for DeepView System burn indication",
+      "date": "2024-03-07",
+      "sentence": "The UKCA marking registration was fully completed on March 7, 2024."
+    },
+    {
+      "event": "De Novo application submitted to FDA for burn indication",
+      "date": "2025-06-01",
+      "sentence": "We submitted a De Novo application to the FDA for market authorization of the burn application in June, 2025."
+    },
+    {
+      "event": "MTEC contract extended through June 2026",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, the MTEC contract was extended to run through June 2026."
+    },
+    {
+      "event": "BARDA contract modification for advancement of $31.7 million",
+      "date": "2026-03-18",
+      "sentence": "On March 18, 2026, the Company announced that it has received a contract modification from BARDA for the advancement of $31.7 million from its existing contract with BARDA."
+    },
+    {
+      "event": "Commercial sales begin in UK for burn indication",
+      "date": null,
+      "sentence": "Given our receipt of the UKCA mark for our burn indication, commercial sales are expected to commence in 2026 for the burn indication in the UK."
+    },
+    {
+      "event": "Initiate commercialization in the United States",
+      "date": null,
+      "sentence": "Subject to our receipt of the necessary regulatory market authorization, we would expect to initiate commercialization in the United States during 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 57,000 sites of clinical care in the United States and over 20,000 sites across the UK and EU where the technology could be placed.",
+      "sentence": "We estimate that there are over 57,000 sites of clinical care in which the technology could be placed in the United States and over 20,000 sites across the UK and EU."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:08:35.183Z",
+  "model": "deepseek-v4-flash"
+}

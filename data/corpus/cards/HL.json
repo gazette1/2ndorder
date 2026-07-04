@@ -1,0 +1,47 @@
+{
+  "cik": "0000719413",
+  "ticker": "HL",
+  "name": "HECLA MINING CO/DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-055059",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526055059/hl-20251231.htm"
+  },
+  "business": "Hecla Mining produces concentrates containing silver, gold, lead, zinc and copper, carbon material containing silver and gold, and unrefined doré containing silver and gold. These products are sold to custom smelters, metal traders, third-party processors, and refiners.",
+  "sellsTo": [
+    "custom smelters",
+    "metal traders",
+    "third-party processors",
+    "refiners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We discover, acquire and develop mines and other mineral interests and produce and market (i) concentrates containing silver, gold, lead, zinc and copper, (ii) carbon material containing silver and gold, and (iii) unrefined dor containing silver and gold."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Technologies that support decarbonization include renewable energy sources, electric vehicles, and energy storage, all of which require the metals we produce."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Technologies that support decarbonization include renewable energy sources, electric vehicles, and energy storage, all of which require the metals we produce."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of sale of Casa Berardi operation to Orezone Gold Corporation",
+      "date": "2026-03-31",
+      "sentence": "The transaction is expected to close in the first quarter of 2026, subject to the satisfaction of customary closing conditions, including the receipt of regulatory approvals."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:14:10.445Z",
+  "model": "deepseek-v4-flash"
+}

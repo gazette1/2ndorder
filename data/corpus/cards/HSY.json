@@ -1,0 +1,70 @@
+{
+  "cik": "0000047111",
+  "ticker": "HSY",
+  "name": "HERSHEY CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008586",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm"
+  },
+  "business": "Hershey is a global confectionery leader known for making more moments of goodness through chocolate, sweets, mints, and other great tasting snacks. The company markets, sells, and distributes its products under more than 85 brand names in approximately 65 countries worldwide. Its principal product offerings include chocolate and non-chocolate confectionery products; gum and mint refreshment products and protein bars; pantry items such as baking ingredients, toppings and beverages; and snack items such as popcorn and pretzels.",
+  "sellsTo": [
+    "wholesale distributors",
+    "chain grocery stores",
+    "mass merchandisers",
+    "chain drug stores",
+    "vending companies",
+    "wholesale clubs",
+    "convenience stores",
+    "dollar stores",
+    "concessionaires",
+    "department stores"
+  ],
+  "namedCustomers": [
+    "McLane Company, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Hershey is a global confectionery leader known for making more moments of goodness through chocolate, sweets, mints, and other great tasting snacks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Disruptions, failures or security breaches of our information technology infrastructure could have a negative impact on our operations."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, artificial intelligence (AI) technologies have developed rapidly, and our business may be adversely affected if we cannot successfully integrate AI into our business in a timely, cost-effective, and compliant manner."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "We use many different commodities for our business, including cocoa products, sugar, corn products, dairy products, wheat products, peanuts, almonds, natural gas, and diesel fuel."
+    },
+    {
+      "tag": "climate-change",
+      "stance": "risk_mention",
+      "sentence": "Risks associated with climate change and other environmental impacts, and increased focus and evolving views of our customers, stockholders and other stakeholders on environmental issues, could negatively affect our business and operations."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "Recently introduced strategic initiatives include our efforts to continue to expand our presence in digital commerce, to transform our manufacturing, commercial and corporate operations through digital technologies and to enhance our data analytics capabilities to develop new commercial insights."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Removal of certified Food, Drug & Cosmetic colors from all snacks by end of 2027",
+      "date": "2027-12-31",
+      "sentence": "we announced our decision to remove all certified Food, Drug & Cosmetic colors from our great tasting snacks by the end of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:26:28.576Z",
+  "model": "deepseek-v4-flash"
+}

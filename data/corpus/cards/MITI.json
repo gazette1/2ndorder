@@ -1,0 +1,56 @@
+{
+  "cik": "0000802257",
+  "ticker": "MITI",
+  "name": "Mitesco, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001185185-26-001385",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/802257/000118518526001385/miti10k123125.htm"
+  },
+  "business": "Mitesco, Inc. is a holding company providing data center services including cloud computing and application hosting through its wholly owned subsidiary Centcore, LLC, and pursuing investment and acquisition opportunities in cloud computing and data center applications via Vero Technology Ventures, LLC. It also develops AI-based software for sales processes, targeting residential real estate and sports markets. Services are offered through a co-location agreement with a data center in Melbourne, Florida.",
+  "sellsTo": [
+    "businesses requiring managed services offerings",
+    "residential real estate sector",
+    "sports and pickleball arena"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In June 2024 we announced the formation of two (2) new wholly owned business units, Centcore, LLC ( Centcore ) that is providing data center services including cloud computing and application hosting, and Vero Technology Ventures, LLC ( VTV ), whose aim is to seek investment and acquisition opportunities, generally in the areas of cloud computing and data center related applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "VTV is currently involved with the formation of a new software development project aimed at applying artificial intelligence (A.I.) to the sales process for various businesses including residential real estate, using cloud computing based software."
+    },
+    {
+      "tag": "other:real-estate-software",
+      "stance": "active_investment",
+      "sentence": "This initial effort dubbed Robo Agent , is expected to be available for initial users in Q3 of FY2026."
+    },
+    {
+      "tag": "other:sports",
+      "stance": "active_investment",
+      "sentence": "In September 2025 we received a contract for development of a new application intended to effect the listing and sale of properties and products specifically related to sports, and the pickleball arena initially."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Robo Agent AI sales software for initial users",
+      "date": "2026-07-01",
+      "sentence": "This initial effort dubbed Robo Agent , is expected to be available for initial users in Q3 of FY2026."
+    },
+    {
+      "event": "Completion of sports/pickleball application development",
+      "date": "2026-12-31",
+      "sentence": "We expect this project to be executed using both internal and external resources and to be completed in late FY2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:29:32.750Z",
+  "model": "deepseek-v4-flash"
+}

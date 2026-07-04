@@ -1,0 +1,64 @@
+{
+  "cik": "0000029332",
+  "ticker": "DXYN",
+  "name": "DIXIE GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000029332-26-000018",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/29332/000002933226000018/dxyn-20251227.htm"
+  },
+  "business": "The company markets, manufactures, and sells floorcovering products including broadloom carpet, rugs, luxury vinyl flooring, and engineered wood exclusively to the high-end residential market through brands such as Fabrica, Masland, DH Floors, and TRUCOR.",
+  "sellsTo": [
+    "high-end residential customers",
+    "interior decorators and designers",
+    "selected retailers and furniture stores",
+    "luxury home builders",
+    "manufacturers of luxury motor coaches and yachts",
+    "specialty floorcovering retailers",
+    "home centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our Fabrica, Masland, DH Floors and TRUCOR brands have a significant presence in the high-end residential floorcovering markets."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "The floorcovering industry, in which we participate, is highly dependent on general economic conditions, such as interest rate levels, consumer confidence and income, corporate and government spending, availability of credit and demand for housing."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Additional tariffs on product imported to the U.S., retaliatory trade actions taken by other countries and resulting trade wars may have a material adverse impact on our business."
+    },
+    {
+      "tag": "other:raw-materials",
+      "stance": "risk_mention",
+      "sentence": "Raw material prices will vary and the inability to either offset or pass on such cost increases or avoid passing on decreases larger than the cost decrease to our customers could have a material adverse effect on our business, results of operations and financial condition."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on information systems in managing our operations and any system failure, cyber incident or deficiencies of such systems may have an adverse effect on our business."
+    },
+    {
+      "tag": "other:competition",
+      "stance": "risk_mention",
+      "sentence": "We face intense competition in our industry, which could decrease demand for our products and could have a material adverse effect on our profitability."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "U.S. floorcovering industry sales were $33.2 billion in 2024.",
+      "sentence": "In 2024, according to the most recent information available, the U.S. floorcovering industry reported $33.2 billion in sales, down approximately 2.6% from the 2023 sales total."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:10:54.661Z",
+  "model": "deepseek-v4-flash"
+}

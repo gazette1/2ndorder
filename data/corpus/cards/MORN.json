@@ -1,0 +1,71 @@
+{
+  "cik": "0001289419",
+  "ticker": "MORN",
+  "name": "Morningstar, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001289419-26-000013",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000013/morn-20251231.htm"
+  },
+  "business": "Morningstar, Inc. is a leading global provider of independent investment insights. It offers a variety of products and solutions that serve a wide range of market participants, including data, research, ratings, and software platforms through segments such as Morningstar Direct Platform, PitchBook, Morningstar Credit, Morningstar Wealth, and Morningstar Retirement.",
+  "sellsTo": [
+    "Advisors (wealth managers)",
+    "Alliances and redistributors",
+    "Asset managers",
+    "Fixed-income security issuers and arrangers",
+    "Individual investors",
+    "Institutional asset owners and consultants",
+    "Private market investors",
+    "Retirement plan providers, advisors, and sponsors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We launched the Morningstar MCP server, providing turnkey AI-connectivity of Morningstar data, research, and functionality including investment screening and fund holding lookups."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Alliances and redistributors (including global fintech firms)"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business requires that we securely collect, process, store, and transmit confidential information including sensitive personal information relating to our operations, customers, employees and other third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of CRSP acquisition",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we completed our previously announced acquisition of CRSP for a closing cash payment of approximately $365.0 million, subject to customary adjustments."
+    },
+    {
+      "event": "Retirement of Morningstar Office product",
+      "date": null,
+      "sentence": "In February 2025, we announced plans to retire Morningstar Office, our practice and portfolio management software for registered investment advisors (RIAs). The transition of clients to SS&C's Black Diamond and alternative platforms is underway and is expected to be completed in early 2026."
+    },
+    {
+      "event": "New share repurchase program approved",
+      "date": "2025-10-31",
+      "sentence": "On October 29, 2025, the board of directors approved a new share repurchase program that authorizes the company to repurchase up to $1.0 billion in shares of the company's outstanding common stock, effective October 31, 2025."
+    },
+    {
+      "event": "Retirement of second-party opinions product",
+      "date": null,
+      "sentence": "In January 2026, we announced our plans to retire our second-party opinions product by the end of the first quarter as part of a broader effort to sharpen Morningstar Sustainalytics focus on its core data, research and ratings businesses."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global ratings market totaled approximately $11.8 billion for the trailing 12 months ended September 30, 2025.",
+      "sentence": "We estimate that the global ratings market totaled approximately $11.8 billion for the trailing 12 months ended September 30, 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:43:22.260Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,66 @@
+{
+  "cik": "0001120193",
+  "ticker": "NDAQ",
+  "name": "NASDAQ, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-007703",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm"
+  },
+  "business": "Nasdaq is a leading technology platform that powers the world's economies. The company operates in three segments: Capital Access Platforms, Financial Technology, and Market Services. It provides technology, data, and analytics to financial institutions, exchanges, corporate issuers, and investors globally.",
+  "sellsTo": [
+    "financial institutions",
+    "exchanges and clearing organizations",
+    "corporate issuers and investors",
+    "asset managers and asset owners",
+    "regulators and market operators",
+    "broker-dealers and proprietary trading firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AWS"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our Financial Technology segment delivers world leading platforms that improve the liquidity, transparency and integrity of the global economy by architecting and operating the world's best markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Financial Crime Management Technology includes our Nasdaq Verafin solution, which delivers a leading anti-financial crime platform improving the integrity and transparency of the financial world."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We continue to develop products and services using AI, including generative AI, and the use of AI in product development remains a priority for us in 2026."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We provide colocation services to market participants, whereby we offer firms cabinet space and power to house their own equipment and servers within our data centers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Global Trading Hours on Nasdaq Stock Market (extended trading hours)",
+      "date": "2026-07-01",
+      "sentence": "Nasdaq plans to launch this capability in the second half of 2026, subject to regulatory approval."
+    },
+    {
+      "event": "Migration of open positions in Nordic power futures business to Euronext Clearing",
+      "date": "2026-03-31",
+      "sentence": "Migration of open positions are planned to take place by the end of the first quarter of 2026."
+    },
+    {
+      "event": "Wind down of commodities clearing and trading services",
+      "date": "2026-12-31",
+      "sentence": "We expect to wind down the commodities clearing and trading services during the second half of 2026, and the business to be wound down in the months following."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:18:36.082Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001553788",
+  "ticker": "SBEV",
+  "name": "SPLASH BEVERAGE GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001731122-26-000577",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112226000577/e7552_10-k.htm"
+  },
+  "business": "Splash is a portfolio company seeking to manage brands in the consumer beverage industry. It currently distributes Chispo Tequila, and its primary focus is to complete the acquisition of Medterra, a manufacturer of cannabinoid wellness products.",
+  "sellsTo": [
+    "independent distributors",
+    "restaurants"
+  ],
+  "namedCustomers": [
+    "Senor Frog's"
+  ],
+  "namedSuppliers": [
+    "ZB Distillery"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Chispo is a tequila brand which we recently began distributing to one customer."
+    },
+    {
+      "tag": "other:cannabinoid",
+      "stance": "active_investment",
+      "sentence": "Our primary focus is to complete the acquisition of Medterra as described above under Letter of Intent."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Close acquisition of Medterra",
+      "date": null,
+      "sentence": "The Company now expects it can close the acquisition of Medterra in May 2026."
+    },
+    {
+      "event": "Ship initial inventory of Chispo Tequila to distributor",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, we shipped initial inventory to a distributor which we expect will permit us to recognize revenue for the three months ended March 31, 2026."
+    },
+    {
+      "event": "Senor Frog's selected Chispo Tequila as its house tequila",
+      "date": "2026-01-01",
+      "sentence": "In January 2026 the Company announced that Senor Frog's, an internationally recognized restaurant and entertainment brand known for its vibrant atmosphere and authentic cuisine, selected Chispo Tequila as its house tequila across an initial group of locations in Florida, the Bahamas, and Mexico."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:26:38.119Z",
+  "model": "deepseek-v4-flash"
+}

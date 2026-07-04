@@ -1,0 +1,46 @@
+{
+  "cik": "0001428439",
+  "ticker": "ROKU",
+  "name": "ROKU, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008114",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026008114/roku-20251231.htm"
+  },
+  "business": "Roku operates a TV streaming platform and sells streaming devices. It generates revenue from digital advertising and streaming services distribution. The company connects viewers, content partners, and advertisers.",
+  "sellsTo": [
+    "viewers",
+    "content partners",
+    "advertisers",
+    "retailers"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Best Buy",
+    "Walmart",
+    "Target"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Devices revenue is generated from the sale of streaming players, Roku-made TVs, smart home products and services, audio products, and related accessories."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Platform revenue is generated from the sale of digital advertising (including direct and programmatic video advertising, ads integrated into our UI, and related services) and streaming services distribution (including subscription and transaction revenue shares, the sale of Premium Subscriptions, the sale of owned and operated subscription services, and the sale of branded app buttons on remote controls)."
+    },
+    {
+      "tag": "other:ai-investments",
+      "stance": "active_investment",
+      "sentence": "We are also continuing to invest in AI-powered and machine learning capabilities, which we believe have the potential to enhance the value of our products and services to viewers and business partners, as well as to automate internal processes and help our business run more efficiently."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:44:23.839Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0001688126",
+  "ticker": "CRCW",
+  "name": "Crypto Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-029927",
+    "filedAt": "2026-06-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1688126/000149315226029927/form10-k.htm"
+  },
+  "business": "The Crypto Company provides consulting services and education for blockchain technology, and develops blockchain infrastructure including the Frame Blockchain. It generates revenue primarily through consulting services to corporate and individual clients.",
+  "sellsTo": [
+    "corporate clients",
+    "individual clients",
+    "enterprises seeking blockchain solutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are engaged in the business of developing and operating blockchain infrastructure and providing consulting services and education related to blockchain technology."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The Frame Blockchain incorporates post-quantum security and a private mempool architecture intended to prevent MEV bot extraction"
+    },
+    {
+      "tag": "other:ai-agents",
+      "stance": "risk_mention",
+      "sentence": "As crypto commerce expands globally and AI-driven autonomous agents begin transacting with digital assets at scale, demand for reliable, secure, and high-throughput interoperability infrastructure is expected to grow substantially."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Frame Holdings Ltd. intellectual property",
+      "date": "2026-03-26",
+      "sentence": "Subsequent to the fiscal year ended December 31, 2025, on March 26, 2026, we completed the acquisition of all of the intellectual property of Frame Holdings Ltd., including the core technology required to own and operate the Frame Blockchain"
+    },
+    {
+      "event": "Launch of Frame Blockchain",
+      "date": null,
+      "sentence": "We intend to launch the Frame Blockchain in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:11:37.285Z",
+  "model": "deepseek-v4-flash"
+}

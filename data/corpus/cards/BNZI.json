@@ -1,0 +1,72 @@
+{
+  "cik": "0001826011",
+  "ticker": "BNZI",
+  "name": "Banzai International, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-134714",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1826011/000119312526134714/bnzi-20251231.htm"
+  },
+  "business": "Banzai International, Inc. is a SaaS company providing marketing technology tools for demand generation, webinar hosting, video creation, and email newsletters to businesses of all sizes, from entrepreneurs to Fortune 500 companies, in over 90 countries across healthcare, financial services, e-commerce, technology, media, and other industries.",
+  "sellsTo": [
+    "Healthcare",
+    "Financial services",
+    "E-commerce",
+    "Technology",
+    "Media",
+    "Entrepreneurs",
+    "Fortune 500 companies"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Dell",
+    "Salesforce",
+    "Aflac",
+    "Thermo Fisher Scientific",
+    "RBC Wealth Management",
+    "Fitch Group",
+    "Bristol Myers Squibb",
+    "Ingram Micro",
+    "DXC Technology",
+    "Insider Inc.",
+    "US Steel"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:marTech",
+      "stance": "core_product",
+      "sentence": "Banzai International, Inc. is a Software as a Service ( SaaS ) company operating in the marketing technology ( MarTech ) industry."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "OpenReel is an AI-powered video creation platform that enables users to remotely record, edit, host, and share high-quality videos from any location."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced agreement to acquire assets of ConnectAndSell",
+      "date": "2026-03-23",
+      "sentence": "On March 23, 2026, the Company announced that it reached an agreement on terms to acquire assets of ConnectAndSell, Inc., an AI-powered sales enablement platform serving B2B organizations across financial services, healthcare, technology, and other industries."
+    },
+    {
+      "event": "Expected closing of ConnectAndSell acquisition",
+      "date": null,
+      "sentence": "the final transaction is expected to close in early second quarter 2026, subject to execution of a definitive agreement and closing conditions."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. B2B MarTech TAM of $39.42 billion by 2026",
+      "sentence": "The TAM, defined as U.S. business-to-business (\"B2B\") spending across categories such as demand generation, marketing automation, digital events platforms, account-based marketing, customer resource management, engagement, content management systems, customer data platforms, measurement and attribution, and predictive and prescriptive analytics, is projected to reach $39.42 billion by 2026, reflecting a compound annual growth rate (\"CAGR\") of 11.80% from 2020 to 2026."
+    },
+    {
+      "claim": "U.S. B2B MarTech SAM of $8.37 billion by 2026",
+      "sentence": "The SAM, which includes U.S. B2B spending specifically on measurement and attribution, demand generation, and digital events platforms, is expected to reach $8.37 billion by 2026, representing a CAGR of 16.07% over the same period."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:10:28.146Z",
+  "model": "deepseek-v4-flash"
+}

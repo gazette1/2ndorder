@@ -1,0 +1,47 @@
+{
+  "cik": "0001378590",
+  "ticker": "BLIN",
+  "name": "Bridgeline Digital, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-038337",
+    "filedAt": "2025-12-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1378590/000143774925038337/blin20250930_10k.htm"
+  },
+  "business": "Bridgeline Digital is an AI-powered marketing technology company that offers a suite of products that help companies grow online revenue. The products include HawkSearch (AI-powered site search), Celebros Search, WooRank (SEO audit), Unbound (Digital Experience Platform), TruPresence (franchise marketing), and OrchestraCMS (Salesforce-native CMS). The company sells to mid-sized and large companies across various verticals.",
+  "sellsTo": [
+    "Associations and Foundations",
+    "Banks and Credit Unions",
+    "eCommerce Retailers",
+    "Franchises & Enterprises",
+    "Health Services and Life Sciences",
+    "Industrial Distribution and Wholesale",
+    "Manufacturers",
+    "Technology"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "HawkSearch is an AI-powered site search, recommendation, and personalization software application for marketers to enhance an online customer's product discovery."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Bridgeline Digital is an AI-powered marketing technology company that offers a suite of products that help companies grow online revenue by driving more visitors to their websites, converting more visitors to purchasers, and increasing average order value per purchaser."
+    },
+    {
+      "tag": "other:cloud-hosting",
+      "stance": "risk_mention",
+      "sentence": "We host our SaaS and managed hosting customers via a third-party, Amazon Web Services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:48:47.605Z",
+  "model": "deepseek-v4-flash"
+}

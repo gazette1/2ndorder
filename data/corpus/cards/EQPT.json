@@ -1,0 +1,54 @@
+{
+  "cik": "0001693736",
+  "ticker": "EQPT",
+  "name": "EquipmentShare.com Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-019656",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1693736/000162828026019656/eqpt-20251231.htm"
+  },
+  "business": "EquipmentShare is a vertically integrated platform that combines proprietary technology, a connected equipment fleet, and a nationwide footprint to serve the construction industry. The company rents construction equipment, sells new and used equipment, provides parts and services, and offers telematics software-as-a-service subscriptions through its T3 platform.",
+  "sellsTo": [
+    "local contractors",
+    "national construction firms",
+    "industrial firms",
+    "infrastructure sector",
+    "manufacturing sector",
+    "energy sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "JLG",
+    "JCB",
+    "John Deere",
+    "Komatsu",
+    "Hitachi",
+    "CASE",
+    "Takeuchi",
+    "Cummins",
+    "Genie",
+    "Toyota"
+  ],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our proprietary T3 platform is embedded across our rental fleet and operations, enabling real-time visibility into equipment location, health, and usage, predictive maintenance, remote access control, and automated service and dispatch workflows."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "EquipmentShare is a vertically integrated platform that combines proprietary technology, a connected equipment fleet, and a nationwide footprint to serve the construction industry."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is heavily reliant upon communications networks and centralized IT systems and the concentration of our systems creates or increases risks for us, including the risk of the misuse or theft of information, including personal information, which could harm our brand, reputation or competitive position, and give rise to material liabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:53:46.434Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,67 @@
+{
+  "cik": "0000922224",
+  "ticker": "PPL",
+  "name": "PPL Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000922224-26-000008",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000008/ppl-20251231.htm"
+  },
+  "business": "PPL is a utility holding company that, through its regulated subsidiaries, delivers electricity to customers in Pennsylvania, Kentucky, Virginia, and Rhode Island, and delivers natural gas to customers in Kentucky and Rhode Island. It also generates electricity from power plants in Kentucky.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers",
+    "municipal wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "PPL, through its regulated utility subsidiaries, delivers electricity to customers in Pennsylvania, Kentucky, Virginia, and Rhode Island; delivers natural gas to customers in Kentucky and Rhode Island; and generates electricity from power plants in Kentucky."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "The Pennsylvania Regulated segment consists of PPL Electric, a regulated public utility engaged in the distribution and transmission of electricity."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "LG&E owned generating capacity of 2,466 MW and KU owned generating capacity of 4,798 MW, including hydro and solar."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "to construct a 125 MW, 4-hour battery energy storage system facility at KU's E.W. Brown Generating Station."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The business and capital investment plans of PPL depend, in part, on the continued growth and viability of data centers and large load customers in its service territories."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Much of this demand is driven by interconnecting with and providing power to data centers and large load customers to serve an increasingly digital economy and to support artificial intelligence."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business operations are continually subject to cyber-based security and data integrity risks from vulnerabilities related to our IT systems, operational technology infrastructure and supply chain relationships."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Mill Creek Unit 5 commercial operation",
+      "date": "2027-07-01",
+      "sentence": "Commercial operation of the facility is anticipated to begin in mid-2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:35:51.018Z",
+  "model": "deepseek-v4-flash"
+}

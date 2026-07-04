@@ -1,0 +1,60 @@
+{
+  "cik": "0000846913",
+  "ticker": "FTEK",
+  "name": "FUEL TECH, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-006623",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/846913/000143774926006623/ftek20251231_10k.htm"
+  },
+  "business": "Fuel Tech develops and provides proprietary technologies for air pollution control, process optimization, water treatment, and advanced engineering services. Its two reportable segments are Air Pollution Control (APC) technologies, which reduce NOx emissions and particulate matter from stationary combustion sources, and FUEL CHEM technologies, which use chemical processes to control slagging, fouling, and corrosion in coal-fired furnaces. The company also develops Dissolved Gas Infusion (DGI) systems for water and wastewater treatment.",
+  "sellsTo": [
+    "electric utility",
+    "industrial",
+    "pulp and paper",
+    "waste-to-energy",
+    "university",
+    "district heating markets",
+    "energy-related facilities worldwide"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Sales growth for our two reportable business segments is dependent upon the continued utilization of carbon-based fuels, such as natural gas and coal, for the generation of electric power."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "The FUEL CHEM technology segment, which uses chemical processes in combination with advanced CFD and CKM boiler modeling, for the control of slagging, fouling, corrosion, opacity and other sulfur trioxide-related issues in coal-fired furnaces and boilers through the addition of chemicals into the furnace using TIFI Targeted In-Furnace Injection technology."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We believe continued demand for our products will be led by the increased demand for electricity in emerging markets and new industries that are highly dependent upon electric power, such as the mega-computers required in order to power artificial intelligence and cryptocurrencies."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our ability to attract new coal customers continues to be affected by the electric demand market, fuel switching as a result of low natural gas prices, and growth of renewable wind and solar power."
+    },
+    {
+      "tag": "other:water-treatment",
+      "stance": "active_investment",
+      "sentence": "Expenditures were mainly attributed to water treatment technologies and more specifically, our DGI Dissolved Gas Infusion Systems, an innovative alternative to current gas transfer and chemical replacement technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures in 2026 for DGI business and other equipment",
+      "date": "2026",
+      "sentence": "We expect capital expenditures in 2026 for the DGI business, maintenance of field equipment, computer and systems, and general office equipment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:05:00.576Z",
+  "model": "deepseek-v4-flash"
+}

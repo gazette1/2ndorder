@@ -1,0 +1,71 @@
+{
+  "cik": "0001829247",
+  "ticker": "BFRG",
+  "name": "BullFrog AI Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-011644",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1829247/000149315226011644/form10-k.htm"
+  },
+  "business": "BullFrog AI Holdings uses its proprietary AI/ML platform, bfLEAP, to analyze pre-clinical and clinical data to improve drug development success. The company generates revenue through contract services, collaborative arrangements, and acquisition of rights to drugs.",
+  "sellsTo": [
+    "Biotechnology and pharmaceutical companies",
+    "Non-profit organizations",
+    "Research institutions"
+  ],
+  "namedCustomers": [
+    "Eleison Pharmaceuticals Inc.",
+    "FSHD Society",
+    "Lieber Institute for Brain Development",
+    "Sygnature Discovery"
+  ],
+  "namedSuppliers": [
+    "Johns Hopkins University Applied Physics Lab",
+    "George Washington University",
+    "Johns Hopkins University",
+    "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We use AI/ML to advance medicines for both internal and external projects."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We face significant risks related to the availability, cost, and performance of the computational infrastructure required to train and deploy AI models."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks associated with security breaches or cyberattacks."
+    },
+    {
+      "tag": "other:AI-regulation",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to laws and regulations governing our use of artificial intelligence."
+    },
+    {
+      "tag": "other:export-controls",
+      "stance": "risk_mention",
+      "sentence": "Export controls, trade restrictions, and national security regulations may limit our ability to operate in certain markets and access critical technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned launch of new scenario-based decision engine solution",
+      "date": "2026-03-31",
+      "sentence": "In late March 2026, the Company is planning to launch a new scenario-based decision engine solution that is an AI-powered analytical environment designed to support complex decision-making in drug development and biomedical research."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "$47.1 billion market opportunity for failed Phase III drugs",
+      "sentence": "The final arrow shows the math behind the $47.1 billion market opportunity."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:52:44.409Z",
+  "model": "deepseek-v4-flash"
+}

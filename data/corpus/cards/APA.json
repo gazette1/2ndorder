@@ -1,0 +1,63 @@
+{
+  "cik": "0001841666",
+  "ticker": "APA",
+  "name": "APA Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001841666-26-000015",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1841666/000184166626000015/apa-20251231.htm"
+  },
+  "business": "APA Corp is an independent energy company that explores for, develops, and produces crude oil, natural gas, and NGLs in three geographic areas: the U.S., Egypt, and offshore the U.K. in the North Sea. The company also has active development, exploration, and appraisal operations in Suriname, as well as exploration interests in Uruguay, Alaska, and other international locations. Its primary customers include integrated oil companies, marketing and transportation companies, refiners, and state-owned entities such as EGPC.",
+  "sellsTo": [
+    "Integrated major oil companies",
+    "Marketing and transportation companies",
+    "Refiners",
+    "Local distribution and utility companies",
+    "Midstream companies",
+    "End-users",
+    "Marketers",
+    "EGPC (Egyptian General Petroleum Corporation)"
+  ],
+  "namedCustomers": [
+    "EGPC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "APA Corporation (APA or the Company) is an independent energy company that owns subsidiaries that explore for, develop, and produce crude oil, natural gas, and NGLs."
+    },
+    {
+      "tag": "other:exploration",
+      "stance": "active_investment",
+      "sentence": "APA also has active development, exploration, and appraisal operations ongoing in Suriname, as well as exploration interests in Uruguay, Alaska, and other international locations that may, over time, result in reportable discoveries and development opportunities."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The Company's business has oil and gas operations in three geographic areas: the U.S., Egypt, and offshore the U.K. in the North Sea."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First oil production from GranMorgu development in Block 58 offshore Suriname",
+      "date": "2028-01-01",
+      "sentence": "First oil is anticipated in 2028."
+    },
+    {
+      "event": "New gas sales agreement with Government of Egypt effective January 2025",
+      "date": "2025-01-01",
+      "sentence": "Effective January 2025, substantially all of the Company's natural gas production was sold to EGPC under the terms of this agreement."
+    },
+    {
+      "event": "Target to achieve $450 million in annualized savings by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "The Company expects $450 million of annualized savings by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:10:21.798Z",
+  "model": "deepseek-v4-flash"
+}

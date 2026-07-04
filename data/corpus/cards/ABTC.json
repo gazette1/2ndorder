@@ -1,0 +1,104 @@
+{
+  "cik": "0001755953",
+  "ticker": "ABTC",
+  "name": "American Bitcoin Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-127278",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1755953/000119312526127278/abtc-20251231.htm"
+  },
+  "business": "American Bitcoin Corp. pursues Bitcoin accumulation through efficient Bitcoin mining, disciplined Bitcoin reserve expansion, and focused ecosystem engagement. It generates revenue from Bitcoin rewards earned by providing computation services to third-party mining pool operators. The company also acquires Bitcoin through at-market purchases and strategic transactions.",
+  "sellsTo": [
+    "Third-party mining pool operators",
+    "Investors in Bitcoin treasury strategies"
+  ],
+  "namedCustomers": [
+    "Foundry",
+    "Luxor"
+  ],
+  "namedSuppliers": [
+    "Bitmain",
+    "MicroBt",
+    "Hut 8",
+    "Coinbase Custody",
+    "Anchorage Digital Bank"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "Our business objective is Bitcoin accumulation, and we aim to pursue that goal through a multi-pronged strategy that combines efficient Bitcoin mining, disciplined Bitcoin reserve expansion, and focused ecosystem engagement."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "We generate revenue from Bitcoin rewards by providing computation services to third-party mining pool operators, which combine the computing power of Bitcoin miners to increase the chance of solving a block and getting paid by the network."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be exposed to cybersecurity threats and breaches."
+    },
+    {
+      "tag": "other:competition-from-etps",
+      "stance": "risk_mention",
+      "sentence": "Investors may view our Class A common stock as an alternative to an investment in an ETP, and choose to purchase shares of a spot Bitcoin ETP instead of such securities, which could impact the price of our Class A common stock."
+    },
+    {
+      "tag": "other:bitcoin-halving",
+      "stance": "risk_mention",
+      "sentence": "The Bitcoin reward for successfully uncovering a block will halve several times in the future and Bitcoin s value may not adjust to compensate us for the reduction in the rewards we receive from our mining efforts."
+    },
+    {
+      "tag": "other:network-hashrate",
+      "stance": "risk_mention",
+      "sentence": "If we fail to grow our hashrate, we may be unable to compete and our business, financial condition, and results of operations could suffer."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "We are subject to risks associated with our need for significant electrical power."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Purchase of 16,299 Bitcoin miners (approx. 14.02 EH/s)",
+      "date": "2025-08",
+      "sentence": "In August 2025, we purchased 16,299 Bitcoin miners, representing approximately 14.02 EH/s"
+    },
+    {
+      "event": "Purchase of 981 additional Bitcoin miners (approx. 0.84 EH/s)",
+      "date": "2025-09",
+      "sentence": "and in September 2025, we purchased an additional 981 Bitcoin miners, representing approximately 0.84 EH/s."
+    },
+    {
+      "event": "Purchase of 11,298 Bitcoin miners (approx. 3.05 EH/s)",
+      "date": "2026-02",
+      "sentence": "Subsequently, in February 2026, we purchased 11,298 Bitcoin miners, representing approximately 3.05 EH/s."
+    },
+    {
+      "event": "Reenergization of Drumheller site and deployment of miners",
+      "date": "2026-03",
+      "sentence": "During March 2026, Hut 8 completed the reenergization of the Drumheller site, where we expect to deploy 11,298 Bitcoin miners to resume Bitcoin mining operations."
+    },
+    {
+      "event": "Establishment of 2025 At-The-Market Offering Program (up to $2.1 billion)",
+      "date": "2025-09-03",
+      "sentence": "On September 3, 2025, we entered into a Controlled Equity Offering Sales Agreement to establish the 2025 ATM, allowing us to offer and sell up to $2.1 billion of our Class A common stock from time to time."
+    },
+    {
+      "event": "Closing of merger with Gryphon (renamed to American Bitcoin Corp.)",
+      "date": "2025-09-03",
+      "sentence": "On September 3, 2025, in accordance with the terms of the Merger Agreement, among other things, the Mergers were completed and Gryphon was renamed to American Bitcoin Corp. after the Closing."
+    },
+    {
+      "event": "Completion of fleet upgrade at Medicine Hat and Salt Creek sites",
+      "date": "2025-04-04",
+      "sentence": "The upgrade resulted in the deployment of higher efficiency Bitcoin miners, improving the efficiency of our Bitcoin mining operations."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:06:47.568Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0000893538",
+  "ticker": "SM",
+  "name": "SM Energy Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000893538-26-000032",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/893538/000089353826000032/sm-20251231.htm"
+  },
+  "business": "SM Energy is an independent exploration and production company that acquires, develops, and produces crude oil, natural gas, and natural gas liquids (NGLs). Its revenues and profitability depend heavily on the prices it receives for these commodities. The company operates in the Midland Basin, South Texas, Uinta Basin, and after the Civitas merger, also in the Delaware Basin and DJ Basin.",
+  "sellsTo": [
+    "oil and gas purchasers",
+    "natural gas liquids buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our revenues, operating results, profitability, future rate of growth, and the carrying value of our oil and gas properties depend heavily on the prices we receive for oil, gas, and NGL sales."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are incorporating artificial intelligence technologies into our processes and these technologies may present business, compliance, and reputational risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our increasing dependence on digital technologies puts us at risk for a cyber incident that could result in information theft, data corruption, operational disruptions or financial loss."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Our Uinta Basin operations include the use of rail systems operated by third-parties to transport our crude oil to market which involves inherent risk, including the potential for accidents and derailments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Civitas Merger",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, we completed the Civitas Merger in accordance with the terms of the Merger Agreement."
+    },
+    {
+      "event": "South Texas asset divestiture agreement",
+      "date": "2026-02-17",
+      "sentence": "On February 17, 2026, we entered into the PSA with Caturus to sell certain of our South Texas assets for a Purchase Price of $950 million, subject to certain customary purchase price adjustments set forth in the PSA."
+    },
+    {
+      "event": "Board approval of dividend increase",
+      "date": "2026-02-01",
+      "sentence": "In February of 2026, our Board of Directors approved a 10 percent increase to our annual base dividend to $0.88 per share, payable quarterly, effective beginning with the March 2026 dividend."
+    },
+    {
+      "event": "Borrowing base redetermination",
+      "date": "2026-04-01",
+      "sentence": "The next borrowing base redetermination date is scheduled to occur on April 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:42:46.123Z",
+  "model": "deepseek-v4-flash"
+}

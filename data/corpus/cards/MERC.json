@@ -1,0 +1,76 @@
+{
+  "cik": "0001333274",
+  "ticker": "MERC",
+  "name": "MERCER INTERNATIONAL INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-048855",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1333274/000119312526048855/merc-20251231.htm"
+  },
+  "business": "Mercer International Inc. is a global forest products company with two reportable segments: Pulp (manufacture, sale and distribution of pulp, electricity and chemicals at pulp mills) and Solid Wood (manufacture, sale and distribution of lumber, manufactured products including CLT and glulam, wood pallets, electricity, biofuels and wood residuals at sawmills and mass timber facilities). The company sells pulp to customers in Europe, Asia and North America for use in tissue, printing and writing paper, and specialty products, and sells solid wood products to building contractors, property owners, distributors, and construction firms.",
+  "sellsTo": [
+    "Europe",
+    "Asia",
+    "North America",
+    "tissue producers",
+    "printing and writing paper producers",
+    "specialty paper producers",
+    "building contractors",
+    "property owners",
+    "national and regional distributors",
+    "large construction firms",
+    "secondary manufacturers",
+    "retail yards",
+    "home centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:pulp",
+      "stance": "core_product",
+      "sentence": "We are one of the world s largest producers of market NBSK pulp, which is pulp that is sold on the open market."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Solid Wood consists of the manufacture, sale and distribution of lumber, manufactured products (including CLT, glulam and finger joint lumber), wood pallets, electricity, biofuels and wood residuals at our sawmills and other facilities in Germany and our mass timber facilities in North America."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "As a result of the significant investments previously made in cogeneration equipment, all of our mills generate and sell a significant amount of surplus green energy."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "commissioned a pilot program for the operation of a carbon capture demonstration unit at the Peace River mill."
+    },
+    {
+      "tag": "other:lignin",
+      "stance": "active_investment",
+      "sentence": "Our Rosenthal mill is equipped with an operational state-of-the-art pilot lignin facility capable of producing approximately 300 tonnes of lignin per year."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned maintenance downtime for pulp mills: 44 days total, 24 days in Q3 and 20 days in Q4 2026.",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we currently have planned maintenance downtime for our pulp mills of an aggregate of 44 days, or approximately 53,400 ADMTs, which is expected to be comprised of 24 days in the third quarter and 20 days in the fourth quarter."
+    },
+    {
+      "event": "Mass timber production expected to ramp up in 2026.",
+      "date": "2026-12-31",
+      "sentence": "continued to grow the order book for our mass timber products, with mass timber production expected to ramp up in 2026;"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 150 million ADMTs of chemical pulp are converted annually into tissues, printing and writing papers, carton boards and other specialty grades of paper and paperboard around the world.",
+      "sentence": "We believe that approximately 150 million ADMTs of chemical pulp are converted annually into tissues, printing and writing papers, carton boards and other specialty grades of paper and paperboard around the world."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:16:28.189Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,57 @@
+{
+  "cik": "0001713863",
+  "ticker": "RFL",
+  "name": "Rafael Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-103549",
+    "filedAt": "2025-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713863/000121390025103549/ea0262395-10k_rafael.htm"
+  },
+  "business": "Rafael Holdings, Inc. is a biotechnology company that develops pharmaceuticals and holds interests in clinical and early-stage companies that develop pharmaceuticals and medical devices. Its lead candidate is Trappsol Cyclo, being evaluated for Niemann-Pick Disease Type C1. It also generates revenue from sales of cyclodextrin products for research and from real estate rental.",
+  "sellsTo": [
+    "research institutions (cyclodextrin products)",
+    "real estate tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cyclodextrin Research & Development Laboratory"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our lead candidate is Trappsol Cyclo, which is being evaluated in clinical trials for the potential treatment of Niemann-Pick Disease Type C1 (NPC1), a rare, fatal and progressive genetic disorder."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Rafael Medical Devices, an orthopedic-focused medical device company developing instruments to advance minimally invasive surgeries."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "During the year ended July 31, 2025, sales of cyclodextrin products for research purposes generates a significant portion of our revenues."
+    },
+    {
+      "tag": "other:real-estate",
+      "stance": "active_investment",
+      "sentence": "The Real Estate segment consists of a portion of a commercial building in Israel."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "DMC recommended to continue Phase 3 trial of Trappsol Cyclo to 96 weeks",
+      "date": "2025-06-01",
+      "sentence": "Based on the independent DMC review of safety and efficacy data at the prespecified 48-week interim analysis, in June 2025, the DMC recommended to continue the trial to 96 weeks."
+    },
+    {
+      "event": "FDA clearance for VECTR System",
+      "date": "2024-12-11",
+      "sentence": "On December 11, 2024, Rafael Medical Devices received a substantial equivalence determination for the VECTR System from the Food and Drug Administration (FDA) in response to Rafael Medical Devices 510(k) premarket notification."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:27:42.074Z",
+  "model": "deepseek-v4-flash"
+}

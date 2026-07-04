@@ -1,0 +1,79 @@
+{
+  "cik": "0000811156",
+  "ticker": "CMS",
+  "name": "CMS ENERGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000811156-26-000004",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000004/cms-20251231.htm"
+  },
+  "business": "CMS Energy is an energy company operating primarily in Michigan, parent holding company of Consumers (electric and gas utility) and NorthStar Clean Energy (independent power producer). Consumers provides electricity and natural gas to 6.8 million of Michigan's 10 million residents, serving a mix of residential, commercial, and industrial customers. NorthStar Clean Energy engages in domestic independent power production, including renewable generation and marketing.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Panhandle Eastern Pipe Line Company",
+    "Trunkline Gas Company, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Consumers provides electricity and/or natural gas to 6.8 million of Michigan's 10 million residents."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Consumers updates to its Renewable Energy Plan include up to 9,000 MW of both purchased and owned solar energy resources and up to 4,000 MW of wind energy resources."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Consumers distribution system consists of: 263 miles of high-voltage distribution overhead lines operating at 138 kV 4 miles of high-voltage distribution underground lines operating at 138 kV 4,619 miles of high-voltage distribution overhead lines operating at 46 kV and 69 kV 18 miles of high-voltage distribution underground lines operating at 46 kV 82,854 miles of electric distribution overhead lines 10,027 miles of underground distribution lines 1,102 substations with an aggregate transformer capacity of 29 million kVA."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Consumers is interconnected to the interstate high-voltage electric transmission system owned by METC and operated by MISO."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Consumers also faces competition or potential competition associated with data center expansion and industrial customer relocation outside of Consumers service territory for economic reasons."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renewable natural gas facilities commercial operation",
+      "date": "2026-01-01",
+      "sentence": "Consumers has renewable natural gas facilities under construction scheduled for commercial operation in 2026."
+    },
+    {
+      "event": "Net-zero methane emissions from natural gas delivery system",
+      "date": "2030-01-01",
+      "sentence": "Under its Methane Reduction Plan, Consumers has set a goal of net-zero methane emissions from its natural gas delivery system by 2030."
+    },
+    {
+      "event": "60% renewable energy by 2035",
+      "date": "2035-01-01",
+      "sentence": "This plan positions Consumers to achieve 60 percent renewable energy by 2035 and 100 percent clean energy by 2040."
+    },
+    {
+      "event": "100% clean energy by 2040",
+      "date": "2040-01-01",
+      "sentence": "This plan positions Consumers to achieve 60 percent renewable energy by 2035 and 100 percent clean energy by 2040."
+    },
+    {
+      "event": "Reduce customer greenhouse gas emissions by 25% by 2035",
+      "date": "2035-01-01",
+      "sentence": "Consumers has also set a goal to reduce customer greenhouse gas emissions by 25 percent by 2035."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:40:52.309Z",
+  "model": "deepseek-v4-flash"
+}

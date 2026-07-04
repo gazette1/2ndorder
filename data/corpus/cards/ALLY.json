@@ -1,0 +1,75 @@
+{
+  "cik": "0000040729",
+  "ticker": "ALLY",
+  "name": "Ally Financial Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000040729-26-000005",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000005/ally-20251231.htm"
+  },
+  "business": "Ally Financial Inc. is a financial-services company with $196.0 billion in assets as of December 31, 2025. It comprises the nation's largest all-digital bank and an industry-leading automotive financing and insurance business. It serves customers with deposits, securities brokerage, investment advisory services, automotive financing, insurance, and corporate finance.",
+  "sellsTo": [
+    "automotive dealers (OEM-franchised and non-OEM-franchised)",
+    "consumers",
+    "commercial clients",
+    "municipalities",
+    "private equity sponsor-owned middle-market companies",
+    "asset managers"
+  ],
+  "namedCustomers": [
+    "GM",
+    "Stellantis",
+    "Carvana",
+    "CarMax",
+    "EchoPark"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "During the year ended December 31, 2025, $1.9 billion of our consumer automotive retail loan originations and purchases, and $2.1 billion of our operating lease originations and purchases, were for battery-electric and plug-in hybrid vehicles."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Across the organization, we intend to drive results by pursuing opportunities to improve operating efficiencies through the strategic implementation of AI and automation solutions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI is rapidly evolving and our failure to appropriately evaluate, adopt, govern, or effectively integrate AI where beneficial could adversely affect us."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Fintech companies also compete with us directly as well as indirectly through partnership with banks and financial-services providers in lending, deposits, securities brokerage, investment advisory, and other markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Legislative or regulatory initiatives on cybersecurity and data privacy could adversely impact our business and financial results."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our Insurance operations provide both consumer finance protection and insurance products sold primarily through the automotive dealer channel in the U.S. and Canada, and commercial insurance products sold directly to dealers in the U.S."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Submit first full resolution plan under new FDIC rule",
+      "date": "2026-07-01",
+      "sentence": "Ally Bank submitted its first interim supplement under the new rule on June 23, 2025, and its first full resolution plan under the new rule is due by July 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 296 million vehicles in operation represent the total financing opportunity for used-vehicle financing.",
+      "sentence": "The highly fragmented used-vehicle financing market, with a total financing opportunity represented by approximately 296 million vehicles in operation, provides an attractive opportunity that we believe will further expand and support our dealer relationships and increase our risk-adjusted return on retail loan originations."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:57:33.620Z",
+  "model": "deepseek-v4-flash"
+}

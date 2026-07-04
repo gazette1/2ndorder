@@ -1,0 +1,68 @@
+{
+  "cik": "0001840416",
+  "ticker": "SSM",
+  "name": "Sono Group N.V.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001171843-26-002178",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326002178/sev20251231_10k.htm"
+  },
+  "business": "The company is a technology company focused on solar integration solutions for commercial vehicles, offering solar kits, charge controllers, and engineering services. It targets fleet operators and OEMs. In early 2026, the company adopted a digital asset treasury strategy and exited its legacy solar operations.",
+  "sellsTo": [
+    "fleet operators",
+    "original equipment manufacturers (OEMs)",
+    "commercial vehicle categories including buses, trucks, vans, RVs, refrigerated trailers"
+  ],
+  "namedCustomers": [
+    "VBR Verkehrsbetriebe und Servicegesellschaft mbH",
+    "Scania CV AB",
+    "Koegel Trailer GmbH",
+    "Jean CHEREAU S.A.S",
+    "Hofbus GmbH",
+    "Stadtwerke Muenchen GmbH"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our product portfolio consists of solar integration solutions for commercial vehicles, leveraging our proprietary solar charge controller technology or MCU."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "Under the Treasury Strategy, the principal holding in the Company’s treasury reserve on its balance sheet will be allocated to digital assets, principally Bitcoin, by applying a covered-call yield strategy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entry into ISDA Master Agreement with Blockchain.com",
+      "date": "2026-03-10",
+      "sentence": "On March 10, 2026, the Company entered into an International Swaps and Derivatives Association, Inc. (ISDA) 2002 ISDA Master Agreement, dated as of March 10, 2026 (the ISDA Master Agreement) with Blockchain.com (BVI) II Limited, a business company incorporated under the laws of the British Virgin Islands (Blockchain.com), facilitating the Company to enter into derivative and/or hedging transactions (collectively, the Transactions) to manage the risk associated with the Treasury Strategy."
+    },
+    {
+      "event": "Issuance of pre-funded warrant to Yorkville",
+      "date": "2026-03-10",
+      "sentence": "On March 10, 2026, the Company issued a pre-funded warrant to Yorkville to purchase up to 283,367 Ordinary Shares at an exercise price of 0.01 per share, for aggregate gross proceeds of approximately $2,000,004.29."
+    },
+    {
+      "event": "Issuance of convertible debenture to Yorkville",
+      "date": "2026-03-10",
+      "sentence": "On March 10, 2026, the Company issued a convertible debenture to Yorkville in the aggregate principal amount of $3,000,000, maturing on March 10, 2027 (Debenture SEV-10)."
+    },
+    {
+      "event": "Exit from legacy solar operations",
+      "date": "2026-03-14",
+      "sentence": "On March 14, 2026, our supervisory board resolved to terminate all current and future funding commitments to the Subsidiary and to exit the legacy solar operations conducted through the Subsidiary, with immediate effect."
+    },
+    {
+      "event": "Convertible debenture maturity",
+      "date": "2027-03-10",
+      "sentence": "On March 10, 2026, the Company issued a convertible debenture to Yorkville in the aggregate principal amount of $3,000,000, maturing on March 10, 2027 (Debenture SEV-10)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:09:59.241Z",
+  "model": "deepseek-v4-flash"
+}

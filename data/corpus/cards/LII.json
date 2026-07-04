@@ -1,0 +1,52 @@
+{
+  "cik": "0001069202",
+  "ticker": "LII",
+  "name": "LENNOX INTERNATIONAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001069202-26-000028",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000028/lii-20251231.htm"
+  },
+  "business": "Lennox International Inc. is a global leader in energy-efficient climate-control solutions, designing, manufacturing, and marketing a broad range of products for the heating, ventilation, air conditioning and refrigeration (HVACR) markets. It operates in two business segments: Home Comfort Solutions and Building Climate Solutions. The company's products and services are sold through multiple distribution channels under various brand names.",
+  "sellsTo": [
+    "residential replacement and new construction markets in North America",
+    "light commercial applications such as low-rise office buildings, restaurants, retail centers, distribution, churches and schools",
+    "commercial refrigeration markets including supermarkets, convenience stores, restaurants, warehouses, and distribution centers",
+    "industrial processes including data centers, machine tooling, and other critical cooling applications"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "our products are used to cool a wide variety of industrial processes, including data centers, machine tooling, and other critical cooling applications."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We manufacture and market a broad range of heat pumps, furnaces, air conditioners, packaged heating and cooling systems, equipment and accessories to improve indoor air quality, comfort control products, replacement parts and supplies and related products for both the residential replacement and new construction markets in North America."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "Our business is affected by the performance of the U.S. construction industry."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Recent technological advances in artificial intelligence (AI) and machine-learning technology both present opportunities and pose risks to us."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures of approximately $250 million in 2026 for general capital improvement projects",
+      "date": null,
+      "sentence": "We expect capital expenditures of approximately $250 million in 2026 for general capital improvement projects."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:45:59.391Z",
+  "model": "deepseek-v4-flash"
+}

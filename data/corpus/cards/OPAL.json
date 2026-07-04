@@ -1,0 +1,55 @@
+{
+  "cik": "0001842279",
+  "ticker": "OPAL",
+  "name": "OPAL Fuels Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017908",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1842279/000162828026017908/wdq-20251231.htm"
+  },
+  "business": "OPAL Fuels Inc. is a vertically integrated leader in the capture and conversion of biogas into low carbon intensity renewable natural gas (RNG) and Renewable Power. It sells RNG to heavy duty trucking and other hard to de-carbonize industrial sectors, and sells Renewable Power to public utilities. It also designs, develops, constructs, operates and services Fueling Stations for trucking fleets.",
+  "sellsTo": [
+    "heavy duty trucking fleets",
+    "other hard to de-carbonize industrial sectors",
+    "public utilities",
+    "commercial transportation fleets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "OPAL Fuels Inc. (including its subsidiaries, the Company, OPAL, we, us or our ) is a vertically integrated leader in the capture and conversion of biogas into low carbon intensity renewable natural gas (\"RNG\") and Renewable Power."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "OPAL Fuels is also a leader in the marketing and distribution of RNG to heavy duty trucking and other hard to de-carbonize industrial sectors."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We sell Renewable Power to public utilities through power purchase agreements."
+    },
+    {
+      "tag": "other:hydrogen-fueling",
+      "stance": "core_product",
+      "sentence": "In addition, we have recently begun implementing design, development, and construction services for hydrogen Fueling Stations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "As of July 2023, there were 532 LFG projects in operation in the United States, including 359 operating LFG-to-electricity projects that may be converted to produce RNG as well as 470 additional candidate landfills with a combined potential of 343 million standard cubic feet of LFG per day.",
+      "sentence": "According to the EPA LMOP project database, as of July 2023, there were 532 LFG projects in operation in the United States, including 359 operating LFG-to-electricity projects that may be converted to produce RNG as well as 470 additional candidate landfills. Based on EPA data, these 470 candidate landfills have the potential to collect a combined 343 million standard cubic feet of LFG per day."
+    },
+    {
+      "claim": "RNG production in the United States covers about 1.5% of the heavy- and medium-duty vehicles fuel market, projected to increase to as much as 2.5% by 2027.",
+      "sentence": "Currently, it is estimated that RNG production in the United States can only cover about 1.5% of the U.S. heavy- and medium-duty vehicles fuel market. RNG production is projected to increase by 2027, bringing the RNG industry share to as much as 2.5%."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:16:40.312Z",
+  "model": "deepseek-v4-flash"
+}

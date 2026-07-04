@@ -1,0 +1,46 @@
+{
+  "cik": "0001528396",
+  "ticker": "GWRE",
+  "name": "Guidewire Software, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001528396-25-000221",
+    "filedAt": "2025-09-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839625000221/gwre-20250731.htm"
+  },
+  "business": "Guidewire is the platform that property and casualty (P&C) insurers rely on to engage with customers, innovate, and operate more efficiently. The company sells cloud-based subscription services for core insurance operations, as well as digital engagement and analytics products.",
+  "sellsTo": [
+    "P&C insurers of all sizes, ranging from global carriers to regional and local providers",
+    "approximately 500 customers representing approximately 570 insurance brands in 43 countries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Guidewire is the platform that property and casualty (P&C) insurers rely on to engage with customers, innovate, and operate more efficiently."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Guidewire Cyence is a cyber-risk economic modeling product that helps P&C insurers accurately measure the financial impact of cyber risk on their customers."
+    },
+    {
+      "tag": "other:insurance-ai",
+      "stance": "core_product",
+      "sentence": "Guidewire Predict is a P&C-specific machine-learning platform that empowers insurers to make intelligent data-driven decisions throughout the insurance lifecycle."
+    },
+    {
+      "tag": "other:ai-risk",
+      "stance": "risk_mention",
+      "sentence": "Issues in the development and use of AI, combined with an uncertain regulatory environment, may result in reputational harm, liability, or other adverse consequences to our business operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:14:12.945Z",
+  "model": "deepseek-v4-flash"
+}

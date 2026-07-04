@@ -1,0 +1,49 @@
+{
+  "cik": "0001823466",
+  "ticker": "NOTE",
+  "name": "FiscalNote Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-120769",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823466/000119312526120769/note-20251231.htm"
+  },
+  "business": "FiscalNote provides enterprise information services and legal and regulatory information to government and corporate customers. It competes in the market for insights and data on political and policy developments. The company uses third-party data center hosting and cloud computing platforms.",
+  "sellsTo": [
+    "government agencies",
+    "public sector",
+    "enterprise customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon",
+    "Google",
+    "Salesforce"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks, security, privacy, or data breaches or other security incidents that affect our networks or systems, or those of our service providers, involving our or our customers sensitive, personal, classified or confidential information could expose us to liability under various laws and regulations across jurisdictions, decrease trust in us and our products and services, increase the risk of litigation and governmental investigation, and harm to our reputation, business, and financial condition."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We currently serve our customers through the use of third-party data center hosting facilities and cloud computing platform providers."
+    },
+    {
+      "tag": "other:general-ai",
+      "stance": "risk_mention",
+      "sentence": "Customers may seek to utilize general purpose AI platforms either to obtain political or policy-related information or to develop their own internal workflow tools, either of which might reduce demand for our products and services."
+    },
+    {
+      "tag": "other:political-prediction-markets",
+      "stance": "risk_mention",
+      "sentence": "There also may be risks that exist, or that develop in the future, that we have not appropriately anticipated, identified or mitigated, including when processes are changed or new products and services are introduced, including entry into the political prediction markets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:23:56.411Z",
+  "model": "deepseek-v4-flash"
+}

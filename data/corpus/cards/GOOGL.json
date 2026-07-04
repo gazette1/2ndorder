@@ -1,0 +1,68 @@
+{
+  "cik": "0001652044",
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001652044-26-000018",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+  },
+  "business": "Alphabet primarily sells online advertising through Google Search, YouTube, and Google Network, as well as cloud computing services via Google Cloud Platform and Google Workspace. It also generates revenue from consumer subscriptions, platforms (Google Play), devices (Pixel), and Other Bets including autonomous transportation (Waymo) and internet services.",
+  "sellsTo": [
+    "advertisers",
+    "enterprise customers",
+    "consumers",
+    "content creators",
+    "publishers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our technical infrastructure allows us to use and offer our customers a range of AI accelerator options, including specialized Graphics Processing Units (GPUs) and our own custom-built Tensor Processing Units (TPUs), such as Ironwood, our seventh-generation TPU."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "cybersecurity: provides AI-powered threat intelligence and cybersecurity solutions to help customers detect, analyze, protect against, and respond to a broad range of cybersecurity threats."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "We continue to look toward the future and to invest for the long term, most notably for the application of AI to our products and services, as well as other frontier technologies such as quantum computing."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "active_investment",
+      "sentence": "Isomorphic Labs is reimagining the drug discovery process from first principles, applying AI to accelerate the development of new medicines."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Waymo, is now providing fully autonomous, paid ride-hailing services to customers in multiple cities."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our technical infrastructure allows us to use and offer our customers a range of AI accelerator options, including specialized Graphics Processing Units (GPUs) and our own custom-built Tensor Processing Units (TPUs), such as Ironwood, our seventh-generation TPU."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Significant increase in capital expenditure on technical infrastructure in 2026",
+      "date": "2026-01-01",
+      "sentence": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:47:54.309Z",
+  "model": "deepseek-v4-flash"
+}

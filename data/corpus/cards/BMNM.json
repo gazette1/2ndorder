@@ -1,0 +1,46 @@
+{
+  "cik": "0001275477",
+  "ticker": "BMNM",
+  "name": "BIMINI CAPITAL MANAGEMENT, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008139",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1275477/000143774926008139/bcmi20251231_10k.htm"
+  },
+  "business": "Bimini Capital Management, Inc. is a specialty finance company that invests in Agency mortgage-backed securities and serves as the external manager of Orchid Island Capital, Inc. It generates revenue from interest and dividend income on its investment portfolio and from management fees and expense reimbursements from Orchid.",
+  "sellsTo": [
+    "Orchid Island Capital, Inc."
+  ],
+  "namedCustomers": [
+    "Orchid Island Capital, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The principal and interest payments of these MBS are guaranteed by Fannie Mae, Freddie Mac or the Government National Mortgage Association ( Ginnie Mae and, collectively with Fannie Mae and Freddie Mac, GSEs ) and are backed primarily by single-family residential mortgage loans."
+    },
+    {
+      "tag": "other:asset-management",
+      "stance": "core_product",
+      "sentence": "serving as the external manager of Orchid which also invests in MBS."
+    },
+    {
+      "tag": "other:asset-management",
+      "stance": "active_investment",
+      "sentence": "On January 13, 2026, the Company announced that Holdings has entered into an agreement to purchase eighty percent (80%) of the fully diluted equity interests of Tom Johnson Investment Management, LLC ( TJIM ), a privately held registered investment adviser."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of acquisition of 80% of Tom Johnson Investment Management",
+      "date": "2026-04-01",
+      "sentence": "The transaction is expected to close at the beginning of the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:37:49.577Z",
+  "model": "deepseek-v4-flash"
+}

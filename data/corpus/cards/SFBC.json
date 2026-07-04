@@ -1,0 +1,54 @@
+{
+  "cik": "0001541119",
+  "ticker": "SFBC",
+  "name": "Sound Financial Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001541119-26-000008",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1541119/000154111926000008/sfbc-20251231.htm"
+  },
+  "business": "Sound Financial Bancorp is a bank holding company whose principal business consists of attracting retail and commercial deposits from the general public and investing those funds, along with borrowed funds, in loans secured by first and second mortgages on one-to-four family residences, commercial and multifamily real estate, construction and land, consumer and commercial business loans. The company also sells insurance products and services through a wholly owned subsidiary. Its market area includes the Seattle Metropolitan Statistical Area and the North Olympic Peninsula of Washington.",
+  "sellsTo": [
+    "Retail depositors",
+    "Commercial borrowers",
+    "Residential mortgage borrowers",
+    "Insurance customers"
+  ],
+  "namedCustomers": [
+    "Fannie Mae"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our principal business consists of attracting retail and commercial deposits from the general public and investing those funds, along with borrowed funds, in loans secured by first and second mortgages on one-to-four family residences (including home equity loans and lines of credit), commercial and multifamily real estate, construction and land, and consumer and commercial business loans."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We also sell insurance products and services to consumers through Sound Community Insurance Agency, Inc., a wholly owned subsidiary of the Bank."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of our security systems or infrastructure, including breaches resulting from cyber-attacks, could disrupt our business, result in the disclosure or misuse of confidential or proprietary information, damage our reputation, increase our costs and cause losses."
+    },
+    {
+      "tag": "other:cannabis-related businesses",
+      "stance": "risk_mention",
+      "sentence": "At December 31, 2025, approximately 3.6% of our total deposits and a portion of our service charges from deposits are from legal cannabis-related businesses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closure of Tacoma branch",
+      "date": "2026-04",
+      "sentence": "We have provided notice that the Tacoma branch, located in the Seattle MSA (Pierce County), will close in April 2026 as part of ongoing strategic consolidation efforts."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:41:45.898Z",
+  "model": "deepseek-v4-flash"
+}

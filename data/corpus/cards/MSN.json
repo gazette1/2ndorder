@@ -1,0 +1,51 @@
+{
+  "cik": "0000032621",
+  "ticker": "MSN",
+  "name": "EMERSON RADIO CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-021828",
+    "filedAt": "2026-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/32621/000143774926021828/msn20260331_10k.htm"
+  },
+  "business": "Emerson Radio Corp. designs, sources, imports, and licenses houseware and consumer electronic products under the Emerson brand. It sells primarily to mass merchandisers and online marketplaces in the United States, Canada, and Mexico. The company also licenses its trademarks to third parties.",
+  "sellsTo": [
+    "Mass merchandisers",
+    "Online marketplaces",
+    "United States",
+    "Canada",
+    "Mexico"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Fred Meyer",
+    "Walmart",
+    "Big Lots"
+  ],
+  "namedSuppliers": [
+    "Welly (formerly Weili)",
+    "Midea",
+    "Itoma"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company designs, sources, imports and markets a variety of houseware and consumer electronic products, and licenses its trademarks to others on a worldwide basis for a variety of products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company also sells products through third party online marketplaces to broaden its brand reach."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "In particular, the Company utilizes semiconductor chips in its housewares products and audio products."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:06:13.429Z",
+  "model": "deepseek-v4-flash"
+}

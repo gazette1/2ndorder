@@ -1,0 +1,57 @@
+{
+  "cik": "0001052354",
+  "ticker": "MADL",
+  "name": "MAN AHL DIVERSIFIED I LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-132136",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1052354/000119312526132136/ck0001052354-20251231.htm"
+  },
+  "business": "The Partnership engages in speculative trading of physical commodities, futures, options, swaps, and other derivatives through an investment in the Trading Company, which employs a systematic, statistically based investment strategy designed to capitalize on trends and inefficiencies across global markets. The Partnership offers Class A and Class B units to investors, including retail investors and retirement plans. The Partnership's trading advisor is AHL Partners LLP, an affiliate of the general partner.",
+  "sellsTo": [
+    "retail investors",
+    "employee benefit plans",
+    "IRAs",
+    "retirement plans and accounts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "J.P. Morgan Securities LLC",
+    "BofA Securities, Inc.",
+    "Barclays Capital Inc.",
+    "Natwest Markets plc",
+    "HSBC Bank PLC",
+    "Citibank, N.A. London Branch",
+    "BNP Paribas",
+    "Goldman Sachs & Co. LLC",
+    "J.P. Morgan Chase Bank N.A.",
+    "The Bank of New York Mellon"
+  ],
+  "exposures": [
+    {
+      "tag": "other:quantitative-models",
+      "stance": "core_product",
+      "sentence": "The AHL Diversified Program employs a systematic, statistically based investment strategy that is designed to identify and capitalize on trends and other inefficiencies in markets around the world."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The Trading Advisor may utilize AI Tools in connection with managing the Partnership and certain vendors and counterparties of the Partnership, including third-party research providers, may use AI Tools."
+    },
+    {
+      "tag": "other:leverage",
+      "stance": "risk_mention",
+      "sentence": "The low margin deposits normally required in futures trading permit an extremely high degree of leverage."
+    },
+    {
+      "tag": "other:multi-sector-trading",
+      "stance": "core_product",
+      "sentence": "The AHL Diversified Program trades globally in several market sectors, including without limitation, currencies, bonds, energies, stock indices, interest rates, credit, metals, agricultural and volatility."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:49:00.602Z",
+  "model": "deepseek-v4-flash"
+}

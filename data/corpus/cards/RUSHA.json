@@ -1,0 +1,87 @@
+{
+  "cik": "0001012019",
+  "ticker": "RUSHA",
+  "name": "RUSH ENTERPRISES INC \\TX\\",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005424",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926005424/rusha20251231_10k.htm"
+  },
+  "business": "Rush Enterprises is a full-service, integrated retailer of commercial vehicles and related services. It operates a network of commercial vehicle dealerships under the name Rush Truck Centers, selling new and used commercial vehicles, aftermarket parts, service, leasing, rental, financing, and insurance. Its customers include national and regional truck fleets, corporations, local and state governments, and owner-operators.",
+  "sellsTo": [
+    "national and regional truck fleets",
+    "corporations",
+    "local and state governments",
+    "owner-operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Peterbilt (PACCAR)",
+    "International (Navistar/International Motors)",
+    "Hino",
+    "Ford",
+    "Isuzu",
+    "IC Bus",
+    "Blue Bird",
+    "Blue Arc",
+    "Battle Motors",
+    "Cummins Inc. (joint venture)"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "all of the manufacturers we represent now have vehicles with electric drivetrains available for purchase."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "risk_mention",
+      "sentence": "Similarly, although we are aware of ongoing efforts to facilitate the development of autonomous commercial vehicles, the eventual timing of the availability of autonomous commercial vehicles is uncertain due to regulatory requirements and additional technological requirements."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI in our business and challenges with properly incorporating AI into our business and managing its use could result in reputational harm, competitive harm and legal liability."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "The recently enacted Commercial Vehicle Tariffs may impact demand for certain of the commercial vehicles and parts that we sell."
+    },
+    {
+      "tag": "other:emissions-regulations",
+      "stance": "risk_mention",
+      "sentence": "Laws and regulations intended to achieve the goal of significantly reducing engine emissions associated with the operation of commercial vehicles are complex and subject to change."
+    },
+    {
+      "tag": "other:telematics",
+      "stance": "core_product",
+      "sentence": "Through our strategically located network of Rush Truck Centers, we provide one-stop service for the needs of our commercial vehicle customers, including ... vehicle telematics products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dividend payment",
+      "date": "2026-03-18",
+      "sentence": "On February 17, 2026, our Board of Directors declared a cash dividend of $0.19 per share of Class A and Class B common stock, to be paid on March 18, 2026, to all shareholders of record as of March 3, 2026."
+    },
+    {
+      "event": "Stock repurchase program expiration",
+      "date": "2026-12-31",
+      "sentence": "The current stock repurchase program expires on December 31, 2026, and may be suspended or discontinued at any time."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. Class 8 truck retail sales estimated to total 211,300 units in 2026.",
+      "sentence": "According to A.C.T. Research, new U. S. Class 8 truck retail sales are estimated to total 211,300 units in 2026."
+    },
+    {
+      "claim": "U.S. Class 4 through 7 commercial vehicle retail sales estimated to total 218,225 units in 2026.",
+      "sentence": "According to A.C.T. Research, new U. S. Class 4 through 7 commercial vehicle retail sales are estimated to total 218,225 units in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:48:37.109Z",
+  "model": "deepseek-v4-flash"
+}

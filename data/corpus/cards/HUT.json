@@ -1,0 +1,79 @@
+{
+  "cik": "0001964789",
+  "ticker": "HUT",
+  "name": "Hut 8 Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-019392",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019392/hut-20251231x10k.htm"
+  },
+  "business": "Hut 8 is an energy infrastructure platform that integrates power, digital infrastructure, and compute to support AI, HPC, ASIC compute, and other energy-intensive applications. The company develops and operates data centers, provides colocation and cloud services, and manages a Bitcoin accumulation platform through its majority-owned subsidiary American Bitcoin. Revenue is generated from power management, digital infrastructure hosting, compute services (ASIC, traditional cloud, AI cloud), and equipment sales.",
+  "sellsTo": [
+    "AI workloads",
+    "high-performance computing (HPC)",
+    "ASIC compute (Bitcoin mining)",
+    "enterprise cloud and colocation",
+    "energy-intensive technology applications"
+  ],
+  "namedCustomers": [
+    "Fluidstack",
+    "Google",
+    "American Bitcoin"
+  ],
+  "namedSuppliers": [
+    "BITMAIN Technologies Ltd.",
+    "Vertiv",
+    "Entergy",
+    "Jacobs",
+    "J.P. Morgan",
+    "Goldman Sachs"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "our core focus is on commercializing this platform primarily through the development and operation of data centers at scale, supporting AI, high-performance computing ( HPC ), ASIC compute, and other energy-intensive technology applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "our core focus is on commercializing this platform primarily through the development and operation of data centers at scale, supporting AI, high-performance computing ( HPC ), ASIC compute, and other energy-intensive technology applications."
+    },
+    {
+      "tag": "other:asic-compute",
+      "stance": "core_product",
+      "sentence": "our core focus is on commercializing this platform primarily through the development and operation of data centers at scale, supporting AI, high-performance computing ( HPC ), ASIC compute, and other energy-intensive technology applications."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "active_investment",
+      "sentence": "American Bitcoin, a majority-owned subsidiary of Hut 8, is a publicly listed Bitcoin accumulation platform focused on industrial-scale ASIC compute and the development of a strategic Bitcoin reserve."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We acquire, develop, and manage critical energy assets such as powered land, interconnects, substations, switchyards, and related electrical systems designed to address the load demands of next-generation, energy-intensive technology applications."
+    },
+    {
+      "tag": "other:traditional-cloud",
+      "stance": "core_product",
+      "sentence": "Hut 8 Canada provides data center and cloud infrastructure services, including public and private cloud deployments, managed backup, business continuity and disaster recovery services, and high-capacity storage solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initial delivery and commissioning of first data hall at River Bend AI data center campus",
+      "date": "2027-06-30",
+      "sentence": "The project will commercialize 330 MW of utility capacity and is targeted for initial delivery and commissioning in Q2 2027."
+    },
+    {
+      "event": "Next Bitcoin halving event",
+      "date": "2028-01-01",
+      "sentence": "The last halving event occurred in April 2024, and the next halving event is expected to occur in 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:07:59.459Z",
+  "model": "deepseek-v4-flash"
+}

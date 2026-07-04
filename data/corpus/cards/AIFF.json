@@ -1,0 +1,51 @@
+{
+  "cik": "0000803578",
+  "ticker": "AIFF",
+  "name": "FIREFLY NEUROSCIENCE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010500",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/803578/000143774926010500/aiff20251231_10k.htm"
+  },
+  "business": "Firefly Neuroscience, Inc. sells a vertically integrated hardware, software, and data infrastructure called the Firefly Platform that captures EEG and ERP brain assessments and provides structured clinical reports. The platform includes the FDA-510(k) cleared Evoke System deployed at over 85 clinical sites in the United States as of December 31, 2025. Revenue is generated through a subscription-based model with per-use fees, and the company also engages with pharmaceutical companies for research support.",
+  "sellsTo": [
+    "neurology clinics",
+    "psychiatric clinics",
+    "pharmaceutical companies",
+    "academic research institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our FDA-510(k) cleared Evoke System, commercially deployed as the Evoke System, is in active use across more than 85 clinical sites in the United States as of December 31, 2025."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We have built the Firefly Platform: a vertically integrated hardware, software, and data infrastructure that captures standardized electroencephalographic (EEG) and event-related potential (ERP) assessments at the point of care, analyzes that data through our proprietary analytics engine, and delivers structured, clinician-ready reports back to the provider."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our subscription-based commercial model creates a recurring revenue stream that scales in lockstep with clinical utilization."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are increasingly reliant on machine learning models for EEG/ERP interpretation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant data breach, integrity failure, or model drift could adversely affect adoption, revenues, and our reputation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:41:14.381Z",
+  "model": "deepseek-v4-flash"
+}

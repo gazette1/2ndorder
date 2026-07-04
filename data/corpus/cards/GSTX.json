@@ -1,0 +1,55 @@
+{
+  "cik": "0001497649",
+  "ticker": "GSTX",
+  "name": "Graphene & Solar Technologies Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001903596-26-000052",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1497649/000190359626000052/gstx_10k.htm"
+  },
+  "business": "Graphene & Solar Technologies Ltd supplies standard silicon wafers for the photovoltaic (solar) manufacturing sector. The company's commercial product is standard silicon wafers used in the solar supply chain.",
+  "sellsTo": [
+    "photovoltaic manufacturers",
+    "solar cell manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The company has a focus and strategy to supply silicon wafers for the photovoltaic manufacturing sector."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The United States is undergoing a structural transformation of its energy system driven by rising electricity demand from data centers, artificial intelligence, manufacturing, and broader electrification of the economy."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The United States is undergoing a structural transformation of its energy system driven by rising electricity demand from data centers, artificial intelligence, manufacturing, and broader electrification of the economy."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "We believe the electrification of the U.S. economy, supported by solar and battery storage, represents a significant long-term opportunity for the Company."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "active_investment",
+      "sentence": "Acquisition and development of quartz resources in Australia, Brazil, the U.S., Canada, and Europe."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Establish initial production and begin generating revenue",
+      "date": "2026-09-30",
+      "sentence": "The goal for FY 2026 is to establish initial production and begin generating revenue."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:54:04.295Z",
+  "model": "deepseek-v4-flash"
+}

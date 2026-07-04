@@ -1,0 +1,57 @@
+{
+  "cik": "0000320193",
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000320193-25-000079",
+    "filedAt": "2025-10-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+  },
+  "business": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services. Customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets.",
+  "sellsTo": [
+    "consumer",
+    "small and mid-sized business",
+    "education",
+    "enterprise",
+    "government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "For example, the U.S. Department of Commerce has initiated an investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into, among other things, imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "The introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks, including exposing users to harmful, inaccurate or other negative content and experiences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Losses or unauthorized access to or releases of confidential information, including personal information, could subject the Company to significant reputational, financial, legal and operational consequences."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company offers payment services, including Apple Card, a co-branded credit card, and Apple Pay, a cashless payment service."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "The Company also offers digital content through subscription-based services, including Apple Arcade, a game service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a news and magazine service; and Apple TV, which offers exclusive original content and live sports."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:47:39.109Z",
+  "model": "deepseek-v4-flash"
+}

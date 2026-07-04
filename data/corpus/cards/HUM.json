@@ -1,0 +1,50 @@
+{
+  "cik": "0000049071",
+  "ticker": "HUM",
+  "name": "HUMANA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000049071-26-000009",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000009/hum-20251231.htm"
+  },
+  "business": "Humana sells health insurance products, primarily Medicare Advantage and prescription drug plans, as well as state-based Medicaid and military services. Through its CenterWell segment, it also provides pharmacy solutions, primary care, and home health services. The majority of its revenue comes from contracts with the federal government.",
+  "sellsTo": [
+    "Medicare beneficiaries",
+    "Medicaid beneficiaries",
+    "military personnel",
+    "individuals and employers",
+    "third-party health plans"
+  ],
+  "namedCustomers": [
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "During 2025, 83% of our total premiums and services revenue were derived from contracts with the federal government, including 14% derived from our individual Medicare Advantage contracts in Florida with the Centers for Medicare and Medicaid Services, or CMS, under which we provided health insurance coverage to approximately 1.0 million members as of December 31, 2025."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we, and the third-party service providers on whom we rely, are unable to defend our information technology systems against cybersecurity attacks, contain such attacks when they occur, or prevent other privacy or data security incidents that result in security breaches that disrupt our operations or in the unintentional dissemination of sensitive personal information or proprietary or confidential information, we could be exposed to significant regulatory fines or penalties, liability or reputational damage, or experience a material adverse effect on our results of operations, financial position, and cash flows."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "These systems require an ongoing commitment of significant resources to maintain, protect, and enhance existing systems and develop and integrate new systems, including systems powered by or incorporating artificial intelligence and machine learning (including generative AI) (AI/ML), to keep pace with continuing changes in information processing technology, evolving industry and regulatory standards, and changing customer preferences, and even with such resources there is no assurance that we will be able to do so."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed acquisition of a primary care business",
+      "date": "2026-02-13",
+      "sentence": "On February 13, 2026, we completed the acquisition of a primary care business for consideration of approximately $941 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:17:57.371Z",
+  "model": "deepseek-v4-flash"
+}

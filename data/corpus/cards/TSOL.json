@@ -1,0 +1,45 @@
+{
+  "cik": "0002028834",
+  "ticker": "TSOL",
+  "name": "21Shares Solana ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-035800",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2028834/000121390026035800/ea0281519-10k_21shares.htm"
+  },
+  "business": "The Trust is an exchange-traded fund that issues common shares of beneficial interest trading on the Cboe BZX Exchange under the symbol TSOL, seeking to track the performance of SOL tokens as measured by the CME CF Solana-Dollar Reference Rate - New York Variant, adjusted for expenses and staking rewards.",
+  "sellsTo": [
+    "Individual and institutional investors through Authorized Participants on the Cboe BZX Exchange"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CSC Delaware Trust Company",
+    "The Bank of New York Mellon",
+    "Coinbase Custody Trust Company, LLC",
+    "BitGo Bank & Trust Company, N.A.",
+    "Anchorage Digital Bank N.A.",
+    "Coinbase, Inc.",
+    "Coinbase Crypto Services, LLC",
+    "Figment Inc.",
+    "Twinstake Ltd",
+    "Foreside Global Services, LLC",
+    "CF Benchmarks Ltd"
+  ],
+  "exposures": [
+    {
+      "tag": "other:solana-blockchain",
+      "stance": "core_product",
+      "sentence": "The Trust is a passive investment vehicle that does not seek to generate returns beyond tracking the price of SOL tokens, the native digital asset of the Solana blockchain (SOL)."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is to seek to track the performance of SOL, as measured by the performance of the CME CF Solana-Dollar Reference Rate - New York Variant (the Pricing Benchmark), adjusted for the Trust's expenses and other liabilities, and to reflect rewards from staking a portion of the Trust's SOL, to the extent the Sponsor in its sole discretion determines that the Trust may do so without undue legal or regulatory risk, such as, without limitation, the risk of jeopardizing the Trust's ability to qualify as a grantor trust for tax purposes."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:45:31.023Z",
+  "model": "deepseek-v4-flash"
+}

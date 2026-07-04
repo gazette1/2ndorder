@@ -1,0 +1,65 @@
+{
+  "cik": "0000065984",
+  "ticker": "ETR",
+  "name": "ENTERGY CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy is an integrated energy company engaged primarily in electric power production and energy delivery to retail customers. The Utility segment includes the generation, transmission, distribution, and sale of electric power in portions of Arkansas, Mississippi, Texas, and Louisiana.",
+  "sellsTo": [
+    "Retail customers in Arkansas, Louisiana, Mississippi, Texas (including New Orleans)",
+    "Residential, commercial, industrial, governmental, and wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The success of certain Utility operating companies investments in new generation and transmission assets to support large-scale data centers depends on a limited number of such customers, the continued demand for electricity to power data centers and the successful completion of the associated generation and transmission projects."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "The Utility has a diverse power generation portfolio including nuclear, hydroelectric, solar, and highly efficient natural gas."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The Utility has a diverse power generation portfolio including nuclear, hydroelectric, solar, and highly efficient natural gas."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "The Utility segment includes the generation, transmission, distribution, and sale of electric power in portions of Arkansas, Mississippi, Texas, and Louisiana."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Entergy is an integrated energy company engaged primarily in electric power production and energy delivery to retail customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entergy Arkansas to file next base rate case no later than February 27, 2026",
+      "date": "2026-02-27",
+      "sentence": "As part of the settlement of the 2023 formula rate plan proceeding, Entergy Arkansas agreed to file its next base rate case no later than February 27, 2026."
+    },
+    {
+      "event": "Entergy Louisiana filed a motion to suspend procedural schedule for permanent gas hedging program; status conference scheduled in March 2026",
+      "date": "2026-03-01",
+      "sentence": "The parties remain engaged in settlement discussions with a status conference scheduled in March 2026."
+    },
+    {
+      "event": "Entergy Louisiana filed an unopposed motion to suspend procedural schedule for demand response programs; joint motion for settlement filed February 2026",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, Entergy Louisiana and the LPSC staff filed a joint motion seeking approval of an uncontested stipulated settlement agreement supporting approval of the propose DR programs subject to various terms."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:16:22.452Z",
+  "model": "deepseek-v4-flash"
+}

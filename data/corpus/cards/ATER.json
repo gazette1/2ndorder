@@ -1,0 +1,45 @@
+{
+  "cik": "0001757715",
+  "ticker": "ATER",
+  "name": "Aterian, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009285",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1757715/000143774926009285/ater20251231_10k.htm"
+  },
+  "business": "Aterian, Inc. is a consumer products company that sells products under owned brands through online retail channels, primarily on the Amazon US marketplace. The company's product categories include home and kitchen appliances, kitchenware, air quality appliances, health and beauty products, and essential oils. Its primary brands include Squatty Potty, HomeLabs, Mueller Living, PurSteam, Healing Solutions, and Photo Paper Direct.",
+  "sellsTo": [
+    "individual online consumers",
+    "wholesale buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We generate revenue primarily through the online sales of our various consumer products with substantially all of our sales being made through the Amazon U.S. marketplace."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company operates its owned brands, which were either incubated or purchased, selling products in multiple categories, including home and kitchen appliances, kitchenware, air quality appliances, health and beauty products and essential oils."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We are heavily dependent on inbound sea, rail and truck freight."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of workforce reduction affecting approximately 16 employees and independent contractors",
+      "date": "2026-03-31",
+      "sentence": "The Company expects to substantially complete this reduction by the end of the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:51:31.695Z",
+  "model": "deepseek-v4-flash"
+}

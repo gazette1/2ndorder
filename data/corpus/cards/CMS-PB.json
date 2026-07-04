@@ -1,0 +1,65 @@
+{
+  "cik": "0000201533",
+  "ticker": "CMS-PB",
+  "name": "CONSUMERS ENERGY CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000811156-26-000004",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/201533/000081115626000004/cms-20251231.htm"
+  },
+  "business": "Consumers provides electricity and natural gas to residential, commercial, and industrial customers in Michigan's Lower Peninsula. NorthStar Clean Energy develops and operates renewable generation and markets independent power production.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Michigan Lower Peninsula"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Panhandle Eastern Pipe Line Company",
+    "Trunkline Gas Company, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Consumers electric utility operations include the generation, purchase, distribution, and sale of electricity, and Consumers gas utility operations include the purchase, transmission, storage, distribution, and sale of natural gas."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Consumers updates to its Renewable Energy Plan include up to 9,000 MW of both purchased and owned solar energy resources and up to 4,000 MW of wind energy resources."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "The 2023 Energy Law... created a new energy storage standard, requiring electric utilities to file plans by 2029 to help achieve a statewide target of 2,500 MW."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Consumers also faces competition or potential competition associated with data center expansion"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Advancements in technology related to items such as battery storage, carbon capture/storage, and electric vehicles may not become commercially available or economically feasible as projected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commercial operation of renewable natural gas facilities",
+      "date": null,
+      "sentence": "Consumers has renewable natural gas facilities under construction scheduled for commercial operation in 2026."
+    },
+    {
+      "event": "Planned updates to integrated resource plan",
+      "date": null,
+      "sentence": "Consumers updates to its Renewable Energy Plan, which were approved by the MPSC in September 2025, and planned updates to its integrated resource plan in 2026 will serve as a blueprint to meeting the requirements of the 2023 Energy Law."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:48:15.315Z",
+  "model": "deepseek-v4-flash"
+}

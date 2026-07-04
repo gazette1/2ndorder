@@ -1,0 +1,44 @@
+{
+  "cik": "0000856984",
+  "ticker": "USAQ",
+  "name": "QHSLab, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013513",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/856984/000149315226013513/form10-k.htm"
+  },
+  "business": "QHSLab, Inc. is a digital health company that provides a platform for independent primary care practices to identify and manage behavioral health conditions through digital screening and follow-up care. It also offers allergy diagnostics and treatment under the AllergiEnd brand, including FDA-cleared skin test applicators. Revenue is generated primarily from per-patient per-month subscription fees from medical practices and sales of allergy diagnostic kits and immunotherapy treatments.",
+  "sellsTo": [
+    "independent primary care practices",
+    "physician-led practices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We generate revenue primarily through recurring per-patient, per-month fees paid by participating medical practices for access to and use of our digital platform and associated services."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The AllergiEnd product line consists primarily of FDA-cleared, disposable, single-use allergy skin test applicators and matching test trays designed for office-based use."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "AllergiEnd is our allergy diagnostics and treatment offering, designed to enable primary care practices to identify and manage allergic disease within the primary care setting."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "approximately 60 million individuals in the United States are affected by allergic disorders",
+      "sentence": "It is estimated that approximately 60 million individuals in the United States are affected by allergic disorders."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:20:34.689Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,89 @@
+{
+  "cik": "0000070502",
+  "ticker": "NRUC",
+  "name": "NATIONAL RURAL UTILITIES COOPERATIVE FINANCE CORP /DC/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000070502-25-000211",
+    "filedAt": "2025-08-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/70502/000007050225000211/nruc-20250531.htm"
+  },
+  "business": "CFC is a member-owned nonprofit finance cooperative that provides loans and credit enhancements to rural electric cooperatives to supplement federal loan programs. NCSC, a consolidated entity, provides financing to electric and telecommunications members. The company's primary objective is to offer cost-based credit products to its members.",
+  "sellsTo": [
+    "Rural electric cooperatives",
+    "Electric distribution systems",
+    "Power supply systems",
+    "Telecommunications companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Loans to electric utility organizations accounted for approximately 98% of our total loans outstanding as of both May 31, 2025 and 2024."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "NCSC participates with other lenders on a syndicated basis in the origination of financing focused on power generation and transmission projects, including solar, wind and battery projects sponsored by developers with extensive experience developing, financing, constructing and operating power projects."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our aggregate loans outstanding to CFC electric distribution cooperative members relating to broadband projects, which we started tracking in October 2017, increased to approximately $3,441 million as of May 31, 2025, from approximately $3,103 million as of May 31, 2024."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Demand growth is driven primarily by new data centers and new manufacturing facilities in the coming decade followed by electric vehicle growth and beneficial electrification trends."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The rapid expansion of artificial intelligence and cloud computing technologies is the primary driver of new data center construction, further accelerating electricity demand."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Demand growth is driven primarily by new data centers and new manufacturing facilities in the coming decade followed by electric vehicle growth and beneficial electrification trends."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity threats also loom large, with increasing sophistication in attacks targeting critical infrastructure."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "We have observed an increase in capital investments by electric cooperatives to proactively strengthen existing electric systems as well as replace systems in the aftermath of damage from weather-related incidents."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "NCSC participates with other lenders on a syndicated basis in the origination of financing focused on power generation and transmission projects, including solar, wind and battery projects sponsored by developers with extensive experience developing, financing, constructing and operating power projects."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "NCSC participates with other lenders on a syndicated basis in the origination of financing focused on power generation and transmission projects, including solar, wind and battery projects sponsored by developers with extensive experience developing, financing, constructing and operating power projects."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Members non-RUS long-term debt $69,965,296 as of December 31, 2024",
+      "sentence": "Total long-term debt reported by members: (1) Distribution $ 70,171,733, Power supply $ 54,140,111, Less: Long-term debt funded by RUS (54,346,548), Members non-RUS long-term debt $ 69,965,296."
+    },
+    {
+      "claim": "Electric cooperatives provide power to approximately 56% of the nation's land mass.",
+      "sentence": "Electric cooperatives provide power to approximately 56% of the nation's land mass."
+    },
+    {
+      "claim": "The electric utility industry had revenue of approximately $491 billion in 2023.",
+      "sentence": "Based on the latest annual data reported by the U.S. Energy Information Administration, a statistical and analytical agency within the U.S. Department of Energy, the electric utility industry had revenue of approximately $491 billion in 2023."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:47:32.818Z",
+  "model": "deepseek-v4-flash"
+}

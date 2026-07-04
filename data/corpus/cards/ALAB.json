@@ -1,0 +1,55 @@
+{
+  "cik": "0001736297",
+  "ticker": "ALAB",
+  "name": "Astera Labs, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001736297-26-000010",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm"
+  },
+  "business": "Astera Labs designs and delivers semiconductor-based connectivity solutions for cloud and AI infrastructure. Its products include Aries PCIe/CXL Smart DSP Retimers, Taurus Ethernet Smart Cable Modules, Leo CXL Memory Connectivity Controllers, and Scorpio Smart Fabric Switches, along with the COSMOS software suite. The company sells to hyperscalers, leading AI accelerator vendors, and system OEMs.",
+  "sellsTo": [
+    "cloud infrastructure",
+    "AI infrastructure",
+    "hyperscalers",
+    "system OEMs"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TSMC",
+    "Advanced Semiconductor Engineering",
+    "Amkor Technologies"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our connectivity solutions are at the heart of major AI platforms deployed worldwide featuring both commercially available Graphic Processing Units (GPUs) and proprietary AI accelerators."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our mission is to innovate, design, and deliver semiconductor-based connectivity solutions that are purpose-built to unleash the full potential of cloud and AI infrastructure."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Astera Labs is a global semiconductor company that provides hardware and software solutions for AI and cloud infrastructure applications to solve data, memory, and networking bottlenecks."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Taurus Ethernet Smart Cable Modules increase network connectivity bandwidth between servers and switches over copper media."
+    },
+    {
+      "tag": "other:memory-connectivity",
+      "stance": "core_product",
+      "sentence": "Our Leo products allow our customers to overcome processor memory bandwidth bottlenecks and capacity limitations, while leveraging our COSMOS software suite's built-in memory management and deep diagnostic capabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:07:20.641Z",
+  "model": "deepseek-v4-flash"
+}

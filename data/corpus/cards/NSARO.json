@@ -1,0 +1,46 @@
+{
+  "cik": "0000013372",
+  "ticker": "NSARO",
+  "name": "NSTAR ELECTRIC CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008461",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/13372/000162828026008461/es-20251231.htm"
+  },
+  "business": "NSTAR Electric is a regulated electric utility that distributes electricity to residential, commercial and industrial customers in parts of eastern and western Massachusetts, and owns and operates solar power facilities.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "NSTAR Electric owns, operates and maintains a total of 70 MW of solar power facilities on twenty-two sites in Massachusetts."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "NSTAR Electric's distribution business consists primarily of the purchase, delivery and sale of electricity to its residential, commercial and industrial customers."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "NSTAR Electric also owns and maintains transmission facilities that are part of an interstate power transmission grid over which electricity is transmitted throughout New England."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initial in-service date for the Greater Cambridge Energy Program transmission substation and two transmission lines",
+      "date": "2029-06",
+      "sentence": "The initial in-service date for the project is June 2029, which includes two 115-kV transmission lines and the transmission portion of the substation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:07:22.263Z",
+  "model": "deepseek-v4-flash"
+}

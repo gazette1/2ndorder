@@ -1,0 +1,104 @@
+{
+  "cik": "0000108312",
+  "ticker": "WWD",
+  "name": "Woodward, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-296204",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/108312/000119312525296204/wwd-20250930.htm"
+  },
+  "business": "Woodward designs, manufactures, and services control solutions for aerospace and industrial markets, including propulsion, actuation, motion control, and combustion systems, focusing on energy optimization for OEMs and aftermarket support.",
+  "sellsTo": [
+    "Commercial aerospace OEMs",
+    "Defense OEMs",
+    "Aerospace services (MRO)",
+    "Power generation utilities and data centers",
+    "Transportation (natural gas trucks, mining, marine)",
+    "Oil and gas (LNG production)"
+  ],
+  "namedCustomers": [
+    "Airbus",
+    "Boeing",
+    "Bell",
+    "Comac"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Our aerospace products and systems are primarily used to provide propulsion, actuation, and motion control in both commercial and defense fixed-wing aircraft, rotorcraft, smart defense, and other defense systems."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The demand for power generation, driven in part by rising data center requirements, remained robust in fiscal year 2025."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Defense OEM sales increased in fiscal year 2025 as compared to fiscal year 2024, primarily driven by increased demand for our smart defense products."
+    },
+    {
+      "tag": "space",
+      "stance": "risk_mention",
+      "sentence": "we have developed and are executing on strategies to leverage the macro trends of reducing greenhouse gases, commercializing space, and accelerating the digital age."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "We expect this trend to continue as global electrification, renewable integration, and expanding data center loads drive increased electricity consumption."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "During fiscal year 2025, we experienced growth driven by increased demand for solutions supporting liquified natural gas production."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Key markets for transportation include compressed natural gas and liquefied natural gas trucks in Asia, mining, and commercial and defense marine markets."
+    },
+    {
+      "tag": "precision-motion",
+      "stance": "core_product",
+      "sentence": "We recently announced that Airbus has selected Woodward as the supplier for the electro-hydraulic A350 Spoiler Actuation System."
+    },
+    {
+      "tag": "other:natural-gas-trucks",
+      "stance": "core_product",
+      "sentence": "In fiscal year 2025, we experienced a material decline in demand for our on highway natural gas truck business in China compared to fiscal year 2024."
+    },
+    {
+      "tag": "other:power-generation",
+      "stance": "core_product",
+      "sentence": "Our industrial products are used worldwide in various types of turbine and reciprocating engine-powered equipment, including electric power generation and distribution systems, ships, locomotives, compressors, pumps, and other mobile and industrial machines."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Boeing strike ends, resuming 737 MAX and 777 production",
+      "date": "2024-11-01",
+      "sentence": "In November 2024, Boeing's U.S. West Coast factory workers accepted a new contract offer, ending a seven-week strike that halted production of the 737 MAX as well as the 777."
+    },
+    {
+      "event": "FAA and Boeing agree to increase 737 build rates",
+      "date": "2025-10-01",
+      "sentence": "in October 2025, the FAA and Boeing jointly agreed they could increase the 737 build rates."
+    },
+    {
+      "event": "Airbus selects Woodward as supplier for A350 spoiler actuation system",
+      "date": null,
+      "sentence": "We recently announced that Airbus has selected Woodward as the supplier for the electro-hydraulic A350 Spoiler Actuation System."
+    },
+    {
+      "event": "Woodward acquires Safran's electromechanical actuation business",
+      "date": null,
+      "sentence": "In addition, Woodward announced the acquisition of Safran s electromechanical actuation business."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:38:32.532Z",
+  "model": "deepseek-v4-flash"
+}

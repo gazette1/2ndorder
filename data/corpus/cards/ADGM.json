@@ -1,0 +1,72 @@
+{
+  "cik": "0002006986",
+  "ticker": "ADGM",
+  "name": "Adagio Medical Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002006986-26-000003",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/2006986/000200698626000003/adgm-20251231x10k.htm"
+  },
+  "business": "Adagio Medical Holdings, Inc. is a medical device company focused on developing and commercializing products for the treatment of cardiac arrhythmias with its novel, proprietary, catheter-based Ultra-Low Temperature Ablation (ULTA) technology. It sells its products directly to hospitals and medical centers for use by cardiac electrophysiologists in treating ventricular tachycardia (VT).",
+  "sellsTo": [
+    "hospitals",
+    "medical centers",
+    "cardiac electrophysiologists"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a medical device company focused on developing and commercializing products for the treatment of cardiac arrhythmias with our novel, proprietary, catheter-based Ultra-Low Temperature Ablation ( ULTA ) technology, formerly known as Ultra-Low Temperature Cryoablation ( ULTC ) technology."
+    },
+    {
+      "tag": "other:next-generation-ulta",
+      "stance": "active_investment",
+      "sentence": "We are also currently developing a next-generation ULTA technology for VT."
+    },
+    {
+      "tag": "other:pulsed-field-cryoablation",
+      "stance": "active_investment",
+      "sentence": "We have also developed a technology that utilizes ULTA in combination with PFA, which we call Pulsed Field Cryoablation ( PFCA )."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share six-month results of FULCRUM-VT trial at Heart Rhythm Society 2026 Conference",
+      "date": null,
+      "sentence": "We plan to share the six-month results of the FULCRUM-VT trial in April 2026 at the Heart Rhythm Society 2026 Conference"
+    },
+    {
+      "event": "Submit results to support application for FDA approval of vCLAS Cryoablation System",
+      "date": null,
+      "sentence": "to submit the results of this trial to support our application for FDA approval of our vCLAS TM Cryoablation System in the first half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The total addressable global market for VT ablation is $5.8 billion, comprising 1.6 million patients.",
+      "sentence": "It is estimated that the total addressable global market for VT ablation is $5.8 billion, which is comprised of approximately 1.6 million patients with VT who are eligible for ablation each year."
+    },
+    {
+      "claim": "The U.S. addressable market for VT is $1.6 billion, comprising 200,000 patients.",
+      "sentence": "Within the U.S., the total addressable market for VT is estimated to be $1.6 billion, comprised of 200,000 patients."
+    },
+    {
+      "claim": "The global electrophysiology device market was approximately $14 billion in 2025.",
+      "sentence": "The total value of the global market for electrophysiology ( EP ) devices in 2025 was approximately $14 billion"
+    },
+    {
+      "claim": "The EP device market is projected to grow at a CAGR of about 13% to over $33 billion by 2033.",
+      "sentence": "According to industry sources, longer-term, the market is projected to grow at a compound annual growth rate of approximately 13%, reaching over $33 billion by 2033."
+    },
+    {
+      "claim": "VT ablation procedures have been growing by approximately 7% annually.",
+      "sentence": "VT ablation procedures have been growing by approximately 7% annually"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:50:01.505Z",
+  "model": "deepseek-v4-flash"
+}

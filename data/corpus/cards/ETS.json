@@ -1,0 +1,61 @@
+{
+  "cik": "0002053641",
+  "ticker": "ETS",
+  "name": "Elite Express Holding Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021557",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/2053641/000110465926021557/ets-20251130x10k.htm"
+  },
+  "business": "We are a holding company incorporated in Delaware. Through our wholly owned subsidiary, JAR Transportation Inc, a California-based operating entity, we specialize in last-mile delivery services within California. During this period, 100% of our revenue was derived from our subsidiary's last-mile delivery services to our sole customer, FedEx.",
+  "sellsTo": [
+    "FedEx",
+    "last-mile delivery services",
+    "e-commerce deliveries"
+  ],
+  "namedCustomers": [
+    "FedEx"
+  ],
+  "namedSuppliers": [
+    "ARCO",
+    "Robinson Oil Corp."
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We utilize GroundCloud, a leading logistics software, during our course of business, for route optimization, driver management, and compliance monitoring."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We plan to invest in suitable AI technologies to further optimize delivery routes and operations."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "We have purchased three electric trucks as of the date of this annual report, and we plan to deploy additional electric vehicles as our operations expand and capital resources permit."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "active_investment",
+      "sentence": "Our plan is to gradually update our delivery system by integrating customized AI technology developed by third-party providers and expect to integrate autonomous vehicles within the next three to five years."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Deadline to regain compliance with Nasdaq minimum bid price requirement",
+      "date": "2026-04-29",
+      "sentence": "In accordance with Nasdaq Listing Rule 5810(c)(3)(A), we have been provided a compliance period of 180 calendar days, until April 29, 2026, to regain compliance with the minimum bid price requirement."
+    },
+    {
+      "event": "New FedEx Independent Service Provider Agreement commences",
+      "date": "2026-02-21",
+      "sentence": "A revised new agreement was updated and commenced on February 21, 2026 by the Company and FedEx, with a term through January 1, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:46:56.229Z",
+  "model": "deepseek-v4-flash"
+}

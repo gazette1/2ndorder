@@ -1,0 +1,77 @@
+{
+  "cik": "0000202058",
+  "ticker": "LHX",
+  "name": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000202058-26-000015",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/hrs-20260102.htm"
+  },
+  "business": "L3Harris Technologies, Inc. delivers end-to-end technology solutions connecting the space, air, land, sea and cyber domains in the interest of national security. Its largest customers are various departments and agencies of the U.S. Government, their prime contractors and international allies. The company operates in four segments: Communication Systems, Integrated Mission Systems, Space & Airborne Systems, and Aerojet Rocketdyne.",
+  "sellsTo": [
+    "U.S. Government departments and agencies",
+    "prime contractors",
+    "international allies",
+    "Department of War",
+    "NASA",
+    "federal and state agencies",
+    "Republic of Korea Air Force",
+    "Federal Aviation Administration"
+  ],
+  "namedCustomers": [
+    "U.S. Government",
+    "Department of War (DoW)",
+    "NASA",
+    "Republic of Korea Air Force",
+    "Federal Aviation Administration (FAA)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We deliver end-to-end technology solutions connecting the space, air, land, sea and cyber domains in the interest of national security."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Supplies full mission solutions as a prime and subsystem integrator in the space, airborne and cyber domains."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Space Systems: ISR; position, navigation and timing; weather and climate monitoring; missile defense and ground-based space surveillance networks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are members of the DoW Defense Industrial Base Collaborative Information Sharing Environment, the National Defense Information Sharing and Analysis Center, and the National Security Agency's Cybersecurity Collaboration Center."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Such collaboration is driven by modern market dynamics where competing in our markets requires the ability to fuse hardware, software and artificial intelligence (AI)."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Targeting & Sensor Systems (TSS): Multi-domain, multi-spectral electro-optical (EO) and infrared (IR) sensor systems supporting ISR and target acquisition missions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Divestiture of the CAS disposal group",
+      "date": "2025-03-28",
+      "sentence": "On March 28, 2025, the CAS disposal group was divested."
+    },
+    {
+      "event": "Streamlining of business segments from four to three",
+      "date": null,
+      "sentence": "Beginning fiscal 2026, we streamlined our business segments from four business segments to three business segments, more closely aligning common capabilities and business models."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:16:09.919Z",
+  "model": "deepseek-v4-flash"
+}

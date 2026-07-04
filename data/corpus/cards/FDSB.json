@@ -1,0 +1,42 @@
+{
+  "cik": "0002012726",
+  "ticker": "FDSB",
+  "name": "Fifth District Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-033945",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/2012726/000110465926033945/fdsb-20251231x10k.htm"
+  },
+  "business": "Fifth District Bancorp, Inc. is a savings and loan holding company that operates through its wholly owned subsidiary, Fifth District Savings Bank, a federally-chartered savings bank. The bank originates primarily fixed-rate one-to-four-family residential mortgage loans and offers a variety of deposit accounts. Its primary market area is the New Orleans-Metairie Metropolitan Statistical Area.",
+  "sellsTo": [
+    "individuals in primary market area",
+    "businesses in primary market area",
+    "retail depositors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bankers Healthcare Group, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our loan portfolio consists primarily of fixed-rate one-to four-family residential mortgage loans."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also face competition for loans from mortgage banking firms, consumer finance companies, credit unions, and fintech companies"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a failure or breach of our operational or information security systems or infrastructure, including cyberattacks"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:51:37.409Z",
+  "model": "deepseek-v4-flash"
+}

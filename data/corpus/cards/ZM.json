@@ -1,0 +1,54 @@
+{
+  "cik": "0001585521",
+  "ticker": "ZM",
+  "name": "Zoom Communications, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001585521-26-000030",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm"
+  },
+  "business": "Zoom provides an AI-first, open work platform for communication and collaboration, including Zoom Workplace and Zoom Business Services. Customers range from individuals to global Fortune 50 organizations across various industries.",
+  "sellsTo": [
+    "education",
+    "entertainment/media",
+    "enterprise infrastructure",
+    "finance",
+    "government",
+    "health care",
+    "manufacturing",
+    "nonprofit/not-for-profit and social impact",
+    "retail/consumer products",
+    "software/internet"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Oracle Cloud",
+    "Microsoft Azure",
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Zoom AI Companion, launched in September 2023, is Zoom's integrated, agentic AI solution, designed to enhance productivity by driving systems of action across the Zoom platform that help customers and employees get real work done."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We plan to continue our practice of opening new co-located data centers throughout the world to meet increased demand, but we may be unable to bring additional data centers online in a timely manner, including as a result of current shortages for certain parts, such as servers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Trust is a cornerstone of the Zoom platform."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:36:14.735Z",
+  "model": "deepseek-v4-flash"
+}

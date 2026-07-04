@@ -1,0 +1,91 @@
+{
+  "cik": "0001821159",
+  "ticker": "EVGO",
+  "name": "EVgo Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-024827",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1821159/000110465926024827/evgo-20251231x10k.htm"
+  },
+  "business": "EVgo Inc. is a leading public EV fast charging provider, building, owning and operating DC fast charging stations across the U.S. It sells charging services to retail drivers, commercial fleets, and OEMs, and also offers white-label solutions (EVgo eXtend) and software services.",
+  "sellsTo": [
+    "Retail EV drivers",
+    "Commercial fleet operators (e.g., rideshare, delivery)",
+    "Automotive OEMs",
+    "Site Hosts (retailers, grocery stores, etc.)",
+    "Fleet customers (autonomous vehicle, depot fleets)"
+  ],
+  "namedCustomers": [
+    "General Motors (GM)",
+    "Honda",
+    "Toyota",
+    "Lyft",
+    "Presto",
+    "Pilot Company"
+  ],
+  "namedSuppliers": [
+    "Delta",
+    "Driivz"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "The foundation of our business is building, owning and operating EV fast charging sites that deliver charging to EVs driven by individuals, commercial drivers and fleet operators."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "We purchase electricity for the majority of our charging stations directly from local utilities as a commercial or industrial customer representing approximately 96% of our total GWh throughput in 2025."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GM Agreement: install 2,850 charger stalls",
+      "date": "2028-06-30",
+      "sentence": "Under the GM Agreement, we are required to install a total of 2,850 charger stalls by June 30, 2028, 81.4% of which were required to be and were installed by December 31, 2025."
+    },
+    {
+      "event": "Pilot Infrastructure Agreement: surpassed 1,000 completed stalls milestone",
+      "date": "2025",
+      "sentence": "In 2025, we surpassed the 1,000 completed stalls milestone."
+    },
+    {
+      "event": "DOE Loan quarterly payments commence",
+      "date": "2030-03-15",
+      "sentence": "Beginning on March 15, 2030, Swift Borrower will be required to make quarterly payments to the FFB."
+    },
+    {
+      "event": "30C income tax credit expiration",
+      "date": "2026-06-30",
+      "sentence": "30C income tax credits are now scheduled to expire on June 30, 2026 for any property placed in service after that date."
+    },
+    {
+      "event": "Credit Agreement initial borrowing",
+      "date": "2025-07-24",
+      "sentence": "in connection with the initial borrowing on July 24, 2025"
+    },
+    {
+      "event": "GM agreement active pipeline as of Feb 15, 2026",
+      "date": "2026-02-15",
+      "sentence": "As of February 15, 2026, there were approximately 429 charger stalls in the active engineering and construction development pipeline, all of which had been approved by GM."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "5.7 million BEVs in operation in the U.S. as of Dec 31, 2025",
+      "sentence": "As of December 31, 2025, there were approximately 5.7 million BEVs in operation in the U.S. according to Experian."
+    },
+    {
+      "claim": "68,000 DCFC charging ports in service in the U.S. as of Dec 31, 2025",
+      "sentence": "As of December 31, 2025, there were approximately 68,000 DCFC charging ports in service in the U.S., an increase of approximately 17,000 from the prior year."
+    },
+    {
+      "claim": "EV market share was 7.5% of all vehicle sales in 2025",
+      "sentence": "The market share of EVs was approximately 7.5% of all vehicle sales in 2025 according to Reuters."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:11:35.200Z",
+  "model": "deepseek-v4-flash"
+}

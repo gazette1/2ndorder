@@ -1,0 +1,74 @@
+{
+  "cik": "0000008818",
+  "ticker": "AVY",
+  "name": "Avery Dennison Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000008818-26-000015",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000015/avy-20251231.htm"
+  },
+  "business": "Avery Dennison is a global leader in materials science and digital identification solutions, providing labeling and functional materials, RFID inlays and tags, and software applications that connect the physical and digital. It serves industries such as home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals, and automotive. The company operates in more than 50 countries with over 200 manufacturing and distribution facilities.",
+  "sellsTo": [
+    "home and personal care",
+    "apparel",
+    "general retail",
+    "e-commerce",
+    "logistics",
+    "food and grocery",
+    "pharmaceuticals",
+    "automotive",
+    "converters",
+    "building and construction",
+    "electronics"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We serve an array of industries worldwide, including home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals and automotive."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We serve an array of industries worldwide, including home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals and automotive."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We serve an array of industries worldwide, including home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals and automotive."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our tapes portfolio includes bonding and functional materials for applications in various industry sectors such as automotive, building and construction and electronics."
+    },
+    {
+      "tag": "other:rfid",
+      "stance": "core_product",
+      "sentence": "radio-frequency identification (\"RFID\") inlays and tags"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity or other security breaches could compromise our information and expose us to liability, which could have a material adverse effect on our business and reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened first RFID inlay and label production site in India",
+      "date": null,
+      "sentence": "In 2025, we opened our first RFID inlay and label production site in India."
+    },
+    {
+      "event": "Acquired W.F. Taylor Holdings, Inc. (Taylor Adhesives)",
+      "date": "2025-10-20",
+      "sentence": "On October 20, 2025, we completed our business acquisition of W.F. Taylor Holdings, Inc. (\"Taylor Adhesives\"), a Georgia-based flooring adhesives business, for the purchase price of approximately $390 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:05:11.120Z",
+  "model": "deepseek-v4-flash"
+}

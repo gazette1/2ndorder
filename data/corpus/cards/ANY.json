@@ -1,0 +1,66 @@
+{
+  "cik": "0001591956",
+  "ticker": "ANY",
+  "name": "Sphere 3D Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001591956-26-000004",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1591956/000159195626000004/any-20251231.htm"
+  },
+  "business": "Sphere 3D Corp. generates revenue from Bitcoin mining operations. It owns and operates miners to mine Bitcoin and sells Bitcoin to support operations and strategic growth. As of December 31, 2025, it owned approximately 12,600 miners with a total hashrate capacity of 0.73 EH/s.",
+  "sellsTo": [
+    "mining pool operators"
+  ],
+  "namedCustomers": [
+    "Foundry Digital LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Our Bitcoin mining operation is focused on maximizing our ability to successfully mine Bitcoin by growing our hashrate (the amount of computer power we devote to supporting the Bitcoin blockchain), to increase our chances of successfully creating new blocks on the Bitcoin blockchain (a process known as proof of work)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "Vertically integrating with self-owned facilities, such as our Iowa Site, allows us to reduce our reliance on third-party hosting sites and decrease our overall cost to mine a Bitcoin."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Bitcoin mining operations require a substantial amount of power and can only be successful, and ultimately profitable, if the costs we incur, including for electricity, are lower than the revenue we generate from our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Definitive agreement to combine with Cathedra Bitcoin Inc.",
+      "date": "2026-03-05",
+      "sentence": "On March 5, 2026, we and Cathedra Bitcoin Inc. (Cathedra), entered into a definitive agreement to combine the two companies, in an all-stock transaction, to create a high density computing power infrastructure company focused on high-performance compute, digital assets, energy optimization, and development of power and infrastructure."
+    },
+    {
+      "event": "Share consolidation (1-for-10 reverse stock split) effective",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, we filed an Articles of Amendment to effect a share consolidation (also known as a reverse stock split) of our issued and outstanding common shares in the ratio of 1-for-10."
+    },
+    {
+      "event": "Sale of older generation miners for newer generation miners",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, we sold approximately 7,700 older generation miners included in property and equipment for 437 newer generation miners with a value of $1.1 million."
+    },
+    {
+      "event": "Anticipated increase in exahash throughout 2026",
+      "date": null,
+      "sentence": "Based on our existing operations and expected deployment of miners we have purchased, we anticipate continuing to increase exahash throughout 2026."
+    },
+    {
+      "event": "Expected efficiency improvement to 19.0 J/th in 2026",
+      "date": null,
+      "sentence": "We expect efficiency to improve in 2026 to approximately 19.0 J/th."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:46:03.723Z",
+  "model": "deepseek-v4-flash"
+}

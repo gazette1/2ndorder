@@ -1,0 +1,103 @@
+{
+  "cik": "0000827052",
+  "ticker": "EIX",
+  "name": "EDISON INTERNATIONAL",
+  "source": {
+    "form": "10-K",
+    "accession": "0000827052-26-000012",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000012/eix-20251231.htm"
+  },
+  "business": "SCE is an investor-owned public utility primarily engaged in the business of supplying and delivering electricity to an approximately 50,000 square mile area across Southern, Central and Coastal California. Trio is a global energy advisory firm providing integrated sustainability and energy solutions to commercial, industrial and institutional customers.",
+  "sellsTo": [
+    "Residential and commercial customers",
+    "Industrial customers",
+    "Institutional customers",
+    "Community choice aggregators",
+    "Electric service providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "SCE is an investor-owned public utility primarily engaged in the business of supplying and delivering electricity to an approximately 50,000 square mile area across Southern, Central and Coastal California."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The electric power industry is undergoing urgent and fundamental changes in how energy infrastructure is planned and built, driven by new sources of demand, such as electric vehicles, data centers, and building electrification;"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, SCE had completed construction at 572 sites to support 9,761 charge ports under its suite of light-duty Charge Ready programs, and 132 sites to support the electrification of 2,859 medium and heavy-duty vehicles through its Charge Ready Transport program."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "SCE continues to make grid hardening investments approved in SCE's 2025 GRC to address wildfire risks."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "SCE s investments in the grid, utility owned storage capacity, and contracts for substantial new clean energy resources are key enablers of reliable economy-wide electrification."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "SCE s investments in the grid, utility owned storage capacity, and contracts for substantial new clean energy resources are key enablers of reliable economy-wide electrification."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "risks associated with the decommissioning of San Onofre, including those related to worker and public safety, public opposition, permitting, governmental approvals, on-site storage of spent nuclear fuel and other radioactive material, delays, contractual disputes, and cost overruns;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the cybersecurity of Edison International's and SCE's critical information technology systems for grid control and business, employee and customer data, and the physical security of Edison International's and SCE's critical assets and personnel;"
+    },
+    {
+      "tag": "insurance",
+      "stance": "active_investment",
+      "sentence": "SCE implemented a customer-funded wildfire self-insurance program in July 2023."
+    },
+    {
+      "tag": "other:wildfire-risk",
+      "stance": "risk_mention",
+      "sentence": "Unprecedented weather conditions in California due to climate change and greater concentrations of residents in high-fire risk areas, among other things, have contributed to wildfires, including those where SCE's equipment has been alleged to be associated with the fire's ignition, that have caused loss of life and substantial damage in SCE's service area."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "SCE intends to file an application with the CPUC in Q1 2026 for at least $3 billion in capital expenditures for an advanced metering infrastructure program.",
+      "date": "2026-03-31",
+      "sentence": "SCE intends to file an application with the CPUC in the first quarter of 2026 requesting capital expenditures of at least $3 billion to be spent between 2026 through 2033 for an advanced metering infrastructure program that supports improved grid management and customer benefits."
+    },
+    {
+      "event": "Bellwether jury trial in the Eaton Fire litigation set for January 2027.",
+      "date": "2027-01-01",
+      "sentence": "A bellwether jury trial in the Eaton Fire litigation has been set for January 2027."
+    },
+    {
+      "event": "CAISO plans to provide recommendation on SCE transmission projects by May 2026.",
+      "date": "2026-05-31",
+      "sentence": "As part of its 2025-2026 Transmission Planning Process, CAISO is reassessing certain SCE projects from the 2022-2023 Transmission Plan and plans to provide its recommendation by May 2026."
+    },
+    {
+      "event": "Wildfire Fund administrator to submit report to California legislature by April 1, 2026.",
+      "date": "2026-04-01",
+      "sentence": "SB 254 requires the administrator of the Wildfire Fund to submit to the California legislature and the governor, by April 1, 2026, a report that evaluates and sets forth recommendations on new models or approaches that mitigate damage, accelerate recovery, and responsibly and equitably allocate the burdens from natural catastrophes, including wildfires, across stakeholders, to complement or replace the Wildfire Fund."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "SCE projects electricity demand will nearly double between 2025 and 2045.",
+      "sentence": "SCE projects electricity demand to nearly double between 2025 and 2045, driven by transportation electrification, new residential housing, and increases in commercial and industrial consumption."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:34:16.828Z",
+  "model": "deepseek-v4-flash"
+}

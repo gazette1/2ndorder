@@ -1,0 +1,55 @@
+{
+  "cik": "0001355790",
+  "ticker": "ISCO",
+  "name": "International Stem Cell CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-131723",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1355790/000119312526131723/isco-20251231.htm"
+  },
+  "business": "International Stem Cell CORP is a clinical stage biotechnology company with two revenue-generating businesses: anti-aging skin care products and human cell culture research products. It is also developing stem cell therapies for Parkinson's disease, traumatic brain injury, and stroke.",
+  "sellsTo": [
+    "therapeutic market (Parkinson's disease, traumatic brain injury, stroke)",
+    "anti-aging cosmetic market (consumers)",
+    "biomedical research market (pharmaceutical, academic, government researchers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are developing different cell types from our stem cells that may result in therapeutic products."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "ISCO's wholly owned subsidiary Lifeline Skin Care, Inc. (LSC) develops, manufactures and sells anti-aging skin care products based on two core technologies: encapsulated extract derived from hpSC and specially selected targeted small molecules."
+    },
+    {
+      "tag": "other:research-products",
+      "stance": "core_product",
+      "sentence": "ISCO's LCT subsidiary develops, manufactures, and commercializes over 200 human cell culture products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announcement of full Phase 1 clinical trial results for ISC-hpNSC in Parkinson's disease",
+      "date": "2026-12-31",
+      "sentence": "We expect to announce the full Phase 1 clinical trial results in the second half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Parkinson's disease: more than one million sufferers in the United States with over $2 billion spent on related medication costs",
+      "sentence": "According to the Parkinson's Disease Foundation, there are more than one million sufferers in the United States with over $2 billion spent on related medication costs."
+    },
+    {
+      "claim": "Traumatic brain injury: over 1.7 million people in North America suffer annually, with associated medical costs exceeding $70 billion; global incidence approximately 10 million people annually",
+      "sentence": "Over 1.7 million people in North America suffer annually from traumatic brain injury, with associated medical costs exceeding $70 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:31:49.732Z",
+  "model": "deepseek-v4-flash"
+}

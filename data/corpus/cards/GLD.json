@@ -1,0 +1,32 @@
+{
+  "cik": "0001222333",
+  "ticker": "GLD",
+  "name": "SPDR GOLD TRUST",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-036305",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774925036305/gld20250930_10k.htm"
+  },
+  "business": "SPDR Gold Trust holds gold bullion and issues SPDR Gold Shares that aim to reflect the performance of the price of gold bullion, less the Trust's expenses. Shares are traded on exchanges and backed by gold held by custodians. The Trust does not hold derivative securities.",
+  "sellsTo": [
+    "Institutional investors",
+    "Retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "HSBC Bank plc",
+    "JPMorgan Chase Bank, N.A."
+  ],
+  "exposures": [
+    {
+      "tag": "other:gold-exposure",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the performance of the price of gold bullion, less the Trust s expenses."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:49:30.146Z",
+  "model": "deepseek-v4-flash"
+}

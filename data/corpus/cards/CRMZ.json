@@ -1,0 +1,48 @@
+{
+  "cik": "0000315958",
+  "ticker": "CRMZ",
+  "name": "CREDITRISKMONITOR COM INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-010883",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/315958/000114036126010883/ef20060689_10k.htm"
+  },
+  "business": "CreditRiskMonitor.com sells SaaS subscription products for analyzing B2B corporate financial risk, primarily trade credit risk. Its products CreditRiskMonitor and SupplyChainMonitor provide bankruptcy risk analytics, credit reports, and supply chain risk monitoring. The company serves corporate credit and procurement professionals, including nearly 40% of the Fortune 1000.",
+  "sellsTo": [
+    "corporate credit professionals",
+    "procurement professionals",
+    "Fortune 1000",
+    "large corporations worldwide"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "London Stock Exchange Group plc"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The overall focus of the Company’s Software-as-a-Service (SaaS) subscription products is on facilitating the analysis of business-to-business (B2B) corporate financial risk."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company has processes for assessing, identifying, and managing material risks from cybersecurity threats."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Subscribers, or their designated counterparty(ies), upload confidential financial statements to the Company’s secure web portal to leverage Optical Character Recognition (OCR) and Artificial Intelligence (AI) technology that automates the extraction, standardization, analyses, and bankruptcy scoring of that financial statement data."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "we estimate that our operating revenues represent a little more than 1% of the Total Addressable Market (TAM)",
+      "sentence": "we estimate that our operating revenues represent a little more than 1% of the Total Addressable Market (TAM)"
+    }
+  ],
+  "generatedAt": "2026-07-04T15:38:15.909Z",
+  "model": "deepseek-v4-flash"
+}

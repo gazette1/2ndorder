@@ -1,0 +1,60 @@
+{
+  "cik": "0001441816",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-016799",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026016799/mdb-20260131.htm"
+  },
+  "business": "MongoDB is the developer data platform company whose mission is to empower developers to create, transform, and disrupt industries by unleashing the power of software and data. The foundation of our platform is the world's leading, modern general purpose database built on a unique document-based architecture. We generate revenue primarily from sales of subscriptions, which accounted for 97% of total revenue for the year ended January 31, 2026.",
+  "sellsTo": [
+    "Organizations of all sizes across a broad range of industries",
+    "Enterprises that invest more heavily in software application development and deployment",
+    "Customers in over 100 countries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Our flexible document model is uniquely positioned to help customers build sophisticated AI applications because it is designed to handle different data types (source data, vector data, metadata and generated data) right alongside live operational data, negating the need for multiple database systems and complex back-end architectures."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Queryable encryption. Allows a database to search and filter data while it remains fully encrypted."
+    },
+    {
+      "tag": "other:cloud-database",
+      "stance": "core_product",
+      "sentence": "Atlas is our managed multi-cloud database-as-a-service ( DBaaS ) offering that includes an integrated set of database and related services."
+    },
+    {
+      "tag": "other:stream-processing",
+      "stance": "core_product",
+      "sentence": "Stream processing. Simplifies processing high-volume, high-velocity streams of data, transforming how developers build responsive, real-time applications."
+    },
+    {
+      "tag": "other:time-series",
+      "stance": "core_product",
+      "sentence": "Time series. Supports the entire end-to-end cycle of applications that leverage time series data, from ingestion, storage and querying to native data visualization and automated data archival in a single platform, which removes the need for complex integration, thereby increasing efficiency and reducing cost."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We have entered into non-cancelable multi-year capacity commitments with respect to cloud infrastructure services with certain third-party cloud providers, which require us to pay for such capacity irrespective of actual usage."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The worldwide Database Management Software market was $93 billion in 2024, growing to approximately $169 billion in 2029, representing a 13% five-year compound annual growth rate.",
+      "sentence": "According to the International Data Corporation (IDC) s Worldwide Database Management Systems Software Forecast, 2025-2029, the worldwide Database Management Software market was $93 billion in 2024, growing to approximately $169 billion in 2029. This represents a 13% five-year compound annual growth rate."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:33:16.596Z",
+  "model": "deepseek-v4-flash"
+}

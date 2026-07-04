@@ -1,0 +1,68 @@
+{
+  "cik": "0000230557",
+  "ticker": "SIGI",
+  "name": "SELECTIVE INSURANCE GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000230557-26-000006",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000006/sigi-20251231.htm"
+  },
+  "business": "Selective Insurance Group, Inc. is a New Jersey insurance holding company that owns ten property and casualty insurance subsidiaries selling products and services only in the United States through independent insurance agents and wholesale brokers. Its offerings are divided into Standard Commercial Lines (to commercial enterprises, non-profits, local government agencies), Standard Personal Lines (to individuals), and Excess and Surplus Lines (to commercial customers unable to obtain coverage in the standard marketplace). The company operates in 36 states (Standard Commercial Lines), 15 states (Standard Personal Lines), and all 50 states (E&S Lines).",
+  "sellsTo": [
+    "commercial enterprises",
+    "non-profit organizations",
+    "local government agencies",
+    "individuals",
+    "commercial customers unable to obtain coverage in the standard marketplace"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We sell our Standard Commercial Lines property and casualty insurance products and services to commercial enterprises, typically businesses, non-profit organizations, and local government agencies, primarily in 36 states and the District of Columbia."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our cyber-specific policies for commercial lines and personal lines customers are 100% reinsured with highly-rated specialty cyber markets."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We employ traditional AI methods, such as machine learning, to increase organizational efficiency and improve decision-making speed and accuracy."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our investment portfolio is exposed to climate change-related transition and physical investment risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Enter Montana and Wyoming for Standard Commercial Lines",
+      "date": "2026-12-31",
+      "sentence": "We expect to enter Montana and Wyoming by the end of 2026, subject to regulatory approvals."
+    },
+    {
+      "event": "Relocate Branchville operations to Short Hills",
+      "date": "2026-07-01",
+      "sentence": "We have leased a new facility in Short Hills, New Jersey, where many Branchville operations, including our Executive Leadership Team, will be relocating beginning in mid-2026 and continuing through 2029."
+    },
+    {
+      "event": "Continue integrating claims system with third-party vendors",
+      "date": null,
+      "sentence": "In 2026, we intend to continue integrating our claims system with key third-party vendors to (i) provide adjusters with efficient access to state-specific regulatory and compliance claims handling requirements, (ii) offer medical canvas, record retrieval, and investigative management tools, and (iii) streamline the First Notice of Loss process."
+    },
+    {
+      "event": "Expand claims system to workers' compensation and bond lines",
+      "date": null,
+      "sentence": "We intend to expand the system to our workers' compensation and bond lines of business next."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:46:43.709Z",
+  "model": "deepseek-v4-flash"
+}

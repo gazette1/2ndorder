@@ -1,0 +1,80 @@
+{
+  "cik": "0001089815",
+  "ticker": "EHSI",
+  "name": "Elite Health Systems Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-012312",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1089815/000143774926012312/ehsi20251231_10k.htm"
+  },
+  "business": "Elite Health Systems Inc. develops and operates Medicare Advantage plans for seniors and special needs groups, initially in California counties. Through its subsidiary Physician Support Systems Inc., it provides healthcare management solutions to medical practices. The company focuses on improving health outcomes through coordinated care and plans to expand into new geographies and specialized products like Chronic Condition Special Needs Plans.",
+  "sellsTo": [
+    "Medicare beneficiaries (seniors and special needs groups)",
+    "Medical practices (via PSS)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ramp Health"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Elite Health designs, markets, and manages a Medicare Advantage plan or Medicare Part C a government-approved health plan that delivers Medicare benefits through a managed care or coordinated care model."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "PSS provides a comprehensive suite of tailored healthcare management solutions to medical practices that enhance operational efficiency, compliance, and patient care."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "The Company recorded revenue associated with leasing of employees and other consulting services to its health clinic customers of $1,024,000 for the two months ended December 31, 2025."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "The use of artificial intelligence ( AI ), data analytics, and other technologies are expected to become a key component in the administration and management of health plans and health care delivery."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Filed 2027 C-SNP Application with CMS",
+      "date": "2026-02",
+      "sentence": "The Company filed its 2027 C-SNP Application with CMS in February of 2026 with the goal and intention of establishing C-SNP Plans to serve members with the following qualifying conditions: congestive heart failure, diabetes mellitus and cardiovascular diseases."
+    },
+    {
+      "event": "Acquired Physician Support Systems Inc.",
+      "date": "2025-11",
+      "sentence": "The Company acquired PSS in November 2025."
+    },
+    {
+      "event": "Began onboarding members for Medicare Advantage plans",
+      "date": "2025-10-15",
+      "sentence": "Elite Health began onboarding new members on October 15, 2025."
+    },
+    {
+      "event": "Began reporting revenue from Medicare Advantage plans",
+      "date": "2026-01-01",
+      "sentence": "Elite Health began reporting revenue on January 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Medicare Advantage enrollment includes 34.1 million members, accounting for 54% of eligible Medicare population.",
+      "sentence": "According to a 2025 Kaiser Family Foundation article, Medicare Advantage enrollment includes 34.1 million members, accounts for 54% of the eligible Medicare population."
+    },
+    {
+      "claim": "CBO projects Medicare Advantage share to rise to 64% by 2034.",
+      "sentence": "The Congressional Budget Office projects that the share of all Medicare beneficiaries enrolled in Medicare Advantage plans will rise to 64% by 2034."
+    },
+    {
+      "claim": "C-SNP enrollment rose by approximately 476,000 from 2024 to 2025, about 71% growth.",
+      "sentence": "The Kaiser Family Foundation found C-SNP Plan enrollment rose by approximately 476,000 from 2024 to 2025 or approximately 71% in one year."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:32:07.479Z",
+  "model": "deepseek-v4-flash"
+}

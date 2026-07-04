@@ -1,0 +1,70 @@
+{
+  "cik": "0000924095",
+  "ticker": "MVCO",
+  "name": "Metavesco, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-23-037175",
+    "filedAt": "2023-10-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/924095/000149315223037175/form10-k.htm"
+  },
+  "business": "Metavesco operates as a web3 enterprise, generating income as a liquidity provider via decentralized exchanges such as Uniswap, farming tokens via Proof-of-Stake protocols, investing in NFTs and virtual land, and conducting bitcoin mining. It also sells specialty coffee through Boring Brew, a web3 startup known for limited edition coffee bags.",
+  "sellsTo": [
+    "users of decentralized exchanges",
+    "coffee consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:decentralized-finance",
+      "stance": "core_product",
+      "sentence": "The Company generates income as a liquidity provider, via decentralized exchanges such as Uniswap."
+    },
+    {
+      "tag": "other:cryptocurrency-mining",
+      "stance": "core_product",
+      "sentence": "In February 2023, the Company commenced bitcoin mining operations at a hosted facility in Texas."
+    },
+    {
+      "tag": "other:proof-of-stake",
+      "stance": "core_product",
+      "sentence": "Additionally, the Company farms tokens via Proof-of-Stake (PoS) protocols on decentralized exchanges, as well as centralized exchanges, including Coinbase."
+    },
+    {
+      "tag": "other:nft-investments",
+      "stance": "core_product",
+      "sentence": "The Company also invests in non-fungible token (NFT) projects and virtual land that it believes are promising, primarily on EVM protocols."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Boring Brew, a web3 startup known for its unique and limited edition coffee bags."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks, data breaches or malware may disrupt our operations and trigger significant liability for us, which could harm our operating results and financial condition, and damage our reputation or otherwise materially harm our business."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Advances in technology, such as quantum computing, could lead to a malicious actor or botnet (a voluntary or hacked collection of computers controlled by networked software coordinating the actions of the computers) being able to alter the blockchain on which digital asset transactions rely."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of bitcoin mining operations at hosted facility in Texas",
+      "date": null,
+      "sentence": "In February 2023, the Company commenced bitcoin mining operations at a hosted facility in Texas."
+    },
+    {
+      "event": "Acquisition of Boring Brew LLC and Bored Coffee Lab LLC",
+      "date": "2023-06-12",
+      "sentence": "On June 12, 2023, the Company entered into a Limited Liability Company Interest Purchase Agreement (the Purchase Agreement) with Eddy Rodrigeuz (the Seller)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:55:45.739Z",
+  "model": "deepseek-v4-flash"
+}

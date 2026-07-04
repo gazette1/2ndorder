@@ -1,0 +1,83 @@
+{
+  "cik": "0000024545",
+  "ticker": "TAP",
+  "name": "MOLSON COORS BEVERAGE CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000024545-26-000006",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm"
+  },
+  "business": "Molson Coors Beverage Company is a holding company that brews and sells beer and other beverages, including flavored beverages, spirits, and non-alcoholic drinks. It operates through two segments: Americas (U.S., Canada, Latin America) and EMEA&APAC (Europe, Middle East, Africa, Asia Pacific). The company sells its products to consumers via independent distributors, retailers (on-premise and off-premise), and provincial liquor boards.",
+  "sellsTo": [
+    "U.S., Canada, Latin America",
+    "Europe (U.K., Central Europe)",
+    "Middle East, Africa, Asia Pacific",
+    "on-premise and off-premise retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ball Corporation",
+    "Owens-Brockway Glass Container, Inc.",
+    "Rocky Mountain Metal Container",
+    "Rocky Mountain Bottle Company",
+    "DHL Supply Chain Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We produce many beloved and iconic beers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information systems may be the target of cyberattacks or other security breaches, which, if successful, could, among other things, disrupt our operations, applications or services, cause the loss of key business, employee, customer or vendor information, cause us to breach our legal, regulatory or contractual obligations, prevent us from accessing or relying upon critical business records, cause reputational damage, or impact the costs or ability to obtain adequate insurance coverage."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We continue to implement energy and water efficiency improvements across our facilities, including the completion of a multi-year renovation project of our Golden, Colorado brewery, and renewables contracts or power purchase agreements for our Fort Worth, Texas brewery, southeast Wisconsin facilities and our U.K. operations."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "Our Americas segment is exposed to variability in the market price of a regional premium differential (referred to as Midwest Premium in the U.S.) charged by industry participants to deliver aluminum from the smelter to the manufacturing facility."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "active_investment",
+      "sentence": "We work closely with our barley farmers in the U.S. and Canada to test and learn the different growing practices across multiple regions and collect a broad range of data including water consumption."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The integration and use of artificial intelligence and similar technology in our business presents challenges and risks that could adversely impact our business, reputation and results of operations."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Tariff announcements in the U.S. in the second quarter of 2025 have indirectly caused the price of the premium on aluminum in the U.S., known as the Midwest Premium, to spike and remain elevated which resulted in an approximate $35 million unfavorable impact on our results for the year ended December 31, 2025."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Appointment of Rahul Goyal as President and CEO",
+      "date": "2025-10-01",
+      "sentence": "On September 19, 2025, the Board appointed Rahul Goyal as our Company's President and CEO and member of the Board effective, in each case, as of October 1, 2025, following the retirement of Gavin D.K. Hattersley from those same positions immediately prior to such appointments."
+    },
+    {
+      "event": "Announcement of Americas Restructuring Plan",
+      "date": "2025-10-20",
+      "sentence": "On October 20, 2025, we announced a corporate restructuring plan, the Americas Restructuring Plan, designed to create a leaner, more agile Americas organization while advancing our ability to reinvest in our business and position us for future growth."
+    },
+    {
+      "event": "Purchase of annuity contracts for Canadian pension plans",
+      "date": "2024-09-26",
+      "sentence": "On September 26, 2024, we purchased annuity contracts for two of our Canadian pension plans."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:32:50.292Z",
+  "model": "deepseek-v4-flash"
+}

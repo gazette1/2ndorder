@@ -1,0 +1,93 @@
+{
+  "cik": "0000065596",
+  "ticker": "SIEB",
+  "name": "SIEBERT FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036500",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/65596/000121390026036500/ea0281594-10k_siebert.htm"
+  },
+  "business": "Siebert Financial Corp. is a diversified financial services firm providing retail brokerage, investment advisory, insurance, and technology services through its subsidiaries. It also operates a media, sports, and entertainment segment under Gebbia Media, LLC, which offers talent management, music production, and Name, Image and Likeness (NIL) negotiation services for athletes. The company serves retail investors, corporate clients (via equity compensation plans and corporate services), and institutional clients.",
+  "sellsTo": [
+    "retail investors",
+    "corporate clients",
+    "institutional clients",
+    "college and professional athletes"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "National Financial Services Corp. (NFS, a Fidelity subsidiary)",
+    "Broadridge Securities Processing Solutions, LLC",
+    "BMO Harris Bank",
+    "East West Bank",
+    "FusionIQ (IQvestment Holdings, LLC)"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "MSCO offers a wide range of products and services, including the following: Self-directed trading, Market making and fixed income investments, Stock borrow / stock loan, Equity compensation plans, Wealth management / financial advice, Investment banking / capital markets, Advanced trading."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "We have made investments in technology development projects collectively termed as Siebert’s Retail Platform."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Park Wilshire Companies, Inc. (PW) provides insurance services. PW is a Texas corporation and licensed insurance agency."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Gebbia Media, LLC (GM) is a Florida limited liability company and provides management and promotion of sports and music talent, as well as in-house production and marketing for the Company."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If any person, including any of our employees, negligently disregards or intentionally breaches our established controls with respect to client data, or otherwise mismanages or misappropriates that data, we could be subject to significant monetary damages, regulatory enforcement actions, fines and/or criminal prosecution in one or more jurisdictions."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Siebert Crypto, LLC (SCRYP) is a Delaware limited liability company formed to provide future digital asset-related services. SCRYP has not yet commenced business operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Big Machine Rock (BMR) from Big Machine Label Group",
+      "date": "2025-05",
+      "sentence": "In May 2025, GM acquired Big Machine Rock (BMR), the rock division of Big Machine Label Group (BMLG)."
+    },
+    {
+      "event": "Launch of Gebbia Sports division",
+      "date": "2025-06",
+      "sentence": "In June 2025, GM launched its division which focuses on serving the unique needs of elite college and professional athletes (Gebbia Sports)."
+    },
+    {
+      "event": "Formation of Siebert Crypto, LLC",
+      "date": "2025-12",
+      "sentence": "In December 2025, Siebert formed SCRYP by filing a Certificate of Formation in the State of Delaware."
+    },
+    {
+      "event": "Amendment of clearing agreement with NFS, extending term to October 1, 2030",
+      "date": "2025-09-29",
+      "sentence": "Effective September 29, 2025, MSCO entered into an amendment to its clearing agreement with NFS that, among other things, extends the term of their arrangement for an additional five-year period commencing on September 26, 2025 and ending October 1, 2030."
+    },
+    {
+      "event": "Renewal of BMO Credit Agreement until November 20, 2026",
+      "date": "2025-11-22",
+      "sentence": "Effective November 22, 2025, MSCO renewed the BMO Credit Agreement with BMO Harris until November 20, 2026."
+    },
+    {
+      "event": "Technology projects placed into service during 2025",
+      "date": "2025",
+      "sentence": "Technology development projects such as the online platform for Siebert’s retail customer base and corporate service clients have been placed into service during the year ended December 31, 2025 and several projects are anticipated to go live in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:01:24.367Z",
+  "model": "deepseek-v4-flash"
+}

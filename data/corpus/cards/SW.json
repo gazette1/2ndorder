@@ -1,0 +1,66 @@
+{
+  "cik": "0002005951",
+  "ticker": "SW",
+  "name": "Smurfit Westrock plc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012555",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/2005951/000162828026012555/smur-20251231.htm"
+  },
+  "business": "Smurfit Westrock is a global integrated manufacturer of paper-based packaging products, including corrugated containers, containerboard, consumer packaging, and other specialty packaging. The company sells primarily to the fast-moving consumer goods sector, serving a diverse range of industries such as food, beverages, pharmaceuticals, and industrial goods.",
+  "sellsTo": [
+    "fast-moving consumer goods sector",
+    "processed and fresh food",
+    "agricultural products",
+    "beverages",
+    "industrial and consumer electronics",
+    "chemicals and pharmaceuticals",
+    "health and beauty",
+    "e-commerce distribution"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "We also utilize and intend to expand our use of automation, robotics and machine learning in many of our products, including consumer-facing features, and we leverage generative artificial intelligence in our business processes."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We also utilize and intend to expand our use of automation, robotics and machine learning in many of our products, including consumer-facing features, and we leverage generative artificial intelligence in our business processes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cybersecurity risks that could threaten the confidentiality, integrity and availability of data in our systems, and could result in disruptions to our operations and adversely affect our operations, cash flows and financial condition."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "In recent years, shifting consumer behaviors have accelerated, particularly with the rise of e-commerce and increased awareness of unsustainable packaging solutions."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We face challenges associated with sustainability matters, including the impact of climate change and its potential impact on areas such as our operations and raw material availability, which could have a significant impact on our reputation, business, results of operations, cash flows and financial condition, and the trading price of our ordinary shares."
+    },
+    {
+      "tag": "other:pharmaceutical-packaging",
+      "stance": "core_product",
+      "sentence": "For the global healthcare market, we manufacture paperboard packaging for over-the-counter and prescription drugs."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected start of new bag-in-box facility in the U.S.",
+      "date": "2026-01-01",
+      "sentence": "We also manage four (non-European) facilities that manufacture bag-in-box, located in Argentina, Canada, Mexico and the U.S. (with a fifth expected to begin operation in the U.S. in 2026)"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:39:40.693Z",
+  "model": "deepseek-v4-flash"
+}

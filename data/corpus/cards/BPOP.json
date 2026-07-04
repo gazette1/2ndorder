@@ -1,0 +1,54 @@
+{
+  "cik": "0000763901",
+  "ticker": "BPOP",
+  "name": "POPULAR, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085756",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/763901/000119312526085756/d17859d10k.htm"
+  },
+  "business": "Popular is a diversified, publicly-owned financial holding company. It operates in two principal markets: Puerto Rico and Mainland United States, providing retail, mortgage, and commercial banking services, as well as auto and equipment leasing, broker-dealer, and insurance services. Its principal banking subsidiary, Banco Popular de Puerto Rico, is the largest retail banking franchise in Puerto Rico.",
+  "sellsTo": [
+    "Puerto Rico retail and commercial customers",
+    "Mainland United States (New York, New Jersey, Florida) retail and commercial customers",
+    "U.S. Virgin Islands and British Virgin Islands customers",
+    "Broker-dealer and insurance clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Evertec"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "As part of this transformation, we are making significant investments in technology, talent and new digital and data capabilities in order to provide our customers with more personalized and accessible services, increase employee performance and satisfaction with more agile work processes, and generate sustainable profitable growth and value for our shareholders."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks for large financial institutions such as Popular have increased significantly in recent years in part because of the proliferation of new technologies, such as mobile banking, cloud hosting, artificial intelligence and the ability to conduct instant financial transactions anywhere globally, as well as due to geopolitical conflicts and the increased sophistication and activities of organized crime, hackers, terrorists, nation-states, hacktivists and other parties."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We expect the rise and use of artificial intelligence to exacerbate this risk."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implementation of cloud-based Enterprise Resource Planning (ERP) platform",
+      "date": "2026-01-01",
+      "sentence": "transforming our Enterprise Resource Planning (ERP) platform to a modern cloud-based solution implemented in January 2026."
+    },
+    {
+      "event": "BPPR's FDIC resolution planning submission",
+      "date": "2026-04-01",
+      "sentence": "BPPR's first submission under the new rule is due by April 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:13:01.438Z",
+  "model": "deepseek-v4-flash"
+}

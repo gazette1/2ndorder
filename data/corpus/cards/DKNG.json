@@ -1,0 +1,77 @@
+{
+  "cik": "0001883685",
+  "ticker": "DKNG",
+  "name": "DraftKings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001883685-26-000013",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1883685/000188368526000013/dkng-20251231.htm"
+  },
+  "business": "DraftKings offers digital sports entertainment and gaming products, including online and retail sports betting, online casino (iGaming), daily fantasy sports, digital lottery courier, and prediction markets to individual consumers.",
+  "sellsTo": [
+    "Consumers",
+    "Sports fans",
+    "Online gaming users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "International Gaming Technology",
+    "Light & Wonder Inc.",
+    "Spin",
+    "Evolution",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We provide users with online and retail sports betting, online casino (iGaming), daily fantasy sports (DFS), digital lottery courier, prediction markets and other product offerings."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on Amazon Web Services to deliver our product offerings to users, and any disruption of or interference with our use of Amazon Web Services could adversely affect our business, financial condition, results of operations and prospects."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Despite our security measures, our information technology systems and infrastructure are vulnerable to cybersecurity incidents arising from attacks by hackers or breaches due to employee error, malfeasance or other disruptions."
+    },
+    {
+      "tag": "other:ai-ml",
+      "stance": "risk_mention",
+      "sentence": "We use artificial intelligence, machine learning, data science and similar technologies in our business, and challenges with properly managing such technologies could result in reputational harm, competitive harm and legal liability, and adversely affect our results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of DraftKings Predictions",
+      "date": "2025-12-19",
+      "sentence": "DraftKings Predictions launched on December 19, 2025, formally entering prediction markets under the oversight of the U.S. Commodity Futures Trading Commission (CFTC) and is a new standalone mobile app and web product that allows eligible customers to trade on real-world outcomes across a wide range of markets, including sports and financial markets."
+    },
+    {
+      "event": "Acquisition of Railbird Technologies",
+      "date": "2025-10-21",
+      "sentence": "On October 21, 2025, DraftKings acquired Railbird Technologies Inc. (Railbird) and its subsidiary, Railbird Exchange, LLC, a registered designated contract market (DCM) licensed by the CFTC."
+    },
+    {
+      "event": "Acquisition of Jackpocket",
+      "date": "2024-05-22",
+      "sentence": "On May 22, 2024, we completed our acquisition of 100% of the equity interest of Jackpocket Inc., pursuant to the terms of the Jackpocket Merger Agreement."
+    },
+    {
+      "event": "Acquisition of Simplebet",
+      "date": "2024-12-03",
+      "sentence": "On December 3, 2024, we completed our acquisition of 100% of the equity interest of Simplebet Inc., pursuant to the terms of the Simplebet Merger Agreement."
+    },
+    {
+      "event": "Term B Loan agreement",
+      "date": null,
+      "sentence": "In March 2025, we and certain of our subsidiaries entered into a first amendment to the Credit Agreement, providing for a new class of incremental term loans under the Credit Agreement in an aggregate principal amount of $600.0 million (the Term B Facility and, such term loans, the Term B Loan), with a maturity date of March 4, 2032."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:03:17.782Z",
+  "model": "deepseek-v4-flash"
+}

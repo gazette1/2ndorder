@@ -1,0 +1,65 @@
+{
+  "cik": "0001603454",
+  "ticker": "CELC",
+  "name": "Celcuity Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012801",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000149315226012801/form10-k.htm"
+  },
+  "business": "Celcuity Inc. is a clinical-stage biotechnology company focused on the development of targeted therapies for the treatment of multiple solid tumor indications. Its lead therapeutic candidate is gedatolisib, a kinase inhibitor of the PI3K/AKT/mTOR pathway. Gedatolisib is being evaluated in Phase 3 clinical trials for hormone receptor-positive, human epidermal growth factor receptor 2-negative advanced breast cancer and in a Phase 1b/2 trial for metastatic castration resistant prostate cancer.",
+  "sellsTo": [
+    "Patients with HR+/HER2- advanced breast cancer",
+    "Patients with metastatic castration resistant prostate cancer",
+    "Oncologists and healthcare providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Pfizer",
+    "contract manufacturing organizations (CMOs)",
+    "distributors",
+    "third-party logistics provider (3PL)"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a clinical-stage biotechnology company focused on the development of targeted therapies for the treatment of multiple solid tumor indications."
+    },
+    {
+      "tag": "other:cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems or data, or those of third parties upon which we rely, are or were compromised, we could face clinical trial delays; regulatory investigations or actions; litigation; fines and penalties; disruptions of our business operations; reputational harm; and other adverse consequences."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA acceptance of NDA for gedatolisib in HR+/HER2- PIK3CA WT advanced breast cancer with Priority Review",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, the FDA accepted our NDA, designating it for Priority Review, with a target user fee goal date of July 17, 2026, pursuant to the Prescription Drug User Fee Act (PDUFA) VII."
+    },
+    {
+      "event": "Topline data expected for PIK3CA MT cohort of VIKTORIA-1 Phase 3 trial",
+      "date": "2026-06-30",
+      "sentence": "The cohort evaluating patients with PIK3CA MT tumors has completed enrollment, and topline data is expected to be available in the second quarter of 2026."
+    },
+    {
+      "event": "Update on final Phase 3 study design for VIKTORIA-2 trial",
+      "date": "2026-06-30",
+      "sentence": "We intend to provide an update on our final Phase 3 study design in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market for gedatolisib in the second-line setting is more than $5.0 billion.",
+      "sentence": "If gedatolisib ultimately receives FDA approval for the treatment of both PIK3CA WT and PIK3CA MT populations, using internal duration of treatment estimates and pricing assumptions consistent with currently available novel therapeutics for breast cancer, we estimate the total addressable market for gedatolisib in the second-line setting is more than $5.0 billion."
+    },
+    {
+      "claim": "Peak revenue of up to $2.5 billion annually for second-line indication.",
+      "sentence": "Given the significant penetration our research is suggesting we can achieve, we believe it is reasonable to estimate that a second-line indication for gedatolisib could potentially generate peak revenue of up to $2.5 billion annually."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:52:16.462Z",
+  "model": "deepseek-v4-flash"
+}

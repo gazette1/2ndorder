@@ -1,0 +1,76 @@
+{
+  "cik": "0001876042",
+  "ticker": "CRCL",
+  "name": "Circle Internet Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001876042-26-000062",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm"
+  },
+  "business": "Circle operates a full-stack internet financial platform anchored by its stablecoin network, including USDC and EURC, and generates substantial majority of revenue from reserve income on assets backing these stablecoins. The platform also includes a Layer-1 blockchain (Arc), developer tools, liquidity services, and applications like Circle Payments Network. Customers include financial institutions, enterprises, developers, and end-users globally.",
+  "sellsTo": [
+    "Financial institutions",
+    "Enterprises",
+    "Developers",
+    "Banks and neo-banks",
+    "Payment companies",
+    "Digital asset exchanges",
+    "End-users"
+  ],
+  "namedCustomers": [
+    "Coinbase",
+    "Binance"
+  ],
+  "namedSuppliers": [
+    "BlackRock",
+    "BNY Mellon"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are building one of the largest and most widely used full-stack, internet financial platform businesses."
+    },
+    {
+      "tag": "other:ai-agents",
+      "stance": "core_product",
+      "sentence": "Our platform also includes... AI agents and agentic applications that can autonomously initiate and execute transactions, manage payments, and interact with onchain protocols."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We operate information security and privacy programs designed to protect sensitive data and support the safe operation of our products and services, and we monitor changes in law and regulation that could increase compliance costs, affect product design, or otherwise impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "IPO completion",
+      "date": "2025-06",
+      "sentence": "In June 2025, we completed our IPO, in which we issued and sold 19.9 million shares of Class A common stock, including the underwriters over-allotment option which was exercised in full, at a public offering price of $31.00 per share."
+    },
+    {
+      "event": "Launch of Circle Payments Network (CPN)",
+      "date": "2025-05",
+      "sentence": "We launched CPN in May 2025 to extend the utility of our Circle Digital Assets by enabling institutions to originate, route, and settle payments on open blockchain networks."
+    },
+    {
+      "event": "Conditional OCC approval for Circle National Trust",
+      "date": "2025-12",
+      "sentence": "In December 2025, we received preliminary conditional approval from the Office of the Comptroller of the Currency (OCC) to establish a national trust bank, First National Digital Currency Bank, N.A. (Circle National Trust)."
+    },
+    {
+      "event": "Acquisition of Hashnote",
+      "date": "2025-01",
+      "sentence": "In January 2025, we acquired 100% of the ownership interest in Hashnote, which, through its affiliates, is the fund manager of Hashnote International Short Duration Yield Fund Ltd. (SDYF), a TMMF and the issuer of USYC."
+    },
+    {
+      "event": "GENIUS Act signed into law",
+      "date": "2025-07-18",
+      "sentence": "On July 18, 2025, President Trump signed into law the Guiding and Establishing National Innovation for U.S. Stablecoins Act (the GENIUS Act)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:51:16.575Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0000800457",
+  "ticker": "DGICA",
+  "name": "DONEGAL GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-008268",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/800457/000114036126008268/ef20060826_10k.htm"
+  },
+  "business": "Donegal Group Inc., through its insurance subsidiaries, writes commercial and personal lines of property and casualty insurance exclusively through a network of independent insurance agents. The commercial lines include commercial automobile, workers compensation, and commercial multi-peril; personal lines include homeowners and private passenger automobile. Operations are concentrated in Mid-Atlantic, Midwest, Southern, and Southwestern states.",
+  "sellsTo": [
+    "individuals (personal lines)",
+    "businesses (commercial lines)",
+    "Mid-Atlantic, Midwest, Southern, Southwestern US states"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance subsidiaries write commercial and personal lines of property and casualty coverages exclusively through a network of independent insurance agents in certain Mid-Atlantic, Midwest, Southern and Southwestern states."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We face risks associated with technological change, including artificial intelligence, data modernization and cloud migration, and the profitability of our insurance subsidiaries could be adversely affected if their competitors deploy such technologies more effectively or at greater scale."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The disruption or failure of Donegal Mutual's information technology systems or the compromise of the security of those systems that results in the theft or misuse of confidential information could materially impact adversely the business of Donegal Mutual and our insurance subsidiaries."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "The increased frequency and severity of weather-related catastrophes and other losses, such as from wildfires and flooding, incurred by the industry in recent years may be indicative of changing weather patterns due to climate change."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Migration of Guidewire claims, billing, and policy administration systems to Guidewire cloud platform begins",
+      "date": "2026-01-01",
+      "sentence": "beginning in 2026, migration of its Guidewire claims, billing and policy administration systems to the Guidewire cloud platform."
+    },
+    {
+      "event": "Non-renewal of all farm policies begins under renewal rights agreement",
+      "date": "2026-04-01",
+      "sentence": "Donegal Mutual and Southern entered into a renewal rights agreement with an affiliate of a farm-focused Pennsylvania-based mutual insurance group to provide a continuation option for their farm policyholders when they begin to non-renew all farm policies as they expire beginning in the second quarter of 2026."
+    },
+    {
+      "event": "Conversion of legacy renewal policies continues on state-by-state rollout",
+      "date": "2027-01-01",
+      "sentence": "The conversion process will continue into 2027 as legacy policies renew on a state-by-state rollout schedule."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:09:35.279Z",
+  "model": "deepseek-v4-flash"
+}

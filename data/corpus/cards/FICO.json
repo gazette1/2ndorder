@@ -1,0 +1,64 @@
+{
+  "cik": "0000814547",
+  "ticker": "FICO",
+  "name": "FAIR ISAAC CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000814547-25-000030",
+    "filedAt": "2025-11-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000030/fico-20250930.htm"
+  },
+  "business": "FAIR ISAAC CORP (FICO) is a global analytics software leader that provides predictive credit scores and decision management software to businesses in over 80 countries. The company operates in two segments: Scores (including the FICO Score, a standard measure of consumer credit risk in the U.S.) and Software (pre-configured analytic and decision management solutions for account origination, fraud detection, customer management, etc.). Its products and services are sold to banks, credit card issuers, insurers, retailers, telecommunications providers, automotive lenders, consumer reporting agencies, public agencies, and other organizations, with 92% of revenue from the banking industry in fiscal 2025.",
+  "sellsTo": [
+    "banks",
+    "credit card issuers",
+    "insurers",
+    "retailers",
+    "telecommunications providers",
+    "automotive lenders",
+    "consumer reporting agencies",
+    "public agencies",
+    "financial services industry",
+    "U.S. consumer market"
+  ],
+  "namedCustomers": [
+    "Experian",
+    "TransUnion",
+    "Equifax",
+    "Fannie Mae",
+    "Freddie Mac",
+    "LexisNexis"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Most leading banks and credit card issuers rely on our solutions, as do insurers, retailers, telecommunications providers, automotive lenders, consumer reporting agencies, public agencies, and organizations in other industries."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our clients also include more than 600 insurers, including eight of the top ten U.S. property and casualty insurers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Several analytic methodologies underlie our products in this area. These include proprietary applications of both linear and nonlinear optimization algorithms, advanced neural systems, machine learning and artificial intelligence ( AI )."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Because our business requires the storage, transmission and utilization of sensitive consumer and customer information, we will continue to routinely be the target of attempted cybersecurity and other security threats by technically sophisticated and well-resourced outside third parties, among others, attempting to access or steal the data we store."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Our ability to provide reliable products and services to our customers depends on the efficient and uninterrupted operation of our and our external service providers data centers, information technology and communication systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:33:59.456Z",
+  "model": "deepseek-v4-flash"
+}

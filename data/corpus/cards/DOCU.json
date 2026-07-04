@@ -1,0 +1,77 @@
+{
+  "cik": "0001261333",
+  "ticker": "DOCU",
+  "name": "DOCUSIGN, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001261333-26-000021",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm"
+  },
+  "business": "Docusign sells subscription-based Intelligent Agreement Management (IAM) platform, e-signature, and contract lifecycle management (CLM) solutions to businesses of all sizes globally, from enterprises to very small businesses.",
+  "sellsTo": [
+    "enterprises",
+    "very small businesses (VSBs)",
+    "commercial businesses",
+    "government institutions",
+    "educational institutions",
+    "real estate",
+    "financial services",
+    "insurance",
+    "manufacturing",
+    "healthcare",
+    "life sciences"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft Azure",
+    "Ingram Micro"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Other capabilities include Navigator, our AI-powered agreement repository that helps customers manage and identify insights from their agreements, and Maestro, our no-code workflow builder that helps customers accelerate agreement processes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Identity verification and SBS for enhanced signer-identification and signatures with digital certification"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "we continue to migrate our production services from our data center hosting facilities to Microsoft Azure Cloud, a third-party cloud provider."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Payments to collect payments along with signed agreements"
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Health and Life Sciences with eSignature modules enabling compliance with the U.S. Food and Drug Administration's 21 CFR Part 11 regulations"
+    },
+    {
+      "tag": "other:real-estate",
+      "stance": "core_product",
+      "sentence": "Real Estate for eSignature, which allows brokers, agents and customers to manage the entire real estate transaction digitally"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Discontinuation of billings reporting and guidance starting in first fiscal quarter of 2027",
+      "date": "2026-02-01",
+      "sentence": "Beginning in the first fiscal quarter of 2027, we will no longer report or guide to billings."
+    },
+    {
+      "event": "Change in customer classification to distinguish enterprise, commercial mid-market, and SMB on basis of annual recurring revenue",
+      "date": null,
+      "sentence": "In fiscal 2027, we plan to distinguish between enterprise, commercial mid-market and SMB customers on the basis of annual recurring revenue."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:24:27.236Z",
+  "model": "deepseek-v4-flash"
+}

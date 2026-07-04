@@ -1,0 +1,76 @@
+{
+  "cik": "0000820318",
+  "ticker": "COHR",
+  "name": "COHERENT CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000820318-25-000014",
+    "filedAt": "2025-08-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm"
+  },
+  "business": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials for use in communications, industrial, instrumentation and electronics markets. The company is a vertically integrated manufacturer with in-house design and fabrication of key components including semiconductor lasers, passive optics, and integrated circuits. Its products serve datacenter operators, telecom service providers, OEMs, and end-users across multiple verticals such as AI datacenters, semiconductor capital equipment, and life sciences.",
+  "sellsTo": [
+    "communications market (datacom, telecom)",
+    "industrial market (precision manufacturing, semiconductor capital equipment, display capital equipment, aerospace & defense)",
+    "instrumentation market (life sciences, scientific research)",
+    "electronics market (consumer electronics, automotive, wireless)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We have been experiencing significant growth in AI and ML in the datacom market vertical."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The increase in the number of hyperscale and other cloud customers building AI datacenters and in the number and size of their AI datacenter buildouts drove demand for our datacenter transceivers."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "Our lasers are widely used in various semiconductor processes such as solid-state lasers and excimer lasers for semiconductor inspection tasks, and CO2 lasers for wafer annealing."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Coherent aerospace and defense solutions enable mission-critical capabilities for applications in high-energy lasers; contested space; and intelligence, surveillance, and reconnaissance."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Medical applications comprise instrumentation that is used in the direct treatment of patients and includes medical lasers, imaging, point-of-care wearables, and thermal-based treatment solutions."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We are a global leader in SiC substrates for power electronics that improve the energy efficiency of electric and hybrid-electric vehicles."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our Telecom products include coherent transmission components and transceivers as well as transport products such as 980 nm and 14xx pump lasers, erbium-doped fiber amplifiers, passive components, OCM, OTDR, ROADM and Optical line systems."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our industry-leading semiconductor lasers, optics, and materials can be leveraged for LiDAR systems embedded in advanced driver-assistance systems (ADAS) for autonomous vehicles."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "China has also restricted the export of certain rare earth minerals which are used in our products."
+    },
+    {
+      "tag": "other:consumer-electronics",
+      "stance": "core_product",
+      "sentence": "An increasing number of consumer devices are coming on the market with embedded VCSELs, including multiple smartphones and tablets, AR/VR headsets, smart watches, and household robots."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:08:26.098Z",
+  "model": "deepseek-v4-flash"
+}

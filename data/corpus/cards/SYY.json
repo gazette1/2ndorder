@@ -1,0 +1,82 @@
+{
+  "cik": "0000096021",
+  "ticker": "SYY",
+  "name": "SYSCO CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000096021-25-000099",
+    "filedAt": "2025-08-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm"
+  },
+  "business": "Sysco Corporation, acting through its subsidiaries and divisions, is the largest global distributor of food and related products primarily to the foodservice or food-away-from-home industry. We provided products and related services to approximately 730,000 customer locations, including restaurants, healthcare and educational facilities, lodging establishments and other foodservice customers during fiscal 2025.",
+  "sellsTo": [
+    "Restaurants",
+    "Healthcare",
+    "Education and government",
+    "Travel and leisure",
+    "Food service management",
+    "Other"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Sysco distributes food and related products to restaurants, healthcare and educational facilities, lodging establishments and other foodservice customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on technology in our business, and any cybersecurity incident, other technology disruption or delay in implementing new technology could negatively affect our business and our relationships with customers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Additionally, increased competition from non-traditional sources (such as club stores and commercial wholesale outlets with lower cost structures), online direct food wholesalers, cash and carry operations, and competitors that are utilizing technology, including artificial intelligence and machine learning technologies, have served to further increase pressure on the industry’s profit margins."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "A shortage of qualified labor and increases in labor costs could adversely affect our business and materially reduce earnings."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "These conditions include shortages of qualified labor for our suppliers, work slowdowns, work interruptions, strikes or other job actions by employees of suppliers, short-term weather conditions or more prolonged climate change, crop and other agricultural conditions, water shortages, transportation interruptions (such as shortages of ocean cargo containers), unavailability of fuel or increases in fuel costs, product recalls, competitive demands, civil insurrection or social unrest, terrorist attacks or international hostilities (such as ongoing military conflicts), changes in trade relations and policies, including tariffs, retaliatory tariffs and other trade barriers, and natural disasters, epidemics, pandemics or other human or animal disease outbreaks or other catastrophic events (including, but not limited to, foodborne illnesses)."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Our ability to meet these and other related goals depends in part on significant technological advancements with respect to the development and availability of reliable, affordable and sustainable alternative solutions, including electric and other alternative fuel vehicles as well as alternative energy sources."
+    },
+    {
+      "tag": "other:digital-tools",
+      "stance": "active_investment",
+      "sentence": "We have and will continue to enrich the customer experience through personalized digital tools that reduce friction in the purchase experience and introduce innovation to our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures of approximately $700 million in fiscal 2026",
+      "date": "2026-06-27",
+      "sentence": "We expect our capital expenditures, net of proceeds from sales of assets, to approximate $700 million in fiscal 2026, and we expect to finance these capital expenditures from cash flows from operations and bank and other borrowings."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. annual foodservice market approximately $370 billion in calendar year 2024",
+      "sentence": "We estimate that we serve about 17% of an approximately $370 billion annual foodservice market in the U.S. based on industry data obtained from Technomic, Inc. (Technomic) as of the end of calendar year 2024."
+    },
+    {
+      "claim": "U.S. annual foodservice market projected to increase to approximately $382 billion by the end of calendar 2025",
+      "sentence": "Technomic projects the market size to increase to approximately $382 billion by the end of calendar 2025."
+    },
+    {
+      "claim": "Food-away-from-home market represents approximately 56% of total dollars spent on food purchases at the consumer level in the U.S.",
+      "sentence": "According to industry sources, the foodservice, or food-away-from-home, market represents approximately 56% of the total dollars spent on food purchases made at the consumer level in the U.S. as of the end of calendar year 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:23:13.468Z",
+  "model": "deepseek-v4-flash"
+}

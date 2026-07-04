@@ -1,0 +1,52 @@
+{
+  "cik": "0001353611",
+  "ticker": "FXB",
+  "name": "Invesco CurrencyShares British Pound Sterling Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083570",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1353611/000119312526083570/fxb-20251231.htm"
+  },
+  "business": "Invesco CurrencyShares British Pound Sterling Trust (FXB) is a grantor trust that holds British Pounds Sterling and issues shares designed to reflect the price of the British Pound Sterling plus accrued interest, less trust expenses. The trust provides institutional and retail investors with a simple, cost-effective means of gaining investment benefits similar to those of holding British Pounds Sterling. Shares trade on NYSE Arca and represent a fractional, undivided interest in the British Pounds Sterling held by the trust.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "JPMorgan Chase Bank, N.A., London Branch",
+    "The Bank of New York Mellon"
+  ],
+  "exposures": [
+    {
+      "tag": "other:british-pound-sterling",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the price in USD of the British Pound Sterling plus accrued interest, if any, less the expenses of the Trust s operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Due to the increased use of technologies, intentional and unintentional cyber attacks pose operational and information security risks."
+    },
+    {
+      "tag": "other:geopolitical-risk",
+      "stance": "risk_mention",
+      "sentence": "International Armed Conflicts May Result in Volatility in Currency Prices that Could Adversely Affect the Fund's Performance."
+    },
+    {
+      "tag": "other:tariff-policy",
+      "stance": "risk_mention",
+      "sentence": "Changes to United States tariff and trade policies may increase the volatility of foreign exchange rates."
+    },
+    {
+      "tag": "other:depository-insolvency",
+      "stance": "risk_mention",
+      "sentence": "If the Depository becomes insolvent, its assets may not be adequate to satisfy a claim by the Trust or any Authorized Participant."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:47:46.289Z",
+  "model": "deepseek-v4-flash"
+}

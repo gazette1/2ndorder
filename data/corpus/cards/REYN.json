@@ -1,0 +1,84 @@
+{
+  "cik": "0001786431",
+  "ticker": "REYN",
+  "name": "Reynolds Consumer Products Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-005284",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786431/000162828026005284/reyn-20251231.htm"
+  },
+  "business": "Reynolds Consumer Products produces and sells household products for cooking, serving, cleanup, and storage under brands such as Reynolds and Hefty, as well as store brands. The company sells to a diverse set of retail partners including grocery stores, mass merchants, warehouse clubs, and eCommerce retailers.",
+  "sellsTo": [
+    "grocery stores",
+    "mass merchants",
+    "warehouse clubs",
+    "discount chains",
+    "dollar stores",
+    "drug stores",
+    "home improvement stores",
+    "military outlets",
+    "eCommerce retailers",
+    "North America",
+    "United States"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We produce and sell products that people use in their homes for cooking, serving, cleanup and storage."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our customer base includes leading grocery stores, mass merchants, warehouse clubs, discount chains, dollar stores, drug stores, home improvement stores, military outlets and eCommerce retailers."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "Aluminum prices have been historically volatile as aluminum is a cyclical commodity with prices subject to global market factors."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "risk_mention",
+      "sentence": "Resin prices have historically fluctuated with changes in crude oil and natural gas prices as well as changes in refining capacity and the demand for other petroleum-based products."
+    },
+    {
+      "tag": "other:sustainable-products",
+      "stance": "core_product",
+      "sentence": "We also offer more sustainable solutions, such as Reynolds Wrap 100% recycled aluminum, unbleached parchment paper made with a chlorine-free process and coreless wax paper, which uses less packaging material than traditional wax paper rolls."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We distribute our products and receive raw materials primarily by rail and truck."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Labor shortages and increased labor costs have had and could have a material adverse effect on our business and operations."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Our manufacturing operations and distribution network rely heavily on a stable and continuous supply of electricity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Hefty ECOSAVE Cutlery",
+      "date": null,
+      "sentence": "In 2025, we launched the line of Hefty ECOSAVE Cutlery, a high quality compostable offering."
+    },
+    {
+      "event": "Quarterly dividend declared on January 29, 2026",
+      "date": "2026-01-29",
+      "sentence": "On January 29, 2026, a quarterly cash dividend of $0.23 per share was declared and is to be paid on February 27, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:47:32.981Z",
+  "model": "deepseek-v4-flash"
+}

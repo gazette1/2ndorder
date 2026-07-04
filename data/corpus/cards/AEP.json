@@ -1,0 +1,86 @@
+{
+  "cik": "0000004904",
+  "ticker": "AEP",
+  "name": "AMERICAN ELECTRIC POWER CO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000004904-26-000013",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000013/aep-20251231.htm"
+  },
+  "business": "American Electric Power Co Inc (AEP) is a public utility holding company that directly owns all outstanding common stock of public utility subsidiaries providing electric service. AEP's subsidiaries generate, transmit, and distribute electricity to retail and wholesale customers across 11 states. The company also develops and owns transmission assets through its AEP Transmission Holdco segment.",
+  "sellsTo": [
+    "Retail customers (residential, commercial, industrial)",
+    "Wholesale customers (other electric utility companies, rural electric cooperatives, municipalities)",
+    "Data centers and cryptocurrency operations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Much of this demand is driven by interconnecting with and providing power to data centers and other large load customers to serve an increasingly digital economy and to support AI."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Much of this demand is driven by interconnecting with and providing power to data centers and other large load customers to serve an increasingly digital economy and to support AI."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "A significant portion of AEP's earnings is derived from transmission investments and activities."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "I&M owns the Cook Plant, which consists of two nuclear generating units for a rated capacity of 2,296 MWs, or about a tenth of the regulated generating capacity in the AEP System as of December 31, 2025."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Coal and Lignite 43%, Nuclear 19%, Natural Gas 22%, Renewables 16%"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks from cybersecurity and physical threats to energy infrastructure are increasing."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Changes in regulatory policies and advances in batteries or energy storage, wind turbines and photovoltaic solar cells are reducing costs of new technology to levels that are making them competitive with some central station electricity production and delivery."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Green Country Power Plant",
+      "date": "2025-06-30",
+      "sentence": "the main consumption increase driver was related to the Green Country Power Plant, which was acquired by PSO on June 30, 2025."
+    },
+    {
+      "event": "Closing of 19.9% noncontrolling interest sale in Midwest Transmission Holdings",
+      "date": "2025-06",
+      "sentence": "The transaction closed in June 2025."
+    },
+    {
+      "event": "Arkansas base rate case order approving 9.65% ROE",
+      "date": "2026-02-01",
+      "sentence": "The APSC issued an order approving a 9.65% ROE effective February 2026."
+    },
+    {
+      "event": "Expiration of UPA for Rockport Plant",
+      "date": "2028-12-31",
+      "sentence": "The UPA will continue in effect until the debt obligations of AEGCo secured by the Rockport Plant have been satisfied and discharged (currently expected to be December 2028)."
+    },
+    {
+      "event": "Termination of ICPA",
+      "date": "2040-06-30",
+      "sentence": "The ICPA terminates in June 2040."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:08:06.491Z",
+  "model": "deepseek-v4-flash"
+}

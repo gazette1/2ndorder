@@ -1,0 +1,51 @@
+{
+  "cik": "0001087456",
+  "ticker": "UBOH",
+  "name": "UNITED BANCSHARES INC/OH",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-23-006386",
+    "filedAt": "2023-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1087456/000143774923006386/uboh20221231_10k.htm"
+  },
+  "business": "United Bancshares, Inc. is a financial holding company whose principal asset and operating subsidiary is The Union Bank Company, an Ohio state-chartered commercial bank. It offers a full range of commercial and consumer banking services, including deposit accounts, loans, and wealth management, primarily to customers in Ohio. The company operates twenty-two offices in Ohio.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "commercial businesses",
+    "agricultural customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Union Bank's residential loan activities consist primarily of loans for purchasing or refinancing personal residences."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Loan products offered include commercial and residential real estate loans, agricultural loans, commercial and industrial loans, home equity loans, various types of consumer loans and small business administration loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Corporation's assets at risk for cyber-attacks include financial assets and non-public information belonging to customers."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Technology and other changes, including the emergence of Fintech Companies are allowing parties to complete financial transactions through alternative methods that historically have involved banks."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Loan products offered include commercial and residential real estate loans, agricultural loans, commercial and industrial loans, home equity loans, various types of consumer loans and small business administration loans."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:52:40.583Z",
+  "model": "deepseek-v4-flash"
+}

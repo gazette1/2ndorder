@@ -1,0 +1,47 @@
+{
+  "cik": "0000310522",
+  "ticker": "FNMA",
+  "name": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE",
+  "source": {
+    "form": "10-K",
+    "accession": "0000310522-26-000015",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/310522/000031052226000015/fnm-20251231.htm"
+  },
+  "business": "Fannie Mae is a leading source of financing for residential mortgages in the United States. It buys mortgage loans from lenders, securitizes them into guaranteed mortgage-backed securities, and provides liquidity to the mortgage market. It does not originate loans directly but guarantees timely payment of principal and interest on its MBS.",
+  "sellsTo": [
+    "mortgage lenders (banks, credit unions)",
+    "global investors (pension funds, asset managers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "U.S. Financial Technology, LLC (U.S. FinTech)"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Fannie Mae is a leading source of financing for residential mortgages in the United States."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FHFA published final rule establishing single-family and multifamily housing goals for 2026 through 2028",
+      "date": "2025-12",
+      "sentence": "In December 2025, FHFA published a final rule establishing single-family and multifamily housing goals for Fannie Mae and Freddie Mac for 2026 through 2028, replacing goals previously established for 2026 and 2027."
+    },
+    {
+      "event": "FHFA increased limitation on agency MBS investments to $40 billion",
+      "date": "2026-01",
+      "sentence": "In January 2026, FHFA increased the prior limitation on our agency MBS investments to allow us to further support the secondary mortgage market, while generating viable economic returns."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. residential mortgage debt outstanding was approximately $17.0 trillion as of September 30, 2025.",
+      "sentence": "According to the Federal Reserve, total U.S. residential mortgage debt outstanding was estimated to be approximately $17.0 trillion as of September 30, 2025 (the latest date for which information is available)."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:33:40.152Z",
+  "model": "deepseek-v4-flash"
+}

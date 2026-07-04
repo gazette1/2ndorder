@@ -1,0 +1,64 @@
+{
+  "cik": "0001896677",
+  "ticker": "GSOL",
+  "name": "Grayscale Solana Staking ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104243",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1896677/000119312526104243/sol-20251231.htm"
+  },
+  "business": "The Trust holds SOL and stakes it to earn staking rewards, issuing shares that track the value of SOL held by the Trust less expenses. Shares are designed to provide investors with a cost-effective and convenient way to gain investment exposure to SOL. The Trust is a passive entity that does not utilize leverage or derivatives.",
+  "sellsTo": [
+    "Institutional investors",
+    "Retail investors seeking exposure to SOL"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Anchorage Digital Bank N.A.",
+    "Coinbase, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is for the value of the Shares (based on SOL per Share) to reflect the value of the SOL held by the Trust, including SOL earned as Staking Consideration, determined by reference to the Index Price, less the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "On October 6, 2025, the Staking Condition was satisfied with respect to the form of Staking described in this Annual Report, and on that date the Trust commenced Staking pursuant to the Staking Arrangements described below."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Trust commenced staking SOL",
+      "date": "2025-10-06",
+      "sentence": "On October 6, 2025, the Staking Condition was satisfied with respect to the form of Staking described in this Annual Report, and on that date the Trust commenced Staking pursuant to the Staking Arrangements described below."
+    },
+    {
+      "event": "Sponsor authorized commencement of redemption program",
+      "date": "2025-10-28",
+      "sentence": "On October 28, 2025, in connection with the approval for listing and trading of the Shares of the Trust under the Generic Listing Standards and the effectiveness of the registration statement on Form S-1, as amended (File No. 333-286374), the Sponsor authorized the commencement of a redemption program."
+    },
+    {
+      "event": "Shares began trading on NYSE Arca",
+      "date": "2025-10-29",
+      "sentence": "Shares of the Trust began trading on NYSE Arca on October 29, 2025, following the effectiveness of the Trust's registration statement on Form S-1, as amended."
+    },
+    {
+      "event": "Fee waiver period end date (or earlier if NAV exceeds $1.0B)",
+      "date": "2026-02-05",
+      "sentence": "Effective November 5, 2025, the Sponsor has determined to waive a portion of the Sponsor's Fee until the earlier of (x) February 5, 2026 and (y) the first date on which the NAV of the Trust exceeds $1.0 billion (such period, the Fee Waiver Period)."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets (excluding stablecoins and tokens pegged to other assets) was approximately $2,678.0 billion as of December 31, 2025, including SOL market cap of approximately $70.1 billion.",
+      "sentence": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market capitalization of approximately $2,678.0 billion (including the approximately $70.1 billion market cap of SOL), as calculated using market prices and total available supply of each digital asset, excluding stablecoins and tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:44:48.518Z",
+  "model": "deepseek-v4-flash"
+}

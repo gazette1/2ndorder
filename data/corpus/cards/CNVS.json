@@ -1,0 +1,90 @@
+{
+  "cik": "0001173204",
+  "ticker": "CNVS",
+  "name": "Cineverse Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-284027",
+    "filedAt": "2026-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1173204/000119312526284027/cnvs-20260331.htm"
+  },
+  "business": "Cineverse is a technology and entertainment company that operates a portfolio of owned and operated streaming channels, acts as a global aggregator and distributor of films and TV programs, and provides a proprietary software-as-a-service platform for OTT app development and content distribution. It also offers a connected TV monetization platform (IndiCue) and solutions for digital out-of-home advertising, serving content owners, advertisers, and media owners.",
+  "sellsTo": [
+    "consumers (streaming viewers)",
+    "advertisers",
+    "content owners",
+    "media owners"
+  ],
+  "namedCustomers": [
+    "Hallmark",
+    "ITV",
+    "Nelvana",
+    "ZDF",
+    "Konami",
+    "NFL",
+    "Highlander",
+    "Apple iTunes",
+    "Amazon Prime",
+    "Netflix",
+    "Hulu",
+    "Xbox",
+    "Pluto",
+    "Tubi",
+    "Amazon",
+    "Apple",
+    "Netflix",
+    "Google",
+    "Samsung",
+    "Roku",
+    "YouTube TV",
+    "Vizio",
+    "LG",
+    "Sling TV"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Google Cloud Platform (GCP)",
+    "CHG-Meridian U.S. Finance, Ltd.",
+    "BondIt LLC",
+    "East West Bank",
+    "The Benchmark Company, LLC",
+    "A.G.P./Alliance Global Partners"
+  ],
+  "exposures": [
+    {
+      "tag": "other:adtech",
+      "stance": "core_product",
+      "sentence": "The Company’s Connected TV (CTV) monetization platform, IndiCue, provides proprietary location-based digital advertising technology solutions that offer advertisers a targetable, measurable, and accountable way to utilize CTV media and data solutions at scale."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Cineverse is a premier technology and entertainment company with its core streaming business operating as (i) a portfolio of owned and operated streaming channels with enthusiast fan bases; (ii) a large-scale global aggregator and full-service distributor of feature films and television programs; and (iii) a proprietary technology software-as-a-service platform for over-the-top (OTT) app development and content distribution through subscription video-on-demand (SVOD), dedicated ad-supported (AVOD), ad-supported streaming linear (FAST) channels, social video streaming services, and audio podcasts."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Advancements in AI are changing the way content is distributed, bought, sold, and optimized."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant disruption in or unauthorized access to our computer systems or those of third-parties that we utilize in our operations, including relating to cybersecurity or arising from cyber-attacks, could result in a loss or degradation of service, unauthorized access, harm to our reputation, disclosure or destruction of data, or theft of intellectual property, including digital content assets, which could adversely impact our business."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely upon Amazon Web Services (AWS) and Google Cloud Platform (GCP) to operate certain aspects of our service, and any disruption of or interference with our use of AWS or GCP would impact our operations and our business would be adversely affected."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Company may require conversion of convertible notes in tranches beginning July 1, 2026",
+      "date": "2026-07-01",
+      "sentence": "The Company can require conversion in tranches of up to approximately 15% of the original principal amount of the Notes during each of the six-month periods beginning July 1, 2026 and ending December 31, 2028, with any unconverted tranches available on a cumulative basis in future tranches."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:03:52.309Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001070423",
+  "ticker": "PAA",
+  "name": "PLAINS ALL AMERICAN PIPELINE LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001070423-26-000014",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1070423/000107042326000014/paa-20251231.htm"
+  },
+  "business": "Plains All American Pipeline, L.P. is a publicly traded Delaware limited partnership that provides crude oil and NGL midstream infrastructure services including pipeline transportation, terminalling, storage, and gathering. The company connects major producing regions to key demand centers and export terminals in the United States and Canada.",
+  "sellsTo": [
+    "producers",
+    "refiners",
+    "other customers"
+  ],
+  "namedCustomers": [
+    "Valero Energy Corporation",
+    "Marathon Petroleum Corporation",
+    "Enterprise Products Partners",
+    "Delek Logistics Partners, LP",
+    "ONEOK, Inc.",
+    "Enbridge Inc.",
+    "Keyera Corp."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "As one of the largest crude oil midstream service providers in North America, we own an extensive network of pipeline transportation, terminalling, storage and gathering assets in key crude oil and NGL producing basins (including the Permian Basin) and transportation corridors and at major market hubs in the United States and Canada."
+    },
+    {
+      "tag": "other:energy-transition",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, we believe existing energy infrastructure will play a critical role in supporting emerging energy and energy transition initiatives."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of sale of Canadian NGL Business to Keyera Corp.",
+      "date": "2026-03-31",
+      "sentence": "This transaction is expected to close around the end of the first quarter of 2026, subject to the satisfaction or waiver of customary closing conditions, including receipt of regulatory approvals."
+    },
+    {
+      "event": "Acquisition of Wildhorse crude terminal in Cushing, Oklahoma",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we acquired the Wildhorse crude terminal, which complements our existing Cushing terminal footprint and adds approximately 4 million barrels of storage capacity adjacent to our existing assets."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:53:16.774Z",
+  "model": "deepseek-v4-flash"
+}

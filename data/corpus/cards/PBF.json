@@ -1,0 +1,62 @@
+{
+  "cik": "0001534504",
+  "ticker": "PBF",
+  "name": "PBF Energy Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001534504-26-000010",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000010/pbf-20251231.htm"
+  },
+  "business": "PBF Energy is one of the largest independent petroleum refiners and suppliers of unbranded transportation fuels, heating oil, petrochemical feedstocks, lubricants and other petroleum products in the United States. It sells its products throughout the Northeast, Midwest, Gulf Coast and West Coast of the United States, as well as in Canada and Mexico, and can ship to other international destinations. The company owns and operates six domestic oil refineries and a 50% interest in a renewable diesel facility.",
+  "sellsTo": [
+    "Wholesale spot market",
+    "Term agreements with major oil companies"
+  ],
+  "namedCustomers": [
+    "Shell plc (Shell)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are one of the largest independent petroleum refiners and suppliers of unbranded transportation fuels, heating oil, petrochemical feedstocks, lubricants and other petroleum products in the United States."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "we own a 50% interest in the Renewable Diesel Facility through our SBR equity method investment."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "the Toledo refinery produces finished products, including gasoline, jet and ULSD, in addition to a variety of high-value petrochemicals including benzene, toluene, xylene, nonene and tetramer."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "PBFX engages in the receiving, handling, storage and transferring of crude oil, refined products, natural gas and intermediates from sources located throughout the United States and Canada for PBF Energy in support of its refineries, as well as for third-party customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of construction activities at Martinez refinery",
+      "date": "2026-02-16",
+      "sentence": "Construction activities are expected to be complete by February 16, 2026."
+    },
+    {
+      "event": "Start-up of Catalytic Cracking Unit at Martinez refinery",
+      "date": "2026-03-01",
+      "sentence": "We expect that start-up of the Catalytic Cracking Unit will be complete in the first week of March."
+    },
+    {
+      "event": "Expiration of Sunoco offtake agreement",
+      "date": "2027-06-30",
+      "sentence": "The agreement expires in June 2027, but may be extended for one additional year if mutually agreed upon, and is subject to certain early termination rights."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:47:40.862Z",
+  "model": "deepseek-v4-flash"
+}

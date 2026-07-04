@@ -1,0 +1,61 @@
+{
+  "cik": "0001061219",
+  "ticker": "EPD",
+  "name": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001061219-26-000006",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1061219/000106121926000006/epd-20251231.htm"
+  },
+  "business": "Enterprise Products Partners L.P. is a leading North American provider of midstream energy services to producers and consumers of natural gas, NGLs, crude oil, petrochemicals and refined products. It operates an integrated asset network including natural gas gathering, treating, processing, transportation and storage; NGL transportation, fractionation, storage, and marine terminals; crude oil gathering, transportation, storage, and marine terminals; petrochemical and refined products services; and a marine transportation business.",
+  "sellsTo": [
+    "producers of natural gas, NGLs, crude oil",
+    "consumers of natural gas, NGLs, crude oil, petrochemicals and refined products",
+    "investment-grade companies (approximately 89% of top 200 customers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a leading North American provider of midstream energy services to producers and consumers of natural gas, NGLs, crude oil, petrochemicals and refined products."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We also expect continued growth in global electricity demand, including incremental U.S. demand associated with industrial reshoring and new data centers, which should support natural gas-fired power generation over the medium to long-term."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack on our IT or OT systems could affect our business and assets, and have a material adverse effect on our financial position, results of operations and cash flows."
+    },
+    {
+      "tag": "other:lng",
+      "stance": "risk_mention",
+      "sentence": "U.S. LNG remains the structural growth lever for gas demand, supported by incremental capacity additions including Plaquemines LNG, Corpus Christi Stage 3 and Golden Pass."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Second phase of Neches River ethane/propane export facility begins service",
+      "date": "2026-06-30",
+      "sentence": "The second phase of the project, which will add a second refrigeration train capable of loading up to 180 MBPD of ethane, 360 MBPD of propane, or a combination thereof, is expected to begin service in the first half of 2026."
+    },
+    {
+      "event": "Athena natural gas processing train begins service",
+      "date": "2026-12-31",
+      "sentence": "This natural gas processing train, which will have the capacity to process approximately 300 MMcf/d of natural gas and extract up to 40 MBPD of NGLs, is expected to begin service in the fourth quarter of 2026."
+    },
+    {
+      "event": "Bahia NGL Pipeline expansion and Cowboy Extension completed",
+      "date": "2027-12-31",
+      "sentence": "The expansion and Cowboy Extension are expected to be completed in the fourth quarter of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:05:50.390Z",
+  "model": "deepseek-v4-flash"
+}

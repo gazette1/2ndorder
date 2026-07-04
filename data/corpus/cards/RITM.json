@@ -1,0 +1,84 @@
+{
+  "cik": "0001556593",
+  "ticker": "RITM",
+  "name": "Rithm Capital Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001556593-26-000012",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1556593/000155659326000012/nrz-20251231.htm"
+  },
+  "business": "Rithm Capital is a global asset manager focused on real estate, credit and financial services. It operates through four segments: Origination and Servicing, Residential Transitional Lending, Asset Management, and Investment Portfolio. The company generates revenue from mortgage origination and servicing, asset management fees, and investment returns on a diversified portfolio of real estate-related and other financial assets.",
+  "sellsTo": [
+    "residential mortgage borrowers",
+    "GSEs (Fannie Mae, Freddie Mac) and Ginnie Mae",
+    "institutional investors in asset management vehicles",
+    "third-party clients for subservicing"
+  ],
+  "namedCustomers": [
+    "Fannie Mae",
+    "Freddie Mac",
+    "Ginnie Mae"
+  ],
+  "namedSuppliers": [
+    "Rocket Companies, Inc.",
+    "Onity Group Inc.",
+    "PHH Mortgage Corporation",
+    "Valon Mortgage, Inc.",
+    "Upgrade, Inc.",
+    "Goldman Sachs",
+    "SpringCastle"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our investments in residential real estate-related assets include equity interests in operating companies and investments across the residential mortgage and real estate lifecycle."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "active_investment",
+      "sentence": "In addition, following the Paramount Acquisition, we own and operate a portfolio of Class A office properties in New York City and San Francisco, which are managed as part of our broader real estate platform."
+    },
+    {
+      "tag": "other:asset-management",
+      "stance": "core_product",
+      "sentence": "The Asset Management segment mainly includes our fee-based investment management activities conducted primarily through RAM."
+    },
+    {
+      "tag": "other:consumer-loans",
+      "stance": "active_investment",
+      "sentence": "We pursue various types of investments as the market evolves, including opportunistic investments in consumer loans."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "Our insurance business is subject to regulation and supervision in each of the United States jurisdictions in which it conducts business, as well as in the Cayman Islands, where it reinsures certain U.S. business."
+    },
+    {
+      "tag": "other:mortgage-servicing",
+      "stance": "core_product",
+      "sentence": "Our servicing business includes owned MSRs primarily serviced by Newrez."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed acquisition of Crestline",
+      "date": "2025-12-01",
+      "sentence": "On December 1, 2025, we completed the acquisition of Crestline for a purchase price of approximately $324.7 million (the Crestline Acquisition), expanding our asset management capabilities across private credit, fund liquidity and insurance strategies."
+    },
+    {
+      "event": "Completed acquisition of Paramount",
+      "date": "2025-12-19",
+      "sentence": "On December 19, 2025, we completed the acquisition of Paramount for a purchase price of approximately $1.8 billion (the Paramount Acquisition), expanding our commercial real estate platform through the addition of Class A office assets and owner-operator capabilities."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. mortgage origination volume for 2025 was $2.0 trillion, forecasted to be $2.2 trillion for 2026.",
+      "sentence": "As of January 2026, the Mortgage Bankers Association estimated total U.S. origination volume for 2025 was $2.0 trillion, compared to $1.7 trillion in 2024, and forecasts total mortgage origination volume of $2.2 trillion for 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:51:15.434Z",
+  "model": "deepseek-v4-flash"
+}

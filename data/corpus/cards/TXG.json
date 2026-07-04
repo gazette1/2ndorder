@@ -1,0 +1,71 @@
+{
+  "cik": "0001770787",
+  "ticker": "TXG",
+  "name": "10x Genomics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-007822",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026007822/txg-20251231.htm"
+  },
+  "business": "10x Genomics is a life sciences technology company that sells instruments, consumables, and software for analyzing biological systems at single-cell and spatial resolution. Its products include the Chromium, Visium, and Xenium platforms. The company sells to academic and translational researchers and biopharmaceutical companies.",
+  "sellsTo": [
+    "academic researchers",
+    "translational researchers",
+    "biopharmaceutical companies",
+    "government institutions",
+    "biotechnology institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:single-cell-genomics",
+      "stance": "core_product",
+      "sentence": "Our single cell portfolio, powered by our Chromium platform, includes microfluidic chips and related consumables and our Chromium X Series and legacy Chromium instruments."
+    },
+    {
+      "tag": "other:spatial-genomics",
+      "stance": "core_product",
+      "sentence": "Our spatial portfolio is powered by our Visium and Xenium platforms and aims to bring together the worlds of histology and genomics."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our customers primarily include academic, government, biopharmaceutical, biotechnology and other institutions focused on life sciences research."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "risk_mention",
+      "sentence": "Our strategy to enter the clinical and diagnostic markets exposes us to risks distinct from our core RUO business."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "Our products could become subject to more onerous government regulation by the FDA or other regulatory agencies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Payment of $20 million for Scale Bio technology transfer",
+      "date": "2026-03-31",
+      "sentence": "In the first quarter of 2026, we expect to pay $20.0 million, subject to any adjustments, in cash and in shares of our Class A common stock in connection with the technology transfer completed in the third quarter of 2025 related to the Scale Bio acquisition."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market of more than $21 billion annually",
+      "sentence": "We estimate a total addressable market of more than $21 billion annually, assuming every lab or company in the global life sciences research tools market were to adopt our solutions at spend levels comparable to our existing users."
+    },
+    {
+      "claim": "Serviceable addressable market of more than $13 billion annually",
+      "sentence": "We estimate a serviceable addressable market of more than $13 billion annually, assuming every lab or company in the global life sciences research tools market that is currently using single cell, spatial or adjacent research techniques were to adopt our solutions at spend levels comparable to our existing users."
+    },
+    {
+      "claim": "$75 billion annual global life sciences research tools market accessible",
+      "sentence": "We believe much of the $75 billion annual global life sciences research tools market is ultimately accessible to us."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:54:17.187Z",
+  "model": "deepseek-v4-flash"
+}

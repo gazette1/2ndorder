@@ -1,0 +1,96 @@
+{
+  "cik": "0001166691",
+  "ticker": "CMCSA",
+  "name": "COMCAST CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-004994",
+    "filedAt": "2026-02-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm"
+  },
+  "business": "We are a global media and technology company that reaches customers, viewers and guests worldwide through the connectivity and platforms services we provide and the content and experiences we create. We deliver broadband, wireless, video and voice services primarily under the Xfinity, Comcast Business, Sky and NOW brands; produce, distribute and stream leading entertainment, sports and news through brands including NBC, Telemundo, Universal, Peacock and Sky; and own and operate Universal theme parks.",
+  "sellsTo": [
+    "Residential customers",
+    "Business customers (small to large enterprises)",
+    "Advertisers",
+    "Multichannel video providers",
+    "Consumers (theme park visitors, streaming subscribers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Verizon",
+    "T-Mobile"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We deliver broadband, wireless, video and voice services primarily under the Xfinity, Comcast Business, Sky and NOW brands;"
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "produce, distribute and stream leading entertainment, sports and news through brands including NBC, Telemundo, Universal, Peacock and Sky"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our small business broadband, wireline voice and wireless service offerings are similar to those provided to our residential customers and also include cloud-based cybersecurity services, wireless backup connectivity, advanced Wi-Fi solutions, video monitoring services and other cloud-based services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "For example, we expect threat actors will continue to gain sophistication by using tools and techniques, such as AI, that are specifically designed to circumvent security controls."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "Executing on our multi-year strategy to evolve our existing HFC network, including the rollout of DOCSIS 4.0 in select markets, which allows for multigigabit symmetrical speeds."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "Deploying fiber-to-the-premises with symmetrical speed offerings ranging up to 10 gigabits per second to residential customers who request that service, subject to local construction constraints, and up to 100 gigabits per second to business customers, with up to 400 gigabits per second to certain business customers."
+    },
+    {
+      "tag": "other:theme-parks",
+      "stance": "core_product",
+      "sentence": "and own and operate Universal theme parks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of Epic Universe theme park in Orlando",
+      "date": "2025-05",
+      "sentence": "Universal Orlando Resort : Includes three theme parks, Universal Studios Florida, Islands of Adventure, and our newest theme park, Epic Universe, which opened in May 2025"
+    },
+    {
+      "event": "Opening of Universal Horror Unleashed in Las Vegas",
+      "date": "2025-08",
+      "sentence": "Universal Horror Unleashed, a year-round horror entertainment experience with locations in Las Vegas, Nevada, which opened in August 2025"
+    },
+    {
+      "event": "Opening of Universal Kids Resort in Frisco, Texas",
+      "date": "2026",
+      "sentence": "Universal Kids Resort, a smaller-scale theme park in Frisco, Texas expected to open in 2026"
+    },
+    {
+      "event": "Opening of Universal theme park and resort in the United Kingdom",
+      "date": "2031",
+      "sentence": "a Universal theme park and resort in the United Kingdom with a projected opening date in 2031, subject to various approvals."
+    },
+    {
+      "event": "Separation of Versant into independent publicly traded company",
+      "date": "2026-01-02",
+      "sentence": "On January 2, 2026, we completed the previously announced separation of Versant Media Group, Inc. into an independent, publicly traded company"
+    },
+    {
+      "event": "Use of T-Mobile wireless network for domestic business wireless services",
+      "date": "2026",
+      "sentence": "beginning in 2026, we will also use T-Mobile's wireless network under an MVNO agreement."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:04:25.477Z",
+  "model": "deepseek-v4-flash"
+}

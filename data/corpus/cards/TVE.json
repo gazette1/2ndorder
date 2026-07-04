@@ -1,0 +1,133 @@
+{
+  "cik": "0001376986",
+  "ticker": "TVE",
+  "name": "Tennessee Valley Authority",
+  "source": {
+    "form": "10-K",
+    "accession": "0001376986-25-000056",
+    "filedAt": "2025-11-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1376986/000137698625000056/tve-20250930.htm"
+  },
+  "business": "TVA operates the nation's largest public power system, generating nearly all of its revenues from the sale of electricity. It sells power at wholesale rates to local power companies (LPCs) and directly served customers, including federal agencies and large commercial/industrial users.",
+  "sellsTo": [
+    "Local power companies (LPCs)",
+    "Directly served customers (federal agencies and large commercial/industrial)",
+    "Other power systems (exchange power)"
+  ],
+  "namedCustomers": [
+    "Memphis Light, Gas and Water Division (MLGW)",
+    "Nashville Electric Service (NES)"
+  ],
+  "namedSuppliers": [
+    "Tennessee Gas Pipeline Company, L.L.C.",
+    "East Tennessee Natural Gas, LLC",
+    "Johnsonville Aeroderivative Combustion Turbine Generation LLC (JACTG)"
+  ],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "TVA has seven operating nuclear units."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "TVA's transmission facilities are directly interconnected with the transmission facilities of neighboring utilities and are part of the larger interstate power transmission grid."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "TVA acquires Renewable Energy Certificates (\"RECs\") in connection with certain purchased power transactions and sells some of these RECs to customers."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Natural gas and/or oil-fired 42,013 24%"
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Coal-fired 25,180 15%"
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "in March 2025, TVA issued an RFP for battery storage related to the Kingston energy complex and is currently evaluating proposals related to the RFP."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The increased sales volume was primarily driven by higher sales to residential and small commercial and industrial customers as well as increases within the data processing, hosting, and related services sector."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "This demand has arisen from, and seems likely to continue to arise from, among other things, increasing population in TVA's service territory, utilization of AI that uses significantly more power than traditional data processing, cryptocurrency mining, greater usage and adoption of electric vehicles, and economic development, including new or expanded data centers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "TVA is regularly targeted in cyber attacks and anticipates that it will be consistently targeted in the future."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "active_investment",
+      "sentence": "In the third quarter of 2025, TVA submitted a construction permit application to the Nuclear Regulatory Commission (\"NRC\") for a BWRX-300 reactor at the Clinch River Nuclear Site, and in July 2025, the NRC accepted the application for review."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "greater usage and adoption of electric vehicles"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "TVA intends to continue expanding, developing, and improving its electric transmission and distribution systems"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commercial operations of Johnsonville Aeroderivative CT Units 21-25, 27-30",
+      "date": "2025-05-06",
+      "sentence": "Commercial plant operations began on Units 21-25 and 27-30 on May 6, 2025, and Unit 26 on August 20, 2025."
+    },
+    {
+      "event": "Commercial operations of Johnsonville Aeroderivative CT Unit 26",
+      "date": "2025-08-20",
+      "sentence": "Commercial plant operations began on Units 21-25 and 27-30 on May 6, 2025, and Unit 26 on August 20, 2025."
+    },
+    {
+      "event": "Record of Decision for New Caledonia simple cycle CT project",
+      "date": "2025-02-13",
+      "sentence": "TVA documented its final decision with the Record of Decision on February 13, 2025."
+    },
+    {
+      "event": "Record of Decision for Allen aeroderivative CT project",
+      "date": "2025-09-25",
+      "sentence": "TVA documented its final decision with the Record of Decision on September 25, 2025."
+    },
+    {
+      "event": "NRC acceptance of SMR application review",
+      "date": "2025-07-01",
+      "sentence": "In July 2025, the NRC accepted the application for review."
+    },
+    {
+      "event": "Issuance of RFP for up to 2,250 MW of new build energy resources",
+      "date": "2025-04-01",
+      "sentence": "TVA issued a request for proposal (\"RFP\") in April 2025 for up to 2,250 MW of new build energy resources for potential PPAs."
+    },
+    {
+      "event": "Cumberland Combined Cycle Plant expected operational",
+      "date": "2026-12-31",
+      "sentence": "TVA is replacing generation for one unit at Cumberland with a 1,450 MW combined cycle plant that is expected to be operational by the end of CY 2026."
+    },
+    {
+      "event": "Kingston Combined Cycle Plant expected operational",
+      "date": "2027-12-31",
+      "sentence": "To replace the nine coal-fired units at Kingston, TVA is constructing a 1,500 MW combined cycle plant that is expected to be operational by the end of CY 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:54:54.419Z",
+  "model": "deepseek-v4-flash"
+}

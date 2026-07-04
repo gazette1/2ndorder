@@ -1,0 +1,50 @@
+{
+  "cik": "0000747540",
+  "ticker": "SPRS",
+  "name": "SURGE COMPONENTS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-021131",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/747540/000121390026021131/ea0277686-10k_surgecomp.htm"
+  },
+  "business": "Surge Components Inc. is a supplier of electronic products and components, including capacitors, discrete semiconductor components (rectifiers, transistors, diodes), and audible components. These products are sold to original equipment manufacturers (OEMs) and distributors, and are used in a wide range of industries such as automotive, telecommunications, consumer electronics, and industrial applications.",
+  "sellsTo": [
+    "Original equipment manufacturers (OEMs)",
+    "Distributors",
+    "Automotive",
+    "Telecommunications",
+    "Consumer electronics",
+    "Industrial"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Lelon Electronics"
+  ],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Discrete components, such as semiconductor rectifiers, transistors and diodes, which are single function low power semiconductor products that are packaged alone as compared to integrated circuits such as microprocessors."
+    },
+    {
+      "tag": "other:capacitors",
+      "stance": "core_product",
+      "sentence": "We are a supplier of electronic products and components. These products include capacitors, which are electrical energy storage devices, and discrete components, such as semiconductor rectifiers, transistors and diodes."
+    },
+    {
+      "tag": "other:audible components",
+      "stance": "core_product",
+      "sentence": "Our core products include buzzers, speakers, microphones, resonators, alarms, chimes, filters, and discriminators."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failure or cybersecurity breaches of our network security could subject us to increased operating costs, as well as litigation and other potential losses."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:41:14.177Z",
+  "model": "deepseek-v4-flash"
+}

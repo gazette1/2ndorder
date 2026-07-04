@@ -1,0 +1,43 @@
+{
+  "cik": "0001381668",
+  "ticker": "TFSL",
+  "name": "TFS Financial CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001381668-25-000106",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1381668/000138166825000106/tfsl-20250930.htm"
+  },
+  "business": "The Association's principal business consists of originating and servicing residential mortgage loans and attracting retail savings deposits. The Company's principal lending activity is the origination and acquisition of up to 30-year fixed-rate and adjustable-rate, first mortgage loans used to purchase or refinance residential real estate. The Association attracts retail deposits from the general public in the areas surrounding its main office and its branch offices.",
+  "sellsTo": [
+    "Retail customers in Ohio and Florida",
+    "Residential mortgage borrowers in 28 states and the District of Columbia",
+    "Deposit customers in all 50 states"
+  ],
+  "namedCustomers": [
+    "Fannie Mae"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Association's principal business consists of originating and servicing residential mortgage loans and attracting retail savings deposits."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber-attacks, computer viruses and other technological risks that may breach the security of our websites or other systems to obtain unauthorized access to confidential information, destroy data or disable our systems;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Core processing system go-live",
+      "date": "2026-07-01",
+      "sentence": "The implementation is intended to go live in July 2026 and will modernize our operations, boost efficiency and allow us to leverage technology to enhance our customers' experience."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:53:22.438Z",
+  "model": "deepseek-v4-flash"
+}

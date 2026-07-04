@@ -1,0 +1,56 @@
+{
+  "cik": "0000041091",
+  "ticker": "GPJA",
+  "name": "GEORGIA POWER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000092122-26-000006",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/41091/000009212226000006/so-20251231.htm"
+  },
+  "business": "Georgia Power is a vertically integrated electric utility that generates, transmits, distributes, and purchases electricity. It provides retail electric service to over 530 cities and towns in Georgia, as well as rural areas, and sells wholesale electricity to cooperatives and municipalities such as OPC, MEAG Power, Dalton, and various EMCs. The company also operates nuclear power plants through agreements with Southern Nuclear.",
+  "sellsTo": [
+    "retail residential",
+    "retail commercial",
+    "retail industrial",
+    "wholesale customers including OPC, MEAG Power, Dalton, and various EMCs"
+  ],
+  "namedCustomers": [
+    "OPC",
+    "MEAG Power",
+    "Dalton"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Georgia Power is engaged in the generation, transmission, distribution, and purchase of electricity and the sale of electric service within the state of Georgia."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Georgia Power holds undivided interests in, and contracts for the operation of, six nuclear units."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Through the 2022 IRP and the 2023 IRP Update, the Georgia PSC has certified resources totaling approximately 13 GWs, approximately nine GWs of which are new generation and battery energy storage facilities that are being, or are expected to be, constructed by Georgia Power."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The traditional electric operating companies are projecting a significant increase in demand for electricity sales, largely driven by data centers and other large load customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "NRC decision on subsequent license renewal for Plant Hatch Units 1 and 2",
+      "date": "2026-06-30",
+      "sentence": "The NRC's decision on this application is anticipated by the end of the second quarter 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:46:37.649Z",
+  "model": "deepseek-v4-flash"
+}

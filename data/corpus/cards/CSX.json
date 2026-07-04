@@ -1,0 +1,54 @@
+{
+  "cik": "0000277948",
+  "ticker": "CSX",
+  "name": "CSX CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000277948-26-000006",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm"
+  },
+  "business": "CSX provides rail-based freight transportation services including traditional rail service, intermodal container and trailer transport, rail-to-truck transfers, and bulk commodity operations. It serves customers across various industries through its approximately 20,000 mile rail network in the eastern United States.",
+  "sellsTo": [
+    "Manufacturers",
+    "Industrial producers",
+    "Automotive industry",
+    "Construction companies",
+    "Farmers and feed mills",
+    "Wholesalers and retailers",
+    "Energy producers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The Company provides rail-based freight transportation services including traditional rail service, the transport of intermodal containers and trailers, as well as other transportation services such as rail-to-truck transfers and bulk commodity operations."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The merchandise business shipped 2.6 million carloads (41% of volume) and generated $8.8 billion in revenue (62% of revenue) in 2025. The Company s merchandise business is comprised of shipments in the following diverse markets: chemicals, agricultural and food products, automotive, minerals, forest products, metals and equipment, and fertilizers."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Quality Carriers is the largest provider of bulk liquid chemicals truck transportation in North America."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A successful data breach, cyber-attack, or the occurrence of any similar incident that impacts the Company s or its key third-party vendors information technology systems could result in a service interruption, train accident, misappropriation of confidential or proprietary information (including personal information), process failure, or other operational difficulties."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "As cybersecurity threats continue to evolve, including the increased maturity of artificial intelligence leveraged by threat actors, the Company may be required to expend significant additional resources to continue to modify or enhance its protective measures or to investigate and remediate any information security vulnerabilities, data breaches, cyber-attacks or other similar incidents."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:02:31.060Z",
+  "model": "deepseek-v4-flash"
+}

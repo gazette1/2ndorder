@@ -1,0 +1,54 @@
+{
+  "cik": "0000717605",
+  "ticker": "HXL",
+  "name": "HEXCEL CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-046377",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/717605/000119312526046377/hxl-20251231.htm"
+  },
+  "business": "Hexcel manufactures advanced composite materials and engineered products, including carbon fibers, prepregs, honeycomb, fabrics, and specialty reinforcements. The company serves the commercial aerospace, defense, and space markets.",
+  "sellsTo": [
+    "Commercial aerospace",
+    "Defense",
+    "Space"
+  ],
+  "namedCustomers": [
+    "Airbus",
+    "Boeing"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Commercial Aerospace sales decreased 4.0% compared to 2024 primarily due to lower sales for certain Airbus and Boeing programs, partially offset by increased Other Commercial Aerospace sales driven by strength in regional jets."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Defense, Space & Other sales in 2025 increased 5.4% compared to 2024. Year over year growth was led by military helicopters, including the Black Hawk and CH-53-K, as well as other military aircraft structures, launchers and satellites."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Defense, Space & Other sales for 2025 increased by 2.5% over the prior year primarily driven by higher sales of launchers."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Defense, Space & Other sales in 2025 increased 5.4% compared to 2024. Year over year growth was led by military helicopters, including the Black Hawk and CH-53-K, as well as other military aircraft structures, launchers and satellites."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Final settlement of accelerated share repurchase agreements",
+      "date": null,
+      "sentence": "The final settlement of each transaction under the ASR Agreements is scheduled to occur in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:31:51.494Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0000073309",
+  "ticker": "NUE",
+  "name": "NUCOR CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071575",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526071575/nue-20251231.htm"
+  },
+  "business": "Nucor is a diversified steel producer with three segments: steel mills, steel products, and raw materials. It sells steel and steel products to external customers and also uses internally. Key end markets include infrastructure, data centers, energy, and advanced manufacturing.",
+  "sellsTo": [
+    "Infrastructure",
+    "Data centers",
+    "Energy",
+    "Advanced manufacturing",
+    "Automotive",
+    "Residential construction",
+    "Nonresidential construction",
+    "Construction",
+    "Metals service centers",
+    "Appliance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Demand was strong in several key end markets, including infrastructure, data centers, energy, and advanced manufacturing"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditures for 2026 estimated at $2.50 billion",
+      "date": null,
+      "sentence": "Capital expenditures for 2026 are estimated to be approximately $2.50 billion."
+    },
+    {
+      "event": "Issuance of $220 million IDRBs for West Virginia sheet mill",
+      "date": "2025-11",
+      "sentence": "In November 2025, Nucor issued $220 million in 40-year variable rate West Virginia Economic Development Authority industrial development revenue bonds (\"IDRBs\") to partially fund the construction of the West Virginia sheet mill."
+    },
+    {
+      "event": "Expect earnings increase in Q1 2026",
+      "date": "2026-03-31",
+      "sentence": "We expect earnings to increase in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:17:21.862Z",
+  "model": "deepseek-v4-flash"
+}

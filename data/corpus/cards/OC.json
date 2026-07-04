@@ -1,0 +1,63 @@
+{
+  "cik": "0001370946",
+  "ticker": "OC",
+  "name": "Owens Corning",
+  "source": {
+    "form": "10-K",
+    "accession": "0001370946-26-000067",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000067/oc-20251231.htm"
+  },
+  "business": "Owens Corning manufactures and sells roofing shingles, insulation products, and door systems for residential and non-residential construction. The company sells through distributors, home centers, lumberyards, retailers, and insulation installers.",
+  "sellsTo": [
+    "residential new construction",
+    "residential repair and remodeling",
+    "non-residential construction",
+    "industrial applications",
+    "wholesale and retail distribution channels for doors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Demand for products in our Roofing segment is generally driven by both residential repair and remodeling activity and by new residential construction."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Demand in non-residential markets is most closely correlated to industrial production growth and overall economic activity in the markets we serve."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Emerging issues related to our development, integration and use of artificial intelligence (AI) could give rise to legal or regulatory action, damage our reputation or otherwise materially harm our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to risks relating to our information technology systems (including cybersecurity) risks, and any failure to adequately protect or successfully upgrade our critical information technology systems could materially affect our operations and financial results."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Government trade actions may create significant uncertainty in the global market and could have a material adverse impact on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, weather conditions and storm activity could have a material adverse impact on our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of global glass reinforcements business",
+      "date": "2026-03-31",
+      "sentence": "The transaction is expected to close in the first few months of 2026 and is subject to customary regulatory approvals and other conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:06:45.886Z",
+  "model": "deepseek-v4-flash"
+}

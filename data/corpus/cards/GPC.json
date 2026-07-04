@@ -1,0 +1,80 @@
+{
+  "cik": "0000040987",
+  "ticker": "GPC",
+  "name": "GENUINE PARTS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000040987-26-000003",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000003/gpc-20251231.htm"
+  },
+  "business": "Genuine Parts Company distributes automotive replacement parts, accessories, tools, and equipment to repair shops, dealerships, fleet operators, and retail consumers, and industrial replacement parts and value-added solutions to MRO and OEM customers.",
+  "sellsTo": [
+    "repair shops",
+    "dealerships",
+    "fleet operators",
+    "retail consumers",
+    "MRO customers",
+    "OEM customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "First Brands Group"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our Global Automotive portfolio includes parts, accessories, tools, and equipment that cover nearly all vehicle types from passenger cars and trucks, including hybrids and electric vehicles, to motorcycles, buses, farm machinery, and heavy-duty equipment."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Advanced automation and motion control solutions through Motion AI"
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "our supply chain modernization initiative is designed to improve our efficiency, geographic reach and market penetration; however, executing this initiative requires substantial capital investment, including significant expenditures for, among other things, real estate and construction and technology enhancements."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our Automotive segments continue to invest in digital sales platforms and omni-channel service capabilities to meet evolving customer preferences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack or security breach could result in, among other things, sensitive and confidential data being lost, manipulated or exposed to unauthorized persons or to the public or delay our ability to process customer orders and manage inventory."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "rising demand for automation and robotics"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Proposed separation of Automotive and Industrial businesses into two independent companies",
+      "date": "2027-03-31",
+      "sentence": "The separation is targeted for completion in the first quarter of 2027, subject to certain customary conditions, including, among others, final approval by our Board of Directors, receipt of requisite regulatory clearances and compliance with applicable SEC requirements."
+    },
+    {
+      "event": "Settlement of U.S. qualified defined benefit pension plan",
+      "date": "2025-12-19",
+      "sentence": "On December 19, 2025, we settled all future obligations under the U.S. pension plan through the transfer of the remaining benefit obligations to a third-party insurance company under a group annuity contract."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Automotive aftermarket total addressable market over $200 billion",
+      "sentence": "Our network operates in large and fragmented markets with a combined total addressable market estimated to be over $200 billion."
+    },
+    {
+      "claim": "Industrial distribution total addressable market over $150 billion",
+      "sentence": "We provide replacement parts and value-added solutions to maintenance, repair and operation (MRO) customers and original equipment manufacturer (OEM) customers, serving a total addressable market estimated to be over $150 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:51:50.703Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,42 @@
+{
+  "cik": "0001985554",
+  "ticker": "LDXC",
+  "name": "Londax Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-006612",
+    "filedAt": "2025-09-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1985554/000168316825006612/londax_10k-053125.htm"
+  },
+  "business": "Londax Corp. provides IT consulting services and software development solutions. Its flagship product Londax.ai is a Customer Relationship Management (CRM) System with Applicant Tracking and out-staffing services. The company targets small to midsize businesses and intends to operate in Europe with potential worldwide operations.",
+  "sellsTo": [
+    "small to midsize business entities",
+    "European market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "OpenAI",
+    "AWS"
+  ],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Our company develop and implement a customized Customer Relationship Management (CRM) System that facilitates out-staffing for our future clients."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "For the Artificial Intelligence functionality (advertisement generation), the OpenAI API is used."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "londax.ai is a web application consisting of Frontend and Backend components hosted on cloud services provided by AWS."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T17:05:07.621Z",
+  "model": "deepseek-v4-flash"
+}

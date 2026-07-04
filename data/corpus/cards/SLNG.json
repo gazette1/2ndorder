@@ -1,0 +1,97 @@
+{
+  "cik": "0001043186",
+  "ticker": "SLNG",
+  "name": "Stabilis Solutions, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007090",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1043186/000143774926007090/slng20251231_10k.htm"
+  },
+  "business": "Stabilis Solutions, Inc. provides turnkey clean energy production, storage, transportation and fueling solutions using liquefied natural gas (LNG) to multiple end markets. The Company generates revenue by selling and delivering LNG to its customers, renting cryogenic equipment, and providing engineering and field support services.",
+  "sellsTo": [
+    "aerospace",
+    "agriculture",
+    "industrial",
+    "marine bunkering",
+    "mining",
+    "oil and gas",
+    "pipeline",
+    "remote power",
+    "utility",
+    "data centers"
+  ],
+  "namedCustomers": [
+    "Carnival Corporation",
+    "Aggreko Plc",
+    "Space Exploration Technologies Corp"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "LNG is also being utilized as a transportation fuel in the marine industry and as a propellant in the private rocket launch sector."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "LNG can be used to generate electrical power for data centers where the data center either does not have adequate access to the electrical grid, or a gas pipeline or to provide a redundant source of power."
+    },
+    {
+      "tag": "other:marine-bunkering",
+      "stance": "core_product",
+      "sentence": "Large marine vessels, such as cruise ships and container ships, can take between several hundred thousand gallons up to several million gallons of LNG in a single fuel bunkering event."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and Gas producers use high horsepower engines and turbines to power their drilling and pressure pumping operations."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Mines, including those producing metals, rare earth materials, and coal, are often located in remote locations that are off the electrical grid and do not have natural gas pipeline access."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Agriculture industry utilizes LNG to power high horsepower engines, greenhouses and also for agricultural dryers for generating heat as LNG has a clean and consistent burn that makes heating operations more predictable."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "LNG usage in utility and pipeline applications varies by project type."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "LNG can serve as a partner fuel for renewable energy sources and provides an important balance between environmental sustainability, security and access, and economic viability as a source of fuel."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Finalize project financing for Galveston LNG liquefaction facility",
+      "date": "2026-03-31",
+      "sentence": "Conditions precedent to the LNG supply bunkering agreements include the Company successfully finalizing project financing by the first quarter 2026 and completing construction of the above proposed Galveston LNG liquefaction facility by the second quarter 2028."
+    },
+    {
+      "event": "Complete construction of Galveston LNG liquefaction facility",
+      "date": "2028-06-30",
+      "sentence": "Conditions precedent to the LNG supply bunkering agreements include the Company successfully finalizing project financing by the first quarter 2026 and completing construction of the above proposed Galveston LNG liquefaction facility by the second quarter 2028."
+    },
+    {
+      "event": "Commence LNG deliveries for data center behind-the-meter power generation contract",
+      "date": "2027-03-31",
+      "sentence": "LNG deliveries are expected to commence during the first quarter of 2027 and continue through the first quarter of 2029."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "At December 31, 2025, there were 851 LNG fueled marine vessels in the global fleet with 670 more new build vessels on order for delivery by 2033, a 79% increase in the number of LNG fueled vessels by 2033.",
+      "sentence": "At December 31, 2025, there were 851 LNG fueled marine vessels in the global fleet with 670 more new build vessels on order for delivery by 2033, a 79% increase in the number of LNG fueled vessels by 2033."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:58:55.678Z",
+  "model": "deepseek-v4-flash"
+}

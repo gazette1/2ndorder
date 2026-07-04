@@ -1,0 +1,64 @@
+{
+  "cik": "0001009891",
+  "ticker": "AIRI",
+  "name": "AIR INDUSTRIES GROUP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-035731",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026035731/ea0282298-10k_airindustries.htm"
+  },
+  "business": "Manufactures precision components and assemblies for large aerospace and defense prime contractors. Products include landing gears, flight controls, engine mounts, and components for jet engines and ground turbines. Sells to U.S. Government, international governments, and commercial airlines.",
+  "sellsTo": [
+    "U.S. Government and military",
+    "International governments",
+    "Commercial global airlines",
+    "Ground power electricity generation"
+  ],
+  "namedCustomers": [
+    "RTX Corporation (including Collins Aerospace, Pratt Whitney)",
+    "Lockheed Martin (including Sikorsky Aircraft)",
+    "Northrop Grumman",
+    "General Electric Aerospace",
+    "GE Verona",
+    "U.S. Government (Defense Logistics Agency)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "In 2025 and 2024, approximately 58.3% and 69.9% of our net sales were attributed to customers who use our products for end-use on military aircraft."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We believe we are one of the leading manufacturers of precision components and assemblies for large aerospace and defense prime contractors."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We supply GE Verona with precision components that are used in ground-based turbines for electrical power generation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber security attacks, internal system or service failures, and any unauthorized access to our customer data will have an adverse effect on our business and reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger Agreement with Tenax",
+      "date": "2026-02-16",
+      "sentence": "On February 16, 2026, we entered into a Merger Agreement with Tenax."
+    },
+    {
+      "event": "Eleventh Amendment to Credit Facility extending maturity to September 30, 2026",
+      "date": "2026-02-26",
+      "sentence": "On February 26, 2026, we entered into an Eleventh Amendment which extended the maturity date of the revolving credit and term loans to September 30, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:49:29.746Z",
+  "model": "deepseek-v4-flash"
+}

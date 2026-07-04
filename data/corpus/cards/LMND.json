@@ -1,0 +1,77 @@
+{
+  "cik": "0001691421",
+  "ticker": "LMND",
+  "name": "Lemonade, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001691421-26-000016",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691421/000169142126000016/lmnd-20251231.htm"
+  },
+  "business": "Lemonade sells renters, homeowners, pet, car, and life insurance policies directly to consumers through a digital platform powered by artificial intelligence. It uses a vertically integrated model with wholly-owned insurance carriers in the United States and Europe. The company also offers a 'Giveback' feature where funds are donated to customer-selected causes.",
+  "sellsTo": [
+    "individual consumers (renters, homeowners, pet owners, car owners, life insurance seekers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Hannover Ruck SE",
+    "MAPFRE Re Compania De Reaseguros S.A.",
+    "Swiss Reinsurance America Corporation",
+    "Aviva",
+    "BNP Paribas Cardif",
+    "Legal & General Group"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Lemonade is rebuilding insurance from the ground up on a digital substrate and an innovative business model."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Our architecture melds artificial intelligence with the human kind, and learns from the prodigious data it generates to become ever better at delighting customers and evaluating risk."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "Recently, we have integrated a pricing model in certain markets that utilizes direct vehicle telemetry to distinguish between human-driven and autonomous miles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incidents or real or perceived errors, failures or bugs in our systems, website or app could impair our operations, result in loss of personal customer information, damage our reputation and brand, and harm our business and operating results."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We offer our products through our website and online app using Amazon Web Services ('AWS') data centers, a provider of cloud infrastructure services."
+    },
+    {
+      "tag": "other:reinsurance",
+      "stance": "active_investment",
+      "sentence": "We utilize several forms of reinsurance, with the goal of reducing the impact on our gross margin."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Recoupment of California FAIR Plan assessment begins",
+      "date": "2026-01-01",
+      "sentence": "The Company received regulatory approval for recoupment of up to 50% of the assessment over a period of two years beginning in 2026."
+    },
+    {
+      "event": "Additional financing available from General Catalyst for sales and marketing",
+      "date": "2025-02-03",
+      "sentence": "On February 3, 2025, the Agreement was further amended to provide up to an additional $200 million of financing from January 1, 2026 through December 31, 2026 for our sales and marketing growth efforts."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Potential multi-billion dollar opportunity in car premiums from existing customers",
+      "sentence": "Of the approximately 3,000,000 customers we have today, about 1.9 million already have car insurance that translates to a potential multi-billion dollar opportunity in car premiums at nearly zero acquisition costs."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:50:09.228Z",
+  "model": "deepseek-v4-flash"
+}

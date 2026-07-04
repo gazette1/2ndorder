@@ -1,0 +1,42 @@
+{
+  "cik": "0000860730",
+  "ticker": "HCA",
+  "name": "HCA Healthcare, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-044769",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm"
+  },
+  "business": "HCA Healthcare is one of the leading health care services companies in the United States, operating 190 hospitals and various outpatient facilities. It provides a comprehensive array of health care services, including medical, surgical, diagnostic, and emergency services. The company receives payments from federal and state governments, managed care plans, private insurers, and directly from patients.",
+  "sellsTo": [
+    "Medicare",
+    "Medicaid",
+    "Managed care plans",
+    "Private insurers",
+    "Uninsured patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "We are investing in digital, data, and artificial intelligence capabilities to improve clinical quality, enhance the experience of our patients and colleagues, and drive operational efficiency at scale."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents or other forms of data breaches could result in the compromise of our facilities, confidential data or critical data systems, causing our operations to be impaired or impacted."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our results of operations may be adversely affected by competition for staffing, the shortage of experienced nurses and other health care professionals and labor union activity."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:03:17.862Z",
+  "model": "deepseek-v4-flash"
+}

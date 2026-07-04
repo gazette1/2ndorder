@@ -1,0 +1,49 @@
+{
+  "cik": "0001846576",
+  "ticker": "FIGS",
+  "name": "FIGS, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012333",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1846576/000162828026012333/figs-20251231.htm"
+  },
+  "business": "FIGS, Inc. sells healthcare apparel including scrubs and related products to healthcare professionals through direct-to-consumer digital platform and physical retail stores.",
+  "sellsTo": [
+    "Healthcare professionals",
+    "Institutions via TEAMS business"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a founder-led, direct-to-consumer healthcare apparel and lifestyle brand that seeks to celebrate, empower and serve current and future generations of healthcare professionals."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell products purposefully designed to serve the particular needs of healthcare professionals primarily through our direct-to-consumer (DTC) digital platform, consisting of our website, mobile app and B2B business ( TEAMS )."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "There have been reports of elevated fatigue and stress among workers in the healthcare industry, which we believe may have impacted customer purchasing behavior from time to time."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "risk_mention",
+      "sentence": "Our fulfillment center and storage locations include computer-controlled and automated equipment and rely on warehouse management systems to manage supply chain fulfillment operations, which means our operations are complicated, require coordination between our fulfillment, storage and retail operations, and are subject to a number of risks related to cybersecurity, the proper operation of software and hardware, including connections between software and/or hardware, electronic or power interruptions or other system failures, some of which have occurred from time to time."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We currently rely on third-party global logistics and shipping providers to ship raw materials, receive inbound inventory to our fulfillment center and retail stores, and deliver our products to our customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:03:10.099Z",
+  "model": "deepseek-v4-flash"
+}

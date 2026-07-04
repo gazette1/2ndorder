@@ -1,0 +1,95 @@
+{
+  "cik": "0000008504",
+  "ticker": "UAVS",
+  "name": "AgEagle Aerial Systems Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010682",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/8504/000143774926010682/uavs20251231_10k.htm"
+  },
+  "business": "AgEagle Aerial Systems Inc., through its wholly owned subsidiaries, designs and delivers drones, sensors, and software. The company sells to industries including military/defense, public safety, surveying/mapping, agriculture, and utilities/engineering. In 2025, the company re-focused on its two primary product lines: Uncrewed Aircraft Systems and Multispectral Sensors.",
+  "sellsTo": [
+    "military/defense",
+    "public safety",
+    "surveying/mapping",
+    "agriculture",
+    "utilities/engineering"
+  ],
+  "namedCustomers": [
+    "U.S. Department of War"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our core technological capabilities include robotics and robotics systems autonomy; advanced thermal and multispectral sensor design and development; embedded software and firmware; secure wireless digital communications and networks; lightweight airframes; small UAS (sUAS) design, integration and operations; power electronics and propulsion systems; controls and systems integration; fixed wing flight; flight management software; data capture and analytics; human-machine interface development and integrated mission solutions."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our proprietary thermal and multispectral sensors are broadly recognized as the cameras of choice worldwide for advanced applications in agriculture, plant research, land management and forestry management."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our eBee TAC and eBee Vision UAS have been approved by the U.S. government for procurement by the Department of War, has been accepted as Blue-listed products."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Founded in 2010, AgEagle was originally formed to pioneer proprietary, professional-grade, fixed-winged drones and aerial imagery-based data collection and analytics solutions for the agriculture industry."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Additionally, it allows synchronized capture of all 10 bands, providing AI functions such as automatic triggering and geo-tagging for optimizing flight efficiency and easy post-processing."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Certain technologies, such as use of autonomous vehicles, remote-controlled equipment, virtual reality, automation and artificial intelligence, present new and significant cybersecurity safety risks that must be analyzed and addressed before implementation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ISO:9001 certification completed",
+      "date": "2025-06-30",
+      "sentence": "senseFly SA completed ISO:9001 certification for its Quality Management System, a process that senseFly SA completed during the second quarter of 2025."
+    },
+    {
+      "event": "Texas manufacturing facility opening announced",
+      "date": "2026-01-31",
+      "sentence": "EagleNXT announced the opening of a drone and camera manufacturing operation in Texas, in January 2026."
+    },
+    {
+      "event": "Headquarters relocation to Allen, Texas",
+      "date": "2026-12-31",
+      "sentence": "The Company intends to relocate its headquarters to Allen, Texas in 2026."
+    },
+    {
+      "event": "eBee TAC added to Blue UAS Cleared List",
+      "date": "2022-03-31",
+      "sentence": "In March 2022, AgEagle's eBee TAC Uncrewed Aerial System was the first approved drone to be added to the U.S. Department of War's Defense Innovation Unit's Blue UAS Cleared List as part of Blue sUAS 2.0."
+    },
+    {
+      "event": "eBee VISION unveiled",
+      "date": "2022-12-31",
+      "sentence": "In December 2022, AgEagle announced its latest innovation in commercial and tactical drone technology with the unveiling of its new eBee VISION Intelligence, Surveillance and Reconnaissance (ISR) UAS."
+    },
+    {
+      "event": "RedEdge-P dual sensor released",
+      "date": "2023-05-31",
+      "sentence": "In May 2023, we released the new RedEdge-P dual high resolution and RGB composite drone sensor."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global military drone market valued at $21.81 billion in 2024, expected to grow to $56.69 billion by 2033 at 11.20% CAGR",
+      "sentence": "A recent report from Straits Research said that the global military drone market size was valued at $21.81 billion in 2024 and is expected to grow from $24.25 billion in 2025 to reach $56.69 billion by 2033, growing at a CAGR of 11.20% during the forecast period (2025-2033)."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:12:47.624Z",
+  "model": "deepseek-v4-flash"
+}

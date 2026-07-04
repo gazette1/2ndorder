@@ -1,0 +1,41 @@
+{
+  "cik": "0000850141",
+  "ticker": "HMN",
+  "name": "HORACE MANN EDUCATORS CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000850141-26-000007",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/850141/000085014126000007/hmn-20251231.htm"
+  },
+  "business": "Horace Mann Educators Corporation is a holding company for insurance subsidiaries that market and underwrite personal lines of property and casualty insurance products, life insurance products, retirement products, individual supplemental insurance products, and group benefit products, primarily to K-12 teachers, administrators and other employees of public schools and their families.",
+  "sellsTo": [
+    "K-12 teachers",
+    "administrators",
+    "other employees of public schools",
+    "their families"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Horace Mann Educators Corporation is a holding company for insurance subsidiaries that market and underwrite personal lines of property and casualty insurance products (primarily personal lines of auto and property insurance), life insurance products, retirement products (primarily tax-qualified fixed and variable annuities), individual supplemental insurance products (primarily accident, cancer, critical illness, hospital, and supplemental disability), and group benefit products (primarily group disability, group life, and group supplemental health coverages), primarily to K-12 teachers, administrators and other employees of public schools and their families."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity breaches could have an adverse effect on our business and reputation."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may adversely affect our financial position, results of operations and cash flows."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:00:50.196Z",
+  "model": "deepseek-v4-flash"
+}

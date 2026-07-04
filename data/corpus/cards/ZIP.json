@@ -1,0 +1,46 @@
+{
+  "cik": "0001617553",
+  "ticker": "ZIP",
+  "name": "ZIPRECRUITER, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001617553-26-000016",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1617553/000161755326000016/zip-20251231.htm"
+  },
+  "business": "ZipRecruiter operates an AI-powered online job marketplace that connects job seekers with employers. It sells job advertisement and recruitment services to businesses of all sizes. The company's platform uses artificial intelligence and machine learning to match candidates with job openings.",
+  "sellsTo": [
+    "Employers of all sizes across all industries",
+    "Job seekers (free users)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Our AI-powered marketplace acts as a dedicated matchmaker."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, the availability or performance of our marketplace could be adversely affected by a number of factors, including users inability to access the internet or to send or receive email messages, the failure of our network or software systems, security breaches or variability in user traffic for our services."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on Amazon Web Services, or AWS, to host our marketplace and other service providers for certain critical business processes, and any disruption of service from AWS or other critical service providers or material change to our arrangement with AWS or other critical service providers could adversely affect our business."
+    },
+    {
+      "tag": "other:ai-competition",
+      "stance": "risk_mention",
+      "sentence": "We also compete with other companies that utilize emerging technologies and assets, such as large language models (LLMs), machine learning, and other types of AI."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:20:12.685Z",
+  "model": "deepseek-v4-flash"
+}

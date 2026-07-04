@@ -1,0 +1,62 @@
+{
+  "cik": "0001164727",
+  "ticker": "NEM",
+  "name": "NEWMONT Corp /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001164727-26-000010",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000010/nem-20251231.htm"
+  },
+  "business": "Newmont is primarily a gold producer that also produces copper, silver, lead, and zinc. It sells refined gold and dor bars to refiners, and sells concentrate to smelters. Its gold is used for fabrication (jewelry, electronics, dentistry, industrial, decorative, medals, official coins) and investment.",
+  "sellsTo": [
+    "Fabrication (jewelry, electronics, dentistry, industrial, decorative, medals, official coins)",
+    "Investment (bullion, coins, jewelry)",
+    "Smelters (for concentrate sales)",
+    "Refiners (for dor bars)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Newmont is also engaged in the production of copper, silver, lead, and zinc."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "Copper production at Cadia, Boddington, and Red Chris and silver, lead, and zinc production at Peñasquito are considered co-products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are dependent upon information technology and operational technology systems, which are subject to disruption, damage, failure or cybersecurity attacks and risks associated with implementation, upgrade, operation and integration."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "AI, for example, is increasingly leveraged by Newmont for decision-making, mineral extraction optimization, and autonomous operations."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "The increasing sophistication of cybersecurity threats, coupled with the adoption of emerging technologies such as artificial intelligence (AI), automation, and cloud-based platforms, poses important risks to our operations, financial performance, and reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Ahafo North commercial production",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, the Company declared commercial production at its Ahafo North project in Ghana resulting in classification as a reportable segment."
+    },
+    {
+      "event": "Tanami Expansion 2 commercial production",
+      "date": "2027-12-31",
+      "sentence": "Capital costs are estimated to be between $1,700 and $1,800 for Tanami Expansion 2 with an expected commercial production date in the second half of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:00:55.333Z",
+  "model": "deepseek-v4-flash"
+}

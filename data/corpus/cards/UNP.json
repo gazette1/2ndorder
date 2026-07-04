@@ -1,0 +1,90 @@
+{
+  "cik": "0000100885",
+  "ticker": "UNP",
+  "name": "UNION PACIFIC CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000100885-26-000037",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm"
+  },
+  "business": "Union Pacific Railroad Company connects 23 states in the western two-thirds of the country by rail. Its diversified business mix includes Bulk, Industrial, and Premium commodity groups. It serves many of the fastest-growing U.S. population centers and all major West Coast and Gulf Coast ports, and connects with Canada and Mexico.",
+  "sellsTo": [
+    "Agricultural users",
+    "Power companies",
+    "Industrial manufacturers",
+    "Chemical producers",
+    "Automotive manufacturers",
+    "Intermodal marketing companies",
+    "Truckload carriers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Union Pacific Railroad Company connects 23 states in the western two-thirds of the country by rail, providing a critical link in the global supply chain."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Company's Bulk shipments consist of grain and grain products, fertilizer, food and refrigerated, and coal and renewables."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "The Industrial group consists of several categories, including construction, industrial chemicals, plastics, forest products, specialized products (primarily waste, salt, and roofing), metals and ores, petroleum, liquid petroleum gases (LPG), soda ash, and sand."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and gas drilling generates demand for raw steel, finished pipe, stone, and drilling fluid commodities."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Commercial, residential, and governmental infrastructure investments drive shipments of steel, aggregates, cement, and wood products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "International business consists of import and export traffic moving in 20 or 40-foot shipping containers, that mainly pass through West Coast ports, destined for one of the Company's many inland intermodal terminals."
+    },
+    {
+      "tag": "other:automotive",
+      "stance": "core_product",
+      "sentence": "We are the largest automotive carrier west of the Mississippi River and operate or access more than 40 vehicle distribution centers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have experienced and will likely continue to experience varying degrees of cyber incidents in the normal course of business."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change may cause severe weather conditions and other natural phenomena, including earthquakes, hurricanes, fires, floods, mudslides or landslides, extreme temperatures, avalanches, and significant precipitation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The rapid evolution and increased availability of artificial intelligence may intensify cybersecurity risks by making cyber-attacks more sophisticated and cybersecurity incidents more difficult to detect, contain, and mitigate."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete merger with Norfolk Southern",
+      "date": "2028-01-28",
+      "sentence": "The completion of the mergers is subject to a number of conditions, including, among others, the receipt of the requisite regulatory approvals, which make the completion of the mergers and timing thereof uncertain. Also, either the Company or Norfolk Southern may terminate the merger agreement if the mergers have not been consummated by January 28, 2028, which is referred to as the end date."
+    },
+    {
+      "event": "2026 capital plan of approximately $3.3 billion",
+      "date": "2026-12-31",
+      "sentence": "In 2026, we expect our capital plan to be approximately $3.3 billion."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:55:38.062Z",
+  "model": "deepseek-v4-flash"
+}

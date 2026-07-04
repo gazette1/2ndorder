@@ -1,0 +1,54 @@
+{
+  "cik": "0001796949",
+  "ticker": "GFLT",
+  "name": "GenFlat Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-007139",
+    "filedAt": "2025-09-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1796949/000168316825007139/genflat_i10k-063025.htm"
+  },
+  "business": "GenFlat Holdings, Inc. is an early-stage company that developed a collapsible marine container (the GenFlat Container) that can be collapsed and stacked four-to-one to save space. The company operates as a container sales and leasing company, providing the GenFlat Container primarily to shipping line customers under short and long-term lease structures. As of the filing date, the company has one rental agreement and two equipment lease agreements with a total of three customers.",
+  "sellsTo": [
+    "shipping lines",
+    "retailers",
+    "logistics companies",
+    "United States military"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "China International Marine Containers (CIMC)"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We operate as a container sales and leasing company and supply GenFlat’s patented marine container primarily to shipping line customers under a variety of short and long-term lease structures."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "Our Company is also in various stages of evaluation with potential customers to lease GenFlat Containers, including shipping lines, retailers, logistics companies, and the United States military."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into a lease agreement with a customer",
+      "date": "2025-08",
+      "sentence": "Presently, our commercial operations consist of one rental agreement and two equipment lease agreements to provide GenFlat Containers with a total of three customers, including one agreement entered into in August 2025 and one agreement entered into in September 2025."
+    },
+    {
+      "event": "Entered into a lease agreement with a customer",
+      "date": "2025-09",
+      "sentence": "Presently, our commercial operations consist of one rental agreement and two equipment lease agreements to provide GenFlat Containers with a total of three customers, including one agreement entered into in August 2025 and one agreement entered into in September 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "$20 billion empty container repositioning problem",
+      "sentence": "We intend to answer the $20 billion empty container repositioning problem by helping our customers to save money, optimize space, and reduce carbon emissions."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:07:07.012Z",
+  "model": "deepseek-v4-flash"
+}

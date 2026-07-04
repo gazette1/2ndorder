@@ -1,0 +1,97 @@
+{
+  "cik": "0001018963",
+  "ticker": "ATI",
+  "name": "ATI INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010140",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm"
+  },
+  "business": "ATI produces specialty materials and components, primarily for the aerospace and defense markets, which represent approximately 68% of total sales. The company also serves specialty energy, conventional energy, medical, electronics, and other industrial markets.",
+  "sellsTo": [
+    "Aerospace & defense",
+    "Specialty energy (nuclear, gas turbines)",
+    "Conventional energy (oil & gas)",
+    "Medical",
+    "Electronics",
+    "Industrial (automotive, construction & mining)"
+  ],
+  "namedCustomers": [
+    "The Boeing Company",
+    "Airbus S.A.S.",
+    "Empresa Brasileira de Aeronáutica S.A. (Embraer)",
+    "GE Aerospace",
+    "Rolls-Royce plc",
+    "Pratt & Whitney",
+    "Safran Aircraft Engines"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Aerospace & defense, our largest end markets, represent approximately 68% of total sales, led by products for jet engines and airframes in addition to a wide range of defense applications."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "HPMC has also experienced strong growth in defense products, with fiscal year 2025 sales growth of 24%."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "We are an industry pioneer in producing nuclear reactor fuel cladding and structural components utilizing zirconium and hafnium alloys for use in nuclear power generation."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "ATI's solutions for the energy industry include specialty materials for solar, geothermal and wind applications."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our specialty materials, including nickel-based alloys, duplex alloys and other specialty alloys, have the strength and corrosion-resistant properties necessary to meet these challenging operating conditions."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our biocompatible nickel-titanium (nitinol) shape memory alloy is used for stents to support collapsed or clogged blood vessels."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Our precision forgings are used for jet engine components, structural components for aircraft, helicopters, space propulsion, and other demanding applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We believe clean energy needs, the electrification of developing countries, and energy requirements to support data center growth will continue to drive demand for our specialty materials and products for use in these industries over the long term."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Increased global information technology threats, vulnerabilities, and a rise in sophisticated and targeted international computer crime pose a risk to the security of our systems and networks and the confidentiality, availability and integrity of our data."
+    },
+    {
+      "tag": "other:additive-manufacturing",
+      "stance": "core_product",
+      "sentence": "ATI also has a dedicated additive manufacturing and post-processing facility to tap into significant aerospace & defense demand for additively manufactured laser powered bed fusion parts, serving both commercial and defense customers."
+    },
+    {
+      "tag": "other:electronics",
+      "stance": "core_product",
+      "sentence": "In the electronics market, nickel alloys and Precision Rolled Strip (PRS) from Specialty Rolled Products (SRP) and our Asian PRS joint venture are used in computers and smart phones."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New collective bargaining agreements with USW covering AA&S operations",
+      "date": "2025-04-22",
+      "sentence": "On April 22, 2025, we reached agreements with the USW for new CBAs that cover approximately 1,100 USW represented full-time employees within our AA&S operations for a six-year term that extends through February 28, 2031."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:36:54.091Z",
+  "model": "deepseek-v4-flash"
+}

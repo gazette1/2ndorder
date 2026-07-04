@@ -1,0 +1,53 @@
+{
+  "cik": "0001569340",
+  "ticker": "CLCS",
+  "name": "Cell Source, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-015359",
+    "filedAt": "2026-04-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1569340/000149315226015359/form10-k.htm"
+  },
+  "business": "Cell Source, Inc. is a cell therapy company focused on immunotherapy, developing proprietary immune system management technology licensed from Yeda Research & Development Company Limited. The company's Veto Cell technology aims to induce sustained tolerance of transplanted cells in patients, enabling safer haploidentical stem cell transplants and allogeneic CAR-T therapy. The initial focus is on treating hematological malignancies (blood cancers) such as lymphoma, leukemia, and multiple myeloma.",
+  "sellsTo": [
+    "Patients with hematological malignancies (blood cancers)",
+    "Patients undergoing hematopoietic stem cell transplantation (HSCT)",
+    "Patients eligible for CAR-T cell therapy"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Yeda Research & Development Company Limited",
+    "MD Anderson Cancer Center"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "The unique advantage of Cell Source technology lies in the ability to induce sustained tolerance of transplanted cells (or organs) by the recipient s immune system in a setting that requires only mild immune suppression, while avoiding the most common transplant related complications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of first five treatment cohorts in Phase 1/2 clinical trial at MD Anderson",
+      "date": null,
+      "sentence": "The Phase 1/2 clinical trial at the University of Texas MD Anderson Cancer Center, using Cell Source s Anti-viral Veto Cells, has completed the first five treatment cohorts, with 15 patients each receiving a haploidentical HSCT under reduced intensity conditioning with Veto Cells."
+    },
+    {
+      "event": "Submission of clinical protocol for allogeneic VETO CAR-T HSCT combined therapy for blood cancer treatment",
+      "date": "2025",
+      "sentence": "Cell Source plans to submit this protocol for approval in 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global blood cancer therapeutics market estimated at $80 billion in 2025, projected to $112 billion by 2030",
+      "sentence": "The global market for blood cancer therapeutics was estimated at $80 billion in 2025 and is projected to increase in size to reach $112 billion by 2030 according to The Business Research Company: Blood Cancer Drugs Market Report 2026 ."
+    },
+    {
+      "claim": "Approximately 100,000 HSCT performed annually worldwide",
+      "sentence": "Approximately 100,000 of these transplants are performed annually worldwide (table below)."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:53:23.331Z",
+  "model": "deepseek-v4-flash"
+}

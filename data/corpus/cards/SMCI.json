@@ -1,0 +1,71 @@
+{
+  "cik": "0001375365",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001375365-25-000027",
+    "filedAt": "2025-08-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000027/smci-20250630.htm"
+  },
+  "business": "Super Micro Computer, Inc. provides rack-scale total IT solutions including servers, storage, networking, software, and services optimized for AI, HPC, enterprise, cloud, and edge workloads. The company designs, manufactures, and validates complete solutions in-house across facilities in the U.S., Taiwan, Netherlands, and Malaysia. It sells to enterprise data centers, cloud service providers, and edge computing customers such as 5G Telco and retail.",
+  "sellsTo": [
+    "enterprise data centers",
+    "cloud service providers",
+    "AI datacenters",
+    "5G Telco",
+    "retail",
+    "embedded",
+    "OEMs",
+    "system integrators",
+    "value-added resellers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NVIDIA",
+    "Intel",
+    "AMD",
+    "Broadcom",
+    "Samsung",
+    "Micron",
+    "Ablecom",
+    "Compuware"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We deliver rack-scale solutions optimized for various workloads, including artificial intelligence ( AI ) and high-performance computing ( HPC ), where acceleration is critical."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We offer an extensive portfolio of server and storage solutions for enterprise data centers, cloud service providers, and edge computing applications."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We expanded our edge and IoT portfolio with a variety of new systems designed for low-power environments that require compact, efficient compute solutions."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We offer an extensive portfolio of server and storage solutions for enterprise data centers, cloud service providers, and edge computing applications, such as 5G Telco, Retail and embedded."
+    },
+    {
+      "tag": "other:liquid-cooling",
+      "stance": "core_product",
+      "sentence": "Our Total IT Solutions are designed for optimal power and thermal management, including using Supermicro s state-of-the-art liquid cooling technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Lease commencement for data center",
+      "date": "2025-10-02",
+      "sentence": "Pursuant to the data center lease agreement dated June 14, 2025, we anticipate making an approximately $117.7 million lease payment subject to the remaining tranches expected to commence on October 2, 2025, which is not reflected in the consolidated balance sheets as the lease has not commenced."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:48:51.949Z",
+  "model": "deepseek-v4-flash"
+}

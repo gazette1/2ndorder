@@ -1,0 +1,75 @@
+{
+  "cik": "0001334933",
+  "ticker": "UEC",
+  "name": "URANIUM ENERGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-029761",
+    "filedAt": "2025-09-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334933/000143774925029761/uec20250731_10k.htm"
+  },
+  "business": "Uranium Energy Corp. is a pure-play uranium company engaged in uranium mining and related activities, including exploration, extraction and processing. It utilizes in-situ recovery (ISR) mining to produce U3O8 (yellowcake) from its projects in the United States, Canada and Paraguay. The company's revenue is derived from sales of purchased uranium inventory and potentially from production, with no off-take agreements in place as of July 31, 2025.",
+  "sellsTo": [
+    "utilities",
+    "spot market",
+    "U.S. Department of Energy (Uranine Reserve)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "UEC is a pure-play uranium company and is advancing its next generation of low-cost, in-situ recovery (ISR) mining uranium projects."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "large technology companies like Microsoft, Meta, Google, Oracle and Amazon are making significant nuclear energy commitments for their data center energy demand with large investments in the clean, affordable and reliable power that nuclear energy provides."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "This included expectations that artificial intelligence growth and demand to power data centers will increase by 300% over the next 10 years (Source: NEMA's Grid Reliability Study, April 7, 2025)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Received approval to increase licensed production capacity at Irigaray CPP to 4.0 million pounds U3O8 annually",
+      "date": "2024-10-16",
+      "sentence": "On October 16, 2024, we received approval from the Wyoming Department of Environmental Quality (WDEQ), Uranium Recovery Program, to increase the licensed production capacity at the Irigaray CPP to 4.0 million pounds of U3O8 annually."
+    },
+    {
+      "event": "Filed initial assessment technical report summary for Roughrider Project",
+      "date": "2024-11-07",
+      "sentence": "On November 7, 2024, we filed an initial assessment technical report summary (TRS) that includes an economic analysis and mineral resource estimate for our Roughrider Project, located in Northern Saskatchewan, Canada."
+    },
+    {
+      "event": "Completed Sweetwater Acquisition from Rio Tinto America Inc.",
+      "date": "2024-12-06",
+      "sentence": "On December 6, 2024, we completed the acquisition of all of the issued and outstanding shares of capital stock of Kennecott Uranium Company (KUC) and Wyoming Coal Resources Company (WCRC) from Rio Tinto America Inc. (collectively, the Sweetwater Acquisition)."
+    },
+    {
+      "event": "Sweetwater designated as a transparency project by U.S. Federal Permitting Improvement Steering Council",
+      "date": "2025-08-05",
+      "sentence": "On August 5, 2025, Sweetwater was designated as a transparency project by the U.S. Federal Permitting Improvement Steering Council as part of the implementation of President Trump’s March 20, 2025 Executive Order on Immediate Measures to Increase American Mineral Production."
+    },
+    {
+      "event": "Announced incorporation of United States Uranium Refining & Conversion Corp. (UR&C) to pursue feasibility of a new uranium refining and conversion facility",
+      "date": "2025-09-01",
+      "sentence": "In September 2025, we announced the incorporation of United States Uranium Refining & Conversion Corp. (UR&C), which is intended to pursue the feasibility of developing a new uranium refining and conversion facility in the U.S."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Cumulative uncommitted demand through 2035 is more than 926 million pounds U3O8",
+      "sentence": "It is estimated that cumulative uncommitted demand through 2035 is more than 926 million pounds U3O8 (Source: UxC Uranium Market Overview Q2 2025)."
+    },
+    {
+      "claim": "Mid-case gap between production and requirements in 2025 and 2026 is projected to be 44 million pounds U3O8",
+      "sentence": "In 2025 and 2026 the mid-case gap between production and requirements is projected to be 44 million pounds U3O8, and by 2035 accumulates to a total above 345 million pounds U3O8 (Source: UxC 2025 Q2 Uranium Market Outlook)."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:51:09.652Z",
+  "model": "deepseek-v4-flash"
+}

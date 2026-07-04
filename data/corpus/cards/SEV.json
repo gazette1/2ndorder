@@ -1,0 +1,64 @@
+{
+  "cik": "0001786471",
+  "ticker": "SEV",
+  "name": "Aptera Motors Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013581",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226013581/form10-k.htm"
+  },
+  "business": "Aptera Motors Corp. is a public benefit corporation and development stage company focused on the development and commercialization of solar electric vehicles. Our principal business is the development, production, and distribution of energy efficient solar-powered, battery-electric vehicles.",
+  "sellsTo": [
+    "individual consumers",
+    "direct-to-consumer market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Chery New Energy Automobile Co. Ltd.",
+    "LG Energy Solution",
+    "Mitsubishi Chemical Group",
+    "Yazaki North America"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our principal business is the development, production, and distribution of energy efficient solar-powered, battery-electric vehicles."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "The Aptera vehicle is designed to provide up to an estimated 40 miles per day by collecting energy from the sun and storing it in our proprietary battery pack."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We have been affected by ongoing, industry-wide challenges in logistics and supply chains, such as increased supplier lead times and ongoing constraints of semiconductor supply."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Tariffs and related trade barriers could materially adversely affect our business, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "delivery of first customer vehicles",
+      "date": "2026",
+      "sentence": "We remain committed to commencing low-volume production as soon as possible, with a current goal of delivering the first customer vehicles in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The global EV market was valued at approximately $892 billion in 2025 and is projected to reach $2.1 trillion by 2032.",
+      "sentence": "According to Fortune Business Insights, the global EV market was valued at approximately $892 billion in 2025 and is projected to reach $2.1 trillion by 2032."
+    },
+    {
+      "claim": "Global EV sales surpassed 20 million units in 2025, accounting for approximately one-quarter of all new car sales worldwide.",
+      "sentence": "According to the International Energy Agency, global EV sales surpassed 20 million units in 2025, accounting for approximately one-quarter of all new car sales worldwide."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:53:14.636Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,103 @@
+{
+  "cik": "0000936340",
+  "ticker": "DTE",
+  "name": "DTE ENERGY CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000936340-26-000054",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000054/dte-20251231.htm"
+  },
+  "business": "DTE Energy is a diversified energy company that provides electricity and natural gas sales, distribution, and storage services to customers throughout Michigan through its regulated utilities, DTE Electric and DTE Gas. The company also operates non-utility energy-related segments, including DTE Vantage (renewable energy, custom energy solutions) and Energy Trading (physical and financial power, natural gas, and environmental marketing and trading), with operations across the United States.",
+  "sellsTo": [
+    "Residential customers in Michigan",
+    "Commercial customers in Michigan",
+    "Industrial customers in Michigan",
+    "Wholesale interconnection customers",
+    "Electric retail access customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In October 2025, DTE Electric entered into a 1.4 gigawatt data center agreement."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "active_investment",
+      "sentence": "DTE Electric's capital investments over the 2026-2030 period are estimated at $30 billion, comprised of $11 billion for distribution infrastructure, $4 billion for base infrastructure, and $15 billion for cleaner generation including renewables."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "DTE Electric plans to repurpose the Trenton Channel facility to a battery energy storage system in 2026."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "DTE Energy will continue its transition away from coal-powered energy sources and is replacing or offsetting the generation from these facilities with renewable energy, natural gas, battery storage, and energy waste reduction initiatives."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "Ownership of an operating nuclear generating plant subjects the Registrants to significant additional risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Registrants have experienced, and expect to continue to be subject to, cybersecurity threats and incidents."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Increasing intensity of windstorms and other weather events, coupled with increasing electric vehicle adoption and future data center load, will drive a continued need for substantial grid investment over the long-term."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Technological developments, including advances in artificial intelligence, could have the potential to increase the Registrants' vulnerability to these threats."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "DTE Energy is also developing decarbonization opportunities relating to carbon capture and sequestration projects."
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "risk_mention",
+      "sentence": "DTE Energy is also monitoring and pursuing the advancement of emerging technologies such as long-duration storage, modular nuclear reactors, hydrogen, and carbon capture and sequestration, and how these technologies may support clean, reliable generation and customer affordability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Final MPSC order on DTE Electric's rate case",
+      "date": "2026-02",
+      "sentence": "A final MPSC order in this case is expected in February 2026."
+    },
+    {
+      "event": "Final MPSC order on DTE Gas's rate case",
+      "date": "2026-09",
+      "sentence": "A final MPSC order in this case is expected in September 2026."
+    },
+    {
+      "event": "Execution of 1.4 gigawatt data center agreement",
+      "date": "2025-10",
+      "sentence": "In October 2025, DTE Electric entered into a 1.4 gigawatt data center agreement."
+    },
+    {
+      "event": "Retirement of Belle River coal unit",
+      "date": "2026",
+      "sentence": "DTE Electric has also announced plans to retire its remaining five coal-fired generating units, including the remaining unit at the Belle River facility in 2026."
+    },
+    {
+      "event": "Repurposing Trenton Channel to battery storage",
+      "date": "2026",
+      "sentence": "DTE Electric plans to repurpose the Trenton Channel facility to a battery energy storage system in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:29:35.355Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0001408198",
+  "ticker": "MSCI",
+  "name": "MSCI Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001408198-26-000011",
+    "filedAt": "2026-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000011/msci-20251231.htm"
+  },
+  "business": "MSCI Inc. provides research-based data, analytics and indexes to global investors, helping them understand risks, make better investment decisions and manage portfolios. The company's offerings include indexes, portfolio construction and risk management tools, sustainability and climate solutions, and private asset data and analytics. Clients include asset managers, banks, broker-dealers, asset owners, hedge fund managers, wealth managers, and insurance companies.",
+  "sellsTo": [
+    "Asset managers",
+    "Banks and brokerages",
+    "Asset owners",
+    "Hedge fund managers",
+    "Wealth managers",
+    "Insurance companies",
+    "Others (exchanges, vendors, real estate professionals, academic institutions, corporates)"
+  ],
+  "namedCustomers": [
+    "BlackRock"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We use advanced technology, including artificial intelligence (AI), to improve how we collect and validate data and enhance the capabilities and insights we deliver to clients."
+    },
+    {
+      "tag": "other:sustainability-climate",
+      "stance": "core_product",
+      "sentence": "Our Sustainability and Climate products and services help institutional investors understand how sustainability considerations can impact the long-term risk and return of their portfolios and individual security-level investments."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:20:56.365Z",
+  "model": "deepseek-v4-flash"
+}

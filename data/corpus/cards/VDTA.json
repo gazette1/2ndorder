@@ -1,0 +1,63 @@
+{
+  "cik": "0002033264",
+  "ticker": "VDTA",
+  "name": "Vertical Data Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-029443",
+    "filedAt": "2025-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/2033264/000149315225029443/form10-k.htm"
+  },
+  "business": "Vertical Data Inc. distributes computer systems and IT systems including GPU servers, storage, software, networking equipment to data center and enterprise customers. It purchases from a network of suppliers and sells to end users, ISPs, system integrators, and various vertical markets.",
+  "sellsTo": [
+    "data centers",
+    "enterprise customers",
+    "internet service providers (ISPs)",
+    "system integrators",
+    "financial services",
+    "governments",
+    "retail",
+    "energy",
+    "manufacturing",
+    "Fortune 1,000 enterprises",
+    "top tier data centers",
+    "cloud computing providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our primary focus is to support demand for enterprise AI compute capability."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We purchase peripherals, IT systems, systems components, software, and networking equipment from a network of suppliers and sell them to our data center and enterprise customers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "This includes demand for storage, semiconductors, computer memory, peripherals, storage and subsystems as well as professional services to empower our customers to uncover AI opportunities."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We distribute computer systems and information technology (IT) systems including graphics processing unit (GPU) servers, storage solutions, system components, software, networking and communications equipment, and related complementary products and services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "There were approximately 10,655 data centers globally as of March 2024, half in the US.",
+      "sentence": "According to published industry research, as of March 2024 there were approximately 10,655 data centers globally, half (approximately 5,381) of which were in the United States."
+    },
+    {
+      "claim": "97% of CBRE survey respondents plan to increase capital deployment in data centers; 92% allocate over $100 million, 44% over $500 million in 2024.",
+      "sentence": "A recent report from CBRE showed that 97% of respondents to its survey plan to increase their capital deployment in the data center sector, and that 92% of respondents are allocating more than $100 million to the data center sector, while 44% are allocating more than $500 million, in 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T17:05:10.376Z",
+  "model": "deepseek-v4-flash"
+}

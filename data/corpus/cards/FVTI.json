@@ -1,0 +1,61 @@
+{
+  "cik": "0001626745",
+  "ticker": "FVTI",
+  "name": "Fortune Valley Treasures, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-24-014607",
+    "filedAt": "2024-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1626745/000149315224014607/form10-k.htm"
+  },
+  "business": "Fortune Valley Treasures is a food and beverage supply chain company that purchases, distributes, and sells alcohol beverages, non-alcohol beverages (bottled water), packaged staple foods (condiments and seasonings), and household water purification products. It serves regional wholesalers, food and beverage chains, supermarkets, retailers, and individual consumers through both online and offline channels.",
+  "sellsTo": [
+    "regional wholesalers",
+    "food and beverage chains",
+    "supermarkets",
+    "retailers",
+    "individual consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We promote direct sales to business and individual consumers on our e-commerce supply chain platform Fugu Online."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "While we are not aware of any data breach in the past, future cyberattacks, computer viruses or any failure to adequately maintain security and prevent unauthorized access to our information technology system or data could result in a disruption of our business operations and materially adversely affect our reputation, financial condition and operating results."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, or legal, regulatory or market responses to climate change may adversely affect our business, results of operations or financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Engage external IT company to further develop online marketing platform and internal operation management system",
+      "date": "2024",
+      "sentence": "We plan to further develop our online marketing platform and internal operation management system by engaging an external IT company during 2024."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The food and beverage market in China is expected to reach RMB5608.8 billion by 2025, with a year-over-year growth of 3.45%.",
+      "sentence": "The food and beverage market in China is expected to reach RMB5608.8 billion by 2025, and a YoY growth of 3.45%."
+    },
+    {
+      "claim": "The alcohol beverage products market in China is expected to reach 997.8 billion RMB by 2025, with a year-over-year growth of 2.24%.",
+      "sentence": "The alcohol beverage products market in China is expected to reach 997.8 billion in RMB by 2025, and a YoY growth of 2.24%."
+    },
+    {
+      "claim": "The bottled water market in China is expected to reach RMB223.7 billion by 2025, with a year-over-year growth of 14.13%.",
+      "sentence": "The bottled water market in China is expected to reach RMB223.7 billion by 2025, and the YoY growth was 14.13%."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:59:06.851Z",
+  "model": "deepseek-v4-flash"
+}

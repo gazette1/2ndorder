@@ -1,0 +1,52 @@
+{
+  "cik": "0001505952",
+  "ticker": "DOMO",
+  "name": "DOMO, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-025356",
+    "filedAt": "2026-04-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1505952/000162828026025356/domo-20260131.htm"
+  },
+  "business": "Domo provides a cloud-based AI and data products platform that enables organizations to connect data, derive insights, and operationalize intelligence across their business. The platform includes data integration, transformation, analysis, visualization, automation, and application development capabilities. Domo sells to organizations of varying sizes, with a focus on enterprise customers (over $1 billion in revenue) and corporate customers.",
+  "sellsTo": [
+    "enterprise customers (over $1 billion in revenue)",
+    "corporate customers (less than $1 billion in revenue)",
+    "United States (80% of revenue)",
+    "regulated industries (financial services, health care, pharmaceuticals, energy, technology)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Oracle Cloud Infrastructure"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Domo platform includes AI capabilities, including model management and tools that enable customers to access various third-party AI models."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We maintain industry-recognized security and compliance certifications and assessments, including SOC 1 Type II, SOC 2 Type II, HITRUST, HIPAA-related validations, and other applicable standards."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party data centers and services to operate critical functions, serving customers from multiple data centers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board initiated formal process to explore strategic alternatives to maximize shareholder value",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we announced that our board of directors initiated a formal process to explore strategic alternatives to maximize shareholder value."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:30:27.002Z",
+  "model": "deepseek-v4-flash"
+}

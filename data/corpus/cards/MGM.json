@@ -1,0 +1,43 @@
+{
+  "cik": "0000789570",
+  "ticker": "MGM",
+  "name": "MGM Resorts International",
+  "source": {
+    "form": "10-K",
+    "accession": "0000789570-26-000018",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000018/mgm-20251231.htm"
+  },
+  "business": "MGM Resorts International is a global gaming and entertainment company operating 16 domestic casino properties and 2 in Macau, offering casinos, hotels, meeting spaces, entertainment, dining, retail, and sports betting and online gaming operations. It serves premium gaming customers, leisure and business travelers, and group customers such as conventions and trade associations.",
+  "sellsTo": [
+    "premium gaming customers",
+    "leisure and wholesale travel customers",
+    "business travelers",
+    "group customers (conventions, trade associations, small meetings)",
+    "high-end gaming customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "MGM Resorts International is a global gaming and entertainment company with domestic and international locations featuring best-in-class hotels and casinos, state-of-the-art meeting and conference spaces, incredible live and theatrical entertainment experiences, and an extensive array of restaurant, nightlife and retail offerings, as well as sports betting and online gaming operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The failure to maintain the integrity of our information and other systems or customer information can result in damage to our reputation, subject us to fines, payment of damages, lawsuits and restrictions on our use of data, and have a material adverse effect on our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of the operations of MGM Northfield Park to close",
+      "date": "2026-06-30",
+      "sentence": "The transaction is expected to close in the first half of 2026, subject to the receipt of regulatory approvals and other customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:06:41.918Z",
+  "model": "deepseek-v4-flash"
+}

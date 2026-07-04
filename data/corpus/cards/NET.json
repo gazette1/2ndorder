@@ -1,0 +1,48 @@
+{
+  "cik": "0001477333",
+  "ticker": "NET",
+  "name": "Cloudflare, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477333-26-000016",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm"
+  },
+  "business": "Cloudflare delivers a broad range of services to businesses of all sizes and in all geographies making them more secure, enhancing the performance of their business-critical applications, and eliminating the cost and complexity of managing individual network hardware. Its network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability across on-premises, hybrid, cloud, and SaaS applications, and it also offers developer solutions for building serverless and AI applications.",
+  "sellsTo": [
+    "Enterprises",
+    "Small and medium businesses",
+    "Developers",
+    "Government agencies",
+    "Non-profit organizations",
+    "Various industry verticals including technology, healthcare, financial services, consumer and retail, industrial, non-profit, and government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We provide an integrated cloud-based security solution designed to secure any combination of platforms, including public cloud, private cloud, on-premises, SaaS applications, and Internet of things devices."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Workers AI: Enables developers to run machine learning models, powered by serverless GPUs, on our global network."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "our ongoing deployment of graphics processing units (GPUs) across our global network of servers, which will help our customers build performant AI into their applications natively."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Cloudflare is a leader in this Connectivity Cloud category."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:03:28.828Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,44 @@
+{
+  "cik": "0001002638",
+  "ticker": "OTEX",
+  "name": "OPEN TEXT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001002638-25-000053",
+    "filedAt": "2025-08-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1002638/000100263825000053/otex-20250630.htm"
+  },
+  "business": "OpenText provides Information Management software and services, including Content Cloud, Cybersecurity Cloud, DevOps Cloud, Business Network Cloud, Observability and Service Management Cloud, and Analytics Cloud, to help organizations manage, secure, and derive insights from data. The company serves Global 10,000 companies, small and medium-sized businesses, governments, and consumers. Its solutions are delivered via private cloud, public cloud, off-cloud, or API cloud to support customer deployment preferences.",
+  "sellsTo": [
+    "Global 10,000 companies",
+    "enterprise companies",
+    "public sector agencies",
+    "mid-market companies",
+    "SMB",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "OpenText Cybersecurity solutions provide organizations and SMBs with capabilities to protect, prevent, detect, respond and quickly recover from threats across endpoints, network, applications, IT infrastructure and data, all with AI-led threat intelligence."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We have embedded AI data analytics in all our major offerings."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Substantial completion of Business Optimization Plan",
+      "date": "2027-06-30",
+      "sentence": "The entire business optimization plan is expected to be substantially completed by the second quarter of Fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:48:55.061Z",
+  "model": "deepseek-v4-flash"
+}

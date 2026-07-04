@@ -1,0 +1,67 @@
+{
+  "cik": "0001424657",
+  "ticker": "CUEN",
+  "name": "Cuentas Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-046789",
+    "filedAt": "2026-04-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1424657/000121390026046789/ea0286049-10k_cuentas.htm"
+  },
+  "business": "Cuentas Inc. provides integrated communications, entertainment, and lifestyle services through a mobile-first platform, operating in mobile telecommunications (via 51% ownership of World Mobile LLC) and entertainment media distribution (via 51% ownership of World Mobile Media Group LLC). The company sells mobile voice, text, data, and VPN-enabled connectivity, as well as premium entertainment content including live events and on-demand programming. Its target customers are consumers, particularly Hispanic and Latino communities in the U.S., and it also serves international subscribers through partnerships like Hallo 015 in Israel.",
+  "sellsTo": [
+    "consumers in the United States",
+    "Hispanic and Latino groups",
+    "international subscribers via Hallo 015 in Israel"
+  ],
+  "namedCustomers": [
+    "Hallo 015"
+  ],
+  "namedSuppliers": [
+    "World Mobile Group Ltd",
+    "UVNV, Inc. d/b/a PLUM",
+    "WaveMAX Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Through its 51% ownership of World Mobile LLC, Cuentas integrates existing and emerging technologies to deliver reliable and unique mobile services, including voice, text, data, VPN-enabled connectivity, and next-era communications solutions."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "These Fintech Assets, which include the Company's legacy prepaid card, digital wallet and related financial technology platform and associated intellectual property but exclude all MVNO-related telecommunications assets, were placed into escrow with a third-party law firm pending Mr. De Prado's exercise of an option right associated with one of his secured promissory notes."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Through its 51% ownership of World Mobile Media Group LLC, Cuentas is building a decentralized media platform which we hope will combine licensed and original content, live events, creator-generated content, and socially impactful programming that drives both fan engagement and mobile subscribers."
+    },
+    {
+      "tag": "blockchain",
+      "stance": "risk_mention",
+      "sentence": "World Mobile's hybrid system enables local operators to deploy small AirNode access points that connect end-users to the internet, while larger backbone nodes perform authentication and routing functions, with all traffic and revenue sharing recorded on a blockchain-based infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected start of live marketing and active inscriptions of entertainment services",
+      "date": "2026-06-30",
+      "sentence": "Cuentas expects to expand penetration into the mobile service markets and start live marketing and active inscriptions of the entertainment services during 2026-Q2."
+    },
+    {
+      "event": "Conversion of World Mobile Group Ltd. convertible note into common stock",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, World Mobile Group Ltd. (WMG) converted promissory notes of Cuentas, Inc. in the principal amount of $260,000 into 1,277,018 shares of the Company's common stock, representing approximately 18.5% of the Company's outstanding shares of common stock."
+    },
+    {
+      "event": "Entry into securities purchase agreement with P.W. Janssen",
+      "date": "2026-02-26",
+      "sentence": "On February 26, 2026, the Company entered into a Securities Purchase Agreement with P.W. Janssen, pursuant to which the Company issued and sold to Janssen 714,286 shares of common stock and a five-year warrant to purchase up to 714,286 additional shares for aggregate gross proceeds of $300,000."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:24:25.289Z",
+  "model": "deepseek-v4-flash"
+}

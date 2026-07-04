@@ -1,0 +1,49 @@
+{
+  "cik": "0000927628",
+  "ticker": "COF",
+  "name": "CAPITAL ONE FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000927628-26-000024",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm"
+  },
+  "business": "Capital One Financial Corporation is a diversified financial services holding company that provides a broad array of financial products and services to consumers, small businesses, and commercial clients through digital channels, branch locations, cafés, and other distribution channels. It is the largest issuer of credit cards in the U.S. by outstanding balance and also offers debit cards, bank lending, treasury management, depository services, auto loans, and other consumer lending products. Through the acquisition of Discover, it now operates the Global Payment Network, which includes the Discover Network, PULSE Network, Diners Club International, and Network Partners, providing payment transaction processing and settlement services.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "commercial clients",
+    "merchants",
+    "acquirers",
+    "issuers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Discover Network processes transactions for credit and debit cards issued on its network and provides payment transaction processing and settlement services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also consider new and emerging companies in digital and mobile payments and other financial technology providers among our competitors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to a variety of continuously evolving and developing laws and regulations in the United States at the federal, state and local level regarding privacy, data protection and data security, including those related to the collection, storage, handling, use, disclosure, transfer and other processing of personal information."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Agreement to acquire Brex",
+      "date": "2026-01-22",
+      "sentence": "On January 22, 2026, Capital One Financial Corporation entered into an Agreement and Plan of Merger and Reorganization (the Brex Merger Agreement ) with Brex Inc., a Delaware corporation ( Brex ), and certain other parties thereto, pursuant to which, upon the terms and subject to the conditions set forth therein, the Company will acquire Brex (the Brex Transaction )."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:57:41.598Z",
+  "model": "deepseek-v4-flash"
+}

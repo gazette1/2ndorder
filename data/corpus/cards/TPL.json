@@ -1,0 +1,61 @@
+{
+  "cik": "0001811074",
+  "ticker": "TPL",
+  "name": "Texas Pacific Land Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001811074-26-000018",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm"
+  },
+  "business": "Texas Pacific Land Corporation is one of the largest landowners in Texas with approximately 882,000 surface acres and 224,000 net royalty acres, principally concentrated in the Permian Basin. It generates revenue from oil and gas royalties, water sales, produced water royalties, easements, and land sales, serving oil and gas operators and water management companies.",
+  "sellsTo": [
+    "oil and gas operators",
+    "water management service companies",
+    "commercial lessees"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are not an oil and gas producer. Our oil and gas revenue is derived from our oil and gas royalty interests."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "In December 2025, we invested $50.0 million in a strategic agreement with a data and energy infrastructure company."
+    },
+    {
+      "tag": "other:desalination",
+      "stance": "active_investment",
+      "sentence": "we are developing a proprietary produced water desalination technology and advancing the beneficial reuse process."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In recent years, we have entered into agreements with third parties related to renewables and various next generation opportunities that will potentially utilize TPL's surface assets."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "These agreements include the evaluation of data centers, power generation, grid-connected batteries, and carbon capture and sequestration, among other opportunities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of produced water desalination test facility (Phase 2B) with initial capacity of 10,000 barrels per day",
+      "date": "2026-06-30",
+      "sentence": "Construction of the Phase 2B facility was temporarily paused during 2025 to allow testing and potential incorporation of additional desalination equipment and is anticipated to be completed by the end of the first half of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Permian Basin generates over 20 million barrels of produced water per day",
+      "sentence": "With the Permian Basin generating over 20 million barrels of produced water per day, we believe this technology would provide an attractive and critical alternative to subsurface injection."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:33:19.210Z",
+  "model": "deepseek-v4-flash"
+}

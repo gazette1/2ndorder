@@ -1,0 +1,88 @@
+{
+  "cik": "0000033213",
+  "ticker": "EQT",
+  "name": "EQT Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000033213-26-000018",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/33213/000003321326000018/eqt-20251231.htm"
+  },
+  "business": "EQT is a vertically integrated natural gas company with upstream, gathering and transmission operations focused in the Appalachian Basin. The company sells natural gas, NGLs, and oil to marketers, utilities, and industrial customers, and also provides pipeline transportation and storage services.",
+  "sellsTo": [
+    "Marketers",
+    "Utilities",
+    "Industrial customers",
+    "Local distribution companies",
+    "Other producers",
+    "Commercial and industrial users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "MarkWest Energy Partners, L.P.",
+    "Williams Ohio Valley Midstream LLC",
+    "Blue Racer Midstream"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "we believe we are well positioned to excel during times of market volatility and to serve growing sources of demand, including power generation, industrial consumption, domestic data center development and LNG exports."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Transmission segment has transmission and storage agreements with our Upstream segment and with third parties."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a vertically integrated natural gas company with upstream, gathering and transmission operations focused in the Appalachian Basin."
+    },
+    {
+      "tag": "other:lng-exports",
+      "stance": "core_product",
+      "sentence": "we have entered into three 20-year LNG offtake agreements for an aggregate 4.5 MTPA of LNG"
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "We sell natural gas and NGLs to marketers, utilities and industrial customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of additional interests in MVP A and MVP C",
+      "date": "2026-01",
+      "sentence": "In January 2026, exercised our preferential buy-out right to acquire additional interests in MVP A and Series C of Mountain Valley Pipeline, LLC (MVP C) for approximately $200.7 million and $12.5 million, respectively, subject to purchase price adjustments."
+    },
+    {
+      "event": "MVP Southgate placed into service",
+      "date": "2028-06",
+      "sentence": "Pending receipt of remaining regulatory approvals, MVP Southgate is expected to be placed into service by mid-2028."
+    },
+    {
+      "event": "MVP Boost placed into service",
+      "date": "2028-06",
+      "sentence": "Pending receipt of regulatory approvals, MVP Boost is expected to be placed into service by mid-2028."
+    },
+    {
+      "event": "Commencement of 3.0 MTPA LNG offtake",
+      "date": "2030-01",
+      "sentence": "As of December 31, 2025, we have entered into three 20-year LNG offtake agreements for an aggregate 4.5 MTPA of LNG, of which 3.0 MTPA is expected to commence as early as 2030 and 1.5 MTPA expected to commence in 2031."
+    },
+    {
+      "event": "Commencement of 1.5 MTPA LNG offtake",
+      "date": "2031-01",
+      "sentence": "As of December 31, 2025, we have entered into three 20-year LNG offtake agreements for an aggregate 4.5 MTPA of LNG, of which 3.0 MTPA is expected to commence as early as 2030 and 1.5 MTPA expected to commence in 2031."
+    },
+    {
+      "event": "Commencement of LNG tolling agreement capacity",
+      "date": "2030-01",
+      "sentence": "In addition, we have entered into a 20-year LNG tolling agreement for up to 2.0 MTPA of capacity expected to commence no earlier than 2030."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:27:55.763Z",
+  "model": "deepseek-v4-flash"
+}

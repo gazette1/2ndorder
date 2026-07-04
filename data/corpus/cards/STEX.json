@@ -1,0 +1,58 @@
+{
+  "cik": "0001530766",
+  "ticker": "STEX",
+  "name": "Streamex Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014376",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1530766/000149315226014376/form10-k.htm"
+  },
+  "business": "Streamex Corp. operates a digital infrastructure platform for the tokenization, issuance, and lifecycle management of real-world asset financial products, with an initial focus on gold-backed and commodity-linked instruments. The company also retains a legacy biomedical technology business focused on advanced signal processing solutions for electrophysiology. Streamex sells tokenized gold products (GLDY) and related platform services to accredited and qualified investors.",
+  "sellsTo": [
+    "accredited investors",
+    "qualified investors",
+    "institutional participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Monetary Metals & Co."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company is a technology company with two principal lines of business: (i) Tokenized Asset Finance, focused on digital asset and real-world asset tokenization via our Streamex Exchange platform, and (ii) Biomedical Technology, focused on advanced signal processing solutions in electrophysiology."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The Company retains a legacy technology business focused on advanced digital signal processing solutions for electrophysiology."
+    },
+    {
+      "tag": "gold",
+      "stance": "core_product",
+      "sentence": "The initial application of this platform is in the tokenized gold market: we have launched a tokenized gold product called GLDY, which provides investors with a digital token representing fractional interests in a special purpose vehicle domiciled in the Cayman Islands (the SPV), which holds physical gold and participates in a gold leasing program."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Official launch of GLDY token and platform to accept subscriptions from qualified investors",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, Streamex officially launched GLDY and opened its platform, app.streamex.com, to accept subscriptions from qualified investors."
+    },
+    {
+      "event": "Underwritten public offering closed",
+      "date": "2026-01-26",
+      "sentence": "On January 26, 2026, the Company closed on an underwritten public offering with Needham & Company, LLC, as representative of the several underwriters (the Underwriters), pursuant to which the Company sold and issued to the Underwriters an aggregate of 11,666,667 shares of the Company's common stock, at $3.00 per share."
+    },
+    {
+      "event": "Shareholder approval removing conversion cap on exchangeable shares",
+      "date": "2025-11-04",
+      "sentence": "On November 4, 2025, the Company obtained shareholder approval, which removed the conversion cap and allowed holders to exchange the exchangeable shares into the Company's common stock in accordance with the exchange rights."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:26:07.179Z",
+  "model": "deepseek-v4-flash"
+}

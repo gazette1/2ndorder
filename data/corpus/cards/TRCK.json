@@ -1,0 +1,63 @@
+{
+  "cik": "0001045942",
+  "ticker": "TRCK",
+  "name": "Track Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-038377",
+    "filedAt": "2025-12-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045942/000143774925038377/trkg20250930_10k.htm"
+  },
+  "business": "Track Group designs, manufactures, and markets location tracking devices and develops and sells related software, services, and monitoring applications. The company sells to government customers on federal, state, and local levels in the U.S. and to Ministries of Justice internationally. It primarily generates recurring revenue through long-term contracts for device-agnostic subscription services.",
+  "sellsTo": [
+    "Government customers (federal, state, local) in U.S.",
+    "Ministries of Justice internationally"
+  ],
+  "namedCustomers": [
+    "Customer A",
+    "Customer B",
+    "Customer C",
+    "Customer D",
+    "Customer E",
+    "Customer F",
+    "Customer G"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our products and services include a full-range of one-piece GPS tracking devices, a device-agnostic operating system, a portfolio of software applications including smartphone, alcohol and predictive analytics, and a variety of accessory, service and support offerings."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our products and services include a full-range of one-piece GPS tracking devices, a device-agnostic operating system, a portfolio of software applications including smartphone, alcohol and predictive analytics, and a variety of accessory, service and support offerings."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "We have entered into agreements with several national providers for cellular services."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The industry in which the Company operates, as well as many other industries (automotive, consumer products and medical devices), have been impacted by the global semiconductor shortage."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Network and information systems-related events, including those caused by us, our service providers or by third parties, such as computer hacking, cyber-attacks, computer viruses, or other destructive or disruptive software..."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New device completion",
+      "date": "2026-09-30",
+      "sentence": "The Company has now significantly enhanced its technology platform to improve the efficiency of its software, firmware, user interface, and automation and invested considerable time in developing a new device expected to be completed in Fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:29:42.934Z",
+  "model": "deepseek-v4-flash"
+}

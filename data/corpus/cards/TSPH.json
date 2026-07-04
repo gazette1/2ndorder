@@ -1,0 +1,75 @@
+{
+  "cik": "0001823593",
+  "ticker": "TSPH",
+  "name": "TuSimple Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-23-031648",
+    "filedAt": "2023-09-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823593/000162828023031648/tsp-20221231.htm"
+  },
+  "business": "TuSimple is a global autonomous driving technology company headquartered in San Diego, California, with operations in the United States and Asia-Pacific region. The company develops full-stack L4 autonomous driving technology and is building an Autonomous Freight Network (AFN) to provide autonomous freight capacity as a service. It operates in two reportable geographic segments: U.S. and APAC.",
+  "sellsTo": [
+    "Freight shippers",
+    "Carriers (trucking companies)",
+    "Customers needing autonomous freight transportation without owning semi-truck assets",
+    "Customers who prefer to own their fleet and purchase purpose-built L4 autonomous semi-trucks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NVIDIA",
+    "Navistar"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our proprietary L4 autonomous driving solutions include our L4-capable ADS, such as 1,000 meter perception range, multi-modal perception, and offboard capabilities, such as high definition ( HD ) maps, machine-learning, autonomy visualization and simulation capabilities, and an integrated L4 autonomous semi-truck design consisting of a redundant sensor suite, on-board computing solutions, and other components."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our sensor fusion technology actively integrates and fuses data from the various sensors (e.g, camera + LiDAR + radar) and HD maps to perceive, understand and create a detailed 3D representation of the surrounding environment."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Our perception system is powered by proprietary artificial intelligence technology and, when coupled with our proprietary camera module, enables the semi-truck s 1,000 meter perception range."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "We have developed proprietary technologies and systems necessary for the development and deployment of our autonomous trucking operations within the AFN."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our AFN will provide autonomous freight capacity as a service through two service models based on users needs: TuSimple Capacity and Carrier-Owned Capacity."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global truck freight market is estimated at $4 trillion.",
+      "sentence": "We are working to revolutionize the estimated $4 trillion global truck freight market by developing proprietary technologies that enable the scaled development and deployment of autonomous freight transportation."
+    },
+    {
+      "claim": "U.S. addressable market is approximately $800 billion.",
+      "sentence": "In the U.S. and APAC alone, the addressable markets are approximately $800 billion and $1.6 trillion, respectively."
+    },
+    {
+      "claim": "APAC addressable market is approximately $1.6 trillion.",
+      "sentence": "In the U.S. and APAC alone, the addressable markets are approximately $800 billion and $1.6 trillion, respectively."
+    },
+    {
+      "claim": "China addressable market is approximately $900 billion.",
+      "sentence": "China ~$900 billion addressable market"
+    },
+    {
+      "claim": "Japan addressable market is approximately $150 billion.",
+      "sentence": "Japan ~$150 billion addressable market"
+    }
+  ],
+  "generatedAt": "2026-07-04T17:04:26.400Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001535527",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001535527-26-000010",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm"
+  },
+  "business": "CrowdStrike provides an AI-native cloud cybersecurity platform called Falcon, offered as a SaaS subscription with 33 cloud modules. It serves over 88,000 organizations worldwide.",
+  "sellsTo": [
+    "large enterprises",
+    "government organizations",
+    "small and medium-sized businesses",
+    "U.S. public sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services, Inc.",
+    "Pearson Vue"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "CrowdStrike reinvented cybersecurity for the cloud and artificial intelligence ( AI ) era and transformed the way cybersecurity is delivered and experienced by customers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We took a fundamentally different approach to solve this problem with the AI-native CrowdStrike Falcon cybersecurity platform, which serves as the operating system for cybersecurity."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party data centers, such as Amazon Web Services, and our own colocation data centers to host and operate our Falcon platform, and any disruption of or interference with our use of these facilities may negatively affect our ability to maintain the performance and reliability of our Falcon platform which could cause our business to suffer."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our platform is authorized by several federal agencies via the Federal Risk and Authorization Management Program ( FedRAMP ). Additionally, Department of Defense organizations can rely upon CrowdStrike s Impact Level 5 provisional authorization to satisfy their cloud-based security requirements."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:53:28.623Z",
+  "model": "deepseek-v4-flash"
+}

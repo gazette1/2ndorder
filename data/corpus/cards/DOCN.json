@@ -1,0 +1,62 @@
+{
+  "cik": "0001582961",
+  "ticker": "DOCN",
+  "name": "DigitalOcean Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001582961-26-000019",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000019/docn-20251231.htm"
+  },
+  "business": "DigitalOcean is an agentic inference cloud platform that helps AI and Digital Native Enterprises build, run, and scale intelligent applications. The platform combines production-ready GPU infrastructure, a full-stack cloud, model-first inference workflows, and an agentic experience layer. It offers a comprehensive set of cloud platform capabilities including IaaS, PaaS, SaaS, and AI/ML solutions, targeting growing technology companies.",
+  "sellsTo": [
+    "AI and Digital Native Enterprises",
+    "growing technology companies",
+    "developers",
+    "online gaming",
+    "fintech",
+    "cybersecurity"
+  ],
+  "namedCustomers": [
+    "Laravel",
+    "fal",
+    "Persistent Systems"
+  ],
+  "namedSuppliers": [
+    "AMD",
+    "NVIDIA",
+    "MongoDB"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We offer a comprehensive artificial intelligence and machine learning ( AI/ML ) platform - DigitalOcean Gradient AI Agentic Cloud, which includes Gradient AI Infrastructure with offerings such as GPU Droplets and Bare Metal GPUs; the Gradient AI Platform which offers various building block services including Large Language Models ( LLMs ); and Gradient AI Agents."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We lease data centers in the New York, San Francisco and Atlanta metropolitan areas, and plan to open new facilities in 2026 in Memphis, Richmond and Kansas City, in the United States."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We also offer a number of security features to our customers free of charge, including our Distributed Denial of Service ( DDoS ) Protection service and enhanced Role Based Access Control ( RBAC ) offering."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open new data center facilities in Memphis, Richmond, and Kansas City",
+      "date": "2026",
+      "sentence": "We lease data centers in the New York, San Francisco and Atlanta metropolitan areas, and plan to open new facilities in 2026 in Memphis, Richmond and Kansas City, in the United States."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The aggregate worldwide IaaS and PaaS markets for individuals and companies with less than 500 employees is estimated to grow from approximately $138 billion in 2025 to $251 billion in 2028, representing a 22% compound annual growth rate.",
+      "sentence": "According to International Data Corporation ( IDC ), the aggregate worldwide IaaS and PaaS markets for individuals and companies with less than 500 employees is estimated to grow from approximately $138 billion in 2025 to $251 billion in 2028, representing a 22% compound annual growth rate."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:54:34.329Z",
+  "model": "deepseek-v4-flash"
+}

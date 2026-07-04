@@ -1,0 +1,98 @@
+{
+  "cik": "0001868275",
+  "ticker": "CEG",
+  "name": "Constellation Energy Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001868275-26-000032",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm"
+  },
+  "business": "The company generates and sells electricity from nuclear, natural gas, geothermal, hydro, wind, and solar sources, and also sells natural gas and energy-related products and sustainable solutions. It serves distribution utilities, municipalities, cooperatives, and commercial, industrial, public sector, and residential customers.",
+  "sellsTo": [
+    "distribution utilities",
+    "municipalities",
+    "cooperatives",
+    "commercial",
+    "industrial",
+    "public sector",
+    "residential"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "Meta"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Our nuclear fleet is the nation’s largest, with current generating capacity of approximately 22 GWs, producing 183 TWhs of zero-emissions electricity during 2025."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our renewable portfolio includes approximately 2.6 GWs of hydroelectric, wind, and solar generation assets."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Calpine’s portfolio also includes solar and battery storage assets, strengthening our ability to deliver a balanced mix of baseload, intermediate, and peak generation necessary to maintain reliability of the electrical grid."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "we sell electricity, natural gas, and other energy-related products and sustainable solutions to various types of customers, including distribution utilities, municipalities, cooperatives, and commercial, industrial, public sector, and residential customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have established technical systems programs and processes to manage material risks from cybersecurity threats."
+    },
+    {
+      "tag": "other:ccus",
+      "stance": "active_investment",
+      "sentence": "We have made investments in developing CCUS technologies to reduce GHG emissions."
+    },
+    {
+      "tag": "other:small-modular-reactors",
+      "stance": "risk_mention",
+      "sentence": "The improvements in advanced nuclear including Small Modular Reactors (SMR), growing state and federal support, and the potential to rapidly reduce costs with scaled deployment create a potential path to market for new nuclear within the next decade."
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "risk_mention",
+      "sentence": "emerging clean technologies like advanced nuclear power, CCUS, energy storage, advanced geothermal and hydrogen."
+    },
+    {
+      "tag": "natural-gas",
+      "stance": "core_product",
+      "sentence": "Calpine is the nation’s largest generator of electricity from natural gas and geothermal resources, according to S&P Global Market Intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Calpine Corporation",
+      "date": "2026-01-07",
+      "sentence": "On January 7, 2026, we acquired all of the outstanding equity interests of Calpine in a cash and stock transaction."
+    },
+    {
+      "event": "New York ZEC program extension approved",
+      "date": "2026-01",
+      "sentence": "In January 2026, the NYPSC approved a 20-year extension of its ZEC program to sustain the state’s nuclear power plants through 2049."
+    },
+    {
+      "event": "Clinton Clean Energy Center 20-year PPA with Meta begins",
+      "date": "2027-06",
+      "sentence": "The agreement, beginning in June 2027, supports the relicensing and continued operations of Clinton for another two decades after the state’s ZEC program expires."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:04:42.437Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001459862",
+  "ticker": "PALL",
+  "name": "abrdn Palladium ETF Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001999371-26-004881",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1459862/000199937126004881/pall-10k_123125.htm"
+  },
+  "business": "The abrdn Palladium ETF Trust holds physical palladium bullion and issues shares representing fractional undivided beneficial interests in the trust's net assets. Shares trade on the NYSE Arca under the symbol PALL. The trust's investment objective is for the shares to reflect the performance of the price of physical palladium, less trust expenses.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:palladium-bullion",
+      "stance": "core_product",
+      "sentence": "The assets of the Trust consist solely of palladium bullion."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "A decline in the automobile industry or a shift from gasoline-powered to electric vehicles may have the effect of causing a decline in the price of palladium and a corresponding decline in the price of Shares."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "Russia has traditionally been the largest producer of palladium, providing on average 40% of supply over the past 10 years."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "LBMA appointment of ICE Benchmark Administration as third-party administrator of LBMA Palladium prices",
+      "date": null,
+      "sentence": "In January 2026, the LBMA announced that it intends to appoint ICE Benchmark Administration ( IBA ) to replace the LME as the third-party administrator of the LBMA Palladium prices in mid-2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:48:14.879Z",
+  "model": "deepseek-v4-flash"
+}

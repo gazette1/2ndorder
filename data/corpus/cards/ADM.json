@@ -1,0 +1,61 @@
+{
+  "cik": "0000007084",
+  "ticker": "ADM",
+  "name": "Archer-Daniels-Midland Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000007084-26-000011",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000011/adm-20251231.htm"
+  },
+  "business": "Archer-Daniels-Midland Company is a global agricultural supply chain manager and processor that purchases crops from farmers and transforms them into products for food, feed, fuel, and industrial uses. The company also provides human and animal nutrition ingredients and produces biofuels.",
+  "sellsTo": [
+    "Food and beverage companies",
+    "Feed producers",
+    "Energy customers",
+    "Industrial customers",
+    "Renewable diesel manufacturers",
+    "Human nutrition supplement companies",
+    "Animal nutrition companies",
+    "Pet food and treat manufacturers",
+    "Food service channels"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "ADM is a key producer of biofuels, converting agricultural feedstocks into renewable fuels used in transportation and industrial applications."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "It continues to develop a broad range of new bio-based consumer and industrial solutions as well as advance and scale its carbon capture and sequestration capabilities and other initiatives."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Company partners with thousands of farmers around the world to purchase their crops and uses its integrated global origination, logistics, and manufacturing network to transform many of those raw commodities into an expansive array of products serving the food, feed, fuel, and industrial and consumer products sectors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "These events and factors include, but are not limited to, equipment failure, raw material shortages, natural disasters, adverse weather conditions, accidents, explosions, fires, environmental events, strikes or other labor or industrial disputes, war or acts of terrorism, cybersecurity attacks, or other unexpected outages."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Crude and partially refined vegetable oils are sold to third parties, including renewable diesel manufacturers, or further processed into salad oils, margarine, shortening, biodiesel, glycols, and other food and industrial products."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company continues to focus on leveraging digital technologies, including artificial intelligence (AI) and advanced analytics across its operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:25:24.956Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0001857910",
+  "ticker": "JFTH",
+  "name": "Japan Food Tech Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001599916-24-000203",
+    "filedAt": "2024-08-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1857910/000159991624000203/drfs_10k24o.htm"
+  },
+  "business": "Japan Food Tech Holdings, Inc. operates through its subsidiaries Dr. Foods Co., Ltd. and DRFS Singapore, focusing on creating plant-based food products that replace traditional animal products. The company currently offers products such as Dr. Foie Gras, Vegan Caviar, Cultured Caviar, and Vegan Truffle Butter. The company acts as a reseller, with products manufactured by related party Mama Foods Co., Ltd.",
+  "sellsTo": [
+    "customers in Japan",
+    "wholesale customers",
+    "retail customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Mama Foods Co., Ltd.",
+    "Next Meats Co., Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:plant-based-foods",
+      "stance": "core_product",
+      "sentence": "At present, our principal focus is on the creation of plant-based food products to replace traditional animal products, while retaining the taste and texture of the original."
+    },
+    {
+      "tag": "other:lab-grown-meat",
+      "stance": "active_investment",
+      "sentence": "On or about April 7, 2022, the Company s wholly owned subsidiary, Dr. Foods Co., Ltd., consummated a Collaborative Research Agreement (herein referred to as the CRA ) with the National University Corporation Osaka University. Together with Osaka University, Dr Foods Co., Ltd. plans to research, develop, and take other related measures to evaluate the function of lab-grown meat."
+    },
+    {
+      "tag": "other:food-technology",
+      "stance": "active_investment",
+      "sentence": "Specifically, this patent relates to a process of fermenting nuts or beans (or a mixture of nuts and beans) with fungus. The application number is 2022-61974. It was filed on April 1, 2022 and is still pending review."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Collaborative Research Agreement termination",
+      "date": "2025-03-31",
+      "sentence": "The agreement terminates on March 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:58:24.379Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "0001637459",
+  "ticker": "KHC",
+  "name": "Kraft Heinz Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001637459-26-000009",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm"
+  },
+  "business": "Kraft Heinz manufactures and markets food and beverage products globally through eight consumer-driven product platforms: Taste Elevation, Easy Ready Meals, Substantial Snacking, Desserts, Hydration, Cheese, Coffee, Meats, and other grocery products. The company's products are sold through its own sales organizations and through independent brokers, agents, and distributors to a wide range of retail and foodservice customers.",
+  "sellsTo": [
+    "chain grocery accounts",
+    "wholesale grocery accounts",
+    "cooperative grocery accounts",
+    "independent grocery accounts",
+    "convenience stores",
+    "value stores",
+    "club stores",
+    "pharmacies",
+    "drug stores",
+    "mass merchants",
+    "foodservice distributors",
+    "institutions (hotels, restaurants, bakeries, hospitals, health care facilities, government agencies)",
+    "e-commerce platforms and retailers"
+  ],
+  "namedCustomers": [
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "In 2025 we launched KHAI, our first internal AI assistant at Kraft Heinz, to streamline everyday tasks, answer questions about employee programs, and support skill development, and Nadia, an AI-powered leadership coach designed to support growth and development."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We must also be able to respond successfully to technological advances by our competitors (including artificial intelligence, machine learning, and augmented reality, which may become critical in interpreting consumer preferences in the future), and failure to do so could compromise our competitive position and impact our product sales, financial condition, and operating results."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our products are also sold online through various e-commerce platforms and retailers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Remove FD&C colors from U.S. portfolio",
+      "date": "2027-12-31",
+      "sentence": "In the second quarter of 2025, we announced our commitment to remove Food, Drug & Cosmetic (FD&C) colors from our U.S. portfolio of products before the end of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:31:46.975Z",
+  "model": "deepseek-v4-flash"
+}

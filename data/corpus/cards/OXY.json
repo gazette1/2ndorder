@@ -1,0 +1,53 @@
+{
+  "cik": "0000797468",
+  "ticker": "OXY",
+  "name": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009059",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/oxy-20251231.htm"
+  },
+  "business": "Occidental Petroleum is an oil and gas company engaged in the exploration, development, production, and marketing of oil, natural gas liquids (NGL), and natural gas. It also operates a midstream and marketing segment and is developing low-carbon ventures including direct air capture and carbon sequestration.",
+  "sellsTo": [
+    "refineries",
+    "chemical plants",
+    "utilities",
+    "third-party customers",
+    "domestic and international markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The Company's financial results correlate closely to the prices it obtains for its products, particularly oil and, to a lesser extent, NGL and natural gas."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company is exposed to cybersecurity, digital infrastructure and data security risks."
+    },
+    {
+      "tag": "other:carbon-management",
+      "stance": "active_investment",
+      "sentence": "The Company has a joint venture agreement with BlackRock, through a fund managed by its Diversified Infrastructure business, for the development of STRATOS."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "STRATOS direct air capture facility begins operations",
+      "date": "2026",
+      "sentence": "Completed construction of STRATOS central processing facilities and obtained Class VI permits to sequester CO2, with operations expected to begin in 2026."
+    },
+    {
+      "event": "OxyChem sale completed",
+      "date": "2026-01-02",
+      "sentence": "The sale was completed on January 2, 2026, resulting in an estimated gain of $3.2 billion, net of taxes and subject to post-closing adjustments."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:17:57.183Z",
+  "model": "deepseek-v4-flash"
+}

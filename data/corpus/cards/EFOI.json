@@ -1,0 +1,64 @@
+{
+  "cik": "0000924168",
+  "ticker": "EFOI",
+  "name": "ENERGY FOCUS, INC/DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-020697",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/924168/000162828026020697/efoi-20251231.htm"
+  },
+  "business": "Energy Focus specializes in designing, developing, manufacturing, and selling energy-efficient lighting systems and controls. The company provides high-quality LED lighting solutions for both commercial and military maritime markets, as well as Energy Storage Systems (ESS), Uninterruptible Power Supply (UPS), and GaN power supplies.",
+  "sellsTo": [
+    "Commercial enterprises",
+    "U.S. Navy and allied foreign navies",
+    "AI data centers",
+    "Healthcare, education, industrial facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Sander Electronics Co. Ltd"
+  ],
+  "exposures": [
+    {
+      "tag": "other:led-lighting",
+      "stance": "core_product",
+      "sentence": "We provide high-quality LED lighting solutions for both commercial and military maritime markets (MMM), helping our customers improve energy efficiency, productivity, and wellness through advanced LED retrofit products."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our core products include robust lighting fixtures and lamps for navy and military applications."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We are expanding into the ESS market, offering reliable energy storage solutions for both commercial and industrial applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are introducing AI-driven UPS systems tailored for data centers, ensuring uninterrupted power supply and optimized energy management."
+    },
+    {
+      "tag": "other:gan-power-supplies",
+      "stance": "core_product",
+      "sentence": "Our GaN Power Supplies represent the next generation of power conversion technology, delivering higher efficiency and power density compared to traditional silicon-based systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plans to expand into ESS, AI data center UPS, and Taiwan/Japan markets in 2026",
+      "date": "2026-01-01",
+      "sentence": "In 2026, we plan to pursue expansion into new markets and industries to diversify our portfolio and drive growth: ESS Business Opportunity: We intend to explore energy storage solutions that could complement our existing product lines and support sustainability efforts. AI Data Center UPS Development: We aim to enter the AI data center market through development of advanced UPS systems tailored to meet the high-demand energy needs of AI-driven data centers. Global Market Expansion: We are evaluating potential opportunities in the Taiwan and Japan markets, where we may leverage our expertise to respond to demand in these regions."
+    },
+    {
+      "event": "Product development initiatives with DoD prime contractors for qualification, testing, and integration in 2026 and 2027",
+      "date": "2026-01-01",
+      "sentence": "These efforts are intended to support qualification, testing, and integration of our products into customer programs for 2026 and 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:41:42.474Z",
+  "model": "deepseek-v4-flash"
+}

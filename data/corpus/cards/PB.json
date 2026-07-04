@@ -1,0 +1,70 @@
+{
+  "cik": "0001068851",
+  "ticker": "PB",
+  "name": "PROSPERITY BANCSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-077437",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526077437/pb-20251231.htm"
+  },
+  "business": "Prosperity Bancshares, Inc. is a financial holding company that operates through its bank subsidiary, Prosperity Bank, providing traditional loan and deposit products to individual consumers and businesses throughout Texas and Oklahoma. The company generates the majority of its revenues from interest income on loans, service charges and fees on customer accounts, and income from investment securities.",
+  "sellsTo": [
+    "individual consumers",
+    "businesses",
+    "professional service firms",
+    "manufacturing",
+    "tourism",
+    "petrochemicals",
+    "farming and ranching"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Changes in local economic and business conditions, including fluctuations in the price of oil, natural gas and other commodities, which adversely affect the Company's customers and their ability to transact profitable business with the Company"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's ability to identify and address cybersecurity risks such as data security breaches, malware, denial of service attacks, hacking, and identity theft, a failure of which could disrupt business and result in significant losses or adverse effects to the Company's reputation"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company competes with other commercial banks, savings banks, savings and loan associations, credit unions, finance companies, mutual funds, insurance companies, brokerage and investment banking firms, asset-based nonbank lenders, financial technology companies and certain other nonfinancial entities"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "1-4 family residential (including home equity); and construction, land development and other land loans comprising 29.5%, 37.9% and 12.6%, respectively, of the Company's total loans as of December 31, 2025."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "commercial real estate (including farmland and multi-family residential) comprising 29.5% of the Company's total loans as of December 31, 2025."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of American Bank Holding Corporation merger",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, the Company completed the merger of American Bank Holding Corporation (American) into the Company and the subsequent merger of its wholly owned subsidiary American Bank, N.A. (American Bank), into the Bank (collectively, the American Merger)."
+    },
+    {
+      "event": "Completion of Southwest Bancshares, Inc. merger",
+      "date": "2026-02-01",
+      "sentence": "On February 1, 2026, the Company completed the merger of Southwest Bancshares, Inc. (Southwest) into the Company and the subsequent merger of its wholly owned subsidiary Texas Partners Bank (Texas Partners), into the Bank (collectively, the Southwest Merger)."
+    },
+    {
+      "event": "Announcement of pending acquisition of Stellar Bancorp, Inc.",
+      "date": "2026-01-28",
+      "sentence": "On January 28, 2026, the Company and Stellar Bancorp, Inc. (Stellar) jointly announced the signing of a definitive merger agreement whereby Stellar, the parent company of Stellar Bank (Stellar Bank), will merge with and into the Company and Stellar Bank will merge with and into the Bank."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:31:21.848Z",
+  "model": "deepseek-v4-flash"
+}

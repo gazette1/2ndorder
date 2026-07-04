@@ -1,0 +1,83 @@
+{
+  "cik": "0001137789",
+  "ticker": "STX",
+  "name": "Seagate Technology Holdings plc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001137789-25-000157",
+    "filedAt": "2025-08-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000157/stx-20250627.htm"
+  },
+  "business": "Seagate Technology Holdings plc is a leading provider of data storage technology and infrastructure solutions. Its principal products are hard disk drives (HDDs), solid state drives (SSDs), and storage subsystems, as well as a scalable edge-to-cloud mass data platform including Lyve Cloud and data transfer shuttles. The company sells to major OEMs, distributors, and retailers for mass capacity storage and legacy markets.",
+  "sellsTo": [
+    "cloud service providers",
+    "hyperscale data centers",
+    "original equipment manufacturers",
+    "distributors",
+    "retailers",
+    "mass capacity storage markets",
+    "legacy markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Mass capacity storage involves well-established use cases, such as hyperscale data centers and private and public clouds as well as quickly emerging use cases such as machine learning ( ML ) and artificial intelligence ( AI )."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We believe the proliferation and creation of media-rich digital content, further enabled by Gen AI, ML, fifth-generation wireless ( 5G ) technology, the edge and the Internet of Things ( IoT ) will continue to create demand for higher capacity storage solutions."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Use cases include connected and autonomous vehicles, smart manufacturing, smart cities and emerging generative AI ( Gen AI ) applications."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Use cases include connected and autonomous vehicles, smart manufacturing, smart cities and emerging generative AI ( Gen AI ) applications."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Use cases include connected and autonomous vehicles, smart manufacturing, smart cities and emerging generative AI ( Gen AI ) applications."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Our video and image HDDs are built to support the high-write workload of always-on, always-recording video systems."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our gaming SSDs are specifically optimized internal storage for gaming rigs and are designed to enhance the gaming experience during game load and game play with capacities up to 4TB."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our external storage solutions with capacities up to 24TB are shipped, under the Seagate Ultra Touch, One Touch, Expansion and Basics product lines, as well as under the LaCie brand name."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Certain rare earth elements are also critical in the manufacture of our products."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global datasphere is forecasted to grow at a compound rate of 25% over the next five years to reach 527 zettabytes annually by 2029.",
+      "sentence": "In the Worldwide Global DataSphere Forecast, 2025-2029 , published by the International Data Corporation 1 ( IDC ), the global datasphere is forecasted to grow at a compound rate of 25% over the next five years to reach 527 zettabytes annually by 2029."
+    },
+    {
+      "claim": "Hard drives store 87% of exabytes in large data center deployments.",
+      "sentence": "According to IDC s 2025 Cloud Infrastructure Index, hard drives store 87% of exabytes in large data center deployments."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:53:25.982Z",
+  "model": "deepseek-v4-flash"
+}

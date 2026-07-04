@@ -1,0 +1,59 @@
+{
+  "cik": "0000910329",
+  "ticker": "MED",
+  "name": "MEDIFAST INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008656",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/910329/000162828026008656/med-20251231.htm"
+  },
+  "business": "Medifast, Inc. is a health and wellness company that sells science-backed, coach-guided lifestyle systems for weight loss and metabolic health. Its products include OPTA VIA fuelings, plans, and programs. The company sells to individual consumers through a network of independent coaches.",
+  "sellsTo": [
+    "individual consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The metabolic health system is designed for real life and built around four key components: Independent Coaches, Community, The Habits of Health Transformational System, Products & Plans."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We develop and market products for consumers who want to lose weight and adopt a holistic approach to overall health and wellness."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our revenue is derived primarily from point of sale transactions executed over an e-commerce platform for weight loss, weight management, and other healthy living products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations depend on our ability to protect our information technology systems against damage from third-party cyber-attacks, such as hacking, spear phishing campaigns and denial of service attacks, which are increasingly negatively impacting companies."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development, adoption and use of artificial intelligence ( AI ) technologies are rapidly transforming the health and wellness industry, enabling faster data analysis and automation through machine learning and predictive modeling."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of new product line incorporating next-generation ingredients for metabolic enhancement",
+      "date": null,
+      "sentence": "We expect to bring this new product line to market in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "addressable market for weight loss estimated to be worth over $30 billion",
+      "sentence": "According to a proprietary analysis, the addressable market for weight loss is large and growing, estimated to be worth over $30 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:36:32.849Z",
+  "model": "deepseek-v4-flash"
+}

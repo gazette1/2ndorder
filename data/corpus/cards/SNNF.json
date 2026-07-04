@@ -1,0 +1,59 @@
+{
+  "cik": "0002072421",
+  "ticker": "SNNF",
+  "name": "Seneca Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-036813",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2072421/000110465926036813/snnf-20251231x10k.htm"
+  },
+  "business": "Seneca Bancorp is a bank holding company for Seneca Savings Bank, a national bank. It offers loan products (commercial real estate, residential, consumer) and deposit products, along with wealth management services through its subsidiary Financial Quest. Its primary market area is Onondaga and Madison Counties in New York.",
+  "sellsTo": [
+    "individuals and businesses in Onondaga and Madison Counties, New York",
+    "small- to medium-sized businesses for commercial lending",
+    "retail and retirement plan clients for wealth management"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "LPL Financial",
+    "BHG Financial LLC",
+    "Home HeadQuarters, Inc.",
+    "Zions Bank",
+    "Pacific Coast Bankers Bank",
+    "FHLB of New York",
+    "Freddie Mac"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "At December 31, 2025, $93.0 million, or 41.0%, of our total loan portfolio consisted of one- to four-family residential real estate mortgage loans."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "active_investment",
+      "sentence": "Additionally, in 2024, we purchased 2.5 acres of land in Clay, New York, directly across from the future site of the Micron Technology, Inc. semiconductor fabrication facility, where we intend to establish a branch office."
+    },
+    {
+      "tag": "other:cannabis",
+      "stance": "core_product",
+      "sentence": "In 2024, we began offering limited financial products and services to the cannabis industry."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open new branch in Camillus, New York",
+      "date": null,
+      "sentence": "We currently expect to construct a full-service branch with drive-through on this land and open the branch in early 2027."
+    },
+    {
+      "event": "Develop branch property in Clay, New York",
+      "date": null,
+      "sentence": "We anticipate developing this property in 2028, consistent with the extended timeline for construction of the Micron facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:38:15.728Z",
+  "model": "deepseek-v4-flash"
+}

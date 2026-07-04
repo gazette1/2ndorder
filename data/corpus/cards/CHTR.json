@@ -1,0 +1,66 @@
+{
+  "cik": "0001091667",
+  "ticker": "CHTR",
+  "name": "CHARTER COMMUNICATIONS, INC. /MO/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001091667-26-000017",
+    "filedAt": "2026-01-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm"
+  },
+  "business": "Charter Communications is a leading broadband connectivity company that provides Internet, mobile, video, and voice services to residential and commercial customers across 41 states through its Spectrum brand.",
+  "sellsTo": [
+    "Residential",
+    "Small Business",
+    "Mid-Market & Large Business",
+    "Advertising customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Verizon Communications Inc.",
+    "T-Mobile US, Inc.",
+    "American Media Productions, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a leading broadband connectivity company with services available to 58 million homes and small to large businesses across 41 states through our Spectrum brand."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The service enables parental control schedules and Spectrum Security Shield which is automatically enabled and protects all devices in the home using network-based security."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We provide our customers with a choice of video programming services on a variety of platforms and through a variety of programming packages with approximately 375 channels."
+    },
+    {
+      "tag": "other:artificial_intelligence",
+      "stance": "risk_mention",
+      "sentence": "We currently incorporate AI technology in certain parts of our business operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Invincible WiFi product",
+      "date": "2026-01-01",
+      "sentence": "In early 2026, we will launch our Invincible WiFi product, a tri-band advanced WiFi 7 router that integrates 5G cellular and battery backup to keep customers seamlessly and fully connected during service disruption or a power outage."
+    },
+    {
+      "event": "Launch of Spectrum Business mobile service using T-Mobile network",
+      "date": "2026-12-31",
+      "sentence": "In July 2025, we entered into a multi-year agreement with T-Mobile US, Inc. ( T-Mobile ) to use their network to deliver mobile services to Spectrum Business customers which is set to launch in 2026."
+    },
+    {
+      "event": "Completion of network evolution to offer faster speeds",
+      "date": "2027-12-31",
+      "sentence": "Through this process, which we expect to be largely complete by the end of 2027, we will transform our network to offer much faster Internet speeds."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:43:23.198Z",
+  "model": "deepseek-v4-flash"
+}

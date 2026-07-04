@@ -1,0 +1,85 @@
+{
+  "cik": "0000012927",
+  "ticker": "BA",
+  "name": "BOEING CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-004357",
+    "filedAt": "2026-01-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm"
+  },
+  "business": "Boeing operates in three segments: Commercial Airplanes develops and markets commercial jet aircraft to airlines worldwide; Defense, Space & Security produces military aircraft, weapons systems, satellites, and space exploration systems; Global Services provides supply chain, maintenance, training, and digital solutions to commercial and defense customers.",
+  "sellsTo": [
+    "commercial airlines worldwide",
+    "U.S. government (DoD, NASA, FAA)",
+    "non-U.S. governments",
+    "commercial aviation industry",
+    "defense customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Spirit AeroSystems Holdings, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "This segment engages in the research, development, production and modification of manned and unmanned military aircraft and weapons systems for strike, surveillance and mobility, including fighter and trainer aircraft; vertical lift, including rotorcraft and tilt-rotor aircraft; and commercial derivative aircraft, including anti-submarine and tanker aircraft."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "In addition, this segment engages in the research, development, production and modification of the following products and related services: strategic defense and intelligence systems, including strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems, satellite systems, including government and commercial satellites and space exploration."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "satellite systems, including government and commercial satellites and space exploration."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "strategic defense and intelligence systems, including strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions"
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Global Services sustains aerospace platforms and systems with a full spectrum of products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and digital solutions and analytics."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "737 production rate increase to 47 per month",
+      "date": null,
+      "sentence": "The program plans to increase the production rate from 42 to 47 in 2026 with the concurrence of the FAA."
+    },
+    {
+      "event": "777X first delivery (777-9) expected in 2027",
+      "date": null,
+      "sentence": "We continue to expect first delivery of the 777-9 to occur in 2027."
+    },
+    {
+      "event": "737-7 and 737-10 certification expected in 2026",
+      "date": null,
+      "sentence": "We continue to expect certification to occur in 2026."
+    },
+    {
+      "event": "767 commercial program production completion",
+      "date": null,
+      "sentence": "We expect to complete production of the 767 commercial program by 2027."
+    },
+    {
+      "event": "First delivery of 777-8 Freighter (approximately two years after 777-9)",
+      "date": null,
+      "sentence": "We continue to anticipate first delivery of the 777-8 Freighter to occur approximately two years after the first delivery of the 777-9."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Demand for approximately 43,600 new airplanes over the next 20 years",
+      "sentence": "Based on long-term global economic growth projections of 2.3% in average annual gross domestic product, we project demand for approximately 43,600 new airplanes over the next 20 years."
+    }
+  ],
+  "generatedAt": "2026-07-04T11:54:46.155Z",
+  "model": "deepseek-v4-flash"
+}

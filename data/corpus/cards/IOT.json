@@ -1,0 +1,90 @@
+{
+  "cik": "0001642896",
+  "ticker": "IOT",
+  "name": "Samsara Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018167",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1642896/000162828026018167/iot-20260131.htm"
+  },
+  "business": "Samsara sells subscriptions to its Connected Operations Platform, which includes IoT devices, cloud-based applications, and AI-driven insights. The platform connects physical operations data from vehicles, equipment, sites, and workers to improve safety, efficiency, and sustainability. Revenue is primarily from subscriptions, with initial contract terms of three to five years.",
+  "sellsTo": [
+    "construction",
+    "transportation",
+    "wholesale and retail trade",
+    "field services",
+    "logistics",
+    "manufacturing",
+    "utilities and energy",
+    "government",
+    "healthcare and education",
+    "food and beverage",
+    "small and medium-sized businesses",
+    "state and local governments",
+    "large global enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our AI Video-Based Safety applications leverage proprietary AI, embedded at the edge in IoT vehicular cameras, to identify safety risk through over 40 AI detections in real-time."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "By leveraging recent advancements in artificial intelligence ( AI ), IoT connectivity, cloud computing, and video imagery, we enable the digital transformation of physical operations."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our Data Platform ingests, aggregates, and enriches data from our IoT devices and a growing ecosystem of connected assets and third-party systems"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We have achieved four cybersecurity-related certifications under standards promulgated by the International Organization for Standardization ( ISO )."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our EV solutions provides real-time charging status and alerts, route planning, and usage reporting to increase the efficiency of electric fleets."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Site Visibility application brings advanced AI and cloud-based visibility to onsite locations such as job sites or warehouses."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We have also built an expansive open ecosystem with over 350 integrations, enabling data synchronization across enterprise resource planning ( ERP ), insurance providers, OEM clouds, and other mission-critical back-office applications."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Factors outside of our control, such as developing laws and regulations, regulatory orders, competitive product offerings, rising AI infrastructure costs, and changes in demand for our solution may also materially impact the successful implementation of new Applications."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "For several fiscal years, there was an ongoing global silicon component shortage, which resulted in increases in the cost of devices and components and delays in shipments of goods across many industries, including components used in our IoT devices."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "we rely upon Amazon for AWS web hosting, and we do not currently have an alternative provider."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "We estimate that these industries represent over 40% of the global GDP.",
+      "sentence": "We estimate that these industries represent over 40% of the global GDP."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:46:13.428Z",
+  "model": "deepseek-v4-flash"
+}

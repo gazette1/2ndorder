@@ -1,0 +1,85 @@
+{
+  "cik": "0001675033",
+  "ticker": "GECC",
+  "name": "Great Elm Capital Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085697",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526085697/gecc-20251231.htm"
+  },
+  "business": "Great Elm Capital Corp. is a business development company that seeks to generate current income and capital appreciation through debt and income-generating equity investments, including investments in specialty finance businesses. It invests in secured and senior secured debt instruments of middle market companies, as well as collateralized loan obligation (CLO) securities and related warehouse facilities. The company also makes investments in subordinated debt, mezzanine debt, and equity or equity-linked securities.",
+  "sellsTo": [
+    "Middle-market companies (enterprise value $100 million to $2 billion)",
+    "Specialty finance businesses",
+    "CLO issuers"
+  ],
+  "namedCustomers": [
+    "CW Opportunity 2 LP",
+    "Nice-Pak Products",
+    "Dynata",
+    "First Brands Group",
+    "American Coastal Insurance Corp",
+    "Blackstone Secured Lending Fund",
+    "PFS Holdings Corp.",
+    "Blue Ribbon, LLC",
+    "Stone Ridge",
+    "Trouvaille",
+    "Del Monte Foods Corp.",
+    "Maverick Gaming LLC",
+    "Flexsys Holdings",
+    "GESF"
+  ],
+  "namedSuppliers": [
+    "GECM (external investment manager)",
+    "CNB (lender under revolving credit facility)",
+    "Equiniti Trust Company, LLC (trustee for notes)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:middle-market-lending",
+      "stance": "core_product",
+      "sentence": "We invest in secured and senior secured debt instruments of middle market companies, as well as income-generating equity investments in specialty finance companies."
+    },
+    {
+      "tag": "other:specialty-finance",
+      "stance": "core_product",
+      "sentence": "We invest in secured and senior secured debt instruments of middle market companies, as well as income-generating equity investments in specialty finance companies."
+    },
+    {
+      "tag": "other:clo",
+      "stance": "core_product",
+      "sentence": "In addition, we invest in collateralized loan obligation (CLO) securities and related warehouse facilities."
+    },
+    {
+      "tag": "other:clo-equity",
+      "stance": "active_investment",
+      "sentence": "On April 23, 2024, we contributed investments in certain CLOs and formed a joint venture, the CLO Formation JV, LLC (the CLO JV ) to facilitate the creation of CLOs."
+    },
+    {
+      "tag": "other:specialty-finance",
+      "stance": "active_investment",
+      "sentence": "Through its subsidiaries, GESF provides a variety of financing options along a continuum of lending to middle-market borrowers including, receivables factoring, asset-based and asset-backed lending, lender finance, and equipment financing."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Redemption of $20 million of GECCO Notes",
+      "date": "2026-03-31",
+      "sentence": "On February 27, 2026, we caused a notice to be issued to the holders of the GECCO Notes regarding the exercise of our option to redeem $20 million aggregate principal amount of the issued and outstanding GECCO Notes on March 31, 2026."
+    },
+    {
+      "event": "Reversal of accrued incentive fees due to waiver",
+      "date": "2026-03-31",
+      "sentence": "We expect to recognize the reversal of these accrued incentive fees during the period ending March 31, 2026, resulting in a corresponding increase in net income in that period."
+    },
+    {
+      "event": "Board set distribution for quarter ending March 31, 2026",
+      "date": "2026-03-31",
+      "sentence": "Our Board set a distribution for the quarter ending March 31, 2026 at a rate of $0.30 per share."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:58:10.960Z",
+  "model": "deepseek-v4-flash"
+}

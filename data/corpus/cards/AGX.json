@@ -1,0 +1,115 @@
+{
+  "cik": "0000100591",
+  "ticker": "AGX",
+  "name": "ARGAN INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-035216",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/100591/000110465926035216/agx-20260131x10k.htm"
+  },
+  "business": "Argan is primarily an engineering and construction firm that conducts operations through its wholly-owned subsidiaries across three reportable business segments: Power, Industrial, and Teledata. The Power segment provides EPC services to the power generation market, including natural gas-fired and renewable energy plants. The Industrial segment provides on-site services for industrial operations, and the Teledata segment provides construction and maintenance services for power distribution and data networks.",
+  "sellsTo": [
+    "independent power producers",
+    "public utilities",
+    "power plant equipment suppliers",
+    "commercial firms with significant power requirements",
+    "industrial customers in the Southeastern U.S.",
+    "state and federal government agencies",
+    "data center operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The international operations of the Power segment focus on the performance of engineering and construction services for major electric utilities in Ireland, independent power plant owners, major data center operators, and original equipment manufacturers."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Past projects include combined-cycle facilities, simple-cycle peaking plants, biofuel plants, biomass plants, solar fields, solar fields with battery storage and wind farms."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The customers include primarily independent power producers, public utilities, power plant equipment suppliers and other commercial firms with significant power requirements."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Past projects include combined-cycle facilities, simple-cycle peaking plants, biofuel plants, biomass plants, solar fields, solar fields with battery storage and wind farms."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Teledata segment provides project management, construction, installation, maintenance, repair, and emergency response services across power distribution and information, communications, and data networks."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence poses risks that could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "Nuclear energy may influence future generation capacity additions, with industry focus increasingly shifting toward small modular reactors (\"SMRs\") given the extended timelines, regulatory complexity, and high capital costs associated with conventional nuclear development."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Forecasts generally indicate a significant increase in electricity demand in the United States for the foreseeable future, driven largely by the expansion in the number of data centers, the increase in electric vehicle sales, and the onshoring of manufacturing facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Tarbert Next Generation Power Station completion",
+      "date": "2027-12-31",
+      "sentence": "The project has an expected completion date towards the end of calendar year 2027."
+    },
+    {
+      "event": "Sandow Lakes Power Station completion",
+      "date": "2028-12-31",
+      "sentence": "The project has an expected completion date in calendar year 2028."
+    },
+    {
+      "event": "700 MW Combined-Cycle Project completion",
+      "date": "2028-12-31",
+      "sentence": "Project completion is scheduled for calendar year 2028."
+    },
+    {
+      "event": "860 MW Thermal Project completion",
+      "date": "2028-12-31",
+      "sentence": "The project has an expected completion date in calendar year 2028."
+    },
+    {
+      "event": "170 MW Thermal Project completion",
+      "date": "2028-12-31",
+      "sentence": "The project has an expected project completion date in calendar year 2028."
+    },
+    {
+      "event": "1.4 GW Thermal Project completion",
+      "date": "2029-12-31",
+      "sentence": "The project has an expected completion date in calendar year 2029."
+    },
+    {
+      "event": "405 MW Midwest Solar Project completion",
+      "date": "2027-01-31",
+      "sentence": "Project completion is scheduled for Fiscal 2027."
+    },
+    {
+      "event": "Midwest Solar and Battery Projects final project completion",
+      "date": "2026-07-31",
+      "sentence": "Completion of the final project, which has experienced certain regulatory delays, is expected to occur within the first half of Fiscal 2027."
+    },
+    {
+      "event": "Trumbull Energy Center final completion",
+      "date": "2026-07-31",
+      "sentence": "Project completion is scheduled for the first half of Fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:13:24.686Z",
+  "model": "deepseek-v4-flash"
+}

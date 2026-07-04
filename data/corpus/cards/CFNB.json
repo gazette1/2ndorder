@@ -1,0 +1,41 @@
+{
+  "cik": "0000803016",
+  "ticker": "CFNB",
+  "name": "CALIFORNIA FIRST LEASING CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001171843-17-005747",
+    "filedAt": "2017-09-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/803016/000117184317005747/f10k_092617p.htm"
+  },
+  "business": "California First Leasing Corp provides lease financing for capital assets and commercial loans to businesses and non-profit organizations. The company operates through CalFirst Bank (banking) and CalFirst Leasing (leasing). Leases are secured by the underlying property.",
+  "sellsTo": [
+    "businesses",
+    "non-profit organizations",
+    "educational institutions",
+    "healthcare providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber security and privacy breaches may hurt our business, damage our reputation, increase our costs, and cause losses."
+    },
+    {
+      "tag": "other:education",
+      "stance": "risk_mention",
+      "sentence": "Only one industry classification represented over 5% of the Company's total investment in leases and loans, as public and private colleges and universities aggregated to 6.1%."
+    },
+    {
+      "tag": "other:healthcare",
+      "stance": "risk_mention",
+      "sentence": "approximately 4.8% of the portfolio consists of hospitals and medical centers, down from 5.2% at June 30, 2016."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:54:11.410Z",
+  "model": "deepseek-v4-flash"
+}

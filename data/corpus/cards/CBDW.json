@@ -1,0 +1,56 @@
+{
+  "cik": "0001877461",
+  "ticker": "CBDW",
+  "name": "1606 CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-26-001635",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1877461/000147793226001635/cbdw_10k.htm"
+  },
+  "business": "The Company develops and licenses AI chatbots specifically designed for the CBD industry and for public companies. It has entered into a purchase agreement to acquire a power generation facility and warehouse for potential data center use. The Company has no revenue from these new operations as of December 31, 2025.",
+  "sellsTo": [
+    "CBD brands and retailers",
+    "public companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "ARXT Labs"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-chatbot",
+      "stance": "core_product",
+      "sentence": "We develop AI chatbot s that are specifically designed to the industry and products for a retailer or brands."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "The Company intends to utilize the Property as a behind-the-meter captive power asset to support AI and data center infrastructure operations."
+    },
+    {
+      "tag": "utilities",
+      "stance": "active_investment",
+      "sentence": "The site includes a 55-megawatt power generation facility and a 50,000-square-foot climate-controlled warehouse that the Company believes is suitable for data center deployment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of Texas property acquisition",
+      "date": "2026-04-15",
+      "sentence": "Closing is scheduled for April 15, 2026, subject to customary closing conditions."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The global artificial intelligence market was valued at $428 billion in 2022 and is projected to reach $2.25 trillion by 2030.",
+      "sentence": "The global artificial intelligence market has seen remarkable growth, valued at $428 billion in 2022 and projected to reach $2.25 trillion by 2030."
+    },
+    {
+      "claim": "The global CBD market size was valued at $6.4 billion in 2022 and is expected to grow at a CAGR of 16.2% from 2023 to 2030.",
+      "sentence": "The global CBD market size was valued at $6.4 billion in 2022 and is expected to grow at a compound annual growth rate (CAGR) of 16.2% from 2023 to 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:38:58.183Z",
+  "model": "deepseek-v4-flash"
+}

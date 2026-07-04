@@ -1,0 +1,69 @@
+{
+  "cik": "0001017303",
+  "ticker": "TACT",
+  "name": "TRANSACT TECHNOLOGIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-009238",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1017303/000114036126009238/ef20064326_10k.htm"
+  },
+  "business": "TransAct designs, develops, and markets software-driven technology and printing solutions for high-growth markets including food service technology (FST), point of sale (POS) automation, and casino and gaming. Its products are sold under the BOHA!, AccuDate, Epic, EPICENTRAL, and Ithaca brand names. The company sells to original equipment manufacturers, value-added resellers, distributors, and directly to end users across the Americas, Europe, the Middle East, Africa, Asia, Australia, New Zealand, the Caribbean Islands and the South Pacific.",
+  "sellsTo": [
+    "food service technology market",
+    "POS automation market",
+    "casino and gaming market",
+    "original equipment manufacturers",
+    "value-added resellers",
+    "distributors",
+    "end users"
+  ],
+  "namedCustomers": [
+    "Light & Wonder"
+  ],
+  "namedSuppliers": [
+    "Avery Dennison"
+  ],
+  "exposures": [
+    {
+      "tag": "other:food-service-technology",
+      "stance": "core_product",
+      "sentence": "The BOHA! line of products helps food service establishments and restaurants (including fine dining, casual dining, fast casual and quick-service restaurants ( QSRs ), convenience stores, hospitality establishments and contract food service providers) effectively manage food safety and grab-and-go initiatives, as well as automate and manage back-of-house operations."
+    },
+    {
+      "tag": "other:pos-automation",
+      "stance": "core_product",
+      "sentence": "In the POS automation market, we sell the Ithaca 9000 printer, which utilizes thermal printing technology."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We sell several models of printers used in slot machines, video lottery terminals ( VLTs ), sports betting kiosks and other gaming machines that print tickets or receipts instead of issuing coins ( ticket-in, ticket-out or TITO ) at casinos, racetracks, charitable gaming establishments and other gaming venues worldwide."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the FST industry continues to experience technological developments and innovations (such as the use of artificial intelligence and machine learning)"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of perpetual license to BOHA! source code",
+      "date": "2025-08-06",
+      "sentence": "On August 6, 2025, the Company announced that it acquired a perpetual license to a copy of the source code for the BOHA! software that it licenses from Avery Dennison Corporation."
+    },
+    {
+      "event": "Expected go-live of own hosting environment for BOHA! source code",
+      "date": "2026-06-30",
+      "sentence": "In addition to the perpetual and royalty free license, TransAct will also host the code within its own environment, which is expected to go live in mid-2026."
+    },
+    {
+      "event": "Epic TR80 full market entry",
+      "date": "2025-03-31",
+      "sentence": "In the fourth quarter of 2023, we launched the Epic TR80, our newest casino and gaming printer, which entered the market fully during the first quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:08:24.101Z",
+  "model": "deepseek-v4-flash"
+}

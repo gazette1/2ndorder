@@ -1,0 +1,90 @@
+{
+  "cik": "0001446159",
+  "ticker": "AGPU",
+  "name": "Axe Compute Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001171843-26-002094",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1446159/000117184326002094/poai20251231_10k.htm"
+  },
+  "business": "Axe Compute provides on-demand access to high-performance GPU compute infrastructure through a decentralized network (Aethir) to enterprises and AI developers. The company also operates a legacy drug discovery business using AI and a proprietary tumor biobank to support cancer therapy development.",
+  "sellsTo": [
+    "Enterprises",
+    "AI developers",
+    "Large-scale workload operators",
+    "Biopharmaceutical companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "NVIDIA Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Through our Compute Services segment, we provide enterprises, AI developers, and large-scale workload operators with on-demand access to high-performance GPU compute infrastructure."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "McKinsey & Company estimated in 2025 that over 50% of all data center capacity was already dedicated to AI workloads, an amount they expect to grow by a factor of 3.5 times by 2030, and that approximately $6.7 trillion will be spent on data centers globally between 2025 and 2030, of which approximately 65.7% will be GPU-related."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We source GPU hardware primarily from NVIDIA Corporation, which is currently the dominant supplier of GPUs used for artificial intelligence training and inference workloads."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our Drug Discovery Services segment, which provides services that include the application of AI using its proprietary biobank of 150,000+ tumor samples, as well as creation of proprietary 3D culture models used in drug development."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Clinical diagnostic testing is comprised of our Tumor Drug Response Testing (ChemoFx ), Genomic Profiling Testing (BioSpeciFx), and other biomarker tests."
+    },
+    {
+      "tag": "other:digital-asset-treasury",
+      "stance": "active_investment",
+      "sentence": "Pursuant to the Treasury Strategy, the Company intends to continue acquiring additional ATH in the open market and to earn yield on its ATH treasury holdings by engaging in ATH staking and other activities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Engaged Cardiff Advisory to explore strategic alternatives for Legacy Business",
+      "date": "2026-02-24",
+      "sentence": "On February 24, 2026, we announced that we engaged Cardiff Advisory LLC to assist in exploring strategic alternatives for our Legacy Business."
+    },
+    {
+      "event": "Appointed Dr. Theodore Zhu and Thorsten Dirks to Board of Directors",
+      "date": "2026-03-03",
+      "sentence": "On March 3, 2026, we announced that our Board appointed Dr. Theodore Zhu and Thorsten Dirks as members of the Board."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global compute market valued at over $1 trillion in 2026, CAGR ~9.9%, expected to nearly double by 2032",
+      "sentence": "According to Research and Markets (2026), the global compute market is estimated to be valued at over $1 trillion in 2026, with a compound annual growth rate of approximately 9.9%, and is expected to nearly double in value by 2032."
+    },
+    {
+      "claim": "AI compute market anticipated to exceed $1 trillion by 2034 with >30% annual growth",
+      "sentence": "When focused specifically on AI-related computing services, many forecasters estimate growth rates exceeding 30% annually, with the AI compute market anticipated to reach a total value in excess of $1 trillion by 2034 (Cognitive Market Research; Statifacts, 2025)."
+    },
+    {
+      "claim": "Over 50% of data center capacity already dedicated to AI, expected to grow 3.5x by 2030; $6.7 trillion data center spend 2025-2030, 65.7% GPU-related",
+      "sentence": "McKinsey & Company estimated in 2025 that over 50% of all data center capacity was already dedicated to AI workloads, an amount they expect to grow by a factor of 3.5 times by 2030, and that approximately $6.7 trillion will be spent on data centers globally between 2025 and 2030, of which approximately 65.7% will be GPU-related."
+    },
+    {
+      "claim": "Worldwide AI spending to total $2.5 trillion in 2026",
+      "sentence": "Gartner estimates worldwide AI spending will total $2.5 trillion in 2026 alone."
+    },
+    {
+      "claim": "North American data center vacancy rate at record low 1.6%, demand up 24% in 2025, GPU lead times 36-52 weeks",
+      "sentence": "as of early 2026, North American data center vacancy rates reached a record low of 1.6%, data center demand increased 24% in 2025, and average lead times for data center GPUs stand at 36 to 52 weeks (CBRE Investment Management, 2026)."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:55:49.115Z",
+  "model": "deepseek-v4-flash"
+}

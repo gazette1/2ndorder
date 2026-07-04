@@ -1,0 +1,47 @@
+{
+  "cik": "0001992508",
+  "ticker": "TETH",
+  "name": "21Shares Ethereum ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-036641",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1992508/000121390026036641/ea0281823-10k_21shares.htm"
+  },
+  "business": "The trust is an exchange-traded fund that issues shares tracking the performance of ether, as measured by the CME CF Ether-Dollar Reference Rate, and reflects rewards from staking a portion of its ether. It holds ether and values its shares daily based on the Index. Shares are listed on the Cboe BZX Exchange.",
+  "sellsTo": [
+    "investors seeking exposure to ether",
+    "retail and institutional investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "BitGo Bank & Trust Company, N.A.",
+    "Anchorage Digital Bank N.A",
+    "BitGo New York Trust Company, LLC",
+    "Coinbase, Inc.",
+    "BNY Mellon Asset Servicing",
+    "CSC Delaware Trust Company",
+    "Foreside Global Services, LLC",
+    "Coinbase Crypto Services, LLC",
+    "Figment Inc.",
+    "Twinstake Ltd",
+    "CF Benchmarks Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:ether",
+      "stance": "core_product",
+      "sentence": "The Trust s investment objective is to seek to track the performance of ether, as measured by the performance of the CME CF Ether-Dollar Reference Rate - New York Variant (the Index ), adjusted for the Trust s expenses and other liabilities, and to reflect rewards from staking a portion of the Trust s ether, to the extent the Sponsor in its sole discretion determines that the Trust may do so without undue legal or regulatory risk."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "The Trust s staking model aims to maximize the portion of the Trust s ether available for staking while controlling for liquidity and redemption risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:45:25.177Z",
+  "model": "deepseek-v4-flash"
+}

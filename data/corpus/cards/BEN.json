@@ -1,0 +1,47 @@
+{
+  "cik": "0000038777",
+  "ticker": "BEN",
+  "name": "FRANKLIN RESOURCES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000038777-25-000238",
+    "filedAt": "2025-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000238/ben-20250930.htm"
+  },
+  "business": "Franklin Resources is a global investment management organization providing investment management and related services to retail, institutional, and high-net-worth investors worldwide.",
+  "sellsTo": [
+    "retail investors",
+    "institutional investors",
+    "high-net-worth investors",
+    "financial intermediaries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant limitation, failure or security breach of our information and cybersecurity infrastructure, software applications, technology or other systems, or those of our third-party providers, that are critical to our operations could disrupt our business and harm our operations, financial condition, and reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial Intelligence (AI) is used in many areas of our business and we plan to further incorporate AI into additional areas."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "growing digital asset markets that remain subject to substantial volatility and significant regulatory uncertainty."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Apera Asset Management completed",
+      "date": "2025-10-01",
+      "sentence": "On October 1, 2025, we completed the acquisition of Apera Asset Management for cash consideration of 65.2 million net of closing adjustments funded from existing cash."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:02.525Z",
+  "model": "deepseek-v4-flash"
+}

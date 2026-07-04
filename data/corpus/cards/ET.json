@@ -1,0 +1,60 @@
+{
+  "cik": "0001276187",
+  "ticker": "ET",
+  "name": "Energy Transfer LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001276187-26-000013",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618726000013/et-20251231.htm"
+  },
+  "business": "Energy Transfer LP is a Delaware limited partnership that provides natural gas operations (midstream and intrastate transportation and storage, interstate transportation and storage), crude oil, NGL and refined products transportation and terminalling, NGL storage and fractionation, and LNG regasification. It also owns investments in Sunoco LP and USAC, which are involved in motor fuel distribution and compression services, respectively.",
+  "sellsTo": [
+    "Electric utilities",
+    "Independent power producers",
+    "Local distribution companies",
+    "Industrial end-users",
+    "Marketing companies",
+    "Producers",
+    "Refiners",
+    "Resellers",
+    "Commercial customers",
+    "Third-party dealers and distributors"
+  ],
+  "namedCustomers": [
+    "Royal Dutch Shell plc"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The primary activities in which we are engaged, which are located in the United States, are as follows: natural gas operations, including the following: natural gas midstream and intrastate transportation and storage; interstate natural gas transportation and storage; and crude oil, NGL and refined products transportation, terminalling services and acquisition and marketing activities, as well as NGL storage and fractionation services and LNG regasification."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "In addition to providing storage capacity, our NGL terminalling services also support our liquids blending activities, including the use of our patented butane blending technology."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "USAC provides compression services to its customers primarily in connection with infrastructure applications, including both allowing for the processing and transportation of natural gas through the domestic pipeline system and enhancing crude oil production through artificial lift processes."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Sunoco LP is primarily engaged in energy infrastructure and distribution of motor fuels across 32 countries and territories in North America, the Greater Caribbean and Europe."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transwestern Pipeline expansion in-service",
+      "date": "2029-12-31",
+      "sentence": "An expansion of the Transwestern Pipeline, including upsizing pipeline diameter to increase capacity, is expected to be in-service by the end of 2029."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:11:51.344Z",
+  "model": "deepseek-v4-flash"
+}

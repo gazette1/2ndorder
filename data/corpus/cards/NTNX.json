@@ -1,0 +1,74 @@
+{
+  "cik": "0001618732",
+  "ticker": "NTNX",
+  "name": "Nutanix, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-213801",
+    "filedAt": "2025-09-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312525213801/ntnx-20250731.htm"
+  },
+  "business": "Nutanix is a hybrid multicloud computing leader offering a unified software platform for running applications and AI and managing data anywhere. The Nutanix Cloud Platform supports a wide variety of workloads including enterprise AI, business-critical applications, and cloud native applications. The company primarily sells through channel partners and OEMs to over 29,000 end customers across industries like financial services, retail, manufacturing, and public sector.",
+  "sellsTo": [
+    "financial services",
+    "retail",
+    "manufacturing",
+    "public sector",
+    "automotive",
+    "transportation",
+    "consumer goods",
+    "education",
+    "energy",
+    "healthcare",
+    "media",
+    "technology",
+    "telecommunications",
+    "service providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Super Micro Computer, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Nutanix Cloud Platform supports a wide variety of workloads with varied compute, storage, and network requirements, including business-critical applications, data platforms (including SQL, NoSQL, and vector databases and business intelligence applications), enterprise AI workloads (including machine learning, generative AI, and agentic AI), general-purpose workloads (including system infrastructure, networking, and security), end-user computing and virtual desktop infrastructure services, and cloud native applications (including modern, containerized applications)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Flow Network Security is a stateful, distributed firewall providing microsegmentation to secure network traffic between applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Nutanix Cloud Infrastructure (NCI) is a distributed HCI for enterprise IT applications."
+    },
+    {
+      "tag": "other:edge-computing",
+      "stance": "core_product",
+      "sentence": "The Nutanix Cloud Platform is designed to enable organizations to build hybrid multicloud infrastructure, providing a consistent cloud operating model with a single platform for running applications and managing data in core data centers, at the edge, and in public clouds, while supporting customer choice across server platforms, storage options, public and managed clouds, and container and virtualization platforms."
+    },
+    {
+      "tag": "other:kubernetes",
+      "stance": "core_product",
+      "sentence": "Nutanix Kubernetes Platform (NKP) is an enterprise-grade Kubernetes platform that enables organizations to accelerate app development without lock-in."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced public preview of NC2 on Google Cloud",
+      "date": null,
+      "sentence": "In May 2025, we announced the public preview of NC2 on Google Cloud, further expanding the reach of our platform across leading public cloud providers."
+    },
+    {
+      "event": "Launched Cloud Native AOS, first product from Project Beacon",
+      "date": null,
+      "sentence": "In May 2025, we launched Cloud Native AOS, the first product from Project Beacon."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:58:27.423Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,87 @@
+{
+  "cik": "0001770561",
+  "ticker": "CODQL",
+  "name": "Coronado Global Resources Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562762-26-000024",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1770561/000156276226000024/c561202510K.htm"
+  },
+  "business": "Coronado Global Resources Inc. produces, markets, and exports high-quality metallurgical coal used in steelmaking, along with some thermal coal. Its products are sold primarily to steel producers globally, and thermal coal is sold to power stations. The company operates mines in Australia and the United States.",
+  "sellsTo": [
+    "Steel producers",
+    "Power stations (thermal coal)",
+    "Asian markets",
+    "European markets",
+    "South American markets",
+    "North American markets"
+  ],
+  "namedCustomers": [
+    "Tata Steel",
+    "Stanwell Corporation Limited"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We are a recognized producer, global marketer and exporter of high-quality Met coals, supported by a diversified operating portfolio of three high-quality, long-life Met coal assets located in Australia and the United States."
+    },
+    {
+      "tag": "other:thermal-coal",
+      "stance": "core_product",
+      "sentence": "In addition to Met coal, our Australian Operations sell thermal coal under a long-term, legacy contract assumed in the acquisition of Curragh to Stanwell Corporation Limited."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Additionally, we have entered into a Power Purchase Agreement, or PPA, linking 50% of Curragh's forecasted electricity supply to a windfarm."
+    },
+    {
+      "tag": "other:methane-abatement",
+      "stance": "active_investment",
+      "sentence": "At our U.S. Operation's, our focus continues on development and optimization of the Ventilated Air Methane, or VAM, Regenerative Thermal Oxidizer, or RTO, units at Buchanan with the two units in operation continuing to successfully destroy methane."
+    },
+    {
+      "tag": "other:carbon-pricing",
+      "stance": "risk_mention",
+      "sentence": "Carbon-pricing assumptions are incorporated into financial planning and operational modeling based on region-specific regulatory and market data."
+    },
+    {
+      "tag": "other:low-emission-steel",
+      "stance": "risk_mention",
+      "sentence": "Opportunities : lag in investment in non-fossil fuel steel manufacturing, potential increased demand for higher-quality Met coal and technology-driven efficiencies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Mammoth mine expected to reach full production",
+      "date": "2026-12-31",
+      "sentence": "Full production is expected to be achieved in 2026 and expected to provide approximately 1.5 MMt to 2.0 MMt per annum of saleable production."
+    },
+    {
+      "event": "Power Purchase Agreement for windfarm commences",
+      "date": "2026-01-01",
+      "sentence": "This PPA is set to commence in 2026."
+    },
+    {
+      "event": "Mammoth mine operations recommenced after fatality",
+      "date": "2026-02-18",
+      "sentence": "operations were permitted to recommence on February 18, 2026."
+    },
+    {
+      "event": "Full production restored at Mammoth mine after incident",
+      "date": "2026-03-31",
+      "sentence": "Full production from the mine is expected to be restored within the first quarter of 2026 in accordance with all requirements of RSHQ."
+    },
+    {
+      "event": "ACSA with Stanwell expected to expire",
+      "date": "2027-06-30",
+      "sentence": "that will commence upon the expiration of the ACSA (which is expected to occur in the first half of 2027 based on estimated volume remaining to be delivered)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:50:36.441Z",
+  "model": "deepseek-v4-flash"
+}

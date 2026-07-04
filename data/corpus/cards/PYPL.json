@@ -1,0 +1,76 @@
+{
+  "cik": "0001633917",
+  "ticker": "PYPL",
+  "name": "PayPal Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001633917-26-000024",
+    "filedAt": "2026-02-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm"
+  },
+  "business": "PayPal provides digital payment solutions and simplifies commerce for consumers and merchants globally, operating a two-sided network with 439 million active accounts across approximately 200 markets. It generates revenue primarily from transaction fees, currency conversion, and value-added services such as credit and buy now, pay later products.",
+  "sellsTo": [
+    "consumers",
+    "merchants (large enterprises and small/medium businesses)",
+    "approximately 200 markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our products are designed to enable digital payments and simplify commerce experiences for consumers and merchants to make selling, shopping, and sending and receiving money simple, personalized, and secure, whether online or in-person."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We help merchants connect with customers, increase conversion rates and sales, and grow their businesses in the markets where our services are available."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and security vulnerabilities could result in serious harm to our reputation, business, and financial condition."
+    },
+    {
+      "tag": "other:cryptocurrencies",
+      "stance": "core_product",
+      "sentence": "We also generate revenue from customers for currency conversion, for instant transfers from their PayPal or Venmo account to their bank account or debit card, and to facilitate the purchase and sale of cryptocurrencies."
+    },
+    {
+      "tag": "other:bnpl",
+      "stance": "core_product",
+      "sentence": "We provide large enterprises and small and medium businesses with online branded checkout solutions, including PayPal and Venmo; online unbranded payments processing; PayPal buy now, pay later (BNPL) solutions; in-person point of sale solutions; business financing; payouts capabilities; and risk tools."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Submitted applications to establish PayPal Bank, a Utah-chartered industrial loan company",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we submitted applications to the Utah Department of Financial Institutions and the Federal Deposit Insurance Corporation to establish PayPal Bank, a proposed Utah-chartered industrial loan company."
+    },
+    {
+      "event": "Board approved initiation of quarterly cash dividend program and declared $0.14 per share dividend",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we announced that our Board of Directors approved the initiation of a quarterly cash dividend program and declared a cash dividend of $0.14 per share on our common stock, totaling approximately $130 million."
+    },
+    {
+      "event": "Established commercial paper program up to $5.0 billion",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, we established a commercial paper program that allows us to issue up to $5.0 billion of unsecured commercial paper notes (Commercial Paper Notes) through private placement using third-party broker-dealers (the Commercial Paper Program)."
+    },
+    {
+      "event": "Launched large-scale restructuring plan (2Q 2025 Plan) with technology infrastructure and workforce components",
+      "date": "2025-06-01",
+      "sentence": "During the second quarter of 2025, management undertook a large-scale initiative (the 2Q 2025 Plan) to reengineer our existing technology infrastructure to improve scalability, reduce network latency, decrease operational costs, and optimize our workforce."
+    },
+    {
+      "event": "Entered into updated multi-year forward flow agreement to sell up to 65 billion in loans through March 2028",
+      "date": "2025-01-01",
+      "sentence": "In 2025, we entered into an updated multi-year agreement with this third-party investment firm to extend the commitment period through March 2028 and increase the maximum loans to be sold to 65 billion."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:23:04.131Z",
+  "model": "deepseek-v4-flash"
+}

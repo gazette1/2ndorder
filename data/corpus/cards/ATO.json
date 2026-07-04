@@ -1,0 +1,63 @@
+{
+  "cik": "0000731802",
+  "ticker": "ATO",
+  "name": "ATMOS ENERGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000731802-25-000056",
+    "filedAt": "2025-11-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180225000056/ato-20250930.htm"
+  },
+  "business": "Atmos Energy Corporation is a natural gas-only distributor, serving approximately 3.4 million residential, commercial, public authority, and industrial customers in eight states. It also operates one of the largest intrastate pipelines in Texas based on miles of pipe. The company provides regulated natural gas distribution, transportation, and storage services.",
+  "sellsTo": [
+    "residential",
+    "commercial",
+    "public authority",
+    "industrial"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "ARM Energy Management LLC",
+    "Cima Energy, LP",
+    "ConocoPhillips Company",
+    "ECO Energy Natural Gas LLC",
+    "EnLink Gas Marketing LP",
+    "Sequent Energy Management LLC",
+    "Symmetry Energy Solutions, LLC",
+    "Targa Gas Marketing LLC",
+    "Tenaska Marking Ventures",
+    "Texla Energy Management, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Atmos Energy Corporation, a natural gas-only distributor, is an S&P 500 company headquartered in Dallas and incorporated in Texas and Virginia."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "We also operate one of the largest intrastate pipelines in Texas based on miles of pipe."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks or acts of cyber-terrorism could disrupt our business operations and information technology systems or result in the loss or exposure of confidential or sensitive customer, employee or Company information."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Pending ratemaking efforts seeking annual operating income increase of $231.1 million",
+      "date": null,
+      "sentence": "The following ratemaking efforts seeking $231.1 million in annual operating income were initiated during fiscal 2025 but had not been completed or implemented as of September 30, 2025:"
+    },
+    {
+      "event": "Anticipated capital spending of approximately $26 billion between fiscal years 2026 and 2030",
+      "date": "2026-2030",
+      "sentence": "Between fiscal years 2026 and 2030, we anticipate spending approximately $26 billion, with more than 80 percent dedicated to safety and reliability spending."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:32:54.523Z",
+  "model": "deepseek-v4-flash"
+}

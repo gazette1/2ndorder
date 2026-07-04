@@ -1,0 +1,85 @@
+{
+  "cik": "0000831259",
+  "ticker": "FCX",
+  "name": "FREEPORT-MCMORAN INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000831259-26-000012",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm"
+  },
+  "business": "Freeport-McMoRan is a leading international metals company that sells copper, gold, and molybdenum. In 2025, its consolidated revenues consisted of copper (75%), gold (15%), and molybdenum (8%). The company sells copper concentrate, cathode, and continuous cast copper rod.",
+  "sellsTo": [
+    "Wire and cable manufacturers",
+    "Rod, brass and tube fabricators",
+    "Jewelry, coinage and bullion markets",
+    "Steel and chemical industries",
+    "Electronics and aerospace industries"
+  ],
+  "namedCustomers": [
+    "Mitsubishi Materials Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "We are one of the world's largest publicly traded copper producers."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We believe fundamentals for copper are favorable with growing demand supported by copper's critical role in electrification initiatives, continued urbanization in developing countries, data centers and artificial intelligence (AI) growth, increased defense spending and growing connectivity globally."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We believe fundamentals for copper are favorable with growing demand supported by copper's critical role in electrification initiatives, continued urbanization in developing countries, data centers and artificial intelligence (AI) growth, increased defense spending and growing connectivity globally."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "electric vehicles, which consume up to four times the amount of copper in terms of weight compared to vehicles of similar size with an internal combustion engine, and require copper-intensive charging station infrastructure to refuel"
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "renewable energy such as wind and solar, which consume four to five times the amount of copper compared to traditional fossil fuel generated power"
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "increased defense spending"
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "high efficiency motors, which consume up to 75% more copper than a standard motor"
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "risk_mention",
+      "sentence": "super alloys used in aerospace"
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "electrification initiatives"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Phased restart and ramp-up of Grasberg Block Cave underground mine",
+      "date": null,
+      "sentence": "a phased restart and ramp-up of the Grasberg Block Cave underground mine is anticipated to begin in second-quarter 2026"
+    },
+    {
+      "event": "Target annual production of 300 million pounds of copper from leaching initiatives",
+      "date": null,
+      "sentence": "We are targeting annual production of 300 million pounds of copper in 2026 from these initiatives"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:03:38.224Z",
+  "model": "deepseek-v4-flash"
+}

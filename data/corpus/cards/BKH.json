@@ -1,0 +1,107 @@
+{
+  "cik": "0001130464",
+  "ticker": "BKH",
+  "name": "BLACK HILLS CORP /SD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-046028",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526046028/bkh-20251231.htm"
+  },
+  "business": "Black Hills Corporation is a customer-focused, growth-oriented utility company that operates Electric Utilities and Gas Utilities segments in the United States. Our Electric Utilities generate, transmit and distribute electricity to approximately 227,000 customers in Colorado, Montana, South Dakota, and Wyoming. Our Gas Utilities serve approximately 1,138,000 natural gas utility customers in Arkansas, Colorado, Iowa, Kansas, Nebraska, and Wyoming.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Municipal",
+    "Transportation",
+    "Wholesale"
+  ],
+  "namedCustomers": [
+    "Microsoft",
+    "Meta"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In 2025, Wyoming Electric continued to grow its large-load demand from existing data center customers, Microsoft and Meta, under its LPCS Tariff."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Meta's new AI data center plans to transition from construction power to permanent service later in the first quarter of 2026."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "In 2025, Colorado Electric received CPUC approval for the addition of 250 MW of new renewable generation resources in support of its Clean Energy Plan, which included a 50-MW utility-owned battery storage project and a 200-MW solar PPA."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "In 2025, Colorado Electric received CPUC approval for the addition of 250 MW of new renewable generation resources in support of its Clean Energy Plan, which included a 50-MW utility-owned battery storage project and a 200-MW solar PPA."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "In December 2025, the Ready Wyoming project was fully completed and placed in service and now interconnects South Dakota Electric's and Wyoming Electric's transmission systems."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We operate our business in the United States, reporting our operating results through our Electric Utilities and Gas Utilities segments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents, terrorism, or other malicious acts targeting our key technology systems could disrupt our operations, lead to a loss or misuse of confidential and proprietary information, or cause reputational or other harm."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We own and operate a single coal mine through our WRDC subsidiary which is reported within our Electric Utilities segment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Meta AI data center permanent service transition",
+      "date": "2026-03-31",
+      "sentence": "Meta's new AI data center plans to transition from construction power to permanent service later in the first quarter of 2026."
+    },
+    {
+      "event": "Lange II project in service",
+      "date": "2026-12-31",
+      "sentence": "The new facility began construction in the third quarter of 2025 and is anticipated to be in service in the fourth quarter of 2026."
+    },
+    {
+      "event": "CPUC approval for 50-MW battery storage",
+      "date": "2025-11-03",
+      "sentence": "On November 3, the CPUC approved the CPCN for the 50-MW battery storage project."
+    },
+    {
+      "event": "Merger with NorthWestern expected close",
+      "date": "2026-12-31",
+      "sentence": "The transaction is intended to be tax-free and expected to close in the second half of 2026, subject to the satisfaction or waiver of certain closing conditions."
+    },
+    {
+      "event": "Execution of 200-MW solar PPA",
+      "date": "2026-03-31",
+      "sentence": "During the first quarter of 2026, Colorado Electric expects to execute the 200-MW solar PPA."
+    },
+    {
+      "event": "WPSC approval of wildfire mitigation plan",
+      "date": "2026-03-31",
+      "sentence": "In November 2025, we filed our WMP with the WPSC and anticipate approval in March 2026."
+    },
+    {
+      "event": "WPSC approval of Lange II CPCN",
+      "date": "2025-06-30",
+      "sentence": "On March 28, 2025, South Dakota Electric filed a CPCN with the WPSC for the Lange II project, which was approved in June 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:48:34.338Z",
+  "model": "deepseek-v4-flash"
+}

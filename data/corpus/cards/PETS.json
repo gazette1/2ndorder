@@ -1,0 +1,75 @@
+{
+  "cik": "0001040130",
+  "ticker": "PETS",
+  "name": "PETMED EXPRESS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001040130-26-000019",
+    "filedAt": "2026-06-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1040130/000104013026000019/pets-20260331.htm"
+  },
+  "business": "PetMed Express, Inc. sells prescription and non-prescription pet medications, food, supplements, and supplies for dogs, cats, and horses directly to consumers through its websites, mobile apps, and customer contact centers. The company also provides telemedicine services and employer pet benefits. It operates as a licensed online pharmacy with accreditation from NABP and LegitScript.",
+  "sellsTo": [
+    "retail consumers",
+    "pet owners in all 50 states",
+    "employer partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company markets and sells directly to consumers through its websites (Petmeds.com and PetCareRx.com), customer contact centers, and mobile applications (iOS and Android)."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The Company engages in partnerships to provide telemedicine services, with the convenience of consultations, diagnoses and in certain states, prescriptions from board-certified veterinarians all from the comfort of their homes."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "The expansion of our business into the offer and sale of pet insurance products also subjects us to additional laws and regulations regarding those activities, including as a registered insurance distributor in states in which we offer and sell co-branded pet insurance products and otherwise complying with state and federal laws relating to the sale and distribution of insurance products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our failure or the failure of third-party service providers to protect our websites, networks, and systems against cybersecurity incidents, or otherwise to protect our confidential information, could damage our reputation and brands and substantially harm our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We currently rely on third-party national, regional, and local logistics providers to deliver the products we offer on our websites."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our exclusive range of private label products, including joint enhancers, vitachews, shampoos and flea and tick prevention offers exceptional value to our customers at a high margin."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are redefining the customer journey by leveraging modern technology and Artificial Intelligence (\"AI\") to personalize the customer experience."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implementation of certain modules of new ERP system",
+      "date": "2025-06-30",
+      "sentence": "During the first quarter of fiscal 2027 we have implemented certain modules of a new ERP system and will continue to implement other components of the new system, which has replaced, and will continue to replace, legacy operating and financial systems."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. pet industry spend was approximately $158 billion in 2025.",
+      "sentence": "According to the American Pet Products Association 2026 State of the Industry Report, total U.S. pet industry spend grew by 4% to approximately $158 billion in 2025."
+    },
+    {
+      "claim": "Food and treats accounted for $68 billion, veterinary care and services for $41 billion, and supplies and medications for $34 billion.",
+      "sentence": "This expansion was driven primarily by $68 billion in food and treats, $41 billion in veterinary care and services, and $34 billion in supplies and medications."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:18:56.668Z",
+  "model": "deepseek-v4-flash"
+}

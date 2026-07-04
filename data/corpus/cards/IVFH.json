@@ -1,0 +1,66 @@
+{
+  "cik": "0000312257",
+  "ticker": "IVFH",
+  "name": "INNOVATIVE FOOD HOLDINGS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001185185-26-001180",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/312257/000118518526001180/ivfh10k123125.htm"
+  },
+  "business": "IVFH sells specialty foods including gourmet cheese, meat, produce, and premium ingredients to professional chefs. They distribute through local delivery in Chicago and Denver, national e-commerce on Amazon.com and their own website, and drop-ship arrangements through broadline distributors like US Foods.",
+  "sellsTo": [
+    "Professional Chefs",
+    "Restaurants",
+    "Hotels",
+    "Country Clubs",
+    "National Chain Accounts",
+    "Casinos",
+    "Hospitals",
+    "Catering Houses",
+    "Airline Caterers"
+  ],
+  "namedCustomers": [
+    "USF (US Foods, Inc.)",
+    "Gate Gourmet",
+    "Sam's Club"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We distribute these products directly to Professional Chefs in Chicago through our subsidiary, Artisan Specialty Foods, Inc., and nationally through our e-commerce businesses on Amazon.com and our own website."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our logistics team manages the shipping and delivery process of every package to ensure timely delivery of products to our customers."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Products are sold under both the vendor’s brands and various Company-owned brands."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Computer system disruption and cyber security attacks or a data breach could damage our relationships with our customers, harm our reputation, expose us to litigation and adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of real property in Mountaintop, Pennsylvania closed with gross proceeds of $9.225 million.",
+      "date": "2026-03-06",
+      "sentence": "The sale closed on March 6, 2026, at which time Innovative Properties received gross proceeds of $9.225 million."
+    },
+    {
+      "event": "Repayment of MapleMark Bank loan in full.",
+      "date": "2026-03-06",
+      "sentence": "subsequent to year end, the Company repaid the MapleMark Bank loan in full on March 6, 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:46:29.145Z",
+  "model": "deepseek-v4-flash"
+}

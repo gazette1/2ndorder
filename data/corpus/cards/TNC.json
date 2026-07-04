@@ -1,0 +1,61 @@
+{
+  "cik": "0000097134",
+  "ticker": "TNC",
+  "name": "TENNANT CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000097134-26-000008",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/97134/000009713426000008/tnc-20251231.htm"
+  },
+  "business": "Tennant Company designs, manufactures and markets floor maintenance and cleaning equipment, including manual and autonomous mechanized cleaning equipment, detergent-free cleaning technologies, aftermarket parts and consumables, equipment maintenance and repair services, and asset management solutions. Its products are used in retail, distribution centers, factories, warehouses, public venues, offices, schools, hospitals, and more. Customers include contract cleaners and businesses that perform facilities maintenance themselves.",
+  "sellsTo": [
+    "retail establishments",
+    "distribution centers",
+    "factories and warehouses",
+    "public venues such as arenas and stadiums",
+    "office buildings",
+    "schools and universities",
+    "hospitals and clinics",
+    "contract cleaners",
+    "businesses that perform facilities maintenance themselves"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "a portfolio of differentiated technology solutions that includes an expanding portfolio of robotic cleaning equipment"
+    },
+    {
+      "tag": "other:sustainable-cleaning",
+      "stance": "core_product",
+      "sentence": "ec-H2O NanoClean as a detergent-free cleaning solution"
+    },
+    {
+      "tag": "other:iot-asset-management",
+      "stance": "core_product",
+      "sentence": "IRIS as an asset management solution"
+    },
+    {
+      "tag": "other:machine-to-machine",
+      "stance": "core_product",
+      "sentence": "machine-to-machine asset management solutions"
+    },
+    {
+      "tag": "other:cleaning-technology",
+      "stance": "core_product",
+      "sentence": "ReadySpace as a rapid-drying carpet cleaning technology"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Global cybersecurity threats and incidents can range from uncoordinated individual attempts to gain unauthorized access to IT systems to sophisticated and targeted measures known as advanced persistent threats, directed at the Company, its products and its customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:04:34.802Z",
+  "model": "deepseek-v4-flash"
+}

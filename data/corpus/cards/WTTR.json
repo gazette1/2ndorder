@@ -1,0 +1,80 @@
+{
+  "cik": "0001693256",
+  "ticker": "WTTR",
+  "name": "Select Water Solutions, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-017085",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1693256/000110465926017085/wttr-20251231x10k.htm"
+  },
+  "business": "Select Water Solutions, Inc. is a leading provider of sustainable water-management solutions to the energy industry in the U.S. The company operates through three primary segments: Water Infrastructure, Water Services and Chemical Technologies. Water Infrastructure provides recycling, gathering, transferring and disposal of water; Water Services includes water transfer, sourcing, containment, fluids hauling, and automation; Chemical Technologies develops and supplies chemicals for hydraulic fracturing and well completions.",
+  "sellsTo": [
+    "Major integrated and independent U.S. and international oil and gas producers",
+    "Pressure-pumping service companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Select Water Solutions, Inc. and its consolidated subsidiaries (collectively referred to as Select, the Company, we, us, or our ) is a leading provider of sustainable water-management solutions to the energy industry in the U.S."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Our Chemical Technologies segment develops, manufactures, manages logistics and provides a full suite of chemicals used in hydraulic fracturing, stimulation, cementing and well completions."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Through our Peak Rentals subsidiary, we offer mobile power solutions, including generator and battery storage solutions, other various on-site rental equipment and accommodation offerings, as well as flowback and well testing solutions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, demand for natural gas-powered electricity generation is expected to grow in the near-term as the growth in industrial electrification as well as the rapid buildout of data centers and other industrial capacity to support artificial intelligence drive rapidly growing power requirements and electric grid infrastructure expansion."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "We are also pursuing advanced recycling solutions beyond traditional reuse for oil and gas operations that could enable the beneficial reuse of produced water for non-energy applications. This could enable substitution of treated produced water in general industry and agriculture, or other stewardship-oriented applications such as wildlife rehabilitation, carbon capture and sequestration, or drought mitigation, among other opportunities."
+    },
+    {
+      "tag": "other:lithium-extraction",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, we are advancing optionality in freshwater resource development for municipal and industrial offtake, as well as direct extraction of critical minerals such as lithium and iodine that may support long term, royalty type income streams associated with the produced water resources within our infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned expansions coming online",
+      "date": null,
+      "sentence": "With a number of active construction projects ongoing, supported by new long-term contracts, we anticipate further growth ahead with planned expansions coming online during 2026."
+    },
+    {
+      "event": "Completion of projects under construction or under contract",
+      "date": null,
+      "sentence": "Following the completion of our projects currently under construction or under contract, we expect our operations to include 3.3 million barrels per day of active produced water recycling capacity and 41 million barrels of produced water storage."
+    },
+    {
+      "event": "Commercial arrangements commence",
+      "date": null,
+      "sentence": "A number of these commercial arrangements are expected to commence in 2026 and are anticipated to drive incremental system utilization, expand our high-margin recurring revenue base, and deepen customer relationships across the basin."
+    },
+    {
+      "event": "Additional contributions to AV Farms",
+      "date": null,
+      "sentence": "We expect to contribute up to an additional $74 million over a multi-year period to support future water rights acquisitions and infrastructure buildout."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. oil and gas industry produces approximately 23.6 billion barrels of water per year.",
+      "sentence": "By some estimates, the U.S. oil and gas industry today produces approximately 23.6 billion barrels of water per year, as compared to 23.2 billion barrels of water per year in 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:59:53.359Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,63 @@
+{
+  "cik": "0001571996",
+  "ticker": "DELL",
+  "name": "Dell Technologies Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001571996-26-000008",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm"
+  },
+  "business": "Dell Technologies designs, develops, manufactures, markets, sells, and supports a wide range of integrated solutions including infrastructure (servers, storage, networking) and client devices (PCs, peripherals). The company sells to large enterprises, public institutions, small and medium-sized businesses, and consumers globally.",
+  "sellsTo": [
+    "large enterprises",
+    "public institutions",
+    "small and medium-sized businesses",
+    "consumers",
+    "government",
+    "not-for-profit organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We offer a specialized portfolio of AI-optimized servers designed to handle the most demanding compute-intensive workloads, including AI model training, fine-tuning, and inferencing."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Within our ISG business, we continue to see customers modernize and consolidate their data centers as more customers transition to next-generation products, which contributed to strong demand and net revenue growth during the year within our traditional servers and networking offerings."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "We target investments in areas such as storage, software-defined networking, management and orchestration, security, machine learning and AI, big data and analytics, cloud, edge computing, and software development operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face aggressive competition from a variety of competitors in all areas of our business, including companies that specialize in one or more of our product or service lines, including AI, cloud, and security-related offerings."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our consumer portfolio provides customers with solutions ranging from essential computing, connectivity, and productivity needs of the everyday user to powerful performance, processing, and end-user experiences in high-end consumer and gaming offerings."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our networking portfolio helps our business customers transform and modernize their infrastructure, complementing our storage and AI-optimized and traditional servers offerings, and includes wide area network infrastructure, data center and edge networking switches, and cables and optics."
+    },
+    {
+      "tag": "other:cloud",
+      "stance": "risk_mention",
+      "sentence": "We face competition from non-traditional IT companies, including large Infrastructure-as-a-Service providers, that often buy their infrastructure directly from original design manufacturers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:52:17.217Z",
+  "model": "deepseek-v4-flash"
+}

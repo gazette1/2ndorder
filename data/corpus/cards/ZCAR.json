@@ -1,0 +1,57 @@
+{
+  "cik": "0001854275",
+  "ticker": "ZCAR",
+  "name": "Zoomcar Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-059675",
+    "filedAt": "2025-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1854275/000121390025059675/ea0246595-10k_zoomcar.htm"
+  },
+  "business": "Zoomcar operates a peer-to-peer online car sharing marketplace connecting car owners (Hosts) with individuals needing temporary vehicle use (Guests). The platform primarily serves the Indian market after ceasing operations in Vietnam, Indonesia, and Egypt due to capital constraints. The company generates revenue from booking fees, trip protection fees, and platform fees, retaining approximately 40% of the gross booking value.",
+  "sellsTo": [
+    "Guests seeking short to medium-term vehicle rentals",
+    "Hosts (car owners) wanting to monetize underutilized vehicles"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our platform enables car owners ( Hosts ) and persons in temporary need of vehicles ( Guests ) to connect and share the use of a Host s car, made available to Guests at mutually convenient locations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Our technology is the backbone of our peer-to-peer car sharing platform. As of March 31, 2025, nearly half of our full-time employees are employed as technical staff that develop and refine the artificial intelligence and machine-learning algorithms that, among other things, help to optimize pricing models, determine appropriate damage coverage options for Guests, present Hosts and Guests with opportunities for ratings-based rewards and to monitor appropriate use of our platform."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our customized GPS-enabled vehicle tracking systems allow us to integrate Guest driving data into our computation of driver scores which comprise an important part of the feedback and review systems that collectively foster a trust-based community of Zoomcar platform users."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Although listings on our platform change over time, there are generally a wide variety of vehicles available to Guests, including numerous options for compact cars, sedans, SUVs and oftentimes luxury, electric, or other premium vehicles"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market in emerging markets of $108 billion for year ended March 31, 2025.",
+      "sentence": "In total, these overarching demographic trends all contribute to management s estimated total addressable market for year ended March 31, 2025 in emerging markets of $108 billion, of which India accounts for $11 billion, making India the most important market for us."
+    },
+    {
+      "claim": "Serviceable addressable market in emerging markets of approximately $25 billion.",
+      "sentence": "Based on publicly available population and economic data published by the United Nations, Fitch and other sources, coupled with Zoomcar management estimates informed by professional experience, as of March 31,2025, our platform has a serviceable addressable market in emerging markets of approximately $25 billion"
+    },
+    {
+      "claim": "Total addressable market in India of $43.2 billion.",
+      "sentence": "Based on the estimates and the bookings catered by our platform we estimate that the size of the total addressable market in India is $43.2 billion"
+    }
+  ],
+  "generatedAt": "2026-07-04T16:33:57.573Z",
+  "model": "deepseek-v4-flash"
+}

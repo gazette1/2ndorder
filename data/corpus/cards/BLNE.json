@@ -1,0 +1,57 @@
+{
+  "cik": "0001534708",
+  "ticker": "BLNE",
+  "name": "Beeline Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014135",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1534708/000149315226014135/form10-k.htm"
+  },
+  "business": "Beeline Holdings, Inc. is a fintech mortgage lender, fractional real estate equity purchase facilitator and title provider. The company's platform utilizes proprietary AI and technology to originate mortgage loans, provide title services, and offer SaaS products like BlinkQC. Its customers include consumers seeking mortgage loans (especially non-QM loans for self-employed and gig economy workers) and other lenders for title and closing services.",
+  "sellsTo": [
+    "Consumers (home buyers and refinancers)",
+    "Other mortgage lenders (title services)",
+    "Mortgage companies (SaaS BlinkQC)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "First American National Title Insurance Company",
+    "Fidelity National Title Insurance Company",
+    "Westcor Land Insurance Company",
+    "LendingTree",
+    "Ladenburg Thalmann & Co., Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company is a fintech mortgage lender, fractional real estate equity purchase facilitator and title provider transforming the home ownership process into a shorter, easier path than conventional mortgage lending for millions of Americans seeking a digital experience."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company is a fintech mortgage lender, fractional real estate equity purchase facilitator and title provider transforming the home ownership process into a shorter, easier path than conventional mortgage lending for millions of Americans seeking a digital experience."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "risk_mention",
+      "sentence": "TYTL who will fund these transactions through the sale of a crypto token which is backed by real property."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "BlinkQC licensing to other mortgage companies begins",
+      "date": "2026-12-31",
+      "sentence": "Later in 2026, Beeline Labs plans to license BlinkQC to other mortgage companies."
+    },
+    {
+      "event": "Direct seller approval with Fannie Mae and/or Freddie Mac",
+      "date": "2026-12-31",
+      "sentence": "The Company also plans to have direct seller approval with Fannie Mae and/or Freddie Mac in the second half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:26:56.100Z",
+  "model": "deepseek-v4-flash"
+}

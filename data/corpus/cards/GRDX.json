@@ -1,0 +1,60 @@
+{
+  "cik": "0001604191",
+  "ticker": "GRDX",
+  "name": "GridAI Technologies Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-054106",
+    "filedAt": "2026-05-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926054106/grdx-20251231x10k.htm"
+  },
+  "business": "GridAI Technologies Corp. develops software and services designed to accelerate power availability and optimize energy infrastructure for artificial intelligence (AI) data centers and other large energy users. The company also retains a legacy biopharmaceutical development program centered on Adrulipase for exocrine pancreatic insufficiency. As of December 31, 2025, the AI data center platform had not generated revenue and the company was in early development stage.",
+  "sellsTo": [
+    "AI data center developers",
+    "hyperscalers",
+    "energy infrastructure developers",
+    "enterprise and government entities operating large data center campuses",
+    "battery energy storage system providers",
+    "energy infrastructure participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Asymchem, Inc.",
+    "Charles River Laboratories"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Grid AI Corp. develops software and services designed to accelerate power availability and optimize energy infrastructure for artificial intelligence (AI) data centers and other large energy users."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "This platform aims to use and optimize distributed energy resources, including battery energy storage systems, on-site generation, and grid interconnections."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "This platform aims to use and optimize distributed energy resources, including battery energy storage systems, on-site generation, and grid interconnections."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "active_investment",
+      "sentence": "The Company plans to continue development activities relating to Adrulipase."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Approximately 90,000 patients requiring substitution therapy for exocrine pancreatic insufficiency due to chronic pancreatitis in the U.S.",
+      "sentence": "Approximately 60% of patients affected with CP display EPI, resulting in approximately 90,000 patients requiring substitution therapy in the U.S."
+    },
+    {
+      "claim": "Approximately 25,000-27,000 patients requiring substitution therapy for exocrine pancreatic insufficiency due to cystic fibrosis in the U.S.",
+      "sentence": "About 80-90% of patients with CF develop EPI, resulting in approximately 25,000-27,000 patients in the U.S. that require substitution therapy."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:31:09.584Z",
+  "model": "deepseek-v4-flash"
+}

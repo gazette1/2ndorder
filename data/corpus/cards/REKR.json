@@ -1,0 +1,52 @@
+{
+  "cik": "0001697851",
+  "ticker": "REKR",
+  "name": "Rekor Systems, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010647",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1697851/000143774926010647/rekr20251231_10k.htm"
+  },
+  "business": "Rekor is a roadway intelligence company that sells AI-driven hardware and software to collect, connect, and organize mobility data for public safety, urban mobility, and transportation management. Its solutions include vehicle recognition, traffic analytics, and enforcement systems. Customers include cities, states, municipalities, law enforcement agencies, and commercial entities.",
+  "sellsTo": [
+    "government agencies (cities, states, municipalities)",
+    "law enforcement agencies",
+    "commercial customers"
+  ],
+  "namedCustomers": [
+    "State of Oklahoma"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our systems have been designed to address these issues through the use of more effective edge processing, enabled both by incorporating the increasingly effective new GPUs into our systems and continual improvements in the efficiency of our AI algorithms."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Rekor Scout platform fully automates previously manual processes with collaborative solutions that keep all stakeholders apprised of developing situations and accelerate reaction times to incidents and offenders. The platform provides accurate license plate and vehicle recognition on nearly any IP, traffic, or security camera."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Rekor Edge Max is a fixed traffic data collection system that captures and transforms high-resolution roadway data into holistic traffic insights."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Rekor Discover s Vehicle Insite application analyzes real-time video to provide actionable, on-property vehicle intelligence such as vehicle characteristics, Electric Vehicle ( EV ) statistics and other metrics."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The IIJA provides over $150 billion in new spending on roadway infrastructure.",
+      "sentence": "The IIJA, signed into law on November 15, 2021, provides for significant national investments in the transportation systems in the United States, including over $150 billion in new spending on roadway infrastructure, including intelligent transportation systems."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:45:16.996Z",
+  "model": "deepseek-v4-flash"
+}

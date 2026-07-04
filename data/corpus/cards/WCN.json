@@ -1,0 +1,73 @@
+{
+  "cik": "0001318220",
+  "ticker": "WCN",
+  "name": "Waste Connections, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-013700",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926013700/wcn-20251231x10k.htm"
+  },
+  "business": "Waste Connections, Inc. is the third largest solid waste services company in North America, providing non-hazardous waste collection, transfer and disposal services, including by rail, along with resource recovery primarily through recycling and renewable fuels generation, in 46 states in the U.S. and six provinces in Canada. The company also provides non-hazardous oil and natural gas exploration and production (E&P) waste treatment, recovery and disposal services in several basins across the U.S and Canada, as well as intermodal services for the movement of cargo and solid waste containers in the Pacific Northwest.",
+  "sellsTo": [
+    "residential",
+    "commercial",
+    "municipal",
+    "industrial",
+    "E&P customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Waste Connections also provides non-hazardous oil and natural gas exploration and production, or E&P, waste treatment, recovery and disposal services in several basins across the U.S and Canada, as well as intermodal services for the movement of cargo and solid waste containers in the Pacific Northwest."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025 we have gas recovery systems at 61 of our landfills to collect methane, which can then be used to generate electricity for local households, fuel local industrial power plants or power alternative fueled vehicles."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Intermodal revenue is primarily generated through providing intermodal services for the rail haul movement of cargo and solid waste containers in the Pacific Northwest through a network of intermodal facilities."
+    },
+    {
+      "tag": "other:recycling",
+      "stance": "core_product",
+      "sentence": "We own and operate recycling operations and market collected recyclable materials to third parties for processing before resale."
+    },
+    {
+      "tag": "other:pfas",
+      "stance": "risk_mention",
+      "sentence": "Regarding PFAS, the EPA published a final rule on May 8, 2024, designating two of the most widely used PFAS Perfluorooctanoic Acid, or PFOA, and Perfluorooctane Sulfonic Acid, or PFOS as CERCLA hazardous substances. This rule creates potential liability under CERCLA for downstream recipients of PFAS, including passive receivers such as our landfills as well as waste transporters."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Risks associated with climate change, such as increased frequency and/or intensity of weather events, flooding, wildfires, sea level rise, and other weather and climate-related events, could negatively impact our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Approximately 454 contracts representing 4.0% of annual revenues set for expiration or automatic renewal",
+      "date": "2026-12-31",
+      "sentence": "We have approximately 454 contracts, representing approximately 4.0% of our annual revenues, which are set for expiration or automatic renewal on or before December 31, 2026."
+    },
+    {
+      "event": "Seeking to expand permitted capacity at six landfills (probable expansions)",
+      "date": null,
+      "sentence": "We are currently seeking to expand permitted capacity at six of our landfills, for which we consider expansions to be probable."
+    },
+    {
+      "event": "Renewable natural gas projects expected to come online",
+      "date": null,
+      "sentence": "We expect these renewable natural gas projects to come online over the next few years."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:21:21.685Z",
+  "model": "deepseek-v4-flash"
+}

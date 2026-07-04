@@ -1,0 +1,89 @@
+{
+  "cik": "0001410636",
+  "ticker": "AWK",
+  "name": "American Water Works Company, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001410636-26-000034",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm"
+  },
+  "business": "American Water Works Company, Inc. is the largest publicly-traded water and wastewater utility company in the United States, providing drinking water, wastewater and other related services to approximately 14 million people in 24 states. The company sells water and wastewater services to residential, commercial, industrial, public authority, fire service and sale for resale customers.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Public authority",
+    "Fire service",
+    "Sale for resale"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Company is the largest and most geographically diverse, publicly-traded water and wastewater utility company in the United States, as measured by both operating revenues and population served."
+    },
+    {
+      "tag": "other:pfas-compliance",
+      "stance": "active_investment",
+      "sentence": "The Company currently estimates an investment of approximately $2 billion of capital expenditures to install additional treatment facilities in order to comply with the NPDWR for PFAS as proposed."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face technology, cybersecurity and data privacy risks, including failures, cyber attacks, unauthorized access and evolving privacy requirements, any of which may result in operational disruption, regulatory actions or reputational harm."
+    },
+    {
+      "tag": "other:climate-risk",
+      "stance": "risk_mention",
+      "sentence": "Service disruptions caused by severe weather conditions, climate variability patterns or natural or other disasters may disrupt our operations or reduce the demand for our water and wastewater services, which could adversely affect our financial condition, results of operations, cash flows and liquidity."
+    },
+    {
+      "tag": "other:infrastructure-renewal",
+      "stance": "active_investment",
+      "sentence": "The Company plans to invest between $46 billion and $48 billion over the next 10 years for capital improvements, including acquisitions, to its Regulated Businesses water and wastewater infrastructure, largely for pipe replacement and upgrading aging water and wastewater treatment facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of merger with Essential Utilities",
+      "date": "2027-03-31",
+      "sentence": "The Company currently estimates that the closing of the proposed merger will occur by the end of the first quarter of 2027."
+    },
+    {
+      "event": "Illinois rate increase effective date (step 1)",
+      "date": "2027-01-01",
+      "sentence": "The filing seeks a two-step rate increase in aggregate annualized incremental revenue, based on a proposed return on equity of 10.75%, of (i) approximately $119 million effective January 1, 2027, based on a future test year through December 31, 2027 and a capital structure with an equity component of 52.42% and a debt component of 47.58%..."
+    },
+    {
+      "event": "Illinois rate increase effective date (step 2)",
+      "date": "2028-01-01",
+      "sentence": "...and (ii) approximately $15 million effective January 1, 2028, based on a future test year to include end-of-period rate base and a capital structure with an equity component of 52.74% and a debt component of 47.26%..."
+    },
+    {
+      "event": "Pennsylvania rate case new rates effective",
+      "date": "2026-08-01",
+      "sentence": "On November 14, 2025, the Company's Pennsylvania subsidiary filed a request... new rates would be expected to take effect in August 2026."
+    },
+    {
+      "event": "Virginia interim rates effective",
+      "date": "2026-05-02",
+      "sentence": "On November 3, 2025, the Company's Virginia subsidiary filed a request... Interim rates will be effective May 2, 2026, with the difference between interim and final approved rates subject to refund to customers."
+    },
+    {
+      "event": "PFAS MCL compliance deadline",
+      "date": "2029-04-01",
+      "sentence": "Although the EPA has indicated its intent to extend the compliance deadline to 2031, under the current rule utilities will be required to comply with the new MCLs by April 2029, implementing solutions to reduce PFAS levels where needed."
+    },
+    {
+      "event": "Lead and Copper Rule Improvements compliance date",
+      "date": "2027-11-01",
+      "sentence": "On October 30, 2024, the EPA published the LCRI with a Compliance Date of November 1, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:37:49.909Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,103 @@
+{
+  "cik": "0001095981",
+  "ticker": "PSTV",
+  "name": "PLUS THERAPEUTICS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104258",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1095981/000119312526104258/pstv-20251231.htm"
+  },
+  "business": "Plus Therapeutics is a U.S. healthcare company developing and commercializing precision diagnostics and targeted radiopharmaceuticals for central nervous system (CNS) cancers. Its wholly-owned subsidiary, CNSide Diagnostics, develops and commercializes proprietary laboratory-developed tests, such as the CNSide test, designed to identify tumor cells that have metastasized to the CNS in patients with carcinomas and melanomas. The company's lead radiopharmaceutical candidate, rhenium (186Re) obisbemeda, is designed for CNS cancers including recurrent glioblastoma, leptomeningeal metastases, and pediatric brain cancers.",
+  "sellsTo": [
+    "patients with carcinomas and melanomas (CNSide test)",
+    "patients with recurrent GBM, LM, and pediatric brain cancers (radiopharmaceuticals)",
+    "hospitals with nuclear medicine and neurosurgery",
+    "commercial payors (UnitedHealthcare, Humana)"
+  ],
+  "namedCustomers": [
+    "UnitedHealthcare Insurance Company",
+    "Humana, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "In radiopharmaceuticals, our lead candidate, rhenium ( 186 Re) obisbemeda, is designed specifically for CNS cancers including recurrent glioblastoma ( GBM ), leptomeningeal metastases ( LM ), and pediatric brain cancers ( PBC ) by direct localized delivery utilizing approved standard-of-care tissue access such as with convection-enhanced delivery ( CED ) and intraventricular brain (Ommaya reservoir) catheters."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "CNSide Diagnostics, LLC ( CNSide Diagnostics ) is our wholly owned subsidiary that develops and commercializes proprietary laboratory-developed tests, such as CNSide , designed to identify tumor cells that have metastasized to the central nervous system in patients with carcinomas and melanomas."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The diagnostic testing industry is subject to rapid change, including technological and scientific breakthroughs, developments related to application of generative artificial intelligence ( AI ), frequent new product introductions and enhancements and evolving industry standards, all of which could make our current products and the other products we are developing obsolete."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Increased information technology security threats and more sophisticated and targeted computer crime could pose a risk to our systems, networks, and products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of ReSPECT-LM Phase 1 single-dose escalation trial",
+      "date": "2025-02-26",
+      "sentence": "Full enrollment in the Phase 1 trial was achieved at the end of 2024, and we announced the trial completion on February 26, 2025."
+    },
+    {
+      "event": "Commercial re-introduction of CNSide Test",
+      "date": "2025-08",
+      "sentence": "We re-introduced the CNSide Cerebrospinal Fluid Tumor Cell Enumeration test (the CNSide Test ), which is a laboratory developed test ( LDT ) in August 2025."
+    },
+    {
+      "event": "National agreement with UnitedHealthcare for CNSide Test",
+      "date": "2025-09-15",
+      "sentence": "CNSide Diagnostics has signed national agreements to provide the CNSide Test with UnitedHealthcare Insurance Company and Humana, Inc. effective September 15 and October 29, 2025, respectively."
+    },
+    {
+      "event": "National agreement with Humana for CNSide Test",
+      "date": "2025-10-29",
+      "sentence": "CNSide Diagnostics has signed national agreements to provide the CNSide Test with UnitedHealthcare Insurance Company and Humana, Inc. effective September 15 and October 29, 2025, respectively."
+    },
+    {
+      "event": "End of Phase 1 meeting with FDA for ReSPECT-LM",
+      "date": "2025-11",
+      "sentence": "In November 2025, we had our end of phase 1 meeting with the FDA."
+    },
+    {
+      "event": "State licensure achieved for 49 states for CNSide",
+      "date": "2026-01",
+      "sentence": "We obtained state licensure for 49 of 50 US states by January 2026, with the remaining license for the state of New York on track for 2027."
+    },
+    {
+      "event": "First patient enrolled in ReSPECT-PBC Phase 1 clinical trial",
+      "date": "2026",
+      "sentence": "We anticipate beginning enrollment in our ReSPECT-PBC clinical trial, with our first patient enrolled, in 2026."
+    },
+    {
+      "event": "Full enrollment in ReSPECT-GBM Phase 2 clinical trial",
+      "date": "2026-12-31",
+      "sentence": "We completed Phase 1 of our ReSPECT-GBM Trial and are targeting full enrollment into Phase 2 by the end of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "GBM affects approximately 15,000 patients annually in the U.S.",
+      "sentence": "GBM affects approximately 15,000 patients annually in the U.S. and is the most common and lethal form of brain cancer."
+    },
+    {
+      "claim": "Leptomeningeal metastases occur in approximately 5% or more of people with late-stage cancer, or 110,000 people in the U.S. each year.",
+      "sentence": "The incidence of LM is growing and occurs in approximately 5%, or more, of people with late-stage cancer, or 110,000 people in the U.S. each year."
+    },
+    {
+      "claim": "Liver cancer incidence in the U.S. is 42,000 cases and 30,000 deaths annually.",
+      "sentence": "It is a rare disease with increasing U.S. annual incidence (42,000) and deaths (30,000)."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:32:17.841Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001102993",
+  "ticker": "LPSN",
+  "name": "LIVEPERSON INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001102993-26-000014",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1102993/000110299326000014/lpsn-20251231.htm"
+  },
+  "business": "LivePerson is a leader in digital customer conversation, providing a platform that enables AI-powered conversations between brands and consumers. The company's platform includes messaging, AI automation, and agent tools. It targets enterprise and mid-market customers across various industries.",
+  "sellsTo": [
+    "telecommunications",
+    "financial services",
+    "travel/hospitality",
+    "technology",
+    "healthcare",
+    "automotive",
+    "consumer/retail"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:conversational-ai",
+      "stance": "core_product",
+      "sentence": "LivePerson's Conversational AI, announced in December 2018, operates as the brains behind LivePerson AI-based products, and was developed using our conversational data set of billions of brand-to-consumer interactions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We are progressing the process of migrating our technology infrastructure to the public cloud."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We comply with security standards such as System and Organization Controls (SOC) 2, and Payment Card Industry (PCI) Data Security Standards (DSS), and International Standards Organization / International Electrotechnical Commission (ISO/IEV) 27001."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "our conversational commerce solutions empower brands to drive revenue by allowing buyers to engage on their own terms when, where, and how they choose."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "The LivePerson Platform has been enhanced to provide security with appropriate guardrails where Generative AI and LLMs can be deployed and continually optimized in ways that help consumers and drive results for brands without sacrificing trust."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:37:49.390Z",
+  "model": "deepseek-v4-flash"
+}

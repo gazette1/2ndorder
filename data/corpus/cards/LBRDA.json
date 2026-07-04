@@ -1,0 +1,64 @@
+{
+  "cik": "0001611983",
+  "ticker": "LBRDA",
+  "name": "Liberty Broadband Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-010397",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1611983/000110465926010397/lbrda-20251231x10k.htm"
+  },
+  "business": "Liberty Broadband is primarily comprised of an equity method investment in Charter Communications, Inc., a leading broadband connectivity company that offers Internet, mobile, video, and voice services to residential and business customers under the Spectrum brand.",
+  "sellsTo": [
+    "residential customers",
+    "small businesses",
+    "mid-market and large businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Verizon Communications Inc.",
+    "T-Mobile US, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Charter offers Spectrum Internet products with speeds up to 1 gigabits per second (Gbps) across its entire footprint and multi-gigabit speeds in a portion of its footprint."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The service enables parental control schedules and Spectrum Security Shield which is automatically enabled and protects all devices in the home using network-based security."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks or other network disruptions could have an adverse effect on our company."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of GCI Divestiture",
+      "date": "2025-07-14",
+      "sentence": "The distribution of the GCI Group common stock was completed on July 14, 2025."
+    },
+    {
+      "event": "Charter and Cox definitive agreement announced",
+      "date": "2025-05-16",
+      "sentence": "On May 16, 2025, Charter and Cox announced that they entered into a definitive agreement (the Cox Transaction Agreement) to combine their businesses (the Cox Transactions)."
+    },
+    {
+      "event": "Charter's network evolution completion target",
+      "date": "2027-12-31",
+      "sentence": "Through this process, which Charter expects to be largely complete by the end of 2027, it will transform its network to offer much faster Internet speeds."
+    },
+    {
+      "event": "Launch of Invincible WiFi product",
+      "date": "2026-01-01",
+      "sentence": "In early 2026, Charter will launch its Invincible WiFi TM product, a tri-band advanced WiFi 7 router that integrates 5G cellular and battery backup to keep customers seamlessly and fully connected during service disruption or a power outage."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:55:32.730Z",
+  "model": "deepseek-v4-flash"
+}

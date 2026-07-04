@@ -1,0 +1,48 @@
+{
+  "cik": "0000007323",
+  "ticker": "EAI",
+  "name": "ENTERGY ARKANSAS, LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/7323/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy Arkansas sells electric power to retail customers in portions of Arkansas. It holds exclusive franchises to provide electric service in approximately 308 incorporated cities and towns. As of December 31, 2025, it served 738,000 electric customers.",
+  "sellsTo": [
+    "residential",
+    "commercial",
+    "industrial",
+    "governmental",
+    "wholesale/other"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Owned and Leased Capability MW(a) Company Total CT / CCGT (b) Legacy Gas/Oil Nuclear (c) Coal Hydro (c) Solar (c) Entergy Arkansas 5,542 1,535 522 1,807 974 74 630"
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Owned and Leased Capability MW(a) Company Total CT / CCGT (b) Legacy Gas/Oil Nuclear (c) Coal Hydro (c) Solar (c) Entergy Arkansas 5,542 1,535 522 1,807 974 74 630"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "the success of certain Utility operating companies investments in new generation and transmission assets to support large-scale data centers depends on a limited number of such customers"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "File next base rate case",
+      "date": "2026-02-27",
+      "sentence": "As part of the settlement of the 2023 formula rate plan proceeding, Entergy Arkansas agreed to file its next base rate case no later than February 27, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:47:21.440Z",
+  "model": "deepseek-v4-flash"
+}

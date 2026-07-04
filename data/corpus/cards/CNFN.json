@@ -1,0 +1,50 @@
+{
+  "cik": "0001352952",
+  "ticker": "CNFN",
+  "name": "CFN Enterprises Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001096906-26-000553",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352952/000109690626000553/cnfn-20251231_10k.htm"
+  },
+  "business": "CFN Enterprises Inc. is a consumer brand platform focused on the wine and beverage sector, developing, producing, and scaling beverage brands through direct-to-consumer commerce, performance marketing, and strategic distribution. It also operates a digital marketing agency serving the global cannabis, hemp and wellness industries. The company's wine and beverage segment sells to bars, restaurants, casinos, and hotels.",
+  "sellsTo": [
+    "bars, restaurants, casinos and hotels",
+    "public and private companies in the cannabis, hemp and wellness industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "CFN Enterprises Inc. is a consumer brand platform focused on the wine and beverage sector."
+    },
+    {
+      "tag": "other:cannabis-media",
+      "stance": "core_product",
+      "sentence": "We also operate CFN Media (the CFN Business), a digital marketing agency specializing in compliant, turnkey ad campaigns for the global cannabis, hemp and wellness industries."
+    },
+    {
+      "tag": "other:cannabis-illegality",
+      "stance": "risk_mention",
+      "sentence": "Cannabis remains illegal under Federal law."
+    },
+    {
+      "tag": "other:hemp-ban",
+      "stance": "risk_mention",
+      "sentence": "The passage of H.R. 5371 banning intoxicating hemp-derived consumable products resulted in the discontinuation of our Ranco operations and may have continuing effects on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "National ban on intoxicating hemp-derived consumable products becomes effective",
+      "date": "2026-11-12",
+      "sentence": "On November 12, 2025, the President signed H.R. 5371 into law, which bans intoxicating hemp-derived consumable products nationally effective November 12, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:15:38.777Z",
+  "model": "deepseek-v4-flash"
+}

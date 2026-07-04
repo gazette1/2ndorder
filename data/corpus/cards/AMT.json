@@ -1,0 +1,80 @@
+{
+  "cik": "0001053507",
+  "ticker": "AMT",
+  "name": "AMERICAN TOWER CORP /MA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001053507-26-000035",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/amt-20251231.htm"
+  },
+  "business": "American Tower is a global real estate investment trust that primarily leases space on communications towers and data centers to wireless service providers, broadcast companies, and other tenants. The company also offers tower-related services such as site application, zoning, and construction management. As of December 31, 2025, it owned or operated 149,686 communications sites worldwide and 30 data center facilities in the United States.",
+  "sellsTo": [
+    "wireless service providers",
+    "radio and television broadcast companies",
+    "wireless data providers",
+    "government agencies and municipalities",
+    "tenants in other industries"
+  ],
+  "namedCustomers": [
+    "AT&T",
+    "T-Mobile",
+    "Verizon",
+    "Bharti Airtel",
+    "MTN Group",
+    "Telefónica",
+    "América Móvil",
+    "TIM S.p.A.",
+    "DISH Wireless",
+    "AT&T Mexico",
+    "Vodafone Idea Limited"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "In the United States, incremental carrier network activity is being driven by ongoing 5G network deployments."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our portfolio of highly interconnected data center facilities and related assets in the United States is well positioned to monetize elevated demand for hybrid-cloud and multi-cloud deployments, as well as demand from early-stage AI-related workloads like inferencing, machine learning models and GPU-as-a-Service from neo clouds."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Continued data growth, including through increased use of AI, and emerging high-performance, latency-sensitive applications, will drive an increased need for reliable, secure and interconnected data center solutions."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "Emerging next generation technologies, such as edge computing functionality, autonomous vehicle networks and a number of other internet-of-things, or IoT, applications and other potential use cases for wireless services requiring wireless connectivity."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "Additionally, certain small cell complementary network technologies or satellite services could shift a portion of our customers network investments away from traditional tower-based networks"
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "Additionally, certain small cell complementary network technologies or satellite services could shift a portion of our customers network investments away from traditional tower-based networks"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Arbitration hearing with AT&T Mexico",
+      "date": "2026-08",
+      "sentence": "The Arbitration is scheduled for a hearing in August 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Recent aggregate annual wireless capital spending in the United States has averaged at least $30 billion.",
+      "sentence": "According to industry data, recent aggregate annual wireless capital spending in the United States has averaged at least $30 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:06:45.489Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0000049196",
+  "ticker": "HBAN",
+  "name": "HUNTINGTON BANCSHARES INC /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000049196-26-000015",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm"
+  },
+  "business": "Huntington Bancshares is a multi-state diversified regional bank holding company that provides full-service commercial and consumer deposit, lending, and other banking and financial services including payments, mortgage banking, investment banking, capital markets, and wealth management. It operates more than 1,000 branches in 14 states as of December 31, 2025, and serves customers through branch, online, and mobile channels. The company targets consumer and business customers, with a focus on small to mid-sized businesses, middle market, and large corporate clients.",
+  "sellsTo": [
+    "consumer customers",
+    "small to mid-sized businesses",
+    "middle market corporate customers",
+    "large corporate customers",
+    "government and non-profit entities",
+    "wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Financial Technology Companies, or FinTechs, are also providing nontraditional, but increasingly strong, competition for our borrowers, depositors, and other customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks from cyber-attacks and other information or security breaches, including denial of service attacks, hacking, social engineering attacks targeting our colleagues, contractors, and customers, malware intrusion or data corruption attempts, and identity theft that could result in the disclosure of confidential, proprietary, personal and other information, any of which could adversely affect our business or reputation, and create significant legal and financial exposure."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We use AI in connection with our business and operations, which exposes us to inherent risks that may expose us to material harm."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change manifesting as physical or transition risks could adversely affect our operations, businesses, and customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Veritex acquisition",
+      "date": "2025-10-20",
+      "sentence": "On October 20, 2025, Huntington completed the acquisition of Veritex Holdings, Inc. (Veritex, and such transaction, the Veritex Merger), a bank holding company headquartered in Dallas, Texas, whereby Veritex merged with and into Huntington, with Huntington as the surviving entity, and Veritex Community Bank merged with and into Huntington National Bank, with Huntington National Bank as the surviving entity."
+    },
+    {
+      "event": "Completion of Cadence Bank merger",
+      "date": "2026-02-01",
+      "sentence": "On February 1, 2026, Huntington completed the acquisition of Cadence Bank (Cadence, and such transaction, the Cadence Merger), a regional bank headquartered in Houston, Texas and Tupelo, Mississippi, whereby Cadence merged with and into Huntington National Bank, with Huntington National Bank as the surviving bank."
+    },
+    {
+      "event": "Huntington expected to exceed $250 billion in average consolidated assets, becoming Category III banking organization",
+      "date": "2026-12-31",
+      "sentence": "Huntington's acquisition of Cadence results in Huntington's total consolidated assets exceeding $250 billion at closing and is expected to cause Huntington's total average consolidated assets to exceed $250 billion in the fourth quarter of 2026, causing Huntington and the Bank to become subject to the standards applicable to Category III banking organizations, following a transition period."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:25:28.897Z",
+  "model": "deepseek-v4-flash"
+}

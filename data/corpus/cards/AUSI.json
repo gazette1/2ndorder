@@ -1,0 +1,93 @@
+{
+  "cik": "0000826253",
+  "ticker": "AUSI",
+  "name": "AURA SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-054252",
+    "filedAt": "2025-06-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/826253/000121390025054252/ea0245450-10k_aura.htm"
+  },
+  "business": "Aura Systems, Inc. commercializes axial flux induction electric motors and generators for industrial, electric vehicle, and mobile power applications. The company's technology does not use permanent magnets or rare earth elements, resulting in smaller, lighter, and more efficient machines with reduced material usage. Aura has shipped over 11,000 systems for mobile power, including over 3,000 for military use.",
+  "sellsTo": [
+    "industrial applications (compressors, fans, pumps, HVAC, machine tools)",
+    "electric vehicles (EVs) including road vehicles, aircraft, and boats",
+    "military mobile power generation",
+    "automotive alternator replacement",
+    "diesel-based cell tower power",
+    "transport refrigeration"
+  ],
+  "namedCustomers": [
+    "CBOL"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "For Electric Vehicle applications, AAFIM provide efficiencies that are equal to or higher than ones provided by the best high energy permanent magnet solution (PM)."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "To date the Company shipped over 11,000 systems for mobile power applications in the 5-15 kW range of which over 3,000 systems were for various military applications."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Common industrial applications include: (i) compressors, (ii) fans and blowers, (iii) heavy duty equipment, (iv) HVAC systems, (v) pumps and (vi) machine tools (lathes and mills, etc.)."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Nearly all the supply chain for rare earths is concentrated in China and the chemistry associated with processing rare earths is challenging, expensive, and hazardous."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "The most important raw materials we use in manufacturing our products are steel, copper, and aluminum."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We are also currently in discussions for usage of our technology for numerous wind turbines applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed installation of 10-kW mobile power generator on Polaris ATV for US military",
+      "date": "2024-05",
+      "sentence": "We have also in May 2024 completed the installation of our new smaller 10-kW mobile power generator on a Polaris type ATV platform for US military applications."
+    },
+    {
+      "event": "Start production of 5 hp and 10 kW axial flux induction motors for pool and irrigation pumps",
+      "date": null,
+      "sentence": "We recently completed the designs for a 5-horsepower motor for swimming pools applications and a 10-kW motor for farm irrigation applications. Both of those motors will be put into production in the next few quarters."
+    },
+    {
+      "event": "Completed design and fabrication of 250 kW axial flux motor prototype",
+      "date": null,
+      "sentence": "In fiscal 2025 the Company completed the design and fabrication of an oil cooled 250 kW electric motor prototype using axial flux induction and completed the design for a 250-kW air cooled generator using axial flux induction."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Industrial electric motor market expected to grow from $113.3 billion in 2020 to $169.1 billion by 2026 at 6.9% CAGR",
+      "sentence": "The industrial electric motor market is expected to grow from an estimated USD 113.3 billion in 2020 to USD 169.1 billion by 2026, at a CAGR of 6.9% during the forecast period."
+    },
+    {
+      "claim": "Over 100 million electric motors required per year by 2032 for EV market",
+      "sentence": "It is expected that over 100 million electric motors will be required per year by 2032 to meet the demand for the growing EV market."
+    },
+    {
+      "claim": "Global EV market projected to grow from 4 million units in 2021 to 34.76 million units by 2030",
+      "sentence": "The global Electric Vehicle Market size is projected to grow from 4 million units in 2021 to 34.76 million units by 2030."
+    },
+    {
+      "claim": "Global generator sales market estimated to reach $27.16 billion by 2027 from $20.3 billion in 2019",
+      "sentence": "The global generator sales market was $20.3 billion in 2019 and is estimated to reach $27.16 billion by 2027 (Fortune Business Insight)."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:43:36.100Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0001592386",
+  "ticker": "VIRT",
+  "name": "Virtu Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001592386-26-000009",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1592386/000159238626000009/virt-20251231.htm"
+  },
+  "business": "Virtu Financial is a leading financial firm that leverages cutting edge technology to deliver liquidity to the global markets and innovative, transparent trading solutions to its clients. It provides market making and execution services across multiple asset classes including global equities, ETFs, options, foreign exchange, futures, fixed income, cryptocurrencies, and commodities. The company's technology platform enables it to trade on hundreds of venues across over 50 countries.",
+  "sellsTo": [
+    "retail brokers",
+    "Registered Investment Advisors",
+    "private client networks",
+    "sell-side brokers",
+    "buy-side institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a leading financial firm that leverages cutting edge technology to deliver liquidity to the global markets and innovative, transparent trading solutions to our clients."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "Our cryptocurrency market making includes spot, perpetuals, futures, and ETFs and takes place across over 75 venues and exchanges."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber threats are a risk that we are exposed to as a result of our heavy utilization of technology."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence and machine learning are new and emerging technologies and could ultimately cause harm to our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase program authorized through April 24, 2026",
+      "date": "2026-04-24",
+      "sentence": "On April 24, 2024, the Company's Board of Directors authorized the expansion of the program by an additional $500 million to $1,720 million and extended the duration through April 24, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:00:16.742Z",
+  "model": "deepseek-v4-flash"
+}

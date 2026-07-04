@@ -1,0 +1,71 @@
+{
+  "cik": "0001348952",
+  "ticker": "ELC",
+  "name": "ENTERGY LOUISIANA, LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1348952/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy Louisiana is one of the five retail electric utility subsidiaries of Entergy Corporation that generate, transmit, distribute, and sell electric power to retail and wholesale customers in portions of Louisiana. Prior to July 1, 2025, Entergy Louisiana also provided natural gas utility services.",
+  "sellsTo": [
+    "Retail customers (residential, commercial, industrial, governmental) in portions of Louisiana",
+    "Wholesale customers",
+    "Large-scale data centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Utility segment includes the generation, transmission, distribution, and sale of electric power in portions of Arkansas, Mississippi, Texas, and Louisiana, including the City of New Orleans."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "The Utility has a diverse power generation portfolio including nuclear, hydroelectric, solar, and highly efficient natural gas."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The success of certain Utility operating companies investments in new generation and transmission assets to support large-scale data centers depends on a limited number of such customers, the continued demand for electricity to power data centers and the successful completion of the associated generation and transmission projects."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In 2023, Entergy Louisiana made a filing to seek approval from the LPSC for an alternative to the requests for proposals (RFP) process that would enable the acquisition of up to 3 GW of solar resources on a faster timeline."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "The proposed programs consist of: (1) for residential customers, smart thermostat DR, battery energy storage DR, and an electric vehicle behavioral charging offering;"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "active_investment",
+      "sentence": "The proposed programs consist of: (1) for residential customers, smart thermostat DR, battery energy storage DR, and an electric vehicle behavioral charging offering;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entergy Louisiana must file with the LPSC to modify its expedited procurement process",
+      "date": "2026-02-28",
+      "sentence": "The settlement provides for Entergy Louisiana, within six months of the order accepting the settlement, to make a filing with the LPSC seeking to modify its expedited procurement process to include additional clean resource types (including onshore wind) and additional changes (including modifications to the breakeven parameters established in connection with the order approving the alternative competitive procurement process)."
+    },
+    {
+      "event": "ALJ consideration of stipulated settlement for demand response programs",
+      "date": "2026-03-31",
+      "sentence": "The proposed stipulated settlement agreement will be considered by the ALJ in first quarter 2026."
+    },
+    {
+      "event": "Status conference for permanent hedging program",
+      "date": "2026-03-31",
+      "sentence": "The parties remain engaged in settlement discussions with a status conference scheduled in March 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:50:01.003Z",
+  "model": "deepseek-v4-flash"
+}

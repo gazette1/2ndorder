@@ -1,0 +1,47 @@
+{
+  "cik": "0000855683",
+  "ticker": "MLSS",
+  "name": "MILESTONE SCIENTIFIC INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014117",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/855683/000149315226014117/form10-k.htm"
+  },
+  "business": "Milestone Scientific develops and commercializes proprietary computer-controlled drug delivery systems for subcutaneous injections and fluid aspiration procedures. Its dental products are marketed under CompuDent and STA Single Tooth Anesthesia System trademarks and sold in the United States, Canada, and over 40 other countries. Its medical products include the CompuFlo Epidural System for epidural space identification.",
+  "sellsTo": [
+    "dental offices and dental groups",
+    "anesthesiologists and healthcare providers",
+    "hospitals and clinics",
+    "international distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Milestone Scientific Inc. develops and commercializes proprietary computer-controlled drug delivery systems designed to enhance the safety, precision, and patient experience associated with subcutaneous injections and fluid aspiration procedures."
+    },
+    {
+      "tag": "other:self-injection",
+      "stance": "risk_mention",
+      "sentence": "The Company is exploring additional potential applications for its Dynamic Pressure Sensing ( DPS ) technology platform in various medical settings. These areas may include certain surgical and procedural specialties, as well as potential applications in the self-injection drug market, where patients administer injectable therapies for chronic conditions at home or in clinical environments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "MDR certification expected for Class IIa and IIb devices",
+      "date": "2027-12-31",
+      "sentence": "The Company's products, including the Wand STA System, dental handpieces used with the Wand and Wand STA Systems, which are classified as Class IIa medical devices, and the CompuFlo Epidural System, which is classified as a Class IIb medical device, will have MDR certification in 2027."
+    },
+    {
+      "event": "Deadline for MDR certification to continue EU sales",
+      "date": "2028-12-31",
+      "sentence": "To continue commercial sales in the European Union beyond the transition period, the Company's Class IIa and Class IIb devices must obtain certification under the MDR by December 31, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:29:24.906Z",
+  "model": "deepseek-v4-flash"
+}

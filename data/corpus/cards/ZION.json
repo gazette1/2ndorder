@@ -1,0 +1,52 @@
+{
+  "cik": "0000109380",
+  "ticker": "ZION",
+  "name": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000109380-26-000046",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/109380/000010938026000046/zions-20251231.htm"
+  },
+  "business": "We provide a wide range of banking products and related services, primarily in 11 Western states: Arizona, California, Colorado, Idaho, Nevada, New Mexico, Oregon, Texas, Utah, Washington, and Wyoming. Our portfolio of products and services includes Commercial and Small Business Banking, Capital Markets and Investment Banking, Commercial Real Estate Lending, Retail Banking, and Wealth Management. At December 31, 2025, we had more than one million customers and total assets of approximately $89 billion.",
+  "sellsTo": [
+    "commercial and small business customers",
+    "retail banking customers",
+    "wealth management clients",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition, fintechs and other technology-driven platforms are expanding their presence, offering a wide variety of products and services that challenge traditional banking models."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to risks related to information system failures and cybersecurity threats, which could adversely impact our business operations and financial performance."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "The growing experimentation with and adoption of advanced technologies such as AI, quantum computing, tokenized deposits, blockchain, stablecoins, and other digital currencies, including the potential issuance, acceptance, and integration of central bank digital currencies has the potential to fundamentally reshape the financial services landscape."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI technologies present risks and challenges that could materially and adversely affect our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Compliance deadline for CFPB open banking final rule under Section 1033 of Dodd-Frank Act",
+      "date": "2027-04-01",
+      "sentence": "The current compliance deadline for a bank of our size is April 1, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:14:28.120Z",
+  "model": "deepseek-v4-flash"
+}

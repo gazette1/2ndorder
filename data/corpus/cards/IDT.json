@@ -1,0 +1,76 @@
+{
+  "cik": "0001005731",
+  "ticker": "IDT",
+  "name": "IDT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-25-016071",
+    "filedAt": "2025-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1005731/000149315225016071/form10-k.htm"
+  },
+  "business": "IDT Corporation provides fintech and communications solutions including point-of-sale systems for independent retailers, cross-border money transfers, AI-powered unified communications, prepaid digital offerings, international calling, and wholesale telecom services.",
+  "sellsTo": [
+    "Independent retailers (convenience stores, bodegas, liquor, grocery, tobacco)",
+    "Immigrant communities in the United States and Canada",
+    "Small and medium businesses",
+    "Telecoms worldwide",
+    "Underbanked consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "BOSS Money provides fintech-based services featuring cross-border money transfers to customers in the United States."
+    },
+    {
+      "tag": "other:ai-communications",
+      "stance": "core_product",
+      "sentence": "net2phone provides businesses with AI-powered communications solutions that analyse, inform, and manage communications for enhanced productivity."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "IDT Global provides wholesale international voice and SMS termination and outsourced traffic management solutions to telecoms worldwide."
+    },
+    {
+      "tag": "other:pos-platform",
+      "stance": "core_product",
+      "sentence": "National Retail Solutions (NRS): Operates a leading point-of-sale, or POS, terminal-based platform for independent retailers in the United States."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks impacting our networks or systems could have an adverse effect on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "net2phone Canada slated to go into production early in fiscal 2026",
+      "date": "2026-01-01",
+      "sentence": "net2phone Canada is slated to go into production early in fiscal 2026."
+    },
+    {
+      "event": "Capital expenditures in fiscal 2026 expected to be $19 million to $21 million",
+      "date": "2027-07-31",
+      "sentence": "We currently anticipate that total capital expenditures in fiscal 2026 will be $19 million to $21 million."
+    },
+    {
+      "event": "Cash dividend of $0.06 per share payable on October 10, 2025",
+      "date": "2025-10-10",
+      "sentence": "In September 2025, our Board of Directors declared a cash dividend on our Class A and Class B common stock of $0.06 per share payable on or about October 10, 2025 to stockholders of record as of the close of business on September 30, 2025."
+    },
+    {
+      "event": "Oral argument in Straight Path class action appeal scheduled for October 2025",
+      "date": "2025-10-01",
+      "sentence": "Oral argument is scheduled for October 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:04:51.860Z",
+  "model": "deepseek-v4-flash"
+}

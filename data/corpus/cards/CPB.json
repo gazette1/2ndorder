@@ -1,0 +1,68 @@
+{
+  "cik": "0000016732",
+  "ticker": "CPB",
+  "name": "CAMPBELL'S Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000016732-25-000112",
+    "filedAt": "2025-09-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/16732/000001673225000112/cpb-20250803.htm"
+  },
+  "business": "The Campbell's Company is a manufacturer and marketer of high-quality, branded food and beverage products. It operates in two reportable segments: Meals & Beverages and Snacks. Its products are sold to retail food chains, mass discounters, mass merchandisers, club stores, convenience stores, dollar stores, e-commerce, and other commercial and non-commercial establishments.",
+  "sellsTo": [
+    "retail food chains",
+    "mass discounters",
+    "mass merchandisers",
+    "club stores",
+    "convenience stores",
+    "dollar stores",
+    "e-commerce",
+    "commercial and non-commercial establishments"
+  ],
+  "namedCustomers": [
+    "Wal-Mart Stores, Inc. and its affiliates"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a manufacturer and marketer of high-quality, branded food and beverage products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems are subject to attack or other security breaches (including the access to or acquisition of customer, consumer, employee or other confidential information), service disruptions or other system failures."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, or legal, regulatory or market measures to address climate change, may negatively affect our business and operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "New and emerging technologies, including artificial intelligence, that could result in greater operational efficiency may further expose our computer systems to the risk of cyberattacks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure plan for fiscal 2026",
+      "date": null,
+      "sentence": "We expect to spend approximately $420 million for capital projects in 2026."
+    },
+    {
+      "event": "Increase in annual ongoing savings target for cost savings initiatives by end of 2028",
+      "date": "2025-09-03",
+      "sentence": "On September 3, 2025, we increased the estimate of annual ongoing savings, once all phases are implemented, to approximately $375 million by the end of 2028."
+    },
+    {
+      "event": "Route optimization initiative expenses through 2029",
+      "date": null,
+      "sentence": "We expect to execute this program in a staggered rollout and to incur expenses of up to approximately $115 million through 2029."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:35:47.541Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,66 @@
+{
+  "cik": "0000723612",
+  "ticker": "CAR",
+  "name": "AVIS BUDGET GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000723612-26-000012",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000072361226000012/car-20251231.htm"
+  },
+  "business": "Avis Budget Group is a global provider of mobility solutions through its Avis, Budget, and Zipcar brands, offering car and truck rental and car sharing services. It operates in approximately 180 countries with an average rental fleet of about 684,000 vehicles and generated total revenues of approximately $11.7 billion in 2025. The company serves customers ranging from corporate clients to leisure travelers and licenses its brands to independent operators.",
+  "sellsTo": [
+    "corporate clients",
+    "leisure travelers",
+    "individual consumers",
+    "light commercial businesses",
+    "college students",
+    "travel agents",
+    "airline and hotel partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Toyota",
+    "Chevrolet",
+    "Ford",
+    "Mazda",
+    "Kia",
+    "Jeep",
+    "Hyundai",
+    "Volkswagen",
+    "Nissan",
+    "Renault"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We offer a wide variety of vehicles in our rental fleet, including luxury vehicles, electrified vehicles, specialty-use vehicles and light commercial vehicles."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer products to customers that will enhance their rental experience, including: collision and loss damage waivers, ... additional/supplemental liability insurance or personal accident/effects insurance products ..."
+    },
+    {
+      "tag": "other:autonomous-ride-hailing",
+      "stance": "active_investment",
+      "sentence": "in July 2025, we entered a multi year strategic partnership with Waymo to serve as its fleet operations partner in Dallas, providing infrastructure, vehicle readiness, maintenance, and depot operations for Waymo s fully autonomous ride hailing service."
+    },
+    {
+      "tag": "other:car-sharing",
+      "stance": "core_product",
+      "sentence": "Zipcar is a leading car sharing network, driven by a mission to enable simple and responsible urban living."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initial public launch of autonomous ride-hailing service in Dallas with Waymo",
+      "date": null,
+      "sentence": "Initial public launch is planned for 2026 and the arrangement leverages our fleet management capabilities."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:51:45.087Z",
+  "model": "deepseek-v4-flash"
+}

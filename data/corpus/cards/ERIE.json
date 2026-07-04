@@ -1,0 +1,58 @@
+{
+  "cik": "0000922621",
+  "ticker": "ERIE",
+  "name": "ERIE INDEMNITY CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010666",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026010666/erie-20251231.htm"
+  },
+  "business": "Erie Indemnity Company serves as the attorney-in-fact for the Erie Insurance Exchange, a reciprocal insurer that writes property and casualty insurance. The company's primary function is to perform policy issuance and renewal services and administrative services for the Exchange, and its revenue is largely generated from management fees based on the Exchange's direct and affiliated assumed premiums written. The Exchange is its sole customer.",
+  "sellsTo": [
+    "Erie Insurance Exchange (reciprocal insurer writing property and casualty insurance)",
+    "Personal lines: private passenger automobile and homeowners",
+    "Commercial lines: commercial multi-peril, commercial automobile, workers compensation"
+  ],
+  "namedCustomers": [
+    "Erie Insurance Exchange"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our primary function as attorney-in-fact is to perform policy issuance and renewal services on behalf of the subscribers at the Exchange."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we experience difficulties with technology, data or network security, including those that could result from cyber attacks, third-party relationships or cloud-based relationships, our ability to conduct our business could be adversely impacted."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Innovations, including the use of artificial intelligence and machine learning to support underwriting or other decisions, by competitors or other market participants may increase the level of competition in the industry."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Technology advancements, such as electric and autonomous vehicles, could impact frequency or severity of losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Downgrade of Erie Insurance Exchange and subsidiaries financial strength rating from A+ to A by AM Best",
+      "date": "2025-09-05",
+      "sentence": "On September 5, 2025, the Exchange and each of its property and casualty insurance subsidiaries were downgraded from A+ 'Superior' to A 'Excellent' and its financial strength rating was revised from negative to stable."
+    },
+    {
+      "event": "Management fee rate set at 25% for 2026",
+      "date": null,
+      "sentence": "Based on analysis of the foregoing factors, our Board of Directors set the 2026 management fee rate again at 25%."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:02:13.500Z",
+  "model": "deepseek-v4-flash"
+}

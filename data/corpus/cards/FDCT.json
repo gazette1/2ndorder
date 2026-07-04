@@ -1,0 +1,65 @@
+{
+  "cik": "0001722731",
+  "ticker": "FDCT",
+  "name": "FDCTECH, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-017945",
+    "filedAt": "2026-04-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1722731/000149315226017945/form10-k.htm"
+  },
+  "business": "FDCTech, Inc. is a financial technology company specializing in developing and delivering innovative software solutions and business services to the over-the-counter (OTC) brokerage and financial services industries. The Company provides a range of proprietary and third-party technology solutions, including its flagship Condor Trading Technology, which supports multi-asset trading, risk management, and pricing for forex, equities, commodities, and digital assets.",
+  "sellsTo": [
+    "Over-the-counter brokerage and financial services industries",
+    "Retail and institutional clients globally"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "FDCTech, Inc. is a financial technology company specializing in developing and delivering innovative software solutions and business services to the over-the-counter (OTC) brokerage and financial services industries."
+    },
+    {
+      "tag": "other:payment-intermediary",
+      "stance": "core_product",
+      "sentence": "Through Xoala Asia, we intend to build a payment intermediary services business that provides payment gateway, merchant acquiring, cross-border remittance, and card processing capabilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Board of Directors is responsible for overseeing the Company's cybersecurity risk management."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the global AI trading platform market is forecast to grow from approximately $11.2 billion in 2024 to $33.5 billion by 2030, reflecting a CAGR of about 20% as firms deploy AI for execution, analytics, and risk management"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global FX daily turnover reached approximately $9.6 trillion in April 2025, an increase of about 28% compared to April 2022.",
+      "sentence": "According to the Bank for International Settlements ( BIS ) 2025 triennial survey, average daily turnover in global FX markets reached approximately $9.6 trillion in April 2025, an increase of about 28% compared to April 2022 (1) ."
+    },
+    {
+      "claim": "The global online trading platform market was approximately $9.6 billion in 2023 and is expected to reach $15.6 billion by 2030, representing a CAGR of approximately 7.3% from 2024 to 2030.",
+      "sentence": "Industry research from Grand View Research estimates that the global online trading platform market was approximately $9.6 billion in 2023 and is expected to reach $15.6 billion by 2030, representing a compound annual growth rate ( CAGR ) of approximately 7.3% from 2024 to 2030 (2) ."
+    },
+    {
+      "claim": "The global CFD broker market generated approximately $12.5 billion of revenue in 2023 and could reach $22.4 billion by 2032, implying a CAGR of approximately 6.7%.",
+      "sentence": "DataIntelo (4) estimates that the global CFD broker market generated approximately $12.5 billion of revenue in 2023 and could reach $22.4 billion by 2032, implying a CAGR of approximately 6.7%."
+    },
+    {
+      "claim": "Global assets under management could increase from approximately $139 trillion in 2024 to about $200 trillion by 2030.",
+      "sentence": "A 2025 report by PwC projects that global assets under management could increase from approximately $139 trillion in 2024 to about $200 trillion by 2030 (5) , with wealth management for affluent individuals highlighted as a major growth area."
+    },
+    {
+      "claim": "The cross-border payments market generated approximately $212.6 billion in revenue in 2024 and could reach $320.7 billion by 2030, representing a projected CAGR of approximately 7.1%.",
+      "sentence": "Grand View Research estimates that the cross-border payments market generated approximately $212.6 billion in revenue in 2024 and could reach $320.7 billion by 2030, representing a projected CAGR of approximately 7.1% over the period (9) ."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:52:46.367Z",
+  "model": "deepseek-v4-flash"
+}

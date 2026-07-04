@@ -1,0 +1,57 @@
+{
+  "cik": "0001065280",
+  "ticker": "NFLX",
+  "name": "NETFLIX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001065280-26-000034",
+    "filedAt": "2026-01-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm"
+  },
+  "business": "Netflix, Inc. is one of the world's leading entertainment services offering TV series, films, games and live programming across a wide variety of genres and languages. Revenues are primarily derived from monthly membership fees for services related to streaming content to members.",
+  "sellsTo": [
+    "Consumers globally",
+    "Members with various pricing plans including ad-supported subscription"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We expanded our entertainment video offering to include games and live programming."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant disruption in or unauthorized access to our computer systems or those of third parties that we utilize in our operations, including those relating to cybersecurity or arising from cyber-attacks, could result in a loss or degradation of service, unauthorized access, disclosure or destruction of data, including member and corporate information, or theft of intellectual property, including digital content assets, which could adversely impact our business."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "Changes in how network operators handle and charge for access to data that travel across their networks could adversely impact our business."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely upon Amazon Web Services to operate certain aspects of our service and any disruption of or interference with our use of the Amazon Web Services operation would impact our operations and our business would be adversely impacted."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "New technological developments, including the development and use of generative AI, are rapidly evolving. If our competitors gain an advantage by using such technologies more effectively to satisfy consumer demand, our ability to compete successfully and our results of operations could be adversely impacted."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of WBD transaction",
+      "date": null,
+      "sentence": "We expect the WBD transaction to close in 12-18 months from December 4, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:51:15.080Z",
+  "model": "deepseek-v4-flash"
+}

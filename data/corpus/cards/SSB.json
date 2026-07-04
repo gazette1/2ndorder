@@ -1,0 +1,49 @@
+{
+  "cik": "0000764038",
+  "ticker": "SSB",
+  "name": "SouthState Bank Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-017884",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926017884/ssb-20251231x10k.htm"
+  },
+  "business": "SouthState Bank Corporation is a financial holding company that provides banking services through its wholly owned bank subsidiary, SouthState Bank, National Association, including loans, deposits, treasury services, wealth management, mortgage banking, and correspondent banking and capital markets. It serves individuals, businesses, and over 1,200 small to medium community financial institutions, credit unions, and money managers across eight states. Revenue is primarily derived from interest on loans and fees, with principal funding from customer deposits.",
+  "sellsTo": [
+    "Individuals",
+    "Small to medium community financial institutions",
+    "Credit unions",
+    "Money managers",
+    "Transportation companies",
+    "Automotive parts and service providers",
+    "Affluent clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer our customers a variety of deposit products and services, including checking accounts, savings accounts, money market accounts, time deposit accounts, and treasury and merchant services, through multiple channels, including our network of 342 full-service branches, as of December 31, 2025, and our online, mobile and telephone banking platforms."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Our current initiatives include, but are not limited to, ... implementing an AI strategy to be able to adopt appropriate AI capabilities internally and from vendors to enhance our efficiency with appropriate controls in place to maintain accuracy and reduce or eliminate bias;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face cybersecurity risks from cyber-attacks, information security breaches and other similar incidents that could result in the disclosure of confidential and other information (including personal information), adversely affect our business or reputation, and create significant legal and financial exposure."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "building upon our digital banking initiatives by continuing to implement digital banking platforms and expanding our payment capabilities, including by being able to act as a reserve and issuer for stablecoins,"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:17:29.311Z",
+  "model": "deepseek-v4-flash"
+}

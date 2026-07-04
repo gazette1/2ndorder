@@ -1,0 +1,57 @@
+{
+  "cik": "0000040570",
+  "ticker": "JOB",
+  "name": "GEE Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001477932-25-009011",
+    "filedAt": "2025-12-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/40570/000147793225009011/job_10k.htm"
+  },
+  "business": "GEE Group Inc. provides human resources solutions, primarily temporary and permanent personnel placement in professional services such as information technology, accounting, finance, engineering, and healthcare to customers across the United States. The company operates through wholly owned subsidiaries under various trade names, serving clients from small businesses to Fortune 1000 companies from 19 branch offices and 4 remote locations.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "Fortune 1000 companies",
+    "government contractors",
+    "healthcare facilities",
+    "large-scale 'blue chip' companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "We are a provider of human resources solutions which primarily include the provision of temporary and permanent personnel in the professional services sector to customers located in the United Sates."
+    },
+    {
+      "tag": "other:digital-health",
+      "stance": "core_product",
+      "sentence": "Our services include the provision of highly specialized contract or permanently placed professionals in several verticals, including information technology (IT), engineering, accounting and finance, office support, and specialized contract healthcare professionals, including scribes who specialize in electronic medical record (EMR) services for emergency departments, specialty physician practices and clinics."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Paladin Consulting primarily provides highly skilled IT professionals on a contract or direct hire basis directly to customers or through RPO, MSP and VMS arrangements and other non-IT staffing solutions to customers nationwide including government contractors who require that the provider of staffing services have required security clearance; such security certification is maintained by Paladin Consulting."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "RAPID EXPANSION OF ARTIFICIAL INTELLIGENCE MAY DISRUPT TRADITIONAL STAFFING MODELS AND ADVERSELY IMPACT OUR BUSINESS"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are responding by integrating AI into our operating business strategy, plans and systems; focusing on seeking, attracting and placing AI talent; and refocusing our other organic growth efforts towards verticals where we can leverage AI, and/or that are less likely to be significantly disrupted by AI."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global MSP/VMS market accounted for approximately $222 billion of temporary staffing spend under management.",
+      "sentence": "In 2023 according to SIA, the global MSP/VMS market accounted for approximately $222 billion of temporary staffing spend under management."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:38:10.097Z",
+  "model": "deepseek-v4-flash"
+}

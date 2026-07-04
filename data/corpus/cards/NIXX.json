@@ -1,0 +1,56 @@
+{
+  "cik": "0001462223",
+  "ticker": "NIXX",
+  "name": "Nixxy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-002951",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1462223/000168316826002951/nixxy_i10k-123125.htm"
+  },
+  "business": "Nixxy, Inc. is a Nevada corporation focused on building an artificial intelligence-enabled communications and data infrastructure platform that supports global telecommunications services and emerging transaction-enabled workflows. The Company operates a carrier-scale telecommunications network delivering wholesale voice and messaging services, enhanced by automation, data analytics, and AI-driven routing technologies.",
+  "sellsTo": [
+    "wholesale telecommunications carriers",
+    "long-distance providers",
+    "global telecommunications customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Company operates a carrier-scale telecommunications network delivering wholesale voice and messaging services, enhanced by automation, data analytics, and AI-driven routing technologies."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "The Company is focused on building an artificial intelligence-enabled communications and data infrastructure platform that supports global telecommunications services and emerging transaction-enabled workflows."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "Infrastructure Layer (NIXXY CORE) Includes edge computing and data infrastructure assets associated with Everythink Innovations Limited, designed to support: Low-latency processing environments AI inference and data processing"
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "The Company is pursuing a strategy to extend its communications platform into transaction-enabled workflows, leveraging its global network infrastructure to support financial interactions embedded within communications channels."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Targeted commercial beta for Leadnova.ai",
+      "date": null,
+      "sentence": "Leadnova.ai, an AI-enabled application designed to integrate communications with data-driven business processes (currently in user acceptance testing with a targeted commercial beta planned for 2026, subject to execution)"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global telecommunications services market estimated at $1.98 trillion in 2024, projected to grow at mid-single-digit CAGR through 2030",
+      "sentence": "The global telecommunications services market was estimated by industry sources at approximately $1.98 trillion in 2024 and is projected to grow at a mid-single-digit compound annual rate through 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T15:14:16.091Z",
+  "model": "deepseek-v4-flash"
+}

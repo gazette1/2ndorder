@@ -1,0 +1,42 @@
+{
+  "cik": "0001410428",
+  "ticker": "XWEL",
+  "name": "XWELL, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-038330",
+    "filedAt": "2026-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1410428/000110465926038330/xwel-20251231x10k.htm"
+  },
+  "business": "XWELL is a global wellness organization delivering restorative and health-focused services to travelers through three segments: XpresSpa (airport spa services), XpresTest (bio surveillance monitoring), and Naples Wax Center (hair removal). The company operates airport spa locations domestically and internationally, and provides bio surveillance services under government contracts.",
+  "sellsTo": [
+    "airport passengers (travelers)",
+    "U.S. government (CDC via contract)"
+  ],
+  "namedCustomers": [
+    "Centers for Disease Control and Prevention (CDC)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "XWELL is a global wellness organization dedicated to delivering restorative and health-focused services to travelers through its three reportable operating segments: XpresSpa, XpresTest, and Naples Wax Center."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "XpresTest began conducting bio surveillance monitoring with the Centers for Disease Control and Prevention (CDC) in collaboration with Concentric by Ginkgo Bioworks Holdings, Inc. (Ginkgo Bioworks) in 2021."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Three-year contract extension for bio surveillance monitoring with CDC via Ginkgo Bioworks",
+      "date": "2025-02-01",
+      "sentence": "In February 2025, the program was extended through a three-year contract with a total base value of $22,200 over three years, and a maximum ceiling value of $24,800 within the same timeframe."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:03:18.166Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,60 @@
+{
+  "cik": "0000028917",
+  "ticker": "DDS",
+  "name": "DILLARD'S, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000028917-26-000006",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000006/dds-20260131x10k.htm"
+  },
+  "business": "Dillard's, Inc. is a fashion apparel, cosmetics, and home furnishing retailer operating 271 department stores and an internet store at dillards.com. The company also operates a general contracting construction company, CDI Contractors, LLC, which constructs and remodels stores for the company. Customers include consumers in the southwest, southeast, and midwest regions of the United States, as well as online shoppers.",
+  "sellsTo": [
+    "consumers in the United States",
+    "online shoppers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company also operates ... an Internet store at dillards.com offering a wide selection of merchandise including fashion apparel for women, men and children, accessories, cosmetics, home furnishings and other consumer goods."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Dillard s, Inc. ... ranks among the nation s largest fashion apparel, cosmetics and home furnishing retailers."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Under the Citibank Alliance, Citi establishes, owns and manages Dillard s private label credit cards ... we receive on-going cash compensation from Citi based upon the portfolio s earnings."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our information technology systems are damaged or cease to function properly, we may have to make a significant investment to repair or replace them, and we may suffer loss of critical data and interruptions or delays in our operations in the interim, which could adversely affect our business and operating results."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Company also operates a general contracting construction company, CDI Contractors, LLC ( CDI ), a portion of whose business includes constructing and remodeling stores for the Company."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Pension plan contribution of approximately $8.5 million in fiscal 2026",
+      "date": null,
+      "sentence": "The Company expects to make a contribution to the pension plan of approximately $8.5 million in fiscal 2026."
+    },
+    {
+      "event": "Payment of purchase obligations of $1,254.8 million for merchandise and store construction commitments in fiscal 2026",
+      "date": null,
+      "sentence": "At January 31, 2026, the Company had purchase obligations of $1,254.8 million outstanding for merchandise and store construction commitments, all of which are expected to be paid during fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:26:18.174Z",
+  "model": "deepseek-v4-flash"
+}

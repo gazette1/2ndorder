@@ -1,0 +1,61 @@
+{
+  "cik": "0001913838",
+  "ticker": "VWFB",
+  "name": "VWF Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001558370-24-013063",
+    "filedAt": "2024-09-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1913838/000155837024013063/vwfb-20240630x10k.htm"
+  },
+  "business": "VWF Bancorp, Inc. is a savings and loan holding company that operates through Van Wert Federal Savings Bank (GreenWay Bank), which attracts deposits from the general public and primarily originates loans, including residential mortgage, commercial real estate, agricultural real estate, construction, commercial and industrial, and consumer loans. The primary revenue source is interest earned on loans and investment securities.",
+  "sellsTo": [
+    "individuals",
+    "small to mid-sized businesses",
+    "business professionals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential Mortgage Lending. At June 30, 2024 we had $69.8 million of loans secured by residential real estate, or 53.9% of total loans."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Agricultural real estate loans. At June 30, 2024, we had $4.2 million in agricultural real estate loans, or 3.3% of total loans."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We face competition for loans from mortgage banking firms, consumer finance companies, credit unions, and fintech companies"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a failure or breach of our operational or information security systems or infrastructure, including cyberattacks"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fort Wayne branch opening",
+      "date": "2024-04",
+      "sentence": "We expanded our branch office network into Allen County, located in northeast Indiana by opening our Fort Wayne office branch in April 2024."
+    },
+    {
+      "event": "Rebranding to GreenWay Bank",
+      "date": "2024-08-01",
+      "sentence": "Effective August 1, 2024, the Bank completed rebranding efforts and changed its name from Van Wert Federal Savings Bank to GreenWay Bank."
+    },
+    {
+      "event": "Repayment of $24.0 million FHLB advances",
+      "date": "2024-07-01",
+      "sentence": "$24.0 million of our outstanding advances were repaid on July 1, 2024."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:53:56.656Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,108 @@
+{
+  "cik": "0000040211",
+  "ticker": "GATX",
+  "name": "GATX CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000040211-26-000018",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm"
+  },
+  "business": "GATX Corporation is a leading global railcar lessor, owning fleets in North America, Europe, and India. In addition, through GATX Engine Leasing and joint ventures with Rolls-Royce, it owns one of the largest aircraft spare engine lease portfolios in the world. The company reports through three primary business segments: Rail North America, Rail International, and Engine Leasing.",
+  "sellsTo": [
+    "transportation",
+    "chemical",
+    "petroleum",
+    "food/agriculture",
+    "commercial aviation"
+  ],
+  "namedCustomers": [
+    "Rolls-Royce"
+  ],
+  "namedSuppliers": [
+    "Trinity Rail Group, LLC",
+    "The Greenbrier Companies, Inc.",
+    "National Steel Car Ltd.",
+    "FreightCar America, Inc.",
+    "Gök Yapi San. Tic. a.s.",
+    "Greenbrier-Astra Rail",
+    "Duro Dakovic",
+    "Tatravagonka a.s.",
+    "China International Marine Containers (Group) Ltd.",
+    "Jingjiang Asian-Pacific Logistics Equipment Co., Ltd.",
+    "Nantong Tank Container Co., Ltd.",
+    "Rolls-Royce"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "GATX Corporation is a leading global railcar lessor, owning fleets in North America, Europe, and India."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our rail customers primarily operate in the transportation, chemical, petroleum, and food/agriculture industries."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Our rail customers primarily operate in the transportation, chemical, petroleum, and food/agriculture industries."
+    },
+    {
+      "tag": "other:agriculture",
+      "stance": "core_product",
+      "sentence": "Our rail customers primarily operate in the transportation, chemical, petroleum, and food/agriculture industries."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "In addition, through GATX Engine Leasing (\"GEL\"), our wholly owned aircraft spare engine leasing business, and our joint ventures with Rolls-Royce plc (or affiliates thereof, collectively Rolls-Royce ), we own one of the largest aircraft spare engine lease portfolios in the world."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we are unable to adequately protect our information technology systems against cybersecurity threats and related disruptions, our business could be negatively impacted."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "the use of emerging technologies, including AI, by us or our third-party providers may pose new or unforeseen cybersecurity risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Wells Fargo rail operating lease portfolio closed",
+      "date": "2026-01-01",
+      "sentence": "The transaction formally closed on January 1, 2026 and consisted of approximately 101,000 railcars for approximately $4.2 billion."
+    },
+    {
+      "event": "Acquisition of 5,882 railcars from DB Cargo AG",
+      "date": "2025-12-31",
+      "sentence": "In the fourth quarter of 2025, GATX Rail Europe acquired 5,882 railcars from DB Cargo AG."
+    },
+    {
+      "event": "Deliveries of 746 newly manufactured railcars to GRE",
+      "date": "2026-12-31",
+      "sentence": "As of December 31, 2025, GRE had commitments to acquire from third parties, primarily from Gök Yapi San. Tic. a.s., Greenbrier-Astra Rail, Duro Dakovic and Tatravagonka a.s., 746 newly manufactured railcars scheduled to be delivered in 2026."
+    },
+    {
+      "event": "Deliveries of 665 railcars to Rail India",
+      "date": "2026-12-31",
+      "sentence": "As of December 31, 2025, Rail India had entered into contracts to acquire 665 railcars to be delivered in 2026, all of which have committed leases in place with customers."
+    },
+    {
+      "event": "Deliveries of 930 tank containers to Trifleet",
+      "date": null,
+      "sentence": "As of December 31, 2025, Trifleet had commitments to acquire 930 newly manufactured tank containers from third-parties to be delivered in 2026 and 2027."
+    },
+    {
+      "event": "Scheduled deliveries of 6,000 tank cars under Trinity supply agreement",
+      "date": null,
+      "sentence": "Trinity is scheduled to deliver 6,000 tank cars (1,200 per year) from 2024 through 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:44:15.831Z",
+  "model": "deepseek-v4-flash"
+}

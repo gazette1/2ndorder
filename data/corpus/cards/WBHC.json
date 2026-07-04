@@ -1,0 +1,40 @@
+{
+  "cik": "0000885275",
+  "ticker": "WBHC",
+  "name": "WILSON BANK HOLDING CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-082893",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/885275/000119312526082893/ck0000885275-20251231.htm"
+  },
+  "business": "WILSON BANK HOLDING CO is a bank holding company that owns Wilson Bank and Trust, a Tennessee state-chartered community bank. The Bank offers a wide range of banking services including checking, savings, money market deposit accounts, certificates of deposit, and loans for consumer, commercial and real estate purposes, as well as custodial, trust, and brokerage services. The target market consists of local consumers, professionals, and small businesses in middle Tennessee.",
+  "sellsTo": [
+    "local consumers",
+    "professionals",
+    "small businesses",
+    "commercial clients",
+    "businesses and individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Raymond James Financial Services, Inc.",
+    "IntraFi Deposit Network"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Additionally, the Bank offers its targeted small business and commercial clients a comprehensive array of treasury management services. The Bank's treasury management services include, among other services, remote deposit services, which allow electronic deposits to be made from the client's place of business, online wire origination, enhanced ACH origination services, positive pay, zero balance and sweep accounts, automated bill pay services, electronic receivables processing, lockbox processing, merchant card acceptance services, small business and commercial credit cards corporate purchasing cards and virtual accounting/deposit escrow solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The vulnerability of the Company's network and online banking portals, and the systems of parties with whom the Company contracts, to unauthorized access, computer viruses, phishing schemes, social engineering, fraud, spam attacks, ransomware attacks, human error, natural disasters, power loss, and other security breaches."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:50:21.387Z",
+  "model": "deepseek-v4-flash"
+}

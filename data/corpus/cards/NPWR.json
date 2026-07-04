@@ -1,0 +1,104 @@
+{
+  "cik": "0001845437",
+  "ticker": "NPWR",
+  "name": "NET Power Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001845437-26-000009",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1845437/000184543726000009/npwr-20251231.htm"
+  },
+  "business": "Net Power is an energy technology and project development company focused on delivering low-carbon gas power solutions. It designs, develops, builds, owns and operates clean gas power plants using natural gas turbines paired with post-combustion carbon capture (PCC) technology, and also retains the Oxy-Combustion Cycle technology. The company monetizes electricity, captured CO2, and environmental attributes, selling to hyperscalers, data center co-locators, oil and gas companies, industrial companies, and electric utilities.",
+  "sellsTo": [
+    "hyperscalers",
+    "data center co-locators",
+    "oil and gas exploration and production and midstream companies",
+    "other industrial companies",
+    "electric utilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Entropy Inc.",
+    "Baker Hughes",
+    "Occidental Petroleum (OXY)",
+    "Air Liquide",
+    "8 Rivers"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Potential strategic power customers include hyperscalers, data center co-locators, oil and gas exploration and production and midstream companies, and other industrial companies."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Potential strategic power customers include hyperscalers, data center co-locators, oil and gas exploration and production and midstream companies, and other industrial companies."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The grid-connected end-market consists of selling power to end-use customers via competitive wholesale markets or electric utilities serving end use customers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "growing demand, due in part to the proliferation of artificial intelligence applications, have led data center companies to evaluate co-location of data centers with dedicated power generation facilities."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "core_product",
+      "sentence": "Our go-forward business model is to design, develop, build, own and operate clean gas power plants and monetize the products and attributes they generate, principally electricity, captured CO2, and environmental attributes."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "Our competitors are other power generation technologies, including traditional baseload generation, advanced nuclear, geothermal, renewables, and other lower-carbon generation and decarbonization solutions."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our competitors are other power generation technologies, including traditional baseload generation, advanced nuclear, geothermal, renewables, and other lower-carbon generation and decarbonization solutions."
+    },
+    {
+      "tag": "other:natural-gas",
+      "stance": "risk_mention",
+      "sentence": "The increased cost of natural gas and other raw materials, in isolation or relative to other energy sources, may adversely affect the potential profitability and cost effectiveness of our power plants."
+    },
+    {
+      "tag": "other:regulatory-incentives",
+      "stance": "risk_mention",
+      "sentence": "The 45Q federal tax credit, first enacted in 2008 as a part of the Energy Improvement and Extension Act, provides an incentive to capture CO2."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Final investment decision for Phase I of Project Permian",
+      "date": "2026-09-30",
+      "sentence": "Final investment decision (FID) for Phase I is expected in the third quarter of 2026 with targeted commercial operations by early 2029, which would make this project the first operating commercial clean gas power plant in the United States."
+    },
+    {
+      "event": "Purchase agreement for two modular gas turbine generator sets",
+      "date": "2025-11-12",
+      "sentence": "On November 12, 2025 we entered into an agreement to purchase two modular gas turbine generator sets (Gas Turbine Sets)."
+    },
+    {
+      "event": "Signed letter of intent with Entropy Inc. to license PCC technology",
+      "date": "2025-11-30",
+      "sentence": "In November 2025, Net Power signed a letter of intent with Entropy Inc. (Entropy), a provider of carbon capture technology, to negotiate one or more definitive agreements under which Net Power would, among other things, exclusively license and commercialize Entropy's PCC technology for power generation in the United States and to jointly develop power generation projects."
+    },
+    {
+      "event": "Suspension of further long-lead equipment releases for Oxy-Combustion Cycle project",
+      "date": "2025-03-31",
+      "sentence": "In March 2025, we suspended further long-lead equipment releases, but value engineering and certain development work continued into the third quarter of 2025."
+    },
+    {
+      "event": "Suspension of BHES Joint Development Agreement",
+      "date": "2026-01-31",
+      "sentence": "In January 2026, we agreed to suspend the BHES JDA until March 31, 2026 (subject to further extension upon agreement from both parties) while Baker Hughes evaluates the proposed development and commercialization of industrial-scale plants utilizing the Oxy-Combustion Cycle."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:31:40.492Z",
+  "model": "deepseek-v4-flash"
+}

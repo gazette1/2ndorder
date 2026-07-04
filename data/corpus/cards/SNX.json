@@ -1,0 +1,57 @@
+{
+  "cik": "0001177394",
+  "ticker": "SNX",
+  "name": "TD SYNNEX CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-003598",
+    "filedAt": "2026-01-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026003598/snx-20251130.htm"
+  },
+  "business": "TD SYNNEX Corp is a Fortune 100 global distributor and solutions aggregator for the IT ecosystem, distributing IT hardware, software, and systems including personal computing devices, datacenter infrastructure, cloud, security, networking, and hyperscale computing solutions. It also designs purpose-built server, storage, and networking solutions for the hyperscale computing market. The company operates in three reportable segments: Americas, Europe, and Asia-Pacific and Japan.",
+  "sellsTo": [
+    "value-added resellers (VARs)",
+    "independent software vendors (ISVs)",
+    "corporate resellers",
+    "government resellers",
+    "system integrators",
+    "direct marketers",
+    "retailers",
+    "managed service providers (MSPs)",
+    "large corporations or enterprises",
+    "federal, state and local governments",
+    "small- and medium-sized businesses (SMBs)",
+    "individual consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Apple Inc.",
+    "HP Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We offer a comprehensive catalog of more than 200,000 technology products ... including personal computing devices, mobile phones and accessories, and strategic technologies such as cloud, security, data analytics, AI and hyperscale computing infrastructure."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our Advanced Solutions portfolio primarily includes data center technologies such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure and hyperscale computing infrastructure, via our Hyve business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our Advanced Solutions portfolio primarily includes data center technologies such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure and hyperscale computing infrastructure, via our Hyve business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As end-users migrate to AI-enabled offerings, cloud-based IT infrastructure and technology-as-a-service, sales of hardware products may be reduced, thereby negatively impacting our operating results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:44:26.607Z",
+  "model": "deepseek-v4-flash"
+}

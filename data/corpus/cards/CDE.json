@@ -1,0 +1,59 @@
+{
+  "cik": "0000215466",
+  "ticker": "CDE",
+  "name": "Coeur Mining, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000215466-26-000004",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000004/cde-20251231.htm"
+  },
+  "business": "Coeur Mining, Inc. is a precious metals producer with assets in the United States, Canada, and Mexico. The company produces and sells gold and silver from five operating mines: Las Chispas, Palmarejo, Rochester, Kensington, and Wharf. It sells gold and silver bullion to multi-national banks, bullion trading houses, and refiners, and sells gold concentrate to third-party smelters under a long-term offtake agreement.",
+  "sellsTo": [
+    "multi-national banks",
+    "bullion trading houses",
+    "refiners",
+    "smelters"
+  ],
+  "namedCustomers": [
+    "Franco-Nevada"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We are primarily a gold and silver producer with operating assets located in the United States and Mexico and an exploration project in Canada."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "As a precious metals producer, we have the unique opportunity to supply the raw materials that are essential to economic growth and priorities, including in clean energy and technology sectors."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "With the upcoming acquisition of New Gold, our results of operations and cash flows will fluctuate as the prices of copper changes."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New Gold acquisition closes",
+      "date": "2026-06-30",
+      "sentence": "The New Gold Transaction is anticipated to close in the first half of 2026, subject to relevant regulatory approvals and routine closing conditions."
+    },
+    {
+      "event": "Wharf tertiary crusher commissioning",
+      "date": "2026-06-30",
+      "sentence": "Detailed engineering for the replacement crusher has been completed and a new tertiary crushing system is planned to be installed and commissioned during the second quarter of 2026."
+    },
+    {
+      "event": "Las Chispas permit amendment",
+      "date": "2026-11-30",
+      "sentence": "However, we are in the process of amending an operating permit at Las Chispas that is set to expire in November 2026, which is expected to support future planned activities."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:49:40.327Z",
+  "model": "deepseek-v4-flash"
+}

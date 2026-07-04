@@ -1,0 +1,53 @@
+{
+  "cik": "0001468174",
+  "ticker": "H",
+  "name": "Hyatt Hotels Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001468174-26-000007",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm"
+  },
+  "business": "Hyatt Hotels Corporation is a global hospitality company that manages, franchises, owns, and leases hotels and resorts, and provides distribution and destination management services through ALG Vacations and Mr & Mrs Smith. It sells to leisure and business travelers, property owners, franchisees, and corporate clients.",
+  "sellsTo": [
+    "leisure travelers",
+    "business travelers",
+    "property owners",
+    "franchisees",
+    "travel agencies",
+    "corporate clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-tools",
+      "stance": "active_investment",
+      "sentence": "We also evaluate, experiment with, and implement various artificial intelligence (\"AI\") tools or solutions to assist in these efforts and drive greater personalization for guests, members, and customers."
+    },
+    {
+      "tag": "other:ai-competition",
+      "stance": "risk_mention",
+      "sentence": "New distribution channels, including potential AI platforms, alternatives to traditional hotels, and industry consolidation among our competitors could have an adverse impact on consumer loyalty to our brands and hospitality-related businesses and may negatively impact our business."
+    },
+    {
+      "tag": "other:ai-competition",
+      "stance": "risk_mention",
+      "sentence": "Companies or websites that provide generative AI services and recommendations, including large language models (\"LLMs\") like ChatGPT, Claude, Gemini, Grok, and others, represent an additional source of competition because they may currently or in the future serve as alternative distribution channels."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber risk and the failure to maintain the integrity of customer, colleague, or Company data could adversely affect our business, harm our reputation, and/or subject us to costs, fines, penalties, investigations, enforcement actions, or lawsuits."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We are also subject to the risks associated with the physical effects of climate change, including changes in sea levels, water shortages, storms, flooding, droughts, wildfires, extreme temperature events, and other natural disasters."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:48:41.199Z",
+  "model": "deepseek-v4-flash"
+}

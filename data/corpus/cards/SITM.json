@@ -1,0 +1,109 @@
+{
+  "cik": "0001451809",
+  "ticker": "SITM",
+  "name": "SITIME Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001451809-26-000012",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000012/sitm-20251231.htm"
+  },
+  "business": "SiTime provides Precision Timing solutions, including oscillators, clock ICs, resonators, and synchronization software, to the global electronics industry. The company sells primarily through distributors and serves end markets such as AI, datacenter, communications, enterprise, automotive, industrial, aerospace/defense, mobile, IoT, and consumer. Its all-silicon solutions are based on MEMS, analog mixed-signal design, system-level integration, and software.",
+  "sellsTo": [
+    "artificial intelligence systems",
+    "datacenter",
+    "communications",
+    "enterprise",
+    "automotive",
+    "industrial",
+    "aerospace and defense",
+    "mobile",
+    "Internet of Things (IoT)",
+    "consumer"
+  ],
+  "namedCustomers": [
+    "Arrow Electronics, Inc.",
+    "Pernas Electronics Co. Ltd.",
+    "Quantek Technology Corporation",
+    "Apple Inc."
+  ],
+  "namedSuppliers": [
+    "Robert Bosch LLC",
+    "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "United Microelectronics Corporation (UMC)",
+    "Teledyne Digital Imaging Inc.",
+    "Advanced Semiconductor Engineering, Inc. (ASE)",
+    "Carsem (M) Sdn Bhd",
+    "United Test and Assembly Center Ltd. (UTAC)",
+    "Daishinku Corp.",
+    "Hana Semiconductor (Ayutthaya) Co., Ltd",
+    "STATS ChipPAC Pte Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our products have been designed into over 400 applications across our target markets, including artificial intelligence (\"AI\") systems, datacenter, communications, enterprise, automotive, industrial, aerospace, defense, mobile, Internet of Things (\"IoT\"), and consumer."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In 2025, we benefitted from the strong growth in AI datacenter deployments."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "In the Communications market, a 5G small cell radio mounted on a pole next to a road or rail line is subject to vibration of passing heavy trucks or trains."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our solutions are also utilized in automotive electronics, including advanced driver assistance systems (ADAS) for self-driving cars, which require increased timing accuracy."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "For the aerospace and defense market, our solutions provide high reliability and lower acceleration sensitivity for end products that operate in rugged conditions."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Timing devices used in aerospace and defense applications such as rockets and satellites need to withstand extreme vibration forces and temperature gradients during operation."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "For the industrial market, our products offer programmability and high reliability for the diverse operating conditions of industrial equipment, including high temperatures, mechanical shock, and vibration."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "For the mobile, IoT and consumer market, our timing solutions offer high performance at optimal power consumption and size, as our customers fit more functionality into smaller devices."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launched TimeFabric synchronization software suite",
+      "date": "2025-06-01",
+      "sentence": "In June 2025, we launched our suite of synchronization software, with the TimeFabric Software suite."
+    },
+    {
+      "event": "Announced Titan Platform in standalone resonator market",
+      "date": "2025-09-01",
+      "sentence": "In September 2025, we announced the Titan Platform in the standalone resonator market."
+    },
+    {
+      "event": "Entered into asset purchase agreement to acquire Renesas timing business",
+      "date": "2026-02-04",
+      "sentence": "On February 4, 2026, we entered into an asset purchase agreement (the \"Asset Purchase Agreement\") with Renesas Electronics America Inc., a California corporation (\"Renesas\"), pursuant to which Renesas will and will cause certain of its affiliates to sell, transfer, assign and convey to SiTime all of their right, title and interest in, to and under certain assets related to the timing business of Renesas Electronics Corporation for an aggregate purchase price of approximately $1,500.0 million in cash (\"Cash Consideration\") and 4.13 million shares of our common stock"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total timing market is approximately $11 billion in size and growing.",
+      "sentence": "We believe that the total timing market is approximately $11 billion in size and growing."
+    }
+  ],
+  "generatedAt": "2026-07-04T12:48:16.807Z",
+  "model": "deepseek-v4-flash"
+}

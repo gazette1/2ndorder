@@ -1,0 +1,57 @@
+{
+  "cik": "0001796514",
+  "ticker": "BTCT",
+  "name": "BTC Digital Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-24-032825",
+    "filedAt": "2024-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1796514/000121390024032825/ea0203493-10k_btcdigit.htm"
+  },
+  "business": "BTC Digital Ltd. is a crypto asset technology company focused on bitcoin mining, and also generates revenue through mining machines resale and rental business operations. The company operates 2,021 mining machines with a hash rate of 213 PH/s at a hosting facility in New Tazewell, Tennessee. As of December 31, 2023, it mined 99.7607 bitcoins and generated $2.9 million in mining revenue.",
+  "sellsTo": [
+    "cryptocurrency mining operations",
+    "mining machine buyers",
+    "mining machine rental customers"
+  ],
+  "namedCustomers": [
+    "Lobo Group Limited",
+    "DDACE LTD"
+  ],
+  "namedSuppliers": [
+    "AGM Technologies Ltd",
+    "Bitmain Technologies Ltd"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "we are a crypto asset technology company based in the U.S. with a focus on bitcoin mining."
+    },
+    {
+      "tag": "other:mining-machines-resale",
+      "stance": "core_product",
+      "sentence": "we also generate revenue through mining machines resale and rental business operations."
+    },
+    {
+      "tag": "other:mining-machines-rental",
+      "stance": "core_product",
+      "sentence": "we also generate revenue through mining machines resale and rental business operations."
+    },
+    {
+      "tag": "other:bitcoin-price-volatility",
+      "stance": "risk_mention",
+      "sentence": "Historically, the price of bitcoins has fluctuated significantly."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Asset purchase agreement for 2,000 T21 Miners",
+      "date": "2024-01-02",
+      "sentence": "On January 2, 2024 the Company has entered into an asset purchase agreement with BITMAIN TECHNOLOGIES DELAWARE LIMITED to acquire 2,000 units of T21 Miners for $5,320,000."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:03:10.210Z",
+  "model": "deepseek-v4-flash"
+}

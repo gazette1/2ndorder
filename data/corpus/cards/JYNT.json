@@ -1,0 +1,45 @@
+{
+  "cik": "0001612630",
+  "ticker": "JYNT",
+  "name": "JOINT Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001612630-26-000022",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1612630/000161263026000022/jynt-20251231.htm"
+  },
+  "business": "The Joint Corp is a franchisor and operator of chiropractic clinics using a private pay, non-insurance, cash-based model. It delivers chiropractic care through a network of franchised and company-owned clinics, generating system-wide sales of $532.4 million in 2025. The company targets consumers seeking affordable, convenient chiropractic services without appointments.",
+  "sellsTo": [
+    "patients (individual consumers)",
+    "franchisees (business operators)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "The nationwide labor shortage has negatively impacted our ability to recruit chiropractors and other qualified personnel, and the measures we have taken in response have reduced our net revenues."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our failure to comply with applicable federal and state data privacy and security laws could result in civil or criminal sanctions or damage awards, and the proliferation of such laws increases our costs of compliance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sign letter of intent with a new potential buyer for five corporate-owned or managed clinics in northern California",
+      "date": "2026-03-01",
+      "sentence": "In March 2026, we signed a letter of intent with a new potential buyer for five corporate-owned or managed clinics located in northern California."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Expenditures for chiropractic services in the U.S. are approximately $21.9 billion annually.",
+      "sentence": "According to a report issued by IBIS World Chiropractors Market Research in October 2025, expenditures for chiropractic services in the U.S. are approximately $21.9 billion annually."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:34:36.862Z",
+  "model": "deepseek-v4-flash"
+}

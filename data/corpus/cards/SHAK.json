@@ -1,0 +1,52 @@
+{
+  "cik": "0001620533",
+  "ticker": "SHAK",
+  "name": "Shake Shack Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001620533-26-000018",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000162053326000018/shak-20251231.htm"
+  },
+  "business": "Shake Shack serves modern, fun and elevated versions of American classics using only premium ingredients, including made-to-order 100% Angus beef burgers, crispy chicken, hand-spun milkshakes, house-made lemonades, beer, wine, and more. It sells to individual consumers through company-operated and licensed restaurants, as well as via digital ordering channels such as its app, website, and third-party delivery platforms.",
+  "sellsTo": [
+    "individual consumers",
+    "guests dining in Shacks",
+    "digital app users",
+    "delivery customers",
+    "licensed Shack patrons internationally"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Shake Shack serves modern, fun and elevated versions of American classics using only premium ingredients."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Digital sales includes orders placed on the Shake Shack app, website and third-party delivery platforms, which represented 39.1% and 37.0%, respectively, of Shack sales during the fiscal fourth quarter and fiscal year ended December 31, 2025."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We contract with one distributor, which we refer to as our \"broadline\" distributor, to provide virtually all of our food distribution services in the United States."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "As cybersecurity threats continue to increase in sophistication and frequency, we remained focused on strengthening our cyber maturity and safeguarding guest and Company data and continue to invest in our security and technology infrastructure and enhancing threat detection capabilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As artificial intelligence becomes more embedded in business operations, we expanded our governance framework for artificial intelligence technologies, including updating our business-use policy and implementing guardrails that promote responsible adoption in alignment with emerging regulatory expectations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:00:16.196Z",
+  "model": "deepseek-v4-flash"
+}

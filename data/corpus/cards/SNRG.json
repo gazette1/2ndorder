@@ -1,0 +1,64 @@
+{
+  "cik": "0001652539",
+  "ticker": "SNRG",
+  "name": "SusGlobal Energy Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001062993-25-009309",
+    "filedAt": "2025-05-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652539/000106299325009309/form10k.htm"
+  },
+  "business": "SusGlobal Energy Corp. is a renewables company focused on acquiring, developing and monetizing a global portfolio of proprietary technologies in the waste to energy and regenerative products application. The Company processes source separated organics in anaerobic digesters to recover biogas and produce organic compost and liquid fertilizer. It also generates and sells carbon credits from its composting facility. Its primary customers are municipalities in Ontario, Canada.",
+  "sellsTo": [
+    "municipalities",
+    "commercial organic waste sources",
+    "agriculture industry",
+    "wine industry",
+    "cannabis industry",
+    "lawn and garden consumer market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "SusGlobal is a renewables company focused on acquiring, developing and monetizing a global portfolio of proprietary technologies in the waste to energy and regenerative products application."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The convertibility of organic material into valuable end products such as biogas, liquid biofuels, organic fertilizers and compost shows the utility of renewables. These products can be converted into electricity, fuels and marketed to agricultural operations that are looking for an increase in crop yields, soil amendment and environmentally-sound practices."
+    },
+    {
+      "tag": "other:carbon-credits",
+      "stance": "core_product",
+      "sentence": "The Project generated approximately 137,000 VERRS from 2017 through 2022 with an approximate market value of between $3.30 (C$4.75) and $7.09 (C$10.20) per VERR."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Signed service agreement to rehabilitate Belleville facility to operational readiness",
+      "date": "2025-03-10",
+      "sentence": "On March 10, 2025, the Company signed a service agreement which provides for the overall rehabilitation to operational readiness of the Company's Belleville facility in Belleville, Ontario Canada (the 'Belleville Facility')."
+    },
+    {
+      "event": "Sale of first carbon credits from Belleville Facility",
+      "date": "2024-10-22",
+      "sentence": "On October 22, 2024, the Company generated revenue of $42,715 (C$57,660), from the sale of 16,000 carbon credits from its Belleville Facility."
+    },
+    {
+      "event": "Purchase of additional land in Hamilton, Ontario",
+      "date": "2023-11-02",
+      "sentence": "On November 2, 2023, the Company completed the purchase of additional land, consisting of a 2.03-acre site in Hamilton, Ontario, Canada for $2,292,760 (C$3,100,000)."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Market value of VERRS between $3.30 and $7.09 per VERR",
+      "sentence": "The Project generated approximately 137,000 VERRS from 2017 through 2022 with an approximate market value of between $3.30 (C$4.75) and $7.09 (C$10.20) per VERR."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:19:40.521Z",
+  "model": "deepseek-v4-flash"
+}

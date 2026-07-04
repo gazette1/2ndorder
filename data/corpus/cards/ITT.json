@@ -1,0 +1,83 @@
+{
+  "cik": "0000216228",
+  "ticker": "ITT",
+  "name": "ITT INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000216228-26-000012",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000012/itt-20251231.htm"
+  },
+  "business": "ITT Inc. is a diversified manufacturer of highly engineered critical components and customized technology solutions for the transportation, industrial and energy markets. Its product and service offerings are organized into three segments: Motion Technologies (MT), Industrial Process (IP), and Connect & Control Technologies (CCT). The company manufactures key components that are integral to the operation of systems and manufacturing processes in the markets it serves.",
+  "sellsTo": [
+    "transportation markets",
+    "industrial markets",
+    "energy markets",
+    "automotive industry",
+    "aerospace and defense markets",
+    "government customers",
+    "chemical industry",
+    "mining industry"
+  ],
+  "namedCustomers": [
+    "Aumovio SE"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "organic revenue increased $51.5, or 6.2%, reflecting growth in connectors of 5% and components of 7%, primarily within the aerospace and defense markets."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "organic revenue increased $51.5, or 6.2%, reflecting growth in connectors of 5% and components of 7%, primarily within the aerospace and defense markets."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Revenue growth was partially offset by slower demand for electric vehicle charging applications."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our customers' businesses, particularly those in the energy, chemical and mining industries, which represented approximately 16%, 9%, and 3%, respectively, of our 2025 revenue."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Our customers' businesses, particularly those in the energy, chemical and mining industries, which represented approximately 16%, 9%, and 3%, respectively, of our 2025 revenue."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Our customers' businesses, particularly those in the energy, chemical and mining industries, which represented approximately 16%, 9%, and 3%, respectively, of our 2025 revenue."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We may leverage machine learning (ML) and artificial intelligence (AI), including generative AI (GenAI), in our business to improve efficiency and innovation within our operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The integration of artificial intelligence (\"AI\") into our engineering and manufacturing processes could amplify cybersecurity risks, including unauthorized access to proprietary data and disruption of production systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The efficient operation of our business is dependent on information technology (IT) systems, some of which are owned or managed by third parties... which may be susceptible to damage, disruptions or shutdowns due to power outages, hardware failures, telecommunication failures, cybersecurity incidents and user errors that may affect our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Agreement to acquire SPX FLOW",
+      "date": "2025-12-04",
+      "sentence": "On December 4, 2025, we entered into the Purchase Agreement for the acquisition of SPX FLOW"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:50:04.433Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,60 @@
+{
+  "cik": "0001270436",
+  "ticker": "COHN",
+  "name": "Cohen & Co Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007157",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1270436/000143774926007157/cohn20251231_10k.htm"
+  },
+  "business": "Cohen & Co Inc. is a financial services company specializing in capital markets and asset management services. Its Capital Markets segment provides sales, trading, underwriting, advisory, and SPAC advisory services. The Asset Management segment manages investment vehicles such as funds and CDOs.",
+  "sellsTo": [
+    "corporate investors",
+    "institutional investors",
+    "mortgage originators",
+    "other smaller broker-dealers",
+    "corporations",
+    "financial sponsors",
+    "institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "CCM is one of the most active SPAC advisors on Wall Street with differentiated and inventive products for clients, and a focus on frontier technologies, digital assets, energy transition, and natural resources."
+    },
+    {
+      "tag": "other:energy-transition",
+      "stance": "core_product",
+      "sentence": "CCM is one of the most active SPAC advisors on Wall Street with differentiated and inventive products for clients, and a focus on frontier technologies, digital assets, energy transition, and natural resources."
+    },
+    {
+      "tag": "other:spac",
+      "stance": "core_product",
+      "sentence": "CCM is one of the most active SPAC advisors on Wall Street with differentiated and inventive products for clients, and a focus on frontier technologies, digital assets, energy transition, and natural resources."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Our mortgage group's revenue is highly dependent on the volume of mortgage originations in the U.S."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "ProCap Financial, Inc. (NASDAQ: BRR), a bitcoin native financial services firm."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Columbus Circle Capital Corp. II completed $230 million IPO",
+      "date": "2026-02-01",
+      "sentence": "Our fifth sponsored SPAC, Columbus Circle Capital Corp. II (NASDAQ: CMIIU), completed its $230 million IPO in February 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:26:25.300Z",
+  "model": "deepseek-v4-flash"
+}

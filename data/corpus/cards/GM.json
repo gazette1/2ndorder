@@ -1,0 +1,66 @@
+{
+  "cik": "0001467858",
+  "ticker": "GM",
+  "name": "General Motors Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001467858-26-000013",
+    "filedAt": "2026-01-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm"
+  },
+  "business": "General Motors designs, manufactures, and sells vehicles under the Chevrolet, GMC, Cadillac, and Buick brands, including internal combustion engine (ICE) and electric vehicles (EVs). It also provides automotive financing services through its subsidiary GM Financial. Products are sold through a network of independent authorized dealers and to fleet customers.",
+  "sellsTo": [
+    "retail consumers",
+    "fleet customers (daily rental, commercial, government)",
+    "independent authorized dealers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our EV portfolio has achieved significant market growth with strong positioning in the U.S. market."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "core_product",
+      "sentence": "We are developing advanced driver assistance and autonomous vehicle (AV) technology to help eliminate human driving error, save lives, and improve mobility for everyone."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Our EV portfolio takes advantage of integrated supply chain development, including battery cell production from Ultium Cells Holdings LLC (a joint venture with LG Energy Solution) in plants in Warren, Ohio and Spring Hill, Tennessee."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "active_investment",
+      "sentence": "This includes securing supply through offtake agreements for raw materials and derivatives thereof, such as lithium, cathode active material, manganese, synthetic and natural graphite, nickel, cobalt, rare earth elements, and permanent motor magnets."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We purchase a wide variety of raw materials, systems, components, parts, supplies, semiconductors, energy, freight, transportation, and other services from numerous suppliers to manufacture our products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We recognize the importance of assessing, identifying, and managing material risks associated with cybersecurity threats."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital spending on battery cell joint ventures in 2026",
+      "date": "2026",
+      "sentence": "Our known current material uses of cash include, among other possible demands: (1) capital spending and our investments in our battery cell manufacturing joint ventures of approximately $10.0 billion to $12.0 billion in 2026;"
+    },
+    {
+      "event": "Capital investment to onshore production and new V8 engine",
+      "date": null,
+      "sentence": "In 2025, we announced our plan to spend approximately $4.0 billion in capital investments to onshore production at plants in Tennessee, Kansas, and Michigan over the next two years and nearly $1.0 billion to build a new generation of advanced, fuel-efficient V8 engines in New York."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:10:38.569Z",
+  "model": "deepseek-v4-flash"
+}

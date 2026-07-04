@@ -1,0 +1,56 @@
+{
+  "cik": "0001836833",
+  "ticker": "PL",
+  "name": "Planet Labs PBC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-119957",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm"
+  },
+  "business": "Planet Labs sells satellite imagery, analytics, satellite services, and AI-enabled solutions. It serves large enterprises and U.S. and foreign governmental entities.",
+  "sellsTo": [
+    "large enterprises",
+    "U.S. and foreign governmental entities",
+    "commercial customers",
+    "international customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Our research and development objectives focus on the development of our satellites, some of which we sell to customers, and our other offerings."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Our ability to grow our business depends on the successful development, production, launch, commissioning and/or operation of our satellites and related infrastructure, which is subject to many uncertainties, some of which are beyond our control."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "customer retention and expansion may depend on our ability to consistently demonstrate the value and reliability of our AI-enabled solutions, as well as the satellites and managed services associated with our satellite services offerings."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our satellites employ advanced technologies and sensors that are exposed to severe environmental stresses during launch and in space that could affect our satellites performance."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "we have used our constellation of satellites and platform to capture and analyze images of missile silos and human rights abuses in foreign countries, among other things that may be sensitive to certain entities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our or our third-party service providers' ability to protect against cybersecurity related attacks"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:10:38.912Z",
+  "model": "deepseek-v4-flash"
+}

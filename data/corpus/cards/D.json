@@ -1,0 +1,71 @@
+{
+  "cik": "0000715957",
+  "ticker": "D",
+  "name": "DOMINION ENERGY, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-063120",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm"
+  },
+  "business": "The accounting for Dominion Energy's regulated electric and gas operations differs from the accounting for nonregulated operations in that Dominion Energy is required to reflect the effect of rate regulation in its Consolidated Financial Statements.",
+  "sellsTo": [
+    "electric utility retail customers",
+    "gas utility customers",
+    "large commercial and industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Risks and uncertainties associated with increased energy demand or significant accelerated growth in demand due to new data centers, including the concentration of data centers primarily in Loudoun County, Virginia and the ability to obtain regulatory approvals, environmental and other permits to construct new facilities in a timely manner;"
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "The technological and economic feasibility of large-scale battery storage, carbon capture and storage, small modular reactors, hydrogen and/or other clean energy technologies;"
+    },
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Dominion Energy's AROs include a significant balance related to the future decommissioning of its nonregulated and utility nuclear facilities."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Dominion Energy recorded a net $258 million ($192 million after-tax) of charges for Virginia Power's share of costs not expected to be recovered from customers on the CVOW Commercial Project as a result of a revised total project cost estimate of approximately $11.5 billion (excluding financing costs) which reflects a temporary suspension of work order and an estimated impact of certain tariffs which became effective during 2025 as well as the previously included revised estimate of network upgrade costs assigned by PJM to the CVOW Commercial Project and cost sharing mechanism included in the Virginia Commission's December 2022 order."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Competition in the development, construction and ownership of certain electric transmission facilities in the Companies service territory in connection with Order 1000;"
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "For regulated businesses subject to federal or state cost-of-service rate regulation, regulatory practices that assign costs to accounting periods may differ from accounting methods generally applied by nonregulated companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Domestic terrorism and other threats to the Companies physical and intangible assets, as well as cybersecurity threats or incidents;"
+    },
+    {
+      "tag": "other:hydrogen",
+      "stance": "risk_mention",
+      "sentence": "The technological and economic feasibility of large-scale battery storage, carbon capture and storage, small modular reactors, hydrogen and/or other clean energy technologies;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "U.S. Supreme Court ruling on tariffs",
+      "date": "2026-02-20",
+      "sentence": "Dominion Energy is currently unable to estimate the expected impact of the ruling issued by the U.S. Supreme Court on February 20, 2026, on its financial position, results of operations and/or cash flows."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:13:54.248Z",
+  "model": "deepseek-v4-flash"
+}

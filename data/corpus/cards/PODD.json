@@ -1,0 +1,87 @@
+{
+  "cik": "0001145197",
+  "ticker": "PODD",
+  "name": "INSULET CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001145197-26-000028",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000028/podd-20251231.htm"
+  },
+  "business": "Insulet Corporation is primarily engaged in the development, manufacture, and sale of its proprietary continuous insulin delivery systems for people with insulin-dependent diabetes. The Omnipod platform includes the Omnipod 5, Omnipod DASH, and Classic Omnipod. We also produce pods for Amgen for use in the Neulasta Onpro kit.",
+  "sellsTo": [
+    "wholesalers",
+    "healthcare organizations",
+    "pharmacies",
+    "consumers",
+    "distributors/intermediaries"
+  ],
+  "namedCustomers": [
+    "Amgen"
+  ],
+  "namedSuppliers": [
+    "Dexcom, Inc.",
+    "Abbott Diabetes Care, Inc.",
+    "Glooko Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Insulet Corporation is primarily engaged in the development, manufacture, and sale of its proprietary continuous insulin delivery systems for people with insulin-dependent diabetes."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "In 2026, we launched Omnipod Discover, a data analytics and reporting platform designed to give users, their caregivers, and health care providers actionable insights."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Security Paramount to our ability to deliver full compatible smartphone control is our commitment to cybersecurity and information security."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Pod currently integrates with Dexcom, Inc.'s G6 and G7 CGMs and with Abbott Diabetes Care, Inc.'s FreeStyle Libre 2 Plus sensor in various markets."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "AI systems are currently deployed in our business operations and any additional AI systems to the extent developed or deployed in our business operations or in our products, we will be subject to AI regulations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Start U.S. IDE pivotal study for fully closed loop AID system for type 2 diabetes",
+      "date": "2026",
+      "sentence": "we plan to start the U.S. investigational device exemption (IDE) pivotal study in 2026."
+    },
+    {
+      "event": "Share repurchase of $300 million",
+      "date": "2026-03-31",
+      "sentence": "We plan to utilize $300 million of existing cash to repurchase shares in the first quarter of 2026."
+    },
+    {
+      "event": "Launch of Omnipod Discover data analytics platform",
+      "date": "2026",
+      "sentence": "In 2026, we launched Omnipod Discover, a data analytics and reporting platform designed to give users, their caregivers, and health care providers actionable insights."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 6 million people have type 1 diabetes in the countries we currently serve.",
+      "sentence": "We estimate that approximately 6 million people have type 1 diabetes in the countries we currently serve."
+    },
+    {
+      "claim": "Approximately 6 million people have insulin-requiring type 2 diabetes in the countries we currently serve.",
+      "sentence": "We estimate that approximately 6 million people have insulin-requiring type 2 diabetes in the countries we currently serve and another 3 million people with type 2 diabetes in the United States require only basal insulin."
+    },
+    {
+      "claim": "Approximately 40% of the type 1 diabetes population in the United States and 25% of the international type 1 diabetes population use insulin pump therapy.",
+      "sentence": "We estimate that approximately 40% of the type 1 diabetes population in the United States and 25% of the international type 1 diabetes population use insulin pump therapy."
+    }
+  ],
+  "generatedAt": "2026-07-04T13:11:41.759Z",
+  "model": "deepseek-v4-flash"
+}

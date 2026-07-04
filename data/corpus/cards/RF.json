@@ -1,0 +1,42 @@
+{
+  "cik": "0001281761",
+  "ticker": "RF",
+  "name": "REGIONS FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001281761-26-000019",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm"
+  },
+  "business": "Regions Financial Corporation is a financial holding company providing retail and mortgage banking, commercial banking, and wealth and investment services primarily in the South, Midwest, and Texas. It also offers specialty capabilities such as merger and acquisition advisory, capital markets solutions, home improvement lending, investment advisory, and equipment financing. At December 31, 2025, it had $158.8 billion in total consolidated assets and $131.1 billion in deposits.",
+  "sellsTo": [
+    "retail customers",
+    "commercial clients",
+    "wealth management clients",
+    "mortgage customers",
+    "small business customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are at risk of a variety of systems failures or errors and cyber-attacks or other similar incidents that could adversely affect customer experience and our business and financial performance."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Industry competition, including competition from decentralized finance platforms, cryptocurrencies and blockchain technologies, could disrupt our business model and adversely affect our revenues, market share or liquidity."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:36:07.692Z",
+  "model": "deepseek-v4-flash"
+}

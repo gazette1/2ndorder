@@ -1,0 +1,79 @@
+{
+  "cik": "0001739104",
+  "ticker": "ELAN",
+  "name": "Elanco Animal Health Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001739104-26-000012",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000012/elan-20251231.htm"
+  },
+  "business": "Elanco is a global leader in animal health, selling products to prevent and treat disease in farm animals and pets. It offers a diverse portfolio of pet health products (parasiticides, dermatology, vaccines, pain therapeutics) and farm animal products (antibiotics, vaccines, feed additives).",
+  "sellsTo": [
+    "third-party distributors",
+    "retailers",
+    "veterinarians",
+    "farm animal producers"
+  ],
+  "namedCustomers": [
+    "Cencora, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our pet health products help pets live longer, healthier and more active lives. Our global pet health portfolio is focused on parasiticides, dermatology, vaccines and pain/other therapeutics."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our farm animal products help producers improve animal health and wellbeing and raise livestock more sustainably, delivering more food while using fewer resources and enhancing the integrity of the food supply."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We have one of the broadest parasiticide portfolios in the pet health market based on indications, species and formulations, with products that protect pets from fleas, ticks and internal parasites. Our Advantage Family of brands (Advantage, K-9 Advantix, Advocate, AdTab, among others) and Seresto products are over-the-counter treatments."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "We use machine learning and artificial intelligence (AI) in our business, and challenges with properly managing its use could result in operational, competitive or reputational harm and legal liability."
+    },
+    {
+      "tag": "other:antibiotic-resistance",
+      "stance": "risk_mention",
+      "sentence": "Concerns that the use of antibiotics in farm animal production may contribute to increased antibiotic resistance of human pathogens have resulted in regulation and changing market demand."
+    },
+    {
+      "tag": "other:sustainability",
+      "stance": "core_product",
+      "sentence": "Bovaer: In May 2024, the U.S. Food & Drug Administration (FDA) completed its comprehensive, multi-year review of Bovaer (3-NOP), a first-in-class methane-reducing feed ingredient for use in lactating dairy cattle."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Befrena",
+      "date": "2026-Q2",
+      "sentence": "We anticipate launching Befrena in the second quarter of 2026."
+    },
+    {
+      "event": "Closure of animal study facility in Monheim, Germany",
+      "date": "2026-12-31",
+      "sentence": "we anticipate closing our animal study facility, which held a portion of our labs in Monheim, Germany, by the end of 2026."
+    },
+    {
+      "event": "Closure of manufacturing facility in Kansas City, Kansas",
+      "date": "2026-12-31",
+      "sentence": "we anticipate closing our Kansas City manufacturing facility by the end of 2026."
+    },
+    {
+      "event": "Cost savings from 2025 Restructuring Plan",
+      "date": "2026-12-31",
+      "sentence": "The 2025 Restructuring Plan is expected to result in savings of approximately $25 million in 2026 and approximately $60 million in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:07:35.569Z",
+  "model": "deepseek-v4-flash"
+}

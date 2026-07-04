@@ -1,0 +1,60 @@
+{
+  "cik": "0000825324",
+  "ticker": "GTIM",
+  "name": "Good Times Restaurants Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001214659-25-018518",
+    "filedAt": "2025-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/825324/000121465925018518/gtim-20250930.htm"
+  },
+  "business": "Good Times Restaurants Inc. operates Bad Daddy's Burger Bar and Good Times Burgers & Frozen Custard restaurants. Bad Daddy's is a full-service casual dining burger bar, while Good Times is a quick-service drive-thru concept focusing on all-natural burgers, fries, and frozen custard. The company sells to consumers through dine-in, drive-thru, carry-out, and delivery.",
+  "sellsTo": [
+    "consumers",
+    "casual dining patrons",
+    "drive-thru customers",
+    "off-premises customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "US Foods",
+    "Meyer",
+    "Springer Mountain Farms"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our Company Good Times Restaurants Inc., a Nevada corporation formed on October 6, 1996, operates Bad Daddy s Burger Bar restaurants ( Bad Daddy s ) and Good Times Burgers & Frozen Custard restaurants ( Good Times )."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "The inability to recruit and retain these individuals may delay the planned openings of new restaurants or result in high employee turnover in existing restaurants, which could harm our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches of confidential customer information in connection with our electronic processing of credit and debit card transactions may adversely affect our business."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Macroeconomic conditions and inflation could affect our operating results."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Tariffs that are implemented or merely threatened may increase the cost of commodities we purchase for use in our restaurants."
+    },
+    {
+      "tag": "other:food-safety",
+      "stance": "risk_mention",
+      "sentence": "Concerns relating to food safety, food-borne illness, pandemics and other diseases could reduce customer traffic to our restaurants."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:47:54.349Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001908984",
+  "ticker": "ENDI",
+  "name": "ENDI Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-24-012465",
+    "filedAt": "2024-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1908984/000149315224012465/form10-k.htm"
+  },
+  "business": "ENDI Corp. operates through four reportable segments: CrossingBridge Operations provides investment advisory and sub-advisory services to mutual funds and ETFs; Willow Oak Operations offers operational support services to independent asset managers through minority stakes and service contracts; Internet Operations sells internet access, email hosting, web hosting, and related services to consumers and businesses; Other Operations includes nonrecurring strategic funding and corporate activities.",
+  "sellsTo": [
+    "mutual funds and ETFs",
+    "independent asset managers",
+    "consumers and businesses (internet services)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Sitestar.net is an internet service provider (ISP) that offers consumer and business-grade internet access, e-mail hosting and storage, wholesale managed modem services, web hosting, third-party software as a reseller, and various ancillary services."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "active_investment",
+      "sentence": "eBuild Ventures, LLC ( eBuild ) on the Closing Date. eBuild acquires, or provides growth equity to, consumer product businesses in the digital or brick and mortar marketplaces."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "active_investment",
+      "sentence": "On September 8, 2022, through eBuild, we made a capital contribution of $450,000, representing approximately a 10% ownership stake, in a start-up phase private company that operates in the consumer beverage product space."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "On March 16, 2023, through eBuild, we made a conditional shareholder contribution of $955,266 and were issued approximately a 3% ownership stake in a private company that operates in the consumer products e-commerce space fulfilled by Amazon."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of UCITS fund – CrossingBridge Low Duration High Income Fund",
+      "date": "2023-10-23",
+      "sentence": "On October 23, 2023, CrossingBridge Advisors launched a UCITS fund, the CrossingBridge Low Duration High Income Fund (the CB UCITS Fund ), as a global expansion of CrossingBridge s product offering."
+    },
+    {
+      "event": "CBA becomes sub-adviser to RiverPark Short Term High Yield Fund",
+      "date": "2024-03-09",
+      "sentence": "On March 9, 2024, CBA replaced its affiliate Cohanzick as the Sub-Adviser to the RiverPark Short Term High Yield Fund (the RiverPark Fund )."
+    },
+    {
+      "event": "Cohanzick assigns advisory contracts to CBA; CBA issues promissory note for $10,000,000",
+      "date": "2024-03-08",
+      "sentence": "On March 8, 2024, Cohanzick entered into an agreement with CBA to assign all other investment advisory contracts and additional assets, and CBA assumed certain liabilities arising from such advisory contracts."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:51:01.404Z",
+  "model": "deepseek-v4-flash"
+}

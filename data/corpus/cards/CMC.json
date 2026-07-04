@@ -1,0 +1,73 @@
+{
+  "cik": "0000022444",
+  "ticker": "CMC",
+  "name": "COMMERCIAL METALS Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000022444-25-000138",
+    "filedAt": "2025-10-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/22444/000002244425000138/cmc-20250831.htm"
+  },
+  "business": "COMMERCIAL METALS Co provides products and technologies to meet the critical reinforcement needs of the global construction sector, including infrastructure, non-residential, residential, industrial and energy generation and transmission. The company operates through three reportable segments: North America Steel Group, Emerging Businesses Group and Europe Steel Group. Products include rebar, merchant bar, wire rod, fabricated rebar, and construction-related solutions such as geogrids and foundation systems.",
+  "sellsTo": [
+    "construction sector",
+    "infrastructure projects",
+    "non-residential construction",
+    "residential construction",
+    "industrial construction",
+    "energy generation and transmission",
+    "metals service centers",
+    "original equipment manufacturers",
+    "agricultural industry",
+    "petrochemical industry"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "CMC's solutions support early-stage construction across a wide variety of applications, including infrastructure, non-residential, residential, industrial and energy generation and transmission."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the rapid expansion of data centers driven by growing demand for cloud services, artificial intelligence and other digital infrastructure is expected to significantly increase electric power consumption, which could impact energy availability and pricing for industrial users, including steel producers."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Our 42 scrap metal recycling facilities, primarily located in the southeast and central U.S., process ferrous and nonferrous scrap metals."
+    },
+    {
+      "tag": "other:recycling",
+      "stance": "core_product",
+      "sentence": "From our inception, our business model has been strategically built on sustainable principles, including recycling metals, manufacturing products from approximately 98% recycled material using energy-efficient technology and employing closed-loop water recycling processes."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "CMC Impact Metals operations manufacture heat-treated, high-strength steel products, such as high-strength bar for the truck trailer industry, special bar quality steel for the energy market and armor plate for military vehicles."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Start of melt shop production at the fourth micro mill in Berkeley County, West Virginia",
+      "date": "2026",
+      "sentence": "We expect to begin melt shop production at this micro mill during 2026."
+    },
+    {
+      "event": "Closing of CP&P Acquisition",
+      "date": "2025-12",
+      "sentence": "We expect the CP&P Acquisition to close in December 2025, subject to customary regulatory review and closing conditions."
+    },
+    {
+      "event": "Closing of Foley Acquisition",
+      "date": "2025-12",
+      "sentence": "We expect the Foley Acquisition to close by the end of calendar 2025, subject to customary regulatory review and closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:37:18.439Z",
+  "model": "deepseek-v4-flash"
+}

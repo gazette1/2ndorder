@@ -1,0 +1,58 @@
+{
+  "cik": "0002012383",
+  "ticker": "BLK",
+  "name": "BlackRock, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071966",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+  },
+  "business": "BlackRock offers investment management and technology services, including investment advisory, administration, securities lending, performance fees, technology services and subscriptions, and distribution fees, to institutional and retail clients globally.",
+  "sellsTo": [
+    "banks",
+    "insurance companies",
+    "official institutions",
+    "pension funds",
+    "asset managers",
+    "retail distributors",
+    "other investors",
+    "institutional investors",
+    "retail investors",
+    "wealth management intermediaries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "BlackRock is a top independent manager of assets for insurance companies, which accounted for $720 billion, or 12%, of long-term institutional AUM at year-end 2025."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "BlackRock has made minority investments in financial technology and digital distribution providers, data and whole portfolio capabilities including Viridium, Generation Life, Securitize, Upvest, Avaloq, Human Interest, Circle, Clarity AI, Envestnet, Acorns, Scalable Capital and iCapital."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Company's digital assets products consist of Bitcoin ETPs listed in the US, Canada, Europe, the United Kingdom (\"UK\"), and Australia, and an Ethereum ETP listed in the US."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "BlackRock is focused on enhancing Aladdin, with continued investment into areas such as AI, whole portfolio, private markets, and wealth."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board of Directors authorized repurchase of additional seven million shares",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, the Company announced that the Board of Directors authorized the repurchase of an additional seven million shares under the Company's existing share repurchase program for a total of up to approximately 9.2 million shares of BlackRock common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:56:00.933Z",
+  "model": "deepseek-v4-flash"
+}

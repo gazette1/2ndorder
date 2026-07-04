@@ -1,0 +1,88 @@
+{
+  "cik": "0002026478",
+  "ticker": "NMAX",
+  "name": "Newsmax Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002026478-26-000026",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2026478/000202647826000026/nmax-20251231.htm"
+  },
+  "business": "Newsmax Inc. is a television broadcaster and multi-platform content publisher that produces original news and editorial content for consumers through various media outlets, including TV news channels, digital and print publications, its website Newsmax.com, syndicated radio show and podcasts, and social media platforms. It generates revenue by selling advertising to third-party marketers, offering paid subscriptions to digital and print products, charging affiliate fees to multichannel video programming distributors (MVPDs), and selling e-commerce products such as nutraceuticals and books. The company targets viewers and readers aged 45 and older, who hold over 70% of the nation's disposable income.",
+  "sellsTo": [
+    "Advertisers",
+    "MVPDs (multichannel video programming distributors)",
+    "Consumers (via subscriptions and e-commerce)",
+    "International licensees"
+  ],
+  "namedCustomers": [
+    "DirecTV",
+    "Dish",
+    "Comcast/Xfinity",
+    "Charter/Spectrum",
+    "Verizon",
+    "Samsung",
+    "Vizio",
+    "LG",
+    "Xumo",
+    "Roku",
+    "Pluto",
+    "Free TV (France)",
+    "HOT (Israel)",
+    "PrimeTel (Cyprus)",
+    "Supercanal (Dominican Republic)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Newsmax Inc. is a television broadcaster and multi-platform content publisher that produces original news and editorial content for consumers through various media outlets, including through its TV news channels, digital and print publications, its website Newsmax.com and affiliated sites, its syndicated radio show and podcasts, social media accounts, and other platforms in order to sell advertising to third-party marketers as well as offering paid subscriptions to more than a dozen digital and print products sold by Newsmax Media."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Medix Select sells 22 nutraceutical products aimed at Newsmax Media's core demographic of consumers and cross-sold through its health newsletters."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Crown Atlantic Insurance is an insurance agency licensed in 50 states of the U.S. and the District of Columbia with an emphasis on life insurance and retirement solutions."
+    },
+    {
+      "tag": "other:international-expansion",
+      "stance": "core_product",
+      "sentence": "During 2025, we executed new multi-year distribution agreements with Free TV in France, HOT in Israel, and PrimeTel in Cyprus, strengthening Newsmax's presence across Western Europe and the eastern Mediterranean."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "Consumers are increasingly turning to alternative offerings, including Subscription Video on Demand (SVOD) and Advertising Video on Demand (AVOD) services and mobile and social media platforms, which has contributed to industry-wide declines in subscribers to traditional MVPD services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dominion settlement payment installment 2",
+      "date": "2026-01-15",
+      "sentence": "The payments will be made in three installments: (1) $27.0 million was paid on August 15, 2025; (2) $20.0 million on or before January 15, 2026; and (3) $20.0 million on or before January 15, 2027."
+    },
+    {
+      "event": "Dominion settlement payment installment 3",
+      "date": "2027-01-15",
+      "sentence": "The payments will be made in three installments: (1) $27.0 million was paid on August 15, 2025; (2) $20.0 million on or before January 15, 2026; and (3) $20.0 million on or before January 15, 2027."
+    },
+    {
+      "event": "Launch of Newsmax Ukraine localised channel",
+      "date": null,
+      "sentence": "The Company has also executed a brand license agreement to launch Newsmax Ukraine, a localized channel expected to go live in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The target demographic (45+) holds more than 70% of the nation's disposable income.",
+      "sentence": "predominantly viewers (and readers) who are 45 years of age or older, which is the largest demographic group in the nation, holding more than 70% of the nation's disposable income."
+    }
+  ],
+  "generatedAt": "2026-07-04T14:06:08.791Z",
+  "model": "deepseek-v4-flash"
+}

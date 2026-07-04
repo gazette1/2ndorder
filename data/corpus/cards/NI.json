@@ -1,0 +1,99 @@
+{
+  "cik": "0001111711",
+  "ticker": "NI",
+  "name": "NISOURCE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001111711-26-000027",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000027/nix-20251231.htm"
+  },
+  "business": "NiSource Inc. is an energy holding company whose primary subsidiaries are fully regulated natural gas and electric utility companies serving approximately 3.8 million customers in six states. It operates two reportable segments: Columbia Operations (natural gas distribution) and NIPSCO Operations (gas and electric utility in northern Indiana). The company also develops generation resources to serve data center customers through its subsidiary GenCo.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "industrial customers",
+    "data center customers"
+  ],
+  "namedCustomers": [
+    "ADS (a wholly-owned subsidiary of Amazon.com, Inc.)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "NiSource Inc. is an energy holding company under the Public Utility Holding Company Act of 2005 whose primary subsidiaries are fully regulated natural gas and electric utility companies, serving approximately 3.8 million customers in six states."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In 2025, we entered into the ADS Contract, a customized agreement under which NIPSCO will provide electric service to ADS by procuring power from GenCo, which will develop related generation assets, and we expect our data center operations to continue to grow."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, we have placed in service owned renewable and storage projects with combined nameplate capacities of 1,950 MW and 101 MW respectively."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "GenCo plans to construct 400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "Our transmission system, has voltages from 69,000 to 765,000 volts, and consists of approximately 3,000 circuit miles."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "We operate 65 transmission and 240 distribution substations, and own approximately 312,500 poles."
+    },
+    {
+      "tag": "coal",
+      "stance": "risk_mention",
+      "sentence": "The Michigan City coal facility is scheduled to be retired by the end of 2028."
+    },
+    {
+      "tag": "natural-gas",
+      "stance": "core_product",
+      "sentence": "Columbia Operations provides natural gas to approximately 2.4 million residential, commercial and industrial customers in Ohio, Pennsylvania, Virginia, Kentucky, and Maryland."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Place into service renewable generation facilities (Dunn's Bridge II, Fairbanks, Gibson, Appleseed, Carpenter) in 2025",
+      "date": null,
+      "sentence": "Since 2020, five PPA projects (three wind and two solar) and eight owned projects (two wind, four solar and two solar plus storage) have been placed into service totaling approximately 3,246 MW of nameplate capacity, including Dunn's Bridge II, Fairbanks, Gibson, Appleseed, and Carpenter, which were placed into service in January, May, August, and December 2025, respectively."
+    },
+    {
+      "event": "R.M. Schahfer coal facility continues operating under 90-day emergency order through March 23, 2026",
+      "date": "2026-03-23",
+      "sentence": "In December 2025, before the planned retirement of the R.M. Schahfer coal facility, the U.S. Secretary of Energy issued an emergency order under section 202(c) of the Federal Power Act requiring R.M. Schahfer to continue operating for 90 days, through March 23, 2026."
+    },
+    {
+      "event": "Michigan City coal facility scheduled retirement",
+      "date": "2028-12-31",
+      "sentence": "The Michigan City coal facility is scheduled to be retired by the end of 2028."
+    },
+    {
+      "event": "ADS capacity commitment beginning in 2027, increasing to 2,400 MW by end of 2032",
+      "date": null,
+      "sentence": "Under the ADS Contract, which is pending IURC approval, NIPSCO will provide electric service to ADS pursuant to a capacity commitment beginning in 2027 and increasing annually to 2,400 MW by the end of 2032."
+    },
+    {
+      "event": "GenCo plans to construct 400 MW battery storage and two 1,300 MW CCGTs between 2028 and 2032",
+      "date": null,
+      "sentence": "GenCo plans to construct 400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032."
+    },
+    {
+      "event": "Templeton wind BTA project expected in service in 2027",
+      "date": null,
+      "sentence": "We expect the Templeton project, a wind BTA project with a nameplate capacity of 200 MW, to be placed in service in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:42:36.310Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,69 @@
+{
+  "cik": "0000720005",
+  "ticker": "RJF",
+  "name": "RAYMOND JAMES FINANCIAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000720005-25-000093",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000525000093/rjf-20250930.htm"
+  },
+  "business": "Raymond James Financial, Inc. is a diversified financial services company providing investment management, banking, and advisory services to individuals, corporations, and municipalities. It operates through five segments: Private Client Group, Capital Markets, Asset Management, Bank, and Other. The firm is a bank holding company and financial holding company regulated by the Federal Reserve.",
+  "sellsTo": [
+    "individuals",
+    "corporations",
+    "municipalities",
+    "institutional clients",
+    "retail clients",
+    "high-net-worth individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also compete with companies that offer web-based financial services and discount brokerage services to individual clients, usually with lower levels of service and financial technology companies (fintechs)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any cyber-attack or other security breach of our technology systems, or those of our clients or other third parties we rely on, could subject us to significant liability and harm our reputation."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We also experience large volumes of phishing and other forms of social engineering (including through the use of AI) attempted for the purpose of perpetrating fraud against the firm, our associates, or our clients."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We also earn commissions for executing and clearing transactions for clients, primarily in listed and over-the-counter equity securities, including exchange-traded funds (ETFs), options, and fixed income products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Federal Reserve decreased Fed funds target rate by 25 basis points",
+      "date": "2025-09-18",
+      "sentence": "September 30, 2025 September 18, 2025 (25) 4.00% - 4.25%"
+    },
+    {
+      "event": "Federal Reserve enacted additional 25-basis-point decrease to Fed funds target rate",
+      "date": "2025-10-30",
+      "sentence": "Effective October 30, 2025, the Fed enacted an additional 25-basis point decrease reducing the Fed funds target rate to a range of 3.75% to 4.00%."
+    },
+    {
+      "event": "Issuance of $1.5 billion in senior notes",
+      "date": "2025-09-11",
+      "sentence": "On September 11, 2025, to secure financing during a period of favorable market conditions characterized by tight credit spreads and attractive benchmark yields, we issued $1.5 billion in senior notes, consisting of $650 million in 4.90% senior notes due 2035 and $850 million in 5.65% senior notes due 2055."
+    },
+    {
+      "event": "Settlement of legal matter related to bond underwritings",
+      "date": null,
+      "sentence": "Non-compensation expenses increased 16%, primarily due to higher provisions for legal and regulatory matters as the current year included a net provision expense for legal and regulatory matters, including a $58 million expense increase associated with the settlement of a legal matter related to bond underwritings for a specific issuer sold to institutional investors between 2013 and 2015, while the prior year reflected a net reserve release."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:30:17.053Z",
+  "model": "deepseek-v4-flash"
+}

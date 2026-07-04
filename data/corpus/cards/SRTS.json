@@ -1,0 +1,65 @@
+{
+  "cik": "0001494891",
+  "ticker": "SRTS",
+  "name": "Sensus Healthcare, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001753926-26-000435",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1494891/000175392626000435/g085449_10k.htm"
+  },
+  "business": "Sensus Healthcare is a medical device company that develops and sells superficial radiation therapy (SRT) systems for treating non-melanoma skin cancer and keloids. Its products include the SRT-100, SRT-100+, and SRT-100 Vision. The company sells primarily to dermatologists and radiation oncologists in the United States and internationally.",
+  "sellsTo": [
+    "private dermatology practices",
+    "radiation oncologists in private and hospital settings",
+    "plastic surgery and laser aesthetic markets",
+    "international dealers and distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "RbM Services, LLC",
+    "Koplak, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Sensus Healthcare, Inc. ... is a medical device company committed to providing highly effective, non-invasive treatments for non-melanoma skin cancer (NMSC) and post-surgical keloid scar prevention."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "In February 2026, the Company launched Sensus Link, a cloud-based software and connectivity solution intended to expand advanced operating capabilities across the Company’s SRT-100 system installed base."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Emerging technological trends such as artificial intelligence, machine learning, and automation are impacting many industries and business operations, including ours."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company has experienced, and expects to continue to experience, cyber security threats and incidents, none of which have been material to the Company to date."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New CPT codes for SRT effective",
+      "date": "2026-01-01",
+      "sentence": "CMS released brand new CPT codes for SRT beginning on January 1, 2026"
+    },
+    {
+      "event": "Launch of Sensus Healthcare Financial Services",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Company launched Sensus Healthcare Financial Services, a financing program through third party banks, to support the acquisition of the Company’s full line of systems"
+    },
+    {
+      "event": "Launch of Sensus Link",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Company launched Sensus Link, a cloud-based software and connectivity solution intended to expand advanced operating capabilities across the Company’s SRT-100 system installed base."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:13:30.754Z",
+  "model": "deepseek-v4-flash"
+}

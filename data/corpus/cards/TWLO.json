@@ -1,0 +1,51 @@
+{
+  "cik": "0001447669",
+  "ticker": "TWLO",
+  "name": "TWILIO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001447669-26-000021",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000021/twlo-20251231.htm"
+  },
+  "business": "Twilio offers communications APIs and software products enabling businesses to engage with customers via messaging, voice, email, and video. The company serves over 402,000 Active Customer Accounts ranging from small businesses to large enterprises across numerous industries. Revenue is generated through usage-based and subscription-based fees.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "large enterprises",
+    "nonprofits (via Twilio.org)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "By combining our leading communications capabilities with rich contextual data and artificial intelligence (AI), we provide the infrastructure for businesses of all sizes to revolutionize how they engage with their customers"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our User Authentication and Identity solutions enable businesses to verify, authenticate, and manage users."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We offer highly customizable communications application programming interfaces (APIs) that enable developers to embed numerous forms of messaging, voice, email, and video interactions into their customer-facing applications"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board authorized repurchase of up to $2.0 billion of Class A common stock, program expires December 31, 2027",
+      "date": "2025-01-01",
+      "sentence": "In January 2025, our board of directors authorized the repurchase of up to $2.0 billion in aggregate value of our Class A common stock. ... The program expires on December 31, 2027."
+    },
+    {
+      "event": "A2P messaging fee increases by major U.S. carriers effective January 2026 and April 2026",
+      "date": null,
+      "sentence": "In June 2025, a major U.S. mobile carrier increased network service provider fees for A2P messages delivered to its subscribers. Other major U.S. carriers have since followed suit, with fee increases effective in January and April 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:29:04.916Z",
+  "model": "deepseek-v4-flash"
+}

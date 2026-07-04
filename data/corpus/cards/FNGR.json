@@ -1,0 +1,69 @@
+{
+  "cik": "0001602409",
+  "ticker": "FNGR",
+  "name": "FingerMotion, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001520138-26-000194",
+    "filedAt": "2026-05-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1602409/000152013826000194/fngr-02282026_10k.htm"
+  },
+  "business": "FingerMotion provides telecommunications products and services (mobile recharge, data plans, devices, SMS/MMS), marketplace platforms (DaGe for automotive, JiuGe Procurement for enterprise), data and analytics solutions (Sapientus for insurance/financial services), and advanced technology platforms (C2 for emergency response and logistics). The company sells to telecommunications carriers (China Mobile, China Unicom), enterprise customers, and consumers primarily in the People's Republic of China.",
+  "sellsTo": [
+    "Telecommunications carriers",
+    "Enterprise customers",
+    "Consumers in PRC"
+  ],
+  "namedCustomers": [
+    "China Mobile",
+    "China Unicom",
+    "JD.com",
+    "Pinduoduo",
+    "Tmall",
+    "Juneyao Airlines"
+  ],
+  "namedSuppliers": [
+    "China Mobile",
+    "China Unicom",
+    "China Telecom",
+    "VSens",
+    "ZhengZhouXinSiWei"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Company provides mobile recharge and top-up services, data plans, subscription plans, mobile devices, and related value-added telecommunications services for consumers and enterprise customers in the PRC."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The DaGe Platform is an integrated digital marketplace designed to connect automotive owners with service providers and vendors of automotive-related products and services."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company's data and analytics platform solutions segment operates under the Sapientus brand, offering AI-powered data analytics and enterprise intelligence solutions for the telecommunications and insurance industries."
+    },
+    {
+      "tag": "other:emergency-response",
+      "stance": "core_product",
+      "sentence": "The C2 Platform integrates satellite communications, 5G networks, IoT systems, and AI-driven analytics for emergency response vehicles and specialized operational environments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of JiuGe Procurement Platform",
+      "date": "2025-12-01",
+      "sentence": "On December 1, 2025, the Company launched the JiuGe Procurement Platform, an enterprise procurement solution operated by JiuGe Technology and included within the Company's Marketplace Platform and Digital Commerce Infrastructure segment."
+    },
+    {
+      "event": "Deployment of ten C2 Platform vehicles for beta testing",
+      "date": null,
+      "sentence": "As of February 28, 2026, ten vehicles equipped with the C2 Platform had been deployed for beta testing and operational use."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T15:36:49.138Z",
+  "model": "deepseek-v4-flash"
+}

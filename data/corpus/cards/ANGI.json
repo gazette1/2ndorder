@@ -1,0 +1,49 @@
+{
+  "cik": "0001705110",
+  "ticker": "ANGI",
+  "name": "Angi Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001705110-26-000011",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1705110/000170511026000011/angi-20251231.htm"
+  },
+  "business": "Angi Inc. connects quality home professionals (Pros) with consumers across more than 500 different categories, from repairing and remodeling homes to cleaning and landscaping. Consumers can find and hire Pros through the company's digital marketplace, and Pros pay fees for leads, advertising, and subscriptions. The company also operates international home services marketplaces in Europe and Canada.",
+  "sellsTo": [
+    "consumers",
+    "home professionals (Pros)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We connect quality home professionals ( Pros ) with consumers across more than 500 different categories, from repairing and remodeling homes to cleaning and landscaping."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company continues to operate under multiple brands including Angi, Angie s List, HomeAdvisor, and Handy."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In addition, if there are changes in the usage and functioning of search engines and/or decreases in consumer use of search engines, for example, as a result of the continued development of AI technology, this could negatively impact our ability to drive traffic to our platforms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are regularly under attack by threat actors through the use of botnets, malware or other destructive or disruptive software, distributed denial of service attacks, phishing, attempts to misappropriate user information and account login credentials, and intercept payments intended for legitimate third parties, and other similar malicious activities."
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "active_investment",
+      "sentence": "Purchase obligations include $17.3 million related to cloud computing spend to be made in 2026."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:25:21.012Z",
+  "model": "deepseek-v4-flash"
+}

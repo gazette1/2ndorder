@@ -1,0 +1,46 @@
+{
+  "cik": "0000707179",
+  "ticker": "ONB",
+  "name": "OLD NATIONAL BANCORP /IN/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000707179-26-000010",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/707179/000070717926000010/onb-20251231.htm"
+  },
+  "business": "Old National Bancorp is a financial holding company that provides commercial and consumer banking, wealth management, and capital markets services primarily in the Midwest and Southeast United States. It operates through its wholly owned banking subsidiary, Old National Bank, and non-bank affiliates. The company earns interest income on loans and fee income from various services.",
+  "sellsTo": [
+    "Individuals",
+    "Commercial clients",
+    "Wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Old National competes with financial service providers such as other commercial banks, savings and loan associations, credit unions, mortgage banking firms, financial technology, or FinTech, companies, consumer finance companies, securities brokerage firms, insurance companies, money market mutual funds, private equity and debt funds, and other financial services providers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure or breach, including as a result of a cyberattack, of our operational or security systems, or the systems of our external vendors, could disrupt our business, result in the disclosure of confidential information, damage our reputation, and create significant financial and legal exposure."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate-related risks could have a material negative impact on the Company and clients."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase up to $150 million",
+      "date": "2026-02-28",
+      "sentence": "As of December 31, 2025, Old National had remaining authorization to repurchase up to $150.0 million of its outstanding Common Stock through February 28, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:15:48.107Z",
+  "model": "deepseek-v4-flash"
+}

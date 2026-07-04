@@ -1,0 +1,81 @@
+{
+  "cik": "0001341439",
+  "ticker": "ORCL",
+  "name": "ORACLE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-277521",
+    "filedAt": "2026-06-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+  },
+  "business": "Oracle provides enterprise IT products and services including cloud applications (OCA), cloud infrastructure (OCI), software licenses, hardware, and support. It serves customers worldwide through direct sales and the Oracle Partner Network.",
+  "sellsTo": [
+    "businesses of various sizes",
+    "government agencies",
+    "educational institutions",
+    "resellers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "OCI compute services range from virtual machines and graphics processing unit (GPU)-based offerings to bare metal servers, with options for high I/O workloads and high-performance computing to run traditional compute-intensive workloads and AI model training and inference."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Oracle Cloud Operations deliver our Oracle Cloud offerings to customers through a secure, reliable, scalable, enterprise grade cloud infrastructure platform managed by Oracle employees within a global network of data centers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Oracle Autonomous AI Database is engineered to lower labor costs and reduce human error while using machine learning-driven diagnostics for fault prediction and error handling and is also engineered to provide automatic threat detection and remediation."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Oracle Health applications, which are designed to enable medical professionals to deliver better healthcare to individual patients and communities."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "OCI AI services are designed to be embedded into customer applications for a variety of predictive use cases, including, among others, the servicing of machine parts that are at risk of failing, using generative AI for fault detection on an assembly line, improving customer experiences in the purchasing of consumer products, managing the supply chain to keep retailer store shelves refreshed, credit fraud detection and financial modeling to stay within a business forecasts."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "OCI AI services are designed to be embedded into customer applications for a variety of predictive use cases, including, among others, the servicing of machine parts that are at risk of failing, using generative AI for fault detection on an assembly line, improving customer experiences in the purchasing of consumer products, managing the supply chain to keep retailer store shelves refreshed, credit fraud detection and financial modeling to stay within a business forecasts."
+    },
+    {
+      "tag": "retail",
+      "stance": "core_product",
+      "sentence": "OCI AI services are designed to be embedded into customer applications for a variety of predictive use cases, including, among others, the servicing of machine parts that are at risk of failing, using generative AI for fault detection on an assembly line, improving customer experiences in the purchasing of consumer products, managing the supply chain to keep retailer store shelves refreshed, credit fraud detection and financial modeling to stay within a business forecasts."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Oracle Fusion Cloud Supply Chain and Manufacturing Management (SCM) is designed to optimize and digitize their supply chains and manufacturing operations."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Oracle Fusion Cloud Supply Chain and Manufacturing Management (SCM) is designed to optimize and digitize their supply chains and manufacturing operations."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "industry supply capacity for AI accelerators, including graphics processing units, as well as memory devices, is competitive"
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Oracle Compute Cloud@Customer and Oracle Roving Edge Infrastructure, which are designed to enable customers to access cloud computing and storage services at the edge of networks and in generally disconnected locations in order to accelerate deployment of cloud workloads outside of the data center."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T11:50:14.971Z",
+  "model": "deepseek-v4-flash"
+}

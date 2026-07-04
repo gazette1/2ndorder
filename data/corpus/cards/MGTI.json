@@ -1,0 +1,33 @@
+{
+  "cik": "0001001601",
+  "ticker": "MGTI",
+  "name": "MGT CAPITAL INVESTMENTS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-010453",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001601/000149315226010453/form10-k.htm"
+  },
+  "business": "The Company historically operated in the cryptocurrency mining and hosting industry, with a primary focus on Bitcoin. As of December 31, 2025, it has no active revenue-generating operations following the sale of its primary facility and cessation of mining. The Company is engaged in a strategic review to identify new business opportunities.",
+  "sellsTo": [
+    "third-party miners (hosting services)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "risk_mention",
+      "sentence": "Bitcoin mining entails solving complex mathematical problems using ASIC computers to perform calculations and add transaction blocks to the Blockchain ledger."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "The Bitcoin we may mine may be subject to loss, damage, theft or restriction on access."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:54:57.172Z",
+  "model": "deepseek-v4-flash"
+}

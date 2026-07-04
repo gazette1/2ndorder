@@ -1,0 +1,52 @@
+{
+  "cik": "0001705181",
+  "ticker": "ETCG",
+  "name": "Grayscale Ethereum Classic Trust (ETC)",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104231",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1705181/000119312526104231/etcg-20251231.htm"
+  },
+  "business": "Grayscale Ethereum Classic Trust is a passive investment vehicle that holds Ethereum Classic (ETC) and issues shares to provide investors with exposure to ETC. The trust is managed by the Sponsor and does not engage in active trading. The shares trade on OTCQX.",
+  "sellsTo": [
+    "investors seeking exposure to digital assets",
+    "speculators and investors in ETC"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC",
+    "Grayscale Securities, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ethereum-classic",
+      "stance": "core_product",
+      "sentence": "The Trust holds ETC and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of ETC."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Competition from the emergence or growth of alternative digital assets and smart contracts platforms, such as Ethereum, Solana, Avalanche or Cardano, could have a negative impact on the demand for, and price of, ETC and thereby adversely affect the value of the Shares."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "Prices of ETC may be affected due to stablecoins (including Tether and USDC), the activities of stablecoin issuers and their regulatory treatment."
+    },
+    {
+      "tag": "other:cbdc",
+      "stance": "risk_mention",
+      "sentence": "Competition from central bank digital currencies (CBDCs) and emerging payments initiatives involving financial institutions could adversely affect the price of ETC and other digital assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of alternative digital assets tracked by CoinMarketCap.com was approximately $2,678.0 billion as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market capitalization of approximately $2,678.0 billion (including the approximately $1.8 billion market cap of ETC), as calculated using market prices and total available supply of each digital asset, excluding stablecoins and tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:42:39.006Z",
+  "model": "deepseek-v4-flash"
+}

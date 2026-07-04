@@ -1,0 +1,53 @@
+{
+  "cik": "0001274173",
+  "ticker": "JHG",
+  "name": "Janus Henderson Group Ltc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005628",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926005628/jhg20251231_10k.htm"
+  },
+  "business": "Janus Henderson Group plc is an independent global asset manager specializing in active investment across all major asset classes. It manages a broad range of investment products for institutional and retail investors across four capabilities: Equities, Fixed Income, Multi-Asset and Alternatives. The company serves intermediary, institutional, and self-directed clients.",
+  "sellsTo": [
+    "Intermediary channel (financial intermediaries)",
+    "Institutional channel (corporations, endowments, pension funds, etc.)",
+    "Self-directed channel (individual investors)"
+  ],
+  "namedCustomers": [
+    "Guardian Life Insurance Company of America"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "established firms and new entrants to the asset management industry have expanded their application of technology, including the use of robo advisers and artificial intelligence (AI), to provide services to clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "we could be subject to losses and reputational harm if we, or our agents, fail to properly safeguard sensitive and confidential information against cyberattacks or other security breaches"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "technological advancements in our industry, including with respect to AI and machine learning technologies, could result in increased demand and competition for qualified professionals"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Jupiter Company Limited expected to close",
+      "date": "2026-06-30",
+      "sentence": "The Merger is expected to close in mid-2026, subject to customary closing conditions, including receipt of required regulatory approvals, client consents and approval by the Company s shareholders."
+    },
+    {
+      "event": "Acquisition of Richard Bernstein Advisors LLC",
+      "date": null,
+      "sentence": "On January 23, 2026, we entered into a definitive agreement to acquire 100% of Richard Bernstein Advisors LLC ( RBA ), a research driven, macro multi asset investment manager headquartered in New York City."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:49:56.173Z",
+  "model": "deepseek-v4-flash"
+}

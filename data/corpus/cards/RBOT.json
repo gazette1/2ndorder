@@ -1,0 +1,59 @@
+{
+  "cik": "0001812173",
+  "ticker": "RBOT",
+  "name": "Vicarious Surgical Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-025189",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1812173/000121390026025189/ea0276827-10k_vicarious.htm"
+  },
+  "business": "Vicarious Surgical Inc. is developing a single-port surgical robot called the Vicarious Surgical System, designed to perform minimally invasive surgery for soft tissue abdominal and gynecological procedures. The system has not yet received FDA authorization. The company initially intends to target ventral hernia repair procedures, selling to hospitals and ambulatory surgical centers.",
+  "sellsTo": [
+    "hospitals",
+    "ambulatory surgical centers",
+    "surgeons"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We are combining advanced miniaturized robotics, computer science, sensing and 3D visualization to build a new category of intelligent and affordable single-port surgical robots that virtually transport surgeons inside the patient to perform minimally invasive surgery."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are combining advanced miniaturized robotics, computer science, sensing and 3D visualization to build a new category of intelligent and affordable single-port surgical robots that virtually transport surgeons inside the patient to perform minimally invasive surgery."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Vicarious Surgical System also contains 28 sensors per instrument arm, which allows the system to provide real-time feedback to the surgeon on force, motion and other data that are intended to enhance surgical procedures and patient outcomes."
+    },
+    {
+      "tag": "precision-motion",
+      "stance": "core_product",
+      "sentence": "The Vicarious Surgical System is designed to provide nine degrees of freedom per instrument arm, intended to approximate the range of motion of a surgeon s wrists, elbows and shoulders."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "These data are also intended for to support future software and analytics development, including potential artificial intelligence-enabled capabilities, which may be used to enhance surgical workflow and to explore relationships between intraoperative data and procedural outcomes over time."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "45 million soft tissue abdominal and gynecological surgical procedures performed annually worldwide addressable",
+      "sentence": "We estimate that there are 45 million soft tissue abdominal and gynecological surgical procedures performed annually worldwide that could potentially be addressed with the Vicarious Surgical System, including use for ventral hernia, other types of hernia, hysterectomy, cholecystectomy (gall bladder) and certain other gastrointestinal procedures."
+    },
+    {
+      "claim": "3.9 million ventral hernia cases worldwide, 0.9 million in US annually",
+      "sentence": "We intend for use in ventral hernia procedures to be the first clinical application for the Vicarious Surgical System, of which there are estimated to be 3.9 million cases worldwide and 0.9 million in the U.S. annually."
+    }
+  ],
+  "generatedAt": "2026-07-04T16:32:41.680Z",
+  "model": "deepseek-v4-flash"
+}

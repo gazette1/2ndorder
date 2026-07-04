@@ -1,0 +1,77 @@
+{
+  "cik": "0001573516",
+  "ticker": "MUSA",
+  "name": "Murphy USA Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001573516-26-000090",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000090/musa-20251231.htm"
+  },
+  "business": "Murphy USA sells retail motor fuel and convenience merchandise through a network of 1,800 stores in 27 states, primarily under the Murphy USA and QuickChek brands. It also markets fuel to unbranded wholesale customers. The company offers nicotine products and food and beverage items.",
+  "sellsTo": [
+    "Retail consumers (value-conscious)",
+    "Unbranded wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Core-Mark International, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "our robust nicotine business remains among the highest-volume performers in our industry due to our value-forward offer and disciplined merchandising in this highly complex and competitive space."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Volatility in the global prices of oil and petroleum products and general economic conditions that are largely out of our control, as well as seasonal variations in fuel pricing, can significantly affect our operating results."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Similarly, advanced technology, improved fuel efficiency and increased use of green automobiles (e.g., those automobiles that do not use gasoline or that are powered by hybrid engines) could reduce demand for gasoline and could otherwise change our customers' shopping habits or lead to new forms of fueling destinations or new competitive pressures."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Changes in credit card expenses could reduce our profitability, especially on fuel transactions."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to risks associated with the interruption of supply and increased costs as a result of our reliance on third-party supply and transportation of refined products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Build 45-55 new-to-industry and up to 30 raze-and-rebuild stores in 2026",
+      "date": null,
+      "sentence": "We expect to build 45 to 55 NTI locations and up to 30 raze-and-rebuilds in 2026 and are targeting 50-plus NTI and up to 30 raze-and-rebuilds per year in future periods."
+    },
+    {
+      "event": "Total capital expenditures for 2026 between $475 million and $525 million",
+      "date": null,
+      "sentence": "The Company currently anticipates total capital expenditures (including land for future developments) for the full year 2026 to range from approximately $475 million to $525 million depending on new store construction activity and planned maintenance capital investments."
+    },
+    {
+      "event": "Renewed supply contract with Core-Mark through 2031",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, we renewed and extended for another five years a supply contract with Core-Mark through the year 2031."
+    },
+    {
+      "event": "New $2.0 billion share repurchase authorization through 2030",
+      "date": "2025-10-29",
+      "sentence": "On October 29, 2025, the Company announced that the Board of Directors approved a new share repurchase authorization of up to $2.0 billion to be executed by December 31, 2030."
+    },
+    {
+      "event": "Quarterly dividend of $0.63 per share declared",
+      "date": "2026-02-12",
+      "sentence": "On February 12, 2026, the Board of Directors declared a quarterly cash dividend of $0.63 per common share, or $2.52 per share on an annualized basis."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:15:01.033Z",
+  "model": "deepseek-v4-flash"
+}

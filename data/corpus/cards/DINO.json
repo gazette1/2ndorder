@@ -1,0 +1,67 @@
+{
+  "cik": "0001915657",
+  "ticker": "DINO",
+  "name": "HF Sinclair Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001915657-26-000016",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1915657/000191565726000016/dino-20251231.htm"
+  },
+  "business": "We are an independent energy company that produces and markets high-value light products such as gasoline, diesel fuel, jet fuel, renewable diesel and lubricants and specialty products. We market our refined products principally in the Southwest United States, the Rocky Mountains extending into the Pacific Northwest and in other neighboring Plains states, and we supply high-quality fuels to more than 1,700 branded stations and license the use of the Sinclair brand to more than 350 additional locations throughout the country. In addition, our subsidiaries produce and market base oils and other specialized lubricants in the United States, Canada and the Netherlands, and export products to more than 80 countries.",
+  "sellsTo": [
+    "Branded fuel stations",
+    "Independent fuel retailers",
+    "Export markets (over 80 countries)",
+    "Southwest US, Rocky Mountains, Pacific Northwest, Plains states"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are an independent energy company that produces and markets high-value light products such as gasoline, diesel fuel, jet fuel, renewable diesel and lubricants and specialty products."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We produce renewable diesel at two of our facilities in Wyoming and one facility in New Mexico."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "our subsidiaries produce and market base oils and other specialized lubricants in the United States, Canada and the Netherlands, and export products to more than 80 countries."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Measures to date have included but are not limited to cap and trade programs, carbon taxes, vehicle efficiency standards, electric vehicle mandates, combustion engine phaseouts, LCFS and renewable fuel requirements."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "risk_mention",
+      "sentence": "install by 2032 carbon capture and sequestration technology capable of capturing 90% of all CO2 emissions"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dividend declared: $0.50 per share payable March 12, 2026",
+      "date": "2026-02-18",
+      "sentence": "On February 18, 2026, our Board of Directors announced that it declared a regular quarterly dividend in the amount of $0.50 per share. The dividend is payable on March 12, 2026 to holders of record of common stock on March 2, 2026."
+    },
+    {
+      "event": "Formation of Green Trail Fuels joint venture (50% non-operating interest)",
+      "date": null,
+      "sentence": "In February 2026, we announced the formation of Green Trail Fuels, LLC, a new joint venture in which we will hold a 50% non-operating economic interest."
+    },
+    {
+      "event": "Acquisition of Industrial Oils Unlimited, LLC",
+      "date": null,
+      "sentence": "In the first quarter of 2026, we completed our acquisition of Industrial Oils Unlimited, LLC for $38 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:01:55.081Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,55 @@
+{
+  "cik": "0000351569",
+  "ticker": "ABCB",
+  "name": "Ameris Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000351569-26-000050",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/351569/000035156926000050/abcb-20251231.htm"
+  },
+  "business": "Ameris Bancorp is a financial holding company operating primarily through Ameris Bank, providing a full range of banking services to retail and commercial customers in select markets in Georgia, Alabama, Florida, North Carolina, and South Carolina. As of December 31, 2025, it had $27.52 billion in total assets and operated 163 full-service domestic banking offices.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition among providers of financial products and services continues to increase with consumers having the opportunity to select from a growing variety of traditional and nontraditional alternatives, including FinTech firms, stablecoin issuers and other non-bank providers of financial services."
+    },
+    {
+      "tag": "other:stablecoin",
+      "stance": "risk_mention",
+      "sentence": "Competition among providers of financial products and services continues to increase with consumers having the opportunity to select from a growing variety of traditional and nontraditional alternatives, including FinTech firms, stablecoin issuers and other non-bank providers of financial services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks or other security breaches could have a material adverse effect on our business."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "The widespread adoption of new and emerging technologies, such as artificial intelligence and quantum computing, have the potential to further intensify competition and accelerate disruption in the financial services market."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Our adoption of artificial intelligence, including generative artificial intelligence, machine learning and similar tools and technologies that collect, aggregate, analyze or generate data or other materials or content (collectively, AI ), for limited internal use has increased our efficiency, and we expect to continue to adopt such tools as appropriate."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "Our digital services growth initiatives, core technology upgrades and digital asset initiatives constitute specific increases in third-party risk as such initiatives are distinctly dependent on the performance of our third-party partners."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T13:42:17.762Z",
+  "model": "deepseek-v4-flash"
+}

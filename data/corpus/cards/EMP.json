@@ -1,0 +1,49 @@
+{
+  "cik": "0000066901",
+  "ticker": "EMP",
+  "name": "ENTERGY MISSISSIPPI, LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000065984-26-000174",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/66901/000006598426000174/etr-20251231.htm"
+  },
+  "business": "Entergy Mississippi, LLC generates, transmits, distributes, and sells electric power to retail and wholesale customers in portions of Mississippi.",
+  "sellsTo": [
+    "Residential customers in Mississippi",
+    "Commercial customers in Mississippi",
+    "Industrial customers (primarily petroleum refining and chemical industries)",
+    "Governmental customers",
+    "Wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "System Energy"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "These companies generate, transmit, distribute, and sell electric power to retail and wholesale customers in Arkansas, Louisiana, Mississippi, and Texas."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In May 2024 the MPSC approved Entergy Mississippi's revisions to its formula rate plan to comply with state legislation passed in January 2024 allowing Entergy Mississippi to make interim rate adjustments to recover the non-fuel related annual ownership cost of certain facilities that directly or indirectly provide service to customers who own certain data processing center projects as specified in the legislation."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "risk_mention",
+      "sentence": "System Energy sells its power and capacity from Grand Gulf at wholesale to Entergy Arkansas, Entergy Mississippi, and Entergy New Orleans."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "In December 2022 the MPSC approved Entergy Mississippi's RenewABLE Community Option (Schedule RCO), an offering for qualifying non-residential customers to subscribe to renewable resource capacity to satisfy their environmental, sustainability, and governance goals."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T16:46:42.882Z",
+  "model": "deepseek-v4-flash"
+}

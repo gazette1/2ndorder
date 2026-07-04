@@ -1,0 +1,64 @@
+{
+  "cik": "0000833444",
+  "ticker": "JCI",
+  "name": "Johnson Controls International plc",
+  "source": {
+    "form": "10-K",
+    "accession": "0000833444-25-000097",
+    "filedAt": "2025-11-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000097/jci-20250930.htm"
+  },
+  "business": "Johnson Controls International plc is a global leader in smart, healthy and sustainable buildings. It sells commercial HVAC equipment, industrial refrigeration systems, controls, security systems, fire-detection and fire-suppression solutions, and technical services. Its customers include commercial, industrial, data center, institutional, and governmental customers, as well as residential security subscribers in EMEA.",
+  "sellsTo": [
+    "Commercial",
+    "Industrial",
+    "Data center",
+    "Institutional",
+    "Governmental",
+    "Residential security subscribers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The Company believes that it is well positioned to capitalize on the emerging and prevalent trends in the commercial buildings industry, including data centers, sustainable buildings, smart buildings and mission-critical environments."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Company's OpenBlue platform combines the Company's building expertise with cutting-edge technology, including artificial intelligence and machine learning-powered service solutions such as remote diagnostics, predictive maintenance, workplace management, compliance monitoring and advanced risk assessments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents impacting our IT systems and digital products could disrupt business operations, result in the loss of critical and confidential information, and materially and adversely affect our reputation and results of operations."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The Company uses semiconductors and other electronic components in the manufacture of its products."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "Raw materials used by the Company's businesses in connection with their operations include steel, aluminum, brass, copper, polypropylene and certain fluorochemicals used in fire suppression agents."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "We use a wide range of materials (primarily steel, copper and aluminum) and components (including semiconductors, electronic components, and components utilizing rare earth minerals) in the global production of our products, which come from numerous suppliers around the world."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of $5.0 billion accelerated share repurchase",
+      "date": null,
+      "sentence": "The Company returned the net proceeds of the transaction to shareholders through the $5.0 billion ASR Transactions which were launched in August 2025 and are expected to be completed in the second quarter of fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T12:02:57.966Z",
+  "model": "deepseek-v4-flash"
+}

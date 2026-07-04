@@ -1,0 +1,107 @@
+{
+  "cik": "0001816017",
+  "ticker": "SPIR",
+  "name": "Spire Global, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-116169",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1816017/000119312526116169/spir-20251231.htm"
+  },
+  "business": "Spire Global provides space-based data, analytics, and space services, operating a constellation of multi-purpose nanosatellites that observe Earth in real time using RF technology. The company sells to governments and commercial customers across industries such as agriculture, logistics, financial services, insurance, aviation, energy, and academia. It operates in the listening satellite market, not imagery or communications.",
+  "sellsTo": [
+    "governments",
+    "commercial",
+    "agriculture",
+    "logistics",
+    "financial services",
+    "insurance",
+    "aviation",
+    "energy",
+    "academia",
+    "defense"
+  ],
+  "namedCustomers": [
+    "National Oceanic and Atmospheric Administration (NOAA)",
+    "European Organisation for the Exploitation of Meteorological Satellites",
+    "Deloitte",
+    "Missile Defense Agency",
+    "Myriota Pty Ltd",
+    "Public Services and Procurement Canada (Canadian Space Agency)"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "We build, own, and operate a fully deployed constellation of multi-purpose nanosatellites that observe the Earth in real time using RF technology."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We also deliver space-based intelligence through a mission-ready satellite network and military-grade analytics."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Big data, artificial intelligence ( AI ), and machine learning ( ML ) algorithms applied to fused data sets to create predictive analytics and insights."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We have developed a number of software-d efined-radio based sensors, including AIS receivers, ADS-B receivers, and GNSS radio occultation ( GNSS-RO ) receivers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Jamming & spoofing detection: Monitor L-band global navigation satellite system ( GNSS ) signals to identify jamming, spoofing, and anomalous behavior near airports, along borders, or across maritime zones."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We also offer weather solutions including Deep Navigation Analytics , a weather intelligence platform for the maritime industry; DeepVision , an advanced weather visualization dashboard for global supply chain management."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Provision of data can decrease losses related to inclement weather and provide enhanced customer experiences in insurance."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Customers can use our solutions to help optimize crop yields with optimal farm operations."
+    },
+    {
+      "tag": "aviation",
+      "stance": "core_product",
+      "sentence": "Aviation We provide global satellite-based aircraft tracking data to power applications, drive decision making and improve cost efficiencies."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "We also offer Space Services solutions that enable our customers to deploy and scale their own constellation, by leveraging our proven space platform, global ground station network, end-to-end manufacturing facility, and extensive launch partnership network."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Satellite constellation target of more than 75 satellites by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "We expect to have more than 75 satellites operating in our constellation by the end of 2026."
+    },
+    {
+      "event": "Stop Work Order received from Public Services and Procurement Canada on WildFireSat contract",
+      "date": "2026-03-02",
+      "sentence": "On March 2, 2026, we received from Public Services and Procurement Canada a Stop Work Order Notice, suspending work effectively immediately until further notice, pursuant to that certain contract, dated January 20, 2025, relating to the design and development of the WildFireSat constellation of satellites for the Canadian Space Agency."
+    },
+    {
+      "event": "Deadline for cancellation of stop order or termination of WildFireSat contract",
+      "date": "2026-08-29",
+      "sentence": "The Public Services and Procurement Canada has until August 29, 2026 to either cancel the stop order or terminate the contract, in whole or in part."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T14:09:49.401Z",
+  "model": "deepseek-v4-flash"
+}
