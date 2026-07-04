@@ -52,6 +52,18 @@ Return only a JSON object:
 }`;
 }
 
+// News article to investable scenario: one sentence the pipeline can run.
+export function articleScenarioPrompt(title: string, text: string): string {
+  return `You are an equity analyst. A portfolio manager pasted a news article. State the single most investable scenario the article implies, in ONE sentence: a concrete outcome over a time window, the way a PM would frame a thesis (example: "US grid capex supercycle driven by data center load, 2026-2030"). Not a summary of the article, not a question, no company names unless the scenario is genuinely about one company's action reshaping an industry.
+
+Article title: ${title || '(untitled)'}
+Article text:
+${text}
+
+Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+Return only a JSON object: { "scenario": "..." }`;
+}
+
 // Counter-scenario: the disconfirming case, stated as a scenario the pipeline can run.
 export function counterPrompt(seed: string): string {
   return `A portfolio manager holds this scenario: "${seed}"

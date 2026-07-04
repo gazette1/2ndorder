@@ -242,6 +242,9 @@ export interface RunInfo {
   rubric: Rubric;
   asof: string | null;
   counterOf: string | null;
+  // Set when the run came from a pasted news article URL.
+  sourceUrl: string | null;
+  sourceTitle: string | null;
 }
 
 // One company research card in the corpus, built from the company's own 10-K.

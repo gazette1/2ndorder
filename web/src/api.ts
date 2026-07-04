@@ -98,6 +98,8 @@ export function normalizeRunPayload(raw: unknown): RunPayload {
       rubric: run.rubric ?? { weights: {}, definitions: {} },
       asof: typeof run.asof === 'string' ? run.asof : null,
       counterOf: typeof run.counterOf === 'string' ? run.counterOf : null,
+      sourceUrl: typeof run.sourceUrl === 'string' ? run.sourceUrl : null,
+      sourceTitle: typeof run.sourceTitle === 'string' ? run.sourceTitle : null,
     },
     chain: (p.chain ?? []).map(normalizeNode),
     candidates: (p.candidates ?? []).map((c) => {

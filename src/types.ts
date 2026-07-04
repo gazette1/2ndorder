@@ -244,6 +244,9 @@ export interface RunPayload {
     asof: string | null;
     // Set when this run is the counter-scenario of another run.
     counterOf: string | null;
+    // Set when this run was extracted from a pasted news article.
+    sourceUrl: string | null;
+    sourceTitle: string | null;
   };
   chain: ChainNode[];
   candidates: Candidate[];

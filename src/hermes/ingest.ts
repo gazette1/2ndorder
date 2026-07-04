@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONFIG } from '../config.js';
-import { getSpentUSD, llm } from '../lib/llm.js';
+import { tickerMap } from '../lib/edgar.js';
+import { getSpentUSD } from '../lib/llm.js';
 import { load } from '../lib/store.js';
 import { loadUniverse, scanUniverse } from './universe.js';
 import { cardCompany } from './carder.js';
@@ -10,15 +11,19 @@ import type { Candidate } from '../types.js';
 
 // Hermes ingest: read filings once, write a card per company to data/corpus/.
 // Usage:
-//   npm run hermes -- universe               scan every SEC ticker, keep those inside
-//                                             the market cap band (network only, free,
-//                                             resumable, run this before a full backfill)
-//   npm run hermes -- backfill [budgetUSD]    card the universe (data/corpus/universe.json
-//                                             if it exists, else names discovered across
-//                                             local runs), stopping once real spend (from
-//                                             the API's own token usage) reaches budgetUSD.
-//                                             Resumable: already-carded tickers are skipped.
-//   npm run hermes -- pilot <runSlug> <n>     card the top n in-band names of an existing run
+//   npm run hermes -- universe                 scan every SEC ticker, keep those inside
+//                                               the market cap band (network only, free,
+//                                               resumable, run this before a full backfill)
+//   npm run hermes -- backfill [budgetUSD]      card the market-cap-banded universe
+//                                               (data/corpus/universe.json if it exists,
+//                                               else names discovered across local runs)
+//   npm run hermes -- backfill-all [budgetUSD]  card EVERY US-listed SEC filer regardless
+//                                               of market cap (about 8,000 CIKs; funds and
+//                                               shells without a 10-K are skipped). Runs 4
+//                                               workers concurrently; stops at the budget
+//                                               (real spend from the API's own token usage).
+//                                               Resumable: carded tickers are skipped.
+//   npm run hermes -- pilot <runSlug> <n>       card the top n in-band names of an existing run
 //   npm run hermes -- company <cik> <ticker>
 
 const CORPUS = path.resolve('data/corpus');
@@ -54,6 +59,48 @@ const [cmd, a, b] = process.argv.slice(2);
 
 if (cmd === 'universe') {
   await scanUniverse();
+} else if (cmd === 'backfill-all') {
+  // Every US-listed SEC filer, all caps, concurrent workers, budget-guarded.
+  const budget = Number(a ?? 40);
+  const tickers = await tickerMap();
+  const queue = [...tickers.entries()]
+    .map(([cik, v]) => ({ cik, ticker: v.ticker, name: v.title }))
+    .filter((c) => !alreadyCarded(c.ticker));
+  console.log(
+    `[hermes] backfill-all: ${queue.length} uncarded filers of ${tickers.size} total. ` +
+      `Budget $${budget.toFixed(2)}, 4 workers (provider=${CONFIG.llm.provider}).`,
+  );
+  let carded = 0;
+  let skipped = 0;
+  let stopped = false;
+  async function worker() {
+    for (;;) {
+      if (stopped) return;
+      if (getSpentUSD() >= budget) {
+        if (!stopped) {
+          stopped = true;
+          console.log(`[hermes] backfill-all: budget reached ($${getSpentUSD().toFixed(2)}), stopping workers.`);
+        }
+        return;
+      }
+      const c = queue.shift();
+      if (!c) return;
+      try {
+        const card = await cardCompany(c.cik, c.ticker, c.name);
+        if (card) carded++;
+        else skipped++;
+      } catch (e) {
+        console.warn(`[hermes] ${c.ticker}: ${(e as Error).message}`);
+        skipped++;
+      }
+      const done = carded + skipped;
+      if (done % 100 === 0) {
+        console.log(`[hermes] backfill-all progress: ${done} processed (${carded} carded), $${getSpentUSD().toFixed(2)} spent, ${queue.length} queued`);
+      }
+    }
+  }
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  console.log(`[hermes] backfill-all done: ${carded} carded, ${skipped} skipped, $${getSpentUSD().toFixed(2)} spent of $${budget.toFixed(2)}.`);
 } else if (cmd === 'backfill') {
   const budget = Number(a ?? 7);
   const full = loadUniverse();
@@ -111,6 +158,6 @@ if (cmd === 'universe') {
   }
   await cardCompany(a.padStart(10, '0'), b, b);
 } else {
-  console.error('usage: npm run hermes -- universe | backfill [budgetUSD] | pilot <runSlug> <n> | company <cik> <ticker>');
+  console.error('usage: npm run hermes -- universe | backfill [budgetUSD] | backfill-all [budgetUSD] | pilot <runSlug> <n> | company <cik> <ticker>');
   process.exit(1);
 }

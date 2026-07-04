@@ -36,7 +36,7 @@ export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }:
         <input
           className="search-input"
           type="text"
-          placeholder="Enter a scenario, thesis, or theme"
+          placeholder="Enter a scenario, thesis, or theme, or paste an article link"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           disabled={busy}
@@ -45,6 +45,12 @@ export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }:
           Run
         </button>
       </form>
+
+      {!query && (
+        <p className="search-caption">
+          An article link runs both the scenario it implies and the counter-scenario.
+        </p>
+      )}
 
       {statusNote && <p className="search-status">{statusNote}</p>}
       {message && <p className="search-message">{message}</p>}

@@ -13,9 +13,14 @@ export const CAP_PROVENANCE_NOTE =
   'Market cap: delayed price x reported shares (Yahoo, delayed); 10-K public float used as ' +
   'fallback where price is unavailable. Not a licensed market data feed.';
 
+// Market caps render comma-free: $2.54B at billion scale, $640MM below it.
 export function fmtCapMM(v: number | null): string {
   if (v === null) return 'n/a';
-  return '$' + Math.round(v).toLocaleString('en-US') + 'MM';
+  if (v >= 1000) {
+    const b = v / 1000;
+    return '$' + (b >= 100 ? Math.round(b) : b.toFixed(2).replace(/\.?0+$/, '')) + 'B';
+  }
+  return '$' + Math.round(v) + 'MM';
 }
 
 // Format a raw USD figure using the M (thousands) / MM (millions) convention.
@@ -52,7 +57,7 @@ export function fmtPriceTarget(v: number | null): string {
 }
 
 export function fmtBand(band: [number, number]): string {
-  return `Market cap band $${band[0].toLocaleString('en-US')}MM to $${band[1].toLocaleString('en-US')}MM`;
+  return `Market cap band ${fmtCapMM(band[0])} to ${fmtCapMM(band[1])}`;
 }
 
 export function fmtDateLong(iso: string): string {

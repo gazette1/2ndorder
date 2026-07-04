@@ -15,7 +15,7 @@ function tryLoad<T>(slug: string, name: string, fallback: T): T {
 // the API server, so both emit exactly the same shape. Later stages (reads,
 // theses) default empty so a partially complete run still renders as a map.
 export function buildPayload(slug: string): RunPayload {
-  const run = load<{ seed: string; createdAt: string; asof?: string | null; counterOf?: string | null }>(slug, 'run');
+  const run = load<{ seed: string; createdAt: string; asof?: string | null; counterOf?: string | null; sourceUrl?: string | null; sourceTitle?: string | null }>(slug, 'run');
   return {
     run: {
       id: slug,
@@ -26,6 +26,8 @@ export function buildPayload(slug: string): RunPayload {
       rubric,
       asof: run.asof ?? null,
       counterOf: run.counterOf ?? null,
+      sourceUrl: run.sourceUrl ?? null,
+      sourceTitle: run.sourceTitle ?? null,
     },
     chain: load<any>(slug, 'decompose').nodes,
     candidates: tryLoad<any>(slug, 'candidates', []),

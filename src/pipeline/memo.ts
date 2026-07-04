@@ -66,6 +66,16 @@ function money(n: number | null): string {
   return `${sign}$${abs}`;
 }
 
+// Market caps in MM, rendered comma-free: $2.54B at billion scale, $640MM below.
+function capMM(v: number | null | undefined): string {
+  if (v === null || v === undefined) return 'n/a';
+  if (v >= 1000) {
+    const b = v / 1000;
+    return `$${b >= 100 ? Math.round(b) : b.toFixed(2).replace(/\.?0+$/, '')}B`;
+  }
+  return `$${Math.round(v)}MM`;
+}
+
 export function buildMemo(slug: string): string {
   const run = load<{ seed: string; createdAt: string; asof?: string | null; counterOf?: string | null }>(slug, 'run');
   const { nodes } = load<Decomposition>(slug, 'decompose');
@@ -109,7 +119,7 @@ export function buildMemo(slug: string): string {
         <td class="mono">${esc(r.ticker)}</td>
         <td>${esc(c?.name ?? '')}</td>
         <td>${esc(node?.name ?? '')}</td>
-        <td>${c?.marketCapMM === null || c?.marketCapMM === undefined ? 'n/a' : `$${c.marketCapMM.toLocaleString('en-US')}MM`}</td>
+        <td>${capMM(c?.marketCapMM)}</td>
         <td>${r.exposure}</td>
         <td>${d ? money(d.insider.netBuyUSD) : ''}</td>
         <td>${scores[r.ticker] ?? ''}</td>
@@ -166,7 +176,7 @@ export function buildMemo(slug: string): string {
 </head>
 <body>
 <h1>IC memo: ${esc(run.seed)}</h1>
-<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band $${CONFIG.capBandMM[0].toLocaleString('en-US')}MM to $${CONFIG.capBandMM[1].toLocaleString('en-US')}MM.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band ${capMM(CONFIG.capBandMM[0])} to ${capMM(CONFIG.capBandMM[1])}.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
 
 <h2>Consequence map</h2>
 <table>

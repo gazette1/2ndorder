@@ -6,7 +6,7 @@ import { checkAlerts } from '../src/pipeline/alerts.js';
 import { drill } from '../src/pipeline/decompose.js';
 import { mapTickers } from '../src/pipeline/map.js';
 import { buildMemo } from '../src/pipeline/memo.js';
-import { runAll, runCounter } from '../src/pipeline/orchestrate.js';
+import { runAll, runCounter, runFromArticle } from '../src/pipeline/orchestrate.js';
 import { overlay } from '../src/pipeline/overlay.js';
 import { buildPayload } from '../src/pipeline/payload.js';
 import { cardFilename } from '../src/hermes/card.js';
@@ -242,6 +242,23 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   if (req.method === 'POST' && pathname === '/api/search') {
     const { query } = await readBody(req);
     if (!query) return send(res, 400, { error: 'query required' });
+
+    // A pasted news link: read the article, extract the scenario, run bull
+    // and bear. The slug comes from the URL so the run is pollable at once.
+    if (/^https?:\/\//i.test(String(query).trim())) {
+      if (CONFIG.llm.provider === 'fixture') {
+        return send(res, 200, { status: 'needs_model', message: 'Reading an article needs a model provider (LLM_PROVIDER).' });
+      }
+      const u = new URL(String(query).trim());
+      const runId = slugify('news ' + u.hostname.replace(/^www\./, '') + ' ' + u.pathname).slice(0, 60) || 'news-run';
+      if (hasRun(runId)) return send(res, 200, { runId, status: 'ready' });
+      jobs.set(runId, { status: 'running' });
+      save(runId, 'run', { seed: 'Reading the article and extracting the scenario', sourceUrl: u.toString(), createdAt: new Date().toISOString() });
+      runFromArticle(runId, u.toString())
+        .then(() => jobs.set(runId, { status: 'ready' }))
+        .catch((e) => jobs.set(runId, { status: 'error', error: String(e?.message ?? e) }));
+      return send(res, 202, { runId, status: 'running' });
+    }
 
     const existing = findExistingRun(query);
     if (existing) return send(res, 200, { runId: existing, status: 'ready' });
