@@ -21,12 +21,14 @@ function findItem(text: string, patterns: RegExp[], from: number): number {
 }
 
 // All markers are matched case-insensitively against the flattened text.
+// Punctuation after the item number is optional: filings write "Item 1.
+// Business", "Item 1: Business", and plain "Item 1 Business".
 const ITEM = {
-  i1: [/item\s*1\s*[.:]\s*business/gi, /item\s*1\b(?!\s*[a-b0-9])[\s.:]{0,4}business/gi],
-  i1a: [/item\s*1a\s*[.:]\s*risk\s*factors/gi],
-  i2: [/item\s*2\s*[.:]\s*properties/gi, /item\s*1b\s*[.:]/gi],
-  i7: [/item\s*7\s*[.:]\s*management/gi],
-  i7a: [/item\s*7a\s*[.:]/gi, /item\s*8\s*[.:]/gi],
+  i1: [/item\s*1\s*[.:]?\s*business/gi],
+  i1a: [/item\s*1a\s*[.:]?\s*risk\s*factors/gi],
+  i2: [/item\s*2\s*[.:]?\s*propert/gi, /item\s*1b\s*[.:]?\s*unresolved/gi, /item\s*1c\s*[.:]?\s*cybersecurity/gi],
+  i7: [/item\s*7\s*[.:]?\s*management/gi],
+  i7a: [/item\s*7a\s*[.:]?\s*quantitative/gi, /item\s*8\s*[.:]?\s*financial/gi],
 };
 
 export interface Sections {
@@ -35,22 +37,39 @@ export interface Sections {
   mdna: string;
 }
 
-export function extractSections(text: string): Sections {
-  // Skip the table of contents: search from 5 percent into the document.
-  const from = Math.floor(text.length * 0.05);
+// A real section runs thousands of characters; a table-of-contents row runs
+// dozens. When a start/end pair lands closer together than this, we matched
+// the TOC (which can sit past any fixed skip offset), so advance and retry.
+const MIN_SECTION = 2500;
 
-  const s1 = findItem(text, ITEM.i1, from);
-  const s1a = findItem(text, ITEM.i1a, s1 > -1 ? s1 + 100 : from);
-  const s2 = findItem(text, ITEM.i2, s1a > -1 ? s1a + 100 : from);
-  const s7 = findItem(text, ITEM.i7, s2 > -1 ? s2 : from);
-  const s7a = findItem(text, ITEM.i7a, s7 > -1 ? s7 + 100 : from);
+function findSpan(text: string, startPats: RegExp[], endPats: RegExp[], from: number): { start: number; end: number } {
+  let searchFrom = from;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const start = findItem(text, startPats, searchFrom);
+    if (start === -1) return { start: -1, end: -1 };
+    // search for the end marker from just past the start match itself; a TOC
+    // row's end marker sits ~18 chars away and must be seen, not jumped over
+    const end = findItem(text, endPats, start + 8);
+    if (end === -1) return { start, end: -1 };
+    if (end - start >= MIN_SECTION) return { start, end };
+    searchFrom = end; // TOC row: both markers within a line of each other
+  }
+  return { start: -1, end: -1 };
+}
+
+export function extractSections(text: string): Sections {
+  const from = Math.floor(text.length * 0.02);
+
+  const biz = findSpan(text, ITEM.i1, ITEM.i1a, from);
+  const risk = findSpan(text, ITEM.i1a, ITEM.i2, biz.start > -1 ? biz.start : from);
+  const mdna = findSpan(text, ITEM.i7, ITEM.i7a, risk.end > -1 ? risk.end : from);
 
   const slice = (start: number, end: number, cap: number) =>
     start === -1 ? '' : text.slice(start, end === -1 ? start + cap : Math.min(end, start + cap)).trim();
 
   return {
-    business: slice(s1, s1a, CAPS.business),
-    riskFactors: slice(s1a, s2, CAPS.riskFactors),
-    mdna: slice(s7, s7a, CAPS.mdna),
+    business: slice(biz.start, biz.end, CAPS.business),
+    riskFactors: slice(risk.start, risk.end, CAPS.riskFactors),
+    mdna: slice(mdna.start, mdna.end, CAPS.mdna),
   };
 }

@@ -9,6 +9,10 @@ import { buildMemo } from '../src/pipeline/memo.js';
 import { runAll, runCounter } from '../src/pipeline/orchestrate.js';
 import { overlay } from '../src/pipeline/overlay.js';
 import { buildPayload } from '../src/pipeline/payload.js';
+import { cardFilename } from '../src/hermes/card.js';
+import { cardCompany } from '../src/hermes/carder.js';
+import { loadUniverse } from '../src/hermes/universe.js';
+import { tickerMap } from '../src/lib/edgar.js';
 import { save } from '../src/lib/store.js';
 
 // Thin API for the web app. No framework, node:http only.
@@ -108,6 +112,63 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
 
   if (req.method === 'GET' && pathname === '/api/runs') {
     return send(res, 200, { runs: listRuns() });
+  }
+
+  // Company lookup over the Hermes corpus: search the index, fetch one card.
+  if (req.method === 'GET' && pathname === '/api/companies') {
+    const q = (url.searchParams.get('q') ?? '').trim().toLowerCase();
+    if (!q) return send(res, 400, { error: 'q required' });
+    const indexPath = path.resolve('data/corpus/index.json');
+    if (!fs.existsSync(indexPath)) return send(res, 200, { results: [], corpusSize: 0 });
+    const index = JSON.parse(fs.readFileSync(indexPath, 'utf8')) as Record<string, { name: string; tags: string[]; filedAt: string }>;
+    const results = Object.entries(index)
+      .filter(([t, v]) => t.toLowerCase().startsWith(q) || v.name.toLowerCase().includes(q))
+      .sort(([a], [b]) => {
+        // exact ticker first, then ticker prefix, then name matches
+        const qa = a.toLowerCase() === q ? 0 : a.toLowerCase().startsWith(q) ? 1 : 2;
+        const qb = b.toLowerCase() === q ? 0 : b.toLowerCase().startsWith(q) ? 1 : 2;
+        return qa - qb || a.localeCompare(b);
+      })
+      .slice(0, 20)
+      .map(([ticker, v]) => ({ ticker, name: v.name, tags: v.tags, filedAt: v.filedAt }));
+    return send(res, 200, { results, corpusSize: Object.keys(index).length });
+  }
+
+  if (pathname.startsWith('/api/companies/')) {
+    const parts = pathname.slice('/api/companies/'.length).split('/');
+    const ticker = decodeURIComponent(parts[0]).toUpperCase();
+    const cardPath = path.resolve('data/corpus/cards', cardFilename(ticker));
+
+    // On-demand carding: read the 10-K live for a ticker the corpus missed.
+    if (req.method === 'POST' && parts[1] === 'card') {
+      if (CONFIG.llm.provider === 'fixture') {
+        return send(res, 200, { status: 'needs_model', message: 'Carding needs a model provider (LLM_PROVIDER).' });
+      }
+      const tickers = await tickerMap();
+      let cik: string | null = null;
+      let name = ticker;
+      for (const [c, v] of tickers) {
+        if (v.ticker.toUpperCase() === ticker) { cik = c; name = v.title; break; }
+      }
+      if (!cik) return send(res, 404, { error: 'not a US-listed SEC filer under this ticker' });
+      const card = await cardCompany(cik, ticker, name);
+      if (!card) return send(res, 422, { error: 'could not build a card: no 10-K on file, or its sections could not be extracted' });
+      const uniC = loadUniverse();
+      const entryC = uniC ? uniC.find((e) => e.ticker.toUpperCase() === ticker) : null;
+      return send(res, 200, { card, marketCapMM: entryC ? entryC.marketCapMM : null, capSource: entryC ? 'price_x_shares' : null });
+    }
+
+    if (req.method === 'GET' && !parts[1]) {
+      if (!fs.existsSync(cardPath)) return send(res, 404, { error: 'no card for this ticker in the corpus' });
+      const card = JSON.parse(fs.readFileSync(cardPath, 'utf8'));
+      const uni = loadUniverse();
+      const entry = uni ? uni.find((e) => e.ticker.toUpperCase() === ticker) : null;
+      return send(res, 200, {
+        card,
+        marketCapMM: entry ? entry.marketCapMM : null,
+        capSource: entry ? 'price_x_shares' : null,
+      });
+    }
   }
 
   // /api/runs/:id and /api/runs/:id/<action>

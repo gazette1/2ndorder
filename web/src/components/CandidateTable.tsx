@@ -1,5 +1,5 @@
 import type { Candidate, ChainNode, Dossier, Read } from '../types';
-import { fmtCapMM, fmtUSD } from '../format';
+import { CAP_PROVENANCE_NOTE, fmtCapMM, fmtUSD } from '../format';
 
 export interface CandidateRow {
   candidate: Candidate;
@@ -38,7 +38,11 @@ export function CandidateTable({
           <th>Ticker</th>
           <th>Company</th>
           <th>Node</th>
-          <th className="num">Mkt cap</th>
+          <th className="num">
+            <span className="th-help" title={CAP_PROVENANCE_NOTE}>
+              Mkt cap
+            </span>
+          </th>
           <th className="num">FTS hits</th>
           <th>Exposure</th>
           <th className="num">Insider / Gov</th>
@@ -136,6 +140,7 @@ export function CandidateTable({
         High scores here are conviction on the risk, not buy signals.
       </p>
       {renderTable(shortRows)}
+      <p className="table-footnote">{CAP_PROVENANCE_NOTE}</p>
       <p className="table-footnote">
         Scored names rank by composite under the current weights. Unscored in-band names follow by
         full-text search hits. Filtered names appear last with the reason they fell out of band.

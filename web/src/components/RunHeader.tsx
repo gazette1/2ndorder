@@ -1,15 +1,18 @@
 import type { RunPayload } from '../types';
-import { fmtBand, fmtDateLong, fmtDateShort } from '../format';
+import { CAP_PROVENANCE_NOTE, fmtBand, fmtDateLong, fmtDateShort } from '../format';
 
 export function RunHeader({ run }: { run: RunPayload['run'] }) {
   return (
     <header className="run-header">
-      <div className="run-kicker">Adoption Chain</div>
+      <div className="run-kicker">Corollary run</div>
       <h1 className="run-seed">{run.seed}</h1>
       <div className="run-meta">
         <span>Run {fmtDateLong(run.createdAt)}</span>
         <span className="meta-sep">|</span>
-        <span>{fmtBand(run.capBandMM)}</span>
+        <span className="cap-band" title={CAP_PROVENANCE_NOTE}>
+          {fmtBand(run.capBandMM)}{' '}
+          <span className="cap-band-note">(delayed price x reported shares)</span>
+        </span>
         <span className="meta-sep">|</span>
         <span>Run id {run.id}</span>
         {run.mode === 'fixture' && (

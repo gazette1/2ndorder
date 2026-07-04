@@ -1,5 +1,18 @@
 // Dollar convention: M for thousands, MM for millions.
 
+import type { CapSource } from './types';
+
+// Provenance wording for a market cap figure, keyed by how it was sized.
+export function capSourceLabel(src: CapSource | null): string {
+  if (src === 'public_float') return '10-K public float, proxy';
+  return 'delayed price x reported shares';
+}
+
+// Combined provenance sentence used where a table or band mixes both sources.
+export const CAP_PROVENANCE_NOTE =
+  'Market cap: delayed price x reported shares (Yahoo, delayed); 10-K public float used as ' +
+  'fallback where price is unavailable. Not a licensed market data feed.';
+
 export function fmtCapMM(v: number | null): string {
   if (v === null) return 'n/a';
   return '$' + Math.round(v).toLocaleString('en-US') + 'MM';

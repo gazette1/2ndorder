@@ -8,8 +8,8 @@ import { CandidateTable, type CandidateRow } from './components/CandidateTable';
 import { RubricPanel } from './components/RubricPanel';
 import { ThesisPanel } from './components/ThesisPanel';
 import { LoginScreen } from './components/LoginScreen';
-import { GetStartedScreen } from './components/GetStartedScreen';
 import { SearchBar } from './components/SearchBar';
+import { StocksView } from './components/StocksView';
 import { useSession } from './auth';
 import {
   AuthError,
@@ -32,30 +32,13 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; payload: RunPayload };
 
-const ENTERED_KEY = 'ac_entered';
+type Tab = 'scenarios' | 'stocks';
 
 export function App() {
   const { session, signIn, signOut } = useSession();
   const token = session?.token ?? null;
 
-  // Landing gate: the get started screen sits in front of the login/search flow.
-  const [entered, setEntered] = useState<boolean>(() => {
-    try {
-      return localStorage.getItem(ENTERED_KEY) === '1';
-    } catch {
-      return false;
-    }
-  });
-
-  const enter = useCallback(() => {
-    try {
-      localStorage.setItem(ENTERED_KEY, '1');
-    } catch {
-      // Ignore storage failures; in-memory state still advances the view.
-    }
-    setEntered(true);
-  }, []);
-
+  const [tab, setTab] = useState<Tab>('scenarios');
   const [state, setState] = useState<LoadState>({ status: 'idle' });
   const [offline, setOffline] = useState(false);
   const [runs, setRuns] = useState<RunSummary[]>([]);
@@ -325,11 +308,6 @@ export function App() {
     };
   }, [payload, weights, selectedNodeId, readsByTicker, thesesByTicker, dossiersByTicker]);
 
-  // Landing gate. Either card proceeds into the existing login/search flow.
-  if (!entered) {
-    return <GetStartedScreen onEnter={enter} />;
-  }
-
   // Login gate.
   if (!session) {
     return <LoginScreen onSignIn={signIn} />;
@@ -349,12 +327,31 @@ export function App() {
       ? payload.chain.find((n) => n.id === selectedNode.parentId) ?? null
       : null;
 
-  const accountBar = (
-    <div className="account-bar">
-      <span className="account-email mono">{session.email}</span>
-      <button type="button" className="link-btn" onClick={signOut}>
-        Sign out
-      </button>
+  const topbarRow = (
+    <div className="topbar-row">
+      <span className="wordmark">Corollary</span>
+      <nav className="app-tabs" aria-label="Sections">
+        <button
+          type="button"
+          className={tab === 'scenarios' ? 'tab-btn tab-active' : 'tab-btn'}
+          onClick={() => setTab('scenarios')}
+        >
+          Scenarios
+        </button>
+        <button
+          type="button"
+          className={tab === 'stocks' ? 'tab-btn tab-active' : 'tab-btn'}
+          onClick={() => setTab('stocks')}
+        >
+          Stocks
+        </button>
+      </nav>
+      <div className="account-bar">
+        <span className="account-email mono">{session.email}</span>
+        <button type="button" className="link-btn" onClick={signOut}>
+          Sign out
+        </button>
+      </div>
     </div>
   );
 
@@ -449,10 +446,10 @@ export function App() {
   return (
     <div className="app-root">
       <div className="app-topbar">
-        {accountBar}
-        {searchFront}
+        {topbarRow}
+        {tab === 'scenarios' && searchFront}
       </div>
-      {body}
+      {tab === 'scenarios' ? body : <StocksView token={token} onAuthError={handleAuthError} />}
     </div>
   );
 }

@@ -83,6 +83,12 @@ export function DossierPanel({ dossier, read }: Props) {
           <h4 className="dossier-block-title">Street view</h4>
           <SourceTag provenance={coverage.provenance} />
         </div>
+        {coverage.provenance === 'stub' && (
+          <p className="stub-note">
+            Coverage shown is an authored placeholder, not live data. Set FINNHUB_API_KEY to go
+            live.
+          </p>
+        )}
         <div className="street-stats">
           <div className="street-stat">
             <span className="street-stat-label">Analysts</span>

@@ -3,7 +3,15 @@
 // failure (server not running) is surfaced as NetworkError so callers can fall
 // back to the bundled demo payload.
 
-import type { Alert, ChainNode, Overlay, RawChainNode, RunPayload } from './types';
+import type {
+  Alert,
+  CapSource,
+  ChainNode,
+  CompanyCard,
+  Overlay,
+  RawChainNode,
+  RunPayload,
+} from './types';
 
 export class NetworkError extends Error {}
 export class AuthError extends Error {}
@@ -228,6 +236,77 @@ export async function fetchOverlay(token: string, runId: string, fund: string): 
   if (res.status === 404) throw new NetworkError(OFFLINE_MSG);
   if (!res.ok) throw new Error(`Overlay request failed with status ${res.status}`);
   return (await res.json()) as Overlay;
+}
+
+// Company lookup over the research corpus (Stocks tab).
+
+export interface CompanySearchHit {
+  ticker: string;
+  name: string;
+  tags: string[];
+  filedAt: string;
+}
+
+export interface CompanySearchResponse {
+  results: CompanySearchHit[];
+  corpusSize: number;
+}
+
+// GET /api/companies?q=<query>. Searches the corpus index by ticker or name.
+export async function searchCompanies(
+  token: string,
+  query: string,
+): Promise<CompanySearchResponse> {
+  const res = await authedFetch(`/api/companies?q=${encodeURIComponent(query)}`, token);
+  if (!res.ok) throw new Error(`Company search failed with status ${res.status}`);
+  const data = (await res.json()) as Partial<CompanySearchResponse>;
+  return { results: data.results ?? [], corpusSize: data.corpusSize ?? 0 };
+}
+
+export interface CompanyCardResponse {
+  card: CompanyCard;
+  marketCapMM: number | null;
+  capSource: CapSource | null;
+}
+
+// GET /api/companies/:ticker. Returns null on 404 (ticker not in the corpus).
+export async function getCompanyCard(
+  token: string,
+  ticker: string,
+): Promise<CompanyCardResponse | null> {
+  const res = await authedFetch(`/api/companies/${encodeURIComponent(ticker)}`, token);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Company card failed with status ${res.status}`);
+  return (await res.json()) as CompanyCardResponse;
+}
+
+// On-demand carding for a ticker the corpus missed. Synchronous on the server
+// side, roughly 20 to 60 seconds: it downloads and reads the 10-K live.
+export type BuildCardResult =
+  | { status: 'ready'; response: CompanyCardResponse }
+  | { status: 'needs_model'; message: string }
+  | { status: 'not_filer' }
+  | { status: 'build_failed' };
+
+// POST /api/companies/:ticker/card. 404 means not a US-listed SEC filer,
+// 422 means the card build failed (no 10-K, or sections not extractable).
+export async function buildCompanyCard(
+  token: string,
+  ticker: string,
+): Promise<BuildCardResult> {
+  const res = await authedFetch(`/api/companies/${encodeURIComponent(ticker)}/card`, token, {
+    method: 'POST',
+  });
+  if (res.status === 404) return { status: 'not_filer' };
+  if (res.status === 422) return { status: 'build_failed' };
+  if (!res.ok) throw new Error(`Card build failed with status ${res.status}`);
+  const data = (await res.json()) as
+    | CompanyCardResponse
+    | { status: 'needs_model'; message: string };
+  if ('status' in data && data.status === 'needs_model') {
+    return { status: 'needs_model', message: data.message };
+  }
+  return { status: 'ready', response: data as CompanyCardResponse };
 }
 
 // Offline fallback: the demo payload bundled in public/data. Used when the API

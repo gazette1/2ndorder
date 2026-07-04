@@ -25,7 +25,7 @@ export function LoginScreen({ onSignIn }: Props) {
   return (
     <div className="login-wrap">
       <form className="login-card" onSubmit={submit}>
-        <div className="login-kicker">Adoption Chain</div>
+        <div className="wordmark login-wordmark">Corollary</div>
         <h1 className="login-title">Sign in to search.</h1>
         <label className="login-label" htmlFor="login-email">
           Email
@@ -34,6 +34,7 @@ export function LoginScreen({ onSignIn }: Props) {
           id="login-email"
           className="login-input mono"
           type="email"
+          autoFocus
           autoComplete="email"
           placeholder="you@firm.com"
           value={email}

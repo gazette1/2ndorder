@@ -1,13 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONFIG } from '../config.js';
-import { docUrl, fetchDocText, submissions } from '../lib/edgar.js';
 import { getSpentUSD, llm } from '../lib/llm.js';
 import { load } from '../lib/store.js';
-import { cardPrompt } from './prompts.js';
-import { extractSections } from './sections.js';
 import { loadUniverse, scanUniverse } from './universe.js';
-import type { CompanyCard } from './card.js';
+import { cardCompany } from './carder.js';
+import { cardFilename } from './card.js';
 import type { Candidate } from '../types.js';
 
 // Hermes ingest: read filings once, write a card per company to data/corpus/.
@@ -24,79 +22,6 @@ import type { Candidate } from '../types.js';
 //   npm run hermes -- company <cik> <ticker>
 
 const CORPUS = path.resolve('data/corpus');
-
-// Windows reserves CON, PRN, AUX, NUL, COM1-9, LPT1-9 (case-insensitive, any
-// extension). A ticker that collides (CON) yields a file git cannot even open
-// on Windows and aborts staging, so sanitize the filename. The index key stays
-// the real ticker; only the on-disk name is prefixed.
-const RESERVED = new Set(
-  ['CON', 'PRN', 'AUX', 'NUL']
-    .concat(Array.from({ length: 9 }, (_, i) => 'COM' + (i + 1)))
-    .concat(Array.from({ length: 9 }, (_, i) => 'LPT' + (i + 1))),
-);
-export function cardFilename(ticker: string): string {
-  return (RESERVED.has(ticker.toUpperCase()) ? '_' + ticker : ticker) + '.json';
-}
-
-function saveCard(card: CompanyCard) {
-  fs.mkdirSync(path.join(CORPUS, 'cards'), { recursive: true });
-  fs.writeFileSync(path.join(CORPUS, 'cards', cardFilename(card.ticker)), JSON.stringify(card, null, 2));
-  const indexPath = path.join(CORPUS, 'index.json');
-  const index: Record<string, { name: string; filedAt: string; tags: string[]; generatedAt: string }> = fs.existsSync(indexPath)
-    ? JSON.parse(fs.readFileSync(indexPath, 'utf8'))
-    : {};
-  index[card.ticker] = {
-    name: card.name,
-    filedAt: card.source.filedAt,
-    tags: [...new Set(card.exposures.map((e) => e.tag))],
-    generatedAt: card.generatedAt,
-  };
-  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-}
-
-export async function cardCompany(cik: string, ticker: string, name: string): Promise<CompanyCard | null> {
-  const subs = await submissions(cik);
-  const r = subs.recent;
-  const idx = r.form.findIndex((f) => f === '10-K');
-  if (idx === -1) {
-    console.warn(`[hermes] ${ticker}: no 10-K in recent filings, skipping`);
-    return null;
-  }
-  const accession = r.accessionNumber[idx];
-  const doc = r.primaryDocument[idx];
-  const text = await fetchDocText(cik, accession, doc);
-  const sections = extractSections(text);
-  const found = [sections.business, sections.riskFactors, sections.mdna].filter(Boolean).length;
-  if (!found) {
-    console.warn(`[hermes] ${ticker}: no sections extracted from ${accession}, skipping`);
-    return null;
-  }
-
-  const raw = await llm('hermes', `card-${ticker}`, cardPrompt({ ticker, name, sections }), 'json', 'light');
-  const parsed = JSON.parse(raw);
-  const card: CompanyCard = {
-    cik,
-    ticker,
-    name,
-    source: { form: '10-K', accession, filedAt: r.filingDate[idx], url: docUrl(cik, accession, doc) },
-    business: String(parsed.business ?? ''),
-    sellsTo: parsed.sellsTo ?? [],
-    namedCustomers: parsed.namedCustomers ?? [],
-    namedSuppliers: parsed.namedSuppliers ?? [],
-    exposures: (parsed.exposures ?? []).filter((e: any) => e?.tag && e?.sentence),
-    catalysts: (parsed.catalysts ?? []).filter((c: any) => c?.sentence),
-    tamClaims: (parsed.tamClaims ?? []).filter((t: any) => t?.sentence),
-    generatedAt: new Date().toISOString(),
-    model: CONFIG.llm.models.light,
-  };
-  saveCard(card);
-  console.log(
-    `[hermes] ${ticker}: ${found}/3 sections, ${card.exposures.length} exposures ` +
-      `(${card.exposures.filter((e) => e.stance === 'core_product').length} core), ` +
-      `${card.catalysts.length} catalysts, ${card.tamClaims.length} TAM claims`,
-  );
-  return card;
-}
 
 // Every unique in-band candidate across every local run, deduped by CIK. Zero
 // network cost to build: it only reads what map/enrich already wrote to disk.

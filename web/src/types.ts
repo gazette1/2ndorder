@@ -244,6 +244,30 @@ export interface RunInfo {
   counterOf: string | null;
 }
 
+// One company research card in the corpus, built from the company's own 10-K.
+// Every claim carries the filing sentence it came from.
+export interface CompanyCard {
+  cik: string;
+  ticker: string;
+  name: string;
+  source: { form: string; accession: string; filedAt: string; url: string };
+  business: string;
+  sellsTo: string[];
+  namedCustomers: string[];
+  namedSuppliers: string[];
+  exposures: {
+    tag: string;
+    stance: 'core_product' | 'active_investment' | 'risk_mention';
+    sentence: string;
+  }[];
+  catalysts: { event: string; date: string | null; sentence: string }[];
+  tamClaims: { claim: string; sentence: string }[];
+  generatedAt: string;
+  model: string;
+}
+
+export type CapSource = 'price_x_shares' | 'public_float';
+
 export interface RunPayload {
   run: RunInfo;
   chain: ChainNode[];

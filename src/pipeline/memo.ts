@@ -166,7 +166,7 @@ export function buildMemo(slug: string): string {
 </head>
 <body>
 <h1>IC memo: ${esc(run.seed)}</h1>
-<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band $${CONFIG.capBandMM[0].toLocaleString('en-US')}MM to $${CONFIG.capBandMM[1].toLocaleString('en-US')}MM.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document.</p>
+<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band $${CONFIG.capBandMM[0].toLocaleString('en-US')}MM to $${CONFIG.capBandMM[1].toLocaleString('en-US')}MM.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
 
 <h2>Consequence map</h2>
 <table>

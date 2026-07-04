@@ -56,6 +56,18 @@ export const TAG_VOCABULARY = [
 
 export type Stance = 'core_product' | 'active_investment' | 'risk_mention';
 
+// Windows reserves CON, PRN, AUX, NUL, COM1-9, LPT1-9 (case-insensitive, any
+// extension); a ticker that collides yields a file git cannot even stat. The
+// index key stays the real ticker; only the on-disk filename is prefixed.
+const RESERVED = new Set(
+  ['CON', 'PRN', 'AUX', 'NUL']
+    .concat(Array.from({ length: 9 }, (_, i) => 'COM' + (i + 1)))
+    .concat(Array.from({ length: 9 }, (_, i) => 'LPT' + (i + 1))),
+);
+export function cardFilename(ticker: string): string {
+  return (RESERVED.has(ticker.toUpperCase()) ? '_' + ticker : ticker) + '.json';
+}
+
 export interface Exposure {
   tag: string; // from TAG_VOCABULARY, or 'other:<term>'
   stance: Stance;

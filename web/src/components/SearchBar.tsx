@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react';
+import { useMemo, useState, type FormEvent } from 'react';
 import type { RunSummary } from '../api';
 
 interface Props {
@@ -12,6 +12,17 @@ interface Props {
 
 export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }: Props) {
   const [query, setQuery] = useState('');
+
+  // Existing-run chips: one chip per unique seed (the newest run wins),
+  // ordered newest first.
+  const chips = useMemo(() => {
+    const bySeed = new Map<string, RunSummary>();
+    for (const r of runs) {
+      const cur = bySeed.get(r.seed);
+      if (!cur || r.createdAt > cur.createdAt) bySeed.set(r.seed, r);
+    }
+    return [...bySeed.values()].sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+  }, [runs]);
 
   const submit = (e: FormEvent) => {
     e.preventDefault();
@@ -38,10 +49,10 @@ export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }:
       {statusNote && <p className="search-status">{statusNote}</p>}
       {message && <p className="search-message">{message}</p>}
 
-      {runs.length > 0 && (
+      {chips.length > 0 && (
         <div className="search-runs">
           <span className="search-runs-label">Existing runs:</span>
-          {runs.map((r) => (
+          {chips.map((r) => (
             <button
               key={r.id}
               type="button"
