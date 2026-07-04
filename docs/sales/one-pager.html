@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corollary. Scenario consequence mapping for SMID equity research.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Corollary brand system, per design.md. Monochrome: black background, white accent. */
+  :root {
+    --bg: #000000;
+    --surface: #0A0A0A;
+    --surface-raised: #111111;
+    --border: #222222;
+    --border-strong: #3A3A3A;
+    --text: #F2F2F2;
+    --text-muted: #9E9E9E;
+    --text-faint: #5E5E5E;
+    --accent: #FFFFFF;
+    --accent-hover: #E6E6E6;
+    --accent-on: #000000;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: clamp(32px, 6vw, 64px) clamp(20px, 5vw, 64px) 48px;
+  }
+
+  /* Load choreography: each block fades up once, staggered in reading order. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-up 800ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .reveal:nth-child(1) { animation-delay: 0ms; }
+  .reveal:nth-child(2) { animation-delay: 100ms; }
+  .reveal:nth-child(3) { animation-delay: 200ms; }
+  .reveal:nth-child(4) { animation-delay: 300ms; }
+  .reveal:nth-child(5) { animation-delay: 400ms; }
+  .reveal:nth-child(6) { animation-delay: 500ms; }
+  @keyframes fade-up {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { animation: none; opacity: 1; transform: none; }
+  }
+
+  /* Header */
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .wordmark {
+    font-family: 'Newsreader', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 1.2;
+    color: var(--text);
+  }
+  .kicker {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* Hero */
+  .hero { padding: 48px 0 32px; }
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: clamp(38px, 6vw, 52px);
+    line-height: 1.08;
+    max-width: 18ch;
+  }
+  .definition {
+    margin-top: 24px;
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-width: 58ch;
+  }
+  .definition strong { color: var(--text); font-weight: 500; }
+
+  /* Section label */
+  .section { padding: 32px 0 0; }
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 16px;
+  }
+
+  /* How it works: numbered rows, no icon grid */
+  .steps { border-top: 1px solid var(--border); }
+  .step {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .step-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: var(--text-faint);
+    padding-top: 4px;
+  }
+  .step h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .step p { font-size: 15px; color: var(--text-muted); max-width: 62ch; }
+
+  /* SMID differentiators: cards inside a panel */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 16px;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 640px) { .card-grid { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface-raised);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+  }
+  .card h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .card p { font-size: 15px; color: var(--text-muted); }
+  .corpus-line {
+    margin-top: 16px;
+    font-size: 15px;
+    color: var(--text-muted);
+    max-width: 68ch;
+  }
+
+  /* Ask */
+  .ask {
+    margin-top: 48px;
+    padding: 32px 24px;
+    border: 1px solid var(--border-strong);
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .ask-copy { max-width: 54ch; }
+  .ask h2 {
+    font-family: 'Newsreader', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .ask p { font-size: 15px; color: var(--text-muted); }
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 20px;
+    background: var(--accent);
+    color: var(--accent-on);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 120ms linear;
+  }
+  .cta:hover { background: var(--accent-hover); }
+
+  /* Footer */
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-faint);
+  }
+  footer a { color: var(--text-muted); text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  /* Print: one page, white background, black text */
+  @media print {
+    :root {
+      --bg: #FFFFFF;
+      --surface: #FFFFFF;
+      --surface-raised: #FFFFFF;
+      --border: #CCCCCC;
+      --border-strong: #999999;
+      --text: #000000;
+      --text-muted: #333333;
+      --text-faint: #666666;
+      --accent: #000000;
+      --accent-on: #FFFFFF;
+    }
+    body { background: #FFFFFF; color: #000000; font-size: 12px; }
+    .reveal { animation: none; opacity: 1; transform: none; }
+    .page { max-width: none; padding: 0; }
+    .hero { padding: 24px 0 16px; }
+    h1 { font-size: 34px; }
+    .definition { font-size: 14px; margin-top: 12px; }
+    .section { padding: 16px 0 0; }
+    .step { padding: 8px 0; }
+    .step p, .card p, .corpus-line, .ask p { font-size: 12px; }
+    .panel { padding: 12px; }
+    .card { padding: 10px; }
+    .ask { margin-top: 20px; padding: 16px; }
+    .ask h2 { font-size: 20px; }
+    .cta {
+      background: none;
+      color: #000000;
+      border: 1px solid #000000;
+      height: auto;
+      padding: 6px 12px;
+    }
+    footer { margin-top: 20px; padding-top: 12px; }
+    a { color: #000000; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="reveal">
+    <span class="wordmark">Corollary</span>
+    <span class="kicker">Research preview</span>
+  </header>
+
+  <section class="hero reveal">
+    <h1>One scenario in. Every consequence out, cited to the filing sentence.</h1>
+    <p class="definition"><strong>Corollary is a scenario consequence-mapping engine for small and mid-cap buy-side equity research.</strong> A PM enters a thesis in plain language. The engine maps what follows from it, checks every claim against SEC filings, and returns the names a SMID fund can actually own.</p>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-label">How it works</div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div>
+          <h3>Enter a scenario</h3>
+          <p>A macro thesis, a news event, or a pasted article link, in plain language. No ticker required.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div>
+          <h3>The engine maps the consequences</h3>
+          <p>First, second, and third order effects, beneficiaries and at-risk names, drawn as a navigable tree. Every node is checked against SEC filings: the engine searches EDGAR full text, reads the actual 10-Ks, and cites the exact filing sentences behind each claim. No claim without a source sentence. Every bull map gets a bear map automatically, so you see what breaks the thesis.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div>
+          <h3>Leave with an IC-ready memo</h3>
+          <p>Long and short candidates, each thesis drafted bear-case-first, with filing citations attached.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-label">Built for SMID funds specifically</div>
+    <div class="panel">
+      <div class="card-grid">
+        <div class="card">
+          <h3>Size-aware ranking</h3>
+          <p>Hits are sized against market cap, so mega-caps do not crowd out under-covered small and mid caps. Each node ranks the names where the consequence is material.</p>
+        </div>
+        <div class="card">
+          <h3>Liquidity reality checks</h3>
+          <p>Every candidate is screened for dollar average daily volume, days to build a position, net cash, runway, dilution risk, and shelf registrations on file.</p>
+        </div>
+        <div class="card">
+          <h3>Filing-sentence citations</h3>
+          <p>Each consequence links to the exact sentences in the 10-K that support it. You can read the primary source in one click.</p>
+        </div>
+        <div class="card">
+          <h3>Counter-scenario by default</h3>
+          <p>The bear map is generated alongside the bull map, not on request. The memo leads with what would have to be false.</p>
+        </div>
+      </div>
+      <p class="corpus-line">Corpus: the 10-K of every US-listed SEC filer, thousands of companies, refreshed as filings land and growing toward full exchange coverage. Market caps are delayed price times SEC-reported shares. Corollary is not a licensed market data feed and not investment advice.</p>
+    </div>
+  </section>
+
+  <section class="ask reveal">
+    <div class="ask-copy">
+      <h2>The ask: 30 minutes, your live thesis</h2>
+      <p>Corollary is a research preview offered to a small number of design-partner funds. Bring a thesis you are working on now to a 30-minute session and watch the engine map it while you ask questions.</p>
+    </div>
+    <a class="cta" href="https://corollaryresearch.com">corollaryresearch.com</a>
+  </section>
+
+  <footer class="reveal">
+    <span>Corollary Research. Primary sources: SEC EDGAR. Not investment advice.</span>
+    <a href="https://corollaryresearch.com">corollaryresearch.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
