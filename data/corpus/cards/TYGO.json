@@ -1,0 +1,48 @@
+{
+  "cik": "0001855447",
+  "ticker": "TYGO",
+  "name": "TIGO ENERGY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-115952",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855447/000119312526115952/tygo-20251231.htm"
+  },
+  "business": "Tigo Energy sells module-level power electronics (MLPE), energy storage systems (GO ESS), and energy intelligence software (EI platform) to the solar industry. Its products include optimizers, rapid shutdown devices, inverters, batteries, and AI-based forecasting software. Customers are primarily distributors and solar installers serving residential, commercial, and utility-scale markets worldwide.",
+  "sellsTo": [
+    "residential",
+    "commercial and industrial (C&I)",
+    "utility-scale",
+    "distributors",
+    "solar installers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "The Tigo GO ESS product line offers a complete energy storage solution for residential customers comprised of the GO Battery, GO Inverter, GO Link/Automatic Transfer Switch (ATS), and GO Electric Vehicle (EV) Charger."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our mission is to deliver smart system solutions, combining hardware and software, which enhance safety, increase energy yield, and lower operating costs of residential, commercial, and utility-scale solar systems."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Tigo Predict+ technology within our Tigo EI software platform marks what we believe is a significant advancement in the realm of energy demand forecasting, leveraging artificial intelligence (AI) and machine learning technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Conclusion of manufacturing relationship with a principal contract manufacturer",
+      "date": "2026-04-30",
+      "sentence": "We expect our manufacturing relationship with this contract manufacturer to conclude in April 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:07:38.300Z",
+  "model": "deepseek-v4-flash"
+}

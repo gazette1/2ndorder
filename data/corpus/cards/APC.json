@@ -1,0 +1,43 @@
+{
+  "cik": "0002080921",
+  "ticker": "APC",
+  "name": "ARKO Petroleum Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-131747",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2080921/000119312526131747/apc_10k_12312025.htm"
+  },
+  "business": "ARKO Petroleum Corp. is a fuel distribution company that supplies motor fuel to third-party dealers, operates fleet fueling cardlock locations, and distributes fuel to ARKO Retail Sites, which are convenience stores owned by its parent company. It is one of the largest wholesale fuel distributors by gallons in North America, supplying customers in more than 30 states across the United States.",
+  "sellsTo": [
+    "third-party dealers",
+    "fleet fueling customers (commercial fleets)",
+    "ARKO Retail Sites"
+  ],
+  "namedCustomers": [
+    "ARKO Parent"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are engaged in (i) wholesale activity, which includes the supply of fuel to gas stations operated by third-party dealers, (ii) fleet fueling, which includes the operation of proprietary and third-party cardlock locations (unstaffed fueling locations) and the issuance of proprietary fuel cards that provide customers access to a nationwide network of fueling sites, and (iii) the wholesale distribution of fuel to substantially all of the ARKO Retail Sites."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Automotive, industrial and power generation manufacturers are developing more fuel-efficient engines, hybrid engines, electric vehicles and alternative clean power systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Target to open 20 new-to-industry (NTI) fleet fueling locations during 2026",
+      "date": null,
+      "sentence": "We are targeting 20 new-to-industry (\"NTI\") fleet fueling locations with target openings during 2026, with one opened in March 2026, and 13 of which we are currently advancing, and we anticipate that these NTI locations will have a positive impact on our results of operations given the attractive, durable cash flow profile of our fleet fueling business."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:03:43.329Z",
+  "model": "deepseek-v4-flash"
+}

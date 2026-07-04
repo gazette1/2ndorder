@@ -1,0 +1,43 @@
+{
+  "cik": "0001009829",
+  "ticker": "JAKK",
+  "name": "JAKKS PACIFIC INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001185185-26-000723",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1009829/000118518526000723/jakk10k123125.htm"
+  },
+  "business": "JAKKS PACIFIC INC designs, markets, and distributes toys, costumes, and consumer products under licenses from third parties. Its products include character-related and theme-related items based on movies, television, video games, and other media. The company sells primarily to large retailers such as Target and Walmart, and also has international sales.",
+  "sellsTo": [
+    "Mass market retailers",
+    "Discount stores",
+    "Online retailers"
+  ],
+  "namedCustomers": [
+    "Target",
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Sales of products under trademarks or trade or brand names licensed from others account for substantially all of our net sales."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "risk_mention",
+      "sentence": "The success of many of our character-related and theme-related products depends upon the popularity of characters in books, movies, television programs, video games, live sporting exhibitions, and other media and events."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "consumer shopping habits migrating from traditional brick & mortar retailer browsing to more online experiences."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:05:11.406Z",
+  "model": "deepseek-v4-flash"
+}

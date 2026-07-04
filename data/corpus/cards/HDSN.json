@@ -1,0 +1,75 @@
+{
+  "cik": "0000925528",
+  "ticker": "HDSN",
+  "name": "HUDSON TECHNOLOGIES INC /NY",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028445",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/925528/000110465926028445/hdsn-20251231x10k.htm"
+  },
+  "business": "Hudson Technologies is a refrigerant services company that sells refrigerant and industrial gas sales, provides refrigerant management services including reclamation and RefrigerantSide Services such as system decontamination, and participates in carbon offset generation. Its products and services are primarily used in commercial air conditioning, industrial processing and refrigeration systems. Customers include commercial, industrial, governmental entities, refrigerant wholesalers, distributors, contractors, and equipment manufacturers, notably the United States Defense Logistics Agency.",
+  "sellsTo": [
+    "commercial air conditioning",
+    "industrial processing",
+    "refrigeration systems",
+    "US Military",
+    "refrigerant wholesalers",
+    "distributors",
+    "contractors",
+    "refrigeration equipment manufacturers"
+  ],
+  "namedCustomers": [
+    "United States Defense Logistics Agency (DLA)",
+    "AprilAire",
+    "Lennox International Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:refrigerant-reclamation",
+      "stance": "core_product",
+      "sentence": "The Company believes it is one of the largest refrigerant reclaimers in the United States."
+    },
+    {
+      "tag": "other:regulatory-phase-down",
+      "stance": "risk_mention",
+      "sentence": "The AIM Act introduced a stepdown of 10% from baseline levels in 2022 and 2023 and establishes a cumulative 40% reduction in the baseline for 2024 through 2029."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "For the years ended December 31, 2025, 2024 and 2023, the United States Defense Logistics Agency (the DLA ) accounted for greater than 10% of the Company's revenue and over 10% of the outstanding accounts receivable at December 31, 2025 and 2024."
+    },
+    {
+      "tag": "other:carbon-offset",
+      "stance": "core_product",
+      "sentence": "The Company is pursuing opportunities to acquire CFC refrigerants and is developing relationships within the emerging environmental markets in order to implement opportunities for the creation and monetization of verified emission reductions from the destruction of CFC refrigerants."
+    },
+    {
+      "tag": "other:energy-efficiency",
+      "stance": "core_product",
+      "sentence": "These services, known as RefrigerantSide Services, reduce the system's energy consumption and improve the system's operating performance, and complement the Company's refrigerant sales and refrigerant reclamation and management services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Denver Refrigerants acquisition",
+      "date": "2025-12-16",
+      "sentence": "On December 16, 2025, the Company's subsidiary Hudson Technologies Company completed the acquisition of substantially all the business assets of Denver Refrigerants Inc."
+    },
+    {
+      "event": "DLA existing contract expiration",
+      "date": "2026-07",
+      "sentence": "Our contract with DLA expires in July 2026."
+    },
+    {
+      "event": "Patent expiration period",
+      "date": null,
+      "sentence": "These patents will expire between August 2026 and December 2036."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:20:05.723Z",
+  "model": "deepseek-v4-flash"
+}

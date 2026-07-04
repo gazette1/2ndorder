@@ -1,0 +1,56 @@
+{
+  "cik": "0001013272",
+  "ticker": "NWFL",
+  "name": "NORWOOD FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001013272-26-000003",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013272/000101327226000003/nwfl-20251231x10k.htm"
+  },
+  "business": "Norwood Financial Corp, through its wholly owned subsidiary Wayne Bank, offers a wide variety of personal and business credit services, trust and investment products, and real estate settlement services to consumers, businesses, nonprofit organizations, and municipalities in northeastern Pennsylvania and parts of New York.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "nonprofit organizations",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "NIC's business is brokerage activities including stocks, bonds, mutual funds, exchange traded funds and advisory services, as well as annuity and insurance products, primarily to customers of the Bank."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Personal lending includes mortgage lending to finance principal residences and, to a lesser extent, second home dwellings."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The following table sets forth information with respect to the Bank's allowance for credit losses as of December 31, 2025 and 2024:"
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Internet banking including bill-pay is offered through the website at wayne.bank."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank's construction lending has primarily involved lending for commercial construction projects and for single-family residences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "During the fiscal year ended December 31, 2025, the risks from cybersecurity threats, including as a result of any previous cybersecurity incidents, have not materially affected the Company, its business strategy, results of operations, or financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:15:00.826Z",
+  "model": "deepseek-v4-flash"
+}

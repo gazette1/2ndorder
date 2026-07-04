@@ -1,0 +1,45 @@
+{
+  "cik": "0000039311",
+  "ticker": "IBCP",
+  "name": "INDEPENDENT BANK CORP /MI/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000039311-26-000009",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/39311/000003931126000009/ibcp-20251231_d2.htm"
+  },
+  "business": "Independent Bank Corporation is a bank holding company that owns all outstanding stock of Independent Bank, which offers a broad range of banking services to individuals and businesses in Lower Michigan. The company's principal sources of revenue are interest and fees on loans, other interest income, and non-interest income. It competes with other commercial banks, savings banks, credit unions, mortgage banking companies, fintech companies, and other financial institutions.",
+  "sellsTo": [
+    "Individuals",
+    "Businesses",
+    "Rural and suburban communities across Lower Michigan"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also compete with fintech companies, securities brokerage companies, insurance companies, and money market mutual funds."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face cybersecurity risks, including attacks targeting our systems and customers' systems."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of artificial intelligence and machine learning technologies may expose us to regulatory, operational, and competitive risks."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Emerging digital assets and technologies may disrupt our business and adversely affect our results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:02:00.754Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,77 @@
+{
+  "cik": "0001029199",
+  "ticker": "EEFT",
+  "name": "EURONET WORLDWIDE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001554855-26-000131",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm"
+  },
+  "business": "Euronet Worldwide, Inc. is a leader in electronic payment and transaction processing solutions, operating in three segments: EFT Processing (ATM and POS services), epay (prepaid and digital content distribution), and Money Transfer (remittances and currency exchange). The company serves financial institutions, retailers, service providers, and individual consumers.",
+  "sellsTo": [
+    "Financial Institutions",
+    "Retailers",
+    "Service Providers",
+    "Individual Consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "iTunes",
+    "Google Play",
+    "Sony",
+    "Microsoft"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Euronet is a leading financial technology solutions and payments provider."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business relies heavily on sophisticated computer systems and networks. These systems are vulnerable to various operational and cybersecurity risks, including: System Outages: Disruptions to our computer systems and telecommunications networks due to hardware or software failures, power outages, natural disasters, or security breaches can significantly impact our operations, leading to service interruptions, revenue losses, and damage to our reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The increasing use of artificial intelligence (AI), including machine learning and generative AI, in our internal systems, vendor tools, customer-facing applications, and fraud detection processes exposes us to emerging technology, operational, and regulatory risks."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "risk_mention",
+      "sentence": "The Company has recently begun exploring and developing potential use cases for certain cryptocurrencies, including the possible application of stablecoins within aspects of its business operations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We currently process and distribute prepaid mobile airtime and other electronic content and payment processing services for various prepaid products, cards, and services on a network of approximately 749,000 POS terminals across approximately 363,000 retailer locations in Europe, the Middle East and Africa, Asia Pacific, North America and South America."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of CoreCard Corporation",
+      "date": "2025-10-30",
+      "sentence": "On October 30, 2025, the Company completed the acquisition of 100% of the outstanding equity of CoreCard Corporation."
+    },
+    {
+      "event": "Acquisition of 60% equity stake in UNIDOS CO. LTD (Kyodai Remittance)",
+      "date": "2025-05-31",
+      "sentence": "On May 31, 2025, Euronet completed the acquisition of a 60% equity stake in UNIDOS CO. LTD, a leading funds transfer business in Japan operating under the name Kyodai Remittance."
+    },
+    {
+      "event": "Sale of $1,000 million 2030 Convertible Senior Notes",
+      "date": "2025-08-15",
+      "sentence": "On August 15, 2025, the Company completed the sale of $1,000.0 million of Convertible Senior Notes due October 2030."
+    },
+    {
+      "event": "Share repurchase program authorized on February 24, 2026",
+      "date": "2026-02-24",
+      "sentence": "On February 24, 2026, the Company put a repurchase program in place to repurchase up to $425 million in value, but not more than 10 million shares of common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:13:31.871Z",
+  "model": "deepseek-v4-flash"
+}

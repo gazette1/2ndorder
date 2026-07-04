@@ -1,0 +1,51 @@
+{
+  "cik": "0001634117",
+  "ticker": "BNED",
+  "name": "Barnes & Noble Education, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001634117-25-000038",
+    "filedAt": "2025-12-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1634117/000163411725000038/bned-20250503.htm"
+  },
+  "business": "Barnes & Noble Education, Inc. is one of the largest contract operators of physical and virtual bookstores for college and university campuses and K-12 institutions across the United States, and also a textbook wholesaler and inventory management hardware and software provider.",
+  "sellsTo": [
+    "college and university campuses",
+    "K-12 institutions",
+    "students",
+    "faculty",
+    "institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "VitalSource Technologies, Inc.",
+    "Fanatics Retail Group Fulfillment, LLC",
+    "Fanatics Lids College, Inc. D/B/A Lids",
+    "Pearson Education",
+    "Cengage Learning",
+    "McGraw-Hill Education",
+    "Macmillan Learning",
+    "John Wiley & Sons"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We are also one of the largest textbook wholesalers and inventory management hardware and software providers."
+    },
+    {
+      "tag": "other:educational-ai",
+      "stance": "risk_mention",
+      "sentence": "technological changes, including the adoption of artificial intelligence technologies for educational content"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are increasingly dependent upon information technology systems, infrastructure and data."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:32:04.314Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,39 @@
+{
+  "cik": "0002059438",
+  "ticker": "XRPZ",
+  "name": "Franklin XRP Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-026732",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/2059438/000114036126026732/ef20070489_10k.htm"
+  },
+  "business": "The Franklin XRP Trust offers shares of the Franklin XRP ETF, which seeks to reflect the performance of the price of XRP before expenses. The Fund holds XRP and issues shares that trade on NYSE Arca under the ticker XRPZ.",
+  "sellsTo": [
+    "investors in the ETF shares",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Fund seeks to reflect generally the performance of the price of XRP before payment of the Fund's expenses and liabilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security threats to the Fund’s account at the XRP Custodian could disrupt or halt Fund operations and result in the loss of Fund assets or damage to the reputation of the Fund, each of which could result in a reduction in the value of the Shares."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Quantum computing technology is an emerging phenomenon which, because it is still developing, makes it difficult to predict its ultimate effect on the future value of XRP and other digital assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:41:55.717Z",
+  "model": "deepseek-v4-flash"
+}

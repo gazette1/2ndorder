@@ -1,0 +1,153 @@
+{
+  "cik": "0002007825",
+  "ticker": "INFQ",
+  "name": "Infleqtion, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-134544",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/2007825/000119312526134544/d94946d10k.htm"
+  },
+  "business": "Infleqtion develops and commercializes quantum technology products including quantum sensing, quantum computing, and quantum software. It generates revenue through product sales, quantum computing as a service, government-funded R&D contracts, and software licensing. Its customers include government agencies, defense prime contractors, research institutions, and commercial enterprises.",
+  "sellsTo": [
+    "National security and defense",
+    "Artificial intelligence",
+    "Energy optimization",
+    "Space and frontier",
+    "Materials discovery",
+    "Cybersecurity",
+    "Critical national infrastructure",
+    "Scientific discovery",
+    "Advanced computing",
+    "Financial services",
+    "Logistics",
+    "Pharmaceuticals"
+  ],
+  "namedCustomers": [
+    "U.S. Department of Defense",
+    "DARPA",
+    "NASA",
+    "SAIC",
+    "Lockheed Martin",
+    "NVIDIA",
+    "UK National Quantum Computing Centre",
+    "Department of Energy",
+    "U.S. Air Force",
+    "U.S. Navy",
+    "U.S. Space Force",
+    "U.S. Army",
+    "L3Harris",
+    "Safran",
+    "QinetiQ",
+    "J.P. Morgan Chase Global Technology Applied Research Team",
+    "Japan's Science and Technology Agency",
+    "Institute for Molecular Sciences"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "We are developing and commercializing quantum technology products as part of a full-stack platform, which currently includes offerings such as quantum sensing, quantum computing and software."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our quantum sensing portfolio, including Tiqker (optical atomic clocks), Sqywire (RF sensing) and Exaqt (inertial/gravitational sensing)"
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our quantum-enabled solutions are focused on addressing the world s most pressing challenges, with technologies actively deployed across a number of sectors today, including defense and security"
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "We are also pioneering the development of next-generation quantum inertial and gravimetric sensors for GPS-denied environments, including in space and underwater."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "including defense and security, artificial intelligence (AI), energy optimization, space and frontier, materials discovery and cybersecurity."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "In addition, we have developed CML software, based on quantum physics principles, that significantly amplifies AI performance today on classical graphics processing units (GPUs)."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Superstaq enables hardware-aware optimization, supports hybrid quantum-classical workflows and integrates into enterprise and high-performance computing environments via application programming interfaces."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "These systems are already being used to synchronize timing across networks"
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "we are uniquely positioned to serve the growing market for space-based quantum technologies because our atom neutral platform has already been demonstrated in orbit"
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We maintain collaborative development and go-to-market relationships with defense prime contractors including SAIC, L3Harris, Safran and QinetiQ."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The global quantum computing market is expected to reach approximately $130 billion by 2040, as adoption expands across materials science, energy systems, financial services, artificial intelligence, cybersecurity, logistics optimization and pharmaceuticals."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "The global quantum computing market is expected to reach approximately $130 billion by 2040, as adoption expands across materials science, energy systems, financial services, artificial intelligence, cybersecurity, logistics optimization and pharmaceuticals."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "The global quantum computing market is expected to reach approximately $130 billion by 2040, as adoption expands across materials science, energy systems, financial services, artificial intelligence, cybersecurity, logistics optimization and pharmaceuticals."
+    },
+    {
+      "tag": "other:materials-discovery",
+      "stance": "core_product",
+      "sentence": "including defense and security, artificial intelligence (AI), energy optimization, space and frontier, materials discovery and cybersecurity."
+    },
+    {
+      "tag": "other:energy-optimization",
+      "stance": "core_product",
+      "sentence": "including defense and security, artificial intelligence (AI), energy optimization, space and frontier, materials discovery and cybersecurity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reach 30 logical qubits",
+      "date": "2026-12-31",
+      "sentence": "We have demonstrated 12 logical qubits and are aiming to reach 30 logical qubits in 2026."
+    },
+    {
+      "event": "Achieve 100 logical qubits",
+      "date": "2028-12-31",
+      "sentence": "Our quantum computing roadmap targets achieving 100 logical qubits by 2028."
+    },
+    {
+      "event": "Demonstrate MegaQuOp scale",
+      "date": "2028-12-31",
+      "sentence": "We also target demonstrating MegaQuOp scale in 2028, measuring one million sequential logical operations in a system."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global quantum sensing market (including timing) projected to reach approximately $30 billion by 2040.",
+      "sentence": "According to third-party industry forecasts, the global quantum sensing market (including timing) is projected to reach approximately $30 billion by 2040, with primary use cases in precision timing, navigation, gravity measurement and RF field detection."
+    },
+    {
+      "claim": "Global quantum computing market expected to reach approximately $130 billion by 2040.",
+      "sentence": "The global quantum computing market is expected to reach approximately $130 billion by 2040, as adoption expands across materials science, energy systems, financial services, artificial intelligence, cybersecurity, logistics optimization and pharmaceuticals."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:16:51.330Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,57 @@
+{
+  "cik": "0001325670",
+  "ticker": "FRST",
+  "name": "Primis Financial Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028599",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1325670/000110465926028599/frst-20251231x10k.htm"
+  },
+  "business": "Primis Financial Corp. provides financial services to individuals and small- and medium-sized businesses through its bank subsidiary, Primis Bank, with $4.0 billion in total assets as of December 31, 2025. The company offers commercial and consumer lending, deposit products, mortgage origination, and digital banking services, operating 24 full-service branches in Virginia and Maryland.",
+  "sellsTo": [
+    "individuals",
+    "small- and medium-sized businesses",
+    "healthcare professionals",
+    "mortgage borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Primis successfully launched its digital bank platform. The platform includes an all-new mobile banking application that provides a quick and seamless account opening process all from within the app."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In 2021, Primis launched its V1BE service, the first bank delivery app for on-demand ordering of branch services."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "In November 2020, the Company launched the Panacea Financial division, which focuses on providing unique financial products and services for the medical, dental and veterinary communities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face significant cyber and data security risk that could result in the disclosure of or access to sensitive, confidential and/or nonpublic personal information, adversely affect our business or reputation and expose us to significant liabilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence (AI) presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First bank customer onboard for V1BE licensing",
+      "date": null,
+      "sentence": "During 2025 we expanded into other markets to support a growing customer base and are implementing enhancements to make V1BE easier to license to other banks and expect to have our first bank customer onboard in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:50:33.436Z",
+  "model": "deepseek-v4-flash"
+}

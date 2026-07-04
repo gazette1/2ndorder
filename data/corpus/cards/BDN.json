@@ -1,0 +1,52 @@
+{
+  "cik": "0000790816",
+  "ticker": "BDN",
+  "name": "BRANDYWINE REALTY TRUST",
+  "source": {
+    "form": "10-K",
+    "accession": "0000790816-26-000008",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/790816/000079081626000008/bdn-20251231.htm"
+  },
+  "business": "Brandywine Realty Trust is a self-administered and self-managed real estate investment trust engaged in the acquisition, development, redevelopment, ownership, management, and operation of a portfolio of office, life science/lab, residential and mixed-use properties. It owns and manages properties within four segments: Philadelphia Central Business District, Pennsylvania Suburbs, Austin, Texas, and Other. The company generates revenue from leasing space to tenants and, to a lesser extent, from management and development fees.",
+  "sellsTo": [
+    "office tenants",
+    "life science/lab tenants",
+    "residential tenants",
+    "retail tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:life-science-real-estate",
+      "stance": "core_product",
+      "sentence": "We are a self-administered and self-managed real estate investment trust ( REIT ) engaged in the acquisition, development, redevelopment, ownership, management, and operation of a portfolio of office, life science/lab, residential and mixed-use properties."
+    },
+    {
+      "tag": "other:office-real-estate",
+      "stance": "core_product",
+      "sentence": "We are a self-administered and self-managed real estate investment trust ( REIT ) engaged in the acquisition, development, redevelopment, ownership, management, and operation of a portfolio of office, life science/lab, residential and mixed-use properties."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches through cyber attacks, cyber intrusions or otherwise, as well as other significant disruptions of our information technology (IT) networks and related systems, which support our operations and our properties."
+    },
+    {
+      "tag": "other:ai-automation-risk",
+      "stance": "risk_mention",
+      "sentence": "The increased use of artificial intelligence ( AI ) and automation may change the uses, space configurations and tenant requirements for certain of our properties in currently unforeseen ways."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of 165 King of Prussia Road development",
+      "date": "2026-06-30",
+      "sentence": "165 King of Prussia Road Radnor, PA Q2 2026 Development 121 Rooms $59,500 $27,595 $"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:49:39.814Z",
+  "model": "deepseek-v4-flash"
+}

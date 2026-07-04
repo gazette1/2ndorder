@@ -1,0 +1,39 @@
+{
+  "cik": "0001828105",
+  "ticker": "HIPO",
+  "name": "Hippo Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001828105-26-000008",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1828105/000182810526000008/hippo-20251231.htm"
+  },
+  "business": "Hippo is a technology-native insurance holding company that delivers property and casualty insurance products to customers via its owned and partner MGAs. It offers homeowners, renters, commercial multi-peril, casualty, and other insurance lines primarily in the United States.",
+  "sellsTo": [
+    "individuals (homeowners, renters)",
+    "businesses (commercial multi-peril, casualty)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Hippo is a technology-native insurance holding company that, through its subsidiaries, delivers a broad range of insurance products to customers via its owned and partner MGAs which generated $1.1 billion of gross written premium in 2025."
+    },
+    {
+      "tag": "other:cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incidents or real or perceived errors, failures, or bugs in our systems or website could impair our operations, result in loss of customers personal information, damage our reputation and brand, and harm our business and operating results."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If we fail to properly develop, invest in, deploy, and manage AI Technologies used in our products and services, our business, financial condition, and results of operations could be materially adversely affected."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:58:12.296Z",
+  "model": "deepseek-v4-flash"
+}

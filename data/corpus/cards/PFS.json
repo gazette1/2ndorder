@@ -1,0 +1,66 @@
+{
+  "cik": "0001178970",
+  "ticker": "PFS",
+  "name": "PROVIDENT FINANCIAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012814",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1178970/000162828026012814/pfs-20251231.htm"
+  },
+  "business": "Provident Financial Services is a bank holding company that provides commercial and retail banking, wealth management, and insurance brokerage services through its subsidiary Provident Bank, serving individuals, families, and businesses primarily in New Jersey, Pennsylvania, and New York.",
+  "sellsTo": [
+    "Individuals",
+    "Families",
+    "Businesses",
+    "Commercial real estate borrowers",
+    "Multi-family property owners",
+    "Small businesses",
+    "Wealth management clients",
+    "Insurance customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank also provides fiduciary and wealth management services through its wholly owned subsidiary, Beacon Trust Company and insurance brokerage services through its wholly owned subsidiary, Provident Protection Plus, Inc."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank originates residential mortgage loans secured by first mortgages on one- to four-family residences, generally located in the states of New Jersey, New York and the eastern part of Pennsylvania."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The adoption of these Fintech solutions within our market area may cause greater and faster disruption to our business model if we are unable to keep pace with, or invest wisely in, these enabling technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack, data breach, or a technology failure of ours could adversely affect our ability to conduct our business or manage our exposure to risk, result in the disclosure or misuse of confidential or proprietary information, increase our costs to maintain and update our operational and security systems and infrastructure, and adversely impact our results of operations, liquidity and financial condition, as well as cause reputational harm."
+    },
+    {
+      "tag": "other:construction-lending",
+      "stance": "core_product",
+      "sentence": "The Bank originates commercial construction loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Core conversion to FIS IBS platform",
+      "date": null,
+      "sentence": "In 2026 we expect to execute a core conversion from our existing platform to FIS s IBS."
+    },
+    {
+      "event": "Authorization of tenth stock repurchase program",
+      "date": "2026-01-26",
+      "sentence": "On January 26, 2026, the Company s Board of Directors authorized the Company s tenth stock repurchase program to commence upon completion of the existing authorization."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:55:41.319Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001488813",
+  "ticker": "CUBI",
+  "name": "Customers Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001488813-26-000029",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000029/cubi-20251231.htm"
+  },
+  "business": "Customers Bancorp is a bank holding company that provides commercial and consumer banking products, including loans and deposits, through its wholly owned subsidiary Customers Bank. The bank serves businesses through community, SBA, and private client groups, and offers digital banking and payments services including its proprietary B2B instant payments platform, cubiX.",
+  "sellsTo": [
+    "commercial businesses",
+    "consumers",
+    "fintech companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Customers also offers digital banking to commercial and consumer businesses nationwide, including payments and treasury services to businesses, consumer loans through relationships with fintech companies and Banking-as-a-Service to fintech companies."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Customers advanced payments capabilities are a key competitive differentiator, anchored in its proprietary, in-house developed cubiX platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Costs and effects of system failures or cybersecurity incidents or other breaches of our network security and the network security of our third-party service providers and our borrowers and depositors."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "Customers Bank s proprietary B2B instant payments platform, cubiX, serves a growing array of B2B clients who wanted the benefit of instant payments, including key over-the-counter desks, exchanges, liquidity providers, market makers, funds, title companies and other B2B verticals."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:23:14.762Z",
+  "model": "deepseek-v4-flash"
+}

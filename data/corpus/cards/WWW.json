@@ -1,0 +1,55 @@
+{
+  "cik": "0000110471",
+  "ticker": "WWW",
+  "name": "WOLVERINE WORLD WIDE INC /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012614",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/110471/000162828026012614/www-20260103.htm"
+  },
+  "business": "Wolverine World Wide, Inc. is a leading designer, marketer and licensor of branded footwear, apparel and accessories, including casual, performance outdoor, athletic, kids', industrial work boots and uniform shoes. The products are marketed worldwide in approximately 170 countries and territories through owned operations, third-party distributors, licensees and joint ventures.",
+  "sellsTo": [
+    "department stores",
+    "national chains",
+    "specialty retailers",
+    "catalog retailers",
+    "independent retailers",
+    "uniform outlets",
+    "direct-to-consumer (eCommerce and retail stores)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company is a leading designer, marketer and licensor of a broad range of quality casual footwear and apparel, performance outdoor and athletic footwear and apparel, kids' footwear, industrial work boots and apparel, and uniform shoes and boots."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "At January 3, 2026, the Company operated 128 retail stores in the U.S., United Kingdom, and Italy and 39 direct-to-consumer eCommerce sites."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company’s information technology systems, including its eCommerce platform, are critical to the operations of its business. Any material interruption, unauthorized access, impairment or loss of data integrity or malfunction of these systems could severely impact the Company’s business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company has begun to incorporate, and may expand its use of, artificial intelligence, including generative artificial intelligence, in certain of its information technology systems and in its operations; for example, enabling the native artificial intelligence functionality of existing enterprise resource planning, human capital management, customer relationship management and other software systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Quarterly dividend declared",
+      "date": "2026-02-11",
+      "sentence": "A quarterly dividend of $0.10 per share was declared on February 11, 2026 to shareholders of record on April 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:24:23.186Z",
+  "model": "deepseek-v4-flash"
+}

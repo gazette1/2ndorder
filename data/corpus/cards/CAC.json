@@ -1,0 +1,49 @@
+{
+  "cik": "0000750686",
+  "ticker": "CAC",
+  "name": "CAMDEN NATIONAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000750686-26-000010",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/750686/000075068626000010/cac-20251231.htm"
+  },
+  "business": "Camden National Corporation is a bank holding company providing a range of banking and financial services including deposits, loans, wealth management, trust, brokerage, investment advisory, and insurance. It serves consumer, institutional, municipal, non-profit, and commercial customers. As of December 31, 2025, it had $7.0 billion in assets and 72 branches across Maine and New Hampshire.",
+  "sellsTo": [
+    "Consumer",
+    "Institutional",
+    "Municipal",
+    "Non-profit",
+    "Commercial",
+    "High net worth individuals (wealth management)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company, through the Bank, provides a broad array of banking and other financial services including wealth management and trust services, brokerage, investment advisory and insurance services to consumer, business, non-profit and municipal customers."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In particular, the activity of non-bank lenders and other financial technology companies ( fintechs ) has grown significantly over recent years and is expected to continue to grow."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "changes in information technology and other operational risks, including cybersecurity and artificial intelligence"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Stock repurchase program authorized for up to 850,000 shares",
+      "date": "2026-01-07",
+      "sentence": "In January 2026, the Company's Board of Directors authorized the repurchase of up to 850,000 shares of the Company's common stock, representing approximately 5.0% of the Company's issued and outstanding shares of common stock as of December 31, 2025. The new repurchase program became effective on January 7, 2026 and will continue until the earlier of: (1) the authorized number of shares are repurchased, (2) the Company s Board of Directors terminates the program or (3) January 7, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:25:24.333Z",
+  "model": "deepseek-v4-flash"
+}

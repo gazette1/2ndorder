@@ -1,0 +1,60 @@
+{
+  "cik": "0001783398",
+  "ticker": "UWMC",
+  "name": "UWM Holdings Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001783398-26-000013",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000013/uwmc-20251231.htm"
+  },
+  "business": "UWM Holdings Corp, through its subsidiary United Wholesale Mortgage, LLC, is the largest overall residential mortgage lender in the U.S., originating loans exclusively through the wholesale channel to Independent Mortgage Brokers. The company originates primarily conforming and government loans across all 50 states and the District of Columbia.",
+  "sellsTo": [
+    "Independent Mortgage Brokers",
+    "Fannie Mae",
+    "Freddie Mac",
+    "Ginnie Mae",
+    "Other investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BILT Technologies, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "UWM is the largest overall residential mortgage lender as well as the largest purchase lender in the U.S., by closed loan volume, despite originating loans exclusively through the wholesale channel."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may not be able to detect or prevent cyberattacks and other data and security breaches, which could adversely affect our business and subject us to liability to third parties."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "We continue to invest in emerging technologies, including AI, to further automate and optimize operations while enhancing the client experience."
+    },
+    {
+      "tag": "other:robotic-process-automation",
+      "stance": "active_investment",
+      "sentence": "Operations Automation A machine learning / robotic process automation solution that categorizes inbound emails, extracts key data, and sets follow up actions without team member interaction."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition to in-house servicing platform",
+      "date": "2026-12-31",
+      "sentence": "We are in the process of building an in-house servicing platform, and currently expect to transition the servicing of substantially all of the loans in our servicing portfolio to this platform by the end of 2026."
+    },
+    {
+      "event": "Merger with Two Harbors Investment Corp.",
+      "date": null,
+      "sentence": "The closing of the merger (the \"Merger\") with Two Harbors Investment Corp. (\"Two Harbors\") is contingent upon a number of customary closing conditions, some of which are beyond our control."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:28:33.291Z",
+  "model": "deepseek-v4-flash"
+}

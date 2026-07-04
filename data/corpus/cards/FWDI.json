@@ -1,0 +1,34 @@
+{
+  "cik": "0000038264",
+  "ticker": "FWDI",
+  "name": "Forward Industries, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-25-009068",
+    "filedAt": "2025-12-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/38264/000168316825009068/forward_i10k-093025.htm"
+  },
+  "business": "Forward Industries provides hardware and software product design and engineering services to top tier medical and technology customers. The company also acquires and holds Solana (SOL) and other digital assets as its primary treasury reserve asset.",
+  "sellsTo": [
+    "medical customers",
+    "technology customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "These include but are not limited to medical products, smart displays, beverage vending, enterprise and mobile software applications, lighting, security and detections systems, cameras, wearables and vehicle controls."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "The Company also acquires and holds Solana (SOL) and other digital assets and has adopted SOL as its primary treasury reserve asset."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:19:49.178Z",
+  "model": "deepseek-v4-flash"
+}

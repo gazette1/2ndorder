@@ -1,0 +1,73 @@
+{
+  "cik": "0000708955",
+  "ticker": "FFBC",
+  "name": "FIRST FINANCIAL BANCORP /OH/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000708955-26-000028",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/708955/000070895526000028/ffbc-20251231.htm"
+  },
+  "business": "First Financial Bancorp provides commercial banking and banking-related services including commercial lending, real estate lending, consumer financing, deposit products, trust and wealth management services, foreign exchange hedging, equipment financing, and premium finance lending to individuals and businesses.",
+  "sellsTo": [
+    "Individuals and small to medium sized businesses",
+    "Insurance industry, registered investment advisors, certified public accountants, and indirect auto finance companies",
+    "Restaurant franchisees",
+    "Commercial businesses in the United States and Canada",
+    "Businesses needing foreign exchange services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Bannockburn Global Forex (Bannockburn), a division of the Bank, is an industry-leading capital markets firm based in Cincinnati, Ohio, that provides transactional currency payments, foreign exchange hedging, commodities hedging and other advisory products to closely held enterprises, financial sponsors and downstream financial institutions across the United States."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Agile Premium Finance, a division of the Bank, is among industry leaders in the premium finance lending space and is active in all 50 states."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Oak Street lends to the insurance industry, registered investment advisors, certified public accountants and indirect auto finance companies."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "First Franchise lends to restaurant franchisees."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Real estate loans are loans secured by a mortgage lien on the real property of the borrower, which may either be residential property (one to four family residential housing units) or commercial property."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "First Financial also competes with Financial Technology Companies ( FinTechs ) which provide similar services to financial institutions while operating predominantly online and without the use of physical branch locations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Despite the security measures we have in place, our facilities and systems, and those of our third party service providers, may be vulnerable to security breaches, acts of fraud, acts of vandalism, computer viruses, malware, ransomware, theft of information, misplaced or lost data, programming and/or human errors, or other similar events."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The increased use and capacity of AI, Generative AI, large language models (LLMs), and AI agents by customers, vendors and competitors increases risks to our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "BankFinancial Corporation acquisition closed",
+      "date": "2026-01-01",
+      "sentence": "The transaction was completed subsequent to the end of the year, effective January 1, 2026, at which time BankFinancial, National Association, a national banking association, and a wholly owned subsidiary of BankFinancial Corporation, merged into First Financial Bank."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:23:24.011Z",
+  "model": "deepseek-v4-flash"
+}

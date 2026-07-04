@@ -1,0 +1,71 @@
+{
+  "cik": "0002001557",
+  "ticker": "INV",
+  "name": "Innventure, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002001557-26-000060",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/2001557/000200155726000060/innv-20251231.htm"
+  },
+  "business": "Innventure is an industrial growth conglomerate that founds, funds, and operates companies with a focus on commercializing transformative, sustainable technology solutions acquired or licensed from multinational corporations or other technology innovators. Accelsius provides two-phase, direct-to-chip liquid cooling solutions for servers (and other computing devices) in data centers and edge computing locations. AeroFlexx manufactures what it believes to be one of the first flexible packages designed to act like a rigid bottle, and Refinity intends to commercialize process technologies for converting plastic waste to drop-in chemicals.",
+  "sellsTo": [
+    "data center operators",
+    "hardware equipment OEMs",
+    "value-added resellers",
+    "consumer packaged goods companies",
+    "petrochemical supply chain"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Accelsius provides two-phase, direct-to-chip liquid cooling solutions for servers (and other computing devices) in data centers and edge computing locations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Accelsius aims to exploit three powerful industry trends that it believes are converging: 1. an exponential predicted increase in the thermal footprint, or thermal design power ( TDP ), of server and GPU chipsets which are now beginning to exceed the capability of the incumbent refrigerated-air cooling systems; 2. increased and unpredictable global energy costs; and 3. an increased level of commitment to environmental sustainability, including from C-suites and corporate management teams."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Accelsius provides two-phase, direct-to-chip liquid cooling solutions for servers (and other computing devices) in data centers and edge computing locations."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Standard data-center CPU power consumption has already reached approximately 500 W, while modern GPUs now exceed 700 W."
+    },
+    {
+      "tag": "other:plastic-recycling",
+      "stance": "active_investment",
+      "sentence": "Refinity intends to commercialize process technologies for converting low cost, abundant plastic waste to drop-in chemicals directly useful in and consumable by the existing petrochemical supply chain, including olefin (ethylene and propylene) gases and hydrocarbon liquids."
+    },
+    {
+      "tag": "other:sustainable-packaging",
+      "stance": "core_product",
+      "sentence": "AeroFlexx manufactures what we believe to be one of the first flexible packages designed to act like a rigid bottle (the pak )."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "active_investment",
+      "sentence": "Refinity intends to commercialize process technologies for converting low cost, abundant plastic waste to drop-in chemicals directly useful in and consumable by the existing petrochemical supply chain, including olefin (ethylene and propylene) gases and hydrocarbon liquids."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global data center cooling market was $21.6 billion in 2024 and is expected to grow at a 17.1% CAGR to over $76 billion in 2032. Of this, the data center liquid cooling market is projected to grow at an 18.2% CAGR from $4.8 billion in 2025 to $27.1 billion in 2035.",
+      "sentence": "The global data center cooling market was $21.6 billion in 2024 and is expected to grow at a 17.1% compound annual rate growth ( CAGR ) to over $76 billion in 2032. Of this, the data center liquid cooling market is projected to grow at a 18.2% CAGR from $4.8 billion in 2025 to $27.1 billion in 2035."
+    },
+    {
+      "claim": "The global packaging market is estimated to generate annual sales of approximately $1.2 trillion, 37% of which is flexible and rigid plastic. The estimated addressable market for AeroFlexx applications is approximately $400 billion.",
+      "sentence": "The global packaging market is estimated to generate annual sales of approximately $1.2 trillion, 37% of which is flexible and rigid plastic. Plastic packaging is estimated to grow at an average rate of 5-6% over the next three to five years. The estimated addressable market for AeroFlexx applications is approximately $400 billion across several market categories including personal care, household products, food, pet care and industrial."
+    }
+  ],
+  "generatedAt": "2026-07-04T02:43:06.627Z",
+  "model": "deepseek-v4-flash"
+}

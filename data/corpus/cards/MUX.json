@@ -1,0 +1,72 @@
+{
+  "cik": "0000314203",
+  "ticker": "MUX",
+  "name": "McEwen Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028705",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/314203/000110465926028705/mux-20251231x10k.htm"
+  },
+  "business": "The company is a gold and silver mining production and exploration company with an advanced copper development project, focused on the Americas. The end product at its gold and silver operations is generally dor bars or ore concentrate. Production from the Gold Bar Mine Complex and the Fox Complex is sold as refined metal on the spot market or dor under dor purchase agreements.",
+  "sellsTo": [
+    "refiners",
+    "smelters",
+    "spot market"
+  ],
+  "namedCustomers": [
+    "Asahi Refining",
+    "Auramet International LLC",
+    "Aurubis",
+    "LS Mining",
+    "Trafigura"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "McEwen Inc. (the Company) is a gold and silver mining production and exploration company with an advanced copper development project, focused on the Americas."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "We had attributable estimated proven and probable copper reserves of 4.7 billion pounds (Blbs) at Los Azules at December 31, 2025."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commence commercial production at Stock property",
+      "date": null,
+      "sentence": "The Company is currently developing the Stock property as an underground mine, targeting commercial production by 2027."
+    },
+    {
+      "event": "Begin mill construction at El Gallo",
+      "date": null,
+      "sentence": "The Company now plans to begin mill construction in H1 2026 as part of its heap leach material (HLM) reprocessing project contemplated in its 2021 feasibility study."
+    },
+    {
+      "event": "Start production at El Gallo reprocessing project",
+      "date": null,
+      "sentence": "Production is projected to begin by mid-2027 and is expected to run for 10 years, reaching an average annual output of approximately 20,000 GEOs once commercial production is achieved."
+    },
+    {
+      "event": "Los Azules Feasibility Study announced",
+      "date": "2025-10-07",
+      "sentence": "On October 7, 2025, McEwen Copper announced the results of its Feasibility Study for the Los Azules copper project in San Juan, Argentina, with an effective date of September 3, 2025."
+    },
+    {
+      "event": "Publish Grey Fox pre-feasibility report",
+      "date": null,
+      "sentence": "The 2025 year-end resource estimate will form the basis of ongoing technical studies for a pre-feasibility report, scheduled for publication in H1/26."
+    },
+    {
+      "event": "Acquire Canadian Gold Corp.",
+      "date": "2026-01-05",
+      "sentence": "On January 5, 2026, the Company successfully completed its acquisition of all of the issued and outstanding shares of Canadian Gold."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:01:29.886Z",
+  "model": "deepseek-v4-flash"
+}

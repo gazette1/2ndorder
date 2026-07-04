@@ -1,0 +1,50 @@
+{
+  "cik": "0001967649",
+  "ticker": "VSTS",
+  "name": "Vestis Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-054597",
+    "filedAt": "2025-12-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm"
+  },
+  "business": "Vestis Corp provides uniform rentals and workplace supplies, including uniforms, mats, towels, linens, restroom supplies, first-aid supplies, and safety products, to over 300,000 customer accounts across the United States and Canada. The company services a diverse range of industries such as manufacturing, hospitality, retail, food processing, pharmaceuticals, healthcare, and automotive. Approximately 95% of revenue comes from recurring rental contracts, with the remainder from direct sales.",
+  "sellsTo": [
+    "manufacturing",
+    "hospitality",
+    "retail",
+    "food processing",
+    "pharmaceuticals",
+    "healthcare",
+    "automotive"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Additionally, we provide garments and contamination control supplies that help customers maintain controlled, cleanroom environments commonly used in the manufacturing of electronics, pharmaceuticals and medical equipment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations and reputation may be adversely affected by disruptions to or breaches of our information systems or if our data is otherwise compromised."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We may use artificial intelligence in our business, which could result in reputational harm, competitive harm, and legal liability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Multi-year restructuring plan to generate at least $75 million annual operating cost savings by end of fiscal 2026",
+      "date": null,
+      "sentence": "Plan implementation has recently begun and is expected to generate annual operating cost savings of at least $75 million by the end of fiscal 2026 and to also enhance revenue."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:18:49.690Z",
+  "model": "deepseek-v4-flash"
+}

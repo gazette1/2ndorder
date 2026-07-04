@@ -1,0 +1,44 @@
+{
+  "cik": "0001297107",
+  "ticker": "COSO",
+  "name": "CoastalSouth Bancshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104114",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1297107/000119312526104114/coso-20251231.htm"
+  },
+  "business": "CoastalSouth Bancshares, Inc. is a bank holding company operating through its wholly-owned subsidiary, Coastal States Bank, a South Carolina state-chartered commercial bank. The company offers a full suite of loan and deposit products tailored to small to medium-sized businesses and individuals. It operates 11 retail banking branches in the Lowcountry of South Carolina, Savannah, Georgia, and metro Atlanta, Georgia, along with four specialty lines: Senior Housing, Marine Lending, Government Guaranteed Lending, and Mortgage Banker Finance.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential mortgages are first or second-lien loans secured by a primary residence or second home."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also have non-bank competitors, including mortgage companies, credit card issuers, money market mutual funds, brokerage firms, governmental and corporation bond issuers, peer-to-peer lending businesses, crowdfunding, stablecoins, cryptocurrency exchanges, and financial technology (fintech) companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A breach in security of our information systems, including the occurrence of a cyber-attack incidents or a deficiencies in cyber security"
+    },
+    {
+      "tag": "other:marine-lending",
+      "stance": "core_product",
+      "sentence": "Marine vessel loans are a type of consumer loan used to finance the purchase of a boat or another marine craft."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:23:29.240Z",
+  "model": "deepseek-v4-flash"
+}

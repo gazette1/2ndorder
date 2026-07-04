@@ -1,0 +1,89 @@
+{
+  "cik": "0001616533",
+  "ticker": "PENG",
+  "name": "Penguin Solutions, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001616533-25-000061",
+    "filedAt": "2025-10-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653325000061/peng-20250829.htm"
+  },
+  "business": "Penguin Solutions is an end-to-end technology company solving complex challenges in computing, memory and LED solutions. It designs, builds, deploys and manages high-performance, high-availability enterprise solutions. The company operates through three segments: Advanced Computing, Integrated Memory, and Optimized LED.",
+  "sellsTo": [
+    "education",
+    "energy",
+    "financial services",
+    "healthcare life sciences",
+    "government",
+    "hyperscale",
+    "manufacturing",
+    "industrial",
+    "networking and communications",
+    "enterprise storage and compute",
+    "AI cloud services",
+    "telecom",
+    "transportation",
+    "retail",
+    "industrial automation",
+    "original equipment manufacturers (OEMs)",
+    "electronic component distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Samsung Semiconductor, Inc.",
+    "Micron Technology, Inc.",
+    "SK hynix, Inc.",
+    "International Business Machines Corporation",
+    "Kioxia Holdings Corporation",
+    "Intel Corporation",
+    "Advanced Micro Devices, Inc.",
+    "TD SYNNEX Corporation",
+    "Super Micro Computer, Inc.",
+    "Juniper Networks, Inc.",
+    "NEC Corporation",
+    "Advantech Co., Ltd.",
+    "Celestica Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Penguin Solutions designs, builds, deploys, and manages HPC and AI infrastructure solutions that reliably enable the world’s most advanced, data intensive workloads for more than 25 years."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "In Advanced Computing, we sell our HPC and AI products to enterprise and government customers in AI cloud services, energy, financial services, hyperscale, and education; fault-tolerant computing products and services to enterprise customers in financial services, telecom, energy, transportation, healthcare, retail and industrial automation"
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The Stratus ztC Edge platform brings high availability and fault tolerance to IT constrained edge environments, such as retail locations and manufacturing sites, in a secure, highly automated Class 1, Div 2-certified computing platform."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our Optimized LED segment offers a broad portfolio of application-optimized LEDs focused on improving lumen density, intensity, efficacy, optical control and/or reliability."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are making significant investments in AI initiatives, including designing, building, deploying and managing AI and HPC infrastructure."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are working to incorporate generative AI technologies for use by our personnel for internal business purposes, such as software coding tools."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Discontinuation of Penguin Edge product portfolio",
+      "date": "2025-12-31",
+      "sentence": "By approximately the end of calendar 2025, we expect to fully discontinue our Penguin Edge product portfolio."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:25:30.236Z",
+  "model": "deepseek-v4-flash"
+}

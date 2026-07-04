@@ -1,0 +1,47 @@
+{
+  "cik": "0001759655",
+  "ticker": "PRVA",
+  "name": "Privia Health Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001759655-26-000010",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1759655/000175965526000010/prva-20251231.htm"
+  },
+  "business": "Privia Health Group is a technology-driven physician-enablement company that partners with physician practices, health plans, and health systems to improve outcomes, lower costs, and enhance patient and provider experience. It provides a cloud-based technology platform and management services to help providers succeed in fee-for-service and value-based care arrangements. The company generates revenue from fee-for-service patient care, value-based care payments, and administrative services.",
+  "sellsTo": [
+    "physician practices",
+    "health plans",
+    "health systems",
+    "government programs (Medicare, Medicaid)",
+    "commercial payers",
+    "employers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our technology and service solutions (collectively, the Privia Platform) are powered by our Privia Technology Solution that integrates both Privia-developed and third-party applications into a seamless interface and workflow that manages all aspects of our Privia Providers provision of healthcare services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security threats, cybersecurity incidents or other forms of data breaches, catastrophic events and other disruptions to our, our Medical Groups and ACOs , our business partners or our vendors information technology and related systems could compromise sensitive information related to our business, the Medical Groups or patients, prevent access to critical information, harm patients, require remediation and other corrective action, which can be expensive, and expose us to liability, which could adversely affect our business, operations and reputation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The physician enablement market in which we participate represents up to $2.4 trillion of that total healthcare spend.",
+      "sentence": "Nephron Research estimated in a December 2024 research report titled Healthcare Services 2025 Outlook that the physician enablement market in which we participate represents up to $2.4 trillion of that total healthcare spend."
+    },
+    {
+      "claim": "There are approximately 1,000,000 total physicians and providers in the U.S. as of May 2024.",
+      "sentence": "According to Statista, there were approximately 1,000,000 total physicians and providers in the U.S. as of May 2024."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:38:50.404Z",
+  "model": "deepseek-v4-flash"
+}

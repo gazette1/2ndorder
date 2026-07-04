@@ -1,0 +1,69 @@
+{
+  "cik": "0001530979",
+  "ticker": "HNST",
+  "name": "Honest Company, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011634",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1530979/000162828026011634/hnst-20251231.htm"
+  },
+  "business": "The Honest Company is a personal care company dedicated to creating cleanly-formulated and sustainably-designed products for everyone from babies to adults. The company sells wipes, personal care, diapers, and beauty products through retail partnerships and third-party ecommerce sites.",
+  "sellsTo": [
+    "retailers",
+    "third-party ecommerce",
+    "consumers through retail websites"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Target",
+    "Walmart"
+  ],
+  "namedSuppliers": [
+    "NFI",
+    "GEODIS",
+    "Butterblu"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Honest Company is a personal care company dedicated to creating cleanly-formulated and sustainably-designed products for everyone from babies to adults."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We have retail partnerships with leading retailers that sell our products through brick and mortar stores and on their own websites."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "risk_mention",
+      "sentence": "The warehouse in Las Vegas is a state-of-the-art facility leased by Honest with a focus on automated large scale retail fulfillment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Substantial completion of Powering Honest Growth actions",
+      "date": "2026-12-31",
+      "sentence": "We expect to substantially complete the actions under Powering Honest Growth by December 31, 2026."
+    },
+    {
+      "event": "Termination of GEODIS warehouse agreement",
+      "date": "2026-06-30",
+      "sentence": "In December 2025, we notified GEODIS, pursuant to the terms of the contract, that we are terminating the agreement with them for the Pennsylvania warehouse use and services effective June 30, 2026."
+    },
+    {
+      "event": "Maturity of 2023 Credit Facility",
+      "date": "2026-04-30",
+      "sentence": "The 2023 Credit Facility will terminate and borrowings thereunder, if any, would be due in full on April 30, 2026."
+    },
+    {
+      "event": "Approval of share repurchase program",
+      "date": "2026-02-20",
+      "sentence": "On February 20, 2026, the Company’s Board of Directors approved the Company’s first share repurchase program for up to $25.0 million of its outstanding common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:44:58.548Z",
+  "model": "deepseek-v4-flash"
+}

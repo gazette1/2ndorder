@@ -1,0 +1,69 @@
+{
+  "cik": "0001393883",
+  "ticker": "DHX",
+  "name": "DHI GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001393883-26-000041",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1393883/000139388326000041/dhx-20251231.htm"
+  },
+  "business": "The company provides artificial intelligence-powered software products, online tools, and services that deliver career marketplaces to candidates and employers. Its brands ClearanceJobs and Dice enable recruiters and hiring managers to connect with highly skilled technologists, particularly those with technology expertise or active government security clearances. The majority of revenues come from sale of recruitment packages.",
+  "sellsTo": [
+    "technology professionals",
+    "security-cleared professionals",
+    "employers including staffing firms, recruiting firms, and direct hiring companies"
+  ],
+  "namedCustomers": [
+    "AT&T",
+    "Adecco",
+    "CACI",
+    "Cisco",
+    "Capital One",
+    "General Dynamics",
+    "Kforce",
+    "Microsoft",
+    "Northrop Grumman"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of artificial intelligence-powered software products, online tools and services to deliver career marketplaces to candidates and employers."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "ClearanceJobs is the leading online career community dedicated to connecting security-cleared professionals with employers in a secure and private environment to fill the jobs that safeguard our nation."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "We primarily operate in the talent discovery and acquisition segment of the broader market for human capital management services through career sites for technology professionals."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "the risk that AI models will reduce demand for technology professionals in the workforce;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our technology operations are dependent in part on our ability to protect our operating systems against, among other events: ... cyber security attacks;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Computer and technology occupations are projected to grow faster than average.",
+      "sentence": "According to analysis from the U.S. Bureau of Labor Statistics, computer and technology occupations are projected to grow faster than average due to the need to replace workers who leave and driven by overall demand for these skillsets."
+    },
+    {
+      "claim": "Fundamental mismatch between companies' demand for talent and number of workers willing to supply it.",
+      "sentence": "McKinsey & Company reports a fundamental mismatch between companies' demand for talent and the number of workers willing to supply it, driven by more workers reevaluating what they want from a job and opting for nontraditional employment such as gig, temporary or part-time."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:09:40.210Z",
+  "model": "deepseek-v4-flash"
+}

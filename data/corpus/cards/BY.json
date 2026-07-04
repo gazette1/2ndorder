@@ -1,0 +1,47 @@
+{
+  "cik": "0001702750",
+  "ticker": "BY",
+  "name": "BYLINE BANCORP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083194",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1702750/000119312526083194/by-20251231.htm"
+  },
+  "business": "Byline Bancorp is a bank holding company offering a broad range of commercial banking products and services to small and medium sized businesses, commercial real estate and financial sponsors, and consumers. It also provides small ticket equipment leasing solutions, trust and wealth management services, and originates U.S. government guaranteed loans, primarily through its subsidiary Byline Bank.",
+  "sellsTo": [
+    "small and medium sized businesses",
+    "commercial real estate and financial sponsors",
+    "consumers",
+    "U.S. government guaranteed lending borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We face competition not only from other financial holding companies and commercial banks, but also from internet banks, savings and loan associations, FinTech companies, credit unions, trust and wealth management providers, and other providers of financial services and products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls, or cybersecurity-related incidents could have a material adverse effect on our business, financial condition, or results of operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "AI and our ability to implement and leverage AI to deliver new products and services to our customers present competitive risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of acquisition of First Security Bancorp, Inc.",
+      "date": "2025-04-01",
+      "sentence": "On April 1, 2025, we completed our acquisition of First Security Bancorp, Inc., a Delaware corporation (\"First Security Bancorp\"), and First Security Bancorp's wholly-owned bank subsidiary, First Security Trust and Savings Bank (\"First Security\"), an Illinois chartered bank (collectively \"First Security acquisition\" or \"acquisition of First Security\")."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:39:21.876Z",
+  "model": "deepseek-v4-flash"
+}

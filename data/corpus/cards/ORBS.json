@@ -1,0 +1,54 @@
+{
+  "cik": "0001892492",
+  "ticker": "ORBS",
+  "name": "Eightco Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016664",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226016664/form10-k.htm"
+  },
+  "business": "Eightco operates Forever 8, a provider of funding solutions and inventory management services for e-commerce businesses. The company also implements a Digital Asset Treasury strategy focused on Worldcoin and other digital assets, and holds strategic investments in frontier technology companies like OpenAI and Beast Industries.",
+  "sellsTo": [
+    "E-commerce retailers",
+    "Digital asset market participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Forever 8 provides funding solutions and inventory management services for e-commerce businesses, enabling sellers to maintain optimal stock levels without tying up their own capital."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "active_investment",
+      "sentence": "During the year ended December 31, 2025, we acquired digital assets with an aggregate fair value of approximately $176 million as of December 31, 2025."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Subsequent to December 31, 2025, the Company expanded its investment portfolio to include strategic equity positions in OpenAI, the developer of ChatGPT and one of the world's leading artificial intelligence companies."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "active_investment",
+      "sentence": "In January 2025, we invested approximately $1,000,000 in Series D Preferred Stock of Mythical, Inc., a developer of blockchain-based video game ecosystems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks and data integrity failures could damage our reputation, disrupt operations, or subject us to costs, fines, or lawsuits, and our insurance coverage may not be adequate."
+    },
+    {
+      "tag": "other:cryptocurrency-regulation",
+      "stance": "risk_mention",
+      "sentence": "The regulatory environment for digital assets in the United States is evolving rapidly and remains subject to significant uncertainty."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:01:21.389Z",
+  "model": "deepseek-v4-flash"
+}

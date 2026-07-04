@@ -1,0 +1,60 @@
+{
+  "cik": "0001606757",
+  "ticker": "KE",
+  "name": "Kimball Electronics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001606757-25-000027",
+    "filedAt": "2025-08-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1606757/000160675725000027/ke-20250630.htm"
+  },
+  "business": "Kimball Electronics provides contract manufacturing services including durable electronics assemblies, medical devices, and precision molded plastics. The company serves customers in automotive, medical, and industrial end markets and operates facilities in the United States, China, Mexico, Poland, Romania, and Thailand.",
+  "sellsTo": [
+    "automotive",
+    "medical",
+    "industrial"
+  ],
+  "namedCustomers": [
+    "Nexteer Automotive",
+    "Philips",
+    "ZF"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our CMO solutions support the production of medical disposables and drug delivery devices, from precision molded plastics and cold chain management to drug integration."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The EMS industry has experienced component shortages, component allocations, and shipping delays, particularly with semiconductors, in recent fiscal years."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "Our success also depends on keeping pace with technological advancements, including Industry 4.0, and adapting services to provide manufacturing capabilities which meet customers changing needs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "These systems are subject to the risk of security breach or cybersecurity threat, including misappropriation of assets or other sensitive information, such as confidential business information and personally identifiable data relating to employees, customers, and other business partners, or data corruption which could cause operational disruption."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The operation of our business depends on effective information technology systems, including data management, analytics, and emerging machine learning and artificial intelligence platforms and applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Lease of new manufacturing facility in Indiana to expand medical CMO footprint",
+      "date": null,
+      "sentence": "We have recently executed a lease for a third manufacturing facility in Indiana to expand our medical CMO footprint."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:36:51.918Z",
+  "model": "deepseek-v4-flash"
+}

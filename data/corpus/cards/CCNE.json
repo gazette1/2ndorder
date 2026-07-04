@@ -1,0 +1,41 @@
+{
+  "cik": "0000736772",
+  "ticker": "CCNE",
+  "name": "CNB FINANCIAL CORP/PA",
+  "source": {
+    "form": "10-K",
+    "accession": "0000736772-26-000031",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/736772/000073677226000031/ccne-20251231.htm"
+  },
+  "business": "CNB Financial Corporation is a financial holding company. Its primary subsidiary, CNB Bank, provides full-service banking activities and services, including checking, savings, time deposit accounts, real estate, commercial, industrial, residential and consumer loans, and other financial services. The Bank serves individual, business, governmental and institutional customers across multiple divisions in Pennsylvania, Ohio, New York, and Virginia.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "governmental entities",
+    "institutional customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:banking",
+      "stance": "core_product",
+      "sentence": "The Bank is a full-service bank engaging in a full range of banking activities and services for individual, business, governmental and institutional customers."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "CNB Insurance Agency, incorporated in Pennsylvania, provides for the sale of nonproprietary annuities and other insurance products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "effectiveness of our data security controls in the face of cyber attacks and any reputational risks following a cybersecurity incident"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:13:36.480Z",
+  "model": "deepseek-v4-flash"
+}

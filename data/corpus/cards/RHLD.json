@@ -1,0 +1,60 @@
+{
+  "cik": "0002039497",
+  "ticker": "RHLD",
+  "name": "Resolute Holdings Management, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027050",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926027050/rhld-20251231x10k.htm"
+  },
+  "business": "Resolute Holdings Management, Inc. provides operating management services to GPGI Holdings and its subsidiaries, including CompoSecure and Husky, in exchange for management fees based on Adjusted EBITDA. CompoSecure designs and manufactures premium metal payment cards and authentication solutions for financial institutions. Husky manufactures highly engineered injection molding equipment and aftermarket tooling and services for various industries.",
+  "sellsTo": [
+    "financial institutions",
+    "consumer goods companies",
+    "medical device manufacturers",
+    "packaging companies"
+  ],
+  "namedCustomers": [
+    "JPMorgan Chase",
+    "American Express"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CompoSecure, founded in 2000, and headquartered in Somerset, New Jersey, is the global leader in the design and manufacturing of premium metal payment cards and secure authentication solutions."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Husky, founded in 1953, and headquartered in Bolton, Ontario, is the leading global manufacturer of highly engineered injection molding equipment and aftermarket tooling and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security markets, including the market for authentication solutions, are rapidly evolving to address increasing and challenging cyber threats, including identity theft, and the CompoSecure business Arculus Authenticate solutions may not achieve widespread market acceptance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Spin-Off from GPGI completed",
+      "date": "2025-02-28",
+      "sentence": "On February 28, 2025, GPGI completed the Spin-Off, whereby each stockholder of record who held shares of GPGI Class A Common Stock as of the close of business on February 20, 2025, received one share of Resolute Holdings common stock for every twelve shares of GPGI Class A Common Stock then held."
+    },
+    {
+      "event": "Husky Transaction closed, making Husky Holdings a wholly owned subsidiary of GPGI Holdings",
+      "date": "2026-01-12",
+      "sentence": "The Husky Transaction was completed on January 12, 2026, whereby Husky Holdings became a wholly owned subsidiary of GPGI Holdings."
+    },
+    {
+      "event": "Redomiciliation to Nevada",
+      "date": "2026-03-02",
+      "sentence": "On March 2, 2026, Resolute Holdings redomiciled its state of incorporation from the State of Delaware to the State of Nevada."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:44:53.213Z",
+  "model": "deepseek-v4-flash"
+}

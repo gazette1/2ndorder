@@ -1,0 +1,45 @@
+{
+  "cik": "0001117297",
+  "ticker": "QNST",
+  "name": "QUINSTREET, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-110629",
+    "filedAt": "2025-08-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1117297/000095017025110629/qnst-20250630.htm"
+  },
+  "business": "QuinStreet is a leader in performance marketplaces and technologies for the financial services and home services industries, generating revenue by delivering measurable online marketing results to clients on a per click, per lead, or per action basis.",
+  "sellsTo": [
+    "financial services",
+    "home services",
+    "large companies and brands"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a leader in performance marketplaces and technologies for the financial services and home services industries."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "such as our QuinStreet Rating Platform (\"QRP\") product for insurance agents;"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to data privacy and security risks, particularly given that we gather, transmit, store and otherwise process personal information and implement artificial intelligence technology in certain products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to data privacy and security risks, particularly given that we gather, transmit, store and otherwise process personal information and implement artificial intelligence technology in certain products."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:34:58.807Z",
+  "model": "deepseek-v4-flash"
+}

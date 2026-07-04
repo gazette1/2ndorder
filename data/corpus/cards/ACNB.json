@@ -1,0 +1,46 @@
+{
+  "cik": "0000715579",
+  "ticker": "ACNB",
+  "name": "ACNB CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017229",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026017229/acnb-20251231.htm"
+  },
+  "business": "ACNB Corporation is a financial holding company providing commercial and consumer banking, mortgage lending, wealth management, and insurance services through its subsidiaries ACNB Bank and ACNB Insurance Services. Its primary market area is south-central Pennsylvania and northern Maryland, serving individuals and businesses with a range of financial products.",
+  "sellsTo": [
+    "Individuals and businesses in south-central Pennsylvania and northern Maryland",
+    "Commercial and consumer lending customers",
+    "Insurance clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "ACNB Insurance Services, the Corporation’s insurance subsidiary, is a full-service agency licensed to do business in 46 states."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "potential impacts to the Corporation from continually evolving cybersecurity and other technological risks and attacks, including additional costs, reputational damage, regulatory penalties, and financial losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Traditions Bancorp, Inc.",
+      "date": "2025-02-01",
+      "sentence": "Effective February 1, 2025, ACNB closed the acquisition of Traditions Bancorp, Inc., holding company for Traditions Bank, York, Pennsylvania."
+    },
+    {
+      "event": "Consolidation of two Traditions Bank offices",
+      "date": null,
+      "sentence": "In April 2025, ACNB consolidated two of the eight Traditions Bank offices into nearby ACNB Bank offices."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:36:05.042Z",
+  "model": "deepseek-v4-flash"
+}

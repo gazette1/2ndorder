@@ -1,0 +1,46 @@
+{
+  "cik": "0001055160",
+  "ticker": "MFA",
+  "name": "MFA FINANCIAL, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001055160-26-000004",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1055160/000105516026000004/mfa-20251231.htm"
+  },
+  "business": "MFA Financial, Inc. is a specialty finance company that invests in and finances residential mortgage assets. The company invests, on a leveraged basis, in residential whole loans, residential mortgage securities and other real estate assets. Through its wholly-owned subsidiary Lima One, it originates and services business purpose loans for real estate investors.",
+  "sellsTo": [
+    "real estate investors",
+    "mortgage borrowers",
+    "shareholders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "active_investment",
+      "sentence": "We are a specialty finance company that invests in and finances residential mortgage assets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Maintaining cybersecurity and data security is important to our business and a breach of our cybersecurity or data security could result in serious harm to our reputation."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We may utilize artificial intelligence, which exposes us to liability and affects our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "relaunch multifamily lending and begin funding through wholesale channel",
+      "date": "2026-01-01",
+      "sentence": "In early 2026, we relaunched multifamily lending and began funding loans through our newly established wholesale channel, which represent two key areas of growth for Lima One."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:20:44.695Z",
+  "model": "deepseek-v4-flash"
+}

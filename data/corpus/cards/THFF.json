@@ -1,0 +1,44 @@
+{
+  "cik": "0000714562",
+  "ticker": "THFF",
+  "name": "FIRST FINANCIAL CORP /IN/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000714562-26-000014",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/714562/000071456226000014/thff-20251231x10k.htm"
+  },
+  "business": "First Financial Corporation is a financial holding company that offers commercial, mortgage, and consumer lending, lease financing, trust account services, and depositor services through its subsidiary, First Financial Bank, N.A. The bank serves individuals and businesses across multiple states including Indiana, Illinois, Kentucky, Tennessee, and Georgia.",
+  "sellsTo": [
+    "Individuals in Indiana, Illinois, Kentucky, Tennessee, and Georgia",
+    "Businesses in west-central Indiana, east-central Illinois, western Kentucky, eastern and central Tennessee, and northern Georgia"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Corporation implemented a form of AI with its intelligent digital assistant, Gabby, available through the Bank’s website."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Corporation's operational systems and networks are subject to an increasing risk of continually evolving cybersecurity or other technological risks, which could result in a loss of customer business, financial liability, regulatory penalties, damage to our reputation, or the disclosure of confidential information."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "The impact on our deposits will depend, in part, on the demand for stablecoins and the number of competitors that offer services permitted under the GENIUS Act."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The increased prevalence, use and development of AI may subject the Corporation to increased regulatory risk, reputational risk, and may have material adverse effects on the Corporation's business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:27:27.760Z",
+  "model": "deepseek-v4-flash"
+}

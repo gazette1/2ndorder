@@ -1,0 +1,67 @@
+{
+  "cik": "0001337298",
+  "ticker": "FF",
+  "name": "FutureFuel Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008411",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1337298/000143774926008411/ff20251231_10k.htm"
+  },
+  "business": "FutureFuel manufactures a diverse portfolio of inorganic chemicals, bio-based specialty chemicals, and biofuels in its integrated facility in Batesville, Arkansas. It operates through two segments: Chemicals (custom manufacturing and performance chemicals) and Biofuels (biodiesel). The company sells to customers in various end markets such as agrochemicals, oilfield chemicals, industrial intermediates, fabric care, coatings, specialty polymers, automotive, oil and gas, nutrition, and polymer additives.",
+  "sellsTo": [
+    "Agrochemicals and Oilfield Chemicals",
+    "Industrial Intermediates and Fabric Care",
+    "Coatings and Specialty Polymers",
+    "On-road transportation",
+    "Agriculture",
+    "Heating",
+    "Energy",
+    "Pharmaceutical intermediates",
+    "Food ingredients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We manufacture a diverse portfolio of inorganic chemicals, bio-based specialty chemicals, and biofuels in our integrated facility in Batesville, Arkansas."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our biofuels segment leverages chemical manufacturing know-how with cost effective infrastructure to produce biodiesel (fatty acid mono-alkyl esters) sustainable fuel solutions."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "We simultaneously invest in process automation and lean methodologies to enhance manufacturing reliability and throughput."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-incidents affecting the Company, its supply chain, utility providers or customers could compromise confidential, business critical information, cause a sustained disruption in the Company's operations, harm the Company's reputation, or lead to a loss of control of physical processes that could endanger the environment if the Company, its suppliers or customers do not effectively prevent, detect and recover from these or other security breaches."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Electric Vehicles (EVs): Policy shifts and subsidies that accelerate the adoption of electric vehicles, potentially reducing long-term demand for liquid combustion fuels."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Improper use of generative AI and LLMs could result in a material adverse effect on our operations and financial results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CFPC guidance proposed",
+      "date": "2026-02-03",
+      "sentence": "Guidance surrounding this credit was proposed on February 3, 2026, and is awaiting public comment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:41:41.539Z",
+  "model": "deepseek-v4-flash"
+}

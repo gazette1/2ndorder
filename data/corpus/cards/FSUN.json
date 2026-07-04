@@ -1,0 +1,66 @@
+{
+  "cik": "0001709442",
+  "ticker": "FSUN",
+  "name": "FIRSTSUN CAPITAL BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001709442-26-000017",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1709442/000170944226000017/fcb-20251231.htm"
+  },
+  "business": "FirstSun Capital Bancorp is a financial holding company providing deposit, lending, treasury management, wealth management, and online banking products and services through Sunflower Bank and Sunflower Wealth Advisors. It also offers full-service residential mortgage products through its mortgage division and plans to offer insurance products through its subsidiary Sunflower Insurance Solutions.",
+  "sellsTo": [
+    "individuals and businesses in Texas, Kansas, Colorado, New Mexico, Arizona, California, and Washington",
+    "mortgage lending customers in 44 states",
+    "commercial and industrial businesses, real estate borrowers, and wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete with commercial banks, credit unions, savings institutions, mortgage banking firms, consumer finance companies, securities brokerage firms, insurance companies, money market funds and other mutual funds, loan production offices and other providers of financial services, including nontraditional financial technology companies or FinTech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in, or breach of, our operational or security systems or infrastructure, or those of our third-party vendors or others, including as a result of cyber-attacks, could disrupt our businesses, result in the disclosure or misuse of confidential or proprietary information, result in litigation or investigations, damage our reputation, increase our costs and cause losses."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "In November 2025, we established Sunflower Insurance Solutions Inc., a wholly owned subsidiary of Sunflower Bank, N.A. Sunflower Insurance Solutions will offer life, long-term care and disability coverage, alongside estate planning and generational wealth transfer solutions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "These forward-looking statements are subject to numerous assumptions, risks and uncertainties... including... risks related to the development and use of artificial intelligence."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Additionally, natural disasters and weather-related events exacerbated by climate change could have a negative impact on our results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Establishment of Sunflower Insurance Solutions subsidiary",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, we established Sunflower Insurance Solutions Inc., a wholly owned subsidiary of Sunflower Bank, N.A."
+    },
+    {
+      "event": "Opening of two new depository branches in Southern California",
+      "date": "2025-01-01",
+      "sentence": "In early 2025, we established two new depository branches, one in each of San Diego and Los Angeles, California to support our team of bankers in these areas and further service customers and businesses in these communities."
+    },
+    {
+      "event": "Expected closing of merger with First Foundation Inc.",
+      "date": null,
+      "sentence": "The merger is expected to close early in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:28:30.005Z",
+  "model": "deepseek-v4-flash"
+}

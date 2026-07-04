@@ -1,0 +1,50 @@
+{
+  "cik": "0001078075",
+  "ticker": "NTCT",
+  "name": "NETSCOUT SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001078075-26-000050",
+    "filedAt": "2026-05-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1078075/000107807526000050/ntct-20260331.htm"
+  },
+  "business": "NetScout provides enterprise network observability, carrier service assurance, cybersecurity, and Distributed Denial-of-Service (DDoS) protection solutions. Its solutions are powered by deep packet inspection (DPI) technology and are used by Fortune 500 companies, service providers, and government agencies to optimize network performance, ensure service quality, and protect networks from attacks.",
+  "sellsTo": [
+    "enterprises",
+    "service providers",
+    "government agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our cybersecurity solutions are used by enterprises and service providers to identify and mitigate advanced, volumetric, multi-vector, and application-specific DDoS attacks, as well as assist enterprise security teams in rapidly identifying, isolating, investigating, and resolving other advanced network threats."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our service assurance solutions help service providers effectively manage capacity, assess overall network quality, take proactive steps to modify the network before issues impact subscribers, and quickly identify and troubleshoot network problems."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our solutions portfolio also includes a range of virtual appliances that can help enterprise customers extend their monitoring of applications deeper into their traditional or 'colo' data centers, confidently migrate applications into public cloud environments and gain a comprehensive, cohesive view into the resulting hybrid cloud environment."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "Significant technology trends and catalysts for our business include the evolution of customers' digital transformation initiatives, such as migration to cloud environments and to the edges of their networks; the rapidly evolving cybersecurity threat landscape; advancements in artificial intelligence ( AI ) and business analytics that can enhance observability and are increasing the need for high-quality, real-time data to support automated and AI-driven operations; and the continued evolution and potential opportunities related to 5G technology across both the service provider and enterprise customer verticals."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "Supporting AI/ML processes with both real-time and historical insight, the dataset improves service performance while avoiding unnecessary processing and storage costs."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:58:23.441Z",
+  "model": "deepseek-v4-flash"
+}

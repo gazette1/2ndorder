@@ -1,0 +1,50 @@
+{
+  "cik": "0000910108",
+  "ticker": "LXP",
+  "name": "LXP Industrial Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0000910108-26-000009",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/910108/000091010826000009/lxp-20251231.htm"
+  },
+  "business": "LXP Industrial Trust is a real estate investment trust focused on Class A warehouse and distribution real estate investments in target markets in the Sunbelt and lower Midwest. It acquires and develops properties that are generally net-leased to single tenants. The company also provides advisory services and co-invests with institutional investors in non-consolidated entities.",
+  "sellsTo": [
+    "tenants (warehouse/distribution users)",
+    "institutional investors (via joint ventures)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The main drivers of growth in the industrial real estate market have been e-commerce and nearshoring."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We focus our investment activity primarily on income producing single-tenant warehouse and distribution assets and build-to-suit and speculative development of warehouse and distribution assets."
+    },
+    {
+      "tag": "other:advanced-manufacturing",
+      "stance": "risk_mention",
+      "sentence": "Certain of our target markets are benefiting from advanced manufacturing investments and business-friendly local and state governments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents may result in disrupted operations, including as a result of the loss of access to our information systems, misstated or unreliable financial data, liability for stolen assets or information, increased cybersecurity protection and insurance costs, litigation and damage to our tenant, investor and/or vendor relationships."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Leases expiring under ABR",
+      "date": null,
+      "sentence": "Approximately 73.8% of our ABR was from leases scheduled to expire during 2026 through 2031."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:51:49.870Z",
+  "model": "deepseek-v4-flash"
+}

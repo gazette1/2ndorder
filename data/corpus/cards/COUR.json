@@ -1,0 +1,42 @@
+{
+  "cik": "0001651562",
+  "ticker": "COUR",
+  "name": "Coursera, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001651562-26-000015",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000015/cour-20251231.htm"
+  },
+  "business": "Coursera operates a global online learning platform that connects learners, content creators, and institutions, offering educational content and credentials including courses, certificates, and degrees. It serves individual learners and organizational customers such as employers, academic institutions, and government entities.",
+  "sellsTo": [
+    "individual learners",
+    "employers",
+    "academic institutions",
+    "government entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "Product innovation such as our AI-enabled Course Builder solution is designed to streamline content production in various formats and enable customers to personalize courses tailored to their organization's objectives."
+    },
+    {
+      "tag": "other:cybersecurity-education",
+      "stance": "core_product",
+      "sentence": "Coursera offers a portfolio of entry-level Professional Certificates from IBM, Microsoft, Google, Meta, and more that help develop the skills needed to land entry-level digital jobs in high-demand domains such as cybersecurity, data science, healthcare, marketing, sales, and software engineering and development without requiring a college degree or any experience in the field."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Udemy anticipated to close",
+      "date": "2026-12-31",
+      "sentence": "The Merger, which is anticipated to close by the second half of calendar year 2026, is subject to approval by Coursera and Udemy stockholders, the receipt of required regulatory approvals, and other customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:43:13.408Z",
+  "model": "deepseek-v4-flash"
+}

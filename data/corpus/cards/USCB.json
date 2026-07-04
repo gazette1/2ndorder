@@ -1,0 +1,51 @@
+{
+  "cik": "0001901637",
+  "ticker": "USCB",
+  "name": "USCB FINANCIAL HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562762-26-000027",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1901637/000156276226000027/uscb-20251231.htm"
+  },
+  "business": "USCB Financial Holdings, Inc. is a bank holding company that, through its subsidiary U.S. Century Bank, provides a range of personal and business banking products and services, including lending, deposit, and title services, primarily to small-to-medium sized businesses and individuals in South Florida.",
+  "sellsTo": [
+    "small-to-medium sized businesses",
+    "local business owners",
+    "entrepreneurs",
+    "professionals",
+    "homeowner associations",
+    "law firms",
+    "medical practices",
+    "high net worth individuals",
+    "correspondent banks in Latin America and Caribbean"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also compete with mortgage companies, brokerage firms, trust service providers, consumer finance companies, mutual funds, securities firms, insurance companies, third-party payment processors, financial technology companies, or Fintechs, and other financial intermediaries on various of our products and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure, interruption, or breach in the security of our systems, or those of our contracted vendors, could disrupt our business, result in the disclosure of confidential information, damage our reputation, and create significant financial and legal exposure."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Florida Peninsula Title LLC is a subsidiary of the Bank that offers our clients title insurance policies for real estate transactions closed at the Bank."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our current and future uses of artificial intelligence and other emerging technologies may create additional risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:01:57.493Z",
+  "model": "deepseek-v4-flash"
+}

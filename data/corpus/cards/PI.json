@@ -1,0 +1,78 @@
+{
+  "cik": "0001114995",
+  "ticker": "PI",
+  "name": "IMPINJ INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-042813",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114995/000119312526042813/pi-20251231.htm"
+  },
+  "business": "Impinj designs and sells a platform for wireless item-to-cloud connectivity, including silicon radios (endpoint ICs and reader ICs), reading systems (readers and gateways), tag production systems, and software/cloud services. The company sells primarily through a global partner ecosystem of OEMs, ODMs, systems integrators, value-added resellers, and other solution partners. End users include retailers, supply chain and logistics providers, automotive manufacturers, healthcare organizations, and others.",
+  "sellsTo": [
+    "retail",
+    "supply chain & logistics",
+    "automotive",
+    "healthcare",
+    "industrial & manufacturing",
+    "food",
+    "travel",
+    "banking",
+    "datacenter",
+    "sports"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+    "Stars Microelectronics (Thailand) Public Company Limited (Stars)",
+    "Chipbond Technology Corporation (Chipbond)",
+    "Unisem Group (Unisem)",
+    "Plexus Corp. (Plexus)"
+  ],
+  "exposures": [
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We sell two types of silicon radios."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Retailers, both traditional brick-and-mortar and online, apply billions of RAIN tags each year, historically to retail apparel and footwear but today, increasingly, to retail general merchandise such as home goods, health and beauty items, tires, toys, sporting goods, automotive parts, consumer electronics and other items."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "SC&L includes shipping companies, third-party logistics providers, postal organizations, captive distribution capabilities and other organizations that transport products worldwide."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Hospitals use our platform to track assets and manage patient and clinician workflows."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Industrial companies track components to increase manufacturing productivity and reduce shipping errors."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Datacenters use our platform for asset tracking."
+    },
+    {
+      "tag": "other:automotive",
+      "stance": "core_product",
+      "sentence": "Car manufacturers use our platform to track and verify automotive parts for vehicle assembly, reducing mistakes and labor costs and improving operations."
+    },
+    {
+      "tag": "other:food",
+      "stance": "core_product",
+      "sentence": "Our endpoint ICs track bakery items, meat, fish and fresh produce for freshness as well as inventory visibility."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:41:54.252Z",
+  "model": "deepseek-v4-flash"
+}

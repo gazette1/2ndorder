@@ -1,0 +1,84 @@
+{
+  "cik": "0001639691",
+  "ticker": "LIVN",
+  "name": "LivaNova PLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001639691-26-000010",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000010/livn-20251231.htm"
+  },
+  "business": "LivaNova PLC is a market-leading global medical technology company that designs, develops, manufactures, markets, and sells products, therapies, and services in two reportable segments: Cardiopulmonary (heart-lung machines, oxygenators, autotransfusion systems, perfusion tubing systems, cannulae) and Neuromodulation (VNS Therapy devices for drug-resistant epilepsy and treatment-resistant depression, and the aura6000 System for obstructive sleep apnea). The company sells to perfusionists, neurologists, neurosurgeons, hospitals, and other healthcare professionals worldwide.",
+  "sellsTo": [
+    "perfusionists",
+    "neurologists",
+    "neurosurgeons",
+    "hospitals",
+    "other healthcare professionals",
+    "medical institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "LivaNova has two reportable segments: Cardiopulmonary and Neuromodulation."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "The Company's R&D investment consists of product design and development expenses, including technology, AI, software, clinical study programs, and regulatory activities."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "supplier shortages and interruptions of certain components, such as the fiber used in the manufacture of oxygenators and rare earth magnets used in the manufacture of heart-lung machines, have caused, and may in the future cause, meaningful disruptions to LivaNova's product manufacturing supply chain."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company has experienced and is continually at risk of being subject to cybersecurity incidents and other disruptions, as exemplified by the previously disclosed November 2023 cybersecurity incident that resulted in the disruption of portions of the Company's IT systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of CORE-VNS study announcement",
+      "date": "2025-06",
+      "sentence": "In June 2025, the Company announced the completion of the CORE-VNS study, which evaluated outcomes using real-world evidence from more than 800 individuals with DRE treated with VNS Therapy worldwide."
+    },
+    {
+      "event": "Initiation of CMS reconsideration for VNS Therapy in TRD",
+      "date": "2025-06",
+      "sentence": "In June 2025, the Company announced that it had initiated the process with CMS to seek reconsideration of national Medicare coverage for VNS Therapy in unipolar patients with TRD."
+    },
+    {
+      "event": "Announcement of new titration algorithm PolySync",
+      "date": "2025-11",
+      "sentence": "In November 2025, the Company announced its new advanced titration algorithm, PolySync, which utilizes the technology's six-electrode design to provide a more targeted nerve activation and enable an even greater patient response."
+    },
+    {
+      "event": "Italian Supreme Court decision on SNIA liability",
+      "date": "2025-03-14",
+      "sentence": "On March 14, 2025, the Italian Supreme Court issued its decision in response to all of the appeals of the Company and counter-appeals submitted by the Public Administrations."
+    },
+    {
+      "event": "Early repayment of $200 million under Term Facilities",
+      "date": "2025-05-02",
+      "sentence": "The decrease was primarily due to an early repayment on May 2, 2025 of $200 million on principal borrowings under the Term Facilities and decreases in interest rates."
+    },
+    {
+      "event": "Full repayment of Term Facilities",
+      "date": "2026-01-08",
+      "sentence": "On January 8, 2026, LivaNova paid $97.7 million in an early repayment of the amount outstanding under the Term Facilities in full, along with accrued interest."
+    },
+    {
+      "event": "OSPREY clinical trial met primary endpoints",
+      "date": "2024",
+      "sentence": "In 2024, the Company announced the OSPREY clinical trial met its primary endpoints for efficacy and safety."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:36:51.353Z",
+  "model": "deepseek-v4-flash"
+}

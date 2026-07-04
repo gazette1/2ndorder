@@ -1,0 +1,54 @@
+{
+  "cik": "0001428205",
+  "ticker": "ARR",
+  "name": "Armour Residential REIT, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001428205-26-000029",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1428205/000142820526000029/arr-20251231.htm"
+  },
+  "business": "ARMOUR Residential REIT, Inc. is an externally managed Maryland corporation that has elected to be taxed as a real estate investment trust. The company invests in mortgage-backed securities issued or guaranteed by U.S. government-sponsored entities or government agencies, and U.S. Treasury Securities. It finances its investments with repurchase agreements and uses derivatives to manage interest rate risk.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BUCKLER Securities LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "ARMOUR brings private capital into the mortgage markets to support home ownership for a broad and diverse spectrum of Americans."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "Changes in interest rates impact our level of net interest income, total comprehensive income (loss) and stockholders' equity and we cannot always successfully mitigate such interest rate risks."
+    },
+    {
+      "tag": "other:prepayment-risk",
+      "stance": "risk_mention",
+      "sentence": "Prepayments on MBS and the underlying mortgage loans may be influenced by changes in market interest rates and a variety of economic and geographic factors, policy decisions by regulators, as well as other factors beyond our control."
+    },
+    {
+      "tag": "other:leverage",
+      "stance": "core_product",
+      "sentence": "Our borrowings (on a recourse basis) are generally between six and ten times the amount of our total stockholders equity."
+    },
+    {
+      "tag": "other:derivatives-hedging",
+      "stance": "core_product",
+      "sentence": "We use derivatives in the normal course of our business to reduce the impact of interest rate fluctuations on our cost of funding consistent with our REIT tax requirements."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Termination of management fee waiver by ACM",
+      "date": "2026-02-01",
+      "sentence": "On December 22, 2025, ACM notified ARMOUR that they were terminating the voluntarily waiver. The termination of the waiver is effective for the contractual management fee that becomes due and payable after February 1, 2026 (relating to services for the month of January 2026)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:57:22.523Z",
+  "model": "deepseek-v4-flash"
+}

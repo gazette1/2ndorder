@@ -1,0 +1,53 @@
+{
+  "cik": "0000879635",
+  "ticker": "MPB",
+  "name": "MID PENN BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000879635-26-000026",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/879635/000087963526000026/mpb-20251231.htm"
+  },
+  "business": "Mid Penn Bancorp, Inc. is a financial holding company whose primary business is commercial banking, attracting deposits, and making loans to businesses and individuals primarily in Pennsylvania and New Jersey. The bank offers a range of financial services including commercial real estate, residential mortgage, commercial and industrial loans, consumer loans, trust and wealth management, and insurance services through its subsidiaries.",
+  "sellsTo": [
+    "Commercial businesses",
+    "Real estate investors",
+    "Consumers",
+    "Nonprofit organizations",
+    "Municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "In addition to Mid Penn Bank, Mid Penn maintains six wholly-owned nonbank subsidiaries: ... MPB Risk Services, LLC, a licensed insurance producer"
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Bank also offers other services such as online banking, telephone banking, cash management services, automated teller services and safe deposit boxes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If Mid Penn's information systems are interrupted or sustain a breach in security, those events may negatively affect Mid Penn's financial performance and reputation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of acquisition of 1st Colonial Bancorp, Inc.",
+      "date": null,
+      "sentence": "On September 24, 2025, Mid Penn entered into a Merger Agreement with 1st Colonial in a cash and stock deal valued at nearly $101 million. ... The acquisition was completed subsequent to year end."
+    },
+    {
+      "event": "Completion of acquisition of Cumberland Advisors, Inc.",
+      "date": null,
+      "sentence": "On September 25, 2025, Mid Penn entered into an agreement to acquire Cumberland Advisors, Inc. ... The acquisition was completed subsequent to year end."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:32:52.784Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0001289945",
+  "ticker": "SPOK",
+  "name": "Spok Holdings, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001289945-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289945/000128994526000010/spok-20251231.htm"
+  },
+  "business": "Spok is a global leader in healthcare communications, delivering clinical information to care teams. The company offers solutions for workflow improvement, secure texting, paging services, contact center optimization, and public safety response. Its primary market is healthcare, but it also serves government and large enterprise customers.",
+  "sellsTo": [
+    "healthcare organizations",
+    "government agencies",
+    "large enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We offer subscriptions to one-way or two-way messaging services for a periodic (monthly, quarterly, semi-annual, or annual) service fee."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We deliver smart, reliable clinical communication and collaboration solutions to help protect the health, well-being, and safety of people in the United States and abroad."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The FDA has determined software systems that connect to medical devices are subject to regulation as medical devices... Since our middleware software products connect to medical devices, we are required to comply with the FDC Act’s requirements, including, but not limited to: registration and listing, labeling, medical device reporting..."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks, data breaches, system disruptions or other compromises to our or our critical third parties IT Systems, data, products or services;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Regular quarterly cash dividend declared",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, the Board of Directors declared a regular quarterly cash dividend of $0.3125 per share of common stock, with a record date of March 16, 2026 and a payment date of March 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:31:47.938Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,91 @@
+{
+  "cik": "0001720424",
+  "ticker": "HIVE",
+  "name": "HIVE Digital Technologies Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001062993-26-002973",
+    "filedAt": "2026-06-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720424/000106299326002973/form10k.htm"
+  },
+  "business": "HIVE Digital Technologies Ltd. operates data centers that provide computational power for Bitcoin mining (hashrate) and high-performance computing (HPC) services for AI and graphics rendering. The company sells hashrate to mining pools and HPC services to enterprises and other data center customers.",
+  "sellsTo": [
+    "mining pools",
+    "enterprises (AI)",
+    "data center applications"
+  ],
+  "namedCustomers": [
+    "Bell Canada Inc."
+  ],
+  "namedSuppliers": [
+    "Bitmain",
+    "Canaan",
+    "MicroBT",
+    "Nvidia",
+    "AMD",
+    "Dell",
+    "Supermicro"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our primary business is owning and/or operating data centers, which support a combination of GPUs for HPC and AI services for producing, selling and/or exporting AI tokens, data center management services, and ASICs for producing and exporting hashrate."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our primary business is owning and/or operating data centers, which support a combination of GPUs for HPC and AI services for producing, selling and/or exporting AI tokens, data center management services, and ASICs for producing and exporting hashrate."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "One of our key objectives is to minimize or avoid using energy derived from fossil fuels to power our digital infrastructure services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company sells computational power to various third-party aggregators, including mining pools, enterprises supported by AI, and other miscellaneous data center applications."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our business is highly dependent on a small number of equipment suppliers. If we are unable to procure the required equipment to maintain and grow our business, our expansion plans, business, financial performance, financial condition and results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity threats and hacking attacks could compromise our systems and data, resulting in material adverse effects on our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Advances in quantum computing may, over time, compromise the cryptographic algorithms that secure blockchain networks and digital assets, including Bitcoin."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Energy costs in the regions where we operate may increase."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Convert 12 MW temporary power to permanent capacity in Sweden",
+      "date": "2026-07-01",
+      "sentence": "In May 2026, the Company signed an agreement to convert the 12 MW to permanent capacity effective July 1, 2026."
+    },
+    {
+      "event": "Complete 100 MW infrastructure expansion at Yguaz Facility substation upgrades",
+      "date": "2026-12-31",
+      "sentence": "On October 20, 2025, the Company announced a 100 MW infrastructure expansion at the Yguaz Facility, with the related substation upgrades targeted for completion in calendar year 2026."
+    },
+    {
+      "event": "Upgrade Toronto Facility to Tier-III specifications",
+      "date": "2026-12-31",
+      "sentence": "This laid the foundation for us to commence the upgrade for Toronto Facility to Tier-III specifications (planned for the calendar year 2026)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:28:49.671Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,82 @@
+{
+  "cik": "0001827090",
+  "ticker": "CERT",
+  "name": "Certara, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001827090-26-000011",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1827090/000182709026000011/cert-20251231.htm"
+  },
+  "business": "Certara is a global leader in biosimulation science, technology, and consulting services for Model-Informed Drug Development (MIDD), serving the biopharmaceutical and biotech industry. The company sells software products and technology-enabled services that use mathematical models to simulate drug behavior and accelerate drug development. Its products are used by over 160,000 users and 20 global drug regulatory agencies including the FDA.",
+  "sellsTo": [
+    "life sciences companies",
+    "biopharmaceutical and biotech companies",
+    "contract research organizations",
+    "academic institutions",
+    "government institutions",
+    "global regulatory agencies",
+    "animal health companies",
+    "crop science companies",
+    "medical device companies",
+    "public sector organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a global leader in biosimulation science, technology, and consulting services for using Model-Informed Drug Development (MIDD) in the global biopharmaceutical and biotech industry."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our proprietary biosimulation platforms are built on biology, chemistry, and pharmacology principles with proprietary mathematical algorithms that model how medicines and diseases behave in the body."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Native AI and machine learning technologies are being incorporated across our technology and consulting services portfolios, providing opportunities to expand the number of data sources utilized, better predict outcomes, and streamline reporting."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our cybersecurity measures are breached or unauthorized access to customer or other proprietary data is otherwise obtained, customers may reduce the use of or stop using our solutions and we may incur significant liabilities and/or loss of customer confidence."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely upon third-party providers of cloud-based infrastructure to host our software solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "UK clinical trials regulatory regime reforms take effect",
+      "date": "2026-01-01",
+      "sentence": "For example, reforms to the UK clinical trials regulatory regime scheduled to take effect in 2026 may change approval processes, documentation requirements, and oversight practices, which could impact customer development timelines and the timing of demand for our products and services."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Pharmaceutical industry spends more than $290 billion annually on R&D",
+      "sentence": "The pharmaceutical industry spends more than $290 billion annually on research and development."
+    },
+    {
+      "claim": "Average cost to develop one new medicine is $6.2 billion including cost of failures",
+      "sentence": "On average, it takes 10-15 years and costs $6.2 billion to develop one new medicine, including the cost of failures."
+    },
+    {
+      "claim": "Biopharmaceutical industry estimated to spend approximately $290 billion in 2025 on R&D",
+      "sentence": "The biopharmaceutical industry was estimated to have spent a total of approximately $290 billion in 2025 on R&D."
+    },
+    {
+      "claim": "Over 6,800 biopharmaceutical companies worldwide with active R&D pipelines in 2025",
+      "sentence": "There were more than 6,800 biopharmaceutical companies worldwide with active R&D pipelines in 2025, up from nearly 2,400 in 2011."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:08:49.690Z",
+  "model": "deepseek-v4-flash"
+}

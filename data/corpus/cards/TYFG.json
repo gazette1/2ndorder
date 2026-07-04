@@ -1,0 +1,55 @@
+{
+  "cik": "0001725262",
+  "ticker": "TYFG",
+  "name": "Tri-County Financial Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-009243",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1725262/000149315226009243/form10-k.htm"
+  },
+  "business": "Tri-County Financial Group is a bank holding company that conducts business through its wholly owned subsidiary, First State Bank, offering commercial, real estate, agricultural, and consumer loans, as well as deposit products. It also provides insurance and mortgage services through subsidiaries First State Insurance and First State Mortgage Services. The company primarily serves customers in north central Illinois.",
+  "sellsTo": [
+    "individuals in north central Illinois",
+    "small and medium-sized businesses",
+    "agricultural community"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company faces strong competition both in attracting deposits and making real estate, commercial and other loans. Its most direct competition for deposits and loans comes from large national and regional banks, local community banks, savings and loan associations, securities and brokerage companies, mortgage companies, insurance companies, finance companies, money market mutual funds, credit unions, financial technology (fintech) companies and other non-bank financial service providers located in its principal market areas"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "As a financial institution, we are susceptible to fraudulent activity, information security breaches and cybersecurity-related incidents that may be committed against us or our clients, which may result in financial losses or increased costs to us or our clients, disclosure or misuse of our information or our client information, misappropriation of assets, privacy breaches against our clients, litigation or damage to our reputation."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Bank also provides short-term credit for operating loans and intermediate-term loans for farm product, livestock and machinery purchases and other agricultural improvements."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank originates one-to-four family residential real estate loans with both fixed and variable rates."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "First State Insurance, an independent insurance agency headquartered in Mendota, Illinois, has been serving clients in North Central Illinois since 2000. Home, auto, motorcycle, health, life insurance coverage is offered to consumers and businesses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Issues with the use of artificial intelligence in our marketplace may result in reputational harm or liability, or could otherwise adversely affect the Company's business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:18:14.622Z",
+  "model": "deepseek-v4-flash"
+}

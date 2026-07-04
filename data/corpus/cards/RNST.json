@@ -1,0 +1,40 @@
+{
+  "cik": "0000715072",
+  "ticker": "RNST",
+  "name": "RENASANT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000715072-26-000017",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/715072/000071507226000017/rnst-20251231.htm"
+  },
+  "business": "Renasant Corporation is a bank holding company providing a complete range of banking and financial services to individuals and businesses through its community banks and wealth management operations.",
+  "sellsTo": [
+    "individuals",
+    "small to medium size businesses",
+    "commercial clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "increased cybersecurity risk, including potential network breaches, business disruptions or financial losses, including as a result of sophisticated attacks using artificial intelligence ( AI ) and similar tools"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure or breach of our communications and information security systems, or those of our vendors and customers, and cybersecurity incidents, including cyber-attacks, could disrupt our business, result in the disclosure or misuse of confidential or proprietary information, damage our reputation and create significant financial and legal exposure for us."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also face competition from other types of financial institutions (including savings and loans and credit unions), finance companies, brokerage firms, insurance companies, factoring companies, fintech companies and other financial intermediaries."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:01:34.437Z",
+  "model": "deepseek-v4-flash"
+}

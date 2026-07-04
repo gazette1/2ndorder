@@ -1,0 +1,49 @@
+{
+  "cik": "0000102212",
+  "ticker": "UVSP",
+  "name": "UNIVEST FINANCIAL Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000102212-26-000012",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/102212/000010221226000012/uvsp-20251231.htm"
+  },
+  "business": "Univest Financial Corporation is a bank holding company that provides domestic banking services for individuals, businesses, municipalities and non-profit organizations, and also offers wealth management and insurance services through its subsidiaries.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "municipalities",
+    "non-profit organizations",
+    "19 counties in Pennsylvania",
+    "three counties in New Jersey",
+    "five counties in Maryland"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Our reliance on and integration of artificial intelligence (\"AI\") and machine learning (\"ML\") technologies expose us to various risks, including operational, data, regulatory, and reputational risks, which could materially affect our business and financial results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems, and the systems of third parties upon which we rely, may experience a failure, interruption or breach in security, which could negatively affect our operations and reputation."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Other competitors, including credit unions, consumer finance companies, mortgage companies, insurance companies, wealth management providers, leasing companies, financial technology companies, specialty finance companies, technology companies and mutual funds, compete for certain lending and deposit gathering services and insurance and wealth management services offered by the Bank and its operating segments."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Univest Insurance, LLC, an independent insurance agency headquartered in Lansdale, Pennsylvania."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:33:45.113Z",
+  "model": "deepseek-v4-flash"
+}

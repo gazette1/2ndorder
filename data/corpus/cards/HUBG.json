@@ -1,0 +1,47 @@
+{
+  "cik": "0000940942",
+  "ticker": "HUBG",
+  "name": "Hub Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-026866",
+    "filedAt": "2025-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm"
+  },
+  "business": "Hub Group, Inc. is a leading supply chain solutions provider offering comprehensive transportation and logistics management services, including intermodal, dedicated trucking, brokerage, consolidation, fulfillment, and final mile delivery. It serves a diversified customer base across retail, consumer products, automotive, and durable goods industries. The company operates through two reportable segments: Intermodal and Transportation Solutions (ITS) and Logistics.",
+  "sellsTo": [
+    "retail",
+    "consumer products",
+    "automotive",
+    "durable goods",
+    "consumer goods companies selling into the retail channel"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our service offerings include a full range of freight transportation and logistics services, some of which are provided using assets we own and operate, and some of which are provided by third parties with whom we contract."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The acquisition expanded our presence in the consolidation and fulfillment space and added a complementary e-commerce offering to serve our customers' multimodal transportation and logistics needs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In addition, the rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "In addition, the rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:22:36.406Z",
+  "model": "deepseek-v4-flash"
+}

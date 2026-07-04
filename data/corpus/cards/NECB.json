@@ -1,0 +1,57 @@
+{
+  "cik": "0001847398",
+  "ticker": "NECB",
+  "name": "NorthEast Community Bancorp, Inc./MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027566",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1847398/000110465926027566/necb-20251231x10k.htm"
+  },
+  "business": "NorthEast Community Bancorp, Inc. is a bank holding company whose primary activity is the ownership and operation of NorthEast Community Bank, a New York State-chartered savings bank. The bank originates construction loans, commercial and industrial loans, multifamily and mixed-use residential real estate loans, and non-residential real estate loans. It serves individuals and businesses within its market area in New York and Massachusetts.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "real estate developers",
+    "borrowers in New York Metropolitan Area",
+    "borrowers in Massachusetts/Boston Metropolitan Area"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:construction-lending",
+      "stance": "core_product",
+      "sentence": "Our principal business consists of originating primarily construction loans and, to a lesser extent, commercial and industrial loans, multifamily and mixed-use residential real estate loans, and non-residential real estate loans."
+    },
+    {
+      "tag": "other:multifamily-lending",
+      "stance": "core_product",
+      "sentence": "We originate multifamily and mixed-use real estate loans in Massachusetts and, on a limited basis, in New Jersey."
+    },
+    {
+      "tag": "other:commercial-industrial-lending",
+      "stance": "core_product",
+      "sentence": "We provide credit to commercial and industrial businesses that are located within our market area."
+    },
+    {
+      "tag": "other:non-residential-lending",
+      "stance": "core_product",
+      "sentence": "Our non-residential real estate loans are generally secured by office buildings, medical facilities, and retail shopping centers that are primarily located within our lending area."
+    },
+    {
+      "tag": "other:brokered-deposits",
+      "stance": "risk_mention",
+      "sentence": "Our reliance on brokered deposits, military deposits and deposits from listing services could adversely affect our liquidity and operating results."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "Changes in interest rates may hurt our profits and asset values and our strategies for managing interest rate risk may not be effective."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:57:13.411Z",
+  "model": "deepseek-v4-flash"
+}

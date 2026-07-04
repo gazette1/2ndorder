@@ -1,0 +1,60 @@
+{
+  "cik": "0001289848",
+  "ticker": "HURN",
+  "name": "Huron Consulting Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011093",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026011093/hurn-20251231.htm"
+  },
+  "business": "Huron is a global professional services firm that partners with clients to create sound strategies, optimize operations, accelerate digital transformation, and empower businesses to own their future. The company provides consulting and managed services, digital services, and software products under three operating segments: Healthcare, Education, and Commercial. For the year ended December 31, 2025, 50% of consolidated revenues came from Healthcare, 30% from Education, and 20% from Commercial.",
+  "sellsTo": [
+    "Hospitals and health systems",
+    "Academic medical centers",
+    "Colleges and universities",
+    "Research institutes",
+    "Financial services firms",
+    "Industrials and manufacturing",
+    "Energy and utilities",
+    "Public sector organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Oracle",
+    "Salesforce.com",
+    "Salesforce.org",
+    "Workday",
+    "Microsoft",
+    "Amazon Web Services",
+    "Informatica",
+    "SAP Concur"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our healthcare-focused digital services span technology and analytic-related services, including core systems of record, such as enterprise health record (EHR), enterprise resource planning (ERP), enterprise performance management (EPM), and customer relationship management (CRM) systems; data management, AI and automation; technology managed services; and payor core administration systems."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Our Digital experts help clients address a variety of business challenges, including, but not limited to, the design and implementation of technologies to accelerate transformation, facilitate data-driven decision making, operate more efficiently by leveraging AI- and automation-enabled workflows, and improve customer and employee experiences."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Some of the factors that could cause actual results to differ materially from the forward-looking statements contained herein include, without limitation: ... risks relating to privacy, information security, and related laws and standards;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Increase in share repurchase authorization from $700 million to $900 million",
+      "date": null,
+      "sentence": "In the first quarter of 2026, our board of directors authorized a further increase to the authorized amount under the share repurchase program from $700 million to $900 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:59:01.478Z",
+  "model": "deepseek-v4-flash"
+}

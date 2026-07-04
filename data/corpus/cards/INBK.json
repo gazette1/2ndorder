@@ -1,0 +1,43 @@
+{
+  "cik": "0001562463",
+  "ticker": "INBK",
+  "name": "First Internet Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562463-26-000022",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562463/000156246326000022/inbk-20251231.htm"
+  },
+  "business": "First Internet Bancorp is a bank holding company that conducts its primary business activities through its wholly-owned subsidiary, First Internet Bank of Indiana, an Indiana chartered bank. The company offers a wide range of commercial, small business, consumer and municipal banking products and services, and conducts deposit operations primarily through digital channels on a nationwide basis. It also provides payment, deposit, card and lending products through partnerships with financial technology companies.",
+  "sellsTo": [
+    "commercial borrowers primarily in the Midwest and Southwest regions",
+    "governmental entities throughout the United States",
+    "consumers on a nationwide basis",
+    "small businesses and entrepreneurs on a nationwide basis",
+    "financial technology companies (fintechs) as partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We also offer payment, deposit, card and lending products and services through partnerships with financial technology companies and platforms ( fintechs )."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of our operational or security systems or infrastructure, or those of our third-party vendors and other service providers, including as a result of cyber-attacks, could disrupt our business and lead to unauthorized disclosure of customers personal information, theft or misuse of confidential or proprietary information, damage to our reputation, and increases in our costs or financial losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Stock repurchase program authorized",
+      "date": "2025-10-20",
+      "sentence": "On October 20, 2025, the Board of Directors of the Company authorized the repurchase of up to $25.0 million of the Company's outstanding common stock from time to time on the open market or in privately negotiated transactions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:12:42.578Z",
+  "model": "deepseek-v4-flash"
+}

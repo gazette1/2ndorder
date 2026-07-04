@@ -1,0 +1,67 @@
+{
+  "cik": "0001756655",
+  "ticker": "ARDT",
+  "name": "Ardent Health, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018174",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1756655/000162828026018174/ardt-20251231.htm"
+  },
+  "business": "Ardent Health, Inc. is a provider of healthcare services in the United States, operating 30 acute care hospitals and over 280 sites of care with more than 2,000 providers as of December 31, 2025. The company serves patients through a consumer-centric platform, generating revenue primarily from patient services reimbursed by Medicare, Medicaid, managed care, and self-pay sources.",
+  "sellsTo": [
+    "Patients (individuals)",
+    "Medicare",
+    "Medicaid",
+    "Managed care organizations",
+    "Self-pay patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Epic Systems (electronic health record system)",
+    "BioIntelliSense (wearable medical device BioButton)",
+    "Ventas (real estate lessor)",
+    "Medical Properties Trust, Inc. (real estate lessor)"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In November 2023, we determined that a ransomware cybersecurity incident had impacted and disrupted a number of our operational and information technology systems (the Cybersecurity Incident)."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "We continue to invest in digital engagement technologies to acquire new patients and better engage and retain our existing patients, both within and outside of our facilities."
+    },
+    {
+      "tag": "other:ai-healthcare",
+      "stance": "active_investment",
+      "sentence": "We currently utilize AI to monitor and interpret biosensor data for signs of patient deterioration, which enables our caregivers to intervene earlier than would be possible otherwise."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "active_investment",
+      "sentence": "we have partnered with BioIntelliSense to use their BioButton in certain of our medical surgical units."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "State compliance deadline for OBBBA Medicaid work requirements and redeterminations",
+      "date": "2026-12-31",
+      "sentence": "State compliance is required by December 31, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Ardent estimates its serviceable addressable market at approximately $800 billion in 2020, growing to nearly $1.4 trillion by the end of the decade at a 5.7% CAGR.",
+      "sentence": "We estimate our serviceable addressable market, which we define as total hospital, physician, and clinical services expenditures in these markets, to be approximately $800 billion in 2020 (based on the most recently available data), which is expected to grow at an average annual growth rate of approximately 5.7% to nearly $1.4 trillion by the end of the decade."
+    },
+    {
+      "claim": "Ardent's current markets represent approximately $37.8 billion in total healthcare expenditures.",
+      "sentence": "Out of our serviceable addressable market, we estimate that our current markets represent approximately $37.8 billion, with acute care representing approximately $20.9 billion and ambulatory and outpatient services representing approximately $16.9 billion."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:09:43.710Z",
+  "model": "deepseek-v4-flash"
+}

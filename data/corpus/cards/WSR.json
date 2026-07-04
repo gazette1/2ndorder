@@ -1,0 +1,69 @@
+{
+  "cik": "0001175535",
+  "ticker": "WSR",
+  "name": "Whitestone REIT",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007232",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1175535/000143774926007232/wstr20251231_10k.htm"
+  },
+  "business": "Whitestone REIT owns and operates commercial properties in culturally diverse markets in major metropolitan areas, focusing on Community Centered Properties that serve the needs of surrounding neighborhoods. The company provides leasable space to tenants including specialty retail, grocery, restaurants, medical, educational, and financial services. As of December 31, 2025, it wholly-owned 56 properties in Texas and Arizona.",
+  "sellsTo": [
+    "retail tenants",
+    "medical services",
+    "educational services",
+    "financial services",
+    "grocery tenants",
+    "restaurant tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "We wholly-owned a real estate portfolio of 56 properties that meet our Community Centered Property strategy containing approximately 4.9 million square feet of gross leasable area (GLA), located in Texas and Arizona."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks relating to cybersecurity attacks, loss of confidential information and other business disruptions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "risks related to generative artificial intelligence tools and language models, along with the potential interpretations and conclusions they might make regarding our business and prospects, particularly concerning the spread of misinformation"
+    },
+    {
+      "tag": "other:geographic-concentration",
+      "stance": "risk_mention",
+      "sentence": "Our current geographic concentration in the Houston, Dallas, and Phoenix metropolitan area markets makes us susceptible to potential local economic downturns"
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Inflation may adversely affect our financial condition and results of operations."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "Higher interest rates on newly incurred debt may negatively impact us as well."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Quarterly distribution increased to $0.1425 per share beginning with January 2026 distribution",
+      "date": "2026-01-01",
+      "sentence": "On December 19, 2025, the Company announced an increase to its quarterly distribution to $0.1425 per common share and OP unit, beginning with the January 2026 distribution."
+    },
+    {
+      "event": "Expected to receive approximately $4.0 million from Pillarstone OP in 2026",
+      "date": null,
+      "sentence": "After the $4.05 million payment is made to Pillarstone REIT, we expect to receive approximately $4.0 million in cash and any excess from the $2.5 million in reserves in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:19:18.767Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,42 @@
+{
+  "cik": "0001587732",
+  "ticker": "OGS",
+  "name": "ONE Gas, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001587732-26-000009",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1587732/000158773226000009/ogs-20251231.htm"
+  },
+  "business": "ONE Gas, Inc. is a 100-percent regulated natural gas distribution utility providing natural gas distribution services to approximately 2.3 million customers in Oklahoma, Kansas, and Texas. It primarily serves residential, commercial, and transportation customers and is the largest natural gas distributor in Oklahoma and Kansas and the third largest in Texas.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers",
+    "Transportation customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We are a 100-percent regulated natural gas distribution utility."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of cyber breaches or physical security attacks on our business, or those of third parties, may disrupt or adversely affect our operations or result in the loss or misuse of confidential and proprietary information."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of 43-mile natural gas pipeline in southeast Oklahoma",
+      "date": "2028-09-30",
+      "sentence": "We will invest approximately $120 million and Oklahoma Natural Gas will install and operate the pipeline, which is expected to be completed by the third quarter of 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:27:45.010Z",
+  "model": "deepseek-v4-flash"
+}

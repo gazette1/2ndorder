@@ -1,0 +1,55 @@
+{
+  "cik": "0001826667",
+  "ticker": "TLSI",
+  "name": "TriSalus Life Sciences, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-015163",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1826667/000162828026015163/tlsi-20251231.htm"
+  },
+  "business": "TriSalus Life Sciences sells the TriNav Infusion System, a medical device that uses Pressure-Enabled Drug Delivery (PEDD) technology to improve therapeutic delivery to solid tumors, primarily to hospitals and clinics for interventional radiology procedures such as transarterial chemoembolization (TACE) and radioembolization (TARE).",
+  "sellsTo": [
+    "hospitals",
+    "clinics",
+    "ambulatory surgery centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our on-market, 510(k) cleared device, the TriNav Infusion System ( TriNav ) using PEDD technology is currently being used for interventional radiology procedures, most commonly transarterial radioembolization ( TARE ) and transarterial chemoembolization ( TACE ) in patients with primary liver cancer or in patients with liver metastases."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "active_investment",
+      "sentence": "We are currently studying the ability of nelitolimod, an investigational class C TLR9 agonist, to reactivate the immune system within the liver and pancreas by broadly reprogramming immune cells and reducing myeloid derived suppressor cells ( MDSCs ), cells which cause immunosuppression, to enable more durable responses to immune checkpoint inhibitors ( CPIs ), thereby improving patient outcomes."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of data analysis from nelitolimod Phase I/1b studies and beginning of discussions with potential partners for Phase II development",
+      "date": "2026",
+      "sentence": "Results of these early trials will be available in 2026 and we will begin discussions with potential partners on further clinical development."
+    },
+    {
+      "event": "Anticipated commercial sale of PRVI device",
+      "date": null,
+      "sentence": "Although FDA-cleared, the PRVI device has not yet been commercialized and commercial sale is not anticipated before 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 62 thousand units or $494 million market opportunity for TriNav in liver cancer TACE/TARE procedures based on current unit price of $7,983.",
+      "sentence": "We estimate that 60% of these patients are eligible for TACE or TARE procedures and that between 75% and 80% are appropriate candidates for our current TriNav portfolio of devices, representing a potential market opportunity of approximately 62 thousand units, or approximately $494 million, based on our current unit price of $7,983."
+    },
+    {
+      "claim": "Total addressable market for TriSalus PEDD technology in the U.S. exceeds $2.3 billion annually.",
+      "sentence": "The estimated total addressable market for TriSalus PEDD technology in the U.S. is project to exceed $2.3 billion annually."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:01:32.000Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0001576427",
+  "ticker": "CRTO",
+  "name": "Criteo S.A.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001576427-26-000014",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1576427/000157642726000014/crto-20251231.htm"
+  },
+  "business": "Criteo provides a Commerce Intelligence Platform that connects brands, agencies, retailers, and media owners to deliver personalized advertising and measurable commerce outcomes using AI and commerce data.",
+  "sellsTo": [
+    "brands",
+    "agencies",
+    "retailers",
+    "media owners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Powered by Artificial intelligence (\"AI\") and informed by $1 trillion in annual commerce transactions, our technology enables discovery, engagement, and conversion across the shopper journey."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, our 11 data centers operated 27,793 servers equipped with nearly 1 million CPU cores, more than 9 million GPU cores, and over 6.8 million GiB of memory."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Global ecommerce continues to expand rapidly."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Shareholder vote on transfer of legal domicile from France to Luxembourg",
+      "date": "2026-02-27",
+      "sentence": "The Conversion requires a shareholder vote for approval, which will be conducted through a general meeting of the Company s shareholders on February 27, 2026."
+    },
+    {
+      "event": "Expected completion of cross-border conversion to Luxembourg",
+      "date": "2026-09-30",
+      "sentence": "If shareholder approval is obtained, and the other conditions are satisfied or waived, the Conversion is expected to be completed in the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Retail Media SAM (excluding Amazon and China) expected to reach ~$42 billion by 2026 and $50 billion by 2027.",
+      "sentence": "In Retail Media, excluding Amazon and China, our Serviceable Available Market (\"SAM\") is expected to reach approximately $42 billion in advertising spend by 2026 and $50 billion by 2027, reflecting a compound annual growth rate of about 20%."
+    },
+    {
+      "claim": "Total Addressable Market (including Amazon and China) projected to reach ~$204 billion by 2027.",
+      "sentence": "Including Amazon and China, the Total Addressable Market (\"TAM\") is projected to reach approximately $204 billion by 2027."
+    },
+    {
+      "claim": "Performance Media SAM expected to reach ~$143 billion by 2026.",
+      "sentence": "We estimate that our SAM in performance media will reach approximately $143 billion by 2026 across addressable channels."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:27:52.570Z",
+  "model": "deepseek-v4-flash"
+}

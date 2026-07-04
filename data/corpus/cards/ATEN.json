@@ -1,0 +1,67 @@
+{
+  "cik": "0001580808",
+  "ticker": "ATEN",
+  "name": "A10 Networks, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001580808-26-000014",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1580808/000158080826000014/aten-20251231.htm"
+  },
+  "business": "A10 Networks provides secure application and network infrastructure solutions, including application delivery, traffic management, DDoS protection, API security, and centralized management. These solutions are sold to enterprises and service providers for mission-critical environments requiring high availability, scalability, low latency, and security.",
+  "sellsTo": [
+    "telecommunications",
+    "technology",
+    "financial services",
+    "public sector",
+    "industrial",
+    "retail",
+    "gaming",
+    "education",
+    "service providers",
+    "enterprise customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Lanner Electronics Inc.",
+    "AEWIN Technologies Co., Ltd.",
+    "iBase"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our network security capabilities support both enterprises and service providers with solutions that help defend against volumetric and application-layer DDoS attacks, protect web applications and APIs, mitigate automated threats such as bots, and improve operational outcomes through centralized orchestration and actionable threat intelligence."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our legacy networking solutions support large-scale service provider and enterprise environments where performance, scale, and reliability are essential."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our next-generation networking solutions focus on application delivery and traffic management for modern data center, hybrid cloud, and distributed architectures."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The rapid adoption of artificial intelligence technologies, including generative AI and large language models, is introducing new infrastructure demands."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "For 2026, we expect research and development expenses to increase from 2025 levels reflecting strategic investments in our growth priorities, including cybersecurity technology and AI technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Quarterly dividend payment",
+      "date": "2026-03-02",
+      "sentence": "The next dividend, in the amount of $0.06 per share, will be paid on March 2, 2026 to stockholders of record on February 16, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:22:15.897Z",
+  "model": "deepseek-v4-flash"
+}

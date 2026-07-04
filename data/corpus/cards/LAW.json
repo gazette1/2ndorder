@@ -1,0 +1,41 @@
+{
+  "cik": "0001625641",
+  "ticker": "LAW",
+  "name": "CS Disco, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001625641-26-000044",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1625641/000162564126000044/law-20251231.htm"
+  },
+  "business": "CS Disco provides cloud-native, artificial intelligence-powered legal product offerings that simplify legal hold, legal request, ediscovery, legal document review and case management for enterprises, law firms, legal services providers and governments. The company generates revenue primarily from customer usage of its product offerings on a usage-based model.",
+  "sellsTo": [
+    "enterprises",
+    "law firms",
+    "legal services providers",
+    "governments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-legal-software",
+      "stance": "core_product",
+      "sentence": "DISCO provides cloud-native, artificial intelligence-powered legal product offerings that simplify legal hold, legal request, ediscovery, legal document review and case management for enterprises, law firms, legal services providers and governments."
+    },
+    {
+      "tag": "other:ai-legal-software",
+      "stance": "core_product",
+      "sentence": "Auto Review is a generative AI-powered document review that automates the first-pass review for our customers, evaluating documents and applying AI-driven tag suggestions and explanations based on document criteria."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and the third parties with whom we work are subject to stringent and evolving U.S. and foreign laws, regulations, and rules, contractual obligations, industry standards, policies and other obligations related to data privacy and security."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:11:44.939Z",
+  "model": "deepseek-v4-flash"
+}

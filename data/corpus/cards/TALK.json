@@ -1,0 +1,47 @@
+{
+  "cik": "0001803901",
+  "ticker": "TALK",
+  "name": "Talkspace, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-105146",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1803901/000119312526105146/talk-20251231.htm"
+  },
+  "business": "Talkspace is a leading virtual behavioral healthcare company offering its members convenient and affordable access to a fully-credentialed network of highly qualified providers across a wide and growing spectrum of care through virtual psychotherapy and psychiatry. All care offered at Talkspace is delivered through an easy-to-use, fully-encrypted web and mobile platform that meets HIPAA, federal, and state regulatory requirements.",
+  "sellsTo": [
+    "Health insurance plans from commercial and government institutions",
+    "Employee assistance programs",
+    "Enterprises (Direct-to-Enterprise)",
+    "Individual subscribers (Consumer)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Talkspace is a leading virtual behavioral healthcare company offering its members convenient and affordable access to a fully-credentialed network of highly qualified providers across a wide and growing spectrum of care through virtual psychotherapy and psychiatry."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, the cost of compute resources associated with LLMs may impact our technology and development expenses."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our use and disclosure of personal information, including PHI, personal data, and other health information, is subject to state, federal or other privacy and security regulations, and our failure to comply with those regulations or to adequately secure the information we hold could result in significant liability or reputational harm and, in turn, a material adverse effect on our customer base and member bases and revenue."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Universal Health Services, Inc. expected to close in Q3 2026, with shareholders receiving $5.25 per share in cash.",
+      "date": null,
+      "sentence": "The transaction is expected to close in the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:37:58.833Z",
+  "model": "deepseek-v4-flash"
+}

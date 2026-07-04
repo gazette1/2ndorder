@@ -1,0 +1,78 @@
+{
+  "cik": "0001131903",
+  "ticker": "FCCN",
+  "name": "SPECTRAL CAPITAL Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001096906-26-000430",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1131903/000109690626000430/fccn-20251231_10k.htm"
+  },
+  "business": "Spectral Capital Corporation is a technology company that develops and monetizes intellectual property at the intersection of artificial intelligence, hybrid classical computing, and emerging quantum technologies. Through its acquisitions of 42 Telecom and Telvantis, it provides telecommunications services including enterprise messaging, SMS aggregation, SS7 platform access, and platform-as-a-service solutions to mobile network operators and enterprises. The company also commercializes a suite of modular, AI-enhanced software products and pursues licensing of its patent portfolio.",
+  "sellsTo": [
+    "mobile network operators",
+    "enterprises",
+    "tourism sector (via Arcus platform)"
+  ],
+  "namedCustomers": [
+    "Mexedia SpA"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Spectral is actively commercializing a growing suite of modular, AI-enhanced software products."
+    },
+    {
+      "tag": "quantum",
+      "stance": "active_investment",
+      "sentence": "Certain aspects of our technology roadmap and long-term strategy contemplate the use of emerging quantum computing technologies or quantum-adjacent approaches, including hybrid classical-quantum architectures and quantum-inspired algorithms."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "42 Telecom provides enterprise messaging, SMS aggregation, SS7 platform access, and PaaS communication solutions to customers across Europe and other regions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to complex and evolving data privacy, data protection, and cybersecurity laws and regulations, including the GDPR, which could increase our compliance costs, restrict our operations, and expose us to significant liabilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of 42 Telecom closed",
+      "date": "2025-08-01",
+      "sentence": "On August 1, 2025, Spectral completed the acquisition of 42 Telecom."
+    },
+    {
+      "event": "Acquisition of Telvantis closed",
+      "date": "2025-12-31",
+      "sentence": "On December 31, 2025, Spectral completed the acquisition of 100% of the issued and outstanding capital stock of Telvantis."
+    },
+    {
+      "event": "Rescission of Brehm transactions",
+      "date": "2025-06-30",
+      "sentence": "In the second quarter of 2025, the Company successfully completed the rescission of several previously disclosed transactions involving former Chairman Sean Michael Brehm and his affiliated entities."
+    },
+    {
+      "event": "Cancellation of Intrepid View Partners agreement",
+      "date": "2026-03-11",
+      "sentence": "The Company elected to cancel this transaction as of March 11, 2026, as it decided to focus on data infrastructure businesses rather than autonomous vehicles."
+    },
+    {
+      "event": "Asset purchase from Eliznikcomp OÜ closed",
+      "date": "2025-10-15",
+      "sentence": "On October 15, 2025, Spectral entered into an Asset Purchase Agreement with Eliznikcomp OÜ, an Estonian corporation, pursuant to which Spectral acquired all right, title, and interest in twenty-one (21) patentable innovations."
+    },
+    {
+      "event": "Binding term sheet with Intermatica S.p.A. signed",
+      "date": "2026-01-07",
+      "sentence": "On January 7, 2026, Spectral entered into a binding term sheet with Intermatica S.p.A., an Italy-based telecommunications and enterprise messaging company."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:34:13.343Z",
+  "model": "deepseek-v4-flash"
+}

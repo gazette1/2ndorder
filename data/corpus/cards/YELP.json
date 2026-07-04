@@ -1,0 +1,44 @@
+{
+  "cik": "0001345016",
+  "ticker": "YELP",
+  "name": "YELP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001345016-26-000019",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm"
+  },
+  "business": "Yelp sells advertising products to businesses of all sizes, connecting them with consumers through its platform. The company generates substantially all of its revenue from performance-based advertising sold on a cost-per-click basis. It also offers subscription services and data licensing.",
+  "sellsTo": [
+    "local businesses",
+    "services businesses",
+    "multi-location advertisers",
+    "small and medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We use AI, including machine learning, to power and enhance features across our platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Computer viruses, malware, phishing attacks, denial-of-service and other attacks, and similar disruptions have become more prevalent in our industry, have occurred on our systems in the past and we expect them to occur periodically on our systems in the future."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed acquisition of Hatch Inc.",
+      "date": "2026-02-02",
+      "sentence": "On February 2, 2026, we completed our acquisition of Hatch for approximately $270 million in cash."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:11:08.957Z",
+  "model": "deepseek-v4-flash"
+}

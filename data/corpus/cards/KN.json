@@ -1,0 +1,51 @@
+{
+  "cik": "0001587523",
+  "ticker": "KN",
+  "name": "Knowles Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001587523-26-000005",
+    "filedAt": "2026-02-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1587523/000158752326000005/kn-20251231.htm"
+  },
+  "business": "Knowles Corporation manufactures specialty electronic components including high-performance capacitors, radio frequency (RF) filters, advanced microphones, and balanced armature speakers. It sells to original equipment manufacturers (OEMs) and through distributors, serving the medtech, defense, industrial, and electrification/energy markets.",
+  "sellsTo": [
+    "OEMs",
+    "distributors",
+    "medtech",
+    "defense",
+    "industrial",
+    "electrification/energy"
+  ],
+  "namedCustomers": [
+    "WS Audiology A/S",
+    "TTI, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our PD segment specializes in the custom design and delivery of high performance capacitor products and RF solutions primarily serving the defense, industrial, medtech, and electrification/energy markets."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our MSA segment designs and manufactures balanced armature speakers and microphones used in hearing health and specialty audio applications that serve the medtech and industrial markets."
+    },
+    {
+      "tag": "other:industrial",
+      "stance": "core_product",
+      "sentence": "Our PD segment specializes in the custom design and delivery of high performance capacitor products and RF solutions primarily serving the defense, industrial, medtech, and electrification/energy markets."
+    },
+    {
+      "tag": "other:electrification-energy",
+      "stance": "core_product",
+      "sentence": "Within PD, the demand for high performance capacitors, including specialty film, is seeing potentially large growth as alternative technologies emerge to address the accelerating demand for power."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:34:11.506Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "0001484769",
+  "ticker": "FUBO",
+  "name": "FuboTV Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-009420",
+    "filedAt": "2025-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1484769/000162828025009420/fubo-20241231.htm"
+  },
+  "business": "FuboTV Inc. is a sports-first, live TV streaming platform that offers subscribers access to live sporting events, news, and entertainment content, serving as a Pay TV replacement. Revenue is primarily derived from subscription fees and advertising sales in the United States, with additional operations in Canada, Spain, and France.",
+  "sellsTo": [
+    "subscribers",
+    "advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google Cloud Platform",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We are a sports-first, Pay TV replacement product offering subscribers access to tens of thousands of live sporting events annually, alongside leading news and entertainment content, both live and on demand."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant interruptions, delays or discontinuations in service or disruptions in or unauthorized access to our information technology systems or those of third parties that we utilize in our operations, including those relating to cybersecurity or arising from cyber-attacks, could result in a loss or degradation of service, unauthorized disclosure of data, including subscriber and corporate information, or theft of intellectual property, including digital content assets, which could adversely impact our business."
+    },
+    {
+      "tag": "other:advertising",
+      "stance": "core_product",
+      "sentence": "We monetize our growing base of highly engaged subscribers by driving higher average revenue per user (ARPU)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Business Combination Agreement with Disney and Hulu",
+      "date": "2025-01-06",
+      "sentence": "On January 6, 2025, the Company announced it had entered into a business combination agreement (the \"Business Combination Agreement\") by and among the Company, The Walt Disney Company (\"Disney\") and Hulu, LLC (\"Hulu\"), which contemplates, among other things, (i) Hulu contributing certain assets ... to a newly formed entity to be jointly owned by Hulu and the Company (\"Newco\"), (ii) the Company undergoing an umbrella partnership C corporation reorganization ... and (iii) the Company issuing to Hulu shares of a newly created vote-only class of the Company's common stock ..."
+    },
+    {
+      "event": "Settlement of antitrust litigation with cash payment of $220 million",
+      "date": "2025-01-06",
+      "sentence": "On January 6, 2025, concurrently with the execution of the Business Combination Agreement, the Company settled its antitrust litigation against Disney, Fox, and WBD and their affiliates (collectively, the \"Defendants\"). In conjunction therewith, the Defendants made an aggregate cash payment to the Company of $220.0 million."
+    },
+    {
+      "event": "Commitment for senior unsecured term loan of up to $145 million available on January 5, 2026",
+      "date": "2026-01-05",
+      "sentence": "In connection with entering into the Business Combination Agreement, the Company and an affiliate of Disney entered into a commitment letter (the \"Commitment Letter\") pursuant to which such affiliate committed to provide the Company, on January 5, 2026 and on the terms and subject to the conditions set forth therein, up to $145.0 million of indebtedness in the form of a senior unsecured term loan (the \"Facility\"), subject to customary conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:47:37.758Z",
+  "model": "deepseek-v4-flash"
+}

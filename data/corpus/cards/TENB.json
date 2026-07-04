@@ -1,0 +1,78 @@
+{
+  "cik": "0001660280",
+  "ticker": "TENB",
+  "name": "Tenable Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001660280-26-000005",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000005/tenb-20251231.htm"
+  },
+  "business": "Tenable is the leading provider of exposure management solutions, helping organizations identify, assess, and reduce cybersecurity risks across their entire attack surface. Its products are sold to organizations of all sizes across a wide range of industries, including manufacturing, energy, technology, banking, government, healthcare, and retail.",
+  "sellsTo": [
+    "manufacturing, energy and industrials",
+    "technology, media and telecommunications",
+    "banking, insurance and finance",
+    "government, education and non-profit",
+    "healthcare",
+    "retail and consumer"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AWS",
+    "Snowflake",
+    "Microsoft"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Tenable is the leading provider of exposure management solutions."
+    },
+    {
+      "tag": "other:ai-security",
+      "stance": "core_product",
+      "sentence": "Tenable AI Exposure: Our solution helps organizations identify, assess and reduce security risks associated with the use of artificial intelligence technologies."
+    },
+    {
+      "tag": "other:cloud-security",
+      "stance": "core_product",
+      "sentence": "Tenable Cloud Security: Our cloud security solution that helps organizations reduce risk by rapidly exposing and closing priority security gaps caused by misconfigurations, risky entitlements and vulnerabilities in one powerful cloud native application protection platform (CNAPP)."
+    },
+    {
+      "tag": "other:identity-security",
+      "stance": "core_product",
+      "sentence": "Tenable Identity Exposure: Our solution offers end-to-end protection from identity-based threats by unifying identities across Active Directory, hybrid and Entra ID."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Tenable OT Security: Our unified security solution for converged OT/IoT environments provides threat detection, asset tracking, vulnerability management, and configuration control capabilities to protect OT environments, including industrial networks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Restructuring expense expected in fiscal year 2026",
+      "date": "2026-12-31",
+      "sentence": "We expect to record approximately $5.0 million in restructuring expense in the year ended December 31, 2026."
+    },
+    {
+      "event": "Share repurchase authorization increased by $150 million",
+      "date": "2026-01-31",
+      "sentence": "In January 2026, our Board of Directors increased the repurchase authorization by $150 million."
+    },
+    {
+      "event": "Revolving Credit Facility maturity",
+      "date": "2026-07-07",
+      "sentence": "The Revolving Credit Facility ... matures on July 7, 2026."
+    },
+    {
+      "event": "Term Loan final payment due",
+      "date": "2028-07-07",
+      "sentence": "final payment of $350.6 million on the July 7, 2028 maturity date."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:50:35.358Z",
+  "model": "deepseek-v4-flash"
+}

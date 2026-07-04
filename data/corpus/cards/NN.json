@@ -1,0 +1,71 @@
+{
+  "cik": "0001865631",
+  "ticker": "NN",
+  "name": "NEXTNAV INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001554855-26-000328",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1865631/000155485526000328/nn-20251231.htm"
+  },
+  "business": "NextNav Inc. provides complementary positioning, navigation and timing (PNT) solutions designed to overcome limitations of space-based GNSS, including GPS. Its core Pinnacle technology uses barometric sensors to determine vertical location, and the company is evolving its platform to 5G NR-based NextGen. Customers include wireless carriers, public safety agencies, and government entities.",
+  "sellsTo": [
+    "wireless carriers",
+    "applications developers",
+    "Federal, state, and local governmental entities",
+    "enterprise customers",
+    "public safety and E911"
+  ],
+  "namedCustomers": [
+    "AT&T Services, Inc.",
+    "Verizon Communications, Inc.",
+    "MetCom (Japan)",
+    "U.S. Department of Transportation"
+  ],
+  "namedSuppliers": [
+    "AT&T Services, Inc.",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are evolving our PNT solutions to use 5G New Radio (5G NR) positioning reference signals (PRS), under the 3GPP global standard, to determine location and timing - a platform we refer to as NextGen."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Our technology consists of a ground-based transmitter network operating on low-band spectrum assets in a manner similar to the function of GPS satellites."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Recent international events have demonstrated that having viable systems to backup and complement GPS is a national security issue."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Unlike satellites, our network signals are designed to be much stronger and extremely difficult to jam or spoof."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Our core Pinnacle technology uses barometric sensors in smartphones and other communications devices and a network of sensors to determine vertical, or z-axis, location."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Filed Petition for Rulemaking with FCC to optimize Lower 900 MHz band for 5G NR and PNT",
+      "date": "2024-04-16",
+      "sentence": "On April 16, 2024, we filed a Petition for Rulemaking with the FCC, seeking to significantly accelerate and expand the availability of our PNT services as a complement and backup to GPS through an optimization of the Lower 900 MHz band."
+    },
+    {
+      "event": "FCC referenced the Petition in its PNT Notice of Inquiry",
+      "date": "2025-03-27",
+      "sentence": "The Petition is subject to an ongoing FCC regulatory review process, and was referenced in the FCC’s March 27, 2025 PNT Notice of Inquiry."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:39:00.672Z",
+  "model": "deepseek-v4-flash"
+}

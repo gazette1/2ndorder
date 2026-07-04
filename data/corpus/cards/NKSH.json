@@ -1,0 +1,50 @@
+{
+  "cik": "0000796534",
+  "ticker": "NKSH",
+  "name": "NATIONAL BANKSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-128311",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526128311/nksh-20251231.htm"
+  },
+  "business": "National Bankshares, Inc. is a financial holding company that conducts most of its operations through its wholly-owned community bank subsidiary, The National Bank of Blacksburg, which offers a full range of retail and commercial banking services to individuals, businesses, non-profits and local governments. The bank also provides trust and wealth management services, and its subsidiary National Bankshares Financial Services, Inc. offers non-deposit investment and insurance products. The company's primary source of revenue is net interest income from lending activities, focusing on small to mid-sized businesses and individuals.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "non-profits",
+    "local governments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Osaic, Inc.",
+    "Bearing Insurance Group, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Consumers may increasingly decide not to use the Bank to process their financial transactions, which would have a material adverse impact on the Company's financial condition and operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The cost of these measures was $409 for 2025 and $365 for 2024."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New branch opened in Roanoke, Virginia",
+      "date": "2025",
+      "sentence": "Through 28 banking locations across southwest, western and central Virginia, including a new branch opened in 2025 in Roanoke, Virginia, a recently upgraded Lynchburg, Virginia location and a loan production office in Charlottesville, Virginia, NBB offers a full range of retail and commercial banking services..."
+    },
+    {
+      "event": "Core system conversion completed in second quarter 2025",
+      "date": "2025-06-30",
+      "sentence": "The core system conversion was completed during the second quarter of 2025 positioning the Company for future growth."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:21:59.849Z",
+  "model": "deepseek-v4-flash"
+}

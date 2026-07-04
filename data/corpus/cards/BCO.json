@@ -1,0 +1,43 @@
+{
+  "cik": "0000078890",
+  "ticker": "BCO",
+  "name": "BRINKS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000078890-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000010/bco-20251231.htm"
+  },
+  "business": "The Brink s Company is a leading global provider of cash and valuables management, digital retail solutions, and ATM managed services. It operates in more than 100 countries with controlling ownership interests in 51 countries and agency relationships in additional countries. The company manages its business in four segments: North America, Latin America, Europe, and Rest of World.",
+  "sellsTo": [
+    "financial institutions",
+    "retailers",
+    "government agencies",
+    "mints",
+    "jewelers",
+    "other commercial operations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Digital Retail Solutions (\"DRS\"), and ATM Managed Services (\"AMS\") (28% of total revenues in 2025) DRS and AMS are technology-enabled services provided to customers throughout the world."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Cash and Valuables Management (\"CVS\") (72% of total revenues in 2025) CVS services are provided to customers throughout the world."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks associated with cybersecurity and information technology can expose Brink s to business disruptions, cybersecurity breaches and regulatory violations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:55:34.869Z",
+  "model": "deepseek-v4-flash"
+}

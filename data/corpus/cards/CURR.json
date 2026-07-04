@@ -1,0 +1,87 @@
+{
+  "cik": "0001862935",
+  "ticker": "CURR",
+  "name": "Currenc Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001641172-25-004557",
+    "filedAt": "2025-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1862935/000164117225004557/form10-k.htm"
+  },
+  "business": "Currenc is a leading operator of global money transfer services and airtime trading in Southeast Asia. Through Tranglo, it provides B2B remittance services for financial institutions and cross-border airtime transfer. Through WalletKu, it provides retail airtime and payment services to end users in Indonesia.",
+  "sellsTo": [
+    "B2B customers (financial institutions, licensed banks, money service operators)",
+    "non-financial institutions (e-commerce, travel agencies)",
+    "retail consumers in Indonesia"
+  ],
+  "namedCustomers": [
+    "WISE",
+    "SingTel",
+    "Remitly",
+    "SBI Japan",
+    "Mastercard",
+    "CelcomDigi",
+    "WeChat Pay HK",
+    "Maxis",
+    "Etisalat",
+    "Ding",
+    "Coin Cove"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Currenc is a leading operator of global money transfer services and airtime trading in Southeast Asia."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Currenc has created SEAMLESS AI Lab which is the complete AI solution provider for financial institutions."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "Currenc also plans to develop its AIDC (AI Data Center) business. Featuring a total planned capacity of 500MW, the 100-acre AIDC campus will be developed in phases."
+    },
+    {
+      "tag": "blockchain",
+      "stance": "risk_mention",
+      "sentence": "The funding process used by certain customers of Tranglo relies on XRP, a cryptocurrency, and certain services provided by Ripple Services, Inc. and two cryptocurrency exchanges."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations are dependent on our proprietary and external technology platforms and comprehensive ecosystems, and any systems failures, interruptions, delays in service, catastrophic events, and resulting interruptions in the availability of our products or services could result in harm to our business and our brand, loss of users, customers and partners and subject us to substantial liability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Landmark contract with Coin Cove for AI-powered electronic banking solutions",
+      "date": null,
+      "sentence": "Currenc has secured a landmark contract with Coin Cove, an institution providing electronic banking services, to provide Coin Cove with comprehensive, AI-powered electronic banking solutions through SEAMLESS AI Lab."
+    },
+    {
+      "event": "Formation of AI-focused investment fund with ARC Group to raise up to $100 million",
+      "date": null,
+      "sentence": "Currenc plans to form an AI-focused investment fund in collaboration with ARC Group, a leading global investment bank. As the first of a series of initiatives, the fund aims to raise up to $100 million and will invest in AI data center (AIDC), green energy, and computing power development, driving AI innovation and digital transformation globally."
+    },
+    {
+      "event": "Development of 500MW AI Data Center campus",
+      "date": null,
+      "sentence": "Featuring a total planned capacity of 500MW, the 100-acre AIDC campus will be developed in phases."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Annual transaction value for digital remittance worldwide projected to reach $273.49 billion in 2025 and $319.15 billion by 2029.",
+      "sentence": "Annual transaction value is projected to reach $273.49 billion in 2025. Transaction value is expected to show an annual growth rate (CAGR 2025-2029) of 3.94% resulting in a projected total annual transaction value of $319.15 billion by 2029."
+    },
+    {
+      "claim": "Number of annual users expected to reach 18.83 million by 2029, with average transaction value per user of $16,260 in 2025.",
+      "sentence": "The number of annual users is expected to reach 18.83 million by 2029. The average transaction value per user is expected to amount to $16,260 in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:52:48.075Z",
+  "model": "deepseek-v4-flash"
+}

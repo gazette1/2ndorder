@@ -1,0 +1,62 @@
+{
+  "cik": "0001674910",
+  "ticker": "VVV",
+  "name": "VALVOLINE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001674910-25-000135",
+    "filedAt": "2025-11-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674910/000167491025000135/vvv-20250930.htm"
+  },
+  "business": "Valvoline is a leader in automotive preventive maintenance delivering convenient and trusted services in its retail stores throughout the United States and Canada. Services include approximately 15-minute stay-in-your-car oil changes; battery, bulb and wiper replacements; tire rotations; and other manufacturer recommended maintenance services. The services are offered to consumers and commercial customers.",
+  "sellsTo": [
+    "consumers",
+    "commercial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Valvoline Global Operations (VGO)"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "The adoption of electric vehicles is increasing, which reduces demand for lubricant services, but expands the opportunity for other services required by electric vehicles, including coolants, fluids and greases."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Valvoline uses information technology systems to conduct business, and a cybersecurity threat, data breach, security incident, failure of a key information technology system, or inability to enhance its capabilities could adversely affect Valvoline’s business and reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If the Company is unable to adequately transition its information technology organization’s skills and capabilities rapidly enough, including the ability to capitalize on the advancements in Artificial Intelligence software and platforms, it may not effectively support the modernization of Valvoline’s technology architecture and environment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Breeze Autocare expected to close",
+      "date": "2025-12-01",
+      "sentence": "The Breeze Autocare acquisition is expected to close on December 1, 2025, with the divestiture to Mainstreet occurring shortly thereafter."
+    },
+    {
+      "event": "FTC clearance for Breeze Autocare acquisition",
+      "date": "2025-11",
+      "sentence": "In November 2025, Valvoline received clearance from the Federal Trade Commission ( FTC ) to close the acquisition of Breeze Autocare subject to a Decision and Order from the FTC."
+    },
+    {
+      "event": "Sale of 10 company-owned stores to franchisee",
+      "date": "2025-10",
+      "sentence": "During October 2025, the Company entered into an agreement and completed the sale of 10 company-owned service center stores and related net assets to a franchisee."
+    },
+    {
+      "event": "Remediation of material weakness in internal control expected to be completed in fiscal 2026",
+      "date": null,
+      "sentence": "Remediation of the business process control design deficiencies that aggregate to the material weakness will conclude once the controls and related documentation are consistently executed for a sufficient period of time and are determined to be effective, through formal testing, which is expected to be completed in fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:22:42.304Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0001357671",
+  "ticker": "CRTD",
+  "name": "Creatd, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-23-030833",
+    "filedAt": "2023-04-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1357671/000121390023030833/f10k2022_creatdinc.htm"
+  },
+  "business": "Creatd operates Vocal, a core technology platform that hosts a creator community and generates first-party data for revenue generation. It also has an ecommerce business that sells products directly to consumers. The company plans to generate a significant portion of revenues from advertising and affiliate sales relationships.",
+  "sellsTo": [
+    "Creators",
+    "Advertisers",
+    "Brands",
+    "Consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The increase of $496,757 was attributable to our ecommerce business, which grew from $90,433 in revenue in 2021 to $1,456,593 in 2022."
+    },
+    {
+      "tag": "other:creator-economy",
+      "stance": "core_product",
+      "sentence": "At the center of our businesses lies Vocal, our core technology platform that hosts our creator community and generates the first-party data that powers our revenue generation."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We plan to generate a significant portion of our revenues from advertising and affiliate sales relationships."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:50:06.064Z",
+  "model": "deepseek-v4-flash"
+}

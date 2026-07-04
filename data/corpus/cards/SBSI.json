@@ -1,0 +1,57 @@
+{
+  "cik": "0000705432",
+  "ticker": "SBSI",
+  "name": "SOUTHSIDE BANCSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000705432-26-000034",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/705432/000070543226000034/sbsi-20251231.htm"
+  },
+  "business": "Southside Bancshares, Inc. is a bank holding company for Southside Bank, a Texas state bank. It offers consumer and commercial loans, deposit accounts, wealth management, trust and brokerage services. Its customers include individuals, businesses, municipal entities, and nonprofit organizations in Texas markets.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "municipal entities",
+    "nonprofit organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "The principal economic activities in our market areas include medical services, retail, education, financial services, technology, distribution, manufacturing, government and to a lesser extent, oil and gas industries."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "We have a high concentration of loans secured by real estate and a decline in the real estate market, for any reason, could result in losses and materially and adversely affect our business, financial condition, results of operations and future prospects."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents, including security breaches and failures of our information systems, could significantly disrupt our business, result in the unintended disclosure or misuse of confidential or proprietary information, damage our reputation, increase our costs, and cause losses."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of AI presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Financial institutions such as credit unions, fintech companies, consumer finance companies, insurance companies, brokerage companies and other financial institutions with varying degrees of regulatory restrictions compete vigorously for a share of the financial services market."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of two new branch locations: Bellwood Park in Tyler, Texas and The Woodlands",
+      "date": "2026-03-31",
+      "sentence": "We expect to open traditional branch locations at Bellwood Park in Tyler, Texas and The Woodlands in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:06:01.237Z",
+  "model": "deepseek-v4-flash"
+}

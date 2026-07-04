@@ -1,0 +1,54 @@
+{
+  "cik": "0000701347",
+  "ticker": "CPF",
+  "name": "CENTRAL PACIFIC FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000701347-26-000021",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/701347/000070134726000021/cpf-20251231.htm"
+  },
+  "business": "Central Pacific Financial Corp. is a bank holding company whose principal subsidiary, Central Pacific Bank, provides full-service commercial banking to consumer and business customers in Hawaii. The bank offers deposit products (demand, money market, savings, time deposits) and lending products (commercial and industrial, construction, commercial real estate, residential mortgage, home equity, consumer loans) as well as cash management, digital banking, fiduciary and investment management services. Revenue is primarily derived from interest and fees on loans, interest on investment securities, and fees from deposit and other services.",
+  "sellsTo": [
+    "consumer customers in Hawaii",
+    "business customers in Hawaii",
+    "small businesses",
+    "homeowners",
+    "strategic partnerships in Japan and Korea",
+    "U.S. Mainland borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We also offer cash management, digital banking, fiduciary and investment management services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete for loans, deposits, and customers with a broad range of financial service providers, including commercial and savings banks, securities and brokerage firms, financial technology (\"fintech\") companies, mortgage companies, insurance companies, finance companies, credit unions, and other non-bank financial service providers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, data privacy breaches, failures of our information security controls or cybersecurity-related incidents could have a material adverse effect on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:real-estate-loans",
+      "stance": "core_product",
+      "sentence": "Approximately 80% of our loan portfolio at December 31, 2025 consisted of real estate-related loans, including residential mortgage loans, home equity loans, commercial mortgage loans, and construction loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board authorized a $55.0 million share repurchase plan",
+      "date": "2026-01-27",
+      "sentence": "On January 27, 2026, the Company's Board of Directors authorized a share repurchase plan (the \"2026 Repurchase Plan\"), permitting the repurchase of up to $55.0 million of the Company's common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:13:47.456Z",
+  "model": "deepseek-v4-flash"
+}

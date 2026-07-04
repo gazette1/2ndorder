@@ -1,0 +1,47 @@
+{
+  "cik": "0001372612",
+  "ticker": "BOX",
+  "name": "BOX INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-098466",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1372612/000119312526098466/box-20260131.htm"
+  },
+  "business": "Box is the leading Intelligent Content Management (ICM) provider, offering a single platform for unstructured data. The company sells its solution as a subscription-based service, with contracts typically ranging from one to three years. Box focuses on larger enterprises but also serves small and medium businesses, government, education, and nonprofits.",
+  "sellsTo": [
+    "Enterprises",
+    "Small and medium businesses",
+    "Government and education",
+    "Nonprofits"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-platform",
+      "stance": "core_product",
+      "sentence": "Box AI is an AI content platform that natively integrates advanced AI models into the Box platform and offers users AI agents to simplify and accelerate work across the entire content journey, including collaboration, content generation, and content curation all while maintaining the enterprise-grade security, compliance, and privacy of Box."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Box Shield provides granular, near real-time threat detection and protection capabilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "General availability of Box Shield Pro",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we announced the general availability of Box Shield Pro, our innovative solution designed to expand the classification and threat protection capabilities of Box Shield."
+    },
+    {
+      "event": "General availability of Box Extract",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we announced the general availability of Box Extract, which enables users to use industry-leading AI models to extract key information from their content."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:13:34.938Z",
+  "model": "deepseek-v4-flash"
+}

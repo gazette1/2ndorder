@@ -1,0 +1,76 @@
+{
+  "cik": "0001906324",
+  "ticker": "QDEL",
+  "name": "QuidelOrtho Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001906324-26-000008",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1906324/000190632426000008/qdel-20251228.htm"
+  },
+  "business": "QuidelOrtho provides diagnostic testing solutions in immunoassay, molecular testing, clinical chemistry, and transfusion medicine. It sells products to physician offices, hospitals, clinical laboratories, reference laboratories, urgent care clinics, blood banks, and for over-the-counter use. The company operates globally with manufacturing facilities in the U.S., U.K., and China.",
+  "sellsTo": [
+    "physician offices",
+    "hospitals",
+    "clinical laboratories",
+    "reference laboratories",
+    "urgent care clinics",
+    "universities",
+    "retail clinics",
+    "pharmacies",
+    "wellness screening centers",
+    "blood banks and donor centers",
+    "OTC"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Grifols"
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We generate our revenue in the following business units: Labs, Transfusion Medicine, Point of Care and Molecular Diagnostics."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our portfolio of informatics solutions includes the newly launched QuidelOrtho RESULTS MANAGER for clinical labs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our inability, or that of our providers or third-party collaboration partners, to protect our information systems in our IT and product systems, and personal and confidential information, including from data corruption, cyber-attacks, security breaches or IT errors;"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We have been incorporating AI into our internal operations and may incorporate AI into our products and services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Wind-down of U.S. donor screening portfolio substantially complete",
+      "date": "2026-06-30",
+      "sentence": "The wind-down of our U.S. donor screening portfolio is expected to be substantially complete by the first half of 2026."
+    },
+    {
+      "event": "Discontinuation of SAVANNA platform development substantially complete",
+      "date": "2027-06-30",
+      "sentence": "our plan to discontinue the development of the SAVANNA platform, which exit we expect to be substantially complete by the first half of 2027."
+    },
+    {
+      "event": "Launch of multiple informatics products",
+      "date": "2026-12-31",
+      "sentence": "We plan to release multiple products within this portfolio in 2026, including QuidelOrtho RESULTS MANAGER IH for Transfusion Medicine, QuidelOrtho RESULTS MANAGER POC for Point of Care, QuidelOrtho AUTOMATION ROUTING Solution for our customers with total lab automation, a validation manager for various areas of the lab, and the QuidelOrtho PERFORMANCE MANAGER to create a unique, seamless informatics experience for customers."
+    },
+    {
+      "event": "Optimization Plan cumulative charges through 2027",
+      "date": "2027-12-31",
+      "sentence": "The cumulative pre-tax charges to be incurred by us to implement the Optimization Plan are expected to be approximately $100 million through 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:37:59.464Z",
+  "model": "deepseek-v4-flash"
+}

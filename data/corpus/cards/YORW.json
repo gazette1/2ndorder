@@ -1,0 +1,71 @@
+{
+  "cik": "0000108985",
+  "ticker": "YORW",
+  "name": "YORK WATER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000108985-26-000015",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/108985/000010898526000015/form10k.htm"
+  },
+  "business": "The primary business of the Company is to impound, purify to meet or exceed safe drinking water standards and distribute water. The Company also owns and operates three wastewater collection systems and twelve wastewater collection and treatment systems. In 2025, operating revenue was derived from the following sources and in the following percentages: residential, 64%; commercial and industrial, 29%; and other, 7%, which is primarily from the provision for fire service but includes other water and wastewater service-related income.",
+  "sellsTo": [
+    "residential",
+    "commercial and industrial",
+    "other (fire service and other water/wastewater service-related income)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Company is a purely regulated water and wastewater utility."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Water utilities face several cybersecurity risks due to their critical role in monitoring and controlling water treatment and distribution processes and servicing customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "DSIC reset to zero and new rates take effect",
+      "date": "2026-03-01",
+      "sentence": "The DSIC reset to zero when new rates took effect on March 1, 2026."
+    },
+    {
+      "event": "Acquisition of Lenwood Management water assets expected to close",
+      "date": "2026-10-01",
+      "sentence": "Closing is expected in the fourth quarter of 2026 at which time the Company will add approximately 90 water customers."
+    },
+    {
+      "event": "Acquisition of Mt. Rock Manor water assets expected to close",
+      "date": "2026-10-01",
+      "sentence": "Closing is expected in the fourth quarter of 2026 at which time the Company will add approximately 140 water customers."
+    },
+    {
+      "event": "Acquisition of Pine Run Retirement Community wastewater assets expected to close",
+      "date": "2026-06-30",
+      "sentence": "Closing is expected in the second quarter of 2026 at which time the Company will add approximately 100 wastewater customers."
+    },
+    {
+      "event": "Acquisition of Eagle View Manufactured Housing Community water assets expected to close",
+      "date": "2026-06-30",
+      "sentence": "Closing is expected in the second quarter of 2026 at which time the Company will add approximately 140 water customers."
+    },
+    {
+      "event": "Acquisition of Margaretta Mobile Home Park wastewater assets expected to close",
+      "date": "2026-10-01",
+      "sentence": "Closing is expected in the fourth quarter of 2026 at which time the Company will add approximately 65 wastewater customers."
+    },
+    {
+      "event": "Dividend payable date",
+      "date": "2026-04-15",
+      "sentence": "The dividend is payable on April 15, 2026 to shareholders of record as of February 27, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:10:44.983Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,49 @@
+{
+  "cik": "0000880117",
+  "ticker": "JBSS",
+  "name": "SANFILIPPO JOHN B & SON INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-110463",
+    "filedAt": "2025-08-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000095017025110463/jbss-20250626.htm"
+  },
+  "business": "Leading US processor/distributor of peanuts, pecans, cashews, walnuts, almonds, and other nuts, and manufacturer/distributor of snack and nutrition bars. Products sold to food retailers, commercial ingredient users, and contract manufacturing customers.",
+  "sellsTo": [
+    "food retailers",
+    "commercial ingredient users",
+    "contract manufacturing customers",
+    "internet retailers"
+  ],
+  "namedCustomers": [
+    "Walmart Inc.",
+    "Target Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are one of the leading processors and distributors of peanuts, pecans, cashews, walnuts, almonds and other nuts in the United States, and we also manufacture and distribute complete portfolio of snack and nutrition bars (bars)."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The consumer channel is our largest channel by sales and supplies nut-based and bar products, including consumer-packaged products, to retailers in the United States including supermarket chains, wholesalers, supercenters, internet retailers and other retail outlets."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "The availability and cost of raw materials for producing our products are subject to crop size and yield fluctuations caused by factors beyond our control."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we were subject to a ransomware attack, we may be required to pay ransom in amounts that could be material to our financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:10:40.619Z",
+  "model": "deepseek-v4-flash"
+}

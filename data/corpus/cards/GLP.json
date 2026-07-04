@@ -1,0 +1,63 @@
+{
+  "cik": "0001323468",
+  "ticker": "GLP",
+  "name": "GLOBAL PARTNERS LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021381",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323468/000110465926021381/glp-20251231x10k.htm"
+  },
+  "business": "Global Partners LP is a master limited partnership that owns, controls or has access to a large terminal network of refined petroleum products and renewable fuels. It sells gasoline, distillates, residual oil, renewable fuels, crude oil, propane, and convenience store items. It operates through three segments: Wholesale, Gasoline Distribution and Station Operations, and Commercial.",
+  "sellsTo": [
+    "retail and wholesale distributors",
+    "gasoline station operators and sub-jobbers",
+    "public sector customers",
+    "commercial and industrial end users",
+    "marine customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We engage in the purchasing, selling, gathering, blending, storing and logistics of transporting petroleum and related products, including gasoline and gasoline blendstocks (such as ethanol), distillates (such as home heating oil, diesel and kerosene), residual oil, renewable fuels, crude oil and propane and in the transportation of petroleum products and renewable fuels by rail from the mid-continent region of the United States and Canada."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We are also one of the largest distributors of gasoline, distillates, residual oil and renewable fuels to wholesalers, retailers and commercial customers in the New England states and New York."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Our motor fuel sales could be significantly reduced by a reduction in demand due to higher prices and new technologies and alternative fuel sources, such as electric, hybrid, battery powered, hydrogen or other alternative powered motor vehicles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A disruption to our information technology systems, including cybersecurity, could significantly limit our ability to manage and operate our businesses."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Effects of climate change and impacts to areas prone to sea level rise or other extreme weather events could have the potential to adversely affect our assets and operations."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Tariffs and other controls on imports and exports could significantly impact our operations and costs, adversely affecting our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Principal executive office relocation to Newton, Massachusetts upon termination of existing Waltham lease",
+      "date": null,
+      "sentence": "On January 23, 2025, we, through our wholly owned subsidiary, Global HQ 2 LLC, invested in BIG GRP 275 Grove JV LLC, a joint venture formed with unrelated third parties to acquire and operate an office building located in Newton, Massachusetts. Also on January 23, 2025, we signed a 12-year lease arrangement for space in this property that will serve as our principal executive office at the termination of our existing leased space in Waltham, Massachusetts in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:51:37.992Z",
+  "model": "deepseek-v4-flash"
+}

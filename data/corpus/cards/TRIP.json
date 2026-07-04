@@ -1,0 +1,74 @@
+{
+  "cik": "0001526520",
+  "ticker": "TRIP",
+  "name": "TripAdvisor, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051281",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1526520/000119312526051281/trip-20251231.htm"
+  },
+  "business": "TripAdvisor operates a portfolio of global online platforms connecting travelers with experiences, accommodations, restaurants, and travel points of interest. The company's three primary consumer-facing brands are Viator, Tripadvisor, and TheFork. Revenue is generated from commission-based transactions in its Experiences segment, click-based advertising in Hotels and Other, and dining reservation fees from TheFork.",
+  "sellsTo": [
+    "Travelers",
+    "Diners",
+    "Travel advertisers (hotels, restaurants, cruises)",
+    "Restaurants"
+  ],
+  "namedCustomers": [
+    "Booking",
+    "Expedia"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Integrated AI and machine learning capabilities serving as the connective layer for ongoing enhancements to traveler personalization, planning, and conversion."
+    },
+    {
+      "tag": "other:search-engines",
+      "stance": "risk_mention",
+      "sentence": "If a major search engine changes its algorithms in a manner that negatively affects the search engine ranking of our websites or those of our travel partners, or if competitive dynamics impact the cost or effectiveness of search engine optimization ( SEO ) or search engine marketing ( SEM ) in a negative manner, our business and financial performance would be adversely affected."
+    },
+    {
+      "tag": "other:app-marketplaces",
+      "stance": "risk_mention",
+      "sentence": "We also rely on application marketplaces, or app stores such as Apple’s App Store and Google’s Play, to drive downloads of our apps."
+    },
+    {
+      "tag": "other:ai-overviews",
+      "stance": "risk_mention",
+      "sentence": "We believe that our Hotels and Other segment will continue to be impacted by these challenges and others, including AI overviews displacing top-ranked links, which can reduce click-through rates."
+    },
+    {
+      "tag": "other:llm-platforms",
+      "stance": "risk_mention",
+      "sentence": "We have been particularly successful with the strategic use of a number of cost effective online and offline marketing channels to reach travelers and diners, including our own platform channels (i.e., websites and apps), online search engines (primarily Google), social media, email, and increasingly through LLM platforms."
+    },
+    {
+      "tag": "other:ai-competition",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence ( AI ) driven travel curators, such as Travel Plan AI, Aitinerary, Wonderplan, Roam Around and similar websites"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initiated cost savings actions to realign operating model across Experiences and Hotels and Other segments.",
+      "date": "2025-11-05",
+      "sentence": "On November 5, 2025, the Company initiated a series of cost savings actions following a decision to realign its operating model across its Experiences segment and Hotels and Other segment (formerly Viator and Brand Tripadvisor segments) to support the Company’s positioning as an experiences-led and AI-enabled company."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global experiences market expected to reach $365 billion by 2028.",
+      "sentence": "According to third-party industry research from Arival, the global experiences market is expected to reach approximately $365 billion by 2028."
+    },
+    {
+      "claim": "Global travel spending expected to reach $1.8 trillion by 2027.",
+      "sentence": "Phocuswright, an independent travel, tourism and hospitality research firm, estimates global travel spending will continue to grow and reach approximately $1.8 trillion by 2027, exclusive of travel experiences, alternative accommodations, and dining, with an expected increasing share booked through online channels each year."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:55:15.488Z",
+  "model": "deepseek-v4-flash"
+}

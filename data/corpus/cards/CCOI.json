@@ -1,0 +1,78 @@
+{
+  "cik": "0001158324",
+  "ticker": "CCOI",
+  "name": "COGENT COMMUNICATIONS HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-017968",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158324/000110465926017968/ccoi-20251231x10k.htm"
+  },
+  "business": "COGENT COMMUNICATIONS HOLDINGS, INC. is a facilities-based provider of low-cost, high-speed Internet access, private network services, optical wavelength and optical transport services and data center colocation space and power. The company delivers its services to a diverse global base of businesses, communications service providers and other bandwidth-intensive organizations in 57 countries across North America, Europe, South America, Asia, Oceania and Africa.",
+  "sellsTo": [
+    "Corporate customers (law firms, financial services, advertising, healthcare, education, professional services)",
+    "Net-centric customers (ISPs, telephone companies, mobile operators, cable TV, content providers, over-the-top media, CDNs, web hosting)",
+    "Enterprise customers (large corporations, typically Fortune 500 or >$5B annual revenue)"
+  ],
+  "namedCustomers": [
+    "T-Mobile US, Inc. (TMUSA) - under Commercial Agreement for colocation and connectivity services"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a facilities-based provider of low-cost, high-speed Internet access, private network services, optical wavelength and optical transport services and data center colocation space and power."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are a facilities-based provider of low-cost, high-speed Internet access, private network services, optical wavelength and optical transport services and data center colocation space and power."
+    },
+    {
+      "tag": "other:IPv4",
+      "stance": "core_product",
+      "sentence": "We lease IPv4 address space to our customers, both on a standalone basis and as a complement to a customer's Internet access services with us."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Swap Agreement expiration",
+      "date": "2026-02-01",
+      "sentence": "The Swap Agreement expired in February 2026."
+    },
+    {
+      "event": "Existing IPv4 Notes anticipated repayment date",
+      "date": "2029-05-01",
+      "sentence": "Our $206.0 million Existing IPv4 Notes effectively mature in May 2029 (i.e., the interest rate will significantly increase if we do not pay them on the monthly payment date in May of 2029)"
+    },
+    {
+      "event": "New IPv4 Notes anticipated repayment date",
+      "date": "2030-04-01",
+      "sentence": "Our $174.4 million New IPv4 Notes effectively mature in April 2030 (i.e., the interest rate will significantly increase if we do not pay them on the monthly payment date in April of 2030)"
+    },
+    {
+      "event": "2027 Notes maturity",
+      "date": "2027-06-15",
+      "sentence": "Our $450.0 million 2027 Notes mature in June 2027"
+    },
+    {
+      "event": "2027 Mirror Notes maturity",
+      "date": "2027-06-15",
+      "sentence": "Our $300.0 million 2027 Mirror Notes mature in June 2027"
+    },
+    {
+      "event": "2032 Notes maturity",
+      "date": "2032-07-01",
+      "sentence": "Our $600.0 million 2032 Notes mature in July 2032"
+    },
+    {
+      "event": "IP Transit Services Agreement payment schedule",
+      "date": null,
+      "sentence": "Under the IP Transit Services Agreement, TMUSA will pay us an aggregate of $700.0 million, consisting of (i) $350.0 million in equal monthly installments of $29.2 million per month during the first year after the Closing Date and (ii) $350.0 million in equal monthly installments of $8.3 million per month over the subsequent 42 months."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:12:39.488Z",
+  "model": "deepseek-v4-flash"
+}

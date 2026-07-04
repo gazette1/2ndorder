@@ -1,0 +1,61 @@
+{
+  "cik": "0001332174",
+  "ticker": "GSG",
+  "name": "iShares S&P GSCI Commodity-Indexed Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-006060",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1332174/000143774926006060/gsg20251231_10k.htm"
+  },
+  "business": "The Trust seeks to track the results, before expenses and liabilities, of the S&P GSCI Total Return Index (the Index), which represents a diversified, fully collateralized investment in futures contracts. The Trust's assets consist of long positions in exchange-traded index futures contracts on the S&P GSCI Excess Return Index, together with cash, U.S. Treasury securities or other short-term securities eligible as margin deposits. Shares are offered to investors through authorized participants and trade on NYSE Arca, providing retail and institutional investors exposure to commodity futures.",
+  "sellsTo": [
+    "Retail investors",
+    "Institutional investors",
+    "Authorized Participants (broker-dealers)"
+  ],
+  "namedCustomers": [
+    "Goldman Sachs & Co. LLC",
+    "J.P. Morgan Securities LLC",
+    "Merrill Lynch Professional Clearing Corp.",
+    "Morgan Stanley & Co. LLC",
+    "SG Americas Securities, LLC",
+    "UBS Securities LLC",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "iShares Delaware Trust Sponsor LLC",
+    "BlackRock Institutional Trust Company, N.A.",
+    "BlackRock Fund Advisors",
+    "S&P Dow Jones Indices LLC",
+    "Goldman Sachs & Co. LLC",
+    "State Street Bank and Trust Company",
+    "Chicago Mercantile Exchange, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Brent Crude Oil 18.22%, Crude Oil 17.79%, Heating Oil 3.69%, Natural Gas 3.57%, Unleaded Gas 3.29%, Gas Oil 5.22%"
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Gold 7.24%, Copper 5.47%, Aluminum 4.28%, Nickel 0.93%, Zinc 0.89%, Lead 0.56%, Silver 0.64%"
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Corn 4.67%, Soybeans 3.10%, Chicago Wheat 2.38%, Coffee 1.85%, Sugar 1.72%, Kansas Wheat 1.24%, Cocoa 1.18%, Cotton 0.88%, Live Cattle 5.20%, Lean Hogs 3.31%, Feeder Cattle 2.68%"
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "Copper 5.47%, Aluminum 4.28%"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:46:18.867Z",
+  "model": "deepseek-v4-flash"
+}

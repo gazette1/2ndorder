@@ -1,0 +1,129 @@
+{
+  "cik": "0001067983",
+  "ticker": "BRK-B",
+  "name": "BERKSHIRE HATHAWAY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083899",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm"
+  },
+  "business": "Berkshire Hathaway is a holding company whose subsidiaries engage in insurance (property/casualty and life/health reinsurance), freight rail transportation, utility and energy generation/distribution, and a variety of manufacturing, services, and retailing activities. Insurance operations provide coverage worldwide. Manufacturing businesses produce aerospace components, building products, and consumer goods.",
+  "sellsTo": [
+    "individuals (auto insurance)",
+    "businesses (commercial insurance, reinsurance)",
+    "industrial and agricultural shippers",
+    "retail electricity and natural gas customers",
+    "aerospace and power generation industries",
+    "homebuyers and sellers (real estate brokerage)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Berkshire's insurance subsidiaries provide insurance and reinsurance of property and casualty risks as well as life and health risks worldwide."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "BNSF Railway operates one of the largest freight rail transportation systems in North America."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "BHE's domestic regulated energy interests are comprised of four regulated U.S. utility companies serving approximately 5.4 million retail customers."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "BHE and its subsidiaries, also own interests in independent power projects having approximately 6,400 net megawatts of generation capacity that are in service and under construction ... primarily from wind, solar, geothermal and hydro sources under long-term contracts."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The natural gas pipelines consist of BHE GT&S, LLC, Northern Natural Gas Company and Kern River Gas Transmission Company."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "AltaLink, L.P. is a regulated electric transmission-only utility company headquartered in Calgary, Alberta."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "active_investment",
+      "sentence": "MEC is also subject to regulation by the Nuclear Regulatory Commission ... with respect to its 25% ownership of the Quad Cities Nuclear Station."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Precision Castparts Corp. (PCC) manufactures complex metal components and products and provides high-quality investment castings, forgings, fasteners/fastener systems and aerostructures for critical aerospace and power and energy applications."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The building products group produces prefabricated and site-built residential homes, flooring products, insulation, roofing and engineered products, building and engineered components, paint and coatings and bricks and masonry products."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The consumer products group manufactures and/or distributes recreational vehicles, batteries, apparel, footwear and other products."
+    },
+    {
+      "tag": "other:rail-electrification",
+      "stance": "risk_mention",
+      "sentence": "Long-term solutions, such as battery-electric and hydrogen locomotives, are also being evaluated and field-tested."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "TRIA program expiration",
+      "date": "2027-12-31",
+      "sentence": "The Program extends to December 31, 2027 through the Terrorism Risk Insurance Program Reauthorization Act of 2019."
+    },
+    {
+      "event": "IAG quota-share agreement expiration",
+      "date": "2029-12-31",
+      "sentence": "a 20% quota-share agreement with Insurance Australia Group Limited (IAG) that expires on December 31, 2029."
+    },
+    {
+      "event": "BNSF GHG emissions reduction target",
+      "date": "2030-12-31",
+      "sentence": "BNSF management has committed to a broad sustainability model, applying science-based approaches, that is anticipated to result in a 30% reduction in BNSF Railway's GHG emissions by 2030 from its baseline year of 2018."
+    },
+    {
+      "event": "EPA power sector rules effective date",
+      "date": "2030-01-01",
+      "sentence": "The requirements are scheduled to take effect January 1, 2030."
+    },
+    {
+      "event": "EPA carbon capture compliance for coal and new gas units",
+      "date": "2032-01-01",
+      "sentence": "Coal-fueled units that will operate after December 31, 2038, must meet emission limits equivalent to operating with carbon capture and sequestration beginning January 1, 2032."
+    },
+    {
+      "event": "Expected finalization of EPA rescission of 2024 power sector rules",
+      "date": null,
+      "sentence": "The proposed rescission is expected to be finalized in the spring of 2026, at which time BHE and its energy subsidiaries will be able to ascertain remaining requirements."
+    },
+    {
+      "event": "Electricity distribution price control end date",
+      "date": "2028-03-31",
+      "sentence": "The current electricity distribution price control runs from April 1, 2023 through March 31, 2028."
+    },
+    {
+      "event": "EPA Endangerment Finding Rescission finalized",
+      "date": "2026-02-11",
+      "sentence": "The EPA finalized the Endangerment Finding Rescission on February 11, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The five largest private passenger automobile insurers had a combined market share of approximately 63.6% in 2024, with GEICO at 11.6% (third largest).",
+      "sentence": "According to the A.M. Best data for 2024 published in 2025, the five largest private passenger automobile insurers had a combined market share of approximately 63.6% based on written premiums, with GEICO's market share being the third largest at approximately 11.6%."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:08:39.463Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0001353613",
+  "ticker": "FXY",
+  "name": "Invesco CurrencyShares Japanese Yen Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083566",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1353613/000119312526083566/fxy-20251231.htm"
+  },
+  "business": "The Invesco CurrencyShares Japanese Yen Trust is a grantor trust that holds Japanese Yen and issues Shares that reflect the price of the Japanese Yen plus accrued interest less expenses. The Shares trade on NYSE Arca and offer investors exposure to the Japanese Yen. The trust is a passive investment vehicle with no officers, directors, or employees.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "The Bank of New York Mellon",
+    "JPMorgan Chase Bank, N.A., London Branch",
+    "Invesco Specialized Products, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:currency",
+      "stance": "risk_mention",
+      "sentence": "Fluctuations in the price of the Japanese Yen could materially and adversely affect the value of the Shares."
+    },
+    {
+      "tag": "other:interest-rate",
+      "stance": "risk_mention",
+      "sentence": "If interest earned by the Trust does not exceed the Trust's expenses, the Trustee will withdraw Japanese Yen from the Trust to pay these excess expenses, which will reduce the amount of Japanese Yen represented by each Share on an ongoing basis and may result in adverse tax consequences for Shareholders."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Due to the increased use of technologies, intentional and unintentional cyber attacks pose operational and information security risks."
+    },
+    {
+      "tag": "other:geopolitical",
+      "stance": "risk_mention",
+      "sentence": "International Armed Conflicts May Result in Market Volatility that Could Adversely Affect the Fund's Performance."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Changes to United States tariff and trade policies may increase the volatility of foreign exchange rates."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:43:07.546Z",
+  "model": "deepseek-v4-flash"
+}

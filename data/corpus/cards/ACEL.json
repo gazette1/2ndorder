@@ -1,0 +1,72 @@
+{
+  "cik": "0001698991",
+  "ticker": "ACEL",
+  "name": "Accel Entertainment, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001698991-26-000018",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1698991/000169899126000018/acel-20251231.htm"
+  },
+  "business": "Accel Entertainment is a leading distributed gaming operator in the United States and a developer of brick-and-mortar casinos. It offers turnkey, full-service gaming solutions to bars, restaurants, convenience stores, truck stops, fraternal and veteran establishments, as well as casinos and horse racing venues. The company installs, maintains, operates and services gaming terminals, redemption devices with ATM functionality, stand-alone ATMs, and amusement devices such as jukeboxes, dartboards, and pool tables.",
+  "sellsTo": [
+    "bars",
+    "restaurants",
+    "convenience stores",
+    "truck stops",
+    "fraternal and veteran establishments",
+    "casinos",
+    "horse racing venues"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Light & Wonder, Inc.",
+    "International Game Technology",
+    "Aristocrat",
+    "Novomatic",
+    "NRT Technology",
+    "Touch Tunes",
+    "Arachnid",
+    "Diamond",
+    "Microsoft",
+    "Salesforce",
+    "NetSuite"
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "We are a leading distributed gaming operator in the United States, as well as a developer of brick-and-mortar casinos that serve local gaming markets and horse racing venues."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our success depends on the security, integrity and regulatory compliance of our products, services and systems; technical incidents, cyber events, product defects or integrity failures could result in regulatory action, liability and reputational harm."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Although we do not currently utilize AI to a significant extent in our operations, we are actively evaluating and expect to implement AI solutions in the near-to-medium term to enhance various aspects of our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fairmount Park Casino opened and racing season began",
+      "date": "2025-04-01",
+      "sentence": "In April 2025, the casino opened and the racing season began at Fairmount."
+    },
+    {
+      "event": "Entry into New Credit Facility",
+      "date": "2025-09-10",
+      "sentence": "In order to refinance our Prior Credit Facility, we entered into a credit agreement, dated as of September 10, 2025 (the New Credit Facility)."
+    },
+    {
+      "event": "Entry into interest rate collar",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, we continued to hedge the variability of the cash flows attributable to the changes in the 1-month Term SOFR interest rate by entering into an interest rate collar."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:09:24.608Z",
+  "model": "deepseek-v4-flash"
+}

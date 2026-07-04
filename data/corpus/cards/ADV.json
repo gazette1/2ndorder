@@ -1,0 +1,44 @@
+{
+  "cik": "0001776661",
+  "ticker": "ADV",
+  "name": "Advantage Solutions Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-088543",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1776661/000119312526088543/adv-20251231.htm"
+  },
+  "business": "Advantage Solutions provides outsourced sales, marketing, merchandising, sampling, and retailer support services to consumer packaged goods (CPG) manufacturers and retailers primarily across North America. Its services support distribution, retail execution, shopper engagement, and private brand development across physical and digital commerce environments. The company serves more than 4,000 clients across grocery, mass, club, retail pharmacy, convenience, and other channels.",
+  "sellsTo": [
+    "consumer packaged goods manufacturers",
+    "retailers across grocery, mass, club, retail pharmacy, convenience, and other channels"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Omni-commerce Marketing Services We develop and execute shopper centric marketing programs across in store, digital shelf, e commerce platforms, social and influencer channels, and custom content programs."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "the harm the use of artificial intelligence ( AI ) in our business may cause to our business and reputation"
+    },
+    {
+      "tag": "other:in-store-automation",
+      "stance": "risk_mention",
+      "sentence": "the introduction of new services embodying new technologies, including automation of certain of our in-store services, and the emergence of new industry standards could render existing services obsolete."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face numerous and evolving cybersecurity risks that threaten the confidentiality, integrity and availability of our IT Systems and Confidential Information (as defined below)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:39:39.711Z",
+  "model": "deepseek-v4-flash"
+}

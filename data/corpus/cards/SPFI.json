@@ -1,0 +1,40 @@
+{
+  "cik": "0001163668",
+  "ticker": "SPFI",
+  "name": "SOUTH PLAINS FINANCIAL, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-008087",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1163668/000114036126008087/ef20060591_10k.htm"
+  },
+  "business": "South Plains Financial, Inc. is a bank holding company whose wholly-owned subsidiary, City Bank, provides a wide range of commercial and consumer financial services to small and medium-sized businesses and individuals in Texas and New Mexico. Its principal business activities include commercial and retail banking, along with investment, trust and mortgage services.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "its debtors ability to honor their contracts is substantially dependent upon the general economic conditions of the markets in which it operates, which consist primarily of agribusiness, wholesale/retail, oil and gas and related businesses, healthcare industries and institutions of higher education."
+    },
+    {
+      "tag": "other:agribusiness",
+      "stance": "risk_mention",
+      "sentence": "its debtors ability to honor their contracts is substantially dependent upon the general economic conditions of the markets in which it operates, which consist primarily of agribusiness, wholesale/retail, oil and gas and related businesses, healthcare industries and institutions of higher education."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of BOH Holdings",
+      "date": "2026-06-30",
+      "sentence": "The Merger is expected to close during the second quarter of 2026, subject to the satisfaction of customary closing conditions, including the receipt of all required regulatory approvals and the approval of BOH s shareholders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:43:48.844Z",
+  "model": "deepseek-v4-flash"
+}

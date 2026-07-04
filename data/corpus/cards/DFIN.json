@@ -1,0 +1,48 @@
+{
+  "cik": "0001669811",
+  "ticker": "DFIN",
+  "name": "Donnelley Financial Solutions, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-054586",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1669811/000119312526054586/dfin-20251231.htm"
+  },
+  "business": "DFIN is a leading global provider of compliance and regulatory software and services, supporting public and private companies, mutual funds, and other regulated investment firms in capital markets transactions and financial reporting.",
+  "sellsTo": [
+    "public and private companies",
+    "mutual funds",
+    "other regulated investment firms",
+    "capital markets clients",
+    "investment companies clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:compliance-software",
+      "stance": "core_product",
+      "sentence": "DFIN is a leading global provider of compliance and regulatory software and services, supporting its clients complex capital markets transactions and essential financial reporting at every stage of the corporate lifecycle and fueling end-to-end investment company regulatory compliance needs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's failure to maintain the confidentiality, integrity and availability of its systems, software and solutions could seriously damage the Company's reputation and affect its ability to retain clients and attract new business."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "active_investment",
+      "sentence": "The Company continues to invest in leading and innovative technology such as cloud-native solutions, a single compliance platform, artificial intelligence (including AI-driven service architectures), and application programming interfaces (APIs)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of new Venue platform",
+      "date": null,
+      "sentence": "In 2025, the Company introduced a new Venue, which delivers a modern architecture, streamlined navigation, intelligent permissioning and real-time insights to speed up due diligence and simplify collaboration for M&A, capital raising and IPO transactions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:57:39.548Z",
+  "model": "deepseek-v4-flash"
+}

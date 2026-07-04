@@ -1,0 +1,64 @@
+{
+  "cik": "0001361113",
+  "ticker": "VRNS",
+  "name": "VARONIS SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-005450",
+    "filedAt": "2026-02-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1361113/000162828026005450/vrns-20251231.htm"
+  },
+  "business": "Varonis is a data security company focused on protecting what matters most to organizations: their data. Its platform covers cloud, SaaS, and on-premises data stores, and it sells to organizations of all sizes, with a focus on larger enterprises across industries such as financial services, healthcare, technology, and more.",
+  "sellsTo": [
+    "financial services",
+    "public sector",
+    "healthcare",
+    "industrial",
+    "insurance",
+    "energy and utilities",
+    "technology",
+    "construction and engineering",
+    "education",
+    "consumer and retail",
+    "larger enterprises"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Varonis is a data security company focused on protecting what matters most to organizations: their data."
+    },
+    {
+      "tag": "other:ai-security",
+      "stance": "core_product",
+      "sentence": "We have further expanded the platform’s capabilities with the introduction of Athena AI, a generative AI layer designed to enhance security operations rather than replace human judgement."
+    },
+    {
+      "tag": "other:cloud-security",
+      "stance": "core_product",
+      "sentence": "Our platform has expanded from an initial focus on Windows files shares to cover a broad range of mission-critical cloud and on-premises data stores, cloud infrastructure environments, identity repositories, and key SaaS and AI applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "End-of-life of self-hosted products",
+      "date": "2026-12-31",
+      "sentence": "As part of our strategic transition to SaaS, we have announced the end-of-life of our self-hosted products as of December 31, 2026."
+    },
+    {
+      "event": "Expiration of October 2025 share repurchase program",
+      "date": "2026-10-01",
+      "sentence": "At December 31, 2025, we had $135.0 million of capacity remaining under our October 2025 Share Repurchase Program which will expire in October 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Data will grow at a CAGR of 25.4% to reach 527 zettabytes by 2029.",
+      "sentence": "The International Data Corporation’s Global DataSphere Forecast, 2025-2029, predicts that over the next five years, data will grow at a compound annual growth rate of 25.4% to reach more than 527 zettabytes (or 527 trillion Gigabytes) by 2029."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:20:08.222Z",
+  "model": "deepseek-v4-flash"
+}

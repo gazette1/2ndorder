@@ -1,0 +1,66 @@
+{
+  "cik": "0001725255",
+  "ticker": "AHCO",
+  "name": "AdaptHealth Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011213",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026011213/ahco-20251231.htm"
+  },
+  "business": "AdaptHealth Corp. is a national leader in providing patient-centered, healthcare-at-home solutions including home medical equipment, medical supplies, and related services to beneficiaries of Medicare, Medicaid, and commercial insurance payors.",
+  "sellsTo": [
+    "Medicare",
+    "Medicaid",
+    "Commercial insurance payors",
+    "Acute care hospitals",
+    "Sleep laboratories",
+    "Pulmonologist and endocrinologist offices",
+    "Skilled nursing facilities",
+    "Hospice operators",
+    "Primary care providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "AdaptHealth Corp. and subsidiaries (\"AdaptHealth\" or \"the Company\") is a national leader in providing patient-centered, healthcare-at-home solutions including home medical equipment ( HME ), medical supplies, and related services."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "We are deploying innovative programs, which use artificial intelligence, including generative artificial intelligence and similar tools and technologies (collectively, AI ), to improve or enhance patient and operational workflows."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber-attacks or security breaches experienced by us or our vendors or service providers, security breaches or the unauthorized access, disclosure, loss or use of sensitive personal information, such as protected health information could cause a loss of confidential data, give rise to remediation and other expenses, expose us to liability under applicable laws and regulations, including the Health Insurance Portability and Accountability Act of 1996 ( HIPAA ), consumer protection, common law or other legal theories, subject us to litigation and federal and state governmental inquiries, enforcement actions, damage our reputation, and otherwise be disruptive to our business"
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "supply chain disruptions and economy-wide labor shortages in the U.S. have negatively impacted, and may continue to negatively impact, AdaptHealth s businesses."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Continued labor shortages have driven a significant increase in competition throughout the industry to attract and retain talent and have also led to increased labor costs."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Increases in inflation have had, and may continue to have, an adverse effect on AdaptHealth."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "the development and commercialization of new drugs to address obesity and type 2 diabetes may limit the prospects for AdaptHealth s current equipment or services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:10:15.951Z",
+  "model": "deepseek-v4-flash"
+}

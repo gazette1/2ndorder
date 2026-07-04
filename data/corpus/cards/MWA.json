@@ -1,0 +1,57 @@
+{
+  "cik": "0001350593",
+  "ticker": "MWA",
+  "name": "Mueller Water Products, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001350593-25-000066",
+    "filedAt": "2025-11-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1350593/000135059325000066/mwa-20250930.htm"
+  },
+  "business": "Mueller Water Products manufactures and markets products for water transmission, distribution, and measurement in North America. Its product portfolio includes iron gate valves, fire hydrants, service brass, metering systems, leak detection, and pressure management solutions. The company serves municipalities and the residential and non-residential construction industries.",
+  "sellsTo": [
+    "municipalities",
+    "residential construction",
+    "non-residential construction",
+    "distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Mueller Water Products, Inc. ( Mueller, we, our, or the Company ) is a leading manufacturer and marketer of products and solutions used in the transmission, distribution and measurement of water in North America."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We also offer fixed leak detection systems that allow customers to continuously monitor and detect leaks on water distribution and transmission mains."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and security vulnerabilities could lead to reduced sales, increased costs, liability claims, unauthorized access to customer data or harm to our reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Challenges and uncertainties with respect to the development, deployment and use of artificial intelligence ( AI ) in our business and products, services and solutions may result in reputational harm, competitive disadvantages and adverse impacts to our operations, business and financial results."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Residential construction activity is important to our business and adverse conditions or sustained uncertainty within this market could adversely affect our financial results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Appointment of Paul McAndrew as President and CEO",
+      "date": "2026-02-09",
+      "sentence": "On November 6, 2025, we announced that Ms. Marietta Edmunds Zakas will retire as the Company s Chief Executive Officer and as a member of the Company s Board of Directors, effective as of February 9, 2026 (the Transition Date). In connection with Ms. Zakas retirement, the Company s Board of Directors appointed Mr. Paul McAndrew as President and Chief Executive Officer, effective as of the Transition Date."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:06:34.761Z",
+  "model": "deepseek-v4-flash"
+}

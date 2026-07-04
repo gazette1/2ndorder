@@ -1,0 +1,76 @@
+{
+  "cik": "0001474627",
+  "ticker": "NEGG",
+  "name": "Newegg Commerce, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001144204-13-015840",
+    "filedAt": "2013-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474627/000114420413015840/v335536_10k.htm"
+  },
+  "business": "The company is in the business of developing and distributing medical devices, focusing on respiratory and oxygen homecare products since 2006. It distributes products from international manufacturers and also designs, develops, and markets its own proprietary products and medical components. The company sells primarily through distributors and makes direct sales to hospitals, clinics, government health bureaus, and individuals.",
+  "sellsTo": [
+    "Distributors",
+    "Hospitals",
+    "Clinics",
+    "Government health bureaus",
+    "Individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We distribute products designed and manufactured by other companies."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We also design, develop and market our own proprietary products and medical components."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We have focused on developing respiratory and oxygen homecare products in particular since 2006."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We derive revenues in our sleep respiratory and oxygen therapy line from sales of oxygen concentrators, CPAP devices, and portable sleep diagnostics devices."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "We launched the new Effective Oxygen Supplement System in 2012."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Effective Oxygen Supplement System",
+      "date": "2012",
+      "sentence": "We launched the new Effective Oxygen Supplement System in 2012."
+    },
+    {
+      "event": "Partnership for homecare oxygen tank services in Beijing",
+      "date": "2011",
+      "sentence": "Accordingly, in 2011 we partnered with two other companies to provide homecare oxygen tank services in Beijing."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Twenty percent of individual expenditures on home medical care in China are for medical devices, compared to 50% in Europe and the U.S.",
+      "sentence": "It is estimated that twenty percent of individual expenditures on home medical care in China are for medical devices, compared to 50% of such expenditures in Europe and the U.S."
+    },
+    {
+      "claim": "Chinese population over age 60 will increase from 167 million in 2010 to 440 million in 2050.",
+      "sentence": "the UN estimates that the Chinese population over the age of 60 will increase from 167 million in 2010 to 440 million in 2050"
+    },
+    {
+      "claim": "Homecare medical equipment ranked first among the fastest-growing industries in the 21st century.",
+      "sentence": "15 Fortune magazine predicted homecare medical equipment to be ranked first among the fastest-growing industries in the 21st century."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:24:42.543Z",
+  "model": "deepseek-v4-flash"
+}

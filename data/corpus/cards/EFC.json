@@ -1,0 +1,40 @@
+{
+  "cik": "0001411342",
+  "ticker": "EFC",
+  "name": "Ellington Financial Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013279",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828026013279/efc-20251231.htm"
+  },
+  "business": "Ellington Financial Inc. is a real estate investment trust that invests primarily in residential and commercial mortgage loans and mortgage-backed securities. It also originates and services reverse mortgage loans through its subsidiary Longbridge. The company seeks to generate risk-adjusted total returns for its stockholders.",
+  "sellsTo": [
+    "Homeowners seeking reverse mortgages",
+    "Investors in mortgage-backed securities",
+    "Secondary mortgage market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our strategic focus is on residential and commercial mortgage loan investments, sourced through a diverse array of loan origination channels, including certain affiliated loan originators."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "advancements in tools that harness generative artificial intelligence and other machine learning techniques (such tools, collectively, AI ), concerns over the creditworthiness of governments worldwide and the stability of the global banking system."
+    },
+    {
+      "tag": "other:climate-change-risk",
+      "stance": "risk_mention",
+      "sentence": "Climate change and regulatory initiatives related to environmental risk may impact the properties underlying our mortgage investments, potentially increasing insurance costs or affecting real estate values in certain regions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:45:04.822Z",
+  "model": "deepseek-v4-flash"
+}

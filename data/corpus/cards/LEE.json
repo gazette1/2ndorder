@@ -1,0 +1,41 @@
+{
+  "cik": "0000058361",
+  "ticker": "LEE",
+  "name": "LEE ENTERPRISES, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0000058361-25-000040",
+    "filedAt": "2025-11-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/58361/000005836125000040/lee-20250928.htm"
+  },
+  "business": "Lee Enterprises is a digital-first subscription and marketing services company that serves 72 mid-sized communities across 25 states, providing digital subscription platforms, advertising and marketing services, and print newspapers. Its primary revenue streams are subscriptions, advertising, and digital marketing services.",
+  "sellsTo": [
+    "local communities",
+    "local advertisers",
+    "digital subscribers",
+    "print subscribers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Through a premium, high-margin portfolio of digital products and marketing services including owned-and-operated platforms, branded content, over-the-top advertising, AI-powered solutions, and targeted print we enable more than 20,000 local advertisers to meaningfully engage customers, strengthen their brands, and accelerate growth."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "risk_mention",
+      "sentence": "Generative AI technology's continued growth, development, and evolution is shifting the landscape among our competitors to adopt AI technology as a tool to create and deliver content to customers as well as act as a stand-alone competitor and such evolutions of AI technology may negatively impact our ability to attract, engage, and retain audience and subscribers, maintain and grow other revenue streams, and other risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "On February 3, 2025, we experienced a cybersecurity incident that disrupted certain IT systems and resulted in unauthorized access to certain files (the Cyber Incident)."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:48:31.165Z",
+  "model": "deepseek-v4-flash"
+}

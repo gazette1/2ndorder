@@ -1,0 +1,74 @@
+{
+  "cik": "0001128928",
+  "ticker": "FLO",
+  "name": "FLOWERS FOODS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071441",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1128928/000119312526071441/flo-20260103.htm"
+  },
+  "business": "Flowers Foods, Inc. is the second-largest producer and marketer of packaged bakery foods in the United States. Principal products include breads, buns, rolls, snack items (bars, cakes, cookies, and crackers), bagels, English muffins, tortillas, and baking mixes. Products are sold under brand names including Nature's Own, Dave's Killer Bread, Canyon Bakehouse, Simple Mills, Wonder, and Tastykake.",
+  "sellsTo": [
+    "supermarkets",
+    "drugstores",
+    "mass merchandisers",
+    "discount stores",
+    "club stores",
+    "natural stores",
+    "convenience stores",
+    "thrift outlet stores",
+    "foodservice"
+  ],
+  "namedCustomers": [
+    "Walmart/Sam's Club"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Flowers Foods, Inc. (which we reference to herein as we, our, us, the company, Flowers or Flowers Foods ), founded in 1919 as a Georgia corporation and headquartered in Thomasville, Georgia, is currently the second-largest producer and marketer of packaged bakery foods in the United States ( U.S. )."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "Our digital strategy initiatives include investments in digital domains of e-commerce, autonomous planning, bakery of the future, digital logistics, and digital sales."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "Bakery of the future involves transforming our current manufacturing processes and operational visibility to apply industry-leading digital manufacturing tools, such as real-time performance management and visibility, automation of repetitive processes, standardization of processes and procedures, and sensor-based quality monitoring tools to improve consistency and quality."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the failure of our information technology ( IT ) systems to perform adequately, including any interruptions, intrusions, cyber-attacks or security breaches of such systems or risks associated with the implementation of the upgrade of our ERP system;"
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Labor shortages and increased turnover or increases in employee and employee-related costs could have adverse effects on our profitability."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Supply chain disruptions, including impacts from the imposition of tariffs (including retaliatory tariffs), could continue to negatively impact production volumes due to uncertainty in the global and U.S. supply chain."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of ERP upgrade",
+      "date": "2027-01-01",
+      "sentence": "We currently anticipate the upgrade of our ERP system will cost approximately $325 million (of which approximately 35% has been or is anticipated to be capitalized) and anticipate the upgrade to be completed in Fiscal 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The U.S. market for fresh and frozen bakery products is estimated at approximately $55 billion at retail.",
+      "sentence": "The U.S. market for fresh and frozen bakery products is estimated at approximately $55 billion at retail."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:36:23.225Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,38 @@
+{
+  "cik": "0001377936",
+  "ticker": "SAR",
+  "name": "SARATOGA INVESTMENT CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-052176",
+    "filedAt": "2026-05-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377936/000121390026052176/ea0283348-10k_saratoga.htm"
+  },
+  "business": "Saratoga Investment Corp. is an externally managed, closed-end investment company that has elected to be regulated as a business development company (BDC). The company's investment objective is to create attractive risk-adjusted returns by generating current income and long-term capital appreciation from investments primarily in senior and unitranche leveraged loans and mezzanine debt issued by private U.S. middle-market companies. It may also invest up to 30% of the portfolio in opportunistic investments including distressed debt, foreign debt, private equity, and structured finance vehicles such as collateralized loan obligation funds.",
+  "sellsTo": [
+    "private U.S. middle-market companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:middle-market-lending",
+      "stance": "core_product",
+      "sentence": "We invest primarily in senior and unitranche leveraged loans and mezzanine debt issued by private U.S. middle-market companies, which we define as companies having earnings before interest, tax, depreciation and amortization (EBITDA) of between $2 million and $50 million, both through direct lending and through participation in loan syndicates."
+    },
+    {
+      "tag": "other:collateralized-loan-obligations",
+      "stance": "active_investment",
+      "sentence": "We may also invest up to 30.0% of the portfolio in opportunistic investments in order to seek to enhance returns to stockholders. Such investments may include investments in distressed debt, which may include securities of companies in bankruptcy, foreign debt, private equity, securities of public companies that are not thinly traded and structured finance vehicles such as collateralized loan obligation funds."
+    },
+    {
+      "tag": "other:collateralized-loan-obligations",
+      "stance": "risk_mention",
+      "sentence": "Our investment in Saratoga CLO constitutes a leveraged investment in a portfolio of subordinated notes representing the lowest-rated securities issued by a pool of predominantly senior secured first lien term loans and is subject to additional risks and volatility."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:08:16.761Z",
+  "model": "deepseek-v4-flash"
+}

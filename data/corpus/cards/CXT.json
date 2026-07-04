@@ -1,0 +1,53 @@
+{
+  "cik": "0000025445",
+  "ticker": "CXT",
+  "name": "Crane NXT, Co.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000025445-26-000009",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/25445/000002544526000009/cxt-20251231.htm"
+  },
+  "business": "Crane NXT is a premier industrial technology company that provides proprietary and trusted technology solutions to secure, detect, and authenticate what matters most to its customers. It operates through two segments: Crane Payment Innovations (CPI) provides electronic equipment and software for payment verification and authentication, and Security and Authentication Technologies (SAT) provides advanced security solutions for physical products and digital content protection. The company sells to governments and consumer-related end markets including convenience merchandising (vending), retail, and gaming.",
+  "sellsTo": [
+    "governments",
+    "convenience merchandising (vending)",
+    "retail",
+    "gaming",
+    "central banks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "CPI provides electronic equipment and associated software leveraging extensive and proprietary core capabilities with various detection and sensing technologies for applications including verification and authentication of payment transactions."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "CPI also provides advanced automation solutions, and processing systems, field service solutions, and remote diagnostics and productivity software solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "SAT also provides brand protection, authentication solutions, and digital content protection across online marketplaces, social media platforms, and websites."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CPI provides electronic equipment and associated software ... for applications including verification and authentication of payment transactions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Antares Vision acquisition final phase",
+      "date": null,
+      "sentence": "We expect the final phase of the transaction to be completed in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:03:24.462Z",
+  "model": "deepseek-v4-flash"
+}

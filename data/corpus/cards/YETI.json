@@ -1,0 +1,65 @@
+{
+  "cik": "0001670592",
+  "ticker": "YETI",
+  "name": "YETI Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001670592-26-000013",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1670592/000167059226000013/yeti-20260103.htm"
+  },
+  "business": "YETI designs, markets, and distributes premium outdoor products including coolers, drinkware, bags, and apparel. It sells through wholesale partners and direct-to-consumer channels globally, targeting outdoor enthusiasts and value-conscious consumers.",
+  "sellsTo": [
+    "outdoor enthusiasts",
+    "premium consumers",
+    "wholesale retailers",
+    "corporate customers"
+  ],
+  "namedCustomers": [
+    "Dick's Sporting Goods",
+    "REI",
+    "Academy Sports + Outdoors",
+    "Bass Pro Shops",
+    "Ace Hardware",
+    "Scheels",
+    "Tractor Supply Company",
+    "FGL Sports",
+    "SportChek",
+    "BCF",
+    "Rebel",
+    "GO Outdoors"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "YETI is a global designer, retailer, and distributor of innovative outdoor products."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We sell our products in our DTC channel to customers on our websites, through YETI Authorized on the Amazon Marketplace, as well as in our retail stores."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely significantly on information technology, and any compromise or interruption of that technology resulting from cybersecurity incidents, data security breaches, design defects or system failures could have a material negative impact on our business."
+    },
+    {
+      "tag": "other:artificial_intelligence",
+      "stance": "risk_mention",
+      "sentence": "The integration and use of artificial intelligence (AI) in our business presents risks and challenges that could adversely affect our business, reputation, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure plan for 2026",
+      "date": "2026-12-31",
+      "sentence": "For 2026, we expect capital expenditures for property and equipment to be between $60.0 million and $70.0 million, primarily to support investments in technology, new product innovation, and our supply chain."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:17:29.736Z",
+  "model": "deepseek-v4-flash"
+}

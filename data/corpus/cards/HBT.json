@@ -1,0 +1,61 @@
+{
+  "cik": "0000775215",
+  "ticker": "HBT",
+  "name": "HBT Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000775215-26-000025",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/775215/000077521526000025/hbt-20251231.htm"
+  },
+  "business": "HBT Financial, Inc. is a bank holding company that provides a comprehensive suite of financial products and services to consumers, businesses, and municipal entities throughout Illinois and eastern Iowa.",
+  "sellsTo": [
+    "Consumers",
+    "Businesses",
+    "Municipal entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our loan portfolio includes loans to agricultural producers and loans secured by farmland."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our wealth management division provides farm management services and brokers farmland sales and crop insurance throughout our markets."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete with non-bank financial services companies, including financial technology companies, digital asset service providers, and other financial institutions operating within the areas we serve."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls or cybersecurity-related incidents could have a material adverse effect on our business, financial condition or results of operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "There continues to be a rise in electronic fraudulent activity, security breaches and cyber-attacks within the financial services industry, including as a result of increasingly sophisticated methods of conducting cyber-attacks, including those employing artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of CNB Bank Shares acquisition",
+      "date": "2026-03-01",
+      "sentence": "On March 1, 2026, HBT Financial completed its acquisition of CNB, the holding company for CNB Bank & Trust, N.A."
+    },
+    {
+      "event": "Core system conversion for CNB acquisition",
+      "date": "2026-03-31",
+      "sentence": "The core system conversion is expected to occur in March 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:44:25.982Z",
+  "model": "deepseek-v4-flash"
+}

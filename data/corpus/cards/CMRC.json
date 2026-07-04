@@ -1,0 +1,45 @@
+{
+  "cik": "0001626450",
+  "ticker": "CMRC",
+  "name": "Commerce.com, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085687",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1626450/000119312526085687/bigc-20251231.htm"
+  },
+  "business": "Commerce.com, Inc. provides an open, intelligent ecosystem of technology solutions that empower businesses to unlock data potential and deliver seamless, personalized experiences at scale. The company's platform supports business-to-consumer (B2C), business-to-business (B2B), and small business (SB) use cases.",
+  "sellsTo": [
+    "B2C",
+    "B2B",
+    "Small businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Commerce.com, Inc. provides an open, intelligent ecosystem of technology solutions that empower businesses to unlock data potential and deliver seamless, personalized experiences at scale."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We use artificial intelligence (\"AI\"), machine learning, and automated decision-making technologies, including proprietary AI and machine learning algorithms and models, (collectively, \"AI Technologies\") throughout our business, and are making significant investments in this area."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Increases in cost, interruptions in service, latency, or poor service from our third-party data center providers could impair the delivery of our platform;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we or our third-party providers fail to protect the security of personal information of our customers or their shoppers stored in our systems and/or experience a data security incident, our reputation may be harmed and we may be exposed to material financial penalties and legal liability;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:10:41.460Z",
+  "model": "deepseek-v4-flash"
+}

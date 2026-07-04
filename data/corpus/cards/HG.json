@@ -1,0 +1,46 @@
+{
+  "cik": "0001593275",
+  "ticker": "HG",
+  "name": "Hamilton Insurance Group, Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001593275-26-000021",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1593275/000159327526000021/hg-20251231.htm"
+  },
+  "business": "Hamilton Insurance Group is a global specialty insurance and reinsurance company that sells insurance and reinsurance products in property, casualty, and specialty lines. It operates through three platforms: Hamilton Global Specialty (medium to large accounts), Hamilton Select (small to mid-sized clients in the U.S. E&S market), and Hamilton Re (reinsurance globally).",
+  "sellsTo": [
+    "medium to large-sized accounts",
+    "small to mid-sized clients",
+    "global clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a global specialty insurance and reinsurance company founded in Bermuda in 2013."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face significant cybersecurity risks, including cybersecurity attacks and security breaches, and other incidents that may affect our information technology systems and those of our service providers."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use or anticipated use of AI technologies, including generative AI, by us or third parties, may increase or create new operational, legal and reputational risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Lloyd's approves Syndicate 4000 capacity for 2026 at £657 million",
+      "date": "2026-01-01",
+      "sentence": "The 2026 syndicate business forecast approved by Lloyd s gives Syndicate 4000 capacity of 657 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:41:19.779Z",
+  "model": "deepseek-v4-flash"
+}

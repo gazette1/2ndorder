@@ -1,0 +1,68 @@
+{
+  "cik": "0001854368",
+  "ticker": "DGXX",
+  "name": "Digi Power X Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037677",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1854368/000121390026037677/ea0283764-10k_digipower.htm"
+  },
+  "business": "Digi Power X Inc. is an energy infrastructure company that develops data centers to support high-performance computing, bitcoin mining, and other energy-intensive industries. The company provides colocation services, sells energy, and mines bitcoin through its U.S. operating subsidiaries.",
+  "sellsTo": [
+    "industrial clients",
+    "broader energy markets",
+    "bitcoin mining companies",
+    "customers seeking scalable, energy-efficient data-center capacity",
+    "enterprises and AI-focused customers"
+  ],
+  "namedCustomers": [
+    "Bit Digital USA, Inc."
+  ],
+  "namedSuppliers": [
+    "Super Micro Computers, Inc.",
+    "EnergyMark LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Corporation continued executing on our strategy to evolve from a solely digital asset mining-focused business into a power-backed AI infrastructure and Tier 3 data-center platform positioned to serve the accelerating global demand for AI compute, while still maintaining our digital asset mining business."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are focusing on diversification into operating data centers to drive the expansion of sustainable energy assets."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Revenue from the Corporation's bitcoin mining operation is recognized based upon the average bitcoin price in effect on the day the bitcoins are mined."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Currently, approximately 89% of the electricity consumed by the Corporation's grid-based power across its two New York State sites is sourced from zero-carbon generation, including hydroelectric and nuclear resources within the NYISO market."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "The Corporation also recognized revenue from the sale of energy of $13,195,949 for the period, compared to $4,610,556 in 2024."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ARMS 200 deployment at Alabama facility",
+      "date": null,
+      "sentence": "The ARMS 200 is currently being set up and is expected to begin deployment in the second quarter of 2026 at our Alabama facility, representing a transition from development to revenue-generating infrastructure."
+    },
+    {
+      "event": "First NVIDIA B200 GPU cluster fully operational",
+      "date": null,
+      "sentence": "the Corporation remains on schedule to have its first NVIDIA B200 GPU cluster fully operational by Q2 2026, which will mark a major milestone in its AI infrastructure roadmap."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:27:04.004Z",
+  "model": "deepseek-v4-flash"
+}

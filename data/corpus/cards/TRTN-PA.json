@@ -1,0 +1,41 @@
+{
+  "cik": "0001660734",
+  "ticker": "TRTN-PA",
+  "name": "Triton International Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001660734-24-000012",
+    "filedAt": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1660734/000166073424000012/trtn-20231231.htm"
+  },
+  "business": "Triton is the world's largest lessor of intermodal containers. We lease and sell intermodal containers and chassis. Our primary customers include the world's largest container shipping lines.",
+  "sellsTo": [
+    "international shipping lines",
+    "freight forwarding companies",
+    "manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Triton is the world's largest lessor of intermodal containers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New container deliveries",
+      "date": null,
+      "sentence": "We have invested $327.2 million in new containers of which $129.1 million is for delivery in 2024."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Container lessors owned approximately 24.2 million TEU, or approximately 50% of the total worldwide container fleet as of the end of 2023.",
+      "sentence": "We estimate that container lessors owned approximately 24.2 million TEU, or approximately 50% of the total worldwide container fleet as of the end of 2023."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:47:26.868Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0000105132",
+  "ticker": "WDFC",
+  "name": "WD 40 CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000105132-25-000067",
+    "filedAt": "2025-10-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513225000067/wdfc-20250831.htm"
+  },
+  "business": "WD-40 Company is a global marketing organization that develops and sells maintenance products and homecare and cleaning products. The company's products are sold in more than 176 countries and territories worldwide primarily through hardware stores, automotive parts outlets, industrial distributors, mass retailers, and online retailers.",
+  "sellsTo": [
+    "hardware stores",
+    "automotive parts outlets",
+    "industrial distributors and suppliers",
+    "mass retail and home center stores",
+    "value retailers",
+    "grocery stores",
+    "online retailers",
+    "warehouse club stores",
+    "farm supply stores",
+    "sport retailers",
+    "independent bike dealers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We own a wide range of well-known brands that include maintenance products and homecare and cleaning products: WD-40 Multi-Use Product, WD-40 Specialist, 3-IN-ONE, GT85, X-14, 2000 Flushes, Carpet Fresh, no vac, Spot Shot, Lava and Solvol."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "risk_mention",
+      "sentence": "Specialty chemicals and aerosol cans, which constitute a significant portion of the costs for many of our maintenance products, have experienced significant price volatility in the past, and may do so in the future."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The increasing number of information technology security threats and the development of more sophisticated cyberattacks, which includes the adoption of emerging technologies such as AI and machine learning, as well as other techniques such as ransomware, pose significant potential risks to the security of our information technology systems and networks, as well as to the confidentiality, availability and integrity of our data."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "In addition, the continued popularity and growth of the online retail sales channel presents both us and our customers that sell our products online with the challenge of balancing online and physical store retailing methods."
+    },
+    {
+      "tag": "other:sustainability",
+      "stance": "risk_mention",
+      "sentence": "Any failure or perceived failure, whether or not valid, to pursue and fulfill our ESG initiatives and objectives or to satisfy various ESG reporting standards in a timely manner could negatively impact our financial condition and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected sale of homecare and cleaning product portfolios in the Americas segment",
+      "date": null,
+      "sentence": "We continue to make available for sale certain assets of our homecare and cleaning product portfolios in the Americas segment and are expecting the sale of these portfolios in fiscal year 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:48:31.391Z",
+  "model": "deepseek-v4-flash"
+}

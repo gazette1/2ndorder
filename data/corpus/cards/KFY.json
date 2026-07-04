@@ -1,0 +1,48 @@
+{
+  "cik": "0000056679",
+  "ticker": "KFY",
+  "name": "KORN FERRY",
+  "source": {
+    "form": "10-K",
+    "accession": "0000056679-26-000021",
+    "filedAt": "2026-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000021/kfy-20260430.htm"
+  },
+  "business": "Korn Ferry is a global consulting firm that provides talent and organizational consulting services, including executive search, professional recruiting, interim talent, recruitment process outsourcing, digital solutions, and consulting in areas like organization strategy, assessment, leadership development, and total rewards. It serves clients across industries, including a significant portion of the S&P 100 and S&P 500, and operates across four regions with 98 offices in 51 countries.",
+  "sellsTo": [
+    "S&P 100",
+    "S&P 500",
+    "S&P Europe 350",
+    "Fortune Top 50 World's Most Admired",
+    "public and private enterprises",
+    "government and not-for-profit sectors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Increasingly, artificial intelligence (\"AI\") capabilities help surface patterns, generate recommendations, and support decision-making by drawing on those insights."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Technological advances may significantly disrupt the labor market and weaken demand for human capital at a rapid rate."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is subject to various federal, state, local, and foreign laws and regulations that are complex, change frequently and may become more stringent over time, including data privacy and cybersecurity laws."
+    },
+    {
+      "tag": "other:automation",
+      "stance": "risk_mention",
+      "sentence": "more tasks currently performed by people have been and may continue to be replaced by automation, robotics, machine learning, AI and other technological advances outside of our control."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:34:28.238Z",
+  "model": "deepseek-v4-flash"
+}

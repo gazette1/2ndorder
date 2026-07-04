@@ -1,0 +1,42 @@
+{
+  "cik": "0000726601",
+  "ticker": "CCBG",
+  "name": "CAPITAL CITY BANK GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000726601-26-000007",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/726601/000072660126000007/ccbg-20251231.htm"
+  },
+  "business": "Capital City Bank Group, Inc. provides a full range of banking services including traditional deposit and credit services, mortgage banking, asset management, trust, merchant services, bankcards, securities brokerage services and financial advisory services. It operates 62 banking offices in Florida, Georgia, and Alabama. Approximately 81% of revenue is derived from Florida market areas.",
+  "sellsTo": [
+    "corporations and other business clients",
+    "consumers",
+    "state and local governments",
+    "nonprofit entities",
+    "individuals requiring trustee services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition to traditional competitors, we also face increasing competition from a rapidly expanding group of nontraditional financial service providers, including established and emerging wealth technology companies (wealthtechs), financial technology companies (fintechs), technology-enabled lenders, digital-only banks, crowdfunding platforms, and mobile-based payment applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The cost and effects of cyber incidents or other failures, interruptions, or security breaches of our systems or those of our customers or third-party providers;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Risks associated with the development and use of artificial intelligence;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:41:14.211Z",
+  "model": "deepseek-v4-flash"
+}

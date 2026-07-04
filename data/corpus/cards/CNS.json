@@ -1,0 +1,82 @@
+{
+  "cik": "0001284812",
+  "ticker": "CNS",
+  "name": "COHEN & STEERS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001284812-26-000011",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1284812/000128481226000011/cns-20251231.htm"
+  },
+  "business": "Cohen & Steers is a global investment manager specializing in real assets and alternative income, including listed and private real estate, preferred securities, infrastructure, resource equities, commodities, and multi-strategy solutions. It serves institutional and individual investors through wealth and institutional channels. The company manages open-end funds, institutional accounts, and closed-end funds.",
+  "sellsTo": [
+    "wealth channel (intermediaries such as global private banks, wirehouses, broker-dealers, registered investment advisers)",
+    "institutional channel (sovereign wealth funds, pension plans, insurance companies, endowments, foundations)"
+  ],
+  "namedCustomers": [
+    "Daiwa Asset Management"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:listed-real-estate",
+      "stance": "core_product",
+      "sentence": "Listed Real Estate includes a wide range of strategies... designed to provide allocation exposure to listed real estate in the U.S. and internationally."
+    },
+    {
+      "tag": "other:private-real-estate",
+      "stance": "core_product",
+      "sentence": "Private Real Estate includes strategies that invest primarily in real property investments."
+    },
+    {
+      "tag": "other:preferred-securities",
+      "stance": "core_product",
+      "sentence": "Preferred Securities, including Low Duration Preferred Securities invests in diversified portfolios of preferred, debt and contingent convertible securities issued by U.S. and non-U.S. companies."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "These strategies have diversified and concentrated portfolios of U.S. and non-U.S. securities issued by infrastructure companies such as utilities, pipelines, toll roads, airports, railroads, marine ports and communications companies located in developed and emerging markets."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "These strategies have diversified and concentrated portfolios of U.S. and non-U.S. securities issued by infrastructure companies such as utilities, pipelines, toll roads, airports, railroads, marine ports and communications companies located in developed and emerging markets."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "These strategies have diversified and concentrated portfolios of U.S. and non-U.S. securities issued by infrastructure companies such as utilities, pipelines, toll roads, airports, railroads, marine ports and communications companies located in developed and emerging markets."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Specifically, the strategy invests in energy producers, mining companies and agriculture-based businesses."
+    },
+    {
+      "tag": "other:agriculture",
+      "stance": "core_product",
+      "sentence": "Specifically, the strategy invests in energy producers, mining companies and agriculture-based businesses."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "We use AI in our business, operations and investment processes for a variety of reasons, including with the objectives of increasing efficiency, enhancing alpha generation and supporting innovation as we meet clients evolving needs and to enable us to compete more effectively, and these technologies have become more important in our operations over time."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is dependent on the effectiveness of our information and cybersecurity policies and procedures to protect our network and telecommunications systems and the data that reside in or are transmitted through such systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Dividend payment",
+      "date": "2026-03-19",
+      "sentence": "On February 26, 2025, we declared a quarterly dividend on our common stock in the amount of $0.67 per share. This dividend will be payable on March 19, 2026 to stockholders of record at the close of business on March 9, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:04:41.274Z",
+  "model": "deepseek-v4-flash"
+}

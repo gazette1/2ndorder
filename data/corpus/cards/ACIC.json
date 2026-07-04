@@ -1,0 +1,60 @@
+{
+  "cik": "0001401521",
+  "ticker": "ACIC",
+  "name": "AMERICAN COASTAL INSURANCE Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001401521-26-000015",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1401521/000140152126000015/acic-20251231.htm"
+  },
+  "business": "American Coastal Insurance Corporation is a holding company that provides commercial multi-peril property insurance for residential condominium associations, apartments, and assisted living facilities in Florida. Revenue is generated entirely from writing insurance in Florida.",
+  "sellsTo": [
+    "condominium associations",
+    "apartments",
+    "assisted living facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AmRisc, LLC",
+    "Skyway Underwriters",
+    "Shoreline Re"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide commercial multi-peril property insurance for residential condominium associations, apartments and assisted living facilities in Florida."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A material breach in the security of our information technology systems and data could include the theft of our confidential or proprietary information, including trade secrets, and the personally identifiable information of our customers, claimants, agents and employees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Interboro Insurance Company (IIC) closed",
+      "date": "2025-04-01",
+      "sentence": "the sale closed on April 1, 2025."
+    },
+    {
+      "event": "Quota share cession rate reduction takes effect",
+      "date": "2025-06-01",
+      "sentence": "The cession rate of this treaty was reduced from 20% to 15% effective June 1, 2025 to May 31 , 2026."
+    },
+    {
+      "event": "Kroll upgrade triggers interest rate decrease on Senior Notes",
+      "date": "2025-12-16",
+      "sentence": "On July 21, 2025, the Kroll Bond Rating Agency, LLC announced an upgrade of the Company's issuer and debt ratings from BB+ to BBB-. As a result, pursuant to the Company's indenture, the interest rate of its Senior Notes decreased from 7.25% to 6.25% effective December 16, 2025."
+    },
+    {
+      "event": "New catastrophe aggregate excess of loss coverage effective",
+      "date": "2025-01-01",
+      "sentence": "Effective January 1, 2025, the new CAT Agg agreement provides $40,000,000 of aggregate limit (with a $20,000,000 per occurrence cap) in excess of zero after the $40,000,000 annual aggregate deductible has been met."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:52:37.036Z",
+  "model": "deepseek-v4-flash"
+}

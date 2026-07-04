@@ -1,0 +1,55 @@
+{
+  "cik": "0000902791",
+  "ticker": "BBSI",
+  "name": "BARRETT BUSINESS SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-072255",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/902791/000119312526072255/bbsi-20251231.htm"
+  },
+  "business": "BBSI provides business management solutions for small and mid-sized companies, integrating a knowledge-based approach from management consulting with tools from the human resource outsourcing industry. The company operates through a decentralized organizational structure, offering professional employer services (PEO) and staffing services. PEO services include payroll, workers' compensation, and benefits administration, while staffing services include temporary and contract staffing.",
+  "sellsTo": [
+    "small and mid-sized businesses",
+    "various industries including construction, manufacturing, transportation, healthcare, and retail"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Our staffing services include on-demand or short-term staffing assignments, contract staffing, direct placement (including for PEO and non-PEO clients), and long-term or indefinite-term on-site management."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Through our client services agreement, BBSI can provide workers compensation coverage to its clients."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "BBSI also offers employee benefit programs to our clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We could be subject to reduced revenues, increased costs, liability claims, or harm to our reputation as a result of data theft, cyberattacks or other security vulnerabilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "To succeed, we must constantly improve our technology to meet the expectations of our clients."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Insured program renewal date",
+      "date": "2026-06-30",
+      "sentence": "Our arrangement with fully licensed, third-party insurers under the insured program provides workers compensation coverage to BBSI's PEO clients through June 30, 2026, with the possibility of additional annual renewals."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:27:38.891Z",
+  "model": "deepseek-v4-flash"
+}

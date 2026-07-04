@@ -1,0 +1,48 @@
+{
+  "cik": "0001468328",
+  "ticker": "ADUS",
+  "name": "Addus HomeCare Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005352",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1468328/000143774926005352/adus20251231_10k.htm"
+  },
+  "business": "Addus HomeCare Corp provides home care services through three segments: personal care, hospice, and home health. Services are provided in-home under agreements with federal, state and local government agencies, managed care organizations, commercial insurers, and private individuals.",
+  "sellsTo": [
+    "Government agencies",
+    "Managed care organizations",
+    "Commercial insurers",
+    "Private individuals"
+  ],
+  "namedCustomers": [
+    "Illinois Department on Aging"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:home-care-services",
+      "stance": "core_product",
+      "sentence": "We operate three segments: personal care, hospice, and home health."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "Managed care revenues accounted for 37.0% of our revenue during the year ended December 31, 2025."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "As of December 31, 2025, 34.5% of our workforce was represented by labor unions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack or security breach could cause a loss of confidential consumer data, give rise to remediation and other expenses, expose us to liability under privacy laws, consumer protection laws, common law and other legal theories, subject us to litigation and federal and state governmental inquiries, damage our reputation, result in interruptions or delays to services, adversely impact our financial results, and otherwise be disruptive to our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:19:21.204Z",
+  "model": "deepseek-v4-flash"
+}

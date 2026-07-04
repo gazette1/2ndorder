@@ -1,0 +1,38 @@
+{
+  "cik": "0001419536",
+  "ticker": "CBNK",
+  "name": "Capital Bancorp Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001419536-26-000073",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000073/cbnk-20251231.htm"
+  },
+  "business": "Capital Bancorp Inc provides commercial banking, secured and unsecured credit cards, residential mortgage origination, and government-guaranteed loan servicing to businesses, not-for-profits, entrepreneurs, under-banked individuals, and financial institutions.",
+  "sellsTo": [
+    "businesses",
+    "not-for-profit associations",
+    "entrepreneurs",
+    "under-banked populations",
+    "homebuyers",
+    "financial institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Capital Bank uses data analytics, including AI and proprietary models, throughout the OpenSky customer lifecycle to support fraud prevention and credit decisioning."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the potential for any data privacy incidents or other systems failures, interruptions, or security breaches and risks related to the development and use of artificial intelligence ( AI )"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:44:53.685Z",
+  "model": "deepseek-v4-flash"
+}

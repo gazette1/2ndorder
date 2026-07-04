@@ -1,0 +1,46 @@
+{
+  "cik": "0001569994",
+  "ticker": "WSBF",
+  "name": "Waterstone Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005853",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1569994/000143774926005853/wsbf20251231_10k.htm"
+  },
+  "business": "Waterstone Financial, Inc. is a bank holding company whose wholly-owned subsidiary, WaterStone Bank, provides community banking services including consumer and business loans, deposits, and mortgage banking via its subsidiary Waterstone Mortgage Corporation, which originates residential mortgage loans for sale in the secondary market.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "homeowners",
+    "borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "WaterStone Bank's principal lending activity is originating one- to four-family, multi-family residential, and commercial real estate loans for retention in its portfolio."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The grant of bank charters and special purpose fintech charters by the Office of the Comptroller of the Currency to fintech companies could present financial risk and market risk to us generally and the payments processing business specifically."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If one or more of such events were to occur, this potentially could jeopardize confidential and other information processed and stored in, and transmitted through, our systems or otherwise cause interruptions or malfunctions in our or our customers' operations."
+    },
+    {
+      "tag": "other:ai-ml",
+      "stance": "risk_mention",
+      "sentence": "Our reliance on and integration of artificial intelligence (AI) and machine learning (ML) technologies expose us to various risks, including operational, data, regulatory, and reputational risks, which could materially affect our business and financial results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:03:46.056Z",
+  "model": "deepseek-v4-flash"
+}

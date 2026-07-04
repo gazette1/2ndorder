@@ -1,0 +1,45 @@
+{
+  "cik": "0001336706",
+  "ticker": "NPB",
+  "name": "NORTHPOINTE BANCSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001336706-26-000020",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1336706/000133670626000020/npb-20251231.htm"
+  },
+  "business": "Northpointe Bancshares, Inc. is a bank holding company that provides mortgage purchase program (MPP) facilities to independent mortgage bankers nationwide and retail banking services including residential mortgage lending, digital deposit banking, and loan servicing to consumers nationwide. Its delivery systems are primarily digital, with loan production offices in 25 cities across 15 states.",
+  "sellsTo": [
+    "Independent mortgage bankers",
+    "Retail mortgage borrowers",
+    "Digital deposit banking customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our automated account opening, direct to customer deposit platform and product suite provide our depositors with effective, competitive, modern digital banking services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition from financial technology (fintech) companies and technology-enabled financial service providers has also increased and continues to intensify as these providers offer digital-first platforms for lending, payments, and deposit-like products that may compete directly with traditional banking services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and other data and security breaches could result in serious harm to our reputation and adversely affect our business."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "Disruptions, security breaches, or other adverse events, failures or interruptions in, or attacks on, our information technology systems, which may be exacerbated by the continued development and implementation of generative artificial intelligence, and the cost of defending against them and any reputational or other financial risks following such a cybersecurity incident."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:23:43.714Z",
+  "model": "deepseek-v4-flash"
+}

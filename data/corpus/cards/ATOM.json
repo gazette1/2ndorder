@@ -1,0 +1,108 @@
+{
+  "cik": "0001420520",
+  "ticker": "ATOM",
+  "name": "Atomera Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-001291",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1420520/000168316826001291/atomera_i10k-123125.htm"
+  },
+  "business": "Atomera develops and licenses proprietary processes and technologies, primarily Mears Silicon Technology (MST), a thin film of reengineered silicon that enhances semiconductor performance. The company licenses MST to designers and manufacturers of integrated circuits, generating revenue from license fees and royalties. Atomera does not manufacture integrated circuits directly but partners with foundries, IDMs, and fabless companies to integrate MST into their manufacturing processes.",
+  "sellsTo": [
+    "foundries",
+    "integrated device manufacturers (IDMs)",
+    "fabless semiconductor manufacturers",
+    "original equipment manufacturers (OEMs) of epitaxial deposition tools",
+    "semiconductor wafer manufacturers",
+    "electronic design automation companies"
+  ],
+  "namedCustomers": [
+    "ST Microelectronics",
+    "Asahi Kasei Microdevices (AKM)"
+  ],
+  "namedSuppliers": [
+    "Applied Materials",
+    "Lawrence Semiconductor"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The explosive growth of AI is fundamentally reshaping semiconductor demand."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Data center infrastructure is expanding at an unprecedented rate to support large language models, generative AI, and machine learning applications."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "risk_mention",
+      "sentence": "high-speed wireless connectivity has become ubiquitous, with 5G networks now widely deployed and driving demand for edge computing capabilities that bring processing closer to end users and devices."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "high-speed wireless connectivity has become ubiquitous, with 5G networks now widely deployed and driving demand for edge computing capabilities that bring processing closer to end users and devices."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "The higher voltage MST-SPX devices are applicable to the rapidly growing automotive and data center power sectors."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our lead technology, named Mears Silicon Technology , or MST , is a thin film of reengineered silicon."
+    },
+    {
+      "tag": "other:compound-semiconductors",
+      "stance": "core_product",
+      "sentence": "Starting in 2024, we began applying our technology to wafers used for fabrication of compound semiconductors which are devices built using materials other than silicon, such as gallium nitride (GaN), which have properties especially attractive to the power and radio frequency markets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into strategic marketing agreement with a global leader in chip fabrication technology",
+      "date": "2025-04-01",
+      "sentence": "In April 2025, we entered into a strategic marketing agreement with a global leader in chip fabrication technology aimed at accelerating the adoption of MST for next-generation technologies."
+    },
+    {
+      "event": "ST informed Atomera it would not complete qualification of MST, migrating to 300mm wafers",
+      "date": "2025-10-01",
+      "sentence": "In October 2025 ST informed us that they would not complete the qualification of MST into their process after deciding to migrate their development of their targeted process to 300mm wafers."
+    },
+    {
+      "event": "Began offering MST-SPX variant optimized for trenchFETs",
+      "date": "2025-01-01",
+      "sentence": "In 2025 we began offering a variant of MST-SPX optimized for a transistor architecture known as trenchFETs which are specifically optimized to handle higher-voltage workloads and are increasingly deployed in data center power supplies."
+    },
+    {
+      "event": "Entered into Equity Distribution Agreement with Craig-Hallum for at-the-market offering up to $50 million",
+      "date": "2025-05-27",
+      "sentence": "On May 27, 2025, we entered into an Equity Distribution Agreement with Craig-Hallum as agent, under which we may offer and sell, from time to time at our sole discretion, shares of our common stock in an at-the-market offering to or through the agent, having aggregate offering proceeds of up to $50.0 million (the 2025 ATM )."
+    },
+    {
+      "event": "Closed registered direct offering raising $23.6 million net proceeds",
+      "date": "2026-02-24",
+      "sentence": "On February 24, 2026 we closed the Offering, resulting in net proceeds to us of approximately $23.6 million after commissions and expenses."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The global semiconductor market reached $681 billion in 2024, projected to grow to $755 billion in 2025 and continue expanding at approximately 15% CAGR through 2032.",
+      "sentence": "The global semiconductor market has experienced extraordinary acceleration, with Fortune Business Insights reporting that the market reached $681 billion in 2024, rebounding sharply from the industry's 2023 downturn."
+    },
+    {
+      "claim": "The market is projected to grow to $755 billion in 2025 and continue expanding at an approximately 15% compound annual growth rate through 2032, driven almost entirely by artificial intelligence (AI) workloads.",
+      "sentence": "The market is projected to grow to $755 billion in 2025 and continue expanding at an approximately 15% compound annual growth rate through 2032, driven almost entirely by artificial intelligence (AI) workloads."
+    },
+    {
+      "claim": "Semiconductor industry exceeding $700 billion in sales in 2025.",
+      "sentence": "The semiconductor industry in 2025 exceeded $700 billion in sales."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:34:54.494Z",
+  "model": "deepseek-v4-flash"
+}

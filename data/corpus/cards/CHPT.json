@@ -1,0 +1,58 @@
+{
+  "cik": "0001777393",
+  "ticker": "CHPT",
+  "name": "ChargePoint Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001777393-26-000013",
+    "filedAt": "2026-04-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1777393/000177739326000013/chpt-20260131.htm"
+  },
+  "business": "ChargePoint is a leading provider of electric vehicle (EV) charging technology solutions to customers that want to offer EV charging, driving the transition to electric mobility across North America and Europe. The company generates revenue through the sale of networked charging systems, subscriptions to its cloud-based software platform, and services such as extended warranties and professional services.",
+  "sellsTo": [
+    "commercial",
+    "fleet",
+    "residential",
+    "charge point operators (CPOs)",
+    "e-Mobility Service Providers",
+    "EV drivers"
+  ],
+  "namedCustomers": [
+    "General Motors",
+    "Mercedes-Benz",
+    "Toyota"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "ChargePoint is a leading provider of electric vehicle (EV) charging technology solutions to customers that want to offer EV charging, driving the transition to electric mobility across North America and Europe."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The EV charging industry, energy infrastructure markets and enterprise software ecosystems in which ChargePoint operates are experiencing rapid technological change, including increased adoption of artificial intelligence (AI), machine learning, advanced analytics and automation across product development, network operations, customer support, billing, fraud detection, cybersecurity, manufacturing, logistics and other business processes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "ChargePoint's business may be adversely affected if it is unable to protect its technology and intellectual property from unauthorized use by third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "March 2026 Reorganization",
+      "date": "2026-03-31",
+      "sentence": "the reorganization of its operations implemented March 31, 2026 (the March 2026 Reorganization)"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Annual investment in EV charging infrastructure across North America and Europe expected to increase to $17.8 billion in 2030, cumulative $125.3 billion over 2020-2030",
+      "sentence": "BNEF projects that the annual investment in EV charging infrastructure across North America and Europe is expected to increase from $3.7 billion in 2020 to $17.8 billion in 2030, for a cumulative investment of $125.3 billion over that period."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:17:56.792Z",
+  "model": "deepseek-v4-flash"
+}

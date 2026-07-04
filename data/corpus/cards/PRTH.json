@@ -1,0 +1,55 @@
+{
+  "cik": "0001653558",
+  "ticker": "PRTH",
+  "name": "Priority Technology Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001653558-26-000066",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm"
+  },
+  "business": "Priority Technology Holdings, Inc. provides payments and banking fintech solutions that enable customers to collect, store, lend, and send money through a connected commerce engine. The company operates across three segments: Merchant Solutions (full-service merchant acquiring), Payables (AP automation and payment solutions), and Treasury Solutions (embedded finance and BaaS). It serves approximately 1.8 million customer accounts and processes about $150 billion in annual transaction volume.",
+  "sellsTo": [
+    "Independent software vendors (ISVs)",
+    "Institutional customers",
+    "Merchant customers across Retail, Hospitality, Healthcare, Real Estate, Government, Utility, Education, Non-Profit, Business-to-Business, Professional Services, and Financial Institutions"
+  ],
+  "namedCustomers": [
+    "Citibank",
+    "Mastercard",
+    "Visa",
+    "American Express"
+  ],
+  "namedSuppliers": [
+    "Fiserv",
+    "Global Payments",
+    "Wells Fargo",
+    "Synovus Bank",
+    "Pueblo Bank",
+    "Georgia Banking Company",
+    "Sutton Bank",
+    "South State Bank",
+    "Axos Bank"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Priority a payments and banking fintech purpose-built to collect, store, lend and send money with a connected commerce engine that combines full-service merchant acquiring for accounts receivable, complete automated payables tools for bill payment, and sophisticated treasury management solutions to accelerate cash flow and optimize working capital for its customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized access to our systems or unauthorized disclosure of customer or cardholder data, whether through breach of our computer systems, computer viruses, or otherwise, could expose us to liability, protracted and costly litigation and damage our reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If we fail to keep pace with technological change, including as a result of artificial intelligence, we could lose clients or have trouble attracting new clients."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:44:31.483Z",
+  "model": "deepseek-v4-flash"
+}

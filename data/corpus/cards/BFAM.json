@@ -1,0 +1,54 @@
+{
+  "cik": "0001437578",
+  "ticker": "BFAM",
+  "name": "BRIGHT HORIZONS FAMILY SOLUTIONS INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437578-26-000006",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437578/000143757826000006/bfam-20251231.htm"
+  },
+  "business": "Bright Horizons is a leading provider of high-quality early education and child care, comprehensive back-up care solutions, and educational advisory services. It serves more than 1,450 employers across a diverse array of industries, including more than 220 Fortune 500 companies. The company operates 1,010 early education and child care centers across five countries.",
+  "sellsTo": [
+    "employers",
+    "working families"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:childcare-services",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of high-quality early education and child care, comprehensive back-up care solutions and educational advisory services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we or our third-party vendors are subject to cyber-attacks, data breaches or other security incidents, or if there is a disruption or failure of our information technology systems or software, such events could expose us to liability and could adversely affect our financial condition and operating results."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use, access and adoption of advanced technology, including AI, to deliver, market and enhance our suite of services remains in the early stages."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closure of additional centers",
+      "date": null,
+      "sentence": "We continue to review the portfolio of centers and expect to close additional centers in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "approximately 21,000 U.S. businesses with 500 or more employees, representing a large population of potential clients for our back-up care and educational advisory services",
+      "sentence": "Based on the most recent data available from the U.S. Census Bureau’s Statistics of U.S. Businesses in 2022, there were approximately 21,000 U.S. businesses with 500 or more employees, representing a large population of potential clients for our back-up care and educational advisory services."
+    },
+    {
+      "claim": "our addressable market includes approximately 13,500 employers, each with at least 1,000 employees, within the industries that we currently serve in the U.S. and U.K.",
+      "sentence": "Our addressable market includes approximately 13,500 employers, each with at least 1,000 employees, within the industries that we currently serve in the U.S. and U.K."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:10:35.639Z",
+  "model": "deepseek-v4-flash"
+}

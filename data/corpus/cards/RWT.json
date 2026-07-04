@@ -1,0 +1,45 @@
+{
+  "cik": "0000930236",
+  "ticker": "RWT",
+  "name": "REDWOOD TRUST INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000930236-26-000007",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/930236/000093023626000007/rwt-20251231.htm"
+  },
+  "business": "Redwood Trust is a specialty finance company focused on housing credit, providing liquidity to the U.S. housing market through mortgage loan acquisition, securitization, and whole-loan distribution. It operates across four segments: Sequoia Mortgage Banking, CoreVest Mortgage Banking, Redwood Investments, and Legacy Investments. The company generates income from net interest income on investments and non-interest income from mortgage banking activities.",
+  "sellsTo": [
+    "Investors in housing credit",
+    "Institutional buyers of whole loans and securities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Redwood Trust, Inc., together with its subsidiaries, is a specialty finance company focused on several distinct areas of housing credit, with a mission to make quality housing, whether rented or owned, accessible to all American households."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Maintaining information security and complying with data-privacy and technology laws are critical; a cybersecurity or data incident, or a violation of such laws, could materially harm us."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of technology, including artificial intelligence (AI), may increase exposure to cyberattacks, IT outages, third-party dependencies, and risks from flawed development, configuration, or deployment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Aspire's inaugural securitization platform",
+      "date": "2026-06-30",
+      "sentence": "Aspire completed $914 million of loan sales to various institutional buyers, including its first whole loan sale to a bank in the fourth quarter, and prepared for the launch of its inaugural securitization platform in early 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:45:16.083Z",
+  "model": "deepseek-v4-flash"
+}

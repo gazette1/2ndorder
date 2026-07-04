@@ -1,0 +1,50 @@
+{
+  "cik": "0001466026",
+  "ticker": "MSBI",
+  "name": "Midland States Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001466026-26-000020",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1466026/000146602626000020/msbi-20251231.htm"
+  },
+  "business": "Midland States Bancorp, Inc. is a diversified financial holding company headquartered in Effingham, Illinois. Its wholly owned banking subsidiary, Midland States Bank, provides commercial and consumer banking products and services, including loans and deposits, as well as wealth management services. The company operates 53 full-service banking offices across Illinois and Missouri.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We offer first and second mortgage loans to our individual customers primarily for the purchase of primary residences."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Part of our commercial loan portfolio includes loans extended to finance agricultural equipment and production."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our wealth management group ... provides a comprehensive suite of trust and wealth management products and services, including financial and estate planning, trustee and custodial services, investment management, tax and insurance planning, business planning, corporate retirement plan consulting and administration and retail brokerage services through a nationally recognized third party broker dealer."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Additionally, we face growing competition from so-called 'online businesses' with few or no physical locations, including online banks, lenders and consumer and commercial lending platforms, and FinTech companies"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our ability to identify and address cyber-security risks, fraud and systems errors"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:26:49.471Z",
+  "model": "deepseek-v4-flash"
+}

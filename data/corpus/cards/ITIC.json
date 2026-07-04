@@ -1,0 +1,58 @@
+{
+  "cik": "0000720858",
+  "ticker": "ITIC",
+  "name": "INVESTORS TITLE CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000720858-26-000011",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085826000011/itic-20251231.htm"
+  },
+  "business": "Investors Title Company is a holding company that primarily issues residential and commercial title insurance through its subsidiaries Investors Title Insurance Company and National Investors Title Insurance Company. It also provides tax-deferred real property exchange services, management services to title insurance agencies, and investment management and trust services. The company sells title insurance to property owners and mortgage lenders, and its exchange services are used by taxpayers seeking like-kind exchanges.",
+  "sellsTo": [
+    "Property owners",
+    "Mortgage lenders",
+    "Real estate attorneys",
+    "Independent title insurance agents",
+    "Community and regional mortgage lending institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company’s primary business activity, and one of its reportable operating segments, is the issuance of residential and commercial title insurance through ITIC and NITIC."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "The demand for the Company’s title insurance, exchange services, and other real estate transaction products and services varies from year to year and is dependent upon, among other factors, the volume of residential and commercial real estate transactions and mortgage financing transactions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches and failures of, and other disruptions to, information technology systems of the Company or its service providers may disrupt the Company’s operations, result in monetary losses and harm the Company’s reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The use of AI presents additional risks. AI tools, including those provided by third parties, may rely on data that is inaccurate, biased, or subject to legal or contractual restrictions, and there may be limited insight into the controls used in their development."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Texas title insurance rate reduction",
+      "date": "2026-03-01",
+      "sentence": "The Texas Commissioner of Insurance approved a 6.2% reduction in title insurance rates effective March 1, 2026."
+    },
+    {
+      "event": "Ohio title insurance rate increase",
+      "date": "2026-01-01",
+      "sentence": "The Ohio Department of Insurance approved a 9.0% rate increase effective January 1, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:02:25.504Z",
+  "model": "deepseek-v4-flash"
+}

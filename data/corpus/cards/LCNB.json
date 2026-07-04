@@ -1,0 +1,40 @@
+{
+  "cik": "0001074902",
+  "ticker": "LCNB",
+  "name": "LCNB CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007758",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1074902/000143774926007758/lcnb20251231_10k.htm"
+  },
+  "business": "LCNB Corp. is a financial holding company whose wholly-owned subsidiary, LCNB National Bank, provides commercial and retail banking services, wealth management, and fiduciary services primarily in Southwestern and South Central Ohio and Northern Kentucky. Loan products include commercial and industrial, real estate, agricultural, construction, consumer, and Small Business Administration loans. The Wealth Management Division offers trust administration, estate settlement, investment management, and security brokerage services.",
+  "sellsTo": [
+    "Individuals in Ohio and Kentucky",
+    "Businesses in Ohio and Kentucky",
+    "Trust and wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Bank competes with other national and state banks, savings and loan associations, credit unions, finance companies, mortgage brokerage firms, realty companies with captive mortgage brokerage firms, mutual funds, insurance companies, cryptocurrency companies, brokerage and investment banking companies, Financial Technology or 'FinTech' companies including decentralized finance and cryptocurrency, and other financial intermediaries operating in its market and elsewhere, many of whom have substantially larger financial and managerial resources."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The ability to access and use technology, including the use of artificial intelligence, is an increasingly competitive factor in the financial services industry."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "LCNB s information systems may experience an interruption, cyberattack, or other breach in security."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:07:26.392Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,73 @@
+{
+  "cik": "0001062231",
+  "ticker": "DCH",
+  "name": "Dauch Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001062231-26-000020",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1062231/000106223126000020/dch-20251231.htm"
+  },
+  "business": "Dauch Corporation is a premier Driveline and Metal Forming supplier serving the global automotive industry with a powertrain-agnostic product portfolio that supports electric, hybrid, and internal combustion vehicles. The company is a primary supplier of driveline components to General Motors, Ford, and Stellantis, and also supplies various products from its Metal Forming segment to these customers.",
+  "sellsTo": [
+    "automotive OEMs",
+    "light truck, SUV, and crossover vehicle manufacturers",
+    "commercial vehicle manufacturers",
+    "off-highway vehicle manufacturers"
+  ],
+  "namedCustomers": [
+    "General Motors Company",
+    "Ford Motor Company",
+    "Stellantis N.V.",
+    "Scout Motors",
+    "Audi",
+    "Volkswagen",
+    "FAW Group",
+    "Phoebus",
+    "Skywell",
+    "Dongfeng Motor Group"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Dauch Corporation is a premier Driveline and Metal Forming supplier serving the global automotive industry with a powertrain-agnostic product portfolio that supports electric, hybrid, and internal combustion vehicles."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our electric drive technology is designed, engineered and manufactured to provide a diverse and scalable product portfolio of hybrid and electric driveline systems to our customers that range from low-cost value-oriented offerings to high-performance solutions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence (AI) has seen escalating rates of adoption, driven by increasingly sophisticated technology development and continued investment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure of our information technology (IT) networks and systems, or the impact of a cyber attack, could adversely impact our business and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of acquisition of Dowlais Group plc",
+      "date": "2026-02-03",
+      "sentence": "On February 3, 2026, we completed our previously announced acquisition of Dowlais Group plc (Dowlais) whereby we acquired the entire issued share capital of Dowlais (the Business Combination)."
+    },
+    {
+      "event": "Receipt of approximately $28 million from Electric Vehicle Cancellation Settlement in first quarter of 2026",
+      "date": null,
+      "sentence": "In January of 2026, we reached a settlement agreement with the customer on this matter (the Electric Vehicle Cancellation Settlement)."
+    },
+    {
+      "event": "Initial production of Scout Motors electric drive programs expected in 2027",
+      "date": null,
+      "sentence": "These future programs are expected to begin initial production in 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:36:55.975Z",
+  "model": "deepseek-v4-flash"
+}

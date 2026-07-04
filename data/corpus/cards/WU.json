@@ -1,0 +1,64 @@
+{
+  "cik": "0001365135",
+  "ticker": "WU",
+  "name": "Western Union CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-061340",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm"
+  },
+  "business": "The Western Union Company is a leader in cross-border, cross-currency money movement, payments, and digital financial services, empowering consumers, businesses, financial institutions, and governments with fast, reliable, and convenient ways to send money and make payments around the world. The company operates through two segments: Consumer Money Transfer (money transfers) and Consumer Services (bill payment, money order, travel money, etc.). It plans to launch a U.S. dollar-backed stablecoin (USDPT) and a Digital Asset Network.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "financial institutions",
+    "governments",
+    "migrants",
+    "bill payers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a leader in cross-border, cross-currency money movement, payments, and digital financial services, empowering consumers, businesses, financial institutions, and governments with fast, reliable, and convenient ways to send money and make payments around the world."
+    },
+    {
+      "tag": "other:digital-currencies",
+      "stance": "risk_mention",
+      "sentence": "We face competition from... digital currencies, including cryptocurrencies and related protocols, and other innovations in technology and business models."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our growing reliance on artificial intelligence for transaction monitoring, fraud detection, and identity verification exposes us to increased regulatory scrutiny, operational risks, and potential disruptions in cross-border funds transfers, including the risk of theft of proprietary, confidential or personal information."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches of our information security safeguards could adversely affect our ability to operate and could damage our reputation and adversely affect our business, financial condition, results of operations, and cash flows."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of International Money Express (Intermex) expected to close",
+      "date": "2026-06-30",
+      "sentence": "This transaction is expected to close in the second quarter of 2026, subject to the satisfaction of customary closing conditions, including receipt of remaining regulatory approvals."
+    },
+    {
+      "event": "USDPT stablecoin launch expected to be available in licensed cryptocurrency exchanges",
+      "date": "2026-06-30",
+      "sentence": "We anticipate that USDPT will be issued and available in licensed cryptocurrency exchanges during the first half of 2026."
+    },
+    {
+      "event": "OBBB excise tax on certain remittances takes effect",
+      "date": "2026-01-01",
+      "sentence": "Beginning January 1, 2026, the OBBB assesses a 1% excise tax on certain remittances sent internationally from the United States that are funded with cash or a similar, physical instrument."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:36:12.609Z",
+  "model": "deepseek-v4-flash"
+}

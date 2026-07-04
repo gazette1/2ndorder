@@ -1,0 +1,53 @@
+{
+  "cik": "0001075736",
+  "ticker": "CXDO",
+  "name": "Crexendo, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-001848",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1075736/000165495426001848/cxdo_10k.htm"
+  },
+  "business": "Crexendo, Inc. is a provider of cloud communication platform software and unified communications as a service (UCaaS) offering, including voice, video, contact center, and managed IT services, tailored to businesses of all sizes. It supports over seven million end users globally through a network of over 240 cloud communication platform software subscribers and direct retail. The company operates through two segments: Cloud Telecommunications Services and Software Solutions.",
+  "sellsTo": [
+    "Businesses of all sizes",
+    "Service providers",
+    "Retail customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Oracle Cloud Infrastructure (OCI)"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Crexendo, Inc. is an award-winning software technology company that is a premier provider of cloud communication platform software and unified communications as a service (UCaaS) offering, including voice, video, contact center, and managed IT services tailored to businesses of all sizes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks impacting our networks or systems could have an adverse effect on our business."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We are in the process of migrating from our own physical data centers to the Oracle Cloud Infrastructure (OCI)."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our increasing use of artificial intelligence and automation in customer facing products and internal operations exposes us to new regulatory, reputational, contractual, and product liability risks."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The pace at which generative AI capabilities evolve, improve, and commoditize may materially alter customer expectations, competitive dynamics, and product requirements."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:06:50.379Z",
+  "model": "deepseek-v4-flash"
+}

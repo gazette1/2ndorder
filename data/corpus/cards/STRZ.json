@@ -1,0 +1,59 @@
+{
+  "cik": "0000929351",
+  "ticker": "STRZ",
+  "name": "STARZ ENTERTAINMENT CORP /CN/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000929351-25-000038",
+    "filedAt": "2025-06-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/929351/000092935125000038/starz-20250331.htm"
+  },
+  "business": "Starz is a leading provider of premium subscription video programming to consumers in the U.S. and Canada, offering thousands of hours of content to its subscribers including its critically acclaimed and award-winning scripted original series.",
+  "sellsTo": [
+    "direct-to-consumer via Starz App",
+    "over-the-top providers (e.g., Amazon, Apple, Google, Hulu)",
+    "multichannel video programming distributors (e.g., Comcast, Charter, DIRECTV, DISH Network)"
+  ],
+  "namedCustomers": [
+    "Altice",
+    "Amazon",
+    "Apple",
+    "Charter",
+    "Comcast",
+    "Cox",
+    "DIRECTV",
+    "DISH Network",
+    "Google",
+    "Hulu",
+    "Verizon"
+  ],
+  "namedSuppliers": [
+    "New Lionsgate",
+    "Universal",
+    "Paramount",
+    "Sony",
+    "Twentieth Century Fox/Disney",
+    "Warner Bros."
+  ],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Starz is a leading provider of premium subscription video programming to consumers in the U.S. and Canada, offering thousands of hours of content to its subscribers including its critically acclaimed and award-winning scripted original series."
+    },
+    {
+      "tag": "other:linear-to-OTT",
+      "stance": "risk_mention",
+      "sentence": "due to changes in the industry related to the migration from linear to OTT and direct-to-consumer consumption"
+    },
+    {
+      "tag": "other:FAST-channels",
+      "stance": "risk_mention",
+      "sentence": "the increase in the number of advertising-supported video on demand services or free, ad-supported streaming linear channels (also known as FAST channels)"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:09:03.877Z",
+  "model": "deepseek-v4-flash"
+}

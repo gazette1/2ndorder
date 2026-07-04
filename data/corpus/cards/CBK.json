@@ -1,0 +1,35 @@
+{
+  "cik": "0001981546",
+  "ticker": "CBK",
+  "name": "Commercial Bancgroup, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-033659",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1981546/000121390026033659/ea0282863-10k_commercial.htm"
+  },
+  "business": "Commercial Bancgroup, Inc. is a community banking institution providing banking services to individuals and small to medium-sized businesses. Its operations are concentrated in Tennessee and Kentucky, with recent expansion into North Carolina. The company's loan portfolio includes commercial loans, commercial real estate loans, and residential mortgage loans.",
+  "sellsTo": [
+    "individuals",
+    "small to medium-sized businesses",
+    "commercial real estate borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are dependent on our information technology and telecommunications systems and third-party servicers, and systems failures or interruptions or breaches of security could have a material adverse effect on our financial condition and results of operations, as well as cause legal or reputational harm."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The adoption of artificial intelligence (AI) tools by us and our third-party vendors and service providers may increase the risk of errors, omissions, unfair treatment or fraudulent behavior by our employees, customers or counterparties, or other third parties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:29:28.047Z",
+  "model": "deepseek-v4-flash"
+}

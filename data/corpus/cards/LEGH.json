@@ -1,0 +1,57 @@
+{
+  "cik": "0001436208",
+  "ticker": "LEGH",
+  "name": "Legacy Housing Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027133",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1436208/000110465926027133/legh-20251231x10k.htm"
+  },
+  "business": "Legacy Housing builds, sells, and finances manufactured homes and Tiny Houses, marketed under the Legacy brand, to households with annual income below $75,000 through independent retailers, company-owned stores, and direct sales to manufactured home communities.",
+  "sellsTo": [
+    "independent retailers",
+    "company-owned retail locations",
+    "manufactured home community owners",
+    "households with income below $75,000",
+    "young families, working class families, persons age 55 and older"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We build, sell, and finance manufactured homes and Tiny Houses that are distributed through a network of independent retailers and company-owned stores and also sold directly to manufactured home communities."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer three types of financing solutions to our customers. We provide inventory financing for our independent retailers who purchase homes from us and then sell them to consumers. We provide consumer financing for our products which are sold to end-users through both independent and company-owned retail locations. And we provide financing solutions to manufactured housing community owners that buy our products for use in their housing communities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's senior management is actively involved in oversight of our risks and cybersecurity represents an important component of the Company's overall approach to enterprise risk management ( ERM )."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "During the year, the Company experienced higher input costs attributable in part to increased tariffs on goods imported from China."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "AmeriCasa’s business consisted of the sale and distribution of manufactured housing, related real property leasing and sales, financing and insurance services, and the operation of the FutureHomeX cloud-based SaaS platform for manufactured home retailers and communities."
+    },
+    {
+      "tag": "other:tiny-houses",
+      "stance": "core_product",
+      "sentence": "In addition to traditional manufactured homes, we offer a diverse assortment of Tiny Houses, which are recreational structures between 320 and 399 square feet in size that are used as temporary dwellings, can be pulled by a pick-up truck and are generally aesthetically similar to larger homes."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:35:52.097Z",
+  "model": "deepseek-v4-flash"
+}

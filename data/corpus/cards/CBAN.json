@@ -1,0 +1,61 @@
+{
+  "cik": "0000711669",
+  "ticker": "CBAN",
+  "name": "COLONY BANKCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000711669-26-000007",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/711669/000071166926000007/cban-20251231.htm"
+  },
+  "business": "Colony Bankcorp, Inc. is a financial services company and bank holding company that, through its wholly-owned subsidiary Colony Bank, provides a broad range of banking services to retail and commercial customers. The company offers lending solutions including commercial real estate, construction, residential mortgages, and consumer loans, as well as deposit products, treasury management, and wealth management services.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "small and medium-sized businesses",
+    "real estate developers",
+    "agricultural businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Federal Reserve Bank of Atlanta",
+    "FHN Financial in Memphis, Tennessee",
+    "SouthState Bank in Lake Wales, Florida",
+    "ServisFirst in Birmingham, Alabama",
+    "The Independent BankersBank (TIB, N.A.) in Farmers Branch, Texas",
+    "Pacific Coast Bankers' Bank in Walnut Creek, California",
+    "Federal Home Loan Bank of Atlanta"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Additionally, competition from fintechs, is increasing."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The computer systems and network infrastructure we use, including those we maintain with our service providers and vendors, could be vulnerable to hardware and cyber security issues."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The developments and use of artificial intelligence (AI) presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We also offer wealth management, consumer insurance, internet banking services, electronic bill payment services, safe deposit box rentals, telephone banking, credit and debit card services, remote depository products and access to a network of ATMs to our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Stock buyback program extension through end of 2026",
+      "date": "2026-12-31",
+      "sentence": "On December 22, 2025, the Board authorized a further extension of the program through the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:36:29.165Z",
+  "model": "deepseek-v4-flash"
+}

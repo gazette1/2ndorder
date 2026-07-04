@@ -1,0 +1,72 @@
+{
+  "cik": "0001670076",
+  "ticker": "ULCC",
+  "name": "Frontier Group Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001670076-26-000020",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1670076/000167007626000020/fron-20251231.htm"
+  },
+  "business": "Frontier Group Holdings, Inc., through its subsidiary Frontier Airlines, provides low-fare passenger airline service primarily to leisure travelers. It generates revenue from base fares and ancillary services such as baggage fees, seat selection, and bundled products. The company operates a fleet of Airbus A320 family aircraft and serves domestic and select international destinations.",
+  "sellsTo": [
+    "Leisure travelers",
+    "Visiting friends and relatives (VFR) travelers",
+    "Families",
+    "Price-sensitive customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Airbus",
+    "Pratt & Whitney",
+    "Barclays",
+    "ATP Flight School"
+  ],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We primarily sell our product through direct distribution channels, including via our website and mobile app."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our other revenues also include services such as our FRONTIER Miles affinity credit card program and commissions revenue from the sale of items such as rental cars and hotels."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our brand includes our focus on sustainability and environmental responsibility efforts."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "risk_mention",
+      "sentence": "We depend on a sole-source supplier for our aircraft and two suppliers for our engines."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "In particular, ICAO has adopted rules, including those pertaining to CORSIA, which will require us to address the growth in CO2 emissions of a significant majority of our international flights."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduction of First Class Seating (First Seats)",
+      "date": "2026-12-31",
+      "sentence": "Premium seating options, including planned First Class Seating (First Seats) seating by the end of 2026"
+    },
+    {
+      "event": "Onboard Wi-Fi availability",
+      "date": "2027-12-31",
+      "sentence": "planned offering of onboard Wi-Fi by the end of 2027"
+    },
+    {
+      "event": "Aircraft deliveries in 2026",
+      "date": "2026-12-31",
+      "sentence": "As of December 31, 2025, we had a firm purchase commitment with Airbus to acquire 168 A320neo family aircraft, including 24 aircraft in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:37:54.043Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,70 @@
+{
+  "cik": "0001007587",
+  "ticker": "KVHI",
+  "name": "KVH INDUSTRIES INC \\DE\\",
+  "source": {
+    "form": "10-K",
+    "accession": "0001007587-26-000004",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1007587/000100758726000004/kvhi-20251231.htm"
+  },
+  "business": "KVH Industries provides global high-speed Internet, VoIP, and satellite connectivity services mainly to maritime commercial and leisure customers, along with commercially licensed entertainment content. The company is winding down its product manufacturing operations and plans to cease substantially all manufacturing by the end of 2026, transitioning to third-party hardware.",
+  "sellsTo": [
+    "maritime commercial customers",
+    "maritime leisure customers",
+    "onshore mobile users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "SES",
+    "Starlink (SpaceX)",
+    "Eutelsat OneWeb",
+    "Iridium",
+    "Inmarsat",
+    "Kognitive Networks",
+    "Intellian",
+    "Cobham",
+    "Fortinet",
+    "Thales",
+    "Viasat",
+    "SKY Perfect JSAT",
+    "Intelsat"
+  ],
+  "exposures": [
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "We provide global high-speed Internet and Voice over Internet Protocol (VoIP) services via satellite to mobile users at sea and on land."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We provide integrated, end-to-end services, software, and hardware that support our customers need for access to the Internet, VoIP, operations content, and entertainment services while on the move."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Among these value-added services are an enterprise-grade Managed Firewall powered by industry leader Fortinet, a cloud email system for commercial fleets and seafarers, crew Internet support, real-time vessel tracking, our KVH Link content service, and CommBox Edge."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Cease substantially all manufacturing activities",
+      "date": "2026-12-31",
+      "sentence": "We expect that we will continue our product manufacturing activities in order to generate a targeted amount of inventory of maritime satellite connectivity and satellite television terminals to meet anticipated demand and that we will cease substantially all manufacturing activity by the end of 2026."
+    },
+    {
+      "event": "Relocation to Bristol, Rhode Island",
+      "date": "2026-03-31",
+      "sentence": "We plan to migrate to a new facility in Bristol, Rhode Island in the spring of 2026."
+    },
+    {
+      "event": "Starlink data purchase agreement with periodic payments through Q1 2027",
+      "date": "2027-03-31",
+      "sentence": "In the fourth quarter of 2025, we entered into an agreement to purchase a substantially larger block of Starlink Global Priority data for $45.0 million, with periodic payments through the first quarter of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:06:16.445Z",
+  "model": "deepseek-v4-flash"
+}

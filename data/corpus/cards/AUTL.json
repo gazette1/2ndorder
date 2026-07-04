@@ -1,0 +1,58 @@
+{
+  "cik": "0001730463",
+  "ticker": "AUTL",
+  "name": "Autolus Therapeutics plc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001730463-26-000038",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730463/000173046326000038/autl-20251231.htm"
+  },
+  "business": "Autolus Therapeutics is an early commercial-stage biopharmaceutical company developing next-generation programmed T cell therapies for cancer and autoimmune diseases. Their first approved product is AUCATZYL (obe-cel) for adult relapsed/refractory B-cell acute lymphoblastic leukemia (r/r B-ALL), which launched in the US in early 2025 and in the UK in December 2025. The company also has a pipeline of other programmed T cell product candidates in clinical and preclinical development.",
+  "sellsTo": [
+    "Patients with relapsed/refractory B-ALL",
+    "Physicians and hospitals (Authorized Treatment Centers)",
+    "Third-party payors including government health programs and private insurers"
+  ],
+  "namedCustomers": [
+    "Cardinal Health 105, LLC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are an early commercial-stage biopharmaceutical company developing next-generation programmed T cell therapies for the treatment of cancer and autoimmune diseases."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We currently integrate artificial intelligence (AI) in certain of our research and development activities, including identification of potential product candidates, and are seeking to further integrate AI throughout our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The use of AI by us and our business partners may lead to novel and urgent cybersecurity risks, which could have a material adverse effect on our operations and reputation as well as the operations of any of our business partners."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Full enrollment of Phase 2 trial of obe-cel in pediatric r/r B-ALL",
+      "date": "2027-06-30",
+      "sentence": "The Phase 2 portion of the trial is underway and Autolus expects to have the trial fully enrolled in the first half of 2027."
+    },
+    {
+      "event": "Initial data from Phase 1 BOBCAT trial of obe-cel in progressive multiple sclerosis",
+      "date": "2026-12-31",
+      "sentence": "Initial data from the Phase 1 trial are expected to be reported at the end of 2026."
+    },
+    {
+      "event": "Initial data from Phase 1 ALARIC trial of AUTO8 in light-chain amyloidosis",
+      "date": "2026-12-31",
+      "sentence": "The first patient was dosed in the Phase 1 ALARIC trial evaluating AUTO8 in light-chain amyloidosis and initial data is expected to be reported at the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:43:34.315Z",
+  "model": "deepseek-v4-flash"
+}

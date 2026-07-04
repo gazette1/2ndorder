@@ -1,0 +1,96 @@
+{
+  "cik": "0001001385",
+  "ticker": "NWPX",
+  "name": "NWPX Infrastructure, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005861",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001385/000143774926005861/nwpx20251231_10k.htm"
+  },
+  "business": "NWPX Infrastructure manufactures water-related infrastructure products, including engineered steel pipeline systems and precast concrete products. It sells to installation contractors who bid on projects for federal, state, and municipal agencies, private water companies, and developers.",
+  "sellsTo": [
+    "installation contractors",
+    "federal, state, and municipal agencies",
+    "privately-owned water companies",
+    "developers",
+    "public water agencies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Steel Dynamics, Inc.",
+    "Nucor Corporation",
+    "SSAB",
+    "North Star BlueScope Steel",
+    "United States Steel Corporation",
+    "JSW Steel USA"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Our water infrastructure products are sold generally to installation contractors, who include our products in their bids to federal, state, and municipal agencies, privately-owned water companies, or developers for specific projects."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "In addition, the continued expansion of data center development, driven by cloud computing and artificial intelligence applications, is contributing to increased demand for stormwater management, wastewater pretreatment, and related water infrastructure solutions, creating additional opportunities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use of artificial intelligence presents new risks and challenges to our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems are subject to cybersecurity threats."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Demand for these products is generally influenced by general economic conditions such as housing starts, commercial development, population growth, and interest rates."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our precast products include RCP, manholes, box culverts, vaults, catch basins, oil water separators, pump lift stations, lined RCP and manholes, and other precast infrastructure products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Boughton's Precast, Inc.",
+      "date": "2026-02-23",
+      "sentence": "On February 23, 2026, we completed the acquisition of 100% of the shares of Boughton's Precast, Inc. (Boughton), a single precast facility located in Pueblo, Colorado, for a purchase price of approximately $9.0 million."
+    },
+    {
+      "event": "Completion of new catch basin machine installation",
+      "date": null,
+      "sentence": "We are currently investing in a new catch basin machine capable of producing dry cast basins in excess of five square feet while providing significant cost advantages for the smaller sizes we currently manufacture. That project is expected to be completed in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "EPA estimates $625 billion needed for public water system infrastructure from 2021 to 2040",
+      "sentence": "In its Seventh Drinking Water Infrastructure Needs Survey and Assessment released in September 2023, the EPA estimated the nation will need to spend $625 billion on public water system infrastructure capital improvements from 2021 to 2040 to continue to provide safe drinking water to the public."
+    },
+    {
+      "claim": "ASCE/EBP report anticipates cumulative infrastructure needs of $1.7 trillion (2024-2033) and $3.6 trillion (2024-2043) for drinking water, wastewater, and stormwater",
+      "sentence": "The Bridging the Gap: Economic Impacts of National Infrastructure Investment, 2024-2043 report published by ASCE and EBP in May 2024 anticipates there will be cumulative infrastructure needs for drinking water, wastewater, and stormwater infrastructure of $1.7 trillion from 2024 to 2033 and $3.6 trillion from 2024 to 2043."
+    },
+    {
+      "claim": "ConstructConnect forecasts U.S. water and sewage treatment construction starts at $60.3 billion in 2026",
+      "sentence": "According to ConstructConnect's Winter 2025 Construction Starts Forecast, U.S. water and sewage treatment construction starts are forecasted to be $60.3 billion in 2026."
+    },
+    {
+      "claim": "Bluefield Research estimates $173 billion in wastewater and $29 billion in stormwater capital investment from 2025 to 2034",
+      "sentence": "Bluefield Research's August 2025 Analyst Presentation: U.S. & Canada Municipal Utility Capital Improvement Plans; Water, Wastewater, and Stormwater Budget Outlook, 2025-2034 estimated the utilities captured in its analysis are projecting approximately $173 billion in capital investment between 2025 and 2034 of for wastewater and approximately $29 billion for stormwater."
+    },
+    {
+      "claim": "Bluefield reports approximately $5 billion awarded under IIJA to DWSRF subawards as of Q3 2025",
+      "sentence": "According to the August 2025 Bluefield Research Insight Report Infrastructure Investment & Jobs Act: Tracking the Spending, Q3 2025, approximately $5 billion earmarked under the IIJA has currently been awarded to Drinking Water State Revolving Loan Fund (DWSRF) recipients via subawards."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:17:36.516Z",
+  "model": "deepseek-v4-flash"
+}

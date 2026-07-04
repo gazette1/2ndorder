@@ -1,0 +1,89 @@
+{
+  "cik": "0001096056",
+  "ticker": "LXFR",
+  "name": "LUXFER HOLDINGS PLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001096056-26-000015",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1096056/000109605626000015/lxfr-20251231.htm"
+  },
+  "business": "Luxfer Holdings PLC is a global industrial company focused on niche applications in advanced materials engineering, developing and manufacturing high-performance materials, components, and high-pressure gas containment solutions for customers in defense, first response and healthcare, transportation, and specialty industrial markets.",
+  "sellsTo": [
+    "Defense, First Response & Healthcare",
+    "Transportation",
+    "Specialty Industrial"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Toray",
+    "Hyosung",
+    "Mitsubishi"
+  ],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Magnesium powders used in aircraft countermeasure flares designed to protect against heat-seeking missiles."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Space-related cylinders used in launch vehicle applications."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Aerospace and aviation cylinders used in aircraft safety and operational systems, including emergency slide inflation systems and onboard oxygen storage for crew."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Carbon composite cylinders for alternative fuel applications, including on-vehicle storage and transportation of compressed natural gas (CNG) and hydrogen for buses, trucks, and other commercial vehicles."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Our Elektron segment requires certain rare earth metals and oxides typically sourced from China for use in the manufacture of some magnesium alloys and in zirconium catalysts."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Zirconium-based chemicals and oxides used in automotive catalytic converters, industrial catalysis, advanced ceramics, specialty glass, fuel cell components, pharmaceuticals, and other performance-critical applications."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "SoluMag dissolvable magnesium alloys for downhole oil and gas applications."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Lightweight aluminum and composite cylinders for the containment of oxygen and other medical and laboratory gases."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure guidance for 2026",
+      "date": "2026-12-31",
+      "sentence": "We anticipate capital expenditures for 2026 to be between $15 million and $20 million."
+    },
+    {
+      "event": "Pension buy-in effective date",
+      "date": "2026-03-01",
+      "sentence": "The buy-in is designed to substantially match the Plan's benefit obligations with corresponding cash flow payments from the insurer, with effect from March 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global demand for primary magnesium is approximately 1.0 million metric tons per year.",
+      "sentence": "Global demand for primary magnesium is estimated to be approximately 1.0 million metric tons per year, with China accounting for a significant majority of global production."
+    },
+    {
+      "claim": "Global zircon sand production is between 1.0 and 1.5 million metric tons per year.",
+      "sentence": "Global zircon sand production is estimated to be between approximately 1.0 million and 1.5 million metric tons per year."
+    }
+  ],
+  "generatedAt": "2026-07-04T02:16:23.970Z",
+  "model": "deepseek-v4-flash"
+}

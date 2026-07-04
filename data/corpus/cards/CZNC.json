@@ -1,0 +1,54 @@
+{
+  "cik": "0000810958",
+  "ticker": "CZNC",
+  "name": "CITIZENS & NORTHERN CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-024613",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/810958/000110465926024613/cznc-20251231x10k.htm"
+  },
+  "business": "Citizens & Northern Corporation is a bank holding company whose principal activity is community banking, primarily through its subsidiary Citizens & Northern Bank, which provides deposit and loan products for personal and commercial customers, as well as wealth management services through its trust department and C&N Financial Services, LLC.",
+  "sellsTo": [
+    "Personal customers",
+    "Commercial customers",
+    "Customers in Northern tier/Northcentral region of Pennsylvania",
+    "Customers in Southern tier of New York State",
+    "Customers in Southeastern Pennsylvania (Bucks and Chester counties)",
+    "Customers in Southcentral Pennsylvania (York and Lancaster)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Bank competes with fintech and other online financial institutions, local commercial banks headquartered in our market areas and other commercial banks with branches in our market areas."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber Security Risks and Technology Dependence In the ordinary course of business, the Corporation collects and stores sensitive data, including proprietary business information and personally identifiable information of our customers and employees in systems and on networks."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial Intelligence Risks and Challenges - The Corporation or its third-party vendors, clients or counterparties may develop or incorporate artificial intelligence (\"AI\") technology in certain business processes, services, or products."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "CNFS, a wholly-owned subsidiary of the Bank, is a licensed insurance agency that provides insurance products to individuals and businesses and through a broker-dealer arrangement, offers mutual funds, annuities, educational savings accounts and other investment products through registered agents."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of merger with Susquehanna Community Financial, Inc.",
+      "date": "2025-10-01",
+      "sentence": "On October 1, 2025, the Corporation completed its previously announced merger with Susquehanna."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:36:59.935Z",
+  "model": "deepseek-v4-flash"
+}

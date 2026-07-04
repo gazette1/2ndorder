@@ -1,0 +1,83 @@
+{
+  "cik": "0001463972",
+  "ticker": "VUZI",
+  "name": "Vuzix Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027163",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1463972/000110465926027163/vuzi-20251231x10k.htm"
+  },
+  "business": "Vuzix Corporation designs, manufactures, and markets AI-enabled smart glasses, waveguides, and augmented reality (AR) display technologies for enterprise, medical, defense and security, and select consumer applications. The company also offers proprietary waveguide optics and display engines for integration into third-party ODM/OEM devices, and provides engineering services and custom optical display solutions.",
+  "sellsTo": [
+    "enterprise",
+    "medical",
+    "defense and security",
+    "consumer",
+    "ODM/OEM customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Sony Corporation",
+    "Jade Bird Display",
+    "Texas Instruments",
+    "Quanta Computer"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Vuzix Corporation ( Vuzix or the Company ) designs, manufactures, and markets AI-enabled smart glasses, waveguides, and augmented reality ( AR ) display technologies."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Vuzix designs and supplies domestically manufactured waveguides and display engines for military applications where see-through displays may be used in training, situational awareness, and mission workflows."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our products and solutions support enterprise, medical, defense and security, and select consumer applications, with a focus on hands-free computing and near-eye visualization."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "core_product",
+      "sentence": "Moviynt has developed a logistics mobility software platform, Mobilium , which is designed to reduce or eliminate the need for traditional middleware and is device agnostic."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Vuzix smart glasses support hands-free workflows in industries such as manufacturing, logistics, and field service by enabling access to guided work instructions, remote assistance, and real-time data without requiring handheld devices."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our primary growth opportunities include enterprise hands-free workflows and remote collaboration; medical use cases such as assisted visualization and telemedicine; defense and security applications including training and situational awareness; and select consumer applications."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We depend on advances in certain technology by other companies and if those advances do not materialize, some of our anticipated new products could be delayed or cancelled."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Introduction of Ultralite Pro and Ultralite Audio OEM Platforms at CES 2025",
+      "date": "2025-01",
+      "sentence": "At the CES 2025 trade show, we introduced the Ultralite Pro OEM Platform and Ultralite Audio OEM Platform, two smart glasses reference designs developed in partnership with Quanta Computer."
+    },
+    {
+      "event": "Acquisition of advanced waveguide R&D facility in Milpitas, California",
+      "date": "2025-04",
+      "sentence": "In April 2025, Vuzix acquired an advanced waveguide R&D facility in Milpitas, California."
+    },
+    {
+      "event": "Introduction of LX1 smart glasses",
+      "date": "2025-12",
+      "sentence": "The LX1 smart glasses, first introduced in December 2025, are designed for hands-free warehouse and logistics work."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:24:41.318Z",
+  "model": "deepseek-v4-flash"
+}

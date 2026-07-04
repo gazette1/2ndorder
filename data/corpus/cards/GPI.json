@@ -1,0 +1,72 @@
+{
+  "cik": "0001031203",
+  "ticker": "GPI",
+  "name": "GROUP 1 AUTOMOTIVE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001031203-26-000064",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1031203/000103120326000064/gpi-20251231.htm"
+  },
+  "business": "Group 1 Automotive sells and leases new and used cars and light trucks, arranges vehicle financing, sells service and insurance contracts, provides maintenance and repair services, and sells vehicle parts. The company operates 145 dealerships and 21 collision centers in the U.S. and 109 dealerships and 11 collision centers in the U.K.",
+  "sellsTo": [
+    "retail consumers",
+    "wholesale customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ford",
+    "Toyota",
+    "Jeep",
+    "Jaguar Land Rover",
+    "Ford Motor Credit Company",
+    "GM Financial"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations expose us to the risk of various liabilities, including: ... cybersecurity incidents or information technology system failures resulting in business interruption, data loss, or other adverse impacts;"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "While EV sales grew in prior years, EV demand began to stabilize in 2025 in the U.S."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "The U.K. government has established mandated targets for the sale of new zero emissions vehicles with increasing targets in future years."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We sell and/or lease new and used cars and light trucks; arrange related vehicle financing; sell service and insurance contracts; provide automotive maintenance and repair services; and sell vehicle parts retail and wholesale."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "We continue to invest in technology, data and process improvements that enhance both customer and employee efficiency, including centralized customer experience enhancements from digital retailing tools such as AI-enabled appointment setting and virtual F&I solutions."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Changes in trade policy, tariffs and other governmental actions during the Current Year introduced additional uncertainty for the automotive industry."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "The risk of slower future interest rate cuts or the maintenance of interest rates at current elevated levels could have a material adverse impact on our interest expense and ability to obtain financing through the debt markets, as well as consumers ability to obtain financing for the purchase of new and used vehicles."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase authorization increase",
+      "date": "2025-11-11",
+      "sentence": "On November 11, 2025, our Board of Directors increased the share repurchase authorization to $500.0 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:36:21.655Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001516912",
+  "ticker": "OBK",
+  "name": "Origin Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001516912-26-000011",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1516912/000151691226000011/obnk-20251231.htm"
+  },
+  "business": "Origin Bancorp, Inc. is a financial holding company that provides a broad range of financial services through its subsidiary Origin Bank and insurance products through Forth Insurance, LLC. It operates more than 56 banking locations in Texas, Louisiana, Mississippi, Alabama, and Florida. The company offers commercial and consumer loans, deposits, mortgage origination, and insurance agency services.",
+  "sellsTo": [
+    "businesses",
+    "municipalities",
+    "personal clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "we provide a broad range of insurance agency products and services through our wholly owned insurance agency subsidiary, Forth Insurance, LLC."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We originate one-to-four family residential mortgage loans generally secured by property located in our primary market areas."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "system failures, cybersecurity threats and/or security breaches and the cost of defending against them and any reputational or other financial risks following such a cybersecurity incident"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "increased competition in the financial services industry, particularly from regional and national institutions, as well as fintech companies, may accelerate due to the current economic environment"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "risks relating to technological change, including the Bank's and its competitors adoption of new technology such as artificial intelligence as well as consumer demands relating to new technologies"
+    },
+    {
+      "tag": "other:mortgage-warehouse-lending",
+      "stance": "core_product",
+      "sentence": "Mortgage warehouse loans are extended to mortgage companies and secured by loan participations in mortgages that are typically sold within 15 to 25 days."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Achieve ROAA run rate of 1.15% or higher by fourth quarter of 2026",
+      "date": "2026-12-31",
+      "sentence": "Looking ahead to 2026, our goal is to achieve an ROAA run rate of 1.15% or higher by the fourth quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:53:23.556Z",
+  "model": "deepseek-v4-flash"
+}

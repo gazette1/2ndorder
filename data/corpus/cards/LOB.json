@@ -1,0 +1,39 @@
+{
+  "cik": "0001462120",
+  "ticker": "LOB",
+  "name": "Live Oak Bancshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001462120-26-000020",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1462120/000146212026000020/lob-20251231.htm"
+  },
+  "business": "Live Oak Bancshares, Inc. originates loans partially guaranteed by the U.S. Small Business Administration (SBA) and the U.S. Department of Agriculture (USDA) to small businesses and professionals, and also offers deposit services and invests in financial technology companies.",
+  "sellsTo": [
+    "small businesses",
+    "professionals in selected industry verticals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Live Oak Ventures, Inc., formed in August 2016 for the purpose of investing in businesses that align with the Company's strategic initiative to be a leader in financial technology."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of our operational or security systems, or those of our third-party service providers, including as a result of cyber-attacks, could disrupt our business, result in unintentional disclosure or misuse of confidential or proprietary information, damage our reputation, increase our costs and cause losses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The deployment and use of artificial intelligence presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:19:04.937Z",
+  "model": "deepseek-v4-flash"
+}

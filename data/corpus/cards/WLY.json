@@ -1,0 +1,48 @@
+{
+  "cik": "0000107140",
+  "ticker": "WLY",
+  "name": "JOHN WILEY & SONS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-045111",
+    "filedAt": "2026-06-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/107140/000162828026045111/jwa-20260430.htm"
+  },
+  "business": "Wiley is a global leader in authoritative content and research intelligence for the advancement of scientific discovery, innovation, and learning. The Company's content, services, platforms, and knowledge networks are tailored to meet the evolving needs of its customers and partners, including institutions, societies, corporations, researchers, students, instructors, and other professionals. The company reports in two segments: Research (publishing and solutions) and Learning (academic and professional).",
+  "sellsTo": [
+    "institutions",
+    "societies",
+    "corporations",
+    "researchers",
+    "students",
+    "instructors",
+    "professionals",
+    "libraries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cengage Learning"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-content-licensing",
+      "stance": "core_product",
+      "sentence": "AI and data analytics is our emerging growth engine, leveraging our proprietary content, data, and partnership ecosystem for corporate models and applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber risk and the failure to maintain the integrity of our operational or security systems or infrastructure, or those of third parties with which we do business, could have a material adverse effect on our business, consolidated financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Emerald Publishing closed",
+      "date": "2026-06-01",
+      "sentence": "On June 1, 2026, subsequent to the end of fiscal year 2026, we acquired Emerald Publishing for 337.5 million (approximately $452 million), funded with available cash and proceeds from our revolving credit facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:29:41.431Z",
+  "model": "deepseek-v4-flash"
+}

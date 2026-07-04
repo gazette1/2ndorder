@@ -1,0 +1,65 @@
+{
+  "cik": "0002085187",
+  "ticker": "BOBS",
+  "name": "Bob's Discount Furniture, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-019015",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/2085187/000162828026019015/a2025bdfannualfinancialsta.htm"
+  },
+  "business": "Bob's Discount Furniture is a rapidly growing, nationally proven omnichannel retailer of value home furnishings with 209 stores as of December 28, 2025 across 26 U.S. states. We offer quality, stylish products at everyday low prices below our value-oriented furniture competitors lowest promoted prices.",
+  "sellsTo": [
+    "value-oriented furniture shoppers",
+    "consumers (retail and eCommerce)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Bob's Discount Furniture is a rapidly growing, nationally proven omnichannel retailer of value home furnishings with 209 stores as of December 28, 2025 across 26 U.S. states."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our omnichannel capabilities allow customers to shop in-store, online, over the phone and via our mobile app."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We leverage efficient fulfillment services to ensure most purchases can be delivered in as few as three days."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In September 2024, we experienced a cybersecurity incident in response to which the Company acted promptly to disconnect certain of the Company’s information technology systems to stop further unauthorized access."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "In light of the increased public interest and technological advancements in artificial intelligence and other similar technologies, our failure to efficiently incorporate such technologies into our business at the same pace as our competitors may result in our competitors obtaining significant competitive advantages over us and result in deterioration of our financial performance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New regional distribution center fully operating",
+      "date": "2026-06-30",
+      "sentence": "Pre-opening expenses in fiscal year 2025 increased $3.5 million compared to fiscal year 2024 primarily due to costs related to a new regional distribution center anticipated to be fully operating in the first half of 2026."
+    },
+    {
+      "event": "IPO closing",
+      "date": "2026-02-06",
+      "sentence": "At the closing of the IPO on February 6, 2026, we sold 19,450,000 shares of common stock at an IPO price of $17.00 per share."
+    },
+    {
+      "event": "Repayment of remaining Term Loan",
+      "date": "2026-03-12",
+      "sentence": "On March 12, 2026, the Company repaid the remaining portion of the Term Loan using cash on hand and borrowings under the Revolving Credit Facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:57:49.530Z",
+  "model": "deepseek-v4-flash"
+}

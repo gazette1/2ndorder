@@ -1,0 +1,40 @@
+{
+  "cik": "0000318673",
+  "ticker": "SNFCA",
+  "name": "SECURITY NATIONAL FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-010228",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/318673/000149315226010228/form10-k.htm"
+  },
+  "business": "Security National Financial Corp operates in three segments: life insurance, cemetery and mortuary, and mortgages. The life insurance segment sells funeral plans, interest-sensitive life insurance, annuities, and accident and health insurance in 42 states. The cemetery and mortuary segment operates cemeteries and mortuaries in Utah, California, and New Mexico, offering pre-need and at-need services. The mortgage segment originates residential and commercial loans through 85 retail offices in 25 states.",
+  "sellsTo": [
+    "individuals aged 45-85 for insurance and cemetery products",
+    "real estate brokers and builders for mortgages",
+    "low to moderate income individuals for funeral plans"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The life insurance segment is engaged in the business of selling and servicing selected lines of life insurance, annuity products, and accident and health insurance."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The mortgage segment originates and underwrites or otherwise purchases residential and commercial loans for new construction, existing homes, and other real estate projects."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "active_investment",
+      "sentence": "The Company is capitalizing on the opportunity to develop commercial and residential assets on its existing and recently acquired properties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:10:00.401Z",
+  "model": "deepseek-v4-flash"
+}

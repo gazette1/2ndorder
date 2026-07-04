@@ -1,0 +1,46 @@
+{
+  "cik": "0001747068",
+  "ticker": "MCBS",
+  "name": "MetroCity Bankshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001747068-26-000010",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1747068/000174706826000010/mcbs-20251231x10k.htm"
+  },
+  "business": "MetroCity Bankshares, Inc. is a bank holding company operating through its wholly-owned subsidiary, Metro City Bank, a Georgia state-chartered commercial bank. It provides full-service commercial banking services to small- to medium-sized businesses and individuals in multi-ethnic communities. As of December 31, 2025, it had $4.77 billion in total assets and operated 29 full-service branch locations in eight states.",
+  "sellsTo": [
+    "small- to medium-sized businesses",
+    "individuals in diverse and multi-ethnic communities",
+    "Asian-American communities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-banking",
+      "stance": "core_product",
+      "sentence": "We are a full-service commercial bank focused on delivering personalized service in an efficient and reliable manner to the small-to medium-sized businesses and individuals in our markets, including many customers in diverse and multi-ethnic communities in growing metropolitan markets in the Eastern U.S., Texas and California."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also face competition from many other types of financial institutions, including fintech companies, savings associations, finance companies, brokerage firms, insurance companies, credit unions, mortgage banks and other financial intermediaries."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The computer systems and network infrastructure we use, including those we maintain with our service providers and vendors, could be vulnerable to hardware and cyber security issues."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed acquisition of First IC Corporation",
+      "date": "2025-12-01",
+      "sentence": "After the close of business on December 1, 2025, the Company completed the acquisition of First IC Corporation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:06:34.722Z",
+  "model": "deepseek-v4-flash"
+}

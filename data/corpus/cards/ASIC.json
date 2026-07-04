@@ -1,0 +1,44 @@
+{
+  "cik": "0002040491",
+  "ticker": "ASIC",
+  "name": "Ategrity Specialty Insurance Co Holdings",
+  "source": {
+    "form": "10-K",
+    "accession": "0002040491-26-000011",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/2040491/000204049126000011/asic-20251231.htm"
+  },
+  "business": "Ategrity Specialty Insurance Company Holdings is a specialty property and casualty insurance holding company dedicated to the excess and surplus (E&S) market for small to medium-sized businesses (SMBs) across the United States. It underwrites commercial risks across selected industry verticals including Retail, Real Estate, Hospitality, and Construction. Policies are distributed exclusively through licensed surplus lines brokers and wholesale agents.",
+  "sellsTo": [
+    "small to medium-sized businesses (SMBs)",
+    "surplus lines brokers and wholesale agents"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "All of our gross written premiums for the years ended December 31, 2025 and 2024 were attributable to E&S products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents or data breaches could disrupt our operations and result in liability."
+    },
+    {
+      "tag": "other:ai-tools",
+      "stance": "risk_mention",
+      "sentence": "Our increasing use of AI-enabled analytics and automated decision-support tools may introduce additional complexity and uncertainty into our modeling framework."
+    },
+    {
+      "tag": "other:third-party-technology",
+      "stance": "risk_mention",
+      "sentence": "We depend on third-party technology providers, including AI platforms."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:44:38.852Z",
+  "model": "deepseek-v4-flash"
+}

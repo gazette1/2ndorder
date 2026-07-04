@@ -1,0 +1,85 @@
+{
+  "cik": "0001065059",
+  "ticker": "LEU",
+  "name": "CENTRUS ENERGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-007117",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026007117/leu-20251231.htm"
+  },
+  "business": "Centrus Energy Corp. is a supplier of nuclear fuel components for the nuclear power industry and provides enrichment and technical services for public and private customers. The company operates two segments: LEU, which supplies various components of nuclear fuel to commercial customers, and Technical Solutions, which provides advanced uranium enrichment and other technical services to government and private sector customers.",
+  "sellsTo": [
+    "Commercial nuclear power utilities",
+    "U.S. government (DOE)",
+    "Nuclear industry",
+    "Private sector customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "TENEX",
+    "Orano"
+  ],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Centrus operates two business segments: (a) LEU, which supplies various components of nuclear fuel to commercial customers from our global network of suppliers, and (b) Technical Solutions, which provides advanced uranium enrichment for the nuclear industry and the U.S. government and advanced manufacturing and other technical services to government and private sector customers."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "The United States has not had domestic uranium enrichment capability suitable to meet U.S. national security requirements since the Paducah GDP shut down in 2013. Our AC100M centrifuge currently is the only deployment-ready U.S. uranium enrichment technology that can meet these national security requirements."
+    },
+    {
+      "tag": "other:haleu",
+      "stance": "core_product",
+      "sentence": "Under a contract with the DOE, our Technical Solutions segment is operating uranium enrichment capacity for HALEU production, and other capabilities necessary for production of advanced nuclear fuel to meet the evolving needs of the global nuclear industry and the U.S. government."
+    },
+    {
+      "tag": "nuclear",
+      "stance": "active_investment",
+      "sentence": "On September 25, 2025, we announced plans for a major expansion of our uranium enrichment capacity in Piketon, Ohio, including plans for large-scale production of both LEU and HALEU."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "HALEU first delivery completed Phase 1",
+      "date": "2023-11-07",
+      "sentence": "On November 7, 2023, the Company made its first delivery of HALEU to the DOE, completing Phase 1 by successfully demonstrating its HALEU production process."
+    },
+    {
+      "event": "DOE exercised Option 1a of HALEU Operation Contract extending to June 2026",
+      "date": "2025-06-17",
+      "sentence": "The DOE exercised Option 1a and extended the period of performance to June 30, 2026."
+    },
+    {
+      "event": "DOE announced $900 million task order award for HALEU expansion",
+      "date": "2026-01-05",
+      "sentence": "On January 5, 2026, the DOE announced that ACO was selected for award of a $900.0 million task order to expand its uranium enrichment facility in Piketon, Ohio, to include commercial-scale production of HALEU."
+    },
+    {
+      "event": "Centrus announced major expansion plans in Piketon",
+      "date": "2025-09-25",
+      "sentence": "On September 25, 2025, Centrus announced plans for a major expansion of its uranium capacity in Piketon, Ohio, including plans for large-scale production of both LEU and HALEU to meet commercial and government requirements."
+    },
+    {
+      "event": "Centrus entered into contract with Fluor for expansion",
+      "date": "2026-02-09",
+      "sentence": "On February 9, 2026, ACO entered into an engineering, procurement and construction contract with Fluor Federal Services, Inc. (Fluor), a third-party contractor, for the commercial expansion and deployment of LEU and HALEU production capability at the American Centrifuge Plant (ACP) in Piketon, Ohio."
+    },
+    {
+      "event": "First new centrifuges expected online in Ohio",
+      "date": null,
+      "sentence": "The first new centrifuges produced in Oak Ridge are expected to come online in Ohio in 2029."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The enrichment industry market for commercial nuclear reactors powered by LEU is currently about 50 million SWU per year.",
+      "sentence": "It is estimated that the enrichment industry market for commercial nuclear reactors powered by LEU is currently about 50 million SWU per year."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:44:58.025Z",
+  "model": "deepseek-v4-flash"
+}

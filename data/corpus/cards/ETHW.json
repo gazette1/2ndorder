@@ -1,0 +1,43 @@
+{
+  "cik": "0002013744",
+  "ticker": "ETHW",
+  "name": "Bitwise Ethereum ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104221",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/2013744/000119312526104221/ethw-20251231.htm"
+  },
+  "business": "The Trust offers shares that track the price of ether. The Trust holds ether and its value is directly related to the price of ether. Shares are listed on a national securities exchange and are available to investors.",
+  "sellsTo": [
+    "Exchange investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "The value of the Shares is directly related to the value of ether held by the Trust."
+    },
+    {
+      "tag": "other:ethereum",
+      "stance": "risk_mention",
+      "sentence": "The Ethereum network faces significant scaling challenges and efforts to improve transaction speed and throughput may not be successful, which could adversely impact the adoption of Ether and the value of the Shares."
+    },
+    {
+      "tag": "other:ethereum",
+      "stance": "risk_mention",
+      "sentence": "Transition to proof-of-stake and ongoing scalability upgrades on the Ethereum network may impact Ether s market value and the value of the Shares."
+    },
+    {
+      "tag": "other:ethereum",
+      "stance": "risk_mention",
+      "sentence": "As ether and the digital asset ecosystem have expanded, they have attracted increasing regulatory attention from U.S. regulators, and evolving regulatory frameworks may impact ether s classification and treatment."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:41:31.611Z",
+  "model": "deepseek-v4-flash"
+}

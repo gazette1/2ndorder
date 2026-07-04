@@ -1,0 +1,51 @@
+{
+  "cik": "0001052752",
+  "ticker": "GTY",
+  "name": "GETTY REALTY CORP /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-048965",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1052752/000119312526048965/gty-20251231.htm"
+  },
+  "business": "Getty Realty Corp. is a publicly traded net lease real estate investment trust specializing in the acquisition, financing and development of convenience, automotive and other single tenant retail real estate. As of December 31, 2025, its portfolio included 1,174 properties located in 44 states and Washington D.C., leased to tenants under triple-net leases.",
+  "sellsTo": [
+    "convenience store operators",
+    "petroleum distributors",
+    "express tunnel car wash operators",
+    "automotive service center operators",
+    "drive-thru quick service restaurant operators"
+  ],
+  "namedCustomers": [
+    "ARKO Corp.",
+    "Global Partners LP"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:real-estate",
+      "stance": "core_product",
+      "sentence": "Getty Realty Corp. is a publicly traded, net lease real estate investment trust (REIT) specializing in the acquisition, financing and development of convenience, automotive and other single tenant retail real estate."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "We derive significant portion of our revenues from leasing, primarily on a triple-net basis, and financing convenience store and gasoline station properties to tenants in the petroleum marketing industry."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Accordingly, significant portion of our revenues depend on the economic success of the petroleum marketing industry, and any factors that adversely affect that industry, such as disruption in the supply of petroleum or a decrease in the demand for conventional motor fuels due to conservation, technological advancements in petroleum-fueled motor vehicles or an increase in the use of, and consumer demand for, alternative fuel, electric and battery-operated vehicles, or other green technologies, could have a material adverse effect on our business, financial condition and results of operations, liquidity, ability to pay dividends or stock price."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Issuance of $250 million senior unsecured notes due 2036",
+      "date": "2026-01-22",
+      "sentence": "We also closed the private placement of $250.0 million of new senior unsecured notes priced at a fixed rate of 5.76% due January 22, 2036."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:09:04.521Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,34 @@
+You are an equity analyst building a structured card for ONITY GROUP INC. (ONIT) from its own 10-K. Read the sections below and extract only what the filing supports.
+
+=== BUSINESS (Item 1) ===
+Item 1. Business ................................................................ 4 O v e r v i e w ........................................................... 4 Human Capital Reso urces ............................... 10 Risk Management ........................................... 12
+
+=== RISK FACTORS (Item 1A, excerpt) ===
+Item 1A. Risk Factors ..................................................... 15 Item 1B. Unresolved Staff Comments ............................ 43 Item 1C. Cybersecurity ................................................... 43
+
+=== MD&A (Item 7) ===
+Item 7. Management s Discussion and Analysis of Financial Condition and Results of Operations .............................. 48 Overview ......................................................... 48 Balance Sheet and Cash F low Ov erview ........ 59 Key Trends and Outlook ................................. 62 Servicing ......................................................... 65 Originations ..................................................... 77 Corporate ......................................................... 84 Liquidity and Capital Resources ..................... 85 Critical Accounting Policies and Estimates .... 90 Recent Accounting Developments .................. 94
+
+Extract:
+- "business": what the company sells and to whom, 2 to 3 plain factual sentences.
+- "sellsTo": end markets and customer types (short phrases).
+- "namedCustomers", "namedSuppliers": only names the filing states.
+- "exposures": every technology or theme the filing shows exposure to. "tag" MUST come from this vocabulary: ai-compute, data-centers, edge-ai, semiconductors, semi-equipment, robotics, industrial-automation, warehouse-automation, machine-vision, sensors, precision-motion, rare-earths, battery-storage, grid-equipment, transmission, utilities, nuclear, renewables, oil-gas-services, mining-materials, specialty-chemicals, electrical-steel, copper-aluminum, defense, space, cybersecurity, quantum, biotech-therapeutics, medical-devices, diagnostics, digital-health, fintech, insurance, staffing-labor, logistics, construction-eng, housing, agriculture, consumer-brands, ecommerce, gaming-media, telecom-networking, satellites, evs-mobility, aerospace-suppliers. If a real exposure fits no tag, use "other:<short-term>". "stance" is "core_product" (they sell it), "active_investment" (they are building it, named program or committed spend), or "risk_mention" (risk factors or trend name-dropping only). "sentence" is the EXACT sentence from the filing that supports the exposure, copied verbatim.
+- "catalysts": dated or datable events the filing commits to (capacity additions, qualifications, launches, contract milestones), each with its exact sentence.
+- "tamClaims": quantified market size claims the filing itself makes, each with its exact sentence.
+
+Rules:
+- Every exposure, catalyst, and TAM claim carries its exact filing sentence. No sentence, no entry.
+- Do not use outside knowledge of the company.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "business": "...",
+  "sellsTo": ["..."],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [{ "tag": "...", "stance": "core_product", "sentence": "..." }],
+  "catalysts": [{ "event": "...", "date": "YYYY-MM-DD or null", "sentence": "..." }],
+  "tamClaims": [{ "claim": "...", "sentence": "..." }]
+}

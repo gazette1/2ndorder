@@ -1,0 +1,61 @@
+{
+  "cik": "0001941365",
+  "ticker": "MBC",
+  "name": "MasterBrand, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001941365-26-000006",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1941365/000194136526000006/mbc-20251228.htm"
+  },
+  "business": "MasterBrand, Inc. is the largest manufacturer of residential cabinets in North America. Products are sold to the remodeling and new construction markets through dealers, retailers, and builders. The company also actively grows its presence in the e-commerce channel.",
+  "sellsTo": [
+    "remodeling market",
+    "new construction market",
+    "dealers",
+    "retailers",
+    "builders"
+  ],
+  "namedCustomers": [
+    "Lowe's Companies, Inc.",
+    "The Home Depot, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our products are sold throughout the United States and Canada to the remodeling and new construction markets through three primary channels: dealers, retailers and builders."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "we are actively growing our presence in the emerging cabinets e-commerce channel, including through our retail channel partners online presence, and are actively partnering with leading players to develop continuing opportunities to penetrate and innovate in this evolving area."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Use of artificial intelligence in our operations could result in reputational or competitive harm, legal or regulatory liability and adverse impacts on our financial performance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to security threats, including cyber and other attacks, which are becoming increasingly sophisticated, frequent and adaptive."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of merger with American Woodmark",
+      "date": null,
+      "sentence": "The closing of the Merger, which is expected to occur in early 2026, is subject to the receipt of clearance under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and the satisfaction or waiver of other customary closing conditions."
+    },
+    {
+      "event": "Announced $30 million cost reduction plan",
+      "date": "2026-02",
+      "sentence": "In February 2026, we announced plans to implement $30 million dollars of planned cost reductions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:31:00.898Z",
+  "model": "deepseek-v4-flash"
+}

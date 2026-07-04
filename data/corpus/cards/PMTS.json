@@ -1,0 +1,67 @@
+{
+  "cik": "0001641614",
+  "ticker": "PMTS",
+  "name": "CPI Card Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-023812",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1641614/000110465926023812/pmts-20251231x10k.htm"
+  },
+  "business": "CPI Card Group Inc. is a payments technology company that provides physical and digital payment solutions, including debit and credit card production, personalization, SaaS-based instant issuance, and prepaid debit cards with secure packaging. It serves U.S. financial institutions, processors, fintechs, prepaid program managers, and other customers.",
+  "sellsTo": [
+    "U.S. financial institutions",
+    "processors",
+    "fintechs",
+    "prepaid program managers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack or breach of our information technology systems resulting in losses of our intellectual property and/or sensitive cardholder data, harm to our competitive position and a loss of customer trust and confidence, and, as threats evolve, the necessity to invest in significant additional resources to enhance our information security and controls."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CPI is a payments technology company providing a comprehensive range of physical and digital payment solutions for U.S. financial institutions, processors, fintechs, prepaid program managers, and more."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Specifically, certain key components for our payment card products include microchips, substrates (such as PVC), resin, modules, antennas and inlays, which we source from multiple suppliers located in various countries, primarily on a purchase order basis."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Our business and results of operations has been and may continue to be adversely affected by uncertainty and changes in U.S. trade policies, including tariffs, trade agreements or other trade restrictions imposed by the U.S. or other governments."
+    },
+    {
+      "tag": "other:mobile-payments",
+      "stance": "risk_mention",
+      "sentence": "In particular, the rise in the adoption in digital payment systems or mobile payments may make physical cards less attractive as a method of payment."
+    },
+    {
+      "tag": "other:contactless-cards",
+      "stance": "core_product",
+      "sentence": "Contactless cards have additional technology to process contactless transactions and generally have a higher selling price than contact-only cards."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Implement new segment structure",
+      "date": "2026-01-01",
+      "sentence": "In connection with our increased strategic focus on expanding and developing additional proprietary integrated technological solutions for our customer base, we will implement a new segment structure to assess performance and allocate resources, beginning in the first quarter of 2026."
+    },
+    {
+      "event": "Option to purchase additional 31% of Karta",
+      "date": "2027-04-01",
+      "sentence": "We also retain an option to purchase an additional 31% of Karta prior to early April 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:20:34.250Z",
+  "model": "deepseek-v4-flash"
+}

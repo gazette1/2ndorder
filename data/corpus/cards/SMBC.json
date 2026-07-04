@@ -1,0 +1,73 @@
+{
+  "cik": "0000916907",
+  "ticker": "SMBC",
+  "name": "SOUTHERN MISSOURI BANCORP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001558370-25-012001",
+    "filedAt": "2025-09-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/916907/000155837025012001/smbc-20250630x10k.htm"
+  },
+  "business": "Southern Missouri Bancorp, Inc. is a bank holding company that through its subsidiary Southern Bank provides community banking services. The company attracts retail deposits and originates loans secured by residential and commercial real estate, commercial business, construction, and consumer loans. The bank operates 62 full service branch offices and two loan production offices in Missouri, Arkansas, Illinois, and Kansas.",
+  "sellsTo": [
+    "retail depositors",
+    "residential mortgage borrowers",
+    "commercial real estate borrowers",
+    "commercial business borrowers",
+    "agricultural borrowers",
+    "consumer loan borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, residential loans secured by one- to four-family residences totaled $992.4 million, or 24.5% of net loans receivable."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, the Bank had $1.8 billion in commercial real estate loans, which represented 43.8% of net loans receivable."
+    },
+    {
+      "tag": "other:multi-family-real-estate",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, the Bank had $422.8 million, or 10.4% of net loans receivable, secured by multi-family residential real estate."
+    },
+    {
+      "tag": "other:construction-lending",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, the Bank had $332.4 million, or 8.2% of net loans receivable in construction loans outstanding."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, agricultural real estate loans totaled $245.0 million, or 6.1% of net loans receivable."
+    },
+    {
+      "tag": "other:commercial-business-loans",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, the Bank had $716.4 million in commercial business loans outstanding, or 17.7% of net loans receivable."
+    },
+    {
+      "tag": "other:agricultural-production",
+      "stance": "core_product",
+      "sentence": "At June 30, 2025, the Bank had $206.1 million in agriculture production loans outstanding, which are included in commercial business loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber threats, such as phishing, ransomware, and insider attacks, can lead to financial loss, reputational damage, and regulatory penalties if sensitive customer data and critical infrastructure are not adequately protected;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total deposits at FDIC-insured institutions in Missouri are approximately $252.2 billion.",
+      "sentence": "The most recent market share data by the FDIC reflected that the Bank was one of 263 bank or saving association groups located in Missouri competing for approximately $252.2 billion in deposits at FDIC-insured institutions."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:41:02.494Z",
+  "model": "deepseek-v4-flash"
+}

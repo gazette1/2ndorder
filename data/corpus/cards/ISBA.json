@@ -1,0 +1,65 @@
+{
+  "cik": "0000842517",
+  "ticker": "ISBA",
+  "name": "ISABELLA BANK CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000842517-26-000069",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/842517/000084251726000069/isba-20251231.htm"
+  },
+  "business": "Isabella Bank Corporation is a financial holding company providing banking and wealth management services through its subsidiary Isabella Bank. It offers loans (commercial, agricultural, residential real estate, consumer) and deposit services (checking, savings, certificates of deposit) as well as investment management, trust, and estate services to businesses, institutions, individuals, and families.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "institutions",
+    "agricultural operations",
+    "commercial real estate borrowers",
+    "residential real estate borrowers",
+    "consumer borrowers",
+    "wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Lending activities include loans for commercial and agricultural operations and real estate purposes, residential real estate loans, and consumer loans."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Lending activities include loans for commercial and agricultural operations and real estate purposes, residential real estate loans, and consumer loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized disclosure of sensitive or confidential client or customer information, whether through cyber attacks, breach of computer systems or other means could severely harm the Corporation's business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also compete with mortgage companies, trust companies, brokerage firms, consumer finance companies, mutual funds, securities firms, third-party payment processors, financial technology companies, and other financial intermediaries for certain of our products and services."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry is undergoing rapid technological change which includes the frequent introduction of new technology-driven products and services, including those based on artificial intelligence."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "During 2025, the commercial real estate and commercial and industrial portfolios grew $48,040 and $19,827, respectively."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "We also offer full-service investment management, trust, and estate services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:46:01.794Z",
+  "model": "deepseek-v4-flash"
+}

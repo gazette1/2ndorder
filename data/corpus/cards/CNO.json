@@ -1,0 +1,46 @@
+{
+  "cik": "0001224608",
+  "ticker": "CNO",
+  "name": "CNO Financial Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001224608-26-000017",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1224608/000122460826000017/cno-20251231.htm"
+  },
+  "business": "CNO is a holding company for a group of insurance companies that develop, market and administer health insurance, annuity, individual life insurance and other insurance and financial services products. We focus on serving middle-income pre-retiree and retired Americans. We sell our products through exclusive agents, independent producers and direct marketing.",
+  "sellsTo": [
+    "middle-income pre-retiree and retired Americans",
+    "individual consumers",
+    "businesses, associations, and other membership groups (worksite)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "CNO is a holding company for a group of insurance companies that develop, market and administer health insurance, annuity, individual life insurance and other insurance and financial services products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity attacks, risk of data loss and other security breaches;"
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "the use or anticipated use of artificial intelligence ('AI') technologies, including generative AI, by us or third-parties;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exit of fee services business within Worksite Division",
+      "date": "2026-06-30",
+      "sentence": "In November 2025, we announced our intention to exit the fee services business within our Worksite Division to sharpen our focus on the core insurance business. The exit is expected to be substantially completed in the first half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:22:18.838Z",
+  "model": "deepseek-v4-flash"
+}

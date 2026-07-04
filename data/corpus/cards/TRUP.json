@@ -1,0 +1,57 @@
+{
+  "cik": "0001371285",
+  "ticker": "TRUP",
+  "name": "TRUPANION, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001371285-26-000018",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1371285/000137128526000018/trup-20251231.htm"
+  },
+  "business": "Trupanion provides medical insurance for cats and dogs in the United States, Canada, and certain countries in Continental Europe. It operates in two segments: subscription business (direct-to-consumer and third-party marketed pet insurance) and other business (underwriting policies on behalf of third parties such as Pets Best). The company also offers veterinary direct payment through proprietary software and uses artificial intelligence for claims automation.",
+  "sellsTo": [
+    "pet parents",
+    "third-party insurance providers",
+    "employers",
+    "U.S. Department of Veterans Affairs"
+  ],
+  "namedCustomers": [
+    "Pets Best Insurance Services",
+    "U.S. Department of Veterans Affairs"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide medical insurance for cats and dogs in the United States, Canada, and certain countries in Continental Europe."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "As part of our effort to increase retention in these cohorts, we seek to enhance the education of individual pet parents accordingly and invest in improving overall member communication and experience; In line with our low-cost operating model, we use artificial intelligence and machine learning to leverage data to automate the payment of a portion of our veterinary invoices."
+    },
+    {
+      "tag": "other:veterinary-software",
+      "stance": "core_product",
+      "sentence": "Through the use of our proprietary, patented software designed to communicate directly with a veterinary hospital’s practice management system, we are able to offer a differentiated experience to our members."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "North American pet insurance penetration is less than 4% with 180.7 million household dogs and cats.",
+      "sentence": "According to NAPHIA, there are approximately 180.7 million household dogs and cats in the United States and Canada. North American Pet Health Insurance Association estimates that the penetration rate for medical insurance for cats and dogs in North America is less than four percent as of April 22, 2025."
+    },
+    {
+      "claim": "Continental Europe pet insurance penetration is approximately 8.5% with 165 million household dogs and cats.",
+      "sentence": "According to internal estimates incorporating figures from FEDIAF European Facts & Figures, GfK Czech consumer panel, and KVL Czech Republic, there are approximately 165 million household dogs and cats in Continental Europe and the estimated penetration rate for medical insurance for cats and dogs is approximately eight and a half percent as of December 31, 2025."
+    },
+    {
+      "claim": "Long-term penetration could approach 28% (UK) or 67% (Sweden).",
+      "sentence": "We believe that, over the long-term, pet insurance penetration rates in the markets in which we operate could approach those seen in the United Kingdom or Sweden where approximately 28% and 67%, respectively, of household dogs and cats are insured."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:51:43.946Z",
+  "model": "deepseek-v4-flash"
+}

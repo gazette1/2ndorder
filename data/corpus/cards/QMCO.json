@@ -1,0 +1,52 @@
+{
+  "cik": "0000709283",
+  "ticker": "QMCO",
+  "name": "QUANTUM CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-045602",
+    "filedAt": "2026-06-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/709283/000162828026045602/qtm-20260331.htm"
+  },
+  "business": "Quantum delivers end-to-end data management solutions for unstructured data in the AI era. Products include primary and secondary storage software/systems, devices/media, and services. It sells to hyperscale, technology, media, government, life sciences, healthcare, and financial industries, as well as through OEMs, distributors, and resellers.",
+  "sellsTo": [
+    "hyperscale",
+    "technology and industrial",
+    "media and entertainment",
+    "federal government",
+    "life sciences and healthcare",
+    "financial",
+    "OEMs",
+    "distributors",
+    "value-added resellers",
+    "direct market resellers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Quantum delivers end-to-end data management solutions designed for unstructured data in the artificial intelligence (\"AI\") era."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Scalar tape storage systems are used by the world s largest hyperscalers as well as thousands of enterprises worldwide."
+    },
+    {
+      "tag": "other:tape-storage",
+      "stance": "core_product",
+      "sentence": "Scalar Tape Storage : Low-cost, secure storage for long-term data archiving and offline data protection."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Unstructured data represents more than 80% of all data being created.",
+      "sentence": "Unstructured data represents more than 80% of all data being created according to leading industry analyst firms."
+    }
+  ],
+  "generatedAt": "2026-07-04T02:37:26.698Z",
+  "model": "deepseek-v4-flash"
+}

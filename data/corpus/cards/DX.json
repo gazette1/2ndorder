@@ -1,0 +1,39 @@
+{
+  "cik": "0000826675",
+  "ticker": "DX",
+  "name": "DYNEX CAPITAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000826675-26-000017",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/826675/000082667526000017/dx-20251231.htm"
+  },
+  "business": "Dynex Capital, Inc. is a real estate investment trust that invests primarily in residential and commercial mortgage-backed securities, which are backed by U.S. housing and commercial real estate loans and are Agency securities guaranteed by U.S. government-sponsored enterprises. The company is internally managed and structured to deliver dividends to shareholders supported by long-term returns from these mortgage assets. It actively manages interest rate, prepayment, spread, liquidity, and counterparty risks to preserve book value and support dividends across market cycles.",
+  "sellsTo": [
+    "shareholders seeking dividend income"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "active_investment",
+      "sentence": "Our common and preferred stocks trade on the New York Stock Exchange (NYSE) under the ticker symbols DX and DXPRC, respectively. We are internally managed and invest primarily in residential and commercial mortgage-backed securities (RMBS and CMBS, respectively), which are backed by residential and commercial mortgage loans, and which are Agency securities guaranteed by U.S. government-sponsored enterprises (GSEs)."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "active_investment",
+      "sentence": "Our CMBS investments comprised 6% of our investment portfolio as of December 31, 2025, and are fixed-rate Agency-issued securities backed by multifamily housing loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "GSE purchase of $200 billion in Agency MBS under Administration directive to support housing affordability",
+      "date": "2026-01",
+      "sentence": "Most notably, the Administration's January 2026 directive to the GSEs to purchase $200 billion in Agency MBS to support housing affordability creates a powerful technical tailwind."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:19:54.548Z",
+  "model": "deepseek-v4-flash"
+}

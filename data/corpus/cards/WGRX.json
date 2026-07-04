@@ -1,0 +1,81 @@
+{
+  "cik": "0002030763",
+  "ticker": "WGRX",
+  "name": "Wellgistics Health, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012004",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226012004/form10-k.htm"
+  },
+  "business": "Wellgistics Health is a holding company for operating companies in pharmaceuticals and healthcare services, including a pharmacy (Wellgistics Pharmacy), wholesale operations (Wellgistics LLC), and a technology division (DelivMeds) that provides a hub and clinical services platform. The company focuses on offering specialty-lite pharmaceutical products and services, sourcing and distributing products to its pharmacy and network of independent pharmacy partners. Its revenue is derived from pharmaceutical dispensing, care management services, SaaS fees for platform technology, and product procurement and distribution to independent pharmacies.",
+  "sellsTo": [
+    "patients",
+    "independent pharmacies",
+    "pharmaceutical manufacturers",
+    "payors",
+    "pharmacy benefit managers",
+    "providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "DelivMeds hub platform technology is able to produce de-identified customizable reports tailored to the requirements of each channel partner."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "DelivMeds hub platform uses artificial intelligence to facilitate a convenient and easy-to-use pharmacy experience for users of DelivMeds digital pharmacy and mobile technology solutions."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Wellgistics LLC provides distribution and 3PL services to both pharmaceutical manufacturers and independent retail pharmacies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of Wood Sage acquisition",
+      "date": "2024-06-16",
+      "sentence": "We completed the Wood Sage Acquisition on June 16, 2024, paying Mr. Panchal in shares of our common stock equal to approximately $400,000 issued at a 20% discount."
+    },
+    {
+      "event": "Closing of Wellgistics LLC acquisition",
+      "date": "2024-08-30",
+      "sentence": "On August 30, 2024, we closed on the acquisition of Wellgistics LLC, thereby making Wellgistics LLC a company focused on wholesale operations including the distribution and fulfillment of certain pharmaceutical medications to a network of independent pharmacies meant to improve market access to and patient outcomes regarding the medications a wholly owned subsidiary of the Company (the Wellgistics Acquisition)."
+    },
+    {
+      "event": "Eighth Amendment to Wellgistics MIPA (note increase)",
+      "date": "2025-07-24",
+      "sentence": "On July 24, 2025, the parties executed the Eighth Amendment to the MIPA, which increased the principal amount of the promissory note from $15.0 million to $17.5 million and modified the repayment schedule whereby $5,000,000 of principal shall be payable on the first and second anniversaries and $7,500,000 of principal shall be payable on the third anniversary, of the effective date of Promissory Note."
+    },
+    {
+      "event": "Debt conversion agreement with Integra Health",
+      "date": "2025-10-30",
+      "sentence": "On October 30, 2025, the Company entered into a Debt Conversion Agreement (the Integra Health DCA ) with Integra Health Inc., Blue Cap Acquisitions LLC, and WoodSage."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. National Health Expenditure in 2022 was $4.5 trillion, 17.3% of GDP.",
+      "sentence": "Data released from the Centers for Medicare & Medicaid Services illustrates that the National Health Expenditure Data for 2022 grew to $4.5 trillion dollars and accounted for 17.3% of GDP."
+    },
+    {
+      "claim": "Total U.S. medicine spending reached $435 billion in 2023.",
+      "sentence": "IQVIA S 2024 report on medicine spending trends found that overall spending in the U.S. market for medicines reached $435 billion in 2023."
+    },
+    {
+      "claim": "Specialty drugs account for less than 10% of total drugs but over 50% of prescription drug spend.",
+      "sentence": "It is well documented in the literature that the specialty drug market accounts for less than 10% of total drugs in the market but is responsible for greater than 50% of the prescription drug spend per annum."
+    },
+    {
+      "claim": "The pharmacy network represents a $47 billion market at wholesale cost, with over 19,000 pharmacies and 1.3 billion annual prescriptions.",
+      "sentence": "This channel represents over 19,000 pharmacies across the United States, servicing 1.3 billion prescriptions annually representing a $47 billion market at wholesale cost."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:35:33.373Z",
+  "model": "deepseek-v4-flash"
+}

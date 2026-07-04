@@ -1,0 +1,54 @@
+{
+  "cik": "0001253986",
+  "ticker": "ABR",
+  "name": "ARBOR REALTY TRUST INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001253986-26-000019",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1253986/000125398626000019/abr-20251231.htm"
+  },
+  "business": "Arbor Realty Trust is a real estate investment trust that provides loan origination and servicing for commercial real estate assets, operating through two segments: Structured Business (investing in bridge loans, mezzanine loans, preferred equity) and Agency Business (originating, selling, and servicing multifamily loans through GSEs and HUD).",
+  "sellsTo": [
+    "multifamily property owners",
+    "single-family rental property owners",
+    "commercial real estate borrowers",
+    "government-sponsored enterprises (Fannie Mae, Freddie Mac)",
+    "HUD",
+    "institutional investors"
+  ],
+  "namedCustomers": [
+    "Fannie Mae",
+    "Freddie Mac",
+    "Ginnie Mae",
+    "Federal Housing Authority",
+    "U.S. Department of Housing and Urban Development"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are a nationwide real estate investment trust (REIT) and direct lender, providing loan origination and servicing for commercial real estate assets... primarily consisting of bridge loans, in addition to mezzanine loans, junior participating interests in first mortgages and preferred equity."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Through our Structured Business, we invest in a diversified portfolio of structured finance assets in the multifamily, single-family rental (SFR) and commercial real estate markets, primarily consisting of bridge loans, in addition to mezzanine loans, junior participating interests in first mortgages and preferred equity."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity Risks: If we are unable to safeguard against cybersecurity breaches and cyberattacks with respect to our information systems, our business may be adversely affected."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "FHFA set its 2026 Caps for Fannie Mae and Freddie Mac at $88 billion for each enterprise for a total opportunity of $176 billion.",
+      "sentence": "FHFA set its 2026 Caps for Fannie Mae and Freddie Mac at $88 billion for each enterprise for a total opportunity of $176 billion, which is an increase from its 2025 Caps of $73 billion for each enterprise."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:54:34.601Z",
+  "model": "deepseek-v4-flash"
+}

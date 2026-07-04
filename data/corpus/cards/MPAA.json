@@ -1,0 +1,51 @@
+{
+  "cik": "0000918251",
+  "ticker": "MPAA",
+  "name": "MOTORCAR PARTS OF AMERICA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-024463",
+    "filedAt": "2026-06-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/918251/000114036126024463/ef20070436_10k.htm"
+  },
+  "business": "The company sells remanufactured and purchased automotive aftermarket parts, test solutions, and diagnostic equipment. Its three operating segments are Hard Parts (light duty rotating electric products and brake-related products), Test Solutions and Diagnostic Equipment, and Heavy Duty (replacement parts for heavy-duty truck, industrial, marine, and agricultural applications).",
+  "sellsTo": [
+    "Automotive aftermarket",
+    "Professional installer market",
+    "Retail stores",
+    "Heavy-duty truck, industrial, marine, and agricultural applications"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "Certain of these competitors are investing heavily in advanced automated manufacturing technologies, including robotics, artificial intelligence-driven production systems, and large-scale manufacturing infrastructure."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Test Solutions and Diagnostic Equipment, which includes (i) applications for combustion engine vehicles, including bench-top testers for alternators and starters, (ii) equipment for the pre- and post-production of electric vehicles, and (iii) software emulation of power system applications for the electrification of all forms of transportation (including automobiles, trucks, the emerging electrification of systems within the aerospace industry, and electric vehicle charging stations)."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Many leaders and consumers in the automotive industry are increasingly focused on the development of hybrid and electric vehicles and of advanced driver assistance technologies, with the goal of a commercially-viable, fully-automated driving experience."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks or other breaches of information technology security could adversely impact our business and operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If we are unable to timely and effectively adopt, implement, or scale AI and other advanced technologies, we may experience reduced operational efficiency, higher costs, slower innovation cycles, and diminished customer value propositions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:57:44.577Z",
+  "model": "deepseek-v4-flash"
+}

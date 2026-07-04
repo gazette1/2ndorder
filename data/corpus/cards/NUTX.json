@@ -1,0 +1,56 @@
+{
+  "cik": "0001479681",
+  "ticker": "NUTX",
+  "name": "Nutex Health Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-015168",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026015168/nutx-20251231.htm"
+  },
+  "business": "Nutex Health Inc. is a physician-led healthcare services company with 26 hospital facilities in 12 states and a population health management division. The hospital division operates micro-hospitals, specialty hospitals, and hospital outpatient departments. The population health management division owns and manages provider networks such as independent physician associations (IPAs).",
+  "sellsTo": [
+    "insurers",
+    "federal agencies",
+    "patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "HaloMD"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Effective May 1, 2024, we engaged HaloMD, a third-party tech-enabled expert, to further support our out-of-network claims and determine which claims would be beneficial to arbitrate."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "We generally operate as an out-of-network provider and, as such, do not have negotiated reimbursement rates with most insurance companies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open three new hospital facilities by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "We expect to open three new hospital facilities by the end of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Hospital care expenditures increased 9.2% from the previous year and totaled about $1.7 trillion.",
+      "sentence": "In 2024, hospital care expenditures increased 9.2% from the previous year and totaled about $1.7 trillion."
+    },
+    {
+      "claim": "CMS projects hospital services category growth at 5.5% annually from 2028 through 2033, reaching nearly $2.7 trillion by 2033.",
+      "sentence": "CMS projects that the hospital services category will grow at an average of 5.5% annually from 2028 through 2033, reaching nearly $2.7 trillion by 2033."
+    },
+    {
+      "claim": "National healthcare expenditures grew 7.2% in 2024 to $5.3 trillion.",
+      "sentence": "According to the Centers for Medicare & Medicaid Services, or CMS, national healthcare expenditures grew 7.2% in 2024 to $5.3 trillion."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:26:18.298Z",
+  "model": "deepseek-v4-flash"
+}

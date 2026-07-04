@@ -1,0 +1,110 @@
+{
+  "cik": "0001743759",
+  "ticker": "CRSR",
+  "name": "Corsair Gaming, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067833",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1743759/000119312526067833/crsr-20251231.htm"
+  },
+  "business": "Corsair Gaming, Inc. is a leading global provider and innovator of high-performance products for gamers and digital creators such as streamers, vloggers and broadcasters. It designs and sells high-performance gaming and streaming peripherals, components and systems to enthusiasts globally. Products are grouped into Gamer and Creator Peripherals (keyboards, mice, headsets, controllers, streaming products) and Gaming Components and Systems (PSUs, cooling, cases, DRAM, prebuilt/custom gaming PCs, laptops, AI workstations).",
+  "sellsTo": [
+    "gamers",
+    "digital creators (streamers, vloggers, broadcasters)",
+    "gaming enthusiasts",
+    "retailers (Amazon, Best Buy, Walmart)",
+    "direct-to-consumer"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Best Buy",
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Corsair Gaming, Inc. ... is a leading global provider and innovator of high-performance products for gamers and digital creators such as streamers, vloggers and broadcasters."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our products are sold to end users worldwide through our retail channel or our direct-to-consumer channel."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We depend upon the introduction and success of new third-party high-performance computer hardware, particularly GPUs and CPUs, and sophisticated new video games to drive sales of our products."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "and AI workstations, among others."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "A key driver of improved industry momentum in 2025 was the launch of NVIDIA next-generation graphics cards in early 2025, following an extended refresh cycle of approximately 2.5 years. These new 5000 series GPUs, incorporating advanced artificial intelligence (AI) architectures, delivered meaningful performance improvements, including higher frame rates at 4K resolution and enhanced ray-tracing capabilities supported by AI-driven frame generation."
+    },
+    {
+      "tag": "other:sim-racing",
+      "stance": "core_product",
+      "sentence": "We believe we can continue to grow by offering market-leading products to gamers, creators, and sim racing enthusiasts, expanding the breadth of our product suite to meet the needs of our customers, continuing to invest in marketing, product innovation and sales, and selectively pursuing accretive acquisitions, such as the ten acquisitions we have completed since 2018, including the Fanatec acquisition in September 2024."
+    },
+    {
+      "tag": "other:streaming",
+      "stance": "core_product",
+      "sentence": "Our streaming products enable creators, particularly streamers, to produce studio-quality content."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fanatec acquisition completed",
+      "date": "2024-09",
+      "sentence": "including the Fanatec acquisition in September 2024."
+    },
+    {
+      "event": "Appointment of Thi La as CEO",
+      "date": "2025-07-01",
+      "sentence": "the appointment of Thi La, our previous President and Chief Operating Officer, to serve as Chief Executive Officer, effective July 1, 2025"
+    },
+    {
+      "event": "Appointment of Gordon Mattingly as CFO",
+      "date": "2025-12-02",
+      "sentence": "the appointment of Gordon Mattingly as our new Chief Financial Officer, effective December 2, 2025."
+    },
+    {
+      "event": "Launch of NVIDIA next-generation graphics cards (5000 series)",
+      "date": null,
+      "sentence": "A key driver of improved industry momentum in 2025 was the launch of NVIDIA next-generation graphics cards in early 2025"
+    },
+    {
+      "event": "Launch of Nintendo Switch 2",
+      "date": "2025-06",
+      "sentence": "The launch of the Nintendo Switch 2 in June 2025 also contributed to sustained consumer interest and activity"
+    },
+    {
+      "event": "Opened first immersive retail experience store in California",
+      "date": null,
+      "sentence": "during 2025 we opened our first immersive retail experience store in California to further support direct customer engagement and showcase our product ecosystem."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "gaming represents approximately 15% of total consumer internet and media time",
+      "sentence": "According to the Activate Research 2025 report, gaming represents approximately 15% of total consumer internet and media time"
+    },
+    {
+      "claim": "YouTube reported approximately 2.7 billion monthly active users",
+      "sentence": "with YouTube reporting approximately 2.7 billion monthly active users"
+    },
+    {
+      "claim": "Twitch averaged approximately 2.5 million concurrent viewers in 2025",
+      "sentence": "and Twitch averaging approximately of 2.5 million concurrent viewers in 2025"
+    }
+  ],
+  "generatedAt": "2026-07-04T00:14:36.927Z",
+  "model": "deepseek-v4-flash"
+}

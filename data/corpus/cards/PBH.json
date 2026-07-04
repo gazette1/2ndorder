@@ -1,0 +1,53 @@
+{
+  "cik": "0001295947",
+  "ticker": "PBH",
+  "name": "Prestige Consumer Healthcare Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001295947-26-000016",
+    "filedAt": "2026-05-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1295947/000129594726000016/pbh-20260331.htm"
+  },
+  "business": "Prestige Consumer Healthcare Inc. develops, manufactures, markets, sells, and distributes brand name over-the-counter (OTC) health and personal care products to mass merchandisers, drug/drug wholesale, food, dollar, convenience, club stores, and e-commerce channels in North America, Australia, and certain other international markets.",
+  "sellsTo": [
+    "mass merchandisers",
+    "drug/drug wholesale",
+    "food stores",
+    "dollar stores",
+    "convenience stores",
+    "club stores",
+    "e-commerce channels"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are engaged in the development, manufacturing, marketing, sales and distribution of well-recognized, brand name, over-the-counter (OTC) health and personal care products."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Certain of our U.S. OTC Healthcare products are medical devices regulated by the FDA through one of three classes of medical devices."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents and other disruptions to our information technology systems, or those of our customers, suppliers or other third parties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Breathe Right and other brands from Foundation Consumer Brands",
+      "date": null,
+      "sentence": "On March 19, 2026, we entered into a definitive agreement to acquire certain assets and assume certain liabilities primarily related to a portfolio of over-the-counter consumer health products, including Breathe Right and certain other brands from Foundation Consumer Brands, LLC. We anticipate the transaction to close in the first half of fiscal 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:48:07.684Z",
+  "model": "deepseek-v4-flash"
+}

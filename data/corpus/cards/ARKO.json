@@ -1,0 +1,75 @@
+{
+  "cik": "0001823794",
+  "ticker": "ARKO",
+  "name": "ARKO Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071464",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823794/000119312526071464/arko-20251231.htm"
+  },
+  "business": "ARKO Corp. operates convenience stores selling fuel and merchandise to retail customers, supplies fuel to dealer locations, and operates fleet fueling cardlock locations for commercial and municipal entities.",
+  "sellsTo": [
+    "retail customers",
+    "dealers (third-party gas station operators)",
+    "commercial and municipal entities (fleet fueling)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Core-Mark",
+    "Valero",
+    "Marathon",
+    "BP",
+    "Exxon",
+    "Shell",
+    "Subway",
+    "Dunkin"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "we had 211 electric vehicle (EV) chargers at 72 of our locations across 16 states as of December 31, 2025."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Automotive, industrial and power generation manufacturers are developing more fuel-efficient engines, hybrid engines, electric vehicles and alternative clean power systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Significant disruptions of information technology systems, breaches of data security or other cybersecurity incidents, or compromised data could materially adversely affect our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "APC IPO completion and listing of Class A common stock",
+      "date": "2026-02-13",
+      "sentence": "the closing of the initial public offering of the Class A common stock of our subsidiary, ARKO Petroleum Corp., a Delaware corporation (APC), on February 13, 2026."
+    },
+    {
+      "event": "APC Class A common stock begins trading on Nasdaq",
+      "date": "2026-02-12",
+      "sentence": "APC s Class A common stock began trading on the Nasdaq under the symbol APC on February 12, 2026."
+    },
+    {
+      "event": "Relaunch of fas REWARDS loyalty program app",
+      "date": "2026-03-31",
+      "sentence": "In the first quarter of 2026, we plan to relaunch our fas REWARDS loyalty program app, which will include personalized features such as easy enrollment, an employee hub, store locators with individual member fuel pricing, Fueling America s Future deals, value meals, age verified offers for tobacco and alcohol, and gaming."
+    },
+    {
+      "event": "Open additional NTI retail stores and Dunkin stores in 2026",
+      "date": "2026-12-31",
+      "sentence": "Two additional NTI retail stores opened thus far in 2026, and we plan to open one more NTI retail store and three Dunkin stores in 2026."
+    },
+    {
+      "event": "Target 20 NTI fleet fueling locations in 2026",
+      "date": "2026-12-31",
+      "sentence": "We are targeting 20 NTI fleet fueling locations with target openings during 2026, 10 of which we are currently advancing, which we anticipate will have a positive impact on our results of operations given the attractive, durable cash flow profile of our fleet fueling business."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:31:37.842Z",
+  "model": "deepseek-v4-flash"
+}

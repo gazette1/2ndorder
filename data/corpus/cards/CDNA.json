@@ -1,0 +1,60 @@
+{
+  "cik": "0001217234",
+  "ticker": "CDNA",
+  "name": "CareDx, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001217234-26-000018",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1217234/000121723426000018/cdna-20251231.htm"
+  },
+  "business": "CareDx is a precision medicine company dedicated to improving outcomes for transplant patients and advancing organ health. Its integrated solutions include non-invasive molecular testing for heart, kidney, and lung transplants; laboratory products; digital health technologies; and patient solutions that support care before and after transplant.",
+  "sellsTo": [
+    "transplant centers",
+    "healthcare providers",
+    "patients",
+    "payers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Thermo Fisher Scientific, Inc.",
+    "Roche Molecular Systems",
+    "Hamilton Robotics",
+    "Illumina",
+    "Becton, Dickinson and Company",
+    "Streck",
+    "Beckman Coulter",
+    "Qiagen N.V."
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "CareDx is the leading provider of genomics-based information for transplant patients."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our software solutions are currently used in over 170 transplant centers in the U.S."
+    },
+    {
+      "tag": "other:ai-diagnostics",
+      "stance": "core_product",
+      "sentence": "AlloSure Plus is an artificial intelligence driven diagnostic platform that integrates AlloSure dd cfDNA analysis with additional clinical inputs to provide a personalized assessment related to organ rejection risk in transplant recipients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches, loss of data, or other disruptions could compromise sensitive information, prevent access to critical information, expose us to liability, and adversely affect our business and our reputation."
+    },
+    {
+      "tag": "other:ai-investment",
+      "stance": "active_investment",
+      "sentence": "This approach includes continual process improvement and strategic investments in enterprise applications, remote process automation, artificial intelligence, and business intelligence tools."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:03:24.999Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0000814585",
+  "ticker": "MBI",
+  "name": "MBIA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-076834",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/814585/000119312526076834/mbi-20251231.htm"
+  },
+  "business": "MBIA provides financial guarantee insurance to the U.S. public finance markets through its subsidiary National, and to international and structured finance markets through MBIA Corp. The company is in run-off and does not expect to write new financial guarantee policies outside remediation activities.",
+  "sellsTo": [
+    "U.S. public finance entities (municipalities, utilities, healthcare, higher education, housing authorities)",
+    "International public finance entities",
+    "Global structured finance entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Insight North America, LLC (Insight Investment)"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "MBIA's primary business has been to provide financial guarantee insurance to the United States public finance markets through our indirect, wholly-owned subsidiary, National, whose financial guarantee insurance policies provide investors with unconditional and irrevocable guarantees of the payment of the principal, interest or other amounts owing on insured obligations when due."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "National's insured portfolio consists of municipal bonds, including tax-exempt and taxable indebtedness of U.S. political subdivisions and territories, as well as utilities, airports, health care institutions, higher educational facilities, housing authorities and other similar agencies and obligations issued by private entities that finance projects that serve a substantial public purpose."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "National's insured portfolio consists of municipal bonds, including tax-exempt and taxable indebtedness of U.S. political subdivisions and territories, as well as utilities, airports, health care institutions, higher educational facilities, housing authorities and other similar agencies and obligations issued by private entities that finance projects that serve a substantial public purpose."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Audit Committee oversees risks associated with financial and other reporting, auditing, legal and regulatory compliance, and risks that may otherwise result from the Company’s operations, including cybersecurity risk."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "As part of its Enterprise Risk Management framework, MBIA has identified climate change as an emerging risk to its insured portfolio of public finance credits."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:21:41.742Z",
+  "model": "deepseek-v4-flash"
+}

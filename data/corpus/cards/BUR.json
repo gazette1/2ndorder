@@ -1,0 +1,62 @@
+{
+  "cik": "0001714174",
+  "ticker": "BUR",
+  "name": "Burford Capital Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001714174-26-000007",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000007/bur-20251231.htm"
+  },
+  "business": "Burford Capital Limited is the world's largest dedicated provider of capital against the underlying value of litigation and legal assets, serving large businesses and law firms. It provides legal finance primarily for large, complex disputes.",
+  "sellsTo": [
+    "large businesses",
+    "law firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:legal-finance",
+      "stance": "core_product",
+      "sentence": "Burford is the world’s largest dedicated provider of capital, based on portfolio size, against the underlying value of litigation and legal assets, which we colloquially call legal finance."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business and operations could suffer if we are not able to prevent improper use or disclosure of, or access to, privileged information, intellectual property or litigation or business strategy due to cybersecurity breaches, unauthorized use or theft."
+    },
+    {
+      "tag": "other:AI",
+      "stance": "risk_mention",
+      "sentence": "The inaccuracy or failure of the probabilistic model and decision science tools, including AI technologies, we use to predict the returns on our legal finance assets and in our operations could have a material adverse effect on our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of Second Circuit decision on YPF appeal",
+      "date": null,
+      "sentence": "On October 29, 2025, oral argument of the appeal and cross-appeal occurred before a panel of the Second Circuit and the panel’s decision was reserved and will be released in due course."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Annualized global legal fees $820 billion",
+      "sentence": "In the most recent year of available industry data, annualized global legal fees were $820 billion"
+    },
+    {
+      "claim": "US legal fees $386 billion",
+      "sentence": "of which $386 billion was in the United States"
+    },
+    {
+      "claim": "Value of pending ICC arbitration cases $354 billion",
+      "sentence": "the value of pending arbitration cases before the International Chamber of Commerce's International Court of Arbitration was $354 billion"
+    },
+    {
+      "claim": "Revenue of largest 200 US law firms $186 billion",
+      "sentence": "while estimated revenue of the largest 200 US law firms was $186 billion"
+    }
+  ],
+  "generatedAt": "2026-07-04T00:30:12.318Z",
+  "model": "deepseek-v4-flash"
+}

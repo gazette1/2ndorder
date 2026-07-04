@@ -1,0 +1,67 @@
+{
+  "cik": "0000866729",
+  "ticker": "SCHL",
+  "name": "SCHOLASTIC CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000866729-25-000020",
+    "filedAt": "2025-07-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/866729/000086672925000020/schl-20250531.htm"
+  },
+  "business": "Scholastic is the world's largest publisher and distributor of children's books, a leading provider of print and digital instructional materials for grades pre-K to 12, and a producer of literary and educational children's media. It distributes through school-based book clubs, book fairs, retail stores, and online channels. The company has operations in the United States and internationally.",
+  "sellsTo": [
+    "schools",
+    "teachers",
+    "parents",
+    "children",
+    "libraries",
+    "bookstores",
+    "online retailers",
+    "mass merchandisers",
+    "school districts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "There are substantial uncertainties associated with the Company’s efforts to develop successful trade publishing, educational, and media products and services, including digital products and services, for its customers, as well as to adapt its print and other materials to new digital technologies, such as the internet cloud technologies, tablets, mobile and other devices and school-based technologies and uncertainties involving the use of AI in connection with the foregoing."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company faces cybersecurity risks that include attempts to deploy malicious software to intrude on the Company’s networks to steal private information of the Company and its customers and other parties, to commence denial of service attacks or to cause other disruption."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "In fiscal 2025, approximately 98% of total book club revenues were placed via the internet through the Company’s online ordering platform."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "The Entertainment segment includes the development, production, distribution and licensing of kids and family film and television content."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Scholastic is a leading publisher of children’s books sold through bookstores, online retailers and mass merchandisers primarily in the United States."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of next Dog Man title",
+      "date": null,
+      "sentence": "During fiscal 2026, the Company expects to continue to expand the reach and monetization of Scholastic’s intellectual property, which includes the release of the next title in the best-selling Dog Man series and a growing slate of content development and production commitments."
+    },
+    {
+      "event": "Execution of 15-year lease for second floor of headquarters",
+      "date": null,
+      "sentence": "Subsequent to May 31, 2025, the Company entered into a 15-year lease for the remaining portion of the second floor."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:36:34.439Z",
+  "model": "deepseek-v4-flash"
+}

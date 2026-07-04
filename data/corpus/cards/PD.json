@@ -1,0 +1,69 @@
+{
+  "cik": "0001568100",
+  "ticker": "PD",
+  "name": "PagerDuty, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001568100-26-000012",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1568100/000156810026000012/pd-20260131.htm"
+  },
+  "business": "PagerDuty sells a cloud-based digital operations management platform called the PagerDuty Operations Cloud. The platform ingests signals from over 700 integrations to orchestrate incident response and automate workflows. Revenue comes primarily from cloud-hosted software subscriptions, targeting enterprise customers across industries such as technology, financial services, healthcare, and retail.",
+  "sellsTo": [
+    "enterprise customers",
+    "Fortune 500",
+    "Fortune 100",
+    "Forbes AI 50",
+    "technology companies",
+    "financial services",
+    "telecommunications",
+    "retail",
+    "travel and hospitality",
+    "media and entertainment",
+    "U.S. public sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Microsoft",
+    "Amazon Web Service (AWS)",
+    "Datadog",
+    "Grafana",
+    "GitHub",
+    "Atlassian",
+    "Salesforce",
+    "ServiceNow",
+    "Slack",
+    "Zendesk"
+  ],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Built for the modern era of artificial intelligence (AI), PagerDuty empowers customers to maximize the value of their AI investments through agentic workflows, AI-powered automation, and intelligent orchestration that accelerates incident detection and resolution while enabling teams to focus on innovation rather than firefighting."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our platform ingests signals from over 700 integrations including monitoring, observability, security, customer service, and development tools to orchestrate the right response across people, machines, and software."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Issues relating to the responsible use of our technologies, including Emerging AI Technologies in our offerings, may result in reputational or financial harm and liability."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The availability of foundation models and agentic frameworks via public APIs and open-source releases may lower barriers to entry for new and niche competitors."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Hyperscale cloud providers and adjacent platform vendors may also bundle or integrate overlapping incident response, automation, and agentic capabilities directly, which could accelerate adoption of competing capabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:56:05.323Z",
+  "model": "deepseek-v4-flash"
+}

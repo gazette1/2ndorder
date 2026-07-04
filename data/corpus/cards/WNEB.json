@@ -1,0 +1,45 @@
+{
+  "cik": "0001157647",
+  "ticker": "WNEB",
+  "name": "Western New England Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001999371-26-005514",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1157647/000199937126005514/wneb-10k_123125.htm"
+  },
+  "business": "Western New England Bancorp, Inc. is a Massachusetts-chartered stock holding company that conducts its principal business activities through its wholly owned subsidiary Westfield Bank, a full-service, community oriented financial institution offering a full range of commercial and retail products and services as well as wealth management financial products.",
+  "sellsTo": [
+    "businesses, non-profits, and professional practices",
+    "individuals",
+    "middle market and commercial real estate customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company originates and funds residential real estate loans, including first mortgages, home equity loans, and home equity lines of credit, secured by one-to-four family residential properties primarily located in western Massachusetts and Connecticut."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Bank also provides a variety of banking services including telephone and online banking, remote deposit capture, cash management services, overdraft facilities, night deposit services, and safe deposit facilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We Face Cybersecurity Risks and Risks Associated with Security Breaches Which Have the Potential to Disrupt Our Operations, Cause Material Harm to Our Financial Condition, Result in Misappropriation of Assets, Compromise Confidential Information and/or Damage Our Business Relationships and Can Provide No Assurance That the Steps We and Our Service Providers Take in Response to These Risks Will Be Effective."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "The Development and Use of Artificial Intelligence Exposes Us to Risks That May Adversely Impact our Business"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:48:31.396Z",
+  "model": "deepseek-v4-flash"
+}

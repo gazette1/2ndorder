@@ -1,0 +1,42 @@
+{
+  "cik": "0000745308",
+  "ticker": "JOE",
+  "name": "ST JOE Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-019676",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/745308/000110465926019676/joe-20251231x10k.htm"
+  },
+  "business": "St. Joe Company is a diversified real estate development, asset management, and operating company with all assets in Northwest Florida. It develops and sells homesites to homebuilders and retail customers, operates hospitality assets including hotels, golf courses, and clubs, and leases commercial properties. It also has a timber business and operates a real estate brokerage, title insurance agency, and insurance agency.",
+  "sellsTo": [
+    "homebuilders",
+    "retail customers",
+    "club members",
+    "hotel guests",
+    "commercial tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are reliant on computers and digital technology, including certain technology systems from third-party vendors, which we use to operate our business, which are not under our control."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "we operate a real estate brokerage, title insurance agency and insurance agency business."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "active_investment",
+      "sentence": "We are currently developing the Watersound Town Center in Walton County, Florida and Watersound West Bay Center in Bay County, Florida."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:31:43.623Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,39 @@
+{
+  "cik": "0001472494",
+  "ticker": "BNO",
+  "name": "United States Brent Oil Fund, LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021521",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1472494/000110465926021521/bno-20251231x10k.htm"
+  },
+  "business": "United States Brent Oil Fund, LP (BNO) is a commodity pool that issues shares traded on the NYSE Arca. Its investment objective is to track the daily percentage changes in the spot price of Brent crude oil, as measured by the daily changes in the price of a specified short-term futures contract. BNO invests primarily in Brent crude oil futures contracts and, to a lesser extent, in other oil-related investments.",
+  "sellsTo": [
+    "secondary market investors on NYSE Arca",
+    "Authorized Participants who create and redeem baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The investment objective of BNO is for the daily changes in percentage terms of its shares per share NAV to reflect the daily changes, in percentage terms, of the spot price of Brent crude oil, as measured by the daily changes in the price of a specified short-term futures contract on Brent crude oil as traded on the ICE Futures Europe Exchange."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "BNO's investment returns could be negatively affected by climate change and greenhouse gas restrictions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Due to the increased use of technologies, intentional and unintentional cyber-attacks pose operational and information security risks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:43:22.397Z",
+  "model": "deepseek-v4-flash"
+}

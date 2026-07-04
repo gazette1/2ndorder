@@ -1,0 +1,42 @@
+{
+  "cik": "0002015034",
+  "ticker": "BTC",
+  "name": "Grayscale Bitcoin Mini Trust ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071952",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2015034/000119312526071952/btc-20251231.htm"
+  },
+  "business": "The Trust holds Bitcoin and issues Creation Baskets in exchange for deposits of Bitcoin, providing investors with exposure to the price of Bitcoin. The Trust's investment objective is for the value of the Shares to reflect the value of Bitcoin held by the Trust, determined by reference to the Index Price, less expenses and liabilities. The Trust is a passive entity that does not utilize leverage or derivatives.",
+  "sellsTo": [
+    "Investors seeking exposure to Bitcoin"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company",
+    "Anchorage Digital Bank N.A.",
+    "Coinbase, Inc.",
+    "Jane Street Capital, LLC",
+    "Virtu Americas LLC",
+    "Macquarie Capital (USA) Inc.",
+    "ABN AMRO Clearing USA LLC",
+    "Goldman Sachs & Co. LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "The Trust holds Bitcoin and, from time to time on a periodic basis, issues Creation Baskets in exchange for deposits of Bitcoin."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "As of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market-capitalization of approximately $2.7 trillion (including the approximately $1.75 trillion market cap of Bitcoin).",
+      "sentence": "as of December 31, 2025, the alternative digital assets tracked by CoinMarketCap.com had a total market-capitalization of approximately $2.7 trillion (including the approximately $1.75 trillion market cap of Bitcoin), as calculated using market prices and total available supply of each digital asset, excluding tokens pegged to other assets."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:39:26.607Z",
+  "model": "deepseek-v4-flash"
+}

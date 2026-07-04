@@ -1,0 +1,67 @@
+{
+  "cik": "0001808805",
+  "ticker": "NAUT",
+  "name": "Nautilus Biotechnology, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001808805-26-000011",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1808805/000180880526000011/naut-20251231.htm"
+  },
+  "business": "Nautilus Biotechnology, Inc. is a development stage life sciences company developing the Nautilus Voyager platform, an integrated single-molecule proteomic analysis system that implements its Iterative Mapping method. The platform is designed to enable comprehensive, reproducible, and scalable characterization of the proteome for research applications. It targets the life sciences research market, including pharmaceutical companies, academic institutions, and research organizations.",
+  "sellsTo": [
+    "biopharmaceutical companies",
+    "academic institutions",
+    "research organizations"
+  ],
+  "namedCustomers": [
+    "Genentech",
+    "Michael J. Fox Foundation",
+    "Weill Cornell Medicine Qatar",
+    "Buck Institute for Research on Aging",
+    "Allen Institute"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "The Nautilus Voyager TM platform is designed to implement the Iterative Mapping method, which enables broad and deep characterization of the proteome for research applications in drug discovery, biomarker development, and precision medicine."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "risk_mention",
+      "sentence": "If our technology is validated across translational research applications, we believe Iterative Mapping could transfer well into the clinical setting that many prior technologies have thus far been unable reach."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We anticipate that the Nautilus Voyager platform will generate the large volumes of high quality data needed to train AI models of biology much as large language models depend on massive internet datasets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Iterative Mapping Early Access Program for targeted proteoform analysis with Tau Proteoforms Assay",
+      "date": "2026-01-01",
+      "sentence": "We announced the launch of our Iterative Mapping Early Access Program starting with target specific service offerings in January 2026 for the analysis of the microtubule-associated protein tau (or Tau for short)."
+    },
+    {
+      "event": "Initiate commercial launch with pre-orders for Nautilus Voyager platform",
+      "date": "2026-late",
+      "sentence": "We expect to initiate our commercial launch in late 2026 by opening the Nautilus Voyager TM platform for pre-orders, with instrument installations at customer sites beginning in early 2027."
+    },
+    {
+      "event": "General availability of Broadscale proteomics capabilities",
+      "date": "2027-H1",
+      "sentence": "We anticipate general availability of Broadscale proteomics capabilities in the first half of 2027, as we continue expanding the platform s assay portfolio."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global proteomics research market projected to grow to approximately $57 billion by 2030, representing a CAGR of approximately 13% from 2025 to 2030.",
+      "sentence": "According to BCC Research report Proteomics: Technologies and Global Markets , issued in May 2025, the overall proteomics market is projected to reach approximately $57 billion in 2030, representing a projected CAGR of 13% in global market growth from 2025 through 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:22:30.366Z",
+  "model": "deepseek-v4-flash"
+}

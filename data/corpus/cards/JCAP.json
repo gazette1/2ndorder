@@ -1,0 +1,69 @@
+{
+  "cik": "0002046042",
+  "ticker": "JCAP",
+  "name": "Jefferson Capital, Inc. / DE",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027199",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/2046042/000110465926027199/jcap-20251231x10k.htm"
+  },
+  "business": "Jefferson Capital, Inc. primarily purchases portfolios of consumer receivables at deep discounts to face value and manages them by working with individuals as they repay their obligations. It also provides debt servicing and other portfolio management services to credit originators for non-performing loans. Through credit card acquisition programs, the Company earns credit card revenue.",
+  "sellsTo": [
+    "Fortune 500 creditors",
+    "banks",
+    "fintech origination platforms",
+    "telecommunications providers",
+    "credit card issuers",
+    "auto finance companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Through credit card acquisition programs, the Company earns credit card revenue."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The regulatory landscape currently allows for the development and testing of innovative collection capabilities, including the use of artificial intelligence (AI)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and our third-party providers are exposed to cybersecurity risks and incidents which could damage our reputation and adversely impact our business and financial results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of initial public offering",
+      "date": "2025-06",
+      "sentence": "In June 2025, the Company completed its initial public offering ( IPO ), in which the selling shareholders sold 10,875,000 shares after giving effect to the underwriters exercise of the over-allotment option, at a public offering price of $15.00 per share."
+    },
+    {
+      "event": "Follow-on equity offering",
+      "date": null,
+      "sentence": "Following quarter end, we executed a follow-on equity offering, which reduced the ownership of JCF Stockholders to 53.1%."
+    },
+    {
+      "event": "Completion of Bluestem portfolio acquisition",
+      "date": "2025-12-04",
+      "sentence": "On December 4, 2025, pursuant to the terms and conditions of the Purchase Agreement, we completed the portfolio acquisition of credit card assets from Bluestem (the Acquisition )."
+    },
+    {
+      "event": "Amendment and extension of revolving credit facility",
+      "date": "2025-10-27",
+      "sentence": "On October 27, 2025 the Company further amended and extended its credit agreement dated May 21, 2021, by and among CL Holdings, LLC, Jefferson Capital Systems, LLC, JC International Acquisition, LLC, CFG Canada Funding LLC, Citizens Banks, N.A. and the lenders from time-to-time party thereto (the Credit Agreement ) to an aggregate commitment of $1.0 billion via a syndication led by Citizens Bank."
+    },
+    {
+      "event": "Conn's portfolio acquisition",
+      "date": null,
+      "sentence": "In December 2024 we completed the Conn s portfolio acquisition."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:58:59.458Z",
+  "model": "deepseek-v4-flash"
+}

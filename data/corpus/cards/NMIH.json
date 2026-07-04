@@ -1,0 +1,36 @@
+{
+  "cik": "0001547903",
+  "ticker": "NMIH",
+  "name": "NMI Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001547903-26-000011",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1547903/000154790326000011/nmih-20251231.htm"
+  },
+  "business": "NMIH provides private mortgage insurance through its wholly-owned insurance subsidiary NMIC, protecting lenders and investors from default-related losses on high-LTV residential mortgages. It also offers outsourced loan review services to mortgage loan originators through its subsidiary NMIS. The primary beneficiaries of its mortgage insurance are the GSEs (Fannie Mae and Freddie Mac).",
+  "sellsTo": [
+    "mortgage lenders (national and regional mortgage banks, money center banks, credit unions, community banks, etc.)",
+    "GSEs (Fannie Mae and Freddie Mac)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Tata Consultancy Services (TCS)"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide mortgage insurance (referred to as mortgage insurance or MI) through our wholly-owned insurance subsidiaries, NMIC and Re One."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are exposed to operational risk from fraud, malfeasance or error by borrowers, employees and third-party service providers, and any such fraud, malfeasance or error could materially and adversely affect us."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:56:04.514Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0001421461",
+  "ticker": "IPI",
+  "name": "Intrepid Potash, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001421461-26-000008",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1421461/000142146126000008/ipi-20251231.htm"
+  },
+  "business": "Intrepid Potash, Inc. sells potash (muriate of potash), specialty fertilizer Trio (containing potassium, magnesium, sulfur), and byproducts including salt, magnesium chloride, and brines, as well as water and oilfield services. Customers are in agriculture, animal feed, industrial markets, and the oil and gas industry.",
+  "sellsTo": [
+    "agriculture",
+    "animal feed",
+    "industrial",
+    "oil and gas industry"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We are a diversified mineral company that delivers potassium, magnesium, sulfur, salt, and water products essential for customer success in agriculture, animal feed and the oil and gas industry."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Oil and gas activity and development in southeast New Mexico drives demand for our water and other oilfield related products and services."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We produce potash from three solution mining facilities: our HB solution mine in Carlsbad, New Mexico, our solution mine in Moab, Utah, and our brine recovery mine in Wendover, Utah."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We produce a specialty fertilizer, Trio, which delivers three key nutrients, potassium, magnesium, and sulfur, in a single particle."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "the brine at our Wendover facility also contains lithium and in 2025, we entered into a Joint Development Agreement (the 'JDA') with Aquatech International, LLC ('Aquatech') and Adionics to pursue the potential development of a 5,000 metric tonne lithium extraction facility using the post-process brine at our Wendover facility."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into Joint Development Agreement for lithium extraction",
+      "date": null,
+      "sentence": "the brine at our Wendover facility also contains lithium and in 2025, we entered into a Joint Development Agreement (the 'JDA') with Aquatech International, LLC ('Aquatech') and Adionics to pursue the potential development of a 5,000 metric tonne lithium extraction facility using the post-process brine at our Wendover facility."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global potash production in 2025 was approximately 74 million metric tonnes, projected to 76 million in 2026.",
+      "sentence": "Between 2022 and 2025, global production increased in each subsequent year with 2025 production of approximately 74 million metric tonnes, increasing to a projected 76 million metric tonnes in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-04T02:31:54.733Z",
+  "model": "deepseek-v4-flash"
+}

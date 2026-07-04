@@ -1,0 +1,114 @@
+{
+  "cik": "0001126741",
+  "ticker": "GSIT",
+  "name": "GSI TECHNOLOGY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-070962",
+    "filedAt": "2026-06-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1126741/000110465926070962/gsit-20260331x10k.htm"
+  },
+  "business": "GSI Technology, Inc. is a semiconductor company pursuing a two-pronged business strategy: commercializing its proprietary associative processing unit (APU) technology for artificial intelligence and high-performance computing, while funding this development through a legacy business designing and selling high-speed synchronous static random access memory (SRAM) products.",
+  "sellsTo": [
+    "networking and telecommunications original equipment manufacturers (OEMs)",
+    "test and measurement equipment manufacturers",
+    "military/defense and aerospace systems integrators",
+    "contract manufacturers",
+    "domestic and international distributors"
+  ],
+  "namedCustomers": [
+    "KYEC",
+    "Nokia",
+    "Cadence Design Systems",
+    "BAE Systems",
+    "General Dynamics",
+    "IBM",
+    "Rockwell",
+    "Flextronics Technology",
+    "Avnet Logistics",
+    "Holystone",
+    "Nexcomm"
+  ],
+  "namedSuppliers": [
+    "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "Advanced Semiconductor Engineering (ASE)",
+    "Wistron Neweb Corporation",
+    "Silicon Turnkey Solutions Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our growth strategy centers on the commercialization of our proprietary associative processing unit (APU) technology, which enables high-performance, low-power, compute-in-memory processing for artificial intelligence, high-performance computing, and search applications at the edge."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The APU has demonstrated industry-leading time-to-first-token performance in multi-modal vision language models (VLMs), a capability that is critical for real-time situational awareness in physical AI applications."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We also serve the military/defense and aerospace markets with radiation-tolerant and radiation-hardened space-grade SRAMs, as well as APU-based solutions for applications such as SAR image processing."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "Our RadHard and RadTolerant product line includes 288 megabit, 144 megabit, and 72 megabit devices from the SigmaQuad-II+ family, as well as 144 megabit, 72 megabit, and 32 megabit SyncBurst and NBT RadTolerant products designed to support the avionics and other space platforms."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our revenue is currently generated from the design, development and marketing of static random access memories, or SRAMs, that operate at speeds of less than 10 nanoseconds, which we refer to as Very Fast SRAMs, primarily for the networking and telecommunications, test equipment and the military/defense and aerospace markets."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We operate under a fabless manufacturing model and are headquartered in Sunnyvale, California, with additional operations in Taiwan and Israel."
+    },
+    {
+      "tag": "robotics",
+      "stance": "risk_mention",
+      "sentence": "The APU capabilities and the larger capacity of the Gemini-II chip are well suited for this growing segment [edge], including robotics, autonomous platforms, industrial sensing systems, and defense applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have demonstrated APU use cases in synthetic aperture radar (SAR) image processing, fast vector search of very large databases, computer vision, drug discovery, and cybersecurity."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Secured initial production order for radiation-hardened SRAM from a North American prime contractor",
+      "date": "2025-03-01",
+      "sentence": "In March 2025, we secured an initial production order for our radiation-hardened SRAM from a North American prime contractor, with follow-on orders expected in fiscal 2027."
+    },
+    {
+      "event": "Completed all milestones under four SBIR contracts except amended Space Development Agency and US Army xTECH",
+      "date": "2026-03-31",
+      "sentence": "All milestones under these contracts were completed as of March 31, 2026, except for certain amended milestones under the Space Development Agency agreement described below and the US Army xTECH agreement described below."
+    },
+    {
+      "event": "Awarded Phase I of a Smart City project by a local government agency in Taiwan",
+      "date": "2026-05-01",
+      "sentence": "In May 2026, we announced that we were awarded Phase I of a Smart City project by a local government agency in Taiwan."
+    },
+    {
+      "event": "Purchased intellectual property rights for Plato project for $3.2 million",
+      "date": "2025-12-31",
+      "sentence": "We incurred charges of $3.2 million for intellectual property rights that we purchased for our Plato project during the quarter ended December 31, 2025."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market for APU in AI, search applications, and HPC is approximately $247 billion in 2025, growing at 27% CAGR to $708 billion by 2028.",
+      "sentence": "The total addressable market for APU in AI, search applications, and HPC which is where GSI is focusing its APU commercialization efforts, has been determined by GSI to be approximately $247 billion in 2025, and growing at a compound annual growth rate (CAGR) of 27% to $708 billion by 2028."
+    },
+    {
+      "claim": "Serviceable Available Market for APU in edge AI deployments is approximately $7 billion in 2025, growing at 18%-22% CAGR to $16 billion by 2030.",
+      "sentence": "GSI has similarly determined that the Serviceable Available Market for APU in edge AI deployments in those markets is approximately $7 billion in 2025, and anticipated to grow at a CAGR of 18%-22% to $16 billion by 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:00:15.188Z",
+  "model": "deepseek-v4-flash"
+}

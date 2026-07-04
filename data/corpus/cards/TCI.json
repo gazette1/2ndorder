@@ -1,0 +1,53 @@
+{
+  "cik": "0000733590",
+  "ticker": "TCI",
+  "name": "TRANSCONTINENTAL REALTY INVESTORS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000733590-26-000004",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/733590/000073359026000004/tci-20251231.htm"
+  },
+  "business": "Transcontinental Realty Investors, Inc. is a fully integrated externally managed real estate company. It operates high quality multifamily and commercial properties throughout the Southern United States. It also invests in mortgage notes receivable and in land that is either held for appreciation or development.",
+  "sellsTo": [
+    "Multifamily residents",
+    "Commercial tenants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Pillar Income Asset Management, Inc.",
+    "Regis Realty Prime, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We operate high quality multifamily and commercial properties throughout the Southern United States."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We have also contracted Pillar to construct multifamily properties on our behalf and to manage land development projects, including Windmill Farms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks associated with and have been the target of security breaches through cyber attacks, cyber intrusions or otherwise, as well as other significant disruptions of our information technology (IT) networks and related systems."
+    },
+    {
+      "tag": "other:remote-work",
+      "stance": "risk_mention",
+      "sentence": "A shift toward remote or hybrid work could reduce demand for office space and adversely affect our office portfolio and financial performance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Mountain Creek multifamily property",
+      "date": null,
+      "sentence": "We substantially completed the construction of Alera, Bandera Ridge and Merano in 2025, and expect to complete Mountain Creek in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:44:27.283Z",
+  "model": "deepseek-v4-flash"
+}

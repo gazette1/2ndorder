@@ -1,0 +1,48 @@
+{
+  "cik": "0001493225",
+  "ticker": "NFBK",
+  "name": "Northfield Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493225-26-000037",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1493225/000149322526000037/nfbk-20251231.htm"
+  },
+  "business": "Northfield Bancorp, Inc. is the holding company for Northfield Bank, a federally chartered savings bank that originates multifamily and commercial real estate loans, construction and land loans, commercial and industrial loans, one-to-four family residential loans, and home equity loans and lines of credit. It also offers a variety of deposit accounts and borrows funds through FHLBNY advances and repurchase agreements. The bank serves customers in Staten Island, Brooklyn, and several counties in New Jersey.",
+  "sellsTo": [
+    "multifamily property owners",
+    "commercial real estate borrowers",
+    "residential homebuyers",
+    "small businesses",
+    "depositors in New York and New Jersey"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We also originate one-to-four family residential real estate loans, construction and land loans, and home equity loans and lines of credit."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We face strong competition from financial technology (Fintech) companies that provide web-based solutions in lieu of traditional retail banking services and products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber-attacks and fraud risks, computer viruses and other technological risks that may breach the security of our website or other systems (including critical third-parties) to obtain unauthorized access to confidential information and destroy data or disable our systems;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Columbia Financial, Inc. expected to close",
+      "date": "2026-Q3",
+      "sentence": "The Merger is expected to close early in the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:34:12.618Z",
+  "model": "deepseek-v4-flash"
+}

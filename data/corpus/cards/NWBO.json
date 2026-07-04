@@ -1,0 +1,46 @@
+{
+  "cik": "0001072379",
+  "ticker": "NWBO",
+  "name": "NORTHWEST BIOTHERAPEUTICS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-043806",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1072379/000110465926043806/nwbo-20251231x10k.htm"
+  },
+  "business": "Northwest Biotherapeutics is a biotechnology company developing personalized immune therapies for cancer. Its lead product, DCVax-L, is designed to treat solid tumor cancers that can be surgically removed, and it has completed a Phase III trial for glioblastoma multiforme brain cancer. The company also has DCVax-Direct for inoperable solid tumors and has submitted a Marketing Authorization Application in the UK for DCVax-L.",
+  "sellsTo": [
+    "Cancer patients",
+    "Brain cancer patients",
+    "Patients with solid tumors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Cognate BioServices",
+    "Fraunhofer Institute",
+    "University of Pittsburgh",
+    "Roswell Park Cancer Center",
+    "Northeastern University"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a biotechnology company focused on developing personalized immune therapies for cancer."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "Other novel technologies for cancer are approved and commercially available, such as the Optune electro-therapy device, various biologics and various oncolytic virus therapies and gene therapies."
+    },
+    {
+      "tag": "other:automated-cell-culture",
+      "stance": "active_investment",
+      "sentence": "Collectively these patents and patent applications cover key aspects of the design and function of automated cell culture systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:45:01.395Z",
+  "model": "deepseek-v4-flash"
+}

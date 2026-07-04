@@ -1,0 +1,80 @@
+{
+  "cik": "0001828108",
+  "ticker": "AUR",
+  "name": "Aurora Innovation, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001828108-26-000016",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1828108/000182810826000016/aur-20251231.htm"
+  },
+  "business": "Aurora develops and commercializes the Aurora Driver, a self-driving platform integrating hardware, software, and data services for autonomous vehicles. The company targets trucking, passenger mobility, and local goods delivery markets, initially launching driverless trucking operations.",
+  "sellsTo": [
+    "Trucking companies",
+    "Logistics providers",
+    "Ride-hailing networks",
+    "Local delivery services"
+  ],
+  "namedCustomers": [
+    "Hirschbach",
+    "Uber Freight",
+    "FedEx",
+    "Schneider",
+    "Volvo Autonomous Solutions",
+    "Werner"
+  ],
+  "namedSuppliers": [
+    "PACCAR",
+    "Volvo",
+    "Toyota",
+    "AUMOVIO (formerly Continental)",
+    "Ryder Systems"
+  ],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "We have launched and are continuing to develop the Aurora Driver based on what we believe to be the most advanced and scalable suite of self-driving hardware, software, and data services in the world to fundamentally transform the global transportation market."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "This includes developing our Aurora FirstLight Lidar, which uses proprietary frequency modulated continuous wave (FMCW) technology that enables long-range sensing, and simultaneous detection of both the position and velocity of objects."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "The computer powers Aurora's self-driving software, which plans a safe path of motion for the vehicle in order to reach its destination."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "We have used a Verifiable AI approach, intended to leverage advancements in artificial intelligence and machine learning to deliver a practical, verifiable, and commercially scalable solution."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We launched trucking as our first driverless product, as we believe its massive scale, significant structural need, attractive unit economics, and self-similar operating environment will allow us to rapidly deploy and profitably scale on high-volume, highway-focused routes."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Aurora Driver for Freight driverless commercial operations",
+      "date": "2025-04",
+      "sentence": "In April 2025, we launched driverless commercial operations with Hirschbach and Uber Freight and have since expanded our driverless customer cohort."
+    },
+    {
+      "event": "Next-generation FirstLight Lidar expected launch in 2026",
+      "date": "2026-01-01",
+      "sentence": "Our next generation of lidar which we expect to launch in 2026 can see nearly four times as far as a traditional automotive lidar."
+    },
+    {
+      "event": "ATM Program increased to $1,421 million",
+      "date": "2025-07-30",
+      "sentence": "On July 30, 2025, the Company increased the aggregate dollar amount of the Company's Class A common stock that it may sell under the ATM Program to $1,421 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:09:16.973Z",
+  "model": "deepseek-v4-flash"
+}

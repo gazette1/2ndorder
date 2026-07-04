@@ -1,0 +1,57 @@
+{
+  "cik": "0001530249",
+  "ticker": "FSBW",
+  "name": "FS Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008243",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1530249/000143774926008243/fsbw20251231_10k.htm"
+  },
+  "business": "FS Bancorp, Inc. is a bank holding company that provides banking services through its wholly-owned subsidiary, 1st Security Bank of Washington. The bank is a relationship-focused community bank serving local families, regional businesses, and industry niches primarily within the Puget Sound and Pacific Northwest communities. The company originates various types of loans including commercial real estate, multi-family, construction, one-to-four-family, home equity, consumer loans (indirect home improvement and marine), and commercial business loans.",
+  "sellsTo": [
+    "local families",
+    "regional businesses",
+    "industry niches in Puget Sound and Pacific Northwest",
+    "home improvement contractors and dealers",
+    "small- and mid-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company originates loans secured by first mortgages on one-to-four-family residences primarily in its market area."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Company's construction and development team is dedicated to residential construction lending, concentrating on vertical, in-city one-to-four-family development within our market area."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The Company offers a variety of CRE loans, including owner occupied and non-owner occupied CRE, commercial and speculative construction and development, and multi-family loans."
+    },
+    {
+      "tag": "other:consumer-lending",
+      "stance": "core_product",
+      "sentence": "Consumer lending represents a significant and important historical activity for the Company, primarily reflecting the indirect lending through home improvement contractors and dealers."
+    },
+    {
+      "tag": "other:commercial-business-lending",
+      "stance": "core_product",
+      "sentence": "The Company originates commercial business loans and lines of credit to local small- and mid-sized businesses within its market areas that are secured by accounts receivable, inventory, or personal/business property, plant and equipment."
+    },
+    {
+      "tag": "other:marine-lending",
+      "stance": "core_product",
+      "sentence": "The Company also offers consumer marine loans secured by boats."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:26:59.150Z",
+  "model": "deepseek-v4-flash"
+}

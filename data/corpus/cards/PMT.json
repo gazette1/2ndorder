@@ -1,0 +1,42 @@
+{
+  "cik": "0001464423",
+  "ticker": "PMT",
+  "name": "PennyMac Mortgage Investment Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-057041",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1464423/000119312526057041/pmt-20251231.htm"
+  },
+  "business": "Correspondent production activities may include purchasing residential loans, pooling Fannie Mae and Freddie Mac loans into Agency MBS securities and selling or securitizing the loans. We also service mortgages.",
+  "sellsTo": [
+    "Agencies (Fannie Mae and Freddie Mac)",
+    "investors in mortgage securitizations"
+  ],
+  "namedCustomers": [
+    "Fannie Mae",
+    "Freddie Mac"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Rising homeownership costs may negatively impact housing affordability and increase mortgage delinquencies, defaults, and foreclosures."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "The average share of borrowers' mortgage payments allocated to property taxes and insurance premiums has been steadily rising in recent years due to inflation, natural disasters and other factors."
+    },
+    {
+      "tag": "other:interest-rate-risk",
+      "stance": "risk_mention",
+      "sentence": "Interest rate fluctuations could significantly decrease our results of operations and cash flows and the fair value of our investments."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:20:33.453Z",
+  "model": "deepseek-v4-flash"
+}

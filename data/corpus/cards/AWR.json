@@ -1,0 +1,57 @@
+{
+  "cik": "0001056903",
+  "ticker": "AWR",
+  "name": "AMERICAN STATES WATER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009114",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1056903/000162828026009114/awr-20251231.htm"
+  },
+  "business": "American States Water Company (AWR) is a holding company that provides water and wastewater utility services through its subsidiary Golden State Water Company (GSWC) and electric utility services through Bear Valley Electric Service (BVES) in California. Through American States Utility Services (ASUS) and its subsidiaries, AWR operates and maintains water and wastewater systems at U.S. military bases under long-term firm-fixed-price contracts. The company's regulated utilities serve residential and commercial customers, while the contracted services segment primarily serves the U.S. government.",
+  "sellsTo": [
+    "Residential and commercial customers in California",
+    "U.S. government (military bases)"
+  ],
+  "namedCustomers": [
+    "U.S. government"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "ASUS, through its wholly owned subsidiaries, has contracted with the U.S. government to provide water and/or wastewater services at various military installations."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "GSWC is a public water and wastewater utility engaged in the purchase, production, distribution and sale of water in 11 counties in the state of California and provides wastewater collection and treatment services in some areas."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "BVES has entered into a contract to construct a solar energy project in Big Bear City, subject to obtaining necessary permits."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "BVES's compliance with its wildfire mitigation plans have resulted in an increase in capital expenditures for wildfire mitigation projects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "BVES filed a new general rate case application for years 2027-2030",
+      "date": "2026-01-30",
+      "sentence": "On January 30, 2026, BVES filed a new general rate case application that will determine new electric rates for the years 2027 through 2030."
+    },
+    {
+      "event": "ASUS expects to perform $18.8 million in construction activities related to environmental control facilities in 2026",
+      "date": "2026-12-31",
+      "sentence": "ASUS expects to perform $18.8 million construction activities related to environmental control facilities in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:47:37.096Z",
+  "model": "deepseek-v4-flash"
+}

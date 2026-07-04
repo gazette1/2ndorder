@@ -1,0 +1,46 @@
+{
+  "cik": "0000920427",
+  "ticker": "UNTY",
+  "name": "UNITY BANCORP INC /NJ/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000920427-26-000012",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/920427/000092042726000012/unty-20251231x10k.htm"
+  },
+  "business": "Unity Bancorp, Inc. is a bank holding company whose primary business is ownership and supervision of Unity Bank, which conducts a traditional community-oriented commercial banking business. The bank offers services including personal and business checking accounts, time deposits, money market accounts, savings accounts, credit cards, debit cards, wire transfers, safe deposit boxes, automated teller services, and internet and mobile banking. The company sells to small and medium sized businesses, professionals, state and local municipalities, and individuals residing, working, and shopping in its service area in New Jersey and Pennsylvania.",
+  "sellsTo": [
+    "small and medium sized businesses",
+    "professionals",
+    "state and local municipalities",
+    "individuals in its service area"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company is in competition with many other banks, including larger commercial banks which have greater resources, as well as fintech companies for loan and deposit customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's information systems may experience an interruption or breach in security."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our use of artificial intelligence, including generative artificial intelligence, may expose us to operational, regulatory, legal, and reputational risks that could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "The emergence of U.S. dollar denominated stablecoins and the evolving legislative and regulatory landscape governing them including recently proposed and enacted federal frameworks such as the GENIUS Act and other stablecoin specific bills may adversely affect our deposit base, liquidity profile, and competitive position."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:41:48.397Z",
+  "model": "deepseek-v4-flash"
+}

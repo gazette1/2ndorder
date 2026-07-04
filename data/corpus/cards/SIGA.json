@@ -1,0 +1,62 @@
+{
+  "cik": "0001010086",
+  "ticker": "SIGA",
+  "name": "SIGA TECHNOLOGIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007557",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1010086/000143774926007557/siga20251231_10k.htm"
+  },
+  "business": "SIGA is a commercial-stage pharmaceutical company that sells its lead product, TPOXX, an antiviral drug for the treatment of smallpox, to the U.S. Government and international governments, including government affiliated entities, and may sell through distributors in certain international markets.",
+  "sellsTo": [
+    "U.S. Government",
+    "international governments",
+    "government affiliated entities",
+    "distributors"
+  ],
+  "namedCustomers": [
+    "U.S. Biomedical Advanced Research and Development Authority (BARDA)",
+    "U.S. Department of Defense (DoD)"
+  ],
+  "namedSuppliers": [
+    "W.R. Grace and Company (Grace)",
+    "Microsize",
+    "Catalent Pharma Solutions LLC (Catalent)",
+    "Packaging Coordinators, LLC (PCI)",
+    "Roquette America, Inc. (Roquette)",
+    "Patheon Manufacturing Services LLC (Patheon)"
+  ],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We are a commercial-stage pharmaceutical company. The Company sells its lead product, TPOXX…to the U.S. Government and international governments (including government affiliated entities)."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a commercial-stage pharmaceutical company. The Company sells its lead product, TPOXX…to the U.S. Government and international governments (including government affiliated entities)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CHMP expected to issue recommendation on Tecovirimat-SIGA marketing authorization regarding mpox indication",
+      "date": "2026-03",
+      "sentence": "The CHMP is expected to meet in March to issue its recommendation."
+    },
+    {
+      "event": "Target submission of supplemental NDA for smallpox PEP indication",
+      "date": "2026-12",
+      "sentence": "The Company is currently targeting a Supplemental NDA submission within the next twelve months."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Annual U.S. Government spending on advanced development and procurement of medical countermeasures for biodefense exceeds $2.5 billion.",
+      "sentence": "For the U.S. Government's fiscal year ended September 30, 2025, the budget for annual spending by the U.S. Department of Health and Human Services (\"HHS\") for activities related to advanced development and procurement of medical countermeasures for biodefense-related biological threats to civilian populations was more than $2.5 billion."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:05:25.884Z",
+  "model": "deepseek-v4-flash"
+}

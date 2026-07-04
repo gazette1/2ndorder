@@ -1,0 +1,88 @@
+{
+  "cik": "0001434621",
+  "ticker": "TREE",
+  "name": "LendingTree, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-016084",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1434621/000162828026016084/tree-20251231.htm"
+  },
+  "business": "LendingTree, Inc. operates an online consumer platform that connects consumers with financial service providers, offering comparison shopping for mortgage loans, home equity loans, auto loans, credit cards, personal loans, small business loans, insurance quotes, and other financial products. The company generates revenue primarily from match fees paid by its network partners (lenders and insurers) when consumer requests are transmitted to them. The company has three reportable segments: Home, Consumer, and Insurance.",
+  "sellsTo": [
+    "Consumers seeking financial products",
+    "Network partners (lenders and insurers) seeking customer acquisition"
+  ],
+  "namedCustomers": [
+    {
+      "name": "Progressive Casualty Insurance",
+      "sentence": "For the year ended December 31, 2025, one Network Partner, Progressive Casualty Insurance, accounted for 27% of total consolidated revenue, all of which was recorded within our Insurance segment."
+    },
+    {
+      "name": "Allstate Insurance Company",
+      "sentence": "For the year ended December 31, 2024, two Network Partners, Progressive Casualty Insurance and Allstate Insurance Company, accounted for 22% and 11%, respectively, of total consolidated revenue, all of which was recorded within our Insurance segment."
+    }
+  ],
+  "namedSuppliers": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "sentence": "We depend on third-party cloud service providers, primarily Amazon Web Services (AWS) and Microsoft Azure, to operate and scale our technology platforms and support critical business functions."
+    },
+    {
+      "name": "Microsoft Azure",
+      "sentence": "We depend on third-party cloud service providers, primarily Amazon Web Services (AWS) and Microsoft Azure, to operate and scale our technology platforms and support critical business functions."
+    }
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Services include mortgage loans, mortgage refinances, home equity loans and lines of credit, auto loans, credit cards, deposit accounts, personal loans, small business loans, insurance quotes and other related offerings."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our insurance business, QuoteWizard, is significant to our revenue, and operational issues in this business could have a material impact on our results of operations."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "Adverse conditions in the primary and secondary mortgage markets, as well as the general economy, have had and could continue to have a material adverse effect on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We rely on technology, including artificial intelligence, to operate our business and continue to implement substantial changes to our information systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches or failures of our systems or website security, the theft, unauthorized access, acquisition, use, disclosure, modification or misappropriation of personal information, the occurrence of fraudulent activity, or other data security-related incidents may have a material and adverse impact on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We depend on third-party cloud service providers, primarily Amazon Web Services (AWS) and Microsoft Azure, to operate and scale our technology platforms and support critical business functions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repayment of 0.50% Convertible Senior Notes due 2025",
+      "date": "2025-07-15",
+      "sentence": "On July 15, 2025, we repaid the $95.3 million outstanding principal amount of our 0.50% Convertible Senior Notes (\"2025 Notes\") upon maturity in cash plus $0.2 million of accrued interest."
+    },
+    {
+      "event": "Entry into new $475.0 million first lien term loan facility",
+      "date": "2025-08-21",
+      "sentence": "On August 21, 2025, we entered into a $475.0 million first lien term loan facility (the \"2025 Facility\") consisting of a $75 million revolving credit facility (the \"2025 Revolving Facility\") and a $400.0 million term loan facility (the \"2025 Term Loan\"), both with maturities of August 21, 2030."
+    },
+    {
+      "event": "Exit from insurance agency business",
+      "date": "2025-06-30",
+      "sentence": "We exited the insurance agency business in the second quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:33:39.337Z",
+  "model": "deepseek-v4-flash"
+}

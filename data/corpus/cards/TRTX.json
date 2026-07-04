@@ -1,0 +1,50 @@
+{
+  "cik": "0001630472",
+  "ticker": "TRTX",
+  "name": "TPG RE Finance Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001630472-26-000004",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1630472/000163047226000004/trtx-20251231.htm"
+  },
+  "business": "TPG RE Finance Trust, Inc. is a commercial real estate finance company that directly originates and acquires a diversified portfolio of commercial real estate-related assets, consisting primarily of first mortgage loans and senior participation interests in first mortgage loans secured by institutional-quality properties in primary and select secondary markets in the United States. It operates as a REIT for U.S. federal income tax purposes and is externally managed by TPG RE Finance Trust Management, L.P., an affiliate of TPG. The company's principal business activity is to generate income through interest on loans and capital appreciation, targeting well-capitalized sponsors with experience in specific real estate sectors and geographic markets.",
+  "sellsTo": [
+    "borrowers who own commercial real estate properties in multifamily/housing, industrial, hospitality, office, and mixed-use sectors",
+    "institutional-quality property sponsors in primary and select secondary U.S. markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our principal business activity is to directly originate and acquire a diversified portfolio of commercial real estate-related assets, consisting primarily of first mortgage loans and senior participation interests in first mortgage loans secured by institutional-quality properties in primary and select secondary markets in the United States."
+    },
+    {
+      "tag": "other:office-real-estate",
+      "stance": "risk_mention",
+      "sentence": "A portion of our loans are secured by office space and similar commercial real estate. This sector has recently been affected by certain macroeconomic factors, such as an increased prevalence of remote work."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Extension of Goldman Sachs secured credit agreement",
+      "date": "2029-11-17",
+      "sentence": "Executed an extension of the Goldman Sachs secured credit agreement through November 17, 2029."
+    },
+    {
+      "event": "Issuance of TRTX 2025-FL7 CLO",
+      "date": "2025-12-31",
+      "sentence": "Issued TRTX 2025-FL7, a $1.1 billion managed CRE CLO with $957.0 million of investment-grade bonds outstanding, a 30-month reinvestment period, an advance rate of 87.0%, and a weighted average interest rate at issuance of Term SOFR plus 1.67%, before transaction costs."
+    },
+    {
+      "event": "Extension of secured revolving credit facility",
+      "date": "2028-02-13",
+      "sentence": "Extended our secured revolving credit facility by three years to February 2028 and increased the capacity by $85.0 million to $375.0 million, with a syndicate of seven lenders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:25:30.199Z",
+  "model": "deepseek-v4-flash"
+}

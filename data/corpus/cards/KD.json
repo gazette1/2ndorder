@@ -1,0 +1,74 @@
+{
+  "cik": "0001867072",
+  "ticker": "KD",
+  "name": "Kyndryl Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-067881",
+    "filedAt": "2026-05-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1867072/000110465926067881/kd-20260331x10k.htm"
+  },
+  "business": "Kyndryl is a leading provider of mission-critical enterprise technology services, offering advisory, implementation and managed service capabilities to thousands of customers in more than 60 countries. As the world's largest IT infrastructure services provider, the Company designs, builds, manages and modernizes the complex information systems that the world depends on every day.",
+  "sellsTo": [
+    "financial services",
+    "retail, travel and logistics",
+    "industrial",
+    "healthcare and public sector",
+    "technology, media and telecom"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Broadcom",
+    "Cisco",
+    "Dell",
+    "Dynatrace",
+    "Google Cloud",
+    "HPE",
+    "Microsoft",
+    "NVIDIA",
+    "Oracle",
+    "Palo Alto Networks",
+    "Red Hat",
+    "Rubrik",
+    "SAP",
+    "ServiceNow"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We design, build and manage distributed computing platforms, including on-premises, private, public and hybrid multi-cloud environments."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We deliver a full line of cybersecurity, business continuity and disaster recovery services, with a focus on cyber resilience and recovery."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Last year, we introduced, and have continually enhanced, a dynamic enterprise-grade agentic AI framework that enables customers to adopt, deploy and scale agentic AI solutions to transform and improve their business operations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We offer secure access service edge (SASE) and private wireless network services, as well as network automation through new partnerships."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Our employees, whom we call Kyndryls, have earned certifications through our learning platform and alliance partners, which provide access to curriculums that span strategic skills, cloud, AI, analytics, design thinking, quantum computing and security."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Workforce rebalancing actions approved to streamline operations, expected to incur approximately $200 million in charges and result in savings of approximately $400 to $500 million in fiscal year 2028.",
+      "date": "2026-05-05",
+      "sentence": "On May 5, 2026, the Company approved, as part of its ongoing efforts to further streamline operations, workforce rebalancing actions to optimize and support the Company's financial and operational efficiency in fiscal year 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:26:18.457Z",
+  "model": "deepseek-v4-flash"
+}

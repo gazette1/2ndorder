@@ -1,0 +1,40 @@
+{
+  "cik": "0000803164",
+  "ticker": "COFS",
+  "name": "CHOICEONE FINANCIAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-105046",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/803164/000119312526105046/cofs-20251231.htm"
+  },
+  "business": "ChoiceOne Financial Services Inc. is a financial holding company whose principal business is banking through its wholly owned subsidiary ChoiceOne Bank, offering deposit, payment, credit, and other financial services to commercial enterprises and individuals in western, central, and southeastern Michigan.",
+  "sellsTo": [
+    "commercial enterprises",
+    "individuals",
+    "local communities in Michigan"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "On July 18, 2023, the Company organized 109 Technologies, LLC as a wholly owned subsidiary of the Company with the intent to own intellectual property for a fintech product licensed to third party banks and bank holding companies."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "ChoiceOne Bank owns all of the outstanding common stock of ChoiceOne Insurance Agencies, Inc., an independent insurance agency headquartered in Sparta, Michigan (the \"Insurance Agency\")."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents could disrupt business operations, result in the loss of critical and confidential information, and adversely impact our reputation and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:06:58.844Z",
+  "model": "deepseek-v4-flash"
+}

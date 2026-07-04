@@ -1,0 +1,70 @@
+{
+  "cik": "0001638833",
+  "ticker": "SGRY",
+  "name": "Surgery Partners, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001638833-26-000008",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1638833/000163883326000008/sgry-20251231.htm"
+  },
+  "business": "Surgery Partners, Inc. owns and operates a national network of surgical facilities and ancillary services. It provides high-quality, cost-effective solutions for surgical and related ancillary care. Patient services in its ASCs and surgical hospitals generated approximately $3.2 billion in revenue during 2025.",
+  "sellsTo": [
+    "Private insurance payors",
+    "Government payors (Medicare and Medicaid)",
+    "Self-pay patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:outpatient-surgery",
+      "stance": "core_product",
+      "sentence": "Surgery Partners, Inc., a Delaware corporation, acting through its subsidiaries, owns and operates a national network of surgical facilities and ancillary services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity attacks or intrusions could adversely impact our businesses."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "risk_mention",
+      "sentence": "Shortages of surgery-related products, equipment and medical supplies and quality control issues with such products, equipment and medical supplies could disrupt our operations and adversely affect our case volume, surgical case mix and profitability."
+    },
+    {
+      "tag": "other:government-payor",
+      "stance": "risk_mention",
+      "sentence": "We derived approximately 43%, 41% and 42% of our revenue from government payors, including Medicare and Medicaid programs in 2025, 2024 and 2023, respectively."
+    },
+    {
+      "tag": "other:private-insurance",
+      "stance": "risk_mention",
+      "sentence": "Payments from private insurance payors, including state workers compensation programs and managed care organizations, represented approximately 52%, 54% and 53% of our patient service revenue in 2025, 2024 and 2023, respectively."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into Second Amendment to Credit Agreement for new term loans",
+      "date": "2025-08-13",
+      "sentence": "On August 13, 2025, the Company entered into the Second Amendment to the Credit Agreement (as defined below), which provides for a new tranche of term loans in an aggregate principal amount of $1.4 billion."
+    },
+    {
+      "event": "Completed issuance and sale of $425M senior unsecured notes",
+      "date": "2025-12-16",
+      "sentence": "On December 16, 2025, we completed the issuance and sale of $425.0 million in aggregate principal amount of senior unsecured notes due 2032 at 101.00% of the principal amount."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total U.S. outpatient surgical facility market represents greater than $90 billion in annual revenue, including greater than $55 billion of hospital outpatient department procedures and $45 billion of ambulatory surgical center procedures.",
+      "sentence": "Based on management estimates, we believe that the total U.S. outpatient surgical facility market represents greater than $90 billion in annual revenue, including greater than $55 billion of hospital outpatient department procedures and $45 billion of ambulatory surgical center procedures, and we believe that ASCs are capturing an increasing share of the total surgical procedure market."
+    },
+    {
+      "claim": "Total addressable market is approximately $150 billion, including $50 billion of inpatient surgical cases with potential to move to outpatient.",
+      "sentence": "In addition, we believe that approximately $50 billion of inpatient surgical cases have the potential to move to outpatient surgery centers, which, together with procedures performed at hospital outpatient departments and ASCs, represents what we believe is a total addressable market of approximately $150 billion."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:55:34.150Z",
+  "model": "deepseek-v4-flash"
+}

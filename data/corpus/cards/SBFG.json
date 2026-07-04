@@ -1,0 +1,51 @@
+{
+  "cik": "0000767405",
+  "ticker": "SBFG",
+  "name": "SB FINANCIAL GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-024471",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/767405/000121390026024471/ea0279644-10k_sbfinancial.htm"
+  },
+  "business": "SB Financial Group, Inc. is a financial holding company that, through its subsidiaries including The State Bank and Trust Company, provides commercial and retail banking, wealth management, and private client financial services. It originates residential mortgage loans and services a large portfolio of mortgage loans. The company also generates fee-based revenue from title insurance and wealth management.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "agricultural customers",
+    "customers in Northwest Ohio, Central Ohio, and Northeast Indiana"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Company serviced 8,886 residential mortgage loans with an aggregate principal balance of $1.48 billion."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Title insurance income $2,048"
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Commercial business and agricultural loans made up approximately 16.1 percent of the HFI loan portfolio while commercial real estate loans accounted for approximately 50.6 percent of the HFI loan portfolio."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information systems may experience an interruption or security breach."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Nontraditional sources of competition for loan and deposit dollars come from captive auto finance companies, mortgage banking companies, internet banks, brokerage companies, insurance companies, fintechs and direct mutual funds."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:15:35.243Z",
+  "model": "deepseek-v4-flash"
+}

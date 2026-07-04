@@ -1,0 +1,70 @@
+{
+  "cik": "0001395942",
+  "ticker": "OPLN",
+  "name": "OPENLANE, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001395942-26-000006",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1395942/000139594226000006/opln-20251231.htm"
+  },
+  "business": "OPENLANE is a leading digital marketplace for wholesale used vehicles operating in the United States, Canada and Europe. It connects automotive manufacturers, dealers, rental companies, fleet operators, captive finance and lending institutions as buyers and sellers to facilitate vehicle transactions. Revenue is generated through fees and value-added ancillary services including SaaS, logistics, reconditioning, inspection, certification, titling, administrative services, and floorplan financing.",
+  "sellsTo": [
+    "Commercial sellers (vehicle manufacturers, captive finance, financial institutions, fleet operators, rental car companies)",
+    "Dealer customers (franchise and independent car dealerships)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "OPENLANE is a leading digital marketplace for wholesale used vehicles operating in the United States, Canada and Europe."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Through AFC, the Finance segment provides short-term, inventory-secured financing, known as floorplan financing, primarily to independent vehicle dealers throughout the United States and Canada."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Transportation Services We provide transportation services utilizing primarily licensed and insured third-party carriers as well as some Company owned resources."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are enhancing our imaging, inspection and vehicle representation capabilities and leveraging AI to more closely simulate seeing and touching a vehicle in person."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Disruptions or breaches of information technology systems could adversely affect our business and reputation."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "increased demand for electric and hybrid vehicles could cause the number of vehicles coming to the wholesale market to decline and the ancillary services we provide to decline or change."
+    },
+    {
+      "tag": "other:saas",
+      "stance": "core_product",
+      "sentence": "Our proprietary SaaS-based platform supports more than 40 private label digital remarketing applications representing the majority of North American manufacturers and captive finance companies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Higher off-lease vehicle volumes expected from maturing leases beginning in 2026",
+      "date": "2026-01-01",
+      "sentence": "As these leases begin maturing in 2026 and beyond, we expect a higher volume of off-lease vehicles available to the wholesale used vehicle industry, with much of that volume expected to flow through OPENLANE first as we support the majority of commercial sellers with off-lease vehicle inventory in North America."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The U.S. and Canadian wholesale used vehicle industry has a total addressable market of approximately 15 million vehicles.",
+      "sentence": "We believe the U.S. and Canadian wholesale used vehicle industry has a total addressable market of approximately 15 million vehicles, which can fluctuate depending on seasonality and a variety of other macro-economic and industry factors."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:47:32.128Z",
+  "model": "deepseek-v4-flash"
+}

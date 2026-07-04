@@ -1,0 +1,52 @@
+{
+  "cik": "0001737706",
+  "ticker": "SDRL",
+  "name": "SEADRILL Ltd",
+  "source": {
+    "form": "10-K",
+    "accession": "0001737706-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1737706/000173770626000010/sdrl-20251231.htm"
+  },
+  "business": "Seadrill is an offshore drilling contractor providing worldwide offshore drilling services to the oil and gas industry. It primarily owns and operates drillships and semi-submersible rigs for shallow to ultra-deepwater operations. Customers include oil super-majors, state-owned national oil companies, and independent oil and gas companies.",
+  "sellsTo": [
+    "Oil and gas industry",
+    "Oil super-majors",
+    "State-owned national oil companies",
+    "Independent oil and gas companies"
+  ],
+  "namedCustomers": [
+    "Petrobras",
+    "Sonadrill",
+    "Talos",
+    "LLOG"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are an offshore drilling contractor providing worldwide offshore drilling services to the oil and gas industry."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are incorporating artificial intelligence technologies into our processes and these technologies may present business, compliance, and reputational risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to adequately protect our sensitive information, operational technology systems and critical data, or our service providers failure to protect their systems and data, could have a material adverse effect on us."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital upgrade project completion and contract commencement for a drilling unit",
+      "date": "2026-04-01",
+      "sentence": "one was undergoing capital upgrade projects for a contract commencing in the second quarter of 2026"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:38:24.542Z",
+  "model": "deepseek-v4-flash"
+}

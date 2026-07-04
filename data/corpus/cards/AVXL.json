@@ -1,0 +1,52 @@
+{
+  "cik": "0001314052",
+  "ticker": "AVXL",
+  "name": "ANAVEX LIFE SCIENCES CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001731122-25-001596",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1314052/000173112225001596/e7052_10-k.htm"
+  },
+  "business": "ANAVEX LIFE SCIENCES CORP. is a clinical stage pharmaceutical research and development company. All of its potential drug compounds are exclusively focused on the SIGMAR1 receptor. The company has not generated any revenues from operations to date.",
+  "sellsTo": [],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "All of our potential drug compounds are exclusively focused on SIGMAR1 which has not previously been the subject of any approved drug products and will require extensive additional research and development, including non-clinical testing and clinical trials, as well as regulatory approvals, before we can market them."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "risk_mention",
+      "sentence": "If we or any companion diagnostic collaborator of ours are unable to successfully develop and obtain regulatory approval for companion diagnostic tests for our drug candidates, or experience significant delays in doing so, we may not realize the commercial potential of our drug candidates."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CHMP rendered a negative trend vote following an oral explanation of the MAA",
+      "date": "2025-11-14",
+      "sentence": "On November 14, 2025, we announced that the CHMP of the EMA has rendered a negative trend vote following an oral explanation of our MAA."
+    },
+    {
+      "event": "CHMP expected to adopt a formal opinion on the MAA at its December meeting",
+      "date": null,
+      "sentence": "The CHMP is expected to adopt a formal opinion on the MAA at its December meeting."
+    },
+    {
+      "event": "Plan to seek re-examination of the MAA upon its formal adoption",
+      "date": null,
+      "sentence": "We plan to seek a re-examination of the MAA upon its formal adoption."
+    },
+    {
+      "event": "2023 Purchase Agreement will expire",
+      "date": "2026-02-03",
+      "sentence": "The Company will need to file a prospectus supplement in order to access funds under the 2023 Purchase Agreement and the 2023 Purchase Agreement will expire on February 3, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:19:00.886Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,67 @@
+{
+  "cik": "0001437479",
+  "ticker": "ENBP",
+  "name": "ENB Financial Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001174947-26-000410",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437479/000117494726000410/enbp-20251231.htm"
+  },
+  "business": "The basic business of the Corporation is to provide a broad range of financial services to individuals and small-to-medium-sized businesses in the Market Area primarily through the Bank. The Bank is a full-service commercial bank organized under the laws of the United States. The Bank has one subsidiary, ENB Insurance, which is a full-service insurance agency that offers a broad range of insurance products to commercial and personal clients.",
+  "sellsTo": [
+    "individuals",
+    "small-to-medium-sized businesses",
+    "commercial clients",
+    "personal clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank has one subsidiary, ENB Insurance, which is a full-service insurance agency that offers a broad range of insurance products to commercial and personal clients."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The residential real estate category represents the largest group of loans for the Corporation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Corporation is exposed to the risk of cyber-attacks in the normal course of business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Corporation incorporates AI solutions into platforms that deliver products and services to our customers, including solutions developed by third parties whose AI is integrated into our products and services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Cecil Bancorp, Inc. completed",
+      "date": "2026-02-01",
+      "sentence": "Effective February 1, 2026, the Corporation completed its previously-announced acquisition of Cecil Bancorp, Inc."
+    },
+    {
+      "event": "Opening of downtown Lititz branch",
+      "date": "2025-06-01",
+      "sentence": "Occupancy expenses increased $273,000, or 8.2% for the year ended December 31, 2025 compared to 2024 due to inflationary pressures combined with the opening of the downtown Lititz branch in June 2025."
+    },
+    {
+      "event": "Issuance of $42,500,000 subordinated debt",
+      "date": "2025-12-01",
+      "sentence": "the Corporation issued $42,500,000 of debentures in December 2025, with higher rates than the first two issuances."
+    },
+    {
+      "event": "Redemption of $20,000,000 subordinated debt",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, $20,000,000 subordinated debt, representing the entire 2020 first issuance, was redeemed at par with proceeds raised from the 2025 subordinated debt issuance."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:14:56.161Z",
+  "model": "deepseek-v4-flash"
+}

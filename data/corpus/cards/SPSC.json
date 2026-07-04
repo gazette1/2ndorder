@@ -1,0 +1,49 @@
+{
+  "cik": "0001092699",
+  "ticker": "SPSC",
+  "name": "SPS COMMERCE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001092699-26-000012",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000012/spsc-20251231.htm"
+  },
+  "business": "SPS Commerce is a global supply chain network that connects retailers, brands, distributors, manufacturers, and logistics providers through shared infrastructure. The company provides cloud-based supply chain management products including Fulfillment, Analytics, Assortment, and Relationship Management. In 2025, recurring revenues accounted for 96% of total revenues.",
+  "sellsTo": [
+    "retailers",
+    "grocers",
+    "distributors",
+    "suppliers",
+    "manufacturers",
+    "logistics providers",
+    "brands"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "SPS Commerce is a global supply chain network that connects retailers, brands, distributors, manufacturers, and logistics providers through shared infrastructure built to handle the complexity of modern commerce operations."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "To navigate disruptions and meet growing demands, companies across the commerce ecosystem must orchestrate operations across wholesale, eCommerce, marketplace, and direct-to-consumer channels simultaneously."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Adopting and utilizing AI and Machine Learning (\"ML\")-enabled products or services has become increasingly important within our competitive landscape."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure to protect the confidentiality and integrity of our customers information and prevent cyber-attacks could materially damage our reputation, expose us to claims and litigation, and lead to service disruptions and harm our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:58:32.650Z",
+  "model": "deepseek-v4-flash"
+}

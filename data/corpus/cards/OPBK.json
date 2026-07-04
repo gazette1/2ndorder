@@ -1,0 +1,57 @@
+{
+  "cik": "0001722010",
+  "ticker": "OPBK",
+  "name": "OP Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001722010-26-000002",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1722010/000172201026000002/opbk-20251231.htm"
+  },
+  "business": "OP Bancorp provides commercial banking services to small and medium-sized businesses, their owners, and retail customers, with a focus on the Korean-American community. It operates through its wholly owned banking subsidiary, Open Bank. The company offers commercial real estate, commercial and industrial, SBA, home mortgage, and consumer loans, as well as deposit products.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "business owners",
+    "retail customers",
+    "Korean-American community"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Interruptions, cyber-attacks, fraudulent activity or other security breaches could have a material adverse effect on our business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The use of AI by our third party service providers may increase the complexity of these oversight obligations and may expose us to additional risks, including risks related to data privacy and security, model performance, bias or discrimination, explainability, intellectual property, and regulatory compliance."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We primarily originate non-qualified, alternative documentation single-family home mortgage loans through our retail branches and our correspondent lender network."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Issued $25.0 million subordinated note",
+      "date": "2025-11-07",
+      "sentence": "On November 7, 2025, the Company issued a $25.0 million subordinated note."
+    },
+    {
+      "event": "SBA rule change eliminating noncitizen ownership eligibility",
+      "date": "2026-03-01",
+      "sentence": "the SBA announced that, effective March 1, 2026, it eliminated a longstanding rule that, subject to certain restrictions, permitted SBA lending to borrowers that included equity ownership of up to 5% by noncitizens or non U.S.-resident aliens."
+    },
+    {
+      "event": "FDIC inflation-based adjustments increase asset threshold",
+      "date": "2026-01-01",
+      "sentence": "Effective January 1, 2026, amendments to the Federal Deposit Insurance Corporation Improvement Act (FDICIA) increased the asset size threshold for institutions subject to the audit and reporting requirements under Part 363."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:26:29.663Z",
+  "model": "deepseek-v4-flash"
+}

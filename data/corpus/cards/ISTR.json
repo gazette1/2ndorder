@@ -1,0 +1,51 @@
+{
+  "cik": "0001602658",
+  "ticker": "ISTR",
+  "name": "Investar Holding Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008446",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1602658/000143774926008446/istr20251231_10k.htm"
+  },
+  "business": "Investar Holding Corp, through its wholly-owned subsidiary Investar Bank, provides commercial banking products including loans, deposits, and treasury management services to individuals, professionals, and small to medium-sized businesses in Louisiana, Texas, and Alabama.",
+  "sellsTo": [
+    "individuals",
+    "professionals",
+    "small to medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "risks associated with our digital transformation process, including increased risks of cyberattacks and other security breaches and challenges associated with addressing the increased prevalence of artificial intelligence"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "risks associated with our digital transformation process, including increased risks of cyberattacks and other security breaches and challenges associated with addressing the increased prevalence of artificial intelligence"
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "fluctuations in the price of oil and natural gas"
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We also offer debit cards, internet banking, mobile banking with smartphone deposit capability as well as debit card protection settings."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Wichita Falls Bancshares completed",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, the Company completed its acquisition of WFB and its wholly-owned subsidiary, FNB"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:46:52.149Z",
+  "model": "deepseek-v4-flash"
+}

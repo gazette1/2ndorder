@@ -1,0 +1,74 @@
+{
+  "cik": "0001169445",
+  "ticker": "TBRG",
+  "name": "TruBridge, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001169445-26-000006",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1169445/000116944526000006/tbrg-20251231.htm"
+  },
+  "business": "TruBridge provides healthcare solutions and services, including revenue cycle management (RCM) and electronic health record (EHR) systems, to community hospitals, clinics, and healthcare systems. The company operates in two segments: Financial Health (RCM, consulting, managed IT) and Patient Care (EHR, patient engagement). Its target market comprises community hospitals with fewer than 400 acute care beds, with 98% of its acute care hospital customers having fewer than 100 beds.",
+  "sellsTo": [
+    "community hospitals",
+    "clinics",
+    "healthcare systems",
+    "skilled nursing facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "TruBridge is a leading provider of healthcare solutions and services for community hospitals, their clinics and other healthcare systems."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The United States FDA has determined that certain of our solutions, such as our ImageLink and Blood Administration products, are medical devices that are actively regulated under the Federal Food, Drug and Cosmetic Act, as amended."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our managed IT services include the following service offerings: Cloud Services, Backup and Recovery, Collaboration and Connectivity, Security Services, Systems Management, and Help Desk."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are planning to release our first denials prediction model to the public during the first quarter of 2026, and several pilots are unfolding within our innovation team to drive value for our clients out of this technology."
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "core_product",
+      "sentence": "We offer Cloud EHR services to customers via remote access telecommunications. Cloud EHR is a SaaS configuration and is a monthly subscription to access and use application software maintained by TruBridge in a cloud environment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of first denials prediction model",
+      "date": null,
+      "sentence": "We are planning to release our first denials prediction model to the public during the first quarter of 2026, and several pilots are unfolding within our innovation team to drive value for our clients out of this technology."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "National health spending projected to grow at 5.8% annually through 2033, reaching $8.6 trillion",
+      "sentence": "CMS estimates that national health spending is projected to grow at an average annual rate of 5.8% through 2033 and will reach $8.6 trillion in 2033."
+    },
+    {
+      "claim": "Approximately 4,600 community hospitals in the U.S. target market (fewer than 400 beds)",
+      "sentence": "According to the American Hospital Association s AHA Hospital Statistics, 2026 Edition , there are approximately 4,600 community hospitals in the United States that are in our target market of hospitals with fewer than 400 beds"
+    },
+    {
+      "claim": "Approximately 3,000 community hospitals with fewer than 100 acute care beds",
+      "sentence": "approximately 3,000 of those having fewer than 100 acute care beds."
+    },
+    {
+      "claim": "Approximately 3,800 community hospitals with fewer than 200 acute care beds",
+      "sentence": "In the United States, there are approximately 3,800 community hospitals with fewer than 200 acute care beds"
+    }
+  ],
+  "generatedAt": "2026-07-04T02:57:05.235Z",
+  "model": "deepseek-v4-flash"
+}

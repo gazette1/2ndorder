@@ -1,0 +1,39 @@
+{
+  "cik": "0000357301",
+  "ticker": "TRST",
+  "name": "TRUSTCO BANK CORP N Y",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-009576",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/357301/000114036126009576/ef20039040_10k.htm"
+  },
+  "business": "TrustCo Bank Corp NY is a savings and loan holding company. Its principal subsidiary, Trustco Bank, is a federal savings bank engaged in providing general banking services to individuals and businesses. Trustco Bank also offers trust and investment services through its Financial Services Department.",
+  "sellsTo": [
+    "individuals",
+    "businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We originate 1-4 family, owner-occupied residential real estate loans."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The rising popularity of alternative financial products, including fintech platforms, cryptocurrencies, money market funds, and digital wallets, may lead to increased volatility in our deposit base."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "As a bank, we are susceptible to fraudulent activity that may be committed against us or our customers which may result in financial losses or increased costs to us or our customers, disclosure or misuse of our information or our customers information, misappropriation of assets, privacy breaches against our customers, litigation or damage to our reputation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:21:58.029Z",
+  "model": "deepseek-v4-flash"
+}

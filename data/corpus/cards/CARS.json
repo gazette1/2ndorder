@@ -1,0 +1,50 @@
+{
+  "cik": "0001683606",
+  "ticker": "CARS",
+  "name": "Cars.com Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-076546",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526076546/cars-20251231.htm"
+  },
+  "business": "Cars.com Inc. is a trusted audience-powered and data-driven technology platform that simplifies buying and selling cars. The flagship Cars.com marketplace connects millions of consumers to dealerships across the U.S. The company also provides digital solutions including dealer websites, trade and appraisal tools, and media solutions.",
+  "sellsTo": [
+    "Franchise and independent auto dealers",
+    "OEMs (automotive manufacturers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "Carson™, which launched in 2025, provides consumers with an AI-powered natural language search experience."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In November 2021, we acquired the stock of CreditIQ, Inc., a privately held, automotive financial technology platform that provides instant online loan screening and approvals to facilitate online car buying."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "instability in electric vehicle manufacturing including production delays, shifting OEM strategies and vehicle program cancellations has created additional uncertainty for dealers and has contributed to inventory issues."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "risk_mention",
+      "sentence": "The increased use, development and regulation of generative AI, including generative AI and agentic AI technologies, could materially and could materially and adversely affect our business, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Carson AI-powered search",
+      "date": "2025-01-01",
+      "sentence": "Carson™, which launched in 2025, provides consumers with an AI-powered natural language search experience."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:31:52.468Z",
+  "model": "deepseek-v4-flash"
+}

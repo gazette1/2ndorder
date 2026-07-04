@@ -1,0 +1,65 @@
+{
+  "cik": "0000825542",
+  "ticker": "SMG",
+  "name": "SCOTTS MIRACLE-GRO CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000825542-25-000022",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554225000022/smg-20250930.htm"
+  },
+  "business": "Through our U.S. Consumer and Other segments, we are the leading marketer of branded consumer lawn and garden products in North America. Our products are marketed under some of the most recognized brand names in the industry. We sell products such as Scotts Turf Builder lawn fertilizer, Miracle-Gro soil, Ortho herbicide, and Tomcat rodent control.",
+  "sellsTo": [
+    "home centers",
+    "mass merchandisers",
+    "warehouse clubs",
+    "large hardware chains",
+    "independent hardware stores",
+    "nurseries",
+    "garden centers",
+    "e-commerce platforms",
+    "food and drug stores",
+    "indoor gardening and hydroponic product distributors",
+    "retailers",
+    "growers"
+  ],
+  "namedCustomers": [
+    "The Home Depot",
+    "Lowe's"
+  ],
+  "namedSuppliers": [
+    "Monsanto Company (Bayer AG)"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Through our U.S. Consumer and Other segments, we are the leading marketer of branded consumer lawn and garden products in North America."
+    },
+    {
+      "tag": "other:cannabis",
+      "stance": "risk_mention",
+      "sentence": "This was partially attributable to an oversupply of cannabis, which has led to a prolonged period of lower cannabis wholesale prices, reduced indoor and outdoor cannabis cultivation and consolidation of retail establishments."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and unfavorable weather conditions could adversely impact our financial results."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entry into Seventh A&R Credit Agreement replacing previous credit facility",
+      "date": "2025-11-21",
+      "sentence": "On November 21, 2025, we entered into the Seventh A&R Credit Agreement, providing the Company and certain of its subsidiaries with five-year senior secured loan facilities in the aggregate principal amount of $2,000.0, comprised of a revolving credit facility of $1,500.0 and a term loan in the original principal amount of $500.0."
+    },
+    {
+      "event": "Fiscal 2026 capital expenditure plan of approximately $100 million",
+      "date": null,
+      "sentence": "We expect fiscal 2026 capital expenditures to be approximately $100.0 and we expect to allocate approximately 46% to maintenance of existing productive assets, 28% to cost savings projects and 26% to innovation and expansion projects."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:03:59.106Z",
+  "model": "deepseek-v4-flash"
+}

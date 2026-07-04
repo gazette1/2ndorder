@@ -1,0 +1,73 @@
+{
+  "cik": "0001964333",
+  "ticker": "BHRB",
+  "name": "Burke & Herbert Financial Services Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001964333-26-000016",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1964333/000196433326000016/bhrb-20251231.htm"
+  },
+  "business": "Burke & Herbert Financial Services Corp. provides a broad range of banking products and financial services to small to medium-sized businesses, their owners and employees, professional corporations, non-profits, and individuals. The company offers checking, savings and money market accounts, certificates of deposit, treasury and cash management services, commercial and industrial loans, commercial real estate loans, residential mortgage, acquisition, construction & development loans, online banking, mobile banking, and wealth & trust services.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "business owners and employees",
+    "professional corporations",
+    "non-profits",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide a range of commercial lending services, including commercial real estate loans, acquisition, construction & development, commercial and industrial loans, consumer and mortgage warehouse lines of credit, and residential real estate loans."
+    },
+    {
+      "tag": "other:construction-lending",
+      "stance": "core_product",
+      "sentence": "Acquisition, construction & development loans are loans made for the purpose of financing construction or development projects."
+    },
+    {
+      "tag": "other:digital-banking",
+      "stance": "core_product",
+      "sentence": "We also offer digital banking, mobile banking, and a remote deposit service, which allows customers to facilitate and expedite deposit transactions through the use of electronic devices."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "Some of the products and services that we offer include ... wealth & trust services."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "We provide a range of commercial lending services, including commercial real estate loans, acquisition, construction & development, commercial and industrial loans, consumer and mortgage warehouse lines of credit, and residential real estate loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failure or breaches of our network security, including as a result of cyber-attacks or data security breaches, could subject us to increased operating costs, litigation, and other liabilities."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We are subject to physical and financial risks associated with climate change and other weather impacts."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete with commercial banks, credit unions, savings institutions, mortgage banking firms, finance companies, fintech companies, securities brokerage firms, insurance companies, money market funds and other mutual funds, as well as regional and national financial institutions that operate offices in our market area and elsewhere."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Execution of merger agreement with LINKBANCORP, Inc. (LNKB Merger)",
+      "date": "2025-12-18",
+      "sentence": "On December 18, 2025, the Company and LNKB entered into an Agreement and Plan of Merger (the Merger Agreement)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:08:51.590Z",
+  "model": "deepseek-v4-flash"
+}

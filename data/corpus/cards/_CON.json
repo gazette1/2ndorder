@@ -1,0 +1,67 @@
+{
+  "cik": "0002014596",
+  "ticker": "CON",
+  "name": "Concentra Group Holdings Parent, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0002014596-26-000029",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000029/cghp-20251231.htm"
+  },
+  "business": "Concentra is the largest provider of occupational health services in the United States by number of locations, operating 628 stand-alone occupational health centers and 411 onsite health clinics as of December 31, 2025. It offers workers compensation injury care, employer services (physicals, drug screening, vaccinations), and consumer health services directly to employers, insurance carriers, and patients. Revenue is primarily from workers compensation (60.9%) and employer services (37.6%).",
+  "sellsTo": [
+    "employers",
+    "workers compensation insurance carriers",
+    "third-party administrators",
+    "patients"
+  ],
+  "namedCustomers": [
+    "Sedgwick",
+    "Gallagher Bassett",
+    "Travelers",
+    "Liberty Mutual",
+    "Chubb",
+    "eScreen",
+    "First Advantage",
+    "DISA",
+    "Comprehensive Health Services"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Telemedicine is a telemedicine platform designed for the treatment of work-related injuries and illnesses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are leveraging artificial intelligence and machine learning to build predictive models using historical data with the goal of supporting quality patient care, compliance and operations efficiency, such as by using tools that help predict patient noncompliance and automate chart reviews."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure or security breach of our, or our third-party vendors, information technology systems, such as a cyber-attack, may compromise our facilities, confidential data or critical data systems, result in harm to patients, subject us to potential legal and reputational harm and otherwise have an adverse impact on our operations and business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase program authorization up to $100 million through December 31, 2027",
+      "date": "2025-11-05",
+      "sentence": "On November 5, 2025, the Board of Directors authorized a share repurchase program to repurchase up to $100 million of the Company’s outstanding common stock."
+    },
+    {
+      "event": "Quarterly dividend of $0.0625 per share declared on February 25, 2026",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, the Board of Directors declared a cash dividend of $0.0625 per share."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Estimated total addressable onsite clinic market is approximately $17 billion",
+      "sentence": "We believe there are additional growth opportunities in occupational health and advanced primary care as the estimated total addressable onsite clinic market is approximately $17 billion."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:05:16.335Z",
+  "model": "deepseek-v4-flash"
+}

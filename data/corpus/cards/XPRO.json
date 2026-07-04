@@ -1,0 +1,49 @@
+{
+  "cik": "0001575828",
+  "ticker": "XPRO",
+  "name": "EXPRO GROUP HOLDINGS N.V.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-004727",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1575828/000143774926004727/xpro20251231_10k.htm"
+  },
+  "business": "Expro Group Holdings N.V. is a leading provider of energy services, offering cost-effective, innovative solutions to exploration and production companies across the entire well life cycle. The company's portfolio includes well construction, well flow management, subsea well access, and well intervention and integrity solutions. It operates in over 50 countries with approximately 8,500 employees.",
+  "sellsTo": [
+    "oil and gas exploration and production companies",
+    "onshore and offshore environments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our extensive portfolio of capabilities spans well construction, well flow management, subsea well access, and well intervention and integrity solutions."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We seek to ... provide customers with cost-effective, innovative solutions to produce oil, gas and geothermal resources more efficiently and with a lower carbon footprint."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are integrating AI tools into our systems, and our third-party service providers, as well as our competitors, may also develop or use such tools."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our operations are subject to a series of regulatory, political, litigation, and financial risks associated with the production and processing of fossil fuels and emission of GHGs."
+    },
+    {
+      "tag": "other:energy-transition",
+      "stance": "risk_mention",
+      "sentence": "The transition of the global energy sector from primarily a fossil fuel-based system to renewable energy sources could affect our customers levels of expenditure."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:52:11.872Z",
+  "model": "deepseek-v4-flash"
+}

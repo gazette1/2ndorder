@@ -1,0 +1,91 @@
+{
+  "cik": "0001673985",
+  "ticker": "ASIX",
+  "name": "AdvanSix Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001673985-26-000008",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1673985/000167398526000008/asix-20251231.htm"
+  },
+  "business": "AdvanSix Inc. is an integrated chemistry company that produces essential materials for diverse end markets including building and construction, fertilizers, agrochemicals, plastics, solvents, packaging, paints, coatings, adhesives, electronics. It sells Nylon 6 resin, caprolactam, ammonium sulfate fertilizer, and chemical intermediates such as acetone and phenol.",
+  "sellsTo": [
+    "building and construction",
+    "fertilizers",
+    "agrochemicals",
+    "plastics",
+    "solvents",
+    "packaging",
+    "paints, coatings, adhesives",
+    "electronics"
+  ],
+  "namedCustomers": [
+    "Shaw Industries Group Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We manufacture, market and sell a number of chemical intermediate products that are derived from the manufacturing processes within our integrated supply chain."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our ammonium sulfate is used by customers as a fertilizer containing nitrogen and sulfur, two key plant nutrients."
+    },
+    {
+      "tag": "other:sustainability",
+      "stance": "core_product",
+      "sentence": "We are focused on working with customers to solve their needs with respect to sustainability and have commercialized our 100% Post-Industrial and Post-Consumer Recycled nylon."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "active_investment",
+      "sentence": "Investing in digital transformation and process automation to optimize and improve operational efficiency;"
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our value chain of our five U.S.-based manufacturing facilities plays a critical role in global supply chains and enables us to innovate and deliver essential products for our customers across building and construction, fertilizers, agrochemicals, plastics, solvents, packaging, paints, coatings, adhesives, electronics and other end markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity threats and incidents continue to increase in frequency and sophistication."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "The use of AI by us, our employees or any of our third-party providers may result in unauthorized disclosure of personal data, proprietary information and trade secrets, commercially sensitive or confidential information of the Company, our employees or our partners."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Convert 75% of ammonium sulfate production to granular form",
+      "date": "2026-12-31",
+      "sentence": "We are targeting converting approximately 75% of the ammonium sulfate we produce into higher-value granular form by year end 2026 in connection with our SUSTAIN (Sustainable U.S. Sulfate to Accelerate Increased Nutrition) program."
+    },
+    {
+      "event": "Anti-dumping orders on acetone extended for five years",
+      "date": "2026-01-31",
+      "sentence": "In January 2026, the ITC made affirmative determinations that revocation of the orders would likely lead to continuation or recurrence of material inquiry. As a result of the Commerce and ITC's determinations, the orders will be extended for another five years."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global Nylon 6 resin production and consumption was approximately 7.7 million metric tons in 2025.",
+      "sentence": "During 2025, approximately 7.7 million metric tons of Nylon 6 resin were produced and consumed globally."
+    },
+    {
+      "claim": "Global acetone demand totals approximately 7.6 million metric tons with the U.S. representing approximately 13% of the global market.",
+      "sentence": "Acetone global demand totals approximately 7.6 million metric tons with the U.S. representing approximately 13% of the global market."
+    },
+    {
+      "claim": "Ammonium sulfate accounts for approximately 6% of the global nitrogen fertilizer market and over 40% of the global sulfur fertilizer market.",
+      "sentence": "ammonium sulfate fertilizer accounts for approximately 6% of the global market for nitrogen fertilizer and over 40% of the global market for sulfur fertilizer."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:58:25.693Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,64 @@
+{
+  "cik": "0002076163",
+  "ticker": "BRR",
+  "name": "ProCap Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-007352",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/2076163/000149315226007352/form10-k.htm"
+  },
+  "business": "ProCap offers media products including social media accounts, email newsletters, and audio/video content to help independent investors understand financial markets. The company intends to develop and commercialize AI-powered products and services focused on financial education, portfolio analysis, and investor decision support. ProCap holds Bitcoin as its primary treasury reserve asset.",
+  "sellsTo": [
+    "independent investors",
+    "consumers",
+    "institutional and enterprise users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Anchorage Digital Bank, N.A.",
+    "BitGo Holdings Inc.",
+    "Coinbase Trust Company, LLC",
+    "FalconX",
+    "NVIDIA Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "we intend to develop and commercialize AI-powered products and services focused on financial education, portfolio analysis, and investor decision support."
+    },
+    {
+      "tag": "other:bitcoin",
+      "stance": "active_investment",
+      "sentence": "To support our operations, and in addition to our efforts in utilizing AI technologies, we will continue our plan to accumulate and hold Bitcoin as a long-term treasury reserve asset."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The global supply of these resources is constrained, and we depend on a limited number of suppliers, most notably NVIDIA Corporation, for critical hardware components."
+    },
+    {
+      "tag": "other:media",
+      "stance": "core_product",
+      "sentence": "We offer media products to help independent investors understand financial markets, current events, and technology advancements."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The global AI market was valued at approximately $294 billion to $391 billion in 2025.",
+      "sentence": "According to industry estimates, the global AI market was valued at approximately $294 billion to $391 billion in 2025, depending on the scope of measurement, and is projected to grow to approximately $376 billion or more by the end of 2026."
+    },
+    {
+      "claim": "AI-powered products in the finance market at approximately $38 billion in 2024, projected to grow to over $190 billion by 2030.",
+      "sentence": "Industry estimates place AI-powered products in the finance market at approximately $38 billion in 2024, projected to grow to over $190 billion by 2030, representing a CAGR of approximately 30.6%."
+    },
+    {
+      "claim": "Generative AI within financial services estimated at approximately $2.2 billion in 2024 and projected to reach approximately $25.7 billion by 2033.",
+      "sentence": "Generative AI within financial services, a more nascent segment, was estimated at approximately $2.2 billion in 2024 and is projected to reach approximately $25.7 billion by 2033, reflecting a CAGR of approximately 31.0%."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:24:48.188Z",
+  "model": "deepseek-v4-flash"
+}

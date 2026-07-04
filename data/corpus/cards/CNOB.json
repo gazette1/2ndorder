@@ -1,0 +1,41 @@
+{
+  "cik": "0000712771",
+  "ticker": "CNOB",
+  "name": "ConnectOne Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005320",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/712771/000143774926005320/cnob20251231c_10k.htm"
+  },
+  "business": "ConnectOne Bancorp, Inc. operates primarily through its bank subsidiary, ConnectOne Bank, offering deposit and loan products and services to small and mid-sized businesses, local professionals, and individuals in the New York Metropolitan area and Florida. It also has a fintech subsidiary, BoeFly, which provides a marketplace for franchise financing.",
+  "sellsTo": [
+    "small and mid-sized businesses",
+    "local professionals",
+    "individuals residing, working and conducting business in the New York Metropolitan area and the Florida market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "BoeFly is the Bank’s business-to-business fintech subsidiary, providing a marketplace that connects franchisors, franchisees, and lenders."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence (AI) present risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Contractual repricing of approximately $2.4 billion in loans originated in 2021-2022",
+      "date": null,
+      "sentence": "A significant portion of our loan portfolio, approximately $2.4 billion, primarily originated during the low-interest-rate environment of 2021 and 2022, is scheduled to contractually reprice during 2026 and 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:45:46.731Z",
+  "model": "deepseek-v4-flash"
+}

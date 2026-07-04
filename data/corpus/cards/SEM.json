@@ -1,0 +1,63 @@
+{
+  "cik": "0001320414",
+  "ticker": "SEM",
+  "name": "SELECT MEDICAL HOLDINGS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001320414-26-000007",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1320414/000132041426000007/sem-20251231.htm"
+  },
+  "business": "Select Medical Holdings Corporation operates critical illness recovery hospitals, rehabilitation hospitals, and outpatient rehabilitation clinics across the United States. As of December 31, 2025, it operated 104 critical illness recovery hospitals in 28 states, 38 rehabilitation hospitals in 15 states, and 1,917 outpatient rehabilitation clinics in 39 states and the District of Columbia. The company generated $5,452.8 million in revenue for the year ended December 31, 2025, with approximately 45% from critical illness recovery hospitals, 24% from rehabilitation hospitals, and 24% from outpatient rehabilitation.",
+  "sellsTo": [
+    "Medicare",
+    "Commercial insurance",
+    "Workers compensation",
+    "Private and other",
+    "Medicaid"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Use of AI. We have begun leveraging artificial intelligence to enhance certain aspects of our operational and administrative functions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Recent technological advances in artificial intelligence and machine learning technology pose risks to us."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Based on these assessments, we implement additional clinical programs (such as cancer rehabilitation and pelvic health) and services (such as telehealth and home physical therapy) specifically targeted to meet demand in the local community."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be adversely affected by a security breach of our, or our third-party vendors' information technology systems, such as a cyber attack, which may cause a violation of HIPAA or HITECH and subject us to potential legal and reputational harm."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Shortages in qualified nurses, therapists, physicians, or other licensed providers, and/or the inability to attract or retain qualified healthcare professionals could limit our ability to staff our facilities;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "One Big Beautiful Bill Act signed into law",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, President Trump signed OBBBA into law."
+    },
+    {
+      "event": "Non-binding indication of interest from Executive Chairman to acquire company",
+      "date": "2025-11-24",
+      "sentence": "On November 24, 2025, the Company received a non-binding indication of interest from Robert A. Ortenzio, our Executive Chairman, Co-Founder and Director, to acquire all of the Company's outstanding shares for cash consideration of $16.00 to $16.20 per share of our common stock (the Proposal and such transaction, the Take Private Transaction )."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:48:23.507Z",
+  "model": "deepseek-v4-flash"
+}

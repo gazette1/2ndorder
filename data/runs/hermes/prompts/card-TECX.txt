@@ -1,0 +1,34 @@
+You are an equity analyst building a structured card for Tectonic Therapeutic, Inc. (TECX) from its own 10-K. Read the sections below and extract only what the filing supports.
+
+=== BUSINESS (Item 1) ===
+(section not found)
+
+=== RISK FACTORS (Item 1A, excerpt) ===
+Item 1A. Risk Factors in this Annual Report on Form 10-K, including if our information technology systems, or the information technology systems of our CROs, our CDMOs, service providers, our current and potential future partners or other third parties with whom we work were compromised, we could experience adverse consequences, including but not limited to material disruptions to our business operations, regulatory investigations or actions, litigation, fines and penalties, reputational harm, loss of revenue or profits, or other adverse consequences. Governance Our Board of Directors addresses the Company s cybersecurity risk management as part of its general oversight function. The Board of Directors audit committee is responsible for overseeing Company s cybersecurity risk management processes, including oversight of mitigation of risks from cybersecurity threats. Our cybersecurity risk assessment and management processes are implemented and maintained by certain Company management, including our VP of IT, who has over 25 years of IT experience and 10 years of cybersecurity management expertise. Our VP of IT is responsible for hiring appropriate personnel, helping to integrate cybersecurity risk considerations into the Company s overall risk management strategy, and communicating key priorities to relevant personnel. Our Chief Financial Officer is responsible for approving budgets, helping prepare for cybersecurity incidents, approving cybersecurity processes, and reviewing security assessments and other security-related reports. Our cybersecurity incident response plan is designed to escalate certain cybersecurity incidents to members of management depending on the circumstances. Management works with the Company s incident response team to help the Company mitigate and remediate cybersecurity incidents of which they are notified. In addition, the Company s incident response plan includes reporting to the audit committee of the Board of Directors for certain cybersecurity incidents as appropriate. 74 The audit committee receives periodic reports our VP of IT concerning the Company s significant cybersecurity threats and risk and the processes the Company has implemented to address them. The audit committee also can request access to various reports, summaries or presentations related to cybersecurity threats, risk and mitigation.
+
+=== MD&A (Item 7) ===
+(section not found)
+
+Extract:
+- "business": what the company sells and to whom, 2 to 3 plain factual sentences.
+- "sellsTo": end markets and customer types (short phrases).
+- "namedCustomers", "namedSuppliers": only names the filing states.
+- "exposures": every technology or theme the filing shows exposure to. "tag" MUST come from this vocabulary: ai-compute, data-centers, edge-ai, semiconductors, semi-equipment, robotics, industrial-automation, warehouse-automation, machine-vision, sensors, precision-motion, rare-earths, battery-storage, grid-equipment, transmission, utilities, nuclear, renewables, oil-gas-services, mining-materials, specialty-chemicals, electrical-steel, copper-aluminum, defense, space, cybersecurity, quantum, biotech-therapeutics, medical-devices, diagnostics, digital-health, fintech, insurance, staffing-labor, logistics, construction-eng, housing, agriculture, consumer-brands, ecommerce, gaming-media, telecom-networking, satellites, evs-mobility, aerospace-suppliers. If a real exposure fits no tag, use "other:<short-term>". "stance" is "core_product" (they sell it), "active_investment" (they are building it, named program or committed spend), or "risk_mention" (risk factors or trend name-dropping only). "sentence" is the EXACT sentence from the filing that supports the exposure, copied verbatim.
+- "catalysts": dated or datable events the filing commits to (capacity additions, qualifications, launches, contract milestones), each with its exact sentence.
+- "tamClaims": quantified market size claims the filing itself makes, each with its exact sentence.
+
+Rules:
+- Every exposure, catalyst, and TAM claim carries its exact filing sentence. No sentence, no entry.
+- Do not use outside knowledge of the company.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "business": "...",
+  "sellsTo": ["..."],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [{ "tag": "...", "stance": "core_product", "sentence": "..." }],
+  "catalysts": [{ "event": "...", "date": "YYYY-MM-DD or null", "sentence": "..." }],
+  "tamClaims": [{ "claim": "...", "sentence": "..." }]
+}

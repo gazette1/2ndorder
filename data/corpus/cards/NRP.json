@@ -1,0 +1,93 @@
+{
+  "cik": "0001171486",
+  "ticker": "NRP",
+  "name": "NATURAL RESOURCE PARTNERS LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-006147",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926006147/nrp20251231_10k.htm"
+  },
+  "business": "Natural Resource Partners L.P. owns, manages and leases a diversified portfolio of mineral properties in the United States, including interests in coal and other natural resources, and owns a non-controlling 49% interest in Sisecam Wyoming LLC, a trona ore mining and soda ash production business. The company generates revenue primarily through royalty payments from lessees who extract minerals, and through distributions from its soda ash joint venture.",
+  "sellsTo": [
+    "steel manufacturers (metallurgical coal)",
+    "electric power generators (thermal coal)",
+    "glass manufacturers",
+    "solar panel manufacturers",
+    "detergent manufacturers",
+    "battery manufacturers for electric vehicles"
+  ],
+  "namedCustomers": [
+    "Alpha Metallurgical Resources Inc.",
+    "Ramaco Royalty Company, LLC",
+    "Crimson Oak Grove Resources, LLC (subsidiary of Alabama Kanu Holdings, LLC)",
+    "Foresight Energy Resources LLC",
+    "Westmoreland Mining LLC",
+    "Sisecam Chemicals Wyoming LLC"
+  ],
+  "namedSuppliers": [
+    "Union Pacific Railroad Company"
+  ],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "We own, manage and lease a diversified portfolio of mineral properties in the United States, including interests in coal and other natural resources and own a non-controlling 49% interest in Sisecam Wyoming LLC, a trona ore mining and soda ash production business."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Soda Ash consists of our 49% non-controlling equity interest in Sisecam Wyoming, one of the world's lowest-cost producers of soda ash, an essential ingredient in the manufacturing of glass, solar panels, detergents, and batteries for electric vehicles."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "Additional Mineral Rights segment revenues come from carbon neutral activities such as the sale of carbon offset credits from forestlands, potential sub-surface carbon dioxide sequestration in our pore space and opportunities to generate energy from renewable resources such as geothermal, solar and wind from our ownership."
+    },
+    {
+      "tag": "other:carbon-sequestration",
+      "stance": "active_investment",
+      "sentence": "We own approximately 3.5 million acres of specifically reserved subsurface rights in the southern United States with the potential for permanent sequestration of greenhouse gases."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "The adoption of climate change legislation and regulations restricting emissions of greenhouse gases and other hazardous air pollutants has resulted in changes in fuel consumption patterns by electric power generators and a corresponding decrease in coal production by our lessees and reduced coal-related revenues."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renewal of Western Energy lease",
+      "date": "2026-01-01",
+      "sentence": "The Western Energy lease expired on December 31, 2025, and was renewed on January 1, 2026 for another six-year term."
+    },
+    {
+      "event": "Macoupin mine transfer election available",
+      "date": "2027-01-01",
+      "sentence": "Beginning January 1, 2027, we may at any time elect to cause Foresight to transfer the Macoupin mine and all associated equipment and permits to us for no consideration."
+    },
+    {
+      "event": "Current Alpha-CAPP lease expiration",
+      "date": "2028-12-31",
+      "sentence": "The current lease with Alpha expires at the end of 2028 and will automatically renew unless otherwise notified."
+    },
+    {
+      "event": "Current Oak Grove lease expiration",
+      "date": "2029-12-31",
+      "sentence": "The current lease with Crimson Oak Grove expires in 2029, but our lessee has the right to renew the lease for two additional five-year terms, subject to the conditions of the lease."
+    },
+    {
+      "event": "Current Williamson lease expiration",
+      "date": "2033-12-31",
+      "sentence": "The current lease expires in 2033 and will automatically renew, and the lessee has the option to renew for additional terms, subject to the conditions of the lease."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 30% of global soda ash is produced by processing trona, with the remainder being produced synthetically.",
+      "sentence": "According to historical production statistics, approximately 30% of global soda ash is produced by processing trona, with the remainder being produced synthetically through chemical processes."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:25:37.367Z",
+  "model": "deepseek-v4-flash"
+}

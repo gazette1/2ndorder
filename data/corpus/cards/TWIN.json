@@ -1,0 +1,52 @@
+{
+  "cik": "0000100378",
+  "ticker": "TWIN",
+  "name": "TWIN DISC INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-028487",
+    "filedAt": "2025-09-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/100378/000143774925028487/twin20250630_10k.htm"
+  },
+  "business": "Twin Disc designs, manufactures and sells marine and heavy duty off-highway power transmission equipment, including marine transmissions, azimuth drives, surface drives, propellers and boat management systems, as well as power-shift transmissions, hydraulic torque converters, power take-offs, industrial clutches, controls systems, and braking systems. The company sells primarily to the pleasure craft, commercial and military marine markets, and to the energy and natural resources, government, military and industrial markets.",
+  "sellsTo": [
+    "pleasure craft marine market",
+    "commercial marine market",
+    "military marine market",
+    "energy and natural resources market",
+    "government market",
+    "military market",
+    "industrial market",
+    "oil and gas market",
+    "construction and recycling market",
+    "airport rescue and firefighting market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Certain of the Company’s products are directly or indirectly used in oil exploration and oil drilling and are thus dependent upon the strength of those markets and oil prices."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "In the off-highway transmission market, the year-over-year increase of 2.1% can be attributed primarily to the historically high demand for the Company’s ARFF (airport rescue and firefighting) transmissions."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The increase experienced in the Company’s industrial products of 61.8% was a function of stronger demand in the North American construction and recycling markets, along with the addition of the Katsa and Kobelt product lines."
+    },
+    {
+      "tag": "other:marine",
+      "stance": "core_product",
+      "sentence": "Net sales for the Company’s marine transmission and propulsion systems were up 17.1% in fiscal 2025 compared to the prior fiscal year."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:28:26.355Z",
+  "model": "deepseek-v4-flash"
+}

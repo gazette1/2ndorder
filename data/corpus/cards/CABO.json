@@ -1,0 +1,62 @@
+{
+  "cik": "0001632127",
+  "ticker": "CABO",
+  "name": "Cable One, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001632127-26-000005",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1632127/000163212726000005/cabo-20251231.htm"
+  },
+  "business": "Leading broadband communications provider; sells data, video, and voice services to residential and business customers in non-metropolitan markets across 24 states.",
+  "sellsTo": [
+    "residential customers",
+    "business customers",
+    "enterprise and wholesale customers",
+    "small and medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We serve our customers with technologically advanced fiber-based infrastructure that provides for delivery of a full suite of data, video and voice products."
+    },
+    {
+      "tag": "other:mobile-service",
+      "stance": "active_investment",
+      "sentence": "During the fourth quarter of 2025, we launched a pilot mobile service offering with a mobile virtual network enabler in several of our markets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI in our business, and challenges with properly managing its use could result in reputational harm, competitive harm and legal liability, and adversely affect our results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and other disruptions, including cyber-attacks, and our actual or perceived failure to adequately protect business and consumer data could give rise to liability or reputational harm."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exercise of Put Option to acquire remaining MBI equity",
+      "date": "2026-01-02",
+      "sentence": "The Put Option was exercised on January 2, 2026."
+    },
+    {
+      "event": "Anticipated closing of MBI acquisition",
+      "date": "2026-10-01",
+      "sentence": "we currently anticipate that the acquisition will be completed on October 1, 2026"
+    },
+    {
+      "event": "Expected closing of Clearwave Fiber contribution to Point",
+      "date": null,
+      "sentence": "This transaction is subject to customary closing conditions and is expected to close during the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:42:33.074Z",
+  "model": "deepseek-v4-flash"
+}

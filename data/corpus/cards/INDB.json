@@ -1,0 +1,39 @@
+{
+  "cik": "0000776901",
+  "ticker": "INDB",
+  "name": "INDEPENDENT BANK CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000776901-26-000058",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000058/indb-20251231.htm"
+  },
+  "business": "Independent Bank Corp, through its subsidiary Rockland Trust, provides a wide range of banking, investment, and financial services. It operates primarily in Eastern Massachusetts, Worcester County, southern New Hampshire, and Rhode Island, serving small-to-upper middle market businesses and consumers.",
+  "sellsTo": [
+    "small-to-upper middle market businesses",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Bank s competition for generating loans is primarily from other commercial banks, savings banks, credit unions, mortgage banking companies, online lenders or online banks, and other institutional lenders."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "inability to adapt to changes in information technology, including changes to industry accepted delivery models driven by a migration to the internet as a means of service delivery, including any inability to effectively implement new technology-driven products, such as artificial intelligence ( AI );"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber threats, attacks, intrusions, and fraud;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:55:26.944Z",
+  "model": "deepseek-v4-flash"
+}

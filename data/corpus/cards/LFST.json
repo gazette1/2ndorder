@@ -1,0 +1,43 @@
+{
+  "cik": "0001845257",
+  "ticker": "LFST",
+  "name": "LifeStance Health Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071462",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526071462/lfst-20251231.htm"
+  },
+  "business": "LifeStance Health Group provides outpatient mental healthcare services through a tech-enabled platform employing licensed clinicians. It generates revenue on a per-visit basis from patients with in-network insurance coverage. It serves patients, payors, and primary care physicians.",
+  "sellsTo": [
+    "Patients",
+    "Payors (commercial and government)",
+    "Primary care and specialist physicians"
+  ],
+  "namedCustomers": [
+    "UnitedHealthcare",
+    "Elevance Health, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We are reimagining mental health through a tech-enabled care delivery model built to expand access, address affordability, improve outcomes and lower overall healthcare costs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is dependent on maintaining effective information systems as well as the integrity and timeliness of the data we use to serve our patients, support our clinicians and payor partners and operate our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "over 60 million adults in the United States with a mental health issue that our clinicians could address",
+      "sentence": "We estimate that there are over 60 million adults in the United States with a mental health issue that our clinicians could address."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:42:34.870Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,38 @@
+{
+  "cik": "0001483386",
+  "ticker": "GLTR",
+  "name": "abrdn Precious Metals Basket ETF Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001999371-26-004883",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1483386/000199937126004883/gltr-10k_123125.htm"
+  },
+  "business": "The Trust is a passive investment vehicle that issues shares representing fractional undivided beneficial interests in its net assets, which consist of gold, silver, platinum and palladium bullion. The objective is for the value of each share to approximately reflect the price of the bullion owned by the Trust, less its liabilities. Shares trade on the NYSE Arca under the symbol GLTR.",
+  "sellsTo": [
+    "investors on NYSE Arca"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "The assets of the Trust consist of gold, silver, platinum and palladium bullion (Bullion) held by a custodian as an agent of the Trust."
+    },
+    {
+      "tag": "other:automobile",
+      "stance": "risk_mention",
+      "sentence": "A decline in the automobile industry may have the effect of causing a decline in the prices of platinum and palladium and a corresponding decline in the price of Shares."
+    },
+    {
+      "tag": "other:industrial-applications",
+      "stance": "risk_mention",
+      "sentence": "Bullion is used in a wide range of industrial applications, and an economic downturn could have a negative impact on its demand and, consequently, its price and the price of the Shares."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:38:51.038Z",
+  "model": "deepseek-v4-flash"
+}

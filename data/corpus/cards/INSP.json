@@ -1,0 +1,42 @@
+{
+  "cik": "0001609550",
+  "ticker": "INSP",
+  "name": "Inspire Medical Systems, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001609550-26-000016",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000016/insp-20251231.htm"
+  },
+  "business": "Inspire Medical Systems sells the Inspire system, a closed-loop neurostimulation device that treats moderate to severe obstructive sleep apnea by monitoring breathing and stimulating the hypoglossal nerve. It sells to hospitals and ambulatory surgery centers in the U.S., Europe, and Asia.",
+  "sellsTo": [
+    "hospitals",
+    "ambulatory surgery centers",
+    "ENT physicians",
+    "sleep centers",
+    "patients (direct-to-consumer)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our proprietary Inspire system is the first FDA, European Union (\"EU\") Regulation No. 2017/745 (\"MDR\" or \"EU Medical Devices Regulation\"), and Japan Pharmaceuticals and Medical Devices Agency-approved neurostimulation technology of its kind that provides a safe and effective treatment for patients with moderate to severe OSA."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We also continue to invest in our SleepSync platform, a cloud-based patient management system which allows patients and physicians alike to remotely monitor key compliance and outcomes measures for connected and coordinated care management, thereby optimizing therapy."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "In December 2024, the GLP-1 drug Zepbound (tirzepatide), was FDA approved for treatment of OSA in patients with obesity and moderate to severe OSA."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:27:17.241Z",
+  "model": "deepseek-v4-flash"
+}

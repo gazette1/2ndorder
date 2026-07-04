@@ -1,0 +1,42 @@
+{
+  "cik": "0000080172",
+  "ticker": "NPK",
+  "name": "NATIONAL PRESTO INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008214",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926008214/npk20251231_10k.htm"
+  },
+  "business": "National Presto Industries operates in three segments: Housewares/Small Appliance, Defense, and Safety. The Housewares/Small Appliance segment sells small electrical appliances and cookware to retailers and distributors primarily in the US and Canada. The Defense segment manufactures ammunition and ordnance-related products for the US Government and prime contractors. The Safety segment offers smoke and carbon monoxide alarms and fire extinguishers.",
+  "sellsTo": [
+    "retailers and distributors in US and Canada",
+    "US Government and prime contractors",
+    "consumers (safety products)"
+  ],
+  "namedCustomers": [
+    "Amazon.com, Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "It manufactures 40mm ammunition, precision mechanical and electro-mechanical assemblies, medium caliber cartridge cases and metal parts; performs Load, Assemble and Pack (LAP) operations on ordnance-related products primarily for the United States Government and prime contractors; and manufactures detonators, booster pellets, release cartridges, lead azide, other military energetic devices and materials, and assemblies."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Housewares/Small Appliance segment designs, markets and distributes housewares and small electrical appliances, including pressure cookers and canners, kitchen electrics, and comfort appliances that enrich the lives of consumers by making life easier, more productive and more enjoyable."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The segment's startup company, Rely Innovations, Inc., offers smoke, carbon monoxide (CO), and combo smoke/CO alarms with an array of voice messages in English and Spanish that clearly inform of incipient danger."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:34:37.171Z",
+  "model": "deepseek-v4-flash"
+}

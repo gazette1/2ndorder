@@ -1,0 +1,68 @@
+{
+  "cik": "0001531031",
+  "ticker": "ESQ",
+  "name": "Esquire Financial Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027706",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926027706/esq-20251231x10k.htm"
+  },
+  "business": "Esquire Financial Holdings is a financial holding company that through its bank subsidiary offers tailored banking products to the legal community nationwide, payment processing solutions to small businesses, and traditional banking to commercial and retail customers in the New York and Los Angeles metropolitan markets. The company focuses on litigation-related commercial loans and escrow deposits from law firms, generating low-cost core deposits and fee income from payment processing.",
+  "sellsTo": [
+    "legal community (law firms and litigation market) nationwide",
+    "small business owners (payment processing) nationwide",
+    "commercial and retail customers in New York and Los Angeles metropolitan areas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Global Payments",
+    "Repay",
+    "Fiserv"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide dynamic and flexible payment processing solutions to small business owners."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial Intelligence presents risks and challenges that may adversely affect our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls or cybersecurity-related incidents could have a material adverse effect on our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entry into merger agreement with Signature Bancorporation, Inc.",
+      "date": "2026-03-11",
+      "sentence": "On March 11, 2026, the Company, Esquire Merger Sub, Inc., a direct, wholly owned subsidiary of the Company (Merger Sub), and Signature Bancorporation, Inc. entered into an Agreement and Plan of Merger"
+    },
+    {
+      "event": "Opened a new branch in Los Angeles",
+      "date": "2025",
+      "sentence": "we opened a Los Angeles branch in 2025"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. tort actions TAM of $529 billion for 2022",
+      "sentence": "U.S. tort actions alone are estimated to consume approximately 2.1% of U.S. GDP annually according to the U.S. Chamber of Commerce Institute for Legal Reform (Tort Costs in America An Empirical Analysis of Costs and Compensation of U.S. Tort System) published in November 2024, with an estimated total addressable market (TAM) of $529 billion for 2022."
+    },
+    {
+      "claim": "Payment industry TAM of $12.2 trillion",
+      "sentence": "The payment industry grew at a compound annual rate of approximately 8% from 2021 to 2025 with payment volumes or TAM of $12.2 trillion according to company records on U.S. payment industry trends."
+    },
+    {
+      "claim": "New York metropolitan area deposit market of $4.1 trillion and Los Angeles County deposit market of $516 billion",
+      "sentence": "As of December 31, 2025, the New York metropolitan area had a deposit market of $4.1 trillion and the county of Los Angeles, California had a deposit market of $516 billion, according to data sourced from S&P Global Market Intelligence."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:04:11.455Z",
+  "model": "deepseek-v4-flash"
+}

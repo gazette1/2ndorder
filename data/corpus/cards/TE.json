@@ -1,0 +1,77 @@
+{
+  "cik": "0001992243",
+  "ticker": "TE",
+  "name": "T1 Energy Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001992243-26-000007",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1992243/000199224326000007/t1-20251231.htm"
+  },
+  "business": "T1 Energy Inc. is an energy solutions provider building an integrated U.S. solar supply chain for solar modules. It currently manufactures and sells photovoltaic (PV) solar modules in Texas and is constructing a PV solar cell fab in Texas. The company sells primarily into the utility-scale market, as well as commercial, industrial, and residential segments.",
+  "sellsTo": [
+    "utility-scale developers",
+    "commercial and industrial (C&I) end users",
+    "residential end users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Corning",
+    "Hemlock Semiconductor",
+    "Nextpower",
+    "Treaty Oak",
+    "Evervolt Green Energy Holding Pte Ltd",
+    "Trina Solar (U.S.) Holding Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We currently manufacture and sell photovoltaic (PV) solar modules in Texas and are constructing our PV solar cell fab in Texas."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Demand for U.S.-manufactured solar is growing as developers seek to meet surging power demand tied to digital infrastructure development while satisfying domestic content requirements."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "Explore and establish deeper solar value chain integration and battery technology partnerships;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Begin construction of first 2.1 GW phase of G2_Austin solar cell manufacturing fab",
+      "date": "2025-12-01",
+      "sentence": "We began construction in December 2025 of the first 2.1-gigawatt phase of our solar cell manufacturing fab in Milam County, Texas (G2_Austin)."
+    },
+    {
+      "event": "Expected start of solar cell production at G2_Austin",
+      "date": "2026-12-31",
+      "sentence": "This facility is anticipated to begin production by the end of 2026 of high-efficiency TOPCon solar cells that will be used in the solar modules manufactured at G1_Dallas."
+    },
+    {
+      "event": "Establishment of new warranty framework for T1-branded modules",
+      "date": "2026-06-30",
+      "sentence": "The Company expects this warranty framework to be in place during the second quarter of 2026."
+    },
+    {
+      "event": "First phase of G2_Austin expected to have 2.1 GW capacity with $400-$425 million capex",
+      "date": null,
+      "sentence": "Following the initial completion of detailed project engineering, the first phase of G2_Austin is expected to total 2.1 GW of annual production capacity with an estimated capital expenditure of $400 to $425 million."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "More than 45 GWdc forecast through 2030 across U.S. utility-scale, C&I, and residential sectors",
+      "sentence": "The favorable underlying growth drivers of U.S. solar demand are expected to persist over the next several years, with more than 45 GWdc forecast through 2030 across the U.S. utility-scale, C&I, and residential sectors."
+    },
+    {
+      "claim": "Solar accounted for nearly 60% of all new electricity generating capacity added to U.S. grid in 2025; solar and storage combined 85%",
+      "sentence": "As of 2025, solar accounted for nearly 60% of all new electricity generating capacity added to the U.S. grid and solar and storage projects, combined, accounted for 85% of new capacity in this timeframe."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:31:23.852Z",
+  "model": "deepseek-v4-flash"
+}

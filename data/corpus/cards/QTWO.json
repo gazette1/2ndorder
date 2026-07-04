@@ -1,0 +1,76 @@
+{
+  "cik": "0001410384",
+  "ticker": "QTWO",
+  "name": "Q2 Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001410384-26-000006",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1410384/000141038426000006/qtwo-20251231.htm"
+  },
+  "business": "Q2 provides a unified, cloud-based software platform offering digital banking, digital lending, risk and fraud solutions, and other financial services to financial institutions, FinTechs, and alternative finance companies. The platform is purpose-built for the regulated financial services industry. Customers include retail, SMB, and commercial segments.",
+  "sellsTo": [
+    "Financial institutions",
+    "Financial technology companies (FinTechs)",
+    "Alternative finance companies (Alt-FIs)",
+    "Regional and community financial institutions (RCFIs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)",
+    "Microsoft Azure"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our solutions comprise a broad and deep portfolio of digital banking offerings, digital lending and relationship pricing solutions, risk and fraud solutions, Q2 Innovation Studio and Helix."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our risk and fraud solutions are designed to support financial institutions' efforts to protect End Users, comply with regulatory requirements and manage fraud risk efficiently."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We leverage AI both in our products and in our internal operations to deliver better customer experience."
+    },
+    {
+      "tag": "other:cloud-infrastructure",
+      "stance": "active_investment",
+      "sentence": "We have completed the migration of our digital banking platform, including the core computing, storage and processing capabilities, from privately operated data centers to public cloud infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase program authorization",
+      "date": "2025-10",
+      "sentence": "In October 2025, our Board of Directors authorized a share repurchase program, or the Repurchase Program, that authorizes us to repurchase up to $150.0 million of our common stock."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Worldwide market opportunity for solutions is approximately $23.0 billion",
+      "sentence": "In the aggregate, we believe that the worldwide market opportunity for our solutions is approximately $23.0 billion."
+    },
+    {
+      "claim": "Market for digital banking platform is approximately $11.0 billion",
+      "sentence": "we believe that the market for our digital banking platform, including retail, SMB and commercial banking, regulatory and compliance, as well as account switching, portfolio management solutions and Q2 Innovation Studio is approximately $11.0 billion."
+    },
+    {
+      "claim": "Market for risk and fraud solutions is approximately $4.0 billion",
+      "sentence": "we believe that the market for our risk and fraud solutions, including real-time fraud monitoring, dispute management, fraud alerts, analytics and regulatory compliance capabilities, whether embedded within digital banking platforms or deployed independently, is approximately $4.0 billion."
+    },
+    {
+      "claim": "Market for digital lending and relationship pricing solutions is approximately $5.0 billion",
+      "sentence": "we believe that the market for our digital lending and relationship pricing solutions, including the borrower portal, origination, underwriting, servicing, collections, actionable insights, coaching, negotiation, relationship pricing and data-driven sales enablement modules, is approximately $5.0 billion."
+    },
+    {
+      "claim": "Market for Helix solutions is approximately $3.0 billion",
+      "sentence": "we believe the market for our Helix solutions including open platform solutions and BaaS, is approximately $3.0 billion."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:54:43.055Z",
+  "model": "deepseek-v4-flash"
+}

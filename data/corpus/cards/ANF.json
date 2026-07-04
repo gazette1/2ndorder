@@ -1,0 +1,61 @@
+{
+  "cik": "0001018840",
+  "ticker": "ANF",
+  "name": "ABERCROMBIE & FITCH CO /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001018840-26-000012",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000012/anf-20260131.htm"
+  },
+  "business": "Abercrombie & Fitch Co. is a global, digitally-led, omnichannel retailer that offers a broad assortment of apparel, personal care products and accessories for men, women and kids, sold primarily through its Company-owned stores and digital channels, as well as through various third-party arrangements.",
+  "sellsTo": [
+    "global consumers",
+    "men, women, and kids",
+    "individual retail customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company offers a broad assortment of apparel, personal care products and accessories for men, women and kids, which are sold primarily through its Company-owned stores and digital channels, as well as through various third-party arrangements."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Digital platforms remain a driver for customer engagement and sales, with a majority of sales continuing to be through digital channels for the Abercrombie brands."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "risks related to our ability to successfully execute technology initiatives and partnerships, including those relating to artificial intelligence (AI) technology"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "risks related to cybersecurity threats and privacy or data security breaches, and the potential loss or disruption of our information technology systems"
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "risks related to our global operations and supply chain, including political or climate-related conditions in the countries where we sell or source our products"
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "changes in tariff policy regarding merchandise produced in, and raw materials sourced from, certain countries have and could continue to adversely affect our business"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merchandising ERP system go-live",
+      "date": "2026-03-01",
+      "sentence": "Such investments have included replacement of our merchandising ERP system, which went live in March 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:55:18.325Z",
+  "model": "deepseek-v4-flash"
+}

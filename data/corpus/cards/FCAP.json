@@ -1,0 +1,44 @@
+{
+  "cik": "0001070296",
+  "ticker": "FCAP",
+  "name": "FIRST CAPITAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-037802",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926037802/fcap-20251231x10k.htm"
+  },
+  "business": "First Capital, Inc. is a bank holding company that provides banking services through its wholly-owned subsidiary, First Harrison Bank. The Bank offers a range of deposit, loan, and investment products to individual and business customers. The primary market area includes Harrison, Floyd, Clark, and Washington counties in Indiana and Bullitt County in Kentucky.",
+  "sellsTo": [
+    "individuals in its primary market area",
+    "businesses in its primary market area"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank's lending activities have concentrated on the origination of residential mortgages, including those secured by 1-4 family residential and multifamily properties, both for sale in the secondary market and for retention in the Bank's loan portfolio."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank originates construction loans for residential properties and, to a lesser extent, commercial properties."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Commercial real estate loans are generally secured by small retail stores, professional office space, warehouses, industrial buildings, and, in certain instances, farm properties."
+    },
+    {
+      "tag": "other:commercial-business",
+      "stance": "core_product",
+      "sentence": "Commercial business loans are generally secured by inventory, accounts receivable, and business equipment such as trucks and tractors."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:33:31.165Z",
+  "model": "deepseek-v4-flash"
+}

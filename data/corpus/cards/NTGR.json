@@ -1,0 +1,105 @@
+{
+  "cik": "0001122904",
+  "ticker": "NTGR",
+  "name": "NETGEAR, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-051346",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1122904/000119312526051346/ntgr-20251231.htm"
+  },
+  "business": "NETGEAR is a global provider of networking technologies for businesses, homes, and service providers. It delivers a wide range of networking hardware, software, and services designed to enable reliable connectivity and security. The company operates in two segments: Enterprise (solutions for small and medium enterprises including Pro AV, wireless LAN, cloud-managed networking, and security) and Consumer (WiFi mesh systems, routers, broadband modems, mobile hotspots, and subscription services).",
+  "sellsTo": [
+    "small and medium enterprises",
+    "consumers",
+    "service providers",
+    "wholesale distributors",
+    "traditional and online retailers",
+    "direct market resellers (DMRs)",
+    "managed service providers (MSPs)",
+    "broadband service providers",
+    "direct online store customers"
+  ],
+  "namedCustomers": [
+    "Amazon.com, Inc",
+    "Best Buy Co., Inc.",
+    "Wal-Mart Inc.",
+    "Ingram Micro",
+    "TD Synnex",
+    "D&H Distribution Company",
+    "AT&T",
+    "CDW Corporation",
+    "Insight Corporation",
+    "PC Connection",
+    "Staples",
+    "Office Depot",
+    "Target",
+    "Electra (Sweden)",
+    "Fnac Darty (Europe)",
+    "JB HiFi (Australia)",
+    "Elkjop (Norway)",
+    "Boulanger (France)"
+  ],
+  "namedSuppliers": [
+    "Cloud Network Technology (Hon Hai Precision / Foxconn Corporation)",
+    "Delta Electronics Incorporated",
+    "Senao Networks, Inc.",
+    "Pegatron Corporation",
+    "Shenzhen Gongjin Electronics Co., Ltd. (T&W)",
+    "APL Logistics Americas, Ltd.",
+    "Kerry Logistics Ltd.",
+    "DSV Solutions B.V. Netherlands"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We are a global provider of networking technologies for businesses, homes, and service providers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "security offerings, including firewall and secure access service edge (SASE) functionality"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "improper use of artificial intelligence (AI) tools, and other threats and risks, could disrupt or otherwise compromise our products, services, internal operations or information technology systems"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "memory costs, driven in part by industry demand related to AI data center deployments, have created additional cost pressures within our supply chain."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We obtain several key components from limited or sole sources. These include many of the semiconductors used in our products..."
+    },
+    {
+      "tag": "other:professional-av",
+      "stance": "core_product",
+      "sentence": "The Enterprise segment focuses on small and medium enterprises and provides solutions for audio and video over Ethernet for AV applications"
+    },
+    {
+      "tag": "other:smart-home",
+      "stance": "core_product",
+      "sentence": "The Consumer segment also prioritizes smart home related capabilities that emphasize interoperability, ease of use, and reliable performance"
+    },
+    {
+      "tag": "other:esim",
+      "stance": "core_product",
+      "sentence": "the planned launch of our eSIM-enabled M7 mobile hotspot, to support the expansion of recurring non-device revenue streams"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned launch of eSIM-enabled M7 mobile hotspot",
+      "date": null,
+      "sentence": "the planned launch of our eSIM-enabled M7 mobile hotspot, to support the expansion of recurring non-device revenue streams"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:34:48.852Z",
+  "model": "deepseek-v4-flash"
+}

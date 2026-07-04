@@ -1,0 +1,60 @@
+{
+  "cik": "0001637873",
+  "ticker": "ACVA",
+  "name": "ACV Auctions Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001637873-26-000011",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1637873/000163787326000011/acva-20251231.htm"
+  },
+  "business": "ACV Auctions provides a digital marketplace for wholesale vehicle transactions, connecting buyers and sellers of used vehicles through auctions and data services. The company offers value-added services including transportation, financing, and assurance, and leverages data and technology to power vehicle inspections, pricing analytics, and inventory management.",
+  "sellsTo": [
+    "Dealers (independent and franchise)",
+    "Commercial partners (leasing companies, rental car companies, banks, finance companies)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "ACV Capital. We offer short-term inventory financing (otherwise known as floorplan loans) for buyers to purchase vehicles."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "ACV Transportation. Through our nationwide network of third-party carrier partners, our technology platform, and dedicated service teams, we enable the movement of vehicles both locally and long-haul in a cost-efficient and timely manner."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Customer Assurance. We provide the seller with a Go Green assurance against claims related to defects in the vehicle which we did not identify in our condition report and otherwise may have exposed the seller to loss as a result of arbitration with the buyer."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our core digital marketplace offerings are auctions in varying formats, which facilitate real-time transactions of wholesale vehicles, and are accessible across multiple platforms including mobile apps, desktop, and directly through our application programming interface (API) integration."
+    },
+    {
+      "tag": "other:ai-platform",
+      "stance": "core_product",
+      "sentence": "We enable dealers to manage their inventory and set pricing more effectively while turning vehicles faster and maximizing profit by leveraging predictive analytics informed by artificial intelligence, and market data."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Amendment to 2021 Revolver increasing capacity to $250 million and extending maturity to 2030",
+      "date": "2025-06-26",
+      "sentence": "On June 26, 2025, we entered into Amendment No. 4 (the Fourth Amendment) to the 2021 Revolver which modifies the credit agreement (i) to increase the committed amount of the Company s revolving credit facility thereunder from $160 million to $250 million, (ii) to extend the maturity date thereof from August 24, 2026 to June 26, 2030."
+    },
+    {
+      "event": "Amendment to Warehouse Facility increasing capacity to $200 million and extending commitment termination to 2027",
+      "date": "2025-12-12",
+      "sentence": "On December 12, 2025, ACV Capital Funding II LLC entered into the first amendment to the Warehouse Facility which modifies such agreement (i) to increase the committed amount of ACV Capital II s revolving credit facility thereunder from $125.0 million to $200.0 million, (ii) to extend the Scheduled Commitment Termination Date thereof from June 20, 2026 to December 10, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:31:38.865Z",
+  "model": "deepseek-v4-flash"
+}

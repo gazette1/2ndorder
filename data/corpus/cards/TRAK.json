@@ -1,0 +1,55 @@
+{
+  "cik": "0000050471",
+  "ticker": "TRAK",
+  "name": "ReposiTrak, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-030050",
+    "filedAt": "2025-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/50471/000143774925030050/trak20250930_10k.htm"
+  },
+  "business": "ReposiTrak, Inc. is a Software-as-a-Service company that operates a B2B e-commerce, compliance & traceability, and supply chain management platform. It partners with retailers, wholesalers, distributors and their product suppliers to manage out-of-stock, scan-based trading, compliance documents, and traceability. The company's customers are primarily in the U.S. consumer retail sector for food, convenience stores, and general merchandise.",
+  "sellsTo": [
+    "multi-store retail chains",
+    "wholesalers",
+    "distributors",
+    "suppliers to retailers",
+    "food-related consumer goods retailers",
+    "convenience stores",
+    "general merchandise retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:traceability-network",
+      "stance": "core_product",
+      "sentence": "ReposiTrak Traceability Network ( Traceability or RTN ), which helps the Company's customers comply with federal regulatory requirements of traceability and provides the lowest cost, easiest to use way to manage the capture and sharing of key data elements ( KDEs ) now required by Section 204d of FSMA 2011 as designated products move through the supply chain at each event known as a critical tracking event or CTE , which includes tracking from farm to shelf."
+    },
+    {
+      "tag": "other:compliance-management",
+      "stance": "core_product",
+      "sentence": "ReposiTrak Compliance Management ( Compliance ) solutions, which helps the Company's customers vet suppliers and reduce a company's potential regulatory, legal, and criminal risk from its supply chain partners by providing a way for them to ensure these suppliers are compliant with food safety regulations, such as the Food Safety Modernization Act of 2011 ( FSMA );"
+    },
+    {
+      "tag": "other:supply-chain-management",
+      "stance": "core_product",
+      "sentence": "ReposiTrak Supply Chain Solutions ( Supply Chain ), which help the Company's customers to more efficiently manage various interactions with their suppliers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "Given the rising cybersecurity threats, we spent approximately $744,000 on security, backup, storage, and redundancy for our new data center in Reno, Nevada."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FSMA 204 compliance deadline extension",
+      "date": "2028-07-20",
+      "sentence": "In March 2025, the deadline for compliance with FSMA 204 was extended by 30 months to July 20, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:04:59.123Z",
+  "model": "deepseek-v4-flash"
+}

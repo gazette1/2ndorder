@@ -1,0 +1,52 @@
+{
+  "cik": "0001056943",
+  "ticker": "PFIS",
+  "name": "PEOPLES FINANCIAL SERVICES CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028106",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1056943/000110465926028106/pfis-20251231x10k.htm"
+  },
+  "business": "Peoples Financial Services Corp. is a bank holding company that provides a full range of financial services, including commercial and retail banking, trust and wealth management, and equipment financing, through its subsidiaries Peoples Security Bank and Trust Company and 1st Equipment Finance, Inc. It serves individuals, small and medium-sized businesses, municipalities, and non-profit organizations. Its primary market area covers counties in Pennsylvania, New Jersey, and New York.",
+  "sellsTo": [
+    "individuals",
+    "small and medium-sized businesses",
+    "municipalities",
+    "non-profit organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide customers with 24/7 access to banking services through our online banking platforms at psbt.com and through our mobile app."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "the development and use of AI in business processes, services, and products;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our ability to prevent, detect and respond to cybersecurity threats and incidents;"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "competition from financial technology companies and non-bank entities;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expansion of online account opening to include business deposit products",
+      "date": null,
+      "sentence": "We expect to expand online account opening capabilities to include business deposit products in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:19:46.617Z",
+  "model": "deepseek-v4-flash"
+}

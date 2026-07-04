@@ -1,0 +1,55 @@
+{
+  "cik": "0001856365",
+  "ticker": "FINW",
+  "name": "Finwise Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001856365-26-000006",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1856365/000185636526000006/finw-20251231.htm"
+  },
+  "business": "FinWise Bancorp is a bank holding company providing commercial and retail banking products and services, including loan origination (SBA, commercial leases, residential real estate, strategic program loans, consumer loans) and deposit services to consumers and small businesses nationwide. It operates through three segments: traditional banking, banking-as-a-service (BaaS), and treasury & administration. The BaaS segment provides lending, card, and payment solutions to fintech brands.",
+  "sellsTo": [
+    "Consumers and small businesses nationwide",
+    "Fintech brands (via BaaS)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Business Funding Group, LLC (BFG)",
+    "Upstart",
+    "Elevate",
+    "Reach (formerly Liberty Lending)",
+    "Plannery",
+    "Backd",
+    "Albert",
+    "Tilt",
+    "Earnest",
+    "PowerPay",
+    "Clasp",
+    "LendingPoint",
+    "OppLoans",
+    "Mulligan Funding",
+    "American First Finance"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The BaaS segment provides lending, card and payments solutions nationally to fintech brands."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "our ability to keep pace with rapid technological changes in the industry or implement new technology effectively including development of applications utilizing artificial intelligence"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "system failure or cybersecurity breaches of our network security and potential exposure to fraud, negligence, computer theft and cyber-crime and other disruptions in our computer systems relating to our development and use of new technology platforms"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:43:41.450Z",
+  "model": "deepseek-v4-flash"
+}

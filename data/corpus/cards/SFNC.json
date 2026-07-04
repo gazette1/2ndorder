@@ -1,0 +1,55 @@
+{
+  "cik": "0000090498",
+  "ticker": "SFNC",
+  "name": "SIMMONS FIRST NATIONAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011618",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/90498/000162828026011618/sfnc-20251231.htm"
+  },
+  "business": "Simmons First National Corporation is a financial holding company providing banking and other financial products and services through its subsidiaries. Its lead subsidiary, Simmons Bank, offers commercial and consumer banking products, wealth management, trust services, and insurance. The company operates in Arkansas, Kansas, Missouri, Oklahoma, Tennessee, and Texas.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "corporate customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Simmons First Insurance Services, Inc. and Simmons First Insurance Services of TN, LLC are wholly-owned subsidiaries of Simmons Bank and are insurance agencies that offer various lines of personal and corporate insurance coverage to individual and commercial customers."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Simmons Bank also offers a variety of consumer banking products and services, including ... real estate, home equity, and other consumer loans and lines of credit."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Simmons Bank also engages in small business administration (SBA) and agricultural finance lending."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition, we also compete with other providers of financial services, such as ... fintech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is heavily reliant on information technology systems, facilities, and processes; and a disruption in those systems, facilities, and processes, or a breach, including cyber-attacks, in the security of our systems, could have significant, negative impacts on our business, result in the disclosure of confidential information, and create significant financial and legal exposure for us."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Recently, the financial services industry has experienced rapid developments in artificial intelligence, including agentic artificial intelligence. The use of artificial intelligence models developed by third parties introduces risks related to how those models are developed, trained, and deployed, including unauthorized material in training data and limited visibility into risk mitigation steps."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:39:59.701Z",
+  "model": "deepseek-v4-flash"
+}

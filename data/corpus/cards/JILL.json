@@ -1,0 +1,45 @@
+{
+  "cik": "0001687932",
+  "ticker": "JILL",
+  "name": "J.Jill, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-134566",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526134566/jill-20260131.htm"
+  },
+  "business": "J.Jill is a national lifestyle brand that provides apparel, footwear and accessories designed to help its customers move through a full life with ease. It offers a high touch customer experience through 256 stores nationwide and a robust ecommerce platform. The brand targets women typically 45 years and older, college educated, with an approximate median annual household income of $150,000.",
+  "sellsTo": [
+    "women 45 years and older",
+    "college educated",
+    "household income ~$150,000"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "J.Jill is a national lifestyle brand that provides apparel, footwear and accessories designed to help its customers move through a full life with ease."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "J.Jill offers a high touch customer experience through 256 stores nationwide and a robust ecommerce platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks Related to Information Security our ability to secure the personal information of our customers and employees and comply with applicable security standards; the impact of privacy breaches at our service providers could damage our business and reputation; failure of our information technology systems to support our current and growing business;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "This includes building a strategic technology roadmap, incorporating opportunities for artificial intelligence implementation with an aim to accelerate growth, gain efficiencies, and improve the customer experience by building on recent foundational technology upgrades to the Company's Point of Sale ( POS ) system and Order Management System ( OMS )."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:15:56.230Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0000714395",
+  "ticker": "GABC",
+  "name": "GERMAN AMERICAN BANCORP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000714395-26-000011",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000011/gabc-20251231.htm"
+  },
+  "business": "German American Bancorp, Inc. is a financial holding company that provides retail and commercial banking and wealth management services. It operates through its banking subsidiary German American Bank with 94 offices in Indiana, Kentucky, and Ohio. The company attracts deposits from the general public and originates loans, and offers trust, investment advisory, brokerage, and retirement planning services.",
+  "sellsTo": [
+    "Retail customers",
+    "Commercial and agricultural businesses",
+    "Real estate investors",
+    "Wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "financial technology, or FinTech, companies continue their rapid growth into key areas of banking."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face significant operational risks due to the high volume and the high dollar value nature of transactions we process, including ... cyber-attacks ..."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and related legislative and regulatory initiatives may materially affect the Company's business and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Potential exceedance of $10 billion asset threshold leading to increased regulatory requirements",
+      "date": null,
+      "sentence": "Based on the Company's past organic growth and growth from acquisitions, the Company's total consolidated assets could exceed $10 billion as early as 2027."
+    },
+    {
+      "event": "Implementation of action plans to address compliance management recommendations",
+      "date": "2026-12-31",
+      "sentence": "The Company began implementing action plans to address these recommendations in 2025 and expects to continue to do so throughout 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:33:12.768Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001475841",
+  "ticker": "NBHC",
+  "name": "National Bank Holdings Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-019119",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1475841/000110465926019119/nbhc-20251231x10k.htm"
+  },
+  "business": "National Bank Holdings Corp is a bank holding company that provides banking products and services to commercial and consumer clients through its subsidiary banks. It offers loans, deposits, treasury management, trust and wealth management, and digital banking solutions. Its primary markets are Colorado, the greater Kansas City region, Texas, Utah, Wyoming, New Mexico, and Idaho.",
+  "sellsTo": [
+    "commercial clients",
+    "consumer clients",
+    "small- to medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "2UniFi, LLC, a wholly owned subsidiary of NBHC, is a national platform for providing banking services to small- and medium-sized businesses, digital payment tools and financial services information management."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Cambr is a digital deposit acquisition and processing platform designed to gather deposits from accounts offered through third-party embedded finance companies."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential real estate loans consist of loans secured by the primary or secondary residence of the borrower as well as properties the borrower holds for investment."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We originate commercial and industrial loans, including working capital loans, equipment loans, lender finance loans, food and agribusiness loans, government and non-profit loans, owner occupied commercial real estate loans and other commercial loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Vista Bancshares, Inc. completed",
+      "date": "2026-01-07",
+      "sentence": "On January 7, 2026, the Company completed its acquisition of Vista"
+    },
+    {
+      "event": "System conversion for Vista acquisition",
+      "date": "2026-09-30",
+      "sentence": "The system conversion for this transaction will be completed during the third quarter of 2026."
+    },
+    {
+      "event": "Launch of initial phase of 2UniFi",
+      "date": "2025-07-01",
+      "sentence": "In July 2025, the Company launched the initial phase of 2UniFi, an innovative financial ecosystem built to empower business entrepreneurs with treasury management depository capabilities and a streamlined SBA loan offering."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:11:56.458Z",
+  "model": "deepseek-v4-flash"
+}

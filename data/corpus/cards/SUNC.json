@@ -1,0 +1,68 @@
+{
+  "cik": "0002089661",
+  "ticker": "SUNC",
+  "name": "SunocoCorp LLC",
+  "source": {
+    "form": "10-K",
+    "accession": "0002089661-26-000016",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/2089661/000208966126000016/sunc-20251231.htm"
+  },
+  "business": "Sunoco LP is primarily engaged in energy infrastructure and distribution of motor fuels across 32 countries and territories in North America, the Greater Caribbean and Europe. Its fuel distribution operations distribute over 15 billion gallons annually to approximately 11,000 Sunoco and partner branded locations, as well as independent dealers and commercial customers. It also operates pipeline systems, terminals, and a refinery.",
+  "sellsTo": [
+    "dealers and distributors",
+    "commission agents",
+    "company-operated retail facilities",
+    "commercial businesses including municipalities and industrial customers",
+    "independent dealers and commercial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Chevron",
+    "Exxon",
+    "Phillips 66",
+    "Valero"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Sunoco is primarily engaged in energy infrastructure and distribution of motor fuels across 32 countries and territories in North America, the Greater Caribbean and Europe."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The refinery meets federal and provincial regulations for lower carbon intensity transportation fuels through a combination of co-processing of bio feedstocks (i.e. canola oil, tallow, tall oil and others) and blending of low-carbon intensity fuels such as bio-diesel, renewable diesel, ethanol and others."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "changing customer preferences for alternate fuel sources or improvement in fuel efficiency"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the possibility of cyber and malware attacks"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Parkland Acquisition completed",
+      "date": "2025-10-31",
+      "sentence": "On October 31, 2025, the Partnership completed the previously announced acquisition of Parkland"
+    },
+    {
+      "event": "TanQuid Acquisition completed",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, the Partnership completed the previously announced acquisition of TanQuid"
+    },
+    {
+      "event": "West Texas Sale completed",
+      "date": "2024-04-16",
+      "sentence": "Sunoco s sale of 204 convenience stores in West Texas, New Mexico and Oklahoma completed on April 16, 2024"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:32:40.585Z",
+  "model": "deepseek-v4-flash"
+}

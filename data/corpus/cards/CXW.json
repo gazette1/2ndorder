@@ -1,0 +1,82 @@
+{
+  "cik": "0001070985",
+  "ticker": "CXW",
+  "name": "CoreCivic, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-060669",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1070985/000119312526060669/cxw-20251231.htm"
+  },
+  "business": "CoreCivic is a diversified government solutions company that provides corrections and detention management services, a network of residential reentry centers, and government real estate solutions to federal, state, and local government partners.",
+  "sellsTo": [
+    "Federal government agencies (ICE, USMS, BOP)",
+    "State governments",
+    "Local governments"
+  ],
+  "namedCustomers": [
+    "U.S. Immigration and Customs Enforcement (ICE)",
+    "U.S. Marshals Service (USMS)",
+    "Federal Bureau of Prisons (BOP)",
+    "State of Montana",
+    "State of Georgia",
+    "Department of Homeland Security (DHS)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:corrections-and-detention",
+      "stance": "core_product",
+      "sentence": "Through our CoreCivic Safety segment, we operated 44 correctional and detention facilities, 40 of which we owned or controlled via a long-term lease, with a total design capacity of approximately 68,000 beds."
+    },
+    {
+      "tag": "other:immigration-detention",
+      "stance": "core_product",
+      "sentence": "The solutions we provide to our federal customers, including primarily ICE and the USMS, continue to be a significant component of our business."
+    },
+    {
+      "tag": "other:real-estate-lease",
+      "stance": "core_product",
+      "sentence": "We also offer our customers an attractive portfolio of correctional, detention, and reentry facilities that can be leased for various needs as an alternative to providing 'turn-key' correctional, detention, and residential reentry bed space and services to our government partners."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "The turnover rate for correctional officers for our company, and for the corrections industry in general, remains high, and staffing challenges were exacerbated by labor shortages and wage pressures in the marketplace."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Activation of Dilley Immigration Processing Center completed",
+      "date": "2025-09-30",
+      "sentence": "Activation of the Dilley Facility was completed in September 2025."
+    },
+    {
+      "event": "California City Immigration Processing Center expected to reach stabilized occupancy",
+      "date": "2026-03-31",
+      "sentence": "We currently expect to reach stabilized occupancy at the facility in the first quarter of 2026."
+    },
+    {
+      "event": "West Tennessee Detention Facility expected to be fully activated",
+      "date": "2026-03-31",
+      "sentence": "we expect the facility to be fully activated by the end of the first quarter of 2026."
+    },
+    {
+      "event": "Diamondback Correctional Facility expected to reach stabilized occupancy",
+      "date": "2026-06-30",
+      "sentence": "stabilized occupancy estimated to be reached in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "OBBBA provides $75 billion in mandatory funding to ICE for immigration enforcement and detention capacity through September 2029.",
+      "sentence": "OBBBA appropriates a total of $75 billion in mandatory funding to ICE for immigration enforcement activities and to increase detention capacity."
+    },
+    {
+      "claim": "Estimated total annual revenue from five activated facilities is $500 million.",
+      "sentence": "The following table presents the estimated total annual revenue from each of these facilities and the quarter each activation is expected to reach stabilized occupancy: ... 8,753 $ 500,000"
+    }
+  ],
+  "generatedAt": "2026-07-03T20:58:44.554Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,63 @@
+{
+  "cik": "0000354963",
+  "ticker": "SHEN",
+  "name": "SHENANDOAH TELECOMMUNICATIONS CO/VA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000354963-26-000125",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/354963/000035496326000125/shen-20251231.htm"
+  },
+  "business": "Shentel provides broadband services including internet, video, voice, Ethernet, dark fiber leasing, and managed network services to customers in eight eastern US states via fiber-optic and HFC cable networks. The company also offers voice and DSL services as a Rural Local Exchange Carrier in portions of Virginia and Ohio.",
+  "sellsTo": [
+    "Residential and small/medium business customers in incumbent and expansion markets",
+    "Commercial enterprise and wholesale customers",
+    "Rural Local Exchange Carrier customers"
+  ],
+  "namedCustomers": [
+    "T-Mobile"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Shentel provides broadband services through its high speed, state-of-the-art fiber-optic and cable networks to customers in eight contiguous states in the eastern United States."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We could suffer a loss of revenue and increased costs, exposure to significant liability, reputational harm and other serious negative consequences if we sustain cyber-attacks or other data security breaches that disrupt our operations or result in the dissemination of proprietary or confidential information about us or our customers or other third parties."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "Cable television systems are operated under non-exclusive franchises granted by local authorities, which may result in more than one operator providing video services in a particular market. Incumbent cable television companies, which have historically provided video service, also face competition from direct broadcast satellite providers such as Dish and DirecTV and online video services, such as Netflix, YouTube TV, Hulu, Disney and Amazon."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As adoption of Artificial Intelligence (AI) technologies becomes a critical component of business, our pace of adoption for AI could impact our cost structure relative to peers."
+    },
+    {
+      "tag": "utilities",
+      "stance": "risk_mention",
+      "sentence": "Pole attachments are wires and cables that are attached to utility poles. Cable and fiber system attachments to investor-owned public utility poles historically have been regulated at the federal or state level, generally resulting in reasonable pole attachment rates for attachments used to provide cable service."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete majority of grant obligations in Maryland, West Virginia and Ohio",
+      "date": "2026-12-31",
+      "sentence": "The Company substantially completed its Virginia obligations in 2025 with approximately 20,000 previously unserved homes now with broadband service and expects to complete the majority of its obligations in Maryland, West Virginia and Ohio by the end of 2026."
+    },
+    {
+      "event": "Complete middle mile network obligations in Ohio",
+      "date": "2027-12-31",
+      "sentence": "As part of this program, the Company has been awarded approximately $27.5 million in grants to construct and upgrade middle mile networks in Ohio and expect to complete the majority of its obligations by the end of 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:50:59.845Z",
+  "model": "deepseek-v4-flash"
+}

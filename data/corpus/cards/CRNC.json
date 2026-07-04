@@ -1,0 +1,65 @@
+{
+  "cik": "0001768267",
+  "ticker": "CRNC",
+  "name": "Cerence Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-25-053372",
+    "filedAt": "2025-11-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1768267/000162828025053372/crnc-20250930.htm"
+  },
+  "business": "Cerence builds conversational and agentic AI solutions for the mobility/transportation market, primarily automotive. It sells software licenses and cloud-connected services to nearly all major automobile OEMs worldwide. Its solutions are white-label, enabling customers to customize virtual assistants.",
+  "sellsTo": [
+    "Automotive OEMs",
+    "Tier-1 suppliers",
+    "Other transportation (two-wheeled vehicles, trucks, etc.)",
+    "Non-automotive (televisions, smart watches, voice-powered kiosks)"
+  ],
+  "namedCustomers": [
+    "BMW",
+    "Mercedes-Benz",
+    "Volkswagen Group",
+    "Stellantis",
+    "Renault",
+    "Toyota",
+    "Ford",
+    "General Motors",
+    "BYD",
+    "Great Wall Motor",
+    "NIO",
+    "HARMAN",
+    "EcarX",
+    "Bosch",
+    "Continental",
+    "Denso Ten",
+    "Aptiv"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our software platform offers a hybrid architecture combining edge software components, which are embedded in a vehicle's head unit and integrated with onboard systems, with cloud-connected components."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "While the majority of our business is in the automotive market, our solutions can be leveraged across other areas of transportation - two-wheeled vehicles, trucks, and more - as well as outside of automotive."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity and data privacy incidents or breaches may damage client relations and inhibit our growth."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Substantial completion of 2025 restructuring plan",
+      "date": "2025-12-31",
+      "sentence": "The implementation of the 2025 Plan is expected to be substantially complete by the end of the first quarter of fiscal year 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:05:43.299Z",
+  "model": "deepseek-v4-flash"
+}

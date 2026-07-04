@@ -1,0 +1,45 @@
+{
+  "cik": "0001265131",
+  "ticker": "HTH",
+  "name": "Hilltop Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-015264",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1265131/000110465926015264/hth-20251231x10k.htm"
+  },
+  "business": "Hilltop Holdings Inc. provides business and consumer banking services through its subsidiary PlainsCapital Bank, primarily in Texas, and offers residential mortgage origination nationwide through PrimeLending. It also provides investment banking, municipal advisory, securities sales and trading, clearing, securities lending, and retail brokerage services through its broker-dealer segment, Hilltop Securities, nationwide.",
+  "sellsTo": [
+    "Individuals and businesses in Texas (banking)",
+    "Homebuyers nationwide (mortgage origination)",
+    "Government entities, institutions, and retail investors nationwide (broker-dealer services)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition for deposits and lending services is also increasing from internet-based competitors and fintech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operational systems and networks have been, and will continue to be, subject to an increasing risk of continually evolving cybersecurity or other technological risks, which could result in a loss of customer business, financial liability, regulatory penalties, damage to our reputation or the disclosure of confidential information."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our mortgage origination segment operates through a wholly owned subsidiary of the Bank, PrimeLending, which is a residential mortgage banker licensed to originate and close loans in all 50 states and the District of Columbia."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Further, our broker-dealer segment competes with discount brokerage firms, including fintech startups, that do not offer equivalent services but offer discounted prices and certain free services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:46:17.037Z",
+  "model": "deepseek-v4-flash"
+}

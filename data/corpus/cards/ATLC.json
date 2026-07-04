@@ -1,0 +1,66 @@
+{
+  "cik": "0001464343",
+  "ticker": "ATLC",
+  "name": "Atlanticus Holdings Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007972",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926007972/atlc20251231_10k.htm"
+  },
+  "business": "Atlanticus is a financial technology company that provides technology and other support services to lenders, enabling them to offer credit cards and private label credit to underserved consumers. It also operates an Auto Finance segment that purchases and services auto loans from independent dealers.",
+  "sellsTo": [
+    "Consumers with lower credit scores (Everyday Americans)",
+    "Retail partners",
+    "Healthcare providers",
+    "Auto dealers"
+  ],
+  "namedCustomers": [
+    "The Bank of Missouri",
+    "WebBank",
+    "First Bank and Trust"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Atlanticus is a financial technology company powering more inclusive financial solutions for Everyday Americans."
+    },
+    {
+      "tag": "other:machine-learning",
+      "stance": "core_product",
+      "sentence": "Atlanticus decisioning platform is enhanced by machine learning, enabling lenders to make fast, sound decisions when it matters most."
+    },
+    {
+      "tag": "other:automobile-lending",
+      "stance": "core_product",
+      "sentence": "Within our Auto Finance segment, our CAR subsidiary operations principally purchase and/or service loans secured by automobiles from or for, and also provide floor-plan financing for, a pre-qualified network of independent automotive dealers and automotive finance companies in the buy-here, pay-here used car business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A security breach involving our files and infrastructure could lead to unauthorized disclosure of confidential information."
+    },
+    {
+      "tag": "other:agentic-ai",
+      "stance": "risk_mention",
+      "sentence": "Recently, the financial services industry has experienced rapid developments in artificial intelligence, including agentic artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Mercury Financial LLC",
+      "date": "2025-09-11",
+      "sentence": "On September 11, 2025, we closed the acquisition of all outstanding equity interests of Mercury, a leading data- and tech-centric credit card platform utilized by bank partners to provide credit cards to near-prime consumers in the U.S."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "40% of Americans had FICO scores of less than 700, equating to over 100 million Everyday Americans in need of access to credit.",
+      "sentence": "According to data published by Experian, 40% of Americans had FICO scores of less than 700. We believe this equates to a population of over 100 million Everyday Americans in need of access to credit."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:58:25.201Z",
+  "model": "deepseek-v4-flash"
+}

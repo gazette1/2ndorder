@@ -1,0 +1,65 @@
+{
+  "cik": "0000933034",
+  "ticker": "STRT",
+  "name": "STRATTEC SECURITY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-111218",
+    "filedAt": "2025-08-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/933034/000095017025111218/strt-20250629.htm"
+  },
+  "business": "Strattec designs and manufactures highly engineered automotive access products including locks, keys, fobs, and power sliding door systems. It is a direct supplier to automotive and light truck OEMs, and also sells to OEM service channels, the aftermarket, and non-automotive customers.",
+  "sellsTo": [
+    "Automotive OEMs",
+    "Aftermarket",
+    "Non-automotive customers"
+  ],
+  "namedCustomers": [
+    "General Motors Company",
+    "Ford Motor Company",
+    "Stellantis"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "All of our products are safety critical, powertrain agnostic and are applicable for internal combustion, plug-in/hybrid or electric vehicles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We have elevated our key fob business with our digital key product which leverages our system and software capability to meet increasing security, software and packaging architecture needs."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Future shortages in the supply of semiconductor chips and other matters adversely impacting the timing, availability and costs of material component parts for the production of our products could adversely affect our business, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Milwaukee union contract expires",
+      "date": "2025-11-01",
+      "sentence": "The current contract with our Milwaukee unionized associates is effective through November 1, 2025."
+    },
+    {
+      "event": "Leon, Mexico union contract expires",
+      "date": "2026-04-08",
+      "sentence": "The current contract with our Leon unionized associates is effective through April 8, 2026."
+    },
+    {
+      "event": "ADAC-Strattec Credit Facility availability reduced to $18 million",
+      "date": "2025-08-01",
+      "sentence": "Availability under the ADAC-Strattec Credit Facility is reduced to $18 million on August 1, 2025."
+    },
+    {
+      "event": "Rolando Guillot retirement",
+      "date": null,
+      "sentence": "Rolando Guillot ... will be retiring in September 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:20:53.449Z",
+  "model": "deepseek-v4-flash"
+}

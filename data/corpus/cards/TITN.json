@@ -1,0 +1,48 @@
+{
+  "cik": "0001409171",
+  "ticker": "TITN",
+  "name": "Titan Machinery Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-022376",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828026022376/titn-20260131.htm"
+  },
+  "business": "Titan Machinery operates a network of full-service agricultural and construction equipment stores in the United States, Europe, and Australia, selling new and used equipment, parts, repair services, and rentals. The company is an authorized dealer of CNH Industrial brands (Case IH, New Holland, Case Construction) and also sells equipment from other manufacturers. Customers include farmers, construction contractors, and commercial entities.",
+  "sellsTo": [
+    "Farmers",
+    "Construction contractors",
+    "Commercial entities",
+    "Government/municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CNH Industrial N.V."
+  ],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We sell new agricultural and construction equipment manufactured under the CNH family of brands and equipment from a variety of other manufacturers."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The construction equipment we sell and service includes heavy construction machinery, light industrial machinery for commercial and residential construction, and road and highway construction machinery."
+    },
+    {
+      "tag": "other:precision-farming",
+      "stance": "core_product",
+      "sentence": "Our other business activities include ancillary products and services such as equipment transportation, Global Positioning System (\"GPS\") signal subscriptions and other precision farming products, farm data management products, and CNH finance and insurance products."
+    },
+    {
+      "tag": "other:equipment-rental",
+      "stance": "core_product",
+      "sentence": "We rent equipment to our customers, primarily in the Construction segment, for periods ranging from a few days to full seasons."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:24:21.118Z",
+  "model": "deepseek-v4-flash"
+}

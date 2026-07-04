@@ -1,0 +1,34 @@
+You are an equity analyst building a structured card for Drugs Made In America Acquisition Corp. (DMAA) from its own 10-K. Read the sections below and extract only what the filing supports.
+
+=== BUSINESS (Item 1) ===
+(section not found)
+
+=== RISK FACTORS (Item 1A, excerpt) ===
+ITEM 1A. RISK FACTORS. As a smaller reporting company, we are not required to make disclosures under this Item.
+
+=== MD&A (Item 7) ===
+ITEM 7. MANAGEMENT S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS. The following discussion and analysis of the Company s financial condition and results of operations should be read in conjunction with our audited financial statements and the notes related thereto which are included in
+
+Extract:
+- "business": what the company sells and to whom, 2 to 3 plain factual sentences.
+- "sellsTo": end markets and customer types (short phrases).
+- "namedCustomers", "namedSuppliers": only names the filing states.
+- "exposures": every technology or theme the filing shows exposure to. "tag" MUST come from this vocabulary: ai-compute, data-centers, edge-ai, semiconductors, semi-equipment, robotics, industrial-automation, warehouse-automation, machine-vision, sensors, precision-motion, rare-earths, battery-storage, grid-equipment, transmission, utilities, nuclear, renewables, oil-gas-services, mining-materials, specialty-chemicals, electrical-steel, copper-aluminum, defense, space, cybersecurity, quantum, biotech-therapeutics, medical-devices, diagnostics, digital-health, fintech, insurance, staffing-labor, logistics, construction-eng, housing, agriculture, consumer-brands, ecommerce, gaming-media, telecom-networking, satellites, evs-mobility, aerospace-suppliers. If a real exposure fits no tag, use "other:<short-term>". "stance" is "core_product" (they sell it), "active_investment" (they are building it, named program or committed spend), or "risk_mention" (risk factors or trend name-dropping only). "sentence" is the EXACT sentence from the filing that supports the exposure, copied verbatim.
+- "catalysts": dated or datable events the filing commits to (capacity additions, qualifications, launches, contract milestones), each with its exact sentence.
+- "tamClaims": quantified market size claims the filing itself makes, each with its exact sentence.
+
+Rules:
+- Every exposure, catalyst, and TAM claim carries its exact filing sentence. No sentence, no entry.
+- Do not use outside knowledge of the company.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "business": "...",
+  "sellsTo": ["..."],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [{ "tag": "...", "stance": "core_product", "sentence": "..." }],
+  "catalysts": [{ "event": "...", "date": "YYYY-MM-DD or null", "sentence": "..." }],
+  "tamClaims": [{ "claim": "...", "sentence": "..." }]
+}

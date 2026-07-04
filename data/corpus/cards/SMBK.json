@@ -1,0 +1,45 @@
+{
+  "cik": "0001038773",
+  "ticker": "SMBK",
+  "name": "SMARTFINANCIAL INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028542",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1038773/000110465926028542/smbk-20251231x10k.htm"
+  },
+  "business": "SmartFinancial, Inc. is a bank holding company that primarily operates through its wholly-owned subsidiary SmartBank, which provides commercial and consumer banking services including loans, deposits, and leasing. The company offers a range of loan products secured by real estate and other assets, and generates income from interest and fees. It serves customers in Tennessee, Alabama, Florida, and Georgia.",
+  "sellsTo": [
+    "Individuals",
+    "Small to medium-sized businesses",
+    "Commercial real estate borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition, we compete with other financial intermediaries and investment alternatives such as mortgage companies, credit card issuers, leasing companies, personal and commercial finance companies, financial technology (fintech) companies, money market mutual funds, brokerage firms, governmental and corporation bond issuers, peer-to-peer lending businesses, crowdfunding, stablecoins, cryptocurrency exchanges, and other securities firms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Although we take protective measures and endeavor to modify these systems as circumstances warrant, the security of our computer systems, software and networks may be vulnerable to cyber-attacks, unauthorized access, misuse, computer viruses or other malicious code, phishing attempts, brute force attacks, exploiting software vulnerabilities (including zero-day attacks ), ransomware or other malware, supply chain attacks, and other events that could have an adverse security impact."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence ( AI ) presents risks and challenges that may adversely impact our business."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "During the third quarter of 2025, SmartBank, a wholly-owned subsidiary of the Company, sold 100% of the equity interests of SBK Insurance ( SBKI ) and ceased to provide insurance-related activities for the Company."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:47:46.702Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,73 @@
+{
+  "cik": "0001810019",
+  "ticker": "RXT",
+  "name": "Rackspace Technology, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001810019-26-000015",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1810019/000181001926000015/rxt-20251231.htm"
+  },
+  "business": "Rackspace Technology is a leading end-to-end hybrid cloud and AI solutions company. It designs, integrates, and operates infrastructure, data foundations, and software platforms across private, public, and hybrid environments. The company serves customers through two segments: Public Cloud and Private Cloud.",
+  "sellsTo": [
+    "enterprise businesses (revenue >$3B)",
+    "mid-market ($300M-$3B)",
+    "commercial (<$300M)",
+    "regulated industries",
+    "healthcare vertical"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "AWS",
+    "Google Cloud",
+    "Microsoft Azure",
+    "VMware by Broadcom",
+    "Dell Technologies",
+    "Palantir Technologies",
+    "Dell",
+    "Cisco",
+    "Palo Alto Networks",
+    "NetApp"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Today, those capabilities come together as Rackspace AI, a comprehensive portfolio of AI services and solutions that combines infrastructure, cloud-native services, and deep expertise to help organizations scale AI from experimentation to enterprise production."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Rackspace Private Cloud enables our customers to achieve their business outcomes at our global data centers or in a colocation or edge facility strategic to our customers business objectives."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We provide fully-integrated security solutions that combine cutting-edge technology with our in-house Security Operations Center to provide customers with threat detection, analysis and remediation capabilities."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Private Cloud Solutions: ... Epic workloads for customers in our healthcare vertical."
+    },
+    {
+      "tag": "other:edge",
+      "stance": "core_product",
+      "sentence": "Rackspace Private Cloud enables our customers to achieve their business outcomes at our global data centers or in a colocation or edge facility strategic to our customers business objectives."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Private Cloud enables our customers to achieve their business outcomes at our global data centers or in a colocation or edge facility strategic to our customers business objectives and connected by our RackConnect TM Global network service, virtual backbone, or provider-based network services."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Private Cloud Solutions: ... Sovereign and Government-compliant services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:50:22.471Z",
+  "model": "deepseek-v4-flash"
+}

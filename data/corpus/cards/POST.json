@@ -1,0 +1,77 @@
+{
+  "cik": "0001530950",
+  "ticker": "POST",
+  "name": "Post Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001530950-25-000260",
+    "filedAt": "2025-11-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1530950/000153095025000260/post-20250930.htm"
+  },
+  "business": "Post Holdings is a consumer packaged goods holding company with operations in center-of-the-store, refrigerated, foodservice and food ingredient categories. The company sells branded and private label ready-to-eat cereals, granola, pet food, nut butters, egg and potato products, side dishes, sausage, cheese, and other dairy products. Its products are sold through grocery stores, mass merchandise, club stores, foodservice distributors, and eCommerce channels.",
+  "sellsTo": [
+    "grocery stores",
+    "mass merchandise customers",
+    "supercenters",
+    "club stores",
+    "natural/specialty stores",
+    "dollar stores",
+    "discounters",
+    "wholesalers",
+    "convenience stores",
+    "pet supply retailers",
+    "drug store customers",
+    "military",
+    "eCommerce",
+    "foodservice",
+    "foodservice distributors",
+    "national restaurant chains",
+    "consumer packaged goods companies"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "Tesco",
+    "Asda",
+    "Sysco",
+    "US Foods",
+    "Kroger"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a consumer packaged goods holding company with businesses operating in the center-of-the-store, refrigerated, foodservice and food ingredient categories."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "risk_mention",
+      "sentence": "HPAI periodically affects the domestic poultry industry, leading to hen deaths."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Technology failures or cybersecurity incidents could disrupt our operations and negatively impact our businesses."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Also, the rapid evolution and adoption of artificial intelligence ( AI ), including generative AI, may amplify certain existing technology-related risks such as cybersecurity threats, data privacy concerns and intellectual property challenges."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "We anticipate that announced tariffs, and any potential future modifications or incremental tariffs, could increase supply chain challenges, commodity cost volatility and consumer and economic uncertainty due to rapid changes in global trade policies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected sale of the pasta business of 8th Avenue, with receipt of approximately $375.0 million in cash and transfer of $78.2 million of leaseback financial liabilities.",
+      "date": null,
+      "sentence": "In August 2025, Post announced that it had entered into a definitive agreement to sell the pasta business of 8th Avenue (the Pasta Business ) to a third party. Subject to customary closing conditions, Post expects the transaction to close in Post s first quarter of fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:53:40.403Z",
+  "model": "deepseek-v4-flash"
+}

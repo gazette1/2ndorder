@@ -1,0 +1,71 @@
+{
+  "cik": "0000882508",
+  "ticker": "QUIK",
+  "name": "QUICKLOGIC Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010089",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/882508/000143774926010089/quicklo20251208_10k.htm"
+  },
+  "business": "QuickLogic develops programmable logic semiconductor technologies, including embedded FPGA (eFPGA) intellectual property and specialized FPGA devices. The company sells these technologies to semiconductor companies and system developers for integration into custom silicon or standalone programmable devices. Its products are used in aerospace, defense, industrial, infrastructure, data processing, computing, and embedded edge applications.",
+  "sellsTo": [
+    "Aerospace and defense",
+    "Industrial and infrastructure systems",
+    "Data processing and computing platforms",
+    "Embedded and edge computing applications",
+    "Defense Industrial Base contractors",
+    "U.S. Government entities",
+    "System original equipment manufacturers (OEMs)",
+    "Fabless semiconductor companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "GlobalFoundries",
+    "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+    "Amkor Technology, Inc.",
+    "Integra Technologies, Inc.",
+    "Golden Altos Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our programmable logic technologies are used in a variety of markets, including aerospace and defense, industrial and infrastructure systems, data processing and computing platforms, and certain embedded and edge computing applications."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our programmable logic technologies are used in a variety of markets, including aerospace and defense, industrial and infrastructure systems, data processing and computing platforms, and certain embedded and edge computing applications."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our programmable logic technologies are used in a variety of markets, including aerospace and defense, industrial and infrastructure systems, data processing and computing platforms, and certain embedded and edge computing applications."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our programmable logic technologies are used in a variety of markets, including aerospace and defense, industrial and infrastructure systems, data processing and computing platforms, and certain embedded and edge computing applications."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We develop programmable logic semiconductor technologies, including embedded Field Programmable Gate Array (\"eFPGA\") intellectual property (\"IP\") and specialized FPGA devices used in a range of applications requiring adaptable hardware functionality."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks can lead to disruption of business, reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global FPGA market valued at $11.7 billion in 2025, projected to grow to $19.3 billion by 2030.",
+      "sentence": "According to a recent research report published by Markets and Markets, the global FPGA market was valued at approximately $11.7 billion in 2025 and is projected to grow to approximately $19.3 billion by 2030, reflecting continued adoption of programmable logic technologies across a range of markets."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:35:58.231Z",
+  "model": "deepseek-v4-flash"
+}

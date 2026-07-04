@@ -1,0 +1,52 @@
+{
+  "cik": "0000739421",
+  "ticker": "CZFS",
+  "name": "CITIZENS FINANCIAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-009103",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/739421/000114036126009103/ef20060669_10k.htm"
+  },
+  "business": "The Company engages in the general business of banking throughout its service areas in Pennsylvania, New York, Delaware, and New Jersey, offering loan and deposit products to individuals, businesses, and municipalities. Additionally, the Company provides trust and investment services, including professional trust administration, investment management, and oil and gas leasing assistance.",
+  "sellsTo": [
+    "Individuals",
+    "Businesses",
+    "Municipalities",
+    "Agricultural customers",
+    "Trust and investment clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "In addition to traditional trust and investment services offered, we assist our customers through various oil and gas specific leasing matters from lease negotiations to establishing a successful approach to personal wealth management."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our Information Security Officer is responsible for managing our information security program, inclusive of cybersecurity risk assessment, incident response, vulnerability assessment, threat intelligence, identity access governance, third-party risk management, and business continuity."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We also have a limited branch office in Union county, Pennsylvania, which primarily serves agricultural and commercial customers in the central Pennsylvania market."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The average balance of construction loans decreased $46,794,000 from 2024 to 2025 as a result of projects in our Delaware market and the southeast Pennsylvania market being completed and the related construction loans either transferring to other portfolios or being paid off."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The average balance of residential mortgage loans decreased $9,979,000 due to loan payments and pay-offs from individuals refinancing loans on the secondary market."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:13:35.951Z",
+  "model": "deepseek-v4-flash"
+}

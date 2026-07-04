@@ -1,0 +1,60 @@
+{
+  "cik": "0000887359",
+  "ticker": "VCEL",
+  "name": "Vericel Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012013",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/887359/000162828026012013/vcel-20251231.htm"
+  },
+  "business": "Vericel Corporation markets three FDA-approved products: MACI for repair of knee cartilage defects in adults, Epicel for severe burns covering ≥30% TBSA in adults and pediatric patients, and NexoBrid for eschar removal in thermal burns in adults and pediatric patients. These products are sold to orthopedic surgeons and burn centers in the United States.",
+  "sellsTo": [
+    "orthopedic surgeons",
+    "burn centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Matricel GmbH",
+    "MediWound Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We currently market two U.S. Food and Drug Administration (FDA) approved autologous cell therapy products and one FDA-approved specialty biologic product in the U.S."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber security incident could result in a loss of confidential data, give rise to remediation and other expenses, expose us to liability under HIPAA, consumer protection and privacy laws, or other common law theories, subject us to litigation and federal and state governmental inquiries, damage our reputation, and otherwise be disruptive to our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Anticipated commercial launch of MACI in the United Kingdom",
+      "date": "2027-12-31",
+      "sentence": "We are currently focused on obtaining regulatory and marketing approval for MACI in the United Kingdom through the Medicine and Healthcare products Regulatory Agency (MHRA) and, if successful, anticipate commercializing MACI in the United Kingdom in 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 750,000 patients undergo cartilage repair procedures of the knee annually in the U.S.",
+      "sentence": "We estimate that approximately 750,000 patients undergo cartilage repair procedures of the knee annually in the U.S."
+    },
+    {
+      "claim": "More than 40,000 people are hospitalized for burns annually; about 1,500 have burns covering >30% TBSA.",
+      "sentence": "Each year in the U.S., more than 40,000 people are hospitalized for burns. Approximately 1,500 of these patients are treated for burns covering more than 30% TBSA, the labeled indication for Epicel."
+    },
+    {
+      "claim": "Of hospitalized burn patients, over 30,000 have thermal burns requiring eschar removal.",
+      "sentence": "With respect to NexoBrid, of the approximately 40,000 people that are hospitalized in the U.S. each year for burn-related injuries, the majority, over 30,000, have thermal burns and will likely require some level of eschar removal."
+    },
+    {
+      "claim": "About 165,000 ankle resurfacing procedures per year; 66,000 clinically appropriate for MACI; 18,000 have larger lesions.",
+      "sentence": "There are approximately 165,000 ankle resurfacing procedures conducted in the U.S. each year. Approximately 66,000 of those patients each year are considered clinically appropriate for MACI by surgeons. We estimate that approximately 18,000 of those patients suffer from larger ankle cartilage lesions, resulting in an increase of MACI's addressable market."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:46:06.887Z",
+  "model": "deepseek-v4-flash"
+}

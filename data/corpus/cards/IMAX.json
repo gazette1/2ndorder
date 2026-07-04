@@ -1,0 +1,70 @@
+{
+  "cik": "0000921582",
+  "ticker": "IMAX",
+  "name": "IMAX CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011770",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/921582/000162828026011770/imax-20251231.htm"
+  },
+  "business": "IMAX is a premier global technology platform for entertainment and events. It offers IMAX Film Remastering services and sells or leases IMAX theater systems to commercial multiplex exhibitors and institutional locations. The company also distributes films and other content across its global network.",
+  "sellsTo": [
+    "commercial multiplex exhibitors",
+    "institutional locations including museums and science centers",
+    "destination entertainment sites",
+    "movie studios and content creators"
+  ],
+  "namedCustomers": [
+    "Wanda Film",
+    "AMC"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Company utilizes AI tools and technology across its products and business operations."
+    },
+    {
+      "tag": "other:laser-projection",
+      "stance": "core_product",
+      "sentence": "The Company offers a suite of laser-based digital projection systems (IMAX Laser Systems), which deliver increased resolution, sharper and brighter images, deeper contrast, and the widest range of colors available to filmmakers today."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "IMAX's Streaming and Consumer Technology (SCT) business offers a single unified program: IMAX Enhanced."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "The Company further expanded its live content offerings through partnerships with ... and with multiple exhibitor partners in China the League of Legends Video Games 2025 finals across over 100 IMAX China locations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company faces cybersecurity and similar risks, which could result in the disclosure, theft, or loss of confidential or other proprietary information, including intellectual property, damage to the Company's brand and reputation, legal exposure and financial losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of 2026 concert films including Stray Kids, Eric Church, Twenty One Pilots, and Elvis Presley",
+      "date": null,
+      "sentence": "Already announced for 2026 are the following concert films and events, many of which have exclusive IMAX windows: Stray Kids: The dominATE Experience, Eric Church: Evangeline vs. The Machine Comes Alive, Twenty One Pilots: More Than We Ever Imagined, and EPiC: Elvis Presley in Concert."
+    },
+    {
+      "event": "Live F1 Grand Prix broadcasts in IMAX in 2026",
+      "date": null,
+      "sentence": "In addition, IMAX is working with Apple TV to bring the 2026 FIA Formula One World Championship live to select IMAX locations across the United States for the first time ever. Five of the most iconic Grands Prix in F1 Miami, Monaco, Silverstone, Monza, and Austin will be available across at least 50 IMAX locations nationwide."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Addressable market of 4,466 commercial multiplex locations",
+      "sentence": "IMAX currently estimates a worldwide commercial multiplex addressable market of 4,466 commercial locations, of which there were 1,796 commercial IMAX Systems operating as of December 31, 2025, representing a market penetration of only 40%."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:52:06.000Z",
+  "model": "deepseek-v4-flash"
+}

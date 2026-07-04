@@ -1,0 +1,55 @@
+{
+  "cik": "0001595974",
+  "ticker": "MGNI",
+  "name": "MAGNITE, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001595974-26-000007",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1595974/000159597426000007/mgni-20251231.htm"
+  },
+  "business": "Magnite provides technology solutions to automate the purchase and sale of digital advertising inventory. It operates as a sell-side advertising platform (SSP) serving sellers (publishers) and buyers (advertisers, agencies, DSPs). The company focuses on CTV and offers an omni-channel platform including ad serving, mediation, and identity solutions.",
+  "sellsTo": [
+    "sellers of digital advertising inventory (publishers)",
+    "buyers including advertisers, agencies, agency trading desks, and demand side platforms (DSPs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our solution utilizes artificial intelligence in order to constantly self-improve as we process more volume and accumulate more data, which in turn helps make our machine-learning algorithms more intelligent and contributes to higher-quality matching between buyers and sellers."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "our CTV transactions run primarily on the cloud; however, in order to realize additional cost savings and operational efficiencies, we are continuing to invest in additional on-prem data centers to support a higher percentage of our CTV transactions."
+    },
+    {
+      "tag": "other:connected-tv",
+      "stance": "core_product",
+      "sentence": "We believe that we are the world's largest independent omni-channel sell-side advertising platform (\"SSP\"), offering a single partner for transacting globally across all channels, formats and auction types, and the largest independent programmatic CTV marketplace, making it easier for buyers to reach CTV audiences at scale from industry-leading streaming content providers, broadcasters, platforms and device manufacturers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of next-generation SpringServe CTV platform",
+      "date": "2025-04-01",
+      "sentence": "In April 2025, we announced the introduction of our next generation SpringServe CTV platform."
+    },
+    {
+      "event": "Approval of new share repurchase plan",
+      "date": "2026-02-23",
+      "sentence": "On February 23, 2026, the Board of Directors approved a new repurchase plan (the \"February 2026 Repurchase Plan\"), which authorized the repurchase of common stock with a value up to $200.0 million, through February 29, 2028."
+    },
+    {
+      "event": "Repayment of Convertible Senior Notes upon maturity",
+      "date": "2026-03-15",
+      "sentence": "We plan to repay the outstanding Convertible Senior Notes upon maturity with our cash and cash equivalents balance."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:08:14.631Z",
+  "model": "deepseek-v4-flash"
+}

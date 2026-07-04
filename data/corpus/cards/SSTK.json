@@ -1,0 +1,40 @@
+{
+  "cik": "0001549346",
+  "ticker": "SSTK",
+  "name": "Shutterstock, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001549346-26-000008",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1549346/000154934626000008/sstk-20251231.htm"
+  },
+  "business": "Shutterstock is a leading global creative platform connecting brands and businesses to high quality content. The company licenses digital content including images, footage, music, 3D models, and generative AI content, and also offers data, distribution, and services such as metadata for AI training and advertising through Giphy. Customers include corporate professionals, media and broadcast companies, and small to medium-sized businesses and individual creators across over 150 countries.",
+  "sellsTo": [
+    "Corporate Professionals and Organizations",
+    "Media and Broadcast Companies",
+    "Small and Medium-Sized Businesses and Individual Creators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:generative-ai",
+      "stance": "core_product",
+      "sentence": "Generative AI Content - consisting of images generated from algorithms trained with high-quality, ethically sourced content."
+    },
+    {
+      "tag": "other:ai-training-data",
+      "stance": "core_product",
+      "sentence": "We offer ethically sourced and licenseable metadata at industry leading scales and quality."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Issues relating to the development and use of AI, including generative AI, in our offerings may result in reputational harm, liability and adverse financial results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:10:08.912Z",
+  "model": "deepseek-v4-flash"
+}

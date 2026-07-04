@@ -1,0 +1,75 @@
+{
+  "cik": "0001325964",
+  "ticker": "LWLG",
+  "name": "Lightwave Logic, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001079973-26-000348",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1325964/000107997326000348/lwlg_10k-123125.htm"
+  },
+  "business": "Lightwave Logic is a specialty materials and intellectual property company that develops and commercializes proprietary electro-optic polymer materials for high-speed optical modulators. The company sells these materials and licenses intellectual property to semiconductor foundries, silicon photonics device designers, optical module manufacturers, and system integrators. It does not manufacture finished devices but enables customers to incorporate its materials into their own platforms.",
+  "sellsTo": [
+    "semiconductor foundries",
+    "silicon photonics device designers",
+    "optical module manufacturers",
+    "system integrators serving AI, cloud computing, data center, and telecommunications markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our customers and prospective customers include semiconductor foundries, silicon photonics device designers, optical module manufacturers, and system integrators serving artificial intelligence ( AI ), cloud computing, data center, and telecommunications markets."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our customers and prospective customers include semiconductor foundries, silicon photonics device designers, optical module manufacturers, and system integrators serving artificial intelligence ( AI ), cloud computing, data center, and telecommunications markets."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our customers and prospective customers include semiconductor foundries, silicon photonics device designers, optical module manufacturers, and system integrators serving artificial intelligence ( AI ), cloud computing, data center, and telecommunications markets."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "For example, we have publicly announced collaborative activities related to quantum photonic applications, including recent engagement with QPICs."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "Our Perkinamine family of EO polymer materials is engineered for integration into silicon photonics ( SiPh ) and other photonic integrated circuit ( PIC ) platforms."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Lightwave Logic, Inc. is a specialty materials and intellectual property company focused on the development and commercialization of proprietary electro-optic ( EO ) polymer materials designed to enable high-speed optical modulators for data communications and other photonic applications."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expect significant revenue from high-volume commercial production of customer products no earlier than 2027",
+      "date": "2027",
+      "sentence": "We do not currently expect significant revenue from volume commercial production of customer products until 2027 at the earliest."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market for optical transceivers could reach approximately $24 billion annually by 2028.",
+      "sentence": "According to LightCounting and other industry research sources, the total addressable market ( TAM ) for optical transceivers supporting AI networking, data center, and related applications could reach approximately $24 billion annually by 2028, driven by transitions to 800G, 1.6T, and higher-speed architectures."
+    },
+    {
+      "claim": "Serviceable addressable market for high-speed optical modulators could range from $1 billion to $2.5 billion annually by 2028.",
+      "sentence": "Based on internal company estimates informed by LightCounting research, we believe the SAM associated with high-speed modulators used in advanced data center interconnects could range from approximately $1 billion to $2.5 billion annually by 2028, depending on architecture mix, lane speeds, and adoption rates."
+    },
+    {
+      "claim": "Market for coherent optical transceivers includes approximately $7 billion TAM for coherent DWDM applications.",
+      "sentence": "LightCounting has estimated that the market for coherent optical transceivers represents several billion dollars annually, including an estimated approximately $7 billion TAM for coherent DWDM applications referenced in our investor materials."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:35:27.925Z",
+  "model": "deepseek-v4-flash"
+}

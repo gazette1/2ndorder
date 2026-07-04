@@ -1,0 +1,44 @@
+{
+  "cik": "0001838028",
+  "ticker": "HODL",
+  "name": "VanEck Bitcoin ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0000930413-26-000746",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1838028/000093041326000746/c115591_10k-ixbrl.htm"
+  },
+  "business": "The Trust is a Delaware statutory trust that holds bitcoin and issues shares reflecting the performance of bitcoin less operating expenses. The Trust issues and redeems Shares only in aggregations of 25,000 Shares to Authorized Participants. Shares trade on the Exchange under the ticker symbol HODL.",
+  "sellsTo": [
+    "Authorized Participants",
+    "exchange investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The only crypto asset to be held by the Trust will be bitcoin."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Advances in quantum computing create the risk that the cryptography underlying the Bitcoin network could become ineffective, which, if realized, could compromise the security of the Bitcoin network, or allow a malicious actor to compromise the wallets holding bitcoin owned by the Trust or others on the Bitcoin network, which would result in losses to Shareholders."
+    },
+    {
+      "tag": "other:semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The ASIC chip is the key component of a mining machine as it determines the efficiency of the device."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Many of the Trust's service providers conduct their business operations and processes using cloud providers and third-party data center hosting facilities, including Amazon Web Services, Google Cloud, Microsoft Azure, and other cloud services."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:40:29.923Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001556739",
+  "ticker": "THRY",
+  "name": "Thryv Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001556739-26-000013",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1556739/000155673926000013/thry-20251231.htm"
+  },
+  "business": "Thryv is a software-led platform company that provides SaaS solutions (Thryv Platform) for small and medium-sized businesses, including customer relationship management, marketing, payments, and automation, as well as legacy print and digital marketing services.",
+  "sellsTo": [
+    "small and medium-sized businesses (SMBs)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Artificial intelligence is a cross-platform capability embedded throughout the Thryv Platform."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "ThryvPay and KeapPay are our own branded payment solutions that allow users to get paid via credit card and ACH and are tailored to service-based businesses that want to provide consumers with safe, contactless, and fast online payment options."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "potential system interruptions or failures, including cybersecurity breaches, identity theft, data loss, unauthorized access to data or other disruptions that could compromise our information or our client information."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "we utilize third-party service providers for ... hosting the Thryv Platform itself through a third party’s relationship with a cloud services provider."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Final publication of printed directories",
+      "date": "2028-12-31",
+      "sentence": "The final publication of printed directories is expected to occur in December 2028, with billing and collection extending beyond that date."
+    },
+    {
+      "event": "Interim goodwill impairment evaluation for SaaS reporting unit",
+      "date": "2026-03-31",
+      "sentence": "we are in the process of evaluating whether an interim goodwill impairment assessment is needed for our SaaS reporting unit during the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:56:32.752Z",
+  "model": "deepseek-v4-flash"
+}

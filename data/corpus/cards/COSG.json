@@ -1,0 +1,33 @@
+{
+  "cik": "0001706509",
+  "ticker": "COSG",
+  "name": "Cosmos Group Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-25-031761",
+    "filedAt": "2025-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1706509/000121390025031761/ea0235356-10k_cosmos.htm"
+  },
+  "business": "The company operates an online platform to sell and distribute arts and collectibles to end-users, using blockchain technologies and minting tokens. Each item is monetized as a non-interchangeable unit of data (minting token) stored on a blockchain.",
+  "sellsTo": [
+    "end-users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:nft",
+      "stance": "core_product",
+      "sentence": "The item of arts and collectibles is individually monetized as non-interchangeable unit of data stored on a blockchain, which is a form of digital ledger that can be sold, in the form of a minting token on the online platform."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company could have a high concentration of its DOTs in one location or with one custodian, which may be prone to losses arising out of hacking, loss of passwords, compromised access credentials, malware or cyberattacks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:50:58.122Z",
+  "model": "deepseek-v4-flash"
+}

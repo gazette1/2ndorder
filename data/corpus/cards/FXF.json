@@ -1,0 +1,44 @@
+{
+  "cik": "0001353615",
+  "ticker": "FXF",
+  "name": "Invesco CurrencyShares Swiss Franc Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083569",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1353615/000119312526083569/fxf-20251231.htm"
+  },
+  "business": "The Trust issues shares that reflect the price in USD of the Swiss Franc plus accrued interest, less expenses. Each share represents a proportional interest in Swiss Francs held by the Trust. The Shares are intended to provide institutional and retail investors with a simple, cost-effective means of gaining investment benefits similar to those of holding Swiss Francs.",
+  "sellsTo": [
+    "institutional investors",
+    "retail investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:swiss-franc",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the price in USD of the Swiss Franc plus accrued interest, if any, less the expenses of the Trust’s operations."
+    },
+    {
+      "tag": "other:tariff-policy",
+      "stance": "risk_mention",
+      "sentence": "Changes to United States tariff and trade policies may increase the volatility of foreign exchange rates."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Due to the increased use of technologies, intentional and unintentional cyber attacks pose operational and information security risks."
+    },
+    {
+      "tag": "other:interest-rate",
+      "stance": "risk_mention",
+      "sentence": "If interest earned by the Trust does not exceed the Trust’s expenses, the Trustee will withdraw Swiss Francs from the Trust to pay these excess expenses, which will reduce the amount of Swiss Francs represented by each Share on an ongoing basis and may result in adverse tax consequences for Shareholders."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:45:59.777Z",
+  "model": "deepseek-v4-flash"
+}

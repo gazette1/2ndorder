@@ -1,0 +1,66 @@
+{
+  "cik": "0001559865",
+  "ticker": "EVTC",
+  "name": "EVERTEC, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001559865-26-000012",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000012/evtc-20251231.htm"
+  },
+  "business": "EVERTEC is a full-service transaction-processing business and financial technology provider in Latin America, Puerto Rico and the Caribbean, providing merchant acquiring, payment services and business solutions to financial institutions, merchants, corporations and government agencies.",
+  "sellsTo": [
+    "financial institutions",
+    "merchants",
+    "corporations",
+    "government agencies"
+  ],
+  "namedCustomers": [
+    "Banco Popular (Popular)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "EVERTEC is a leading full-service transaction-processing business and financial technology provider in Latin America, Puerto Rico and the Caribbean, providing a broad range of merchant acquiring, payment services and business solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Additionally, we offer managed services, managed security services and payment transactions fraud monitoring to all the regions where we do business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to security breaches or other confidential data theft from our systems, which can adversely affect our reputation and business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We also invest in value-added services such as API enablement, tokenization, loyalty, digital on-boarding, artificial intelligence and predictive models."
+    },
+    {
+      "tag": "other:pix",
+      "stance": "active_investment",
+      "sentence": "Additionally, aligned with this trend, the Company has also developed multiple channel options to connect to Brazil's fastest instant money transfer system called PIX."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Latin America has a projected CAGR of 17.4% over the next five years.",
+      "sentence": "According to the 2026 World Payments report, Latin America has a projected CAGR of 17.4% over the next five years."
+    },
+    {
+      "claim": "Non-cash transaction volumes are expected to grow to 383.1 million in 2029 from 140.3 million in 2023.",
+      "sentence": "Non-cash transaction volumes are expected to grow to 383.1 million in 2029 from 140.3 million in 2023 according to the 2026 World Payments report."
+    },
+    {
+      "claim": "Latin America grew 22.4% from 2024 to 2025.",
+      "sentence": "Additionally, Latin America grew 22.4% from 2024 to 2025, fueled by mobile-first economies, regional real-time payments adoption, and digital commerce."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:34:40.931Z",
+  "model": "deepseek-v4-flash"
+}

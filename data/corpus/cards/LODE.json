@@ -1,0 +1,65 @@
+{
+  "cik": "0001120970",
+  "ticker": "LODE",
+  "name": "Comstock Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009589",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120970/000143774926009589/lode20251231_10k.htm"
+  },
+  "business": "Comstock commercializes technologies that extract, process, and convert under-utilized waste and natural resources into clean energy and products, including solar panel recycling and renewable fuels. It also owns and manages mining assets for gold and silver. The company operates a solar panel recycling facility providing decommissioning and recycling services, and develops advanced lignocellulosic biomass refining solutions.",
+  "sellsTo": [
+    "decommissioning service customers",
+    "offtake buyers of recycled materials"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Comstock Metals has established the goal of setting the global standard for solar panel recycling."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Our Mining Segment is administered by our wholly owned subsidiaries, Comstock Mining LLC, Comstock Processing LLC and various other local subsidiaries that collectively own approximately seven square miles of patented mining claims, unpatented mining claims and surface parcels in Nevada, comprising the Comstock Mineral Estate."
+    },
+    {
+      "tag": "other:biofuels",
+      "stance": "core_product",
+      "sentence": "Bioleum seeks to deliver advanced lignocellulosic biomass refining solutions that set new industry standards for the production of cellulosic ethanol, gasoline, renewable diesel, SAF, and other renewable Bioleum fuels, with extremely low carbon intensity scores of 15 and market-leading yields of up to 125 gallons per dry metric ton of feedstock (on a GGE basis), depending on feedstock, site conditions, and other process parameters."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "Our Strategic Investments Segment includes minority equity and equity-linked investments in Green Li-ion Pte Limited (lithium-ion battery component recycler and remanufacturing)"
+    },
+    {
+      "tag": "other:real-estate",
+      "stance": "active_investment",
+      "sentence": "SSOF is a qualified opportunity zone fund, which owns 100% of Sierra Springs Enterprises Inc. ( SSE ), a qualified opportunity zone business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Item 1A: Risk Factors above for additional information on risk related to cyber-attacks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commissioning of industry-scale solar panel recycling plant",
+      "date": "2026-03-31",
+      "sentence": "Equipment arrival and installation began in the first quarter of 2026, and it is anticipated that commissioning of the plant will be completed late in the first quarter with operations coming on-line during the second quarter of 2026."
+    },
+    {
+      "event": "Completion of Bioleum Series A Financing",
+      "date": "2026-06-30",
+      "sentence": "Bioleum also plans to complete its Series A Financing during the first half of 2026 and commence project equity and debt financing activities that includes an allocation of up to $160 million from the State of Oklahoma in project activity bonds for the construction of its planned first 400,000 barrel per year facility in Oklahoma."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:43:46.136Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,39 @@
+{
+  "cik": "0002020455",
+  "ticker": "ETH",
+  "name": "Grayscale Ethereum Staking Mini ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071961",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/2020455/000119312526071961/eth-20251231.htm"
+  },
+  "business": "The Trust is a passive entity that holds Ether and issues Creation Baskets in exchange for deposits of Ether. The Trust's investment objective is for the value of the Shares to reflect the value of the Ether held by the Trust, including Ether earned as Staking Consideration. Shares trade on NYSE Arca.",
+  "sellsTo": [
+    "investors",
+    "authorized participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ethereum",
+      "stance": "core_product",
+      "sentence": "The Trust's investment objective is for the value of the Shares (based on Ether per Share) to reflect the value of the Ether held by the Trust, including Ether earned as Staking Consideration, determined by reference to the Index Price, less the Trust's expenses and other liabilities."
+    },
+    {
+      "tag": "other:ethereum-staking",
+      "stance": "active_investment",
+      "sentence": "On October 6, 2025, the Trust began staking its Ether pursuant to staking arrangements with the Custodian and certain third-party staking providers."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Quantum computing technology is an emerging phenomenon which, because it is still developing, makes it difficult to predict its ultimate effect on the future value of Ether and other digital assets."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:41:05.169Z",
+  "model": "deepseek-v4-flash"
+}

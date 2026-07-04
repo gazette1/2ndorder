@@ -1,0 +1,83 @@
+{
+  "cik": "0001947016",
+  "ticker": "FJET",
+  "name": "Starfighters Space, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001062993-26-002001",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1947016/000106299326002001/form10k.htm"
+  },
+  "business": "Starfighters Space operates the world's only commercial fleet of flight-ready F-104 supersonic aircraft, providing pilot and astronaut training, in-flight testing, launch services, and hypersonic research and development test bed services to defense, civil, academic, and commercial customers.",
+  "sellsTo": [
+    "defense",
+    "civil",
+    "academic",
+    "commercial",
+    "government",
+    "private sector"
+  ],
+  "namedCustomers": [
+    "Boom Supersonic"
+  ],
+  "namedSuppliers": [
+    "Innoveering, LLC",
+    "GE Aeronautics",
+    "Kennedy Space Center space port services",
+    "Hypersonic Group Inc.",
+    "Integrated Launch Services",
+    "Aerovision LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "The Company s mission statement is to make space accessible to entrepreneurs, researchers, industry, and government at a high cadence and the right cost."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We have built a consistent business by providing pilot and astronaut training and in-flight testing related services (the \"Historical Services\"), delivering over its history, solutions for defense, civil, academic and commercial uses, and expects to continue to serve a range of customers in the private and public sectors."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "we believe the increased demand for space access, particularly in lower earth orbits as well as the government and private sector's focus on hypersonic research and development combine to create new opportunities for Starfighters Space"
+    },
+    {
+      "tag": "other:hypersonic-testing",
+      "stance": "core_product",
+      "sentence": "The Company's unique position as one of the only commercial entities with first stage jet aircraft capable of sustained MACH 2 flight, combined with its ability to launch targeted altitude payloads, allows it to capitalize on the burgeoning hypersonic market."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of initial public offering and listing on NYSE American",
+      "date": "2025-12-18",
+      "sentence": "On December 17, 2025, we completed our initial public offering through the closing of the final round of our offering under Regulation A of Section 3(b) of the Securities Act for Tier 2 offerings, pursuant to which we sold 6,145,364 shares of common stock at a price of $3.59 per share, for gross proceeds of $22,061,857. Our shares commenced trading on the NYSE American under the trading symbol \"FJET\" on December 18, 2025."
+    },
+    {
+      "event": "Successful wind tunnel testing of STARLAUNCH 1",
+      "date": "2026-01-21",
+      "sentence": "On January 21, 2026, we announced the successful completion of wind tunnel testing of STARLAUNCH 1, a key technical milestone in our air-launched rocket development efforts."
+    },
+    {
+      "event": "Flight testing of StarLaunch I test article",
+      "date": null,
+      "sentence": "Currently, the StarLaunch I Test Article's External Surface Engineering is complete, and the Company is on track for flight testing in Q4 2025/Q1 2026."
+    },
+    {
+      "event": "First commercial launch",
+      "date": "2026-12-31",
+      "sentence": "Subject to securing requisite regulatory approvals and adequate funding, Starfighters targets its first commercial launch by year-end 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global space economy recorded $613 billion in 2024",
+      "sentence": "Space Foundation, The Space Report 2025 Q2 Highlights Record $613 Billion Global Space Economy for 2024, Driven by Strong Commercial Sector Growth (22 July 2025)"
+    }
+  ],
+  "generatedAt": "2026-07-04T04:15:43.951Z",
+  "model": "deepseek-v4-flash"
+}

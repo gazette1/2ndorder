@@ -1,0 +1,78 @@
+{
+  "cik": "0000066004",
+  "ticker": "MSEX",
+  "name": "MIDDLESEX WATER CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009777",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026009777/msex-20251231.htm"
+  },
+  "business": "Middlesex Water Company provides regulated water and wastewater utility services to approximately 131,000 customers primarily in New Jersey and Delaware. It also operates water and wastewater systems under contract for municipal and private clients.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Fire Protection",
+    "Contract Sales (wholesale)",
+    "Contract Operations (municipal)"
+  ],
+  "namedCustomers": [
+    "City of Rahway",
+    "Township of Edison",
+    "Township of Marlboro",
+    "Borough of Highland Park",
+    "Old Bridge Municipal Utilities Authority",
+    "Township of East Brunswick",
+    "City of Perth Amboy",
+    "Borough of Avalon",
+    "Town of Ocean View",
+    "Pinewood Acres, LLC"
+  ],
+  "namedSuppliers": [
+    "New Jersey Water Supply Authority",
+    "City of Dover, Delaware"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Middlesex was incorporated as a water utility company in 1897 and owns and operates regulated water utility and wastewater systems primarily in New Jersey and Delaware."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems may be subject to physical and cyber attacks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Base rate increase for Middlesex and Pinelands effective",
+      "date": "2026-02-23",
+      "sentence": "In February 2026, the NJBPU approved: $14.5 million of base rate increases for Middlesex and Pinelands, effective February 23, 2026;"
+    },
+    {
+      "event": "Base rate increase for Tidewater effective",
+      "date": "2025-07-03",
+      "sentence": "In July 2025, the DEPSC approved a $5.5 million base rate increase for Tidewater, effective July 3, 2025."
+    },
+    {
+      "event": "Merger of Pinelands into Middlesex approved",
+      "date": null,
+      "sentence": "In January 2026, the NJBPU approved the merger of Pinelands into Middlesex through a corporate reorganization."
+    },
+    {
+      "event": "PFAS initial monitoring deadline",
+      "date": "2027-04-01",
+      "sentence": "Under the new USEPA regulations effective April 2024, water systems must monitor for Regulated PFAS and have three years to complete initial monitoring (by April 2027), followed by ongoing compliance monitoring."
+    },
+    {
+      "event": "PFAS treatment implementation deadline",
+      "date": "2029-04-01",
+      "sentence": "Water systems have five years (by April 2029) to implement treatment solutions if monitoring shows that drinking water levels exceed these MCLs."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:07:16.624Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,57 @@
+{
+  "cik": "0000700564",
+  "ticker": "FULT",
+  "name": "FULTON FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000700564-26-000006",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/700564/000070056426000006/fult-20251231.htm"
+  },
+  "business": "Fulton Financial Corporation is a financial holding company that, through its subsidiary Fulton Bank, delivers consumer and commercial banking products and services, including deposit accounts, loans, and wealth management services, to customers in Pennsylvania, Delaware, Maryland, New Jersey, and Virginia.",
+  "sellsTo": [
+    "Consumer customers",
+    "Small- and medium-sized businesses (generally with annual gross revenue of less than $500 million)",
+    "Commercial customers",
+    "Wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Fulton Insurance Services Group, Inc., which engages in the sale of various life insurance products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity is a critical component of our overall risk management approach."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Moreover, we face increased competition from certain non-bank entities, such as FinTechs, private equity funds, private debt funds and marketplace lenders, that in many cases, are not subject to the same regulatory compliance requirements as us."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "At this time, we have not experienced material losses from events related to climate change. However, we are aware that its impact may increase in the future."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with Blue Foundry to close",
+      "date": "2026-04-01",
+      "sentence": "Subject to the satisfaction of the remaining customary closing conditions in the Merger Agreement, we expect the Merger to close on or about April 1, 2026."
+    },
+    {
+      "event": "Blue Foundry Bank to be merged into Fulton Bank",
+      "date": "2026-09-30",
+      "sentence": "Blue Foundry Bank is expected to be merged with and into Fulton Bank in the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:33:03.440Z",
+  "model": "deepseek-v4-flash"
+}

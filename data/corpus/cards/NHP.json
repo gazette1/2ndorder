@@ -1,0 +1,59 @@
+{
+  "cik": "0001561032",
+  "ticker": "NHP",
+  "name": "National Healthcare Properties, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001561032-26-000009",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1561032/000156103226000009/hct-20251231.htm"
+  },
+  "business": "National Healthcare Properties, Inc. is a real estate investment trust that acquires, owns, and manages a diversified portfolio of healthcare real estate assets focused on senior housing operating properties (SHOP) and outpatient medical facilities (OMF) in the United States. As of December 31, 2025, it owned 37 senior housing communities with 3,615 units and 130 outpatient medical facilities with approximately 3.7 million square feet of gross leasable area.",
+  "sellsTo": [
+    "Residents in senior housing communities (assisted living, memory care, independent living)",
+    "Tenants operating outpatient medical facilities (physicians, hospitals, diagnostic centers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:senior-housing",
+      "stance": "core_product",
+      "sentence": "Our SHOP segment provides varying levels of care, but is focused on needs-based assisted living and memory care."
+    },
+    {
+      "tag": "other:outpatient-medical-facilities",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, we owned 130 OMFs and other health care related buildings under lease totaling approximately 3.7 million square feet of GLA."
+    },
+    {
+      "tag": "other:telemedicine",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the introduction and explosion of new stakeholders competing with traditional providers in the health market, as well as telemedicine, telehealth and mobile health, are disrupting the heath industry and could lead to new trends in payment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "system failures, cyber incidents or deficiencies in our cybersecurity systems"
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Recent increases in inflation, driven by factors such as labor shortages, supply chain disruptions, higher property insurance, property tax and interest rates and increased economic and political uncertainties due to the tariffs imposed by, or imposed on, the United States, have and may continue to have adverse impacts on our results of operations and our liquidity as well as our tenants and residents ability to pay rent."
+    },
+    {
+      "tag": "other:labor-shortage",
+      "stance": "risk_mention",
+      "sentence": "In recent years, we have experienced shortages in qualified labor and supply chain disruptions that have increased our operating costs, particularly in our SHOP segment."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Physical and regulatory risks related to catastrophic weather and other natural events and climate change could have a material adverse impact on us."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:55:55.566Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,55 @@
+{
+  "cik": "0000761648",
+  "ticker": "CDR-PB",
+  "name": "CEDAR REALTY TRUST, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000761648-26-000008",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/761648/000076164826000008/cdr-20251231.htm"
+  },
+  "business": "The Company is a REIT that focuses on owning and operating income producing retail properties with a primary focus on grocery-anchored shopping centers, predominantly located in the Northeast. At December 31, 2025, the Company owned a portfolio of 12 properties totaling 1.9 million square feet of gross leasable area. The portfolio was 92.4% leased and 92.4% occupied at December 31, 2025.",
+  "sellsTo": [
+    "grocery-anchored retail tenants",
+    "necessity-based consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:retail-real-estate",
+      "stance": "core_product",
+      "sentence": "The Company is a REIT that focuses on owning and operating income producing retail properties with a primary focus on grocery-anchored shopping centers, predominantly located in the Northeast."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "Retailers at our properties also face competition from online retailers, outlet stores, discount shopping clubs, superstores, and other forms of sales and marketing of goods and services, such as direct mail."
+    },
+    {
+      "tag": "other:climate-risk",
+      "stance": "risk_mention",
+      "sentence": "Properties could also be affected by increases in the frequency or severity of tornadoes, hurricanes or other severe weather, whether such increases are caused by global climate changes or other factors."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Extension of maturity date of April 2025 Bridge Loan to February 15, 2028",
+      "date": "2028-02-15",
+      "sentence": "In August 2025, the maturity date was extended from January 4, 2026 to February 15, 2028, with no further extension options."
+    },
+    {
+      "event": "Authorization of 2025 Repurchase Program for up to $20 million of Preferred Stock over 24 months",
+      "date": "2025-08-08",
+      "sentence": "On August 8, 2025, the Board of Directors authorized the repurchase of up to an aggregate amount of $20.0 million of the Company's Preferred Stock over a period of twenty-four months (the '2025 Repurchase Program')."
+    },
+    {
+      "event": "Maturity of August 2025 Credit Facility",
+      "date": "2027-08-15",
+      "sentence": "Interest payments are due monthly, and any outstanding principal is due at maturity on August 15, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:54:18.830Z",
+  "model": "deepseek-v4-flash"
+}

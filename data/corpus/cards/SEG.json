@@ -1,0 +1,103 @@
+{
+  "cik": "0002009684",
+  "ticker": "SEG",
+  "name": "Seaport Entertainment Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-023561",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/2009684/000110465926023561/seg-20251231x10k.htm"
+  },
+  "business": "Seaport Entertainment Group Inc. owns, operates, and develops a collection of assets at the intersection of entertainment and real estate, including the Seaport neighborhood in Lower Manhattan, the Las Vegas Aviators baseball team, the Las Vegas Ballpark, and a 25% interest in Jean-Georges Restaurants. It generates revenue from hospitality (restaurants, nightlife), entertainment (concerts, sports events, sponsorships), and landlord operations (leasing retail, office, and residential space). Its customers include consumers attending events and dining, tenants leasing space, and sponsors.",
+  "sellsTo": [
+    "consumers",
+    "tenants (retail, office, residential)",
+    "event attendees",
+    "sponsors",
+    "baseball fans"
+  ],
+  "namedCustomers": [
+    "Meow Wolf",
+    "Alexander Wang",
+    "IPIC Theaters",
+    "Lux Entertainment"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:entertainment-venues",
+      "stance": "core_product",
+      "sentence": "The Rooftop at Pier 17 has evolved into one of the premier concert venues in New York City."
+    },
+    {
+      "tag": "other:sports-team",
+      "stance": "core_product",
+      "sentence": "The Las Vegas Aviators are a Minor League Baseball (MiLB) team and the current Triple-A affiliate of the Athletics Major League Baseball (MLB) team."
+    },
+    {
+      "tag": "other:hospitality",
+      "stance": "core_product",
+      "sentence": "Hospitality represents our ownership interests in various food and beverage operating businesses and sponsorship agreements related to these businesses."
+    },
+    {
+      "tag": "other:real-estate-landlord",
+      "stance": "core_product",
+      "sentence": "Landlord Operations represent our ownership interests in and operation of physical real estate assets."
+    },
+    {
+      "tag": "other:development",
+      "stance": "core_product",
+      "sentence": "Seaport Entertainment currently has a sizeable development opportunity: the Fashion Show Mall Air Rights, which if transacted on, could represent a significant driver of long-term growth or monetization."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks and incidents, such as a breach of the Company's privacy or information security systems, or those of our vendors or other third parties, could compromise our information and expose us to liability, which would cause our business and reputation to suffer."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change, as well as scrutiny of climate change and other environmental or social matters may adversely affect our business."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "Inflation has adversely affected us and may continue to adversely affect us by increasing costs beyond what we can recover through price increases."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence and other machine learning techniques could increase competitive, operational, legal and regulatory risks to our business in ways that we cannot predict."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of 250 Water Street completed",
+      "date": "2026-02-06",
+      "sentence": "On February 6, 2026, the Company completed the sale of 250 Water Street for gross proceeds of $143.0 million."
+    },
+    {
+      "event": "Lease of Tin Building to Lux Entertainment",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Company entered into a lease of 100% of the Tin Building to a third-party tenant (Lux Entertainment)."
+    },
+    {
+      "event": "Common stock repurchase program approved",
+      "date": "2026-02-25",
+      "sentence": "On February 25, 2026, the Company's board of directors approved a common stock repurchase program."
+    },
+    {
+      "event": "Lease with Meow Wolf for Pier 17 space",
+      "date": "2025-01-01",
+      "sentence": "During 2025, the Company entered into a lease with immersive entertainment and experience creator, Meow Wolf, to occupy approximately 74,000 square feet of vacant space in Pier 17."
+    },
+    {
+      "event": "Transfer of stock listing to NYSE",
+      "date": "2025-06-30",
+      "sentence": "On June 30, 2025, the Company transferred the listing of the Company's common stock from the NYSE American LLC to the New York Stock Exchange, continuing to trade under the symbol SEG."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:22:24.642Z",
+  "model": "deepseek-v4-flash"
+}

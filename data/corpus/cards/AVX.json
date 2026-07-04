@@ -1,0 +1,73 @@
+{
+  "cik": "0001826397",
+  "ticker": "AVX",
+  "name": "AVAX ONE TECHNOLOGY LTD.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-014138",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1826397/000149315226014138/form10-k.htm"
+  },
+  "business": "The company operates a digital asset treasury focused on the Avalanche blockchain, earning staking rewards, and also mines Bitcoin at three facilities in Canada and Ohio.",
+  "sellsTo": [
+    "blockchain networks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "BitGo",
+    "Coinbase",
+    "Hivemind Capital Partners"
+  ],
+  "exposures": [
+    {
+      "tag": "other:avalanche-blockchain",
+      "stance": "core_product",
+      "sentence": "As of the fourth quarter of 2025, the Company operates a digital asset treasury, focused on the Avalanche blockchain."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "the Company has entered the Bitcoin Mining industry and owns three Bitcoin Mining facilities, one in Alberta, Canada, and two in Ohio."
+    },
+    {
+      "tag": "other:digital-asset-staking",
+      "stance": "core_product",
+      "sentence": "The Company stakes its AVAX tokens to generate additional AVAX tokens that are recognized as revenue."
+    },
+    {
+      "tag": "other:flare-gas-energy",
+      "stance": "active_investment",
+      "sentence": "The Company’s process captures natural gas flares to generate significant low-cost energy to operate the cryptocurrency mining rigs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and cyber-attacks are of particular concern with respect to cryptocurrency."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Avalanche is an open, programmable smart contracts network of blockchains which promotes scalability through Avalanche consensus for greater speed and decentralization."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of proprietary validator infrastructure",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we launched our proprietary validator infrastructure, enabling third-party delegators to stake AVAX at competitive costs while generating revenue through delegation fees."
+    },
+    {
+      "event": "Delivery of 1,500 new BITMAIN Antminer S19K Pro miners",
+      "date": "2026-03-31",
+      "sentence": "In February 2026, the Company entered into an agreement to purchase 1,500 new BITMAIN Antminer S19K Pro miners from a third-party supplier for a cost of approximately $300,000 and the trade-in of 1,500 BITMAIN Antminer S19J Pro miners. The units are expected to be delivered to our EPCM contractor’s facility in Ohio by the end of March 2026."
+    },
+    {
+      "event": "Full operational status of upgraded miners",
+      "date": "2026-04-15",
+      "sentence": "Installation, deployment and swap will begin immediately upon arrival, with full operational status expected by mid-April 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:29:17.028Z",
+  "model": "deepseek-v4-flash"
+}

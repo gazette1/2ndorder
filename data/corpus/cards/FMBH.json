@@ -1,0 +1,73 @@
+{
+  "cik": "0000700565",
+  "ticker": "FMBH",
+  "name": "FIRST MID BANCSHARES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-080847",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/700565/000119312526080847/fmbh-20251231.htm"
+  },
+  "business": "First Mid Bancshares, Inc. is a financial holding company that provides banking, insurance, and wealth management services primarily to individuals and businesses in Illinois, Missouri, Wisconsin, Texas, and Indiana. It generates revenue from net interest income on loans and securities, as well as non-interest income from insurance commissions, wealth management fees, service charges, and mortgage banking.",
+  "sellsTo": [
+    "individuals and businesses in the Midwest",
+    "commercial real estate borrowers",
+    "agricultural borrowers",
+    "wealth management clients",
+    "insurance clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A failure in or breach of the Company's operational or security systems, or those of its third-party service providers, including as a result of cyber-attacks, could disrupt the Company's business, result in unintentional disclosure or misuse of confidential or proprietary information, damage the Company's reputation, increase our costs, and cause losses."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "At December 31, 2025 and 2024, First Mid Bank did have industry loan concentrations in excess of 25% of total risk-based capital in the following industries (dollars in thousands): ... Other grain farming $ 577,903 9.61 %"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Insurance commissions increased to $32,295 in 2025 from $28,552 in 2024."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "Wealth management revenues increased to $22,941 in 2025 from $22,818 in 2024."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change could have a material negative impact on the Company and customers."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Commercial real estate $2,564,670 42.7 %"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "1-4 family residential properties $489,854 8.1 %"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Share repurchase authorization up to 1.2 million shares",
+      "date": "2025-06-24",
+      "sentence": "On June 24, 2025, the Board of Directors approved a repurchase program (the \"2025 Repurchase Program\"), which became effective on July 1, 2025."
+    },
+    {
+      "event": "Acquisition of AAdvantage Insurance Group LLC's book of business",
+      "date": "2025-07",
+      "sentence": "Insurance commissions increased in 2025 primarily due to ... the acquisition of part of AAdvantage Insurance Group LLC's book of business in July 2025 accompanied by organic growth."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:25:17.287Z",
+  "model": "deepseek-v4-flash"
+}

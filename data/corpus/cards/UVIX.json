@@ -1,0 +1,28 @@
+{
+  "cik": "0001793497",
+  "ticker": "UVIX",
+  "name": "VS Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037527",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026037527/ea0276103-10k_vstrust.htm"
+  },
+  "business": "The Trust sponsors exchange-traded products that seek daily investment results corresponding to the performance of VIX futures indices. The filing does not contain an explicit business description.",
+  "sellsTo": [
+    "investors seeking exposure to VIX futures"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:volatility",
+      "stance": "core_product",
+      "sentence": "The primary market risk that SVIX and UVIX are exposed to are inverse and long exposure, respectively, to the price of certain VIX futures contracts as measured by the return of holding and periodically rolling such futures contracts."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:38:24.086Z",
+  "model": "deepseek-v4-flash"
+}

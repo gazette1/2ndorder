@@ -1,0 +1,65 @@
+{
+  "cik": "0001820144",
+  "ticker": "GRND",
+  "name": "Grindr Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001820144-26-000007",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1820144/000182014426000007/grnd-20251231.htm"
+  },
+  "business": "Grindr Inc. operates a global social networking platform primarily serving gay, bisexual, transgender, and queer (GBTQ) adults. The platform offers free basic features and generates revenue through user subscriptions (direct revenue) and third-party advertising (indirect revenue). It also provides a telehealth subscription service called Woodwork in the health and wellness space.",
+  "sellsTo": [
+    "GBTQ adults globally",
+    "Advertisers targeting the LGBTQ community"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Apple App Store",
+    "Google Play Store",
+    "Amazon Web Services",
+    "OpenLoop Health Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We use artificial intelligence and machine learning in our products, services, and operations in furtherance of our goal to become an AI-native company, which may result in operational and compliance challenges, legal liability, reputational concerns, cybersecurity risks, competitive risks, and regulatory concerns that could materially and adversely affect our business and results of operations."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "In May 2025, we launched Woodwork by Grindr as part of our first gayborhood expansion initiative focusing on the health and wellness space."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches, unauthorized access to or disclosure of our data or user data, other hacking and phishing attacks affecting our information technology systems or those of third parties with whom we work, or other data security incidents could compromise sensitive information related to our business or users processed by us or on our behalf and expose us to liability, which could harm our reputation, disrupt the availability of our systems and services, generate negative publicity, and materially and adversely affect our business."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "risk_mention",
+      "sentence": "The online social networking and dating industries in which we operate are highly and increasingly competitive, particularly as powerful AI tools further reduce barriers to entry and otherwise enable the emergence of AI-powered companion and digital relationship products that may reduce demand for traditional dating or social networking interactions, and if we cannot compete effectively our business will suffer."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Woodwork by Grindr telehealth service",
+      "date": "2025-05-01",
+      "sentence": "In May 2025, we launched Woodwork by Grindr as part of our first gayborhood expansion initiative focusing on the health and wellness space."
+    },
+    {
+      "event": "Completion of warrant redemption",
+      "date": "2025-02-24",
+      "sentence": "On February 24, 2025, we completed the redemption of all outstanding public and private warrants."
+    },
+    {
+      "event": "Repayment of revolving credit facility",
+      "date": "2024-01-01",
+      "sentence": "In January 2024, we repaid $22.0 million under our revolving credit facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:19:42.501Z",
+  "model": "deepseek-v4-flash"
+}

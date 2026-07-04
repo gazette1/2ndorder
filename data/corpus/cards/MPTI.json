@@ -1,0 +1,80 @@
+{
+  "cik": "0001902314",
+  "ticker": "MPTI",
+  "name": "M-tron Industries, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009844",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1902314/000143774926009844/mpti20251231_10k.htm"
+  },
+  "business": "M-tron Industries, Inc. designs, manufactures, and markets highly engineered, high reliability frequency and spectrum control products used to control the frequency or timing of signals in electronic circuits. Its primary markets are aerospace and defense, avionics, industrials, and space. The company sells to original equipment manufacturers (OEMs), contract manufacturers, and franchised distributors.",
+  "sellsTo": [
+    "aerospace and defense",
+    "avionics",
+    "industrial",
+    "space",
+    "OEMs",
+    "contract manufacturers",
+    "franchised distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "The Company's primary markets are aerospace and defense, avionics, industrials, and space."
+    },
+    {
+      "tag": "space",
+      "stance": "core_product",
+      "sentence": "The Company's primary markets are aerospace and defense, avionics, industrials, and space."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "The Company's primary markets are aerospace and defense, avionics, industrials, and space."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Our component-level devices and integrated modules are used extensively in electronic systems for applications in ... down-hole drilling..."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our component-level devices and integrated modules are used extensively in electronic systems for applications in ... medical systems..."
+    },
+    {
+      "tag": "satellites",
+      "stance": "core_product",
+      "sentence": "Our component-level devices and integrated modules are used extensively in electronic systems for applications in ... satellites..."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are also evaluating and may implement generative artificial intelligence (\"AI\") technologies in our operations, and our suppliers, customers, and vendors may do the same."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks and cybersecurity incidents may adversely affect our business by causing a disruption to our operations, a compromise or corruption of our confidential information, and/or damage to our business relationships, all of which could negatively impact our financial results."
+    },
+    {
+      "tag": "rare-earths",
+      "stance": "risk_mention",
+      "sentence": "Additionally, foreign governments may restrict our access to supply; for example, if China were to further restrict export of rare earth minerals, our suppliers ability to obtain such supply may be constrained and we may be unable to obtain sufficient quantities, or obtain supply in a timely manner, or at a commercially reasonable cost."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Entered into amended and restated credit agreement with Fifth Third Bank",
+      "date": "2025-12-31",
+      "sentence": "On December 31, 2025, we entered into an amended and restated credit agreement (the \"Credit Agreement\") with Fifth Third Bank, National Association (\"Fifth Third Bank\"), replacing our prior credit facility with Fifth Third Bank (the \"Previous Credit Agreement\")."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:35:15.728Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0001004702",
+  "ticker": "OCFC",
+  "name": "OCEANFIRST FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001004702-26-000015",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1004702/000100470226000015/ocfc-20251231.htm"
+  },
+  "business": "OceanFirst Financial Corp. is a bank holding company whose subsidiary, OceanFirst Bank N.A., offers a variety of financial products and services including commercial real estate and commercial loans, residential mortgages, and consumer loans. The bank generates revenue primarily from interest on loans and also from other services such as bankcard services, trust and fiduciary services, and deposit account services. The bank operates in New Jersey, New York City, Philadelphia, and other major metropolitan areas in the Mid-Atlantic and Northeast.",
+  "sellsTo": [
+    "retail and commercial depositors",
+    "commercial real estate investors",
+    "homeowners",
+    "small businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "rapid technological changes and consumer preferences will continue to result in increased competition for the Bank's digital services as several well-funded technology-focused companies are focused on developing innovations in payments, distributed ledger, and cryptocurrency networks to disintermediate portions of the traditional banking model."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a failure in or breach of the Company's operational or security systems or infrastructure, including cyberattacks and fraud"
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The Bank's principal business is originating loans, consisting of commercial real estate and other commercial loans, which have become a key focus of the Bank."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:52:55.715Z",
+  "model": "deepseek-v4-flash"
+}

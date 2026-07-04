@@ -1,0 +1,88 @@
+{
+  "cik": "0000700841",
+  "ticker": "RCMT",
+  "name": "RCM TECHNOLOGIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-011236",
+    "filedAt": "2026-04-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/700841/000143774926011236/rcmt20260103_10k.htm"
+  },
+  "business": "RCM Technologies, Inc. is a premier provider of business and technology solutions designed to enhance and maximize its customers' operational performance. The Company provides these services through the deployment of specialty healthcare, engineering, life sciences, information technology services, data management and solutions. The Company consists of three operating segments: Specialty Health Care, Engineering, and Life Sciences, Data and Solutions.",
+  "sellsTo": [
+    "Aerospace/Defense",
+    "Educational Institutions",
+    "Energy Sector",
+    "Financial Services",
+    "Healthcare",
+    "Life Sciences",
+    "Manufacturing & Distribution",
+    "Public Sector",
+    "Technology",
+    "Healthcare institutions",
+    "School districts"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "RCM is using AI-powered tools to help streamline the regulatory approval process by analyzing patterns in regulatory data and improving submission accuracy."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Process automation further streamlines workflows, reduces manual intervention, and increases operational efficiency."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "The expansion will require extensive investment in the nation’s transmission infrastructure to interconnect these renewable resources to the energy grid."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Much of this transformation is being driven by investments in renewable energy."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Provides engineering and technical services to the aerospace & defense industry."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The increased adoption of telemedicine, an area in which the Specialty Health Care group has developed new service offerings, is a primary example."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We have experienced cybersecurity incidents and disruptions, including viruses and attacks targeting our information technology systems."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "Expanding access to behavioral health and mental well-being is also a priority for public health officials."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Amendment of credit facility increasing total commitment to $75 million until August 31, 2026",
+      "date": "2026-02-20",
+      "sentence": "On February 20, 2026, the Company amended (Amendment 1) the Fifth Amended and Restated Loan Agreement, dated as of December 3, 2024, with Citizens Bank."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Department of Defense plans to spend over $1 trillion in procurement-related aviation expenditures over the next three decades",
+      "sentence": "According to the Congressional Budget Office (CBO), the Department of Defense plans to spend over $1 trillion in procurement-related aviation expenditures over the next three decades."
+    },
+    {
+      "claim": "38% of United States electric generation capacity will be comprised of wind and solar assets by 2050",
+      "sentence": "The Energy Information Administration (EIA) estimates that 38% of the United States electric generation capacity will be comprised of wind and solar assets by 2050."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:40:33.387Z",
+  "model": "deepseek-v4-flash"
+}

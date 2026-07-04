@@ -1,0 +1,56 @@
+{
+  "cik": "0001130144",
+  "ticker": "BSRR",
+  "name": "SIERRA BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021479",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1130144/000110465926021479/bsrr-20251231x10k.htm"
+  },
+  "business": "Sierra Bancorp is a bank holding company whose principal subsidiary, Bank of the Sierra, offers retail and commercial banking services including loans and deposits. Its loan portfolio is concentrated in real estate loans (72.0% of total loans), mortgage warehouse loans (20.3%), and other commercial loans (7.6%). Customers include individuals and businesses in California's South San Joaquin Valley, Central Coast, Ventura County, and neighboring communities.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "agricultural borrowers",
+    "mortgage warehouse lenders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Lending activities cover real estate, commercial (including small business), mortgage warehouse, agricultural, and consumer loans."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "At December 31, 2025, the percentage of our total loan portfolio for each of the principal types of credit we extend was as follows: (i) loans secured by real estate (72.0%); (ii) mortgage warehouse loans (20.3%); (iii) other commercial loans, including agricultural production and SBA loans (7.6%); and (iv) consumer loans (0.1%)."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The first was commercial real estate loans, which constituted 54.6% of total gross loans, with segments in retail (12.1%), office space (5.9%), and hospitality (9.4%)."
+    },
+    {
+      "tag": "other:mortgage-warehouse",
+      "stance": "core_product",
+      "sentence": "The second loan category that could be considered a concentration was mortgage warehouse, which made up 20.4% of total gross loans."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "The Company does not have direct exposure to oil producers, and our exposure via loans outstanding to borrowers involved in servicing oil companies totaled $110.0 million at December 31, 2025."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition to other banks, our competitors include savings institutions, credit unions, and non-banking institutions, such as finance companies, leasing companies, insurance companies, brokerage firms, asset management groups, mortgage banking firms, and fintech companies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:54:16.055Z",
+  "model": "deepseek-v4-flash"
+}

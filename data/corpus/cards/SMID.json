@@ -1,0 +1,58 @@
+{
+  "cik": "0000924719",
+  "ticker": "SMID",
+  "name": "SMITH MIDLAND CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-003505",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/924719/000165495426003505/smid_10k.htm"
+  },
+  "business": "The Company generates revenues primarily from the sale, leasing, licensing, shipping and installation of precast concrete products and systems for the construction, utility and farming industries. The Company's operating strategy has involved producing and marketing innovative and proprietary products, including SlenderWall, a proprietary, lightweight, energy efficient concrete and steel exterior wall panel for use in building construction; J-J Hooks Barrier, a proprietary, positive-connected highway safety barrier; Sierra Wall, a sound barrier primarily for roadside use; transportable concrete buildings; and SoftSound, a highway sound attenuation system.",
+  "sellsTo": [
+    "construction industry",
+    "highway and transportation markets",
+    "utility industry",
+    "farming industry",
+    "data center developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Company generates revenues primarily from the sale, leasing, licensing, shipping and installation of precast concrete products and systems for the construction, utility and farming industries."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The prior year sales reflected elevated demand in the Northern Virginia market driven by accelerated data center development."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Utility products are mainly comprised of underground utility vaults used in infrastructure construction."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "In addition, the Company produces utility vaults; farm products such as cattleguards; and custom order precast concrete products with various architectural surfaces."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "While we have not experienced a material impact on our operations to date, with our systems being back online in a relatively short period of time and most out-of-pocket expenses covered by cyber insurance, the incident may expose us to regulatory inquiries or litigation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure plan for 2026",
+      "date": null,
+      "sentence": "The Company, which expects product sales to be similar in 2026 as compared to 2025, intends to invest over $12,000 in 2026 for long-term strategic growth which includes continued barrier production, expansion of the Virginia and North Carolina manufacturing facilities, soundwall forms for increased production capacity, and miscellaneous manufacturing equipment."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:13:15.245Z",
+  "model": "deepseek-v4-flash"
+}

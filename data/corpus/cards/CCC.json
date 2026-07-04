@@ -1,0 +1,63 @@
+{
+  "cik": "0001818201",
+  "ticker": "CCC",
+  "name": "CCC Intelligent Solutions Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067448",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1818201/000119312526067448/ccc-20251231.htm"
+  },
+  "business": "CCC is a leading SaaS and AI platform provider for the insurance economy, connecting insurers, repairers, automakers, and part suppliers. Its cloud technology digitizes mission-critical workflows for over 35,000 businesses, with a focus on automotive insurance claims and collision repair.",
+  "sellsTo": [
+    "Insurers",
+    "Collision repair facilities",
+    "Automotive manufacturers",
+    "Parts suppliers",
+    "Diagnostics service providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "CCC is a leading Software-as-a-Service (SaaS) and AI platform provider for the multi-trillion-dollar insurance economy powering operations for insurers, repairers, automakers, part suppliers, and more."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Our AI solutions streamline existing insurance and repair processes including vehicle damage detection, claim triage, claim handling, repair estimating, intelligent claim review, and claim subrogation."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our ability to keep our data and information systems secure from data security breaches"
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "the continued adoption of semi-autonomous or autonomous vehicles and the advent of improved automotive safety features, may potentially impact the future market for, and operations of, the insurance and automotive collision industries."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our bodily injury claims synthesis solution, Medhub, was built to empower adjusters with a real-time understanding of the medical facts that they feel are likely to influence the outcome of the claim."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of EvolutionIQ completed",
+      "date": "2025-01-31",
+      "sentence": "During January 2025, the Company completed its acquisition of EvolutionIQ."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The U.S. P&C insurance industry serviced over $1 trillion in DWP in 2024.",
+      "sentence": "The U.S. P&C insurance industry alone serviced over $1 trillion in DWP in 2024."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:54:04.490Z",
+  "model": "deepseek-v4-flash"
+}

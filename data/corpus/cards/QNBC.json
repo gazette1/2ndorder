@@ -1,0 +1,57 @@
+{
+  "cik": "0000750558",
+  "ticker": "QNBC",
+  "name": "QNB CORP.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-107482",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/750558/000119312526107482/qnbc-20251231.htm"
+  },
+  "business": "QNB Corp. is a bank holding company that through its wholly-owned subsidiary QNB Bank provides commercial banking services, including attracting deposits and making commercial loans, residential mortgage loans, consumer loans, and purchasing investment securities, primarily to customers in southeastern Pennsylvania.",
+  "sellsTo": [
+    "Individuals",
+    "Small and medium businesses",
+    "Municipalities",
+    "Commercial real estate borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "A strong focus on small-business solutions, providing fast local decision-making on loans, exceptional personal customer service and technology solutions, including internet- and mobile-banking, electronic bill pay and remote deposit capture, also enable QNB to compete successfully."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A disruption in components of our business infrastructure resulting from financial or technological difficulties of our third- party vendors on which we rely could adversely affect our business."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "These banking services consist of, among other things, attracting deposits and using these funds in making commercial loans, residential mortgage loans, consumer loans, and purchasing investment securities."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The largest category of the loan portfolio is commercial real estate loans."
+    },
+    {
+      "tag": "other:commercial-industrial",
+      "stance": "core_product",
+      "sentence": "Income on commercial and industrial loans, the second largest category, decreased $434,000 with average balances decreasing $2,575,000 resulting in a decrease to interest income of $193,000 and an average yield decrease of 17 basis points to 7.35% in 2025 from 7.52% in 2024, contributing to a $241,000 decrease in interest income."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with The Victory Bancorp, Inc. expected to close",
+      "date": "2026-06-30",
+      "sentence": "The transactions under the Merger Agreement are expected to close during the second quarter of 2026, subject to customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:32:57.909Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001368514",
+  "ticker": "ADMA",
+  "name": "ADMA BIOLOGICS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-006815",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1368514/000114036126006815/ef20059416_10-k.htm"
+  },
+  "business": "ADMA Biologics, Inc. is a U.S. based, end-to-end commercial biopharmaceutical company dedicated to manufacturing, marketing and developing specialty biologics for the treatment of immunodeficient patients at risk for infection and others at risk for certain infectious diseases. It markets three FDA-approved products: ASCENIV (IVIG for primary humoral immunodeficiency), BIVIGAM (IVIG for primary immunodeficiency), and Nabi-HB (hepatitis B immune globulin). The company also operates plasma collection centers to supply raw material for its products and for sale to third parties.",
+  "sellsTo": [
+    "physician specialists",
+    "immune-compromised patients",
+    "payers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "ADMA Biologics, Inc. (the Company, ADMA, we, us or our ) is a U.S. based, end-to-end commercial biopharmaceutical company dedicated to manufacturing, marketing and developing specialty biologics for the treatment of immunodeficient patients at risk for infection and others at risk for certain infectious diseases."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks and other security breaches could compromise our proprietary and confidential information or otherwise penetrate our network, which could harm our business and reputation."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Issues in the development and use of AI may result in reputational harm and increased liability exposure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Potential FDA approval of ASCENIV pediatric label expansion (ages 2+)",
+      "date": "2026-06-30",
+      "sentence": "In June 2025, we filed our sBLA for the expansion of ASCENIV's label to include the pediatric setting for patients who are two years and older and we anticipate potential FDA approval in the first half of 2026."
+    },
+    {
+      "event": "Submission of pre-IND package for SG-001 to FDA",
+      "date": "2026-12-31",
+      "sentence": "We anticipate submitting a pre-Investigational New Drug (IND) package to the FDA in fiscal year 2026, which could enable us to progress development of SG-001 directly into a registrational clinical trial."
+    },
+    {
+      "event": "Closing of third plasma collection center divestiture",
+      "date": "2026-03-31",
+      "sentence": "The closing of the third center is anticipated to occur in the first quarter of 2026."
+    },
+    {
+      "event": "Potential acceptance of Commissioner's National Priority Voucher (CNPV) application",
+      "date": null,
+      "sentence": "In September 2025, a Commissioner's National Priority Voucher (CNPV) application was submitted and, if accepted, could accelerate FDA review by two fiscal quarters or more."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:14:30.432Z",
+  "model": "deepseek-v4-flash"
+}

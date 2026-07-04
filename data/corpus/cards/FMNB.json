@@ -1,0 +1,55 @@
+{
+  "cik": "0000709337",
+  "ticker": "FMNB",
+  "name": "FARMERS NATIONAL BANC CORP /OH/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007084",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/709337/000143774926007084/fmnb20251231_10k.htm"
+  },
+  "business": "Farmers National Banc Corp is a financial holding company operating through its subsidiaries providing commercial and retail banking, trust services, retirement consulting, insurance, and financial management. The company serves customers mainly in northeastern Ohio and western Pennsylvania. Its primary business consists of owning and supervising its subsidiaries, including The Farmers National Bank of Canfield and Farmers Trust Company.",
+  "sellsTo": [
+    "individuals in northeastern Ohio and western Pennsylvania",
+    "commercial and retail customers in Ohio and Pennsylvania"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized disclosure of sensitive or confidential customer information, whether through a data breach of our computer systems, third-party service providers systems, by cyber-attack or otherwise, could severely harm our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "This could include the development, implementation, and adaptation of digital or cryptocurrency, blockchain, and other fintech technology."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "In addition, our implementation of certain new technologies, such as those related to artificial intelligence and algorithms, in our business processes may have unintended consequences due to their limitations, potential manipulation or our failure to use them effectively."
+    },
+    {
+      "tag": "other:cloud",
+      "stance": "risk_mention",
+      "sentence": "Cloud technologies are also critical to the operation of our systems, and our reliance on cloud technologies is growing."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Farmers Insurance was formed during 2009 and offers a variety of insurance products through licensed representatives."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed merger with Middlefield Banc Corp",
+      "date": "2026-03-02",
+      "sentence": "On March 2, 2026, the Company completed its previously announced merger (the \"Merger\") with Middlefield Banc Corp., an Ohio corporation ( Middlefield ), pursuant to the Agreement and Plan of Merger dated as of October 22, 2025, by and between the Company and Middlefield (the Merger Agreement )."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:35:28.188Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001573221",
+  "ticker": "REAL",
+  "name": "TheRealReal, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001573221-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1573221/000157322126000010/real-20251231.htm"
+  },
+  "business": "The RealReal is the world's largest online marketplace for authenticated, resale luxury goods. It offers a wide selection of primarily pre-owned luxury goods from thousands of luxury and premium designers. The company serves consignors (suppliers of luxury goods) and buyers (consumers).",
+  "sellsTo": [
+    "individual consignors",
+    "business consignors",
+    "buyers (consumers)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The RealReal is the world’s largest online marketplace for authenticated, resale luxury goods."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We use proprietary artificial intelligence (\"AI\") to assist in identifying and authenticating multiple categories."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "Improvements in our automation of authentication, pricing, copywriting and photo retouching have improved the efficiency of our operations."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Shipping is a critical part of our business and any changes in our shipping arrangements, costs, interruptions in shipping or damage to products in transit could adversely affect our operating results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:08:21.721Z",
+  "model": "deepseek-v4-flash"
+}

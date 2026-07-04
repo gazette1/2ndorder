@@ -1,0 +1,58 @@
+{
+  "cik": "0001290677",
+  "ticker": "TPB",
+  "name": "Turning Point Brands, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-006405",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1290677/000143774926006405/tpb20251231_10k.htm"
+  },
+  "business": "Turning Point Brands, Inc. is a leading manufacturer, marketer and distributor of branded consumer products, primarily in the alternative smoking accessories and Other Tobacco Products (OTP) industries, selling staple products under iconic brands Zig-Zag and Stoker's to adult consumers.",
+  "sellsTo": [
+    "wholesale distributors",
+    "retail merchants (convenience stores, tobacco outlets, food stores, mass merchandisers, drug stores, non-traditional channels, e-commerce)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Republic Technology International SAS (RTI)",
+    "Swedish Match"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We sell a wide range of products to adult consumers consisting of staple products with our iconic brands Zig-Zag and Stoker's."
+    },
+    {
+      "tag": "other:cannabinoid",
+      "stance": "risk_mention",
+      "sentence": "The alternative smoking accessories market is a dynamic market experiencing robust secular growth driven by cannabinoid legalization in the U.S. and Canada, and positively evolving consumer perception and acceptance in North America."
+    },
+    {
+      "tag": "other:modern-oral-nicotine",
+      "stance": "core_product",
+      "sentence": "In our Stoker's products segment, we contract for and market FRE and ALP, our modern oral products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "ALP intends to broaden its portfolio in 2026, including 12 mg strength nicotine pouches.",
+      "date": "2026",
+      "sentence": "In 2026, ALP intends to broaden its portfolio, including with the introduction of 12 mg strength."
+    },
+    {
+      "event": "FRE national rollout started in 2024 during which we expanded SKU assortments to include additional nicotine strengths.",
+      "date": "2024",
+      "sentence": "In late 2023, we expanded our oral nicotine offering to include FRE, a white pouch nicotine product, with a national rollout started in 2024 during which we expanded SKU assortments to include additional nicotine strengths."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The legal cannabis market in the U.S. is projected to grow from approximately $30 billion in 2024 to approximately $39 billion by 2029 according to an October 2025 report of BDSA.",
+      "sentence": "The legal cannabis market in the U.S. is projected to grow from approximately $30 billion in 2024 to approximately $39 billion by 2029 according to an October 2025 report of BDSA, a market research firm focused on the legal cannabis market."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:45:12.488Z",
+  "model": "deepseek-v4-flash"
+}

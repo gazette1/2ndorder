@@ -1,0 +1,78 @@
+{
+  "cik": "0001955520",
+  "ticker": "KNF",
+  "name": "Knife River Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001955520-26-000003",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1955520/000195552026000003/knf-20251231.htm"
+  },
+  "business": "Knife River Corporation is an aggregates-based construction materials and contracting services provider in the United States. It supplies construction materials and contracting services to public and private-sector customers, including federal, state and municipal governments, as well as industrial, commercial and residential developers. The company operates across 14 states with 208 active aggregate sites, 135 ready-mix plants, 55 asphalt plants and 9 liquid asphalt terminals.",
+  "sellsTo": [
+    "public-sector customers: federal, state and municipal governments",
+    "private-sector customers: industrial, commercial, residential developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Knife River Corporation (referred to as we, our, us, the Company or Knife River) is an aggregates-based construction materials and contracting services provider in the United States."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our contracting services are primarily provided to public-sector customers for the development and servicing of highways, local roads, bridges and other public-infrastructure projects."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Technology disruptions or cyberattacks could adversely impact operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence presents risks and challenges that can negatively impact our business by posing security risks to our confidential information, proprietary information and personal data."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Our operations could be negatively impacted by import tariffs and/or other government mandates."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our operations could be adversely impacted by sever weather events, including as a result of climate change."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Twin Falls ready-mix operations fully operational",
+      "date": "2026-03-31",
+      "sentence": "In Twin Falls, Idaho, we are greenfielding new ready-mix operations, which allows us to build a local team in this market, and are expected to be fully operational in the first quarter of 2026."
+    },
+    {
+      "event": "South Dakota aggregates expansion project operational",
+      "date": "2027-12-31",
+      "sentence": "This project is scheduled to be operational in 2027."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The IIJA is authorized to provide $1.2 trillion in funding from 2022 through 2026.",
+      "sentence": "States have moved forward with allocating funds from federal programs, such as the IIJA, which is authorized to provide $1.2 trillion in funding from 2022 through 2026."
+    },
+    {
+      "claim": "An estimated total of $2.2 trillion in funding will be needed for U.S. roadway systems to reach a state of good repair between 2024 and 2033.",
+      "sentence": "It is estimated that a total of $2.2 trillion in funding will be needed for our roadway systems to reach a state of good repair during that time period."
+    },
+    {
+      "claim": "North Dakota DOT's estimated bid lettings for 2026 construction program are between $745 million and $810 million.",
+      "sentence": "The North Dakota DOT s estimated bid lettings for their 2026 construction program is between $745 million and $810 million, which is a significant increase over their 2025 bid lettings of $345 million."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:30:52.283Z",
+  "model": "deepseek-v4-flash"
+}

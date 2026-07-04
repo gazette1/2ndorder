@@ -1,0 +1,100 @@
+{
+  "cik": "0000724910",
+  "ticker": "NVEC",
+  "name": "NVE CORP /NEW/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001376474-26-000348",
+    "filedAt": "2026-05-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000348/nvec-20260331_10k.htm"
+  },
+  "business": "NVE Corporation develops and sells devices that use spintronics, including sensors and couplers. The company sells standard sensors for IIoT and AIoT in factory automation, custom sensors for medical devices, and couplers for power conversion and industrial automation.",
+  "sellsTo": [
+    "IIoT",
+    "AIoT",
+    "factory automation",
+    "medical devices",
+    "power conversion",
+    "energy conversion",
+    "battery energy storage",
+    "hybrid/electric vehicles",
+    "distributors",
+    "private-brand partnerships"
+  ],
+  "namedCustomers": [
+    "Abbott Laboratories"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We manufacture high-performance spintronic products including sensors and couplers that are used to acquire and transmit data."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our primary custom products are sensors for medical devices, which are customized to our customers requirements and manufactured under stringent medical device quality standards."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Our major markets for standard sensors are the Industrial Internet of Things (IIoT) and the Artificial Intelligence of Things (AIoT) for factory automation."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our major markets for standard sensors are the Industrial Internet of Things (IIoT) and the Artificial Intelligence of Things (AIoT) for factory automation."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Energy conversion applications include battery energy storage systems and hybrid/electric vehicles."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Energy conversion applications include battery energy storage systems and hybrid/electric vehicles."
+    },
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "Near-term potential MRAM applications include mission-critical storage such as military, industrial, and antitamper applications."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We sell products in the semiconductor market, which has been especially cyclical."
+    },
+    {
+      "tag": "other:power-conversion",
+      "stance": "core_product",
+      "sentence": "Our major coupler markets are power conversion, IIoT, and AIoT."
+    },
+    {
+      "tag": "other:energy-conversion",
+      "stance": "core_product",
+      "sentence": "Our unique products support global trends of efficient energy conversion and smart, low-power end nodes for the Internet of Things."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of Supplier Partnering Agreement with Abbott Laboratories",
+      "date": "2027-12-31",
+      "sentence": "We have agreements with certain customers, including a Supplier Partnering Agreement, as amended, with Abbott Laboratories, which expires December 31, 2027."
+    },
+    {
+      "event": "Completion of manufacturing expansion",
+      "date": "2027-03-31",
+      "sentence": "We expect fixed asset purchases to decrease significantly in fiscal 2027 with the completion of our expansion."
+    },
+    {
+      "event": "Cash dividend payment",
+      "date": "2026-05-29",
+      "sentence": "In addition to cash dividends to shareholders paid in fiscal 2026, on May 6, 2026, we announced that our Board had declared a cash dividend of $1.00 per share of Common Stock, or $4,837,166 based on shares outstanding as of March 31, 2026, to be paid May 29, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:08:03.576Z",
+  "model": "deepseek-v4-flash"
+}

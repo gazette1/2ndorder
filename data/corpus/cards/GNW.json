@@ -1,0 +1,87 @@
+{
+  "cik": "0001276520",
+  "ticker": "GNW",
+  "name": "GENWORTH FINANCIAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012828",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1276520/000162828026012828/gnw-20251231.htm"
+  },
+  "business": "Genworth Financial offers mortgage insurance products through its majority-owned subsidiary Enact Holdings, provides fee-based aging care services through CareScout Services, and sells long-term care insurance through CareScout Insurance. Its legacy insurance subsidiaries, collectively referred to as Closed Block, no longer sell new policies but continue to service in-force blocks of long-term care insurance, life insurance, and annuity products. Mortgage insurance is sold to lenders and investors to cover low down payment mortgages, while CareScout targets consumers needing aging-care funding and services.",
+  "sellsTo": [
+    "mortgage lenders and investors (including GSEs)",
+    "consumers needing aging-care services",
+    "individuals purchasing long-term care insurance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Union Fidelity Life Insurance Company (UFLIC)",
+    "RGA Reinsurance Company",
+    "General Reinsurance Corporation",
+    "Riversource Life Insurance Company",
+    "SCOR Global Life USA Reinsurance Company"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Genworth Financial offers mortgage insurance products through its principal mortgage insurance subsidiaries."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "A deterioration in economic conditions, a severe recession or a decline in home prices, all of which could be driven by many potential factors, may adversely affect our business, profitability and Enact Holdings loss experience."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our computer systems, as well as those of our third-party service providers, have experienced failures or security compromises in the past and may do so again in the future, including as a result of cybersecurity incidents."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Other emerging risks, such as the occurrence of natural or man-made disasters, including geopolitical tensions and war; a public health emergency, including pandemics; climate change; or unknown risks and uncertainties associated with artificial intelligence could materially adversely affect our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Other emerging risks, such as the occurrence of natural or man-made disasters, including geopolitical tensions and war; a public health emergency, including pandemics; climate change; or unknown risks and uncertainties associated with artificial intelligence could materially adversely affect our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Care Assurance, new individual long-term care insurance product",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, CareScout Insurance launched a new individual long-term care insurance product, Care Assurance, with the product live in 40 states as of February 20, 2026, and additional approvals pending."
+    },
+    {
+      "event": "Plan to launch worksite and association group offerings",
+      "date": "2026-12-31",
+      "sentence": "We plan to launch worksite and association group offerings later in 2026."
+    },
+    {
+      "event": "Credentialing of Seniorly's major national senior living providers expected to be complete",
+      "date": "2026-12-31",
+      "sentence": "Credentialing of Seniorly's major national senior living providers is underway and is expected to be complete by the end of 2026."
+    },
+    {
+      "event": "Authorization of new $350 million share repurchase program by Genworth Financial",
+      "date": "2025-09-18",
+      "sentence": "In September 2025, Genworth Financial announced that its Board of Directors had authorized a new share repurchase program under which Genworth Financial may purchase up to $350 million of its outstanding common stock."
+    },
+    {
+      "event": "Authorization of new $500 million share repurchase program by Enact Holdings",
+      "date": "2026-02-03",
+      "sentence": "On February 3, 2026, Enact Holdings announced the authorization of a new share repurchase program under which it may repurchase up to $500 million of its common stock."
+    },
+    {
+      "event": "Enact Holdings expects to return approximately $500 million of capital to shareholders in 2026",
+      "date": "2026-12-31",
+      "sentence": "Enact Holdings expects to return approximately $500 million of capital to its shareholders in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:22:49.719Z",
+  "model": "deepseek-v4-flash"
+}

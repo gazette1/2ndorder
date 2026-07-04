@@ -1,0 +1,95 @@
+{
+  "cik": "0001507605",
+  "ticker": "MARA",
+  "name": "MARA Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001507605-26-000007",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/mara-20251231.htm"
+  },
+  "business": "MARA is an energy and digital infrastructure company that uses Bitcoin mining as a flexible workload and is developing AI inference and HPC capabilities. It operates 18 data centers across four continents with approximately 1.9 GW of total capacity, primarily mining bitcoin and planning to offer AI/HPC services to third parties.",
+  "sellsTo": [
+    "third-party customers for AI inference and HPC compute capacity",
+    "hyperscaler tenants for joint venture AI/HPC infrastructure"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "Bitcoin mining remains the foundation of our platform."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "we are in the process of developing artificial intelligence (AI) inference and high-performance computing (HPC) capabilities."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We operate across four continents and 18 data centers in North America, the Middle East, Europe, and Latin America, with approximately 1.9 gigawatts (GW) of total capacity."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "We are particularly focused on inference architectures that can be deployed in smaller, purpose-built environments (including edge deployments) and that can support secure and private use cases where enterprises and the public sector require greater control, locality, and predictability versus public cloud models."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "We acquired a wind farm in Hansford County, Texas, with 240 MW of interconnection capacity and 114 MW of nameplate wind capacity to establish a behind-the-meter data center at low energy costs."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "active_investment",
+      "sentence": "We announced a letter of intent with MPLX LP aimed at expanding our access to lower-cost natural gas and scalable power capacity to support potential power generation and compute infrastructure development."
+    },
+    {
+      "tag": "utilities",
+      "stance": "active_investment",
+      "sentence": "the dispatchable load of our Bitcoin mining operations helps balance the grid and provides electricity to communities when in need."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The digital asset industry is a frequent target for cyberattacks, including: unauthorized access to systems and data; intentional corruption, destruction, or loss of digital assets; and social engineering attacks targeting employees."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "developments in mathematics or technology, including in digital computing, algebraic geometry and quantum computing, that could result in the cryptography used by the Bitcoin blockchain becoming insecure or ineffective."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "We face risks related to technological obsolescence, vulnerability of the global supply chain for cryptocurrency, AI and HPC hardware, potential trade restrictions and difficulty in obtaining new hardware."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Under our lending arrangements, a total of 9,377 bitcoin were loaned to counterparties, generating approximately $32.1 million of interest income during the year."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of 42 MW data center in central Nebraska closed",
+      "date": "2026-01-21",
+      "sentence": "Includes the acquisition of a 42 MW data center in central Nebraska, closed subsequent to year end on January 21, 2026."
+    },
+    {
+      "event": "Acquisition of majority interest in Exaion closed",
+      "date": "2026-02-20",
+      "sentence": "All required approvals and closing conditions were satisfied, and the acquisition closed on February 20, 2026."
+    },
+    {
+      "event": "Strategic Agreement with Starwood announced",
+      "date": "2026-02-26",
+      "sentence": "On February 26, 2026, we announced our Strategic Agreement with Starwood, marking an important step toward our AI and HPC initiatives."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:15:22.133Z",
+  "model": "deepseek-v4-flash"
+}

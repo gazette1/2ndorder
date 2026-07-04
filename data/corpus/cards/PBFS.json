@@ -1,0 +1,45 @@
+{
+  "cik": "0001769663",
+  "ticker": "PBFS",
+  "name": "Pioneer Bancorp, Inc./MD",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027092",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769663/000110465926027092/pbfs-20251231x10k.htm"
+  },
+  "business": "Pioneer Bancorp, Inc. operates through its wholly-owned subsidiary, Pioneer Bank, National Association, which offers commercial real estate loans, commercial and industrial loans, residential mortgage loans, home equity loans, and consumer loans, as well as deposit products. The Company also provides insurance products through Pioneer Insurance Agency, Inc., wealth management services through Pioneer Financial Services, Inc., and human resources consulting through Pioneer Consulting Solutions, Inc. The Company primarily serves individuals, businesses, and municipalities in the Capital Region of New York.",
+  "sellsTo": [
+    "Individuals",
+    "Businesses",
+    "Municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition for loans also comes from the increasing number of non-depository financial service companies participating in the mortgage market, such as insurance companies, securities companies, financial technology companies, specialty finance firms and technology companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A breach in security of our information systems, including the occurrence of a cyber incident or a deficiency in cyber security;"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank also sells commercial and consumer insurance products and employee benefit products and services through Pioneer Insurance Agency, Inc."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "provides wealth management services through its subsidiary, Pioneer Financial Services, Inc."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:42:31.647Z",
+  "model": "deepseek-v4-flash"
+}

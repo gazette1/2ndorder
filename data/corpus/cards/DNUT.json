@@ -1,0 +1,61 @@
+{
+  "cik": "0001857154",
+  "ticker": "DNUT",
+  "name": "Krispy Kreme, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001857154-26-000015",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000015/dnut-20251228.htm"
+  },
+  "business": "Krispy Kreme, Inc. sells fresh, high-quality doughnuts through an omni-channel model including Hot Light Theater Shops, Fresh Shops, fresh delivery to retail partners, and digital channels. The company operates in 42 countries and its iconic Original Glazed doughnut is made from proprietary formulations and equipment.",
+  "sellsTo": [
+    "grocery stores",
+    "club wholesalers",
+    "convenience stores",
+    "quick service restaurants",
+    "drug stores",
+    "consumers via shops and digital"
+  ],
+  "namedCustomers": [
+    "McDonald's USA"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Digital is our fastest-growing channel in the U.S. and represents a significant opportunity to capitalize on the multi-year acceleration in third-party channel growth."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Breaches or failures of our information technology systems or other cybersecurity or data security-related incidents have and may in the future have an adverse effect on our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies such as artificial intelligence, machine learning, and automation are impacting many industries and business operations, including ours."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed sale of Japan operations",
+      "date": null,
+      "sentence": "In the first quarter of 2026, we completed the previously announced transaction to sell our operations in Japan."
+    },
+    {
+      "event": "Complete transition of U.S. fresh deliveries to third-party logistics carriers",
+      "date": null,
+      "sentence": "During the fourth quarter of fiscal 2025, we continued to outsource some of our U.S. fresh deliveries to 3PL carriers, and expect to complete the transition to 3PL carriers during fiscal 2026."
+    },
+    {
+      "event": "Open at least 100 new shops globally and at least three new countries in fiscal 2026",
+      "date": null,
+      "sentence": "We expect to open in at least three new countries every year and at least 100 new shops globally in fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:29:49.761Z",
+  "model": "deepseek-v4-flash"
+}

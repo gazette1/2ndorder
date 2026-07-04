@@ -1,0 +1,65 @@
+{
+  "cik": "0001910139",
+  "ticker": "MBLY",
+  "name": "Mobileye Global Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-014300",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  "business": "Mobileye is a leader in the development and deployment of ADAS and autonomous driving technologies and solutions. It generates the majority of revenue from the sale of EyeQ SoCs to OEMs primarily through sales to Tier 1 automotive suppliers. The company also develops advanced systems including SuperVision, Chauffeur, and Drive, and has expanded into humanoid robotics via the acquisition of Mentee Robotics.",
+  "sellsTo": [
+    "OEMs",
+    "Tier 1 automotive suppliers"
+  ],
+  "namedCustomers": [
+    "ZF",
+    "Valeo",
+    "Aptiv",
+    "Zeekr"
+  ],
+  "namedSuppliers": [
+    "STMicroelectronics",
+    "Quanta Computer",
+    "TSMC",
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Mobileye is a leader in the development and deployment of ADAS and autonomous driving technologies and solutions."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We generate the majority of our revenue from the sale of our EyeQ SoCs to OEMs primarily through sales to Tier 1 automotive suppliers."
+    },
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "On February 3, 2026, we acquired 100% of the issued and outstanding stock of Mentee Robotics Ltd., a privately held Israeli company focused on humanoid robotics"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "in 2025 and in 2026 the global AI industry has generated increased demand for semiconductor components across multiple industries, including components necessary for the production of our solutions, such as EyeQ SoCs and ECUs for Mobileye SuperVision, Mobileye Chauffeur and Mobileye Drive."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We expect that our software-defined imaging radar will provide a significant cost advantage by eliminating the need for multiple high-cost lidars around the vehicle and require only a single front-facing lidar, significantly lowering the overall cost of the required sensors compared to solutions that use lidar centric or lidar-only systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Mentee Robotics",
+      "date": "2026-02-03",
+      "sentence": "On February 3, 2026, we acquired 100% of the issued and outstanding stock of Mentee Robotics Ltd., a privately held Israeli company focused on humanoid robotics"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:12:23.959Z",
+  "model": "deepseek-v4-flash"
+}

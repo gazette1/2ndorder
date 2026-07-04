@@ -1,0 +1,55 @@
+{
+  "cik": "0001725210",
+  "ticker": "ETHE",
+  "name": "Grayscale Ethereum Staking ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071965",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1725210/000119312526071965/ethe-20251231.htm"
+  },
+  "business": "The Trust holds Ether and stakes it to earn staking rewards, providing investors with exposure to Ether through Shares. Shares trade on NYSE Arca and are created and redeemed by Authorized Participants in exchange for Ether.",
+  "sellsTo": [
+    "Investors",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Digital assets represent a relatively new and rapidly evolving industry, and the value of the Shares depends on the acceptance of Ether."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "All networked systems are vulnerable to various types of attacks. As with any computer network, the Ethereum Network could be attacked."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Quantum computing technology is an emerging phenomenon which, because it is still developing, makes it difficult to predict its ultimate effect on the future value of Ether and other digital assets."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of staking",
+      "date": "2025-10-06",
+      "sentence": "On October 6, 2025, the Trust began staking its Ether pursuant to staking arrangements with the Custodian and certain third-party staking providers."
+    },
+    {
+      "event": "Cash distribution from staking rewards",
+      "date": "2026-01-06",
+      "sentence": "In January 2026, pursuant to the Trust’s previously disclosed staking policy, the Trust made a cash distribution (the January Distribution ) to shareholders derived from a portion of the Ether received as staking rewards from the Trust’s staking activities."
+    },
+    {
+      "event": "Cash distribution from staking rewards",
+      "date": "2026-02-04",
+      "sentence": "In February 2026, pursuant to the Trust’s previously disclosed staking policy, the Trust made a cash distribution (the February Distribution ) to shareholders derived from a portion of the Ether received as staking rewards from the Trust’s staking activities."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:37:42.989Z",
+  "model": "deepseek-v4-flash"
+}

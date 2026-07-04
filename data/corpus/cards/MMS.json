@@ -1,0 +1,67 @@
+{
+  "cik": "0001032220",
+  "ticker": "MMS",
+  "name": "MAXIMUS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001032220-25-000053",
+    "filedAt": "2025-11-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1032220/000103222025000053/mms-20250930.htm"
+  },
+  "business": "Maximus is a leading provider of tech-enabled services to government agencies. It operates through three segments: U.S. Federal Services, U.S. Services, and Outside the U.S. The company provides program operations, clinical services, and technology solutions to help governments improve service delivery.",
+  "sellsTo": [
+    "U.S. federal government",
+    "U.S. state and local government",
+    "International governments (U.K., Canada, Middle East)"
+  ],
+  "namedCustomers": [
+    "Centers for Medicare and Medicaid Service (CMS)",
+    "U.S. Department of Veteran Affairs (VA)",
+    "Department for Work and Pensions (DWP)",
+    "Office of Personnel Management",
+    "Federal Student Aid (FSA)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "We utilize machine learning and AI to build bespoke data models, providing predictive analytics designed to maximize process efficiency, as well as identify systemic process issues that can be isolated and prioritized for troubleshooting."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Cybersecurity: Deliver full spectrum cybersecurity services, including cyber engineering and operations, digital forensics, and incident response."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We provide technology modernization efforts for civilian, defense and national security, and health agencies, enabling us to support customers in the rapidly evolving and increasingly complex cybersecurity and geopolitical landscape."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our expanded clinical capabilities and scale also benefit from our adoption of sophisticated technology, including machine learning and AI, to improve the health of people and their communities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Release of final rules for Medicaid changes under the One Big Beautiful Bill Act",
+      "date": "2026-06-01",
+      "sentence": "The Department of Health and Human Services is scheduled to release final rules for this provision by June 1, 2026."
+    },
+    {
+      "event": "Effective date of Medicaid eligibility changes (more frequent redeterminations and work/community engagement requirements) under the One Big Beautiful Bill Act",
+      "date": "2026-12-31",
+      "sentence": "Two primary changes to Medicaid eligibility that we expect will necessitate greater management by states are (1) more frequent redeterminations and (2) the addition of work/community engagement requirements, both scheduled to be effective December 31, 2026, and apply exclusively to the adult expansion portion of Medicaid."
+    },
+    {
+      "event": "Effective date of SNAP federal funding reductions based on error rates",
+      "date": "2028-09-30",
+      "sentence": "The reductions of federal funding are scheduled to take effect in fiscal year 2028, which should incentivize states to improve the effectiveness and quality of program administration."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:15:30.253Z",
+  "model": "deepseek-v4-flash"
+}

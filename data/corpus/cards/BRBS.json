@@ -1,0 +1,48 @@
+{
+  "cik": "0000842717",
+  "ticker": "BRBS",
+  "name": "BLUE RIDGE BANKSHARES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104410",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/842717/000119312526104410/brbs-20251231.htm"
+  },
+  "business": "Blue Ridge Bankshares, Inc. is a bank holding company that provides commercial and consumer banking and financial services through its wholly-owned bank subsidiary and its wealth and trust management subsidiary. Its primary source of revenue is interest income from lending activities, and it also offers wealth management, trust services, and property and casualty insurance through a minority investment. The company serves businesses, professionals, consumers, nonprofits, and municipalities across Virginia and central North Carolina.",
+  "sellsTo": [
+    "businesses",
+    "professionals",
+    "consumers",
+    "nonprofits",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, the Company offered indirect fintech lending services conducted through Upgrade, Inc."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks and exposures related to cybersecurity attacks are expected to remain high for the foreseeable future due to the rapidly evolving nature and sophistication of these threats, as well as due to the expanding use of internet banking, mobile banking, and other technology-based products and services by the Company and its customers."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Any changes in law or in the Company's or the Bank's supervisory frameworks relating to digital assets cannot be predicted but may have a significant effect on the Company's business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete exit from indirect fintech lending",
+      "date": null,
+      "sentence": "The Company has been terminating its indirect fintech lending relationships and expects to be completely exited in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:31:49.833Z",
+  "model": "deepseek-v4-flash"
+}

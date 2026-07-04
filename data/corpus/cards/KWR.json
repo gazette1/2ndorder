@@ -1,0 +1,61 @@
+{
+  "cik": "0000081362",
+  "ticker": "KWR",
+  "name": "QUAKER CHEMICAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-010694",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/81362/000162828026010694/kwr-20251231.htm"
+  },
+  "business": "Quaker Houghton develops, produces, and markets a broad range of formulated specialty chemical products and offers chemical management services for heavy industrial and manufacturing applications. The company's customers include steel, aluminum, automotive, aerospace, offshore, can, mining, and metalworking companies. Major product lines include metal removal fluids, rolling lubricants, hydraulic fluids, and surface solutions.",
+  "sellsTo": [
+    "steel",
+    "aluminum",
+    "automotive",
+    "aerospace",
+    "offshore",
+    "container",
+    "mining",
+    "metalworking"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "The major product lines of Quaker Houghton include metal removal fluids, cleaning fluids, corrosion inhibitors, metal drawing and forming fluids, die cast mold releases, heat treatment and quenchants, metal forging fluids, hydraulic fluids, surface solutions, specialty greases, offshore sub-sea energy control fluids, rolling lubricants, and rod and wire drawing fluids."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Examples of such evolving customer demands and industry trends are the movement towards lighter-weight materials and the growing prevalence of electric vehicles."
+    },
+    {
+      "tag": "other:first-fill-greases",
+      "stance": "core_product",
+      "sentence": "IKV, which is part of the Company's EMEA segment, specializes in high-performance lubricants and greases, including original equipment manufacturer first-fill greases that are primarily used in the automotive, aerospace, electronics and other industrial markets."
+    },
+    {
+      "tag": "other:surface-treatment",
+      "stance": "core_product",
+      "sentence": "In April 2025, the Company acquired Dipsol Chemicals Co., Ltd. and its subsidiaries, (Dipsol). Dipsol is headquartered in Japan and is a leading supplier of surface treatment and plating solutions and services primarily for the automotive and other industrial applications end markets."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Uncertainty related to environmental regulation and industry standards relating to, as well as physical risks of, climate change and biodiversity loss, could impact our liquidity, financial position, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Additional restructuring actions to generate $40 million annualized cost savings by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "In 2025, the Company approved additional actions under the program, which are expected to generate approximately an additional $40 million of annualized cost savings. These actions are expected to be substantially complete by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:17:48.819Z",
+  "model": "deepseek-v4-flash"
+}

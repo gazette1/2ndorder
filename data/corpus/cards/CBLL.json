@@ -1,0 +1,63 @@
+{
+  "cik": "0001861107",
+  "ticker": "CBLL",
+  "name": "Ceribell, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067238",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1861107/000119312526067238/cbll-20251231.htm"
+  },
+  "business": "Ceribell is a medical technology company that has developed the Ceribell System, a point-of-care EEG platform for diagnosing and managing neurological conditions in acute care settings. The system is sold to hospitals, including academic centers and community hospitals. As of December 2025, it has been adopted by over 600 hospitals.",
+  "sellsTo": [
+    "hospitals",
+    "acute care facilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a medical technology company focused on transforming the diagnosis and management of patients with serious neurological conditions."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "In December 2025, the FDA granted 510(k) clearance for Ceribell's proprietary delirium monitoring solution, the first and only FDA cleared delirium screening and monitoring device."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "The Ceribell System integrates proprietary, highly portable hardware with AI-powered algorithms to aid in the detection and management of seizures."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We invest in research and development efforts with the goal of driving continuous improvements in our current system and solutions and expanding the clinical application of the Ceribell System and AI algorithms"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence presents risks and challenges that can impact our business, including by posing security risks to our confidential information, proprietary information, and personal data."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Bad actors around the world use increasingly sophisticated methods, including the use of artificial intelligence, to engage in illegal activities involving the theft and misuse of personal information, confidential information, and intellectual property."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "There are approximately 6,000 acute care facilities in the United States that we believe could benefit from the Ceribell system.",
+      "sentence": "There are approximately 6,000 acute care facilities in the United States that we believe could benefit from the Ceribell system."
+    },
+    {
+      "claim": "We believe there are over three million acute care patients in the United States who should be monitored with EEG each year due to high risk of seizures.",
+      "sentence": "We believe there are over three million acute care patients in the United States who should be monitored with EEG each year due to high risk of seizures."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:00:43.864Z",
+  "model": "deepseek-v4-flash"
+}

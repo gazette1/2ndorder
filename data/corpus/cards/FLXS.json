@@ -1,0 +1,45 @@
+{
+  "cik": "0000037472",
+  "ticker": "FLXS",
+  "name": "FLEXSTEEL INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-110965",
+    "filedAt": "2025-08-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/37472/000095017025110965/flxs-20250630.htm"
+  },
+  "business": "Flexsteel Industries, Inc. is one of the largest manufacturers, importers, and marketers of residential furniture products in the United States. Product offerings include sofas, loveseats, chairs, reclining rocking chairs, swivel rockers, sofa beds, convertible bedding units, occasional tables, desks, dining tables and chairs, kitchen storage, bedroom furniture, and outdoor furniture. The Company distributes its products throughout the United States through its e-commerce channel and direct sales force.",
+  "sellsTo": [
+    "residential market",
+    "e-commerce channel",
+    "retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Flexsteel Industries, Inc., and Subsidiaries (the Company) is one of the largest manufacturers, importers, and marketers of residential furniture products in the United States."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company distributes its products throughout the United States through its e-commerce channel and direct sales force."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Business information systems could be impacted by disruptions and security breaches."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Future success depends on the Company's ability to manage its global supply chain."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:40:26.493Z",
+  "model": "deepseek-v4-flash"
+}

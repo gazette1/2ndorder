@@ -1,0 +1,50 @@
+{
+  "cik": "0001000753",
+  "ticker": "NSP",
+  "name": "INSPERITY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001000753-26-000011",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1000753/000100075326000011/nsp-20251231.htm"
+  },
+  "business": "Insperity provides comprehensive human resources outsourcing solutions to small and medium-sized businesses, including payroll, employee benefits, workers' compensation, and compliance services. Its offerings include HR 360 (full-service), HR 360 Select Edition (lower-cost for middle market), and the new HR Scale solution developed in partnership with Workday.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "middle market clients (150-5,000 worksite employees)",
+    "geographic markets concentrated in New York, California, and Texas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "United (health insurance carrier)",
+    "Chubb (workers' compensation insurance)",
+    "Workday (HR Scale solution partner)"
+  ],
+  "exposures": [
+    {
+      "tag": "other:peo-services",
+      "stance": "core_product",
+      "sentence": "Under the CSA, we become a co-employer of WSEEs and assume the obligations to pay the salaries, wages and related benefits costs and payroll taxes of such WSEEs."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer various employee benefits plans to eligible employees, including our WSEEs."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies, including AI, may reduce the need for our clients to hire for certain roles or lead to automation of tasks previously performed by clients employees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initial client group begins using HR Scale solution",
+      "date": "2026-03-31",
+      "sentence": "Our HR Scale solution is under development and we expect an initial group of clients to begin using our HR Scale solution in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:45:31.528Z",
+  "model": "deepseek-v4-flash"
+}

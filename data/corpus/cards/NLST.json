@@ -1,0 +1,82 @@
+{
+  "cik": "0001282631",
+  "ticker": "NLST",
+  "name": "NETLIST INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-032152",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1282631/000110465926032152/nlst-20251227x10k.htm"
+  },
+  "business": "Netlist sells advanced memory and storage solutions, including memory subsystems and component products. It targets OEMs in server, high-performance computing, and communications markets, and also resells products to storage, appliance, system builders, and cloud/datacenter customers.",
+  "sellsTo": [
+    "server OEMs",
+    "high-performance computing OEMs",
+    "communications OEMs",
+    "storage customers",
+    "appliance customers",
+    "system builders",
+    "cloud and datacenter customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "SK hynix"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our inventions are foundational to the advancement of artificial intelligence (AI) computing."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The global high-performance memory market is driven by increasing demand from data center and enterprise storage applications for improved input/output performance, lower latency, and increased redundant persistent data storage capacities."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Our operating results may be adversely impacted by worldwide economic and political uncertainties and specific conditions in the markets we address and in which we or our strategic partners or competitors do business, including the cyclical nature of and volatility in the memory market and semiconductor industry"
+    },
+    {
+      "tag": "other:CXL",
+      "stance": "active_investment",
+      "sentence": "We are investing in new technologies like memory expansion utilizing Compute Express Link (CXL), which improves server capacity and bandwidth beyond what traditional memory channels can provide."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Amendment to 2023 SVB Credit Agreement extended maturity to November 7, 2027",
+      "date": "2025-11-07",
+      "sentence": "On November 7, 2025, we entered into a first amendment to the 2023 SVB Credit Agreement (the 2023 SVB Credit Agreement Amendment ) to, among other things, extend the maturity date from November 7, 2025 to November 7, 2027."
+    },
+    {
+      "event": "October 2025 Offering closed",
+      "date": "2025-10-07",
+      "sentence": "The October 2025 Offering closed on October 7, 2025."
+    },
+    {
+      "event": "June 2025 Offering closed",
+      "date": "2025-06-25",
+      "sentence": "The June 2025 Offering closed on June 25, 2025."
+    },
+    {
+      "event": "March 2025 Lincoln Park Purchase Agreement entered",
+      "date": "2025-03-13",
+      "sentence": "On March 13, 2025, we entered into the March 2025 Purchase Agreement with Lincoln Park, pursuant to which we have the right to sell to Lincoln Park up to an aggregate of $75 million in shares of our common stock, subject to the conditions and limitations set forth in the March 2025 Purchase Agreement."
+    },
+    {
+      "event": "Product Purchase and Supply Agreement with SK hynix expires",
+      "date": "2026-04-01",
+      "sentence": "The term of the supply provisions of this Supply Agreement officially expires in April 2026."
+    },
+    {
+      "event": "Incremental third-party fabrication capacity expected to become available",
+      "date": "2026-12-31",
+      "sentence": "We currently expect these dynamics to continue until incremental third - party fabrication capacity becomes available, potentially beginning in late 2026 or 2027;"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:24:09.851Z",
+  "model": "deepseek-v4-flash"
+}

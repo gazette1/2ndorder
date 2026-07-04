@@ -1,0 +1,61 @@
+{
+  "cik": "0001277902",
+  "ticker": "MVBF",
+  "name": "MVB FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001277902-26-000030",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1277902/000127790226000030/mvbf-20251231.htm"
+  },
+  "business": "MVB Financial Corp. is a financial holding company organized in 2003 as a West Virginia corporation that operates principally through its wholly-owned subsidiary, MVB Bank, Inc. The Bank provides commercial and retail (CoRe) banking services, as well as Fintech banking. Additionally, the Company owns Paladin Fraud, which provides fraud prevention services.",
+  "sellsTo": [
+    "Commercial and retail customers in North Central West Virginia and Northern Virginia",
+    "Fintech corporate clients throughout the United States",
+    "Clients in payments, banking-as-a-service, and gaming industries",
+    "Healthcare sector borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our dedicated Fintech team specializes in providing banking services to corporate Fintech clients, primarily focusing on operational risk management and compliance."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "core_product",
+      "sentence": "Our gaming initiative has contributed significantly to our deposits and has allowed us to generate attractive returns on lower risk assets through increased investments in securities and loan growth."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Paladin Fraud, a wholly-owned subsidiary of the Bank, provides an extensive and customizable suite of fraud prevention services for merchants, credit agencies, Fintech companies and other vendors to help clients and partners defend against threats."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential real estate loans to retail customers account for the second largest portion of the loan portfolio, comprising 25.6%."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "At December 31, 2025, the Bank had $1.71 billion outstanding in commercial loans, including commercial and industrial, commercial real estate and construction loans."
+    },
+    {
+      "tag": "other:healthcare",
+      "stance": "core_product",
+      "sentence": "Healthcare loans are a significant component of commercial and non-residential real estate loans and comprise 27.8% of total loans receivable at December 31, 2025."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "These new products and services may include applications or financial-related services that implement artificial intelligence, machine learning, robotics, blockchain or new approaches to data mining."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:00:52.369Z",
+  "model": "deepseek-v4-flash"
+}

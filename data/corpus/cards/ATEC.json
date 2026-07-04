@@ -1,0 +1,41 @@
+{
+  "cik": "0001350653",
+  "ticker": "ATEC",
+  "name": "Alphatec Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067393",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1350653/000119312526067393/atec-20251231.htm"
+  },
+  "business": "Alphatec Holdings, Inc. is a medical technology company focused on the design, development, and advancement of technology for better surgical treatment of spine disorders. It derives revenue primarily from the sale of spinal surgery implants used in the treatment of spine disorders, as well as from the sale of medical imaging equipment used for surgical planning and post-operative assessment. The company sells its products to hospitals and medical centers through a network of independent sales agents and direct sales representatives.",
+  "sellsTo": [
+    "hospitals",
+    "medical centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Invibio"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We derive our revenue primarily from the sale of spinal surgery implants used in the treatment of spine disorders, as well as from the sale of medical imaging equipment which is used for surgical planning and post-operative assessment."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "Our IX product platform comprises our EOS imaging system, EOS Insight alignment assessment and surgical planning web/mobile platform, our SafeOp Neural InformatiX System and our navigation-enabled robotics platform (\"Valence\")."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The use of artificial intelligence (\"AI\") technology by our employees or business partners could result in misuse or loss of proprietary information, violation of laws and regulations, or damage to our reputation and credibility."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:19:17.436Z",
+  "model": "deepseek-v4-flash"
+}

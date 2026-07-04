@@ -1,0 +1,60 @@
+{
+  "cik": "0001066194",
+  "ticker": "EGAN",
+  "name": "EGAIN Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-089540",
+    "filedAt": "2025-09-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1066194/000110465925089540/egan-20250630x10k.htm"
+  },
+  "business": "eGain automates customer experience with an AI knowledge hub solution, selling its SaaS solution to enterprises who want to improve customer experience while reducing cost. It mostly sells to large enterprises with over a billion dollars in annual revenue or government organizations.",
+  "sellsTo": [
+    "large enterprises",
+    "government organizations",
+    "contact centers"
+  ],
+  "namedCustomers": [
+    "Internal Revenue Service"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "eGain automates customer experience with an AI knowledge hub solution."
+    },
+    {
+      "tag": "other:generative-ai",
+      "stance": "active_investment",
+      "sentence": "We are also investing in AI across the entire company and integrating generative AI capabilities into our product and service offerings."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We currently serve our customers from third-party data center facilities and third-party PaaS providers operated in the U.S. and other international locations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our cybersecurity systems or the systems of our vendors, partners and suppliers are breached and unauthorized access is obtained to a customer's data, our data or IT systems, our service may be perceived as not being secure, customers may curtail or stop using our service and we may incur significant legal and financial exposure and liabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "According to McKinsey, the aggregate cost of customer operations in the global economy is $1.5 trillion.",
+      "sentence": "According to McKinsey, the aggregate cost of customer operations in the global economy is $1.5 trillion."
+    },
+    {
+      "claim": "McKinsey anticipates that businesses could reduce this cost by 35% using AI.",
+      "sentence": "They anticipate that businesses could reduce this cost by 35% using AI."
+    },
+    {
+      "claim": "According to Forrester Research, there were 17 million contact center agents worldwide in 2024.",
+      "sentence": "According to Forrester Research, there were 17 million contact center agents worldwide in 2024."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:58:52.841Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,76 @@
+{
+  "cik": "0001376339",
+  "ticker": "MDXG",
+  "name": "MIMEDX GROUP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001376339-26-000011",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1376339/000137633926000011/mdxg-20251231.htm"
+  },
+  "business": "MIMEDX provides a portfolio of products for wound care, burn, and surgical applications, including placental allografts, xenografts, and collagen matrices. The company sells its products to hospitals, wound care clinics, physician offices, and federal healthcare facilities. Its primary focus is on chronic and hard-to-heal wounds, with a growing presence in surgical settings.",
+  "sellsTo": [
+    "hospitals",
+    "wound care clinics",
+    "physician offices",
+    "federal health care facilities",
+    "ambulatory surgery centers",
+    "nursing homes",
+    "government accounts (VA, Public Health Service)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Regenity Biosciences",
+    "Regen Lab USA, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "MIMEDX provides a leading portfolio of products for applications in the wound care, burn, and surgical sectors of healthcare."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Historically, our sole focus has been on placental biologics."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "active_investment",
+      "sentence": "in March 2024 we launched MIMEDX Connect, an online product ordering and account management portal available to our customers designed to streamline ordering, payment processing and reimbursement submissions."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Increased use of artificial intelligence (AI) and related technologies in the medical device industry could subject us to new risks and uncertainties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CMS final rule on skin substitute reimbursement effective",
+      "date": "2026-01-01",
+      "sentence": "Effective January 1, 2026, the 2026 Rules revolutionize skin substitute reimbursement by moving away from Average Sales Price (ASP) +6% model to a flat, standardized rate of $127.14 per square centimeter."
+    },
+    {
+      "event": "Share repurchase plan authorized by Board",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, the Board authorized us to periodically repurchase up to $100.0 million of our outstanding common stock (the Share Repurchase Plan) through February 2028."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "worldwide spend associated with chronic wounds approximately $150 billion annually",
+      "sentence": "worldwide spend associated with such wounds has historically been estimated to be approximately $150 billion annually."
+    },
+    {
+      "claim": "annual estimated cost of treating chronic wounds in the United States exceeds $28 billion",
+      "sentence": "The overall cost of treating chronic wounds is rising sharply, and the annual estimated cost in the United States has recently been estimated to exceed $28 billion."
+    },
+    {
+      "claim": "Medicare spending on skin substitutes rose from about $500 million in 2020 to ~$15 billion in 2025",
+      "sentence": "Medicare spending on skin substitutes increasing dramatically, with annual spending rising from about $500 million in 2020 to ~$15 billion in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:46:49.407Z",
+  "model": "deepseek-v4-flash"
+}

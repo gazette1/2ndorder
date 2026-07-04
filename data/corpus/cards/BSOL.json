@@ -1,0 +1,36 @@
+{
+  "cik": "0002045872",
+  "ticker": "BSOL",
+  "name": "Bitwise Solana Staking ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-117404",
+    "filedAt": "2026-03-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/2045872/000119312526117404/bsol-20251231.htm"
+  },
+  "business": "Bitwise Solana Staking ETF is an investment trust that seeks to provide exposure to the value of Solana, less expenses, and derive additional Solana through staking. It issues shares listed on NYSE Arca under ticker BSOL.",
+  "sellsTo": [
+    "Investors on NYSE Arca seeking exposure to Solana"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bitwise Onchain Solutions",
+    "Helius Blockchain Technologies Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "core_product",
+      "sentence": "The Trust s primary investment objective is to seek to provide exposure to the value of Solana held by the Trust, less the expenses of the Trust s operations, which is generally just the sponsor s management fee."
+    },
+    {
+      "tag": "other:staking",
+      "stance": "core_product",
+      "sentence": "The Trust s secondary investment objective is to derive additional solana through staking."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:41:42.000Z",
+  "model": "deepseek-v4-flash"
+}

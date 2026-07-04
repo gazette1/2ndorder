@@ -1,0 +1,57 @@
+{
+  "cik": "0000731012",
+  "ticker": "HCSG",
+  "name": "HEALTHCARE SERVICES GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000731012-26-000009",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/731012/000073101226000009/hcsg-20251231.htm"
+  },
+  "business": "Healthcare Services Group, Inc. provides management, administrative and operating services to housekeeping, laundry, linen, facility maintenance and dietary departments of healthcare facilities, primarily nursing homes, retirement complexes, rehabilitation centers, and hospitals. The company operates through two reportable segments: Environmental Services (EVS) and Dietary. As of December 31, 2025, HCSG served approximately 2,800 facilities across the continental United States.",
+  "sellsTo": [
+    "long-term care industry",
+    "nursing homes",
+    "retirement complexes",
+    "rehabilitation centers",
+    "hospitals"
+  ],
+  "namedCustomers": [
+    "Genesis Healthcare, Inc."
+  ],
+  "namedSuppliers": [
+    "Sysco Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "Environmental Services labor costs represented approximately 78.3% of EVS revenues for 2025."
+    },
+    {
+      "tag": "insurance",
+      "stance": "risk_mention",
+      "sentence": "We carry high deductible general liability, workers compensation and other insurance programs and therefore retain a substantial portion of the risk associated with the possible losses under such programs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The impact of past or future cyber attacks or breaches;"
+    },
+    {
+      "tag": "other:healthcare-services",
+      "stance": "core_product",
+      "sentence": "We provide management, administrative and operating expertise and services to the environmental services, laundry, linen, facility maintenance and dietary service departments of primarily healthcare facilities, including nursing homes, retirement complexes, rehabilitation centers and hospitals located throughout the United States."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Genesis Healthcare, Inc. filed for Chapter 11 bankruptcy protection",
+      "date": "2025-07-09",
+      "sentence": "On July 9, 2025, Genesis Healthcare, Inc. (Genesis) filed for Chapter 11 bankruptcy protection in the Northern District of Texas."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:41:43.706Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0001729997",
+  "ticker": "GDLC",
+  "name": "Grayscale CoinDesk Crypto 5 ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001729997-25-000006",
+    "filedAt": "2025-09-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1729997/000172999725000006/gdlc-20250630.htm"
+  },
+  "business": "The Fund is a passive entity that holds Fund Components (digital assets) and issues Shares. Its investment objective is for the value of the Shares to reflect the value of the Fund Components, determined by reference to their respective Index Prices and weightings within the Fund, less the Fund's expenses and other liabilities. The Shares are quoted on OTCQX and are designed to provide investors with a cost-effective and convenient way to gain investment exposure to the digital assets held by the Fund.",
+  "sellsTo": [
+    "Investors seeking exposure to digital assets",
+    "Secondary market traders on OTCQX",
+    "Authorized Participants for creation of Baskets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Coinbase Custody Trust Company, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:digital-assets",
+      "stance": "core_product",
+      "sentence": "The Fund's portfolio consists of Fund Components, which are digital assets such as Bitcoin, Ether, Solana, XRP, and Cardano."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "risk_mention",
+      "sentence": "Digital Asset Networks are decentralized networks of computers that operate on cryptographic protocols and allow people to exchange tokens of value, recorded on public transaction ledgers known as blockchains."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition from DLCS to CD5 Methodology",
+      "date": "2025-07-01",
+      "sentence": "Effective July 1, 2025, the Fund uses the CD5 Methodology to construct the Fund's portfolio."
+    },
+    {
+      "event": "Adoption of Index Prices (CCIXber) for valuation",
+      "date": "2025-07-01",
+      "sentence": "From and after July 1, 2025, the value of the Fund Components is determined by reference to Index Prices, as the Fund transitioned from the DLCS to the CD5."
+    },
+    {
+      "event": "Quarterly rebalancing completed under CD5 Methodology",
+      "date": "2025-07-31",
+      "sentence": "On July 31, 2025, the Index Provider completed the quarterly rebalancing of the CD5 and determined that Bitcoin, Ethereum (Ether), Solana (SOL), XRP, and Cardano (ADA) met the inclusion criteria of the CD5 Index and adjusted their Index Weightings in accordance with the CD5 Methodology."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total market capitalization of the digital asset market was approximately $3,072.1 billion as of June 30, 2025.",
+      "sentence": "As of June 30, 2025, total market capitalization of the digital asset market was approximately $3,072.1 billion."
+    },
+    {
+      "claim": "Bitcoin market capitalization was $2,130.5 billion as of June 30, 2025.",
+      "sentence": "Bitcoin is currently the largest digital asset with a market capitalization of $2,130.5 billion as of June 30, 2025."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:36:31.663Z",
+  "model": "deepseek-v4-flash"
+}

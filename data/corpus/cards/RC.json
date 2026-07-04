@@ -1,0 +1,51 @@
+{
+  "cik": "0001527590",
+  "ticker": "RC",
+  "name": "Ready Capital Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-013256",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1527590/000162828026013256/rc-20251231.htm"
+  },
+  "business": "Ready Capital Corporation is a multi-strategy real estate finance company that originates, acquires, finances, and services small balance commercial real estate loans, SBA loans, construction loans, USDA loans, and mortgage-backed securities. Its loans are used by businesses to purchase real estate for operations and by investors to acquire multi-family, office, retail, mixed-use, or warehouse properties. The company operates through two segments: LMM Commercial Real Estate and Small Business Lending.",
+  "sellsTo": [
+    "small businesses",
+    "commercial real estate investors",
+    "affordable housing developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate-lending",
+      "stance": "core_product",
+      "sentence": "We are a multi-strategy real estate finance company that originates, acquires, finances, and services LMM loans, SBA loans, construction loans, USDA loans and, to a lesser extent, MBS collateralized primarily by LMM loans, or other real estate-related investments."
+    },
+    {
+      "tag": "other:small-business-lending",
+      "stance": "core_product",
+      "sentence": "We acquire, originate and service owner-occupied loans guaranteed by the SBA under the SBA Section 7(a) Program through our subsidiary, ReadyCap Lending, LLC."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We provide construction and permanent financing for the preservation and construction of affordable housing, primarily utilizing tax-exempt bonds through Ready Capital Affordable, a business line that is supported by our subsidiary Red Stone and its affiliates."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide construction and permanent financing for the preservation and construction of affordable housing, primarily utilizing tax-exempt bonds through Ready Capital Affordable, a business line that is supported by our subsidiary Red Stone and its affiliates."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repayment of 5.75% Senior Notes due 2026",
+      "date": "2026-02",
+      "sentence": "In February of 2026, we repaid in full our 5.75% Senior Notes due 2026 upon the maturity of such notes."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:49:59.113Z",
+  "model": "deepseek-v4-flash"
+}

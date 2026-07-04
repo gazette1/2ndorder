@@ -1,0 +1,39 @@
+{
+  "cik": "0001578732",
+  "ticker": "MMI",
+  "name": "Marcus & Millichap, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012419",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1578732/000162828026012419/mmi-20251231.htm"
+  },
+  "business": "Marcus & Millichap, Inc. (MMI) is a leading national real estate services firm specializing in commercial real estate investment sales, financing services, research and advisory services. We generate revenue by collecting real estate brokerage commissions upon the sale, and financing fees upon the financing of commercial properties, by providing equity advisory services and loan sales, loan guarantees and providing consulting and advisory services.",
+  "sellsTo": [
+    "private clients in the $1 million to $10 million market",
+    "sellers and buyers of commercial real estate"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide research on 10 commercial property types covering: multifamily, retail, office, industrial, single-tenant net lease, seniors housing, self-storage, hospitality, medical office, and manufactured housing, as well as capital markets/financing."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Interruption, data security breaches, or failure of our information technology, communications systems or data services could hurt our ability to effectively provide our services, which could damage our reputation and harm our operating results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The $1 million to $10 million private client market consistently comprises more than 80% of total U.S. commercial property transactions greater than $1 million.",
+      "sentence": "This is the largest and most active market and consistently comprises more than 80% of total U.S. commercial property transactions greater than $1 million in the marketplace."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:43:50.896Z",
+  "model": "deepseek-v4-flash"
+}

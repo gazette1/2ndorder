@@ -1,0 +1,71 @@
+{
+  "cik": "0001278027",
+  "ticker": "BGS",
+  "name": "B&G Foods, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-022961",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1278027/000110465926022961/bgs-20260103x10k.htm"
+  },
+  "business": "B&G Foods manufactures, sells and distributes a diverse portfolio of branded, high-quality, shelf-stable and frozen food and household products across the United States, Canada and Puerto Rico. The company's brands include Crisco, Green Giant, Ortega, Cream of Wheat, and others, many with leading regional or national market shares.",
+  "sellsTo": [
+    "supermarkets",
+    "mass merchants",
+    "warehouse clubs",
+    "wholesalers",
+    "foodservice distributors",
+    "specialty food distributors",
+    "military commissaries",
+    "drug stores",
+    "dollar stores",
+    "e-tailers",
+    "institutional and foodservice accounts"
+  ],
+  "namedCustomers": [
+    "Walmart"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "B&G Foods manufactures, sells and distributes a diverse portfolio of branded, high-quality, shelf-stable and frozen food and household products across the United States, Canada and Puerto Rico."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "The rapid growth of some channels, in particular in e-commerce, may impact our current operations or strategies more quickly than we planned for, create consumer price deflation, alter the buying behavior of consumers or disrupt our retail customer relationships."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our ability to protect information systems against, or effectively respond to, a cybersecurity incident, other disruption or data leak"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "our ability to successfully adopt and utilize new technologies, such as artificial intelligence, including machine learning and generative artificial intelligence"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of College Inn and Kitchen Basics brands",
+      "date": "2026-03-31",
+      "sentence": "On January 15, 2026, we entered into an agreement to acquire the broth and stock business of Del Monte Foods Corporation II Inc. and its affiliates, including the College Inn and Kitchen Basics brands. Subject to customary closing conditions and the simultaneous closing of two other pending sales by Del Monte Foods unrelated to B&G Foods or the broth and stock business, we expect the pending acquisition to close during the first quarter of 2026."
+    },
+    {
+      "event": "Divestiture of Green Giant and Le Sieur frozen and shelf-stable product lines in Canada",
+      "date": "2026-06-30",
+      "sentence": "On October 24, 2025, we entered into an agreement to sell our Green Giant and Le Sieur frozen and shelf-stable product lines in Canada to Nortera Foods Inc., which, subject to regulatory approval and customary closing conditions, is expected to close during the second quarter of 2026."
+    },
+    {
+      "event": "Completed divestiture of Green Giant U.S. frozen business",
+      "date": "2026-03-02",
+      "sentence": "On March 2, 2026, we completed the sale of the Green Giant U.S. frozen business to Seneca Foods Corporation."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:24:29.121Z",
+  "model": "deepseek-v4-flash"
+}

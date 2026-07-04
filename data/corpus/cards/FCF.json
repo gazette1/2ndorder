@@ -1,0 +1,60 @@
+{
+  "cik": "0000712537",
+  "ticker": "FCF",
+  "name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0000712537-26-000013",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253726000013/fcf-20251231.htm"
+  },
+  "business": "First Commonwealth Financial Corporation is a financial holding company that provides consumer and commercial banking services through its subsidiary First Commonwealth Bank. It also offers trust and wealth management services and insurance products through its subsidiaries. The company operates 126 community banking offices in Pennsylvania and Ohio, serving primarily small and mid-sized businesses and individuals.",
+  "sellsTo": [
+    "consumers",
+    "small and mid-sized businesses",
+    "commercial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We also provide trust and wealth management services through FCB and offer insurance products through FCIA."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential real estate loans include first lien mortgages used by the borrower to purchase or refinance a principal residence and home equity loans and lines of credit secured by residential real estate."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our access to deposits may be negatively impacted by, among other factors, higher interest rates, which could promote increased competition for deposits, including from new financial technology competitors"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Acts of Cyber-Crime May Compromise Client and Company Information, Disrupt Access to Our Systems or Result in Loss of Clients or Company Assets"
+    },
+    {
+      "tag": "other:stablecoins",
+      "stance": "risk_mention",
+      "sentence": "The growing adoption of stablecoins, including yield bearing stablecoins, and the evolving regulatory framework under the Guiding and Establishing National Innovation for U.S. Stablecoins Act (the GENIUS Act ), could adversely affect our deposits, liquidity, and competitive position."
+    },
+    {
+      "tag": "other:cloud",
+      "stance": "risk_mention",
+      "sentence": "Cloud technologies are also critical to the operation of our systems, and our reliance on cloud technologies is growing."
+    },
+    {
+      "tag": "other:artificial intelligence",
+      "stance": "risk_mention",
+      "sentence": "techniques used in such attempts are constantly evolving, including as a result of artificial intelligence"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:02:36.585Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0001529274",
+  "ticker": "ALKT",
+  "name": "ALKAMI TECHNOLOGY, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001529274-26-000009",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1529274/000152927426000009/alk-20251231.htm"
+  },
+  "business": "Alkami is a cloud-based digital sales and service platform provider that empowers community, regional, and super-regional financial institutions to compete with large banks. Its solution, the Alkami Digital Sales & Service Platform, includes digital banking, onboarding, account opening, data analytics, and marketing. The company derives revenues from multi-year SaaS subscriptions primarily using a per-registered-user pricing model.",
+  "sellsTo": [
+    "community financial institutions",
+    "regional financial institutions",
+    "super-regional financial institutions",
+    "credit unions",
+    "banks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our solution, the Alkami Digital Sales & Service Platform, consisting of the Alkami Digital Banking Platform, Onboarding & Account Opening, and Data & Marketing, allows FIs to onboard, engage and grow new users, accelerate revenues and meaningfully improve operational efficiency, all with the support of a proprietary, true cloud-based, multi-tenant architecture."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Admin, Risk, & Reporting: Includes risk-based multi-factor authentication and suspicious transaction monitoring as well as multi-channel payment fraud prevention and information reporting tools."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Information security risks for banking and technology companies such as ours have significantly increased in recent years, in part because of the proliferation of new technologies, such as AI, the use of the internet and telecommunications technologies to conduct financial transactions, and the increased sophistication and activities of organized crime, hackers, terrorists and other external parties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Our addressable market consists of FIs with assets of $100 million to $450 billion representing over 250 million registered users.",
+      "sentence": "Our addressable market consists of FIs with assets of $100 million to $450 billion representing over 250 million registered users."
+    },
+    {
+      "claim": "We believe based on third-party estimates that this segment of the market represents an opportunity of more than 200 million registered users.",
+      "sentence": "We believe based on third-party estimates that this segment of the market represents an opportunity of more than 200 million registered users and offers the greatest potential lifetime value, considering the cost and resources to acquire and service the relationship."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:13:49.133Z",
+  "model": "deepseek-v4-flash"
+}

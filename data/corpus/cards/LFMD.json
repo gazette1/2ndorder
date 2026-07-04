@@ -1,0 +1,59 @@
+{
+  "cik": "0000948320",
+  "ticker": "LFMD",
+  "name": "LifeMD, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-009549",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/948320/000149315226009549/form10-k.htm"
+  },
+  "business": "LifeMD is a patient-centric, direct-to-patient healthcare company providing a high-quality, cost-effective, and convenient way for patients to access virtual medical care and pharmacy services. As of December 31, 2025, LifeMD served approximately 328,000 active patient subscribers across a range of healthcare needs, including primary care, men’s and women’s health, hormone health, weight management, insomnia, dermatology and cardiology.",
+  "sellsTo": [
+    "patients (individual consumers)",
+    "B2B telehealth partners (healthcare product companies)"
+  ],
+  "namedCustomers": [
+    "Medifast, Inc.",
+    "ASCEND Therapeutics, LLC"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services (AWS)"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "LifeMD is a patient-centric, direct-to-patient healthcare company providing a high-quality, cost-effective, and convenient way for patients to access virtual medical care and pharmacy services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We have been an early adopter of AI and large language models (LLMs) to integrate and analyze data across the Company."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risk factors include, by way of example and without limitation: ... our ability to prevent, detect and remediate cybersecurity incidents;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expand insurance coverage to approximately 230 million lives",
+      "date": "2026-06-01",
+      "sentence": "By June 1, 2026, we expect to expand coverage to approximately 230 million lives, representing approximately 80% of commercially insured lives in the U.S., 70% of Medicare Advantage beneficiaries, and Medicare Fee-for-Service beneficiaries."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "59.3 million adults in the U.S. were living with a mental illness in 2022, yet only 50.6% received treatment",
+      "sentence": "According to the National Institute of Mental Health, approximately 59.3 million adults in the U.S. were living with a mental illness in 2022, yet only 50.6% received treatment."
+    },
+    {
+      "claim": "Spending on digital solutions to facilitate greater access to end markets accounts for one-third of the collective $30 billion commercial spend by healthcare product companies in the U.S.",
+      "sentence": "It is estimated that spending on digital solutions to facilitate greater access to end markets accounts for one-third of the collective $30 billion commercial spend by these companies in the U.S."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:32:13.081Z",
+  "model": "deepseek-v4-flash"
+}

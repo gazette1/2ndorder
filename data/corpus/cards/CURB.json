@@ -1,0 +1,65 @@
+{
+  "cik": "0002027317",
+  "ticker": "CURB",
+  "name": "Curbline Properties Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-043647",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/2027317/000119312526043647/curb-20251231.htm"
+  },
+  "business": "Curbline Properties Corp. owns and manages a portfolio of convenience shopping centers, leasing space primarily to national, regional, and local service and restaurant tenants.",
+  "sellsTo": [
+    "service and restaurant businesses",
+    "healthcare and wellness providers",
+    "financial services firms",
+    "telecommunications companies",
+    "beauty and hair salons",
+    "fitness centers"
+  ],
+  "namedCustomers": [
+    "Starbucks",
+    "Verizon",
+    "Inspire Brands",
+    "JAB Holding",
+    "Chipotle",
+    "Somnigroup (Mattress Firm)",
+    "AT&T",
+    "Darden",
+    "JPMorgan Chase",
+    "Total Wine & More"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "Changes in consumer trends, distribution channels and suburban populations may negatively affect revenues."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A disruption, failure or breach of the networks or systems on which the Company relies, including as a result of cyber-attacks, could harm its business."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The use of technology based on artificial intelligence presents risks relating to confidentiality, creation of inaccurate and flawed outputs and emerging regulatory risk, any or all of which may adversely affect our business and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of $172.0 million senior unsecured notes sale",
+      "date": "2026-01-20",
+      "sentence": "The sale and purchase of the remaining $172.0 million completed on January 20, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 68,000 convenience shopping centers in the United States with 950 million square feet of GLA",
+      "sentence": "with over 68,000 convenience shopping centers in the United States (950 million square feet of GLA) and a liquid transaction market"
+    }
+  ],
+  "generatedAt": "2026-07-03T20:35:23.325Z",
+  "model": "deepseek-v4-flash"
+}

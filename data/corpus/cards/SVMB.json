@@ -1,0 +1,41 @@
+{
+  "cik": "0001647822",
+  "ticker": "SVMB",
+  "name": "Jingbo Technology, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001641172-25-014855",
+    "filedAt": "2025-06-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1647822/000164117225014855/form10-k.htm"
+  },
+  "business": "The company provides smart parking solutions through mobile applications and cloud platforms, utilizing IoT, big data, cloud computing, and mobile payment technologies. It also sells wine products, which is a new income stream.",
+  "sellsTo": [
+    "cities",
+    "parking lot operators",
+    "users",
+    "wine consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:smart-parking",
+      "stance": "core_product",
+      "sentence": "Intellengence Parking Group Limited provides smart parking projects, smart parking mobile applications and cloud platform construction innovation through its consolidated subsidiaries, Jingbo VIE (VIE 1) and its subsidiaries (Collectively, the Group 1)."
+    },
+    {
+      "tag": "other:winery-sales",
+      "stance": "core_product",
+      "sentence": "Revenue from winery sales The Company generated $420,180 in revenues from winery sales during the financial year ended February 28,2025 compared to nil during the year ended February 29, 2024."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The regulatory framework for the collection, use, safeguarding, sharing, transfer and other processing of personal information and important data worldwide is rapidly evolving in Chinese Mainland and is likely to remain uncertain for the foreseeable future."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:50:22.878Z",
+  "model": "deepseek-v4-flash"
+}

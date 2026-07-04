@@ -1,0 +1,74 @@
+{
+  "cik": "0000876167",
+  "ticker": "PRGS",
+  "name": "PROGRESS SOFTWARE CORP /MA",
+  "source": {
+    "form": "10-K",
+    "accession": "0000876167-26-000008",
+    "filedAt": "2026-01-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/876167/000087616726000008/prgs-20251130.htm"
+  },
+  "business": "Progress Software Corporation provides software products that enable customers to develop, deploy, and manage responsible AI-powered applications and digital experiences. The company sells globally through local subsidiaries and independent distributors. Key products include OpenEdge, ShareFile, MOVEit, Chef, and others.",
+  "sellsTo": [
+    "End users (business managers and IT managers)",
+    "Independent software vendors (ISVs)",
+    "Original equipment manufacturers (OEMs)",
+    "Distributors and value-added resellers (VARs)",
+    "Government agencies",
+    "Developers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Progress Software Corporation (\"Progress,\" the \"Company,\" \"we,\" \"us,\" or \"our\") provides software products that enable our customers to develop, deploy, and manage responsible AI-powered applications and digital experiences with agility and ease."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Progress Flowmon : AI-powered network security and visibility product with automated response across hybrid cloud ecosystems."
+    },
+    {
+      "tag": "other:data-management",
+      "stance": "core_product",
+      "sentence": "Progress MarkLogic: Data agility platform to securely connect data and metadata, create and interpret meaning, and consume high-quality contextualized data across the enterprise software system."
+    },
+    {
+      "tag": "other:application-development",
+      "stance": "core_product",
+      "sentence": "Progress OpenEdge: An application development platform for running business-critical applications needing high-performance, high availability, and flexible deployment options for extensibility, scalability, security, and performance."
+    },
+    {
+      "tag": "other:devops",
+      "stance": "core_product",
+      "sentence": "Progress Chef: DevOps/DevSecOps automation software to achieve secure, continuous delivery of critical applications and infrastructure."
+    },
+    {
+      "tag": "other:digital-experience",
+      "stance": "core_product",
+      "sentence": "Progress Sitefinity: Digital experience platform foundation, delivering intelligent, AI-powered, ROI-driving tools for marketers and an extensible platform for developers to create engaging, cross-channel digital experiences."
+    },
+    {
+      "tag": "other:managed-file-transfer",
+      "stance": "core_product",
+      "sentence": "Progress MOVEit: Managed file transfer software for managing and controlling the movement of sensitive files, providing the ability to secure them both at-rest and in-transit, and meeting strict compliance requirements."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Nuclia",
+      "date": null,
+      "sentence": "In June 2025, we acquired Nuclia."
+    },
+    {
+      "event": "Acquisition of ShareFile",
+      "date": null,
+      "sentence": "In October 2024, we acquired ShareFile."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:47:37.608Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,63 @@
+{
+  "cik": "0001638290",
+  "ticker": "MCFT",
+  "name": "MasterCraft Boat Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000950170-25-111682",
+    "filedAt": "2025-08-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1638290/000095017025111682/mcft-20250630.htm"
+  },
+  "business": "MasterCraft Boat Holdings, Inc. designs, manufactures, and markets recreational powerboats under three brands: MasterCraft (ski/wake boats), Crest (pontoon boats), and Balise (luxury pontoon boats). The company sells its products through extensive networks of independent dealers domestically and internationally, and also offers accessories and trailers.",
+  "sellsTo": [
+    "Independent dealers",
+    "Domestic and international consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ilmor Engineering, Inc.",
+    "Mercury Marine"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a leading innovator, designer, manufacturer, and marketer of recreational powerboats sold through our three brands, MasterCraft, Crest, and Balise."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "The Electric Line harmonizes industry innovations by introducing eco-friendly pontoon boats."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business operations could be negatively impacted by an outage or breach of our information technology systems, network disruptions, or a cybersecurity event."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "The recently imposed U.S. tariffs did not materially impact our fiscal 2025 results, but their effects and the potential imposition of modified or additional tariffs may, among other things, create new trade barriers that disrupt supply chains, raise costs, weaken consumer confidence and impact consumer demand for our products, and impact our ability to export our products, all of which could have an adverse effect on our business and financial results."
+    },
+    {
+      "tag": "other:supply-chain",
+      "stance": "risk_mention",
+      "sentence": "We rely on a complex global supply chain of third parties to supply raw materials used in the manufacturing process, including resins, fiberglass, aluminum, lumber and steel, as well as product parts and components."
+    },
+    {
+      "tag": "other:weather",
+      "stance": "risk_mention",
+      "sentence": "Adverse weather conditions and climate change events can have a negative effect on revenues."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CFO retirement effective December 31, 2025",
+      "date": "2025-12-31",
+      "sentence": "Timothy M. Oxley, Chief Financial Officer (CFO) of the Company, announced his retirement from the Company, effective December 31, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:43:23.867Z",
+  "model": "deepseek-v4-flash"
+}

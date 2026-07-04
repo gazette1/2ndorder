@@ -1,0 +1,53 @@
+{
+  "cik": "0001609151",
+  "ticker": "WEAV",
+  "name": "Weave Communications, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001609151-26-000016",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1609151/000160915126000016/weav-20251231.htm"
+  },
+  "business": "Weave is a leading AI-powered patient communications, engagement, and payments platform purpose-built for small and medium-sized (SMB) healthcare practices. Weave serves as the orchestration layer for modern healthcare practices, bringing together voice, text, and AI-powered workflows into a single system of work.",
+  "sellsTo": [
+    "SMB healthcare practices",
+    "Dental",
+    "Optometry",
+    "Veterinary",
+    "Specialty Medical"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Yealink",
+    "Stripe Inc.",
+    "Bandwidth",
+    "Telnyx",
+    "Google Cloud Platform"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Weave is a leading AI-powered patient communications, engagement, and payments platform purpose-built for small and medium-sized ( SMB ) healthcare practices."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Weave Payments is a comprehensive payment processing solution that enables healthcare practices to streamline billing and collections."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Our phone system is highly customizable, cloud-based and integrated into our software platform."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "Our AI-receptionist automatically follows up on missed calls around the clock with an agentic AI-powered text conversation that lets patients schedule appointments, answers frequently asked questions, and escalates to a staff member if needed."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:08:24.561Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0000075252",
+  "ticker": "ACH",
+  "name": "ACCENDRA HEALTH INC/VA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-018169",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/75252/000110465926018169/omi-20251231x10k.htm"
+  },
+  "business": "Accendra Health is a nationwide provider of home healthcare equipment, medical supplies, and related services. It offers products for diabetes, sleep therapy, respiratory therapy, ostomy, wound care, and urology. Revenue is generated from fee-for-service and capitation arrangements with government and commercial payors, as well as direct patient payments.",
+  "sellsTo": [
+    "managed care plans",
+    "U.S. federal government (Medicare)",
+    "state governments (Medicaid)",
+    "private insurers",
+    "home health agencies",
+    "patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We provide delivery of products, including disposable medical supplies sold directly to patients and home health agencies and are a leading provider of integrated home healthcare equipment and related services in the U.S."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We offer a comprehensive range of products and services for in-home care and delivery across diabetes treatment, home respiratory therapy (including home oxygen and non-invasive ventilation services), and obstructive sleep apnea treatment (including continuous positive airway pressure (CPAP) and bi-level positive airway pressure devices, and patient support services)."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We use technology in areas such as web portals/electronic ordering, electronic claims submission and electronic funds transfer with managed care organizations to more efficiently process business transactions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected closure of Corporate Integrity Agreement (CIA) with HHS OIG",
+      "date": null,
+      "sentence": "We expect final closure of the CIA to occur in 2026."
+    },
+    {
+      "event": "Wind-down of terminated contracts with a commercial payor expected to continue through first half of 2026",
+      "date": null,
+      "sentence": "While the transitions of agreements and services are expected to continue throughout the first half of 2026, the specific timing of when these contracts will wind down is highly dependent on the Payor s successor provider s ability to successfully transition customers among other factors."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:03:40.174Z",
+  "model": "deepseek-v4-flash"
+}

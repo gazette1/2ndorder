@@ -1,0 +1,80 @@
+{
+  "cik": "0000080035",
+  "ticker": "PLPC",
+  "name": "PREFORMED LINE PRODUCTS CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000080035-26-000007",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000007/plpc-20251231.htm"
+  },
+  "business": "Preformed Line Products Company designs and manufactures products for overhead and underground networks for energy, telecommunication, cable, data communication, and similar industries. Its primary products support, protect, connect, terminate, and secure cables and wires, including formed wire solutions, connectors, fiber optic and copper splice closures, solar hardware, and electric vehicle charging station foundations. The company also provides aerial drone inspection services for utility assets.",
+  "sellsTo": [
+    "public and private energy utilities",
+    "communication companies",
+    "cable operators",
+    "governmental agencies",
+    "contractors and subcontractors",
+    "distributors",
+    "value-added resellers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Energy Products are used for supporting, protecting, terminating and splicing transmission and distribution lines as well as bolted, welded, and compressed connectors for substations."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Communications Products include rugged outside plant (OSP) closures to protect and support wireline and wireless networks, such as fiber optic cable or copper cable, from moisture, environmental hazards and other potential contaminants."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Special Industries products include ... solar framing and electric vehicle (EV) offerings which include mounting solutions for photovoltaic solar applications, including commercial, industrial, utility, and residential applications as well as pre-fabricated, precision-engineered EV charging station foundations."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Special Industries products include ... solar framing and electric vehicle (EV) offerings which include mounting solutions for photovoltaic solar applications, including commercial, industrial, utility, and residential applications as well as pre-fabricated, precision-engineered EV charging station foundations."
+    },
+    {
+      "tag": "other:drone-inspection",
+      "stance": "core_product",
+      "sentence": "Also included in Special Industries is the Inspection Services group which provides safe and reliable drone inspection services for utility assets, including transmission and distribution power lines, substations, and generation facilities."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "Low Earth Orbit (LEO) Satellite communication, 5G, wireless and other communication technologies currently being deployed may represent a threat to copper, coaxial and fiber optic-based systems by reducing the need and desire for wire-line networks."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "risk_mention",
+      "sentence": "The digitalization and electrification megatrends, which are increasing the need for power generation, have highlighted the need for bolstering grid reliability, strengthening grid resilience, and upgrading aging infrastructure."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Construction of new manufacturing plant in Poland",
+      "date": "2025-07-16",
+      "sentence": "On July 16, 2025, PLP Poland, a subsidiary of the Company, entered into a non-revolving investment loan with Bank Pekao S.A to finance the construction of a new manufacturing plant for an amount up to PLN100.3 million ($27.9 million)."
+    },
+    {
+      "event": "Acquisition of JAP Telecom",
+      "date": "2025-05",
+      "sentence": "The Americas net sales ... increased $22.0 million, or 24%, primarily due to an increase in energy product sales and an increase in communications sales due to the acquisition of JAP Telecom in May 2025."
+    },
+    {
+      "event": "Dividend increase",
+      "date": "2025-Q4",
+      "sentence": "we increased our quarterly dividend by 5% to $0.21 per share in the fourth quarter of 2025, the first such increase since the Company's shares began trading on NASDAQ stock exchange in 2001."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:19:48.002Z",
+  "model": "deepseek-v4-flash"
+}

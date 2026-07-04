@@ -1,0 +1,72 @@
+{
+  "cik": "0001733998",
+  "ticker": "NWN",
+  "name": "Northwest Natural Holding Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001733998-26-000012",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1733998/000173399826000012/nwn-20251231.htm"
+  },
+  "business": "Northwest Natural Holding Co owns regulated natural gas distribution utilities serving residential, commercial, and industrial customers in Oregon, Southwest Washington, and Texas, as well as regulated water and wastewater utilities across six states and non-regulated renewable natural gas activities.",
+  "sellsTo": [
+    "Residential customers",
+    "Commercial customers",
+    "Industrial customers",
+    "Water and wastewater customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "NW Holdings is a holding company headquartered in Portland, Oregon and owns NW Natural, SiEnergy Operating, LLC (SiEnergy Gas Utility or SiEnergy), NW Natural Water Company, LLC (NWN Water Utility or NWN Water), and NW Natural Renewables Holdings, LLC (NWN Renewables)."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "NW Natural Renewables Holdings, LLC (NWN Renewables) is a non-regulated business established to pursue non-regulated renewable natural gas activities."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "NW Natural Renewables Holdings, LLC (NWN Renewables) is a non-regulated business established to pursue non-regulated renewable natural gas activities."
+    },
+    {
+      "tag": "other:gas-storage",
+      "stance": "core_product",
+      "sentence": "The Mist gas storage facility began operations in 1989 and has been expanded twice previously."
+    },
+    {
+      "tag": "other:water-utilities",
+      "stance": "core_product",
+      "sentence": "NWN Water provides regulated water and wastewater services and unregulated wastewater and operations services to customers in Oregon, Washington, Idaho, Arizona, and Texas."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Oregon general rate case new rates effective October 31, 2025",
+      "date": "2025-10-31",
+      "sentence": "New rates authorized by the OPUC were effective October 31, 2025."
+    },
+    {
+      "event": "Washington general rate case filing seeking new rates effective August 1, 2026",
+      "date": "2026-08-01",
+      "sentence": "On August 29, 2025, NW Natural filed a request for a general rate increase with the WUTC under Washington's multi-year rate plan statute, including a $25.6 million revenue increase in the first year beginning August 1, 2026."
+    },
+    {
+      "event": "North Mist gas storage expansion planned 4-5 Bcf",
+      "date": null,
+      "sentence": "In February 2026, we announced a planned 4-5 Bcf expansion at our North Mist gas storage facility."
+    },
+    {
+      "event": "Alternative Rate Mechanism (ARM) filing with OPUC for capital expenditures placed into service before October 31, 2026",
+      "date": "2026-10-31",
+      "sentence": "On November 25, 2025, NW Natural filed a request to the OPUC for an alternative rate mechanism for the recovery of costs associated with certain capital expenditures placed into service prior to October 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:08:01.232Z",
+  "model": "deepseek-v4-flash"
+}

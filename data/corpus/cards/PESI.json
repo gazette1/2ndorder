@@ -1,0 +1,68 @@
+{
+  "cik": "0000891532",
+  "ticker": "PESI",
+  "name": "PERMA FIX ENVIRONMENTAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012314",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/891532/000149315226012314/form10-k.htm"
+  },
+  "business": "Perma-Fix Environmental Services, Inc. is a nuclear services company providing treatment and management of radioactive and mixed waste, as well as project management, decontamination, decommissioning, and radiological protection services. The company serves federal government entities (primarily the U.S. Department of Energy and U.S. Department of War), commercial clients, and international customers in Canada, Mexico, the United Kingdom, and the European Union.",
+  "sellsTo": [
+    "federal government",
+    "commercial",
+    "international (Canada, Mexico, UK, EU)"
+  ],
+  "namedCustomers": [
+    "European Commission"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "The Company's nuclear waste services include treatment and management of radioactive and mixed waste (waste containing both hazardous and low-level radioactive waste)."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "A significant amount of our revenues from our Treatment and Services Segments are generated indirectly as subcontractors for others who are contractors to federal government authorities, particularly the DOE and DOW, or directly as the prime contractor to federal government authorities."
+    },
+    {
+      "tag": "other:PFAS-destruction",
+      "stance": "core_product",
+      "sentence": "With significant upgrades to our prototype Perma-FAS system (System) for PFAS destruction substantially completed in the latter part of 2025, our System has achieved commercial operational status at our PFF facility."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "PFNWR facility permit renewal received",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, our PFNWR facility received its long-awaited permit renewal from state regulators which, among other things, approximately triples the facility's permitted liquid mixed waste processing capacity to approximately 1,200,000 gallons per year and authorizes the facility to process up to 175,000 tons of waste annually through macroencapsulation."
+    },
+    {
+      "event": "DFLAW program operational phase anticipated to begin",
+      "date": "2026-01-01",
+      "sentence": "The subsequent operational phase of the DFLAW program is anticipated to begin in 2026, which will include generation of several effluent waste streams expected to be treated by our PFNWR facility."
+    },
+    {
+      "event": "Anticipated increase in waste receipts at PFNWR",
+      "date": "2026-06-30",
+      "sentence": "We have made investments in expansion of treatment capacity, increases in trained workforce, and infrastructure upgrades to support the increases in waste receipts anticipated to begin in the first half of 2026."
+    },
+    {
+      "event": "Deployment of second-generation PFAS unit at EWOC facility",
+      "date": "2026-12-31",
+      "sentence": "With commercial operation of our System, we anticipate deployment of our second-generation unit in the second half of 2026 at our EWOC facility in Oak Ridge, Tennessee, which we believe will allow us to triple our production capacity."
+    },
+    {
+      "event": "Joint distribution agreement for PFAS destruction technology",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we entered into a joint distribution agreement with a U.S.-based company that manufactures fluorine-free firefighting agents and compressed air foam system, to promote our PFAS destruction technology as a preferred treatment options for customers requiring, compliant, long-term destruction of legacy PFAS stockpiles."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:29:53.395Z",
+  "model": "deepseek-v4-flash"
+}

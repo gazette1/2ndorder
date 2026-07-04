@@ -1,0 +1,45 @@
+{
+  "cik": "0001519401",
+  "ticker": "RM",
+  "name": "Regional Management Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-061549",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1519401/000119312526061549/rm-20251231.htm"
+  },
+  "business": "Regional Management Corp. is a diversified consumer finance company that provides installment loan products primarily to customers with limited access to consumer credit from banks, thrifts, credit card companies, and other lenders. Its core products are large and small installment loans, and it offers optional payment and collateral protection insurance.",
+  "sellsTo": [
+    "customers with limited access to consumer credit",
+    "subprime, non-prime, near-prime consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a diversified consumer finance company that provides installment loan products primarily to customers with limited access to consumer credit from banks, thrifts, credit card companies, and other lenders."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer our customers optional payment and collateral protection insurance relating to our loan products, including credit life insurance, accident and health insurance, involuntary unemployment insurance, and personal property insurance."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Complete rollout of new front-end branch origination platform across all states",
+      "date": "2026-12-31",
+      "sentence": "We began rolling out the new origination platform in 2025 and expect to complete the platform implementation across all states in the next 12 months."
+    },
+    {
+      "event": "CFPB supervision ended",
+      "date": "2026-01-08",
+      "sentence": "on January 8, 2026, the CFPB's supervision of the Company ended pursuant to the terms of the Consent Agreement."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:58:17.205Z",
+  "model": "deepseek-v4-flash"
+}

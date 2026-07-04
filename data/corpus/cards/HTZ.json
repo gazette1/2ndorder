@@ -1,0 +1,69 @@
+{
+  "cik": "0001657853",
+  "ticker": "HTZ",
+  "name": "HERTZ GLOBAL HOLDINGS, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001657853-26-000008",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1657853/000165785326000008/htz-20251231.htm"
+  },
+  "business": "We are engaged principally in the business of renting vehicles primarily through our Hertz, Dollar and Thrifty brands. As of December 31, 2025, we operated our vehicle rental business globally from approximately 11,000 company-operated and franchisee locations across approximately 160 countries and jurisdictions.",
+  "sellsTo": [
+    "business travelers",
+    "leisure travelers",
+    "replacement renters",
+    "ride share drivers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Daimler AG",
+    "Renault",
+    "Mitsubishi",
+    "Mazda",
+    "Volvo",
+    "Rover Group"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We have partnered with certain ride share companies to offer vehicle rentals, including EVs, to their drivers in select cities in North America and Europe."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our inclusion of EVs in the fleet in certain cities has enabled us to also provide the opportunity for customers in those locations to reserve an EV rather than an internal-combustion engine vehicle."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Our EV fleet exposes us to a number of risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity threats continue to increase in frequency and sophistication, and a successful cybersecurity incident could interrupt or disrupt our information technology systems, or those of our third-party business partners, which could, among other things, disrupt our business, force us to incur costs or cause us reputational harm."
+    },
+    {
+      "tag": "other:autonomous-vehicles",
+      "stance": "risk_mention",
+      "sentence": "Examples include technology solutions designed to: address increasing customer expectations, improve vehicle maintenance and utilization and enable traditional and non-traditional competitors to introduce transportation offerings, consumption models and vehicle platforms, including EVs and autonomous vehicles and other potentially disruptive technologies."
+    },
+    {
+      "tag": "other:data-privacy",
+      "stance": "risk_mention",
+      "sentence": "Strict data privacy laws regulating the collection, transmission, storage and use of employee data and consumers personal information are continuously evolving in the European Union, U.S., Australia, New Zealand, Canada and other jurisdictions in which we operate."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renegotiate labor contracts covering approximately 2% of U.S. union employees",
+      "date": null,
+      "sentence": "We anticipate renegotiating labor contracts with approximately 2% of these employees in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:16:40.821Z",
+  "model": "deepseek-v4-flash"
+}

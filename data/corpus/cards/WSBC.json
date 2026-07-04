@@ -1,0 +1,46 @@
+{
+  "cik": "0000203596",
+  "ticker": "WSBC",
+  "name": "WESBANCO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085463",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/203596/000119312526085463/wsbc-20251231.htm"
+  },
+  "business": "Wesbanco, Inc. offers a full range of financial services including retail banking, corporate banking, personal and corporate trust services, brokerage services, mortgage banking and insurance. It also offers trust and investment services and various alternative investment products including mutual funds and annuities.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "commercial clients",
+    "personal and corporate trust customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Wesbanco Insurance Services, Inc. (Wesbanco Insurance) is a multi-line insurance agency specializing in property, casualty, life and title insurance, with benefit plan sales and administration for personal and commercial clients."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Digital banking income increased $6.5 million or 32.7% in 2025 compared to 2024, due to higher volumes primarily associated with Wesbanco's larger customer base due to the PFC acquisition and organic growth."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "Volatility in oil and gas prices may impact shale gas activity in West Virginia, Ohio and Pennsylvania, which may somewhat negatively impact local and regional economic conditions, affecting both commercial and retail customers, resulting in potentially lower oil and gas related royalty deposits and potential credit deterioration in the loan portfolio."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Such statements are subject to important factors that could cause actual results to differ materially from those contemplated by such statements, including, without limitation, ... fraud, scams and schemes of third parties; cyber-security breaches;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:12:10.926Z",
+  "model": "deepseek-v4-flash"
+}

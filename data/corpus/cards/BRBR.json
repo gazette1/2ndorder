@@ -1,0 +1,63 @@
+{
+  "cik": "0001772016",
+  "ticker": "BRBR",
+  "name": "BELLRING BRANDS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001772016-25-000153",
+    "filedAt": "2025-11-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1772016/000177201625000153/brbr-20250930.htm"
+  },
+  "business": "BellRing Brands sells convenient nutrition products, primarily ready-to-drink (RTD) protein shakes and protein powders, under the Premier Protein and Dymatize brands. Products are distributed across club, food/drug/mass, eCommerce, specialty, and convenience channels.",
+  "sellsTo": [
+    "club stores",
+    "food, drug and mass (FDM) retailers",
+    "eCommerce retailers",
+    "specialty retailers",
+    "convenience stores",
+    "distributors"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "Costco",
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our primary brands, Premier Protein and Dymatize , target a broad range of consumers and compete in all major product forms, including ready-to-drink (RTD) protein shakes and powders."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our products are distributed across a diverse network of channels including club, food, drug and mass (FDM), eCommerce, specialty and convenience."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Technology failures, cybersecurity incidents and corruption of our data privacy protections could disrupt our operations and negatively impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "First Amendment to Credit Agreement executed, increasing revolving facility to $500 million and extending maturity to August 22, 2030",
+      "date": "2025-08-22",
+      "sentence": "On August 22, 2025, we entered into a First Amendment to the Credit Agreement (the Amendment ) which, among other matters, (i) increased the aggregate principal amount available under the Revolving Credit Facility to $500.0 million, (ii) extended the maturity date of the Revolving Credit Facility to August 22, 2030 provided that if on December 14, 2029, our 7.00% Senior Notes maturing in March 2030 have not been redeemed in full in cash or refinanced and replaced in full with notes and/or loans maturing at least 91 days after August 22, 2030, then the maturity date of the Revolving Credit Facility will be December 14, 2029"
+    },
+    {
+      "event": "Manufacturing agreement with third-party contract manufacturer for Premier Protein RTD shakes expires",
+      "date": "2030-12-31",
+      "sentence": "This agreement expires on December 31, 2030."
+    },
+    {
+      "event": "Supply agreement with largest protein powder supplier expires",
+      "date": "2028-06-30",
+      "sentence": "The agreement expires on June 30, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:59:27.530Z",
+  "model": "deepseek-v4-flash"
+}

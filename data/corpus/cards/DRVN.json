@@ -1,0 +1,40 @@
+{
+  "cik": "0001804745",
+  "ticker": "DRVN",
+  "name": "Driven Brands Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001804745-26-000048",
+    "filedAt": "2026-05-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1804745/000180474526000048/drvn-20251227.htm"
+  },
+  "business": "Driven Brands is the largest automotive services company in North America, operating over 4,200 locations across 49 U.S. states and Canada. It provides high-quality services including oil changes, paint, collision, glass, and repair services to retail, commercial, and insurance customers. The company operates through three segments: Take 5, Franchise Brands, and Auto Glass Now.",
+  "sellsTo": [
+    "retail customers",
+    "commercial customers",
+    "insurance customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "advances and changes in automotive technology, including, but not limited to, changes in the materials used for the construction of structural components and body panels, changes in the types of paints and coatings used for automobiles or materials used for tires, changes in engines and drivetrains to hybrid and electric technology, increased prevalence of sensors and back-up cameras, and increased prevalence of self-driving vehicles and shared mobility"
+    },
+    {
+      "tag": "sensors",
+      "stance": "risk_mention",
+      "sentence": "increased prevalence of sensors and back-up cameras"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A significant failure, interruption, or security breach of our computer systems or information technology"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:44:05.749Z",
+  "model": "deepseek-v4-flash"
+}

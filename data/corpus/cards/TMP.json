@@ -1,0 +1,40 @@
+{
+  "cik": "0001005817",
+  "ticker": "TMP",
+  "name": "TOMPKINS FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001005817-26-000027",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000027/tmp-20251231.htm"
+  },
+  "business": "Tompkins Financial Corporation is a financial holding company offering commercial and consumer banking, leasing, trust and investment management, financial planning and wealth management services. Its banking subsidiary, Tompkins Community Bank, operates 54 branches in New York and Pennsylvania. The company serves individuals and businesses in its local markets.",
+  "sellsTo": [
+    "Individuals and businesses in New York State",
+    "Individuals and businesses in Pennsylvania",
+    "Commercial and consumer customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The Company faces increasing competition from institutions not subject to the same extensive State and Federal regulations that govern financial holding companies and Federally-insured banks, including by financial technology companies, or fintechs, which may offer bank-like products or services that compete directly with the Company’s products and services."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry continues to undergo rapid technological change with introductions of new technologies and services, including new ways that customers can make payments or manage their accounts, including through use of stablecoins and other forms of cryptocurrency, tokens, and other digital assets or alternative payment systems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A breach of information or other technological security, including as a result of cyber-attacks, could have a material adverse effect on our business, financial condition and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:18:44.038Z",
+  "model": "deepseek-v4-flash"
+}

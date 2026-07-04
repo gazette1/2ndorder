@@ -1,0 +1,52 @@
+{
+  "cik": "0001144980",
+  "ticker": "ABG",
+  "name": "ASBURY AUTOMOTIVE GROUP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001144980-26-000051",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1144980/000114498026000051/abg-20251231.htm"
+  },
+  "business": "Asbury Automotive Group is a franchised automotive retailer in the United States, selling new and used vehicles, parts and service, and finance and insurance products through its dealerships and TCA subsidiary.",
+  "sellsTo": [
+    "retail customers",
+    "third-party financial institutions",
+    "wholesale buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ford Motor Credit Company",
+    "Toyota",
+    "Honda",
+    "Mercedes-Benz",
+    "BMW"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "In addition, we saw increased demand for new electric vehicles before the expiration of federal tax credits in September 2025."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "any data security breaches occurring, including with regard to personally identifiable information (\"PII\");"
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Total Care Auto, Powered by Asbury (\"TCA\" or \"TCA Business\"), our finance and insurance (\"F&I\") product provider"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "TCA product rollout to all dealerships",
+      "date": "2026",
+      "sentence": "We expect to complete the rollout to all of our dealerships in 2026 by offering TCA products on our Herb Chambers platform; however, no assurance can be given that the rollout will be completed within the timeframe contemplated."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:20:40.970Z",
+  "model": "deepseek-v4-flash"
+}

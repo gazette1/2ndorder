@@ -1,0 +1,61 @@
+{
+  "cik": "0001746109",
+  "ticker": "BFC",
+  "name": "Bank First Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021567",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926021567/bfc-20251231x10k.htm"
+  },
+  "business": "Bank First Corporation is a Wisconsin corporation that serves as the holding company for Bank First, N.A., a national bank. The company offers a wide variety of financial services including retail and commercial banking, such as checking and savings accounts, loans, and digital banking, to individuals, businesses, and professionals.",
+  "sellsTo": [
+    "individuals",
+    "small to medium-sized businesses",
+    "professional firms"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "In addition, competition from nontraditional banking institutions, often known as fintech and non-bank lenders, continues to increase and accelerate, with consumers and businesses having the opportunity to select from a growing variety of traditional and nontraditional alternatives."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our ability to identify and address potential cybersecurity risks, which may be exacerbated by recent developments in generative artificial intelligence, including brute force attacks (i.e., credential stuffing), ransomware or other malware, denial-of-service attacks, hacking and identify theft, a failure of which could disrupt our business and result in the disclosure of and/or misuse or misappropriation of confidential or proprietary information, disruption or damage to our systems, increased costs, losses, or adverse effects to our reputation."
+    },
+    {
+      "tag": "insurance",
+      "stance": "active_investment",
+      "sentence": "Ansay is one of the nation's largest independent insurance providers, and the Bank's minority ownership of Ansay allows the Bank to provide diversified services to our customers without the risk and expense of an in-house insurance department."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We originate and hold short-term and long-term first mortgages and traditional second mortgage residential real estate loans."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Centre 1 Bancorp closed",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, the Company completed a merger with Centre, a bank holding company headquartered in Beloit, Wisconsin, pursuant to the merger agreement, dated as of July 17, 2025, by and between the Company and Centre, whereby Centre merged with and into the Company, and First National Bank and Trust, Centre's wholly-owned banking subsidiary, merged with and into the Bank."
+    },
+    {
+      "event": "Full integration of Centre acquisition",
+      "date": "2026-06-30",
+      "sentence": "Full integration and system conversion activities are expected to be completed in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total deposits of approximately $81 billion in the nineteen counties served",
+      "sentence": "The nineteen counties in which the Bank has offices have an estimated aggregate population of 2,560,274, based on current U.S. Census data, and total deposits of approximately $81 billion as of June 30, 2025, according to the most recent data published by the FDIC."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:42:51.508Z",
+  "model": "deepseek-v4-flash"
+}

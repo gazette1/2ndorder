@@ -1,0 +1,39 @@
+{
+  "cik": "0001992870",
+  "ticker": "EZBC",
+  "name": "Franklin Templeton Digital Holdings Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-026744",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1992870/000114036126026744/ef20070486_10k.htm"
+  },
+  "business": "Franklin Templeton Digital Holdings Trust (the Trust) operates the Franklin Bitcoin ETF (the Fund), which issues shares that seek to reflect the performance of the price of bitcoin. The Fund's shares are listed on the Cboe BZX Exchange and are available to investors through the securities markets. The Fund is a passive investment vehicle that does not actively manage bitcoin holdings.",
+  "sellsTo": [
+    "investors seeking bitcoin exposure through securities markets",
+    "Authorized Participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Fund seeks to reflect generally the performance of the price of bitcoin before payment of the Fund's expenses."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "advancements in capabilities of quantum computing and similar technology may pose challenges to the security of digital asset networks, including the bitcoin blockchain."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Digital assets including bitcoin remain susceptible to cyber security events, fraud, manipulation or similar disruptions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:39:14.929Z",
+  "model": "deepseek-v4-flash"
+}

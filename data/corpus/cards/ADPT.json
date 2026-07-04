@@ -1,0 +1,71 @@
+{
+  "cik": "0001478320",
+  "ticker": "ADPT",
+  "name": "Adaptive Biotechnologies Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-076902",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1478320/000119312526076902/adpt-20251231.htm"
+  },
+  "business": "Adaptive Biotechnologies has two main businesses: MRD and Immune Medicine. The MRD business offers clonoSEQ, an NGS-based test for minimal residual disease in lymphoid cancers, to clinicians and biopharmaceutical partners. The Immune Medicine business provides immune receptor sequencing, data licensing, TCR-antigen prediction models, and target discovery services to biopharmaceutical and academic customers.",
+  "sellsTo": [
+    "Clinicians (oncologists, hematologists)",
+    "Biopharmaceutical companies",
+    "Academic research institutions",
+    "Payors (insurance companies)"
+  ],
+  "namedCustomers": [
+    "Pfizer Inc."
+  ],
+  "namedSuppliers": [
+    "Illumina"
+  ],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "clonoSEQ is the first test authorized by the Food and Drug Administration ( FDA ) for the detection and monitoring of MRD in patients with multiple myeloma ( MM ), B cell acute lymphoblastic leukemia ( ALL ) and chronic lymphocytic leukemia ( CLL ), and it is also available as a CLIA-validated laboratory developed test ( LDT ) for patients with other lymphoid cancers, including diffuse large B cell lymphoma ( DLBCL ) and mantle cell lymphoma ( MCL )."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "These capabilities enable us to offer an expanding suite of solutions including: immune receptor sequencing, licensing of our proprietary data, TCR-antigen prediction models and our target discovery capabilities."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are applying AI and machine learning models to map at scale TCR sequences to the diseases they bind to enable commercial offerings and our own product research initiatives."
+    },
+    {
+      "tag": "other:data-licensing",
+      "stance": "core_product",
+      "sentence": "Data Licensing We offer access to our proprietary datasets matching paired TCRs to antigens across more than 20,000 diverse antigens and nearly 50 HLA types."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Integrate more Epic EMR sites",
+      "date": "2026",
+      "sentence": "Through 2026, we expect to integrate more Epic sites and continue to improve usability by configuring within sites to reduce order to test result complexity."
+    },
+    {
+      "event": "Obtain regulatory approval for clonoSEQ testing in Canada",
+      "date": "2026",
+      "sentence": "In 2026, we expect to make progress by obtaining necessary regulatory approval to enable clonoSEQ testing in Canada."
+    },
+    {
+      "event": "Transition all MRD testing to NovaSeq X Plus sequencers",
+      "date": null,
+      "sentence": "In the second half of 2025, we operationalized the NovaSeq X Plus sequencers for use for our clonoSEQ clinical testing and expect to transition all of our MRD testing to the NovaSeq X Plus over the next two years."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total addressable market for MRD business approximately $6.2 billion, with $5.3 billion derivable from clinical testing.",
+      "sentence": "We believe the total addressable market for the MRD business is approximately $6.2 billion, approximately $5.3 billion of which is derivable from clinical testing."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:29:08.645Z",
+  "model": "deepseek-v4-flash"
+}

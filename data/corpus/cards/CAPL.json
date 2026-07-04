@@ -1,0 +1,48 @@
+{
+  "cik": "0001538849",
+  "ticker": "CAPL",
+  "name": "CrossAmerica Partners LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071870",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1538849/000119312526071870/capl-20251231.htm"
+  },
+  "business": "CrossAmerica Partners LP is a limited partnership engaged in the wholesale distribution of motor fuel and the ownership and leasing of real estate used in the retail distribution of motor fuel. It also generates revenues from the operation of company operated retail sites, including the sale of convenience merchandise. The company distributes branded motor fuel under the Exxon, Mobil, BP, Shell, Marathon, Valero, and Phillips 66 brands.",
+  "sellsTo": [
+    "Independent dealers",
+    "Lessee dealers",
+    "Company operated sites",
+    "Commission agents"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "ExxonMobil",
+    "BP",
+    "Marathon",
+    "Shell",
+    "Valero",
+    "Phillips 66"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are engaged in the wholesale distribution of motor fuel and the ownership and leasing of real estate used in the retail distribution of motor fuel."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "A significant decrease in demand for motor fuel, including increased consumer preference for alternative motor fuels or improvements in fuel efficiency, in the areas we serve would reduce our ability to make distributions to our unitholders."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Developments aimed at reducing greenhouse gas emissions contribution to climate change may decrease the demand or increase the cost for our major product, petroleum-based motor fuel."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:42:17.530Z",
+  "model": "deepseek-v4-flash"
+}

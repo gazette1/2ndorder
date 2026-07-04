@@ -1,0 +1,87 @@
+{
+  "cik": "0000771266",
+  "ticker": "KOPN",
+  "name": "KOPIN CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016338",
+    "filedAt": "2026-04-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/771266/000149315226016338/form10-k.htm"
+  },
+  "business": "Kopin Corporation designs and manufactures microdisplays and optical subsystems for defense, industrial, medical, and consumer applications. Its products include AMLCD, LCOS, OLED, and MicroLED displays, as well as application-specific optical solutions (ASOS) and headsets. The company sells primarily to U.S. defense contractors and government agencies.",
+  "sellsTo": [
+    "defense",
+    "industrial",
+    "medical",
+    "consumer",
+    "training & simulation"
+  ],
+  "namedCustomers": [
+    "DRS Network & Imaging Systems LLC",
+    "Collins Aerospace",
+    "HMDmd"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Our products are used for defense applications (soldier thermal weapon rifle sights, avionic fixed and rotary wing pilot helmets, armored vehicle targeting systems, and training & simulation headsets);"
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Medical: Targets surgeon headsets, allowing real-time visual aid during medical procedures, improving precision and efficiency."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Industrial: Focuses on 3D automated optical inspection (3D AOI) systems that use our displays as spatial light modulators."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Consumer: Includes recreational rifle scopes and potential AR/VR applications, with OLED and MicroLED displays being key for immersive experiences."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "We design and manufacture a range of small form factor displays, including AMLCDs, LCOS displays, OLED displays, and are developing MicroLED displays."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "The Company recently invented a fifth generation microdisplay architecture, NeuralDisplay which includes bi-directional, human-in-the-loop and AI-based algorithms resident within the backplane of the display."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Industrial: Focuses on 3D automated optical inspection (3D AOI) systems that use our displays as spatial light modulators."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Our microdisplays and ASOS to the U.S. Department of War for many years for solider centric systems, rotary and fixed wing aircraft"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "$15.4M order for color MicroLED display manufacturing capability",
+      "date": "2025-09-11",
+      "sentence": "Kopin was awarded a transformative $15.4M order to develop sovereign manufacturing capability for color MicroLED displays on September 11, 2025."
+    },
+    {
+      "event": "First production order for MicroLED displays for combat jet program",
+      "date": null,
+      "sentence": "the Company received several recurring awards for thermal weapon sight modules, training and simulation systems and displays and display modules for military pilot helmet HUD (head-up display) systems, including Kopin's first production order for MicroLED displays which has been qualified and will be deployed in a fielded combat jet program."
+    },
+    {
+      "event": "Strategic investment and partnership with Theon International",
+      "date": "2025-10-16",
+      "sentence": "On October 16, 2025, the Company completed a $15 million strategic investment with Theon International Plc."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:54:54.293Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,78 @@
+{
+  "cik": "0001878897",
+  "ticker": "DOUG",
+  "name": "Douglas Elliman Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001878897-26-000007",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878897/000187889726000007/doug-20251231.htm"
+  },
+  "business": "Douglas Elliman Inc. is a holding company that, through its subsidiaries, is engaged in the real estate services business. It owns Douglas Elliman Realty, LLC, one of the largest residential brokerage companies in the New York metropolitan area, and also conducts operations in Florida, California, Texas, Colorado, Nevada, Massachusetts, Maryland, Virginia, and Washington D.C. It offers development marketing services and ancillary services such as mortgage, title and escrow services.",
+  "sellsTo": [
+    "homebuyers",
+    "home sellers",
+    "real estate developers",
+    "property buyers",
+    "mortgage lenders"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Douglas Elliman Inc. is a holding company that, through its subsidiaries, is engaged in the real estate services business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In 2025, Douglas Elliman launched Elliman Capital, an in-house mortgage platform designed to streamline the home financing process for clients seeking both traditional and non-traditional loan products."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Douglas Elliman is also engaged in the provision of title insurance services through its subsidiary DE Title Services."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "Elli AI is an Artificial Intelligence assistant application for our agents."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents could disrupt our business operations or could result in the loss of critical and confidential information, which may adversely impact our reputation and harm our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Douglas Elliman Property Management",
+      "date": "2025-10-24",
+      "sentence": "On October 24, 2025, DER sold its subsidiary, Residential Management Group, LLC, which conducts business as Douglas Elliman Property Management, for a base purchase price of $85,000, subject to adjustments for cash, indebtedness, transaction expenses and working capital amounts at closing."
+    },
+    {
+      "event": "Repayment and Redemption of 7% Senior Secured Convertible Debt",
+      "date": "2025-10-24",
+      "sentence": "On October 24, 2025, we repaid and redeemed all of our senior secured convertible promissory notes due on July 2, 2029 (the Convertible Notes) for an aggregate payment of $95,000, including approximately $1,400 of accrued interest."
+    },
+    {
+      "event": "Launch of Elliman International",
+      "date": "2025",
+      "sentence": "Douglas Elliman also launched Elliman International in 2025 and, through licensing arrangements, licensed brokers in France, Monaco and St. Barths are able to service clients utilizing the Douglas Elliman name."
+    },
+    {
+      "event": "Launch of Elliman Capital",
+      "date": "2025",
+      "sentence": "In 2025, Douglas Elliman launched Elliman Capital, an in-house mortgage platform designed to streamline the home financing process for clients seeking both traditional and non-traditional loan products."
+    },
+    {
+      "event": "Initial launch of Elli AI in Florida before national rollout",
+      "date": "2025",
+      "sentence": "Elli AI is designed to save time on manual searches and repetitive tasks and has been initially launched in Florida before rolling out nationally across the United States."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:08:37.073Z",
+  "model": "deepseek-v4-flash"
+}

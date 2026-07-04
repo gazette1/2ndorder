@@ -1,0 +1,45 @@
+{
+  "cik": "0000354647",
+  "ticker": "CVBF",
+  "name": "CVB FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083221",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/354647/000119312526083221/cvbf-20251231.htm"
+  },
+  "business": "CVB Financial Corp. is a bank holding company whose principal asset is Citizens Business Bank, National Association, which provides a wide range of banking, investment and trust services to small and medium-sized businesses, professionals, and individuals in California.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "professionals",
+    "individuals in California"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "The Company held small investment positions in three financial technology private equity funds at December 31, 2025, with aggregate potential commitments in such funds of approximately $5 million, which were subject to the final rule."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls or cybersecurity-related incidents to either our information systems or information systems provided by third party vendors could have a material adverse effect on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:agriculture",
+      "stance": "risk_mention",
+      "sentence": "Our dairy & livestock and agribusiness lending presents unique credit risks."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "risk_mention",
+      "sentence": "Our commercial real estate loan portfolio exposes us to risks that may be greater than the risks related to our other loans."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:57:44.596Z",
+  "model": "deepseek-v4-flash"
+}

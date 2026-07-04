@@ -1,0 +1,45 @@
+{
+  "cik": "0001723788",
+  "ticker": "BITW",
+  "name": "Bitwise 10 Crypto Index ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-085428",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1723788/000119312526085428/bitw-20251231.htm"
+  },
+  "business": "Bitwise 10 Crypto Index ETF is a Delaware statutory trust that issues shares representing fractional undivided beneficial interest in a portfolio of crypto assets, designed to track the Bitwise 10 Large Cap Crypto Index. The trust's purpose is to provide a cost-effective, professionally managed way to invest in the crypto asset market without picking individual tokens.",
+  "sellsTo": [
+    "investors",
+    "retail investors",
+    "institutional investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:crypto",
+      "stance": "core_product",
+      "sentence": "The Trust holds a Portfolio of Crypto Assets, referred to as the Portfolio Crypto Assets."
+    },
+    {
+      "tag": "other:blockchain",
+      "stance": "core_product",
+      "sentence": "The software related to the Blockchains on which ownership of Crypto Assets is recorded may alter the incentive payments to Miners or Validators required to complete transactions, which could materially and adversely affect the transfer or storage of Crypto Assets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches, hacking incidents, or other malicious activities could result in significant losses or impairments of our holdings in Crypto Assets."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "advances in cryptography and/or technical advances, such as the development of quantum computing, could present risks to the Blockchains that record ownership of the Portfolio Crypto Assets by undermining the cryptographic consensus mechanism that underpins the Blockchain protocols."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:38:00.003Z",
+  "model": "deepseek-v4-flash"
+}

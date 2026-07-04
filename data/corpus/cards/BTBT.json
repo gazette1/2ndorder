@@ -1,0 +1,71 @@
+{
+  "cik": "0001710350",
+  "ticker": "BTBT",
+  "name": "Bit Digital, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-035544",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1710350/000121390026035544/ea0279621-10k_bitdigit.htm"
+  },
+  "business": "Bit Digital, Inc. is a holding company focused on Ethereum-native treasury and staking strategies, and through its majority equity stake in WhiteFiber Inc., it also engages in high performance computing (HPC) business, including cloud services and HPC data center services. It also operates digital asset mining but is transitioning to a pure ETH staking and treasury company.",
+  "sellsTo": [
+    "AI application and ML developers",
+    "cloud gaming providers",
+    "customers needing colocation services"
+  ],
+  "namedCustomers": [
+    "Boosteroid"
+  ],
+  "namedSuppliers": [
+    "NVIDIA",
+    "SuperMicro",
+    "Dell",
+    "Hewlett Packard Enterprise",
+    "QCT",
+    "Digihost",
+    "Coinmint",
+    "Bitdeer",
+    "Digital Energy Partners LLC",
+    "Soluna",
+    "GreenBlocks",
+    "Blockbreakers",
+    "Blockfusion",
+    "Figment",
+    "Blockdaemon",
+    "MarsLand",
+    "Marsprotocol",
+    "Liquid Collective",
+    "Coinbase",
+    "StakeWise",
+    "Portara",
+    "EigenLayer"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The cloud services support generative AI workstreams, especially training and inference."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "WhiteFiber designs, develops, and operates Tier-3 data centers that provide hosting and colocation services with high reliability infrastructure, including N+1 redundancy, advanced cooling, and strict monitoring systems designed to support AI workloads."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reach 76 MW of total data center capacity",
+      "date": "2026-12-31",
+      "sentence": "The current portfolio includes facilities such as MTL-1, MTL-2, MTL-3 in Quebec and NC-1 in North Carolina, with a goal of reaching approximately 76 MW of total capacity by the end of 2026 and a broader development pipeline of roughly 1,500 MW under review."
+    },
+    {
+      "event": "Partnerships with Soluna and GreenBlocks conclude",
+      "date": "2026-02-28",
+      "sentence": "The Company's partnership with Soluna and GreenBlocks concluded at the end of February 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:35:29.001Z",
+  "model": "deepseek-v4-flash"
+}

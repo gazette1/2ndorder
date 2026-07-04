@@ -1,0 +1,70 @@
+{
+  "cik": "0001672688",
+  "ticker": "ABSI",
+  "name": "Absci Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001672688-26-000068",
+    "filedAt": "2026-03-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1672688/000167268826000068/absi-20251231.htm"
+  },
+  "business": "Absci Corp is a clinical-stage biopharmaceutical company that uses an AI-native approach to develop differentiated antibody therapeutics. The company focuses on underexplored biological mechanisms with high unmet medical need, such as androgenetic alopecia and endometriosis. It generates revenue through drug creation partnerships and aims to advance its own pipeline through clinical development.",
+  "sellsTo": [
+    "patients with androgenetic alopecia",
+    "patients with endometriosis",
+    "pharmaceutical and biotechnology companies as partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a clinical-stage biopharmaceutical company using an AI-native approach to develop differentiated antibody therapeutics."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "In January 2025, we entered into a strategic collaboration with Advanced Micro Devices, Inc. (AMD) with a goal to optimize the performance of AMD Instinct TM accelerators and ROCm TM software to support our AI drug creation, including our de novo antibody design models."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the application of artificial intelligence and computational methods to drug discovery is still evolving and has not yet consistently resulted in the successful development and regulatory approval of new therapeutic products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Preliminary safety, tolerability, and PK data from HEADLINE trial",
+      "date": "2026-06-30",
+      "sentence": "We anticipate reporting preliminary safety, tolerability, and pharmacokinetic (PK) data in the first half of 2026, with interim proof-of-concept data in the second half of 2026 and full proof-of-concept data in early 2027."
+    },
+    {
+      "event": "Interim proof-of-concept data from HEADLINE trial",
+      "date": "2026-12-31",
+      "sentence": "Interim proof-of-concept data, including exploratory efficacy endpoints, are expected in the second half of 2026."
+    },
+    {
+      "event": "Initiation of Phase 2 clinical trial in endometriosis",
+      "date": "2026-12-31",
+      "sentence": "Our Phase 2 clinical trial for endometriosis is planned for the fourth quarter of 2026, subject to data from the ongoing HEADLINE trial and regulatory considerations."
+    },
+    {
+      "event": "Initiation of multiple ascending dose cohorts in HEADLINE trial",
+      "date": "2026-06-30",
+      "sentence": "We currently expect to initiate three multiple ascending dose (MAD) cohorts in the second quarter of 2026, each planned to enroll approximately 49 healthy volunteers with AGA."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Androgenetic alopecia affects approximately 80 million people in the United States.",
+      "sentence": "Androgenetic Alopecia: ABS-201 is being evaluated in the HEADLINE Phase 1/2a clinical trial (NCT07317544) for AGA, a condition affecting approximately 80 million people in the United States."
+    },
+    {
+      "claim": "Endometriosis is estimated to affect approximately 10% of women of reproductive age worldwide.",
+      "sentence": "Endometriosis: We plan to initiate a Phase 2 clinical trial of ABS-201 in endometriosis, a chronic condition estimated to affect approximately 10% of women of reproductive age worldwide."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:26:23.372Z",
+  "model": "deepseek-v4-flash"
+}

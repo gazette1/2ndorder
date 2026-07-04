@@ -1,0 +1,47 @@
+{
+  "cik": "0001327688",
+  "ticker": "OOMA",
+  "name": "OOMA INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001327688-26-000009",
+    "filedAt": "2026-04-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1327688/000132768826000009/ooma-20260131.htm"
+  },
+  "business": "Ooma provides cloud-based communications services (SaaS) and related technologies to businesses and residential customers. Its solutions include voice, video, messaging, and collaboration features. It generates revenue from subscriptions and sale of on-premise devices.",
+  "sellsTo": [
+    "businesses of all sizes",
+    "residential consumers",
+    "mobile app users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Equinix, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "Ooma provides leading communications services and related technologies that bring unique features, ease of use, and affordability to business and residential customers through our smart software-as-a-service ( SaaS ) and unified communications platforms."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A ransomware attack or other security breach could delay or interrupt service to our customers, compromise the integrity of our systems or data that we collect, result in the loss of our intellectual property or confidential information, harm our reputation, or subject us to significant liability."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We currently serve the majority of our customers from data centers in Northern California, Texas and Virginia, where we lease space from Equinix, Inc."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Ooma also sells a variety of accessories including: handsets with smartphone-like features, remote phone jacks and battery backup, as well as a range of sensors for home security and monitoring."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:57:09.776Z",
+  "model": "deepseek-v4-flash"
+}

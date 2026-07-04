@@ -1,0 +1,45 @@
+{
+  "cik": "0001639300",
+  "ticker": "OLLI",
+  "name": "Ollie's Bargain Outlet Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-010409",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639300/000114036126010409/ef20060524_10k.htm"
+  },
+  "business": "Ollie's Bargain Outlet is a leading off-price retailer of brand name household products. It sells products at prices up to 70% below traditional retailers. The company operates 645 stores in 34 states as of January 31, 2026.",
+  "sellsTo": [
+    "retail consumers",
+    "household shoppers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any disruptions to our information technology systems or breaches of our network security could disrupt or interrupt our operations, compromise our reputation, expose us to litigation, government enforcement actions, and costly response measures and may have a material adverse effect on our business, financial condition, and results of operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "If we fail to incorporate AI into our business operations as quickly or effectively as our competitors do, such failure could impair our ability to compete effectively, and our operations could suffer accordingly."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Labor shortages and increased turnover or increases in employee and employee-related costs could have adverse effects on our profitability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open 75 new stores and expand two distribution centers in fiscal 2026",
+      "date": null,
+      "sentence": "Capital expenditures in 2026 are planned to be approximately $103 to $113 million, primarily for the opening of 75 new stores, store-level initiatives at our existing stores, the expansion of two existing distribution centers, as well as general corporate capital expenditures, including information technology."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:36:27.774Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "0001740332",
+  "ticker": "REZI",
+  "name": "RESIDEO TECHNOLOGIES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001740332-26-000005",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/rezi-20251231.htm"
+  },
+  "business": "Resideo is a global manufacturer, developer, and distributor of technology-driven sensing and controls products and solutions for comfort, security, energy use, and smart living. It sells primarily through a network of approximately 100,000 professional contractors, installers, dealers, and integrators.",
+  "sellsTo": [
+    "Residential",
+    "Commercial",
+    "Professional contractors/installers/integrators",
+    "OEMs",
+    "Retailers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "We are a global manufacturer, developer, and distributor of technology-driven sensing and controls products and solutions that help homeowners and businesses stay connected and in control of their comfort, security, energy use, and smart living."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "For example, our video solutions use AI to identify people, animals, packages, and other objects."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our products and solutions for comfort, energy management, safety, and security benefit from trusted, well-established branded offerings such as Braukmann, BRK, First Alert, Honeywell Home, Resideo, and others."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "In addition, our connected products potentially expose our business and customers to cybersecurity threats."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "the slowing of the housing market may result in reduced demand for the products we manufacture and distribute."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "our business is affected by the performance of the global new construction and the repair and remodel construction industry."
+    },
+    {
+      "tag": "other:cloud-infrastructure",
+      "stance": "core_product",
+      "sentence": "Our offerings include temperature and humidity control, water and air solutions, smoke and carbon monoxide detection home safety products, residential and small business security products, video cameras, other home-related lifestyle convenience solutions, cloud infrastructure, installation and maintenance tools, and related software."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Announced intention to spin-off ADI Global Distribution segment",
+      "date": "2025-07-30",
+      "sentence": "On July 30, 2025, we announced our intention to separate the ADI Global Distribution segment through a tax-free spin-off to our shareholders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:30:19.101Z",
+  "model": "deepseek-v4-flash"
+}

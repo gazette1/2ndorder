@@ -1,0 +1,61 @@
+{
+  "cik": "0000763532",
+  "ticker": "LYTS",
+  "name": "LSI INDUSTRIES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-028862",
+    "filedAt": "2025-09-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/763532/000143774925028862/lyts20250630_10k.htm"
+  },
+  "business": "LSI Industries Inc. is a leading producer of non-residential lighting and retail display solutions. The Lighting Segment manufactures and sells indoor/outdoor lighting fixtures and controls for verticals like refueling, convenience store, parking, garage, quick-service restaurant, retail, grocery, pharmacy, automotive dealership, sports, and warehouse. The Display Solutions Segment manufactures and sells exterior/interior visual image and display elements including signage, digital menu boards, refrigerated displays, and custom display elements, along with project management services.",
+  "sellsTo": [
+    "refueling and convenience store",
+    "parking lot and garage",
+    "quick-service restaurant",
+    "retail",
+    "grocery and pharmacy",
+    "automotive dealership",
+    "sports court and field",
+    "warehouse",
+    "grocery and quick-service restaurants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "we offer a suite of lighting control options, including sensors, photocontrols, dimming, motion detection and circuit controllers in both analog and wireless technologies"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems are subject to certain cyber risks and could be subject to interruptions that are beyond our control."
+    },
+    {
+      "tag": "other:trade-tariffs",
+      "stance": "risk_mention",
+      "sentence": "Tariffs implemented on our component parts and certain finished good inventory will increase the cost of our products manufactured at our plants in the U.S. and in Canada."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Global physical climate changes, including unseasonable weather conditions, could result in reduced demand or product obsolescence for certain of our customers products and/or price modifications for our customers products and the resources needed to produce them."
+    },
+    {
+      "tag": "other:inflation-interest",
+      "stance": "risk_mention",
+      "sentence": "Increases in inflation and interest rates in the United States and elsewhere could adversely affect our business."
+    },
+    {
+      "tag": "other:digital-signage",
+      "stance": "core_product",
+      "sentence": "The Display Solutions Segment also manufactures, sells and installs exterior and interior visual image and display elements, including printed graphics, structural graphics, digital signage, digital menu board systems, refrigerated displays, and custom display elements."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:22:31.749Z",
+  "model": "deepseek-v4-flash"
+}

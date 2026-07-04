@@ -1,0 +1,77 @@
+{
+  "cik": "0001812477",
+  "ticker": "KEEL",
+  "name": "Keel Infrastructure Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-037514",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1812477/000121390026037514/ea0282809-10k_bitfarms.htm"
+  },
+  "business": "Keel Infrastructure Corp. develops, owns, and plans to operate data centers and energy infrastructure for high-performance computing (HPC) and artificial intelligence (AI) workloads. It also operates Bitcoin Mining data centers. The company sells computational power to Mining Pool operators under Full Pay Per Share agreements and intends to lease HPC data center capacity to hyperscalers, cloud service providers, AI companies, and enterprises under long-term contracts.",
+  "sellsTo": [
+    "hyperscalers",
+    "cloud service providers",
+    "AI companies",
+    "enterprises",
+    "Mining Pool operators"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bitmain",
+    "Vertiv",
+    "Customized Energy Solutions"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are developing data centers designed to support HPC and AI workloads, with the intention of leasing capacity to hyperscalers, cloud service providers, AI companies, and enterprises under long-term contracts."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are developing data centers designed to support HPC and AI workloads, with the intention of leasing capacity to hyperscalers, cloud service providers, AI companies, and enterprises under long-term contracts."
+    },
+    {
+      "tag": "other:bitcoin-mining",
+      "stance": "core_product",
+      "sentence": "As its historical core business, Bitfarms owns and operates data centers housing computers (referred to as Miners) designed for the purpose of validating transactions on the Bitcoin Blockchain (referred to as Mining)."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We have a portfolio of assets (our Infrastructure Assets) that include owned and operated power generation facilities with collocated Bitcoin Mining data centers, established grid interconnections within the wholesale electricity market administered by PJM Interconnection, L.L.C. (PJM) in Pennsylvania, and 100% renewable hydroelectric capacity in Québec, Canada and Washington state."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We sell our electricity into the PJM Merchant Market under a professional services agreement with Customized Energy Solutions, Ltd."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of U.S. Redomiciliation to Keel Infrastructure Corp.",
+      "date": "2026-04-01",
+      "sentence": "On or about April 1, 2026, we expect to complete our U.S. Redomiciliation process, pursuant to which shareholders of Bitfarms will exchange their shares for shares of a newly formed public company incorporated in the State of Delaware, Keel Infrastructure Corp. (Keel)."
+    },
+    {
+      "event": "Begin trading under ticker KEEL",
+      "date": "2026-04-06",
+      "sentence": "On or about April 6, 2026, we expect to begin trading on the Nasdaq and TSX under the ticker symbol KEEL."
+    },
+    {
+      "event": "Purchase commitment with Vertiv for HPC data center development",
+      "date": null,
+      "sentence": "In October 2025, we advanced our HPC infrastructure strategy by acquiring the Sharon property in Pennsylvania, United States, for $38.7 million and entered into a purchase commitment of $128.7 million, payable in the next 12 months, for the development and expansion of HPC data center projects with Vertiv."
+    },
+    {
+      "event": "Full repayment of Macquarie credit facility",
+      "date": "2026-02",
+      "sentence": "In February 2026, we fully repaid the $100.0 million Macquarie credit facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:48:09.667Z",
+  "model": "deepseek-v4-flash"
+}

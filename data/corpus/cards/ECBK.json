@@ -1,0 +1,51 @@
+{
+  "cik": "0001914605",
+  "ticker": "ECBK",
+  "name": "ECB Bancorp, Inc. /MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-009778",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1914605/000143774926009778/ecbk20251231_10k.htm"
+  },
+  "business": "ECB Bancorp, Inc. is the bank holding company for Everett Co-operative Bank, which primarily takes deposits from the general public and invests those deposits in one-to-four family residential real estate loans, commercial real estate and multifamily real estate loans, construction and land loans, and home equity lines of credit and loans. The company serves customers in the greater Boston metropolitan area including Middlesex, Essex, and Suffolk Counties, Massachusetts. It also invests in securities such as U.S. government and federal agency obligations, mortgage-backed securities, and corporate bonds.",
+  "sellsTo": [
+    "Individuals and families in the greater Boston metropolitan area",
+    "Small and medium-sized businesses",
+    "Developers and builders in the primary lending area (Middlesex, Essex, Suffolk, and Norfolk Counties, Massachusetts)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:residential-lending",
+      "stance": "core_product",
+      "sentence": "Our business consists primarily of taking deposits from the general public and investing those deposits, together with funds generated from operations, in one-to-four family residential real estate loans, commercial real estate and multifamily real estate loans, construction and land loans and home equity lines of credit and loans."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our commercial real estate loans are secured primarily by multifamily apartment buildings, retail and mixed-use properties, light industrial properties, manufacturing facilities and office buildings, almost all of which are located in our primary market area."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "Consistent with our strategy to grow our commercial loan operations and the consequent commercial relationship opportunities, we have and will continue to upgrade our suite of deposit products and related services and have and will continue to upgrade our digital and mobile applications in order to accommodate business customers and thereby accelerate the growth in our core deposits."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a failure or breach of our operational or security systems or infrastructure, including cyberattacks"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Filing application to establish a new branch office in Medford, MA",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we announced that we are filing an application to establish a new branch office in Medford, MA."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:03:09.426Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,53 @@
+{
+  "cik": "0000854560",
+  "ticker": "GSBC",
+  "name": "GREAT SOUTHERN BANCORP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-024659",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/854560/000110465926024659/gsbc-20251231x10k.htm"
+  },
+  "business": "Great Southern Bancorp, Inc. is a bank holding company that, through its subsidiary Great Southern Bank, offers a variety of banking and banking-related services, including commercial real estate loans, construction loans, other commercial loans, residential real estate loans, and consumer loans, funded by deposits and borrowings. The company serves customers through 89 banking centers primarily in Missouri, Iowa, Kansas, Minnesota, Arkansas, and Nebraska, as well as commercial loan production offices in several other states.",
+  "sellsTo": [
+    "individuals",
+    "businesses",
+    "commercial real estate developers",
+    "homeowners",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In September 2023, the Company opened Great Southern Express, a modern four-lane drive-through center using only interactive teller machine (ITM) technology to serve customers in Springfield, Missouri."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are also subject to security-related risks in connection with our use of technology, and our security measures may not be sufficient to mitigate the risk of a cyber-attack or to protect us from systems failures or interruptions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our current and future uses of Artificial Intelligence (AI) and other emerging technologies may create additional risks."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and related legislative and regulatory initiatives may materially affect the Company's business and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transition banking center to second drive-thru Express Center location",
+      "date": null,
+      "sentence": "In the first half of 2026, the Company expects to transition its banking center located at 4700 Mid Rivers Mall Dr. in Cottleville, Mo., to its second drive-thru Express Center location."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:34:21.323Z",
+  "model": "deepseek-v4-flash"
+}

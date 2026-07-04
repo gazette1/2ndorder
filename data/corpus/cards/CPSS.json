@@ -1,0 +1,56 @@
+{
+  "cik": "0000889609",
+  "ticker": "CPSS",
+  "name": "CONSUMER PORTFOLIO SERVICES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001683168-26-001856",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826001856/cps_i10k-123125.htm"
+  },
+  "business": "Consumer Portfolio Services, Inc. purchases and services retail automobile contracts originated by franchised and independent dealers, providing indirect financing to sub-prime customers with limited credit histories or past credit problems.",
+  "sellsTo": [
+    "franchised automobile dealers",
+    "select independent dealers",
+    "sub-prime customers (limited credit histories or past credit problems)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:subprime-auto-finance",
+      "stance": "core_product",
+      "sentence": "Our business is to purchase and service retail automobile contracts originated primarily by franchised automobile dealers and, to a lesser extent, by select independent dealers in the United States in the sale of new and used automobiles, light trucks and passenger vans."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use artificial intelligence (AI) in certain aspects of our business operations, and we or our third-party service providers may expand the use of these technologies in the future."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A Breach in the Security of Our Systems Could Result in the Disclosure of Confidential Information, Subject us to Liability."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New warehouse credit facility",
+      "date": "2025-10-17",
+      "sentence": "In October 2025, we entered into a new $167.5 million facility."
+    },
+    {
+      "event": "Residual interest financing",
+      "date": "2025-03-20",
+      "sentence": "On March 20, 2025, we completed a residual interest financing of our residual interests from previously issued securitizations in the amount of $65.0 million."
+    },
+    {
+      "event": "Securitization of automobile contracts",
+      "date": null,
+      "sentence": "In January 2026, we completed another securitization with $345.6 million of notes sold."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:37:56.797Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,67 @@
+{
+  "cik": "0002067627",
+  "ticker": "NKLR",
+  "name": "Terra Innovatum Global N.V.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-068933",
+    "filedAt": "2026-06-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/2067627/000121390026068933/ea0285850-10k_terra.htm"
+  },
+  "business": "We are a pioneering nuclear energy technology company developing the SOLO TM Micro-Modular Nuclear Reactor (SOLO), a breakthrough solution designed to address critical challenges in affordable clean decentralized energy production. The SOLO reactor's core innovation lies in its ability to generate 1 MWe of electricity baseload with a continuous operational cycle of up to 15 years, extendable to 45 years through refueling, with a fixed and competitive projected levelized cost of energy. Our strategic roadmap targets commercial deployment by 2028, with a clear focus on delivering a scalable, modular nuclear solution that can be deployed across diverse geographies and markets from industrial and infrastructure to remote and off-grid applications.",
+  "sellsTo": [
+    "industrial manufacturing (cement, steel, mining, paper production)",
+    "critical infrastructure services (airports, ports, logistics hubs)",
+    "agricultural and food processing applications (greenhouses, vertical farming, food processing plants)",
+    "energy storage (ammonia production, pink hydrogen)",
+    "essential utility services like desalination and water treatment",
+    "remote and off-grid applications"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Nine Nuclear and Industrial Engineering S.R.L.",
+    "FPoliSolutions LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "We are a pioneering nuclear energy technology company developing the SOLO TM Micro-Modular Nuclear Reactor (SOLO), a breakthrough solution designed to address critical challenges in affordable clean decentralized energy production."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The explosive growth in data center energy requirements, particularly with artificial intelligence (AI) and computational infrastructure expansion, presents a promising market segment."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "The explosive growth in data center energy requirements, particularly with artificial intelligence (AI) and computational infrastructure expansion, presents a promising market segment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cybersecurity threats which could have adverse effects, including regulatory effects, on our business and results of operations."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "risk_mention",
+      "sentence": "Certain materials, such as the graphite used for the moderator, are currently produced in limited quantities and are available predominantly from a small number of vendors inside and outside the United States (e.g., Italy, Germany, and Japan)."
+    },
+    {
+      "tag": "other:energy-storage",
+      "stance": "risk_mention",
+      "sentence": "We have strategically designed SOLO with multi-sector versatility, targeting a diverse range of energy-intensive industries including industrial manufacturing (cement, steel, mining, paper production), critical infrastructure services (airports, ports, logistics hubs), agricultural and food processing applications (greenhouses, vertical farming, food processing plants), energy storage (ammonia production, pink hydrogen) and essential utility services like desalination and water treatment."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "target commercial deployment of SOLO FOAK reactor by 2028",
+      "date": null,
+      "sentence": "Our strategic roadmap targets commercial deployment by 2028, with a clear focus on delivering a scalable, modular nuclear solution that can be deployed across diverse geographies and markets from industrial and infrastructure to remote and off-grid applications."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:57:39.562Z",
+  "model": "deepseek-v4-flash"
+}

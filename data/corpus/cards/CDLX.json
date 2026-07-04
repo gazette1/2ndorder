@@ -1,0 +1,55 @@
+{
+  "cik": "0001666071",
+  "ticker": "CDLX",
+  "name": "Cardlytics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001666071-26-000010",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666071/000166607126000010/cdlx-20251231.htm"
+  },
+  "business": "Cardlytics operates a commerce media platform comprising a financial media network within financial institution partners' digital channels (Cardlytics platform) and an identity resolution platform using point-of-sale data (Bridg platform). The company sells targeted advertising and measurement services to marketers, leveraging anonymized purchase data from financial institution partners.",
+  "sellsTo": [
+    "Marketers across everyday spend, specialty retail, restaurant, travel and entertainment industries",
+    "Financial institution partners as data and channel providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Chase (JPMorgan Chase Bank, National Association)",
+    "Wells Fargo Bank, National Association",
+    "American Express Travel Related Services Company, Inc.",
+    "Bank of America (relationship ended)"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We operate a commerce media platform that is designed to make commerce smarter and rewarding for everyone."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "An actual or perceived breach of the security of our systems, or those of third parties with whom we work, could result in adverse consequences resulting from such breach, including but not limited to a disruption of our operations, reputational harm, loss of revenue or profits, loss of customers, regulatory investigations or actions, litigation, fines and penalties and other adverse consequences."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of Bridg business to PAR Technology Corporation",
+      "date": null,
+      "sentence": "In January 2026, we entered into a definitive agreement to sell substantially all of the assets primarily related to, or primarily used in, our Bridg platform to an affiliate of PAR Technology Corporation."
+    },
+    {
+      "event": "End of Bank of America relationship",
+      "date": "2026-02-16",
+      "sentence": "Pursuant to the agreements, Bank of America requested that we continue to provide uninterrupted operations under the agreements for a period through January 27, 2026, which period was extended through February 16, 2026, at which point our relationship with Bank of America ended."
+    },
+    {
+      "event": "Amendment with Chase extending term",
+      "date": "2025-07-01",
+      "sentence": "In July 2025, we further amended the Schedule to extend its term through November 18, 2028 and update certain billing share, incentive and reporting provisions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:30:31.113Z",
+  "model": "deepseek-v4-flash"
+}

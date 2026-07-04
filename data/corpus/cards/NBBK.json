@@ -1,0 +1,57 @@
+{
+  "cik": "0001979330",
+  "ticker": "NBBK",
+  "name": "NB Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-022367",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1979330/000110465926022367/nbbk-20251231x10k.htm"
+  },
+  "business": "NB Bancorp, Inc., through its subsidiary Needham Bank, provides banking services including taking deposits and originating commercial real estate, multifamily, residential, construction, commercial and industrial, mortgage warehouse, and consumer loans to individuals and businesses, primarily in the Greater Boston metropolitan area and surrounding New England regions.",
+  "sellsTo": [
+    "individuals and businesses in the Greater Boston metropolitan area and surrounding communities",
+    "cannabis-related entities",
+    "solar companies",
+    "non-bank mortgage origination companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:cannabis",
+      "stance": "core_product",
+      "sentence": "We have deposit and loan customers that are licensed in various states to do business in the cannabis industry as growers, processors, and dispensaries."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We also have industry-specific warehouse lending and structured commercial and industrial relationships to cannabis and solar companies and bridge financing based on our underlying diligence and understanding of the specific operations outside of our primary market area."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our mortgage warehouse lending business, which was part of the Provident Acquisition, has a national platform with relationship managers across the United States that offers Master Repurchase Agreement Facilities ( Facilities ) to independent non-bank mortgage origination companies, which allow them to fund the closing of residential mortgage loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "Additional investments have been made to continually strengthen cybersecurity controls, such as with expanded vulnerability detection and patch management protocols."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of Provident Bancorp acquisition",
+      "date": "2025-11-15",
+      "sentence": "On November 15, 2025, the Company acquired Provident Bancorp, Inc. and its wholly-owned subsidiary, BankProv, which operated seven banking offices and one mortgage warehouse lending facility, for $111.8 million in cash consideration and the issuance of 5,943,682 shares of common stock valued at $114.7 million."
+    },
+    {
+      "event": "Expected close of sale of $67.0 million consumer loans transferred to held for sale",
+      "date": "2026-03-31",
+      "sentence": "At December 31, 2025 we transferred $67.0 million in previously purchased consumer loans to loans held for sale, the sale of which is expected to close in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:24:27.767Z",
+  "model": "deepseek-v4-flash"
+}

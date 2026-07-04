@@ -1,0 +1,69 @@
+{
+  "cik": "0001776909",
+  "ticker": "CURI",
+  "name": "CuriosityStream Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017346",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1776909/000162828026017346/curi-20251231.htm"
+  },
+  "business": "CuriosityStream is a media and entertainment company that offers premium factual video and audio programming via subscription video-on-demand (SVOD) platforms, content licensing, bundled distribution to MVPDs/vMVPDs, and advertising/sponsorship. Revenue is derived from direct-to-consumer subscriptions, partner platform fees, content licensing (including for AI model training), bundled affiliate fees, and other advertising services.",
+  "sellsTo": [
+    "Direct consumers",
+    "Media companies",
+    "MVPDs and vMVPDs",
+    "Technology companies (for AI training)",
+    "Advertisers"
+  ],
+  "namedCustomers": [
+    "Comcast",
+    "Cox",
+    "Dish",
+    "Amazon Prime Video Channels",
+    "Apple Channel",
+    "The Roku Channel",
+    "Sling TV",
+    "YouTube TV",
+    "Multichoice",
+    "FuboTV",
+    "Izzi"
+  ],
+  "namedSuppliers": [
+    "NHK",
+    "ZED",
+    "Terra Mater"
+  ],
+  "exposures": [
+    {
+      "tag": "other:ai-content-licensing",
+      "stance": "core_product",
+      "sentence": "In addition, we work with technology companies to deliver hundreds of thousands of hours of video and audio to meet the demand for premium assets required for training next-generation AI models."
+    },
+    {
+      "tag": "other:ai-localization",
+      "stance": "risk_mention",
+      "sentence": "To improve operational efficiency and reduce the significant costs traditionally associated with studio-based localization, we are increasingly exploring and testing Artificial Intelligence (AI) solutions for subtitling and dubbing."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any significant disruption in or unauthorized access to our computer systems or those of third parties that we utilize in our operations, including those relating to cybersecurity or arising from cyber-attacks, could result in a loss or degradation of service, unauthorized access, harm to our reputation, disclosure or destruction of data, including user and corporate information, or theft of intellectual property, including digital content assets, which could adversely impact our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Execution of $10.0 million Senior Secured Revolving Credit Facility",
+      "date": "2026-03-12",
+      "sentence": "On March 12, 2026, the Company executed a definitive agreement for a $10.0 million Senior Secured Revolving Credit Facility (the \"Credit Facility\") with Citibank, N.A."
+    },
+    {
+      "event": "Next quarterly cash dividend payment of $0.08 per share",
+      "date": "2026-03-20",
+      "sentence": "Our Board of Directors has declared the next cash dividend of $0.08 per share to be paid on March 20, 2026, for an expected aggregate amount of $4.7 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:07:09.268Z",
+  "model": "deepseek-v4-flash"
+}

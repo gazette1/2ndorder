@@ -1,0 +1,83 @@
+{
+  "cik": "0001375205",
+  "ticker": "URG",
+  "name": "UR-ENERGY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-025923",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1375205/000110465926025923/urg-20251231x10k.htm"
+  },
+  "business": "Ur-Energy Inc. is a uranium mining company that produces uranium oxide (U3O8) through in situ recovery and sells it to nuclear utilities under multi-year sales agreements. The company operates the Lost Creek ISR facility in Wyoming and is developing the Shirley Basin project.",
+  "sellsTo": [
+    "nuclear utilities",
+    "global nuclear energy companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "Uranium fuels carbon-free, emission-free nuclear power which is a clean, cost-effective, and reliable form of electrical power."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Efforts to increase the availability of nuclear power to help satisfy the increasing demand for electricity have been driven in part by the emergence of artificial intelligence ( AI ) and the expansion of the data center industry."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Efforts to increase the availability of nuclear power to help satisfy the increasing demand for electricity have been driven in part by the emergence of artificial intelligence ( AI ) and the expansion of the data center industry."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commence production and commission Shirley Basin operations",
+      "date": "2026-12-31",
+      "sentence": "Construction and development at the site, including construction of the satellite plant, is well advanced and we plan to commence production and commission Shirley Basin operations in 2026."
+    },
+    {
+      "event": "Bring several header houses online in MU1 Phase 2 at Lost Creek",
+      "date": "2026-06-30",
+      "sentence": "During 2026 H1, we anticipate bringing several header houses online in MU1 Phase 2 as we continue to progress toward full plant capacity production."
+    },
+    {
+      "event": "Construct water treatment facility at Lost Creek",
+      "date": "2026-12-31",
+      "sentence": "engineering work has progressed for a filtration and wastewater treatment facility, which we plan to construct in 2026 after detailed design work is complete."
+    },
+    {
+      "event": "Commence aquifer testing at Lost Soldier project",
+      "date": "2026-03-31",
+      "sentence": "We will commence aquifer testing in 2026 Q1 and plan to initiate baseline environmental studies in 2026 in anticipation of possible permitting to advance the project."
+    },
+    {
+      "event": "First header house in MU1 Phase 2 brought online",
+      "date": "2026-02-28",
+      "sentence": "The first of those header houses was brought online in February 2026."
+    },
+    {
+      "event": "Pre-operational inspection by Wyoming Uranium Recovery Program at Shirley Basin",
+      "date": "2026-03-31",
+      "sentence": "The URP began its pre-operational inspection in late February 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global nuclear capacity could more than double by 2050 per IAEA",
+      "sentence": "The most recent projections of the International Atomic Energy Agency are that global nuclear capacity could more than double by 2050, and the World Nuclear Association ( WNA ) has called for nuclear power generation to triple by 2050."
+    },
+    {
+      "claim": "Global uranium requirements could increase to about 86,000 tonnes by 2030 and 150,000 tonnes by 2040 per WNA",
+      "sentence": "In its September 2025 report, the WNA projected that global uranium requirements could increase by approximately one-third to about 86,000 metric tonnes by 2030 and to approximately 150,000 metric tonnes by 2040."
+    },
+    {
+      "claim": "Data center share of U.S. electricity consumption to grow from 4.4% in 2023 to 7-12% by 2028 per DOE",
+      "sentence": "The U.S. Department of Energy ( DOE ) has reported that the data center industry consumed approximately 4.4% of U.S. electricity in 2023, and projects that its share of consumption will grow to 7 to 12% by 2028."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:59:31.795Z",
+  "model": "deepseek-v4-flash"
+}

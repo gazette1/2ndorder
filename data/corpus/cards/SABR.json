@@ -1,0 +1,55 @@
+{
+  "cik": "0001597033",
+  "ticker": "SABR",
+  "name": "Sabre Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008800",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1597033/000162828026008800/sabr-20251231.htm"
+  },
+  "business": "Sabre Corporation provides a global business-to-business travel marketplace, Sabre Mosaic Marketplace, consisting of a global distribution network and a broad set of software solutions that integrate with its distribution platform. The company sells travel technology services to travel suppliers (airlines, hotels, car rental brands, rail carriers, cruise lines, tour operators) and travel buyers (online travel agencies, offline travel agencies, travel management companies, corporate travel departments).",
+  "sellsTo": [
+    "Travel suppliers (airlines, hotels, car rental, rail, cruise, tour operators)",
+    "Travel buyers (OTAs, offline travel agencies, TMCs, corporate travel departments)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-enabled-platform",
+      "stance": "core_product",
+      "sentence": "In 2024, we launched SabreMosaic TM Airline Technology, a proprietary offer and order retailing platform for airlines that is designed and built on a modular, artificial intelligence (\"AI\")-enabled open technology structure, enabling airlines to dynamically create, sell and deliver an array of personalized content to travelers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security incidents expose us to liability and could damage our reputation and our business."
+    },
+    {
+      "tag": "other:ndc",
+      "stance": "core_product",
+      "sentence": "Our growth strategy includes enhancing relationships with customers by promoting the benefits to them and travelers of adopting additional products and services, adapting those products to the changing needs of the travel ecosphere, including integrating new distribution capability (NDC)."
+    },
+    {
+      "tag": "other:cloud-migration",
+      "stance": "active_investment",
+      "sentence": "We operate standardized infrastructure in our cloud computing environments across hardware, operating systems, databases, and other key enabling technologies to minimize costs on non-differentiators."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Maturity of $150 million 2026 Exchangeable Notes",
+      "date": "2026-08",
+      "sentence": "The 2026 Exchangeable Notes (as defined below) of $150 million mature in August 2026."
+    },
+    {
+      "event": "Implementation of inflation offset program in 2026",
+      "date": "2026-01-01",
+      "sentence": "We have announced that we are implementing a program in 2026, designed to offset normal inflationary pressures over the next two to three years, with the goal of keeping technology costs and selling, general and administrative costs relatively flat when compared to 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:44:34.824Z",
+  "model": "deepseek-v4-flash"
+}

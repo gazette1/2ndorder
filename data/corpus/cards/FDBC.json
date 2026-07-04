@@ -1,0 +1,50 @@
+{
+  "cik": "0001098151",
+  "ticker": "FDBC",
+  "name": "FIDELITY D & D BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008215",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1098151/000143774926008215/fdbc20260301_10k.htm"
+  },
+  "business": "The Bank offers a full range of traditional banking services including personal and corporate trust, alternative financial and insurance products, and asset management. It serves customers primarily in Lackawanna, Luzerne, and Northampton counties in Pennsylvania.",
+  "sellsTo": [
+    "Individuals",
+    "Businesses",
+    "Trust customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The operations of our business, including our interaction with customers, are increasingly done via electronic means, and this has increased our risks related to cyber security."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The Company may use artificial intelligence (AI) in its business, and challenges with properly managing its use could result in disruption of our internal operations, reputational harm, competitive harm, legal liability and adversely affect our results of operations and stock price."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank has a personal and corporate trust department and also provides alternative financial and insurance products with asset management services."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company's loan portfolio is comprised principally of residential real estate, consumer, commercial and commercial real estate loans."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "risk_mention",
+      "sentence": "The Company is subject to commercial real estate volatility that may result in increases in non-performing loans that could have an adverse impact on our financial condition and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:41:04.259Z",
+  "model": "deepseek-v4-flash"
+}

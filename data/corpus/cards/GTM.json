@@ -1,0 +1,53 @@
+{
+  "cik": "0001794515",
+  "ticker": "GTM",
+  "name": "ZoomInfo Technologies Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001794515-26-000012",
+    "filedAt": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000012/zi-20251231.htm"
+  },
+  "business": "ZoomInfo provides a go-to-market intelligence platform that combines data, software, and AI to help sales, marketing, operations, and recruiting professionals target organizations and professionals. The platform includes an intelligence layer with billions of data points, an orchestration layer for data integration, and an engagement layer for multi-channel outreach. Customers are primarily businesses that sell to other businesses, ranging from global enterprises to small businesses.",
+  "sellsTo": [
+    "businesses that sell to other businesses",
+    "global enterprises",
+    "mid-market companies",
+    "small businesses",
+    "sales, marketing, operations, and recruiting teams"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We are able to deliver high-quality intelligence at scale by leveraging an artificial intelligence (AI) and machine learning (ML) powered engine that gathers billions of data points about companies and contact information from millions of sources and standardizes, matches to entities, verifies, cleans, and applies the processed data to companies and people."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks and security vulnerabilities could result in serious harm to our reputation, business, and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reduction in force announced",
+      "date": "2025-06-01",
+      "sentence": "In June 2025, the Company announced a reduction in force (the Plan) to support the Company's broader efforts to move upmarket and support durable and efficient growth."
+    },
+    {
+      "event": "Additional share repurchase authorization",
+      "date": "2025-02-01",
+      "sentence": "In February 2025, our board of directors authorized an additional $500.0 million in repurchases under the Share Repurchase Program."
+    },
+    {
+      "event": "Draw on revolving credit facility",
+      "date": "2025-05-01",
+      "sentence": "In May 2025, the Company drew $100.0 million of the $250.0 million available under its First Lien Revolving Credit Facility."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:45:10.263Z",
+  "model": "deepseek-v4-flash"
+}

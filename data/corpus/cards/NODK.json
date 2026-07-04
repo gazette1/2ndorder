@@ -1,0 +1,59 @@
+{
+  "cik": "0001681206",
+  "ticker": "NODK",
+  "name": "NI Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001174947-26-000305",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1681206/000117494726000305/nodk-20251231.htm"
+  },
+  "business": "NI Holdings is a property and casualty insurance holding company whose subsidiaries offer private passenger auto, homeowners, farmowners, commercial multi-peril, excess liability, dwelling, crop hail, and Federal multi-peril crop insurance. The company markets personal lines in North Dakota, Nebraska, South Dakota, Arizona, and Minnesota, and commercial multi-peril in North Dakota and South Dakota. Nodak Insurance distributes through captive agents in North Dakota, while other subsidiaries use independent agents.",
+  "sellsTo": [
+    "individuals in upper Midwest states",
+    "farmers",
+    "businesses needing commercial multi-peril coverage",
+    "North Dakota Farm Bureau members"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "American Farm Bureau Insurance Services (AFBIS)",
+    "Conning, Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "NI Holdings is a North Dakota business corporation that is the stock holding company of Nodak Insurance Company and became such in connection with the conversion of Nodak Mutual Insurance Company from a mutual to stock form of organization and the creation of a mutual holding company."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Innovation and emerging technologies, including artificial intelligence, continue to greatly impact the insurance industry."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "emerging technologies in the automotive industry such as autonomous vehicles, driver-assistance and accident-avoidance features, sensor technology, and other forms of automation may reduce the future need for, or decrease the future pricing of, our auto insurance products."
+    },
+    {
+      "tag": "sensors",
+      "stance": "risk_mention",
+      "sentence": "emerging technologies in the automotive industry such as autonomous vehicles, driver-assistance and accident-avoidance features, sensor technology, and other forms of automation may reduce the future need for, or decrease the future pricing of, our auto insurance products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks, security breaches, or similar events affecting the technologies and systems we rely on to operate our business and to maintain and protect sensitive Company and customer data could disrupt our operations, harm our reputation, and result in material losses."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total North Dakota multi-peril crop premiums for the industry were $1,311,424 for the year ended December 31, 2025.",
+      "sentence": "Total North Dakota multi-peril crop premiums for the industry were $1,311,424, $1,231,110, and $1,491,650 for the years ended December 31, 2025, 2024, and 2023, respectively."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:27:22.705Z",
+  "model": "deepseek-v4-flash"
+}

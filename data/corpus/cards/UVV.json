@@ -1,0 +1,48 @@
+{
+  "cik": "0000102037",
+  "ticker": "UVV",
+  "name": "UNIVERSAL CORP /VA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-039511",
+    "filedAt": "2026-06-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/102037/000162828026039511/uvv-20260331.htm"
+  },
+  "business": "Universal Corporation is a global business-to-business agriproducts company that procures and processes leaf tobacco for manufacturers of consumer tobacco products, and produces plant-based ingredients for the food and beverage industry.",
+  "sellsTo": [
+    "consumer tobacco product manufacturers",
+    "food and beverage industry",
+    "consumer-packaged goods manufacturers"
+  ],
+  "namedCustomers": [
+    "Imperial Brands plc",
+    "Philip Morris International Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Universal Corporation is a global business-to-business agriproducts company with over 100 years of experience supplying products and innovative solutions to meet our customers evolving needs."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Through our Ingredients Operations segment, we procure raw materials globally and process the raw materials through a variety of value-added manufacturing processes to produce high-quality, innovative, specialty plant-based ingredients, including fruits, vegetables, botanical extracts, and flavorings for consumer-packaged goods manufacturers, retailers, and food and beverage companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks, data breaches or other breaches of our information security systems could cause equipment failures or disruptions to our operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "These strategies and initiatives are expected to focus on efficient financial management, effective human capital management, optimal utilization of technology, including artificial intelligence (AI), and operational synergies between our business segments."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:29:26.207Z",
+  "model": "deepseek-v4-flash"
+}

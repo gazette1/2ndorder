@@ -1,0 +1,85 @@
+{
+  "cik": "0000798287",
+  "ticker": "PAMT",
+  "name": "PAMT CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007960",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/798287/000143774926007960/ptsi20251231_10k.htm"
+  },
+  "business": "PAMT CORP provides truckload dry van carrier services transporting general commodities throughout the continental United States and Mexico, as well as in certain Canadian provinces. Its freight consists primarily of automotive parts, expedited goods, consumer goods, and manufactured goods. The company operates through truckload services and brokerage/logistics services.",
+  "sellsTo": [
+    "Automotive industry",
+    "General retail store merchandise",
+    "Manufactured goods suppliers"
+  ],
+  "namedCustomers": [
+    "General Motors Company",
+    "Ford Motor Company",
+    "Walmart Inc."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We are a holding company that owns subsidiaries engaged in providing truckload dry van carrier services transporting general commodities throughout the continental United States and Mexico, as well as in certain Canadian provinces."
+    },
+    {
+      "tag": "other:automotive-industry",
+      "stance": "core_product",
+      "sentence": "Approximately 35% of our revenues for 2025 were derived from transportation services provided to the automobile industry."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "The imposition of new tariffs on Mexico and Canada, and any retaliatory actions by such countries, may have a negative impact on our operations and profitability."
+    },
+    {
+      "tag": "other:fuel-price-fluctuations",
+      "stance": "risk_mention",
+      "sentence": "An increase in diesel fuel prices or diesel fuel taxes, or any change in federal or state regulations that results in such an increase, could have a material adverse effect on our operating results to the extent we are unable to recoup such increases from customers in the form of increased freight rates or through fuel surcharges."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Difficulty in attracting drivers and independent contractors could affect our profitability and ability to grow."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology systems are subject to certain cyber security and disaster risks that are beyond our control."
+    },
+    {
+      "tag": "other:climate-change-regulations",
+      "stance": "risk_mention",
+      "sentence": "As issues related to climate change become more prevalent, federal, state and local governments, as well as some of our customers, have made efforts to respond to these issues. This increased focus on sustainability has prompted newly enacted and proposed legislation and regulations and customer requirements that could negatively affect us as we may incur additional costs or be required to make changes to our operations in order to comply with any new regulations or customer requirements."
+    },
+    {
+      "tag": "other:insurance-claims",
+      "stance": "risk_mention",
+      "sentence": "Ongoing insurance and claims expenses could significantly reduce our earnings."
+    },
+    {
+      "tag": "other:driver-shortage",
+      "stance": "risk_mention",
+      "sentence": "The transportation industry often experiences significant difficulty in attracting and retaining qualified drivers and independent contractors."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Purchase of 570 new trucks and 700 trailers in fiscal year 2026",
+      "date": "2026-01-01",
+      "sentence": "For 2026, we expect to purchase 570 new trucks and 700 trailers while continuing to sell or trade equipment that has reached the end of its life cycle."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The trucking industry generated over $906 billion in revenue during 2024 while moving over 11.27 billion tons of freight.",
+      "sentence": "According to the American Trucking Association's American Trucking Trends 2025 report, the trucking industry generated over $906 billion in revenue during 2024 while moving over 11.27 billion tons of freight."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:42:51.146Z",
+  "model": "deepseek-v4-flash"
+}

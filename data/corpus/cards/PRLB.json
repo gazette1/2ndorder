@@ -1,0 +1,70 @@
+{
+  "cik": "0001443669",
+  "ticker": "PRLB",
+  "name": "Proto Labs Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001443669-26-000010",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1443669/000144366926000010/prlb-20251231.htm"
+  },
+  "business": "Proto Labs provides digital manufacturing services for custom prototype and low-volume production parts using injection molding, CNC machining, 3D printing, and sheet metal fabrication. It serves product developers, engineers, and supply chain teams across various industries, aiming to accelerate product development and streamline production.",
+  "sellsTo": [
+    "medical and healthcare",
+    "computer electronics",
+    "industrial machinery and equipment",
+    "aerospace",
+    "automotive",
+    "entrepreneurs and small business owners",
+    "Fortune 100 companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Protolabs uses artificial intelligence (AI) in a number of different ways to improve our efficiency and the value we offer to customers, including: intelligent pricing and sourcing algorithms, automated quality inspection in injection molding, toolpath verification in CNC machining, software development, and various other AI end use cases."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Protolabs uses artificial intelligence (AI) in a number of different ways to improve our efficiency and the value we offer to customers, including: intelligent pricing and sourcing algorithms, automated quality inspection in injection molding, toolpath verification in CNC machining, software development, and various other AI end use cases."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We currently serve all manufacturing industry verticals, with our top industries being medical and healthcare, computer electronics, industrial machinery and equipment, aerospace and automotive."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We currently serve all manufacturing industry verticals, with our top industries being medical and healthcare, computer electronics, industrial machinery and equipment, aerospace and automotive."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "possible unauthorized access to customers confidential information stored in our systems"
+    },
+    {
+      "tag": "other:3d-printing",
+      "stance": "core_product",
+      "sentence": "We utilize injection molding, CNC machining, 3D printing and sheet metal fabrication to manufacture custom parts for our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board approval of plan to close prototype injection molding facility in Eschenlohe, Germany and discontinue DMLS 3D printing in Putzbrunn, Germany",
+      "date": "2024-10-21",
+      "sentence": "On October 21, 2024, the Company's board of directors approved a plan related to the Company's manufacturing facilities in Germany."
+    },
+    {
+      "event": "Substantial completion of the plan to close German facilities",
+      "date": "2025-12-31",
+      "sentence": "The Company substantially completed the plan in the fourth quarter of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:27:23.981Z",
+  "model": "deepseek-v4-flash"
+}

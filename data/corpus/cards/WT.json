@@ -1,0 +1,70 @@
+{
+  "cik": "0000880631",
+  "ticker": "WT",
+  "name": "WisdomTree, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001214659-26-002458",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/880631/000121465926002458/wti-20251231.htm"
+  },
+  "business": "WisdomTree offers a diverse suite of exchange-traded products (ETPs), model portfolios, private market investments (farmland), and digital asset-related products. It distributes through major asset management channels including banks, brokerage firms, registered investment advisers, institutional investors, private wealth managers, and online brokers. The company also provides technology-enabled solutions like Advisor and Portfolio Solutions programs.",
+  "sellsTo": [
+    "banks",
+    "brokerage firms",
+    "registered investment advisers",
+    "institutional investors",
+    "private wealth managers",
+    "online brokers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Mellon Investments Corporation",
+    "Newton Investment Management North America, LLC",
+    "Voya Investment Management Co., LLC",
+    "Insight North America LLC",
+    "The Bank of New York Mellon (BNY Mellon)",
+    "HSBC",
+    "JP Morgan",
+    "Swissquote Bank Ltd",
+    "BitGo Trust Company, Inc.",
+    "Coinbase Custody Trust LLC",
+    "Apex Financial Services (Alternative Funds) Limited",
+    "JTC Trust Company Jersey",
+    "APEX IFS Limited",
+    "BNY Mellon Fund Services (Ireland) Designated Activity Company",
+    "Assenagon Asset Management S.A.",
+    "Irish Life Investment Managers Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer next-generation digital products and services related to tokenized real world assets and stablecoins, including Digital Funds, as well as our institutional platform, WisdomTree Connect, and blockchain-native digital wallet, WisdomTree Prime."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We also have expanded into private assets through our acquisition of Ceres, a leading U.S.-based alternative asset manager specializing in farmland investments."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are integrating artificial intelligence (AI) into certain aspects of our daily workflows to drive scalability and efficiency, while continuing to assess its broader applications over time."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We use AI, including machine learning, in our business and expect to continue to expand our AI capabilities, including through generative AI."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Aggregate AUM of ETPs globally was $18.2 trillion as of December 31, 2025.",
+      "sentence": "As of December 31, 2025, aggregate AUM of ETPs globally was $18.2 trillion."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:23:37.096Z",
+  "model": "deepseek-v4-flash"
+}

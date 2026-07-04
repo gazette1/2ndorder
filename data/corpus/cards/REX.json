@@ -1,0 +1,51 @@
+{
+  "cik": "0000744187",
+  "ticker": "REX",
+  "name": "REX AMERICAN RESOURCES Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000930413-26-000937",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041326000937/c115944_10k-ixbrl.htm"
+  },
+  "business": "REX AMERICAN RESOURCES Corp invests in and operates ethanol production facilities, producing ethanol, distillers grains, and distillers corn oil. It also is developing a carbon sequestration project at its One Earth Energy ethanol plant.",
+  "sellsTo": [
+    "fuel blenders and obligated parties under the Renewable Fuel Standard",
+    "animal feed markets",
+    "renewable diesel and biodiesel markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We currently have equity investments in three ethanol production entities, two of which are majority ownership interests."
+    },
+    {
+      "tag": "other:carbon-sequestration",
+      "stance": "active_investment",
+      "sentence": "One Earth Sequestration, LLC, a wholly owned subsidiary of One Earth Energy, LLC, is in the developmental stage of a carbon sequestration project near the One Earth Energy ethanol plant."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "Our ability to generate 45Z production tax credits involves regulatory and market uncertainties."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "EPA draft permit for carbon sequestration injection wells expected by May 2026, final permit decision expected in Q3 2026",
+      "date": "2026-05-01",
+      "sentence": "We currently expect the EPA to prepare a draft permit by May 2026 and make a final permit decision during the third quarter of 2026, according to the EPA’s Class VI Permit Tracker Dashboard on their website."
+    },
+    {
+      "event": "EPA issued Renewable Volume Obligations for 2026 and 2027 at 15.0 billion gallons of conventional ethanol each year",
+      "date": "2026-03-27",
+      "sentence": "On March 27, 2026, the EPA issued RVOs for 2026 and 2027 of 15.0 billion gallons of conventional ethanol for each year."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:05:10.888Z",
+  "model": "deepseek-v4-flash"
+}

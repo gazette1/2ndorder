@@ -1,0 +1,74 @@
+{
+  "cik": "0000857855",
+  "ticker": "UCB",
+  "name": "UNITED COMMUNITY BANKS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000857855-26-000008",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/857855/000085785526000008/ucbi-20251231.htm"
+  },
+  "business": "United Community Banks, Inc. is a bank holding company that provides diversified financial services including deposit products, secured and unsecured loans, mortgage loans, payment and commerce solutions, equipment finance services, wealth management, trust services, private banking, investment advisory services, and insurance services through its principal subsidiary, United Community Bank.",
+  "sellsTo": [
+    "commercial sector",
+    "retail sector",
+    "governmental sector",
+    "educational sector",
+    "energy sector",
+    "health care sector",
+    "real estate sector"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Recent technologies that have been integrated into the existing financial and banking systems, such as artificial intelligence, machine learning and continued development of smartphone applications have also been utilized by non-bank competitors, which has siphoned a portion of the revenues from those services away from banks and disrupting traditional methods of delivering those services."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Additionally, the use of artificial intelligence and quantum computing could exacerbate many of these risks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A serious information technology security (cybersecurity) breach can cause significant damage and may be difficult to detect even after it occurs."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We provide payment processing services for our commercial and small business customers through UCPS, which is a joint venture between the Bank and Clover, a merchant services provider and subsidiary of Fiserv, Inc."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The rapid growth of stablecoins, accelerated by regulatory frameworks like the Genius Act, has raised important questions about their impact on traditional banking."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We have developed a number of commercial lending businesses organically, which provide local CRE, middle market, renewable energy, builder finance and asset-based lending services."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "We also originate loans partially guaranteed by the SBA and, to a lesser extent, by the USDA loan programs."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "During 2025, the Bank originated $1.02 billion in residential mortgage loans for the purchase of homes and to refinance existing mortgage debt."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer insurance products and services to our clients through United Community Insurance, Inc., which operates as an independent insurance agency for our customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:44:01.955Z",
+  "model": "deepseek-v4-flash"
+}

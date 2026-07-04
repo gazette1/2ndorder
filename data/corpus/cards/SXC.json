@@ -1,0 +1,110 @@
+{
+  "cik": "0001514705",
+  "ticker": "SXC",
+  "name": "SunCoke Energy, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001514705-26-000010",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1514705/000151470526000010/sxc-20251231.htm"
+  },
+  "business": "SunCoke Energy is the largest independent producer of high-quality coke in the Americas, selling blast furnace coke primarily under long-term take-or-pay agreements to steelmakers. It also sells foundry coke and provides industrial services including material handling, mixing, and slag processing to steel, coal, power, and other bulk customers.",
+  "sellsTo": [
+    "Blast furnace steelmakers",
+    "Foundry producers",
+    "Export markets",
+    "North American spot coke markets",
+    "Steel producers (mill services)",
+    "Coal, steel, power and other bulk customers for material handling"
+  ],
+  "namedCustomers": [
+    "Cleveland-Cliffs Steel Holding Corporation (Cliffs Steel)",
+    "Cleveland-Cliffs Steel LLC (Cliffs Steel)",
+    "United States Steel Corporation (U.S. Steel)",
+    "Algoma Steel Inc.",
+    "ArcelorMittal Brasil S.A."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Coke is produced by heating metallurgical coal in a refractory oven, which releases certain volatile components from the coal, thus transforming the coal into coke. Our coke is primarily used as a principal raw material in the blast furnace steelmaking process as well as in the foundry production of casted iron."
+    },
+    {
+      "tag": "other:heat-recovery-cokemaking",
+      "stance": "core_product",
+      "sentence": "Our cokemaking ovens utilize efficient, modern heat recovery technology designed to combust the coal's volatile components during the cokemaking process and use the hot flue gas to generate steam and electricity for sale."
+    },
+    {
+      "tag": "other:electric-arc-furnace",
+      "stance": "risk_mention",
+      "sentence": "We monitor the development of competing technologies carefully, such as steelmakers' growing use of electronic arc furnaces as an alternative to blast furnace technology, which requires less or alternatives to coke."
+    },
+    {
+      "tag": "other:direct-reduced-iron",
+      "stance": "risk_mention",
+      "sentence": "We also monitor ferrous technologies, such as direct reduced iron production, as these could indirectly impact our blast furnace customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "disruption in our information technology infrastructure and/or loss of our ability to securely store, maintain, or transmit data due to security breach by hackers, employee error or malfeasance, terrorist attack, power loss, telecommunications failure or other events;"
+    },
+    {
+      "tag": "other:climate-regulation",
+      "stance": "risk_mention",
+      "sentence": "Physical effects attributed to, and various parties efforts to respond to climate-related changes, could materially and adversely affect our operations and impose significant costs on our business and our customers and suppliers."
+    },
+    {
+      "tag": "other:inflation",
+      "stance": "risk_mention",
+      "sentence": "the effect of inflation on wages and operating expenses;"
+    },
+    {
+      "tag": "other:labor-relations",
+      "stance": "risk_mention",
+      "sentence": "risks related to labor relations and workplace safety;"
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "state and federal mandates and market demand for increased use of electricity from renewable energy sources, or mandates for the retrofitting of existing coal-fired generators with pollution control systems, could adversely impact the demand for thermal coal."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Phoenix Global completed",
+      "date": "2025-08-01",
+      "sentence": "On August 1, 2025, we completed the acquisition of Phoenix Global, a privately held provider of mission-critical mill services to major steel producing companies."
+    },
+    {
+      "event": "Revolving facility extension and amendment",
+      "date": "2025-07-25",
+      "sentence": "On July 25, 2025, we amended and extended the maturity of our revolving credit facility (Revolving Facility) to July 2030 under substantially similar terms."
+    },
+    {
+      "event": "Haverhill II contract extension with Cliffs Steel",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, the Haverhill II long-term, take-or-pay agreement with Cleveland-Cliffs Steel Holding Corporation and Cleveland-Cliffs Steel LLC... was extended through December 31, 2028."
+    },
+    {
+      "event": "Algoma Steel breach of contract",
+      "date": "2025-09-30",
+      "sentence": "At the end of the third quarter of 2025, we were notified of Algoma Steel Inc's breach of contract and refusal to accept any additional coke tons."
+    },
+    {
+      "event": "Decision to close Haverhill I facility in Q1 2026",
+      "date": null,
+      "sentence": "In the fourth quarter of 2025, the Company made the decision to optimize its coke fleet and close its Haverhill I cokemaking facility in the first quarter of 2026."
+    },
+    {
+      "event": "Granite City contract extension with U.S. Steel",
+      "date": null,
+      "sentence": "In January 2026, the Granite City long-term, take-or-pay agreement with United States Steel Corporation (U.S. Steel) was extended through December 31, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:25:12.667Z",
+  "model": "deepseek-v4-flash"
+}

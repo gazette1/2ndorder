@@ -1,0 +1,99 @@
+{
+  "cik": "0001823144",
+  "ticker": "GPGI",
+  "name": "GPGI, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017266",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1823144/000162828026017266/cmpo-20251231.htm"
+  },
+  "business": "GPGI, Inc. is a permanent capital platform that owns and scales businesses, currently comprising CompoSecure, a manufacturer of premium metal payment cards and secure authentication solutions, and Husky, a manufacturer of injection molding equipment and aftermarket services. CompoSecure sells to banks, financial technology companies, and payment card issuers, while Husky serves customers in food, packaging, and medical markets.",
+  "sellsTo": [
+    "leading international and domestic banks",
+    "payment card issuers",
+    "financial technology companies",
+    "food, packaging, and medical markets"
+  ],
+  "namedCustomers": [
+    "American Express",
+    "JPMorgan Chase",
+    "Capital One",
+    "Coinbase",
+    "Robinhood",
+    "Gemini"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "CompoSecure, founded in 2000, and headquartered in Somerset, New Jersey, is the global leader in the design and manufacturing of premium metal payment cards and secure authentication solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "In addition to metal payment cards, CompoSecure has leveraged its core competencies in advanced manufacturing and trusted hardware to develop secure authentication and digital asset storage solutions through the Arculus platform."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Since its founding in 1953, Husky has focused on developing highly technical precision technologies instrumental in the delivery of food, beverages, medical devices, and other applications including general packaging and closures, thinwall packaging, and consumer products."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Husky is the leading global manufacturer of highly engineered injection molding equipment and aftermarket tooling and services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We have begun to use AI and machine learning technologies, including those licensed from third parties, in our processes and technologies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Husky Transaction completion",
+      "date": "2026-01-12",
+      "sentence": "The Husky Transaction was completed on January 12, 2026, whereby Husky became a wholly owned subsidiary of Holdings."
+    },
+    {
+      "event": "Refinancing of indebtedness",
+      "date": "2026-01-14",
+      "sentence": "On January 14, 2026, following completion of the Husky Transaction, Holdings completed a refinancing of approximately $2.1 billion of indebtedness that was assumed as part of the Husky Transaction (the \"Refinancing Transactions\")."
+    },
+    {
+      "event": "Spin-Off of Resolute Holdings",
+      "date": "2025-02-28",
+      "sentence": "On February 28, 2025, the Company completed the previously-announced spin-off (the \"Spin-Off\") of Resolute Holdings."
+    },
+    {
+      "event": "Second Earnout threshold achievement",
+      "date": "2025-09-08",
+      "sentence": "The second Earnout threshold was achieved on September 8, 2025, and approximately 4.4 million Earnout Shares (as adjusted for the Spin-Off) were issued."
+    },
+    {
+      "event": "Redemption of warrants",
+      "date": "2025-12-03",
+      "sentence": "On November 3, 2025, the Company issued a Notice of Redemption for all outstanding public warrants, resulting in substantially all then-outstanding warrants being exercised before the December 3, 2025 redemption date, with the remaining warrants redeemed for $0.01 per warrant."
+    },
+    {
+      "event": "NYSE listing transfer",
+      "date": "2025-09-18",
+      "sentence": "On September 18, 2025, the Company transferred its listing from The Nasdaq Stock Market, LLC (Nasdaq) to the New York Stock Exchange (the NYSE)."
+    },
+    {
+      "event": "Rebrand to GPGI",
+      "date": "2026-01-23",
+      "sentence": "Following the completion of the Husky Transaction, CompoSecure, Inc. rebranded to GPGI, Inc., and CompoSecure Holdings, L.L.C. rebranded to GPGI, Holdings, L.L.C. Beginning January 23, 2026, the Company's common stock continued trading on the New York Stock Exchange, under the new ticker symbol GPGI."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global addressable market for payment cards is approximately 5.5 billion cards, with less than 1% penetration by metal cards.",
+      "sentence": "With an estimated global addressable market of approximately 5.5 billion payment cards in issuance, the company's total penetration is estimated to be less than 1% of total payment cards in issuance and delivered each year."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:26:24.038Z",
+  "model": "deepseek-v4-flash"
+}

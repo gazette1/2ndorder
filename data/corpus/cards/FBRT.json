@@ -1,0 +1,46 @@
+{
+  "cik": "0001562528",
+  "ticker": "FBRT",
+  "name": "Franklin BSP Realty Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001562528-26-000008",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562528/000156252826000008/bsprt-20251231.htm"
+  },
+  "business": "Franklin BSP Realty Trust, Inc. operates as a real estate investment trust focused on commercial real estate debt investments and agency multifamily finance. The company originates, acquires, and manages first mortgage loans, subordinate loans, mezzanine loans, and real estate securities. It also originates and services multifamily loans under GSE programs such as Fannie Mae, Freddie Mac, and HUD.",
+  "sellsTo": [
+    "Commercial real estate borrowers",
+    "Multifamily property owners",
+    "Government-sponsored enterprises (Fannie Mae, Freddie Mac, HUD)",
+    "CMBS securitization market"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Through the Agency Business unit, the Company, through NewPoint, originates, sells and services a range of multifamily finance products under programs offered by government-sponsored enterprises ( GSEs ), such as the Federal National Mortgage Association ( Fannie Mae ) and Federal Home Loan Mortgage Corporation ( Freddie Mac ) and by government agencies ( Agencies ), such as the Government National Mortgage Association ( Ginnie Mae ) and the Federal Housing Administration, a division of the U.S. Department of Housing and Urban Development (together with Ginnie Mae, HUD )."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to risks associated with construction lending, such as declining real estate values, cost overruns and delays in completion."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could suffer in the event our Advisor or any other party that provides us with services essential to our operations experiences system failures or cyber-incidents or a deficiency in cybersecurity."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "reduced demand for office space, including as a result of changes in work habits, including remote or hybrid work schedules, or reductions in employee headcount due to artificial intelligence technologies"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:37:17.614Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,56 @@
+{
+  "cik": "0001511337",
+  "ticker": "RLJ",
+  "name": "RLJ Lodging Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001511337-26-000007",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1511337/000151133726000007/rlj-20251231.htm"
+  },
+  "business": "RLJ Lodging Trust is a self-advised and self-administered REIT that owns primarily premium-branded, rooms-oriented, high-margin, focused-service and compact full-service hotels. It sells hotel room stays and related services to individual business and leisure travelers. Its hotels are located in urban markets with multiple demand generators.",
+  "sellsTo": [
+    "business travelers",
+    "leisure travelers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Marriott",
+    "Hilton",
+    "Hyatt",
+    "Wyndham",
+    "Aimbridge Hospitality"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Although we believe we and our hotel managers and franchisors have taken commercially reasonable steps to protect the security of our systems, there can be no assurance that such security measures will prevent failures, inadequacies or interruptions in system services, or that system security will not be breached."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Technology, potentially including artificial intelligence, is used in our operations, and any material failure, inadequacy, interruption or security failure of that technology could harm the business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Extension of mortgage loan maturities to April 2026",
+      "date": "2026-04-01",
+      "sentence": "Exercised the final one-year extension options on $181.0 million in mortgage loans to extend the maturities to April 2026."
+    },
+    {
+      "event": "Share repurchase program authorization through May 8, 2026",
+      "date": "2026-05-08",
+      "sentence": "Approved the 2025 Share Repurchase Program to acquire up to an aggregate of $250.0 million of common and preferred shares from May 9, 2025 to May 8, 2026."
+    },
+    {
+      "event": "Term loan refinancing maturity extended to April 2028",
+      "date": "2028-04-01",
+      "sentence": "Refinanced a term loan to increase the loan amount to $300.0 million and extend the initial maturity to April 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:35:46.597Z",
+  "model": "deepseek-v4-flash"
+}

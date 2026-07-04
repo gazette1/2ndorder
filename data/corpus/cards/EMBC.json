@@ -1,0 +1,54 @@
+{
+  "cik": "0001872789",
+  "ticker": "EMBC",
+  "name": "Embecta Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001872789-25-000036",
+    "filedAt": "2025-11-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1872789/000187278925000036/embc-20250930.htm"
+  },
+  "business": "Embecta Corp. is a leading global medical device company primarily focused on providing solutions to improve the health and well-being of people living with diabetes. It sells a broad portfolio of pen needles, syringes, and safety injection devices used by over 30 million people in over 100 countries for insulin administration and diabetes management. The company distributes products through wholesalers, distributors, retail pharmacies, hospitals, and other institutional channels.",
+  "sellsTo": [
+    "wholesalers",
+    "distributors",
+    "retail pharmacies",
+    "hospitals",
+    "institutional channels"
+  ],
+  "namedCustomers": [
+    "Cencora",
+    "McKesson Corporation",
+    "Cardinal Health"
+  ],
+  "namedSuppliers": [
+    "Becton, Dickinson and Company (BD)"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Embecta is a leading global medical device company, primarily focused on providing solutions to improve the health and well-being of people living with diabetes."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "risk_mention",
+      "sentence": "Technological breakthroughs in diabetes treatment or prevention may reduce demand for Embecta’s products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Board approved plan to discontinue patch pump program",
+      "date": "2024-11-22",
+      "sentence": "On November 22, 2024, the Company's Board of Directors approved a plan to discontinue internal and external investment in the research and development of our patch pump program."
+    },
+    {
+      "event": "Initiated 2025 Restructuring Plan",
+      "date": null,
+      "sentence": "During the second quarter of fiscal year 2025, the Company initiated a restructuring plan (the \"2025 Restructuring Plan\") to streamline the organization and optimize resources."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:46:04.418Z",
+  "model": "deepseek-v4-flash"
+}

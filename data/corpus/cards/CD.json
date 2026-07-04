@@ -1,0 +1,57 @@
+{
+  "cik": "0001527762",
+  "ticker": "CD",
+  "name": "Chaince Digital Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012943",
+    "filedAt": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1527762/000149315226012943/form10-k.htm"
+  },
+  "business": "The Company provides financial advisory, capital markets advisory, and related consulting services to corporate clients and institutional investors. These services include assisting companies in capital markets transactions, corporate restructuring, strategic advisory, and cross-border business development. The Company also provides business consulting and advisory services to clients in the Asia-Pacific region.",
+  "sellsTo": [
+    "corporate clients",
+    "institutional investors",
+    "clients in the United States",
+    "clients in Greater China",
+    "clients in Southeast Asia"
+  ],
+  "namedCustomers": [
+    "Customer A",
+    "Customer B",
+    "Customer C",
+    "Customer D",
+    "Customer E",
+    "Customer F"
+  ],
+  "namedSuppliers": [
+    "Palantir Innovation Technologies Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company currently provides financial advisory, capital markets advisory, and related consulting services to corporate clients and institutional investors."
+    },
+    {
+      "tag": "other:digital-assets",
+      "stance": "risk_mention",
+      "sentence": "Although the Company has discontinued its digital asset mining operations, we may continue to hold certain digital assets or stablecoins as part of our treasury or investment activities."
+    },
+    {
+      "tag": "other:tokenization",
+      "stance": "active_investment",
+      "sentence": "For the year ended December 31, 2025, research and development expenses were $147,321, compared to nil for the year ended December 31, 2024. The increase was primarily attributable to equity-based compensation recognized in connection with system development services provided under the Comprehensive Technology Services Agreement entered into on July 23, 2025 with Palantir Innovation Technologies Corporation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Full exit from Filecoin mining operations",
+      "date": "2026-04-30",
+      "sentence": "the Company expects the remaining mining nodes to expire by April 30, 2026, at which point it will fully exit the Filecoin mining operations."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:27:42.423Z",
+  "model": "deepseek-v4-flash"
+}

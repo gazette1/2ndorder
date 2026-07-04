@@ -1,0 +1,45 @@
+{
+  "cik": "0001674356",
+  "ticker": "TPTS",
+  "name": "Terra Property Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001674356-26-000009",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674356/000167435626000009/tpt-20251231.htm"
+  },
+  "business": "Terra Property Trust, Inc. is a real estate investment trust that originates, invests in and manages a diverse portfolio of real estate and real estate-related assets, focusing primarily on commercial real estate credit investments including first mortgage loans, subordinated loans (such as mezzanine and preferred equity) and credit facilities. The company targets middle market loans in the $10 million to $50 million range and finances the acquisition, development or recapitalization of high-quality commercial real estate in the United States. Its investment objective is to provide attractive risk-adjusted returns to stockholders through current income and potential capital appreciation.",
+  "sellsTo": [
+    "commercial real estate borrowers",
+    "affiliated funds through participation agreements"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-real-estate-credit",
+      "stance": "core_product",
+      "sentence": "We focus primarily on commercial real estate credit investments, including first mortgage loans, subordinated loans (including B-notes, mezzanine and preferred equity) and credit facilities throughout the United States, which we collectively refer to as our targeted assets."
+    },
+    {
+      "tag": "housing",
+      "stance": "active_investment",
+      "sentence": "As of December 31, 2025, our portfolio included underlying properties located in nine markets, across seven states and includes property types such as multifamily housing, student housing, commercial offices, retail, mixed-use and infill properties."
+    },
+    {
+      "tag": "other:real-estate-development",
+      "stance": "active_investment",
+      "sentence": "Our loans finance the acquisition, development or recapitalization of high-quality commercial real estate in the United States."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of exchange offers and consent solicitation for senior notes",
+      "date": "2026-03-26",
+      "sentence": "On March 12, 2026, we amended the Registration Statement to reduce the interest rate on the newly issued senior secured notes offered in the exchange offer from 9.75% to 7.00% and to extend the expiration date of the exchange offers and consent solicitation to March 26, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:51:19.307Z",
+  "model": "deepseek-v4-flash"
+}

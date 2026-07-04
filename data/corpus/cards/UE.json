@@ -1,0 +1,46 @@
+{
+  "cik": "0001611547",
+  "ticker": "UE",
+  "name": "Urban Edge Properties",
+  "source": {
+    "form": "10-K",
+    "accession": "0001611547-26-000022",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1611547/000161154726000022/ue-20251231.htm"
+  },
+  "business": "Urban Edge Properties is a Maryland REIT that owns, manages, acquires, develops, and redevelops retail real estate, primarily in the Washington, D.C. to Boston corridor.",
+  "sellsTo": [
+    "retail tenants",
+    "shopping center operators"
+  ],
+  "namedCustomers": [
+    "The TJX Companies"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "E-commerce may have an adverse impact on our tenants and our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face risks associated with security breaches, whether through cyber attacks or cyber intrusions over the internet, malware, computer viruses, attachments to emails, persons inside our organization or persons with access to systems, and other significant disruptions of our Information Technology (IT) networks and related systems."
+    },
+    {
+      "tag": "other:natural-disasters",
+      "stance": "risk_mention",
+      "sentence": "We own properties near the Atlantic Coast and in Puerto Rico which are subject to natural disasters such as hurricanes, floods, earthquakes and storm surges."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Changing weather patterns and climatic conditions, resulting primarily from climate change, may affect the predictability and frequency of natural disasters and severe weather conditions and create additional uncertainty as to future trends and exposures, including certain areas in which our portfolio is concentrated, such as the New York metropolitan area."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:02:57.748Z",
+  "model": "deepseek-v4-flash"
+}

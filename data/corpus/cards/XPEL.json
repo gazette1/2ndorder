@@ -1,0 +1,55 @@
+{
+  "cik": "0001767258",
+  "ticker": "XPEL",
+  "name": "XPEL, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001767258-26-000014",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1767258/000176725826000014/xpel-20251231.htm"
+  },
+  "business": "XPEL supplies protective films, coatings and related services primarily to the automobile aftermarket, new car dealerships and original equipment manufacturers (OEMs). Non-automotive products include architectural window film and marine and flat surface protection films.",
+  "sellsTo": [
+    "independent after-market installers",
+    "new car dealerships",
+    "third-party distributors",
+    "company-owned installation centers",
+    "OEMs",
+    "Protex Canada franchisees",
+    "online customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "We are a supplier of protective films, coatings and related services primarily to the automobile aftermarket, new car dealerships and automobile original equipment manufacturers, or OEMs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized access to, or improper use, disclosure, theft or destruction of, our customer or employee personal, financial or other data or our proprietary or confidential information that is stored in our information systems or by third parties on our behalf could result in substantial costs, expose us to litigation and damage our reputation."
+    },
+    {
+      "tag": "other:trade-policy",
+      "stance": "risk_mention",
+      "sentence": "Existing and potential new trade policies, such as tariffs, could adversely affect our operations, costs and business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Invest in manufacturing and supply chain assets",
+      "date": null,
+      "sentence": "Moving forward, to further enhance our core business, we will be investing in manufacturing and supply chain assets in order to drive lower costs and better control the quality of our products."
+    },
+    {
+      "event": "Extension of Credit Agreement maturity",
+      "date": "2028-09-11",
+      "sentence": "On September 11, 2025, XPEL entered into the Amendment to the Credit Agreement with Wells Fargo Bank, N.A., as Administrative Agent, and other lenders party thereto. The Amendment, among other things, extended the maturity of the Credit Agreement from April 6, 2026 to September 11, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:22:02.340Z",
+  "model": "deepseek-v4-flash"
+}

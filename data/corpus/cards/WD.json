@@ -1,0 +1,45 @@
+{
+  "cik": "0001497770",
+  "ticker": "WD",
+  "name": "Walker & Dunlop, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020249",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1497770/000110465926020249/wd-20251231x10k.htm"
+  },
+  "business": "Walker & Dunlop is a commercial real estate services, finance, and technology company. It provides multifamily lending, property sales, appraisal and valuation, debt brokerage, investment management, and affordable housing services including LIHTC syndication and development. Its clients are owners and developers of multifamily properties and other commercial real estate assets across the United States.",
+  "sellsTo": [
+    "Owners and developers of multifamily properties",
+    "Owners and developers of other commercial real estate assets",
+    "Life insurance companies, commercial banks, and other institutional investors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We provide commercial real estate financial products and services primarily to developers and owners of multifamily properties."
+    },
+    {
+      "tag": "other:appraisal-technology",
+      "stance": "core_product",
+      "sentence": "We offer multifamily appraisal and valuation services though our subsidiary, Apprise. Apprise leverages technology and data science to dramatically improve the consistency, transparency, and speed of multifamily property appraisals in the U.S. through our proprietary technology and provides appraisal services to a client list that includes many national commercial real estate lenders."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we fail to comply with laws, regulations and market standards regarding the privacy, use, and security of customer information, or if we are the target of a successful cyberattack, we may be subject to legal and regulatory actions and our reputation would be harmed."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The GSEs deployed over $150 billion of capital to the multifamily industry in 2025.",
+      "sentence": "For multifamily, which drives the vast majority of our transaction volumes, the GSEs remain the predominant suppliers of capital, deploying over $150 billion of capital to the industry in 2025, up from $120 billion in 2024."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:24:36.575Z",
+  "model": "deepseek-v4-flash"
+}

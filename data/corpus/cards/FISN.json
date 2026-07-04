@@ -1,0 +1,77 @@
+{
+  "cik": "0001918102",
+  "ticker": "FISN",
+  "name": "DEEP FISSION, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-043870",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1918102/000110465926043870/tmb-20251231x10k.htm"
+  },
+  "business": "Deep Fission, Inc. is a nuclear energy technology company developing a small modular reactor (SMR) based on pressurized water reactor technology, designed for emplacement in deep boreholes approximately one mile underground to generate electricity. The company targets commercialization within the next three years and has not yet constructed or operated a commercial reactor or generated revenue.",
+  "sellsTo": [
+    "hyperscale data centers",
+    "large power users",
+    "utilities",
+    "industrial operators",
+    "government and defense installations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "nuclear",
+      "stance": "core_product",
+      "sentence": "We are a nuclear energy technology company developing a small modular reactor (SMR) based on established pressurized water reactor (PWR) technology, with novel emplacement in deep boreholes approximately one mile below the Earth's surface."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "The Company's initial commercial focus is on hyperscale data centers and other large power users."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Electric utilities and other power generation developers may represent another potential customer group for Gravity Reactor installations."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Government and defense facilities represent potential deployment opportunities for Gravity Reactor technology."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We also want to prove that we can do this in time to meet the AI-driven surge in demand for energy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Apply for commercial license with NRC",
+      "date": "2027-06-30",
+      "sentence": "Specifically, subject to DOE authorization, the Company intends to demonstrate the Gravity Reactor, and to apply for a commercial license with the U.S. Nuclear Regulatory Commission (NRC) in the first half of 2027, converting the same pilot reactor to commercial operation."
+    },
+    {
+      "event": "Seek high-volume commercial licensing with NRC",
+      "date": "2027-12-31",
+      "sentence": "We are targeting as early as 2027 to seek such high-volume commercial licensing with the NRC."
+    },
+    {
+      "event": "Delivery of key components for full-system installation",
+      "date": "2027-03-31",
+      "sentence": "The balance of this year and into early 2027 will be focused on delivery of key components for full-system installation, including well casing, our reactor canister, and heat exchanger, as well as LEU fabrication and loading."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Potential reactor deployments from LOIs could support up to 12.5 gigawatts of generation capacity if fully developed over time.",
+      "sentence": "Collectively, the discussions reflected in these agreements relate to potential reactor deployments that could support up to 12.5 gigawatts of generation capacity if fully developed over time."
+    },
+    {
+      "claim": "Endeavour relationship contemplates up to 1.5 gigawatts at a single location and up to 2 gigawatts across multiple projects.",
+      "sentence": "The relationship framework contemplates potential deployment configurations of up to 1.5 gigawatts of generation capacity at a single location, within a broader potential co-development framework of up to 2 gigawatts across multiple projects."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:31:23.961Z",
+  "model": "deepseek-v4-flash"
+}

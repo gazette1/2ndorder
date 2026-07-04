@@ -1,0 +1,49 @@
+{
+  "cik": "0001403475",
+  "ticker": "BMRC",
+  "name": "Bank of Marin Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001403475-26-000018",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000018/bmrc-20251231.htm"
+  },
+  "business": "Bank of Marin Bancorp is a bank holding company that provides commercial banking, personal banking, and wealth management services to small to medium-sized businesses, not-for-profit organizations, and individuals in Northern California. It offers lending products including commercial real estate, commercial and industrial, construction, and consumer loans, as well as deposit accounts and treasury management services.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "not-for-profit organizations",
+    "commercial real estate investors",
+    "personal banking customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Fidelity Information Services (FIS)",
+    "Finastra"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity breach of systems operated by the Bank, merchants, vendors, customers, or externally publicized breaches of other financial institutions may significantly harm our reputation, result in a loss of customer business, subject us to regulatory scrutiny, or expose us to civil litigation and financial liability."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company s deployment of artificial intelligence at this time is generally limited to internally focused, assistive productivity tools such as Microsoft Copilot."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We compete with commercial banks, savings institutions, credit unions, non-bank financial services companies, including financial technology firms, and other financial institutions operating within or near our service areas."
+    },
+    {
+      "tag": "other:climate-risk",
+      "stance": "risk_mention",
+      "sentence": "For example, our primary market is located in both earthquake and wildfire-prone zones in Northern California, which is also subject to other weather or disasters, such as severe rainstorms, drought or flood."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:24:37.927Z",
+  "model": "deepseek-v4-flash"
+}

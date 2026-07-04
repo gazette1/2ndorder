@@ -1,0 +1,96 @@
+{
+  "cik": "0000816761",
+  "ticker": "TDC",
+  "name": "TERADATA CORP /DE/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012671",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/816761/000162828026012671/tdc-20251231.htm"
+  },
+  "business": "Teradata sells an AI and knowledge platform for data and analytics, targeting large enterprises that are large-scale users of data. The platform is designed to run agentic AI at scale across public cloud, on-premises, private cloud, or hybrid environments. The company focuses on industries with high-data requirements such as Financial Services, Healthcare, and Telecommunications.",
+  "sellsTo": [
+    "Financial Services",
+    "Healthcare and Life Sciences",
+    "Public Sector",
+    "Manufacturing",
+    "Retail",
+    "Telecommunications",
+    "Travel/Transportation",
+    "enterprises that are large-scale users of data"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Flex Ltd.",
+    "Dell Technologies Inc.",
+    "NetApp, Inc.",
+    "NVIDIA"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our platform is designed for data and analytics that can give customers the opportunity to run agentic AI at scale wherever that data resides in their business whether public cloud, on-premises, private cloud, or a combination."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident, disruption, or failure of our information systems or those of our third-party providers could adversely impact our reputation, business, and financial results."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "Demand for semiconductors, flash memory, GPUs, and other components used in AI, data analytics, and cloud infrastructure may exceed supply, which could increase prices, delay deliveries or compress margins."
+    },
+    {
+      "tag": "other:financial-services",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "other:healthcare-life-sciences",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "other:retail",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    },
+    {
+      "tag": "other:public-sector",
+      "stance": "core_product",
+      "sentence": "We believe Teradata is differentiated in industries with high-data requirements, including Financial Services, Healthcare and Life Sciences, Public Sector, Manufacturing, Retail, Telecommunications, and Travel/Transportation."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Settlement payment from SAP",
+      "date": "2026-02-19",
+      "sentence": "On February 19, 2026 (the 'Effective Date'), Teradata entered into a Settlement Agreement (the 'Settlement Agreement') with SAP. As a result of the Settlement Agreement, Teradata will receive a gross payment of $480 million (the 'Settlement Amount') no later than 60 days after the Effective Date."
+    },
+    {
+      "event": "Board authorizes $500 million share repurchase program",
+      "date": "2025-11-17",
+      "sentence": "On November 17, 2025, the Board approved the Repurchase Program authorizing the Company to repurchase up to $500 million of its common stock."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:49:48.864Z",
+  "model": "deepseek-v4-flash"
+}

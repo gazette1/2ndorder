@@ -1,0 +1,72 @@
+{
+  "cik": "0001702780",
+  "ticker": "OPTU",
+  "name": "Optimum Communications, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001702780-26-000013",
+    "filedAt": "2026-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1702780/000170278026000013/optu-20251231.htm"
+  },
+  "business": "Optimum Communications provides broadband, video, telephony, and mobile services to residential and business customers across 21 states. It also offers enterprise-grade fiber connectivity and managed services to enterprise and hyperscaler customers. Additionally, it provides news programming and advertising services.",
+  "sellsTo": [
+    "Residential customers",
+    "Business customers (SMB and enterprise)",
+    "Hyperscaler customers",
+    "Advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Altice Labs",
+    "Sagemcom",
+    "Ubee",
+    "Apple",
+    "Motorola",
+    "T-Mobile",
+    "AT&T Inc.",
+    "Appalachian Wireless",
+    "US Cellular"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "We deliver broadband, video, telephony, and mobile services to approximately 4.3 million residential and business customers across our footprint."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "active_investment",
+      "sentence": "Our ongoing FTTH network build has enabled us to deliver multi-gig broadband speeds to meet the growing data needs of residential and business customers."
+    },
+    {
+      "tag": "other:advertising",
+      "stance": "core_product",
+      "sentence": "Optimum Media is an advanced advertising and data company that provides audience-based, multiscreen advertising solutions to local, regional, and national advertisers, including businesses, political candidates and organizations, advocacy groups, and other advertising clients."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We also provide enterprise-grade fiber connectivity, bandwidth, and managed services to enterprise and hyperscaler customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we experience a significant cybersecurity incident or fail to detect and appropriately respond to a significant cybersecurity incident, our results of operations and reputation could suffer."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "Issues related to the use of AI in our business could give rise to legal or regulatory action, damage our reputation or otherwise materially harm our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Debt refinancing deadline to avoid going concern uncertainty",
+      "date": "2026-04-30",
+      "sentence": "A failure to secure committed sources of funding to refinance this debt by April 2026 may raise substantial doubt about our ability to continue as a going concern in the future."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:42:25.687Z",
+  "model": "deepseek-v4-flash"
+}

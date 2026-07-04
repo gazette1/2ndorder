@@ -1,0 +1,58 @@
+{
+  "cik": "0001521951",
+  "ticker": "FBIZ",
+  "name": "FIRST BUSINESS FINANCIAL SERVICES, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071523",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526071523/fbiz-20251231.htm"
+  },
+  "business": "First Business Financial Services, Inc. is a bank holding company whose wholly-owned subsidiary, First Business Bank, provides commercial banking products and services to small and medium-sized businesses, business owners, executives, professionals, and high net worth individuals. The company's offerings include business banking (commercial real estate lending, commercial and industrial lending, asset-based lending, equipment financing, and SBA lending), private wealth management, and bank consulting services. It operates primarily in Wisconsin, Kansas, and Missouri and does not rely on a traditional branch network.",
+  "sellsTo": [
+    "small and medium-sized businesses",
+    "business owners",
+    "executives",
+    "professionals",
+    "high net worth individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We originate loans secured by commercial real estate, including owner-occupied properties, non-owner-occupied facilities, multifamily developments, 1-4 family residential developments, and construction loans for these types of buildings."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We originate loans secured by commercial real estate, including owner-occupied properties, non-owner-occupied facilities, multifamily developments, 1-4 family residential developments, and construction loans for these types of buildings."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Information security risks for financial institutions like us continue to increase in part because of new technologies, the increased use of the internet and telecommunications technologies (including mobile devices and cloud computing) to conduct financial and other business transactions, political activism, and the increased sophistication and activities of organized crime, terrorist, hackers, and perpetrators of fraud."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The adoption of artificial intelligence tools by us and our third-party vendors and service providers may increase the risk of errors, omissions, unfair treatment, or fraudulent behavior by our employees, clients, or counterparties, or other third parties."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Such competition includes banks, savings institutions, mortgage banking companies, credit unions, finance companies, equipment finance companies, mutual funds, insurance companies, brokerage firms, investment banking firms, and FinTech companies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "CEO Corey A. Chambas retirement",
+      "date": "2026-05-02",
+      "sentence": "Mr. Chambas announced his intention to retire as CEO effective May 2, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:55:16.252Z",
+  "model": "deepseek-v4-flash"
+}

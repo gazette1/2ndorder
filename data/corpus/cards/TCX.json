@@ -1,0 +1,74 @@
+{
+  "cik": "0000909494",
+  "ticker": "TCX",
+  "name": "TUCOWS INC /PA/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008009",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/909494/000143774926008009/tcx20251231_10k.htm"
+  },
+  "business": "The Ting segment contains the operating results of our retail high speed Internet access operations. The Wavelo segment includes our platform and professional services offerings, as well as the billing solutions to Internet services providers. Tucows Domains includes wholesale and retail domain name registration services, as well as value-added services derived through our OpenSRS, Enom, Ascio, EPAG and Hover brands.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "corporations",
+    "web hosts",
+    "ISPs",
+    "resellers",
+    "Communication Services providers (CSPs)"
+  ],
+  "namedCustomers": [
+    "EchoStar"
+  ],
+  "namedSuppliers": [
+    "Verisign"
+  ],
+  "exposures": [
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Ting segment contains the operating results of our retail high speed Internet access operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Value-Added Services include hosted email which provides email delivery and webmail access to millions of mailboxes, Internet security services, WHOIS privacy and other value-added services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The domain registration and internet services industry is evolving with AI-powered tools enabling automated domain search, DNS management, and fraud detection."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "Ting Internet: Fiber-optic technology currently offers unmatched speed, reliability, and scalability, but future advancements in wireless broadband, 5G, and satellite internet could reduce demand for fiber-based services."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Stock repurchase program approved",
+      "date": "2026-02-12",
+      "sentence": "On February 12, 2026, our Board of Directors approved a stock repurchase program authorizing the Company to buy back up to $40 million of its common stock in the open market."
+    },
+    {
+      "event": "Ting strategic review process commenced",
+      "date": "2025-11-06",
+      "sentence": "The Company announced on November 6, 2025 that it commenced a process to review strategic alternatives for the Ting business, to address its ongoing liquidity requirements."
+    },
+    {
+      "event": "Initial term of MNO contract completed",
+      "date": "2026-01",
+      "sentence": "The initial term of the contract and contractual minimums was complete in January 2026."
+    },
+    {
+      "event": "Potential Verisign .com price increase",
+      "date": "2026-10",
+      "sentence": "Verisign may increase .com prices by up to 7% annually during the final four years of the term, allowing for a potential price increase as early as the fourth quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:19:26.497Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0000760498",
+  "ticker": "BANF",
+  "name": "BANCFIRST CORP /OK/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-075954",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526075954/banf-20251231.htm"
+  },
+  "business": "BancFirst provides commercial banking services to retail customers and small to medium-sized businesses in Oklahoma and Texas.",
+  "sellsTo": [
+    "retail customers",
+    "small to medium-sized businesses",
+    "commercial real estate",
+    "energy industry",
+    "agriculture",
+    "trust services clients",
+    "insurance clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "BancFirst provides a wide range of retail and commercial banking services, including: commercial, real estate, energy, agricultural and consumer lending."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "BancFirst provides a wide range of retail and commercial banking services, including: commercial, real estate, energy, agricultural and consumer lending."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Insurance services offered through BancFirst Insurance Services, Inc. consists of business and personal insurance, employee benefits, surety bonds and claims and risk management."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "While to date, the Company, BancFirst, Pegasus and Worthington have not detected a significant compromise, significant data loss or any material financial losses related to cybersecurity attacks, the Company, BancFirst, Pegasus and Worthington's systems and those of their customers and third-party service providers are under constant threat and it is possible that the Company, BancFirst, Pegasus or Worthington could experience a significant event in the future."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Technological changes, fintech competition and disruption to the traditional banking systems, including emerging regulation around stablecoins, blockchain technology in payment networks and market acceptance of digital assets."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry is undergoing rapid technological changes with frequent introductions of new technology-driven products and services, including products and services leveraging artificial intelligence (AI)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger of American Bank of Oklahoma into BancFirst",
+      "date": "2026-02-01",
+      "sentence": "American Bank of Oklahoma (ABOK), an Oklahoma state-chartered bank headquartered in Collinsville, Oklahoma, prior to its merger with BancFirst in February 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:11:47.618Z",
+  "model": "deepseek-v4-flash"
+}

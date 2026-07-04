@@ -1,0 +1,73 @@
+{
+  "cik": "0000928340",
+  "ticker": "CWCO",
+  "name": "Consolidated Water Co. Ltd.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-028587",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/928340/000110465926028587/cwco-20251231x10k.htm"
+  },
+  "business": "Consolidated Water Co. Ltd. provides potable water and water treatment services through retail, bulk, services, manufacturing, and affiliate operations. Its customers include residential, commercial, and government entities in the Cayman Islands, The Bahamas, the United States, and the British Virgin Islands. The company also designs, constructs, and operates water production and treatment plants for third parties.",
+  "sellsTo": [
+    "residential customers",
+    "commercial customers",
+    "government customers",
+    "government-owned utilities",
+    "industrial customers",
+    "municipal customers"
+  ],
+  "namedCustomers": [
+    "Water Authority-Cayman (WAC)",
+    "Water and Sewerage Corporation of The Bahamas (WSC)",
+    "Government of the British Virgin Islands Water and Sewerage Department (BVIW&S)",
+    "Honolulu Board of Water Supply"
+  ],
+  "namedSuppliers": [
+    "Caribbean Utilities Co. Ltd.",
+    "Bahamas Power and Light Company (BPL)",
+    "BVI Electricity Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Through our subsidiaries and affiliate, we provide the following products and services to our customers in the Cayman Islands, The Bahamas, the United States and the British Virgin Islands: Retail Water Operations... Bulk Water Operations... Services Operations... Manufacturing Operations... Affiliate Operations."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We design, construct and sell water production and water treatment plants, and we manage and operate water production plants and water treatment and reuse infrastructure, for third parties."
+    },
+    {
+      "tag": "other:reverse-osmosis",
+      "stance": "core_product",
+      "sentence": "We produce potable water from seawater utilizing reverse osmosis technology and supply this water to end-users, including residential, commercial and government customers in the Cayman Islands under an exclusive retail license issued by the Cayman Islands government to provide water in two of the three most populated areas on Grand Cayman."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We generate renewable energy to power our distribution pumps at ACWW using solar panels installed on the top of one of our water storage reservoirs."
+    },
+    {
+      "tag": "other:water-reuse",
+      "stance": "core_product",
+      "sentence": "We design, construct, sell, operate and manage water, wastewater and water reuse infrastructure tailored to meet the regulatory, environmental and commercial requirements of our clients."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expiration of water supply agreement with WAC for North Sound and NSWW plants",
+      "date": "2026-07-01",
+      "sentence": "Our agreement with the WAC for the North Sound and NSWW plants expires on July 1, 2026."
+    },
+    {
+      "event": "Completion of dissolution and termination of CW-Cooperatief and NSC",
+      "date": "2026-06-30",
+      "sentence": "We dissolved/terminated AdR in the first quarter of 2026 and expect to complete the dissolution and termination of CW-Cooperatief and NSC by mid-2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:21:41.533Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "0001302387",
+  "ticker": "BVFL",
+  "name": "BV Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-128285",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1302387/000119312526128285/bvfl-20251231.htm"
+  },
+  "business": "BV Financial, Inc. is a bank holding company that operates primarily through its wholly owned subsidiary, BayVanguard Bank, a Maryland-chartered commercial bank. The bank offers deposit accounts and originates loans, including commercial real estate, one- to four-family residential, commercial, construction, marine, farm, and consumer loans. Its revenues are derived primarily from interest on loans and investment securities.",
+  "sellsTo": [
+    "Consumers and businesses in the Baltimore metropolitan area and Eastern Shore of Maryland",
+    "Commercial real estate borrowers inside and outside Maryland"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our one-to four-family residential loan portfolio consists of mortgage loans that enable borrowers to purchase or refinance homes."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We make construction loans, mostly to builders and commercial borrowers for owner occupied projects."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "At December 31, 2025, we had $7.2 million, or 1.0% of our total loans, of farm loans."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our principal lending activity is the origination of commercial real estate loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "system failure or cyber-security breaches of our information technology infrastructure"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also face competition from mortgage banking firms, non-banking financial institutions, consumer finance companies, credit unions and financial technology or fintech companies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:55:32.765Z",
+  "model": "deepseek-v4-flash"
+}

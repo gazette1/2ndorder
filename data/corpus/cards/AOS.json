@@ -1,0 +1,98 @@
+{
+  "cik": "0000091142",
+  "ticker": "AOS",
+  "name": "SMITH A O CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000091142-26-000008",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000008/aos-20251231.htm"
+  },
+  "business": "A. O. Smith manufactures and markets residential and commercial water heaters, boilers, water treatment products, and related products. The company operates in two segments: North America (78% of sales) and Rest of World (22%, primarily China). Products are sold to wholesale distributors, retail chains, and e-commerce channels.",
+  "sellsTo": [
+    "residential end markets",
+    "commercial end markets",
+    "wholesale plumbing distributors",
+    "retail home center chains",
+    "e-commerce channels",
+    "water quality dealers",
+    "contractors"
+  ],
+  "namedCustomers": [
+    "Lowe's",
+    "Amazon"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:heat-pumps",
+      "stance": "core_product",
+      "sentence": "We offer residential heat pumps, condensing tank-type and tankless water heaters in North America, as well as other higher efficiency water heating solutions to round out our energy-efficient product offerings."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We offer electric, natural gas and liquid propane tank-type models as well as tankless (gas and electric), heat pump and solar tank units."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We also sell our products through e-commerce channels."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "An inability to adequately maintain our information systems and their security, as well as to protect data and other confidential information, could adversely affect our business and reputation."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "A portion of our business could be adversely affected by a further decline in North American new residential or commercial construction or a decline in replacement-related volume of water heaters and boilers, including a decline in demand for commercial spaces."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "New residential housing starts in the U.S. are projected to be approximately flat and housing completions are expected to decrease in 2026 compared to 2025."
+    },
+    {
+      "tag": "other:electrification",
+      "stance": "risk_mention",
+      "sentence": "consumer preferences and broader trends, such as decarbonization and electrification efforts in response to climate change, may result in reduced demand for gas or fossil fuel-powered products and increased demand for higher efficiency products and/or more electric powered products."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "There is also increasing use of data analytics, machine learning, and artificial intelligence software, which our competitors may be able to use more effectively or implement more successfully than we are able to do."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "DOE commercial rule requiring condensing commercial water heaters",
+      "date": "2026-10-01",
+      "sentence": "We also recently launched our Cyclone Flex commercial condensing water heater with advanced features ahead of the upcoming October 2026 Department of Energy (DOE) commercial rule that will require all commercial water heaters to be condensing."
+    },
+    {
+      "event": "DOE residential efficiency rule effective",
+      "date": "2029-01-01",
+      "sentence": "The DOE has also adopted a new efficiency rule for our residential water heaters that will take effect in 2029."
+    },
+    {
+      "event": "Landfill waste reduction goal deadline",
+      "date": "2027-12-31",
+      "sentence": "We also announced a new landfill waste reduction goal of 525,000 pounds by 2027 (2024 baseline)."
+    },
+    {
+      "event": "Water stewardship goal deadline",
+      "date": "2030-12-31",
+      "sentence": "our water stewardship goal: an annual water savings of 40 million gallons by 2030 (2023 baseline)."
+    },
+    {
+      "event": "Global Employee Engagement Survey",
+      "date": "2026-12-31",
+      "sentence": "we will conduct the survey again in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:12:05.478Z",
+  "model": "deepseek-v4-flash"
+}

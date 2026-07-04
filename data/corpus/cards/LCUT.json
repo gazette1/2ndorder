@@ -1,0 +1,80 @@
+{
+  "cik": "0000874396",
+  "ticker": "LCUT",
+  "name": "LIFETIME BRANDS, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000874396-26-000008",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/874396/000087439626000008/lcut-20251231.htm"
+  },
+  "business": "The Company designs, sources and sells branded kitchenware, tableware and other home solution products used in the home. The Company sells its products directly to retailers and, to a lesser extent, to distributors. The Company also sells a limited selection of its products directly to consumers through its own websites.",
+  "sellsTo": [
+    "mass market merchants",
+    "specialty stores",
+    "department stores",
+    "warehouse clubs",
+    "grocery stores",
+    "off-price retailers",
+    "dollar channel retailers",
+    "food service distributors",
+    "food and beverage outlets",
+    "corporate sales",
+    "e-commerce retailers and marketplaces",
+    "direct to consumers via own websites"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "Amazon",
+    "Costco",
+    "TJX"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company is subject to cyber security and ransomware risks and may incur increasing costs in efforts to minimize those risks and to comply with regulatory standards."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company also sells a limited selection of its products directly to consumers through its own websites."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company designs, sources and sells branded kitchenware, tableware and other home solution products used in the home."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "The Company's international trade activity subjects it to transportation risks."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "improved labor management efficiencies and decreased employee expenses, net of higher software costs, due to the launch of a new warehouse management system at the Company's West Coast distribution center in September 2024."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "The Company's business may be materially adversely affected by the imposition of duties and tariffs and other trade barriers and retaliatory countermeasures implemented by the U.S. and other governments."
+    },
+    {
+      "tag": "other:foreign-exchange",
+      "stance": "risk_mention",
+      "sentence": "Foreign exchange variability and currency controls could materially adversely affect the Company's operating results and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hagerstown Facility fully operational",
+      "date": "2026-09-30",
+      "sentence": "The Company expects that the Hagerstown Facility will be fully operational by the third quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:49:46.772Z",
+  "model": "deepseek-v4-flash"
+}

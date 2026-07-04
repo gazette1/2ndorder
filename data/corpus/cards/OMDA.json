@@ -1,0 +1,61 @@
+{
+  "cik": "0001611115",
+  "ticker": "OMDA",
+  "name": "Omada Health, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-015637",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1611115/000162828026015637/omda-20251231.htm"
+  },
+  "business": "Omada Health sells virtual care programs for chronic conditions, including cardiometabolic (prediabetes, diabetes, hypertension, high cholesterol), musculoskeletal (MSK), and GLP-1 support. It sells to employers, health insurance plans, pharmacy benefit managers, health systems, and government entities. Revenue is generated through member enrollment and engagement fees.",
+  "sellsTo": [
+    "employers",
+    "health insurance plans",
+    "pharmacy benefit managers",
+    "health systems",
+    "government entities"
+  ],
+  "namedCustomers": [
+    "Partner A (affiliate of The Cigna Group)",
+    "Partner B (affiliate of The Cigna Group)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We deliver virtual care between doctor's visits, providing an engaging, personalized, and integrated experience for the individuals in our programs, which we call our members."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Where clinically appropriate, we provide members with connected third-party devices that measure progress and surface real-time data to our platform."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "OmadaSpark, our AI-powered agent, works directly with members alongside our Care Teams to support instant meal tracking and nutrition education, including meal logging via barcode scanning, photo upload, and voice input with immediate macronutrient feedback."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our information technology (IT) systems and those of our affiliated professional entities, or those used by our third-party service providers, vendors, business partners, or other contractors or consultants, may fail or suffer cybersecurity incidents, data breaches, and other disruptions, which could result in a material disruption of our systems or programs, compromise confidential information related to our business or of our customers or channel partners, including PHI and other sensitive or personal information of employees, covered individuals, and members, or prevent us from accessing critical information, potentially exposing us to liability or otherwise materially and adversely affecting our business, financial condition, results of operations, and prospects."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commercial launch of Omada for Cholesterol expected in 2026",
+      "date": "2026-01-01",
+      "sentence": "With the first commercial launch expected in 2026 and broad launch planned for 2027, Omada for Cholesterol is designed to help support members with high cholesterol by providing personalized cholesterol support, guidance from a clinical specialist, lessons, and goal setting."
+    },
+    {
+      "event": "Launch of GLP-1 prescribing capability",
+      "date": null,
+      "sentence": "Our new prescribing capability, launching later this year, is designed to provide broad longitudinal medication support, from the time of the prescription through the duration of a member's time taking an AOM."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:22:31.282Z",
+  "model": "deepseek-v4-flash"
+}

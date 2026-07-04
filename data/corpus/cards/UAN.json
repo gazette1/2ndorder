@@ -1,0 +1,58 @@
+{
+  "cik": "0001425292",
+  "ticker": "UAN",
+  "name": "CVR PARTNERS, LP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001425292-26-000011",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1425292/000142529226000011/cvi-20251231.htm"
+  },
+  "business": "CVR Partners, LP produces and distributes nitrogen fertilizer products, which are used by farmers to improve the yield and quality of their crops, primarily corn and wheat. The Partnership produces these products at two manufacturing facilities, one in Coffeyville, Kansas and one in East Dubuque, Illinois. All products are sold on a wholesale basis in the United States.",
+  "sellsTo": [
+    "agricultural customers",
+    "industrial customers",
+    "retailers and distributors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CVR Energy",
+    "CapturePoint LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Partnership produces and distributes nitrogen fertilizer products, which are used by farmers to improve the yield and quality of their crops, primarily corn and wheat."
+    },
+    {
+      "tag": "other:carbon-credits",
+      "stance": "active_investment",
+      "sentence": "Since 2020, the Partnership has generated carbon offset credits from voluntary nitrous oxide (N2O) abatement for one nitric acid plant at its Coffeyville Facility, with similar N2O abatement efforts at its East Dubuque Facility since June 2011."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "East Dubuque Facility scheduled turnaround",
+      "date": "2026-08",
+      "sentence": "The next scheduled turnaround is currently set to commence in August 2026 at the East Dubuque Facility."
+    },
+    {
+      "event": "Coffeyville Facility second N2O abatement system began operation",
+      "date": "2025-12",
+      "sentence": "In December 2025, the Coffeyville Facility began operation of its second N2O abatement system on the remaining nitric acid plant, enabling the generation of additional carbon offset credits for future years."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global fertilizer use projected to increase by 5% from 2022 through 2026",
+      "sentence": "Global fertilizer use, consisting of nitrogen, phosphate, and potash, is projected to increase by 5% from 2022 through 2026 to meet global demand."
+    },
+    {
+      "claim": "Top three nitrogen consumers: China 24%, India 17%, US 10% in 2025",
+      "sentence": "Fertecon estimates indicate that China, India, and the United States are the top consumers representing 24%, 17%, and 10% of total global nitrogen fertilizer consumption for 2025, respectively."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:46:11.752Z",
+  "model": "deepseek-v4-flash"
+}

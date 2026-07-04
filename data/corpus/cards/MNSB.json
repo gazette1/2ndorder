@@ -1,0 +1,58 @@
+{
+  "cik": "0001693577",
+  "ticker": "MNSB",
+  "name": "MainStreet Bancshares, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-008073",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1693577/000143774926008073/main20251231_10k.htm"
+  },
+  "business": "MainStreet Bancshares, Inc. is a financial holding company that offers commercial and consumer banking services through its wholly-owned subsidiary MainStreet Bank. The company provides loan and deposit products, mortgage services, and online/mobile banking to individuals, small to medium-sized businesses, and professionals in Northern Virginia and the greater Washington, D.C. metropolitan area.",
+  "sellsTo": [
+    "individuals",
+    "small to medium-sized businesses",
+    "professionals",
+    "government contractors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "IntraFi Network, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We were the first community bank in the Washington, D.C. metropolitan area to offer a full online business banking solution, including remote check scanners on a business customer’s desktop."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer mobile banking apps for iPhones, iPads and Android devices that provide for remote deposit of checks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business is dependent on our ability to process, store and transmit, on a daily basis, numerous transactions. ... A failure or a breach of our operational systems or infrastructure, or those of third party service providers, could disrupt our business, result in the unauthorized disclosure of confidential or proprietary information, damage our reputation, and cause financial losses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Middleburg branch commences retail banking operations",
+      "date": "2026-02-09",
+      "sentence": "The Company acquired the property located in Middleburg, VA during 2025 but the branch officially commenced retail banking operations on February 9, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Washington D.C. MSA ranks seventh out of the largest 25 MSAs by population as of 2024.",
+      "sentence": "Overall, the Washington D.C. MSA ranks seventh out of the largest 25 MSAs ranked by population estimates as of 2024 according to the Census Bureau."
+    },
+    {
+      "claim": "Median household income growth projections range from 8% to over 12% through 2031 in the Washington D.C. MSA.",
+      "sentence": "Median household income growth projections range from 8% to over 12% through 2031."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:01:35.551Z",
+  "model": "deepseek-v4-flash"
+}

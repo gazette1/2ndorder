@@ -1,0 +1,47 @@
+{
+  "cik": "0001166928",
+  "ticker": "WTBA",
+  "name": "WEST BANCORPORATION INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001166928-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166928/000116692826000010/wtba-20251231.htm"
+  },
+  "business": "West Bancorporation, Inc. is a financial holding company that owns West Bank, an Iowa-chartered bank. West Bank provides full-service community banking and trust services to customers in central and eastern Iowa and southern Minnesota. The bank offers commercial, real estate, and consumer loans, as well as deposit services and treasury management.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "commercial real estate borrowers",
+    "retail depositors",
+    "trust services clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "West Bank competes with other commercial banks, credit unions, mortgage companies and other financial service providers, including financial technology (FinTech) companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our or our third-party partners information security controls or cyber-security related incidents, including as a result of sophisticated attacks using artificial intelligence and similar tools;"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "technological changes implemented by us and other parties, including third-party vendors, which may be more difficult to implement or more expensive than anticipated or which may have unforeseen consequences to us and our customers, including the development and implementation of tools incorporating artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Declared quarterly cash dividend of $0.25 per common share",
+      "date": "2026-01-28",
+      "sentence": "The Company declared and paid cash dividends on its common stock totaling $1.00 per share in 2025 and declared a $0.25 quarterly dividend on January 28, 2026, payable on February 25, 2026, to stockholders of record on February 11, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:25:09.217Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,45 @@
+{
+  "cik": "0001759774",
+  "ticker": "PSTL",
+  "name": "Postal Realty Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-011212",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1759774/000162828026011212/pstl-20251231.htm"
+  },
+  "business": "Postal Realty Trust, Inc. is an internally managed REIT focused on acquiring and managing properties leased primarily to the United States Postal Service (USPS). The company owns 1,917 postal properties across 49 states and one territory, generating revenue from rent and tenant reimbursements under modified double-net leases.",
+  "sellsTo": [
+    "United States Postal Service (USPS)"
+  ],
+  "namedCustomers": [
+    "United States Postal Service (USPS)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We are an internally managed REIT with a focus on acquiring and managing properties leased primarily to the USPS, ranging from last-mile post offices to industrial facilities."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face cybersecurity risks and risks associated with security breaches."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The increased use of artificial intelligence and automation activities by our USPS and non-postal tenants may affect our owned properties in currently unforeseen ways."
+    },
+    {
+      "tag": "other:autonomous-delivery-devices",
+      "stance": "risk_mention",
+      "sentence": "Moreover, technological innovations, such as autonomous delivery devices, may decrease the need for hand delivery or in-person pick up, thereby decreasing the demand for retail post offices or other postal properties."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:38:51.454Z",
+  "model": "deepseek-v4-flash"
+}

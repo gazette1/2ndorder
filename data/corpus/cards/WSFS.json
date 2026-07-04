@@ -1,0 +1,42 @@
+{
+  "cik": "0000828944",
+  "ticker": "WSFS",
+  "name": "WSFS FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000828944-26-000006",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/828944/000082894426000006/wsfs-20251231.htm"
+  },
+  "business": "WSFS Financial Corporation is a savings and loan holding company whose primary subsidiary is Wilmington Savings Fund Society, FSB, a federal savings bank. The company operates in three segments: WSFS Bank (commercial and consumer banking, leasing), Cash Connect (ATM vault cash, smart safe, and cash logistics services), and Wealth and Trust (investment management, trust, and advisory services).",
+  "sellsTo": [
+    "Commercial clients",
+    "Consumer clients",
+    "Institutional clients",
+    "Wealth management clients",
+    "Nationwide non-bank ATM and smart safe clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Cash Connect provides ATM vault cash, smart safe and other cash logistics services in the U.S, servicing non-bank ATMs and smart safes nationwide and supporting ATMs for WSFS Bank Clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failures or cybersecurity incidents or other breaches of the Company s network security, particularly given remote working arrangements;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Any actual or perceived failure or deficiency in the use of artificial intelligence by the Company or third-party vendors or service providers;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:57:04.064Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,50 @@
+{
+  "cik": "0001855781",
+  "ticker": "BTCO",
+  "name": "Invesco Galaxy Bitcoin ETF",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-083572",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855781/000119312526083572/btco-20251231.htm"
+  },
+  "business": "The Trust is an exchange-traded fund that holds bitcoin and seeks to reflect the performance of the spot price of bitcoin, as measured by the Lukka Prime Bitcoin Reference Rate, less expenses. It issues shares to authorized participants and is designed for institutional and retail investors seeking exposure to bitcoin.",
+  "sellsTo": [
+    "Authorized Participants",
+    "retail investors",
+    "institutional investors"
+  ],
+  "namedCustomers": [
+    "ABN AMRO Clearing Chicago LLC",
+    "BNY Mellon Capital Markets, LLC",
+    "Citadel Securities LLC",
+    "Goldman Sachs & Co.",
+    "Jane Street Capital LLC",
+    "Jefferies LLC",
+    "JP Morgan Securities Inc.",
+    "Macquarie Capital (USA) Inc.",
+    "Marex Capital Markets Inc.",
+    "Morgan Stanley & Co. LLC",
+    "Virtu Americas LLC"
+  ],
+  "namedSuppliers": [
+    "BNY Mellon"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "The investment objective of the Trust is for the Shares to reflect the performance of the spot price of bitcoin as measured using the Lukka Prime Bitcoin Reference Rate (the Benchmark), less the Trust's expenses and other liabilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Bitcoin halving",
+      "date": "2028",
+      "sentence": "It is estimated that it will halve again sometime in 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:40:00.400Z",
+  "model": "deepseek-v4-flash"
+}

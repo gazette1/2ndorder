@@ -1,0 +1,42 @@
+{
+  "cik": "0001675644",
+  "ticker": "FVCB",
+  "name": "FVCBankcorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001675644-26-000017",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1675644/000167564426000017/fvcb-20251231.htm"
+  },
+  "business": "FVCBankcorp, Inc. is a bank holding company headquartered in Fairfax, Virginia, operating through its subsidiary FVCbank. The bank provides commercial banking services to small and medium-sized businesses, non-profit organizations, professionals, and investors in the Washington, D.C. and Baltimore metropolitan areas. Its products include commercial real estate loans, commercial construction loans, commercial and industrial loans, SBA lending, and deposit products.",
+  "sellsTo": [
+    "commercial businesses",
+    "nonprofit organizations",
+    "professional service entities",
+    "small and medium-sized businesses",
+    "government contractors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "defense",
+      "stance": "risk_mention",
+      "sentence": "At December 31, 2025, 23% of our total loans were outstanding to commercial and industrial customers. Of that, approximately 45% of outstanding commercial and industrial loans are to government contractors or their subcontractors specializing in the defense and homeland security and defense readiness sectors, and we have commitments of $350.4 million to such borrowers."
+    },
+    {
+      "tag": "other:cannabis",
+      "stance": "core_product",
+      "sentence": "We provide banking services to customers that are licensed to do business in the cannabis industry, primarily in Virginia, Maryland and the District of Columbia."
+    },
+    {
+      "tag": "housing",
+      "stance": "active_investment",
+      "sentence": "On August 31, 2021, we announced that the Bank made an investment in Atlantic Coast Mortgage, LLC (\"ACM\") for $20.4 million to obtain a 28.7% ownership interest in ACM."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:33:18.920Z",
+  "model": "deepseek-v4-flash"
+}

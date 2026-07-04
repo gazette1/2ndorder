@@ -1,0 +1,56 @@
+{
+  "cik": "0001751783",
+  "ticker": "RBKB",
+  "name": "Rhinebeck Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001751783-26-000005",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1751783/000175178326000005/rbkb-20251231x10k.htm"
+  },
+  "business": "Rhinebeck Bancorp, Inc. is a bank holding company that provides a full range of banking and financial services to consumer and commercial customers through its subsidiary, Rhinebeck Bank, which operates 12 branches in Dutchess, Orange and Ulster Counties, and representative offices in Albany and Dutchess Counties.",
+  "sellsTo": [
+    "consumer customers",
+    "commercial customers",
+    "customers in Dutchess, Orange, Ulster, and Albany Counties"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our most direct competition for deposits has historically come from the numerous financial institutions operating in our market area (including other community and commercial banks, credit unions and financial technology companies)…"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a failure in or breach of our operational or security systems or infrastructure, including cyberattacks;"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our one- to four-family residential loan portfolio consists of mortgage loans that enable borrowers to purchase or refinance existing homes, primarily owner-occupied primary residences."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Second-step conversion plan adoption",
+      "date": "2026-02-10",
+      "sentence": "On February 10, 2026, Rhinebeck Bancorp, MHC adopted a Plan of Conversion and Reorganization, pursuant to which Rhinebeck Bancorp, MHC is proposing to convert from the mutual holding company structure to the fully public stock holding company structure, in a transaction commonly referred to as a second-step conversion."
+    },
+    {
+      "event": "Discontinuation of residential mortgage loan origination",
+      "date": "2025-10-01",
+      "sentence": "in the fourth quarter of 2025, we discontinued originating residential mortgage loans directly."
+    },
+    {
+      "event": "Appointment of new CEO",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, Matthew J. Smith was appointed President and Chief Executive Officer of Rhinebeck Bank and its holding companies."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:51:21.108Z",
+  "model": "deepseek-v4-flash"
+}

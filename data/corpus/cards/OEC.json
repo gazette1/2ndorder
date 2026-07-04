@@ -1,0 +1,64 @@
+{
+  "cik": "0001609804",
+  "ticker": "OEC",
+  "name": "Orion S.A.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-008601",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1609804/000162828026008601/oec-20251231.htm"
+  },
+  "business": "Orion S.A. is one of the largest global producers of Specialty and Rubber Carbon Black. Carbon black is used as an additive to enhance properties in polymers, batteries, printing inks, coatings (Specialty) and in tire reinforcement and rubber applications (Rubber). The company serves customers in the coatings, polymers, printing, battery, tire, and mechanical rubber goods industries.",
+  "sellsTo": [
+    "Coatings manufacturers",
+    "Polymer producers",
+    "Printing ink manufacturers",
+    "Battery manufacturers",
+    "Tire manufacturers",
+    "Mechanical rubber goods manufacturers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "We offer conductive additives for lithium-ion batteries for electric vehicles, energy storage and consumer applications."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Demand in the batteries industry is driven by electric vehicles penetration, growth of consumer and industrial batteries business and energy storage systems use."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We are one of the largest global producers of Specialty and Rubber Carbon Black."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Other products include standard- to high-performance grades designed and modified to provide electrical conductivity, antistatic and reinforcing properties to many different polymer applications, including high-voltage cables, film and high-pressure pipes."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Certain products within this portfolio provide UV protection against polymer degradation for material such as pipe used for potable water, injection molding, agriculture films and cables."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "risk_mention",
+      "sentence": "Demand in the MRG is mainly influenced by vehicle production and design trends, construction activity and general industrial production."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Construction of La Porte, Texas production facility",
+      "date": null,
+      "sentence": "We currently operate 14 wholly owned production facilities, excluding the under-construction facility at La Porte, Texas."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:12:37.935Z",
+  "model": "deepseek-v4-flash"
+}

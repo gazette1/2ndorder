@@ -1,0 +1,47 @@
+{
+  "cik": "0001720116",
+  "ticker": "RDVT",
+  "name": "Red Violet, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-091708",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720116/000119312526091708/rdvt-20251231.htm"
+  },
+  "business": "Red Violet, Inc. is a nationwide provider of risk and information solutions. The company aggregates, stores, and processes sensitive consumer information including financial and personal data. It sells to customers in the banking, financial, and government sectors.",
+  "sellsTo": [
+    "banking or financial industry",
+    "government agencies",
+    "law enforcement",
+    "large companies and government entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We use certain machine learning and artificial intelligence technologies and processes in our business, including the use of generative artificial intelligence, and we are making continuing investments in this area, including ongoing deployment and improvement of existing machine learning and artificial intelligence technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized persons access our systems or our systems otherwise cease to function properly, our operations could be adversely affected and we could lose revenue or proprietary information, all of which could materially adversely affect our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "a decline in the volume of services we provide to our customers in the banking or financial industry, or other industries that are affected by these types of disruptions"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Extension of agreement with largest data supplier",
+      "date": null,
+      "sentence": "the term of our agreement with which was extended during 2025 through April 30, 2031"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:29:14.087Z",
+  "model": "deepseek-v4-flash"
+}

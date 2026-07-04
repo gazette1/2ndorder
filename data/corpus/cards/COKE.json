@@ -1,0 +1,73 @@
+{
+  "cik": "0000317540",
+  "ticker": "COKE",
+  "name": "Coca-Cola Consolidated, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009057",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/317540/000162828026009057/coke-20251231.htm"
+  },
+  "business": "Coca-Cola Consolidated distributes, markets, and manufactures nonalcoholic beverages, primarily products of The Coca-Cola Company, which account for about 85% of its bottle/can sales volume. It is the largest Coca-Cola bottler in the United States, serving approximately 60 million consumers across 14 states and the District of Columbia. The company also distributes products for Monster Energy and Dr Pepper.",
+  "sellsTo": [
+    "grocery stores",
+    "mass merchandise stores",
+    "club stores",
+    "convenience stores",
+    "drug stores",
+    "on-premise locations (restaurants, schools, amusement parks, recreational facilities)",
+    "vending machine outlets",
+    "alternative routes to market (ARTM)"
+  ],
+  "namedCustomers": [
+    "Walmart Inc.",
+    "The Kroger Co."
+  ],
+  "namedSuppliers": [
+    "The Coca-Cola Company",
+    "Coca-Cola Refreshments USA, LLC (CCR)",
+    "Monster Energy Company",
+    "Keurig Dr Pepper Inc.",
+    "Southeastern Container",
+    "Western Container",
+    "Coca-Cola Bottlers Sales & Services Company LLC (CCBSS)",
+    "South Atlantic Canners, Inc. (SAC)"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Technology failures or cyberattacks on the Company’s information technology systems or the Company’s effective response to technology failures or cyberattacks on its third-party service providers, business partners, customers, suppliers or other third parties information technology systems could disrupt the Company’s operations and negatively impact the Company’s reputation, business, financial condition or results of operations."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "During the first quarter of 2025, the Company began operations in a new 430,000-square foot automated distribution center in Columbus, Ohio."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are the largest Coca Cola bottler in the United States."
+    },
+    {
+      "tag": "other:digital-selling-platform",
+      "stance": "active_investment",
+      "sentence": "Through our investment in CONA Services LLC, we, along with other Coca-Cola bottlers, have built a digitally enabled selling platform called MyCoke that we believe has enabled, and will continue to enable, us to better serve our customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New automated distribution center in Columbus, Ohio began operations",
+      "date": "2025-03-31",
+      "sentence": "During the first quarter of 2025, the Company began operations in a new 430,000-square foot automated distribution center in Columbus, Ohio."
+    },
+    {
+      "event": "Launch of new products including Coca-Cola Cherry Float, FLRT Energy Drink, and enhanced glass offerings",
+      "date": "2026",
+      "sentence": "Additionally, during 2026, the Company will launch Coca-Cola Cherry Float, FLRT Energy Drink and enhanced glass offerings of our Coca-Cola Original Taste and other brands."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:09:53.177Z",
+  "model": "deepseek-v4-flash"
+}

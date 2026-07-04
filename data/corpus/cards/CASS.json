@@ -1,0 +1,62 @@
+{
+  "cik": "0000708781",
+  "ticker": "CASS",
+  "name": "CASS INFORMATION SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000708781-26-000010",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/708781/000070878126000010/cass-20251231.htm"
+  },
+  "business": "Cass Information Systems, Inc. provides payment and information processing services to large manufacturing, distribution and retail enterprises across the United States. It also offers a church management software solution and an on-line platform for generosity services for faith-based and non-profit organizations. Its bank subsidiary, Cass Commercial Bank, provides banking services to privately held businesses, restaurant franchises, and faith-based ministries.",
+  "sellsTo": [
+    "large manufacturing, distribution and retail enterprises",
+    "privately held businesses",
+    "restaurant franchises",
+    "faith-based ministries",
+    "faith-based and non-profit organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Cass solutions include integrated payments, a B2B payment platform for clients that require an agile fintech partner."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The Company, through its Transportation Information Services business unit, is one of the largest firms in the transportation bill processing and payment industry in the United States based on the total dollars of transportation bills paid and items processed."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Cass also processes and pays facility-related invoices, which include electricity and gas as well as waste and telecommunications expenses."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Energy prices are rising due to a number of factors, including an aging power grid, and rising demand for electricity as a result of data center construction to power artificial intelligence and electric vehicles."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Energy prices are rising due to a number of factors, including an aging power grid, and rising demand for electricity as a result of data center construction to power artificial intelligence and electric vehicles."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company's technologies, systems, networks and software, and those of other financial institutions have been, and are likely to continue to be, the target of cybersecurity threats and attacks, which may range from uncoordinated individual attempts to sophisticated and targeted measures directed at Cass."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Through its numerous methods of obtaining streams and pieces of raw data, including those supported by artificial intelligence (\"AI\"), Cass is able to assemble vital data into centralized data management systems and warehouses, thus producing an engine to create the power of information for managing critical corporate functions and processing systems."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:22:12.922Z",
+  "model": "deepseek-v4-flash"
+}

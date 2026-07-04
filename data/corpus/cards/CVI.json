@@ -1,0 +1,63 @@
+{
+  "cik": "0001376139",
+  "ticker": "CVI",
+  "name": "CVR ENERGY INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001376139-26-000014",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1376139/000137613926000014/cvi-20251231.htm"
+  },
+  "business": "CVR Energy, Inc. is a diversified holding company primarily engaged in the petroleum refining and marketing industry, the renewable fuels industry, and the nitrogen fertilizer manufacturing industry through its interest in CVR Partners, LP. The Petroleum Segment refines and markets high value transportation fuels including gasoline, diesel, jet fuel, and distillates. The Nitrogen Fertilizer Segment produces and distributes nitrogen fertilizer products, primarily ammonia and urea ammonium nitrate (UAN), for the farming industry.",
+  "sellsTo": [
+    "retailers, railroads, farm cooperatives, other refiners/marketers in Group 3 of PADD II region",
+    "retailers and distributors for UAN; industrial and agricultural sectors for ammonia",
+    "third-party offtake agreements for renewable diesel"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Gunvor USA LLC",
+    "Coffeyville Refinery (affiliate)"
+  ],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Petroleum Segment includes the refining and marketing of high value transportation fuels which consist of gasoline, diesel, jet fuel, and distillates."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Renewables Segment includes the refining of renewable feedstocks, such as soybean oil, corn oil, and other renewable feedstocks, into renewable diesel and marketing of renewables products."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Nitrogen Fertilizer Segment includes the production and distribution of nitrogen fertilizer products, primarily in the form of ammonia and urea ammonium nitrate (UAN), for the farming industry."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Alkylation unit replacement and expansion at Wynnewood Refinery becomes operational",
+      "date": null,
+      "sentence": "The capital investment is estimated at $136 million, and the unit is currently expected to become operational later in 2027"
+    },
+    {
+      "event": "Flare gas recovery system at Coffeyville Refinery becomes operational",
+      "date": null,
+      "sentence": "the Company is in the process of installing a flare gas recovery system along with other improvements at a cost of approximately $50 million, which is expected to be operational in late 2026"
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Global fertilizer use projected to increase by 5% from 2022 through 2026",
+      "sentence": "Global fertilizer use, consisting of nitrogen, phosphate, and potash, is projected to increase by 5% from 2022 through 2026 to meet global demand."
+    },
+    {
+      "claim": "United States accounts for 35% of world coarse grain exports and 28% of world production",
+      "sentence": "The United States is the world's largest exporter of coarse grains, accounting for 35% of world exports and 28% of world production for the fiscal year ended December 31, 2025, according to the United States Department of Agriculture (USDA)."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:12:00.120Z",
+  "model": "deepseek-v4-flash"
+}

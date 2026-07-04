@@ -1,0 +1,55 @@
+{
+  "cik": "0000826154",
+  "ticker": "ORRF",
+  "name": "ORRSTOWN FINANCIAL SERVICES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-017278",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/826154/000162828026017278/orrf-20251231.htm"
+  },
+  "business": "Orrstown Financial Services is a financial holding company for Orrstown Bank, a community bank. The Bank provides banking and financial advisory services including commercial and consumer lending, deposit services, fiduciary, investment advisory, insurance and brokerage services. It serves customers in south central Pennsylvania and Maryland.",
+  "sellsTo": [
+    "Retail customers",
+    "Commercial customers",
+    "Non-profit and government clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank also provides fiduciary, investment advisory, insurance and brokerage services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Financial technology companies, or Fintechs, are also providing nontraditional, but increasingly strong competition for the acquisition and retention of clients."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank originates commercial real estate, equipment, construction, working capital and other commercial purpose loans to commercial clients throughout the Bank s various markets."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank originates residential mortgages throughout its various markets referred from retail branches and through a network of mortgage loan officers."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The Bank originates commercial real estate, equipment, construction, working capital and other commercial purpose loans to commercial clients throughout the Bank s various markets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Operational risks including, but not limited to, cybersecurity incidents, fraud, natural disasters and future pandemics."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:48:46.989Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,77 @@
+{
+  "cik": "0001047340",
+  "ticker": "DMC",
+  "name": "DEL MONTE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001047340-26-000015",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1047340/000104734026000015/fdp-20251226.htm"
+  },
+  "business": "The company is a vertically integrated producer, marketer, and distributor of fresh and fresh-cut fruit and vegetables, prepared foods, juices, beverages, and snacks, primarily under the Del Monte brand. Its business comprises three reportable segments: fresh and value-added products, banana, and other products and services (including third-party freight and logistics, poultry and meats, and specialty ingredients).",
+  "sellsTo": [
+    "retail stores",
+    "club stores",
+    "convenience stores",
+    "wholesalers",
+    "distributors",
+    "foodservice operators",
+    "North America",
+    "Europe",
+    "Middle East",
+    "Asia"
+  ],
+  "namedCustomers": [
+    "Walmart"
+  ],
+  "namedSuppliers": [
+    "one grower in the Philippines",
+    "THACO Agri"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "Our third-party freight and logistic services business leverages our supply chain assets, including our shipping vessels, warehouses and cold storage infrastructure as part of our efforts to expand our portfolio of services."
+    },
+    {
+      "tag": "other:biomass",
+      "stance": "active_investment",
+      "sentence": "Our specialty ingredients business, previously referred to as our biomass initiatives, include a Kenyan biofertilizer plant, which will use residues from the Company's pineapple cannery to create different types of biomass products for internal use and third-party sales to other growers."
+    },
+    {
+      "tag": "other:carbon-neutral",
+      "stance": "core_product",
+      "sentence": "We introduced Del Monte Zero in 2023, our carbon-neutral pineapple as certified by SCS Global Services."
+    },
+    {
+      "tag": "other:genetically-modified-organisms",
+      "stance": "core_product",
+      "sentence": "Our proprietary Pinkglow pineapple is sourced from genetically modified pineapple plants."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of acquisition of select assets of Del Monte Foods",
+      "date": "2026-03-31",
+      "sentence": "The Acquisition, which we expect to close during the first quarter of 2026, remains subject to regulatory clearances, including under the Hart-Scott-Rodino Act, and other customary closing conditions."
+    },
+    {
+      "event": "Expiration of supply contract with one grower in the Philippines",
+      "date": "2026-02-28",
+      "sentence": "approximately 13% of our banana net sales in 2025 were supplied by one grower in the Philippines with whom our contract is set to expire on February 28, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Bananas were purchased by 92% of consumers in the U.S.",
+      "sentence": "According to a 2025 publication by The Packer, bananas were the most popular item in the produce department, purchased by 92% of consumers in the U.S. over the past twelve months."
+    },
+    {
+      "claim": "Avocado consumption per person has tripled over the past two decades.",
+      "sentence": "According to a USDA report, the quantity of avocados available per person, a proxy for consumption, has tripled over the past two decades."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:24:51.139Z",
+  "model": "deepseek-v4-flash"
+}

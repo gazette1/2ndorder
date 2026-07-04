@@ -1,0 +1,54 @@
+{
+  "cik": "0001786117",
+  "ticker": "PINE",
+  "name": "Alpine Income Property Trust, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-010910",
+    "filedAt": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786117/000110465926010910/pine-20251231x10k.htm"
+  },
+  "business": "Alpine Income Property Trust, Inc. is a REIT that owns and operates a portfolio of commercial net lease properties and originates commercial loans and investments, all located in the United States. Its properties are primarily leased to creditworthy retail tenants under long-term triple-net leases. The company is externally managed by Alpine Income Property Manager, LLC, a subsidiary of CTO Realty Growth, Inc.",
+  "sellsTo": [
+    "Retail tenants",
+    "Borrowers of commercial real estate loans"
+  ],
+  "namedCustomers": [
+    "Dick's Sporting Goods",
+    "Lowe's",
+    "Walgreens"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Our properties are primarily leased to industry leading, creditworthy tenants, many of which operate in industries we believe are resistant to the impact of e-commerce."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "We target tenants in industries that we believe are favorably impacted by current macroeconomic trends that support consumer spending, such as strong and growing employment and positive consumer sentiment, as well as tenants in industries that have demonstrated resistance to the impact of the growing e-commerce retail sector or who use a physical presence as a component of their omnichannel strategy."
+    },
+    {
+      "tag": "other:commercial-loans",
+      "stance": "core_product",
+      "sentence": "The Company operates in two primary business segments: (i) income properties and (ii) commercial loans and investments."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Management Agreement expiration",
+      "date": "2027-01-31",
+      "sentence": "The current term of the Management Agreement expires on January 31, 2027, and the Management Agreement will automatically renew for an unlimited number of successive one-year periods thereafter, unless the Management Agreement is not renewed or is terminated in accordance with its terms."
+    },
+    {
+      "event": "Credit Facility maturity",
+      "date": "2027-01-31",
+      "sentence": "the Credit Facility ... matures on January 31, 2027, with the option to extend for one year"
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:05:40.836Z",
+  "model": "deepseek-v4-flash"
+}

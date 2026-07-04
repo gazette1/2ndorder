@@ -1,0 +1,57 @@
+{
+  "cik": "0000936528",
+  "ticker": "WAFD",
+  "name": "WAFD INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000936528-25-000117",
+    "filedAt": "2025-11-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/936528/000093652825000117/wfsl-20250930.htm"
+  },
+  "business": "WaFd, Inc. is a bank holding company whose primary business is conducted through its wholly-owned subsidiary, WaFd Bank. The bank provides lending, depository, insurance and other banking services to consumers, small, mid-sized and large businesses, and owners and developers of commercial real estate.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "mid-sized businesses",
+    "large businesses",
+    "owners and developers of commercial real estate"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Bank originates construction loans to finance construction of single-family and multi-family residences as well as commercial properties."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Company is also engaged in insurance brokerage activities through the Bank’s subsidiary, WaFd Insurance Group, Inc."
+    },
+    {
+      "tag": "housing",
+      "stance": "risk_mention",
+      "sentence": "In January 2025, the Bank announced its exit from the single-family mortgage lending market, including home equity lines of credit."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "risks associated with cybersecurity incidents and threat actors"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "risks associated with the development and use of artificial intelligence"
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "risks related to the impacts of climate change on our business or reputation"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:11:07.506Z",
+  "model": "deepseek-v4-flash"
+}

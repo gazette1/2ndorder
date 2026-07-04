@@ -1,0 +1,82 @@
+{
+  "cik": "0001320760",
+  "ticker": "TSSI",
+  "name": "TSS, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-002342",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495426002342/tssi_10k.htm"
+  },
+  "business": "TSS, Inc. provides a comprehensive suite of services for the integration of complex Artificial Intelligence (AI) technologies, planning, design, deployment, maintenance and refresh of end-user and enterprise systems, including the mission-critical facilities in which they are housed. The majority of sales are made to or through a global Fortune 100 information technology company. Services include technology consulting, design and engineering, project management, systems integration, systems installation, facilities management and IT procurement services.",
+  "sellsTo": [
+    "enterprise customers",
+    "government and commercial end users",
+    "major technology, software, banking and cloud service providers",
+    "U.S. federal government"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Beginning in 2024, our systems integration services have been enhanced to include integration of AI enabled data center server racks."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We provide a single source solution for enabling technologies in data centers, operations centers, network facilities, server rooms, security operations centers, communications facilities and the infrastructure systems that are critical to their function."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "core_product",
+      "sentence": "Our services include solutions for edge devices, and client and infrastructure technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident, including one affecting our third-party service providers, could materially disrupt our operations, expose us to liability and subject us to mandatory public disclosure under SEC rules."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our capabilities include project management, value engineering and design management, bid negotiation support, subcontractor pre-qualification and selection, long-lead equipment procurement, issuance of equipment and construction contracts, and refinement and management of project budgets and schedules."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Our failure to attract and retain qualified personnel could increase the cost of fulfilling our contractual obligations, reduce our ability to efficiently satisfy our customers needs, limit our ability to win new business and constrain our future growth."
+    },
+    {
+      "tag": "other:modular-data-centers",
+      "stance": "core_product",
+      "sentence": "Our strategy includes increasing the number of customers and MDCs under contract so that we can increase the amount of recurring revenues from ongoing design, maintenance, and support contracts."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Signed long-term agreement with largest customer for AI rack integration",
+      "date": "2024-10-01",
+      "sentence": "In October 2024, we signed a long-term agreement with our largest customer to provide systems integration services for AI-enabled computer racks at an expected minimum monthly volume."
+    },
+    {
+      "event": "Amendment signed extending agreement and updating pricing",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we signed an amendment to the long-term agreement whereby both parties agreed to update the pricing in the agreement to account for increased power demands and capital expenditures beyond those contemplated in the original agreement, update the pricing to reflect current rack configurations, and to extend the term of the agreement by an additional two years."
+    },
+    {
+      "event": "Completed public offering of common stock",
+      "date": "2025-08-01",
+      "sentence": "The increase in cash flow from operations was driven by the $15.1 million of net income, combined with timing differences on receipts from customers net of payments to vendors specifically in relation to an elevated level of procurement activity ongoing at year-end, and $55.3 million from our public offering of common stock completed in August 2025."
+    },
+    {
+      "event": "Moved headquarters and production facility to Georgetown, Texas",
+      "date": "2025-06-01",
+      "sentence": "In the second quarter of 2025 we relocated our corporate offices and primary integration facility from Round Rock, Texas to Georgetown, Texas and continued to operate a secondary integration facility in our Round Rock facility for approximately one additional quarter before all operations were migrated to our new facility in Georgetown."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:25:05.370Z",
+  "model": "deepseek-v4-flash"
+}

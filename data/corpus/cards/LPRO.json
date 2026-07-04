@@ -1,0 +1,42 @@
+{
+  "cik": "0001806201",
+  "ticker": "LPRO",
+  "name": "Open Lending Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001806201-26-000024",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1806201/000180620126000024/lpro-20251231.htm"
+  },
+  "business": "Open Lending Corporation provides a cloud-based automotive lending enablement platform called Lenders Protection Platform (LPP) that enables automotive lenders to make loans to near-prime and non-prime borrowers by underwriting default insurance from insurance partners. The company also launched ApexOne Auto, a decisioning platform for prime borrowers that does not include default insurance. Revenue comes from program fees, profit-sharing with insurance partners, and claims administration fees.",
+  "sellsTo": [
+    "Credit unions",
+    "Regional banks",
+    "Finance companies",
+    "OEM captive finance companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a leading provider of lending enablement and risk analytics to credit unions, regional banks, finance companies and the captive finance companies of automakers ( OEM captive finance companies )."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "LPP supports loans made to near-prime and non-prime borrowers and is designed to underwrite default insurance by linking automotive lenders to our insurance partners."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of ApexOne Auto platform for prime borrowers",
+      "date": "2025-11-06",
+      "sentence": "On November 6, 2025, we announced the launch of ApexOne Auto, an advanced decisioning platform that supports loans made to prime borrowers."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:06:55.060Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,67 @@
+{
+  "cik": "0001267395",
+  "ticker": "AHL-PD",
+  "name": "ASPEN INSURANCE HOLDINGS LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0001267395-19-000008",
+    "filedAt": "2019-02-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1267395/000126739519000008/ahl10-k2018doc.htm"
+  },
+  "business": "Aspen Insurance Holdings Ltd provides global insurance and reinsurance coverage across property, casualty, specialty, marine, aviation, energy, mortgage, and agriculture lines.",
+  "sellsTo": [
+    "brokers",
+    "cedants",
+    "insurance customers",
+    "reinsureds"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "As part of our insurance and reinsurance operations, we assume substantial exposure to losses resulting from catastrophic events."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Significant losses to our agriculture classes of business could be incurred in the event of a decline in agricultural commodity prices prior to harvest which could, in turn, affect our financial condition or operating results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "We have introduced processes to manage our potential liabilities as a result of specific cyber coverage and other cover we provide to our (re)insurance clients."
+    },
+    {
+      "tag": "other:mortgage-reinsurance",
+      "stance": "core_product",
+      "sentence": "We provide credit reinsurance to mortgage guaranty insurers and commercial credit insurers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of merger with Highlands Holdings, Ltd.",
+      "date": null,
+      "sentence": "We anticipate that the Merger will be completed shortly."
+    },
+    {
+      "event": "Achievement of $55 million run rate savings from Effectiveness and Efficiency Program in 2019",
+      "date": "2019",
+      "sentence": "we continue to expect to achieve approximately $55 million of run rate savings in 2019."
+    },
+    {
+      "event": "Increase in net written premium to gross written premium ratio to approximately 75% in 2019",
+      "date": "2019",
+      "sentence": "As a result of these actions, we expect our net written premium to gross written premium ratio to increase from 60% in 2018 to approximately 75% in 2019."
+    },
+    {
+      "event": "Reduction in total purchase of ceded and retrocessional reinsurance in 2019",
+      "date": "2019",
+      "sentence": "In connection with this objective, we anticipate reducing our total purchase of ceded and retrocessional reinsurance in 2019 as we purchase less proportional reinsurance protection and more excess of loss protection compared to 2018."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:53:10.937Z",
+  "model": "deepseek-v4-flash"
+}

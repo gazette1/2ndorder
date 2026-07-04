@@ -1,0 +1,59 @@
+{
+  "cik": "0000352825",
+  "ticker": "FSTR",
+  "name": "FOSTER L B CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000352825-26-000016",
+    "filedAt": "2026-03-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm"
+  },
+  "business": "L.B. Foster Company is a global technology solutions provider of engineered, manufactured products and services that builds and supports infrastructure. It operates in two segments: Rail, Technologies, and Services (rail products, friction management, and technology solutions for railroads) and Infrastructure Solutions (precast concrete, bridge products, and protective pipe coatings). The company serves freight and passenger railroads, industrial companies, government infrastructure projects, and energy customers.",
+  "sellsTo": [
+    "Freight and passenger railroads",
+    "Industrial companies",
+    "Government infrastructure projects",
+    "Oil and gas transmission",
+    "Agriculture and water authorities",
+    "Mining"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Company's Technology Services and Solutions business unit engineers and manufactures Total Track Monitoring railroad condition monitoring systems and equipment including wheel impact load detection systems, wayside data collection and management systems, and rockfall, flood, earthworks, and bridge strike monitoring."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "The second location, situated in Willis, TX, applies specialty outside and inside diameter coatings for a wide variety of pipe diameters for oil and gas transmission, mining, and waste-water pipelines, as well as custom coatings for specialty pipe fittings and connections."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "The Precast Concrete Products business unit manufactures precast concrete products for the North American civil infrastructure market."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to cybersecurity risks ... including emerging threats enabled by artificial intelligence (AI) such as AI-generated phishing, deepfakes for social engineering, or unauthorized use of generative AI tools that could inadvertently expose sensitive data."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "emerging technologies, including those related to or arising from artificial intelligence, and resultant risks to our business and operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Lake County, Florida precast facility commenced operations",
+      "date": null,
+      "sentence": "The Company also has a leased facility in Lake County, Florida which commenced operations in 2025 and produces precast concrete wall systems."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:26:19.822Z",
+  "model": "deepseek-v4-flash"
+}

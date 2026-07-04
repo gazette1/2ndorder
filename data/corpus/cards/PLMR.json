@@ -1,0 +1,92 @@
+{
+  "cik": "0001761312",
+  "ticker": "PLMR",
+  "name": "Palomar Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067364",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526067364/plmr-20251231.htm"
+  },
+  "business": "Palomar Holdings provides property and casualty insurance products to individuals and businesses through a multi-channel distribution model, leveraging underwriting expertise and data-driven analytics.",
+  "sellsTo": [
+    "Individuals (personal lines)",
+    "Businesses (commercial lines)",
+    "Other insurance companies (fronting partnerships)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Torrey Pines Re, LTD",
+    "Houston Casualty Company",
+    "Fidelis Insurance Bermuda",
+    "Hannover Ruck",
+    "Arch Reinsurance, Ltd.",
+    "Ariel Re BDA, Ltd obo Lloyds Syndicate 1910",
+    "Hannover Re (Bermuda) Limited",
+    "Lloyds Syndicate 1084 - Chaucer",
+    "Partner Reinsurance Company Ltd",
+    "Swiss Reinsurance America"
+  ],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We are a specialty insurance company that provides property and casualty insurance products to individuals and businesses."
+    },
+    {
+      "tag": "other:earthquake",
+      "stance": "core_product",
+      "sentence": "Our Earthquake products insure against home damage, contents, appurtenant structures, and temporary housing costs following an earthquake."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Our Crop insurance products are comprised primarily of multi-peril crop insurance offered in connection with the U.S. Department of Agriculture's Risk Management Agency."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Surety is a highly profitable, specialized market that we evaluated over several years; we acquired FIA and Gray Surety, enabling us to accelerate market entry."
+    },
+    {
+      "tag": "other:environmental",
+      "stance": "core_product",
+      "sentence": "We have introduced several new products including Crop, E&S Casualty, Surety and Environmental Liability."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Claims arising from unpredictable and severe catastrophe events, including those caused by global climate change, could reduce or eliminate our earnings and stockholders equity."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "The growth and evolution of artificial intelligence (AI) may impact our business and operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches or cyber-attacks could expose us to liability and damage our reputation and business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Reorganization of product reporting: Surety and Credit premium reported as separate line, Fronting consolidated into existing lines",
+      "date": null,
+      "sentence": "We will reorganize the presentation of our product offerings in 2026 and report Surety and Credit premium as a separate line, reflecting changes in strategy and market focus following the Gray Surety acquisition."
+    },
+    {
+      "event": "Acquisition of The Gray Casualty & Surety Company (renamed Palomar Casualty & Surety Company)",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, we acquired The Gray Casualty & Surety Company ( Gray Surety ), a Treasury-listed surety carrier specializing in contract bonds for mid-sized and emerging contractors nationwide."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The United States property and casualty market represented over $1 trillion in total written premiums during 2024.",
+      "sentence": "We compete in the United States property and casualty market that represented over $1 trillion in total written premiums during 2024."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:30:25.117Z",
+  "model": "deepseek-v4-flash"
+}

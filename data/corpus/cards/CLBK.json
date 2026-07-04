@@ -1,0 +1,40 @@
+{
+  "cik": "0001723596",
+  "ticker": "CLBK",
+  "name": "Columbia Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001723596-26-000010",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1723596/000172359626000010/clbk-20251231.htm"
+  },
+  "business": "Columbia Financial, Inc. is the holding company for Columbia Bank, a federal savings bank. It offers traditional banking services including multifamily, commercial real estate, residential, commercial business, construction, and home equity loans, as well as deposit products to businesses and consumers. The company also provides title insurance, insurance agency services, and wealth management through third-party relationships.",
+  "sellsTo": [
+    "businesses",
+    "consumers",
+    "municipalities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our residential loan portfolio includes one-to-four family residential real estate loans and one-to-four family residential construction loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber attacks, computer viruses and other technological risks that may breach the security of our systems and allow unauthorized access to confidential information;"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition for loans also comes from the increasing number of non-depository financial service companies participating in the mortgage market, such as insurance companies, securities companies, financial technology companies and specialty finance firms, along with federal agencies."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:54:00.487Z",
+  "model": "deepseek-v4-flash"
+}

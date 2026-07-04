@@ -1,0 +1,68 @@
+{
+  "cik": "0001853145",
+  "ticker": "EVCM",
+  "name": "EverCommerce Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001853145-26-000010",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1853145/000185314526000010/evcm-20251231.htm"
+  },
+  "business": "EverCommerce provides integrated, vertically-tailored Software-as-a-Service (SaaS) solutions for service-based small- and medium-sized businesses (service SMBs) in home services, health services, and wellness services. The solutions include Business Management Software, Billing & Payment Solutions, and Customer Experience Solutions. As of December 31, 2025, the company served more than 745,000 customers.",
+  "sellsTo": [
+    "service SMBs",
+    "home services professionals",
+    "health services professionals",
+    "wellness services professionals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Worldpay",
+    "PayPal",
+    "Visa",
+    "MasterCard"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our EverHealth solutions are purpose-built for health service professionals."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our Billing & Payment Solutions provide integrated payments, billing and invoicing automation and business intelligence and analytics."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "core_product",
+      "sentence": "The acquisition of ZyraTalk helps to establish EverCommerce as an AI-driven innovator, beginning with near-term application in its Home Services vertical, EverPro, and we plan to extend ZyraTalk into broader opportunities across our other verticals."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We and our third-party providers are exposed to cybersecurity risks and incidents which may result in damage to our brand and reputation, material financial penalties, and legal liability, which could in turn materially adversely affect our business, results of operations, and financial condition."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Total number of service SMBs globally: ~456 million, North America: 35 million",
+      "sentence": "We estimate the total number of service SMBs, which represent service-based businesses with 500 or fewer employees, was approximately 456 million globally in 2023, of which 35 million were in North America."
+    },
+    {
+      "claim": "Total addressable market (TAM) globally: ~$1.6 trillion; North America: ~$662 billion",
+      "sentence": "We estimate the total addressable market (TAM) for our current solutions was approximately $1.6 trillion globally in 2023, of which approximately $662 billion was in North America, which refers to the United States and Canada."
+    },
+    {
+      "claim": "North America TAM breakdown: Home Services $69B, Health Services $115B, Wellness $22B, Other $456B",
+      "sentence": "Of the $662 billion, we estimate a $69 billion opportunity in Home Services, a $115 billion opportunity in Health Services, a $22 billion opportunity in Wellness Services and a $456 billion opportunity in other services categories."
+    },
+    {
+      "claim": "Annualized payment processing opportunity in excess of $100 billion",
+      "sentence": "We further estimate that, based on our current customers and payment volumes, we have an aggregate annualized payment processing opportunity in excess of $100 billion."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:25:02.939Z",
+  "model": "deepseek-v4-flash"
+}

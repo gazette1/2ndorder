@@ -1,0 +1,40 @@
+{
+  "cik": "0001870940",
+  "ticker": "AIRS",
+  "name": "Airsculpt Technologies, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001870940-26-000011",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1870940/000187094026000011/airs-20251231.htm"
+  },
+  "business": "AirSculpt Technologies, Inc. provides minimally invasive body contouring procedures (fat removal, skin tightening, fat transfer) to patients through its network of centers.",
+  "sellsTo": [
+    "Individual patients (self-pay)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Euromi S.A."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The minimally invasive procedure removes fat and tightens skin, while sculpting targeted areas of the body, allowing for quick healing with minimal bruising, tighter skin, and precise results."
+    },
+    {
+      "tag": "other:weight-loss-drugs",
+      "stance": "risk_mention",
+      "sentence": "The increased market acceptance, availability and customer awareness of weight-loss drugs has changed the market for body fat reduction procedures."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Addressable market estimated at $11 billion in 2022, expected to grow at 9% CAGR through 2027.",
+      "sentence": "Based on a study completed by an independent third-party consultant contracted by the Company in July 2023, the addressable market that the Company operates in, including liposuction, body sculpting, fat transfer fillers and skin tightening procedures, was estimated to be $11 billion in 2022 and expected to grow at a 9% compound annual growth rate through 2027."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:40:00.026Z",
+  "model": "deepseek-v4-flash"
+}

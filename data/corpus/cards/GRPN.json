@@ -1,0 +1,39 @@
+{
+  "cik": "0001490281",
+  "ticker": "GRPN",
+  "name": "Groupon, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-016429",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1490281/000162828026016429/grpn-20251231.htm"
+  },
+  "business": "Groupon is a global scaled two-sided marketplace that connects consumers to merchants. Revenue is earned through transactions during which it generates commissions by selling goods or services on behalf of third-party merchants. The company operates in two segments, North America and International, and in three categories: Local, Goods and Travel.",
+  "sellsTo": [
+    "consumers accessing marketplace through mobile applications and websites",
+    "third-party merchants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Groupon is a global scaled two-sided marketplace that connects consumers to merchants."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are building and beginning to implement modern API architecture, AI-ready search & relevance, AI-ready checkout in addition to internal AI tools to drive productivity and efficiency."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We may be subject to breaches of our information technology systems, which could result in the unauthorized access to, or disclosure of, proprietary, confidential, or personal information relating to our customers, merchants, employees, and partners."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:21:38.465Z",
+  "model": "deepseek-v4-flash"
+}

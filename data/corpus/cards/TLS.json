@@ -1,0 +1,84 @@
+{
+  "cik": "0000320121",
+  "ticker": "TLS",
+  "name": "TELOS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000320121-26-000010",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/320121/000032012126000010/tls-20251231.htm"
+  },
+  "business": "Telos Corporation offers technology solutions and services that empower and protect the world's most security-conscious organizations, including cybersecurity, identity and biometric solutions, secure networks, and TSA PreCheck enrollment, primarily serving the U.S. federal government, large commercial organizations, and international customers.",
+  "sellsTo": [
+    "U.S. federal government",
+    "large commercial organizations",
+    "state and local governments",
+    "international customers"
+  ],
+  "namedCustomers": [
+    "U.S. Department of War",
+    "Intelligence Community",
+    "U.S. Department of Homeland Security",
+    "U.S. Department of Justice",
+    "U.S. Department of Energy",
+    "U.S. General Services Administration",
+    "U.S. Department of the Interior",
+    "U.S. Social Security Administration",
+    "U.S. Environmental Protection Agency"
+  ],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "The Security Solutions segment delivers cybersecurity, cloud, identity, and secure messaging solutions that help government and commercial customers protect critical systems, manage cyber risk, and operate securely in complex and regulated environments."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "In fiscal year 2025, we generated approximately 91.0% of our revenues from the U.S. federal government, including 58.1% of our revenue from the DoW."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "Recently, Telos launched Xacta.ai, the artificial intelligence capability at the core of the Xacta cyber GRC platform, dramatically reducing compliance time and effort."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "With a focus on enterprise security, the Secure Networks segment provides secure networking architectures and solutions to our customers through secure mobility solutions and network management and defense services."
+    },
+    {
+      "tag": "other:identity-biometrics",
+      "stance": "core_product",
+      "sentence": "Telos provides a portfolio of identity solutions that support secure identity verification, biometric enrollment, and trusted identity services for government and commercial customers."
+    },
+    {
+      "tag": "other:travel",
+      "stance": "risk_mention",
+      "sentence": "Any decline or disruption in the travel industry or general economic downturn could materially and adversely affect our business, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Xacta.ai",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we launched Xacta.ai, the artificial intelligence capability at the core of the Xacta cyber GRC platform."
+    },
+    {
+      "event": "Amendment of credit facility extending maturity to December 30, 2026",
+      "date": "2025-12-30",
+      "sentence": "On December 30, 2025, we amended our Credit Agreement to extend the maturity date to December 30, 2026."
+    },
+    {
+      "event": "Additional restructuring actions in fourth quarter of 2025",
+      "date": null,
+      "sentence": "We executed a restructuring plan in early 2023 and implemented additional restructuring actions in the third quarter of 2024 and fourth quarter of 2025 to better align our operations with strategic priorities, resulting in restructuring-related costs."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:08:59.364Z",
+  "model": "deepseek-v4-flash"
+}

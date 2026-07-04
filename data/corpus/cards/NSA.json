@@ -1,0 +1,44 @@
+{
+  "cik": "0001618563",
+  "ticker": "NSA",
+  "name": "National Storage Affiliates Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012248",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1618563/000162828026012248/nsa-20251231.htm"
+  },
+  "business": "National Storage Affiliates Trust is a real estate investment trust focused on the ownership, operation, and acquisition of self storage properties. It leases storage units to tenants, primarily in the top 100 metropolitan statistical areas in the United States. The company manages its properties through a national platform and also provides property management services for its unconsolidated joint ventures.",
+  "sellsTo": [
+    "individuals and businesses needing self storage",
+    "institutional investors in joint ventures"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We earn certain customary fees for managing and operating the properties in the managed unconsolidated real estate ventures and we facilitate tenant insurance and/or tenant warranty protection programs for tenants at these properties in exchange for half of all proceeds from such programs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches through cyber-attacks, cyber-intrusions, or other methods could disrupt our information technology networks and related systems."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We have begun to utilize artificial intelligence technologies in various aspects of our business."
+    },
+    {
+      "tag": "other:cell-tower-leasing",
+      "stance": "core_product",
+      "sentence": "In addition, we have sufficient scale for various centralized functions, including financial reporting, the operation of call centers, expanding cell tower leasing, a national credit card processing program, marketing, information technology, legal support, and capital market functions, to achieve substantial cost savings over smaller, individual operators."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:13:20.319Z",
+  "model": "deepseek-v4-flash"
+}

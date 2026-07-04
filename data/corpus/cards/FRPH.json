@@ -1,0 +1,58 @@
+{
+  "cik": "0000844059",
+  "ticker": "FRPH",
+  "name": "FRP HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000844059-26-000037",
+    "filedAt": "2026-04-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/844059/000084405926000037/frph-20251231.htm"
+  },
+  "business": "FRP Holdings, Inc. is engaged in the real estate business, including leasing and management of industrial and commercial properties, leasing and management of mining royalty land, real property acquisition, entitlement, development and construction primarily for apartment, retail, industrial, and office, and management of mixed-use residential/retail properties owned through joint ventures. The company's customers include tenants in its industrial and commercial properties, mining royalty tenants, and joint venture partners. One significant customer is Vulcan Materials Company, which accounted for 26% of consolidated revenues in 2025.",
+  "sellsTo": [
+    "Industrial and commercial tenants",
+    "Mining royalty tenants",
+    "Multifamily residents",
+    "Joint venture partners"
+  ],
+  "namedCustomers": [
+    "Vulcan Materials Company"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "The Mining Royalty Lands Segment owns several properties totaling approximately 16,640 acres currently under lease for mining rents or royalties"
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Through our Development Segment, we own and are continuously assessing the highest and best use of several parcels of land that are in various stages of development."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "management of mixed-use residential/retail properties owned through joint ventures (the Multifamily Segment)"
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "The Industrial and Commercial Segment owns, leases and manages in-service commercial properties. Currently this includes ten warehouses in three business parks"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "In addition, electricity prices have been increasing and are expected to continue to increase due to the rapid expansion of data centers for artificial intelligence."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be negatively impacted by cyberattacks targeting our computer and telecommunications systems and infrastructure, or targeting those of our third-party service providers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:17:17.798Z",
+  "model": "deepseek-v4-flash"
+}

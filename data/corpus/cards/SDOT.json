@@ -1,0 +1,37 @@
+{
+  "cik": "0001701756",
+  "ticker": "SDOT",
+  "name": "Sadot Group Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001731122-26-000630",
+    "filedAt": "2026-04-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1701756/000173112226000630/e7550_10-k.htm"
+  },
+  "business": "Sadot Group Inc. is a holding company that, through its subsidiary Sadot LLC, is engaged in the global agri-foods supply chain, including farming, commodity trading, and shipping of food and feed products such as soybean meal, wheat, and corn via dry bulk cargo ships. As of December 31, 2025, the company has ceased most international operations and sold its restaurant business, focusing on monetizing remaining assets. The company is seeking alternative business lines due to substantial operational challenges.",
+  "sellsTo": [
+    "global food manufacturers and commodity buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Aggia LLC FZ",
+    "Buenaventura Trading LLC",
+    "Cropfit Farming Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Sadot Agri-Foods: Sadot Group's operating unit was intended to be a global Agri-Foods company engaged in farming, commodity trading and shipping of food and feed (e.g., soybean meal, wheat and corn) via dry bulk cargo ships across the globe."
+    },
+    {
+      "tag": "other:carbon-credits",
+      "stance": "risk_mention",
+      "sentence": "As part of our Agri-commodities operations, the Company invested in forward-looking products such as carbon credits."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:25:42.436Z",
+  "model": "deepseek-v4-flash"
+}

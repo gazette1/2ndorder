@@ -1,0 +1,59 @@
+{
+  "cik": "0001314727",
+  "ticker": "SONO",
+  "name": "Sonos Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001314727-25-000090",
+    "filedAt": "2025-11-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1314727/000131472725000090/sono-20250927.htm"
+  },
+  "business": "Sonos sells home theater speakers, components, plug-in and portable speakers, and headphones. Its products are distributed in more than 60 countries through retailers, online retailers, custom installers, and directly via sonos.com.",
+  "sellsTo": [
+    "retailers",
+    "online retailers",
+    "custom installers",
+    "direct-to-consumer"
+  ],
+  "namedCustomers": [
+    "Best Buy"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The portfolio includes home theater speakers, components, plug-in and portable speakers, and headphones."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI in our business, and challenges with properly managing its use could result in reputational harm, competitive harm, and legal liability, and adversely affect our results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Any cybersecurity breaches or our actual or perceived failure to comply with such legal obligations by us, or by our third-party service providers or partners, could harm our business."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "our business may be adversely impacted by the potential expansion of tariffs on goods imported into the U.S., as well as any retaliatory tariffs or policies enacted in other countries or any 'trade wars.'"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exit of contract manufacturer partnership expected by second quarter of fiscal 2026",
+      "date": null,
+      "sentence": "We expect to complete this exit with minimal disruption to our business by the second quarter of fiscal 2026."
+    },
+    {
+      "event": "Amendment of Revolving Credit Agreement in October 2025",
+      "date": null,
+      "sentence": "In October 2025, we amended the Revolving Credit Agreement."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:56:48.276Z",
+  "model": "deepseek-v4-flash"
+}

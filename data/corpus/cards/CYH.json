@@ -1,0 +1,61 @@
+{
+  "cik": "0001108109",
+  "ticker": "CYH",
+  "name": "COMMUNITY HEALTH SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-059509",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108109/000119312526059509/cyh-20251231.htm"
+  },
+  "business": "Community Health Systems is a healthcare company that owns and operates hospitals and outpatient facilities. It generates revenues by providing healthcare services to patients, with payment from governmental agencies (Medicare, Medicaid), private insurers, and directly from patients.",
+  "sellsTo": [
+    "Medicare",
+    "Medicaid",
+    "Managed Care and other third-party payors",
+    "Self-pay"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "HealthTrust Purchasing Group, L.P."
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We have made significant investments in existing markets to expand the scale of inpatient offerings, including through increasing bed capacity and constructing new surgical and procedural suites, and as the shift to delivering health services in outpatient settings accelerates, we continue to expand our care offerings beyond hospital walls to include more outpatient access through primary care practices, urgent care centers, freestanding emergency departments, ambulatory surgery centers, imaging and diagnostic centers and direct-to-consumer virtual health visits."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We are also deploying innovative programs to deliver better outcomes including, for example, remote monitoring for patients with certain chronic conditions, maternal/fetal monitoring using artificial intelligence, or AI, and machine learning, or ML, as well as tele-sitting technology."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Phase-out of Medicare Inpatient Only List begins",
+      "date": "2026-01-01",
+      "sentence": "In November 2025, CMS finalized a rule that will, beginning in calendar year 2026, phase out the Inpatient Only List over three years."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "National healthcare expenditures grew 7.2% in 2024 to nearly $5.3 trillion.",
+      "sentence": "According to the Centers for Medicare & Medicaid Services, or CMS, national healthcare expenditures grew 7.2% in 2024 to nearly $5.3 trillion, similar to the growth of 7.4% experienced in 2023."
+    },
+    {
+      "claim": "Total U.S. healthcare spending is expected to grow at an average annual rate of 5.4% for 2026 through 2033.",
+      "sentence": "CMS projections indicate that total U.S. healthcare spending is expected to grow at an average annual rate of 5.4% for 2026 through 2033."
+    },
+    {
+      "claim": "Hospital care expenditures increased to over $1.6 trillion in 2024.",
+      "sentence": "Hospital care expenditures increased to over $1.6 trillion in 2024, an increase of 8.9% over 2023, compared to growth of 10.4% in 2023."
+    },
+    {
+      "claim": "CMS projects that the hospital services category will reach over $2.6 trillion by 2033.",
+      "sentence": "CMS projects that the hospital services category will grow at an average of 5.4% annually from 2026 through 2033, reaching over $2.6 trillion by 2033."
+    }
+  ],
+  "generatedAt": "2026-07-04T02:12:09.157Z",
+  "model": "deepseek-v4-flash"
+}

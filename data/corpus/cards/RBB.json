@@ -1,0 +1,43 @@
+{
+  "cik": "0001499422",
+  "ticker": "RBB",
+  "name": "RBB Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007387",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1499422/000143774926007387/rbb20251231_10k.htm"
+  },
+  "business": "RBB Bancorp is a bank holding company that provides commercial and consumer banking products and services, including loans, deposits, and treasury management, primarily to small and middle-market businesses and individuals in Asian-centric communities.",
+  "sellsTo": [
+    "Asian-centric communities",
+    "small and middle-market businesses",
+    "individuals"
+  ],
+  "namedCustomers": [
+    "Federal National Mortgage Association (FNMA)",
+    "Federal Home Loan Mortgage Corporation (FHLMC)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We originate qualified SFR mortgage loans and non-qualified, alternative documentation SFR mortgage loans through wholesale and retail channels, including our branch network, to accommodate the needs of the Asian-centric and selected niche markets."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The products and services include commercial and investor real estate loans, business loans and lines of credit, Small Business Administration (SBA) 7A and 504 loans, mortgage loans, trade finance and a full range of depository accounts, including specialized services such as remote deposit, E-banking, mobile banking and treasury management services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity threats and the cost of defending against them;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:21:23.655Z",
+  "model": "deepseek-v4-flash"
+}

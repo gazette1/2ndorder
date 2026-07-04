@@ -1,0 +1,61 @@
+{
+  "cik": "0001385280",
+  "ticker": "CNK",
+  "name": "Cinemark Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-056015",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm"
+  },
+  "business": "Cinemark Holdings, Inc. is a leader in the theatrical exhibition industry, operating 496 theaters and 5,637 screens in the U.S. and Latin America as of December 31, 2025. It generates revenue primarily from box office admissions, concession sales, and screen advertising. The company serves as a distribution channel for movie studios and offers a variety of amenities including premium large format auditoriums, recliner seating, and expanded food and beverage options.",
+  "sellsTo": [
+    "Moviegoers",
+    "Movie studios and content providers",
+    "Advertisers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Barco"
+  ],
+  "exposures": [
+    {
+      "tag": "other:theatrical-exhibition",
+      "stance": "core_product",
+      "sentence": "We are a leader and one of the most geographically diverse operators in the theatrical exhibition industry."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Concession sales are our second largest revenue source."
+    },
+    {
+      "tag": "other:laser-projectors",
+      "stance": "active_investment",
+      "sentence": "We are in the early stages of a multi-year project to strategically convert our auditoriums to more energy efficient Barco RGB laser projectors."
+    },
+    {
+      "tag": "other:streaming-competition",
+      "stance": "risk_mention",
+      "sentence": "We face competition from a number of alternative film distribution channels, such as streaming services, digital downloads, video on-demand and network television."
+    },
+    {
+      "tag": "other:in-theater-advertising",
+      "stance": "core_product",
+      "sentence": "Our U.S. theaters are part of the in-theater digital network operated by National CineMedia, LLC (NCM). NCM provides advertising to our theaters through its branded Noovie pre-show entertainment program."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "North American industry box office revenues were approximately $8.9 billion for 2025.",
+      "sentence": "Domestic Preliminary estimates indicate that North American industry box office revenues were approximately $8.9 billion for 2025."
+    },
+    {
+      "claim": "Latin American industry box office revenues in the countries where we operate were approximately $1.2 billion for 2025.",
+      "sentence": "International Preliminary estimates for Latin American industry box office revenues in the countries where we operate were approximately $1.2 billion for 2025."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:19:29.474Z",
+  "model": "deepseek-v4-flash"
+}

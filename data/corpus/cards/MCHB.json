@@ -1,0 +1,57 @@
+{
+  "cik": "0001518715",
+  "ticker": "MCHB",
+  "name": "Mechanics Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001518715-26-000026",
+    "filedAt": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1518715/000151871526000026/hmst-20251231.htm"
+  },
+  "business": "Mechanics Bancorp is a financial holding company that primarily operates through Mechanics Bank, a full-service community bank providing a wide range of products and services in consumer and business banking, commercial lending, cash management services, private banking, and comprehensive wealth management and trust services.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "commercial clients",
+    "private banking clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Our loan products include commercial business loans, single family residential mortgages, consumer loans, commercial loans secured by residential and commercial real estate, and construction loans for residential and commercial real estate development."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our commercial real estate loans are secured by first liens on nonresidential real property, typically office, industrial or warehouse properties."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We also compete with other providers of financial services, such as money market mutual funds, brokerage and investment banking firms, consumer finance companies, pension trusts, governmental organizations and, increasingly, fintech companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks Related to Our Technology Infrastructure, including: increasing and continually evolving cybersecurity and other technological risks"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Overall, competition among providers of financial products and services continues to increase as technological advances, including the rise of artificial intelligence and automation, have lowered the barriers to entry for financial technology companies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sale of DUS multifamily mortgage servicing rights and business line to Fifth Third",
+      "date": null,
+      "sentence": "The sale is expected to close in the first or second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:24:06.238Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,63 @@
+{
+  "cik": "0001050441",
+  "ticker": "EGBN",
+  "name": "EAGLE BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001050441-26-000021",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000021/egbn-20251231.htm"
+  },
+  "business": "Eagle Bancorp Inc is a bank holding company for EagleBank, a Maryland-chartered commercial bank. The company provides commercial and consumer banking services including loans, deposits, and treasury management to small, medium, and middle-market businesses, professionals, non-profits, and individuals in the Washington D.C. metropolitan area. The Bank also offers digital banking services such as online and mobile banking.",
+  "sellsTo": [
+    "small, medium and middle-sized businesses",
+    "professionals",
+    "non-profit organizations",
+    "individuals living or working in the market area"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "IntraFi Network, LLC",
+    "Federal Home Loan Bank of Atlanta"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "In early 2024, the Bank launched a new online and mobile banking digital platform as the Bank seeks to further modernize its deposit offerings to its customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "increased cybersecurity risk due to, among other things, the increased connectivity of third parties and electronic devices to our systems, hybrid work arrangements and new technologies, such as artificial intelligence"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "increased cybersecurity risk due to, among other things, the increased connectivity of third parties and electronic devices to our systems, hybrid work arrangements and new technologies, such as artificial intelligence"
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The composition of the Company s loan portfolio is heavily weighted toward commercial real estate, both owner occupied and income producing."
+    },
+    {
+      "tag": "other:government-contracting",
+      "stance": "risk_mention",
+      "sentence": "The presidential administration and certain governmental agencies have taken action to reduce government spending, including on government contractors, and the size of the federal government workforce."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The Gross Regional Product for the Washington D.C. metropolitan area was $714.7 billion in 2023.",
+      "sentence": "The Gross Regional Product for the metropolitan area in 2023 (latest data available) was reported at $714.7 billion, per the Federal Reserve Economic Data."
+    },
+    {
+      "claim": "Total employment in the region is approximately 3.4 million.",
+      "sentence": "Total employment in the region is approximately 3.4 million per the 2026 Bureau of Labor Statistics report."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:37:39.238Z",
+  "model": "deepseek-v4-flash"
+}

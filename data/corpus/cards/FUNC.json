@@ -1,0 +1,40 @@
+{
+  "cik": "0000763907",
+  "ticker": "FUNC",
+  "name": "FIRST UNITED CORP/MD/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-025836",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/763907/000110465926025836/func-20251231x10k.htm"
+  },
+  "business": "First United Corporation is a financial holding company that, through its subsidiaries, provides retail and commercial banking services, wealth management, trust services, and insurance products to customers in Western Maryland and Northeastern West Virginia.",
+  "sellsTo": [
+    "individuals and businesses in Maryland and West Virginia",
+    "municipalities",
+    "commercial and retail customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank also provides safe deposit and night depository facilities, insurance products and trust services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operational or communications systems or infrastructure may fail or may be the subject of a breach or cyber-attack that, if successful, could adversely affect our business or disrupt business continuity."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "The Bank's wealth department offers a full range of trust services, including personal trust, investment agency accounts, charitable trusts, retirement accounts including IRA roll-overs, 401(k) accounts and defined benefit plans, estate administration and estate planning."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:46:39.270Z",
+  "model": "deepseek-v4-flash"
+}

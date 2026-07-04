@@ -1,0 +1,72 @@
+{
+  "cik": "0000737468",
+  "ticker": "WASH",
+  "name": "WASHINGTON TRUST BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000737468-26-000034",
+    "filedAt": "2026-02-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/737468/000073746826000034/wash-20251231.htm"
+  },
+  "business": "Washington Trust offers a full range of financial services, including commercial banking, mortgage banking, personal banking, and wealth management and trust services, through its offices located in Rhode Island, Connecticut, and Massachusetts.",
+  "sellsTo": [
+    "consumer",
+    "commercial",
+    "non-profit",
+    "municipal customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies, such as artificial intelligence (including machine learning and generative artificial intelligence) and quantum computing, have the potential to further intensify competition and accelerate disruption in the financial services industry."
+    },
+    {
+      "tag": "quantum",
+      "stance": "risk_mention",
+      "sentence": "Emerging technologies, such as artificial intelligence (including machine learning and generative artificial intelligence) and quantum computing, have the potential to further intensify competition and accelerate disruption in the financial services industry."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face continuing security risks to our data, including the information we maintain relating to our customers."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Climate change and related legislative and regulatory initiatives may result in operational changes and expenditures that could significantly impact our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Financial technology companies now offer services traditionally provided by financial institutions."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The residential real estate loan portfolio consists of mortgage and homeowner construction loans secured by one- to four-family residential properties and represented 40% of total loans at December 31, 2025."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Commercial real estate loans consisted of commercial mortgages secured by non-owner occupied real property where the primary source of repayment is derived from rental income associated with the property or the proceeds of the sale, refinancing or permanent financing of the property."
+    },
+    {
+      "tag": "other:tariffs",
+      "stance": "risk_mention",
+      "sentence": "Changes in U.S. trade policies, including the imposition of tariffs and retaliatory tariffs, may adversely affect our business, financial condition, and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open new full-service branch in Pawtucket, Rhode Island",
+      "date": null,
+      "sentence": "We plan to open a new full-service branch in Pawtucket, Rhode Island in the latter half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:15:49.216Z",
+  "model": "deepseek-v4-flash"
+}

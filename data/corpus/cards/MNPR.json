@@ -1,0 +1,53 @@
+{
+  "cik": "0001645469",
+  "ticker": "MNPR",
+  "name": "Monopar Therapeutics",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-010025",
+    "filedAt": "2026-03-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926010025/mnpr20251231_10k.htm"
+  },
+  "business": "Monopar Therapeutics is a clinical-stage biopharmaceutical company developing an innovative treatment for Wilson disease (ALXN1840) and novel radiopharmaceuticals for oncology (MNPR-101-Zr, MNPR-101-Lu, MNPR-101-Ac). The company builds its pipeline through in-house efforts and licensing of late preclinical- and clinical-stage therapeutics.",
+  "sellsTo": [
+    "Wilson disease patients",
+    "Advanced cancer patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Alexion, AstraZeneca Rare Disease",
+    "NorthStar Medical Radioisotopes, LLC",
+    "XOMA Ltd."
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Monopar Therapeutics Inc. (Monopar, the Company, we, us, and our and similar terms mean Monopar Therapeutics Inc. and its subsidiaries except where the context otherwise requires) is a clinical-stage biopharmaceutical company developing an innovative treatment for Wilson disease and novel radiopharmaceuticals for oncology."
+    },
+    {
+      "tag": "other:radiopharmaceuticals",
+      "stance": "core_product",
+      "sentence": "Our radiopharmaceutical programs consist of Phase 1-stage MNPR-101-Zr for imaging advanced cancers, and Phase 1a-stage MNPR-101-Lu and late preclinical-stage MNPR-101-Ac for the treatment of advanced cancers, that express urokinase plasminogen activator receptor (uPAR)."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expected NDA submission for ALXN1840",
+      "date": "2026-06-30",
+      "sentence": "Based on recent regulatory interactions with the FDA regarding ALXN1840, during which the agency has encouraged continued dialogue with us on certain questions they have before we submit our NDA, we currently expect to submit our NDA in mid-2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Estimated 10,000 Wilson disease patients in the U.S., with an estimated 5,000 patients currently diagnosed and being treated with standard-of-care (SoC).",
+      "sentence": "There are an estimated 10,000 Wilson disease patients in the U.S., with an estimated 5,000 patients currently diagnosed and being treated with standard-of-care (SoC)."
+    },
+    {
+      "claim": "uPAR is highly expressed on several aggressive cancers: estimated 97% of breast, 89% of bladder, 87% of pancreatic and 85% of colorectal cancer patients express uPAR.",
+      "sentence": "For example, it is estimated that the tumors and/or tumor associated cells in 97% of breast, 89% of bladder, 87% of pancreatic and 85% of colorectal cancer patients express uPAR."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:30:25.139Z",
+  "model": "deepseek-v4-flash"
+}

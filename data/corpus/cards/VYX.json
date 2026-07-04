@@ -1,0 +1,72 @@
+{
+  "cik": "0000070866",
+  "ticker": "VYX",
+  "name": "NCR Voyix Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000070866-26-000006",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/70866/000007086626000006/ncr-20251231.htm"
+  },
+  "business": "NCR Voyix is a global platform-powered leader in unified commerce for shopping and dining, providing a modernized suite of microservices-based applications and comprehensive service offerings. The company serves retail customers in convenience & fuel, grocery, drug & mass merchandise, and department & specialty industries, and restaurant customers including quick-service, table-service, and fast casual establishments.",
+  "sellsTo": [
+    "enterprise and mid-market retailers in convenience & fuel, grocery, drug & mass merchandise, and department & specialty retail",
+    "restaurants and food service establishments including quick-service, table-service, and fast casual restaurants of all sizes"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ennoconn Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer end-to-end omnichannel payment capabilities integrated with our POS and SCO offerings that seek to provide seamless, secure and scalable solutions for retailers and restaurants."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Embedded within our SCO solutions are AI capabilities, including computer vision and machine learning, that streamline item lookup, accelerate checkout times and reduce fraud."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Secure and resilient protection in the cloud and at the edge, safeguarding operations and minimizing the impact of network or cloud interruptions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our inability to protect our systems, solutions and data from cybersecurity threats or other technological risks could adversely affect our business operations or stock price and damage our brand and reputation."
+    },
+    {
+      "tag": "other:ai-development",
+      "stance": "active_investment",
+      "sentence": "We are transforming our legacy software portfolio into a streamlined suite of microservices based SaaS applications built on our cloud-based Voyix Commerce Platform, leveraging AI tools to accelerate development."
+    },
+    {
+      "tag": "other:edge-computing",
+      "stance": "core_product",
+      "sentence": "With our Voyix Edge application engine, customers can replace the traditional operating system stacks that normally would run these applications with a local modern microservices environment."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "NCR Voyix serves customers of all sizes, from small- and medium-sized companies to large, blue-chip enterprises, representing some of the world's leading consumer brands."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commencement of implementation phase of Hardware Business Transition",
+      "date": "2026-01-08",
+      "sentence": "On January 8, 2026, we announced the commencement of the implementation phase of this new hardware model and began migrating certain aspects of our hardware business to Ennoconn."
+    },
+    {
+      "event": "Completion of Hardware Business Transition",
+      "date": null,
+      "sentence": "We expect to complete the Hardware Business Transition in April 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:48:17.098Z",
+  "model": "deepseek-v4-flash"
+}

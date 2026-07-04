@@ -1,0 +1,47 @@
+{
+  "cik": "0001169770",
+  "ticker": "BANC",
+  "name": "BANC OF CALIFORNIA, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012946",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1169770/000162828026012946/banc-20251231.htm"
+  },
+  "business": "Banc of California provides banking and treasury management services to small, middle-market, and venture-backed businesses, along with loan and deposit products, payment processing solutions, and a technology-forward platform for the Community Association Management industry.",
+  "sellsTo": [
+    "small businesses",
+    "middle-market businesses",
+    "venture-backed businesses",
+    "Community Association Management industry",
+    "commercial clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company’s Payments business provides integrated electronic payment capabilities for commercial clients, including merchant acquiring and card issuing services."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Increasingly, community banks, including the Bank, are partnering with fintech providers to distribute or market their products and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our cybersecurity measures may not be sufficient to mitigate losses or exposure to cyber-attack or cyber theft."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and use of new technologies, including artificial intelligence (AI), presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:53:25.983Z",
+  "model": "deepseek-v4-flash"
+}

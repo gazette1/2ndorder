@@ -1,0 +1,46 @@
+{
+  "cik": "0001361658",
+  "ticker": "TNL",
+  "name": "Travel & Leisure Co.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001361658-26-000009",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1361658/000136165826000009/tnl-20251231.htm"
+  },
+  "business": "Travel + Leisure Co. sells vacation ownership interests (timeshares) under brands like Club Wyndham, WorldMark, and Margaritaville Vacation Club, and operates vacation exchange and travel club services. It serves individual consumers (owners, members) and also offers B2B private-label travel club solutions.",
+  "sellsTo": [
+    "individual consumers (owners and members)",
+    "travel club members",
+    "associations and organizations (B2B)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to maintain the integrity of internal or customer data or to protect our systems from cyber-attacks could disrupt our business, damage our reputation, and subject us to significant costs, fines or lawsuits."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "We are increasingly incorporating AI technologies into our processes, marketing and services, and these technologies are becoming increasingly important to our operations and important in maintaining our competitive position, both in our vacation ownership business and in our exchange and travel club businesses."
+    },
+    {
+      "tag": "other:data-privacy",
+      "stance": "risk_mention",
+      "sentence": "Consumer privacy laws could adversely affect our ability to market our products effectively and may require us to change our business practices or expend significant amounts on compliance with such laws."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Approval of remaining actions in resort optimization initiative by owners",
+      "date": "2026-03-31",
+      "sentence": "We would expect to incur an additional $4 million of inventory impairment charges and an additional $11 million of inventory write-downs if the remaining actions are approved by the owners in the first quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:31:10.178Z",
+  "model": "deepseek-v4-flash"
+}

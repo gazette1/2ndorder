@@ -1,0 +1,58 @@
+{
+  "cik": "0000860748",
+  "ticker": "KMPR",
+  "name": "KEMPER Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0000860748-26-000014",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/860748/000086074826000014/kmpr-20251231.htm"
+  },
+  "business": "Kemper is an insurance holding company that offers personal and commercial automobile insurance to consumers in targeted markets and industries, as well as life and other insurance solutions for basic protection. It also provides specialty automobile, fire/contents, and other property and casualty insurance.",
+  "sellsTo": [
+    "consumers",
+    "businesses",
+    "independent agents and brokers",
+    "career agents",
+    "targeted markets (e.g., urban, Hispanic)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Kemper is an insurance holding company that offers complementary insurance products, through its subsidiaries, including personal and commercial automobile insurance to consumers in targeted markets and industries."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to protect against cyber attacks or other exposures that compromise data, including personal data, held by the Company could result in business interruption, legal and consulting fees, regulatory penalties, litigation, lost business, reputational harm, and other liabilities and expenses."
+    },
+    {
+      "tag": "other:telematics",
+      "stance": "risk_mention",
+      "sentence": "Heightened competition, including, with respect to pricing, consolidations of existing competitors or entry of new competitors and alternate distribution channels, introduction of new technologies, use and enhancements of telematics, refinements of existing products and development of new products by current or future competitors."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Renewal rights agreement for Non-Core Operations in New York, contingent on regulatory approval",
+      "date": "2025-08-01",
+      "sentence": "On August 1, 2025, certain Non-Core Operations subsidiaries entered into a renewal rights agreement with a third party and certain of its affiliates (collectively, the Third Party) whereby the Third Party will offer replacement policies for certain policies written by these subsidiaries in New York after the expiration of their current term."
+    },
+    {
+      "event": "Expected to fund credits to eligible policyholders in 2026 related to Florida profit limit",
+      "date": null,
+      "sentence": "The Company expects to fund credits to eligible policyholders in 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. property and casualty insurance industry net premiums written in 2024 were $937.8 billion.",
+      "sentence": "In 2024, the U.S. property and casualty insurance industry’s estimated net premiums written were $937.8 billion, of which nearly 82% were accounted for by the top 50 groups of property and casualty insurance companies."
+    }
+  ],
+  "generatedAt": "2026-07-03T22:46:46.693Z",
+  "model": "deepseek-v4-flash"
+}

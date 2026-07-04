@@ -1,0 +1,69 @@
+{
+  "cik": "0000009092",
+  "ticker": "BMI",
+  "name": "BADGER METER INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-054739",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/9092/000119312526054739/bmi-20251231.htm"
+  },
+  "business": "Badger Meter is a leading innovator, manufacturer and marketer of products incorporating flow measurement, quality, control and other system solutions serving markets worldwide. Approximately 95% of net sales are derived from water-related applications. The company sells smart water solutions including meters, communication endpoints, software, and sensors to water utilities and industrial customers.",
+  "sellsTo": [
+    "water utilities",
+    "commercial and industrial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The Company's solutions also include high frequency pressure and leak detection sensors that provide real-time alarms and event location triangulation to aid operators in responding to burst pipe and other leak events quickly, reducing water loss and system downtime."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Utility water smart metering solutions are comprised of water meters along with the connected radio endpoints and software technologies and services used by water utilities as the basis for generating their water and wastewater revenues, enabling operating efficiencies and engaging with their end consumers."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "core_product",
+      "sentence": "The Company s broad range of communication solutions include the ORION branded family of radio endpoints, along with remote telemetry units providing customers with a choice of industry-leading options for communicating data from hardware into use-specific software applications."
+    },
+    {
+      "tag": "other:saas",
+      "stance": "core_product",
+      "sentence": "The Company s BEACON Software as a Service (SaaS), amongst others, improves utility visibility to their water and water usage."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "The flow instrumentation product line primarily serves water applications throughout the broader industrial market, with both standard and customized solutions."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure guidance for fiscal 2026",
+      "date": null,
+      "sentence": "Capital expenditures for fiscal 2026 are expected to be in the $15.0-19.0 million range, but could vary depending on timing of projects, growth opportunities and the amount of assets purchased."
+    },
+    {
+      "event": "Union contract expiration",
+      "date": "2028-10-31",
+      "sentence": "The Company currently operates under a three-year contract with the union, which expires on October 31, 2028."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Approximately 40% of water meters installed in the United States have been converted to AMI systems.",
+      "sentence": "The Company estimates that approximately 40% of water meters installed in the United States have been converted to AMI systems."
+    },
+    {
+      "claim": "There are more than 50,000 water utilities in the United States",
+      "sentence": "There are more than 50,000 water utilities in the United States and the Company estimates that approximately 40% of their respective connections have converted to an AMI radio solution."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:45:29.000Z",
+  "model": "deepseek-v4-flash"
+}

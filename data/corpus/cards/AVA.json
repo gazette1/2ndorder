@@ -1,0 +1,99 @@
+{
+  "cik": "0000104918",
+  "ticker": "AVA",
+  "name": "AVISTA CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-067872",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/104918/000119312526067872/ava-20251231.htm"
+  },
+  "business": "Avista Corp., through Avista Utilities, provides electric and natural gas distribution services to retail customers in parts of eastern Washington, northern Idaho, and northeastern and southwestern Oregon. Through Alaska Electric Light and Power Company (AEL&P), it is the sole utility providing electrical energy in Juneau, Alaska. The company also engages in wholesale sales of electricity and natural gas.",
+  "sellsTo": [
+    "residential",
+    "commercial",
+    "industrial",
+    "public street and highway lighting",
+    "wholesale"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Douglas County PUD",
+    "Grant County PUD",
+    "Chelan County PUD",
+    "Columbia Basin Hydro",
+    "Lancaster (thermal plant)",
+    "Clearwater Wind",
+    "Palouse Wind",
+    "Rattlesnake Flat Wind",
+    "Lind Solar",
+    "Jackson Prairie (natural gas storage)"
+  ],
+  "exposures": [
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Avista Utilities provides electric and natural gas distribution services to retail customers in parts of eastern Washington, northern Idaho, and northeastern and southwestern Oregon."
+    },
+    {
+      "tag": "transmission",
+      "stance": "core_product",
+      "sentence": "We have an electric transmission system of approximately 700 miles of 230 kV line and approximately 1,600 miles of 115 kV line."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "We have exclusive rights to the capacity of Palouse Wind, a wind generation project developed, owned and managed by an unrelated third-party and located in Whitman County, Washington."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "active_investment",
+      "sentence": "a project for 100 MW, 4-hour Battery Energy Storage System, to be built and transferred to the Company in eastern Washington with a target date in 2028"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks, ransomware, terrorism or other malicious acts could disrupt our businesses and have a negative impact on our results of operations and cash flows."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Transfer of ownership in Colstrip Units 3 and 4 to NorthWestern",
+      "date": "2026-01-01",
+      "sentence": "on January 1, 2026, the transaction to transfer our 15 percent ownership in Colstrip Units 3 and 4 to NorthWestern closed."
+    },
+    {
+      "event": "First stage of Rathdrum CT upgrade adding capacity",
+      "date": "2027-01-01",
+      "sentence": "This upgrade will occur in two stages with the first occurring in 2027 and the second in 2029"
+    },
+    {
+      "event": "Second stage of Rathdrum CT upgrade",
+      "date": "2029-01-01",
+      "sentence": "This upgrade will occur in two stages with the first occurring in 2027 and the second in 2029"
+    },
+    {
+      "event": "100 MW battery energy storage system target",
+      "date": "2028-01-01",
+      "sentence": "a project for 100 MW, 4-hour Battery Energy Storage System, to be built and transferred to the Company in eastern Washington with a target date in 2028"
+    },
+    {
+      "event": "200 MW wind PPA from Montana target",
+      "date": "2029-01-01",
+      "sentence": "a PPA for approximately 200 MW of wind power from Montana that utilizes our share of the Colstrip Transmission System with a target date in 2029"
+    },
+    {
+      "event": "40 MW Demand Response Programs beginning",
+      "date": "2026-01-01",
+      "sentence": "and the addition of approximately 40 MW of Demand Response Programs that will recruit residential, commercial and industrial customers within our service territory, beginning in 2026."
+    },
+    {
+      "event": "Filed multi-year rate plan (MYRP) with WUTC",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, we filed an MYRP with the WUTC."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:41:04.315Z",
+  "model": "deepseek-v4-flash"
+}

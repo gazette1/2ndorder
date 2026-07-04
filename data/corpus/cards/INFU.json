@@ -1,0 +1,59 @@
+{
+  "cik": "0001337013",
+  "ticker": "INFU",
+  "name": "InfuSystem Holdings, Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012804",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1337013/000162828026012804/infu-20251231.htm"
+  },
+  "business": "We are a leading national healthcare service provider, facilitating outpatient care for Durable Medical Equipment (DME) manufacturers and healthcare providers. We provide our products and services to hospitals, oncology practices, ambulatory surgery centers, and other alternate site healthcare providers.",
+  "sellsTo": [
+    "hospitals",
+    "oncology practices",
+    "ambulatory surgery centers",
+    "other alternate site healthcare providers"
+  ],
+  "namedCustomers": [
+    "GE Healthcare"
+  ],
+  "namedSuppliers": [
+    "ICU Medical, Inc.",
+    "Smith and Nephew",
+    "Cork Medical LLC",
+    "Genadyne Biotechnologies Inc."
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a leading national healthcare service provider, facilitating outpatient care for Durable Medical Equipment (DME) manufacturers and healthcare providers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity risks and cyber incidents could adversely affect our business and disrupt operations"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "our ability to integrate artificial intelligence into our internal processes and introduce new products and services"
+    },
+    {
+      "tag": "digital-health",
+      "stance": "risk_mention",
+      "sentence": "our ability to implement, both internally and externally, information technology improvements and to respond to technological changes, interruptions and security breaches"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of assets of Apollo Medical Supply",
+      "date": "2025-05-01",
+      "sentence": "In May 2025, we acquired the assets of Apollo Medical Supply ( Apollo ), a privately-held wound care service company based in Florida."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:44:32.897Z",
+  "model": "deepseek-v4-flash"
+}

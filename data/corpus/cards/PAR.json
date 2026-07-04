@@ -1,0 +1,51 @@
+{
+  "cik": "0000708821",
+  "ticker": "PAR",
+  "name": "PAR TECHNOLOGY CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000708821-26-000027",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/708821/000070882126000027/par-20251231.htm"
+  },
+  "business": "PAR is a leading foodservice technology company providing omnichannel cloud-based software and hardware solutions to the restaurant industry in three major restaurant categories (quick service, fast casual, table service) and to the retail industry including convenience and fuel retailers.",
+  "sellsTo": [
+    "restaurant industry (quick service, fast casual, table service)",
+    "retail industry including convenience and fuel retailers (C-Stores)",
+    "enterprise restaurants and franchisees",
+    "small to medium-size businesses",
+    "amusement parks, cinemas, cruise lines, spas, casinos, and other ticketing and entertainment venues"
+  ],
+  "namedCustomers": [
+    "McDonald's Corporation",
+    "Yum! Brands",
+    "Dairy Queen"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "core_product",
+      "sentence": "We leverage AI to assist in the generation of code and other product-related artifacts which assists in driving efficiency and innovation in our development process."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Despite our cybersecurity program and the technical and organizational security measures we use to detect and prevent unauthorized access and usage, our cloud applications and information technology systems, and the third-party cloud computing platforms on which our cloud applications and data are stored or processed, are vulnerable to cyber-attacks, including computer viruses, distributed denial of services attacks, malware, social engineering, credential-based attacks, supply chain attacks and other attacks which may result in unauthorized access by malicious actors, including nation-states and their agents."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Certain areas of our business have and could continue to experience supply chain challenges, including: shortages, shipping delays, and increased costs due to price increases for hardware products and components (including as a result of increased demand from AI data center construction around the world) and in shipping costs; changes in U.S. and foreign trade policies, including new or increased tariffs, potential sanctions and counter-sanctions, particularly with or involving China, South Korea, and Taiwan, could result in increased costs."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "PAR PAY, includes our PAR Payment Services merchant services business that enables electronic payment and processing services for businesses of all sizes to accept electronic payments online or in-person and PAR Pay Gateway, our front-end technology that reads payment cards and sends customer information to the merchant acquiring bank for processing."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:01:51.258Z",
+  "model": "deepseek-v4-flash"
+}

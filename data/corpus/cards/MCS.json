@@ -1,0 +1,72 @@
+{
+  "cik": "0000062234",
+  "ticker": "MCS",
+  "name": "MARCUS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000062234-26-000011",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/62234/000006223426000011/mcs-20251231.htm"
+  },
+  "business": "The company operates two business segments: movie theatres and hotels and resorts. Its movie theatres offer film exhibition and food & beverage services, and its hotels and resorts provide lodging, dining, and event spaces.",
+  "sellsTo": [
+    "moviegoers",
+    "hotel guests",
+    "business travelers",
+    "group travelers",
+    "third-party property owners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Screenvision",
+    "National CineMedia",
+    "Movio"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are engaged primarily in two business segments: movie theatres and hotels and resorts."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We continue to enhance our mobile ticketing capabilities, our downloadable Marcus Theatres mobile app, QR code mobile food and beverage ordering, and our marcustheatres.com website."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Utilizing artificial intelligence (AI) technology to optimize revenues and improve efficiency in various aspects of the business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on our information systems to conduct our business, and any failure to protect our information systems and other confidential information against cyber attacks or other information security breaches or any failure or interruption to the availability of our information systems could have a material adverse effect on our business."
+    },
+    {
+      "tag": "other:movie-theatres",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, our theatre operations included 78 movie theatres with 985 screens throughout 17 states."
+    },
+    {
+      "tag": "other:hotels",
+      "stance": "core_product",
+      "sentence": "As of December 31, 2025, our hotels and resorts operations included seven wholly-owned and operated hotels and resorts in Wisconsin, Illinois, and Nebraska."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opening of new 11-hole golf short-course",
+      "date": "2026-03-01",
+      "sentence": "Construction of a new 11-hole golf short-course was completed in fiscal 2025 and will open in spring 2026."
+    },
+    {
+      "event": "Conversion of Hilton Milwaukee west wing to The Marc Hotel",
+      "date": "2026-01-01",
+      "sentence": "On January 1, 2026, we removed the remaining 175 guestrooms located in the west wing of Hilton Milwaukee from available inventory. These rooms were reopened in early 2026 as an independent hotel called The Marc Hotel."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:13:14.286Z",
+  "model": "deepseek-v4-flash"
+}

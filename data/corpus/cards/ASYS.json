@@ -1,0 +1,47 @@
+{
+  "cik": "0000720500",
+  "ticker": "ASYS",
+  "name": "AMTECH SYSTEMS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-25-314147",
+    "filedAt": "2025-12-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/720500/000119312525314147/asys-20250930.htm"
+  },
+  "business": "We provide equipment, consumables and services for semiconductor device packaging, wafer production and device fabrication. Our products are used to fabricate and package semiconductor devices, such as graphic processing units (GPU's) used in AI applications, silicon carbide (SiC) and silicon (Si) power devices and other optical, analog and digital devices. We sell these products to semiconductor device packaging, electronic assembly and device fabrication companies worldwide.",
+  "sellsTo": [
+    "semiconductor chip packaging companies",
+    "electronic assembly companies",
+    "manufacturers of semiconductor substrates and devices",
+    "ceramics industry",
+    "optics industry"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Our products are used to fabricate and package semiconductor devices, such as graphic processing units (GPU's) used in AI applications, silicon carbide (SiC) and silicon (Si) power devices and other optical, analog and digital devices."
+    },
+    {
+      "tag": "semi-equipment",
+      "stance": "core_product",
+      "sentence": "Our Thermal Processing Solutions includes conveyorized reflow equipment for advanced semiconductor packaging and electronic assembly, high temperature conveyorized furnaces for power semiconductor substrate and electronic components manufacturing, and diffusion furnaces for (SIC) and (Si) power device production."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "Our products intersect these markets in multiple ways: CMP consumables and wafer cleaning systems for the SiC substrates used in the EV power inverters; thermal processing systems for producing EV battery cooling systems and ceramic substrates for HEV power semiconductor packaging; and reflow ovens for ADAS, infotainment and telematics component assemblies."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "We believe the accelerated investments in Artificial Intelligence (AI) infrastructure and increased investments in defense and aerospace applications will help drive future growth."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:13:59.754Z",
+  "model": "deepseek-v4-flash"
+}

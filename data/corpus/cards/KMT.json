@@ -1,0 +1,88 @@
+{
+  "cik": "0000055242",
+  "ticker": "KMT",
+  "name": "KENNAMETAL INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000055242-25-000068",
+    "filedAt": "2025-08-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/55242/000005524225000068/kmt-20250630.htm"
+  },
+  "business": "Kennametal operates in two reportable segments: Metal Cutting and Infrastructure. The company sells tooling solutions and infrastructure products to end markets including Aerospace & Defense, Energy, General Engineering, Transportation, and Earthworks.",
+  "sellsTo": [
+    "Aerospace & Defense",
+    "Energy",
+    "General Engineering",
+    "Transportation",
+    "Earthworks"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Aerospace & Defense end market sales increased in EMEA and the Americas as a result of project timing and the execution of our growth initiatives."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Aerospace & Defense end market sales increased in EMEA and the Americas as a result of project timing and the execution of our growth initiatives."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Energy end market sales increased in Asia Pacific as a result of project timing, the effects of which were offset by declines in the Americas due to lower global oil and gas activities as rig counts decreased year-over-year and order timing."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "Earthworks end market sales decreased in the Americas due to lower mining activity, including customer mine closures and competitive pressures."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Sales in the General Engineering end market decreased in the Americas and EMEA due to declines in industrial activity year-over-year."
+    },
+    {
+      "tag": "other:transportation",
+      "stance": "core_product",
+      "sentence": "Transportation end market sales decreased in EMEA due to the decline in vehicle production."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "an incremental year-over-year benefit of approximately $13 million from an advanced manufacturing production credit under the Inflation Reduction Act within the Infrastructure segment"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Restructuring program announced January 2025",
+      "date": "2025-01-01",
+      "sentence": "In January 2025, we announced several actions to support the long-term competitiveness of the Company and to mitigate softer market conditions."
+    },
+    {
+      "event": "Expected annualized run rate savings of approximately $35 million from restructuring actions",
+      "date": null,
+      "sentence": "We now expect total annualized run rate savings of approximately $35 million in connection with these actions, exceeding the original target of $15 million."
+    },
+    {
+      "event": "Completion of facility closure in Greenfield, MA and consolidation in Barcelona, Spain",
+      "date": null,
+      "sentence": "The Company substantially completed the closure of a facility in Greenfield, MA and the consolidation of facilities in Barcelona, Spain during 2025 as a part of these actions."
+    },
+    {
+      "event": "Planned capital expenditures of approximately $90 million in fiscal 2026",
+      "date": null,
+      "sentence": "Cash generated from operations is expected to meet our planned capital expenditures of approximately $90 million and expected dividend payments in fiscal 2026."
+    },
+    {
+      "event": "Share repurchase program authorized in February 2024",
+      "date": "2024-02-01",
+      "sentence": "In February 2024, the Board of Directors of the Company authorized a $200 million, three-year share repurchase program outside of the Company's dividend reinvestment program."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:31:51.607Z",
+  "model": "deepseek-v4-flash"
+}

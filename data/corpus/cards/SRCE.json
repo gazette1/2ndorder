@@ -1,0 +1,69 @@
+{
+  "cik": "0000034782",
+  "ticker": "SRCE",
+  "name": "1ST SOURCE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000034782-26-000011",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000011/source-20251231.htm"
+  },
+  "business": "1st Source Corporation is a bank holding company that provides, through its subsidiaries, a broad array of financial products and services. 1st Source Bank offers commercial and consumer banking services, trust and wealth advisory services, and insurance to individual and business clients. The Specialty Finance Group offers specialized financing services for construction equipment, aircraft, and various vehicle types.",
+  "sellsTo": [
+    "commercial and small business",
+    "agricultural",
+    "real estate",
+    "consumer",
+    "trust and wealth advisory clients",
+    "insurance clients",
+    "specialty finance clients (construction equipment, aircraft, auto/light truck, medium/heavy duty truck)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "1st Source Bank provides financing for commercial solar projects across the contiguous United States, with a focus in the Northeast and Midwest."
+    },
+    {
+      "tag": "other:construction-equipment",
+      "stance": "core_product",
+      "sentence": "Construction equipment financing includes financing of new and pre-owned equipment (i.e., bulldozers, excavators, cranes, loaders, and asphalt and concrete plants etc.)."
+    },
+    {
+      "tag": "other:aircraft-financing",
+      "stance": "core_product",
+      "sentence": "Aircraft financing consists of financings for new and pre-owned general aviation aircraft (including helicopters) for private and corporate users, select aircraft distributors and dealers, charter operators, cargo carriers, and other aircraft operators."
+    },
+    {
+      "tag": "other:fleet-financing",
+      "stance": "core_product",
+      "sentence": "We offer auto and light truck fleet financing for new and pre-owned vehicles to automobile and light truck rental companies, commercial leasing companies, and a limited number of single unit financing for users of specialty vehicles (step vans, vocational work trucks, motor coaches, shuttle buses and funeral cars)."
+    },
+    {
+      "tag": "other:truck-financing",
+      "stance": "core_product",
+      "sentence": "The medium and heavy duty truck division provides new and pre-owned fleet financing for highway tractors, medium duty trucks and trailers to the trucking industry."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Information security risks have increased due to the sophistication and activities of organized crime, hackers, terrorists and other external parties and the use of online, telephone, and mobile banking channels by clients."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We are in the early stages of incorporating AI into our business activities to increase employee productivity."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "We may be adversely affected by climate change and related legislative and regulatory initiatives."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:13:28.440Z",
+  "model": "deepseek-v4-flash"
+}

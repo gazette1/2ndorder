@@ -1,0 +1,84 @@
+{
+  "cik": "0000793733",
+  "ticker": "SKYW",
+  "name": "SKYWEST INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-016358",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465926016358/skyw-20251231x10k.htm"
+  },
+  "business": "Through SkyWest Airlines, we offer scheduled passenger service to destinations in the United States, Canada and Mexico. Substantially all of our flights are operated as United Express, Delta Connection, American Eagle or Alaska Airlines flights under code-share agreements with United, Delta, American or Alaska, respectively.",
+  "sellsTo": [
+    "Major airlines (United, Delta, American, Alaska)",
+    "Charter customers (via SkyWest Charter)"
+  ],
+  "namedCustomers": [
+    "United Airlines",
+    "Delta Air Lines",
+    "American Airlines",
+    "Alaska Airlines"
+  ],
+  "namedSuppliers": [
+    "Embraer S.A.",
+    "MHI RJ Aviation ULC (formerly Bombardier Aerospace)",
+    "General Electric"
+  ],
+  "exposures": [
+    {
+      "tag": "other:eVTOL",
+      "stance": "active_investment",
+      "sentence": "We have entered into a strategic arrangement with Eve Holding, Inc. (Eve, formerly EVE UAM, LLC, an Embraer company) to develop a network of deployment for Eve UAM's electric vertical takeoff and landing (eVTOL) aircraft. Subject to an agreement of key commercial terms, this arrangement includes the option for SkyWest to purchase up to 100 eVTOL aircraft."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The methods used to obtain unauthorized access, disable or degrade service or attack or sabotage systems are constantly evolving, and threat actors are becoming increasingly sophisticated in using techniques and tools including artificial intelligence that circumvent security controls, evade detection and remove forensic evidence."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Additionally, alternative career opportunities in other industries, developments in artificial intelligence or other macroeconomic factors could increase our attrition and/or negatively impact our ability to recruit new employees."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of 8 new E175 aircraft to United",
+      "date": "2026-12-31",
+      "sentence": "capacity purchase agreement with United for eight new E175 aircraft, which are scheduled for delivery in 2026."
+    },
+    {
+      "event": "Delivery of 1 new E175 aircraft to Alaska",
+      "date": "2026-12-31",
+      "sentence": "capacity purchase agreement with Alaska for one new E175 aircraft, which is scheduled for delivery in 2026."
+    },
+    {
+      "event": "Delivery of 10 new E175 aircraft to Delta",
+      "date": "2027-12-31",
+      "sentence": "10 new E175 aircraft are currently scheduled for delivery in 2027 and six new E175 aircraft are scheduled for delivery in 2028."
+    },
+    {
+      "event": "Delivery of 6 new E175 aircraft to Delta",
+      "date": "2028-12-31",
+      "sentence": "10 new E175 aircraft are currently scheduled for delivery in 2027 and six new E175 aircraft are scheduled for delivery in 2028."
+    },
+    {
+      "event": "Placement into service of 23 used CRJ550 aircraft with United",
+      "date": "2026-12-31",
+      "sentence": "capacity purchase agreements with United for 23 used CRJ550 aircraft that are anticipated to be placed into service by the end of 2026."
+    },
+    {
+      "event": "Extension of scheduled contract expirations on 40 E175 aircraft with United and 13 E175 aircraft with Delta",
+      "date": "2026-01-31",
+      "sentence": "In January 2026, we extended the scheduled contract expirations on 40 E175 aircraft with United and 13 E175 aircraft with Delta."
+    },
+    {
+      "event": "Closing of remaining financings under master equipment purchase agreement",
+      "date": "2026-12-31",
+      "sentence": "We anticipate the remaining financing obligation under the agreement will be between $20.0 million and $25.0 million and anticipated closing on the remaining financings during 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:08:19.730Z",
+  "model": "deepseek-v4-flash"
+}

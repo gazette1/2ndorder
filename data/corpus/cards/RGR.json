@@ -1,0 +1,44 @@
+{
+  "cik": "0000095029",
+  "ticker": "RGR",
+  "name": "STURM RUGER & CO INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001174947-26-000243",
+    "filedAt": "2026-03-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/95029/000117494726000243/rgr-20251231.htm"
+  },
+  "business": "Sturm, Ruger & Company, Inc. is principally engaged in the design, manufacture, and sale of firearms to domestic customers. Approximately 99% of sales are from firearms, with less than 1% from castings. The Company's firearms are sold through independent wholesale distributors, principally to the commercial sporting market.",
+  "sellsTo": [
+    "commercial sporting market",
+    "law enforcement and other governmental organizations",
+    "export customers"
+  ],
+  "namedCustomers": [
+    "Lipsey's",
+    "Sports South",
+    "Davidson's"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Company's firearms are sold through independent wholesale distributors, principally to the commercial sporting market."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "These end users include sportsmen, hunters, people interested in self-defense, law enforcement and other governmental organizations, and gun collectors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company relies on its information and communications systems in its operations. Security breaches and other disruptions could adversely affect its business and results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:40:44.103Z",
+  "model": "deepseek-v4-flash"
+}

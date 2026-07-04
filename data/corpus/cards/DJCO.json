@@ -1,0 +1,55 @@
+{
+  "cik": "0000783412",
+  "ticker": "DJCO",
+  "name": "DAILY JOURNAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-038836",
+    "filedAt": "2025-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774925038836/djco20250930_10k.htm"
+  },
+  "business": "Daily Journal Corporation publishes newspapers and websites covering California and Arizona, and provides public notice advertising services. Its subsidiary, Journal Technologies, supplies case management software systems to courts, prosecutor and public defender offices, probation departments, and other justice agencies.",
+  "sellsTo": [
+    "courts",
+    "prosecutor offices",
+    "public defender offices",
+    "probation departments",
+    "justice agencies",
+    "administrative law organizations",
+    "city and county governments",
+    "bar associations",
+    "lawyers",
+    "judges",
+    "real estate investors",
+    "general public"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other: case-management-software",
+      "stance": "core_product",
+      "sentence": "Journal Technologies, a wholly-owned subsidiary of the Company, supplies case management software systems and related products to courts, prosecutor and public defender offices, probation departments and other justice agencies, including administrative law organizations, city and county governments and bar associations."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "As artificial intelligence (AI) is gaining widespread adoption, many of our competitors are rapidly incorporating AI capabilities into their offerings to maintain a technological advantage."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Journal Technologies software processes and stores customer information in the conduct of its business, including in some cases by utilizing cloud-based systems supplied by third-party vendors."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "California bill AB721 requires school budget hearing notices to be moved from newspaper publication to school district website",
+      "date": "2027-01-01",
+      "sentence": "Another bill (AB721) relative to school budget hearing notices was also passed in September 2023. Effective January 1, 2027, these notices are to be moved to posting on the school district's website in lieu of being published in a newspaper."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:45:31.137Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0001132651",
+  "ticker": "ATLO",
+  "name": "AMES NATIONAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007976",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1132651/000143774926007976/atlo20251231_10k.htm"
+  },
+  "business": "Ames National Corporation is a bank holding company that owns six community banks in Iowa, providing loans, deposits, wealth management, and other banking services to businesses, individuals, and agricultural customers primarily in central, north-central, and south-central Iowa.",
+  "sellsTo": [
+    "businesses",
+    "individuals",
+    "agricultural customers",
+    "local communities and surrounding rural areas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Approximately 23% of the loan portfolio consists of loans made for agricultural purposes."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Approximately 25% of the loan portfolio consists of loans made for 1-4 family residential purposes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are subject to the risk of security breaches, which may be due to the failure of our data encryption technologies or otherwise, involving the receipt, transmission, and storage of confidential customer and other personally identifiable information..."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Financial technology, or fintech, companies and other non-bank competitors emerging provide competition in key areas of banking."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Use of artificial intelligence may result in reputational harm or liability, or could otherwise adversely affect the Company’s business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:04:04.374Z",
+  "model": "deepseek-v4-flash"
+}

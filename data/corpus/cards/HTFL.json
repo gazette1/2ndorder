@@ -1,0 +1,77 @@
+{
+  "cik": "0001464521",
+  "ticker": "HTFL",
+  "name": "Heartflow, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001464521-26-000042",
+    "filedAt": "2026-03-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1464521/000146452126000042/htfl-20251231x10k.htm"
+  },
+  "business": "Heartflow provides software and artificial intelligence designed to deliver a non-invasive solution for diagnosing and managing coronary artery disease (CAD). Its Heartflow Platform creates a personalized 3D model of a patient's heart from a single coronary computed tomography angiography (CCTA) scan and delivers actionable insights on blood flow, stenosis, plaque volume, and plaque composition. As of December 31, 2025, the platform has been used to assess CAD in more than 600,000 patients.",
+  "sellsTo": [
+    "Hospitals",
+    "Cardiology and radiology practices",
+    "Outpatient imaging centers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "GE Healthcare",
+    "Siemens Healthineers AG",
+    "Koninklijke Philips N.V.",
+    "Canon Medical Systems Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We provide software and artificial intelligence (AI) designed to deliver a more accurate and clinically effective non-invasive solution for diagnosing and managing coronary artery disease (CAD), a leading cause of death worldwide."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "Our Heartflow Platform delivers actionable insights on blood flow, stenosis, plaque volume and plaque composition thereby overcoming the limitations of traditional non-invasive imaging tests which rely on indirect measures of coronary disease and lead to higher false negative and false positive rates."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our novel platform leverages AI and advanced computational fluid dynamics to create a personalized 3D model of a patient s heart from a single coronary computed tomography angiography (CCTA), a specialized type of scan that provides detailed images of the heart s arteries."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch Heartflow PCI Navigator",
+      "date": null,
+      "sentence": "Heartflow PCI Navigator, which we expect to launch in the second quarter of 2026"
+    },
+    {
+      "event": "Launch Plaque Tracker",
+      "date": null,
+      "sentence": "We anticipate launching Plaque Tracker, our fifth product, in 2027."
+    },
+    {
+      "event": "Begin enrollment in three randomized clinical trials for asymptomatic subpopulations",
+      "date": null,
+      "sentence": "In the second half of 2026, we expect to begin enrollment in three randomized clinical trials focused on high-risk asymptomatic sub populations to expand the addressable market for our products."
+    },
+    {
+      "event": "New Category I CPT code 75577 effective for Heartflow Plaque Analysis",
+      "date": "2026-01-01",
+      "sentence": "A new Category I CPT code, 75577, was also recently established to describe our Heartflow Plaque Analysis, which took effect in January 2026."
+    },
+    {
+      "event": "National Medicare payment rate for Heartflow Plaque Analysis effective",
+      "date": "2026-01-01",
+      "sentence": "The national Medicare payment rate for our Heartflow Plaque Analysis was effective January 1, 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Heartflow's U.S. patient volume in 2025 represented less than 2% of overall market opportunity and approximately 19% of current U.S. CCTA volumes.",
+      "sentence": "we believe this represented less than 2% of our overall market opportunity and approximately 19% of current U.S. CCTA volumes."
+    }
+  ],
+  "generatedAt": "2026-07-03T21:25:48.591Z",
+  "model": "deepseek-v4-flash"
+}

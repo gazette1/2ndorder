@@ -1,0 +1,63 @@
+{
+  "cik": "0001981792",
+  "ticker": "HHH",
+  "name": "Howard Hughes Holdings Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-009710",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1981792/000162828026009710/hhh-20251231.htm"
+  },
+  "business": "Howard Hughes Holdings Inc. (HHH) is a holding company that, through its subsidiary The Howard Hughes Corporation, develops and operates master planned communities, strategic real estate developments, and income-producing properties. It sells residential land to homebuilders, leases retail, office, and multifamily space to tenants, and sells condominium units to individual buyers. The company also plans to acquire and invest in operating companies in other industries, such as insurance.",
+  "sellsTo": [
+    "Homebuilders",
+    "Retail tenants",
+    "Office tenants",
+    "Multifamily tenants",
+    "Condominium purchasers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "In our MPC segment, we plan, develop, and manage small cities and large-scale, mixed-use communities, in markets with strong long-term growth fundamentals."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "We build these commercial properties through our Strategic Developments business at the appropriate times, which helps mitigate development risk, using the cash flow harvested from the sale of land to homebuilders."
+    },
+    {
+      "tag": "insurance",
+      "stance": "active_investment",
+      "sentence": "On December 18, 2025, we announced that we have entered into a definitive agreement to acquire 100% of Vantage Group Holdings Ltd. (Vantage), a privately held specialty insurance and reinsurance company, for cash consideration of approximately $2.1 billion."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "In the event that oil prices fall and remain depressed for a sustained period, demand may decrease for housing and commercial space in The Woodlands, Bridgeland, and The Woodlands Hills."
+    },
+    {
+      "tag": "gaming-media",
+      "stance": "risk_mention",
+      "sentence": "Further, Summerlin is to some degree dependent on the gaming industry, which could be adversely affected by changes in consumer trends and preferences and other factors over which we have no control."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks and incidents, such as a breach of the Company s privacy or information security systems, or those of our vendors or other third parties, could compromise our information and expose us to liability, which would cause our business and reputation to suffer."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of Vantage acquisition",
+      "date": "2026-06-30",
+      "sentence": "The transaction remains subject to regulatory approvals and other customary closing conditions, and is expected to close in the second quarter of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:43:41.964Z",
+  "model": "deepseek-v4-flash"
+}

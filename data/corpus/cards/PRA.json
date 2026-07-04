@@ -1,0 +1,67 @@
+{
+  "cik": "0001127703",
+  "ticker": "PRA",
+  "name": "PROASSURANCE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001127703-26-000008",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1127703/000112770326000008/pra-20251231.htm"
+  },
+  "business": "ProAssurance Corporation is a holding company for property and casualty insurance companies, providing medical professional liability insurance, liability insurance for medical technology and life sciences risks, and workers' compensation insurance. The company's insurance subsidiaries offer these products primarily to healthcare providers, institutions, medical technology and life sciences companies, and employers. Net premiums written totaled $0.9 billion for the year ended December 31, 2025.",
+  "sellsTo": [
+    "healthcare providers",
+    "healthcare institutions",
+    "medical technology and life sciences companies",
+    "employers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "ProAssurance is a U.S. based specialty property and casualty and workers' compensation insurance carrier."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Our Specialty P&C segment focuses on medical professional liability insurance and medical technology liability insurance."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "The products we insure cover a broad array of medical devices, pharmaceuticals and biologics including, but not limited to, infusion systems, operating room surgical instruments and disposables, laboratory equipment and supplies, in vitro diagnostic test kits and instruments, patient mobility aids, respiratory and anesthesia products, cardiovascular devices, vaccines or cancer therapeutics, laser surgical instruments, non-invasive diagnostic imaging systems, orthopedic implants, human and veterinary branded and generic drugs and biologics."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "We have enhanced our coverage offerings to fit the needs of combined hospital/physician entities, multi-state medical groups, telemedicine companies, miscellaneous medical facilities, allied healthcare professionals and self-insured entities."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "active_investment",
+      "sentence": "We are investing in innovation solutions, including artificial intelligence and process automation, to enhance risk selection, decision making, response time and workflows."
+    },
+    {
+      "tag": "other:predictive-analytics",
+      "stance": "active_investment",
+      "sentence": "Further, we are leveraging our data science and predictive analytics capabilities to support growth in profitable markets and sub-sectors."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The availability, integrity and security of our technology infrastructure and that of our third-party providers, including any susceptibility to cyber-attacks which might result in a loss of information, operating capability or actual monetary loss;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with The Doctors Company to close",
+      "date": "2026-06-30",
+      "sentence": "the Company continues to anticipate closing the transaction by June 30, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:49:07.671Z",
+  "model": "deepseek-v4-flash"
+}

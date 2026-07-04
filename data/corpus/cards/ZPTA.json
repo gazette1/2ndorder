@@ -1,0 +1,53 @@
+{
+  "cik": "0001843714",
+  "ticker": "ZPTA",
+  "name": "Zapata Quantum, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001079973-26-000401",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997326000401/zpat_10k-123125.htm"
+  },
+  "business": "Zapata Quantum is a hardware-agnostic quantum software company that offers subscription-based solutions for developing and deploying quantum and hybrid quantum-classical computing applications. Its platform supports use cases in cryptography, pharmaceuticals, manufacturing, materials discovery, and defense, targeting enterprises and government agencies.",
+  "sellsTo": [
+    "enterprise",
+    "government agencies"
+  ],
+  "namedCustomers": [
+    "BP p.l.c.",
+    "BASF Group",
+    "Banco Bilbao Vizcaya Argentaria (BBVA)",
+    "Defense Advanced Research Projects Agency (DARPA)"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "quantum",
+      "stance": "core_product",
+      "sentence": "Zapata Quantum is a leading pure-play hardware-agnostic quantum software company."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Zapata s software platform for quantum computing applications is based on our patented technology and supports a wide range of use cases in cryptography, pharmaceuticals, manufacturing, materials discovery and defense."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Zapata s software platform for quantum computing applications is based on our patented technology and supports a wide range of use cases in cryptography, pharmaceuticals, manufacturing, materials discovery and defense."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Quantum technologies will create $450 billion to $850 billion of economic value globally, sustaining a $90 billion to $170 billion market for hardware and software providers by 2040.",
+      "sentence": "A 2024 Boston Consulting Group analysis estimates that quantum technologies will create $450 billion to $850 billion of economic value globally, sustaining a $90 billion to $170 billion market for hardware and software providers by 2040."
+    },
+    {
+      "claim": "Annual global spend on quantum computing technologies is approximately $2 billion, growing at 35% per year, with about $400 million directed to software and services.",
+      "sentence": "In 2024, McKinsey & Co. estimated annual global spend on quantum computing technologies of approximately $2 billion, growing at 35% per year, including about $400 million directed to software and services."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:20:47.556Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0001801169",
+  "ticker": "OPEN",
+  "name": "Opendoor Technologies Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001801169-26-000010",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1801169/000180116926000010/open-20251231.htm"
+  },
+  "business": "Opendoor is a leading e-commerce platform for residential real estate transactions and the largest U.S. iBuyer. It generates revenue primarily by acquiring homes directly from sellers and reselling them to buyers. The company also offers integrated title insurance and escrow services through its subsidiaries.",
+  "sellsTo": [
+    "Home sellers",
+    "Home buyers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are a leading e-commerce platform for residential real estate transactions and the largest U.S. iBuyer."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We are a leading e-commerce platform for residential real estate transactions and the largest U.S. iBuyer."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Currently, we offer title insurance services in a majority of our markets and on both the acquisition and resale side of the transaction."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "in February 2026, we became licensed to provide mortgage products and plan to expand these offerings."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "Our AI models and computer-vision tools help us assess home condition, and estimate the cost and time required to bring a home to sale-ready condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Expanded buybox to nationwide coverage across contiguous United States, enabling offers in substantially all residential zip codes.",
+      "date": "2025-12-31",
+      "sentence": "In late 2025, we began expanding our buybox from a limited set of geographies to effectively nationwide coverage across the contiguous United States, with the ability to make offers in substantially all residential zip codes."
+    },
+    {
+      "event": "Licensed to provide mortgage products in Colorado, with plans to expand to additional states.",
+      "date": "2026-02-01",
+      "sentence": "in February 2026, we became licensed to provide mortgage products and plan to expand these offerings."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "The U.S. residential real estate transaction market is approximately $1.7 trillion annually, with over 4 million existing homes sold in 2025.",
+      "sentence": "In 2025 alone, more than four million existing homes were sold, representing approximately $1.7 trillion in transactions."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:28:56.224Z",
+  "model": "deepseek-v4-flash"
+}

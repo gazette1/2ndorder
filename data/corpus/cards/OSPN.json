@@ -1,0 +1,78 @@
+{
+  "cik": "0001044777",
+  "ticker": "OSPN",
+  "name": "OneSpan Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001044777-26-000008",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1044777/000104477726000008/ospn-20251231.htm"
+  },
+  "business": "OneSpan Inc. provides cybersecurity and digital agreement solutions to organizations worldwide. Its cybersecurity solutions include authentication, mobile app security, and fraud prevention. Its digital agreement solutions include e-signatures, identity verification, and workflow automation. The company sells primarily to financial institutions, as well as enterprise, government, healthcare, and insurance sectors.",
+  "sellsTo": [
+    "financial institutions (banks, credit unions)",
+    "enterprise",
+    "government",
+    "healthcare",
+    "insurance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "Our cybersecurity solutions protect identities, secure mobile apps, and safeguard access through advanced high-assurance authentication, threat intelligence, fraud prevention, and robust mobile app protection, defending users, devices, and applications against sophisticated attacks."
+    },
+    {
+      "tag": "other:digital-agreements",
+      "stance": "core_product",
+      "sentence": "Our digital agreement solutions streamline agreement workflows with secure e-signatures, identity verification, and smart digital forms, built to enable speed, compliance and exceptional customer experiences."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The majority of our revenue is derived from financial institutions, which include traditional banks, credit unions, and online-only banks."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Factors that could materially affect our business and financial results include, but are not limited to: ... the potential effects of technological changes, including the impact of advances in artificial intelligence."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Hired new Chief Technology Officer",
+      "date": "2024-12-01",
+      "sentence": "In December 2024, we hired a new Chief Technology Officer, Ashish Jain, to lead our research and development efforts."
+    },
+    {
+      "event": "Acquired Nok Nok Labs",
+      "date": "2025-06-01",
+      "sentence": "In June 2025, we acquired Nok Nok Labs, Inc. (\"Nok Nok Labs\"), a provider of passwordless software authentication solutions, which brought S3, a leading FIDO software product, to our portfolio."
+    },
+    {
+      "event": "Entered into $100 million credit agreement",
+      "date": "2025-06-23",
+      "sentence": "In June 2025, we entered into a $100.0 million credit agreement (the \"Credit Agreement\") with MUFG Bank, Ltd (\"MUFG\") and other lenders party thereto."
+    },
+    {
+      "event": "Announced strategic investment in ThreatFabric",
+      "date": "2025-10-01",
+      "sentence": "In October 2025, we announced a strategic investment in, and partnership with, ThreatFabric Holding B.V., a Dutch company that provides mobile threat intelligence, malware risk detection, and behavioral analytics, to further enhance the value we offer to our customers."
+    },
+    {
+      "event": "Hired new Chief Revenue Officer",
+      "date": "2025-12-01",
+      "sentence": "In December 2025, we hired a new Chief Revenue Officer, Shaun Bierweiler, to lead our go-to-market efforts, and to drive growth and customer success."
+    },
+    {
+      "event": "Definitive agreement to acquire Build38",
+      "date": "2025-12-01",
+      "sentence": "Later in December 2025, we entered into a definitive agreement to acquire Build38 GmbH (\"Build38\"), a leader in next-generation mobile application protection solutions, to extend our investment in advanced mobile security technologies."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:53:05.616Z",
+  "model": "deepseek-v4-flash"
+}

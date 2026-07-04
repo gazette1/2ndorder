@@ -1,0 +1,47 @@
+{
+  "cik": "0000036029",
+  "ticker": "FFIN",
+  "name": "FIRST FINANCIAL BANKSHARES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-071549",
+    "filedAt": "2026-02-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/36029/000119312526071549/ffin-20251231.htm"
+  },
+  "business": "First Financial Bankshares is a financial holding company providing full-service commercial banking, trust, and wealth management services primarily in Texas. Through its subsidiaries, it offers general commercial banking services including deposits, loans, and digital banking, as well as trust and asset management. The company also provides securities brokerage services through a third-party arrangement.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "corporations",
+    "non-profits",
+    "governmental entities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Our bank regions compete in their respective service areas against highly competitive banks, thrifts, savings and loan associations, small loan companies, credit unions, mortgage companies, insurance companies, Fintech, and brokerage firms"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "System failure or cybersecurity breaches of our network security could subject us to increased operating costs as well as litigation and other potential losses."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "In addition, as approximately 14% of trust fees came from management of oil and gas properties in 2025, a decline in the prices of oil and gas could lead to a loss of our trust income."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "When used in this Form 10-K, words such as anticipate, believe, estimate, expect, intend, predict, project, could, may, or would and similar expressions, as they relate to us or our management, identify forward-looking statements. These forward-looking statements are based on information currently available to our management. Actual results could differ materially from those contemplated by the forward-looking statements as a result of certain factors, including, but not limited, to those listed in Item 1A-Risk Factors and the following: ... the rise of Artificial Intelligence as a commonly used resource"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:15:40.168Z",
+  "model": "deepseek-v4-flash"
+}

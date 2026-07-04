@@ -1,0 +1,67 @@
+{
+  "cik": "0001822928",
+  "ticker": "HLLY",
+  "name": "Holley Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-018218",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1822928/000162828026018218/hlly-20251231.htm"
+  },
+  "business": "Holley Inc. designs, manufactures, and distributes high-performance automotive aftermarket products for car and truck enthusiasts. Its products include carburetors, fuel injection systems, exhaust systems, ignition components, and safety equipment. The company sells primarily in the United States, Canada, and Europe through a diversified omni-channel distribution strategy including direct-to-consumer and distribution partners.",
+  "sellsTo": [
+    "car and truck enthusiasts",
+    "United States",
+    "Canada",
+    "Europe",
+    "distribution partners (E-tailers, warehouse distributors, traditional retailers, jobber/installer)",
+    "American Performance vertical",
+    "Modern Truck & Off-Road vertical",
+    "Euro & Import vertical",
+    "Safety & Racing vertical"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Our DTC channel provides consumers full access to all of our brands, our unique branded content and our full product assortment."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "risk_mention",
+      "sentence": "Our manufacturing facilities and distribution centers are highly automated, which means that our operations are complicated and may be subject to a number of risks related to computer viruses, the proper operation of software and hardware, electronic or power interruptions, cybersecurity risks, data breaches, and other system failures, including failures caused by factors outside of our control, such as political unrest, terrorist attacks, military conflicts (including the conflict in Ukraine, the conflict in the Middle East and surrounding areas, the possible expansion of such conflicts and potential geopolitical consequences), natural disasters or extreme weather (including events that may be caused or exacerbated by climate change)."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Increased electric vehicles ownership could impact our financial condition and results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our operations and reputation may be negatively impacted if our information technology systems fail to perform adequately or if we experience an interruption in our operations due to security threats or disruptions."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Failure to adopt new technologies like artificial intelligence could expose us to risks."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our business could be negatively impacted by the effects of global climate change or the increasing scrutiny and evolving expectations with respect to our environment, social and governance practices."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure up to $20 million in fiscal year 2026",
+      "date": null,
+      "sentence": "We expect capital expenditures of up to $20.0 million in fiscal year 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:49:20.882Z",
+  "model": "deepseek-v4-flash"
+}

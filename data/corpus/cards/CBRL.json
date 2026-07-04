@@ -1,0 +1,74 @@
+{
+  "cik": "0001067294",
+  "ticker": "CBRL",
+  "name": "CRACKER BARREL OLD COUNTRY STORE, INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-25-093663",
+    "filedAt": "2025-09-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067294/000110465925093663/cbrl-20250801x10k.htm"
+  },
+  "business": "Cracker Barrel Old Country Store, Inc. operates full-service restaurants with gift shops under the Cracker Barrel brand and fast casual locations under Maple Street Biscuit Company, serving home-style food and retail merchandise to consumers.",
+  "sellsTo": [
+    "travelers",
+    "local customers",
+    "consumers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "DoorDash",
+    "Uber Eats"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Cracker Barrel Old Country Store, Inc. is principally engaged in the operation and development of the Cracker Barrel Old Country Store concept."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Approximately 20% of our restaurant sales are generated through our off-premise channels, which include Individual To Go, Third-Party Delivery and Catering and Occasion."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks are increasingly common and sophisticated, including through use of developing technologies such as artificial intelligence to identify and exploit weaknesses in business security systems."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "The market for labor in the United States is competitive, which has resulted in upward pressure on wages and may continue to do so in the future."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "Our risks are heightened because of our single retail distribution facility and our potential inability or failure to execute on a comprehensive business continuity plan following a major disaster at or near our corporate facility may have an adverse effect on our business, results of operations and financial condition."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Plan to open two new Cracker Barrel stores",
+      "date": null,
+      "sentence": "Currently, we plan to open two new stores during 2026."
+    },
+    {
+      "event": "Closure of fourteen MSBC locations",
+      "date": null,
+      "sentence": "In the first quarter of 2026, we closed fourteen MSBC locations."
+    },
+    {
+      "event": "Board approved $100 million share repurchase authorization",
+      "date": null,
+      "sentence": "In the first quarter of 2026, our Board of Directors approved a share repurchase authorization to repurchase shares of the Company’s outstanding common stock at management’s discretion up to a total value of $100,000."
+    },
+    {
+      "event": "Dividend payment of $0.25 per share",
+      "date": "2025-11-12",
+      "sentence": "Additionally, during the first quarter of 2026, the Board declared a dividend of $0.25 per share payable on November 12, 2025 to shareholders of record as of October 17, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:39:13.273Z",
+  "model": "deepseek-v4-flash"
+}

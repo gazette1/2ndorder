@@ -1,0 +1,71 @@
+{
+  "cik": "0000031235",
+  "ticker": "KODK",
+  "name": "EASTMAN KODAK CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104214",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/31235/000119312526104214/kodk-20251231.htm"
+  },
+  "business": "Kodak is a global manufacturer focused on commercial print and advanced materials and chemicals. Its Print segment includes prepress solutions, inkjet presses, software, and electrophotographic printing products. Its Advanced Materials and Chemicals segment includes industrial film, motion picture film, pharmaceuticals, advanced materials, and IP licensing. Its Brand segment licenses the Kodak brand to third parties.",
+  "sellsTo": [
+    "commercial printers",
+    "direct mail companies",
+    "book publishers",
+    "newspapers and magazines",
+    "packaging and labels",
+    "entertainment industry",
+    "professional and consumer still photography customers",
+    "pharmaceutical companies",
+    "electronics industry",
+    "battery manufacturers",
+    "personal care products"
+  ],
+  "namedCustomers": [
+    "Kodak Alaris"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "Specialty Chemicals include unregulated key starting materials (KSMs) for pharmaceuticals and materials for batteries (e.g., electric vehicles (\"EV\") and others) and specific functional materials for personal care products."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Specialty Chemicals include unregulated key starting materials (KSMs) for pharmaceuticals and materials for batteries (e.g., electric vehicles (\"EV\") and others) and specific functional materials for personal care products."
+    },
+    {
+      "tag": "diagnostics",
+      "stance": "active_investment",
+      "sentence": "Kodak completed construction of its Current Good Manufacturing Practice ( cGMP ) lab and manufacturing facility at EBP in 2025 and is now certified to manufacture reagents for healthcare applications."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber-attacks or other data security incidents that disrupt Kodak’s operations or result in the breach or other compromise of proprietary or confidential information about our workforce, our customers, or other third parties could disrupt our business, harm our reputation, cause us to lose customers, and expose us to costly regulatory enforcement and litigation, any of which could lead to material adverse effects on Kodak’s results of operations, business and financial condition."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Our development and use of AI technologies remain in the early phases, and appropriate use of AI without adequate controls, or inaccurate claims about our use of AI could create legal, ethical, competitive or reputational risks."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completed cGMP lab construction",
+      "date": "2025-12-31",
+      "sentence": "Kodak completed construction of its Current Good Manufacturing Practice ( cGMP ) lab and manufacturing facility at EBP in 2025 and is now certified to manufacture reagents for healthcare applications."
+    },
+    {
+      "event": "Began manufacturing PBS for laboratory use",
+      "date": "2025-12-31",
+      "sentence": "The facility began manufacturing phosphate buffered saline (PBS) for laboratory use in the second half of 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:31:04.550Z",
+  "model": "deepseek-v4-flash"
+}

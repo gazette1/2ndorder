@@ -1,0 +1,84 @@
+{
+  "cik": "0000002098",
+  "ticker": "ACU",
+  "name": "ACME UNITED CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-102079",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/2098/000119312526102079/acu-20251231.htm"
+  },
+  "business": "Acme United Corporation is a leading worldwide supplier of innovative first aid and medical products and cutting technology. Its principal products sold across all segments are first aid kits and medical products, scissors, shears, knives, and sharpening tools. The Company sells its products primarily to mass market and e-commerce retailers, industrial distributors, wholesale, contract and retail stationery distributors, office supply superstores, sporting goods stores, and hardware chains.",
+  "sellsTo": [
+    "mass market and e-commerce retailers",
+    "industrial distributors",
+    "wholesale, contract and retail stationery distributors",
+    "office supply superstores",
+    "sporting goods stores",
+    "hardware chains"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "active_investment",
+      "sentence": "In 2025, the Company invested in robotics in three of its manufacturing and distribution facilities which has already improved productivity."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company currently uses artificial intelligence for certain limited purposes and will continue to evaluate its use for a variety of additional business tasks."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "The first aid and medical category includes first aid and safety products (First Aid Only , PhysiciansCare , Pac-Kit , Spill Magic , First Aid Central , Med-Nap, Safety Made, Elite and My Medic brands)."
+    },
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The cutting and sharpening categories include school, home and office products (Westcott brand), and hardware, industrial and sporting goods products (Clauss and DMT brands)."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Company also sells its products directly to consumers through its own websites."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "various factors that might affect product delivery to customers include vendor production delays, difficulties encountered in shipping from overseas, availability of shipping containers, customs clearance delays, and cybersecurity attacks on our vendors."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We also rely upon third-party carriers for our product shipments from our distribution centers to customers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquired a line of cutting and sharpening tools in Germany",
+      "date": "2025-10-01",
+      "sentence": "On October 1, 2025, the Company acquired a line of cutting and sharpening tools in Germany with annual revenue of approximately $2 million."
+    },
+    {
+      "event": "Acquired assets of My Medic",
+      "date": "2026-01-15",
+      "sentence": "The transaction closed on January 15, 2026."
+    },
+    {
+      "event": "Complete automation of Spill Magic powder manufacturing process",
+      "date": null,
+      "sentence": "Additionally, the Company invested in equipment to automate its Spill Magic powder manufacturing process; the project is expected to be completed in 2026."
+    },
+    {
+      "event": "Launch comprehensive DMT line of powered sharpening solutions",
+      "date": null,
+      "sentence": "In 2026, we will launch a comprehensive DMT line of powered sharpening solutions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:53:23.266Z",
+  "model": "deepseek-v4-flash"
+}

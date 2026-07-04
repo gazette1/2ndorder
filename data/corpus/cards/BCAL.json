@@ -1,0 +1,45 @@
+{
+  "cik": "0001795815",
+  "ticker": "BCAL",
+  "name": "California BanCorp \\ CA",
+  "source": {
+    "form": "10-K",
+    "accession": "0001795815-26-000005",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1795815/000179581526000005/bcal-20251231.htm"
+  },
+  "business": "California BanCorp is a bank holding company that provides financial products and services to individuals, professionals, and small to medium-sized businesses through its subsidiary California Bank of Commerce, N.A. It offers a range of loans including construction, commercial real estate, commercial and industrial, SBA, and consumer loans, as well as deposit products and treasury management services. The company operates 14 branch offices and 11 commercial banking offices in California.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "individuals",
+    "professionals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:commercial-banking",
+      "stance": "core_product",
+      "sentence": "Our lending products consist primarily of construction and land development loans, commercial real estate loans, commercial and industrial loans, U.S. Small Business Administration (SBA) loans, and consumer loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "system failures, data security breaches, including as a result of cyber-attacks, or failures to prevent breaches of our network security"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "non-bank lenders, including fintech lending and payment companies"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "There are approximately 1.7 million small to medium-sized businesses in our target market.",
+      "sentence": "The State of California Economic Development Department reports there are approximately 1.7 million small to medium-sized businesses in our target market."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:20:29.859Z",
+  "model": "deepseek-v4-flash"
+}

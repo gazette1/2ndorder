@@ -1,0 +1,79 @@
+{
+  "cik": "0001453687",
+  "ticker": "RNAC",
+  "name": "Cartesian Therapeutics, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001453687-26-000064",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1453687/000145368726000064/rnac-20251231.htm"
+  },
+  "business": "We are a late clinical-stage biotechnology company pioneering cell therapy for the treatment of autoimmune diseases. Descartes-08, our lead cell therapy product candidate, is an autologous CAR-T product targeting B-cell maturation antigen (BCMA) in clinical development for the treatment of MG and myositis. Unlike DNA, mRNA degrades naturally over time without integrating into the cell's genetic material.",
+  "sellsTo": [
+    "patients with autoimmune diseases",
+    "specifically myasthenia gravis",
+    "myositis",
+    "juvenile dermatomyositis"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Biogen MA, Inc.",
+    "National Cancer Institute (NCI)",
+    "Swedish Orphan Biovitrum AB (Sobi)",
+    "Genovis AB (publ.) - terminated"
+  ],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "We are a late clinical-stage biotechnology company pioneering cell therapy for the treatment of autoimmune diseases."
+    },
+    {
+      "tag": "other:in-vivo-cell-therapy",
+      "stance": "active_investment",
+      "sentence": "As we advance our pipeline, we continue to evaluate the potential of enhanced delivery platforms for our cell therapies with multiple feasibility studies underway to explore the potential timing for optimizing in-vivo delivery of our assets currently in development."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Initiation of Phase 3 AURORA trial of Descartes-08 in MG",
+      "date": "2025-05",
+      "sentence": "In May 2025, we initiated our Phase 3 AURORA trial of Descartes-08 in patients with MG."
+    },
+    {
+      "event": "FDA Special Protocol Assessment agreement for AURORA trial",
+      "date": "2025-01",
+      "sentence": "In January 2025, we received written agreement from the FDA under the Special Protocol Assessment, or SPA, process on the overall design of our planned AURORA trial."
+    },
+    {
+      "event": "Start of Phase 2 trial in myositis",
+      "date": null,
+      "sentence": "We expect to commence this trial in the first half of 2026."
+    },
+    {
+      "event": "Initiation of Phase 2 pediatric basket trial in JDM",
+      "date": "2026-01",
+      "sentence": "The initiation of the Phase 2 pediatric basket trial was announced in January 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "MG is estimated to affect over 106,000 patients in the U.S.",
+      "sentence": "It is estimated to affect over 106,000 patients in the U.S."
+    },
+    {
+      "claim": "Myositis impacts approximately 80,000 people in the United States.",
+      "sentence": "Myositis impacts approximately 80,000 people in the United States."
+    },
+    {
+      "claim": "JDM impacts approximately 4,000 people in the United States.",
+      "sentence": "JDM impacts approximately 4,000 people in the United States."
+    },
+    {
+      "claim": "approximately three million adults worldwide are estimated to have SLE.",
+      "sentence": "approximately three million adults worldwide are estimated to have SLE."
+    }
+  ],
+  "generatedAt": "2026-07-04T03:45:28.466Z",
+  "model": "deepseek-v4-flash"
+}

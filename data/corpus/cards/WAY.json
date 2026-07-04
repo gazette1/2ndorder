@@ -1,0 +1,60 @@
+{
+  "cik": "0001990354",
+  "ticker": "WAY",
+  "name": "Waystar Holding Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001990354-26-000011",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035426000011/way-20251231.htm"
+  },
+  "business": "Waystar provides AI-powered software that simplifies healthcare payments for providers. Its enterprise-grade platform automates payment-related workflows to ensure accurate reimbursement. The company serves over 30,000 clients, including hospitals, health systems, and physician practices.",
+  "sellsTo": [
+    "hospitals",
+    "health systems",
+    "physician practices",
+    "clinics",
+    "surgical centers",
+    "laboratories",
+    "ambulatory providers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google Cloud"
+  ],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our mission is to simplify healthcare payments through our modern cloud-based software, enabling our healthcare clients to prioritize patient care and optimize their financial performance."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "Waystar AltitudeAI utilizes a multi-model approach that incorporates machine learning, large language models, and generative and agentic AI to automate complex workflows and deliver added value to our clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Privacy concerns and security breaches or incidents relating to our platform or data (including personal information and other regulated data) could have a material adverse effect on our business."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our software helps providers get paid faster, accurately, and more efficiently, while ensuring patients receive a modern, transparent, and consumer-friendly financial experience."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "$20 billion total addressable market in 2025 for current software solution set",
+      "sentence": "We estimate that our TAM with respect to our current software solution set was $20 billion in 2025."
+    },
+    {
+      "claim": "TAM expected to grow to almost $25 billion by 2030 at 5% CAGR",
+      "sentence": "Based on a third-party study commissioned by us, we believe our TAM has the potential to increase by 5% CAGR to almost $25 billion by 2030, driven by growth within healthcare payments (notably, in prior authorizations, patient payments, and revenue cycle management analytics), increased outsourcing in revenue cycle management, as well as secular technology tailwinds such as greater utilization of AI."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:54:08.541Z",
+  "model": "deepseek-v4-flash"
+}

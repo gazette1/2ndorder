@@ -1,0 +1,70 @@
+{
+  "cik": "0000903419",
+  "ticker": "ALRS",
+  "name": "ALERUS FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-006820",
+    "filedAt": "2026-03-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/903419/000143774926006820/alrs20251231_10k.htm"
+  },
+  "business": "Alerus Financial Corporation provides diversified financial solutions through banking, retirement and benefit services, and wealth management. It targets businesses with sales between $1 million and $100 million and achievement-oriented consumers with complex financial needs. The company also offers nationwide retirement plan administration, ESOP services, HSAs, and wealth management including trust and fiduciary services.",
+  "sellsTo": [
+    "businesses (sales $1M-$100M)",
+    "consumers (complex financial needs)",
+    "national market for retirement and benefit services",
+    "state markets in North Dakota, Minnesota, Arizona"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the occurrence of fraudulent activity, breaches or failures of the Company's or its third-party vendors information security controls or cybersecurity-related incidents, including as a result of sophisticated attacks using artificial intelligence and similar tools or as a result of insider fraud;"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "increased competition in the financial services industry, including from non-banks such as credit unions, financial technology companies and digital asset service providers"
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Company's consumer lending products include residential first mortgage loans."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Agricultural Land and Agricultural Production loans are part of the loan portfolio."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Insurance and advisory revenue of $2.2 million for 2025 is reported in the wealth segment."
+    },
+    {
+      "tag": "other:retirement-services",
+      "stance": "core_product",
+      "sentence": "retirement and benefit services business offers retirement plan administration and investment advisory services, employee stock ownership plan (ESOP) administration, investment fiduciary services to retirement plans, HSA and other benefit services"
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The Company's commercial lending products include both owner occupied and non-owner occupied CRE loans."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The Grand Forks MSA had total deposits of $12.7 billion as of June 30, 2025, ranking as the 116th largest MSA in the United States in total deposits.",
+      "sentence": "The Grand Forks MSA had total deposits of $12.7 billion as of June 30, 2025, and ranks as the 116th largest MSA in the United States in total deposits, based on FDIC data."
+    },
+    {
+      "claim": "The Twin Cities MSA had total deposits of $232.6 billion as of June 30, 2025, ranking as the 15th largest MSA in the United States in total deposits.",
+      "sentence": "The Twin Cities MSA had total deposits of $232.6 billion as of June 30, 2025, and ranks as the 15th largest MSA in the United States in total deposits, based on FDIC data."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:52:18.951Z",
+  "model": "deepseek-v4-flash"
+}

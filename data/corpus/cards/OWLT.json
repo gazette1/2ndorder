@@ -1,0 +1,71 @@
+{
+  "cik": "0001816708",
+  "ticker": "OWLT",
+  "name": "Owlet, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001816708-26-000018",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1816708/000181670826000018/owlt-20251231.htm"
+  },
+  "business": "Owlet sells wearable pediatric monitors for home use, including Dream Sock (FDA-cleared pulse oximetry device), BabySat (prescription version), Dream Sight (video monitor), and the Owlet360 subscription service. The products are sold to parents and caregivers directly, through major U.S. retailers, and via healthcare distribution channels with insurance reimbursement. The company also serves international markets in Canada, Australia, the UK, the EU, and other regions.",
+  "sellsTo": [
+    "parents/caregivers",
+    "retailers",
+    "healthcare providers",
+    "insurance reimbursement programs",
+    "international markets"
+  ],
+  "namedCustomers": [
+    "Amazon",
+    "Baby List",
+    "Best Buy",
+    "Target",
+    "Walmart",
+    "Children's Hospital of The King's Daughters",
+    "1 Natural Way"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "By delivering hospital-grade technology through a consumer-friendly interface, we bridge the critical gap between clinical care and the home."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Owlet360: Owlet's innovative subscription service leverages the Company's pediatric health and sleep data to provide parents and caregivers with a deeper, personalized understanding of their child's development, health, and sleep trends."
+    },
+    {
+      "tag": "edge-ai",
+      "stance": "active_investment",
+      "sentence": "A core area of investment is the integration of artificial intelligence (\"AI\") and computer vision to our camera products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Dream Sight is the first baby monitor to receive the SGS Cybersecurity Mark, a global certification that recognizes high standards of digital safety and privacy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "International expansion of Owlet360 subscription service to additional languages and markets",
+      "date": "2026",
+      "sentence": "We plan to expand access to Owlet360 in additional languages and other international markets in 2026."
+    },
+    {
+      "event": "Commercial launch of Dream Sock in India",
+      "date": "2026-01-01",
+      "sentence": "We received regulatory clearance in India late in the year, paving the way for commercial launch in early 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 33 million infants born annually in key markets (US, Europe, Australia, Canada, India)",
+      "sentence": "With over 33 million infants born annually in these regions, we see the potential for a steady demand for our products and refreshment of our Total Addressable Market (\"TAM\")."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:01:12.697Z",
+  "model": "deepseek-v4-flash"
+}

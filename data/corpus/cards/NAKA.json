@@ -1,0 +1,59 @@
+{
+  "cik": "0001946573",
+  "ticker": "NAKA",
+  "name": "Nakamoto Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-013601",
+    "filedAt": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1946573/000149315226013601/form10-k.htm"
+  },
+  "business": "Nakamoto Inc. holds Bitcoin on its balance sheet and seeks to provide investors with exposure to Bitcoin's global growth, while also operating a legacy healthcare business focused on holistic pain management that it intends to exit.",
+  "sellsTo": [
+    "bitcoin investors",
+    "pain management patients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Kraken",
+    "Anchorage Digital",
+    "Coinbase"
+  ],
+  "exposures": [
+    {
+      "tag": "other:bitcoin",
+      "stance": "core_product",
+      "sentence": "We hold Bitcoin on our balance sheet and, through our ecosystem-wide presence, seek to provide investors with exposure to Bitcoin's global growth and to leverage our treasury to acquire and develop an ecosystem of Bitcoin companies across finance, media and advisory."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Additionally, we operate a healthcare and healthcare data company, focused on holistic pain management."
+    },
+    {
+      "tag": "other:bitcoin-options",
+      "stance": "core_product",
+      "sentence": "On January 30, 2026, we entered into that certain First Amendment to the Master Loan Agreement, which amends that certain Master Loan Agreement, dated as of December 3, 2025 (the Master Loan Agreement), by and between Nakamoto Holdings, Inc. and Kraken to establish a designated trading wallet for an options-writing strategy on Bitcoin, including selling covered calls and cash-secured puts (the Kraken Trading Wallet)."
+    },
+    {
+      "tag": "other:bitcoin-hedging",
+      "stance": "risk_mention",
+      "sentence": "If we elect to use derivative instruments to hedge the price risk of holding Bitcoin, such derivatives are highly volatile and subject to market and liquidity risks, which could negatively impact our Bitcoin strategy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Exit from legacy healthcare business",
+      "date": "2026-03",
+      "sentence": "In March 2026, the Company announced that it now intends to exit its legacy healthcare business."
+    },
+    {
+      "event": "Maturity of Master Loan Agreement with Kraken",
+      "date": "2026-12-04",
+      "sentence": "In December 2025, we entered into the Master Loan Agreement with Kraken for a 210.0 million USDT, 8.0% per annum fixed rate fee loan that matures on December 4, 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:26:20.179Z",
+  "model": "deepseek-v4-flash"
+}

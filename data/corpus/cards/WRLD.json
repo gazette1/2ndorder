@@ -1,0 +1,80 @@
+{
+  "cik": "0000108385",
+  "ticker": "WRLD",
+  "name": "WORLD ACCEPTANCE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000108385-26-000014",
+    "filedAt": "2026-06-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838526000014/wrld-20260331.htm"
+  },
+  "business": "The company offers small consumer installment loans and related ancillary products to non-prime borrowers who have difficulty qualifying for traditional credit. It also provides insurance products and income tax return preparation services.",
+  "sellsTo": [
+    "non-prime consumers",
+    "individuals needing small installment loans"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our primary business activity is offering small consumer installment loans together with, in some states in which we operate, related ancillary products."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Insurance revenue decreased by $1.8 million, or 3.6%, from fiscal 2025 to fiscal 2026 due to a shift away from larger loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyberattack, data breach, or technology failure whether in the Company's systems or those of third-party vendors could compromise customer data, disrupt operations, and result in financial loss, legal liability, and reputational harm."
+    },
+    {
+      "tag": "ai",
+      "stance": "risk_mention",
+      "sentence": "Artificial intelligence (\"AI\") tools may increase threat actors' ability to detect or exploit vulnerabilities, to develop ransomware or other malware, to launch cyberattacks, or to otherwise seek to attack systems, data, software, or code relied on by us or our service providers."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Full redemption of senior notes due November 2026",
+      "date": "2025-08-29",
+      "sentence": "The Notice called for the redemption of all of the outstanding Notes (the Redemption) on August 29, 2025 (the Redemption Date) at a redemption price equal to 101.75% of the principal amount of the Notes, plus accrued and unpaid interest, if any, to, but not including, the Redemption Date."
+    },
+    {
+      "event": "Share repurchase from affiliates of Prescott General Partners",
+      "date": "2025-09-03",
+      "sentence": "On September 3, 2025, in accordance with its share repurchase program, the Company, after approval by the Audit and Compliance Committee, repurchased 347,064 shares of its common stock for $60.0 million in a privately negotiated transaction from certain affiliates of Prescott General Partners, LLC, who, along with its affiliates, beneficially own approximately 46.3% of the Company's common stock as of March 31, 2026."
+    },
+    {
+      "event": "CFPB Rule on payment requirements effective date",
+      "date": "2025-03-30",
+      "sentence": "the U.S. Court of Appeals for the Fifth Circuit set March 30, 2025 as the effective date of the Rule."
+    },
+    {
+      "event": "CFPB withdrew supervisory order over the Company",
+      "date": "2025-05-12",
+      "sentence": "on May 12, 2025, the CFPB withdrew the Order, indicating that the CFPB \"is shifting its supervisory priorities to focus on pressing threats to consumers\" and that supervision of the Company \"is not consistent with these priorities.\""
+    },
+    {
+      "event": "Consent and Limited Modification to financial covenant ratio",
+      "date": "2026-05-22",
+      "sentence": "The Company was in compliance with these covenants at March 31, 2026, after giving effect to a Consent and Limited Modification to the Net Income Available for Fixed Charges to Fixed Charges ratio entered into on May 22, 2026 as further discussed in Note 19 to the Consolidated Financial Statements."
+    },
+    {
+      "event": "Revolving Credit Facility maturity",
+      "date": "2028-07-22",
+      "sentence": "Borrowings under the Revolving Credit Facility have a maturity date of July 22, 2028."
+    },
+    {
+      "event": "Warehouse Facility maturity",
+      "date": "2027-09-29",
+      "sentence": "Borrowings under the Warehouse Facility have an expected maturity date of September 29, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:12:56.506Z",
+  "model": "deepseek-v4-flash"
+}

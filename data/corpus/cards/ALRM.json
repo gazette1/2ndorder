@@ -1,0 +1,92 @@
+{
+  "cik": "0001459200",
+  "ticker": "ALRM",
+  "name": "Alarm.com Holdings, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001459200-26-000005",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1459200/000145920026000005/alrm-20251231.htm"
+  },
+  "business": "Alarm.com is the leading platform for intelligently connected properties. Our cloud-based platform offers an expansive suite of Internet of Things (IoT) solutions addressing global opportunities in the residential, multi-family, small business, enterprise commercial and energy markets. Alarm.com primarily generates SaaS and license revenue through our service provider partners, who resell our services and pay us monthly fees.",
+  "sellsTo": [
+    "Residential property owners",
+    "Commercial property owners",
+    "Service provider partners",
+    "Energy utilities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Alarm.com's artificial intelligence, or AI, driven video analytics engine provides object classification and object tracking capabilities that can distinguish between people, vehicles and animals, detect package deliveries, determine an object's direction of movement, measure the duration of activity, and identify familiar vehicles and people."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "core_product",
+      "sentence": "Its SaaS platform enables the enrollment and aggregation of multiple classes of distributed energy resources, or DERs, including smart thermostats, residential batteries, electric vehicles and charging equipment, and other connected devices and appliances."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "By managing DERs at scale, EnergyHub creates virtual power plants, or VPPs, that serve as enterprise-grade flexible grid resources."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "Utilities use these VPPs to reduce or shift electricity consumption during peak demand periods or when intermittent renewable generation is limited."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Utilities use these VPPs to reduce or shift electricity consumption during peak demand periods or when intermittent renewable generation is limited."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "BTR provides a managed charging solution for electric vehicle manufacturers and drivers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to maintain the security of our information and technology networks, including information relating to our service provider partners, subscribers and employees, could expose us to liability and adversely affect us."
+    },
+    {
+      "tag": "telecom-networking",
+      "stance": "risk_mention",
+      "sentence": "Our business relies heavily upon cellular telephone service to communicate signals."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Repayment of 2026 Convertible Notes",
+      "date": "2026-01-14",
+      "sentence": "On January 14, 2026, we paid $500.0 million in aggregate principal amount to holders of the 2026 Notes, fully settling the outstanding balance."
+    },
+    {
+      "event": "Acquisition of CHeKT",
+      "date": "2025-02-10",
+      "sentence": "On February 10, 2025, we acquired 81% of the issued and outstanding shares of capital stock of CHeKT."
+    },
+    {
+      "event": "Acquisition of Bridge to Renewables (BTR)",
+      "date": "2025-08-15",
+      "sentence": "On August 15, 2025, EnergyHub, Inc., or EnergyHub, one of our wholly-owned subsidiaries, acquired all of the issued and outstanding shares of capital stock of Bridge to Renewables, Inc., or BTR."
+    },
+    {
+      "event": "Acquisition of Resideo Grid Services (RGS)",
+      "date": "2025-11-21",
+      "sentence": "On November 21, 2025, EnergyHub acquired 100% of the issued and outstanding shares of capital stock of Zona NewCo, LLC, which acquired substantially all of the assets and liabilities of Resideo Grid Services, or RGS, from Resideo Technologies, Inc."
+    },
+    {
+      "event": "Equity investment in Pronet",
+      "date": "2025-11-20",
+      "sentence": "On November 20, 2025, we paid $30.1 million in cash to purchase 20.3% of the outstanding shares of Pronet."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:40:12.059Z",
+  "model": "deepseek-v4-flash"
+}

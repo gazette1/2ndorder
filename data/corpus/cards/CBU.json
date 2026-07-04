@@ -1,0 +1,49 @@
+{
+  "cik": "0000723188",
+  "ticker": "CBU",
+  "name": "COMMUNITY FINANCIAL SYSTEM, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021651",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/723188/000110465926021651/cbu-20251231x10k.htm"
+  },
+  "business": "Community Financial System, Inc. operates as a diversified financial services enterprise providing banking and other financial services to retail, commercial, institutional, and governmental customers. Its principal subsidiary, Community Bank, N.A., offers commercial and retail banking services through 192 full-service branches and 8 drive-thru locations across Upstate New York, Northeastern Pennsylvania, Vermont, Western Massachusetts, and Southern New Hampshire. Non-banking subsidiaries provide employee benefit trust and administration services, insurance brokerage, and wealth management services.",
+  "sellsTo": [
+    "retail, commercial, institutional and governmental customers",
+    "individuals and small and medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Through OneGroup, the Company offers personal and commercial lines of insurance and other risk management products and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company’s information systems may experience an interruption or security breach and expose the Company to additional operational, compliance, cybersecurity and legal risks."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "If deposit alternatives, such as stablecoin, were to gain significant market share among retail and commercial depositors, it could have a significant negative impact on the Bank’s liquidity and funding costs."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company believes that the local character of its business, knowledge of the customers and their needs, and its comprehensive retail and business products, together with responsive decision-making at the branch and regional levels and its digital banking service offerings, enable the Bank to compete effectively in its geographic market."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The Company or its third-party vendors may incorporate artificial intelligence technology into certain business processes, services, or products."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:27:28.036Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,41 @@
+{
+  "cik": "0001951070",
+  "ticker": "MH",
+  "name": "McGraw Hill, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001951070-26-000022",
+    "filedAt": "2026-06-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1951070/000195107026000022/mh-20260331.htm"
+  },
+  "business": "McGraw Hill is a leading global provider of education solutions for K-12, higher education, and professional learning markets, offering digital and print learning materials powered by artificial intelligence to deliver personalized learning experiences.",
+  "sellsTo": [
+    "K-12 school districts",
+    "Higher education institutions",
+    "Medical and engineering professionals",
+    "Students and educators in over 100 countries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:ai-education",
+      "stance": "core_product",
+      "sentence": "McGraw Hill operates at the intersection of proprietary content, software and data, using artificial intelligence to deliver personalized learning experiences at global scale, driving positive outcomes throughout the entire learning lifecycle."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Operational disruptions, malfunctions or intentional hacking of our technological systems such as our hosting systems and delivery platforms, or the technological systems of the third parties on which we rely, could adversely affect our operations or business and cause financial loss and reputational damage."
+    },
+    {
+      "tag": "other:medical-education",
+      "stance": "core_product",
+      "sentence": "Through our subscription-based learning solutions such as Access we provide students, institutions and professionals with comprehensive medical and engineering learning solutions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:15:10.973Z",
+  "model": "deepseek-v4-flash"
+}

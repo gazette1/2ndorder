@@ -1,0 +1,44 @@
+{
+  "cik": "0000350852",
+  "ticker": "CTBI",
+  "name": "COMMUNITY TRUST BANCORP INC /KY/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001140361-26-007058",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/350852/000114036126007058/ef20060685_10k.htm"
+  },
+  "business": "Community Trust Bancorp, Inc. is a bank holding company that, through its subsidiaries, offers commercial and personal banking and trust and wealth management services to small and mid-sized communities in Kentucky, southern West Virginia, and northeastern Tennessee.",
+  "sellsTo": [
+    "small and mid-sized communities in Kentucky, southern West Virginia, northeastern Tennessee"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A breach in the security of our systems could disrupt our business, result in the disclosure of confidential information, damage our reputation, and create significant financial and legal exposure for us."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "As financial services become increasingly dependent on technology, permitting transactions to be conducted by telephone, mobile banking, and the internet, non-bank institutions are able to attract funds and provide lending and other financial services without offices located in our market areas."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Our business may be adversely impacted by climate change and related initiatives."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New branch opening in Mt. Sterling Market",
+      "date": "2026-02-01",
+      "sentence": "In an attempt to modernize our delivery channel in the Mt. Sterling Market, we consolidated two of our branches into a newly constructed modern branch which opened in February 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:22:20.481Z",
+  "model": "deepseek-v4-flash"
+}

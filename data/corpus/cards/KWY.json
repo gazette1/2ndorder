@@ -1,0 +1,58 @@
+{
+  "cik": "0001072627",
+  "ticker": "KWY",
+  "name": "KINGSWAY Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-007961",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1072627/000143774926007961/kfs20251231_10k.htm"
+  },
+  "business": "Kingsway Financial Services Inc. is a holding company that operates through two reportable segments: Kingsway Search Xcelerator and Extended Warranty. Kingsway Search Xcelerator provides business services (e.g., CFO services, IT managed services, healthcare staffing, software, electric motor solutions, and plumbing services) to B2B and B2C customers. Extended Warranty sells and administers vehicle service agreements and HVAC warranty products through credit unions and dealerships.",
+  "sellsTo": [
+    "credit unions",
+    "independent and franchised car dealerships",
+    "acute healthcare facilities",
+    "small and medium enterprises",
+    "midstream natural gas pipeline operators and utilities",
+    "residential and commercial customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "IWS is a licensed motor vehicle service agreement company and is a provider of after-market vehicle protection services distributed by credit unions in 28 states and the District of Columbia to their members, with customers in all fifty states."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "core_product",
+      "sentence": "SNS provides healthcare staffing services to acute healthcare facilities on a contract or per diem basis in the United States, primarily in California."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "Roundhouse is a provider of industrial-scale electric motor solutions, including field maintenance, in-shop repair, testing, and new motor sales primarily to midstream natural gas pipeline operators and utilities across the Permian Basin."
+    },
+    {
+      "tag": "other:property-management",
+      "stance": "core_product",
+      "sentence": "SPI provides software products created exclusively to serve the management needs of all types of shared-ownership properties globally."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "DDI provides outsourced 24 hours a day and 7 days per week (\"24/7\") cardiac telemetry services for general acute care, long-term acute care (\"LTAC\") and inpatient rehabilitation hospitals."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Disruptions or security failures in our information technology systems, including as a result of cybersecurity incidents, could create liability for us and/or limit our ability to effectively monitor, operate and control our operations and adversely affect our reputation, business, financial condition, results of operation and cash flows."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:46:14.643Z",
+  "model": "deepseek-v4-flash"
+}

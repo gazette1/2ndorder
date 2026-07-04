@@ -1,0 +1,71 @@
+{
+  "cik": "0000023194",
+  "ticker": "CRK",
+  "name": "COMSTOCK RESOURCES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-059001",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526059001/crk-20251231.htm"
+  },
+  "business": "Comstock Resources Inc. is an independent natural gas producer operating primarily in the Haynesville shale, with operations concentrated in Louisiana and Texas. It sells natural gas and oil, with natural gas being the principal product, and benefits from proximity to Gulf Coast markets.",
+  "sellsTo": [
+    "Gulf Coast natural gas markets",
+    "LNG export markets",
+    "power generation for data centers",
+    "petrochemical industry"
+  ],
+  "namedCustomers": [
+    "Enterprise Products Operating",
+    "Venture Global LNG, Inc.",
+    "Shell Energy North America US, L.P."
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "We are partnering with NextEra Energy Resources, LLC (\"NextEra\") to provide natural gas for new power generation in Western Haynesville to support hyperscaler data center development with initial capacity of 2 gigawatts and potential expansion to 8 gigawatts."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our business could be negatively impacted by security threats, including cybersecurity threats and other disruptions."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We are a leading independent natural gas producer operating primarily in the Haynesville shale, a premier natural gas basin located in North Louisiana and East Texas with superior economics given its geographical proximity to the Gulf Coast natural gas markets."
+    },
+    {
+      "tag": "other:lng-exports",
+      "stance": "core_product",
+      "sentence": "Our natural gas production benefits from the strong regional Gulf Coast demand growth driven by a substantial increase in LNG exports, exports to Mexico and new or expanded petrochemical facilities."
+    },
+    {
+      "tag": "other:petrochemical",
+      "stance": "core_product",
+      "sentence": "Our natural gas production benefits from the strong regional Gulf Coast demand growth driven by a substantial increase in LNG exports, exports to Mexico and new or expanded petrochemical facilities."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Redemption of Quantum's Class B Units in Pinnacle Gas Services",
+      "date": "2026-06-30",
+      "sentence": "In January 2026, Pinnacle entered into an agreement with Quantum to redeem all of Quantum's outstanding Class B Units in exchange for cash consideration of $440 million plus any accrued but unpaid distributions. The redemption is expected to be completed in the first half of 2026."
+    },
+    {
+      "event": "2026 drilling plan: 66 operated horizontal wells and 72 wells turned to sales",
+      "date": null,
+      "sentence": "Under our 2026 operating plan, we currently expect to drill 66 operated horizontal wells (59.7 net) and to turn 72 operated wells (63.1 net) to sales in 2026."
+    },
+    {
+      "event": "2026 drilling in Western Haynesville: additional 19 wells",
+      "date": null,
+      "sentence": "In 2026, we currently intend to drill an additional 19 Haynesville and Bossier shale wells in this play."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:45:50.525Z",
+  "model": "deepseek-v4-flash"
+}

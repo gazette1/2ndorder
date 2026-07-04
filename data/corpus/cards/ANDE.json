@@ -1,0 +1,61 @@
+{
+  "cik": "0000821026",
+  "ticker": "ANDE",
+  "name": "Andersons, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000821026-26-000010",
+    "filedAt": "2026-02-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/821026/000082102626000010/ande-20251231.htm"
+  },
+  "business": "Andersons, Inc. operates in two segments: Agribusiness and Renewables. The Agribusiness segment merchandises agricultural commodities, manufactures nutrients, and manages logistics. The Renewables segment produces and sells ethanol and co-products from four ethanol plants.",
+  "sellsTo": [
+    "Agricultural producers and end users",
+    "Ethanol plants",
+    "Industrial and consumer markets"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Agribusiness segment is a diversified business focusing on capturing profits through relationships with agricultural producers and end users as both a supplier and customer."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "The Renewables segment produces, purchases and sells ethanol and co-products."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "This includes merchandising and managing logistics across a wide range of commodities as well as being a manufacturer, distributor, and retailer of agricultural and related plant nutrients."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We also handle bulk agricultural fertilizers, produce specialized high-value nutrient products, and service a variety of industrial and consumer markets with related products."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "With the increased regulations and opportunity of electric vehicles comes the transitional risk that biofuels are in lower demand due to environmental concerns with climate change and changing consumer behavior."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The Company is at risk of cyber-incidents or other security breaches that could undermine our ability to operate effectively."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquired remaining 49.9% ownership interest in The Andersons Marathon Holdings LLC",
+      "date": "2025-07-31",
+      "sentence": "On July 31, 2025, the Company acquired the remaining 49.9% ownership interest in The Andersons Marathon Holdings LLC (\"TAMH\")."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:47:08.513Z",
+  "model": "deepseek-v4-flash"
+}

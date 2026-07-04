@@ -1,0 +1,55 @@
+{
+  "cik": "0001956744",
+  "ticker": "TRON",
+  "name": "Tron Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-012723",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1956744/000149315226012723/form10-k.htm"
+  },
+  "business": "Tron Inc. designs, develops, and manufactures custom merchandise including toys and souvenirs for theme parks and entertainment venues. The company also holds TRX tokens as a primary treasury asset and stakes them to earn yield. The toy products are based on entertainment franchises from popular movies and books.",
+  "sellsTo": [
+    "theme parks",
+    "entertainment venues"
+  ],
+  "namedCustomers": [
+    "Walt Disney Parks and Resorts",
+    "Universal Parks and Destinations",
+    "United Parks and Resorts (SeaWorld)",
+    "Six Flags",
+    "Herschend Family Entertainment",
+    "Merlin Entertainment"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "the Company designs, develops, and manufactures custom merchandise which includes toys and souvenirs for the world's largest theme parks and other entertainment venues."
+    },
+    {
+      "tag": "fintech",
+      "stance": "active_investment",
+      "sentence": "The Company has adopted a Treasury Reserve Policy (Treasury Reserve Policy) which set out our treasury management and capital allocation strategies, under which our treasury reserve assets will consist of: cash and cash equivalents and short-term investments (Cash Assets) held by us that exceed working capital requirements; and TRX tokens held by us, as the primary treasury holding asset on an ongoing basis, subject to market conditions and anticipated needs of the business for Cash Assets."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "discovery of security vulnerabilities in our products, services or systems, leading to negative publicity, decreased demand or potential liability"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The TRON network hosts approximately $86.4 billion in TRC-20 USDT (Tether), accounting for approximately 46.9% of total USDT circulation.",
+      "sentence": "As of March 18, 2026, TRON had over 371 million in total user wallets globally, hosting approximately 86.4 billion in TRC-20 USDT (Tether) accounting for approximately 46.9% of total USDT circulation."
+    },
+    {
+      "claim": "The TRON network has over 371 million total user wallets globally.",
+      "sentence": "As of March 18, 2026, TRON had over 371 million in total user wallets globally, hosting approximately 86.4 billion in TRC-20 USDT (Tether) accounting for approximately 46.9% of total USDT circulation."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:04:05.124Z",
+  "model": "deepseek-v4-flash"
+}

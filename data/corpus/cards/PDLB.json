@@ -1,0 +1,77 @@
+{
+  "cik": "0001874071",
+  "ticker": "PDLB",
+  "name": "Ponce Financial Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-104610",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1874071/000119312526104610/pdlb-20251231.htm"
+  },
+  "business": "Ponce Financial Group, Inc. is a financial holding company and the holding company of Ponce Bank, National Association, a national bank. The Bank's business primarily consists of taking deposits from the general public and investing those deposits, together with funds generated from operations and borrowings, in mortgage loans, including one-to-four family residential, multifamily residential, nonresidential properties, construction and land, and to a lesser extent, business and consumer loans.",
+  "sellsTo": [
+    "General public (depositors) in New York City metropolitan area",
+    "Residential real estate borrowers (investor-owned and owner-occupied)",
+    "Multifamily and nonresidential property borrowers",
+    "Construction and land development borrowers",
+    "Small business borrowers via SBA loans",
+    "Consumer borrowers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Raisin Solutions US LLC",
+    "Lending Front"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Company has deployed a mobile application that digitizes the lending workflow from pre-approval to servicing and enables the Company to originate, close and fund small business loans within very short spans of time, without requiring a physical presence within banking offices and with automated underwriting using both traditional and non-traditional methods."
+    },
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank s business primarily consists of taking deposits from the general public and investing those deposits... in mortgage loans, consisting of one-to-four family residential (both investor-owned and owner-occupied), multifamily residential, nonresidential properties and construction and land, and, to a lesser extent, in business and consumer loans."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Construction and land loans totaled $854.01 million, or 32.5%, of the Bank s total loan portfolio at December 31, 2025, (79 projects), with $681.6 million consisting of multifamily residential construction (61 projects)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face significant operational risks because the financial services business involves a high volume of transactions and increased reliance on technology, including risk of loss related to cyber security breaches."
+    },
+    {
+      "tag": "other:small-business-lending",
+      "stance": "core_product",
+      "sentence": "The Bank is... a certified Small Business Administration ( SBA\") lender."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened full service banking office in Inwood, New York",
+      "date": "2025-09-16",
+      "sentence": "On September 16, 2025, the Company opened a full service banking office in Inwood, New York."
+    },
+    {
+      "event": "Received $1.3 million CDFI Financial Assistance Award from Treasury",
+      "date": "2025-02-06",
+      "sentence": "On February 6, 2025, the Bank received a $1.3 million grant from the Treasury as part of the CDFI Financial Assistance Award Program."
+    },
+    {
+      "event": "Entered into ECIP Securities Purchase Option Agreement with Treasury",
+      "date": "2024-12-20",
+      "sentence": "On December 20, 2024, the Company entered into an ECIP Securities Purchase Option Agreement (the Repurchase Agreement ) with Treasury."
+    },
+    {
+      "event": "Earliest possible date for meeting Threshold Condition to exercise ECIP repurchase option",
+      "date": "2026-06-30",
+      "sentence": "The earliest possible date by which a Threshold Condition may be met is June 30, 2026, which is the end of the sixteenth consecutive quarter following the Original Closing Date."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:13:17.056Z",
+  "model": "deepseek-v4-flash"
+}

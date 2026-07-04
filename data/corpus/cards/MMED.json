@@ -1,0 +1,79 @@
+{
+  "cik": "0002062583",
+  "ticker": "MMED",
+  "name": "MiniMed Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-045915",
+    "filedAt": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/2062583/000162828026045915/mdt-20260424.htm"
+  },
+  "business": "MiniMed Group, Inc. develops, manufactures, and markets automated insulin delivery (AID) systems and smart multiple daily injection (Smart MDI) systems for the management of diabetes. Its products include insulin pumps, continuous glucose monitoring (CGM) sensors, consumable infusion sets and reservoirs, and smart insulin pens integrated with proprietary dosing algorithms. The company sells to healthcare professionals, patients with diabetes, and third-party payors globally.",
+  "sellsTo": [
+    "healthcare professionals",
+    "patients with diabetes",
+    "government healthcare systems",
+    "private third-party payors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Abbott"
+  ],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "We are a scaled global medical technology company that develops, manufactures, and markets a comprehensive suite of solutions for the management of diabetes, including automated insulin delivery (AID) systems and smart multiple daily injection (Smart MDI) systems."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our Smart MDI system includes a Smart Insulin Pen for insulin administration (which connects to our Smart Dosing software), a CGM sensor that measures blood glucose levels, and wraparound applications and services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We rely on the proper function, security and availability of our information technology systems and data, as well as those of third parties throughout our global supply chain and our customer and payor base, to operate our business, and a breach, cyber-attack or other disruption to these systems or data could materially and adversely affect our business, results of operations, financial condition, cash flows, reputation or competitive position."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "US FDA clearance of MiniMed Flex",
+      "date": "2026-03-18",
+      "sentence": "On March 18, 2026, we announced that the U.S. FDA had cleared the MiniMed Flex, a next-generation discreet, smartphone-controlled insulin pump, and in June 2026 we launched MiniMed Flex in the U.S."
+    },
+    {
+      "event": "Submission of MiniMed Flex for CE Mark approval",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we also submitted the MiniMed Flex for CE Mark approval."
+    },
+    {
+      "event": "Launch of MiniMed Go Smart MDI system in Europe",
+      "date": "2026-02-01",
+      "sentence": "In February 2026, we launched the MiniMed Go, our Smart MDI system in Europe and in May 2026, we continued the global rollout of the MiniMed Go with commercial launch in the U.S."
+    },
+    {
+      "event": "Commercial launch of MiniMed Go in the US",
+      "date": "2026-05-01",
+      "sentence": "In February 2026, we launched the MiniMed Go, our Smart MDI system in Europe and in May 2026, we continued the global rollout of the MiniMed Go with commercial launch in the U.S."
+    },
+    {
+      "event": "Extension of partnership with Abbott to commercialize dual glucose-ketone sensors",
+      "date": "2026-06-03",
+      "sentence": "On June 3, 2026, we announced an extension to our partnership with Abbott Laboratories, to commercialize dual glucose-ketone sensors designed to integrate exclusively with our MiniMed smart dosing systems."
+    },
+    {
+      "event": "Expected support of Instinct sensor by MiniMed Flex",
+      "date": "2027-04-30",
+      "sentence": "MiniMed Flex currently supports our Simplera Sync sensor and we expect that it will also support the Instinct sensor, made by Abbott by the end of the second quarter of fiscal 2027."
+    },
+    {
+      "event": "Effective date of DMEPOS competitive bidding program for Class II CGMs and insulin pumps",
+      "date": "2028-01-01",
+      "sentence": "CMS expects contracts to be awarded to approximately ten suppliers of Class II CGMs and insulin pumps, and that the initial contracts will be awarded in the second half of 2027 and be effective January 1, 2028."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:47:13.711Z",
+  "model": "deepseek-v4-flash"
+}

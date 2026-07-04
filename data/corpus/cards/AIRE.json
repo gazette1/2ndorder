@@ -1,0 +1,53 @@
+{
+  "cik": "0001859199",
+  "ticker": "AIRE",
+  "name": "reAlpha Tech Corp.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001213900-26-026653",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026026653/ea0277755-10k_realpha.htm"
+  },
+  "business": "We are a real estate technology company developing an end-to-end homebuying platform, which we have named reAlpha. The platform integrates AI-driven tools to offer tailored property recommendations, realty services, mortgage brokering, and digital title and escrow services. Additionally, we provide technology services including software development and an AI-powered conversational platform through our subsidiaries.",
+  "sellsTo": [
+    "homebuyers",
+    "businesses",
+    "enterprise clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "We are a real estate technology company developing an end-to-end homebuying platform, which we have named reAlpha."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our revenue model revolves around: (i) our homebuying services, which include realty services, mortgage brokering services, and digital title and escrow services directly to customers, mainly through the reAlpha platform, and (ii) our technology services, including software development services provided by our subsidiaries U.S. Naamche and reAlpha Nepal Pvt Limited to businesses and the AI-powered conversational platform provided to customers by our subsidiary, AiChat."
+    },
+    {
+      "tag": "other:ai-software",
+      "stance": "core_product",
+      "sentence": "We have integrated AI into our homebuying services offerings through our development of Claire, a proprietary, customer-facing AI-powered agent acting as a digital homebuying concierge, and internal AI-powered tools for our loan officers."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "risk_mention",
+      "sentence": "Our cryptocurrency investment policy exposes us to various risks associated with cryptocurrencies."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Proposed merger with InstaMortgage expected to close",
+      "date": "2026-06-30",
+      "sentence": "The transaction is expected to close in the first half of 2026, subject to regulatory approvals and other customary closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:34:49.416Z",
+  "model": "deepseek-v4-flash"
+}

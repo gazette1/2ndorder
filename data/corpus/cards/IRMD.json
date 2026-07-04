@@ -1,0 +1,66 @@
+{
+  "cik": "0001325618",
+  "ticker": "IRMD",
+  "name": "IRADIMED CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-024691",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1325618/000110465926024691/irmd-20251231x10k.htm"
+  },
+  "business": "IRADIMED CORPORATION develops, manufactures, markets and distributes Magnetic Resonance Imaging (MRI) compatible medical devices and related accessories, disposables and services. The company sells primarily to hospitals and acute care facilities in the United States and internationally.",
+  "sellsTo": [
+    "hospitals",
+    "acute care facilities",
+    "MRI departments",
+    "critical care departments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "IRADIMED CORPORATION develops, manufactures, markets and distributes Magnetic Resonance Imaging (MRI) compatible medical devices and related accessories, disposables and services relating to them."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and increased use of AI presents operational risks and challenges that could give rise to legal or regulatory action, damage our reputation or otherwise materially harm of our business."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cybersecurity incident or failure to protect our information technology infrastructure could be disruptive to our business, compromise confidential data, cause reputation harm, adversely affect our business and operating results, subject us to litigation and federal and state governmental inquiries."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "FDA 510(k) clearance for MRidium 3870 IV infusion pump system",
+      "date": "2025-05",
+      "sentence": "In May 2025, we received FDA 510(k) clearance for our new MRidium 3870 IV infusion pump system"
+    },
+    {
+      "event": "First customer shipment of MRidium 3870",
+      "date": "2025-12",
+      "sentence": "completed our first customer shipment in December 2025."
+    },
+    {
+      "event": "Discontinuation of new MRidium 3860+ Pump System sales",
+      "date": "2026",
+      "sentence": "New MRidium 3860+ Pump System sales will be discontinued during 2026, with continued warranty and technical support continuing through applicable contracted periods."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Potential market of approximately 27,350 MRI compatible IV infusion pump systems",
+      "sentence": "We estimate there is the potential for the sale of approximately 27,350 MRI compatible IV infusion pump systems based on the number of MRI scanners installed globally in acute care facilities of sufficient sophistication as to be considered supporting favorable market conditions for utilization of our MRI compatible IV infusion pump system."
+    },
+    {
+      "claim": "Potential market of approximately 27,350 MRI vital signs monitoring systems",
+      "sentence": "We estimate there is the potential for the sale of approximately 27,350 MRI vital signs monitoring systems based on the number of MRI scanners installed globally in acute care facilities of sufficient sophistication as to be considered supporting favorable market conditions for utilization of our MRI vital signs monitoring system."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:34:28.619Z",
+  "model": "deepseek-v4-flash"
+}

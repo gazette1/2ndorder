@@ -1,0 +1,45 @@
+{
+  "cik": "0001767837",
+  "ticker": "RMBI",
+  "name": "Richmond Mutual Bancorporation, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-020414",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1767837/000162828026020414/fil-20251231.htm"
+  },
+  "business": "Richmond Mutual Bancorporation's primary business is community banking, consisting of attracting deposits and investing in loans secured by commercial and multi-family real estate, residential mortgages, consumer loans, direct financing leases, and commercial and industrial loans, and also providing trust and wealth management services.",
+  "sellsTo": [
+    "Individuals and businesses in Wayne and Shelby counties in Indiana and Shelby, Miami, and Franklin counties in Ohio",
+    "Small businesses throughout the United States for equipment leasing"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:equipment leasing",
+      "stance": "core_product",
+      "sentence": "Our leasing operation consists of direct investments in equipment that we lease (referred to as direct finance leases) to small businesses located throughout the United States."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "First Insurance Management, Inc., a Nevada corporation, was formed in 2022 as a pooled captive insurance company subsidiary of the Company to provide additional property and casualty insurance coverage to the Company and its subsidiaries and reinsurance to other third party insurance captives."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "our ability to keep pace with technological changes, including our ability to identify and address cyber-security risks such as data security breaches, 'denial of service' attacks, 'hacking' and identity theft, and other attacks on our information technology systems or on our third-party vendors"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Merger with The Farmers Bancorp",
+      "date": "2026-04-01",
+      "sentence": "The transaction is expected to be completed in the second calendar quarter of 2026, subject to customary closing conditions, regulatory approval, and approval of the Company's and Farmers Bancorp's shareholders."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:21:20.427Z",
+  "model": "deepseek-v4-flash"
+}

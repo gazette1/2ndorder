@@ -1,0 +1,75 @@
+{
+  "cik": "0000046250",
+  "ticker": "HWKN",
+  "name": "HAWKINS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000046250-26-000018",
+    "filedAt": "2026-05-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000018/hwkn-20260329.htm"
+  },
+  "business": "Hawkins Inc is a leading water treatment and specialty ingredients company that formulates, manufactures, distributes, and blends products for its customers. The company operates in three segments: Water Treatment, Food and Health Sciences, and Industrial Solutions. Its customers include municipalities, industrial manufacturers, food and pharmaceutical companies, and agricultural producers.",
+  "sellsTo": [
+    "Municipal water treatment facilities",
+    "Industrial wastewater treatment",
+    "Industrial process water",
+    "Non-residential swimming pools",
+    "Agricultural water",
+    "Nutrition, food, pharmaceutical, and agricultural ingredient manufacturers",
+    "Industrial manufacturing, chemical processing, electronics, energy, plating, and surface finishing industries"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "This group specializes in providing chemicals, filtration media and systems, equipment, services and solutions for potable water, municipal and industrial wastewater, industrial process water, mainly non-residential swimming pool water and agricultural water."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "This group specializes in providing chemicals, filtration media and systems, equipment, services and solutions for potable water, municipal and industrial wastewater, industrial process water, mainly non-residential swimming pool water and agricultural water."
+    },
+    {
+      "tag": "specialty-chemicals",
+      "stance": "core_product",
+      "sentence": "We are a leading water treatment and specialty ingredients company that formulates, manufactures, distributes, and blends products for our Water Treatment, Food and Health Sciences, and Industrial Solutions customers."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "core_product",
+      "sentence": "This group specializes in providing industrial chemicals, products and services to industries such as industrial manufacturing, chemical processing, electronics, energy, plating, and surface finishing."
+    },
+    {
+      "tag": "energy",
+      "stance": "core_product",
+      "sentence": "This group specializes in providing industrial chemicals, products and services to industries such as industrial manufacturing, chemical processing, electronics, energy, plating, and surface finishing."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "This group offers a diverse product portfolio including base chemistry, acid based reactions, minerals, vitamins and amino acids, excipients, botanicals and herbs, sweeteners and enzymes, fertilizers, and food-grade and pharmaceutical salts and ingredients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Failure to adequately protect critical data and technology systems could materially affect our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Capital expenditure plan for fiscal 2027",
+      "date": null,
+      "sentence": "We anticipate total capital expenditures to be approximately $55 million for fiscal 2027."
+    },
+    {
+      "event": "Interest rate swap termination",
+      "date": "2027-05-01",
+      "sentence": "The notional amount of the swap agreement is $60 million, and it will terminate on May 1, 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:10:32.594Z",
+  "model": "deepseek-v4-flash"
+}

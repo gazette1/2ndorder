@@ -1,0 +1,81 @@
+{
+  "cik": "0001677703",
+  "ticker": "CNDT",
+  "name": "CONDUENT Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001677703-26-000024",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1677703/000167770326000024/cndt-20251231.htm"
+  },
+  "business": "Conduent delivers digital business solutions and services, including customer experience management, business process as a service, integrated digital solutions, government healthcare and payment services, and transportation toll and fare collection, to commercial and public sector clients globally.",
+  "sellsTo": [
+    "Commercial industries (healthcare, financial services, logistics, technology, telecom, travel, hospitality)",
+    "U.S. federal, state, local and foreign governments",
+    "Transportation authorities worldwide"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We leverage cloud computing, artificial intelligence (\"AI\"), machine learning, automation and advanced analytics to deliver mission-critical solutions."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our government healthcare solutions provide program administration solutions for government healthcare programs with a range of innovative solutions such as Medicaid management, provider services, Medicaid business intelligence, pharmacy benefits management, eligibility and enrollment support, customer contact services, application processing, premium billing and case management solutions."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We also deliver government-distributed payments seamlessly and securely utilizing our proprietary software and expertise."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "active_investment",
+      "sentence": "We have systematically consolidated the majority of our technology infrastructure into two primary data centers, leading to increased processing speeds, redundancy and stability, as well as improved performance for our clients."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our data systems, information systems and network infrastructure have been, and may in the future be, subject to hacking or other cybersecurity threats and other service interruptions, which could expose us to liability, impair our reputation or temporarily render us unable to fulfill our service obligations under our contracts."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We provide computer-aided dispatch/automatic vehicle location technology to help clients manage their fleet operations."
+    },
+    {
+      "tag": "other:transportation-solutions",
+      "stance": "core_product",
+      "sentence": "Our transportation portfolio includes public transit and road usage charging solutions that streamline operations, increase revenue and reduce congestion while enabling safer, more seamless travel with reduced environmental impact."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of AI Experience Center",
+      "date": null,
+      "sentence": "We launched the AI Experience Center to support client engagement and provide a structured environment for evaluating and demonstrating Conduent's AI-enabled capabilities."
+    },
+    {
+      "event": "January 2025 Cyber Event",
+      "date": "2025-01-13",
+      "sentence": "On January 13, 2025, the Company experienced an operational disruption and learned that a threat actor gained unauthorized access to a limited portion of the Company's environment (the \"January 2025 Cyber Event\")."
+    },
+    {
+      "event": "CEO change",
+      "date": "2026-01-16",
+      "sentence": "On January 16, 2026, Clifford Skelton stepped down from his position as President and Chief Executive Officer, and the Company appointed Harsha V. Agadi, Chairman of the Board, as his successor."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Addressable market size in global business process services industry is $219 billion in 2025.",
+      "sentence": "We estimate our addressable market size in the global business process services industry to be $219 billion in 2025, according to third-party industry reports."
+    }
+  ],
+  "generatedAt": "2026-07-04T04:25:40.235Z",
+  "model": "deepseek-v4-flash"
+}

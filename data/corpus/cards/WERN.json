@@ -1,0 +1,61 @@
+{
+  "cik": "0000793074",
+  "ticker": "WERN",
+  "name": "WERNER ENTERPRISES INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000793074-26-000071",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/793074/000079307426000071/wern-20251231.htm"
+  },
+  "business": "We are a transportation and logistics company engaged primarily in transporting truckload shipments of general commodities in both interstate and intrastate commerce. We also provide logistics services through our Werner Logistics segment. Our largest customer, Dollar General, accounted for 11% of our total revenues in 2025.",
+  "sellsTo": [
+    "Retail and consumer products",
+    "Food and beverage",
+    "Manufacturing/industrial",
+    "Logistics and other"
+  ],
+  "namedCustomers": [
+    "Dollar General"
+  ],
+  "namedSuppliers": [
+    "Freightliner (a Daimler company)",
+    "International (a Navistar company)",
+    "Kenworth",
+    "Peterbilt",
+    "Wabash National Corporation",
+    "Great Dane"
+  ],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We are a transportation and logistics company engaged primarily in transporting truckload shipments of general commodities in both interstate and intrastate commerce."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Our investments in cybersecurity may not be successful against an attack or malicious action."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "As we implement artificial intelligence solutions, we limit liability by ensuring that vendors indemnity obligations extend to artificial intelligence solutions and require such vendors to undertake commercially reasonable measures to prevent hallucinations and bias."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of FirstFleet",
+      "date": "2026-01-27",
+      "sentence": "On January 27, 2026, we acquired 100% of the equity interests in First Enterprises, Inc., doing business as FirstFleet, Inc. (FirstFleet)."
+    },
+    {
+      "event": "Expected TTS fleet size increase of 23% to 28% by end of 2026",
+      "date": "2026-12-31",
+      "sentence": "We currently expect our TTS segment fleet size at the end of 2026 to increase in a range of 23% to 28% when compared to the fleet size at the end of 2025, which includes FirstFleet tractors."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:26:48.883Z",
+  "model": "deepseek-v4-flash"
+}

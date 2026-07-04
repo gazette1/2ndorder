@@ -1,0 +1,46 @@
+{
+  "cik": "0001098146",
+  "ticker": "PNBK",
+  "name": "PATRIOT NATIONAL BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-022508",
+    "filedAt": "2026-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1098146/000162828026022508/pnbk-20251231.htm"
+  },
+  "business": "Patriot National Bancorp operates solely through its subsidiary Patriot Bank, N.A., a national bank offering deposit products, lending, treasury management, institutional banking, and digital payments services. The bank targets entrepreneurs, investors, business leaders, financial technology companies, and underbanked individuals and businesses. The bank underwent a strategic repositioning in 2025, focusing on relationship-driven banking and specialized financial services.",
+  "sellsTo": [
+    "entrepreneurs",
+    "investors",
+    "business leaders",
+    "financial technology companies",
+    "payment processors",
+    "program managers",
+    "underbanked individuals and businesses",
+    "high-net-worth individuals",
+    "family offices"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The Bank's institutional banking activities include services provided to financial technology companies, program managers, non-depository financial institutions, lenders, and other businesses that seek a banking partner for deposits, loans, payments, transaction accounts, card-related services, treasury management, and other banking solutions."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyberattack, fraud event, information security breach, payments disruption, or technology failure could affect us materially and adversely."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "risk_mention",
+      "sentence": "The development and use of artificial intelligence presents risks and challenges that may adversely impact our business."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:24:20.366Z",
+  "model": "deepseek-v4-flash"
+}

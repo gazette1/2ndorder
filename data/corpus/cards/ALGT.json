@@ -1,0 +1,68 @@
+{
+  "cik": "0001362468",
+  "ticker": "ALGT",
+  "name": "Allegiant Travel CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001362468-26-000008",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000008/algt-20251231.htm"
+  },
+  "business": "Allegiant Travel is a leisure travel company focused on providing travel and leisure services and products to residents of under-served cities in the United States. It operates a low-cost, low utilization passenger airline marketed primarily to leisure travelers, selling air transportation on a stand-alone basis and bundled with air-related and third party services and products.",
+  "sellsTo": [
+    "leisure travelers in under-served cities"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Boeing",
+    "CFM International",
+    "Enterprise Holdings",
+    "Bank of America",
+    "CAE",
+    "Navitaire",
+    "SAP",
+    "Trax"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "We have established an Artificial Intelligence ( AI ) Council to explore and implement AI-driven solutions across various business operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "active_investment",
+      "sentence": "We continue to invest in cybersecurity, cyber risk management, vendor risk, and privacy initiatives."
+    },
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "risk_mention",
+      "sentence": "We are relying on Boeing to deliver our new 737 MAX aircraft to support airline growth and to replace aircraft we have designated for retirement or whose leases are expiring."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Delivery of 11 Boeing 737 MAX aircraft in 2026",
+      "date": "2026-12-31",
+      "sentence": "Although the contract provides for more deliveries, at this time, we currently expect eleven aircraft to be delivered to us in 2026."
+    },
+    {
+      "event": "Completion of proposed acquisition of Sun Country Airlines",
+      "date": "2026-12-31",
+      "sentence": "The proposed transaction is anticipated to close in the second half of 2026."
+    },
+    {
+      "event": "Completion of replacement of flight and crew management systems with CAE platform",
+      "date": "2026-12-31",
+      "sentence": "During 2026 we expect to complete the replacement of our flight and crew management systems with a next-generation platform powered by CAE."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "More than 1,400 incremental domestic routes identified for future network growth, over 75% with no current nonstop service",
+      "sentence": "We have identified more than 1,400 incremental domestic routes as opportunities for future network growth, of which over 75 percent currently have no nonstop service."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:51:21.383Z",
+  "model": "deepseek-v4-flash"
+}

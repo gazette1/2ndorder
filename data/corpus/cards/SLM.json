@@ -1,0 +1,69 @@
+{
+  "cik": "0001032033",
+  "ticker": "SLM",
+  "name": "SLM Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001032033-26-000011",
+    "filedAt": "2026-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000011/slm-20251231.htm"
+  },
+  "business": "SLM Corporation, doing business as Sallie Mae, is an education solutions company. Its primary business is to originate and service high-quality Private Education Loans. It offers deposit products insured by the FDIC and serves students and their families.",
+  "sellsTo": [
+    "students",
+    "families",
+    "higher education institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our primary business is to originate and service high-quality Private Education Loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity incidents, cyberattacks, risks related to artificial intelligence ( AI ), and other failures or breaches of our operating systems or infrastructure, including those of third-party vendors;"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "cybersecurity incidents, cyberattacks, risks related to artificial intelligence ( AI ), and other failures or breaches of our operating systems or infrastructure, including those of third-party vendors;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "H.R.1 enacted into law",
+      "date": "2025-07-04",
+      "sentence": "On July 4, 2025, H.R.1 (H.R.1) was enacted into law."
+    },
+    {
+      "event": "Announcement of new share repurchase program",
+      "date": "2026-01-22",
+      "sentence": "On January 22, 2026, we announced a new share repurchase program (the 2026 Share Repurchase Program), which became effective on January 22, 2026 and is expected to be completed over the next approximately 24 months ending on February 4, 2028."
+    },
+    {
+      "event": "Sale of loans to Strategic Partner",
+      "date": "2026-01",
+      "sentence": "In January 2026, we sold the loans to the Strategic Partner."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Private Education Loan originations were an estimated $11.5 billion in AY 2024-2025",
+      "sentence": "Private Education Loan originations were an estimated $11.5 billion in AY 2024-2025, consistent with an estimated $11.5 billion of Private Education Loan originations in AY 2023-2024."
+    },
+    {
+      "claim": "Private Education Loan originations increased to an estimated $14 billion in AY 2024-2025",
+      "sentence": "Private Education Loan originations increased $1 billion from the year-ago period to an estimated $14 billion in AY 2024-2025 and represent just 2.6 percent of total spending on higher education."
+    },
+    {
+      "claim": "Total spending on higher education was $536 billion in AY 2024-2025",
+      "sentence": "We estimate total spending on higher education was $536 billion in AY 2024-2025, up from $466 billion in AY 2020-2021."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:24:57.842Z",
+  "model": "deepseek-v4-flash"
+}

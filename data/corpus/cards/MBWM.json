@@ -1,0 +1,55 @@
+{
+  "cik": "0001042729",
+  "ticker": "MBWM",
+  "name": "MERCANTILE BANK CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005997",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1042729/000143774926005997/mbwm20251231_10k.htm"
+  },
+  "business": "Mercantile Bank Corporation is a bank holding company that provides commercial banking services primarily to small- to medium-sized businesses and retail banking services through its subsidiary banks. It also offers insurance products through its subsidiary Mercantile Insurance Center, Inc. The company operates 54 office locations in Michigan.",
+  "sellsTo": [
+    "small- to medium-sized businesses",
+    "retail customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We face the risk of cyber-attack to our computer systems."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We are subject to intense competition from both other financial institutions and from non-bank entities, including FinTech companies."
+    },
+    {
+      "tag": "other:climate-change",
+      "stance": "risk_mention",
+      "sentence": "Direct and indirect effects of climate change may adversely affect us."
+    },
+    {
+      "tag": "other:esg",
+      "stance": "risk_mention",
+      "sentence": "Failure to meet the rapidly changing ESG expectations or standards, or achieve our ESG goals, could adversely affect our business, results of operations, financial condition or stock price."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "our implementation of certain new technologies, such as those related to artificial intelligence, automation and algorithms, in our business processes may have unintended consequences due to their limitations or our failure to use them effectively."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Core processor conversion completion",
+      "date": "2027-03-31",
+      "sentence": "We plan for our banks to operate alongside each other until the conversion of our core processor is completed in the first quarter of 2027, at which time we plan to consolidate Eastern Michigan Bank into Mercantile Bank."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:13:15.103Z",
+  "model": "deepseek-v4-flash"
+}

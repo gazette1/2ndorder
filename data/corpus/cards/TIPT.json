@@ -1,0 +1,50 @@
+{
+  "cik": "0001393726",
+  "ticker": "TIPT",
+  "name": "TIPTREE INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001393726-26-000009",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1393726/000139372626000009/tipt-20251231.htm"
+  },
+  "business": "Tiptree Inc. is a holding company that allocates capital to select small and middle market companies across industries. It acquires controlling interests in businesses with long-term growth opportunities, positive cash flows, and scalable models. As of December 31, 2025, its insurance (Fortegra) and mortgage (Reliance) subsidiaries are classified as held for sale and discontinued operations.",
+  "sellsTo": [
+    "Insurance distribution partners (MGAs, retail agents, other distributors)",
+    "Mortgage borrowers (agency-eligible FHA/VA loans)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Our Insurance business, Fortegra, is a growing, consistently profitable, and multinational specialty insurance company focused on underwriting complex and niche risks in underserved markets."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our mortgage operation was conducted through Reliance First Capital, LLC and had been focused on primarily originating and servicing agency-eligible (Federal Housing Administration (FHA) and Veterans Administration (VA)) and conventional and government loans that can be transferred to Ginnie Mae pools or sold on a servicing-retained or servicing-released basis to Fannie Mae, Freddie Mac or secondary market investors and aggregators."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity attacks or information system failures could disrupt our businesses, including our insurance businesses."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closing of the sale of Fortegra to Purchaser for $1.65 billion",
+      "date": null,
+      "sentence": "The anticipated closing date, subject to customary regulatory approvals, is expected in the first half of 2026."
+    },
+    {
+      "event": "Closing of the sale of Reliance to Reliance Buyer for estimated $50 million",
+      "date": null,
+      "sentence": "The anticipated closing date, subject to customary regulatory approvals, is expected in the first half of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:17:18.251Z",
+  "model": "deepseek-v4-flash"
+}

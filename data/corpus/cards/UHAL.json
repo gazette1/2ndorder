@@ -1,0 +1,61 @@
+{
+  "cik": "0000004457",
+  "ticker": "UHAL",
+  "name": "U-Haul Holding Co /NV/",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-241850",
+    "filedAt": "2026-05-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312526241850/uhal-20260331.htm"
+  },
+  "business": "U-Haul Holding Company is North America's largest do-it-yourself moving and storage operator through its subsidiary U-Haul International, Inc. It rents trucks, trailers, towing devices, self-storage units, and portable moving and storage units (U-Box), sells moving supplies and towing accessories, and provides propane refilling. Additionally, it operates property and casualty insurance for its moving customers and life insurance products for the senior market.",
+  "sellsTo": [
+    "do-it-yourself household movers",
+    "college students",
+    "vacationers and sports enthusiasts",
+    "do-it-yourself home remodeling and gardening enthusiasts",
+    "senior market for life insurance"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Ford Motor Company",
+    "General Motors Corporation"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "Regulatory pressure in connection with the introduction and expansion of electric, autonomous, and connected rental vehicles could require infrastructure improvement that could inhibit our current business model and negatively impact our ability to acquire, or increase our cost of acquisition for rental trucks."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity incidents are inevitable and disruptions in our information technology systems or a compromise of security with respect to those systems could adversely affect us."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Customers also increasingly turn to new technologies, such as artificial intelligence apps and chatbots to locate and compare products, including moving and storage products, and we may not successfully adapt our marketing and ability to reach customers through these new and developing platforms."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "Oxford Life Insurance Company (Oxford), our life insurance subsidiary, sells life insurance, Medicare supplement insurance, annuities and other related products to the senior market."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Filed lawsuit against Public Storage over intellectual property rights to use orange color",
+      "date": "2024-12",
+      "sentence": "We filed a lawsuit against Public Storage in the District of Arizona in December 2024, asking for a declaration that our trade dress and trademarks that use orange do not infringe on Public Storage's claimed intellectual property rights."
+    },
+    {
+      "event": "One Big Beautiful Bill passed into law",
+      "date": "2025-07-04",
+      "sentence": "The One Big Beautiful Bill ('OBBB') was passed into law on July 4, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T19:10:16.685Z",
+  "model": "deepseek-v4-flash"
+}

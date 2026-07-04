@@ -1,0 +1,76 @@
+{
+  "cik": "0000916789",
+  "ticker": "HELE",
+  "name": "HELEN OF TROY LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0000916789-26-000048",
+    "filedAt": "2026-04-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000048/hele-20260228.htm"
+  },
+  "business": "Helen of Troy is a global consumer products company selling branded home, outdoor, beauty, and wellness products to online and brick-and-mortar retailers and directly to consumers.",
+  "sellsTo": [
+    "Online retailers",
+    "Brick-and-mortar retailers",
+    "Direct-to-consumer",
+    "Mass merchandisers",
+    "Sporting goods retailers",
+    "Department stores",
+    "Drugstore chains",
+    "Home improvement stores",
+    "Grocery stores",
+    "Specialty stores",
+    "Beauty supply retailers",
+    "Warehouse clubs",
+    "Wholesalers",
+    "Distributors"
+  ],
+  "namedCustomers": [
+    "Amazon.com Inc.",
+    "Walmart, Inc.",
+    "Target Corporation"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "We are a leading global consumer products company offering creative products and solutions for our customers through a diversified portfolio of brands."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "Sales for this global segment are primarily to online and brick & mortar retailers and through our direct-to-consumer channel."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "thermometers distributed by our Beauty & Wellness segment must comply with various regulations governing the production and distribution of medical devices."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of cyber incidents, or failure by us or our third-party service providers to maintain cybersecurity and the integrity of confidential internal or customer data, could have a material adverse effect on our operations and profitability."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "Furthermore, although we govern the use of generative artificial intelligence (including machine learning) (AI) technologies by our associates, our third-party manufacturers, vendors and service providers may use generative AI technologies or systems."
+    },
+    {
+      "tag": "other:sustainability",
+      "stance": "risk_mention",
+      "sentence": "We face risks associated with the increased focus and expectations on climate change and other sustainability matters."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Replace supply chain planning system",
+      "date": "2027-02-28",
+      "sentence": "In fiscal 2027, we are planning to replace our supply chain planning system."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:18:42.946Z",
+  "model": "deepseek-v4-flash"
+}

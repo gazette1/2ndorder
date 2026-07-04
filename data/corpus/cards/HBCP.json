@@ -1,0 +1,50 @@
+{
+  "cik": "0001436425",
+  "ticker": "HBCP",
+  "name": "HOME BANCORP, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-015669",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026015669/hbcp-20251231.htm"
+  },
+  "business": "Home Bancorp, Inc. is a bank holding company whose wholly-owned subsidiary, Home Bank, N.A., attracts deposits from the general public and originates loans, including one-to four-family mortgage loans, commercial real estate loans, construction loans, and commercial and industrial loans. The Company operates 43 banking offices in south Louisiana, west Mississippi, and southeast Texas.",
+  "sellsTo": [
+    "Individuals and businesses in south Louisiana",
+    "Individuals and businesses in west Mississippi",
+    "Individuals and businesses in southeast Texas"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "risk_mention",
+      "sentence": "The oil and gas industry has a significant presence in the market areas in which we operate."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The occurrence of fraudulent activity, breaches or failures of our information security controls or cybersecurity-related incidents could have a material adverse effect on our business, financial condition, results of operations and growth prospects."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "More recently, innovations in loan and deposit products brought about by financial technology companies have added to the level of competition for originating loans and attracting deposits."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "Our lending activities include loans secured by commercial real estate and commercial and industrial loans."
+    },
+    {
+      "tag": "other:residential-mortgage",
+      "stance": "core_product",
+      "sentence": "Our principal sources of funds are customer deposits, repayments of loans, repayments of investments and funds borrowed from outside sources such as the Federal Home Loan Bank (FHLB) of Dallas."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T01:50:33.640Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "0001018164",
+  "ticker": "WLFC",
+  "name": "WILLIS LEASE FINANCE CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001018164-26-000036",
+    "filedAt": "2026-03-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000036/wlfc-20251231x10k.htm"
+  },
+  "business": "Willis Lease Finance Corp acquires and leases commercial aircraft engines and aircraft, and sells aircraft engine parts and materials, to commercial aircraft operators and maintenance, repair, and overhaul organizations.",
+  "sellsTo": [
+    "commercial aircraft operators",
+    "maintenance, repair, and overhaul organizations"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "CFMI",
+    "General Electric",
+    "Pratt Whitney",
+    "Rolls Royce",
+    "International Aero Engines"
+  ],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "We operate as a supplier of engines, aircraft and related parts ( aviation equipment ) to commercial aircraft operators and MROs."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyberattacks or other information security breaches could adversely affect our business, operating results and financial condition."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "technological developments, including the increasing use of Artificial Intelligence"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commitment to purchase 18 LEAP-1B engines and 28 LEAP-1A engines by 2030",
+      "date": null,
+      "sentence": "We are currently committed to purchasing 18 additional new LEAP-1B engines and 28 additional new LEAP-1A engines for an aggregate total of $857.4 million by 2030."
+    },
+    {
+      "event": "Commitment to purchase six PW1133 engines in 2026",
+      "date": "2026-12-31",
+      "sentence": "we are currently committed to purchasing six PW1133 engines for approximately $104.0 million in 2026."
+    },
+    {
+      "event": "Commitment to future overhaul and maintenance services by 2030",
+      "date": null,
+      "sentence": "We have committed to certain future overhaul and maintenance services which are anticipated to range between $106.6 million and $131.9 million by 2030."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:32:53.833Z",
+  "model": "deepseek-v4-flash"
+}

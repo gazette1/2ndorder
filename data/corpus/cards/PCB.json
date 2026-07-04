@@ -1,0 +1,34 @@
+{
+  "cik": "0001423869",
+  "ticker": "PCB",
+  "name": "PCB BANCORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001423869-26-000006",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1423869/000142386926000006/pcb-20251231.htm"
+  },
+  "business": "PCB Bancorp is a bank holding company that provides a broad range of loans, deposits, and other products and services predominantly to small and middle market businesses and individuals.",
+  "sellsTo": [
+    "small and middle market businesses",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Residential mortgage loans are typically collateralized by primary residential properties located in the Company s market areas to enable borrowers to purchase or refinance existing homes."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "cyber-attacks, ransomware attacks, computer viruses or other malware that may breach the security of our websites or other systems to obtain unauthorized access to confidential information, destroy data, disable or degrade service, or sabotage our systems;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T02:47:47.039Z",
+  "model": "deepseek-v4-flash"
+}

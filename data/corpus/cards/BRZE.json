@@ -1,0 +1,48 @@
+{
+  "cik": "0001676238",
+  "ticker": "BRZE",
+  "name": "Braze, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001676238-26-000013",
+    "filedAt": "2026-03-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1676238/000167623826000013/brze-20260131.htm"
+  },
+  "business": "Braze is a leading customer engagement platform that empowers brands to Be Absolutely Engaging. The platform brings together first-party context, transforms it with composable intelligence, and delivers personalized interactions across channels. The company primarily generates revenue from subscription fees for use of its platform, with customers including established global enterprises and technology innovators across various industries.",
+  "sellsTo": [
+    "retail and consumer goods",
+    "media and entertainment",
+    "gaming",
+    "sports",
+    "restaurants and on-demand services",
+    "healthcare and life sciences",
+    "technology",
+    "financial services"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services",
+    "Rackspace"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "BrazeAI equips marketers with intelligent models, agents, and operators that empower them to deliver smarter, faster, and more relevant engagement at scale."
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We rely upon third-party providers of cloud-based infrastructure, including Amazon Web Services and Rackspace, to host our products."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If we or our third-party service providers or vendors experience a security breach or unauthorized parties otherwise obtain access to our customers data, our data or our platform, our solution may be perceived as not being secure, our reputation may be harmed, demand for our platform and products may be reduced and we may incur significant liabilities."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:30:48.332Z",
+  "model": "deepseek-v4-flash"
+}

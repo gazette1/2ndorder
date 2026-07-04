@@ -1,0 +1,95 @@
+{
+  "cik": "0001309402",
+  "ticker": "GPRE",
+  "name": "Green Plains Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001309402-26-000019",
+    "filedAt": "2026-02-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1309402/000130940226000019/gpre-20251231.htm"
+  },
+  "business": "Green Plains is a renewable fuels and agricultural technology company that produces low-carbon ethanol, Ultra-High Protein feed ingredients, renewable corn oil, and distillers grains from corn. It also provides grain procurement, storage, and commodity marketing services through its agribusiness and energy services segment.",
+  "sellsTo": [
+    "integrated energy companies",
+    "retailers, traders and resellers",
+    "buyers for export to Canada",
+    "dairy, beef, swine, and poultry industries",
+    "renewable diesel and biodiesel plants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Green Plains is a renewable fuels and agricultural technology company focused on producing low-cost, low-CI ethanol and related co-products, including high protein feeds and corn oil from locally sourced corn."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Ultra-High Protein is fermented corn protein produced by further processing of the spent grain mash from the beer column."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Renewable corn oil is produced by processing the syrup through a decanter-style, or disk-stack, centrifuge."
+    },
+    {
+      "tag": "other:carbon-capture",
+      "stance": "active_investment",
+      "sentence": "We successfully commenced CCS operations at our three Nebraska biorefineries, which are connected to the Trailblazer CO2 Pipeline."
+    },
+    {
+      "tag": "other:clean-sugar-technology",
+      "stance": "core_product",
+      "sentence": "FQT's CST allows for the production of both food and industrial grade dextrose at a dry mill ethanol plant to target applications in food production, in addition to serving as a feedstock for renewable chemicals and synthetic biology."
+    },
+    {
+      "tag": "other:sustainable-aviation-fuel",
+      "stance": "risk_mention",
+      "sentence": "SAF can be produced from vegetable and waste oil feedstocks, such as our renewable corn oil."
+    },
+    {
+      "tag": "other:biorefinery-technology",
+      "stance": "active_investment",
+      "sentence": "We announced a technology collaboration with Equilon Enterprises LLC, which allows us to use FQT's precision separation and processing technology with Shell Fiber Conversion Technology."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Summit Carbon Solutions pipeline operations commence",
+      "date": "2028-01-01",
+      "sentence": "Summit Carbon Solutions, which publicly projects operations commencing in 2028."
+    },
+    {
+      "event": "Repayment of Tallgrass financing begins",
+      "date": "2026-01-01",
+      "sentence": "We financed the build and installation of carbon capture equipment at our three Nebraska plants with Tallgrass and expect to begin repayment during the first quarter of 2026."
+    },
+    {
+      "event": "All eight operational facilities qualify for Section 45Z Clean Fuel Production Credit",
+      "date": "2026-01-01",
+      "sentence": "Based on current CI score estimates, all eight operational Green Plains facilities are expected to qualify for the Section 45Z Clean Fuel Production Credit beginning in 2026, with six facilities qualifying in 2025, inclusive of three non-CCS facilities."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Domestic ethanol production averaged 1.1 million barrels per day in 2025 and 2024.",
+      "sentence": "According to the EIA, domestic ethanol production averaged 1.1 million barrels per day during both 2025 and 2024."
+    },
+    {
+      "claim": "Domestic ethanol exports through October 31, 2025 were approximately 1,750 mmg.",
+      "sentence": "According to the USDA Foreign Agriculture Service, domestic ethanol exports through October 31, 2025, were approximately 1,750 mmg, which was 14% higher than 1,532 mmg for the same period of 2024."
+    },
+    {
+      "claim": "Ethanol comprises approximately 10.1% of the domestic surface transportation gasoline supply.",
+      "sentence": "Ethanol is a valuable low CI oxygenate that comprises approximately 10.1% of the domestic surface transportation gasoline supply in the U.S."
+    },
+    {
+      "claim": "Gasoline demand was 8,802 thousand barrels per day in 2025.",
+      "sentence": "Gasoline demand was consistent compared to the prior year at 8,802 thousand barrels per day in 2025."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:56:38.769Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,65 @@
+{
+  "cik": "0000884144",
+  "ticker": "ASUR",
+  "name": "ASURE SOFTWARE INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012270",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/884144/000162828026012270/asur-20251231.htm"
+  },
+  "business": "Asure Software provides cloud-based Human Capital Management (HCM) software solutions as Software-as-a-Service (SaaS) to businesses of all sizes. Their platform includes Payroll & Tax filing, HR management, Time & Attendance, Recruiting, and Benefits Administration. They serve over 100,000 clients directly and through Reseller Partners.",
+  "sellsTo": [
+    "businesses of all sizes",
+    "small and mid-sized employers",
+    "payroll service bureaus",
+    "large employers",
+    "systems integrators",
+    "employers and payroll industry participants"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Amazon Web Services"
+  ],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "We depend on data centers and computing infrastructure operated by third parties, and any disruption in these operations or changes of these providers could adversely affect our business."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "Consistent with that effort, our engineering team utilizes an AI development Copilot to increase their productivity and efficiency."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Advancements and adoption of artificial intelligence ( AI ) could reduce demand for our solutions, which could have a material adverse affect on our business, operating results, and financial results."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "If our security measures, or those of our third-party data center hosting facilities, cloud computing platform providers or third-party service partners are compromised or breached, or if personal information of our clients or their employees is accessed or obtained, our services and HCM solution may be perceived as not being secure, our brand could be damaged, our services may be disrupted, and customers may curtail or stop using our services, all of which could reduce our revenue and earnings, increase our expenses, and expose us to legal claims and regulatory actions."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We offer employee-directed payment services integrated with payroll processing, including payroll debit card programs and earned wage access solutions."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We offer Insurance Services that help employers manage benefits and reduce administrative costs."
+    },
+    {
+      "tag": "other:robotic-process-automation",
+      "stance": "active_investment",
+      "sentence": "We continually work to automate processes using Robotic Process Automation ( RPA ) by developing bots that perform repetitive tasks."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:23:03.689Z",
+  "model": "deepseek-v4-flash"
+}

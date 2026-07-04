@@ -1,0 +1,38 @@
+{
+  "cik": "0001832466",
+  "ticker": "ALHC",
+  "name": "Alignment Healthcare, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012545",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1832466/000162828026012545/alhc-20251231.htm"
+  },
+  "business": "Alignment Healthcare provides Medicare Advantage plans to seniors, focusing on proactive care management through its proprietary technology platform. The company's mission is to improve healthcare for seniors by offering integrated care and insurance products.",
+  "sellsTo": [
+    "Medicare-eligible seniors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "AVA, our proprietary technology platform, that forms the backbone of our care delivery efforts, whether done through provider partners or directly through our care teams."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity breaches, loss of data and other disruptions could compromise sensitive information related to our business or our members, or prevent us from accessing critical information and expose us to liability, which could adversely affect our business and our reputation."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "There are approximately 8.4 million Medicare-eligible seniors in our current markets.",
+      "sentence": "There are approximately 8.4 million Medicare-eligible seniors in our current markets."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:18:45.134Z",
+  "model": "deepseek-v4-flash"
+}

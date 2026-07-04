@@ -1,0 +1,77 @@
+{
+  "cik": "0001853138",
+  "ticker": "KDK",
+  "name": "Kodiak AI, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-016910",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1853138/000162828026016910/kdk-20251231.htm"
+  },
+  "business": "Kodiak is a leading provider of physical AI, with a focus on AI-powered autonomous vehicle (AV) technology, designed to tackle driving jobs. It serves customers in long-haul trucking, industrial trucking, and defense industries. The Kodiak Driver is a virtual driver that combines AI software with modular hardware.",
+  "sellsTo": [
+    "long-haul trucking",
+    "industrial trucking",
+    "defense"
+  ],
+  "namedCustomers": [
+    "Atlas Energy Solutions",
+    "J.B. Hunt",
+    "Werner Enterprises",
+    "C.R. England",
+    "Martin Brower",
+    "U.S. Army",
+    "U.S. Marine Corps"
+  ],
+  "namedSuppliers": [
+    "Bosch",
+    "Roush Industries, Inc.",
+    "Vay Technology Inc.",
+    "Verizon",
+    "Applied Intuition, Inc.",
+    "NXP Semiconductors",
+    "Western Alliance Equipment Finance, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The Kodiak Driver is a unified physical AI system powered by multiple parallel neural nets that continuously learns and adapts across domains for efficient, scalable autonomy."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "Kodiak s proprietary SensorPods are mirror-mounted self-contained modules that contain cameras, radars and LiDARs."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "The Kodiak Driver is also being utilized in the defense sector, where we believe it can support national security initiatives and critical government applications."
+    },
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "We delivered these driverless trucks to Atlas Energy Solutions ( Atlas ), an oil and gas logistics provider which operates these trucks in the oil-rich Permian Basin of West Texas and Eastern New Mexico."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We serve customers in the long-haul trucking, industrial trucking, and defense industries."
+    },
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "The Kodiak Driver is a unified physical AI system powered by multiple parallel neural nets that continuously learns and adapts across domains for efficient, scalable autonomy."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Commence long-haul driverless operations",
+      "date": "2026-12-31",
+      "sentence": "We intend to complete our long-haul safety case, and commence long-haul driverless operations, by the end of 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:03:49.477Z",
+  "model": "deepseek-v4-flash"
+}

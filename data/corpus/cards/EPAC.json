@@ -1,0 +1,72 @@
+{
+  "cik": "0000006955",
+  "ticker": "EPAC",
+  "name": "ENERPAC TOOL GROUP CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000006955-25-000030",
+    "filedAt": "2025-10-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/6955/000000695525000030/epac-20250831.htm"
+  },
+  "business": "Enerpac Tool Group Corp. provides high pressure hydraulic tools, controlled force products, and solutions for precise positioning of heavy loads. The company serves customers in more than 100 countries through its Industrial Tools & Services segment, which designs, manufactures, and distributes branded hydraulic and mechanical tools. Additionally, the company operates Cortland Biomedical, a biomedical textile product development business.",
+  "sellsTo": [
+    "refinery/petrochemical",
+    "general industrial",
+    "industrial MRO",
+    "machining & manufacturing",
+    "power generation",
+    "infrastructure",
+    "mining",
+    "distributors",
+    "OEMs",
+    "select end users"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "oil-gas-services",
+      "stance": "core_product",
+      "sentence": "IT&S segment is primarily engaged in the design, manufacture and distribution of branded hydraulic and mechanical tools and in providing services and tool rental to the refinery/petrochemical; general industrial; industrial MRO; machining & manufacturing; power generation; infrastructure; mining; and other markets."
+    },
+    {
+      "tag": "mining-materials",
+      "stance": "core_product",
+      "sentence": "IT&S segment is primarily engaged in the design, manufacture and distribution of branded hydraulic and mechanical tools and in providing services and tool rental to the refinery/petrochemical; general industrial; industrial MRO; machining & manufacturing; power generation; infrastructure; mining; and other markets."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "IT&S segment is primarily engaged in the design, manufacture and distribution of branded hydraulic and mechanical tools and in providing services and tool rental to the refinery/petrochemical; general industrial; industrial MRO; machining & manufacturing; power generation; infrastructure; mining; and other markets."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "IT&S segment is primarily engaged in the design, manufacture and distribution of branded hydraulic and mechanical tools and in providing services and tool rental to the refinery/petrochemical; general industrial; industrial MRO; machining & manufacturing; power generation; infrastructure; mining; and other markets."
+    },
+    {
+      "tag": "medical-devices",
+      "stance": "core_product",
+      "sentence": "Cortland Biomedical is a full-service biomedical textile product development company and represents the Other operating segment."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity vulnerabilities, threats and more sophisticated and targeted computer crime could pose a risk to our systems, networks, operations, products, solutions, services and data."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development and adoption of generative artificial intelligence (\"AI\") technologies exacerbates these risks and may give rise to new tools for threat actors to attack and disrupt our systems."
+    },
+    {
+      "tag": "renewables",
+      "stance": "risk_mention",
+      "sentence": "actions by the U.S. Government that disadvantage the wind industry may adversely affect demand for certain of our products and adversely affect our results of operations."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:31:14.837Z",
+  "model": "deepseek-v4-flash"
+}

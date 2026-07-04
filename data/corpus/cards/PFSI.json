@@ -1,0 +1,58 @@
+{
+  "cik": "0001745916",
+  "ticker": "PFSI",
+  "name": "PennyMac Financial Services, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-018142",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1745916/000110465926018142/pfsi-20251231x10k.htm"
+  },
+  "business": "PennyMac Financial Services, Inc. is a specialty financial services firm with a comprehensive mortgage platform focused on the production and servicing of U.S. residential mortgage loans. It operates through two segments: production (loan origination, acquisition, and sale) and servicing (loan servicing and subservicing). It sells loans to government-sponsored entities and government agencies and provides subservicing for PennyMac Mortgage Investment Trust and non-affiliates.",
+  "sellsTo": [
+    "government-sponsored entities (Fannie Mae, Freddie Mac)",
+    "government agencies (Ginnie Mae, FHA, VA, USDA)",
+    "PennyMac Mortgage Investment Trust",
+    "non-affiliate investors"
+  ],
+  "namedCustomers": [
+    "PennyMac Mortgage Investment Trust"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "providing products and services that leverage innovative technologies to effectively and efficiently support our customers."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cybersecurity risks, cyber incidents and technology failures may adversely affect our business by causing a disruption to our operations, a compromise or corruption of our confidential information or the personal information of our customers, and/or damage to our business relationships, all of which could negatively impact our financial results."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "The development, proliferation and use of artificial intelligence could give rise to legal and/or regulatory action, damage our reputation or otherwise materially harm our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Became initial purchaser of all loans from correspondent sellers and began transferring agreed upon volumes of conventional loans to PMT.",
+      "date": "2025-07-01",
+      "sentence": "Beginning July 1, 2025, we became the initial purchaser of all loans from correspondent sellers and now transfer agreed upon volumes of conventional loans to PMT."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. residential mortgage market debt outstanding was approximately $14.7 trillion as of December 31, 2025.",
+      "sentence": "The U.S. residential mortgage market is one of the largest financial markets in the world, with approximately $14.7 trillion of debt outstanding as of December 31, 2025."
+    },
+    {
+      "claim": "First lien mortgage loan origination volume was approximately $1.9 trillion in 2025 and expected to increase to $2.3 trillion in 2026.",
+      "sentence": "According to mortgage industry economists, first lien mortgage loan origination volume was approximately $1.9 trillion in 2025 and is expected to increase to $2.3 trillion in 2026."
+    }
+  ],
+  "generatedAt": "2026-07-03T19:40:56.066Z",
+  "model": "deepseek-v4-flash"
+}

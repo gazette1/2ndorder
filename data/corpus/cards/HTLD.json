@@ -1,0 +1,67 @@
+{
+  "cik": "0000799233",
+  "ticker": "HTLD",
+  "name": "HEARTLAND EXPRESS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000799233-26-000006",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/799233/000079923326000006/htld-20251231.htm"
+  },
+  "business": "Heartland Express, Inc. is a short, medium, and long-haul truckload carrier and transportation services provider. It primarily provides nationwide asset-based dry van truckload service for major shippers across the United States, along with cross-border freight and other transportation services offered through third party partnerships in Mexico. It also offers truckload temperature-controlled transportation services and Mexico logistics services, which are not significant to its consolidated operations.",
+  "sellsTo": [
+    "retailers",
+    "manufacturers",
+    "parcel carriers",
+    "major shippers",
+    "retail industry",
+    "just-in-time manufacturing"
+  ],
+  "namedCustomers": [
+    "Pepsico",
+    "Georgia Pacific",
+    "WK Kellogg Co",
+    "Molson Coors",
+    "Shaw Industries",
+    "FedEx Express",
+    "Mars Pet Nutrition",
+    "Tractor Supply"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "We primarily provide nationwide asset-based dry van truckload service for major shippers across the United States, along with cross-border freight and other transportation services offered through third party partnerships in Mexico."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We also maintain information security policies to protect our systems, networks, and other information technology assets (and the data contained therein) from cybersecurity breaches and threats, such as hackers, malware, and viruses; however, such policies cannot ensure the protection of our systems, networks, and other information technology assets (and the data contained therein)."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "Like many truckload carriers, we experience substantial difficulty in attracting and retaining sufficient numbers of qualified drivers."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "risk_mention",
+      "sentence": "a significant portion of our business is in the retail industry, which continues to undergo a shift away from the traditional brick and mortar model towards e-commerce, and this shift could impact the manner in which our customers source or utilize our services;"
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "the use of artificial intelligence ( AI ) by bad actors may make cyberattacks more difficult to anticipate or control in the future."
+    },
+    {
+      "tag": "other:insurance",
+      "stance": "risk_mention",
+      "sentence": "Our future insurance and claims expense might exceed historical levels, which could reduce our earnings."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:47:46.573Z",
+  "model": "deepseek-v4-flash"
+}

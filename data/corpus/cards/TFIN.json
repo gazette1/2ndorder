@@ -1,0 +1,51 @@
+{
+  "cik": "0001539638",
+  "ticker": "TFIN",
+  "name": "Triumph Financial, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001539638-26-000007",
+    "filedAt": "2026-02-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1539638/000153963826000007/tfin-20251231.htm"
+  },
+  "business": "Triumph Financial is a financial holding company offering banking, factoring, payments, and intelligence services focused on the for-hire trucking ecosystem in the United States.",
+  "sellsTo": [
+    "Brokers",
+    "Shippers",
+    "Factors",
+    "Carriers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Our payments business provides payment, audit, and other banking services for the over the road trucking industry."
+    },
+    {
+      "tag": "logistics",
+      "stance": "core_product",
+      "sentence": "our business is primarily focused on providing financial services to participants in the for-hire trucking ecosystem in the United States, including Brokers, Shippers, Factors and Carriers."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "We provide insurance brokerage services through Triumph Insurance Group, an agency primarily focused on meeting the insurance needs of our commercial finance clients, particularly our factoring clients in the transportation industry and our equipment lending clients."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "active_investment",
+      "sentence": "This model uses machine learning and artificial intelligence, based on a rule set established by our risk model that we have developed over our history, to screen invoices for compliance with appropriate criteria and risk scoring and approve them for purchase in seconds without human intervention."
+    },
+    {
+      "tag": "other:data-intelligence",
+      "stance": "core_product",
+      "sentence": "Our data intelligence division, which we call Intelligence, was launched during the fourth quarter of 2024 to turn the over-the-road trucking data collected through our services into actionable insights for our customers."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:22:43.909Z",
+  "model": "deepseek-v4-flash"
+}

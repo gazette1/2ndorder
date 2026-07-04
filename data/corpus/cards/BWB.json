@@ -1,0 +1,52 @@
+{
+  "cik": "0001341317",
+  "ticker": "BWB",
+  "name": "Bridgewater Bancshares Inc",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020063",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341317/000110465926020063/bwb-20251231x10k.htm"
+  },
+  "business": "Bridgewater Bancshares, Inc. is a financial holding company with one wholly-owned subsidiary: Bridgewater Bank. The Bank provides commercial lending, primarily commercial real estate and multifamily loans, and deposit products to businesses, entrepreneurs, and successful individuals in the Twin Cities MSA.",
+  "sellsTo": [
+    "Commercial real estate borrowers",
+    "Multifamily borrowers",
+    "Commercial and industrial clients",
+    "Deposit customers in the Twin Cities MSA"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "competition in the financial services industry, including from nonbank competitors such as credit unions, fintech companies and digital asset service providers;"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the occurrence of fraudulent activity, breaches or failures of our or our third-party vendors information security controls or cybersecurity-related incidents, including as a result of sophisticated attacks using artificial intelligence and similar tools or as a result of insider fraud;"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "the occurrence of fraudulent activity, breaches or failures of our or our third-party vendors information security controls or cybersecurity-related incidents, including as a result of sophisticated attacks using artificial intelligence and similar tools or as a result of insider fraud;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Lake Elmo branch opening",
+      "date": "2026-02-01",
+      "sentence": "The Lake Elmo branch opened in February 2026."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total deposits in the Twin Cities MSA were $232.6 billion as of June 30, 2025.",
+      "sentence": "The Company operates in the Minneapolis-St. Paul-Bloomington, MN-WI Metropolitan Statistical Area ( Twin Cities MSA ) which had total deposits of $232.6 billion as of June 30, 2025, and ranks as the 15th largest MSA in the United States in total deposits, and the third largest MSA in the Midwest in total deposits, based on FDIC data."
+    }
+  ],
+  "generatedAt": "2026-07-04T01:39:18.540Z",
+  "model": "deepseek-v4-flash"
+}

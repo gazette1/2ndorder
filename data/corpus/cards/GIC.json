@@ -1,0 +1,51 @@
+{
+  "cik": "0000945114",
+  "ticker": "GIC",
+  "name": "GLOBAL INDUSTRIAL Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012945",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/945114/000162828026012945/gic-20251231.htm"
+  },
+  "business": "Global Industrial Company is a value-added distributor of industrial equipment and maintenance, repair, and operation (MRO) products in North America. It sells through branded e-commerce websites and relationship marketers, offering hundreds of thousands of brand name and private brand products, including its own Global Industrial Exclusive Brands. The company markets to business customers, educational organizations, and government entities.",
+  "sellsTo": [
+    "business customers (for-profit and not-for-profit)",
+    "state, local, and private educational organizations",
+    "government entities (federal, state, local municipalities)",
+    "manufacturing and construction customers",
+    "wholesale, transportation, and logistics customers",
+    "retail customers",
+    "healthcare customers",
+    "hospitality/multi-family customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "We offer hundreds of thousands of brand name and private brand products available through our e-commerce sites and have access to many more additional long tail products from our network of vendor partners."
+    },
+    {
+      "tag": "industrial-automation",
+      "stance": "core_product",
+      "sentence": "Products generally are categorized within the following categories: storage and shelving, safety and security, carts and trucks, HVAC and fans, furniture and decor, material handling, janitorial and facility maintenance, workbenches and shop desks, tools and instruments, plumbing and pumps, office and school supplies, packaging and shipping, lighting and electrical, foodservice and retail, medical and laboratory, motors and power transmission, building supplies, machining, fasteners and hardware, vehicle maintenance, and raw materials."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "a data security breach due to our e-commerce, data storage or other information systems being hacked by those seeking to steal Company, vendor, employee or customer information, or due to employee error, resulting in disruption to our operations, litigation and/or loss of reputation or business;"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of equipment service provider",
+      "date": "2025-04-28",
+      "sentence": "On April 28, 2025, the Company completed the acquisition of an equipment service provider for approximately $4.3 million in cash."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:32:45.304Z",
+  "model": "deepseek-v4-flash"
+}

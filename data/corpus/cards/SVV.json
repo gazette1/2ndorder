@@ -1,0 +1,60 @@
+{
+  "cik": "0001883313",
+  "ticker": "SVV",
+  "name": "Savers Value Village, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001883313-26-000014",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000014/svv-20260103.htm"
+  },
+  "business": "Savers Value Village, Inc. is the largest for-profit thrift operator in the U.S. and Canada. It purchases secondhand textiles, shoes, accessories, housewares, books and other goods from non-profit partners, then processes, prices, and sells them in its stores. Items unsold at retail are sold to wholesale customers who reuse or repurpose them.",
+  "sellsTo": [
+    "retail customers",
+    "wholesale customers (textile graders, small business owners, global markets)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "robotics",
+      "stance": "core_product",
+      "sentence": "The CPC system is an offsite, semi-automated processing facility that mechanizes the flow of clothing, accessories and shoes through an integrated series of conveyor belts, robotics, sensors and other technology."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "The ABP system is an integrated set of technologies that efficiently identify, price and sort books based on their critical attributes (e.g., genre, author, market price)."
+    },
+    {
+      "tag": "warehouse-automation",
+      "stance": "active_investment",
+      "sentence": "We are continuing to implement our offsite processing strategy, which is an important component of our operating model and supports store growth by enabling processing at larger-scale facilities and distribution to multiple stores in a local market."
+    },
+    {
+      "tag": "sensors",
+      "stance": "core_product",
+      "sentence": "The CPC system is an offsite, semi-automated processing facility that mechanizes the flow of clothing, accessories and shoes through an integrated series of conveyor belts, robotics, sensors and other technology."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Compromises of our data security, including cyberattacks or data breaches, could cause us to incur unexpected expenses and may materially harm our reputation and results of operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Opened 26 new stores, ending fiscal 2025 with 367 stores.",
+      "date": "2026-01-03",
+      "sentence": "The Company opened 26 new stores, ending fiscal 2025 with 367 stores."
+    },
+    {
+      "event": "Plan to broaden presence in Southeast U.S. in fiscal 2026, including North Carolina and Tennessee.",
+      "date": null,
+      "sentence": "As part of this expansion strategy, we plan to broaden our presence in the Southeast of the U.S. in fiscal 2026, including North Carolina and Tennessee."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:01:22.222Z",
+  "model": "deepseek-v4-flash"
+}

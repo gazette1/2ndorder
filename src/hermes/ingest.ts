@@ -6,32 +6,41 @@ import { getSpentUSD, llm } from '../lib/llm.js';
 import { load } from '../lib/store.js';
 import { cardPrompt } from './prompts.js';
 import { extractSections } from './sections.js';
+import { loadUniverse, scanUniverse } from './universe.js';
 import type { CompanyCard } from './card.js';
 import type { Candidate } from '../types.js';
 
 // Hermes ingest: read filings once, write a card per company to data/corpus/.
 // Usage:
-//   npm run hermes -- pilot <runSlug> <n>   card the top n in-band names of an existing run
+//   npm run hermes -- universe               scan every SEC ticker, keep those inside
+//                                             the market cap band (network only, free,
+//                                             resumable, run this before a full backfill)
+//   npm run hermes -- backfill [budgetUSD]    card the universe (data/corpus/universe.json
+//                                             if it exists, else names discovered across
+//                                             local runs), stopping once real spend (from
+//                                             the API's own token usage) reaches budgetUSD.
+//                                             Resumable: already-carded tickers are skipped.
+//   npm run hermes -- pilot <runSlug> <n>     card the top n in-band names of an existing run
 //   npm run hermes -- company <cik> <ticker>
-//   npm run hermes -- backfill [budgetUSD]  card every unique in-band name discovered
-//                                            across every local run so far, stopping
-//                                            once real spend (from the API's own
-//                                            token usage) reaches budgetUSD. Resumable:
-//                                            already-carded tickers are skipped, so
-//                                            rerunning after a top-up continues where
-//                                            it left off. The full ~3,000-company SMID
-//                                            universe is a larger, separate sweep
-//                                            (about $22-$48, see docs/DESIGN.md); this
-//                                            command only touches names already
-//                                            surfaced by a scenario run, which costs
-//                                            far less and needs no new network lookups
-//                                            to build the list.
 
 const CORPUS = path.resolve('data/corpus');
 
+// Windows reserves CON, PRN, AUX, NUL, COM1-9, LPT1-9 (case-insensitive, any
+// extension). A ticker that collides (CON) yields a file git cannot even open
+// on Windows and aborts staging, so sanitize the filename. The index key stays
+// the real ticker; only the on-disk name is prefixed.
+const RESERVED = new Set(
+  ['CON', 'PRN', 'AUX', 'NUL']
+    .concat(Array.from({ length: 9 }, (_, i) => 'COM' + (i + 1)))
+    .concat(Array.from({ length: 9 }, (_, i) => 'LPT' + (i + 1))),
+);
+export function cardFilename(ticker: string): string {
+  return (RESERVED.has(ticker.toUpperCase()) ? '_' + ticker : ticker) + '.json';
+}
+
 function saveCard(card: CompanyCard) {
   fs.mkdirSync(path.join(CORPUS, 'cards'), { recursive: true });
-  fs.writeFileSync(path.join(CORPUS, 'cards', `${card.ticker}.json`), JSON.stringify(card, null, 2));
+  fs.writeFileSync(path.join(CORPUS, 'cards', cardFilename(card.ticker)), JSON.stringify(card, null, 2));
   const indexPath = path.join(CORPUS, 'index.json');
   const index: Record<string, { name: string; filedAt: string; tags: string[]; generatedAt: string }> = fs.existsSync(indexPath)
     ? JSON.parse(fs.readFileSync(indexPath, 'utf8'))
@@ -113,25 +122,32 @@ function discoveredUniverse(): { cik: string; ticker: string; name: string }[] {
 }
 
 function alreadyCarded(ticker: string): boolean {
-  return fs.existsSync(path.join(CORPUS, 'cards', `${ticker}.json`));
+  return fs.existsSync(path.join(CORPUS, 'cards', cardFilename(ticker)));
 }
 
 const [cmd, a, b] = process.argv.slice(2);
 
-if (cmd === 'backfill') {
+if (cmd === 'universe') {
+  await scanUniverse();
+} else if (cmd === 'backfill') {
   const budget = Number(a ?? 7);
-  const universe = discoveredUniverse().filter((c) => !alreadyCarded(c.ticker));
+  const full = loadUniverse();
+  const source = full ?? discoveredUniverse();
+  const universe = source.filter((c) => !alreadyCarded(c.ticker));
   console.log(
-    `[hermes] backfill: ${universe.length} names discovered across local runs, not yet carded. ` +
+    `[hermes] backfill: ${universe.length} names to card, from ${full ? 'the full market-cap-banded universe' : 'names discovered across local runs (no universe.json yet; run `npm run hermes -- universe` first for full coverage)'}. ` +
       `Budget $${budget.toFixed(2)} (provider=${CONFIG.llm.provider}).`,
   );
   let carded = 0;
   let skipped = 0;
   for (const c of universe) {
     if (getSpentUSD() >= budget) {
+      const remaining = universe.length - carded - skipped;
+      const avgCost = carded > 0 ? getSpentUSD() / carded : null;
+      const projected = avgCost !== null ? `about $${(avgCost * remaining).toFixed(2)} more needed` : 'cost unknown until at least one card completes';
       console.log(
         `[hermes] backfill: budget reached ($${getSpentUSD().toFixed(3)} spent of $${budget.toFixed(2)}), ` +
-          `${universe.length - carded - skipped} names left uncarded. Rerun this command after topping up to continue.`,
+          `${remaining} names left uncarded (${projected}). Rerun this command after topping up to continue.`,
       );
       break;
     }
@@ -142,6 +158,9 @@ if (cmd === 'backfill') {
     } catch (e) {
       console.warn(`[hermes] ${c.ticker}: ${(e as Error).message}`);
       skipped++;
+    }
+    if ((carded + skipped) % 50 === 0) {
+      console.log(`[hermes] backfill progress: ${carded + skipped}/${universe.length} processed, $${getSpentUSD().toFixed(3)} spent`);
     }
   }
   console.log(
@@ -167,6 +186,6 @@ if (cmd === 'backfill') {
   }
   await cardCompany(a.padStart(10, '0'), b, b);
 } else {
-  console.error('usage: npm run hermes -- backfill [budgetUSD] | pilot <runSlug> <n> | company <cik> <ticker>');
+  console.error('usage: npm run hermes -- universe | backfill [budgetUSD] | pilot <runSlug> <n> | company <cik> <ticker>');
   process.exit(1);
 }

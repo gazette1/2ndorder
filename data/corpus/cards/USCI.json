@@ -1,0 +1,59 @@
+{
+  "cik": "0001479247",
+  "ticker": "USCI",
+  "name": "United States Commodity Index Funds Trust",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021525",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1479247/000110465926021525/usci-20251231x10k.htm"
+  },
+  "business": "The United States Commodity Index Funds Trust is a Delaware statutory trust organized into separate series, including the United States Commodity Index Fund (USCI) and the United States Copper Index Fund (CPER), each issuing shares traded on the NYSE Arca. USCI seeks to track the daily changes of the SummerHaven Dynamic Commodity Index Total Return (SDCI) less expenses, primarily by investing in Benchmark Component Futures Contracts. CPER seeks to track the daily changes of the SummerHaven Copper Index Total Return (SCI) less expenses, primarily by investing in copper futures contracts.",
+  "sellsTo": [
+    "Authorized Participants who create and redeem baskets",
+    "Retail and institutional investors purchasing shares on NYSE Arca"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "The Bank of New York Mellon",
+    "ALPS Distributors, Inc.",
+    "RBC Capital Markets, LLC",
+    "SummerHaven Index Management, LLC"
+  ],
+  "exposures": [
+    {
+      "tag": "other:petroleum",
+      "stance": "core_product",
+      "sentence": "The SDCI currently reflects commodities in five commodity sectors: petroleum (e.g., crude oil, heating oil, etc.), precious metals (e.g., gold, silver platinum), industrial metals (e.g., zinc, nickel, aluminum, copper, etc.), grains (e.g., wheat, corn, soybeans, etc.), and non-primary sector (e.g., sugar, cotton, coffee, cocoa, natural gas, live cattle, lean hogs, feeder cattle)."
+    },
+    {
+      "tag": "other:precious-metals",
+      "stance": "core_product",
+      "sentence": "The SDCI currently reflects commodities in five commodity sectors: petroleum (e.g., crude oil, heating oil, etc.), precious metals (e.g., gold, silver platinum), industrial metals (e.g., zinc, nickel, aluminum, copper, etc.), grains (e.g., wheat, corn, soybeans, etc.), and non-primary sector (e.g., sugar, cotton, coffee, cocoa, natural gas, live cattle, lean hogs, feeder cattle)."
+    },
+    {
+      "tag": "other:industrial-metals",
+      "stance": "core_product",
+      "sentence": "The SDCI currently reflects commodities in five commodity sectors: petroleum (e.g., crude oil, heating oil, etc.), precious metals (e.g., gold, silver platinum), industrial metals (e.g., zinc, nickel, aluminum, copper, etc.), grains (e.g., wheat, corn, soybeans, etc.), and non-primary sector (e.g., sugar, cotton, coffee, cocoa, natural gas, live cattle, lean hogs, feeder cattle)."
+    },
+    {
+      "tag": "other:grains",
+      "stance": "core_product",
+      "sentence": "The SDCI currently reflects commodities in five commodity sectors: petroleum (e.g., crude oil, heating oil, etc.), precious metals (e.g., gold, silver platinum), industrial metals (e.g., zinc, nickel, aluminum, copper, etc.), grains (e.g., wheat, corn, soybeans, etc.), and non-primary sector (e.g., sugar, cotton, coffee, cocoa, natural gas, live cattle, lean hogs, feeder cattle)."
+    },
+    {
+      "tag": "other:non-primary-sector",
+      "stance": "core_product",
+      "sentence": "The SDCI currently reflects commodities in five commodity sectors: petroleum (e.g., crude oil, heating oil, etc.), precious metals (e.g., gold, silver platinum), industrial metals (e.g., zinc, nickel, aluminum, copper, etc.), grains (e.g., wheat, corn, soybeans, etc.), and non-primary sector (e.g., sugar, cotton, coffee, cocoa, natural gas, live cattle, lean hogs, feeder cattle)."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "core_product",
+      "sentence": "CPER seeks to achieve its investment objective by investing primarily in Benchmark Component Copper Futures Contracts."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:44:35.769Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "0000832988",
+  "ticker": "SIG",
+  "name": "SIGNET JEWELERS LTD",
+  "source": {
+    "form": "10-K",
+    "accession": "0000832988-26-000055",
+    "filedAt": "2026-03-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm"
+  },
+  "business": "Signet Jewelers Ltd is a specialty jewelry retailer selling fine jewelry, watches, and services (extended service plans, repairs, custom design, piercing) through retail stores and online. It operates nine brands in North America (Kay, Zales, Jared, etc.) and two in the UK (H.Samuel, Ernest Jones).",
+  "sellsTo": [
+    "Consumers in the United States",
+    "Consumers in Canada",
+    "Consumers in the United Kingdom and Republic of Ireland",
+    "Mid-market and accessible luxury segments"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use, and expect to continue expanding our use of, AI, ML, and Gen AI technologies across our business, including for inventory optimization, supply chain and fulfillment, analytics, marketing and personalization, digital experiences, administrative functions, and customer facing applications such as product discovery, customer service, and other interactive tools."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Security breaches and other disruptions to Signet s information technology infrastructure and databases and failure of Signet s customer-facing technology to function as intended or in accordance with applicable law could interfere with Signet s operations and may in the future fail or be compromised, and could compromise Signet s and its customers and suppliers information or cause other harm, exposing Signet to possible business interruptions and liability, which would have a material adverse effect on Signet s business and reputation."
+    },
+    {
+      "tag": "other:lab-grown-diamonds",
+      "stance": "core_product",
+      "sentence": "In Fiscal 2026, approximately 27% of Signet s merchandise sales were products containing lab-grown diamonds."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "core_product",
+      "sentence": "The Digital brands are comprised of the Company s online pure-play brands James Allen and Blue Nile."
+    },
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "Signet s financial service offerings are an integral part of its business and a major driver of customer retention."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Sunset jamesallen.com website and transition James Allen to proprietary collection within Blue Nile",
+      "date": "2026-07-31",
+      "sentence": "During the first half of the year we will be sunsetting the jamesallen.com website."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Total US jewelry and watch market was approximately $63 billion in calendar year 2025",
+      "sentence": "Based on industry and transaction data from MasterCard Spending Pulse and market research company Circana, we estimate that the total US jewelry and watch market was approximately $63 billion in calendar year 2025, flat to the prior year."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:43:58.622Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,35 @@
+{
+  "cik": "0000880417",
+  "ticker": "CSBB",
+  "name": "CSB Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-108381",
+    "filedAt": "2026-03-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/880417/000119312526108381/csbb-20251231.htm"
+  },
+  "business": "CSB Bancorp, Inc. is a financial holding company providing retail and commercial banking services, including checking and savings accounts, loans, trust, and brokerage services to corporate, institutional, and individual customers in northeast Ohio.",
+  "sellsTo": [
+    "corporate customers",
+    "institutional customers",
+    "individual customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "The financial services industry is highly competitive. ... technology-based providers of financial services (sometimes referred to as fintech companies)."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "core_product",
+      "sentence": "In the ordinary course of business, CSB relies on electronic communications and information systems to conduct its operations and to store sensitive data. CSB employs an in-depth, layered, defensive approach that leverages people, processes and technology to manage and maintain cybersecurity controls."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:51:54.118Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,55 @@
+{
+  "cik": "0001447028",
+  "ticker": "ABUS",
+  "name": "Arbutus Biopharma Corp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001447028-26-000017",
+    "filedAt": "2026-03-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1447028/000144702826000017/abus-20251231.htm"
+  },
+  "business": "Arbutus Biopharma Corporation is a clinical-stage biopharmaceutical company focused on infectious disease. We are currently developing imdusiran (AB-729), our proprietary, GalNAc-conjugated, subcutaneously-delivered ribonucleic acid interference (RNAi) therapeutic, and AB-101, our proprietary oral PD-L1 inhibitor, for the treatment of chronic hepatitis B (cHBV). We continue to protect and defend our intellectual property, which is the subject of our ongoing lawsuit against Pfizer Inc. and BioNTech SE for their use of our patented lipid nanoparticle (LNP) technology in their COVID-19 mRNA-LNP vaccines.",
+  "sellsTo": [
+    "patients with chronic hepatitis B infection",
+    "physicians and healthcare providers",
+    "third-party payors"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Arbutus Biopharma Corporation is a clinical-stage biopharmaceutical company focused on infectious disease. We are currently developing imdusiran (AB-729), our proprietary, GalNAc-conjugated, subcutaneously-delivered ribonucleic acid interference (RNAi) therapeutic, and AB-101, our proprietary oral PD-L1 inhibitor, for the treatment of chronic hepatitis B (cHBV)."
+    },
+    {
+      "tag": "other:lnp-technology",
+      "stance": "core_product",
+      "sentence": "We continue to protect and defend our intellectual property, which is the subject of our ongoing lawsuit against Pfizer Inc. and BioNTech SE (collectively, Pfizer/BioNTech) for their use of our patented lipid nanoparticle (LNP) technology in their COVID-19 messenger ribonucleic acid interference (mRNA)-LNP vaccines."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Moderna Noncontingent Settlement Payment due",
+      "date": "2026-07-08",
+      "sentence": "Under the terms of the Moderna Settlement Agreement, Moderna will make an aggregate $950.0 million noncontingent lump sum payment (the Noncontingent Settlement Payment) to us and Genevant on or before July 8, 2026."
+    },
+    {
+      "event": "Return of capital to shareholders evaluation",
+      "date": "2026-09-30",
+      "sentence": "We are currently evaluating a return of capital to our shareholders in the third quarter of calendar year 2026, following the receipt of our portion of the Noncontingent Settlement Payment."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "Over 250 million people worldwide suffer from chronic hepatitis B infection.",
+      "sentence": "However, the World Health Organization estimates that over 250 million people worldwide suffer from cHBV infection, while other estimates indicate that approximately 2 million people in the United States suffer from cHBV infection."
+    },
+    {
+      "claim": "Approximately 2 million people in the United States suffer from chronic hepatitis B infection.",
+      "sentence": "However, the World Health Organization estimates that over 250 million people worldwide suffer from cHBV infection, while other estimates indicate that approximately 2 million people in the United States suffer from cHBV infection."
+    }
+  ],
+  "generatedAt": "2026-07-04T00:26:08.263Z",
+  "model": "deepseek-v4-flash"
+}

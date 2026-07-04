@@ -1,0 +1,100 @@
+{
+  "cik": "0001438472",
+  "ticker": "MIAX",
+  "name": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001438472-26-000023",
+    "filedAt": "2026-03-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1438472/000143847226000023/miax-20251231.htm"
+  },
+  "business": "Miami International Holdings, Inc. operates regulated financial marketplaces across multiple asset classes including options, equities, futures, and international listings. The company generates revenue primarily from transaction and clearing fees, access fees, and market data fees, serving broker-dealers, order flow providers, and institutional clients.",
+  "sellsTo": [
+    "SEC-registered broker-dealers",
+    "exchange member firms",
+    "order flow providers",
+    "market makers",
+    "clearing members",
+    "introducing brokers",
+    "retail and institutional clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Bloomberg Index Services Limited"
+  ],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "We are a technology-driven leader in building and operating regulated financial marketplaces across multiple asset classes and geographies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "The technology upon which we rely, including technology provided by third parties, may be vulnerable to security risks, cybersecurity risks, operational disruptions, and other risks and events that could harm our business."
+    },
+    {
+      "tag": "other:ai",
+      "stance": "active_investment",
+      "sentence": "We have several efforts underway to research and evaluate in 2026 the potential use of certain new technologies, such as artificial intelligence (AI) to further our goals of efficiency and improved quality."
+    },
+    {
+      "tag": "other:tokenization",
+      "stance": "risk_mention",
+      "sentence": "The adoption of tokenization including settlement of tokenized equities securities or other emerging settlement technologies that enable self-clearing may reduce demand for traditional clearing services."
+    },
+    {
+      "tag": "other:cryptocurrency",
+      "stance": "active_investment",
+      "sentence": "We believe that this type of environment, combined with our existing BSX business and new product pipeline, will allow us to quickly introduce and test out new product opportunities in Bermuda, which may include innovative cryptocurrency and digital asset products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Launch of Bloomberg Products on MIAX Futures (Tini B100Q Futures, Tini B500 Futures, B500 Standard Futures)",
+      "date": "2026-06-30",
+      "sentence": "The first Bloomberg Product we plan to exclusively list in the second quarter of 2026 on MIAX Futures will be small notional futures contracts on the B100Q Index (the Tini B100Q Futures) and the B500 Index (the Tini B500 Futures) and futures on the B500 Index (the B500 Standard Futures)."
+    },
+    {
+      "event": "Launch of Rothera Exchange and Clearing products",
+      "date": "2026-06-30",
+      "sentence": "Rothera has announced that it expects to launch its products in the second quarter of 2026."
+    },
+    {
+      "event": "Pyth token unlock (125 million tokens)",
+      "date": "2026-05-20",
+      "sentence": "The remaining 250 million locked tokens will be distributed to BSX by the Pyth Network at the time of unlocking and are expected to be unlocked at a rate of 125 million tokens each on May 20, 2026 and May 20, 2027."
+    },
+    {
+      "event": "Pyth token unlock (125 million tokens)",
+      "date": "2027-05-20",
+      "sentence": "The remaining 250 million locked tokens will be distributed to BSX by the Pyth Network at the time of unlocking and are expected to be unlocked at a rate of 125 million tokens each on May 20, 2026 and May 20, 2027."
+    },
+    {
+      "event": "Sale of 90% of MIAXdx (completed)",
+      "date": "2026-01-20",
+      "sentence": "Effective as of January 20, 2026, we sold 90% of the issued and outstanding equity of MIAXdx to a joint venture established by Robinhood Markets, Inc. in partnership with Susquehanna International Group."
+    },
+    {
+      "event": "Listing of Monday and Wednesday weekly options expirations on qualifying securities",
+      "date": "2026-01-26",
+      "sentence": "On January 26, 2026, the MIAX Options Exchanges began listing options with Monday and Wednesday weekly expirations on the nine underlying securities that currently meet the criteria for Qualifying Securities."
+    }
+  ],
+  "tamClaims": [
+    {
+      "claim": "U.S. equities total addressable market breakdown: 32% Price-Time, 11% pre/after hours, 6% auctions, 51% trade reporting facilities.",
+      "sentence": "The total addressable market of U.S. equities for 2025 is broken down into the following: approximately 32% in the Price-Time allocation model, 11% in the pre-market and after hours market, 6% in the opening and closing auction markets and 51% in the trading reporting facilities."
+    },
+    {
+      "claim": "BSX holds 93.2% of global issuance for catastrophic peril reinsurance ILS, with outstanding value of $57.2 billion.",
+      "sentence": "BSX listed ILS vehicles providing catastrophic peril reinsurance coverage having an outstanding value of $57.2 billion representing approximately 93.2% of the global issuance."
+    },
+    {
+      "claim": "TISE had securities valued at nearly 800 billion from over 2,500 issuers across 35 countries.",
+      "sentence": "As of December 31, 2025, there were more than 2,500 issuers from over 35 countries listing securities valued at nearly 800 billion on TISE."
+    }
+  ],
+  "generatedAt": "2026-07-03T20:15:07.072Z",
+  "model": "deepseek-v4-flash"
+}

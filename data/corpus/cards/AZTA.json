@@ -1,0 +1,44 @@
+{
+  "cik": "0000933974",
+  "ticker": "AZTA",
+  "name": "Azenta, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-25-036931",
+    "filedAt": "2025-12-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/933974/000143774925036931/azta20250930_10k.htm"
+  },
+  "business": "Azenta is a leading global provider of biological and chemical compound sample exploration and management solutions for the life sciences industry. The company offers sample management and automated storage systems, genomic services, and related consumables to help customers bring therapies to market. It operates through two segments: Sample Management Solutions and Multiomics.",
+  "sellsTo": [
+    "pharmaceutical companies",
+    "biotechnology companies",
+    "research hospitals",
+    "start-ups",
+    "academic institutions",
+    "government institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our genomic services business advances research and development activities by providing gene sequencing, synthesis, and related services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Ineffective development or deployment of AI technologies could lead to errors, biases, or disruptions in our operations."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of phase two of Suzhou facility",
+      "date": "2026-03-31",
+      "sentence": "As of September 30, 2025, we have incurred $10.1 million in costs for the construction of phase two which we expect to complete in the second quarter of fiscal year 2026 with a total cost of $15.7 million."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:41:46.535Z",
+  "model": "deepseek-v4-flash"
+}

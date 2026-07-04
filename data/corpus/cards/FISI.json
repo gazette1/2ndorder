@@ -1,0 +1,47 @@
+{
+  "cik": "0000862831",
+  "ticker": "FISI",
+  "name": "FINANCIAL INSTITUTIONS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001193125-26-098467",
+    "filedAt": "2026-03-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/862831/000119312526098467/fisi-20251231.htm"
+  },
+  "business": "Financial Institutions, Inc. is a financial holding company whose primary subsidiary, Five Star Bank, provides a full range of banking services to consumer, commercial and municipal customers. The company also offers investment management and wealth management services through Courier Capital.",
+  "sellsTo": [
+    "consumers",
+    "commercial businesses",
+    "municipalities",
+    "individuals",
+    "institutions"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:cannabis",
+      "stance": "risk_mention",
+      "sentence": "We offer financial services to a limited number of New York State-licensed cannabis businesses under New York State’s regulatory framework, with supporting policy and procedures, enhanced due diligence, monitoring, and required regulatory reporting."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "We face additional competition for deposits from non-traditional FinTech firms and non-depository competitors such as the mutual fund industry, securities and brokerage firms and insurance companies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We, or our service providers, may experience a cyber-attack, system failure, natural disaster, or other uncontrollable event that may disrupt business operations;"
+    },
+    {
+      "tag": "other:cloud-computing",
+      "stance": "risk_mention",
+      "sentence": "Emerging technology, including cloud computing and artificial intelligence ( AI ), introduces new risks while possibly being essential to support business strategy;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T00:52:33.081Z",
+  "model": "deepseek-v4-flash"
+}

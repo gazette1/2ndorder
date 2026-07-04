@@ -1,0 +1,66 @@
+{
+  "cik": "0001046050",
+  "ticker": "TSBK",
+  "name": "TIMBERLAND BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0000939057-25-000319",
+    "filedAt": "2025-12-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1046050/000093905725000319/tsbk-20250930.htm"
+  },
+  "business": "Timberland Bancorp, Inc. is a bank holding company that operates through its subsidiary, Timberland Bank. The Bank provides a full range of lending and deposit services to consumers and businesses across six counties in Washington. Lending activities are focused on real estate mortgage loans, including residential and commercial construction loans, one- to four-family residential loans, multi-family loans, commercial real estate loans, and land loans.",
+  "sellsTo": [
+    "consumers",
+    "small businesses",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "Lending activities have been focused primarily on the origination of loans secured by real estate, including residential and commercial / multi-family construction loans, one- to four-family residential loans, multi-family loans, commercial real estate loans and land loans."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Lending activities have been focused primarily on the origination of loans secured by real estate, including residential and commercial / multi-family construction loans, one- to four-family residential loans, multi-family loans, commercial real estate loans and land loans."
+    },
+    {
+      "tag": "other:commercial-lending",
+      "stance": "core_product",
+      "sentence": "The Bank also originates commercial business loans and other consumer loans."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "the ability to adapt to rapid technological changes, including advancements in artificial intelligence, digital banking, and cybersecurity"
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "the ability to adapt to rapid technological changes, including advancements in artificial intelligence, digital banking, and cybersecurity"
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "the ability to adapt to rapid technological changes, including advancements in artificial intelligence, digital banking, and cybersecurity"
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Safeguarding the confidentiality, integrity and availability of customer and sensitive financial data, records and transactions is essential to Timberland and Timberland Bank."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Open new branch in University Place",
+      "date": null,
+      "sentence": "the Tacoma branch, the Downtown Lacey branch, and a new branch in University Place that is expected to open during the first quarter of fiscal 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:14:36.384Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,52 @@
+{
+  "cik": "0001898795",
+  "ticker": "LVWR",
+  "name": "LiveWire Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001898795-26-000028",
+    "filedAt": "2026-02-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1898795/000189879526000028/lvwr-20251231.htm"
+  },
+  "business": "LiveWire Group, Inc. sells all-electric motorcycles under the LiveWire brand and electric balance bikes and pedal-assist electric bikes under the STACYC brand. Products are sold to independent dealers, through a company-owned dealership, online, and to independent distributors. The company also sells parts, accessories, and apparel for both segments.",
+  "sellsTo": [
+    "independent dealers",
+    "company-owned dealership",
+    "online sales",
+    "independent distributors",
+    "direct to customers online",
+    "international partners (historically, now wholesale)"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Harley-Davidson, Inc. (H-D)",
+    "KYMCO Group"
+  ],
+  "exposures": [
+    {
+      "tag": "evs-mobility",
+      "stance": "core_product",
+      "sentence": "LiveWire is an industry-leading all-electric motorcycle brand with a focus on pioneering the growing two-wheel electric motorcycle space."
+    },
+    {
+      "tag": "battery-storage",
+      "stance": "risk_mention",
+      "sentence": "The principal raw materials in Electric Motorcycles segment s products include battery cells, semi-conductor chips, steel and aluminum castings, forgings, steel sheet and bar."
+    },
+    {
+      "tag": "semiconductors",
+      "stance": "risk_mention",
+      "sentence": "The principal raw materials in Electric Motorcycles segment s products include battery cells, semi-conductor chips, steel and aluminum castings, forgings, steel sheet and bar."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Planned production of two new 125 cc-equivalent mini-motos, the S4 Honcho products",
+      "date": "2026-06-01",
+      "sentence": "The Company is continuing to focus on strategic expansion of its product offerings, including the planned production in the spring of 2026 of two new 125 cc-equivalent mini-motos, the S4 Honcho TM products, which are designed to expand access and affordability for riders globally."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:27:52.081Z",
+  "model": "deepseek-v4-flash"
+}

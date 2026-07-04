@@ -1,0 +1,51 @@
+{
+  "cik": "0001710482",
+  "ticker": "JMSB",
+  "name": "John Marshall Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-027378",
+    "filedAt": "2026-03-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1710482/000110465926027378/jmsb-20251231x10k.htm"
+  },
+  "business": "John Marshall Bancorp, Inc. is a bank holding company headquartered in Reston, Virginia, primarily serving the Washington, D.C. metropolitan area. The material business operations are performed through its only subsidiary, John Marshall Bank, a Virginia chartered commercial bank. It provides a broad range of banking products and financial services to small to medium-sized businesses, their owners and employees, professional corporations, non-profits, and individuals.",
+  "sellsTo": [
+    "small to medium-sized businesses",
+    "professional corporations",
+    "non-profits",
+    "individuals"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank originates, funds and services non-conforming 1-4 family residential mortgage loans for its own portfolio."
+    },
+    {
+      "tag": "insurance",
+      "stance": "core_product",
+      "sentence": "The Bank has an ownership interest in one of the nation’s largest privately-owned insurance agencies."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Some of our non-banking competitors, such as fintech companies, have fewer regulatory constraints and may have lower cost structures."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "technological risks and developments, and cyber threats, attacks, or events"
+    },
+    {
+      "tag": "data-centers",
+      "stance": "risk_mention",
+      "sentence": "Loudoun County is known as data center alley as it has the world’s highest concentration of data centers with more than 30 million square feet of data center space."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:35:38.190Z",
+  "model": "deepseek-v4-flash"
+}

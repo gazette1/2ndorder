@@ -1,0 +1,67 @@
+{
+  "cik": "0000835324",
+  "ticker": "SYBT",
+  "name": "Stock Yards Bancorp, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437749-26-005830",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/835324/000143774926005830/sybt20251231_10k.htm"
+  },
+  "business": "Stock Yards Bancorp, Inc. is a financial holding company whose primary business is banking through its wholly owned subsidiary, Stock Yards Bank & Trust Company. It provides commercial banking services including loans, deposits, treasury management, and mortgage banking, as well as wealth management and trust services to individual consumers and businesses. Its markets include Louisville, central, eastern and northern Kentucky, and the Indianapolis, Indiana and Cincinnati, Ohio metropolitan areas.",
+  "sellsTo": [
+    "individual consumers",
+    "businesses",
+    "commercial real estate clients",
+    "wealth management clients"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "The development and use of generative artificial intelligence (AI) technology presents risks and challenges that may adversely impact our business, financial condition and results of operations."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Competition from online banking institutions, particularly for deposits, is also experienced by the Bank."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We employ many preventive and detective controls to protect our assets, and provide mandatory recurring information security training for all employees."
+    },
+    {
+      "tag": "other:mortgage-banking",
+      "stance": "core_product",
+      "sentence": "Our mortgage banking line of business is highly dependent upon programs administered by the FNMA and FHLMC."
+    },
+    {
+      "tag": "other:wealth-management",
+      "stance": "core_product",
+      "sentence": "WM&T provides investment management, financial & retirement planning and trust & estate services, as well as retirement plan management for businesses and corporations in all markets in which Bancorp operates."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "New branch openings in Bardstown, Kentucky and Liberty Township, Ohio occurred in 2025; additional new branch locations planned for 2026.",
+      "date": "2026-12-31",
+      "sentence": "Additional new branch locations are planned for 2026, serving as evidence of our commitment to organic growth."
+    },
+    {
+      "event": "Appointment of a new market president in Bowling Green, Kentucky representing organic expansion into south-central Kentucky.",
+      "date": "2025-12-01",
+      "sentence": "On December 1, 2025, we announced the appointment of a new market president in Bowling Green, Kentucky, representing organic expansion into the south-central part of the state, consistent with our long-term growth strategies."
+    },
+    {
+      "event": "Expected completion of the merger of Field & Main Bancorp, Inc.",
+      "date": "2026-06-30",
+      "sentence": "Bancorp expects to complete the merger of Field & Main Bancorp, Inc. in the second quarter of 2026, subject to satisfaction or waiver of remaining closing conditions."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:45:02.045Z",
+  "model": "deepseek-v4-flash"
+}

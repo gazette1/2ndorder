@@ -1,0 +1,48 @@
+{
+  "cik": "0001629019",
+  "ticker": "MBIN",
+  "name": "Merchants Bancorp",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-021549",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1629019/000110465926021549/mbin-20251231x10k.htm"
+  },
+  "business": "Merchants Bancorp is a diversified bank holding company that provides multi-family housing and healthcare facility financing, mortgage warehouse financing, commercial and retail banking, and agricultural lending. It operates through three segments: Multi-family Mortgage Banking, Mortgage Warehousing, and Banking. The company serves a national customer base including government-sponsored enterprises, independent mortgage bankers, and institutional investors.",
+  "sellsTo": [
+    "multi-family housing and healthcare borrowers",
+    "independent mortgage bankers",
+    "government-sponsored enterprises",
+    "institutional investors",
+    "agricultural borrowers",
+    "small business owners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "MCC and MCS, subsidiaries of Merchants Bank, are primarily engaged in mortgage banking, specializing in originating and servicing loans for affordable multi-family rental housing and healthcare facility financing."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "Merchants Bank s Lynn and Richmond, Indiana offices primarily offer agricultural loans within its designated CRA assessment area of Randolph and Wayne counties in Eastern Indiana and nearby Darke County, Ohio."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "To combat the ever-present cyber risks, the Company maintains a comprehensive ISP, which includes annual risk assessments, an Incident Response Plan, and a layered control environment meant to protect, detect, respond, and limit unauthorized or harmful actions across our IT environment."
+    },
+    {
+      "tag": "other:healthcare-real-estate",
+      "stance": "core_product",
+      "sentence": "We also offer customized loan products for need-based skilled nursing facilities, including independent living, assisted living, and memory care."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T21:47:45.146Z",
+  "model": "deepseek-v4-flash"
+}

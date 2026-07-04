@@ -1,0 +1,47 @@
+{
+  "cik": "0001805833",
+  "ticker": "SST",
+  "name": "System1, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001805833-26-000014",
+    "filedAt": "2026-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1805833/000180583326000014/sst-20251231.htm"
+  },
+  "business": "System1 operates a customer acquisition and marketing platform powered by artificial intelligence and machine learning, owning approximately 40 websites including search engines and digital media publishing sites. The company sells advertising services to advertisers and advertising networks, and also monetizes traffic for network partners. Revenue is derived from displaying paid listings and sharing revenue with partners.",
+  "sellsTo": [
+    "advertisers",
+    "advertising networks",
+    "network partners",
+    "end-users"
+  ],
+  "namedCustomers": [
+    "Google",
+    "Microsoft"
+  ],
+  "namedSuppliers": [
+    "Google",
+    "Microsoft"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "We operate several flagship brands across multiple consumer verticals, including shopping, travel and search, and a best-in-class customer acquisition and marketing platform powered by Artificial Intelligence (\"AI\") and machine learning."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We collect, process, store, share, disclose and use consumer information and other data, and our actual or perceived failure to protect such information and data or respect users privacy could damage our reputation and brand and harm our business and operating results."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "Global digital advertising spend estimated at $650 billion in 2025, projected to grow to $1 trillion in 2030.",
+      "sentence": "Spending on global digital advertising has grown rapidly, reaching an estimated $650 billion in 2025, and is projected to grow to an estimated $1 trillion in 2030."
+    }
+  ],
+  "generatedAt": "2026-07-04T05:31:03.464Z",
+  "model": "deepseek-v4-flash"
+}

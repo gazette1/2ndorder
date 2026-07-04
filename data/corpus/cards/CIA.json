@@ -1,0 +1,44 @@
+{
+  "cik": "0000024090",
+  "ticker": "CIA",
+  "name": "CITIZENS, INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0000024090-26-000011",
+    "filedAt": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/24090/000002409026000011/cia-20251231.htm"
+  },
+  "business": "Citizens, Inc. is an insurance holding company that sells life insurance, endowment, and other financial products to non-U.S. residents and life insurance products in the United States.",
+  "sellsTo": [
+    "non-U.S. residents in Latin America and the Pacific Rim",
+    "U.S. residents, primarily lower-income individuals for final expense products"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:life-insurance",
+      "stance": "core_product",
+      "sentence": "We sell U.S. dollar-denominated life insurance, endowment and other financial products to non-U.S. residents, located principally in Latin America and the Pacific Rim."
+    },
+    {
+      "tag": "other:life-insurance",
+      "stance": "core_product",
+      "sentence": "We sell life insurance and other financial products in the United States."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "These technological developments also require continuous investment in digital platforms, system modernization, and data capabilities. Failure to invest adequately could impair our ability to compete effectively, support our distribution partners, meet policyholder expectations, or comply with evolving cybersecurity and data governance standards."
+    },
+    {
+      "tag": "renewables",
+      "stance": "active_investment",
+      "sentence": "In December 2024, BlackRock, Inc. announced a substantial write-down of its Global Renewable Power Fund III, a $4.8 billion flagship renewable fund, due to the collapse of two key investments: Northvolt and SolarZero."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T03:44:14.352Z",
+  "model": "deepseek-v4-flash"
+}

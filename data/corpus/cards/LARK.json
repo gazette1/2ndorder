@@ -1,0 +1,50 @@
+{
+  "cik": "0001141688",
+  "ticker": "LARK",
+  "name": "LANDMARK BANCORP INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001493152-26-016495",
+    "filedAt": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141688/000149315226016495/form10-k.htm"
+  },
+  "business": "Landmark Bancorp Inc's business consists of the ownership of Landmark National Bank and Landmark Risk Management, Inc. The Bank provides banking services to individuals and businesses primarily in Kansas and the Kansas City metropolitan area. The Captive provides property and casualty insurance coverage to the Company and the Bank.",
+  "sellsTo": [
+    "Retail customers",
+    "Commercial customers",
+    "Public fund customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "housing",
+      "stance": "core_product",
+      "sentence": "The Bank originates one-to-four family residential real estate loans with both fixed and variable rates."
+    },
+    {
+      "tag": "agriculture",
+      "stance": "core_product",
+      "sentence": "The Bank also provides short-term credit for operating loans and intermediate-term loans for farm product, livestock and machinery purchases and other agricultural improvements."
+    },
+    {
+      "tag": "other:commercial-real-estate",
+      "stance": "core_product",
+      "sentence": "The Bank continues to focus on generating additional CRE, which are part of an overall banking relationship with the customer."
+    },
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Its most direct competition for deposits and loans comes from large national and regional banks, local community banks, savings and loan associations, securities and brokerage companies, mortgage companies, insurance companies, finance companies, money market mutual funds, credit unions, financial technology (fintech) companies and other non-bank financial service providers including digital asset service providers, located in its principal market areas."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Risks and exposures related to cybersecurity require financial institutions to design multiple layers of security controls to establish lines of defense and to ensure that their risk management processes also address the risk posed by compromised customer credentials, including security measures to reliably authenticate customers accessing internet-based services of the financial institution."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T04:50:39.722Z",
+  "model": "deepseek-v4-flash"
+}

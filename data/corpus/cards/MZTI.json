@@ -1,0 +1,53 @@
+{
+  "cik": "0000057515",
+  "ticker": "MZTI",
+  "name": "MARZETTI CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0000057515-25-000020",
+    "filedAt": "2025-08-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/57515/000005751525000020/mzti-20250630.htm"
+  },
+  "business": "The Marzetti Company manufactures and markets specialty food products for retail and foodservice channels. Its products include frozen breads, refrigerated dressings and dips, shelf-stable dressings and croutons, and licensed brands such as Chick-fil-A sauces. The company operates two reportable segments: Retail and Foodservice.",
+  "sellsTo": [
+    "Retail (supermarkets, mass merchants, warehouse clubs, specialty food retailers)",
+    "Foodservice (distributors, national chain restaurants)"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "Chick-fil-A"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "The Marzetti Company, an Ohio corporation, is a manufacturer and marketer of specialty food products for the retail and foodservice channels."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber attacks, data breaches or other breaches of our information security systems have had, and in the future could have, an adverse effect on our business strategy, results of operations, financial condition and cash flows."
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party temporary staffing agencies to support certain of our production operations."
+    },
+    {
+      "tag": "logistics",
+      "stance": "risk_mention",
+      "sentence": "We rely on third-party carriers to transport our products."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Closure of Milpitas sauce and dressing production facility",
+      "date": "2025-09-30",
+      "sentence": "Production at the facility is expected to conclude in the quarter ending September 30, 2025."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:53:16.215Z",
+  "model": "deepseek-v4-flash"
+}

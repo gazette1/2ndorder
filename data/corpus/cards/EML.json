@@ -1,0 +1,52 @@
+{
+  "cik": "0000031107",
+  "ticker": "EML",
+  "name": "EASTERN CO",
+  "source": {
+    "form": "10-K",
+    "accession": "0001654954-26-001850",
+    "filedAt": "2026-03-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/31107/000165495426001850/eml_10k.htm"
+  },
+  "business": "The Eastern Company designs, manufactures, and sells unique engineered solutions for industrial markets, primarily serving the commercial transportation and logistics markets. Their product line includes custom and standard vehicular and industrial hardware such as returnable packaging solutions, access and security hardware, mirrors, and mirror-cameras. They also provide proprietary vision technology for OEMs and aftermarket applications.",
+  "sellsTo": [
+    "commercial transportation",
+    "logistics",
+    "heavy-duty truck market",
+    "aviation",
+    "durable goods manufacturing"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "technological developments and enhancements of products and services offerings in our industry may require an expanded use of artificial intelligence ( AI ) and machine learning; if we are unable to keep pace with the rate of these and other developments, our ability to effectively compete could be adversely affected."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Data breaches and other serious cybersecurity incidents have increased globally, along with the methods, techniques, and complexity of attacks, including use of viruses, ransomware and other malicious software, phishing, and other efforts to discover and exploit any design flaws, bugs, or other security vulnerabilities."
+    },
+    {
+      "tag": "copper-aluminum",
+      "stance": "risk_mention",
+      "sentence": "in 2025 the United States increased its Section 232 steel and aluminum measures, eliminating country exemptions and raising aluminum tariffs to 25% effective March 2025, and since June 2025 has imposed 50% tariffs on steel, aluminum and many covered derivative products from nearly all trading partners."
+    },
+    {
+      "tag": "other:nickel",
+      "stance": "risk_mention",
+      "sentence": "the United States, the European Union, and other jurisdictions have imposed sanctions that, among other things, prohibit the importation of a wide array of commodities and products from Russia, which is a major global supplier of nickel."
+    },
+    {
+      "tag": "machine-vision",
+      "stance": "core_product",
+      "sentence": "Velvac is a designer and manufacturer of proprietary vision technology for OEMs and aftermarket applications, and a leading provider of aftermarket components to the heavy-duty truck market in North America."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-04T05:03:41.002Z",
+  "model": "deepseek-v4-flash"
+}

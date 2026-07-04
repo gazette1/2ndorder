@@ -1,0 +1,50 @@
+{
+  "cik": "0001024305",
+  "ticker": "COTY",
+  "name": "COTY INC.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001024305-25-000030",
+    "filedAt": "2025-08-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1024305/000102430525000030/coty-20250630.htm"
+  },
+  "business": "Coty Inc. is a beauty company that sells fragrances, color cosmetics, and skin and body care products to consumers through a multi-channel distribution network including prestige retailers, mass retailers, e-commerce, and travel retail.",
+  "sellsTo": [
+    "prestige retailers (perfumeries, department stores, duty-free shops)",
+    "mass retailers (hypermarkets, supermarkets, drug stores, pharmacies)",
+    "e-commerce and direct-to-consumer channels",
+    "travel retail"
+  ],
+  "namedCustomers": [
+    "Walmart",
+    "A.S. Watson"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Coty Inc. is one of the world's largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, and skin and body care."
+    },
+    {
+      "tag": "ecommerce",
+      "stance": "active_investment",
+      "sentence": "We continue to focus on expanding our e-commerce and direct-to-consumer channels."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are increasingly dependent on information technology, and if we are unable to protect against service interruptions, corruption of our data and privacy protections, cyber-based attacks or network security breaches, our operations could be disrupted."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Fixed Cost Reduction Plan announced",
+      "date": "2025-04-24",
+      "sentence": "During the third quarter of fiscal 2025, we formulated a new plan, which was announced on April 24, 2025, to strengthen our operating model and simplify our fixed cost structure (the Fixed Cost Reduction Plan)."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:12:33.269Z",
+  "model": "deepseek-v4-flash"
+}

@@ -1,0 +1,51 @@
+{
+  "cik": "0000730708",
+  "ticker": "SBCF",
+  "name": "SEACOAST BANKING CORP OF FLORIDA",
+  "source": {
+    "form": "10-K",
+    "accession": "0001628280-26-012787",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/730708/000162828026012787/sbcf-20251231.htm"
+  },
+  "business": "Seacoast Banking Corporation of Florida is a financial holding company providing integrated financial services including commercial and consumer banking, wealth management, mortgage and insurance services to customers through advanced mobile and online banking solutions and a network of 104 full-service branches, primarily in Florida.",
+  "sellsTo": [
+    "Consumers and businesses in Florida",
+    "Wealth management clients",
+    "Mortgage customers"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "risk_mention",
+      "sentence": "Non-bank financial technology providers invest substantial resources in developing and designing new technology, particularly digital and mobile technology, and are beginning to offer more traditional banking products either directly or through bank partnerships."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Cyber attacks or security incidents may not be immediately detected, and delays in identifying or responding to an attack can significantly increase the magnitude of resulting harm, including extended system outages, greater data loss or compromise, and higher remediation costs."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "Criminals are turning to new sources, including AI, to steal personally identifiable information in order to impersonate our clients to commit fraud."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Completion of VBI system conversion and integration",
+      "date": "2026-07-01",
+      "sentence": "Full integration and system conversion activities are expected to be completed early in the third quarter of 2026."
+    },
+    {
+      "event": "Repositioning of AFS securities portfolio",
+      "date": "2026-01-01",
+      "sentence": "In January 2026, the Company repositioned a portion of its AFS securities portfolio."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:42:44.705Z",
+  "model": "deepseek-v4-flash"
+}

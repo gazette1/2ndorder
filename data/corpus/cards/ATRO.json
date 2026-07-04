@@ -1,0 +1,65 @@
+{
+  "cik": "0000008063",
+  "ticker": "ATRO",
+  "name": "ASTRONICS CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0000008063-26-000021",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000021/atro-20251231.htm"
+  },
+  "business": "Astronics Corporation is a leading provider of advanced technologies to the global aerospace, defense, and electronics industries. Its products include electrical power generation, distribution and motion systems, lighting and safety systems, avionics products, systems certification, aircraft structures, and automated test systems. The company operates through two segments: Aerospace and Test Systems.",
+  "sellsTo": [
+    "airframe manufacturers (OEMs) for commercial transport, military, and general aviation",
+    "suppliers to OEMs",
+    "aircraft operators such as airlines",
+    "U.S. Department of Defense and its prime contractors",
+    "aerospace and defense, communications, and mass transit industries for test systems"
+  ],
+  "namedCustomers": [
+    "The Boeing Company"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "aerospace-suppliers",
+      "stance": "core_product",
+      "sentence": "Astronics Corporation is a leading provider of advanced technologies to the global aerospace, defense, and electronics industries."
+    },
+    {
+      "tag": "defense",
+      "stance": "core_product",
+      "sentence": "Sales to the military aerospace market include sales of lighting and safety products, avionics products, electrical power products and structures products. Sales to this market totaled approximately 13.5% of our consolidated sales and amounted to $116.3 million in 2025."
+    },
+    {
+      "tag": "satellites",
+      "stance": "risk_mention",
+      "sentence": "The satellite communications industry is experiencing significant ongoing disruption, as customers evaluate the benefits of lower-cost, low Earth orbit (LEO) solutions, challenging the traditional geosynchronous satellite-based systems. This transition represents both a risk to portions of our existing products and an opportunity to evolve our offerings to align with the growing demand for LEO products and services."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "develop products that are more competitively priced than our products; develop methods of more efficiently and effectively providing products and services; or adapt more quickly than we do to new technologies, such as generative artificial intelligence (AI), or evolving customer requirements."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are dependent on various information technologies throughout our Company to administer, store and support multiple business activities. We routinely experience various cybersecurity threats, threats to our information technology infrastructure, unauthorized attempts to gain access to our sensitive information, and denial-of-service attacks, and our customers, suppliers and subcontractors face similar cybersecurity threats."
+    },
+    {
+      "tag": "precision-motion",
+      "stance": "core_product",
+      "sentence": "Our products and services include advanced, high-performance electrical power generation, distribution and motion systems, lighting and safety systems, avionics products, systems certification, aircraft structures and automated test systems."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "UK Court of Appeal hearing for Lufthansa patent dispute",
+      "date": "2026-03",
+      "sentence": "The appeals are scheduled to be heard by the UK Court of Appeal in March 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T20:14:08.779Z",
+  "model": "deepseek-v4-flash"
+}

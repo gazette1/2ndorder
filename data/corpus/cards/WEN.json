@@ -1,0 +1,47 @@
+{
+  "cik": "0000030697",
+  "ticker": "WEN",
+  "name": "Wendy's Co",
+  "source": {
+    "form": "10-K",
+    "accession": "0000030697-26-000009",
+    "filedAt": "2026-02-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/30697/000003069726000009/wen-20251228.htm"
+  },
+  "business": "Wendy's is primarily engaged in the business of operating, developing and franchising a system of distinctive quick-service restaurants serving high quality food. As of December 28, 2025, there were 7,397 Wendy's restaurants in the U.S. and 38 foreign countries and U.S. territories.",
+  "sellsTo": [
+    "U.S. consumers",
+    "international consumers",
+    "non-traditional locations such as fuel centers, food courts, military bases"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Quality Supply Chain Co-op, Inc. (QSCC)"
+  ],
+  "exposures": [
+    {
+      "tag": "consumer-brands",
+      "stance": "core_product",
+      "sentence": "Wendy's is primarily engaged in the business of operating, developing and franchising a system of distinctive quick-service restaurants serving high quality food."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "In the quick-service restaurant category, technology initiatives include mobile interactive technology for brand and menu search information, mobile ordering, mobile payment, mobile offers, mobile order pick-up and carryout, customer loyalty and rewards programs, artificial intelligence ( AI ) and other self-service technologies."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "risks associated with our digital commerce strategy, platforms and technologies, including our ability to adapt to changes in industry trends and consumer preferences; our and our franchisees dependence on computer systems and information technology, including risks associated with the failure or interruption of our systems or technology or the occurrence of cybersecurity incidents or deficiencies;"
+    },
+    {
+      "tag": "staffing-labor",
+      "stance": "risk_mention",
+      "sentence": "the impact of increased labor costs or labor shortages;"
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:44:33.047Z",
+  "model": "deepseek-v4-flash"
+}

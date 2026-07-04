@@ -1,0 +1,68 @@
+{
+  "cik": "0001077183",
+  "ticker": "NEO",
+  "name": "NEOGENOMICS INC",
+  "source": {
+    "form": "10-K",
+    "accession": "0001077183-26-000010",
+    "filedAt": "2026-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1077183/000107718326000010/neo-20251231.htm"
+  },
+  "business": "NeoGenomics provides a wide range of oncology diagnostic testing and consultative services, including technical laboratory services and professional interpretation of laboratory test results by licensed physicians or molecular experts. The company sells its services to community-based pathology and oncology practices, hospital pathology labs, reference labs, academic centers, and pharmaceutical companies.",
+  "sellsTo": [
+    "community-based pathology and oncology practices",
+    "hospital pathology labs",
+    "reference labs",
+    "academic centers",
+    "pharmaceutical companies"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "diagnostics",
+      "stance": "core_product",
+      "sentence": "We currently offer the following types of testing services: Cytogenetics (karyotype analysis), Fluorescence In-Situ Hybridization (FISH), Flow cytometry, Immunohistochemistry (IHC) and Digital Imaging, Molecular Residual Disease (MRD) testing, Molecular testing, Morphologic analysis."
+    },
+    {
+      "tag": "biotech-therapeutics",
+      "stance": "core_product",
+      "sentence": "Our specialized pharmaceutical development services support pharmaceutical firms (sponsors) through the provision of laboratory testing, biomarker analysis, data generation, and related scientific support services in connection with sponsor-led research studies and clinical trials."
+    },
+    {
+      "tag": "digital-health",
+      "stance": "core_product",
+      "sentence": "Our oncology data solutions, which involve the licensing of de-identified data to pharmaceutical and biotech customers in the form of either retrospective records or prospective deliveries of data, are designed to leverage our unique market position to solve real-world problems."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "A cyber-attack or other breach affecting these information technology systems or protected data could have a material adverse effect on our results of operations."
+    },
+    {
+      "tag": "other:fda-regulation",
+      "stance": "risk_mention",
+      "sentence": "If the FDA were to begin to regulate Laboratory Developed Tests as medical devices it could require us to conduct additional clinical trials and obtain regulatory approval for our products, which could harm our business."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Acquisition of Pathline completed",
+      "date": "2025-04",
+      "sentence": "We completed the acquisition of Pathline in April 2025."
+    },
+    {
+      "event": "Resolution of RaDaR ST patent litigation",
+      "date": "2025-12",
+      "sentence": "We successfully resolved the RaDaR ST patent litigation with no remaining claims pending against the Company in December 2025."
+    },
+    {
+      "event": "2026 focus on therapy selection and MRD product launches and investment programs",
+      "date": "2026",
+      "sentence": "Our focus for 2026 is to sustain a purpose driven culture that maintains excellence in service and performance while growing through targeted innovation and to further extend our market relevance in the areas of therapy selection and MRD."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T22:16:51.431Z",
+  "model": "deepseek-v4-flash"
+}

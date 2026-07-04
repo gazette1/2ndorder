@@ -1,0 +1,79 @@
+{
+  "cik": "0001370450",
+  "ticker": "WLDN",
+  "name": "Willdan Group, Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001104659-26-020767",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1370450/000110465926020767/wldn-20260102x10k.htm"
+  },
+  "business": "Willdan Group, Inc. provides professional, technical, and consulting services including engineering, program management, policy advisory, and software/data analytics to utilities, private industry, and public agencies. The company focuses on energy solutions, greenhouse gas reduction, and government infrastructure projects. It operates through two segments: Energy and Engineering and Consulting.",
+  "sellsTo": [
+    "Utilities (investor-owned and municipal)",
+    "Government agencies at all levels",
+    "Commercial and industrial firms"
+  ],
+  "namedCustomers": [
+    "Clark County School District",
+    "Southern California Edison",
+    "Los Angeles Department of Water and Power",
+    "Duke Energy - Progress",
+    "Consolidated Edison",
+    "Dormitory Authority - State of New York",
+    "New York City Housing Authority"
+  ],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "data-centers",
+      "stance": "core_product",
+      "sentence": "Our energy services include comprehensive audit and surveys, program design, master planning, demand reduction, grid optimization, benchmarking analyses, design engineering, AI data center power solutions, construction management, performance contracting, installation, alternative financing, measurement and verification services, and advances in software and data analytics for long term planning."
+    },
+    {
+      "tag": "evs-mobility",
+      "stance": "risk_mention",
+      "sentence": "We believe that we are well positioned to capitalize on the ongoing expansion and transformation of the energy and infrastructure environments as they adapt to climate change and other environmental challenges, electrification, and technology advancements, including the growing demand in load growth being fueled by artificial intelligence (AI) data centers, electric vehicles and other political and technological changes."
+    },
+    {
+      "tag": "renewables",
+      "stance": "core_product",
+      "sentence": "Our services cover audits, local compliance, operations and maintenance review, renewable energy planning, master plan development, infrastructure analyses, Leadership in Energy and Environmental Design (LEED) certification for buildings, and strategies for energy spend and greenhouse gas reduction."
+    },
+    {
+      "tag": "grid-equipment",
+      "stance": "core_product",
+      "sentence": "Our energy services include comprehensive audit and surveys, program design, master planning, demand reduction, grid optimization, benchmarking analyses, design engineering, AI data center power solutions, construction management, performance contracting, installation, alternative financing, measurement and verification services, and advances in software and data analytics for long term planning."
+    },
+    {
+      "tag": "construction-eng",
+      "stance": "core_product",
+      "sentence": "Our Engineering and Consulting segment provides civil engineering and construction management, building and safety services, city engineering and planning support, civil design, geotechnical services, and material testing."
+    },
+    {
+      "tag": "utilities",
+      "stance": "core_product",
+      "sentence": "We serve a majority of the largest investor-owned electric utilities and over half of the largest municipal utilities in the United States."
+    },
+    {
+      "tag": "other:software-analytics",
+      "stance": "core_product",
+      "sentence": "Through engineering, program management, policy advisory, and software and data analytics, we plan, design and deliver comprehensive, innovative, cost-effective and proven solutions to improve efficiency, resiliency, and sustainability in energy and infrastructure to our clients."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Consolidated Edison contracts expire at end of 2026",
+      "date": "2026-12-31",
+      "sentence": "After giving effect to renewals and extensions, both contracts continue through the end of 2026."
+    },
+    {
+      "event": "Delayed Draw Term Loan must be drawn before May 2027",
+      "date": "2027-05-31",
+      "sentence": "The Delayed Draw Term Loan must be drawn before May 2027."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:46:48.714Z",
+  "model": "deepseek-v4-flash"
+}

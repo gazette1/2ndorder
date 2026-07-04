@@ -1,0 +1,44 @@
+{
+  "cik": "0001437958",
+  "ticker": "CCB",
+  "name": "COASTAL FINANCIAL CORP",
+  "source": {
+    "form": "10-K",
+    "accession": "0001437958-26-000013",
+    "filedAt": "2026-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437958/000143795826000013/ck1437958-20251231.htm"
+  },
+  "business": "Coastal Financial Corporation is a registered bank holding company whose wholly owned subsidiaries are Coastal Community Bank and Arlington Olympic LLC. The Company operates through three reportable segments: the community bank, CCBX, and treasury & administration. The community bank provides banking products and services to consumers and small to medium sized businesses in the Puget Sound region, while CCBX provides banking as a service (BaaS) to digital financial service partners.",
+  "sellsTo": [
+    "consumers and small to medium sized businesses in the Puget Sound region",
+    "digital financial service partners"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [],
+  "exposures": [
+    {
+      "tag": "fintech",
+      "stance": "core_product",
+      "sentence": "The CCBX segment provides banking as a service ( BaaS ) that allows our digital financial service partners to offer their customers banking services."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "We are dependent on our information technology and telecommunications systems and third-party service providers; systems failures, interruptions, security breaches and cybersecurity threats could have an adverse effect on our business, financial condition and results of operations."
+    },
+    {
+      "tag": "other:artificial-intelligence",
+      "stance": "risk_mention",
+      "sentence": "We currently use, and may in the future evaluate or implement, artificial intelligence ( AI ), automation, and similar technologies to support certain internal processes or business functions."
+    }
+  ],
+  "catalysts": [],
+  "tamClaims": [
+    {
+      "claim": "The Puget Sound region has approximately 5.1 million people, over 147,000 businesses, and $155.2 billion in deposits.",
+      "sentence": "The Puget Sound region, which comprises over 62% of the population of the state of Washington, and approximately 61% of the number of businesses located therein, has a population of approximately 5.1 million, over 147,000 businesses and $155.2 billion of deposits with us and other banking institutions located in the region."
+    }
+  ],
+  "generatedAt": "2026-07-03T23:40:41.966Z",
+  "model": "deepseek-v4-flash"
+}

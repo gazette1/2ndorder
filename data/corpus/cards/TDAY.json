@@ -1,0 +1,68 @@
+{
+  "cik": "0001579684",
+  "ticker": "TDAY",
+  "name": "USA TODAY Co., Inc.",
+  "source": {
+    "form": "10-K",
+    "accession": "0001579684-26-000010",
+    "filedAt": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579684/000157968426000010/tday-20251231.htm"
+  },
+  "business": "USA TODAY Co. is a diversified media company that provides news content and digital marketing solutions. It sells advertising and subscription services across print and digital platforms to consumers and businesses through its USA TODAY Media, Newsquest, and LocaliQ segments.",
+  "sellsTo": [
+    "consumers",
+    "local businesses",
+    "national advertisers",
+    "small and medium-sized businesses"
+  ],
+  "namedCustomers": [],
+  "namedSuppliers": [
+    "Google",
+    "Facebook",
+    "Microsoft",
+    "Yelp",
+    "Snap"
+  ],
+  "exposures": [
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The product suite also includes Customer Center powered by Dash, an AI-powered platform, which provides AI-generated call attributes, AI-assisted call details, and a customer interaction activity feed with AI-generated insights."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "risk_mention",
+      "sentence": "We use AI and may use other new technologies in our business. Challenges with our ability to effectively manage, govern, and scale their adoption and use may affect our competitive position, reputation, and could adversely affect our results of operations."
+    },
+    {
+      "tag": "cybersecurity",
+      "stance": "risk_mention",
+      "sentence": "Unauthorized access to or disclosure or manipulation of such data, whether through breach of our, or our third-party service providers', network security or otherwise, could expose us to liabilities and costly litigation and damage our reputation."
+    },
+    {
+      "tag": "other:data-privacy",
+      "stance": "risk_mention",
+      "sentence": "Any required changes in practices and techniques to enhance the customer experience, including for enhanced data privacy, could materially and adversely impact our advertising revenues and business results, and impair our ability to acquire consumers efficiently."
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Corporate name change from Gannett Co., Inc. to USA TODAY Co., Inc.",
+      "date": "2025-11-01",
+      "sentence": "In November 2025, we changed our corporate name from Gannett Co., Inc. to USA TODAY Co., Inc."
+    },
+    {
+      "event": "Transfer of The Detroit News from MediaNews Group completed.",
+      "date": "2026-01-31",
+      "sentence": "On January 31, 2026, we completed the transfer of The Detroit News from MediaNews Group."
+    },
+    {
+      "event": "Intent to continue expanding mail delivery in 2026.",
+      "date": "2026-12-31",
+      "sentence": "We intend to continue to expand mail delivery in 2026."
+    }
+  ],
+  "tamClaims": [],
+  "generatedAt": "2026-07-03T23:27:43.255Z",
+  "model": "deepseek-v4-flash"
+}
