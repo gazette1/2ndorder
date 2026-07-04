@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Capstone Energy Plus, Inc. (CGEH). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map node this company was mapped to: Behind-the-Meter Power Generation Providers (order 2, beneficiary). Mechanism: Data center operators invest in on-site generation such as fuel cells, natural gas generators, or microgrids to ensure reliability and bypass grid congestion, creating demand for behind-the-meter equipment and services. Node logic: To avoid dependence on the grid and hedge electricity costs, hyperscalers deploy on-site power. Fuel cell manufacturers and microgrid integrators see increased orders. This trend is reinforced by corporate needs for carbon-free energy, favoring technologies like solid oxide fuel cells with carbon capture potential.
+8-K filings in the last 12 months: 14
+
+Excerpts:
+[0] (10-K, filed 2026-06-25) Overview Capstone Energy+, Inc. is a leading provider of behind-the-meter clean energy solutions for industrial and commercial operations, along with solutions designed for the next generation of artificial intelligence ("AI") and data center applications.
+[1] (10-K, filed 2026-06-25) For nearly four decades, we have developed and refined oil-free, friction free microturbine-based power generation technology that delivers world class low emissions and industry-leading uptime/availability in a "plug and play" design with low maintenance intervals that run on a broad range of gaseous fuels flexibility.
+[2] (10-K, filed 2026-06-25) Our solutions are engineered to meet all three imperatives through a multi-faceted portfolio that includes on-site power generation in configurations such as Combined Heat and Power 2 Table of Contents ("CHP"), Integrated Combined Heat and Power ("ICHP"), and Combined Cooling, Heat and Power ("CCHP").
+[3] (10-K, filed 2026-06-25) Our solutions also support full microgrid applications that integrate renewables, battery energy storage, and other distributed energy resources.
+[4] (10-K, filed 2026-06-25) Capstone Energy+ serves critical industries including data centers, hospitals, agriculture, and industrial facilities where uptime and energy certainty are essential.
+[5] (10-K, filed 2026-06-25) Beyond power generation, our solutions support the circular economy by converting waste streams into usable fuel and capturing waste heat to produce valuable thermal energy with a lower carbon footprint.
+[6] (10-K, filed 2026-06-25) The rapid growth of artificial intelligence is driving unprecedented demand for reliable, high-density, on-site power which is a demand that traditional utility infrastructure is struggling to meet.
+[7] (10-K, filed 2026-06-25) Products Capstone's microturbines are compact, lightweight, and environmentally advanced distributed power generation systems.
+[8] (10-K, filed 2026-06-25) Our combustion system achieves emissions levels among the lowest of any distributed generation technology available.
+[9] (10-K, filed 2026-06-25) Our natural gas-fueled C65, C200, C600, C800, and C1000S Series 3 Table of Contents microturbines, when combined with catalyst and heat recovery, have been certified by the California Air Resources Board ("CARB") as meeting its stringent 2007 emissions standards, the same standards applied to fuel cells and central power plants.
+[10] (10-K, filed 2026-06-25) These ultra-low emission levels not only reflect our environmental commitment, but also materially simplify the permitting process for continuously operated on-site power generation across numerous jurisdictions.
+[11] (10-K, filed 2026-06-25) Our inverter-based architecture is also the foundation for microgrid integration, allowing Capstone systems to serve as the dispatchable backbone for complex distributed energy systems incorporating solar PV, wind, battery energy storage, and fuel cells.
+[12] (10-K, filed 2026-06-25) During fiscal year 2026, Capstone completed certification under UL1741 SB and IEEE 1547 for the C200 and C1000 families in North America, meeting the most demanding grid interconnection requirements in markets such as California and Hawaii.
+[13] (10-K, filed 2026-06-25) The C250 is designed as a highly efficient, modular building block for distributed generation, with power output that maps well to the block-power topology increasingly favored by AI data center operators.
+[14] (10-K, filed 2026-06-25) Energy Surplus Program - Engineered Equipment Packages for the AI Era Capstone's Energy Surplus Program ("ESP") represents the next evolution of our product platform, a unified, integrated architecture purpose-built for the high-density, mission-critical power demands of modern AI workloads and data center applications.
+[15] (10-K, filed 2026-06-25) This reference design was developed to flexibly match the data center s topology of today s and tomorrow s IT power blocks.
+[16] (10-K, filed 2026-06-25) Beyond data centers, Capstone also offers a comprehensive suite of accessories and ancillary products, including rotary gas compressors, integrated heat recovery modules for CHP applications, dual-mode controllers, batteries for stand-alone and dual-mode operations, protocol converters, and a full range of installation hardware and packaging options, ensuring that Capstone's platform can be configured and deployed across virtually any distributed energy application.
+[17] (10-K, filed 2026-06-25) Plug and Play Modular Design Capstone's microturbine platform is engineered to serve a broad and growing range of power generation applications across multiple vertical markets worldwide.
+[18] (10-K, filed 2026-06-25) 5 Table of Contents Natural Resources - Crude Oil, Natural Gas, Shale Gas & Mining Capstone has a long and proven track record in the natural resources market, where our microturbines provide onshore and offshore power for oil and gas operations, shale gas production, compression and transmission sites, and mining facilities; often in remote locations with no access to utility grid power.
+[19] (10-K, filed 2026-06-25) Our ability to operate on flare gas, associated gas, sour gas, and other fuel byproducts of oil and gas production makes Capstone uniquely valuable in this market, converting waste gases that would otherwise be burned or vented into usable on-site power, while simultaneously reducing emissions and displacing diesel generation.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $295,000 across 6 buys and 0 sales by 6 insider(s).
+Fundamentals (XBRL, as of 2026-03-31): revenue $106,004,000, net income $2,825,000, R&D $3,621,000, cash $28,179,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

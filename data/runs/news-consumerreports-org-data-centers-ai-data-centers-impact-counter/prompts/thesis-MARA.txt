@@ -1,0 +1,60 @@
+Draft a one-page thesis for MARA Holdings, Inc. (MARA) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map position: Distressed Data Center Acquisitions (order 2, beneficiary, horizon mid). Mechanism: Overcapacity forces data center asset prices down, enabling opportunistic investors to acquire facilities at discounts to replacement cost. Falling lease rates and rising vacancies compress property valuations, creating distressed situations, especially for operators with high leverage. Well-capitalized buyers can step in, purchasing assets at distressed prices and holding them until demand recovers, benefiting from eventual market tightening.
+Market cap: $4728MM
+Composite score: 32/100
+Subscores:
+- optionality: 1/5 (weight 0.25). The company has already executed a data center acquisition (GC Data Center Acquisition) and hosts services, so the theme of distressed acquisitions is an existing part of its business rather than a new segment. No evidence of a new business line from this theme.
+- revenueToOpportunity: 3/5 (weight 0.2). Current revenue of $58.7M is small relative to the potential TAM of distressed data center acquisitions, but the filings do not quantify the opportunity size. The theme could drive significant growth if successful.
+- catalystDensity: 1/5 (weight 0.15). No near-term observable events such as design wins, capacity additions, or named customer programs are mentioned. The only specific event is a remeasurement of a derivative contract, which is not a catalyst.
+- managementConviction: 2/5 (weight 0.1). Management discusses specific actions like the GC Data Center Acquisition and energy management flexibility, but lacks quantified targets or committed capex. Language is descriptive but not highly committed.
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-6,782,385 over 0 buys and 26 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 2/5 (weight 0.2). Customer graph: gov awards $0, 0 named customer(s), 3 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (10-Q, filed 2026-05-11, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000016/mara-20260331.htm) Such costs are governed by various power purchase agreements, and energy prices can change hour to hour and by location.
+[1] (10-Q, filed 2026-05-11, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000016/mara-20260331.htm) While this renders energy prices less predictable, it also gives us greater ability and flexibility to actively manage the energy we consume with a goal of increasing profitability and energy efficiency.
+[2] (10-Q, filed 2026-05-11, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000016/mara-20260331.htm) The change primarily relates to the remeasurement of the commodity swap contract acquired in the GC Data Center Acquisition, which meets the definition of a derivative instrument and is remeasured at fair value at the end of each reporting period.
+[3] (10-K, filed 2026-03-02, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/mara-20251231.htm) We believe inference economics are shifting toward energy efficiency because inference consumes electricity continuously, making power cost and operating efficiency key inputs to scalable deployment.
+[4] (10-K, filed 2026-03-02, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/mara-20251231.htm) We are monitoring evolving federal, state, and municipal policies that impact AI and HPC data center operations, including energy efficiency mandates, property regulations, and reporting and disclosure requirements.
+[5] (10-K, filed 2026-03-02, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/mara-20251231.htm) Hosting services were $4.7 million and $31.6 million, for the year ended December 31, 2025 and 2024, respectively, a decrease of $27.0 million primarily due to planned terminations of various hosting agreements following the GC Data Center Acquisition in 2024.
+[6] (10-K, filed 2026-03-02, https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/mara-20251231.htm) In the prior year period, early termination expenses of $38.1 million primarily related to the 47 Table of Contents termination of customer hosting agreements and the forgiveness of an outstanding receivable balance of a customer acquired in the GC Data Center Acquisition.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-6.8MM across 0 buys and 26 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $58.7MM, cash $547.1MM.
+Customer graph: federal awards $0; named customers none in excerpts; 3 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $551.1MM, about 1 trading days to build a position; net cash $-3052.8MM; cash runway about 2.7 quarters; share count up 8.3 percent in 12 months.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

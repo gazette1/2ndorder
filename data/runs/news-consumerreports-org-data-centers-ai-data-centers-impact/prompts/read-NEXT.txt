@@ -1,0 +1,48 @@
+You are an equity analyst reading SEC filing excerpts for NextDecade Corp (NEXT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map node this company was mapped to: Engineering, Procurement, and Construction (EPC) Contractors for Power Plants (order 2, beneficiary). Mechanism: Utilities and IPPs increase capital spending on new generation projects, awarding large fixed-price and cost-plus contracts to EPC firms. Node logic: The buildout of new gas plants and renewable-plus-storage projects requires experienced EPC contractors with electrical, mechanical, and civil engineering capabilities. A surge in project awards strains contractor capacity, allowing them to be selective and improve margins. Backlogs grow rapidly, providing revenue visibility for years.
+8-K filings in the last 12 months: 10
+
+Excerpts:
+[0] (10-Q, filed 2026-05-01) Construction will be completed by Bechtel under fully wrapped, lump-sum turnkey EPC contracts, and the liquefaction trains will utilize Honeywell AP-C3MR liquefaction technology, which is a predominant liquefaction technology utilized globally.
+[1] (10-Q, filed 2026-05-01) Progress on Phase 1 as of March 2026 is ahead of the guaranteed completion schedule under the EPC contracts.
+[2] (10-Q, filed 2026-05-01) Progress on Train 4 as of March 2026 is in line with the EPC contract.
+[3] (10-Q, filed 2026-05-01) Progress on Train 5 as of March 2026 is in line with the EPC contract, and site preparation activities are underway for Train 5.
+[4] (10-Q, filed 2026-05-01) Under these EPC contracts, Bechtel is responsible for the engineering, procurement, construction, commissioning, and startup of liquefaction trains and their respective related infrastructure.
+[5] (10-Q, filed 2026-05-01) On July 12, 2023, we issued final notice to proceed to Bechtel under the EPC contracts for Phase 1.
+[6] (10-Q, filed 2026-05-01) On September 9, 2025, we issued final notice to proceed to Bechtel under the EPC contract for Train 4.
+[7] (10-Q, filed 2026-05-01) Total expected capital costs for Train 4 are estimated to be approximately $6.7 billion, including estimated EPC costs, owner s costs, contingencies, financing costs, and other costs, including a payment to be made at the commencement of operations to the trains in commercial operation at such date for Train 4 s proportionate share of the capital costs of the common facilities it will access, net of the capital cost of any common facilities constructed under the Train 4 EPC contract.
+[8] (10-Q, filed 2026-05-01) On October 16, 2025, we issued final notice to proceed to Bechtel under the EPC contract for Train 5.
+[9] (10-Q, filed 2026-05-01) Total expected capital costs for Train 5 are estimated to be approximately $6.7 billion, including estimated EPC costs, owner s costs, contingencies, financing costs, and other costs, including a payment to be made at the commencement of operations to the trains in commercial operation at such date for Train 5 s proportionate share of the capital costs of the common facilities it will access, net of the capital cost of any common facilities constructed under the Train 5 EPC contract.
+[10] (10-Q, filed 2026-05-01) Long Term Liquidity and Capital Resources of NextDecade Corporation We will not receive significant cash flows from liquefaction trains at the Rio Grande LNG Facility until they are operational, and the commercial operation dates for Trains 1 through 5 range from late 2027 for Train 1 through the first half of 2031 for Train 5, based on the guaranteed schedule under the EPC contracts.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $6,954,570 across 5 buys and 0 sales by 4 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $0, net income $-429,637,000, R&D $8,006,000, cash $143,782,000.
+Customer graph: federal awards $0 across 0 awards; 5 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

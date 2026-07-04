@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "dc-overcapacity",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Data Center Overcapacity",
+      "mechanism": "Hyperscaler efficiency reduces power per compute, leading to excess leased capacity, higher vacancy, and lower rental rates for data center operators.",
+      "logic": "Data center construction has multi-year lead times, so capacity added based on aggressive demand forecasts cannot be absorbed when efficiency gains limit actual power draw per compute unit. This oversupply causes vacancy to rise and pricing power to weaken, disproportionately reducing revenue for operators with large development pipelines.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "data center vacancy",
+        "power capacity leased",
+        "megawatt under construction",
+        "hyperscale lease"
+      ],
+      "filingHits": 9,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-load-growth",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Utility Load Growth Shortfall",
+      "mechanism": "Lower data center electricity demand reduces incremental load for utilities, cutting rate base growth and risking stranded transmission assets.",
+      "logic": "Regulated utilities often build transmission and generation in anticipation of large loads; if data center demand falls short, the revenue deficiency is magnified because fixed infrastructure costs are spread over fewer kilowatt-hours. This leads to lower allowed returns and potential write-downs on assets built for the hyped demand.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "data center load",
+        "transmission expansion",
+        "load growth forecast",
+        "industrial electricity sales"
+      ],
+      "filingHits": 217,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-infrastructure",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Gas Infrastructure Utilization Risk",
+      "mechanism": "Reduced need for new gas-fired generation to serve data centers lowers future natural gas demand and pipeline project returns.",
+      "logic": "Much of the expected growth in natural gas demand is tied to data center power; a 95 GW ceiling on data center electricity in 2028 means fewer new gas plants, reducing the need for pipeline capacity and associated infrastructure. This hits midstream companies heavily exposed to gas production and transport for power generation.",
+      "horizon": "long",
+      "searchPhrases": [
+        "natural gas pipeline",
+        "power generation demand",
+        "gas-fired generation",
+        "pipeline capacity expansion"
+      ],
+      "filingHits": 280,
+      "whiteSpace": false
+    },
+    {
+      "id": "server-efficiency",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Server Energy Efficiency Suppliers",
+      "mechanism": "Hyperscalers invest in energy-efficient processors, cooling, and power management to lower electricity per compute, boosting sales for these component makers.",
+      "logic": "As electricity costs and grid constraints become limiting, hyperscalers prioritize efficiency technologies, leading to a rapid adoption cycle for advanced cooling and high-efficiency chips. Even with slower overall demand growth, spending on efficiency retrofits and new efficient hardware accelerates, driving revenue for suppliers in this niche.",
+      "horizon": "near",
+      "searchPhrases": [
+        "liquid cooling system",
+        "server power management",
+        "energy efficient processor",
+        "data center efficiency"
+      ],
+      "filingHits": 22,
+      "whiteSpace": false
+    },
+    {
+      "id": "distressed-dc-acquisitions",
+      "parentId": "dc-overcapacity",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Distressed Data Center Acquisitions",
+      "mechanism": "Overcapacity forces data center asset prices down, enabling opportunistic investors to acquire facilities at discounts to replacement cost.",
+      "logic": "Falling lease rates and rising vacancies compress property valuations, creating distressed situations, especially for operators with high leverage. Well-capitalized buyers can step in, purchasing assets at distressed prices and holding them until demand recovers, benefiting from eventual market tightening.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "data center acquisition",
+        "distressed real estate",
+        "data center portfolio sale",
+        "hyperscale facility sale"
+      ],
+      "filingHits": 125,
+      "whiteSpace": false
+    },
+    {
+      "id": "renewable-project-returns",
+      "parentId": "utility-load-growth",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Renewable Project Development Slowdown",
+      "mechanism": "Slower data center load growth reduces demand for new renewable power purchase agreements, hurting project returns and development pipelines.",
+      "logic": "Renewable developers often site projects based on expected demand from hyperscalers; without that anchor load, projects may not obtain financing or face lower merchant power prices. This disproportionately impacts companies with large development pipelines in markets that were betting on data center load.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "power purchase agreement",
+        "renewable energy project",
+        "solar PPA price",
+        "wind capacity factor"
+      ],
+      "filingHits": 214,
+      "whiteSpace": false
+    },
+    {
+      "id": "industrial-electricity-costs",
+      "parentId": "utility-load-growth",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Industrial Electricity Cost Relief",
+      "mechanism": "Easing electricity demand pressure reduces rates for large industrial consumers, lowering their cost of production.",
+      "logic": "Data center load growth has been a key driver of rising electricity rates in many regions; with that growth capped, rate increases moderate or reverse. Energy-intensive manufacturers see direct margin improvements as a major input cost falls, boosting competitiveness.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "industrial electricity rate",
+        "energy cost per unit",
+        "manufacturing electricity consumption",
+        "demand charge reduction"
+      ],
+      "filingHits": 37,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-manufacturers",
+      "parentId": "gas-infrastructure",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Gas Turbine Order Declines",
+      "mechanism": "Lower need for new gas plants reduces orders and service contracts for gas turbine manufacturers.",
+      "logic": "Turbine manufacturers rely on large, infrequent orders from utilities; cancellation or deferral of planned plants directly cuts into their order books. With data center demand a major growth driver, a shortfall leads to overcapacity in turbine production and margin compression.",
+      "horizon": "long",
+      "searchPhrases": [
+        "gas turbine order",
+        "power generation equipment",
+        "combined cycle plant",
+        "turbine maintenance services"
+      ],
+      "filingHits": 123,
+      "whiteSpace": false
+    },
+    {
+      "id": "chiplet-advanced-packaging",
+      "parentId": "server-efficiency",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Chiplet and Advanced Packaging",
+      "mechanism": "Hyperscalers adopt custom, efficient silicon via chiplet architectures, increasing demand for advanced packaging and interconnect technologies.",
+      "logic": "Efficiency gains increasingly rely on specialized chip designs that integrate multiple chiplets; this drives growth for companies providing advanced packaging, die-to-die interconnects, and heterogeneous integration. As server refresh cycles incorporate these designs, the revenue opportunity scales with the number of chips, not just server units.",
+      "horizon": "near",
+      "searchPhrases": [
+        "advanced packaging",
+        "chiplet interconnect",
+        "heterogeneous integration",
+        "high performance computing silicon"
+      ],
+      "filingHits": 145,
+      "whiteSpace": false
+    },
+    {
+      "id": "liquid-cooling-components",
+      "parentId": "server-efficiency",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Liquid Cooling Component Suppliers",
+      "mechanism": "Higher rack power density from efficient computing requires direct liquid cooling, boosting demand for cold plates, pumps, and fluid handling.",
+      "logic": "As servers become more efficient per compute operation, power density rises, making liquid cooling essential to manage heat. This creates a rapidly growing market for the component suppliers that provide the cooling infrastructure, with revenue directly tied to the number of servers deployed with liquid cooling.",
+      "horizon": "near",
+      "searchPhrases": [
+        "direct liquid cooling",
+        "cold plate",
+        "coolant distribution unit",
+        "high density cooling"
+      ],
+      "filingHits": 47,
+      "whiteSpace": false
+    },
+    {
+      "id": "tax-equity-market",
+      "parentId": "renewable-project-returns",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Tax Equity Investment Slowdown",
+      "mechanism": "Fewer renewable projects reduce the pipeline of tax equity investments, hurting financial institutions that provide this capital.",
+      "logic": "Tax equity plays a critical role in monetizing renewable energy tax credits; a slowdown in project development directly shrinks the market for these transactions. Banks and investment funds that specialize in tax equity face lower deal volumes and fee income.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "renewable energy tax credit",
+        "tax equity partnership",
+        "investment tax credit transfer",
+        "production tax credit eligibility"
+      ],
+      "filingHits": 202,
+      "whiteSpace": false
+    },
+    {
+      "id": "commodity-processing-margins",
+      "parentId": "industrial-electricity-costs",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Commodity Processing Margin Expansion",
+      "mechanism": "Lower electricity costs boost operating margins for energy-intensive commodity processing industries such as aluminum, steel, and chemicals.",
+      "logic": "For industries like aluminum smelting or chlor-alkali production, electricity can be 30-40% of costs; a sustained decline in rates directly expands margins. Companies with high power consumption relative to revenue see earnings growth that is multiples of the rate decline.",
+      "horizon": "near",
+      "searchPhrases": [
+        "aluminum smelting",
+        "electricity cost per ton",
+        "caustic soda production",
+        "electric arc furnace"
+      ],
+      "filingHits": 135,
+      "whiteSpace": false
+    },
+    {
+      "id": "pump-valve-manufacturers",
+      "parentId": "liquid-cooling-components",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Precision Pump and Valve Demand",
+      "mechanism": "Growth in liquid cooling deployments increases orders for high-reliability pumps, valves, and fluid connectors.",
+      "logic": "Liquid cooling systems require specialized fluid handling components that can operate continuously with minimal maintenance; as data center liquid cooling scales, this niche becomes a high-growth segment for industrial component manufacturers, creating a new aftermarket opportunity.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "coolant pump",
+        "precision valve",
+        "liquid cooling manifold",
+        "high reliability pump"
+      ],
+      "filingHits": 0,
+      "whiteSpace": true
+    }
+  ],
+  "themeKeywords": [
+    "data center electricity",
+    "efficiency gains",
+    "power utilization effectiveness",
+    "compute density",
+    "grid load growth",
+    "energy efficiency",
+    "liquid cooling",
+    "server power management",
+    "power purchase agreement",
+    "tax equity"
+  ]
+}

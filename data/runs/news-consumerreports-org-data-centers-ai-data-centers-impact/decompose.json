@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "utility-generation-owners",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Electric Utilities with Generation in Data Center Markets",
+      "mechanism": "Data center electricity demand growth lifts load and drives higher realized power prices in constrained markets, increasing utility revenue and earnings.",
+      "logic": "Utilities in regions with high data center concentration see demand growth exceed system averages, requiring new generation and transmission. Regulated utilities earn returns on capital investments, while deregulated generators capture higher energy and capacity prices. The demand surge is inelastic because data centers require uninterrupted power, amplifying revenue gains relative to demand growth.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "electric utility",
+        "data center load",
+        "generation capacity",
+        "regulated utility",
+        "capacity payment"
+      ],
+      "filingHits": 444,
+      "whiteSpace": false
+    },
+    {
+      "id": "power-gen-equipment-makers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Power Generation Equipment Manufacturers",
+      "mechanism": "Utilities and independent power producers order new gas turbines, generators, and transformers to meet data center load, expanding backlogs and revenue for equipment makers.",
+      "logic": "The scale of demand increase requires new dispatchable generation, primarily natural gas combined-cycle plants and peakers. Equipment manufacturers have limited production capacity, leading to extended delivery times and pricing power. A supercycle in orders lengthens revenue visibility and improves margins beyond typical cyclical upswings.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "gas turbine",
+        "power generation equipment",
+        "electric generator",
+        "steam turbine",
+        "grid transformer"
+      ],
+      "filingHits": 338,
+      "whiteSpace": false
+    },
+    {
+      "id": "grid-infrastructure-providers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Transmission and Distribution Equipment Suppliers",
+      "mechanism": "Grid upgrades to connect and support new data center loads require high-voltage transformers, switchgear, and conductors, expanding the market for transmission and distribution equipment.",
+      "logic": "Data centers concentrate load in specific areas, often exceeding existing substation and line capacity. Utilities must invest in step-up transformers, GIS substations, and reconductoring. Equipment suppliers face multi-year order backlogs, allowing them to raise prices and expand margins. The need for rapid deployment accelerates demand for standardized equipment.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "high voltage transformer",
+        "switchgear",
+        "transmission line",
+        "substation equipment",
+        "power grid upgrade"
+      ],
+      "filingHits": 218,
+      "whiteSpace": false
+    },
+    {
+      "id": "hyperscale-data-center-operators",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Hyperscale Data Center Operators",
+      "mechanism": "Electricity is the largest operating cost for data centers; surging demand and constrained grids raise power prices and delay new capacity, pressuring margins and growth.",
+      "logic": "Hyperscalers need massive amounts of reliable, low-cost power to maintain cloud service margins. In markets like Northern Virginia, interconnection queues and price increases erode the cost advantage. Additionally, securing enough power for expansion becomes challenging, potentially shifting capital to other regions with cheaper or more available electricity, but with higher latency or construction costs.",
+      "horizon": "near",
+      "searchPhrases": [
+        "data center electricity",
+        "power usage effectiveness",
+        "energy cost",
+        "colocation facility",
+        "cloud infrastructure"
+      ],
+      "filingHits": 308,
+      "whiteSpace": false
+    },
+    {
+      "id": "c-i-ratepayers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Commercial and Industrial Electricity Customers in Constrained Grids",
+      "mechanism": "Grid capacity investment costs are often allocated across all ratepayers, so C&I customers in data-center-heavy regions face higher electricity rates without commensurate benefit.",
+      "logic": "Utilities file rate cases to recover infrastructure investments for data center load growth, spreading costs to all customer classes. In deregulated markets, scarcity pricing from increased demand raises wholesale prices. Energy-intensive industries like manufacturing and logistics see input costs rise, hurting competitiveness in these regions.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "commercial electricity rate",
+        "industrial customer",
+        "demand charge",
+        "rate case",
+        "transmission cost allocation"
+      ],
+      "filingHits": 315,
+      "whiteSpace": false
+    },
+    {
+      "id": "epc-firms",
+      "parentId": "utility-generation-owners",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Engineering, Procurement, and Construction (EPC) Contractors for Power Plants",
+      "mechanism": "Utilities and IPPs increase capital spending on new generation projects, awarding large fixed-price and cost-plus contracts to EPC firms.",
+      "logic": "The buildout of new gas plants and renewable-plus-storage projects requires experienced EPC contractors with electrical, mechanical, and civil engineering capabilities. A surge in project awards strains contractor capacity, allowing them to be selective and improve margins. Backlogs grow rapidly, providing revenue visibility for years.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "engineering procurement construction",
+        "power plant construction",
+        "EPC contract",
+        "combined cycle plant",
+        "turnkey project"
+      ],
+      "filingHits": 296,
+      "whiteSpace": false
+    },
+    {
+      "id": "renewable-energy-developers",
+      "parentId": "hyperscale-data-center-operators",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Utility-Scale Renewable Energy Developers",
+      "mechanism": "Data center operators seek to lock in low-cost, long-term renewable power purchase agreements (PPAs) to hedge volatile grid prices and meet emission goals, driving demand for new wind and solar projects.",
+      "logic": "Hyperscalers are the largest corporate buyers of renewable energy, with long-term PPAs underpinning project financing. As grid power costs rise, renewable PPAs become even more economically attractive. The scale of data center demand creates a reliable offtake pipeline for developers, accelerating project development pipelines.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "power purchase agreement",
+        "renewable energy project",
+        "wind farm",
+        "solar farm",
+        "PPA"
+      ],
+      "filingHits": 497,
+      "whiteSpace": false
+    },
+    {
+      "id": "data-center-development-projects",
+      "parentId": "grid-infrastructure-providers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "New Data Center Development Projects",
+      "mechanism": "Grid interconnection delays due to equipment shortages and permitting extend data center construction timelines, increasing capital costs and delaying revenue generation.",
+      "logic": "Securing transformers, switchgear, and transmission capacity often takes years, longer than building the data center shell. Developers face liquidated damages and lost customer commitments if power delivery is late. The mismatch between construction speed and grid readiness creates a bottleneck that raises the risk profile of development pipelines.",
+      "horizon": "near",
+      "searchPhrases": [
+        "data center development",
+        "interconnection queue",
+        "power delivery timeline",
+        "construction schedule",
+        "grid capacity"
+      ],
+      "filingHits": 385,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-component-suppliers",
+      "parentId": "power-gen-equipment-makers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Precision Component Manufacturers for Gas Turbines",
+      "mechanism": "Turbine OEMs increase orders for complex castings, forgings, and specialty alloys, benefiting suppliers with limited competition and high barriers to entry.",
+      "logic": "Gas turbines require advanced materials like single-crystal superalloys for blades and large forged rotors. These supply chains are concentrated and capacity-constrained. As turbine backlogs grow, component suppliers gain pricing power and visibility, with deliveries scheduled years in advance.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "gas turbine component",
+        "superalloy",
+        "turbine blade",
+        "investment casting",
+        "forged rotor"
+      ],
+      "filingHits": 36,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-equity-investors",
+      "parentId": "c-i-ratepayers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Utility Equity Investors",
+      "mechanism": "Political backlash from rising C&I rates leads to unfavorable rate case outcomes, tightening allowed returns on equity and limiting earnings growth for regulated utilities.",
+      "logic": "When industrial rates spike, consumer advocates and large customers pressure regulators to cap utility profits. This can result in lower authorized ROEs, disallowances of prudently incurred costs, or mandates to absorb some grid costs. Utilities with heavy data center exposure may see valuation compression as growth expectations are tempered.",
+      "horizon": "long",
+      "searchPhrases": [
+        "return on equity",
+        "rate base",
+        "authorized ROE",
+        "regulatory asset",
+        "cost recovery"
+      ],
+      "filingHits": 500,
+      "whiteSpace": false
+    },
+    {
+      "id": "behind-the-meter-power-solutions",
+      "parentId": "hyperscale-data-center-operators",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Behind-the-Meter Power Generation Providers",
+      "mechanism": "Data center operators invest in on-site generation such as fuel cells, natural gas generators, or microgrids to ensure reliability and bypass grid congestion, creating demand for behind-the-meter equipment and services.",
+      "logic": "To avoid dependence on the grid and hedge electricity costs, hyperscalers deploy on-site power. Fuel cell manufacturers and microgrid integrators see increased orders. This trend is reinforced by corporate needs for carbon-free energy, favoring technologies like solid oxide fuel cells with carbon capture potential.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "fuel cell",
+        "microgrid",
+        "behind the meter generation",
+        "distributed generation",
+        "on-site power"
+      ],
+      "filingHits": 437,
+      "whiteSpace": false
+    },
+    {
+      "id": "critical-mineral-miners",
+      "parentId": "renewable-energy-developers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Critical Mineral Mining Companies",
+      "mechanism": "Renewable energy deployment accelerates demand for copper, lithium, and rare earth elements used in wind turbines, solar panels, and battery storage.",
+      "logic": "Wind and solar installations are materials-intensive; a gigawatt of offshore wind requires significant quantities of copper and rare earths. Battery storage for renewable integration drives lithium and nickel demand. The supercycle in renewables for data centers adds to already tight supply, directly benefiting mining companies with established reserves.",
+      "horizon": "long",
+      "searchPhrases": [
+        "copper mine",
+        "lithium carbonate",
+        "rare earth elements",
+        "cobalt",
+        "nickel production"
+      ],
+      "filingHits": 390,
+      "whiteSpace": false
+    },
+    {
+      "id": "modular-data-center-providers",
+      "parentId": "data-center-development-projects",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Modular and Prefabricated Data Center Providers",
+      "mechanism": "Delays in traditional construction push data center developers toward factory-built modular solutions that reduce on-site build time and bypass some grid interconnection complexities.",
+      "logic": "Modular data centers integrate power and cooling systems in a factory, then ship for rapid deployment. They can be scaled incrementally, allowing developers to add capacity as grid power becomes available. This approach shortens time-to-market, making it attractive when grid delays threaten revenue timing. Providers of these solutions see increased demand for their integrated offerings.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "modular data center",
+        "prefabricated data center",
+        "containerized data center",
+        "edge data center",
+        "modular construction"
+      ],
+      "filingHits": 304,
+      "whiteSpace": false
+    },
+    {
+      "id": "specialty-steel-producers",
+      "parentId": "gas-turbine-component-suppliers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Specialty Steel and Superalloy Producers",
+      "mechanism": "Turbine component manufacturers increase purchases of high-temperature alloys like Inconel and specialized steels, benefiting mills that produce these niche materials.",
+      "logic": "The complex metallurgy of turbine blades and combustion components requires advanced alloys with tight specifications, produced by a limited number of mills globally. As turbine order books extend, these mills see higher utilization and pricing. Long-term agreements with component makers lock in volume and price, improving revenue stability.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "superalloy",
+        "Inconel",
+        "high temperature steel",
+        "specialty steel",
+        "nickel alloy"
+      ],
+      "filingHits": 128,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "data center",
+    "electricity demand",
+    "power generation",
+    "grid infrastructure",
+    "load growth",
+    "hyperscale",
+    "interconnection",
+    "renewable energy",
+    "gas turbine",
+    "transmission"
+  ]
+}

@@ -1,0 +1,52 @@
+You are an equity analyst reading SEC filing excerpts for ACM Research, Inc. (ACMR). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Chiplet and Advanced Packaging (order 2, beneficiary). Mechanism: Hyperscalers adopt custom, efficient silicon via chiplet architectures, increasing demand for advanced packaging and interconnect technologies. Node logic: Efficiency gains increasingly rely on specialized chip designs that integrate multiple chiplets; this drives growth for companies providing advanced packaging, die-to-die interconnects, and heterogeneous integration. As server refresh cycles incorporate these designs, the revenue opportunity scales with the number of chips, not just server units.
+8-K filings in the last 12 months: 24
+
+Excerpts:
+[0] (8-K, filed 2026-06-22) Will growth be driven by advanced packaging capacity expansion or opportunities in overseas markets?
+[1] (8-K, filed 2026-06-22) To further advance component localization efforts, since 2025 we have designed and assembled two systems for front- end semiconductor manufacturing and advanced packaging applications using entirely domestically sourced components.
+[2] (10-K, filed 2026-03-02) We also develop, manufacture and sell a range of advanced packaging equipment to wafer assembly and packaging customers.
+[3] (10-K, filed 2026-03-02) Revenue from advanced packaging (excluding ECP), services and spares totaled $75.8 million, or 8.4% of total revenue in 2025, $52.2 million, or 6.7% of total revenue in 2024, and $50.5 million, or 9.1% of total revenue in 2023.
+[4] (10-K, filed 2026-03-02) By product line, we estimate an approximately $7.3 billion market opportunity is addressed by our wafer cleaning equipment, $5.3 billion by our Plasma-Enhanced Chemical Vapor Deposition, or PECVD, equipment, $3.0 billion by our Track equipment, $2.6 billion by our furnace equipment, $1.5 billion by our electro-chemical plating, or ECP, equipment, and more than $1.2 billion by our stress-free polishing, advanced packaging, wafer processing, and other processing equipment.
+[5] (10-K, filed 2026-03-02) 1 The information contains statistical data and estimates, including forecasts, that are based on information provided by Gartner , "Forecast: Semiconductor Capital Spending, Wafer Fab Equipment and Capacity, Worldwide, 4Q25 Update, Revenue Basis, Bob Johnson et al., 23 December 2025." 7 Table of C ontents Our Technology and Product Offerings Semiconductor manufacturing is becoming increasingly complex as device scaling, 3D architectures, advanced packaging, and power efficiency requirements place greater demands on yield-critical process steps.
+[6] (10-K, filed 2026-03-02) We develop and deliver a broad portfolio of differentiated semiconductor process equipment that spans front-end wafer fabrication through advanced packaging.
+[7] (10-K, filed 2026-03-02) Our current business mix is primarily from wet cleaning, plating, and advanced packaging.
+[8] (10-K, filed 2026-03-02) Our ECP portfolio addresses both front-end interconnect formation and back-end advanced packaging applications, while our furnace, PECVD, and track platforms are at earlier stages of customer evaluation and adoption, with meaningful long-term growth potential.
+[9] (10-K, filed 2026-03-02) Our Ultra ECP ap, or Advanced Packaging, technology was developed for back-end assembly processes to deliver a more uniform metal layer at the notch area of wafers prior to packaging.
+[10] (10-K, filed 2026-03-02) Advanced Packaging and other Back-End Processing Tools We leverage our technology and expertise to provide a range of single-wafer products for back-end wafer assembly and packaging customers.
+[11] (10-K, filed 2026-03-02) We develop, manufacture and sell a wide range of advanced packaging equipment, such as coaters, developers, photoresist strippers, scrubbers, wet etchers and copper-plating equipment.
+[12] (10-K, filed 2026-03-02) Our other advanced packaging products include: Ultra ECP ap, which delivers a uniform metal layer to finished wafers prior to packaging; Ultra C Developer, which applies liquid developer to selected parts of photoresist to resolve an image; Ultra C PR Megasonic-Assisted Stripper, which removes photoresist; Ultra C Scrubber, which scrubs and cleans wafers; Ultra C Thin Wafer Scrubber, which addresses a sub-market of cleaning very thin wafers for certain Asian assembly factories; and Ultra C Wet Etcher, which etches silicon wafers and copper and titanium interconnects.
+[13] (10-K, filed 2026-03-02) Our revenue by customer type was distributed as follows: Foundry/Logic/Other represented 59%, 71%, and 64% of total revenue in 2025, 2024, and 2023, respectively; Memory represented 27%, 22%, and 24%; and Advanced Packaging/Wafer Processing represented 14%, 7%, and 13% for the same periods.
+[14] (10-K, filed 2026-03-02) We also develop, manufacture and sell a range of advanced packaging tools to wafer assembly and packaging customers.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $901,309,000, net income $94,078,000, R&D $144,989,000, cash $757,373,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

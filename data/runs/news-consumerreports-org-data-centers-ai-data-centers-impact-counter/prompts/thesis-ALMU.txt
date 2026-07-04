@@ -1,0 +1,58 @@
+Draft a one-page thesis for Aeluma, Inc. (ALMU) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map position: Chiplet and Advanced Packaging (order 2, beneficiary, horizon near). Mechanism: Hyperscalers adopt custom, efficient silicon via chiplet architectures, increasing demand for advanced packaging and interconnect technologies. Efficiency gains increasingly rely on specialized chip designs that integrate multiple chiplets; this drives growth for companies providing advanced packaging, die-to-die interconnects, and heterogeneous integration. As server refresh cycles incorporate these designs, the revenue opportunity scales with the number of chips, not just server units.
+Market cap: $345MM
+Composite score: 74/100
+Subscores:
+- optionality: 4/5 (weight 0.25). The company already has a heterogeneous integration platform, but contracts for laser, datacom, and quantum applications indicate expansion into new business segments enabled by the chiplet theme.
+- revenueToOpportunity: 5/5 (weight 0.2). Current revenue ($4.7M) is small relative to recent contract awards ($4M + $11.7M) and the large TAM for advanced packaging, so success in this theme can significantly move the company.
+- catalystDensity: 2/5 (weight 0.15). Only two contract awards cited without specific upcoming milestones or design wins; 8-K cadence is high but no near-term events detailed beyond the awards themselves.
+- managementConviction: 4/5 (weight 0.1). Management uses specific language, names DARPA and government contracts, quantifies dollar amounts, and describes technical details (heterogeneous integration, nano-scale).
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-2,827,305 over 0 buys and 1 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $0, 2 named customer(s), 6 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2026-05-13, https://www.sec.gov/Archives/edgar/data/1828805/000121390026055893/ea028994301ex99-1.htm) Recent contracts include more than $4 million from U.S. government agencies to accelerate scaling Aeluma s semiconductor heterogeneous integration platform for laser, high-speed datacom, and quantum applications.
+[1] (10-K, filed 2025-09-09, https://www.sec.gov/Archives/edgar/data/1828805/000121390025086227/ea0256331-10k_aelumainc.htm) In September 2024, we received an $11.7 million contract with DARPA to develop heterogeneous integration technology for nano-scale semiconductors that is compatible with leading-edge and future advanced-node semiconductors.
+[2] (10-K, filed 2025-09-09, https://www.sec.gov/Archives/edgar/data/1828805/000121390025086227/ea0256331-10k_aelumainc.htm) 2 Our Technology Our technology is based on heterogeneous integration of compound semiconductor materials on large-diameter substrates such as silicon.
+[3] (10-K, filed 2025-09-09, https://www.sec.gov/Archives/edgar/data/1828805/000121390025086227/ea0256331-10k_aelumainc.htm) This heterogeneous integration enables the subsequent device fabrication and manufacturing in large-scale manufacturing environments that are suited to mass markets.
+[4] (10-K, filed 2025-09-09, https://www.sec.gov/Archives/edgar/data/1828805/000121390025086227/ea0256331-10k_aelumainc.htm) 33 Plan of Operations Our technology is based on heterogeneous integration of compound semiconductor materials on large-diameter substrates such as silicon.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-2.8MM across 0 buys and 1 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-06-30): revenue $4.7MM, cash $3.6MM.
+Customer graph: federal awards $0; named customers U.S. government agencies, DARPA; 6 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $36.4MM, about 1 trading days to build a position; net cash $3.6MM; cash runway about 12.6 quarters; share count up 15.9 percent in 12 months; shelf registration on file.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

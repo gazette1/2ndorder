@@ -1,0 +1,46 @@
+You are an equity analyst reading SEC filing excerpts for Innventure, Inc. (INV). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Server Energy Efficiency Suppliers (order 1, beneficiary). Mechanism: Hyperscalers invest in energy-efficient processors, cooling, and power management to lower electricity per compute, boosting sales for these component makers. Node logic: As electricity costs and grid constraints become limiting, hyperscalers prioritize efficiency technologies, leading to a rapid adoption cycle for advanced cooling and high-efficiency chips. Even with slower overall demand growth, spending on efficiency retrofits and new efficient hardware accelerates, driving revenue for suppliers in this niche.
+8-K filings in the last 12 months: 29
+
+Excerpts:
+[0] (8-K, filed 2026-04-21) EX-99.1 2 ef20071067_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Accelsius Announces General Availability of NeuCool IR150 and Launches NeuCool HyperStart Program at Data Center World 2026 WASHINGTON ( BUSINESS WIRE ) Accelsius, the leader in two-phase, direct-to-chip liquid cooling technology for AI and high-performance computing, today announced the general availability of the NeuCool IR150, the industry s first fully integrated rack-level cooling solution that combines a two-phase Coolant Distribution Unit (CDU), 42U of IT rack space, and built-in liquid and vapor manifolds in a single 800mm-wide enclosure, offering up to 150kW of capacity.
+[1] (8-K, filed 2026-04-21) Reimagined from the ground up for the liquid cooling era, the IR150 is a true plug-and-play system designed to move through established IT infrastructure channels, making two-phase liquid cooling accessible not just to hyperscalers but to enterprises and smaller operators for the first time.
+[2] (8-K, filed 2026-04-21) The company also unveiled the NeuCool HyperStart program, a new initiative created to support hyperscale operators, neocloud providers, and key partners in validating two-phase direct-to-chip liquid cooling solutions and accelerating their readiness for high-density, large-scale deployments.
+[3] (8-K, filed 2026-04-21) Accelsius believes the industry can, and should, continue to move quickly but responsible planning for more efficient AI factories also requires a hard look at waterless and more energy-efficient liquid cooling architectures from day one.
+[4] (8-K, filed 2026-04-21) Traditional single-phase liquid cooling was the industry s first attempt to move beyond air, but it was the wrong bet.
+[5] (8-K, filed 2026-04-21) These systems rely on treated water circulated directly to the chip, introducing leak risk, corrosion concerns, and continuous water-quality maintenance, and their complexity makes them nearly impossible to distribute through standard IT channels, keeping liquid cooling out of reach for all but the largest operators.
+[6] (8-K, filed 2026-04-21) Introducing the NeuCool HyperStart Program The NeuCool HyperStart program gives hyperscale operators, neocloud providers, and key partners a structured path to validate two-phase direct-to-chip liquid cooling alongside complementary single-phase water cooling approaches and bring these technologies into their data center reference designs and product roadmaps.
+[7] (8-K, filed 2026-04-21) Delivering AI-Driven Scale in the Face of Historic Constraints: Josh Claman, CEO of Accelsius, joins a workshop panel of operators, researchers, and technology providers to discuss how modularity, reference designs, liquid cooling, and new management strategies are enabling gigawatt-scale AI deployments despite historic constraints in power, materials, and people.
+[8] (8-K, filed 2026-04-21) The proprietary NeuCool platform provides best-in-class thermal efficiencies through a safe, two-phase, direct-to-chip liquid cooling system that scales from single racks to entire data centers.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-4,260,110 across 5 buys and 6 sales by 5 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $2,056,000, net income $-293,317,000, R&D $25,025,000, cash $60,449,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

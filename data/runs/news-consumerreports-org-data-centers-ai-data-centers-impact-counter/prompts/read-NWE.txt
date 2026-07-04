@@ -1,0 +1,41 @@
+You are an equity analyst reading SEC filing excerpts for NorthWestern Energy Group, Inc. (NWE). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Renewable Project Development Slowdown (order 2, at_risk). Mechanism: Slower data center load growth reduces demand for new renewable power purchase agreements, hurting project returns and development pipelines. Node logic: Renewable developers often site projects based on expected demand from hyperscalers; without that anchor load, projects may not obtain financing or face lower merchant power prices. This disproportionately impacts companies with large development pipelines in markets that were betting on data center load.
+8-K filings in the last 12 months: 20
+
+Excerpts:
+[0] (10-K, filed 2026-02-12) We have several other long-term power purchase agreements including contracts for 135 MWs nameplate capacity from wind generation, 310 MWs from unspecified resources, 52 MWs of natural gas generation, and 13 MWs of hydro supply.
+[1] (10-K, filed 2026-02-12) We also purchase the output of four wind projects, three of which are QFs, under power purchase agreements.
+[2] (10-K, filed 2026-02-12) In the past, we have relied upon both in-state and out-of-state power purchase agreements for grid reliability and to physically serve customers.
+[3] (10-K, filed 2026-02-12) Revenues are also impacted by customer growth and usage, the latter of which is primarily affected by weather and the impact of energy efficiency initiatives and investment.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $414,265,000, net income $44,691,000, R&D $n/a, cash $8,781,000.
+Customer graph: federal awards $209,190 across 2 awards (top agency Department of Health and Human Services); 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

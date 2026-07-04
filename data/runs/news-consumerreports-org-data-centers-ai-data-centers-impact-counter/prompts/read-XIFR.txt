@@ -1,0 +1,42 @@
+You are an equity analyst reading SEC filing excerpts for XPLR Infrastructure, LP (XIFR). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Gas Infrastructure Utilization Risk (order 1, at_risk). Mechanism: Reduced need for new gas-fired generation to serve data centers lowers future natural gas demand and pipeline project returns. Node logic: Much of the expected growth in natural gas demand is tied to data center power; a 95 GW ceiling on data center electricity in 2028 means fewer new gas plants, reducing the need for pipeline capacity and associated infrastructure. This hits midstream companies heavily exposed to gas production and transport for power generation.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (8-K, filed 2025-11-12) SECTION 7 REGULATION FD Item 7.01 Regulation FD Disclosure On November 12, 2025, in connection with the private offering discussed in Item 8.01 of this current report on Form 8-K, members of XPLR Infrastructure, LP's (XPLR) senior management team plan to discuss, among other things, XPLR's pro forma adjusted EBITDA, free cash flow before growth (FCFBG) and HoldCo cash available for debt service (CADS) for the trailing twelve months ended September 30, 2025 which illustrate the effect of the September 22, 2025 sale of XPLR's investment in natural gas pipeline assets in Pennsylvania.
+[1] (10-K, filed 2026-02-17) Discontinued operations In September 2025, indirect subsidiaries of XPLR completed the sale of their ownership interests in Meade Pipeline Co, LLC (Meade), which owned an investment in natural gas pipeline assets in Pennsylvania (Meade pipeline investment).
+[2] (10-K, filed 2026-02-17) In December 2023, XPLR sold its interests in a portfolio of seven natural gas pipelines assets in Texas (Texas pipelines).
+[3] (10-K, filed 2026-02-17) The expected need for electric power will require utilities and other wholesale end users to look to new electricity generation across a wide range of energy generating options including renewable and other clean energy sources, such as battery storage, natural gas-fired generation and other adjacent and complementary infrastructure.
+[4] (10-K, filed 2026-02-17) In 2023, XPLR paid aggregate consideration of approximately $792 million in cash for the buyout of all of the Class B noncontrolling membership interests in South Texas Midstream, LLC, XPLR's subsidiary which owned natural gas pipelines in Texas (see Note 4), and $180 million in cash for the buyout of 15% of the originally issued Class B noncontrolling membership interests in XPLR Renewables II.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,188,000,000, net income $-28,000,000, R&D $n/a, cash $960,000,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

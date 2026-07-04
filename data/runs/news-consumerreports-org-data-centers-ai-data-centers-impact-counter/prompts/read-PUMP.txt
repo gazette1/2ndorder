@@ -1,0 +1,52 @@
+You are an equity analyst reading SEC filing excerpts for ProPetro Holding Corp. (PUMP). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Gas Turbine Order Declines (order 2, at_risk). Mechanism: Lower need for new gas plants reduces orders and service contracts for gas turbine manufacturers. Node logic: Turbine manufacturers rely on large, infrequent orders from utilities; cancellation or deferral of planned plants directly cuts into their order books. With data center demand a major growth driver, a shortfall leads to overcapacity in turbine production and margin compression.
+8-K filings in the last 12 months: 15
+
+Excerpts:
+[0] (8-K, filed 2026-05-07) ProPetro intends to use the remainder of the net proceeds from the offering for general corporate purposes, including to fund growth capital for additional power generation equipment.
+[1] (10-K, filed 2026-02-19) In December 2024, we formed a new subsidiary, ProPetro Energy Solutions, LLC, doing business as PROPWR, which provides turnkey power generation services to oil and gas producers and for general industrial projects and data centers using mobile power generation equipment installed at customers sites.
+[2] (10-K, filed 2026-02-19) This subsidiary began revenue-generating activities during the third quarter of fiscal year 2025 and has entered into contractual arrangements with equipment manufacturers to purchase mobile natural gas-fueled power generation equipment, including turbine generator sets, reciprocating engines, auxiliary equipment and battery energy storage solution equipment.
+[3] (10-K, filed 2026-02-19) The power generation services industry is impacted by prices and availability of electricity and power generation equipment including turbines, reciprocating engines and necessary ancillary equipment.
+[4] (10-K, filed 2026-02-19) Power Generation Services In December 2024, we launched our PROPWR SM business line which provides turnkey power generation services to oil and gas producers and non-oil and gas applications, such as general industrial projects and data centers, using mobile power generation equipment installed at customers sites.
+[5] (10-K, filed 2026-02-19) This subsidiary began revenue generating activities during the third quarter of fiscal year 2025 and has entered into contractual arrangements with equipment manufacturers to purchase mobile natural gas-fueled power generation equipment, including turbine generator sets, reciprocating engines, auxiliary equipment and battery energy storage solution equipment.
+[6] (10-K, filed 2026-02-19) In December 2024, we formed a new subsidiary, ProPetro Energy Solutions, LLC, ( PROPWR ), which provides turnkey power generation services to oil and gas producers and non-oil and gas applications such as general industrial projects and data centers using mobile power generation equipment installed at customers sites.
+[7] (10-K, filed 2026-02-19) Capital expenditures incurred included $198.4 million related to equipment orders for our Power Generation operating segment; secured a financing arrangement with Caterpillar Financial Services Corporation ( Caterpillar ) for a maximum total available amount of $103.7 million to support the purchase of certain natural gas-fueled power generation equipment; secured a lease facility described in Note 17.
+[8] (10-K, filed 2026-02-19) The Company intends to use the net proceeds from this sale for general corporate purposes, including to fund growth capital for additional power generation equipment .
+[9] (10-K, filed 2026-02-19) 40 In February 2026, the Company entered into an amendment to the Caterpillar Equipment Loan Agreement, under which Caterpillar increased the availability of funds by $53.6 million, which resulted in a maximum total available amount of $157.3 million to support the purchase of certain natural gas-fueled power generation equipment.
+[10] (10-K, filed 2026-02-19) Our power generation operations consist of mobile natural gas-fueled power generation equipment, including turbine generator sets, reciprocating engines, auxiliary equipment and battery energy storage solution equipment.
+[11] (10-K, filed 2026-02-19) Additionally, we generate revenue through our PROPWR SM power generation business by providing turnkey power generation services to oil and gas producers and non-oil and gas applications such as general industrial projects and data centers using mobile power generation equipment installed at customers sites.
+[12] (10-K, filed 2026-02-19) The increase was primarily attributable to the addition of loans under the Caterpillar Equipment Loan Agreement (as defined below) to support the purchase of certain mobile natural gas-fueled power generation equipment during the year ended December 31, 2025 .
+[13] (10-K, filed 2026-02-19) Additionally, on December 29, 2025, we entered into the Stonebriar Equipment Lease Facility to support the lease of certain mobile power generation equipment, including turbine generator sets along with auxiliary equipment, for our PROPWR SM business line, and in January 2026, we received approximately $163.3 million from the 2026 Common Stock Offering.
+[14] (10-K, filed 2026-02-19) The Company intends to use the net proceeds from this sale for general corporate purposes, including to fund growth capital for additional power generation equipment.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-872,006 across 2 buys and 4 sales by 2 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,269,158,000, net income $824,000, R&D $n/a, cash $91,334,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

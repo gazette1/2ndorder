@@ -1,0 +1,50 @@
+You are an equity analyst reading SEC filing excerpts for Goosehead Insurance, Inc. (GSHD). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map node this company was mapped to: Utility Equity Investors (order 2, at_risk). Mechanism: Political backlash from rising C&I rates leads to unfavorable rate case outcomes, tightening allowed returns on equity and limiting earnings growth for regulated utilities. Node logic: When industrial rates spike, consumer advocates and large customers pressure regulators to cap utility profits. This can result in lower authorized ROEs, disallowances of prudently incurred costs, or mandates to absorb some grid costs. Utilities with heavy data center exposure may see valuation compression as growth expectations are tempered.
+8-K filings in the last 12 months: 7
+
+Excerpts:
+[0] (10-Q, filed 2026-04-23) Exhibits 42 SIGNATURES 42 2 Commonly used defined terms As used in this Quarterly Report on Form 10-Q ("Form 10-Q"), unless the context indicates or otherwise requires, the following terms have the following meanings: Ancillary Revenue: Revenue that is supplemental to our Core Revenue and Cost Recovery Revenue, Ancillary Revenue is unpredictable and often outside of the Company's control.
+[1] (10-Q, filed 2026-04-23) Cost Recovery Revenue: Revenue received by the Company associated with cost recovery efforts associated with selling and financing franchises.
+[2] (10-Q, filed 2026-04-23) Included in Cost Recovery Revenue are Initial Franchise Fees and Interest Income.
+[3] (10-Q, filed 2026-04-23) Our revenue streams can be viewed in three distinct categories: Core Revenue, Cost Recovery Revenue, and Ancillary Revenue, which are non-GAAP measures.
+[4] (10-Q, filed 2026-04-23) A reconciliation of Core Revenue, Cost Recovery Revenue, and Ancillary Revenue to total revenue, the most directly comparable financial measure presented in accordance with GAAP, are set forth under "Key performance indicators".
+[5] (10-Q, filed 2026-04-23) Cost Recovery Revenue: Initial Franchise Fees - one-time Cost Recovery Revenue stream per franchise unit that covers the Company's costs to recruit, train, onboard, and support the franchise for the first year.
+[6] (10-Q, filed 2026-04-23) Interest Income - like Initial Franchise Fees, interest income is a Cost Recovery Revenue stream that reimburses the Company for those franchises on a payment plan.
+[7] (10-Q, filed 2026-04-23) Non-GAAP Measures Core Revenue, Cost Recovery Revenue, Ancillary Revenue, Adjusted EBITDA, Adjusted EBITDA Margin, and Adjusted EPS are not measures of financial performance under GAAP and should not be considered substitutes for total revenue, net income, net income margin or earnings per share, which we consider to be the most directly comparable GAAP measures.
+[8] (10-Q, filed 2026-04-23) Core Revenue, Cost Recovery Revenue, Ancillary Revenue, Adjusted EBITDA, Adjusted EBITDA Margin, and Adjusted EPS have limitations as analytical tools, and when assessing our operating performance, you should not consider Core Revenue, Cost Recovery Revenue, Ancillary Revenue, Adjusted EBITDA, Adjusted EBITDA Margin, or Adjusted EPS in isolation or as substitutes for total revenue, net income, earnings per share, as applicable, or other consolidated income statement data prepared in accordance with GAAP.
+[9] (10-Q, filed 2026-04-23) Other companies may calculate Core Revenue, Cost Recovery Revenue, Ancillary Revenue, Adjusted EBITDA, Adjusted EBITDA Margin, and Adjusted EPS differently than we do, limiting their usefulness as comparative measures.
+[10] (10-Q, filed 2026-04-23) Cost Recovery Revenue Cost Recovery Revenue is a supplemental measure of our performance and includes Initial Franchise Fees and Interest Income.
+[11] (10-Q, filed 2026-04-23) We believe that Cost Recovery Revenue is an appropriate measure of operating performance because it summarizes revenues that are viewed by management as cost recovery mechanisms.
+[12] (10-Q, filed 2026-04-23) Cost Recovery Revenue increased by $0.2 million, or 13%, to $1.7 million for the three months ended March 31, 2026 from $1.5 million for the three months ended March 31, 2025.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-3,539,115 across 10 buys and 2 sales by 6 insider(s).
+Fundamentals (XBRL, as of 2024-12-31): revenue $0, net income $27,831,000, R&D $n/a, cash $34,390,000.
+Customer graph: federal awards $0 across 0 awards; 7 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

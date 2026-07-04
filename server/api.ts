@@ -177,7 +177,12 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
 
     if (req.method === 'GET' && !action) {
       const job = jobs.get(id);
-      if (job && job.status !== 'ready') return send(res, 200, { status: job.status, error: job.error });
+      // Serve the payload the moment the base run is complete on disk, even if
+      // the job is still working (an article run keeps going to compute the
+      // counter-scenario; the bull side should not wait for the bear side).
+      if (job && job.status !== 'ready' && !hasRun(id)) {
+        return send(res, 200, { status: job.status, error: job.error });
+      }
       if (!hasRun(id)) return send(res, 404, { error: 'no such run' });
       return send(res, 200, { status: 'ready', payload: buildPayload(id) });
     }

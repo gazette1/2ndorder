@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Capstone Energy Plus, Inc. (CGEH). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Industrial Electricity Cost Relief (order 2, beneficiary). Mechanism: Easing electricity demand pressure reduces rates for large industrial consumers, lowering their cost of production. Node logic: Data center load growth has been a key driver of rising electricity rates in many regions; with that growth capped, rate increases moderate or reverse. Energy-intensive manufacturers see direct margin improvements as a major input cost falls, boosting competitiveness.
+8-K filings in the last 12 months: 14
+
+Excerpts:
+[0] (10-K, filed 2026-06-25) These integrated "AI Power Blocks" combine power, liquid cooling, and compute into a rapidly deployable, grid-independent system scalable from edge deployments to AI giga-campuses exceeding 1 GW.
+[1] (10-K, filed 2026-06-25) Energy Efficiency - CHP/CCHP Energy efficiency applications represent one of Capstone's most established and economically compelling verticals.
+[2] (10-K, filed 2026-06-25) Recovering the high-grade waste heat and converting it into chilled water at one-tenth the energy consumption of electric air-cooled chillers currently used by data centers not only improves energy efficiency to approximately 85%, but also significantly lowers the carbon footprint of the facility.
+[3] (10-K, filed 2026-06-25) These offerings include Rental Services, Build-Own-Operate-Maintain ("BOOM"), under either a power purchase agreements ("PPA") or an energy services agreement ( ESA ), as well as lease-to-own structures and embedded service contracts ("ESC"), where we can help our clients lower their Capex and finance the difference under a long-term service agreement.
+[4] (10-K, filed 2026-06-25) Our geographic strategy is anchored by a consistent set of core verticals, energy efficiency, natural resources, renewable energy, and critical power, while remaining responsive to the distinct regulatory, economic, and infrastructure dynamics that shape opportunity in each region.
+[5] (10-K, filed 2026-06-25) The primary verticals driving North American demand include energy efficiency, renewable energy, natural resources, and EV charging.
+[6] (10-K, filed 2026-06-25) Longer term, the energy efficiency and natural resources verticals are also expected to benefit from continued growth in domestic hydrocarbon production, low downstream natural gas pricing, and the regulatory and public acceptance of distributed generation as a core component of grid modernization and resilience strategy.
+[7] (10-K, filed 2026-06-25) Latin America Latin America is a dynamic and growing market for Capstone, with primary focus on energy efficiency, renewable energy, and natural resources.
+[8] (10-K, filed 2026-06-25) Asia and Australia Capstone targets energy efficiency, renewable energy, and natural resources applications across Asia and Australia.
+[9] (10-K, filed 2026-06-25) Our historical strength in Southeast Asia and Australia has been in energy efficiency and oil and gas, and we see continued growth potential in both.
+[10] (10-K, filed 2026-06-25) Industrial manufacturing expansion across Southeast Asia, driven by supply chain diversification serving European and North American markets, is creating new demand for energy efficiency and renewable solutions, as manufacturers adapt to carbon-related regulations including the EU's Carbon Border Adjustment Mechanism and increasingly stringent green procurement standards from multinational customers.
+[11] (10-K, filed 2026-06-25) In addition, as part of our business strategy, we are focusing our marketing efforts on the data center, energy efficiency, renewable energy and natural resources markets, and expanding our EaaS business.
+[12] (10-K, filed 2026-06-25) The amount of energy used for AI has also received significant attention, and it is expected that energy efficiency and sustainability will be critical factors regulating AI data centers.
+[13] (10-K, filed 2026-06-25) Any future regulation of AI systems and related activities, including energy efficiency, could adversely affect our business and operations.
+[14] (10-K, filed 2026-06-25) A deceleration in AI adoption, changes in customer capital expenditure priorities, financing constraints (including reduced availability of project finance or tax equity), longer permitting or construction lead times, local moratoria, protests or siting restrictions on data centers or distributed generation, or improved grid interconnection timelines could adversely affect AI data centers demand for our solutions.
+[15] (10-K, filed 2026-06-25) In the energy efficiency market, we continue to expand our market presence in hotels, office buildings, hospitals, retail and industrial applications globally.
+[16] (10-K, filed 2026-06-25) The energy efficiency segment remained the leading market segment in Fiscal 2026.
+[17] (10-K, filed 2026-06-25) Given the volatility of the oil and gas market, our business strategy is to ensure diversification by also targeting projects within the energy efficiency and renewable energy markets.
+[18] (10-K, filed 2026-06-25) In our primary products and applications (energy efficiency, natural resources, renewable energy, critical power supply, microgrid, bridge power transportation and EV charging, ports, and AI data center products), we identify specific targeted vertical market segments.
+[19] (10-K, filed 2026-06-25) Given the volatility of the oil and gas market, we have refocused our business strategy to target projects within the energy efficiency market.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $295,000 across 6 buys and 0 sales by 6 insider(s).
+Fundamentals (XBRL, as of 2026-03-31): revenue $106,004,000, net income $2,825,000, R&D $3,621,000, cash $28,179,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

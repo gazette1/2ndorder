@@ -1,0 +1,56 @@
+Draft a one-page thesis for AMERICAN EAGLE OUTFITTERS INC (AEO) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+IMPORTANT: this name sits on an AT-RISK node. It is a short or avoid candidate, not a long. Write it that way: the bear case section argues why the SHORT fails (what protects the company), and the non-linear case is the downside path where the scenario compounds against it.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map position: Hyperscale Data Center Operators (order 1, at_risk, horizon near). Mechanism: Electricity is the largest operating cost for data centers; surging demand and constrained grids raise power prices and delay new capacity, pressuring margins and growth. Hyperscalers need massive amounts of reliable, low-cost power to maintain cloud service margins. In markets like Northern Virginia, interconnection queues and price increases erode the cost advantage. Additionally, securing enough power for expansion becomes challenging, potentially shifting capital to other regions with cheaper or more available electricity, but with higher latency or construction costs.
+Market cap: $2758MM
+Composite score: 6/100
+Subscores:
+- optionality: 0/5 (weight 0.25). The excerpt discusses energy costs only as a macroeconomic risk to consumer spending, with no mention of data centers or power infrastructure.
+- revenueToOpportunity: 0/5 (weight 0.2). The company's revenue is derived from retail, with no mention of data center or power infrastructure exposure.
+- catalystDensity: 0/5 (weight 0.15). No catalysts related to the theme are mentioned in the excerpts.
+- managementConviction: 0/5 (weight 0.1). The excerpt uses generic risk-factor language, not specific strategic commitment to the theme.
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-27,011,300 over 0 buys and 8 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 3/5 (weight 0.2). Customer graph: gov awards $0, 0 named customer(s), 13 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/919012/000119312526132097/aeo-20260131.htm) The success of our operations is highly dependent on consumer spending, which can be negatively impacted by economic conditions and other factors that affect disposable consumer income, including income taxes, payroll taxes, employment, consumer debt, interest rates, increases in energy costs and consumer confidence.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-27.0MM across 0 buys and 8 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2026-01-31): revenue $5547.2MM, cash $238.9MM.
+Customer graph: federal awards $0; named customers none in excerpts; 13 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $91.8MM, about 1 trading days to build a position; net cash $238.9MM; share count down 2.9 percent in 12 months.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

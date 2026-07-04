@@ -1,0 +1,45 @@
+You are an equity analyst reading SEC filing excerpts for SIFCO INDUSTRIES INC (SIF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map node this company was mapped to: Power Generation Equipment Manufacturers (order 1, beneficiary). Mechanism: Utilities and independent power producers order new gas turbines, generators, and transformers to meet data center load, expanding backlogs and revenue for equipment makers. Node logic: The scale of demand increase requires new dispatchable generation, primarily natural gas combined-cycle plants and peakers. Equipment manufacturers have limited production capacity, leading to extended delivery times and pricing power. A supercycle in orders lengthens revenue visibility and improves margins beyond typical cyclical upswings.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (10-Q, filed 2026-05-08) Revenue The Company produces forged components for (i) turbine engines that power commercial, business and regional aircraft as well as military aircraft and other military applications; (ii) airframe applications for a variety of aircraft; (iii) industrial gas and steam turbine engines for power generation units; and (iv) commercial space, semiconductor and other commercial applications.
+[1] (10-Q, filed 2026-05-08) Results of Operations Overview The Company produces forged components for (i) turbine engines that power commercial, business and regional aircraft as well as military aircraft and other military applications; (ii) airframe applications for a variety of aircraft; (iii) industrial gas and steam turbine engines for power generation units; and (iv) commercial space, semiconductor and other commercial applications.
+[2] (10-Q, filed 2026-05-08) Three Months Ended March 31, 2026 compared with Three Months Ended March 31, 2025 Net Sales Net sales comparative information for the second quarter of fiscal 2026 and 2025 is as follows: (Dollars in millions) Three Months Ended March 31, Increase/ (Decrease) 2026 2025 Aerospace components for: Fixed wing aircraft $ 16.3 $ 14.4 $ 1.9 Rotorcraft 7.3 2.9 4.4 Commercial space 0.8 0.6 0.2 Energy components for power generation units 0.1 0.7 (0.6) Commercial product and other revenue 1.9 0.4 1.5 Total $ 26.4 $ 19.0 $ 7.4 Net sales for the second quarter of fiscal 2026 increased $7.4 million to $26.4 million, compared with $19.0 million in the comparable period of fiscal 2025.
+[3] (10-Q, filed 2026-05-08) Net sales for the energy components for power generation units decreased by $0.6 million, primarily due to lower customer demand.
+[4] (10-Q, filed 2026-05-08) Commercial net sales increased $0.1 million to $8.4 million in the second quarter of fiscal 2026, compared with $8.3 million in the comparable period of fiscal 2025, primarily due to higher demand in the commercial aerospace market, partially offset by reduced procurement of components the Company provides for the power generation market.
+[5] (10-Q, filed 2026-05-08) 18 Six Months Ended March 31, 2026 compared with Six Months Ended March 31, 2025 Net Sales Net sales comparative information for the first six months of fiscal 2026 and 2025 is as follows: (Dollars in millions) Six Months Ended March 31, Increase/ (Decrease) 2026 2025 Aerospace components for: Fixed wing aircraft $ 26.8 $ 27.2 $ (0.4) Rotorcraft 16.5 6.3 10.2 Commercial space 2.0 3.1 (1.1) Energy components for power generation units 0.4 1.7 (1.3) Commercial product and other revenue 4.7 1.6 3.1 Total $ 50.4 $ 39.9 $ 10.5 Net sales for the first six months of fiscal 2026 increased $10.5 million to $50.4 million, compared with $39.9 million in the comparable period of fiscal 2025.
+[6] (10-Q, filed 2026-05-08) Net sales for the energy components for power generation units decreased by $1.3 million due to lower customer demand.
+[7] (10-Q, filed 2026-05-08) Commercial net sales decreased $2.4 million to $17.1 million in the first six months of fiscal 2026, compared with $19.5 million in the comparable period of fiscal 2025, reflecting reduced demand in commercial space market and reduced procurement of components the Company provides for the power generation market.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-09-30): revenue $84,815,000, net income $-729,000, R&D $0, cash $491,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

@@ -1,0 +1,45 @@
+You are an equity analyst reading SEC filing excerpts for Soluna Holdings, Inc (SLNH). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Liquid Cooling Component Suppliers (order 2, beneficiary). Mechanism: Higher rack power density from efficient computing requires direct liquid cooling, boosting demand for cold plates, pumps, and fluid handling. Node logic: As servers become more efficient per compute operation, power density rises, making liquid cooling essential to manage heat. This creates a rapidly growing market for the component suppliers that provide the cooling infrastructure, with revenue directly tied to the number of servers deployed with liquid cooling.
+8-K filings in the last 12 months: 54
+
+Excerpts:
+[0] (10-K, filed 2026-03-30) In Bitcoin mining, energy efficiency is often measured in joules per hash.
+[1] (10-K, filed 2026-03-30) It contemplates new direct liquid cooling technologies, proprietary building and power designs called Helix.
+[2] (10-K, filed 2026-03-30) The project has a Power Purchase Agreement ( PPA ) that requires the curtailment of the site during certain hours of the day to help balance the Kentucky grid.
+[3] (10-K, filed 2026-03-30) These assessments serve as a precursor to securing exclusive power purchase agreements (PPAs), acquiring or leasing land, and executing other pre-construction development activities necessary to advance projects to shovel-ready status.
+[4] (10-K, filed 2026-03-30) The development and operation of HPC and AI data centers depend on the timely availability of specialized equipment and materials, including transformers, switchgear, generators, cooling systems, liquid cooling components, network equipment, fiber infrastructure, control systems and other critical components.
+[5] (10-K, filed 2026-03-30) In some cases, we have entered long-term power purchase agreements (PPAs) for renewable energy and credits at fixed prices.
+[6] (10-K, filed 2026-03-30) Climate-related risks such as droughts, flooding, or regulations around energy efficiency may increase over time and could affect data center development or operations.
+[7] (10-K, filed 2026-03-30) ( SEI ) to own and manage renewable energy power purchase agreements and land leases through a series of service subsidiaries.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-495,018 across 1 buys and 27 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $29,717,000, net income $-53,411,000, R&D $1,491,000, cash $462,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

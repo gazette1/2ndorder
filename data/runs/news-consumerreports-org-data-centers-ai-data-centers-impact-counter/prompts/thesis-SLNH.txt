@@ -1,0 +1,61 @@
+Draft a one-page thesis for Soluna Holdings, Inc (SLNH) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map position: Liquid Cooling Component Suppliers (order 2, beneficiary, horizon near). Mechanism: Higher rack power density from efficient computing requires direct liquid cooling, boosting demand for cold plates, pumps, and fluid handling. As servers become more efficient per compute operation, power density rises, making liquid cooling essential to manage heat. This creates a rapidly growing market for the component suppliers that provide the cooling infrastructure, with revenue directly tied to the number of servers deployed with liquid cooling.
+Market cap: $188MM
+Composite score: 21/100
+Subscores:
+- optionality: 1/5 (weight 0.25). The excerpts mention liquid cooling technologies (Helix) and list liquid cooling components as needed equipment, but the company is a data center developer, not a component supplier. No evidence of investment in manufacturing liquid cooling components.
+- revenueToOpportunity: 2/5 (weight 0.2). Revenue is small ($29.7M) relative to a large potential TAM for liquid cooling, but the company's current revenue comes from other activities (Bitcoin mining, data center development) as shown in excerpts about PPAs and curtailment.
+- catalystDensity: 0/5 (weight 0.15). No specific near-term catalysts are mentioned in the excerpts. There are no design wins, qualification milestones, capacity additions, or named customer programs. The 8-K count is high (54) but filings are not elaborated.
+- managementConviction: 1/5 (weight 0.1). Management mentions 'new direct liquid cooling technologies' and the 'Helix' program, but there are no quantified targets, committed capex, or specific timelines. The language is general and also includes risk factors about energy efficiency regulations.
+- insiderConviction: 1/5 (weight 0.1). Form 4: net $-495,018 over 1 buys and 27 sales by 1 insider(s), trailing 12 months.
+- customerValidation: 2/5 (weight 0.2). Customer graph: gov awards $0, 0 named customer(s), 1 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) In Bitcoin mining, energy efficiency is often measured in joules per hash.
+[1] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) It contemplates new direct liquid cooling technologies, proprietary building and power designs called Helix.
+[2] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) The project has a Power Purchase Agreement ( PPA ) that requires the curtailment of the site during certain hours of the day to help balance the Kentucky grid.
+[3] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) These assessments serve as a precursor to securing exclusive power purchase agreements (PPAs), acquiring or leasing land, and executing other pre-construction development activities necessary to advance projects to shovel-ready status.
+[4] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) The development and operation of HPC and AI data centers depend on the timely availability of specialized equipment and materials, including transformers, switchgear, generators, cooling systems, liquid cooling components, network equipment, fiber infrastructure, control systems and other critical components.
+[5] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) In some cases, we have entered long-term power purchase agreements (PPAs) for renewable energy and credits at fixed prices.
+[6] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) Climate-related risks such as droughts, flooding, or regulations around energy efficiency may increase over time and could affect data center development or operations.
+[7] (10-K, filed 2026-03-30, https://www.sec.gov/Archives/edgar/data/64463/000162828026021847/slnh-20251231.htm) ( SEI ) to own and manage renewable energy power purchase agreements and land leases through a series of service subsidiaries.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-495M across 1 buys and 27 sales by 1 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $29.7MM, cash $462M.
+Customer graph: federal awards $0; named customers none in excerpts; 1 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $35.3MM, about 1 trading days to build a position; net cash $-17.4MM; cash runway about 0.2 quarters; share count up 1163.3 percent in 12 months; shelf registration on file.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts: M for thousands, MM for millions.
+- Do not pad. Under 600 words.
+
+Return only the markdown document.

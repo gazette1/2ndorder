@@ -1,0 +1,38 @@
+You are an equity analyst reading SEC filing excerpts for AMERICAN EAGLE OUTFITTERS INC (AEO). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand doubling from 80GW to 150GW between 2025 and 2028, driving a supercycle in power generation and grid infrastructure investment.
+Map node this company was mapped to: Hyperscale Data Center Operators (order 1, at_risk). Mechanism: Electricity is the largest operating cost for data centers; surging demand and constrained grids raise power prices and delay new capacity, pressuring margins and growth. Node logic: Hyperscalers need massive amounts of reliable, low-cost power to maintain cloud service margins. In markets like Northern Virginia, interconnection queues and price increases erode the cost advantage. Additionally, securing enough power for expansion becomes challenging, potentially shifting capital to other regions with cheaper or more available electricity, but with higher latency or construction costs.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (10-K, filed 2026-03-30) The success of our operations is highly dependent on consumer spending, which can be negatively impacted by economic conditions and other factors that affect disposable consumer income, including income taxes, payroll taxes, employment, consumer debt, interest rates, increases in energy costs and consumer confidence.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-27,011,300 across 0 buys and 8 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2026-01-31): revenue $5,547,236,000, net income $191,983,000, R&D $n/a, cash $238,923,000.
+Customer graph: federal awards $0 across 0 awards; 13 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

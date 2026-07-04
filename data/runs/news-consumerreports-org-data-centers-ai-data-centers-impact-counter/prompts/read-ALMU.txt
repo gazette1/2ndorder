@@ -1,0 +1,42 @@
+You are an equity analyst reading SEC filing excerpts for Aeluma, Inc. (ALMU). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US data center electricity demand reaches only 95GW by 2028 as hyperscaler efficiency gains outpace computing demand growth.
+Map node this company was mapped to: Chiplet and Advanced Packaging (order 2, beneficiary). Mechanism: Hyperscalers adopt custom, efficient silicon via chiplet architectures, increasing demand for advanced packaging and interconnect technologies. Node logic: Efficiency gains increasingly rely on specialized chip designs that integrate multiple chiplets; this drives growth for companies providing advanced packaging, die-to-die interconnects, and heterogeneous integration. As server refresh cycles incorporate these designs, the revenue opportunity scales with the number of chips, not just server units.
+8-K filings in the last 12 months: 11
+
+Excerpts:
+[0] (8-K, filed 2026-05-13) Recent contracts include more than $4 million from U.S. government agencies to accelerate scaling Aeluma s semiconductor heterogeneous integration platform for laser, high-speed datacom, and quantum applications.
+[1] (10-K, filed 2025-09-09) In September 2024, we received an $11.7 million contract with DARPA to develop heterogeneous integration technology for nano-scale semiconductors that is compatible with leading-edge and future advanced-node semiconductors.
+[2] (10-K, filed 2025-09-09) 2 Our Technology Our technology is based on heterogeneous integration of compound semiconductor materials on large-diameter substrates such as silicon.
+[3] (10-K, filed 2025-09-09) This heterogeneous integration enables the subsequent device fabrication and manufacturing in large-scale manufacturing environments that are suited to mass markets.
+[4] (10-K, filed 2025-09-09) 33 Plan of Operations Our technology is based on heterogeneous integration of compound semiconductor materials on large-diameter substrates such as silicon.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-2,827,305 across 0 buys and 1 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-06-30): revenue $4,665,000, net income $-3,022,000, R&D $1,295,000, cash $3,628,000.
+Customer graph: federal awards $0 across 0 awards; 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
