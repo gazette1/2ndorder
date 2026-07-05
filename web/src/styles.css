@@ -279,6 +279,18 @@ body {
   line-height: 1.5;
 }
 
+.macro-fomc {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 6px 0 0;
+  line-height: 1.55;
+  max-width: 720px;
+}
+
+.macro-fomc .macro-label {
+  color: var(--faint);
+}
+
 /* Action bar */
 
 .action-bar-wrap {

@@ -48,13 +48,28 @@ export async function corporateEvents(cik: string): Promise<CorporateEvent[]> {
       signal: codes.some((c) => SIGNAL_ITEMS.has(c)),
       url: docUrl(cik, r.accessionNumber[i], r.primaryDocument[i]),
       accession: r.accessionNumber[i],
+      exhibitUrl: null,
     });
+  }
+
+  // Investor materials ride 8-Ks as EX-99 exhibits (decks under Reg FD 7.01,
+  // releases under 2.02/8.01). Link the exhibit directly on the most recent
+  // few events; bounded so a heavy filer does not stall enrichment.
+  let looked = 0;
+  for (const e of events) {
+    if (looked >= 4) break;
+    const codes = e.items.map((i) => i.code);
+    if (!e.signal && !codes.includes('7.01') && !codes.includes('2.02')) continue;
+    looked++;
+    const name = await exhibit99Name(cik, e.accession);
+    if (name) e.exhibitUrl = docUrl(cik, e.accession, name);
   }
   return events;
 }
 
-// Locate the press-release exhibit (EX-99.*) inside an 8-K's filing folder.
-async function exhibit99Text(cik: string, accession: string): Promise<string | null> {
+// Locate the press-release or presentation exhibit (EX-99.*) inside an 8-K's
+// filing folder. Filers name it ex99-1, ex_99, exhibit991q12026earningspr...
+async function exhibit99Name(cik: string, accession: string): Promise<string | null> {
   const folder = accession.replace(/-/g, '');
   const idxUrl = `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${folder}/index.json`;
   try {
@@ -62,10 +77,18 @@ async function exhibit99Text(cik: string, accession: string): Promise<string | n
     if (!res.ok) return null;
     const idx = (await res.json()) as any;
     const items: Array<{ name: string }> = idx.directory?.item ?? [];
-    // Filers name it ex99-1, ex_99, exhibit991q12026earningspr, a52990ex99...
     const ex = items.find((f) => /ex(?:hibit)?[-_.]?99/i.test(f.name) && /\.htm/i.test(f.name));
-    if (!ex) return null;
-    const text = await fetchDocText(cik, accession, ex.name);
+    return ex?.name ?? null;
+  } catch {
+    return null;
+  }
+}
+
+async function exhibit99Text(cik: string, accession: string): Promise<string | null> {
+  const name = await exhibit99Name(cik, accession);
+  if (!name) return null;
+  try {
+    const text = await fetchDocText(cik, accession, name);
     return text.length > 500 ? text : null;
   } catch {
     return null;

@@ -64,23 +64,41 @@ export function RunHeader({
       {run.mode === 'fixture' && (
         <div className="mode-note">Model outputs from authored fixtures.</div>
       )}
-      {macro && macro.series.length > 0 && (
+      {macro && (macro.series.length > 0 || macro.fomc || macro.industry) && (
         <div className="macro-strip">
-          <div className="macro-items">
-            {macro.series.map((s) => (
-              <span
-                key={s.id}
-                className="macro-item"
-                title={`${s.id}, as of ${fmtDateShort(s.asof)}`}
-              >
-                <span className="macro-label">{s.label}</span>
-                <span className="macro-value mono">{fmtMacroValue(s.latest)}</span>
-                {s.yoyPct !== null && (
-                  <span className="macro-yoy mono">{fmtYoy(s.yoyPct)}</span>
-                )}
-              </span>
-            ))}
-          </div>
+          {macro.series.length > 0 && (
+            <div className="macro-items">
+              {macro.series.map((s) => (
+                <span
+                  key={s.id}
+                  className="macro-item"
+                  title={`${s.id}, as of ${fmtDateShort(s.asof)}`}
+                >
+                  <span className="macro-label">{s.label}</span>
+                  <span className="macro-value mono">{fmtMacroValue(s.latest)}</span>
+                  {s.yoyPct !== null && (
+                    <span className="macro-yoy mono">{fmtYoy(s.yoyPct)}</span>
+                  )}
+                </span>
+              ))}
+            </div>
+          )}
+          {macro.fomc && (
+            <p className="macro-fomc">
+              <span className="macro-label">FOMC minutes {fmtDateShort(macro.fomc.date)}</span>{' '}
+              {macro.fomc.stance}
+            </p>
+          )}
+          {macro.industry && (
+            <p className="macro-fomc">
+              <span className="macro-label">
+                Industry size (Census CBP {macro.industry.year}, {macro.industry.label})
+              </span>{' '}
+              {macro.industry.establishments.toLocaleString()} establishments,{' '}
+              {macro.industry.employees.toLocaleString()} employees. A floor-check against TAM
+              claims quoted in filings.
+            </p>
+          )}
           {macro.note && <p className="macro-note">{macro.note}</p>}
         </div>
       )}

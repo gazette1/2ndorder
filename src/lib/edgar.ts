@@ -240,6 +240,19 @@ export async function insiderSummary(cik: string): Promise<InsiderSummary> {
   const buys = all.filter((t) => t.code === 'P');
   const sells = all.filter((t) => t.code === 'S');
   const netBuyUSD = buys.reduce((s, t) => s + t.valueUSD, 0) - sells.reduce((s, t) => s + t.valueUSD, 0);
+
+  // Form 144 is the notice of PROPOSED sale: it leads the Form 4 that records
+  // the executed one. Count on the issuer's feed, trailing 90 days.
+  const cutoff144 = new Date(Date.now() - 90 * 86400_000).toISOString().slice(0, 10);
+  let form144Count90d = 0;
+  let form144LatestDate: string | null = null;
+  for (let i = 0; i < r.form.length; i++) {
+    if ((r.form[i] === '144' || r.form[i] === '144/A') && r.filingDate[i] >= cutoff144) {
+      form144Count90d++;
+      if (!form144LatestDate || r.filingDate[i] > form144LatestDate) form144LatestDate = r.filingDate[i];
+    }
+  }
+
   return {
     window: `trailing ${CONFIG.enrich.insiderMonths} months`,
     netBuyUSD,
@@ -247,6 +260,8 @@ export async function insiderSummary(cik: string): Promise<InsiderSummary> {
     sellCount: sells.length,
     distinctBuyers: new Set(buys.map((t) => t.insider)).size,
     transactions: [...buys, ...sells].sort((a, b) => b.date.localeCompare(a.date)),
+    form144Count90d,
+    form144LatestDate,
     provenance: 'sec_form4',
   };
 }

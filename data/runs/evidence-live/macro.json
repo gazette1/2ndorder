@@ -9,29 +9,27 @@
       "provenance": "fred"
     },
     {
-      "id": "PPIACO",
-      "label": "PPI, all commodities",
-      "latest": 292.504,
+      "id": "PCU221122221122",
+      "label": "PPI, electric power distribution",
+      "latest": 195.158,
       "asof": "2026-05-01",
-      "yoyPct": 13.1,
+      "yoyPct": 2.7,
       "provenance": "fred"
     },
     {
-      "id": "DTWEXBGS",
-      "label": "trade-weighted dollar index",
-      "latest": 120.8866,
-      "asof": "2026-06-26",
-      "yoyPct": 1,
-      "provenance": "fred"
-    },
-    {
-      "id": "UNRATE",
-      "label": "unemployment rate",
-      "latest": 4.2,
-      "asof": "2026-06-01",
-      "yoyPct": 2.4,
+      "id": "PCU325211325211",
+      "label": "PPI, plastics materials and resins",
+      "latest": 377.676,
+      "asof": "2026-05-01",
+      "yoyPct": 18.2,
       "provenance": "fred"
     }
   ],
+  "fomc": {
+    "date": "2026-04-29",
+    "stance": "The committee maintained the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. Risks to the outlook are elevated on both sides, with upside risks to inflation and downside risks to employment, and the committee is prepared to adjust policy based on incoming data.",
+    "provenance": "federalreserve"
+  },
+  "industry": null,
   "note": "Federal Reserve Economic Data (FRED), latest observation with a year-over-year change where the history allows one."
 }

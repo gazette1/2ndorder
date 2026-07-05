@@ -133,6 +133,8 @@ export type Provenance =
   | 'openfda'
   | 'fcc_ecfs'
   | 'ferc_elibrary'
+  | 'federalreserve'
+  | 'census_cbp'
   | 'finnhub'
   | 'fmp'
   | 'yahoo'
@@ -157,6 +159,10 @@ export interface InsiderSummary {
   sellCount: number;
   distinctBuyers: number;
   transactions: InsiderTx[];
+  // Form 144 notices of PROPOSED sale, trailing 90 days: the leading indicator
+  // ahead of the executed Form 4. Optional so pre-existing runs still parse.
+  form144Count90d?: number;
+  form144LatestDate?: string | null;
   provenance: Provenance;
 }
 
@@ -236,6 +242,9 @@ export interface CorporateEvent {
   signal: boolean; // true when any item is thesis-moving (M&A, CEO change, credit, impairment)
   url: string;
   accession: string;
+  // Direct link to the EX-99 exhibit (press release or investor deck), looked
+  // up for the most recent few material and Reg FD events.
+  exhibitUrl?: string | null;
 }
 
 // The free stand-in for transcript archives: what management leads with in the
@@ -294,8 +303,29 @@ export interface MacroSeries {
   provenance: Provenance;
 }
 
+// Committee stance from the latest FOMC minutes, cached per minutes date.
+export interface FomcStance {
+  date: string; // minutes date, YYYY-MM-DD
+  stance: string; // two factual sentences: action taken, bias going forward
+  provenance: Provenance;
+}
+
+// Industry size from Census County Business Patterns: the sanity anchor
+// against TAM claims quoted in filings.
+export interface IndustryAnchor {
+  naics: string;
+  label: string;
+  establishments: number;
+  employees: number;
+  annualPayrollUSD: number;
+  year: number;
+  provenance: Provenance;
+}
+
 export interface MacroContext {
   series: MacroSeries[];
+  fomc?: FomcStance | null;
+  industry?: IndustryAnchor | null;
   note: string;
 }
 

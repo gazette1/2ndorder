@@ -23,6 +23,10 @@ export const CONFIG = {
   // required for FCC ECFS. Without it, FDA runs keyless and ECFS is skipped.
   dataGovKey: process.env.DATA_GOV_API_KEY ?? null,
 
+  // Census API key (free, separate registry from data.gov): unlocks the County
+  // Business Patterns industry-size anchor. Skipped without it.
+  censusKey: process.env.CENSUS_API_KEY ?? null,
+
   // Reasoning model. DeepSeek V4-Flash is the default backend: cheap, hosted, and
   // strong enough that its decompose phrases actually hit EDGAR (an 8B local model
   // was not). With OPENAI_API_KEY present the pipeline uses it automatically; with no

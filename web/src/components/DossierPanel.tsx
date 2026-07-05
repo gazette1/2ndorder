@@ -15,6 +15,8 @@ const PROVENANCE_LABELS: Record<Provenance, string> = {
   openfda: 'openFDA',
   fcc_ecfs: 'FCC ECFS',
   ferc_elibrary: 'FERC eLibrary',
+  federalreserve: 'Federal Reserve',
+  census_cbp: 'Census CBP',
   finnhub: 'Finnhub',
   fmp: 'FMP',
   yahoo: 'Yahoo (delayed)',
@@ -238,6 +240,14 @@ export function DossierPanel({ dossier, read }: Props) {
           <span>sells {insider.sellCount}</span>
           <span className="dot-sep">.</span>
           <span>distinct insiders {insider.distinctBuyers}</span>
+          {(insider.form144Count90d ?? 0) > 0 && (
+            <>
+              <span className="dot-sep">.</span>
+              <span title="Form 144 is the notice of a proposed sale; it precedes the executed sale that lands on Form 4">
+                144 notices (90d) {insider.form144Count90d}
+              </span>
+            </>
+          )}
         </div>
         {shownTx.length > 0 ? (
           <table className="insider-table">
@@ -417,6 +427,11 @@ export function DossierPanel({ dossier, read }: Props) {
                 <a href={e.url} target="_blank" rel="noreferrer" className="mono">
                   8-K
                 </a>
+                {e.exhibitUrl && (
+                  <a href={e.exhibitUrl} target="_blank" rel="noreferrer" className="mono">
+                    exhibit
+                  </a>
+                )}
               </li>
             ))}
           </ul>

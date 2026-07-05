@@ -1,9 +1,11 @@
 A portfolio manager is testing this scenario:
 Reshoring of pharmaceutical ingredient manufacturing to the US accelerates under tariff and supply-security policy
 
-From the list below, pick the 2 to 4 data series most relevant to the cost structures or demand drivers in the scenario.
-Answer in JSON: {"ids": ["SERIES_ID", ...]}. Only IDs from the list.
+From the SERIES list below, pick the 2 to 4 data series most relevant to the cost structures or demand drivers in the scenario.
+From the INDUSTRY list, pick the single industry most central to the scenario, or null if none fits.
+Answer in JSON: {"ids": ["SERIES_ID", ...], "naics": "CODE" or null}. Only entries from the lists.
 
+SERIES:
 CPIAUCSL: CPI, all items
 PPIACO: PPI, all commodities
 FEDFUNDS: effective fed funds rate
@@ -21,3 +23,30 @@ DTWEXBGS: trade-weighted dollar index
 PCU221122221122: PPI, electric power distribution
 PCU325412325412: PPI, pharmaceutical preparation manufacturing
 PCU334413334413: PPI, semiconductor manufacturing
+TTLCONS: total construction spending
+DGORDER: durable goods new orders
+PERMIT: building permits
+IPMAN: industrial production, manufacturing
+PCU484121484121: PPI, long-distance general freight trucking
+PCU336411336411: PPI, aircraft manufacturing
+PCU211120211120: PPI, crude petroleum and natural gas extraction
+PCU325211325211: PPI, plastics materials and resins
+CES6562000001: health care employment
+
+INDUSTRY:
+2211: electric power generation and distribution
+2361: residential construction
+3116: meat processing
+3251: basic chemical manufacturing
+3254: pharmaceutical manufacturing
+3341: computer and peripheral manufacturing
+3344: semiconductor manufacturing
+3364: aerospace manufacturing
+4451: grocery stores
+4841: general freight trucking
+5112: software publishers
+5182: data processing and hosting
+5415: computer systems design services
+5613: employment services
+6211: physician offices
+6221: hospitals

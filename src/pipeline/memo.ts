@@ -153,7 +153,15 @@ export function buildMemo(slug: string): string {
 
   const macroSection = macro
     ? `<h2>Macro context</h2>
-<table>
+${macro.fomc ? `<p><strong>FOMC minutes, ${esc(macro.fomc.date)}.</strong> ${esc(macro.fomc.stance)}</p>` : ''}
+${
+  macro.industry
+    ? `<p><strong>Industry size (Census CBP ${macro.industry.year}, NAICS ${esc(macro.industry.naics)}, ${esc(macro.industry.label)}).</strong> ${macro.industry.establishments.toLocaleString()} establishments, ${macro.industry.employees.toLocaleString()} employees, annual payroll ${capMM(Math.round(macro.industry.annualPayrollUSD / 1e6))}. A floor-check against TAM claims quoted in filings.</p>`
+    : ''
+}
+${
+  macro.series.length
+    ? `<table>
 <tr><th>Series</th><th>Latest</th><th>As of</th><th>Year over year</th></tr>
 ${macro.series
   .map(
@@ -163,7 +171,9 @@ ${macro.series
       }</td></tr>`,
   )
   .join('\n')}
-</table>
+</table>`
+    : ''
+}
 <p class="meta">${esc(macro.note)}</p>`
     : '';
 
@@ -179,8 +189,20 @@ ${macro.series
       if (signalEvents.length) {
         parts.push(
           `<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul>${signalEvents
-            .map((e) => `<li>${esc(e.filedAt)}: ${esc(e.items.map((i) => i.label).join(', '))} (<a href="${esc(e.url)}">filing</a>)</li>`)
+            .map(
+              (e) =>
+                `<li>${esc(e.filedAt)}: ${esc(e.items.map((i) => i.label).join(', '))} (<a href="${esc(e.url)}">filing</a>${
+                  e.exhibitUrl ? `, <a href="${esc(e.exhibitUrl)}">exhibit</a>` : ''
+                })</li>`,
+            )
             .join('')}</ul>`,
+        );
+      }
+      if (d.insider.form144Count90d) {
+        parts.push(
+          `<p><strong>Form 144 notices.</strong> ${d.insider.form144Count90d} proposed-sale notice(s) filed in the trailing 90 days${
+            d.insider.form144LatestDate ? `, latest ${esc(d.insider.form144LatestDate)}` : ''
+          }. A 144 precedes the executed sale that lands on Form 4.</p>`,
         );
       }
       const holders = (d.holders ?? []).filter((h) => h.holder);

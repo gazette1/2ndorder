@@ -22,19 +22,19 @@ PAID means the workarounds are exhausted and real coverage costs money.
 | Government awards | Customer graph (federal revenue) | USASpending API (from launch) |
 | Sector regulators | Dossier "regulator": FDA drug approvals, device clearances, and recalls for pharma and device names; FCC docket presence for telecom; FERC eLibrary documents for utilities and pipelines | Routed by SEC SIC code (src/lib/regulators.ts). openFDA and FCC ECFS use a free data.gov key (DATA_GOV_API_KEY); FERC needs none. Name matching falls back to a wildcard because FDA abbreviates sponsors (KARYOPHARM THERAPS) |
 | Sell-side rating actions | Coverage block when a free key is present | Finnhub free tier seam, stub otherwise, labeled in-product |
+| FOMC minutes | Run-level macro context: committee stance in two sentences | Latest minutes discovered from federalreserve.gov, summarized once per FOMC cycle and cached (src/lib/macro.ts) |
+| BLS industry series | Macro context series whitelist: trucking PPI, aircraft PPI, oil and gas PPI, plastics PPI, health care employment, construction spending, durable goods orders, permits | BLS and Census series ride FRED's keyless mirror, which beats the direct BLS API's keyless daily cap |
+| Census industry size | Run-level TAM floor-check: establishments, employees, payroll for the scenario's central industry (16-code NAICS menu) | County Business Patterns; needs a free Census key (CENSUS_API_KEY, separate registry), skipped without one |
+| Investor presentations | Direct exhibit links on dossier events | EX-99 exhibits located on recent material and Reg FD 8-Ks (src/lib/events.ts); the filed subset is the honest free coverage |
+| Form 144 | Insider block: proposed-sale notices trailing 90 days, the leading indicator ahead of the executed Form 4 | Counted on the issuer's EDGAR feed (src/lib/edgar.ts) |
 
 ## Free, not yet wired (build tasks, no license needed)
 
-- FOMC minutes and Fed speeches: federalreserve.gov publishes all of it.
-  Would slot into the macro context as a rates-stance sentence.
-- BLS releases (CPI, PPI, JOLTS detail): the headline series already flow in
-  through FRED; the BLS API v2 (free registration) adds industry-level cuts.
-- Census / FRED industry series for top-down TAM checks against the TAM
-  claims already extracted from filings.
-- Investor presentations: many are filed as 8-K EX-99 slide decks; the same
-  exhibit reader can pull them. IR-site decks are scattered and low-yield to
-  scrape; the filed subset is the honest free coverage.
-- Insider Form 144 (intent to sell) as a leading indicator on top of Form 4.
+- Fed speeches beyond the minutes (the minutes stance is wired; individual
+  speeches would add color, not direction).
+- Direct BLS API v2 industry cuts beyond what FRED mirrors (free key).
+- IR-site investor decks not filed with the SEC (scattered, low-yield to
+  scrape; the filed EX-99 subset is wired).
 
 ## Paid, workarounds exhausted (the honest list)
 

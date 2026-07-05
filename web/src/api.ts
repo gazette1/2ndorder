@@ -133,10 +133,12 @@ function normalizeDossier(raw: Dossier): Dossier {
 function normalizeMacro(raw: unknown): MacroContext | null {
   if (!raw || typeof raw !== 'object') return null;
   const m = raw as Partial<MacroContext>;
-  if (!Array.isArray(m.series)) return null;
-  const series = m.series.filter((s) => s && typeof s === 'object');
-  if (series.length === 0) return null;
-  return { series, note: typeof m.note === 'string' ? m.note : '' };
+  const series = Array.isArray(m.series) ? m.series.filter((s) => s && typeof s === 'object') : [];
+  const fomc = m.fomc && typeof m.fomc === 'object' && typeof m.fomc.stance === 'string' ? m.fomc : null;
+  const industry =
+    m.industry && typeof m.industry === 'object' && typeof m.industry.naics === 'string' ? m.industry : null;
+  if (series.length === 0 && !fomc && !industry) return null;
+  return { series, fomc, industry, note: typeof m.note === 'string' ? m.note : '' };
 }
 
 export function normalizeRunPayload(raw: unknown): RunPayload {
