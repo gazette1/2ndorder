@@ -189,3 +189,16 @@ Explicitly not this brand:
   inside SVG text.
 - No rocket, lightbulb, or sparkle iconography. No emoji.
 - No loop animation. Nothing moves without a reason tied to a state change.
+
+## Logo (decided 2026-07-05)
+
+The mark: a thin white ring, broken at the right, where the line escapes and
+splits into three short branches with endpoint dots. A C that becomes a
+cascade: the letterform and the product mechanic in one gesture. Generated
+with gpt-image-2, source at docs/brand/mark-c.png; X-ready crop at
+docs/brand/x-avatar.png. Alternate mark (node-diagram cascade) at
+docs/brand/mark-cascade.png; the mirrored hairline tree (mark-tree.png) is
+illustration-weight, not avatar-weight. All marks are white line work on
+true black, no fills, no gradients, per the color rules. Wordmark remains
+set type (Newsreader 500), never hand-drawn, never AI-rendered; every
+lockup composes the mark with real type (see docs/brand/x-banner.png).
