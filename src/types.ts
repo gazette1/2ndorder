@@ -130,6 +130,9 @@ export type Provenance =
   | 'sec_def14a'
   | 'fred'
   | 'job_board'
+  | 'openfda'
+  | 'fcc_ecfs'
+  | 'ferc_elibrary'
   | 'finnhub'
   | 'fmp'
   | 'yahoo'
@@ -273,6 +276,15 @@ export interface HiringSnapshot {
   provenance: Provenance;
 }
 
+// Sector-regulator signal, routed by SIC: FDA for pharma and devices, FCC for
+// telecom, FERC for utilities and pipelines. Null for unregulated sectors.
+export interface RegulatorSignal {
+  agency: 'FDA' | 'FCC' | 'FERC';
+  headline: string;
+  items: Array<{ date: string | null; text: string }>;
+  provenance: Provenance;
+}
+
 export interface MacroSeries {
   id: string; // FRED series id
   label: string;
@@ -300,6 +312,7 @@ export interface Dossier {
   holders?: StakeDisclosure[];
   governance?: Governance | null;
   hiring?: HiringSnapshot | null;
+  regulator?: RegulatorSignal | null;
 }
 
 export interface Thesis {

@@ -215,6 +215,10 @@ ${macro.series
           }.</p>`,
         );
       }
+      if (d.regulator) {
+        const items = d.regulator.items.map((i) => `${i.date ? i.date + ': ' : ''}${i.text}`).join('; ');
+        parts.push(`<p><strong>Regulator (${esc(d.regulator.agency)}).</strong> ${esc(d.regulator.headline)}.${items ? ' ' + esc(items) + '.' : ''}</p>`);
+      }
       if (!parts.length) return '';
       return `<h3 class="mono">${esc(r.ticker)}</h3>\n${parts.join('\n')}`;
     })

@@ -12,6 +12,9 @@ const PROVENANCE_LABELS: Record<Provenance, string> = {
   sec_def14a: 'SEC DEF 14A',
   fred: 'FRED',
   job_board: 'job board',
+  openfda: 'openFDA',
+  fcc_ecfs: 'FCC ECFS',
+  ferc_elibrary: 'FERC eLibrary',
   finnhub: 'Finnhub',
   fmp: 'FMP',
   yahoo: 'Yahoo (delayed)',
@@ -527,6 +530,23 @@ export function DossierPanel({ dossier, read }: Props) {
             Public job board (Greenhouse or Lever). No board found means no data, not no
             hiring.
           </p>
+        </div>
+      )}
+
+      {/* Sector regulator (routed by SIC code) */}
+      {dossier.regulator && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Regulator ({dossier.regulator.agency})</h4>
+            <SourceTag provenance={dossier.regulator.provenance} />
+          </div>
+          <div className="cust-line">{dossier.regulator.headline}</div>
+          {dossier.regulator.items.map((it, i) => (
+            <div className="cust-line" key={i}>
+              {it.date && <span className="mono">{it.date} </span>}
+              <span className="muted">{it.text}</span>
+            </div>
+          ))}
         </div>
       )}
 

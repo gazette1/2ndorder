@@ -4,6 +4,7 @@ import type { CustomerGraph, GovAward } from '../types.js';
 // Strip corporate suffixes so "USA Rare Earth, Inc." matches "USA RARE EARTH LLC" in award data.
 export function cleanName(name: string): string {
   return name
+    .replace(/\/[A-Z]{2}\/?\s*$/i, ' ') // EDGAR state-of-incorporation suffix: "/MO/", "/DE"
     .replace(/[.,]/g, ' ')
     .replace(/\b(inc|incorporated|corp|corporation|co|llc|lp|ltd|holdings|group|plc|sa|nv|the)\b/gi, ' ')
     .replace(/\s+/g, ' ')

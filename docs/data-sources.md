@@ -20,6 +20,7 @@ PAID means the workarounds are exhausted and real coverage costs money.
 | Macro (FRED) | Run-level "macro context": 2 to 4 series the model deems relevant, latest level and year over year | Keyless fredgraph.csv endpoint, fixed series whitelist so the model picks, never invents (src/lib/macro.ts) |
 | Job postings | Dossier "hiring": open roles and top departments, investment direction before it is disclosed | Greenhouse and Lever public board APIs, slug probe; null coverage stated honestly (src/lib/jobs.ts) |
 | Government awards | Customer graph (federal revenue) | USASpending API (from launch) |
+| Sector regulators | Dossier "regulator": FDA drug approvals, device clearances, and recalls for pharma and device names; FCC docket presence for telecom; FERC eLibrary documents for utilities and pipelines | Routed by SEC SIC code (src/lib/regulators.ts). openFDA and FCC ECFS use a free data.gov key (DATA_GOV_API_KEY); FERC needs none. Name matching falls back to a wildcard because FDA abbreviates sponsors (KARYOPHARM THERAPS) |
 | Sell-side rating actions | Coverage block when a free key is present | Finnhub free tier seam, stub otherwise, labeled in-product |
 
 ## Free, not yet wired (build tasks, no license needed)
@@ -30,9 +31,6 @@ PAID means the workarounds are exhausted and real coverage costs money.
   through FRED; the BLS API v2 (free registration) adds industry-level cuts.
 - Census / FRED industry series for top-down TAM checks against the TAM
   claims already extracted from filings.
-- Sector regulators: openFDA (drug and device approvals), FCC ECFS, FERC
-  eLibrary. Sector-conditional enrichment for healthcare, telecom, utilities
-  candidates. All free public APIs.
 - Investor presentations: many are filed as 8-K EX-99 slide decks; the same
   exhibit reader can pull them. IR-site decks are scattered and low-yield to
   scrape; the filed subset is the honest free coverage.

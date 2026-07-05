@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { debtUSD, fullTextSearch, fundamentals, insiderSummary, operatingCashFlowUSD, sharesHistory, submissions } from '../lib/edgar.js';
+import { companySic, debtUSD, fullTextSearch, fundamentals, insiderSummary, operatingCashFlowUSD, sharesHistory, submissions } from '../lib/edgar.js';
+import { regulatorSignal } from '../lib/regulators.js';
 import { corporateEvents, earningsLanguage } from '../lib/events.js';
 import { stakeDisclosures } from '../lib/holders.js';
 import { governance } from '../lib/governance.js';
@@ -114,12 +115,15 @@ export async function enrich(slug: string): Promise<Dossier[]> {
 
     // Evidence layer: all free sources. Each degrades to null or empty on its
     // own; none of them can sink the dossier.
-    const [events, lang, holders, gov, hiring] = await Promise.all([
+    const [events, lang, holders, gov, hiring, regulator] = await Promise.all([
       corporateEvents(c.cik).catch(() => []),
       earningsLanguage(slug, c.ticker, c.cik).catch(() => null),
       stakeDisclosures(c.cik).catch(() => []),
       governance(slug, c.ticker, c.cik).catch(() => null),
       hiringSnapshot(c.name, c.ticker).catch(() => null),
+      companySic(c.cik)
+        .then((p) => regulatorSignal(p.sic, c.name))
+        .catch(() => null),
     ]);
 
     dossiers.push({
@@ -135,13 +139,15 @@ export async function enrich(slug: string): Promise<Dossier[]> {
       holders,
       governance: gov,
       hiring,
+      regulator,
     });
     console.log(
       `[enrich] ${c.ticker}: insider net $${insider.netBuyUSD.toLocaleString()} (${insider.buyCount}B/${insider.sellCount}S), ` +
         `gov $${awards.totalUSD.toLocaleString()} over ${awards.awards.length} awards, ${cites.length} reverse-cites, ` +
         `coverage ${cov.analystCount ?? 'stub'}${cov.ratingActions.length ? ` (${cov.ratingActions.length} actions)` : ''}, ` +
         `reality ${reality.flags.length ? reality.flags.length + ' flag(s)' : 'clean'}, ` +
-        `${events.length} events, ${holders.length} holders, lang ${lang ? 'read' : 'none'}, proxy ${gov ? 'read' : 'none'}, hiring ${hiring ? hiring.openRoles + ' roles' : 'no board'}`,
+        `${events.length} events, ${holders.length} holders, lang ${lang ? 'read' : 'none'}, proxy ${gov ? 'read' : 'none'}, hiring ${hiring ? hiring.openRoles + ' roles' : 'no board'}` +
+        (regulator ? `, ${regulator.agency} checked` : ''),
     );
   }
 

@@ -153,6 +153,17 @@ export async function submissions(cik: string): Promise<Submissions> {
   return { recent: data.filings.recent };
 }
 
+// SIC code from the same submissions record, for sector-conditional enrichment
+// (which regulator's docket system to check).
+export async function companySic(cik: string): Promise<{ sic: string | null; sicDescription: string | null }> {
+  try {
+    const data = await getJson<any>(`https://data.sec.gov/submissions/CIK${cik}.json`);
+    return { sic: data.sic ? String(data.sic) : null, sicDescription: data.sicDescription ? String(data.sicDescription) : null };
+  } catch {
+    return { sic: null, sicDescription: null };
+  }
+}
+
 export function docUrl(cik: string, accession: string, docId: string): string {
   return `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${accession.replace(/-/g, '')}/${docId}`;
 }

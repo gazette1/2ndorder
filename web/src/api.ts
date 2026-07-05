@@ -119,6 +119,13 @@ function normalizeDossier(raw: Dossier): Dossier {
               : [],
           }
         : null,
+    regulator:
+      raw.regulator && typeof raw.regulator === 'object'
+        ? {
+            ...raw.regulator,
+            items: Array.isArray(raw.regulator.items) ? raw.regulator.items : [],
+          }
+        : null,
   };
 }
 

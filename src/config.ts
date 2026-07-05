@@ -19,6 +19,10 @@ export const CONFIG = {
   // SEC asks for a descriptive User-Agent with a contact address.
   userAgent: 'AdoptionChain/0.1 research russellharrisrei@gmail.com',
 
+  // data.gov API key (free registration): raises openFDA rate limits and is
+  // required for FCC ECFS. Without it, FDA runs keyless and ECFS is skipped.
+  dataGovKey: process.env.DATA_GOV_API_KEY ?? null,
+
   // Reasoning model. DeepSeek V4-Flash is the default backend: cheap, hosted, and
   // strong enough that its decompose phrases actually hit EDGAR (an 8B local model
   // was not). With OPENAI_API_KEY present the pipeline uses it automatically; with no
