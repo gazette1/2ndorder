@@ -35,7 +35,7 @@ type LoadState =
 type Tab = 'scenarios' | 'stocks';
 
 export function App() {
-  const { session, signIn, signOut } = useSession();
+  const { session, signIn, signOut, refresh } = useSession();
   const token = session?.token ?? null;
 
   const [tab, setTab] = useState<Tab>('scenarios');
@@ -310,7 +310,7 @@ export function App() {
 
   // Login gate.
   if (!session) {
-    return <LoginScreen onSignIn={signIn} />;
+    return <LoginScreen onSignIn={signIn} onSession={refresh} />;
   }
 
   const openThesis = selectedTicker ? thesesByTicker.get(selectedTicker) ?? null : null;

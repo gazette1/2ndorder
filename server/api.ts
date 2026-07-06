@@ -233,6 +233,40 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
     return send(res, 200, { token: signToken(normalized), email: normalized });
   }
 
+  // Which auth methods are live. The login screen shows the Google button only
+  // when a client id is configured on the server.
+  if (req.method === 'GET' && pathname === '/api/auth-config') {
+    return send(res, 200, { googleClientId: process.env.GOOGLE_CLIENT_ID ?? null });
+  }
+
+  // Sign in with Google: the browser's Google Identity Services button posts
+  // an ID token here; Google's tokeninfo endpoint validates the signature so
+  // no JWT library is needed. Same allowlist and session as email login.
+  if (req.method === 'POST' && pathname === '/api/login/google') {
+    const clientId = process.env.GOOGLE_CLIENT_ID;
+    if (!clientId) return send(res, 501, { error: 'Google sign-in is not configured on this server.' });
+    const { credential } = await readBody(req);
+    if (!credential || typeof credential !== 'string') {
+      return send(res, 400, { error: 'missing Google credential' });
+    }
+    try {
+      const gres = await fetch(`https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`);
+      if (!gres.ok) return send(res, 401, { error: 'Google rejected the sign-in token.' });
+      const info = (await gres.json()) as { aud?: string; email?: string; email_verified?: string; exp?: string };
+      if (info.aud !== clientId) return send(res, 401, { error: 'Google token was issued for a different app.' });
+      if (info.email_verified !== 'true' || !info.email) {
+        return send(res, 401, { error: 'Google account email is not verified.' });
+      }
+      const normalized = info.email.trim().toLowerCase();
+      if (ALLOWED_EMAILS.length && !ALLOWED_EMAILS.includes(normalized)) {
+        return send(res, 403, { error: 'This email is not on the preview list. Ask for access.' });
+      }
+      return send(res, 200, { token: signToken(normalized), email: normalized });
+    } catch {
+      return send(res, 502, { error: 'Could not verify the Google sign-in. Try again.' });
+    }
+  }
+
   // Everything below requires a valid session.
   const userEmail = sessionEmail(req);
   if (!userEmail) return send(res, 401, { error: 'sign in first' });

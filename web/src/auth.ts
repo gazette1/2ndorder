@@ -32,18 +32,17 @@ export function clearSession(): void {
   localStorage.removeItem(STORAGE_KEY);
 }
 
-// POST /api/login. The server checks the allowlist and returns a signed token.
-export async function login(email: string): Promise<Session> {
-  const res = await fetch('/api/login', {
+async function postLogin(path: string, body: Record<string, string>): Promise<Session> {
+  const res = await fetch(path, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) {
     let message = `Sign in failed with status ${res.status}`;
     try {
-      const body = (await res.json()) as { error?: string };
-      if (body.error) message = body.error;
+      const parsed = (await res.json()) as { error?: string };
+      if (parsed.error) message = parsed.error;
     } catch {
       // non-JSON error body; keep the status message
     }
@@ -53,6 +52,29 @@ export async function login(email: string): Promise<Session> {
   const session: Session = { token: data.token, email: data.email };
   storeSession(session);
   return session;
+}
+
+// POST /api/login. The server checks the allowlist and returns a signed token.
+export async function login(email: string): Promise<Session> {
+  return postLogin('/api/login', { email });
+}
+
+// Google Identity Services hands the button an ID token; the server verifies
+// it and issues the same session as email login.
+export async function loginWithGoogle(credential: string): Promise<Session> {
+  return postLogin('/api/login/google', { credential });
+}
+
+// Whether the server has Google sign-in configured (null client id = hidden).
+export async function googleClientId(): Promise<string | null> {
+  try {
+    const res = await fetch('/api/auth-config');
+    if (!res.ok) return null;
+    const data = (await res.json()) as { googleClientId?: string | null };
+    return data.googleClientId ?? null;
+  } catch {
+    return null;
+  }
 }
 
 // Small hook: current session plus sign in and sign out helpers.
@@ -79,5 +101,11 @@ export function useSession() {
     setSession(null);
   }, []);
 
-  return { session, signIn, signOut };
+  // Re-read localStorage after an out-of-band login (the Google button stores
+  // the session itself; a same-tab write fires no storage event).
+  const refresh = useCallback(() => {
+    setSession(readSession());
+  }, []);
+
+  return { session, signIn, signOut, refresh };
 }
