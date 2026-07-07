@@ -15,6 +15,29 @@ No automated sending, no purchased lists, no scraped contact databases.
   unknown sender is a spam signal.
 - **The product**: the strongest material is a live run. Every demo email
   address goes on the allowlist before the meeting.
+- **Target universe (ET, sub-20 employees)**: docs/sales/targets-est.md and
+  targets-est.json. 961 hedge fund advisers with a main office in an Eastern
+  time state and under 20 employees on Form ADV, 848 with a public website.
+  This is the primary list; the DC-area 13F list (targets.md) is a subset.
+- **The loop and its parts**: docs/sales/gtm.md (strategy), thesis-to-idea.md
+  (how to turn a firm's view into the idea you send), outreach-flow.html (the
+  visual flow chart of the whole cadence).
+
+## The contact question, answered straight
+
+Form ADV gives the firm-level public contact for every adviser: business
+address, phone, and website. That is what targets-est.md carries. It does not
+carry individual personal emails, and this kit does not compile them, on
+purpose. The compliant path to a person is per-firm and manual, at the moment
+you send:
+- Read the firm's own site or LinkedIn for the PM or analyst who wrote the
+  thesis you are responding to. One name, one firm, at send time.
+- Reach them the way targets.md already prescribes: a warm intro first, then
+  a public-source address, one at a time. Never a bulk-enrichment tool run
+  across the whole list, never a purchased database. At two or three sends a
+  day this is not a bottleneck.
+- The firm phone from ADV is a legitimate fallback for a Tier 1 firm that
+  does not answer email.
 
 ## Who to target and how to find them
 

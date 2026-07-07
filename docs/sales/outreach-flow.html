@@ -1,0 +1,160 @@
+<meta charset="utf-8" />
+<title>Corollary outreach flow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  /* Corollary monochrome system, per design.md. Black page, white line work,
+     hairline borders, Newsreader display, Plex Sans body, Plex Mono labels. */
+  :root {
+    --bg: #000; --panel: #0a0a0a; --card: #111; --line: #222; --line2: #3a3a3a;
+    --text: #f2f2f2; --muted: #9e9e9e; --faint: #5e5e5e; --accent: #fff;
+    --good: #4e9b6f; --bad: #c1595a;
+    --sans: 'IBM Plex Sans', system-ui, sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+    --display: 'Newsreader', Georgia, serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); padding: 56px 32px 80px; }
+  .wrap { max-width: 940px; margin: 0 auto; }
+  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  h1 { font-family: var(--display); font-weight: 500; font-size: 38px; line-height: 1.1; margin-bottom: 10px; }
+  .sub { color: var(--muted); font-size: 15px; max-width: 640px; margin-bottom: 40px; line-height: 1.55; }
+
+  .flow { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .step { width: 100%; max-width: 620px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 22px; }
+  .step.wide { max-width: 620px; }
+  .step .n { font-family: var(--mono); font-size: 12px; color: var(--faint); letter-spacing: 0.08em; }
+  .step h3 { font-family: var(--display); font-weight: 500; font-size: 21px; margin: 4px 0 6px; }
+  .step p { color: var(--muted); font-size: 14px; line-height: 1.55; }
+  .step .src { font-family: var(--mono); font-size: 11.5px; color: var(--faint); margin-top: 8px; letter-spacing: 0.03em; }
+  .conn { width: 1px; height: 34px; background: var(--line2); }
+  .conn.short { height: 22px; }
+
+  .tiers { display: flex; gap: 14px; width: 100%; max-width: 620px; }
+  .tier { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+  .tier .lbl { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .tier h4 { font-size: 14px; font-weight: 600; margin: 4px 0; }
+  .tier p { color: var(--faint); font-size: 12.5px; line-height: 1.45; }
+  .tier.t1 { border-color: var(--line2); }
+
+  .cadence { width: 100%; max-width: 620px; border: 1px dashed var(--line2); border-radius: 12px; padding: 18px 22px; }
+  .cadence h3 { font-family: var(--display); font-weight: 500; font-size: 19px; margin-bottom: 12px; }
+  .day { display: grid; grid-template-columns: 84px 1fr; gap: 12px; padding: 7px 0; border-top: 1px solid var(--line); align-items: baseline; }
+  .day:first-of-type { border-top: none; }
+  .day .d { font-family: var(--mono); font-size: 12px; color: var(--text); letter-spacing: 0.04em; }
+  .day .t { color: var(--muted); font-size: 13.5px; line-height: 1.5; }
+  .day .t b { color: var(--text); font-weight: 600; }
+
+  .split { display: flex; gap: 14px; width: 100%; max-width: 620px; }
+  .branch { flex: 1; border-radius: 6px; padding: 13px 16px; border: 1px solid var(--line); }
+  .branch.yes { border-color: rgba(78,155,111,0.5); }
+  .branch.no { border-color: var(--line); }
+  .branch .h { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }
+  .branch.yes .h { color: var(--good); }
+  .branch.no .h { color: var(--muted); }
+  .branch p { color: var(--muted); font-size: 13px; line-height: 1.5; }
+
+  .foot { max-width: 620px; margin: 40px auto 0; color: var(--faint); font-size: 12.5px; line-height: 1.6; font-family: var(--mono); text-align: center; }
+</style>
+
+<div class="wrap">
+  <div class="kicker">Corollary // go to market</div>
+  <h1>The map-as-gift outreach loop</h1>
+  <p class="sub">
+    One firm at a time. The email carries the scenario map run on the fund's own
+    stated view, so the value arrives in the inbox before any call. Sent
+    personally from russell@mosaiccapital.io, two to three a day, every one
+    written by hand.
+  </p>
+
+  <div class="flow">
+    <div class="step">
+      <div class="n">01 // ENRICH</div>
+      <h3>Pick the firm and read its view</h3>
+      <p>
+        From the Eastern-time, sub-20-employee universe (targets-est.md). Read
+        the firm's own public thesis: website, quarterly letter, a podcast or
+        panel, and its 13F quarter-over-quarter delta for what it just got
+        bullish on.
+      </p>
+      <div class="src">source: SEC Form ADV, public 13F filings, the firm's own site</div>
+    </div>
+    <div class="conn"></div>
+
+    <div class="tiers">
+      <div class="tier t1">
+        <div class="lbl">Tier 1</div>
+        <h4>Fresh signal</h4>
+        <p>A new public statement or a sharp 13F rotation this quarter. Run the full loop now.</p>
+      </div>
+      <div class="tier">
+        <div class="lbl">Tier 2</div>
+        <h4>Stable view</h4>
+        <p>A known strategy, no fresh signal. One letter per quarter, timed to the 13F drop.</p>
+      </div>
+      <div class="tier">
+        <div class="lbl">Tier 3</div>
+        <h4>No read</h4>
+        <p>No public thesis to map. Skip, or park for a later signal.</p>
+      </div>
+    </div>
+    <div class="conn"></div>
+
+    <div class="step">
+      <div class="n">02 // MAP</div>
+      <h3>Run their view through the engine</h3>
+      <p>
+        Turn the stated thesis into a Corollary scenario and run it. Pull the two
+        or three most surprising under-covered names off the second and third
+        order nodes, with the exact filing sentence behind each. Prefer names the
+        fund does not already hold: the gift is what they have not looked at yet.
+      </p>
+      <div class="src">source: Corollary scenario map, cited to SEC filings</div>
+    </div>
+    <div class="conn"></div>
+
+    <div class="step">
+      <div class="n">03 // TOUCH</div>
+      <h3>Send the map, not a pitch</h3>
+      <p>
+        First sentence names their specific public statement. Then the two names
+        the second order points at, under $2B, thin coverage, claims tracing to
+        their own 10-K sentences, with the three-node excerpt attached. Understated
+        close: if the full map is useful, I will send a sign-in. No feature list,
+        no deck, no hype.
+      </p>
+      <div class="src">voice: Atlas letter rules // frame: gift, not critique</div>
+    </div>
+    <div class="conn short"></div>
+
+    <div class="split">
+      <div class="branch yes">
+        <div class="h">Reply</div>
+        <p>Book the 30-minute session. Add their email to the allowlist before the call. Run their live thesis on the screen.</p>
+      </div>
+      <div class="branch no">
+        <div class="h">No reply, escalate</div>
+        <p>Follow the cadence below. Pause the moment they respond.</p>
+      </div>
+    </div>
+    <div class="conn short"></div>
+
+    <div class="cadence">
+      <h3>Escalation cadence (Mosaic rhythm)</h3>
+      <div class="day"><div class="d">Day 1</div><div class="t"><b>Email + LinkedIn.</b> The map excerpt. Subject references their stated view, not the product.</div></div>
+      <div class="day"><div class="d">Day 5</div><div class="t"><b>Email.</b> One more node from the same map. A different under-covered name, same thesis.</div></div>
+      <div class="day"><div class="d">Day 8</div><div class="t"><b>LinkedIn.</b> Engage with their recent post. No ask.</div></div>
+      <div class="day"><div class="d">Day 12</div><div class="t"><b>Email.</b> The 30-second film link and the sign-in offer. Then stop.</div></div>
+      <div class="day"><div class="d">Exit</div><div class="t">No engagement, move to the Tier 2 quarterly letter, timed to the next 13F publication.</div></div>
+    </div>
+  </div>
+
+  <p class="foot">
+    All inputs are public: Form ADV, 13F filings, published letters and interviews.<br />
+    No compiled personal contact lists. Every send is personal. Nothing in any touch is investment advice.
+  </p>
+</div>
