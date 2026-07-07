@@ -1,0 +1,133 @@
+<meta charset="utf-8" />
+<title>Corollary map: embedded fintech into SMB software</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  /* Corollary product surface (design.md). Monochrome, plus the muted
+     beneficiary green and at-risk red, which encode real polarity and are
+     the one exemption from the monochrome rule. */
+  :root {
+    --bg: #000; --panel: #0a0a0a; --card: #111; --line: #222; --line2: #3a3a3a;
+    --text: #f2f2f2; --muted: #9e9e9e; --faint: #5e5e5e; --accent: #fff;
+    --ben: #4e9b6f; --ben-bg: rgba(78,155,111,0.1); --ben-bd: rgba(78,155,111,0.32);
+    --risk: #c1595a; --risk-bg: rgba(193,89,90,0.09); --risk-bd: rgba(193,89,90,0.32);
+    --sans: 'IBM Plex Sans', system-ui, sans-serif;
+    --mono: 'IBM Plex Mono', monospace; --display: 'Newsreader', Georgia, serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); padding: 52px 32px 72px; font-size: 15px; }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  h1 { font-family: var(--display); font-weight: 500; font-size: 30px; line-height: 1.18; margin-bottom: 8px; max-width: 760px; }
+  .seed-note { color: var(--muted); font-size: 14px; margin-bottom: 34px; }
+
+  h2 { font-family: var(--display); font-weight: 500; font-size: 20px; margin: 34px 0 14px; }
+  .legend { font-family: var(--mono); font-size: 11px; color: var(--faint); display: flex; gap: 18px; margin-bottom: 14px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+  .dot.b { background: var(--ben); } .dot.r { background: var(--risk); }
+
+  .orders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .col-h { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .node { border-radius: 6px; padding: 9px 11px; margin-bottom: 8px; border: 1px solid var(--line); background: var(--panel); }
+  .node.ben { border-color: var(--ben-bd); background: var(--ben-bg); }
+  .node.risk { border-color: var(--risk-bd); background: var(--risk-bg); }
+  .node .nm { font-size: 13px; font-weight: 600; }
+  .node .mc { font-size: 11.5px; color: var(--muted); line-height: 1.4; margin-top: 2px; }
+  .node .pol { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.05em; text-transform: uppercase; }
+  .node.ben .pol { color: var(--ben); } .node.risk .pol { color: var(--risk); }
+
+  .names { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .name { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  .name .tk { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+  .name h3 { font-family: var(--display); font-weight: 500; font-size: 19px; margin: 2px 0 4px; }
+  .name .meta { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .name .quote { font-family: var(--display); font-style: italic; font-size: 15px; line-height: 1.5; color: var(--text); border-left: 2px solid var(--line2); padding-left: 12px; margin-bottom: 10px; }
+  .name .rc { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+  .name .cite { font-family: var(--mono); font-size: 10.5px; color: var(--faint); margin-top: 8px; }
+  .tag { display: inline-block; font-family: var(--mono); font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--ben-bd); color: var(--ben); }
+
+  .honest { border: 1px dashed var(--line2); border-radius: 12px; padding: 16px 20px; margin-top: 26px; }
+  .honest .h { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .honest p { color: var(--muted); font-size: 13.5px; line-height: 1.55; }
+
+  .foot { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 11.5px; color: var(--faint); line-height: 1.7; }
+  .foot .wm { font-family: var(--display); font-style: italic; font-weight: 500; font-size: 15px; color: var(--muted); }
+</style>
+
+<div class="wrap">
+  <div class="kicker">Corollary // consequence map // one page</div>
+  <h1>Vertical software embeds payments and AI financial automation into small-business workflows</h1>
+  <p class="seed-note">
+    First, second, and third order consequences of the scenario, beneficiaries and at-risk names.
+    Every claim below traces to the company's SEC filing. A counter-scenario ran alongside this one.
+  </p>
+
+  <h2>The map</h2>
+  <div class="legend">
+    <span><span class="dot b"></span>beneficiary</span>
+    <span><span class="dot r"></span>at risk</span>
+    <span>market caps are delayed price times reported shares</span>
+  </div>
+  <div class="orders">
+    <div>
+      <div class="col-h">First order</div>
+      <div class="node ben"><div class="pol">beneficiary</div><div class="nm">Vertical software platforms</div><div class="mc">Embedded payments and AI add recurring revenue per customer.</div></div>
+      <div class="node ben"><div class="pol">beneficiary</div><div class="nm">Payments infrastructure</div><div class="mc">Higher digital volume from SMBs on vertical software.</div></div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">Traditional bank SMB lenders</div><div class="mc">AI underwriting inside platforms displaces bank origination.</div></div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">Horizontal payment gateways</div><div class="mc">SMB merchant accounts move to embedded solutions.</div></div>
+    </div>
+    <div>
+      <div class="col-h">Second order</div>
+      <div class="node ben"><div class="pol">beneficiary</div><div class="nm">Vertical-specific data analytics</div><div class="mc">Aggregated transaction data becomes a product.</div></div>
+      <div class="node ben"><div class="pol">beneficiary</div><div class="nm">AI fraud prevention</div><div class="mc">Rising transaction volume raises demand for fraud tooling.</div></div>
+      <div class="node ben"><div class="pol">beneficiary</div><div class="nm">Alternative SMB lending</div><div class="mc">Embedded distribution lowers customer acquisition cost.</div></div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">Standalone accounting software</div><div class="mc">Embedded automation replaces point solutions.</div></div>
+    </div>
+    <div>
+      <div class="col-h">Third order</div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">Traditional credit bureaus</div><div class="mc">Real-time business data reduces reliance on bureau scores.</div></div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">Banking technology vendors</div><div class="mc">Shrinking acquiring revenue cuts bank IT budgets.</div></div>
+      <div class="node risk"><div class="pol">at risk</div><div class="nm">SMB consulting firms</div><div class="mc">Embedded analytics automate advisory work.</div></div>
+    </div>
+  </div>
+
+  <h2>The names worth the read</h2>
+  <div class="names">
+    <div class="name">
+      <div class="tk">IIIV <span class="tag">under-covered</span></div>
+      <h3>i3 Verticals</h3>
+      <div class="meta">~$580MM cap // revenue +11% y/y // 4 days to build // no reality flags</div>
+      <div class="quote">"Our proprietary payment facilitator platform seamlessly integrates into our software solutions."</div>
+      <div class="rc">Mission-critical vertical software for courts, public safety, and public administration, with a payment facilitator embedded in the workflow. The exact pattern the scenario predicts, at small-cap size where coverage is thin.</div>
+      <div class="cite">source: i3 Verticals SEC filing, business description and payments exposure</div>
+    </div>
+    <div class="name">
+      <div class="tk">INTA <span class="tag">domain fit</span></div>
+      <h3>Intapp</h3>
+      <div class="meta">~$2.1B cap // revenue +17% y/y // 2 days to build // no reality flags</div>
+      <div class="quote">"A leading global provider of AI-powered solutions for the world's premier accounting, consulting, investment banking, legal, private capital and real assets firms."</div>
+      <div class="rc">Higher quality and better covered, so read it as the finance-industry vertical rather than a hidden name. It is the direct line from this thesis into the Future of Finance.</div>
+      <div class="cite">source: Intapp SEC filing, business description</div>
+    </div>
+  </div>
+
+  <div class="honest">
+    <div class="h">What the map got wrong, on purpose shown</div>
+    <p>
+      The composite score put a struggling crypto-payments name at the top on raw payments exposure; the
+      reality check flagged it on declining revenue, so a growth read filters it out on that layer. Several
+      small banks landed on the SMB-lending nodes at peripheral exposure. The tool ranks and flags rather
+      than asserting, which is the point: the machinery is visible, and the filter does work.
+    </p>
+  </div>
+
+  <div class="foot">
+    <span class="wm">Corollary</span> &nbsp; corollaryresearch.com<br />
+    Primary sources: SEC EDGAR. Market caps are delayed price times reported shares, not a licensed feed.
+    Not investment advice. Built by Russ Harris.
+  </div>
+</div>
