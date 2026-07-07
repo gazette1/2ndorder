@@ -457,6 +457,26 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   send(res, 404, { error: 'not found' });
 }
 
+// First-boot seeding: data/runs is a mounted volume, empty on a fresh deploy,
+// so the demo runs baked into the image (at data/seed-runs) are copied in once
+// if absent. This makes the deployed app browsable before any live run exists.
+function seedRuns() {
+  const seedDir = path.resolve('data/seed-runs');
+  if (!fs.existsSync(seedDir)) return;
+  fs.mkdirSync(RUNS_DIR, { recursive: true });
+  let copied = 0;
+  for (const name of fs.readdirSync(seedDir)) {
+    const src = path.join(seedDir, name);
+    const dest = path.join(RUNS_DIR, name);
+    if (!fs.statSync(src).isDirectory() || fs.existsSync(dest)) continue;
+    fs.cpSync(src, dest, { recursive: true });
+    copied++;
+  }
+  if (copied) console.log(`[api] seeded ${copied} demo run(s) into ${RUNS_DIR}`);
+}
+
+seedRuns();
+
 server.listen(PORT, () => {
   console.log(`[api] listening on http://localhost:${PORT} (provider=${CONFIG.llm.provider})`);
 });

@@ -13,10 +13,11 @@
     "typecheck": "tsc --noEmit && cd web && npx tsc --noEmit",
     "hermes": "tsx src/hermes/ingest.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   }
 }

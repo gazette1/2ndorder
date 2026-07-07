@@ -20,6 +20,9 @@ COPY --from=build /srv/web/public ./web/public
 COPY --from=build /srv/web/dist ./web/dist
 # The research corpus ships in the image; runs land on the mounted volume.
 COPY --from=build /srv/data/corpus ./data/corpus
+# Demo runs are baked in as a seed; the server copies them into the (empty)
+# runs volume on first boot so the app is browsable before any live run.
+COPY --from=build /srv/data/runs ./data/seed-runs
 VOLUME ["/srv/data/runs"]
 EXPOSE 8787
 CMD ["npx", "tsx", "server/api.ts"]
