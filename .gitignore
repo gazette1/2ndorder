@@ -5,3 +5,10 @@ web/node_modules/
 web/dist/
 .env
 corollary-demo-*.mp4
+
+# Generated firm maps are private (who you are pitching); host locally, do not
+# commit. The three generic samples are the exceptions kept as reference.
+site/maps/*
+!site/maps/pharma-reshoring.html
+!site/maps/grid-capex.html
+!site/maps/humanoid.html
