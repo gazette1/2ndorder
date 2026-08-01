@@ -36,17 +36,38 @@ export const CONFIG = {
   //   openai:  OPENAI_API_KEY (and OPENAI_BASE_URL for a non-DeepSeek host).
   //   ollama:  LLM_PROVIDER=ollama and pull a model first, e.g. `ollama pull gemma4`, then set LLM_MODEL.
   llm: {
-    provider: process.env.LLM_PROVIDER ?? (process.env.OPENAI_API_KEY ? 'openai' : 'fixture'), // 'fixture' | 'ollama' | 'openai'
+    provider:
+      process.env.LLM_PROVIDER ??
+      (process.env.OPENAI_API_KEY || process.env.LLM_HEAVY_API_KEY || process.env.LLM_LIGHT_API_KEY
+        ? 'openai'
+        : 'fixture'), // 'fixture' | 'ollama' | 'openai'
     // Two tiers, routed per task. Heavy carries the open-ended reasoning (scenario
     // decomposition, drill, counter-scenario inversion); light carries the bounded
-    // work (filing reads against excerpts, templated drafting). LLM_MODEL forces
-    // one model for both tiers (the ollama single-model case).
+    // work (filing reads against excerpts, templated drafting, Hermes carding).
+    // LLM_MODEL forces one model for both tiers (the ollama single-model case).
     models: {
       heavy: process.env.LLM_MODEL ?? process.env.LLM_MODEL_HEAVY ?? 'deepseek-v4-pro',
       light: process.env.LLM_MODEL ?? process.env.LLM_MODEL_LIGHT ?? 'deepseek-v4-flash',
     },
     ollamaHost: process.env.OLLAMA_HOST ?? 'http://localhost:11434',
     openaiBaseURL: process.env.OPENAI_BASE_URL ?? 'https://api.deepseek.com/v1',
+    // Per-tier endpoint overrides: each tier can live on its own OpenAI-compatible
+    // host (e.g. Moonshot Kimi K2 for heavy, DeepSeek for light). Unset tiers fall
+    // back to OPENAI_BASE_URL / OPENAI_API_KEY, so single-provider setups need no
+    // extra variables.
+    endpoints: {
+      heavy: {
+        baseURL: process.env.LLM_HEAVY_BASE_URL ?? process.env.OPENAI_BASE_URL ?? 'https://api.deepseek.com/v1',
+        apiKey: process.env.LLM_HEAVY_API_KEY ?? process.env.OPENAI_API_KEY ?? null,
+        // Some hosts pin temperature (Moonshot K2.7 requires exactly 1).
+        temperature: Number(process.env.LLM_HEAVY_TEMPERATURE ?? 0.2),
+      },
+      light: {
+        baseURL: process.env.LLM_LIGHT_BASE_URL ?? process.env.OPENAI_BASE_URL ?? 'https://api.deepseek.com/v1',
+        apiKey: process.env.LLM_LIGHT_API_KEY ?? process.env.OPENAI_API_KEY ?? null,
+        temperature: Number(process.env.LLM_LIGHT_TEMPERATURE ?? 0.2),
+      },
+    },
   },
 
   // A node whose phrases return at most this many total FTS hits is white space:

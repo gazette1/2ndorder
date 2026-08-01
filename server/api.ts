@@ -102,6 +102,16 @@ const ALLOWED_EMAILS = (process.env.ALLOWED_EMAILS ?? '')
   .split(',')
   .map((e) => e.trim().toLowerCase())
   .filter(Boolean);
+
+// SITE_PASSCODE: one shared passcode for the research preview, checked on both
+// login routes on top of the allowlist. Unset means no passcode (allowlist only).
+const SITE_PASSCODE = process.env.SITE_PASSCODE ?? '';
+function passcodeOk(supplied: unknown): boolean {
+  if (!SITE_PASSCODE) return true;
+  const a = Buffer.from(String(supplied ?? ''));
+  const b = Buffer.from(SITE_PASSCODE);
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
+}
 const RUNS_PER_DAY = Number(process.env.RUNS_PER_DAY ?? 12);
 const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7; // 7 days
 
@@ -222,10 +232,13 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   // addresses get in; unset means open pilot mode. There is no password in the
   // research preview; access control is the allowlist itself.
   if (req.method === 'POST' && pathname === '/api/login') {
-    const { email } = await readBody(req);
+    const { email, passcode } = await readBody(req);
     const normalized = String(email ?? '').trim().toLowerCase();
     if (!normalized || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(normalized)) {
       return send(res, 400, { error: 'a valid email is required' });
+    }
+    if (!passcodeOk(passcode)) {
+      return send(res, 403, { error: 'Wrong passcode.' });
     }
     if (ALLOWED_EMAILS.length && !ALLOWED_EMAILS.includes(normalized)) {
       return send(res, 403, { error: 'This email is not on the preview list. Ask for access.' });
@@ -236,7 +249,10 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   // Which auth methods are live. The login screen shows the Google button only
   // when a client id is configured on the server.
   if (req.method === 'GET' && pathname === '/api/auth-config') {
-    return send(res, 200, { googleClientId: process.env.GOOGLE_CLIENT_ID ?? null });
+    return send(res, 200, {
+      googleClientId: process.env.GOOGLE_CLIENT_ID ?? null,
+      passcodeRequired: Boolean(SITE_PASSCODE),
+    });
   }
 
   // Sign in with Google: the browser's Google Identity Services button posts
@@ -245,9 +261,12 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
   if (req.method === 'POST' && pathname === '/api/login/google') {
     const clientId = process.env.GOOGLE_CLIENT_ID;
     if (!clientId) return send(res, 501, { error: 'Google sign-in is not configured on this server.' });
-    const { credential } = await readBody(req);
+    const { credential, passcode } = await readBody(req);
     if (!credential || typeof credential !== 'string') {
       return send(res, 400, { error: 'missing Google credential' });
+    }
+    if (!passcodeOk(passcode)) {
+      return send(res, 403, { error: 'Wrong passcode.' });
     }
     try {
       const gres = await fetch(`https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`);

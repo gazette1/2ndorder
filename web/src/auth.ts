@@ -54,26 +54,35 @@ async function postLogin(path: string, body: Record<string, string>): Promise<Se
   return session;
 }
 
-// POST /api/login. The server checks the allowlist and returns a signed token.
-export async function login(email: string): Promise<Session> {
-  return postLogin('/api/login', { email });
+// POST /api/login. The server checks the passcode and allowlist and returns a signed token.
+export async function login(email: string, passcode?: string): Promise<Session> {
+  return postLogin('/api/login', passcode ? { email, passcode } : { email });
 }
 
 // Google Identity Services hands the button an ID token; the server verifies
-// it and issues the same session as email login.
-export async function loginWithGoogle(credential: string): Promise<Session> {
-  return postLogin('/api/login/google', { credential });
+// it and issues the same session as email login. The same passcode gate applies.
+export async function loginWithGoogle(credential: string, passcode?: string): Promise<Session> {
+  return postLogin('/api/login/google', passcode ? { credential, passcode } : { credential });
 }
 
-// Whether the server has Google sign-in configured (null client id = hidden).
-export async function googleClientId(): Promise<string | null> {
+export interface AuthConfig {
+  googleClientId: string | null;
+  passcodeRequired: boolean;
+}
+
+// What the server needs at sign-in: Google client id (null = button hidden)
+// and whether a site passcode is configured.
+export async function authConfig(): Promise<AuthConfig> {
   try {
     const res = await fetch('/api/auth-config');
-    if (!res.ok) return null;
-    const data = (await res.json()) as { googleClientId?: string | null };
-    return data.googleClientId ?? null;
+    if (!res.ok) return { googleClientId: null, passcodeRequired: false };
+    const data = (await res.json()) as Partial<AuthConfig>;
+    return {
+      googleClientId: data.googleClientId ?? null,
+      passcodeRequired: Boolean(data.passcodeRequired),
+    };
   } catch {
-    return null;
+    return { googleClientId: null, passcodeRequired: false };
   }
 }
 
@@ -90,8 +99,8 @@ export function useSession() {
     return () => window.removeEventListener('storage', onStorage);
   }, []);
 
-  const signIn = useCallback(async (email: string) => {
-    const s = await login(email);
+  const signIn = useCallback(async (email: string, passcode?: string) => {
+    const s = await login(email, passcode);
     setSession(s);
     return s;
   }, []);

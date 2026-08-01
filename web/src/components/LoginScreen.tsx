@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react';
-import { googleClientId, loginWithGoogle } from '../auth';
+import { authConfig, loginWithGoogle } from '../auth';
 
 interface Props {
-  onSignIn: (email: string) => Promise<unknown>;
+  onSignIn: (email: string, passcode?: string) => Promise<unknown>;
   onSession?: () => void;
 }
 
@@ -21,17 +21,26 @@ declare global {
 
 export function LoginScreen({ onSignIn, onSession }: Props) {
   const [email, setEmail] = useState('');
+  const [passcode, setPasscode] = useState('');
+  const [passcodeRequired, setPasscodeRequired] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const googleRef = useRef<HTMLDivElement>(null);
   const [googleReady, setGoogleReady] = useState(false);
+  // The Google callback closes over the initial render; read the live passcode
+  // through a ref so the value typed at click time is the one sent.
+  const passcodeRef = useRef('');
+  passcodeRef.current = passcode;
 
-  // Google sign-in renders only when the server has a client id configured.
+  // One auth-config fetch drives both the passcode field and the Google button.
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const clientId = await googleClientId();
-      if (!clientId || cancelled) return;
+      const config = await authConfig();
+      if (cancelled) return;
+      setPasscodeRequired(config.passcodeRequired);
+      const clientId = config.googleClientId;
+      if (!clientId) return;
       const s = document.createElement('script');
       s.src = 'https://accounts.google.com/gsi/client';
       s.async = true;
@@ -42,7 +51,7 @@ export function LoginScreen({ onSignIn, onSession }: Props) {
           callback: async (r) => {
             setError(null);
             try {
-              await loginWithGoogle(r.credential);
+              await loginWithGoogle(r.credential, passcodeRef.current || undefined);
               onSession?.();
             } catch (err) {
               setError(err instanceof Error ? err.message : String(err));
@@ -67,10 +76,11 @@ export function LoginScreen({ onSignIn, onSession }: Props) {
   const submit = async (e: FormEvent) => {
     e.preventDefault();
     if (!email.trim()) return;
+    if (passcodeRequired && !passcode) return;
     setBusy(true);
     setError(null);
     try {
-      await onSignIn(email.trim());
+      await onSignIn(email.trim(), passcode || undefined);
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
       setBusy(false);
@@ -96,7 +106,24 @@ export function LoginScreen({ onSignIn, onSession }: Props) {
           onChange={(e) => setEmail(e.target.value)}
           disabled={busy}
         />
-        <button type="submit" className="login-btn" disabled={busy || !email.trim()}>
+        {passcodeRequired && (
+          <>
+            <label className="login-label" htmlFor="login-passcode">
+              Passcode
+            </label>
+            <input
+              id="login-passcode"
+              className="login-input mono"
+              type="password"
+              autoComplete="current-password"
+              placeholder="preview passcode"
+              value={passcode}
+              onChange={(e) => setPasscode(e.target.value)}
+              disabled={busy}
+            />
+          </>
+        )}
+        <button type="submit" className="login-btn" disabled={busy || !email.trim() || (passcodeRequired && !passcode)}>
           {busy ? 'Signing in.' : 'Sign in'}
         </button>
         <div className="login-google" ref={googleRef} style={googleReady ? undefined : { display: 'none' }} />

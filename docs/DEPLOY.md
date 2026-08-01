@@ -4,6 +4,40 @@ One node process serves everything: the landing page at /, the app at /app,
 and the API at /api. The research corpus and a set of demo runs ship inside
 the image; new scenario runs persist on a mounted volume.
 
+## Current deployment (live since 2026-08-01)
+
+The site runs on Russ's PC behind a Cloudflare named tunnel. No inbound ports,
+no separate host. Cloudflare terminates TLS at the edge and forwards to
+localhost through the tunnel connector.
+
+- Server: `npx tsx server/api.ts` on port 8731 (8787 belongs to the
+  mosaic-underwriting demo server, 8899 to a Python static server).
+- Env: `.env` in the repo root (not committed). Passcode is SITE_PASSCODE,
+  test users are ALLOWED_EMAILS, model routing is the LLM_* block: heavy tier
+  on Moonshot kimi-k2.7-code (LLM_HEAVY_TEMPERATURE=1; Moonshot rejects any
+  other temperature), light tier on DeepSeek deepseek-v4-flash.
+- Tunnel: named tunnel `corollary-prod`
+  (b50808ff-a3e2-4d5d-8cf9-26d7ba8700a4), remote-managed ingress
+  apex + www -> http://localhost:8731. Connector binary and credentials in
+  `C:\Users\harri\.corollary\` (cf.env has the API token, tunnel_token.txt the
+  connector token).
+- DNS: proxied CNAMEs for @ and www -> <tunnel-id>.cfargotunnel.com in the
+  Cloudflare zone. SSL mode is irrelevant with a tunnel origin.
+- Start or restart everything: `powershell -File C:\Users\harri\.corollary\start-corollary.ps1`
+  (idempotent; also runs at logon via
+  `shell:startup\corollary-site.cmd`, so the site survives reboots as long as
+  the PC is on and logged in).
+- Supabase: project `corollary` (iptlskygpkfpzqjeciog, us-east-1, free tier)
+  carries the candidate-graph schema from supabase/migrations plus the
+  Stripe-ready billing tables (0002_billing.sql). The server does not read it
+  yet; it is the landing zone for auth/persistence and Stripe later.
+
+Limits of this setup, stated plainly: the site is down whenever this PC is
+off, asleep, or logged out. Windows sleep is the main risk; disable sleep or
+migrate to Railway (below) before sending the link to anyone who matters.
+The Railway migration is: deploy the container, then repoint the two CNAMEs
+from the tunnel to the Railway target. Nothing else changes.
+
 ## The one thing to know first
 
 The site can go live with the landing page and a browsable app WITHOUT the

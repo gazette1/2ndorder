@@ -99,17 +99,19 @@ async function callOllama(prompt: string, format: Format, model: string): Promis
   return String(data.message?.content ?? '');
 }
 
-// Any OpenAI-compatible chat completions endpoint.
+// Any OpenAI-compatible chat completions endpoint, resolved per tier so heavy
+// and light can run on different hosts (Kimi K2 heavy, DeepSeek light).
 async function callOpenAiCompatible(prompt: string, format: Format, model: string, tier: Tier): Promise<string> {
-  const key = process.env.OPENAI_API_KEY;
-  if (!key) throw new Error('LLM_PROVIDER=openai needs OPENAI_API_KEY.');
+  const endpoint = CONFIG.llm.endpoints[tier];
+  const key = endpoint.apiKey;
+  if (!key) throw new Error(`LLM_PROVIDER=openai needs an API key for the ${tier} tier (OPENAI_API_KEY or LLM_${tier.toUpperCase()}_API_KEY).`);
   const body: Record<string, unknown> = {
     model,
     messages: [{ role: 'user', content: prompt }],
-    temperature: 0.2,
+    temperature: endpoint.temperature,
   };
   if (format === 'json') body.response_format = { type: 'json_object' };
-  const res = await fetch(`${CONFIG.llm.openaiBaseURL}/chat/completions`, {
+  const res = await fetch(`${endpoint.baseURL}/chat/completions`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
     body: JSON.stringify(body),
@@ -121,7 +123,7 @@ async function callOpenAiCompatible(prompt: string, format: Format, model: strin
     const price = PRICE_PER_TOKEN[tier];
     spentUSD += (usage.prompt_tokens ?? 0) * price.in + (usage.completion_tokens ?? 0) * price.out;
   }
-  console.log(`[llm] openai-compatible ${model} @ ${CONFIG.llm.openaiBaseURL} (spent so far $${spentUSD.toFixed(3)})`);
+  console.log(`[llm] openai-compatible ${model} @ ${endpoint.baseURL} (spent so far $${spentUSD.toFixed(3)})`);
   return String(data.choices?.[0]?.message?.content ?? '');
 }
 
