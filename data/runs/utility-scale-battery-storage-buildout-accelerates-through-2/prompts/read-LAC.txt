@@ -1,0 +1,55 @@
+You are an equity analyst reading SEC filing excerpts for LITHIUM AMERICAS CORP. (LAC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map node this company was mapped to: Lithium carbonate and hydroxide refiners (order 2, beneficiary). Mechanism: Higher LFP cathode output pulls more lithium chemicals through the supply chain. Node logic: Cathode plants are primary industrial buyers of battery-grade lithium chemicals. When utility buildout accelerates, their offtake volumes rise and contract pricing tightens, so refiners absorb volume growth before it reaches mining companies.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (8-K, filed 2026-05-14) 3 Figure C: Bicarbonate reactors for the Lithium Carbonate Crystallization facility have arrived at Thacker Pass.
+[1] (8-K, filed 2026-05-14) Phase 1 is designed for nominal production capacity of 40,000 tonnes per year of battery-quality lithium carbonate, and mechanical completion is targeted for late 2027.
+[2] (10-K, filed 2026-03-19) If approved, Phase 2, 3 and 4 would include the addition of acid plants and construction of mineral and chemical processing facilities to produce an additional nominal 40,000 t of lithium carbonate per year from each phase.
+[3] (10-K, filed 2026-03-19) Operating Cost Estimate The estimated average annual operating expenditures ( OPEX ) over the 85-year mine life is $1,086 million, or $8,039/t of lithium carbonate produced, and for Years 1-25 of the 85 year mine life, estimated average annual OPEX is $779 million, or $6,238/t of lithium carbonate produced.
+[4] (10-K, filed 2026-03-19) Economic Analysis The only revenue stream is sales of lithium carbonate.
+[5] (10-K, filed 2026-03-19) Production and Revenues Phases 1 through 4 are each designed for a nominal production rate of 40,000 t/y of lithium carbonate.
+[6] (10-K, filed 2026-03-19) Product selling price has been forecasted over the study period at $24,000/t lithium carbonate.
+[7] (10-K, filed 2026-03-19) The annual average lithium carbonate production for the Base Case is 135,132 t/y (LOM total of 11,486,261 t/y) and the annual average revenue is $3.2 billion per year (LOM total of $275,670 million).
+[8] (10-K, filed 2026-03-19) The annual average lithium carbonate production for the Production Scenario is 124,867 t/y (Years 1-25 total of 3,121,685 t/y) and the annual average revenue is $3.0 billion per year (Years 1-25 total of $74,921 million).
+[9] (10-K, filed 2026-03-19) Sensitivity Analysis A sensitivity analysis was performed on NPV at an 8% discount and IRR at a range of discount rates for three lithium carbonate product selling price cases for three scenarios -25% (downside), 0% (base-fixed) and +25% (high).
+[10] (10-K, filed 2026-03-19) Commercial Agreements On February 16, 2023, as part of closing GM s Tranche 1 Investment, Old LAC entered into the Phase 1 Offtake Agreement with GM pursuant to which Old LAC agreed to supply GM with lithium carbonate production from Phase 1 of Thacker Pass.
+[11] (10-K, filed 2026-03-19) In 2021, Aquatech International, LLC ( Aquatech ") was contracted through a master services agreement to provide confirmation test work, equipment engineering, equipment manufacture and supply for purification and final product crystallization systems for the lithium carbonate production plant.
+[12] (10-K, filed 2026-03-19) Throughout 2025, the following key roles were filled: Site Operations Director, Lithium Carbonate Plant Manager, Sulfuric Acid Plant Manager, Maintenance Manager, Supply Chain Manager, Training Manager and Process Superintendent.
+[13] (10-K, filed 2026-03-19) The production payments are also subject to certain adjustments related to the tonnage of battery-grade lithium carbonate equivalent sold.
+[14] (10-K, filed 2026-03-19) The novel process for producing lithium carbonate from Thacker Pass has not been demonstrated at commercial scale, posing risks of inefficiencies, unforeseen costs and delays The processes contemplated by the Company for production of lithium carbonate from a sedimentary deposit such as that of Thacker Pass have not previously been demonstrated at commercial scale.
+[15] (10-K, filed 2026-03-19) The Tech Center continues to operate based on the Thacker Pass flowsheet processing raw ore to final battery-quality lithium carbonate to produce product samples for potential customers and partners.
+[16] (10-K, filed 2026-03-19) The success of operations will be affected by the fluctuating market price of lithium products, and failure to meet battery-grade quality or customer specifications could reduce the prices the Company is able to realize for its products and its customer base The ability to generate profitable operations on Thacker Pass, if and to the extent the project is developed and enters commercial operation, will be significantly affected by the market price of lithium-based end products, such 27 as lithium carbonate and lithium hydroxide.
+[17] (10-K, filed 2026-03-19) The lithium chemicals business also is subject to commercial business cycles and commodities price cycles.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $n/a, net income $-86,262,000, R&D $n/a, cash $568,226,000.
+Customer graph: federal awards $0 across 0 awards; 3 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

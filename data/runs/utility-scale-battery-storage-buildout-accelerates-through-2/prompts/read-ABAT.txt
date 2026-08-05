@@ -1,0 +1,55 @@
+You are an equity analyst reading SEC filing excerpts for AMERICAN BATTERY TECHNOLOGY Co (ABAT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map node this company was mapped to: Lithium-ion battery recycling service providers (order 2, beneficiary). Mechanism: A larger installed base creates more end-of-life batteries and manufacturing scrap to process. Node logic: Recyclers need feedstock scale to cover fixed plant costs. Faster utility deployment increases both future retired packs and current production scrap, tightening long-term cathode material supply and improving the economics of recycling as a source of battery-grade inputs.
+8-K filings in the last 12 months: 16
+
+Excerpts:
+[0] (10-K, filed 2025-09-18) Our Business Lithium-Ion Battery Recycling ABTC has developed a universal lithium-ion battery recycling system that is capable of recycling batteries with both a wide range of form factors (packs, modules, cylindrical cells, prismatic cells, pouch cells, defect and intermediate waste cells, metal scraps, slurries, and powders) and of a wide range of cathode chemistries (lithiated cobalt oxide, lithiated nickel-cobalt-aluminum oxide, lithiated nickel-cobalt-manganese oxide, lithiated nickel-cobalt-manganese-aluminum oxide, lithiated nickel-oxide, and lithiated manganese-oxide) of various relative weighting of transition metals.
+[1] (10-K, filed 2025-09-18) Industry Collaborations In September 2019, the Company was selected as the sole winner of the battery recycling portion of the Circularity Challenge hosted by BASF, Stanley Black & Decker, and Greentown Labs.
+[2] (10-K, filed 2025-09-18) The Company and BASF continue to explore several avenues of collaboration to accelerate the commercialization of the Company s lithium-ion battery recycling technology.
+[3] (10-K, filed 2025-09-18) The objective of the contract award is for the commercial-scale development and demonstration of an integrated lithium-ion battery recycling system, the production of battery cathode grade metal products, the synthesis of high energy density active cathode material from these recycled battery metals by cathode producer and lithium-ion battery recycler BASF, and the fabrication of large format automotive battery cells from these recycled materials and the testing of these cells against otherwise identical cells made from virgin sourced metals by cell technology developer C4V.
+[4] (10-K, filed 2025-09-18) The demonstration of the entire closed-loop battery manufacturing supply chain within a single project is meant to foster the establishment of a domestic low-cost and low-environmental impact battery recycling infrastructure Competition The Company expects to recover several types of byproducts as well as battery cathode grade lithium, nickel, cobalt, and manganese products through its recycling process and will compete with two categories of producers of these commodities: competing recycling processers and facilities and primary producers of the battery materials.
+[5] (10-K, filed 2025-09-18) Primary Resource Development & Refining In addition to its battery recycling operations, the Company has been designing and optimizing our internally developed sustainable lithium extraction process for the manufacturing of battery cathode grade lithium hydroxide from Nevada-based sedimentary claystone primary resources.
+[6] (10-K, filed 2025-09-18) Evolving federal and state regulations on battery recycling and extended producer responsibility may create new compliance obligations, increase operating costs, or affect the economics of our recycling operations.
+[7] (10-K, filed 2025-09-18) We are engaged in the business of lithium-ion battery recycling through proprietary recycling technology.
+[8] (10-K, filed 2025-09-18) While lithium-ion battery recycling is an established business, most existing processes rely on bulk high-temperature processes or bulk shredding techniques.
+[9] (10-K, filed 2025-09-18) The success of our lithium-ion battery recycling operations is fundamentally dependent on our ability to secure adequate quantities of spent lithium-ion batteries and other feedstock materials of sufficient quality and at economically viable prices.
+[10] (10-K, filed 2025-09-18) The regulatory landscape governing battery recycling and extended producer responsibility (EPR) is rapidly evolving at both federal and state levels.
+[11] (10-K, filed 2025-09-18) To implement this business strategy, the Company has constructed its first integrated lithium ion battery recycling facility, which takes in waste and end of life battery materials from the electric vehicle, stationary storage, and consumer electronics industries.
+[12] (10-K, filed 2025-09-18) Advanced Battery Consortium to support a $2 million project to accelerate the development and demonstration of the technologies within this integrated lithium ion battery recycling facility.
+[13] (10-K, filed 2025-09-18) This $19.5 million tax credit can be utilized both for the reimbursement of capital expenditures spent to date, and also for equipment and infrastructure for additional value-add operations at the Company s battery recycling facility in the Tahoe-Reno Industrial Center (TRIC) near Reno, Nevada.
+[14] (10-K, filed 2025-09-18) 29 Also on March 28, 2024, the Company has been selected for an additional $40.5 million tax credit through the 48C program to support the design and construction of a new, next-generation, commercial battery recycling facility to be located in the United States.
+[15] (10-K, filed 2025-09-18) As with the Company s initial $19.5 million tax credit under the 48C program supporting the construction and buildout of its battery recycling facility in Nevada, this additional award was granted by the U.S.
+[16] (10-K, filed 2025-09-18) Fiscal Fourth Quarter 2025 Financial Highlights : Revenue increased to $2.8 million in fourth quarter fiscal year 2025, compared to $1.0 million in third quarter fiscal year 2025, nearly tripling and reflecting a significant ramp-up of battery recycling facility operations.
+[17] (10-K, filed 2025-09-18) A reconciliation of fiscal year ended 2025 GAAP to non-GAAP cost of goods sold Description Amount ($M) GAAP Cost of Goods Sold 14.9 Less: Depreciation Expense (3.6 ) Less: Stock-Based Compensation (0.8 ) Non-GAAP Cash Cost of Goods Sold 10.5 The Company was selected for, and successfully contracted, a grant from the US DOE for $150 million to support the construction of an additional battery recycling facility.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-1,873,553 across 0 buys and 6 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-06-30): revenue $4,290,224, net income $-46,762,625, R&D $8,470,161, cash $7,474,304.
+Customer graph: federal awards $193,009,967 across 4 awards (top agency Department of Energy); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

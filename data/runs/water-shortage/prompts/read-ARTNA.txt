@@ -1,0 +1,50 @@
+You are an equity analyst reading SEC filing excerpts for ARTESIAN RESOURCES CORP (ARTNA). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Industrial water treatment services and chemicals (order 2, beneficiary). Mechanism: Industrial water treatment service providers and chemical suppliers gain revenue from higher-cycle cooling systems, recycling units, and discharge compliance contracts. Node logic: Facilities facing intake limits must outsource chemistry and operations to meet permit conditions. Contracts extend in duration and scope because plant operators prefer guaranteed compliance over capital ownership of treatment assets.
+8-K filings in the last 12 months: 6
+
+Excerpts:
+[0] (10-Q, filed 2026-05-08) Artesian Utility currently operates wastewater treatment facilities for the Town of Middletown, in southern New Castle County, Delaware, or Middletown, under a 20 -year contract that expires in July 2039.
+[1] (10-Q, filed 2026-05-08) Artesian Utility currently operates three wastewater treatment systems with a combined capacity of up to approximately 3.8 mgd.
+[2] (10-Q, filed 2026-05-08) The wastewater treatment facilities in Middletown provide reclaimed wastewater for use in spray irrigation on public and agricultural lands in the area.
+[3] (10-Q, filed 2026-05-08) Regulated tariff contract service revenues consist of water consumption, industrial wastewater services, fixed fees for water and wastewater services including customer and fire protection fees, service charges and Distribution System Improvement Charges, or DSIC, billed to customers at rates outlined in our tariffs that represent standalone selling prices.
+[4] (10-Q, filed 2026-05-08) We recognize water consumption revenue at tariff rates on a cycle basis for the volume of water transferred to customers based upon meter readings for actual gallons of water consumed as well as unbilled amounts for estimated usage from the date of the last meter reading to the end of the accounting period.
+[5] (10-Q, filed 2026-05-08) As set forth in a settlement agreement, Artesian Water received reimbursements from the Delaware Sand and Gravel Remedial Trust, or Trust, for Artesian Water s past capital and operating costs, totaling approximately $ 10.0 million, related to the treatment costs associated with the release of contaminants from the Delaware Sand & Gravel Landfill Superfund Site, or Site, in groundwater that Artesian Water uses for public potable water supply.
+[6] (10-Q, filed 2026-05-08) Affiliated interest agreement deferred costs relate to the regulatory and administrative costs resulting from efforts necessary to secure water allocations in Artesian Water Pennsylvania s territory for the provision of service to the surrounding area and interconnection to Artesian Water Pennsylvania s affiliate regulated water utility Artesian Water.
+[7] (10-Q, filed 2026-05-08) In April 2024, Artesian Wastewater received a permit from the Delaware Department of Natural Resources and Environmental Control, or DNREC, for construction of a 625,000 gallon per day regional wastewater treatment facility, including a primary receiving headworks at its Sussex Regional Recharge Facility, or SRRF.
+[8] (10-Q, filed 2026-05-08) In February 2026, Artesian Wastewater received a permit from DNREC for construction of an additional 1,250,000 gallon per day regional wastewater treatment facility.
+[9] (10-Q, filed 2026-05-08) Artesian Development owns two nine-acre parcels of land, located in Sussex County, Delaware, which allows for construction of a water treatment facility and wastewater treatment facility .
+[10] (10-Q, filed 2026-05-08) The LCR limits the levels of lead and copper in water by improving water treatment, testing for lead and copper at customer taps, and eliminating the water supply as a significant source of lead and copper.
+[11] (10-Q, filed 2026-05-08) Cash flow from operating activities is primarily provided by our utility operations and is impacted by the timeliness and adequacy of rate increases and changes in water consumption as a result of year-to-year variations in weather conditions, particularly during the summer.
+[12] (10-Q, filed 2026-05-08) During the first three months of 2026, these investments include installation of new mains, services and hydrants, renewals associated with the rehabilitation of aging infrastructure, upgrading and replacing our meter reading equipment, installation of wastewater force mains, upgrading existing pumping and treatment stations, including PFAS treatment upgrades, and construction of new wastewater treatment plants, to better serve our customers.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-396,697 across 0 buys and 8 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $112,941,000, net income $22,822,000, R&D $n/a, cash $52,000.
+Customer graph: federal awards $0 across 0 awards; 4 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

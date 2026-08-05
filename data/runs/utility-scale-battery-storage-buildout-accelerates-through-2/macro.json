@@ -1,0 +1,43 @@
+{
+  "series": [
+    {
+      "id": "DGS10",
+      "label": "10-year treasury yield",
+      "latest": 4.68,
+      "asof": "2026-07-30",
+      "yoyPct": 6.8,
+      "provenance": "fred"
+    },
+    {
+      "id": "TTLCONS",
+      "label": "total construction spending",
+      "latest": 2210214,
+      "asof": "2026-05-01",
+      "yoyPct": -1.5,
+      "provenance": "fred"
+    },
+    {
+      "id": "PCU334413334413",
+      "label": "PPI, semiconductor manufacturing",
+      "latest": 29.695,
+      "asof": "2026-06-01",
+      "yoyPct": -0.6,
+      "provenance": "fred"
+    },
+    {
+      "id": "PCU221122221122",
+      "label": "PPI, electric power distribution",
+      "latest": 208.599,
+      "asof": "2026-06-01",
+      "yoyPct": 3,
+      "provenance": "fred"
+    }
+  ],
+  "fomc": {
+    "date": "2026-06-17",
+    "stance": "The Federal Open Market Committee kept the target range for the federal funds rate at 3.5 to 3.75 percent. Risks to inflation were seen as tilted to the upside, while risks to employment were seen as tilted somewhat to the downside, and future policy would depend on incoming data.",
+    "provenance": "federalreserve"
+  },
+  "industry": null,
+  "note": "Federal Reserve Economic Data (FRED), latest observation with a year-over-year change where the history allows one."
+}

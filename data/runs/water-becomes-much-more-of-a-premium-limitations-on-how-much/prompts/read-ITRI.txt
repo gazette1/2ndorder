@@ -1,0 +1,39 @@
+You are an equity analyst reading SEC filing excerpts for ITRON, INC. (ITRI). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map node this company was mapped to: Advanced metering infrastructure and smart water meters (order 1, beneficiary). Mechanism: Utilities facing rationing rules pay meter vendors and systems integrators to deploy AMI so they can monitor, bill, and enforce household limits. Node logic: Rationing turns metering from a billing convenience into a compliance necessity, so adoption accelerates even where utilities previously delayed upgrades. Capital spending is lumpy and often funded by rate cases, so revenue recognition for vendors moves with awarded contracts rather than with gradual conservation trends.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (10-Q, filed 2026-07-28) The Industrial Internet of Things (IIoT) solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications.
+[1] (10-Q, filed 2026-07-28) The IIoT solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-12,933,839 across 0 buys and 47 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $2,367,194,000, net income $301,055,000, R&D $207,041,000, cash $1,020,397,000.
+Customer graph: federal awards $5,000,000 across 1 awards (top agency Department of Defense); 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

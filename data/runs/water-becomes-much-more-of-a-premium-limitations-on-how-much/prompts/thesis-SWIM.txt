@@ -1,0 +1,63 @@
+Draft a one-page thesis for Latham Group, Inc. (SWIM) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+IMPORTANT: this name sits on an AT-RISK node. It is a short or avoid candidate, not a long. Write it that way: the bear case section argues why the SHORT fails (what protects the company), and the non-linear case is the downside path where the scenario compounds against it.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map position: Pool construction and maintenance services (order 3, at_risk, horizon mid). Mechanism: Lower demand for new pools and reduced water use cut both construction backlogs and recurring maintenance visits. Service routes depend on minimum visit frequency for chemical balancing and equipment checks; fewer filled pools mean fewer billable stops. New construction projects are cancelled or downsized when customers realize they cannot fill or operate the pool under rationing rules.
+Market cap: $629MM
+Composite score: 26/100
+Subscores:
+- optionality: 0/5 (weight 0.25). The excerpt identifies water restrictions as a risk that could decrease pool installations and sales, but provides no evidence of any new business or product investment to address this theme.
+- revenueToOpportunity: 0/5 (weight 0.2). The theme represents a demand reduction risk, not an addressable opportunity that would grow revenue relative to a TAM.
+- catalystDensity: 0/5 (weight 0.15). No near-term events, milestones, or named programs related to the theme are mentioned in the excerpts.
+- managementConviction: 0/5 (weight 0.1). The language is a generic risk-factor statement; no named initiatives, capital commitments, or quantified targets are provided.
+- insiderConviction: 3/5 (weight 0.1). Form 4: net $315,745 over 2 buys and 0 sales by 2 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $3,028,886, 0 named customer(s), 16 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (10-K, filed 2026-03-04, https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm) A conversion to fiberglass pools from legacy pool construction materials is being driven by greater homeowner awareness of the benefits of fiberglass products.
+[1] (10-K, filed 2026-03-04, https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm) As a result of material conversion away from legacy pool construction materials such as concrete, market growth of fiberglass pool starts in the United States is meaningfully outpacing that of the broader in-ground swimming pool market.
+[2] (10-K, filed 2026-03-04, https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm) Products Our residential pool product portfolio is highly complementary and allows us to provide a wide-range of solutions to our homeowners.
+[3] (10-K, filed 2026-03-04, https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm) Demand for our fiberglass pools is driven by both material conversion from legacy pool construction materials, especially concrete, and the long-term value that our pools deliver to our homeowners through lower up-front and lifecycle costs, faster and easier installation, better quality and fewer chemicals.
+[4] (10-K, filed 2026-03-04, https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm) Additionally, drought conditions or water management initiatives have led and may continue to lead to municipal ordinances related to water use restrictions, and such restrictions could result in decreased pool installations and negatively impact our sales.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $315,745 across 2 buys and 0 sales by 2 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $545,912,000, cash $71,043,000.
+Customer graph: federal awards $3,028,886 (Department of Agriculture $1,000,000 (CLSS00000074469); Department of Agriculture $800,000 (CLSS00000068968); Department of Homeland Security $426,839 (EMW-2024-FF-00012)); named customers none in excerpts; 16 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $4,430,987, about 8 trading days to build a position; net cash $-208,798,000; share count up 1.4 percent in 12 months.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts in your output: M for thousands, MM for millions (the facts above are exact dollars).
+- Do not pad. Under 600 words.
+- Return ONLY the finished markdown document. No notes to yourself, no reasoning, no commentary
+  about the inputs. If two input facts appear to conflict, state the discrepancy in one factual
+  sentence inside the relevant section and move on.
+
+Return only the markdown document.

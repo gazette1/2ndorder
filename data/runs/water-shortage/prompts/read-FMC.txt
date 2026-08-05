@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for FMC CORP (FMC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Drought-tolerant crop inputs (order 1, beneficiary). Mechanism: Farmers pay premiums for drought-tolerant seed traits, biostimulants, and stress-management chemistries after yield losses in dry seasons. Node logic: Adoption shifts from optional insurance to a necessary input when water stress becomes recurrent. Revenue per acre rises because trait fees and biological products carry higher margins than base commodity seeds, and growers lock in multi-year contracts.
+8-K filings in the last 12 months: 16
+
+Excerpts:
+[0] (10-Q, filed 2026-07-30) In May 2026, the Company announced that it has signed a definitive agreement to sell the India commercial business to Crystal Crop Protection Limited for consideration of $ 252 million, subject to customary adjustments for cash, debt and working capital.
+[1] (10-Q, filed 2026-07-30) We develop, market and sell all three major classes of crop protection chemicals (insecticides, herbicides and fungicides) as well as biologicals, crop nutrition, and seed treatment products, which we group as plant health.
+[2] (10-Q, filed 2026-07-30) (2) Represents proprietary brand portfolios, consisting of trademarks, trade names and know-how, of our crop protection brands.
+[3] (10-Q, filed 2026-07-30) FMC s innovative crop protection solutions help growers produce food, feed, fiber and fuel for an expanding world population while adapting to a changing environment.
+[4] (10-Q, filed 2026-07-30) In May 2026, the Company announced that it has signed a definitive agreement to sell the India commercial business to Crystal Crop Protection Limited for consideration of $252 million, subject to customary adjustments for cash, debt and working capital.
+[5] (10-K, filed 2026-02-27) FMC Strategy We are a tier-one leader in the agrochemicals/crop protection market.
+[6] (10-K, filed 2026-02-27) 6 Table of Contents Industry Overview The three principal categories of agricultural and non-crop chemicals are: herbicides, insecticides, and fungicides, representing approximately 41 percent, 30 percent and 27 percent of global agricultural crop protection market value, respectively.
+[7] (10-K, filed 2026-02-27) The agrochemicals industry includes the following leading crop protection companies: FMC, ChemChina (owner of Syngenta Group, which includes the former Syngenta and Adama), Bayer AG (acquired Monsanto in 2018), BASF AG, Corteva Agriscience, and UPL Ltd.
+[8] (10-K, filed 2026-02-27) These six innovation companies currently represent approximately 76 percent of the crop protection industry s global sales.
+[9] (10-K, filed 2026-02-27) We believe that FMC has one of the most productive crop protection pipelines in agriculture.
+[10] (10-K, filed 2026-02-27) Seasonality The seasonal nature of the crop protection market and the geographic spread of our business can result in significant variations in quarterly earnings among geographic locations.
+[11] (10-K, filed 2026-02-27) 10 Table of Contents Our business competes primarily in the global crop protection market for insecticides, herbicides and fungicides.
+[12] (10-K, filed 2026-02-27) Industry products include crop protection chemicals and biologicals, for certain major competitors, genetically engineered (crop biotechnology) products.
+[13] (10-K, filed 2026-02-27) Competition for our business includes not only generic suppliers of the same pesticidal active ingredients but also alternative proprietary pesticide chemistries and crop protection technologies that are bred into or applied onto seeds.
+[14] (10-K, filed 2026-02-27) The acute and chronic effects of climate conditions, including, but not limited to, drought, flooding, hurricanes, excessive heat and general volatility in seasonal temperatures, could adversely affect our operations globally.
+[15] (10-K, filed 2026-02-27) Drought and/or increased temperatures may change insect pest pressures, requiring growers to use more, less, or different insecticides.
+[16] (10-K, filed 2026-02-27) Longer-term shifts in temperature and precipitation patterns may also alter land suitability and crop mixes over time, changing pest and disease pressures and, in turn, demand for certain crop protection solutions.
+[17] (10-K, filed 2026-02-27) Unexpected market conditions may adversely impact our business due to the seasonal nature of the crop protection market and the geographic spread of our business.
+[18] (10-K, filed 2026-02-27) In any given calendar quarter certain geographies may predominate the demand for our products in light of seasonal variations typically associated with the crop protection market and the geographic regions in which we operate.
+[19] (10-K, filed 2026-02-27) Changes to the regulatory environment may be influenced by non-government public pressure as a result of negative perception regarding the use of our crop protection products.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $249,938 across 1 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,083,300,000, net income $-1,720,800,000, R&D $n/a, cash $584,500,000.
+Customer graph: federal awards $13,498,601 across 4 awards (top agency Department of Defense); 12 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

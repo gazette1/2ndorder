@@ -1,0 +1,59 @@
+Draft a one-page thesis for Capital Bancorp Inc (CBNK) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+IMPORTANT: this name sits on an AT-RISK node. It is a short or avoid candidate, not a long. Write it that way: the bear case section argues why the SHORT fails (what protects the company), and the non-linear case is the downside path where the scenario compounds against it.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map position: Pumped hydro storage operators (order 1, at_risk, horizon long). Mechanism: Lithium-ion batteries capture frequency regulation and daily arbitrage revenue that historically accrued to pumped-storage assets. Pumped hydro plants have long construction times and limited siting options, while battery projects can enter service in under three years. As battery capacity saturates the premium grid services, pumped hydro assets face lower clearing prices and longer payback periods on new investments.
+Market cap: $608MM
+Composite score: 10/100
+Subscores:
+- optionality: 0/5 (weight 0.25). The excerpt mentions batteries and pumped storage as categories in an EIA definition, but does not describe any company activity, investment, or business program related to energy storage. The bank's filing provides no evidence that the theme creates a new business for the company.
+- revenueToOpportunity: 0/5 (weight 0.2). The excerpt does not describe any revenue opportunity from the theme for the company. There is no mention of energy storage projects, financing, or market size, and the company's banking revenue is not quantified relative to the theme.
+- catalystDensity: 0/5 (weight 0.15). The excerpt contains no near-term catalysts, design wins, qualification milestones, capacity additions, or named customer programs. The only excerpt is a definitional footnote from an external source, offering no dated or specific events.
+- managementConviction: 0/5 (weight 0.1). The excerpt is from the Energy Information Administration, not management. It does not reflect management's language, commitments, capex plans, or quantified targets. The bank's management text is absent from the provided excerpts.
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-1,374,906 over 0 buys and 2 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $3,013,305, 0 named customer(s), 4 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (8-K, filed 2025-04-28, https://www.sec.gov/Archives/edgar/data/1419536/000141953625000058/investoroverview03312025.htm) Energy Information Administration, Annual Energy Outlook 2023 (AEO2023) *Includes utility-scale and end-use photovoltaic generation and excludes off-grid photovoltaics. **Includes petroleum, conventional hydroelectric power, geothermal, wood and other biomass, pumped storage, non-biogenic municipal waste in the electric power sector, refinery gas, still gas, batteries, chemicals, hydrogen, pitch, purchased steam, sulfur, and miscellaneous technologies.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-1,374,906 across 0 buys and 2 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue not reported, cash $34,723,000.
+Customer graph: federal awards $3,013,305 (Department of the Treasury $700,000 (161FA020805); Department of the Treasury $700,000 (151FA013630); Department of the Treasury $580,405 (171FA021668-G)); named customers none in excerpts; 4 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $2,227,485, about 15 trading days to build a position; net cash $34,723,000; share count down 2.2 percent in 12 months.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts in your output: M for thousands, MM for millions (the facts above are exact dollars).
+- Do not pad. Under 600 words.
+- Return ONLY the finished markdown document. No notes to yourself, no reasoning, no commentary
+  about the inputs. If two input facts appear to conflict, state the discrepancy in one factual
+  sentence inside the relevant section and move on.
+
+Return only the markdown document.

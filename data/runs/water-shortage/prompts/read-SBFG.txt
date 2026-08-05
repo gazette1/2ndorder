@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for SB FINANCIAL GROUP, INC. (SBFG). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Farm credit and agricultural lenders (order 2, at_risk). Mechanism: Farm credit banks, agricultural insurers, and rural lenders absorb higher delinquencies and claims as farm cash flow deteriorates. Node logic: Crop revenue declines and herd liquidation reduce borrowers' ability to service debt, while collateral values of irrigated land fall if water rights are curtailed. Loss severity exceeds the direct income shortfall because farmland appraisal methodology ties value to sustainable water access.
+8-K filings in the last 12 months: 13
+
+Excerpts:
+[0] (8-K, filed 2026-07-31) This performance marks SBFG's ninth consecutive quarter of expansion in our loan portfolio.
+[1] (8-K, filed 2026-07-31) Our credit results for the second quarter continue to demonstrate excellent stability across the loan portfolio and steady progress in resolving nonperforming assets, said Mr.
+[2] (8-K, filed 2026-07-31) State Bank provides a full range of financial services for consumers and small businesses, including wealth management, private client services, mortgage banking and commercial and agricultural lending, operating through a total of 27 offices: 25 in eleven Ohio counties and two in Northeast, Indiana, and 27 ATMs.
+[3] (10-K, filed 2026-03-06) A significant portion of our loan portfolio is secured by real property.
+[4] (10-K, filed 2026-03-06) As of December 31, 2025, commercial business and agricultural loans made up approximately 16.1 percent of the HFI loan portfolio while commercial real estate loans accounted for approximately 50.6 percent of the HFI loan portfolio.
+[5] (10-K, filed 2026-03-06) As of December 31, 2025, residential first mortgage loans, which are secured by first mortgages on residential real estate, made up approximately 25.8 percent of the HFI portfolio, while consumer loans to individuals, which are primarily secured by consumer assets, made up approximately 7.5 percent of the HFI loan portfolio.
+[6] (10-K, filed 2026-03-06) Accordingly, the allowance is maintained by management at a level considered adequate to cover losses that are currently anticipated based on past loss experience, economic conditions, information about specific borrower situations, including their financial position and collateral values, and other factors and estimates which are subject to change over time.
+[7] (10-K, filed 2026-03-06) Average earning assets increased to $1.40 billion in 2025, compared to $1.31 billion in 2024, primarily due to the increase in our loan portfolio, with higher overnight cash offset by lower securities.
+[8] (10-K, filed 2026-03-06) The Company sold $250.4 million of originated mortgages into the secondary market in 2025, which due to being higher than the amortization on the serviced portfolio, increased the size of our serviced loan portfolio to $1.48 billion at December 31, 2025 from $1.43 billion at December 31, 2024.
+[9] (10-K, filed 2026-03-06) Sales of non-mortgage loans (small business and farm credits) in 2025 was just $1.0 million, resulting in gain on sale of $0.14 million.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-35,598 across 1 buys and 2 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $n/a, net income $13,974,000, R&D $n/a, cash $149,511,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

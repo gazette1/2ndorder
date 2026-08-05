@@ -1,0 +1,54 @@
+You are an equity analyst reading SEC filing excerpts for Farmland Partners Inc. (FPI). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Regional banks with farm real estate exposure (order 3, at_risk). Mechanism: Regional banks with farm real estate concentration face provision builds and net charge-offs as collateral values decline. Node logic: Agricultural loan portfolios are tied to land values that incorporate water access assumptions. When shortages persist, appraisals reset lower and borrowers have less equity to absorb losses, forcing lenders to raise reserves faster than the macro cycle alone would suggest.
+8-K filings in the last 12 months: 5
+
+Excerpts:
+[0] (10-Q, filed 2026-07-30) The Company seeks to make loans that are collateralized by farm and non-farm real estate, crops (growing or stored), agricultural equipment and/or other collateral and in principal amounts of $ 1.0 million or more at fixed interest rates with maturities of up to six years .
+[1] (10-Q, filed 2026-07-30) Additionally, the Company has recorded an allowance for credit losses on its financing receivables of $ 0.2 million as of each of June 30, 2026 and December 31, 2025.
+[2] (10-Q, filed 2026-07-30) Historically, productivity gains (measured by average crop yields) have been driven by advances in seed technology, farm equipment, irrigation techniques, and improvements in soil health, chemical nutrients 35 Table of Contents and pest control.
+[3] (10-Q, filed 2026-07-30) As the owner of the land, we generally only bear costs related to major capital improvements permanently attached to the property, such as irrigation systems, drainage tile, grain storage facilities, permanent plantings or other physical structures customary for farms.
+[4] (10-Q, filed 2026-07-30) This increase was primarily the result of updated assumptions on the allowance for credit losses and increases in principal balances on loans under the FPI Loan Program.
+[5] (10-K, filed 2026-02-19) We seek to acquire farmland where water availability through precipitation and irrigation meets the agronomic needs of the crops expected to be grown.
+[6] (10-K, filed 2026-02-19) As part of our acquisition due diligence process, we evaluate properties for water availability and any associated ground or surface water rights.
+[7] (10-K, filed 2026-02-19) Where appropriate, we may also invest in irrigation infrastructure to improve the productivity of properties we own.
+[8] (10-K, filed 2026-02-19) Nevertheless, our farmland may experience periodic droughts and other significant weather events, such as tornadoes, hurricanes, wildfires and floods.
+[9] (10-K, filed 2026-02-19) However, in some circumstances, we may be exposed to tenant credit risk and may be subject to farming operation risks, such as adverse weather conditions, water shortages and declines in commodity prices, particularly with respect to leases that do not require advance payment of 100% of the annual rent, variable-rent leases for which the rent is based on a percentage of a tenant's farming revenues and leases with terms greater than one year.
+[10] (10-K, filed 2026-02-19) Regulation Farming Regulations The farmland that we own and intend to acquire in the future is typically used for growing crops and is subject to the laws, ordinances and regulations of state, local and federal governments, including laws, ordinances and regulations involving land use and usage, water rights, treatment methods, disturbance, the environment and eminent domain.
+[11] (10-K, filed 2026-02-19) Real Estate Industry Regulation Generally, the ownership and operation of real properties is subject to various laws, ordinances and regulations, including regulations relating to zoning, land use, water rights, wastewater, storm water runoff and lien sale rights and procedures.
+[12] (10-K, filed 2026-02-19) If a farmer loses a permanent/specialty crop to drought, flooding, fire or disease, there generally would be significant time and capital needed to return the land to production because a tree or vine may take years to grow before bearing fruit.
+[13] (10-K, filed 2026-02-19) Crops are vulnerable to adverse weather conditions, including windstorms, tornadoes, floods, drought, wildfires and temperature extremes, which are common but difficult to predict, and may occur with higher frequency or be even less predictable in the future due to the effects of climate change.
+[14] (10-K, filed 2026-02-19) We are particularly susceptible to adverse weather conditions (such as windstorms, tornadoes, floods, drought, hail, wildfires and temperature extremes), transportation conditions (including navigation of the Mississippi River), crop disease, pests, water availability and other adverse growing conditions in California, Illinois, Colorado and Arkansas, which generate a significant portion of our revenues.
+[15] (10-K, filed 2026-02-19) Historically, productivity gains (measured by average crop yields) have been driven by advances in seed technology, farm equipment, irrigation techniques, and improvements in soil health, chemical nutrients and pest control.
+[16] (10-K, filed 2026-02-19) Impairment during the year ended December 31, 2025 related to certain properties on the West Coast while impairment during the year ended December 31, 2024 was related to the write-down on the value of trade names associated with Murray Wise Associates, LLC and impairment of irrigation assets held for sale at year-end..
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $195,478 across 5 buys and 0 sales by 3 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $52,178,000, net income $31,545,000, R&D $n/a, cash $7,654,000.
+Customer graph: federal awards $0 across 0 awards; 6 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

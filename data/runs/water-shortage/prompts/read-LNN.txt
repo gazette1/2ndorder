@@ -1,0 +1,52 @@
+You are an equity analyst reading SEC filing excerpts for LINDSAY CORP (LNN). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Irrigation software and analytics (order 2, beneficiary). Mechanism: Agricultural software and data platforms collect recurring subscription fees as growers adopt irrigation scheduling and sensor analytics. Node logic: Hardware adoption pulls demand for decision support that converts sensor readings into irrigation prescriptions. Revenue is recurring and sticky because growers rely on the software to comply with allocation rules and avoid yield loss, making growth more durable than one-time equipment sales.
+8-K filings in the last 12 months: 12
+
+Excerpts:
+[0] (8-K, filed 2026-07-02) OMAHA, NE 68022 TEL: 402-829-6800 FAX: 402-829-6836 Lindsay Corporation Reports Fiscal 2026 Third Quarter Results OMAHA, Neb., July 2, 2026 - Lindsay Corporation (NYSE: LNN), a leading global manufacturer and distributor of irrigation and infrastructure equipment and technology, today announced results for its third quarter of fiscal 2026, which ended on May 31, 2026.
+[1] (8-K, filed 2026-07-02) In North America, demand for irrigation equipment remains tempered as margin pressure from high input costs continues to impact customer sentiment.
+[2] (8-K, filed 2026-07-02) The increase in infrastructure revenues was more than offset by the decrease in irrigation revenues compared to the prior year.
+[3] (8-K, filed 2026-07-02) Lower operating income in both the irrigation and infrastructure segments was partially offset by a reduction in corporate expense.
+[4] (8-K, filed 2026-07-02) 1 Third Quarter Segment Results Irrigation Segment Third Quarter (dollars in millions) FY2026 FY2025 $ Change % Change Revenues: North America $61.3 $69.1 ($7.7) (11%) International $71.7 $74.7 ($3.0) (4%) Total revenues $133.0 $143.7 ($10.7) (7%) Operating income $20.3 $27.2 ($6.8) (25%) Operating margin 15.3% 18.9% Irrigation segment revenues for the third quarter of fiscal 2026 were $133.0 million, a decrease of $10.7 million, or 7 percent, compared to $143.7 million in the prior year.
+[5] (8-K, filed 2026-07-02) North America irrigation revenues of $61.3 million decreased $7.7 million, or 11 percent, compared to the prior year.
+[6] (8-K, filed 2026-07-02) Persistent weakness in commodity markets and tempered farmer sentiment continue to constrain demand for irrigation equipment in North America.
+[7] (8-K, filed 2026-07-02) International irrigation revenues for the third quarter of fiscal 2026 of $71.7 million decreased $3.0 million, or 4 percent, compared to the prior year.
+[8] (8-K, filed 2026-07-02) Irrigation segment operating income for the third quarter of fiscal 2026 was $20.3 million, a decrease of $6.8 million, or 25 percent, compared to the prior year.
+[9] (8-K, filed 2026-07-02) The backlog in irrigation increased as a result of the large irrigation project in the MENA region, while the backlog in infrastructure decreased compared to the prior year.
+[10] (8-K, filed 2026-07-02) Wood concluded, &#x201c;In the U.S., irrigation market conditions remain soft as growers await further trade certainty and an improvement in commodity prices.
+[11] (8-K, filed 2026-07-02) We expect Brazil to return to growth due to the solid drivers of secular demand that support investments in irrigation, although credit constraints and high interest rates could remain a headwind.
+[12] (8-K, filed 2026-07-02) We will continue delivery of the irrigation project in the MENA region and we expect to recognize approximately $70 million of revenue for the project in our current fiscal year.
+[13] (8-K, filed 2026-07-02) About the Company Lindsay Corporation (NYSE: LNN) is a leading global manufacturer and distributor of irrigation and infrastructure equipment and technology.
+[14] (8-K, filed 2026-07-02) The Lindsay family of irrigation brands includes Zimmatic center pivot and lateral move agricultural irrigation systems, FieldNET and FieldWise remote irrigation management technology, FieldNET Advisor irrigation scheduling technology, and industrial IoT solutions.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-08-31): revenue $659,074,000, net income $74,052,000, R&D $17,930,000, cash $250,575,000.
+Customer graph: federal awards $100,666,251 across 33 awards (top agency Department of Education); 17 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

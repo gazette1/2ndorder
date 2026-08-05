@@ -1,0 +1,43 @@
+{
+  "series": [
+    {
+      "id": "PCU221122221122",
+      "label": "PPI, electric power distribution",
+      "latest": 208.599,
+      "asof": "2026-06-01",
+      "yoyPct": 3,
+      "provenance": "fred"
+    },
+    {
+      "id": "CPIAUCSL",
+      "label": "CPI, all items",
+      "latest": 332.568,
+      "asof": "2026-06-01",
+      "yoyPct": 3.5,
+      "provenance": "fred"
+    },
+    {
+      "id": "PPIACO",
+      "label": "PPI, all commodities",
+      "latest": 286.827,
+      "asof": "2026-06-01",
+      "yoyPct": 10.1,
+      "provenance": "fred"
+    },
+    {
+      "id": "DHHNGSP",
+      "label": "Henry Hub natural gas price",
+      "latest": 2.63,
+      "asof": "2026-07-27",
+      "yoyPct": -15.2,
+      "provenance": "fred"
+    }
+  ],
+  "fomc": {
+    "date": "2026-06-17",
+    "stance": "The Federal Open Market Committee kept the target range for the federal funds rate at 3.5 to 3.75 percent. Risks to inflation were seen as tilted to the upside, while risks to employment were seen as tilted somewhat to the downside, and future policy would depend on incoming data.",
+    "provenance": "federalreserve"
+  },
+  "industry": null,
+  "note": "Federal Reserve Economic Data (FRED), latest observation with a year-over-year change where the history allows one."
+}

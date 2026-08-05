@@ -1,0 +1,46 @@
+You are an equity analyst reading SEC filing excerpts for AirJoule Technologies Corp. (AIRJ). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map node this company was mapped to: Alternative water supply and reuse systems (order 1, beneficiary). Mechanism: Households and small businesses invest in rainwater capture, graywater reuse, atmospheric water generation, and delivered bulk water to supplement capped municipal supply. Node logic: Rationing makes municipally supplied water unreliable for discretionary and even essential uses, so spending on independent sources becomes cost-justified at lower water prices. This expands a small installed base, benefiting equipment suppliers and delivery services more than conventional utilities.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (10-K, filed 2026-03-31) Our platform technology, AirJoule, produces pure distilled water from air and, at commercial scale, will mitigate water scarcity through distributed water generation for businesses and consumers around the world.
+[1] (10-K, filed 2026-03-31) In 2025, we began discussions with the Texas Commission on Environmental Quality around pursuing potable water certification, which is a key regulatory milestone for municipal and industrial water applications.
+[2] (10-K, filed 2026-03-31) Industry Background Water Harvesting According to the United Nations, nearly three-quarters of the world s population lives in countries classified as water-insecure or critically water-insecure, with as many as four billion people already experiencing severe water scarcity for at least one month per 2 year.
+[3] (10-K, filed 2026-03-31) The methods used to try to harvest potable water from air generally utilize conventional refrigerant-based systems or desiccant-based systems and have failed to achieve a competitive cost of the harvested water due to their energy requirements.
+[4] (10-K, filed 2026-03-31) Our Partners We have numerous strategic partners that have supported our development of the AirJoule systems, including the field deployments and demonstrations that we completed during 2025, and we believe these and new partners will support our development and deployment of AirJoule systems worldwide as a key solution to address global warming and water scarcity.
+[5] (10-K, filed 2026-03-31) Since then, we have added our own significant advancements to the technology, and we hold independent intellectual property relating to, among other things, heating, cooling and low-cost harvesting of potable water from the air.
+[6] (10-K, filed 2026-03-31) Companies are developing strategies to adapt their business models in response to customer and investor demands that these businesses transition to leveraging sustainable, clean energy and invest in solutions to global warming and water scarcity.
+[7] (10-K, filed 2026-03-31) Further, on-site water generation from AirJoule can reduce reliance on municipal water systems, which are increasingly strained by the development of water-intensive operations such as data centers and advanced manufacturing facilities.
+[8] (10-K, filed 2026-03-31) For example, additional environmental 20 laws, regulations or standards may be adopted relating to atmospheric water generation, which could restrict where our AirJoule systems could operate or how much water they could produce.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $n/a, net income $-9,040,198, R&D $1,008,592, cash $59,167.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Limoneira CO (LMNR). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Irrigated agriculture and food processors (order 1, at_risk). Mechanism: Irrigated farms, dairies, livestock feeders, and their processors face higher unit costs and lower throughput as water allotments shrink. Node logic: Water is a fixed input with few short-run substitutes, so a small allocation shortfall eliminates margins on marginal acres. Processors suffer volume declines because regional crop and herd supplies fall before production can relocate.
+8-K filings in the last 12 months: 17
+
+Excerpts:
+[0] (10-Q, filed 2026-06-09) On November 7, 2025, PDA and San Pablo (collectively, the Sellers ), each entered into a Purchase and Sale Agreement and Novation Agreement (collectively, the Purchase Agreements ) with San Pedro, SpA, a Chilean joint stock company (the Buyer ) to sell the agricultural properties and related water rights for an aggregate purchase price of $ 14,967,000 .
+[1] (10-Q, filed 2026-06-09) This decision aligns with the Company s strategic plan to monetize Class 3 Colorado River water rights by conserving water via crop substitution to low water use crops.
+[2] (10-Q, filed 2026-06-09) In January 2025, the Company sold acquired water rights in the Santa Paula Basin for $ 30,000 per acre-foot in two transactions.
+[3] (10-Q, filed 2026-06-09) The total selling price was $ 1,440,000 and the Company recorded a gain on sales of water rights of $ 1,200,000 .
+[4] (10-Q, filed 2026-06-09) Other Assets Other assets consist of the following (in thousands): April 30, 2026 October 31, 2025 Investments in mutual water companies $ 8,114 $ 7,323 Notes receivable 7,400 41 Operating lease ROU assets 3,706 640 Finance lease assets 2,305 1,617 Other 1,241 1,467 $ 22,766 $ 11,088 Investments in Mutual Water Companies and Water Rights The Company s investments in various not-for-profit mutual water companies provide it with the right to receive a proportionate share of water from each of the not-for-profit mutual water companies that have been invested in and do not constitute voting shares and/or rights.
+[5] (10-Q, filed 2026-06-09) In January 2025, the Company sold water pumping rights in the Santa Paula Basin for $ 300,000 and the Company recorded a gain on sale of water rights of $ 288,000 .
+[6] (10-Q, filed 2026-06-09) (4) Yuma Mesa Irrigation and Drainage District ( YMIDD ) - The Company has representation on the board of directors of YMIDD.
+[7] (10-Q, filed 2026-06-09) Our water resources include water rights, usage rights and pumping rights to the water in aquifers under, and canals that run through, the land we own.
+[8] (10-Q, filed 2026-06-09) We also use surface water in Arizona from the Colorado River through the Yuma Mesa Irrigation and Drainage District ( YMIDD ).
+[9] (10-Q, filed 2026-06-09) Water and Mineral Rights Our water resources include water rights, usage rights and pumping rights to the water in aquifers under, and canals that run through, the land we own.
+[10] (10-Q, filed 2026-06-09) Water for our farming operations located in Ventura County, California is sourced from the existing water resources associated with our land, which includes approximately 8,500 acre-feet of water rights in the adjudicated Santa Paula Basin (aquifer) and additional rights in the un-adjudicated Fillmore Basin (aquifer).
+[11] (10-Q, filed 2026-06-09) Our farming operations in Yuma, Arizona source water from the Colorado River through the YMIDD, where we have access to approximately 11,500 acre-feet of Class 3 Colorado River water rights.
+[12] (10-Q, filed 2026-06-09) As of April 30, 2026, Ventura County was free from general drought conditions.
+[13] (10-Q, filed 2026-06-09) We continue to assess the impact drought conditions may have on our California orchards.
+[14] (10-Q, filed 2026-06-09) In response to this and prior years water shortages, we entered into fallowing agreements during fiscal years 2022 and 2023 and in February 2025, extended an existing fallowing agreement through calendar year 2026.
+[15] (10-Q, filed 2026-06-09) This decision aligns with our strategic plan to monetize Class 3 Colorado River water rights by conserving water via crop substitution to low water use crops.
+[16] (10-Q, filed 2026-06-09) On November 7, 2025, our Chilean subsidiaries, PDA and San Pablo (collectively, the Sellers ), each entered into a Purchase and Sale Agreement and Novation Agreement (collectively, the Purchase Agreements ) with San Pedro, SpA, a Chilean joint stock company (the Buyer ), to sell certain real estate parcels consisting of approximately 500 acres of lemons, 100 acres of oranges and other unplanted lands including water rights associated with the parcels for an aggregate purchase price of $15.0 million.
+[17] (10-Q, filed 2026-06-09) Growing costs: Growing costs, also referred to as cultural costs, consist of orchard maintenance costs such as cultivation, fertilization and soil amendments, pest control, pruning and irrigation.
+[18] (10-Q, filed 2026-06-09) The 5% decrease of $3.7 million was primarily due to a decrease in agribusiness costs and expenses and a decrease in selling, general and administrative expenses plus other operating income, partially offset by impairment of the Windfall Farms property assets and loss on disposal of the lemon orchards in Yuma, Arizona in the first six months of fiscal year 2026, and by gains on sales of water rights in the first quarter of fiscal year 2025.
+[19] (10-Q, filed 2026-06-09) There were no sales of water rights for the first six months of fiscal year 2026.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $253,039 across 3 buys and 5 sales by 2 insider(s).
+Fundamentals (XBRL, as of 2025-10-31): revenue $153,685,000, net income $-15,981,000, R&D $n/a, cash $1,509,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
