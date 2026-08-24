@@ -1,4 +1,13 @@
-# Adoption Chain: design
+# Adoption Chain: design (HISTORICAL, superseded)
+
+> Status note, 2026-08-24: this is the original design document from the
+> first build and is kept as history. Numbers and mechanics here have
+> drifted (corpus size, market-cap method, model routing). The canonical
+> description of the system as deployed is docs/design-rationale.md,
+> written against the live commit; where the two disagree, the rationale
+> document wins. The "white space is where mispricing lives" claim below
+> is retracted there: low filing density means disclosure scarcity, which
+> is only interesting with independent evidence for the mechanism.
 
 An idea-generation engine for a small-cap growth team. A PM enters a scenario. The engine returns an organized consequence map (1st, 2nd, and 3rd order effects, good and bad), ranked under-covered small-cap candidates on each consequence, and a one-page thesis draft per name in which every factual claim links to the exact filing sentence it came from. The engine produces leverage underneath judgment: it reads filings and drafts arguments, and the analyst tears the drafts apart. Nothing it outputs is a recommendation.
 
