@@ -32,30 +32,43 @@ corollaryresearch.com."
 
 ## The 30 minutes
 
+Timing reality, measured on the current backend: a full run takes 45 to 50
+minutes because it actually reads filings, but the app now renders stages as
+they land. The map appears about 2 minutes after Run, the full candidate list
+(90 or so names) about 4 minutes in, and filing reads and theses keep landing
+through the meeting. The demo is built around that: start his scenario first,
+let the map materialize while you tour, and the finished memo of HIS scenario
+becomes the follow-up email.
+
 - 0:00-2:00. One sentence, then hands on keyboard: "A PM types a scenario;
   the engine maps first, second, and third order consequences, surfaces the
   under-covered small caps on each node, and drafts theses where every claim
-  cites the exact 10-K sentence. Watching beats describing, so let me start
-  one live." Ask Charles for a thesis his desk is chewing on. If he demurs,
-  type the prepared fresh one (below). Hit Run. It cooks in the background
-  for the next 12-15 minutes while you tour.
-- 2:00-14:00. Tour the finished grid-capex run (refreshed this week, current
-  tickers): the consequence map, click one second-order node (copper and
-  electrical steel), the candidate table filtered to it, then one dossier top
-  to bottom. Slow down at two moments: the filing-sentence citation (click
-  through to the SEC document), and the earnings-language read with its
-  "press releases, not call transcripts" caption. Then the counter-scenario
-  button: the bear map exists for every bull map without being asked. Then
-  Export IC memo; let him scroll it in silence for twenty seconds.
-- 14:00-18:00. Stocks tab: search two names he covers, show the card and the
-  on-demand "read its 10-K now" for one the corpus missed. Then the article
-  trick: paste a news link from this week and note it runs both the scenario
-  and the counter. (Start it, do not wait on it.)
-- 18:00-24:00. The live run from minute 2 is done or close. Open it fresh:
-  this is the moment the machine works on THEIR idea. Read the second order
-  out loud, click one surprising name, check its reality flags.
-- 24:00-30:00. Close: the honest limits, one paragraph on the build (5,449
-  filers carded, every evidence layer free and public, roughly ninety days of
+  cites the exact 10-K sentence. It does a real filing read, about 45 minutes
+  end to end, so let me start yours now and it will build while we talk."
+  Ask Charles for a thesis his desk is chewing on. If he demurs, type the
+  prepared fresh one (below). Hit Run.
+- 2:00-6:00. While his run decomposes, open the finished grid-capex run
+  (regenerated this week, tickers verified current): the consequence map,
+  the shape of first, second, third order. By the time you finish this
+  orientation his map is on screen; flip to it, read the second order out
+  loud, then flip back.
+- 6:00-16:00. Depth tour on grid-capex: click one second-order node, the
+  candidate table filtered to it, then one dossier top to bottom. Slow down
+  at two moments: the filing-sentence citation (click through to the SEC
+  document), and the earnings-language read with its "press releases, not
+  call transcripts" caption. Then the counter-scenario button: the bear map
+  exists for every bull map without being asked. Then Export IC memo; let him
+  scroll it in silence for twenty seconds.
+- 16:00-20:00. Stocks tab: search two names he covers, show the card and the
+  on-demand "read its 10-K now" for one the corpus missed. Mention the
+  article trick (paste a news link, get the scenario and its counter).
+- 20:00-26:00. Back to his run: the map is complete and the candidate table
+  is populated by now, with reads landing. Walk his second order, click one
+  surprising name, check its reality flags. Say plainly: "The theses are
+  still drafting; the finished memo will be in your inbox within the hour."
+  That promised email is the best close available.
+- 26:00-30:00. The honest limits, one paragraph on the build (5,449 filers
+  carded, every evidence layer free and public, roughly ninety days of
   nights), and the ask: "If this is useful, I would value a session with the
   team on a live thesis of theirs. And I want the seat; this is the work I
   want to do." Then stop talking.
@@ -124,3 +137,12 @@ has a slide about. Do not pre-run it; the point is watching it run live.
 - Stocks search ranks the company you meant first (exact ticker, ticker
   prefix, name prefix, then word matches; "olin" now returns Olin Corp, not
   Bank of South Carolina).
+- Runs render progressively: the map about 2 minutes in, candidates about 4,
+  reads and theses as they land, instead of a 45-minute spinner. Verified on
+  a live run.
+- The stale-ticker root cause is fixed corpus-wide: the SEC ticker map cache
+  was frozen in July; 64 corpus entries whose tickers changed since (renames,
+  share-class moves) are re-keyed to current tickers.
+- The run matcher no longer resurfaces an unrelated old run when a new
+  scenario shares two generic words with it ("through 2028"). Reuse now
+  requires a strong topical match.

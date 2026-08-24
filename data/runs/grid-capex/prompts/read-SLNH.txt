@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Soluna Holdings, Inc (SLNH). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: distributed energy resource management software providers (order 3, beneficiary). Mechanism: Providers of microgrid control and distributed energy resource software see larger deployments as on-site assets multiply. Node logic: Industrial users that install generation, storage, and microgrids need software to optimize dispatch, islanding, and grid services. Software revenue is recurring and grows with the number of connected sites. This niche benefits from the installed base created by on-site power investment, so it scales faster than hardware installation alone.
+8-K filings in the last 12 months: 49
+
+Excerpts:
+[0] (10-Q, filed 2026-08-13) This arrangement allows for cost savings, better infrastructure, and enhanced security compared to private data centers.
+[1] (10-Q, filed 2026-08-13) ERCOT schedules power on an electric grid that connects more than 46,500 miles of transmission lines and over 680 generation units.
+[2] (10-Q, filed 2026-08-13) Often used to measure the capacity of large power plants or the power usage of large operations like data centers and industrial complexes.
+[3] (10-Q, filed 2026-08-13) Graphics Processing Unit ( GPU )- as-a Service : The sale of GPU clusters, ranging from bare metal to turnkey solutions, which may be either owned by the Company, or leased from another company and that are housed within data centers which may be owned by the Company or leased from another company, typically on a per GPU-hour basis, either on a reserved or on demand basis.
+[4] (10-Q, filed 2026-08-13) Grid Demand Response Services : Services provided to support the basic services of generating and delivering electricity to the grid.
+[5] (10-Q, filed 2026-08-13) Megawatts ( MW ) : A unit of power measurement equivalent to one million watts used to measure the electrical power consumption of large operations like data centers and Bitcoin mining rigs.
+[6] (10-Q, filed 2026-08-13) The Company s strategy is to operate data centers co-located with wind, solar, and hydroelectric power plants, supporting compute-intensive applications, including Bitcoin mining, generative AI, and high-performance computing ( HPC ).
+[7] (10-Q, filed 2026-08-13) At times, Briscoe may be subject to negative pricing at its nodal settlement point when selling electricity within the wholesale market due to severe congestion on the transmission lines within the ERCOT West Hub region.
+[8] (10-Q, filed 2026-08-13) Accounts Receivable, net Accounts receivables consist of the following at: (Dollars in thousands) June 30, 2026 December 31, 2025 Data hosting $ 5,339 $ 4,750 Demand response service receivable 1,096 745 Proprietary mining Coinbase receivable 13 27 Wind energy generation receivable 73 Other 216 244 6,737 5,766 Less: Allowance for expected credit losses ( 244 ) $ 6,737 $ 5,522 The Company s allowance for expected credit loss was $ 0 at June 30, 2026 and $ 244 thousand at December 31, 2025, respectively.
+[9] (10-Q, filed 2026-08-13) The loans bear interest at a variable rate based on either ABR or Term SOFR, as set forth in the Credit Agreement.
+[10] (10-Q, filed 2026-08-13) The Tranche C loans bear interest at a variable rate based on either ABR or Term SOFR, with margins of 8.0 % per annum for SOFR loans and 7.0 % per annum for ABR loans.
+[11] (10-Q, filed 2026-08-13) In relation to distributions, once ERCOT Achievement Date has been met ( date on which SLC and the Company have mutually agreed upon the parameters for power trading or demand response program in the ERCOT market) until the Target Return Date (last day of quarter in which the Class B members achieve an 18 % internal rate of return), the Class A members will obtain 7.5 % of the distributable cash with the remaining 92.5 % being distributed to the Class B members on a pro-rata basis.
+[12] (10-Q, filed 2026-08-13) The Data Center Hosting segment generated revenue from hosting services provided to third-party Bitcoin mining customers at the Company s data centers, which are currently generated from Project Sophie, Project Dorothy, and Project Kati.
+[13] (10-Q, filed 2026-08-13) The High-Performance Computing Services segment may generate revenue from either the sale or lease of HPC assets (such as Project Ada which leased GPUs), or from HPC/AI data centers to be leased to third-party HPC/AI customers.
+[14] (10-Q, filed 2026-08-13) The Company includes demand response revenue as a reconciling item of revenue and is not included within the four reportable segments.
+[15] (10-Q, filed 2026-08-13) The Company utilizes its data centers to deliver demand response services to grid operators or utilities.
+[16] (10-Q, filed 2026-08-13) The Company can be providing any type of service at the data centers whether it be Cryptocurrency Mining, Data Center Hosting, or AI to generate demand response service revenue.
+[17] (10-Q, filed 2026-08-13) (b) Intersegment eliminations primarily reflect the elimination of revenue recognized by Briscoe Wind Farm, LLC on electricity sales that are delivered, through regulated cooperative intermediaries acting as pass-through agents, to the Company's Dorothy data centers, and the corresponding elimination of the related power cost recognized by the data center operations, as these transfers represent intra-entity transactions following the Company's acquisition of Briscoe on April 1, 2026.
+[18] (10-Q, filed 2026-08-13) For the three months ended June 30, 2025 (Dollars in thousands) Cryptocurrency Mining Data Center Hosting High- Performance Computing Services Total Segment Revenue: Revenue from external customers $ 2,861 $ 3,136 $ $ 5,997 Total revenue from reportable segments 2,861 3,136 5,997 Demand response service revenue (a) 161 Total consolidated revenue $ 6,158 (a) Demand response service revenue is included as a reconciling item of total revenue and not included as part of segment gross profit or loss.
+[19] (10-Q, filed 2026-08-13) 47 Table of contents For the six months ended June 30, 2025 (Dollars in thousands) Cryptocurrency Mining Data Center Hosting High- Performance Computing Services Total Segment Revenue: Revenue from external customers $ 5,860 $ 5,538 $ 28 $ 11,426 Total revenue from reportable segments 5,860 5,538 28 11,426 Demand response service revenue (a) 668 Total consolidated revenue $ 12,094 (a) Demand response service revenue is included as a reconciling item of total revenue and not included as part of segment gross profit or loss.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-649,219 across 3 buys and 30 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $29,717,000, net income $-53,411,000, R&D $1,491,000, cash $462,000.
+Customer graph: federal awards $14,450 across 2 awards (top agency Department of Veterans Affairs); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

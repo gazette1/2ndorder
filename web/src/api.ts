@@ -33,7 +33,9 @@ export interface RunSummary {
 
 export type RunStatus =
   | { status: 'ready'; payload: RunPayload }
-  | { status: 'running' };
+  // A running run may carry a partial payload: the map once decomposition
+  // lands, then candidates, reads, and theses as each stage completes.
+  | { status: 'running'; payload?: RunPayload };
 
 export type SearchResult =
   | { status: 'ready'; runId: string }
@@ -211,11 +213,14 @@ export async function getRun(token: string, runId: string): Promise<RunStatus | 
   if (!res.ok) throw new Error(`Get run failed with status ${res.status}`);
   const data = (await res.json()) as
     | { status: 'ready'; payload: unknown }
-    | { status: 'running' };
+    | { status: 'running'; payload?: unknown };
   if (data.status === 'ready') {
     return { status: 'ready', payload: normalizeRunPayload(data.payload) };
   }
-  return data;
+  if (data.status === 'running' && data.payload) {
+    return { status: 'running', payload: normalizeRunPayload(data.payload) };
+  }
+  return { status: 'running' };
 }
 
 export async function search(token: string, query: string): Promise<SearchResult> {

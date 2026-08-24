@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "class-i-freight-railroads",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Class I freight railroads",
+      "mechanism": "Industrial reshoring raises carload and intermodal volumes on rail networks, increasing freight revenue and operating leverage.",
+      "logic": "Freight rail networks have high fixed costs, so incremental volume recovery produces stronger incremental margins than volume growth alone. Reshored heavy manufacturing and consumer goods production rely on rail for raw materials and finished goods. Pricing improves as capacity tightens across the network.",
+      "horizon": "near",
+      "searchPhrases": [
+        "freight rail",
+        "carload volumes",
+        "intermodal volumes",
+        "freight revenue"
+      ],
+      "filingHits": 228,
+      "whiteSpace": false
+    },
+    {
+      "id": "railcar-lessors",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Railcar leasing and management companies",
+      "mechanism": "Higher freight demand increases railcar utilization and lease renewal rates for lessors.",
+      "logic": "Lessors earn monthly rental revenue and repricing on new leases and renewals. When railcar supply tightens, lease rates rise faster than utilization because lessees compete for available cars. Railcar asset values also improve, supporting lease fleet economics.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "railcar lease",
+        "railcar utilization",
+        "lease rates",
+        "railcar fleet"
+      ],
+      "filingHits": 235,
+      "whiteSpace": false
+    },
+    {
+      "id": "rail-served-industrial-property",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Rail-served industrial real estate and transload terminals",
+      "mechanism": "Reshored manufacturing and distribution sites need rail-connected locations, raising rents, occupancy, and transload fees.",
+      "logic": "Rail-served industrial sites are scarce and expensive to permit, so new demand gives existing owners pricing power. Transload terminals benefit from higher throughput and can charge premium fees for transfer and storage services. Development pipelines expand but face long timelines.",
+      "horizon": "long",
+      "searchPhrases": [
+        "rail served",
+        "transload",
+        "industrial real estate",
+        "rail access"
+      ],
+      "filingHits": 301,
+      "whiteSpace": false
+    },
+    {
+      "id": "long-haul-truckload-carriers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Long-haul truckload carriers",
+      "mechanism": "Rail intermodal growth and shipper conversion to rail for long-haul freight reduces truckload demand and depresses linehaul rates.",
+      "logic": "Rail intermodal is cost-competitive on long-haul lanes and uses less fuel per ton. As railroads expand intermodal capacity in response to reshoring, discretionary truckload freight shifts to rail. Weaker truckload demand pressures both contract and spot pricing across the sector.",
+      "horizon": "near",
+      "searchPhrases": [
+        "truckload rates",
+        "linehaul rates",
+        "intermodal competition",
+        "freight demand"
+      ],
+      "filingHits": 117,
+      "whiteSpace": false
+    },
+    {
+      "id": "rail-captive-shippers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Rail-captive industrial shippers",
+      "mechanism": "Tight rail capacity lets railroads raise rates and accessorial charges for shippers with no alternative mode, increasing freight expense.",
+      "logic": "Rail-captive plants in chemicals, autos, and forest products face limited routing options. As rail volumes recover, rail pricing power strengthens and shippers absorb higher tariffs and fees. Many cannot pass through all cost increases to customers, compressing margins.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "rail rates",
+        "accessorial charges",
+        "freight expense",
+        "transportation costs"
+      ],
+      "filingHits": 260,
+      "whiteSpace": false
+    },
+    {
+      "id": "maintenance-of-way-and-signaling-suppliers",
+      "parentId": "class-i-freight-railroads",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Railroad maintenance-of-way and signaling suppliers",
+      "mechanism": "Higher rail volumes and revenue lead railroads to expand capital spending on track, ties, ballast, signaling, and maintenance equipment.",
+      "logic": "Railroads must maintain network fluidity and safety as traffic rises. Capital budgets for maintenance-of-way grow with volume recovery, creating order backlogs for suppliers of track materials and signal systems. The effect is amplified because many materials are long-lead and replacement cycles were deferred.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "maintenance of way",
+        "track materials",
+        "railroad signaling",
+        "track maintenance"
+      ],
+      "filingHits": 77,
+      "whiteSpace": false
+    },
+    {
+      "id": "railcar-manufacturers",
+      "parentId": "railcar-lessors",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Freight railcar manufacturers",
+      "mechanism": "Railcar lessors and shippers place new railcar orders to meet rising demand and replace older cars, increasing manufacturer backlogs.",
+      "logic": "Railcar builds are cyclical and follow lease rate and utilization signals. When lessors see high utilization, they order new cars, giving manufacturers multi-quarter backlogs and better pricing. Replacement demand adds to order volumes as older cars retire.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "railcar orders",
+        "freight car",
+        "railcar backlog",
+        "new railcars"
+      ],
+      "filingHits": 193,
+      "whiteSpace": false
+    },
+    {
+      "id": "intermodal-equipment-pools",
+      "parentId": "class-i-freight-railroads",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Intermodal container and chassis providers",
+      "mechanism": "Expanding rail intermodal service increases demand for containers, chassis, and terminal equipment, lifting utilization and rental income.",
+      "logic": "Railroads need chassis and containers to handle growing intermodal volumes. Equipment pool operators see higher equipment turns and can raise rental rates. Supply additions are constrained by long procurement lead times, so pricing improves faster than capacity.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "intermodal chassis",
+        "container fleet",
+        "chassis pool",
+        "intermodal equipment"
+      ],
+      "filingHits": 84,
+      "whiteSpace": false
+    },
+    {
+      "id": "small-asset-based-truckload-carriers",
+      "parentId": "long-haul-truckload-carriers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Small asset-based truckload carriers",
+      "mechanism": "Falling long-haul truckload rates reduce cash flow for smaller carriers, causing failures and capacity exits.",
+      "logic": "Small carriers depend on the spot market, which weakens first when freight shifts to rail. They have less network density and higher relative fixed costs than large carriers. As revenue per mile falls below break-even, many fail or exit the market.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "truckload",
+        "revenue per mile",
+        "spot rates",
+        "truckload carriers"
+      ],
+      "filingHits": 319,
+      "whiteSpace": false
+    },
+    {
+      "id": "rail-spur-construction",
+      "parentId": "rail-served-industrial-property",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Rail spur construction and track engineering firms",
+      "mechanism": "New rail-served industrial sites and transload terminals require rail spurs, sidings, and track work, increasing contract demand for specialty rail construction firms.",
+      "logic": "Each reshored plant needs a rail connection, but spur construction is specialized and has limited qualified contractors. Demand creates multi-year backlogs and pricing power. Local permitting and track engineering also add to project values.",
+      "horizon": "long",
+      "searchPhrases": [
+        "rail spur",
+        "track construction",
+        "rail engineering",
+        "rail sidings"
+      ],
+      "filingHits": 63,
+      "whiteSpace": false
+    },
+    {
+      "id": "steel-rail-and-track-material-producers",
+      "parentId": "maintenance-of-way-and-signaling-suppliers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Steel rail and track material producers",
+      "mechanism": "Higher railroad track capex increases purchases of steel rail, ties, and track fasteners from domestic producers.",
+      "logic": "Rail production is capital intensive and long-lead, so a rise in orders tightens domestic supply and lifts prices. Rail replacement and new track work both require steel rail and fasteners, creating volume and margin leverage. Import substitution is limited due to transport costs and specifications.",
+      "horizon": "long",
+      "searchPhrases": [
+        "steel rail",
+        "rail steel",
+        "track fasteners",
+        "railroad ties"
+      ],
+      "filingHits": 32,
+      "whiteSpace": false
+    },
+    {
+      "id": "railcar-component-suppliers",
+      "parentId": "railcar-manufacturers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Railcar component and subsystem suppliers",
+      "mechanism": "Higher railcar builds increase demand for bearings, brakes, couplers, draft gears, and other components per car.",
+      "logic": "Component suppliers receive orders shortly after railcar manufacturers increase production schedules. They benefit from volume growth and from tight capacity in specialized railcar components. Pricing improves as backlogs extend across multiple railcar types.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "railcar bearings",
+        "railcar components",
+        "draft gears",
+        "railcar brakes"
+      ],
+      "filingHits": 38,
+      "whiteSpace": false
+    },
+    {
+      "id": "used-truck-and-trailer-dealers",
+      "parentId": "small-asset-based-truckload-carriers",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Used truck and trailer dealers",
+      "mechanism": "Trucking capacity exits from failed small carriers increase used truck and trailer inventory, depressing resale values and auction prices.",
+      "logic": "When small carriers liquidate, their equipment floods the used market. Dealers and finance companies holding residual positions face lower sale proceeds and potential losses. The oversupply persists until trucking capacity rationalizes to lower freight demand.",
+      "horizon": "long",
+      "searchPhrases": [
+        "used trucks",
+        "used trailers",
+        "residual values",
+        "auction prices"
+      ],
+      "filingHits": 323,
+      "whiteSpace": false
+    },
+    {
+      "id": "intermodal-marketing-and-rail-consultants",
+      "parentId": "rail-captive-shippers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Intermodal marketing companies and rail logistics consultants",
+      "mechanism": "Shippers facing higher rail rates and complex capacity choices pay rail-focused third parties to optimize routing and negotiate rates.",
+      "logic": "Rail pricing and service options become more complex as capacity tightens. Shippers seek specialists who can blend rail, intermodal, and truck to reduce total freight cost. Intermodal marketing companies earn fees and margin on shipments they arrange, improving their volumes and profitability.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "intermodal marketing",
+        "rail logistics",
+        "freight brokerage",
+        "third party logistics"
+      ],
+      "filingHits": 246,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "industrial reshoring",
+    "freight rail",
+    "intermodal",
+    "railcar",
+    "truckload",
+    "transload",
+    "maintenance of way",
+    "rail rates",
+    "nearshoring",
+    "carloads"
+  ]
+}

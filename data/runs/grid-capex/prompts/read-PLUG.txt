@@ -1,0 +1,45 @@
+You are an equity analyst reading SEC filing excerpts for PLUG POWER INC (PLUG). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: small municipal and cooperative utilities (order 2, at_risk). Mechanism: Small utilities pay higher prices and wait longer for distribution transformers and switchgear. Node logic: Large investor-owned utilities place multi-year orders and get priority in production schedules. Municipal and cooperative buyers lack that scale and face equipment shortages that force them to delay maintenance or pay spot prices. Thin balance sheets and slower rate recovery make the cost increase more painful.
+8-K filings in the last 12 months: 23
+
+Excerpts:
+[0] (8-K, filed 2026-08-10) About Plug Power Plug designs, builds, and operates a fully integrated hydrogen ecosystem spanning production, storage, delivery, and power generation, enabling the global hydrogen economy.
+[1] (10-K, filed 2026-03-02) Plug intends to deliver its hydrogen solutions directly to its customers, and through joint venture partners into multiple environments, including material handling, supply chain and logistics, e-mobility, stationary power generation and industrial applications.
+[2] (10-K, filed 2026-03-02) Customer demand for clean hydrogen has grown as a low-carbon energy source for hard-to-decarbonize industries, such as heavy-duty transportation, heavy manufacturing (steel, cement, aluminum, and chemicals), stationary power generation, and aviation.
+[3] (10-K, filed 2026-03-02) The timing and cost to complete the construction of our hydrogen production plants are further subject to a number of factors outside of our control, including delays or performance issues involving contractors, suppliers or other third parties, permitting, interconnection and power availability, inflationary pressures, labor availability, and other market conditions.
+[4] (10-K, filed 2026-03-02) These firms are engaged in forms of power generation such as advanced battery technologies, generator sets, fast charged technologies and other types of fuel cell technologies.
+[5] (10-K, filed 2026-03-02) As part of this initiative, in February 2026, we entered into a definitive agreement with Stream US Data Centers, LLC for the sale of land and associated substation infrastructure in the Town of Alabama, Genesee County for gross proceeds expected to be at least $132.5 million, with potential proceeds of up to $142.0 million depending on timing of closing and the removal status of certain hydrogen storage spheres located on the property.
+[6] (10-K, filed 2026-03-02) Results of Operations Our primary sources of revenue are from sales of equipment, related infrastructure and other, services performed on fuel cell systems and related infrastructure, power purchase agreements, and fuel delivered to customers and related equipment.
+[7] (10-K, filed 2026-03-02) Revenue from power purchase agreements primarily represent payments received from customers who make monthly payments to access the Company s GenKey solution.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-333,783 across 1 buys and 6 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $709,919,000, net income $-1,631,594,000, R&D $57,960,000, cash $368,540,000.
+Customer graph: federal awards $112,503,113 across 26 awards (top agency Department of Energy); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
