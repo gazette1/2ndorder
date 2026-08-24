@@ -1,322 +1,268 @@
 {
   "nodes": [
     {
-      "id": "regulated-utilities-rate-base",
+      "id": "o1-high-voltage-equipment",
       "parentId": null,
       "order": 1,
       "polarity": "beneficiary",
-      "name": "Regulated electric utilities with T&D investment plans",
-      "mechanism": "Rate base growth from T&D investments accelerates allowed returns.",
-      "logic": "Data center load growth forces upgrades that enlarge the capital base on which utilities earn their authorized return. Because regulators typically grant rate recovery on prudently incurred capex, earnings rise proportionally with spending. The supercycle's duration ensures several years of elevated rate base growth.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "rate base growth",
-        "transmission investment",
-        "capital expenditure plan",
-        "grid infrastructure"
-      ],
-      "filingHits": 400,
-      "whiteSpace": false
-    },
-    {
-      "id": "electrical-equipment-manufacturers",
-      "parentId": null,
-      "order": 1,
-      "polarity": "beneficiary",
-      "name": "High-voltage electrical equipment suppliers",
-      "mechanism": "Order books swell as utilities and data centers directly procure long-lead equipment.",
-      "logic": "Transformers, switchgear, and cable are the primary hardware of grid expansion, and their supply is constrained by manufacturing capacity. Orders are placed years in advance, providing revenue visibility and pricing power. Tight markets allow suppliers to raise prices and negotiate better terms.",
+      "name": "high-voltage electrical equipment manufacturers",
+      "mechanism": "Utilities and data center developers order more power transformers, switchgear, and circuit breakers, creating multi-year backlogs and pricing power.",
+      "logic": "Grid capex translates directly into demand for high-voltage equipment that has long lead times and concentrated supply. Producers can raise prices and choose higher-margin orders as demand exceeds capacity. Earnings are levered because a small increase in volume can drive a larger increase in operating margin.",
       "horizon": "near",
       "searchPhrases": [
         "power transformers",
         "switchgear",
-        "transmission cable",
-        "substation equipment"
+        "substation equipment",
+        "transmission lines"
       ],
-      "filingHits": 211,
+      "filingHits": 296,
       "whiteSpace": false
     },
     {
-      "id": "utility-epc-firms",
+      "id": "o1-grid-epc",
       "parentId": null,
       "order": 1,
       "polarity": "beneficiary",
-      "name": "Engineering and construction firms for utility infrastructure",
-      "mechanism": "Backlog grows from EPC contracts for substations, lines, and grid upgrades.",
-      "logic": "These firms provide the design, procurement, and construction services for transmission and distribution projects. The supercycle creates a multi-year pipeline of work, often under cost-plus or escalation-clause contracts, insulating them from input cost swings. Scale benefits and high demand allow them to be selective about projects.",
+      "name": "grid engineering and construction services",
+      "mechanism": "Utilities and developers award more transmission and substation engineering, procurement, and construction contracts.",
+      "logic": "The buildout requires specialized design, permitting, and construction labor. As contract awards accelerate, EPC firms build backlog and gain negotiating power on terms. Margins can expand because scarce labor and equipment allow fixed-price contracts to be written with higher contingency and escalation clauses.",
       "horizon": "near",
       "searchPhrases": [
-        "utility construction",
-        "transmission line",
+        "electrical contracting",
         "substation construction",
-        "EPC services"
+        "transmission line construction",
+        "power delivery"
       ],
-      "filingHits": 313,
+      "filingHits": 253,
       "whiteSpace": false
     },
     {
-      "id": "energy-intensive-manufacturers",
+      "id": "o1-gas-turbines",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "gas turbine and power generation equipment makers",
+      "mechanism": "Data center developers and utilities order gas turbines for firm, fast-to-deploy power.",
+      "logic": "Data center load growth requires around-the-clock power that cannot wait for long transmission upgrades. Gas turbines offer the shortest reliable path to new capacity, so orders rise ahead of general electricity demand. The effect is compounded by aftermarket service revenue tied to installed units.",
+      "horizon": "near",
+      "searchPhrases": [
+        "gas turbines",
+        "combined cycle",
+        "power generation equipment",
+        "turbine generators"
+      ],
+      "filingHits": 371,
+      "whiteSpace": false
+    },
+    {
+      "id": "o1-industrial-buyers",
       "parentId": null,
       "order": 1,
       "polarity": "at_risk",
-      "name": "Industrial electricity consumers with high energy intensity",
-      "mechanism": "Pass-through of T&D infrastructure costs raises industrial power bills.",
-      "logic": "Grid capex is ultimately recovered from ratepayers, and industrial users with large, steady loads bear a significant share. These firms often operate with thin margins in globally competitive markets, so even small rate increases compress earnings. The supercycle implies a structural upward shift in electricity tariffs.",
-      "horizon": "long",
+      "name": "large industrial electricity consumers",
+      "mechanism": "Data center load raises wholesale power prices and allocated grid charges for existing industrial users.",
+      "logic": "Data centers add demand in specific regions, tightening reserve margins and pushing up locational power prices. The grid capex needed to serve them is recovered through rates, adding a second layer of cost for industrial customers. Industrial users often cannot pass through these costs quickly, so operating margins shrink.",
+      "horizon": "mid",
       "searchPhrases": [
-        "electricity cost",
-        "energy intensive",
-        "manufacturing facility",
-        "power consumption"
+        "electricity costs",
+        "power costs",
+        "utility rates",
+        "energy intensive"
       ],
       "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "interconnection-constrained-developers",
-      "parentId": null,
-      "order": 1,
-      "polarity": "at_risk",
-      "name": "Power generation developers facing interconnection bottlenecks",
-      "mechanism": "Interconnection queue bottlenecks and equipment shortages delay generation projects.",
-      "logic": "The surge in grid investment for data centers competes for the same engineering studies, equipment, and construction crews needed to connect new generation. Lead times extend, and costs allocated to generators increase, making projects less viable. This particularly affects renewable developers who rely on timely interconnection.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "interconnection queue",
-        "grid connection",
-        "renewable energy project",
-        "transmission upgrade"
-      ],
-      "filingHits": 328,
-      "whiteSpace": false
-    },
-    {
-      "id": "specialty-metals-producers",
-      "parentId": "electrical-equipment-manufacturers",
+      "id": "o2-electrical-steel",
+      "parentId": "o1-high-voltage-equipment",
       "order": 2,
       "polarity": "beneficiary",
-      "name": "Copper and electrical steel producers",
-      "mechanism": "Transformer and cable manufacturers expand purchasing, tightening markets for grain-oriented electrical steel and copper conductor.",
-      "logic": "These materials are essential for transformers (electrical steel) and wires/conductors (copper, aluminum). Supply is relatively inelastic in the near term, so demand growth quickly translates into higher prices and margins. Producers benefit from both volume and price, magnifying earnings leverage.",
-      "horizon": "near",
+      "name": "grain-oriented electrical steel suppliers",
+      "mechanism": "Transformer manufacturers buy more grain-oriented electrical steel, raising volumes and prices for mills.",
+      "logic": "Grain-oriented electrical steel is the core material in high-voltage transformers. Supply is concentrated and capacity additions are slow, while transformer backlogs grow. Mills can sell out and push through price increases, making earnings levered to the spread between electrical steel prices and input costs.",
+      "horizon": "mid",
       "searchPhrases": [
-        "copper conductor",
         "electrical steel",
-        "wire rod",
-        "magnet wire"
+        "oriented electrical steel",
+        "transformer cores",
+        "grain oriented steel"
       ],
-      "filingHits": 163,
+      "filingHits": 112,
       "whiteSpace": false
     },
     {
-      "id": "grid-construction-labor-costs",
-      "parentId": "utility-epc-firms",
+      "id": "o2-small-utilities",
+      "parentId": "o1-high-voltage-equipment",
       "order": 2,
       "polarity": "at_risk",
-      "name": "Specialized grid construction labor",
-      "mechanism": "Shortage of linemen and high-voltage electricians pushes up per-hour costs on fixed-price contracts.",
-      "logic": "Grid projects require a limited pool of skilled workers, and the supercycle increases demand across multiple regions simultaneously. Labor supply is slow to adjust, leading to wage inflation. Many EPC contracts are fixed-price, so contractors bear the risk of cost overruns, squeezing margins on existing backlog.",
+      "name": "small municipal and cooperative utilities",
+      "mechanism": "Small utilities pay higher prices and wait longer for distribution transformers and switchgear.",
+      "logic": "Large investor-owned utilities place multi-year orders and get priority in production schedules. Municipal and cooperative buyers lack that scale and face equipment shortages that force them to delay maintenance or pay spot prices. Thin balance sheets and slower rate recovery make the cost increase more painful.",
       "horizon": "mid",
       "searchPhrases": [
-        "lineman",
-        "electrical contractor",
-        "union labor",
-        "construction wage"
+        "distribution transformers",
+        "substation transformers",
+        "power purchase agreements",
+        "rate case"
       ],
-      "filingHits": 178,
+      "filingHits": 243,
       "whiteSpace": false
     },
     {
-      "id": "distributed-energy-providers",
-      "parentId": "energy-intensive-manufacturers",
+      "id": "o2-hv-contractors",
+      "parentId": "o1-grid-epc",
       "order": 2,
       "polarity": "beneficiary",
-      "name": "Behind-the-meter generation and storage providers",
-      "mechanism": "Declining DER costs combine with rising delivered power prices to improve project ROI.",
-      "logic": "Industrial consumers facing higher grid rates are increasingly evaluating solar, storage, and combined heat and power to reduce their exposure. The supercycle accelerates this trend, expanding the addressable market for DER developers and equipment suppliers. Payback periods shorten as the spread between self-generation costs and retail rates widens.",
-      "horizon": "mid",
+      "name": "specialty high-voltage electrical contractors",
+      "mechanism": "Contractors with high-voltage linemen and substation electricians see more hours, larger crews, and higher billable rates.",
+      "logic": "The grid buildout is constrained by certified labor, not just materials. Contractors that can retain high-voltage crews can win more work and pass through wage increases. Revenue scales with hours worked, so these firms track grid capex directly and benefit from overtime and per diem charges.",
+      "horizon": "near",
       "searchPhrases": [
-        "behind-the-meter",
-        "solar installation",
-        "energy storage system",
-        "power purchase agreement"
+        "high voltage",
+        "substation construction",
+        "transmission line construction",
+        "electrical contracting"
+      ],
+      "filingHits": 253,
+      "whiteSpace": false
+    },
+    {
+      "id": "o2-renewable-developers",
+      "parentId": "o1-grid-epc",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "renewable energy project developers",
+      "mechanism": "Renewable developers face longer interconnection timelines and higher construction costs as grid resources shift toward data center load.",
+      "logic": "Interconnection studies and network upgrades compete with data center transmission requests, slowing queue processing. EPC firms and equipment suppliers prioritize larger, higher-margin data center and grid reliability work. Renewable projects already burdened by interconnection backlogs see further delays, reducing returns and pushing some projects past viability.",
+      "horizon": "long",
+      "searchPhrases": [
+        "interconnection agreement",
+        "grid interconnection",
+        "power purchase agreement",
+        "renewable energy projects"
       ],
       "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "renewable-curtailment-risk",
-      "parentId": "interconnection-constrained-developers",
+      "id": "o2-gas-services",
+      "parentId": "o1-gas-turbines",
       "order": 2,
-      "polarity": "at_risk",
-      "name": "Existing renewable generation assets in congested regions",
-      "mechanism": "Insufficient transfer capacity between regions forces curtailment of existing wind/solar and reduces realized power prices.",
-      "logic": "As new generation stalls in interconnection queues, the existing grid remains congested, leading to over-supply at times and negative pricing. Grid upgrades to relieve congestion are part of the supercycle but lag, so curtailment increases in the interim. This erodes revenue for owners of merchant renewable plants.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "transmission congestion",
-        "curtailment",
-        "power price",
-        "interconnection constraint"
-      ],
-      "filingHits": 300,
-      "whiteSpace": false
-    },
-    {
-      "id": "data-center-construction-costs",
-      "parentId": "interconnection-constrained-developers",
-      "order": 2,
-      "polarity": "at_risk",
-      "name": "Data center developers",
-      "mechanism": "Lead times for transformers and switchgear extend, and utilities impose larger interconnection cost allocations.",
-      "logic": "Data centers themselves are large consumers of electrical infrastructure, and they compete directly with grid operators for the same equipment. The supercycle, which they are driving, creates a bottleneck that raises their own development costs. Higher interconnection charges and longer project timelines reduce returns on new data center builds.",
-      "horizon": "near",
-      "searchPhrases": [
-        "data center construction",
-        "lead time",
-        "interconnection cost",
-        "electrical infrastructure"
-      ],
-      "filingHits": 312,
-      "whiteSpace": false
-    },
-    {
-      "id": "aluminum-conductor-substitution",
-      "parentId": "specialty-metals-producers",
-      "order": 3,
       "polarity": "beneficiary",
-      "name": "Aluminum wire and cable manufacturers",
-      "mechanism": "Price differential between copper and aluminum widens, accelerating substitution in distribution cables and busbars.",
-      "logic": "As copper prices rise, utilities and equipment makers redesign products to use more aluminum, which is cheaper and lighter. This substitution is already possible in many applications but becomes economically compelling during a supercycle. Producers of aluminum conductor and rod see demand growth even faster than overall grid capex.",
+      "name": "gas turbine aftermarket service providers",
+      "mechanism": "Owners of the expanding gas turbine fleet spend more on maintenance, parts, and performance upgrades.",
+      "logic": "New gas turbine orders add to the installed base, generating recurring service revenue for decades. Data center backup and peaking units may run more hours than typical, accelerating maintenance intervals. Aftermarket work carries higher margins than original equipment and is less sensitive to new order cycles.",
       "horizon": "long",
       "searchPhrases": [
-        "aluminum conductor",
-        "aluminum winding",
-        "copper substitute",
-        "aluminum busbar"
+        "gas turbine maintenance",
+        "turbine repair",
+        "outage services",
+        "power plant services"
       ],
-      "filingHits": 1,
-      "whiteSpace": true
-    },
-    {
-      "id": "prefab-modular-substations",
-      "parentId": "grid-construction-labor-costs",
-      "order": 3,
-      "polarity": "beneficiary",
-      "name": "Prefabricated and modular substation providers",
-      "mechanism": "Utilities and EPCs standardize designs and move toward factory-built assemblies to reduce field labor hours.",
-      "logic": "Rising on-site labor costs and project complexity push the industry toward off-site manufacturing of substation modules and e-houses. This reduces construction time and reliance on specialized field crews. Providers of these modular solutions benefit from a structural shift in procurement.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "prefabricated substation",
-        "modular substation",
-        "skid-mounted",
-        "factory assembled"
-      ],
-      "filingHits": 61,
+      "filingHits": 50,
       "whiteSpace": false
     },
     {
-      "id": "utility-load-defection-risk",
-      "parentId": "distributed-energy-providers",
-      "order": 3,
-      "polarity": "at_risk",
-      "name": "Regulated utilities with volumetric rate structures",
-      "mechanism": "Fixed grid costs are spread over fewer kWh, increasing per-unit charges and incentivizing further defection.",
-      "logic": "When large industrial customers install DERs, they reduce their grid consumption, but the utility's fixed costs remain. Regulators may allow rate redesign, but transition periods are slow. In the interim, remaining customers face higher rates, which can create a negative feedback loop of further defections, threatening utility credit quality.",
-      "horizon": "long",
-      "searchPhrases": [
-        "load defection",
-        "grid defection",
-        "rate design",
-        "demand charge"
-      ],
-      "filingHits": 200,
-      "whiteSpace": false
-    },
-    {
-      "id": "electricity-intensive-commodity-producers",
-      "parentId": "energy-intensive-manufacturers",
-      "order": 2,
-      "polarity": "at_risk",
-      "name": "Electricity-Intensive Commodity Producers",
-      "mechanism": "Higher grid-delivered power costs inflate COGS for producers where electricity is a primary input, compressing margins in globally priced commodities.",
-      "logic": "Aluminum smelters, EAF steel mills, and chlor-alkali plants use large amounts of electricity per unit of output. Since T&D cost pass-through is structural, the cost disadvantage persists, making domestic production less competitive versus imports from regions with cheaper power. Over time, marginal plants may idle.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "electric arc furnace",
-        "primary aluminum",
-        "chlor-alkali",
-        "cement kiln"
-      ],
-      "filingHits": 314,
-      "whiteSpace": false
-    },
-    {
-      "id": "metal-treating-and-finishing-services",
-      "parentId": "energy-intensive-manufacturers",
-      "order": 2,
-      "polarity": "at_risk",
-      "name": "Metal Treating and Finishing Services",
-      "mechanism": "Rising electricity costs increase operating expenses for heat treating, electroplating, and powder coating shops, eroding margins in a fragmented industry with limited pricing power.",
-      "logic": "These service providers run energy-intensive ovens, furnaces, and plating lines. Structural electric rate hikes cannot be fully passed to customers because contract manufacturing is competitive. Smaller shops without capital for efficiency upgrades may close.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "heat treating",
-        "electroplating",
-        "metal finishing",
-        "powder coating"
-      ],
-      "filingHits": 322,
-      "whiteSpace": false
-    },
-    {
-      "id": "industrial-energy-efficiency-equipment-suppliers",
-      "parentId": "energy-intensive-manufacturers",
+      "id": "o2-onsite-power",
+      "parentId": "o1-industrial-buyers",
       "order": 2,
       "polarity": "beneficiary",
-      "name": "Industrial Energy Efficiency Equipment Suppliers",
-      "mechanism": "Accelerated industrial adoption of energy-saving technologies raises orders for variable frequency drives, high-efficiency motors, and heat recovery systems.",
-      "logic": "Higher and structurally rising electricity rates shorten the payback on energy efficiency investments that previously had borderline returns. Manufacturers of these components see a multi-year demand tailwind as customers retrofit facilities.",
+      "name": "on-site generation and microgrid developers",
+      "mechanism": "Industrial electricity consumers invest in on-site generation, storage, and microgrids to hedge grid power costs.",
+      "logic": "Higher utility rates and reliability concerns make self-supply projects economically attractive. Gas engines, fuel cells, and batteries can reduce peak demand charges and provide backup during grid stress. This capex is incremental to grid spending and benefits niche equipment and project developers.",
       "horizon": "mid",
       "searchPhrases": [
-        "variable frequency drives",
-        "high efficiency motors",
-        "waste heat recovery",
-        "energy management systems"
-      ],
-      "filingHits": 229,
-      "whiteSpace": false
-    },
-    {
-      "id": "on-site-generation-system-integrators",
-      "parentId": "energy-intensive-manufacturers",
-      "order": 2,
-      "polarity": "beneficiary",
-      "name": "On-Site Generation System Integrators",
-      "mechanism": "Industrial customers invest in behind-the-meter solar, combined heat and power, or microgrids to insulate against rising utility bills, driving project pipelines for integrators.",
-      "logic": "As T&D charges become a permanent part of the cost structure, manufacturers with large loads find self-generation economics attractive, especially when paired with storage. This creates a structural shift toward distributed energy resources, benefiting firms that design and install such systems.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "behind-the-meter",
-        "combined heat and power",
         "microgrid",
-        "C&I solar"
+        "distributed generation",
+        "combined heat and power",
+        "onsite power"
       ],
-      "filingHits": 310,
+      "filingHits": 386,
+      "whiteSpace": false
+    },
+    {
+      "id": "o3-steel-processing",
+      "parentId": "o2-electrical-steel",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "electrical steel processing and slitting services",
+      "mechanism": "Electrical steel processors and slitters see higher volume and conversion fees.",
+      "logic": "Mills often sell wide coils to processors that cut and slit electrical steel to lamination sizes for transformer OEMs. As transformer production ramps, processors add shifts and pass through higher conversion costs. Capacity is niche and regional, giving processors pricing power independent of steel prices.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "electrical steel",
+        "steel processing",
+        "slitting",
+        "laminations"
+      ],
+      "filingHits": 349,
+      "whiteSpace": false
+    },
+    {
+      "id": "o3-testing-commissioning",
+      "parentId": "o2-hv-contractors",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "grid equipment testing and commissioning services",
+      "mechanism": "Independent testing and commissioning firms see rising demand for substation and protection system certification.",
+      "logic": "Every new substation and transmission line must be tested before energization. As construction volume rises, utilities require third-party certification to manage risk and meet reliability standards. This work is scheduled late in the project cycle, so revenue follows construction with a lag.",
+      "horizon": "long",
+      "searchPhrases": [
+        "testing and commissioning",
+        "substation testing",
+        "electrical testing",
+        "circuit breaker testing"
+      ],
+      "filingHits": 146,
+      "whiteSpace": false
+    },
+    {
+      "id": "o3-renewable-equipment",
+      "parentId": "o2-renewable-developers",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "renewable energy equipment suppliers",
+      "mechanism": "Suppliers of solar modules, wind turbines, and inverters face order pushouts and pricing pressure as renewable projects slip.",
+      "logic": "Delayed renewable projects postpone equipment deliveries and can trigger cancellation or renegotiation. In oversupplied markets for some components, further delays worsen capacity utilization and pricing. Suppliers with utility-scale exposure see revenue recognition shift later and margins compress.",
+      "horizon": "long",
+      "searchPhrases": [
+        "solar modules",
+        "wind turbines",
+        "inverters",
+        "racking systems"
+      ],
+      "filingHits": 385,
+      "whiteSpace": false
+    },
+    {
+      "id": "o3-der-software",
+      "parentId": "o2-onsite-power",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "distributed energy resource management software providers",
+      "mechanism": "Providers of microgrid control and distributed energy resource software see larger deployments as on-site assets multiply.",
+      "logic": "Industrial users that install generation, storage, and microgrids need software to optimize dispatch, islanding, and grid services. Software revenue is recurring and grows with the number of connected sites. This niche benefits from the installed base created by on-site power investment, so it scales faster than hardware installation alone.",
+      "horizon": "long",
+      "searchPhrases": [
+        "distributed energy resources",
+        "microgrid controller",
+        "energy management software",
+        "demand response"
+      ],
+      "filingHits": 244,
       "whiteSpace": false
     }
   ],
   "themeKeywords": [
-    "grid modernization",
-    "transmission infrastructure",
-    "data center demand",
-    "electricity load growth",
+    "data centers",
+    "load growth",
+    "grid investment",
+    "transmission",
     "substation",
-    "power transformer",
-    "high-voltage cable",
-    "rate base",
     "interconnection",
-    "capital expenditure"
+    "electricity demand",
+    "rate base",
+    "power generation",
+    "grid hardening"
   ]
 }

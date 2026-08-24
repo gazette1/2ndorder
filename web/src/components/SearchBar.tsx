@@ -14,10 +14,13 @@ export function SearchBar({ onRun, runs, onPickRun, busy, statusNote, message }:
   const [query, setQuery] = useState('');
 
   // Existing-run chips: one chip per unique seed (the newest run wins),
-  // ordered newest first.
+  // ordered newest first. Counter-scenarios are not listed; each is reached
+  // through the Counter-scenario button on its base run, which keeps the list
+  // one chip per idea instead of two.
   const chips = useMemo(() => {
     const bySeed = new Map<string, RunSummary>();
     for (const r of runs) {
+      if (r.counterOf) continue;
       const cur = bySeed.get(r.seed);
       if (!cur || r.createdAt > cur.createdAt) bySeed.set(r.seed, r);
     }

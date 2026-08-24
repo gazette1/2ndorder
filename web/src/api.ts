@@ -25,6 +25,9 @@ export interface RunSummary {
   id: string;
   seed: string;
   createdAt: string;
+  // Set when this run is the auto-generated bear case of another run; the UI
+  // reaches counters through their base run instead of a top-level chip.
+  counterOf?: string | null;
   mode: string;
 }
 

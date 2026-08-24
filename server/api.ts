@@ -43,7 +43,13 @@ function listRuns() {
     .filter((d) => hasRun(d))
     .map((id) => {
       const run = JSON.parse(fs.readFileSync(path.join(RUNS_DIR, id, 'run.json'), 'utf8'));
-      return { id, seed: run.seed, createdAt: run.createdAt, mode: CONFIG.llm.provider === 'fixture' ? 'fixture' : 'live' };
+      return {
+        id,
+        seed: run.seed,
+        createdAt: run.createdAt,
+        counterOf: run.counterOf ?? null,
+        mode: CONFIG.llm.provider === 'fixture' ? 'fixture' : 'live',
+      };
     });
 }
 
@@ -301,13 +307,22 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
     const indexPath = path.resolve('data/corpus/index.json');
     if (!fs.existsSync(indexPath)) return send(res, 200, { results: [], corpusSize: 0 });
     const index = JSON.parse(fs.readFileSync(indexPath, 'utf8')) as Record<string, { name: string; tags: string[]; filedAt: string }>;
+    // Rank tiers: exact ticker, ticker prefix, name prefix, word-boundary name
+    // match, then substring anywhere. Without the boundary tier, "olin" ranks
+    // BANK OF SOUTH CAROLINA (mid-word hit) above OLIN CORP.
+    const tier = (t: string, name: string): number => {
+      const tl = t.toLowerCase();
+      const nl = name.toLowerCase();
+      if (tl === q) return 0;
+      if (tl.startsWith(q)) return 1;
+      if (nl.startsWith(q)) return 2;
+      if (new RegExp(`\\b${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(nl)) return 3;
+      return 4;
+    };
     const results = Object.entries(index)
       .filter(([t, v]) => t.toLowerCase().startsWith(q) || v.name.toLowerCase().includes(q))
-      .sort(([a], [b]) => {
-        // exact ticker first, then ticker prefix, then name matches
-        const qa = a.toLowerCase() === q ? 0 : a.toLowerCase().startsWith(q) ? 1 : 2;
-        const qb = b.toLowerCase() === q ? 0 : b.toLowerCase().startsWith(q) ? 1 : 2;
-        return qa - qb || a.localeCompare(b);
+      .sort(([a, va], [b, vb]) => {
+        return tier(a, va.name) - tier(b, vb.name) || a.localeCompare(b);
       })
       .slice(0, 20)
       .map(([ticker, v]) => ({ ticker, name: v.name, tags: v.tags, filedAt: v.filedAt }));
