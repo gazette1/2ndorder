@@ -40,11 +40,14 @@ through the meeting. The demo is built around that: start his scenario first,
 let the map materialize while you tour, and the finished memo of HIS scenario
 becomes the follow-up email.
 
-- 0:00-2:00. One sentence, then hands on keyboard: "A PM types a scenario;
-  the engine maps first, second, and third order consequences, surfaces the
-  under-covered small caps on each node, and drafts theses where every claim
-  cites the exact 10-K sentence. It does a real filing read, about 45 minutes
-  end to end, so let me start yours now and it will build while we talk."
+- 0:00-2:00. One sentence, then hands on keyboard: "The platform converts a
+  real-world event into a transparent causal map: where the economic benefit
+  and burden migrate, which under-followed companies sit on each path, and
+  the exact filing sentence behind every claim. It does a real filing read,
+  about 45 minutes end to end, so let me start yours now and it will build
+  while we talk." Never say the tool predicts stocks; it maps consequences
+  and makes the reasoning inspectable. That word choice is the difference
+  between an analytical instrument and a black box in this room.
   Ask Charles for a thesis his desk is chewing on. If he demurs, type the
   prepared fresh one (below). Hit Run.
 - 2:00-6:00. While his run decomposes, open the finished grid-capex run
@@ -63,15 +66,33 @@ becomes the follow-up email.
   on-demand "read its 10-K now" for one the corpus missed. Mention the
   article trick (paste a news link, get the scenario and its counter).
 - 20:00-26:00. Back to his run: the map is complete and the candidate table
-  is populated by now, with reads landing. Walk his second order, click one
-  surprising name, check its reality flags. Say plainly: "The theses are
-  still drafting; the finished memo will be in your inbox within the hour."
-  That promised email is the best close available.
+  is populated by now, with reads landing. Present exactly three names, in
+  this order: the obvious beneficiary (say out loud it is probably priced
+  in), the overlooked one with the strongest exposure and cleanest reality
+  check, and one plausible-looking name the system DEMOTED, with the flag
+  that demoted it. The rejection is the most persuasive object on the
+  screen; T. Rowe can generate an initiation report on any Russell 2500
+  name in minutes, so summaries are table stakes and filtering is the
+  product. Close the segment: "The theses are still drafting; the finished
+  memo will be in your inbox within the hour."
 - 26:00-30:00. The honest limits, one paragraph on the build (5,449 filers
   carded, every evidence layer free and public, roughly ninety days of
-  nights), and the ask: "If this is useful, I would value a session with the
-  team on a live thesis of theirs. And I want the seat; this is the work I
-  want to do." Then stop talking.
+  nights), and the close, near verbatim: "I am not trying to automate
+  conviction. I am expanding the analyst's search surface, making the causal
+  assumptions inspectable, and helping the team decide where proprietary
+  research time is most likely to matter." Then the ask: a session with the
+  team on a live thesis of theirs, and the seat. Then stop talking.
+
+Context worth carrying into the room: Currie discussed "AI sleepers" on the
+firm's podcast in August, asking which overlooked names capture the next
+wave after the obvious infrastructure winners; that is this product's exact
+question, so echo his framing rather than introducing your own. He also said
+the firm can generate an initiation report on any Russell 2500 company in
+about five minutes; never position speed or summaries as the value. The
+value is causal discovery, the automatic counter-scenario, and reasoning a
+PM can audit line by line. If a model question comes up: "The reasoning
+layer is model-agnostic and can run through the institution's approved
+models and data environment." Do not lead with any vendor's name.
 
 Fallback if the live run errors mid-demo: say exactly that ("the model
 backend hiccuped; this is why the demo has precomputed runs"), open the
