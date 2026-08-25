@@ -67,6 +67,40 @@ export interface EvidenceRef {
   supports: string[]; // field paths or claim ids this record supports
 }
 
+// A retaliation or counter-action, kept as its own event (master prompt 15).
+// Status groups must never be blended: official actions, explicit threats,
+// and modeled possibilities are different classes of fact.
+export interface RetaliationAction {
+  actor: string;
+  action: string;
+  group: 'official' | 'threatened' | 'modeled';
+  announcedDate: string | null;
+  effectiveDate: string | null;
+  targetedProducts: string[];
+  exactQuote: string | null; // required for official and threatened
+  probabilityBand: 'low' | 'medium' | 'high' | 'not_scored'; // modeled only
+  transmissionChannels: string[];
+}
+
+// One researched document fetched by a research provider.
+export interface ResearchDoc {
+  queryId: string;
+  mode: 'live' | 'fixture' | 'unavailable';
+  url: string | null;
+  title: string;
+  text: string;
+  evidenceId: string | null;
+}
+
+// Field-level diff between the source-only and researched trigger contracts.
+export interface TriggerDiffEntry {
+  fieldPath: string;
+  change: 'added' | 'changed' | 'unchanged' | 'unresolved';
+  before: unknown;
+  after: unknown;
+  evidenceIds: string[];
+}
+
 // A material unanswered question (master prompt 9.5, minimal v2 form).
 export interface SourceGap {
   gapId: string;

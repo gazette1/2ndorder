@@ -11,6 +11,7 @@ import { llm } from '../lib/llm.js';
 import { articleScenarioPrompt } from '../prompts/decompose.js';
 import { extractTriggerContract } from './trigger.js';
 import { addEvidence, detectGaps, productScopeGate } from '../schema/v2.js';
+import { extractRetaliation, mapSectors, researchPass } from './research.js';
 
 // The full pipeline for one run, in order. Used by the CLI "all" stage and by the
 // API server when a search has no cached run. Each stage persists its output to
@@ -102,6 +103,14 @@ export async function runFromArticle(slug: string, url: string): Promise<void> {
     );
   }
   for (const w of gate.warnings) console.warn(`[gate] ${w}`);
+
+  // T-5 research pass: bounded follow-up research through the configured
+  // provider (fixture, direct URLs, or an honest unavailable state), the
+  // researched trigger with its inspectable diff, and retaliation extracted
+  // as its own event with status groups never blended.
+  const { researched } = await researchPass(slug, contract, load(slug, 'gaps'), article.text);
+  const retaliation = await extractRetaliation(slug, article.text);
+  await mapSectors(slug, researched, retaliation);
 
   const raw = await llm(slug, 'article-scenario', articleScenarioPrompt(article.title, article.text), 'json', 'heavy');
   const scenario = String((JSON.parse(raw) as { scenario: string }).scenario ?? '').trim();

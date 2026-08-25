@@ -1,0 +1,35 @@
+[
+  {
+    "gapId": "gap-01",
+    "status": "open",
+    "fieldPath": "effectiveDate",
+    "question": "When does or did the action take effect?",
+    "importance": "high",
+    "reason": "timing anchors observability and expectations analysis",
+    "candidateQueries": [
+      "imposed 50% tariffs on Canadian imports effective date"
+    ]
+  },
+  {
+    "gapId": "gap-02",
+    "status": "open",
+    "fieldPath": "affectedTradeCodes",
+    "question": "Which HS or HTSUS codes are covered?",
+    "importance": "high",
+    "reason": "trade codes make product scope precise and exclusions checkable",
+    "candidateQueries": [
+      "imposed 50% tariffs on Canadian imports HTSUS codes annex"
+    ]
+  },
+  {
+    "gapId": "gap-03",
+    "status": "open",
+    "fieldPath": "exclusions",
+    "question": "Are any products or parties excluded or exempted?",
+    "importance": "high",
+    "reason": "exemptions reverse candidate polarity and are a standard falsifier",
+    "candidateQueries": [
+      "imposed 50% tariffs on Canadian imports exclusions exemptions"
+    ]
+  }
+]
