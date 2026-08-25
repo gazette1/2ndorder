@@ -1,0 +1,45 @@
+You are an equity analyst reading SEC filing excerpts for GRAFTECH INTERNATIONAL LTD (EAF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US and Canada resolve tariff disputes by mid-2025, keeping cross-border supply chains integrated and goods inflation near pre-2025 trends through 2026.
+Map node this company was mapped to: Cross-border input cost relief (order 1, beneficiary). Mechanism: Removal of US and Canadian tariffs lowers the landed cost of Canadian raw materials and components for US manufacturers. Node logic: Many US manufacturers source aluminum, lumber, auto parts, and energy from Canada. The tariff removal directly reduces cost of goods sold because invoices no longer include the duty line. The effect is larger for firms with high Canadian content and thin import alternatives, making the margin gain mechanically tied to tariff elimination.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (8-K, filed 2026-07-24) Adjusted EBITDA (2) was $2 million for the second quarter of 2026, compared to adjusted EBITDA (2) of $3 million for the second quarter of 2025, with the year-over-year change primarily reflecting the decline in the weighted-average realized price, partially offset by lower cash cost of goods sold per MT.
+[1] (8-K, filed 2026-07-24) Accordingly, we continue to expect a low single-digit percentage-point decline in our cash cost of goods sold per MT for 2026 compared to 2025.
+[2] (8-K, filed 2026-07-24) Examples of forward-looking statements include, among others, statements we make regarding future estimated volume, pricing and revenue, and anticipated levels of capital expenditures and cost of goods sold.
+[3] (8-K, filed 2026-07-24) EBITDA, adjusted EBITDA, adjusted net loss, adjusted loss per share, free cash flow, adjusted free cash flow, net debt and cash cost of goods sold per MT are non-GAAP financial measures.
+[4] (8-K, filed 2026-07-24) We define cash cost of goods sold per MT, a non-GAAP financial measure, as cost of goods sold less depreciation and amortization and less cost of goods sold associated with the portion of our sales that consists of deliveries of by-products of the manufacturing processes, with this total divided by our sales volume measured in MT.
+[5] (8-K, filed 2026-07-24) When evaluating our performance, you should consider these non-GAAP financial measures alongside other measures of financial performance and liquidity, including our net loss, loss per share, cash flow from operating activities, cost of goods sold and other GAAP measures.
+[6] (8-K, filed 2026-07-24) (8) Reflects the portion of depreciation and amortization that is recognized in cost of goods sold.
+[7] (8-K, filed 2026-07-24) (9) Primarily reflects cost of goods sold associated with the portion of our sales that consists of deliveries of by-products of the manufacturing processes.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $504,134,000, net income $-219,835,000, R&D $6,475,000, cash $176,878,000.
+Customer graph: federal awards $2,044,615 across 3 awards (top agency Department of Energy); 4 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

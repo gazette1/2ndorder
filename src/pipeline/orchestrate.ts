@@ -10,6 +10,7 @@ import { fetchArticleText } from '../lib/article.js';
 import { llm } from '../lib/llm.js';
 import { articleScenarioPrompt } from '../prompts/decompose.js';
 import { extractTriggerContract } from './trigger.js';
+import { productScopeGate } from '../schema/v2.js';
 
 // The full pipeline for one run, in order. Used by the CLI "all" stage and by the
 // API server when a search has no cached run. Each stage persists its output to
@@ -60,6 +61,26 @@ export async function runFromArticle(slug: string, url: string): Promise<void> {
   console.log(
     `[trigger] validated: ${contract.primaryActor} ${contract.action.slice(0, 60)} | rates ${(contract.rates.value ?? []).join(', ') || 'none stated'} | status ${contract.status}`,
   );
+
+  // INV-004 product-scope gate: for product-specific policy (tariffs,
+  // sanctions, subsidies, procurement), company mapping cannot start while
+  // the product scope is empty. A blocked run publishes a research-status
+  // card instead of tickers.
+  const gate = productScopeGate(contract);
+  save(slug, 'research-status', {
+    eventType: gate.eventType,
+    canProceedToCompanyMapping: gate.canProceedToCompanyMapping,
+    reasons: gate.reasons,
+    warnings: gate.warnings,
+    at: new Date().toISOString(),
+  });
+  if (!gate.canProceedToCompanyMapping) {
+    throw new Error(
+      `Research incomplete; company mapping blocked. ${gate.reasons.join(' ')} ` +
+        'Resolve the scope (official annex, product list, or trade codes) and rerun.',
+    );
+  }
+  for (const w of gate.warnings) console.warn(`[gate] ${w}`);
 
   const raw = await llm(slug, 'article-scenario', articleScenarioPrompt(article.title, article.text), 'json', 'heavy');
   const scenario = String((JSON.parse(raw) as { scenario: string }).scenario ?? '').trim();

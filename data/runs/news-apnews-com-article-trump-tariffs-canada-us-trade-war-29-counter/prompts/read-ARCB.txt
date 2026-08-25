@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for ARCBEST CORP /TX/ (ARCB). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US and Canada resolve tariff disputes by mid-2025, keeping cross-border supply chains integrated and goods inflation near pre-2025 trends through 2026.
+Map node this company was mapped to: Cross-border freight volume recovery (order 3, beneficiary). Mechanism: Reallocation of purchase orders to Canadian suppliers raises truck and rail freight volumes on US-Canada lanes. Node logic: More Canadian-sourced goods moving into the US directly increases shipments for cross-border trucking and rail intermodal providers. The effect is magnified because integrated supply chains often require multiple border crossings for intermediate goods. Freight volumes recover faster than overall trade value because shippers also rebuild safety stock previously held in alternative locations.
+8-K filings in the last 12 months: 20
+
+Excerpts:
+[0] (8-K, filed 2026-07-29) Higher revenue per shipment reflects a stronger pricing environment, including the effects of higher fuel surcharge revenue and tightening truckload market capacity.
+[1] (10-K, filed 2026-02-25) Asset-Based Operations Asset-Based Segment Overview The Asset-Based segment consists of ABF Freight, one of North America s largest less-than-truckload ( LTL ) carriers and a wholly owned subsidiary of the Company, and certain other subsidiaries.
+[2] (10-K, filed 2026-02-25) Approximately 17% of our Asset-Based business is subject to base LTL tariffs, which are affected by general rate increases, subject to individually negotiated discounts.
+[3] (10-K, filed 2026-02-25) We also utilize a space-based pricing approach for shipments subject to LTL tariffs to better reflect capacity usage and freight shipping trends in the industry, including the overall growth and ongoing profile shift to bulkier, yet often lighter, shipments across the supply chain, the acceleration in e-commerce, and the unique requirements of many shipping and logistics solutions, such as accommodating for smaller LTL shipments.
+[4] (10-K, filed 2026-02-25) The Asset-Based segment implemented nominal general rate increases on its LTL base rate tariffs of 5.9% effective on August 4, 2025, and September 9, 2024, although the rate changes vary by lane and shipment characteristics.
+[5] (10-K, filed 2026-02-25) Ongoing weakness in the manufacturing sector and evolving freight dynamics, including the shift of some heavier LTL shipments to the truckload market due to lower rates amid excess capacity, resulted in lower average weight per shipment levels year-over-year.
+[6] (10-K, filed 2026-02-25) Revenue was also impacted by a decrease in average daily shipment volume resulting from our strategic reduction in less profitable truckload shipments, despite shipment growth in our managed transportation solutions.
+[7] (10-K, filed 2026-02-25) Excess capacity in the truckload market continues to impact spot market rates.
+[8] (10-K, filed 2026-02-25) 48 Table of Contents Current Economic Conditions Economic conditions in 2025 reflected slowing but continued growth, shifting trade and tariff policies, persistent but cooling inflation, elevated interest rates, ongoing supply chain disruptions, and a slowing labor market.
+[9] (10-K, filed 2026-02-25) This prolonged period of weakness in manufacturing has contributed to a decrease in freight volumes.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $4,010,158,000, net income $60,098,000, R&D $29,100,000, cash $102,030,000.
+Customer graph: federal awards $1,752,925 across 2 awards (top agency Department of Health and Human Services); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
