@@ -98,7 +98,7 @@ export const CONFIG = {
   // The SMID reality check: can the fund own it, and will it live. Every number
   // here is a PM assumption to argue with, not a fact. Position size is
   // fund-scale-configurable: FUND_AUM_USD x POSITION_BPS when both are set
-  // (a $14.7B fund at 25 bps tests a $36.75MM position, not a boutique $5MM),
+  // (a $14.7B fund at 25 bps tests a $36.75M position, not a boutique $5M),
   // else REALITY_POSITION_USD, else the flat default.
   reality: (() => {
     const aum = Number(process.env.FUND_AUM_USD ?? 0);
@@ -109,7 +109,7 @@ export const CONFIG = {
       ? `${bps} bps of $${(aum / 1e9).toFixed(1)}B AUM`
       : positionUSD !== 5_000_000
         ? 'configured position'
-        : 'default $5MM position';
+        : 'default $5M position';
     return {
       positionUSD,
       positionBasis,

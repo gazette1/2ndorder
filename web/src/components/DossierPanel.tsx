@@ -310,7 +310,7 @@ export function DossierPanel({ dossier, read }: Props) {
                 <span className="fund-sub">
                   {reality.positionBasis
                     ? `Days to build assumes a ${reality.positionBasis} position`
-                    : '$5MM position at 15 percent of volume'}
+                    : '$5M position at 15 percent of volume'}
                 </span>
               </dd>
             </div>

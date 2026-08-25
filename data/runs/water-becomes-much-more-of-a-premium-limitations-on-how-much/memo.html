@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>IC memo: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month</title>
+<style>
+  body { font-family: Georgia, serif; color: #16181d; margin: 40px auto; max-width: 820px; padding: 0 24px; line-height: 1.55; }
+  h1 { font-size: 26px; line-height: 1.2; }
+  h2 { font-size: 19px; margin-top: 28px; }
+  h3 { font-size: 16px; }
+  table { border-collapse: collapse; width: 100%; font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; margin: 12px 0; }
+  th, td { border-bottom: 1px solid #d8dce2; text-align: left; padding: 6px 8px; vertical-align: top; }
+  th { font-weight: 600; }
+  .mono { font-family: Consolas, monospace; }
+  .muted { color: #5c6470; }
+  .ben { color: #0f6e56; }
+  .risk { color: #a32d2d; }
+  .ws { color: #854f0b; font-size: 11px; border: 1px dashed #854f0b; border-radius: 3px; padding: 0 4px; }
+  .meta { color: #5c6470; font-size: 13px; font-family: "Segoe UI", system-ui, sans-serif; }
+  .thesis { margin: 18px 0; }
+  details { font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; margin-top: 8px; }
+  hr { border: none; border-top: 1px solid #d8dce2; margin: 24px 0; }
+  a { color: #185fa5; }
+  @media print { body { margin: 12px; } details { display: none; } }
+</style>
+</head>
+<body>
+<h1>IC memo: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month</h1>
+<p class="meta">Run water-becomes-much-more-of-a-premium-limitations-on-how-much, generated 2026-08-25. Market cap band $150M to $5B. Corpus: 5,434 US filers. Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+
+
+
+<h2>Consequence map</h2>
+<table>
+<tr><th>Order</th><th>Direction</th><th>Consequence and mechanism</th><th>Follows from</th><th>Horizon</th><th>Evidence</th></tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Advanced metering infrastructure and smart water meters</strong><br /><span class="muted">Utilities facing rationing rules pay meter vendors and systems integrators to deploy AMI so they can monitor, bill, and enforce household limits.</span></td>
+            <td class="muted">scenario</td>
+            <td>near</td>
+            <td>5 names, 149 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Low-flow fixtures and water-efficient appliances</strong><br /><span class="muted">Households replace toilets, faucets, showerheads, dishwashers, and washing machines with lower-gallon models to stay under monthly purchase caps.</span></td>
+            <td class="muted">scenario</td>
+            <td>mid</td>
+            <td>3 names, 15 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Alternative water supply and reuse systems</strong><br /><span class="muted">Households and small businesses invest in rainwater capture, graywater reuse, atmospheric water generation, and delivered bulk water to supplement capped municipal supply.</span></td>
+            <td class="muted">scenario</td>
+            <td>mid</td>
+            <td>2 names, 27 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="risk">at risk</td>
+            <td><strong>Lawn irrigation and swimming pool products</strong><br /><span class="muted">Mandatory monthly limits reduce the water available for outdoor watering, pool filling, and spa maintenance, shrinking demand for irrigation systems, pool chemicals, and related consumables.</span></td>
+            <td class="muted">scenario</td>
+            <td>near</td>
+            <td>2 names, 165 filings</td>
+          </tr>
+<tr>
+            <td>1</td>
+            <td class="risk">at risk</td>
+            <td><strong>Municipal-dependent water-intensive manufacturing</strong><br /><span class="muted">Factories that rely on municipal intake face higher water tariffs, rationing risk, and possible service interruptions as regulators prioritize residential users.</span></td>
+            <td class="muted">scenario</td>
+            <td>mid</td>
+            <td>7 names, 132 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Utility billing and meter data management software</strong><br /><span class="muted">AMI deployments generate recurring demand for customer information systems, interval billing engines, and usage-alert platforms that enforce tiered rates and cap notifications.</span></td>
+            <td class="muted">Advanced metering infrastructure and smart water meters</td>
+            <td>mid</td>
+            <td>3 names, 179 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Operational technology cybersecurity for water utilities</strong><br /><span class="muted">New networked meters and remote-control valves expand the attack surface, prompting utilities to buy industrial control system security and monitoring services.</span></td>
+            <td class="muted">Advanced metering infrastructure and smart water meters</td>
+            <td>mid</td>
+            <td>4 names, 244 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Home improvement retailers and plumbing distributors</strong><br /><span class="muted">Consumers buy low-flow fixtures, efficient appliances, and installation supplies from big-box and specialty retailers after caps are announced.</span></td>
+            <td class="muted">Low-flow fixtures and water-efficient appliances</td>
+            <td>near</td>
+            <td>6 names, 132 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Rainwater harvesting and storage system installers</strong><br /><span class="muted">Property owners hire contractors to install gutters, cisterns, pumps, and filtration so captured rain substitutes for capped potable water.</span></td>
+            <td class="muted">Alternative water supply and reuse systems</td>
+            <td>mid</td>
+            <td>2 names, 158 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="risk">at risk</td>
+            <td><strong>Pool and spa equipment manufacturers</strong><br /><span class="muted">Lower pool filling and top-up volumes reduce replacement demand for pumps, heaters, filters, and chemical feeders.</span></td>
+            <td class="muted">Lawn irrigation and swimming pool products</td>
+            <td>mid</td>
+            <td>3 names, 80 filings</td>
+          </tr>
+<tr>
+            <td>2</td>
+            <td class="risk">at risk</td>
+            <td><strong>Brewing, bottling, and beverage canning</strong><br /><span class="muted">Beer, soft drinks, bottled water, and ready-to-drink beverages require process and ingredient water that becomes costlier or rationed when municipal supplies tighten.</span></td>
+            <td class="muted">Municipal-dependent water-intensive manufacturing</td>
+            <td>mid</td>
+            <td>4 names, 269 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Meter-to-cash SaaS platforms</strong><br /><span class="muted">Utilities replace legacy billing with subscription meter-to-cash platforms that handle interval reads, tiered pricing, collections, and cap enforcement.</span></td>
+            <td class="muted">Utility billing and meter data management software</td>
+            <td>mid</td>
+            <td>1 names, 282 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="ben">beneficiary</td>
+            <td><strong>Residential plumbing contractors</strong><br /><span class="muted">Retailers refer installation work to licensed plumbers who retrofit bathrooms and kitchens with water-efficient fixtures and appliances.</span></td>
+            <td class="muted">Home improvement retailers and plumbing distributors</td>
+            <td>near</td>
+            <td>3 names, 117 filings</td>
+          </tr>
+<tr>
+            <td>3</td>
+            <td class="risk">at risk</td>
+            <td><strong>Pool construction and maintenance services</strong><br /><span class="muted">Lower demand for new pools and reduced water use cut both construction backlogs and recurring maintenance visits.</span></td>
+            <td class="muted">Pool and spa equipment manufacturers</td>
+            <td>mid</td>
+            <td>5 names, 85 filings</td>
+          </tr>
+</table>
+
+
+
+<h2>Macro context</h2>
+<p><strong>FOMC minutes, 2026-06-17.</strong> The Federal Open Market Committee kept the target range for the federal funds rate at 3.5 to 3.75 percent. Risks to inflation were seen as tilted to the upside, while risks to employment were seen as tilted somewhat to the downside, and future policy would depend on incoming data.</p>
+
+<table>
+<tr><th>Series</th><th>Latest</th><th>As of</th><th>Year over year</th></tr>
+<tr><td>CPI, all items <span class="mono muted">CPIAUCSL</span></td><td>332.568</td><td>2026-06-01</td><td>3.5 percent</td></tr>
+<tr><td>retail sales <span class="mono muted">RSAFS</span></td><td>768553</td><td>2026-06-01</td><td>6.7 percent</td></tr>
+<tr><td>PPI, plastics materials and resins <span class="mono muted">PCU325211325211</span></td><td>368.751</td><td>2026-06-01</td><td>16.2 percent</td></tr>
+<tr><td>PPI, long-distance general freight trucking <span class="mono muted">PCU484121484121</span></td><td>204.622</td><td>2026-06-01</td><td>21.5 percent</td></tr>
+</table>
+<p class="meta">Federal Reserve Economic Data (FRED), latest observation with a year-over-year change where the history allows one.</p>
+
+<h2>Ranked names</h2>
+<table>
+<tr><th>Ticker</th><th>Company</th><th>Map node</th><th>Mkt cap</th><th>Exposure</th><th>Insider net 12m</th><th>Composite</th><th>Reality flags</th></tr>
+<tr>
+        <td class="mono">AIRJ</td>
+        <td>AirJoule Technologies Corp.</td>
+        <td>Alternative water supply and reuse systems</td>
+        <td>$290M</td>
+        <td>direct</td>
+        <td>$0</td>
+        <td title="composite 59">Strong</td>
+        <td class="muted">thin liquidity: about 27 trading days to build $36.8M at 15 percent of volume; cash runway about 0 quarters at the current operating burn; share count up 21.4 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 12.7 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">GWRS</td>
+        <td>Global Water Resources, Inc.</td>
+        <td>Municipal-dependent water-intensive manufacturing</td>
+        <td>$206M</td>
+        <td>direct</td>
+        <td>$222K</td>
+        <td title="composite 56">Strong</td>
+        <td class="muted">thin liquidity: about 263 trading days to build $36.8M at 15 percent of volume; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 17.8 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">ITRI</td>
+        <td>ITRON, INC.</td>
+        <td>Advanced metering infrastructure and smart water meters</td>
+        <td>$4.36B</td>
+        <td>direct</td>
+        <td>-$12.9M</td>
+        <td title="composite 29">Weak</td>
+        <td class="muted">clean</td>
+      </tr>
+<tr>
+        <td class="mono">IIIV</td>
+        <td>i3 Verticals, Inc.</td>
+        <td>Utility billing and meter data management software</td>
+        <td>$578M</td>
+        <td>direct</td>
+        <td>-$99K</td>
+        <td title="composite 28">Weak</td>
+        <td class="muted">thin liquidity: about 28 trading days to build $36.8M at 15 percent of volume; position would be 6.4 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">SWIM</td>
+        <td>Latham Group, Inc.</td>
+        <td>Pool construction and maintenance services</td>
+        <td>$629M</td>
+        <td>direct</td>
+        <td>$316K</td>
+        <td title="composite 26">Weak</td>
+        <td class="muted">thin liquidity: about 48 trading days to build $36.8M at 15 percent of volume; position would be 5.8 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">KWY</td>
+        <td>KINGSWAY Corp</td>
+        <td>Residential plumbing contractors</td>
+        <td>$258M</td>
+        <td>direct</td>
+        <td>-$2.92M</td>
+        <td title="composite 20">Weak</td>
+        <td class="muted">thin liquidity: about 350 trading days to build $36.8M at 15 percent of volume; position would be 14.2 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">TBI</td>
+        <td>TrueBlue, Inc.</td>
+        <td>Meter-to-cash SaaS platforms</td>
+        <td>$215M</td>
+        <td>peripheral</td>
+        <td>$134K</td>
+        <td title="composite 12">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 95 trading days to build $36.8M at 15 percent of volume; cash runway about 1.7 quarters at the current operating burn; position would be 17.1 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">LNN</td>
+        <td>LINDSAY CORP</td>
+        <td>Lawn irrigation and swimming pool products</td>
+        <td>$1.13B</td>
+        <td>peripheral</td>
+        <td>$0</td>
+        <td title="composite 12">Insufficient evidence</td>
+        <td class="muted">clean</td>
+      </tr>
+<tr>
+        <td class="mono">MFIN</td>
+        <td>MEDALLION FINANCIAL CORP</td>
+        <td>Home improvement retailers and plumbing distributors</td>
+        <td>$237M</td>
+        <td>peripheral</td>
+        <td>$0</td>
+        <td title="composite 10">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 283 trading days to build $36.8M at 15 percent of volume; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 15.5 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">ZVIA</td>
+        <td>Zevia PBC</td>
+        <td>Brewing, bottling, and beverage canning</td>
+        <td>$163M</td>
+        <td>peripheral</td>
+        <td>-$529K</td>
+        <td title="composite 5">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 176 trading days to build $36.8M at 15 percent of volume; position would be 22.5 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">ARTNA</td>
+        <td>ARTESIAN RESOURCES CORP</td>
+        <td>Rainwater harvesting and storage system installers</td>
+        <td>$267M</td>
+        <td>peripheral</td>
+        <td>-$397K</td>
+        <td title="composite 5">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 221 trading days to build $36.8M at 15 percent of volume; position would be 13.8 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+      </tr>
+<tr>
+        <td class="mono">ONDS</td>
+        <td>Ondas Inc.</td>
+        <td>Operational technology cybersecurity for water utilities</td>
+        <td>$3.71B</td>
+        <td>peripheral</td>
+        <td>-$44.2M</td>
+        <td title="composite 2">Insufficient evidence</td>
+        <td class="muted">share count up 160.3 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months)</td>
+      </tr>
+</table>
+
+<h2>Company evidence</h2>
+<h3 class="mono">AIRJ</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-01: material agreement, shareholder vote results, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526249857/airj-20260528.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526249857/airj-ex99_1.htm">exhibit</a>)</li><li>2026-02-17: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526055119/airj-20260211.htm">filing</a>)</li><li>2026-01-14: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1855474/000121390026004377/ea0272686-8k_airjoule.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> Matthew Jore 11.4 percent (13D, active intent); Stuart D. Porter 31.4 percent (13D, active intent).</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-15).</strong> CEO total comp $2.13M The Executive Chairman's 2025 total compensation was $5,693,556, exceeding the CEO's total compensation of $2,134,732. <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526157065/airj-20260415.htm">Proxy</a>.</p>
+<p><strong>Earnings release language, two most recent.</strong> Management leads with product build completion and commercial launch targets, while cash position and joint venture contributions are presented later in the release. The language shifted from highlighting completed validation and partnership milestones to emphasizing near-term commercialization and product launch timelines. Recurring hedges: "planned for", "target commercial launch", "expected to". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 12.7 percent of the company, about 27 trading days to build.</p>
+<h3 class="mono">GWRS</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-05-04: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026029760/gwrs-20260430.htm">filing</a>)</li><li>2026-04-30: material agreement, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026028741/gwrs-20260428.htm">filing</a>)</li><li>2025-12-16: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828025057444/gwrs-20251210.htm">filing</a>)</li><li>2025-11-17: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828025052581/gwrs-20251111.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> Handelsbanken Fonder AB 4.5 percent; Cohn Andrew M. 8.8 percent (13D, active intent); Levine Jonathan L 41 percent (13D, active intent).</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 17.8 percent of the company, about 263 trading days to build.</p>
+<h3 class="mono">ITRI</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-02-26: material agreement, new debt or credit facility, item 3.02, other material event (<a href="https://www.sec.gov/Archives/edgar/data/780571/000119312526076749/d925789d8k.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/780571/000119312526076749/d925789dex991.htm">exhibit</a>)</li><li>2025-11-17: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/780571/000117184325007373/f8k_111525.htm">filing</a>)</li></ul>
+<p><strong>Form 144 notices.</strong> 20 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-06-03. A 144 precedes the executed sale that lands on Form 4.</p>
+<p><strong>Significant holders (13D/13G).</strong> Vanguard Capital Management 5.33 percent; Vanguard Portfolio Management 7.97 percent; The Vanguard Group; Invesco Ltd. 4.9 percent; BlackRock, Inc. 15.2 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-03-23).</strong> The company has a staggered board with directors elected to two- and three-year terms, and shareholders will vote on a non-binding say-on-pay proposal. <a href="https://www.sec.gov/Archives/edgar/data/780571/000114036126010703/ny20057844x1_def14a.htm">Proxy</a>.</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 0.8 percent of the company, about 4 trading days to build.</p>
+<h3 class="mono">IIIV</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2025-11-17: results announced, officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1728688/000172868825000118/iiiv-20251117.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> Vanguard Capital Management 4.94 percent; BlackRock, Inc. 9.1 percent; WILLIAM BLAIR INVESTMENT MANAGEMENT, LLC 5.3 percent; The Vanguard Group; T. Rowe Price Investment Management, Inc. 3.2 percent; GENEVA CAPITAL MANAGEMENT LLC 7 percent; Crosslink Capital, Inc. 3.9 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-01-15).</strong> The ballot contains three management proposals, including a non-binding advisory vote on executive compensation, and no shareholder proposals are disclosed. <a href="https://www.sec.gov/Archives/edgar/data/1728688/000172868826000009/iiiv-20260115.htm">Proxy</a>.</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 6.4 percent of the company, about 28 trading days to build.</p>
+<h3 class="mono">SWIM</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-05-05: results announced, officer or director change, shareholder vote results (<a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000022/swim-20260430.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000022/exhibit99.htm">exhibit</a>)</li><li>2025-12-08: officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1833197/000110465925119317/tm2532973d1_8k.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000110465925119317/tm2532973d1_ex99.htm">exhibit</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> WYNNCHURCH CAPITAL PARTNERS IV, L.P.; Wellington Management Group LLP 7.8 percent; Voss Value Master Fund, LP 1.07 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-03-20).</strong> The board uses a staggered structure with Class II directors up for election, and the new CEO Sean Gadd is both a director and a nominee. <a href="https://www.sec.gov/Archives/edgar/data/1833197/000114036126010486/ny20065092x1_def14a.htm">Proxy</a>.</p>
+<p><strong>Earnings release language, two most recent.</strong> Management leads with sales growth across all three product lines, gross margin expansion, and reaffirmed 2026 guidance, while net loss widening and cash used in operations are buried in later sections. The language shifted from celebrating strong fourth quarter and full year results with margin expansion to emphasizing resilience against adverse weather, increased investments, and a more detailed Sand State strategy, while reaffirming the same guidance. Recurring hedges: "adverse weather conditions". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 5.8 percent of the company, about 48 trading days to build.</p>
+<h3 class="mono">KWY</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-05-11: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1072627/000143774926016149/kfs20260511_8k.htm">filing</a>)</li></ul>
+<p><strong>Form 144 notices.</strong> 3 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-05-21. A 144 precedes the executed sale that lands on Form 4.</p>
+<p><strong>Significant holders (13D/13G).</strong> Capricorn Fund Managers Ltd 4.9 percent; David Capital Partners, LLC 9 percent (13D, active intent); Mirabella Financial Services LLP; Stilwell Activist Fund, L.P. 12.7 percent (13D, active intent); Palm Global Small Cap Master Fund LP 1.4 percent (13D, active intent).</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-06).</strong> The annual meeting agenda includes a proposal to change the corporate name and to increase shares under the equity incentive plan, along with a non-binding advisory vote on executive compensation. <a href="https://www.sec.gov/Archives/edgar/data/1072627/000117494726000457/kfs-20251231.htm">Proxy</a>.</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 14.2 percent of the company, about 350 trading days to build.</p>
+<h3 class="mono">TBI</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-05-06: material agreement, item 3.03 (<a href="https://www.sec.gov/Archives/edgar/data/768899/000199937126010105/tbi-8k_050626.htm">filing</a>)</li><li>2026-04-13: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/768899/000199937126008137/tbi-8k_041326.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/768899/000199937126008137/ex99-1.htm">exhibit</a>)</li><li>2026-02-03: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000004/tbi-20260130.htm">filing</a>)</li><li>2026-01-12: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000002/tbi-20260106.htm">filing</a>)</li><li>2025-12-11: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/768899/000076889925000125/tbi-20251210.htm">filing</a>)</li></ul>
+<p><strong>Form 144 notices.</strong> 1 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-06-05. A 144 precedes the executed sale that lands on Form 4.</p>
+<p><strong>Significant holders (13D/13G).</strong> ROYCE &amp; ASSOCIATES LP 9.18 percent; Boston Partners 10.83 percent; Invesco Ltd. 0.2 percent; PZENA INVESTMENT MANAGEMENT LLC 10.5 percent; The Vanguard Group; CHARLES SCHWAB INVESTMENT MANAGEMENT INC 6.72 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-14).</strong> The proxy statement contains a management proposal to amend the 2016 Omnibus Incentive Plan and an advisory say-on-pay vote, with no shareholder proposals. <a href="https://www.sec.gov/Archives/edgar/data/768899/000199937126008266/tbi-def14a_051126.htm">Proxy</a>.</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 17.1 percent of the company, about 95 trading days to build.</p>
+<h3 class="mono">LNN</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-17: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/836157/000119312526307817/lnn-20260716.htm">filing</a>)</li><li>2026-01-12: officer or director change, shareholder vote results (<a href="https://www.sec.gov/Archives/edgar/data/836157/000119312526009690/lnn-20260106.htm">filing</a>)</li><li>2025-11-07: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/836157/000119312525272380/lnn-20251103.htm">filing</a>)</li><li>2025-10-24: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/836157/000119312525249322/lnn-20251022.htm">filing</a>)</li><li>2025-10-14: officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/836157/000119312525239032/lnn-20251014.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> Vanguard Capital Management 5.31 percent; Vanguard Portfolio Management 6.35 percent; The Vanguard Group.</p>
+<p><strong>Earnings release language, two most recent.</strong> Management leads with the MENA project remaining on schedule and infrastructure revenue growth, while the total revenue and operating income declines are buried in the financial summary. The language moved from highlighting the start of MENA deliveries and infrastructure growth excluding a large project to confirming the project remains on schedule and reporting unadjusted infrastructure growth, while softening the Brazil credit headwind from 'will' to 'could'. Recurring hedges: "we expect", "we do not expect", "remain a headwind". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 3.3 percent of the company, about 14 trading days to build.</p>
+<h3 class="mono">MFIN</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-26: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526284003/mfin-20260625.htm">filing</a>)</li><li>2026-06-12: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526268547/mfin-20260611.htm">filing</a>)</li><li>2026-04-28: material agreement, new debt or credit facility, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526187729/d116355d8k.htm">filing</a>)</li><li>2026-04-03: debt acceleration (<a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526142071/mfin-20260331.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> Andrew M. Murstein 11.73 percent; BlackRock, Inc. 5 percent; Alvin Murstein 8.07 percent (13D, active intent).</p>
+<p><strong>Proxy (DEF 14A, filed 2025-04-30).</strong> The proxy statement lists four proposals for the annual meeting, including an advisory vote on executive compensation and an amendment to the 2018 equity incentive plan. <a href="https://www.sec.gov/Archives/edgar/data/1000209/000095017025061067/mfin-20250430.htm">Proxy</a>.</p>
+<p><strong>Earnings release language, two most recent.</strong> Management leads with record total assets and a 63% increase in loan originations, while the decline in net income and net interest margin are mentioned but de-emphasized. The language moved from a focus on momentum and strong demand in the first quarter to a focus on record asset size and scalability in the second quarter, while also addressing the absence of equity gains and higher credit provisions. <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 15.5 percent of the company, about 283 trading days to build.</p>
+<h3 class="mono">ZVIA</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-15: officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926020577/zvia20260613_8k.htm">filing</a>)</li><li>2026-05-18: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926017629/zvia20260518_8k.htm">filing</a>)</li><li>2026-01-07: officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926000800/zvia20260107_8k.htm">filing</a>)</li><li>2025-08-12: material agreement (<a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774925026251/zvia20250808_8k.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> CDP Investissements Inc. 15.9 percent (13D, active intent); Tallwoods Investments, LLC 1 percent; Divisadero Street Capital Management, LP 4.8 percent; Topline Capital Management, LLC 8.8 percent; DIVISADERO STREET CAPITAL MANAGEMENT, LP 9.1 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-23).</strong> The company is a public benefit corporation holding a virtual annual meeting with proposals for director elections and auditor ratification, while the excerpt does not disclose CEO compensation, related-party transactions, or shareholder proposals. <a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926013203/zvia20260415_def14a.htm">Proxy</a>.</p>
+<p><strong>Hiring.</strong> 4 open roles on the company job board, led by Marketing (2), Legal (1), Research &amp; Development (1).</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 22.5 percent of the company, about 176 trading days to build.</p>
+<h3 class="mono">ARTNA</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2025-11-03: officer or director change, shareholder vote results (<a href="https://www.sec.gov/Archives/edgar/data/863110/000086311025000106/form8k_shareholdermeeting.htm">filing</a>)</li></ul>
+<p><strong>Significant holders (13D/13G).</strong> BlackRock, Inc. 1.7 percent; The Vanguard Group.</p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 13.8 percent of the company, about 221 trading days to build.</p>
+<h3 class="mono">ONDS</h3>
+<p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-06: material agreement, acquisition or disposition completed, item 3.02, Reg FD disclosure, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026075227/ea0296702-8k_ondas.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026075227/ea029670201ex99-1.htm">exhibit</a>)</li><li>2026-05-28: officer or director change, shareholder vote results (<a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026062119/ea0292551-8k_ondas.htm">filing</a>)</li></ul>
+<p><strong>Form 144 notices.</strong> 6 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-06-02. A 144 precedes the executed sale that lands on Form 4.</p>
+<p><strong>Significant holders (13D/13G).</strong> Vanguard Capital Management 5.16 percent; BlackRock, Inc. 7.2 percent; Laurence E. Hirsch 5.7 percent; The Vanguard Group; Hood River Capital Management LLC 4.71 percent; THE GOLDMAN SACHS GROUP, INC. 4.2 percent; JANE STREET GROUP, LLC 3.1 percent.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-21).</strong> CEO total comp $426K The charter amendment proposal would increase authorized shares from 800 million to 1.2 billion, and the CEO's total compensation was $426,066 compared to the COO's $1,148,077. <a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026045735/ea0285575-02.htm">Proxy</a>.</p>
+<p><strong>Earnings release language.</strong> Management emphasizes record first-quarter revenue and the raised full-year revenue forecast, while burying details such as adjusted EBITDA profitability and pro forma backlog in the financial highlights. Recurring hedges: "we believe". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 1 percent of the company, about 1 trading days to build.</p>
+
+<h2>Rubric</h2>
+<table>
+<tr><th>Dimension</th><th>Weight</th><th>Definition</th></tr>
+<tr><td>optionality</td><td>0.25</td><td class="muted">Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.</td></tr>
+<tr><td>revenueToOpportunity</td><td>0.2</td><td class="muted">Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.</td></tr>
+<tr><td>customerValidation</td><td>0.2</td><td class="muted">Proof that real customers are paying, from the customer graph: named enterprise customers, federal award dollars (USASpending), and how many other filers name the company as a supplier. 5 means material customer dollars from a named enterprise or government buyer; 0 means no customer evidence. Deterministic from the dossier.</td></tr>
+<tr><td>catalystDensity</td><td>0.15</td><td class="muted">Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.</td></tr>
+<tr><td>insiderConviction</td><td>0.1</td><td class="muted">Open-market buying by officers and directors over the trailing 12 months, from Form 4. 5 means a cluster buy of size (multiple insiders, net buying above the size threshold); 0 means heavy net selling. Grants and option exercises are excluded. Deterministic from the dossier.</td></tr>
+<tr><td>managementConviction</td><td>0.1</td><td class="muted">Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.</td></tr>
+</table>
+
+<h2>Theses</h2>
+<section class="thesis">
+        <h2>AIRJ: Water rationing makes independent water supply cost-justified for households and small businesses, expanding an early-stage atmospheric water generation installed base</h2>
+<h3>Bear case first</h3>
+<p>The same evidence reads as a pre-commercial business. Revenue is not reported, cash is $59,167 (SEC XBRL), and the 10-K describes a technology that "at commercial scale will mitigate water scarcity," not current sales [0]. No insider has bought or sold stock in the trailing 12 months (Form 4), and no named customer or federal award appears in the dossier (USASpending). The filings do not quantify the cost advantage over prior methods or give a target price for harvested water. A shelf registration and 21.4% share count growth in 12 months point to dilution as the near-term financing mechanism.</p>
+<h3>Business today</h3>
+<p>AirJoule is developing an atmospheric water generation platform that produces pure distilled water from air for businesses and consumers [0]. It completed field deployments and demonstrations in 2025 and has strategic partners [4]. Revenue was not reported and cash was $59,167 as of 2025-12-31 (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>The thesis places AirJoule at the equipment supplier node of the alternative water supply and reuse chain, an order 1 beneficiary with a mid-horizon payoff. As rationing makes municipal water unreliable, households and small businesses face higher effective cost for essential and discretionary use, making independent supply cost-justified. That dynamic expands a small installed base for equipment suppliers before conventional utilities see revenue shifts.</p>
+<h3>Customer graph</h3>
+<p>Buyer evidence is thin. No named enterprise customer appears in the excerpts, and federal awards are $0 (USASpending). Two other SEC filers name AirJoule, but no purchase commitment is disclosed. The company's only stated regulatory engagement is TCEQ potable water certification, which targets municipal and industrial applications, not current paying customers [1]. Every buyer relationship is currently unproven.</p>
+<h3>Insider and management signal</h3>
+<p>Trailing 12 months Form 4 activity is blank: $0 net open-market activity across 0 buys and 0 sales by 0 insiders (Form 4). Management language is specific about one regulatory engagement, completed field work, and independent intellectual property [1][4][5], but gives no quantified targets or named customers. The absence of insider purchases is a neutral-to-negative conviction signal.</p>
+<h3>Street view</h3>
+<p>No sell-side coverage is reported: unknown analyst count, consensus n/a, mean target n/a. Any firm rating actions are not observable from the paywalled reports. Thin coverage is itself part of the setup, but it also reduces the base of informed scrutiny.</p>
+<h3>Non-linear case</h3>
+<p>Potable certification for municipal and industrial applications would open a customer segment beyond the consumer and business markets [1]. The UN data in the filing puts four billion people in severe water scarcity for at least one month per year [2], and the filing says on-site generation can reduce reliance on municipal systems strained by data centers and advanced manufacturing [7]. If the AirJoule cost of water beats the failed energy-intensive methods [3] and the company reaches commercial scale, the revenue base could be a multiple of today's zero. What has to be true: TCEQ approval, a repeatable installation, and a disclosed unit price below alternatives.</p>
+<h3>Evidence</h3>
+<ul>
+<li>[0] The platform produces pure distilled water from air and, at commercial scale, will mitigate water scarcity through distributed generation for businesses and consumers.</li>
+<li>[1] In 2025, the company began discussions with TCEQ around potable water certification for municipal and industrial applications.</li>
+<li>[2] The UN data cited in the filing estimates nearly three-quarters of the world population is water-insecure, with four billion people in severe scarcity at least one month per year.</li>
+<li>[3] Prior atmospheric water harvesting methods failed to achieve competitive cost because of energy requirements.</li>
+<li>[4] The company completed field deployments and demonstrations in 2025 with strategic partners.</li>
+<li>[5] The company holds independent IP for heating, cooling, and low-cost harvesting of potable water from air.</li>
+<li>[7] On-site AirJoule generation can reduce reliance on municipal water systems strained by data centers and advanced manufacturing.</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $9.16M, so a small fund can build a position in about 27 trading days (reality check). Net cash is $59,167 with about 0 quarters of runway, and share count is up 21.4 percent in 12 months with a shelf registration on file (reality check). Liquidity is adequate for a small position, but the cash position and dilution risk threaten the thesis before any revenue arrives.</p>
+<h3>What would change our mind</h3>
+<p>1. A 10-Q or 10-K disclosing first product revenue or a named customer would replace the unproven buyer label. 2. A Form 4 open-market purchase by an insider would add a positive conviction signal. 3. A federal award for atmospheric water generation appearing on USASpending would show government validation.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Our platform technology, AirJoule, produces pure distilled water from air and, at commercial scale, will mitigate water scarcity through distributed water generation for businesses and consumers around the world. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> In 2025, we began discussions with the Texas Commission on Environmental Quality around pursuing potable water certification, which is a key regulatory milestone for municipal and industrial water applications. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Industry Background Water Harvesting According to the United Nations, nearly three-quarters of the world s population lives in countries classified as water-insecure or critically water-insecure, with as many as four billion people already experiencing severe water scarcity for at least one month per 2 year. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> The methods used to try to harvest potable water from air generally utilize conventional refrigerant-based systems or desiccant-based systems and have failed to achieve a competitive cost of the harvested water due to their energy requirements. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> Our Partners We have numerous strategic partners that have supported our development of the AirJoule systems, including the field deployments and demonstrations that we completed during 2025, and we believe these and new partners will support our development and deployment of AirJoule systems worldwide as a key solution to address global warming and water scarcity. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> Since then, we have added our own significant advancements to the technology, and we hold independent intellectual property relating to, among other things, heating, cooling and low-cost harvesting of potable water from the air. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[6]</span> Companies are developing strategies to adapt their business models in response to customer and investor demands that these businesses transition to leveraging sustainable, clean energy and invest in solutions to global warming and water scarcity. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[7]</span> Further, on-site water generation from AirJoule can reduce reliance on municipal water systems, which are increasingly strained by the development of water-intensive operations such as data centers and advanced manufacturing facilities. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[8]</span> For example, additional environmental 20 laws, regulations or standards may be adopted relating to atmospheric water generation, which could restrict where our AirJoule systems could operate or how much water they could produce. <span class="muted">(10-K, filed 2026-03-31, <a href="https://www.sec.gov/Archives/edgar/data/1855474/000119312526133335/airj-20251231.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>GWRS: Avoid, not short: regulated rate base and insider buying protect the downside, but no catalyst makes it a hold at best</h2>
+<h3>Bear case first</h3>
+<p>A short fails first because GWRS is a regulated utility with a fixed-fee plus volumetric rate structure, not a pure volume play [0]. Management has cut per-unit potable water use under Total Water Management, which reduces the revenue hit from drought restrictions [14]. Insider behavior also protects the company: $221.8K of open-market buying and zero sales in the past year (Form 4). The filings do not show a new business line, a named customer, or a dated catalyst, so the protection is structural rather than event-driven. The direct bear read is stagnation, not collapse, because the rate base and insider buying put a floor under the stock.</p>
+<h3>Business today</h3>
+<p>GWRS sells regulated water, wastewater, and recycled water utility service in the arid western U.S. [5]. It charges a fixed fee plus a volumetric fee for potable water and produces groundwater and recycled water [0][15][16]. Revenue was $55.8M and cash was $4.1M as of 2025-12-31 (XBRL). Customers are developers and communities in scarcity-constrained areas, not disclosed by name in the excerpts [12][13].</p>
+<h3>Chain position</h3>
+<p>The map position labels GWRS as municipal-dependent water-intensive manufacturing, but the filings identify GWRS as the regulated-utility node in the water-scarcity chain, not a manufacturer. GWRS intends to consolidate municipal water utilities in the arid western U.S. and apply Total Water Management across the entire water cycle [5][6][8]. The economic logic is that scarcity raises the value of integrated water and recycled water services, but utility revenue is still regulated and tied to allowed rates, so tariff risk and volume risk sit inside the model [0][1].</p>
+<h3>Customer graph</h3>
+<p>Named enterprise customers in the excerpts: none (unproven). Government buyers: federal awards total $125K, all from the Department of the Interior (USASpending). Five other SEC filers name GWRS, but the filings do not quantify contracted private demand. The customer evidence is thin for a company with $55.8M revenue; the underlying ratepayers are not disclosed in the provided evidence.</p>
+<h3>Insider and management signal</h3>
+<p>Insider open-market buying is net positive at $221.8K across eight buys and zero sales over the trailing 12 months (Form 4). Management language is specific about Total Water Management and includes quantified achievements in potable water use [14], which indicates conviction. That signal is only mildly useful because no Form 4 sale has tested it at a higher price, and the filings lack dated capital deployment milestones.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is not visible in the aggregators: no analyst count, no consensus, no mean target. No firm rating actions are reported. The absence of coverage cuts both ways: it lets the story go unnoticed, but it also removes the sell-side support that would cushion a miss.</p>
+<h3>Non-linear case</h3>
+<p>A sustained drought in the arid west triggers state or local water usage restrictions that cut volumetric revenue in consecutive quarters [1]. Regulatory lag delays rate increases, so the fixed-fee component cannot offset the volume loss in real time. GWRS then faces higher operating costs for imported water or recycling while equity is diluted to fund it, and the shelf registration plus 4.9% share-count growth make dilution a live mechanism (XBRL, reality check). Net debt of $129.6M amplifies the pressure because the company has only $4.1M cash (XBRL). This scenario compounds when the company is forced to choose between service reliability and shareholder returns.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Water utility operating revenue has two components: a fixed fee and a volumetric fee [0].</li>
+<li>Drought-related warnings and usage restrictions could artificially lower customer demand and reduce operating revenue [1].</li>
+<li>GWRS is a water resource management company providing water, wastewater, and recycled water utility service [5].</li>
+<li>Long-term goal is to become one of the largest investor-owned operators of integrated water and wastewater utilities in the arid western U.S. [6].</li>
+<li>Total Water Management is a demand-side framework that alleviates water scarcity pressures in communities [8].</li>
+<li>The model helps achieve greater dwelling unit density where sustainable water availability is a key constraint [12].</li>
+<li>A developer may obtain a written commitment for service from a designated water provider [13].</li>
+<li>GWRS has achieved much lower per-unit potable water use rates than expected for average developments [14].</li>
+<li>Utilities presently employ groundwater systems for potable water production [15].</li>
+<li>Recycled water is wastewater treated with advanced tertiary treatment [16].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>At average daily dollar volume of $932.7K, a full position takes about 263 trading days, so a small fund cannot build without moving the market. Net cash is negative $129.6M against $4.1M cash (XBRL), and the share count is up 4.9% in twelve months with a shelf registration on file. These facts threaten any long thesis: the equity is illiquid, leveraged, and exposed to further dilution.</p>
+<h3>What would change our mind</h3>
+<p>A signed recycled-water supply agreement with a named municipal or industrial customer would change the customer-validation picture; it would show up in a 10-Q or 10-K disclosure. An increase in insider open-market buying after a price decline would strengthen the conviction signal and appear on Form 4. A federal award from the Bureau of Reclamation or a related water agency for a specific project would provide non-dilutive capital evidence, visible in USASpending or a filing.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> To ensure an optimal combination of access to water and water conservation, balanced with a fair rate of return for investors, our water utility operating revenue is based on two components: a fixed fee and a consumption or volumetric fee. <span class="muted">(10-Q, filed 2026-05-13, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026034667/gwrs-20260331.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Conversely, when weather conditions are extremely dry, our business may be affected by government-issued drought-related warnings and/or water usage restrictions that would artificially lower customer demand and reduce our operating revenue. <span class="muted">(10-Q, filed 2026-05-13, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026034667/gwrs-20260331.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> In areas of water scarcity, such as the arid western U.S., water recycling represents a relatively simple, inexpensive, and energy-efficient means of augmenting water supply as compared to -7- Table of Contents transporting surface water, groundwater, or desalinated water from other locations. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> Private Sector Opportunities Municipal water utilities typically fund their capital expenditure needs through user-based water and wastewater rates, municipal taxes, or the issuance of bonds. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> However, raising large amounts of funds required for capital investment is often challenging for municipal water utilities, which affects their ability to fund capital spending. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> Since many administrative and support activities can be efficiently centralized to gain economies of scale and sharing of best practices, companies that participate in industry consolidation have the potential to improve operating efficiencies, lower costs, and improve service at the same time. -8- Table of Contents Our Strategy We are a water resource management company that provides water, wastewater, and recycled water utility service, leading in Total Water Management practices, such as water scarcity management and advanced water recycling applications. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[6]</span> Our long-term goal is to become one of the largest investor-owned operators of integrated water and wastewater utilities in areas of the arid western U.S., where water scarcity management is necessary for long-term economic sustainability and growth. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[7]</span> We believe this plan can be executed in our current service areas and in other geographic areas where water scarcity management is necessary to support long-term growth and in which regulatory authorities recognize the need for water conservation through water recycling. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[8]</span> Total Water Management is a demand-side-management framework (in that it is a solution intended to drive down demand for water supplies versus developing new water supplies) that alleviates the pressures of water scarcity in communities where growth is reasonably expected to outpace potable water supply. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[9]</span> Built on an all-encompassing view of the water cycle, Total Water Management promotes sustainable community development through reduced potable water consumption while monetizing the value of water through each stage of delivery, collection, and reuse. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[10]</span> In addition to the previous example, which relates to the increasing adoption and demand for recycled water usage, the separate recycled water distribution system of purple pipe, and the Company s water conservation achievements, the Company believes that its model results in additional benefits from an economic perspective due to lower use of power and consumables. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[11]</span> Our Total Water Management model, an integrated approach to the use of potable and non-potable water to manage the entire water cycle, both conserves water and maximizes its total economic value. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[12]</span> The application -10- Table of Contents of the Total Water Management model has proven to be effective as a means of water scarcity management that promotes sustainable communities and helps achieve greater dwelling unit density in areas where the availability of sustainable water can be a key constraint on development. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[13]</span> A developer may make an independent showing of an assured water supply resulting in a CAWS for a subdivision or may obtain a written commitment for service from a designated water provider, such as a privately owned water company or a municipal water supplier. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[14]</span> Under our highly efficient Total Water Management model, we have achieved much lower per-unit potable water use rates than would be expected for average developments. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[15]</span> Our utilities presently employ groundwater systems for potable water production. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[16]</span> Recycled water is created by taking wastewater and applying advanced tertiary treatment (i.e., screening, biological reduction, and filtration and disinfection processes) to create a high quality, non-potable water source. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[17]</span> The provision of potable water is subject to, among others, the requirements of the federal Safe Drinking Water Act, and effluent from wastewater treatment facilities must comply with other requirements. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[18]</span> In particular, the arid western U.S. region, which includes our present and potential service areas, has been required to deal with general conditions of water scarcity exacerbated by extended periods of drought. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[19]</span> Drought conditions could interfere with our sources of water supply and could adversely affect our ability to supply water in sufficient quantities to our existing and future customers. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1434728/000162828026014659/gwrs-20251231.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>ITRI: Water rationing turns metering from a billing convenience into a compliance necessity</h2>
+<h3>Bear case first</h3>
+<p>The excerpts describe only existing product lines and do not mention water rationing, household purchase limits, or any demand acceleration [0][1]. The theme may already be reflected in the valuation, and the sell-side cannot corroborate it: analyst count is unknown and consensus is n/a (Street view). Insider selling is heavy, with 47 open-market sales and $12.9M of net insider selling over the trailing 12 months (Form 4). Customer evidence is thin, with no named enterprise customer and only a $5M federal award (USASpending). The evidence cannot distinguish a compliance-driven replacement cycle from a routine product refresh.</p>
+<h3>Business today</h3>
+<p>Itron sells Industrial Internet of Things solutions, including automated meter reading and advanced metering infrastructure for electricity, water, and gas, plus distributed energy resource management, grid edge devices, distribution automation communications, smart lighting, and smart city sensors [0][1]. Revenue was $2,367.2M and cash was $1,020.4M as of 2025-12-31 (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>Itron is an order 1 beneficiary, a meter vendor and systems integrator at the first node of a rationing-driven adoption chain. Utilities facing household water limits must deploy AMI to monitor usage, bill against caps, and enforce compliance. Rationing converts metering from a billing convenience into a regulatory necessity, which can accelerate adoption even among utilities that previously delayed upgrades.</p>
+<h3>Customer graph</h3>
+<p>Government: one Department of Defense federal award of $5M under contract N6871105P0103 (USASpending). Enterprise: unproven, with no named enterprise customers in the excerpts. Six other filers name Itron in their own filings (SEC XBRL). Customer evidence is thin and concentrated in a single small federal award, not in large utility contracts.</p>
+<h3>Insider and management signal</h3>
+<p>Form 4 shows net open-market insider selling of $12,933,839 across 47 sales and 0 buys in the trailing 12 months (Form 4). Management language is a generic segment description with no quantified commitment to water AMI, rationing, or a new program [0][1]. The insider signal cuts against the thesis.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is unmeasured: analyst count is unknown, consensus is n/a, and mean target is n/a (Street view). There are no visible firm rating actions in the supplied data. For a $4.4B market cap company, the absence of visible coverage is itself a setup point, but it cuts both ways.</p>
+<h3>Non-linear case</h3>
+<p>The path to a multiple of today's business requires water rationing rules that force utilities to buy and deploy AMI meters on a fixed compliance timeline. If rationing becomes widespread, meter orders could arrive in a lumpy, award-driven wave rather than a gradual replacement curve [0][1]. Itron already sells water AMI, so it can capture demand without new development. What has to be true: regulators enact enforceable household limits, utilities are held to those limits, and Itron wins a share of the resulting contracts.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Itron's IIoT segment includes AMR and AMI for electricity, water, and gas; DERMs; grid edge devices; distribution automation communications; smart lighting; and smart city sensors [0].</li>
+<li>The same product list is restated in the segment description [1].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>A small fund can build a position in about 4 trading days at the $73.2M average daily dollar volume (reality check). Net cash is negative at $-244.6M, so the company carries more debt than cash despite $1,020.4M of gross cash (reality check, SEC XBRL). Share count fell 4% in 12 months, so dilution is not a current threat (reality check).</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>Named water AMI contract awards or a disclosed water backlog in a 10-Q or 10-K filing.</li>
+<li>A Form 4 with open-market insider buys, reversing the 47-sale pattern.</li>
+<li>Federal award data showing new water-related contract obligations beyond the $5M DoD award (USASpending).</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> The Industrial Internet of Things (IIoT) solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications. <span class="muted">(10-Q, filed 2026-07-28, <a href="https://www.sec.gov/Archives/edgar/data/780571/000078057126000178/itri-20260630.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> The IIoT solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications. <span class="muted">(10-Q, filed 2026-07-28, <a href="https://www.sec.gov/Archives/edgar/data/780571/000078057126000178/itri-20260630.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>IIIV: Water rationing turns utility billing into a recurring replacement market</h2>
+<h3>Bear case first</h3>
+<p>The acquired utility billing software company is small: total assets acquired were $11.2M and net assets $10.3M, against six-month revenue of $112.3M [1][0]. The theme reads as incremental to existing public sector billing offerings, not a new business line. One insider net sold $99.0K in the trailing 12 months, with 1 buy and 7 sales (Form 4), and no named customers or federal awards appear in the evidence (USASpending). Filing language never mentions water rationing, dynamic tariffs, or usage alerts [0][2]. The $578M market cap implies expectations that the filing evidence does not yet support.</p>
+<h3>Business today</h3>
+<p>The company sells payment and billing software, reporting $112.3M revenue for the six months ended March 31, 2026 and $109.9M for the same period in 2025 [0]. Cash was $66.7M as of September 30, 2025 (SEC XBRL). On April 1, 2025, it acquired a utility billing software company to expand public sector offerings [0][2].</p>
+<h3>Chain position</h3>
+<p>Third-party utility billing and meter data management software vendor. The economic logic is that AMI deployments generate recurring demand for interval billing engines and usage-alert platforms, and rationing rules require dynamic tariffs that legacy on-premise suites cannot support. Configurable cloud platforms win multi-year replacement contracts.</p>
+<h3>Customer graph</h3>
+<p>No named enterprise customers in the excerpts. Federal awards are $0 (USASpending). 4 other filers name the company (customer graph). Buyer type is unproven from this evidence. Customer validation is thin.</p>
+<h3>Insider and management signal</h3>
+<p>One insider net sold $99.0K open-market in the trailing 12 months, with 1 buy and 7 sales (Form 4). Management committed capital to the acquisition but used general language and gave no quantified targets or explicit references to the water rationing theme [0][2]. The signal is mixed at best.</p>
+<h3>Street view</h3>
+<p>Unknown analyst count, consensus n/a, mean target n/a. Sell-side reports are paywalled and not linked. Thin coverage is itself part of the setup for an under-covered small cap.</p>
+<h3>Non-linear case</h3>
+<p>If water rationing becomes a regulatory mandate, utilities must deploy tiered rates, cap notifications, and real-time usage alerts. Legacy billing systems cannot support these. Each replacement is a multi-year implementation contract with recurring software revenue. IIIV's acquisition, though small, could be the wedge into this market. The outcome becomes a multiple of today's business if the acquisition is expanded with further investment in cloud-based configurable platforms. The evidence does not show that investment yet.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Revenue was $112,276K for the six months ended March 31, 2026, versus $109,908K for 2025 [0].</li>
+<li>On April 1, 2025, the company completed the acquisition of a Utility Billing Software Company to expand public sector utility billing software offerings [0].</li>
+<li>Preliminary fair values at acquisition: total assets acquired $11,211K, net assets acquired $10,260K, goodwill $5,129K, customer relationships $4,610K [1].</li>
+<li>The 10-K states the acquisition expanded the company's Public Sector utility billing software offerings [2].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $8.76M, so building a position takes about 28 trading days. Net cash is $66.7M (reality check). The provided facts do not include share count growth or a shelf filing, so dilution risk is unquantified here.</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>A Form 4 showing net open-market insider buying.</li>
+<li>A 10-Q or 10-K disclosing a named utility customer or implementation milestone for the acquired utility billing software.</li>
+<li>A USASpending federal award or a government contract naming IIIV as the vendor.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Six Months Ended March 31, 2026 2025 Revenue $ 112,276 $ 109,908 Net income from continuing operations $ 3,699 $ 4,810 Business Combinations during the year ended September 30, 2025 Purchase of Utility Billing Software Company On April 1, 2025, the Company completed the acquisition of substantially all of the assets of a business (the "Utility Billing Software Company") to expand the Company s public sector utility billing software offerings. <span class="muted">(10-Q, filed 2026-05-08, <a href="https://www.sec.gov/Archives/edgar/data/1728688/000172868826000032/iiiv-20260331.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Summary of the Utility Billing Software Company The preliminary fair values assigned to certain assets and liabilities assumed, as of the acquisition date, were as follows: Accounts receivable $ 792 Property and equipment 200 Capitalized software 380 Customer relationships 4,610 Trade name 100 Goodwill 5,129 Total assets acquired 11,211 Deferred revenue, current 951 Net assets acquired $ 10,260 Other Business Combinations during the year ended September 30, 2025 During the year ended September 30, 2025, the Company purchased certain assets of a business to expand the Company s customer footprint. <span class="muted">(10-Q, filed 2026-05-08, <a href="https://www.sec.gov/Archives/edgar/data/1728688/000172868826000032/iiiv-20260331.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Acquisitions during the year ended September 30, 2025 On April 1, 2025, the Company completed the acquisition of a business to expand the Company s Public Sector utility billing software offerings. <span class="muted">(10-K, filed 2025-11-21, <a href="https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>SWIM: Water rationing turns the fiberglass conversion story into a short</h2>
+<h3>Bear case first</h3>
+<p>The short thesis is that drought-driven water restrictions cut pool installations [4]. The protection for the company is material conversion: fiberglass pool starts are outpacing the broader in-ground market, and demand is supported by lower upfront and lifecycle costs, faster installation, and fewer chemicals [0][1][3]. Even under rationing, fiberglass could take share from concrete. The disconfirming read of the same evidence: insider buying is only $315.7K on a $629M market cap (Form 4), customer evidence is $3.0M of federal awards with zero named enterprise customers (USASpending), and the filing risk factor is generic with no quantified exposure [4].</p>
+<h3>Business today</h3>
+<p>Latham sells fiberglass in-ground pools and complementary products to homeowners, with revenue of $545.9M and cash of $71.0M as of 2025-12-31 (SEC XBRL). The portfolio is highly complementary and covers a wide range of residential solutions [2].</p>
+<h3>Chain position</h3>
+<p>SWIM sits at order 3, pool construction and maintenance services. Fewer filled pools cut both new construction backlogs and recurring maintenance visits, because service routes depend on minimum visit frequency for chemical balancing and equipment checks.</p>
+<h3>Customer graph</h3>
+<p>Enterprise: unproven, zero named customers in the excerpts. Government: $3.0M in federal awards, including $1.0M and $0.8M from the Department of Agriculture and $426.8K from the Department of Homeland Security (USASpending). Sixteen other filers name the company. Customer evidence is thin for a $545.9M revenue base.</p>
+<h3>Insider and management signal</h3>
+<p>Two insiders bought $315.7K net on the open market with zero sales over the trailing 12 months (Form 4). The buying is directionally positive but small against the $629M market cap. Management language is generic: drought and water management initiatives could result in decreased pool installations and negatively impact sales [4], with no named initiatives or capital commitments.</p>
+<h3>Street view</h3>
+<p>Coverage is effectively absent: unknown analyst count, consensus n/a, mean target n/a. Thin coverage means no sell-side has framed the water-rationing risk, which is part of the setup.</p>
+<h3>Non-linear case</h3>
+<p>The downside compounds if sustained drought triggers municipal rationing ordinances. New permits are delayed or denied, existing pools are left unfilled, and maintenance routes lose the minimum visit frequency required for chemical balancing. Backlogs shrink while fixed costs remain, cash burns through the $71.0M balance, and the -$208.8M net cash position (SEC XBRL) forces dilutive financing. Revenue falls from the $545.9M base without a matching drop in operating costs.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Fiberglass conversion driven by homeowner awareness of benefits [0]</li>
+<li>Fiberglass pool starts outpacing the broader in-ground market [1]</li>
+<li>Residential pool portfolio is highly complementary [2]</li>
+<li>Demand driven by material conversion, lower costs, faster installation, fewer chemicals [3]</li>
+<li>Drought or water management initiatives could decrease pool installations [4]</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $5.2M, about 48 trading days to build a position. Net cash is -$208.8M with $71.0M cash on hand, and the share count is up 1.1 percent in 12 months (SEC XBRL). The negative net cash and existing dilution make the equity fragile if the downside path plays out.</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>A Form 4 open-market insider sale would reverse the current buy signal.</li>
+<li>A 10-Q or 10-K naming a water-restriction program or quantified revenue impact would make the risk measurable.</li>
+<li>A federal award above the $3.0M base (USASpending) would be the first named customer validation.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> A conversion to fiberglass pools from legacy pool construction materials is being driven by greater homeowner awareness of the benefits of fiberglass products. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> As a result of material conversion away from legacy pool construction materials such as concrete, market growth of fiberglass pool starts in the United States is meaningfully outpacing that of the broader in-ground swimming pool market. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Products Our residential pool product portfolio is highly complementary and allows us to provide a wide-range of solutions to our homeowners. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> Demand for our fiberglass pools is driven by both material conversion from legacy pool construction materials, especially concrete, and the long-term value that our pools deliver to our homeowners through lower up-front and lifecycle costs, faster and easier installation, better quality and fewer chemicals. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> Additionally, drought conditions or water management initiatives have led and may continue to lead to municipal ordinances related to water use restrictions, and such restrictions could result in decreased pool installations and negatively impact our sales. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/1833197/000183319726000017/swim-20251231.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>KWY: Residential retrofit plumbing is the near-horizon beneficiary if monthly household water purchase caps arrive</h2>
+<h3>Bear case first</h3>
+<p>Why this name fails: the same evidence supports a bear case. KST is a conventional residential and commercial plumber in three metro areas, and the excerpts contain no quantified water-conservation program, no target, and no named enterprise customer [0][1]. Insiders sold a net $-2,915K in open-market trades over the trailing 12 months (Form 4). Federal awards are $1,535K, about 1.1% of revenue (USASpending). Without a dated mandate or contract evidence, the water-premium thesis is an unproven option, not a current earnings driver.</p>
+<h3>Business today</h3>
+<p>KST provides plumbing services, including emergency repairs, drain cleaning, water heater installations, and water treatment solutions, to residential and commercial customers primarily in Evansville, Indiana, Cleveland, Ohio, and Omaha, Nebraska [0][1]. Revenue was $134,996K and cash was $8,306K as of 2025-12-31 (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>KWY is the order-3 beneficiary node: residential plumbing contractors. Retailers refer retrofit work to licensed plumbers, who bill labor and markup materials, so water-efficient fixture and appliance sales convert directly into service revenue. The work is local and urgent, which supports pricing and keeps travel costs low.</p>
+<h3>Customer graph</h3>
+<p>Customer evidence is thin. No named enterprise buyer appears in the excerpts; enterprise demand is unproven [0][1]. Government buyers are Department of Veterans Affairs ($458.9K), Department of Agriculture ($125.8K), and NASA ($124.4K), totaling $1,535K (USASpending). Four other filers name the company, but no enterprise customer is identified (USASpending).</p>
+<h3>Insider and management signal</h3>
+<p>Form 4 shows net open-market selling of $-2,915K across 43 buys and 11 sales by 3 insiders over the trailing 12 months (Form 4). Management language in the filings is generic service description with no quantified targets, committed capital, or named programs [0][1]. This is not a conviction signal.</p>
+<h3>Street view</h3>
+<p>Sell-side aggregators show no analyst count, no consensus, and no mean target, and reports are paywalled. Coverage is unknown or effectively absent. Thin coverage is part of the setup, but no rating action is visible.</p>
+<h3>Non-linear case</h3>
+<p>If a binding monthly household water purchase cap is implemented and enforced in any of KWY's three service areas, retrofit work could become mandatory and time-limited. KWY's existing licenses, branches, and local dispatch could capture labor and marked-up materials at increased rates. A regulatory deadline could compress years of retrofit demand into a period of several quarters. That outcome would be a multiple of the current service revenue run rate. The non-linear path requires a dated mandate and sufficient local labor capacity, neither of which appears in the filings.</p>
+<h3>Evidence</h3>
+<ul>
+<li>KST provides a comprehensive range of plumbing services, including emergency repairs, drain cleaning, water heater installations, and water treatment solutions to residential and commercial customers, primarily in Evansville, Indiana (Bud's Plumbing), Cleveland, Ohio (Advanced Plumbing), and Omaha, Nebraska (Southside Plumbing) [0].</li>
+<li>The 10-K repeats the same service description [1].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $700.8K, implying about 350 trading days to build a position (reality check). The stated cash runway is 11,074.7 quarters (reality check), while net cash is $-62,406K (SEC XBRL), so ordinary operations appear funded if the stated runway is accurate; debt maturities are not specified. Share count rose 5.1% in 12 months, a dilution signal (reality check).</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>A 10-Q or 8-K discloses a named municipal water-conservation retrofit program, a backlog, or quantified retrofit revenue.</li>
+<li>A Form 4 shows open-market insider buying or a Rule 10b5-1 plan.</li>
+<li>A USASpending award appears for water-efficiency retrofit services in KWY's service area.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> KST provides a comprehensive range of plumbing services, including emergency repairs, drain cleaning, water heater installations, and water treatment solutions to residential and commercial customers, primarily in Evansville, Indiana (Bud's Plumbing), Cleveland, Ohio (Advanced Plumbing) and Omaha, Nebraska (Southside Plumbing). <span class="muted">(10-Q, filed 2026-05-07, <a href="https://www.sec.gov/Archives/edgar/data/1072627/000143774926015567/kfs20260331_10q.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Kingsway Skilled Trades provides a comprehensive range of plumbing services, including emergency repairs, drain cleaning, water heater installations, and water treatment solutions to residential and commercial customers, primarily in Evansville, Indiana (Bud's Plumbing), Cleveland, Ohio (Advanced Plumbing) and Omaha, Nebraska (Southside Plumbing). <span class="muted">(10-K, filed 2026-03-12, <a href="https://www.sec.gov/Archives/edgar/data/1072627/000143774926007961/kfs20251231_10k.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>TrueBlue, Inc. (TBI): Water meter-to-cash is not visible in the filings and the company's cash position is the binding constraint</h2>
+<h3>Bear case first</h3>
+<p>Filings mention software-as-a-service only as an accounting item: amortization in SG&amp;A and capitalized internal development costs [0][4]. Adjusted EBITDA and adjusted SG&amp;A both exclude this amortization [1][2]. No excerpt describes meter-to-cash, water metering, or third-party SaaS revenue. The company lost $19.8M in the 13 weeks ended March 29, 2026, versus $14.3M a year earlier, and adjusted EBITDA was negative [3]. Insider buying is small and offset by a sale (Form 4), and the known government awards are Department of Transportation work, not water utility contracts (USASpending).</p>
+<h3>Business today</h3>
+<p>The 8-K excerpts show revenue, net loss, and adjusted EBITDA, but they do not describe the core product or customer [3]. The only software references are amortization of software-as-a-service assets and expected capitalized development costs [0][4]. Cash was $24.5M as of 2025-12-28 (SEC XBRL); the dossier facts do not include a revenue figure.</p>
+<h3>Chain position</h3>
+<p>The seed thesis puts TBI at the meter-to-cash SaaS node, with utilities replacing legacy billing and paying per endpoint. The evidence puts TBI on the cost side, as an operator of internally developed software assets, not a vendor selling those assets [4]. No revenue per endpoint or third-party contract appears in the filings.</p>
+<h3>Customer graph</h3>
+<p>No named enterprise customer appears in the excerpts. USASpending shows $18.2M in federal awards, all from the Department of Transportation, including $4.3M, $3.0M, and $1.6M awards (USASpending). Three other filers name TBI. These are government buyers, not water utilities. Customer evidence for the meter-to-cash theme is unproven.</p>
+<h3>Insider and management signal</h3>
+<p>Trailing 12-month open-market insider activity is net $134.4K bought across 3 buys and 1 sale by 3 insiders (Form 4). That is modest. Management language in the filings addresses SaaS assets only as amortization and capitalized costs, with no named program or target tied to metering [0][4].</p>
+<h3>Street view</h3>
+<p>No analyst count, consensus, or mean target is available from the dossier; sell-side reports are paywalled and unlinked. For this name, thin coverage is not a hidden setup because the company has negative adjusted EBITDA and a short cash runway.</p>
+<h3>Non-linear case</h3>
+<p>For TBI to become a multiple of today's value, its internal SaaS development would have to become a commercial meter-to-cash product with per-endpoint contracts. That would require product launches, customer wins, and regulatory water cap enforcement. The excerpts provide no basis for those steps. A more plausible non-linear path is a return to positive adjusted EBITDA and a deleveraging event, but the filing evidence does not establish that path either.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Amortization of software as a service assets is reported in selling, general and administrative expense [0].</li>
+<li>Adjusted EBITDA excludes amortization of software as a service assets, acquisition integration costs, and other items [1].</li>
+<li>Adjusted SG&amp;A excludes amortization of software as a service assets [2].</li>
+<li>Q1 2026 net loss was $19,795K versus $14,348K in Q1 2025; adjusted EBITDA was -$3,050K versus -$3,922K; SaaS asset amortization was $1,259K versus $1,093K [3].</li>
+<li>Fiscal 2026 capex and capitalized costs for SaaS asset development are expected to be $13M-$17M, with about $1M for SaaS assets [4].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $2,592,452, so a position would take about 95 trading days to build (Reality check). Net cash is -$12.6M and cash runway is about 1.7 quarters (Reality check). Share count rose 1.9% in 12 months (Reality check), and these facts make survival the first question.</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>A 10-Q or 10-K that reports SaaS or meter-to-cash as a revenue line, not as an internal expense component.</li>
+<li>A Form 4 showing a meaningful increase in open-market insider buying above the trailing net $134.4K run rate.</li>
+<li>A new federal award in USASpending from a water utility or water agency rather than the Department of Transportation.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> (5) Amortization of software as a service assets is reported in selling, general and administrative expense. <span class="muted">(8-K, filed 2026-05-05, <a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000018/a1q2026pressrelease.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Adjusted EBITDA further excludes third-party processing fees for hiring tax credits, amortization of software as a service assets, acquisition integration costs, non-cash goodwill impairment charge, workforce reduction costs, and other adjustments, net. <span class="muted">(8-K, filed 2026-05-05, <a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000018/a1q2026pressrelease.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> Adjusted SG A expense Selling, general and administrative expense excluding third-party processing fees for hiring tax credits, amortization of software as a service assets, acquisition integration costs, workforce reduction costs, and other adjustments, net. <span class="muted">(8-K, filed 2026-05-05, <a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000018/a1q2026pressrelease.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> GAAP NET LOSS TO EBITDA AND ADJUSTED EBITDA ( Unaudited ) 13 weeks ended (in thousands) Mar 29, 2026 Mar 30, 2025 Net loss $ (19,795) $ (14,348) Income tax expense 576 418 Interest and other (income) expense, net 1,372 (193) Non-cash depreciation and amortization (3) 6,867 6,810 EBITDA (10,980) (7,313) Third-party processing fees for hiring tax credits (4) (100) 90 Amortization of software as a service assets (5) 1,259 1,093 Acquisition integration costs 16 710 Non-cash goodwill impairment charge 3,656 Workforce reduction costs (1) 1,069 1,400 Other adjustments, net (2) 2,030 98 Adjusted EBITDA $ (3,050) $ (3,922) Margin % of revenue Net loss (5.0)% (3.9)% Adjusted EBITDA (0.8)% (1.1)% 3. <span class="muted">(8-K, filed 2026-05-05, <a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000018/a1q2026pressrelease.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> Liquidity outlook For fiscal 2026, capital expenditures and capitalized costs associated with the development of software as a service assets are expected to be between $13 million and $17 million, with approximately $1 million of this amount relating to spending for software as a service assets. <span class="muted">(10-K, filed 2026-02-18, <a href="https://www.sec.gov/Archives/edgar/data/768899/000076889926000009/tbi-20251228.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>LNN: Water limits are a risk, but disclosed exposure is agricultural and the balance sheet cushions a short</h2>
+<h3>Bear case first</h3>
+<p>The disconfirming read of the short thesis is that the only filing evidence [0] describes agricultural irrigation and industrial IoT, not lawn irrigation, pool filling, or spa maintenance. The monthly water cap scenario is inferred from the adoption-chain map, not from filed disclosure. The dossier shows no open-market insider selling (Form 4), $100.7M of federal awards (USASpending), and net cash of $135.3M (SEC XBRL), so LNN can absorb a demand miss. The filings do not show inventory levels or residential end-market exposure, so the working-capital squeeze remains unproven.</p>
+<h3>Business today</h3>
+<p>LNN sells agricultural irrigation systems and management technology, including Zimmatic center pivot and lateral move systems, FieldNET and FieldWise remote management, FieldNET Advisor scheduling, and industrial IoT solutions [0]. Revenue was $659.1M and cash was $250.6M as of 2025-08-31 (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>The seed thesis maps LNN to the lawn irrigation and swimming pool node, where mandatory monthly water limits would first cut visible outdoor use. The only filing evidence [0] places LNN in agricultural irrigation and IoT, not residential products. If the mapping is correct, demand for irrigation and pool consumables falls before interior water use; if the filing evidence is correct, the at-risk node is mislabeled.</p>
+<h3>Customer graph</h3>
+<p>Federal awards total $100.7M (USASpending), including $43.2M and $10.0M from the Department of Education and $8.2M from the Department of Defense (USASpending). Those buyers are government. No named enterprise customer appears in the excerpt (unproven). Seventeen other filers name LNN, but their relationship is unidentified. Customer evidence is otherwise thin.</p>
+<h3>Insider and management signal</h3>
+<p>No insider open-market buying or selling occurred in the trailing 12 months: 0 buys, 0 sales, 0 insiders (Form 4). That is neutral, not conviction. Management language in the 8-K is descriptive and does not reference water restrictions, residential markets, or any targeted investment [0].</p>
+<h3>Street view</h3>
+<p>Sell-side aggregators list no identified analysts, no consensus, and no mean target. Coverage is absent. An under-covered name can move on any new disclosure, but there is no sell-side catalyst inventory to force a repricing.</p>
+<h3>Non-linear case</h3>
+<p>If mandatory monthly water caps take effect in multiple states, outdoor watering and pool filling become the first restricted uses. LNN would face order cancellations and dealer destocking, while the federal awards in education and defense do not offset lost discretionary demand. The revenue and margin reset could force LNN to deploy cash into working capital as seasonal inventory becomes unsold. Estimates reset downward as the at-risk node matures, and the downside compounds from volume decline into margin decline.</p>
+<h3>Evidence</h3>
+<ul>
+<li>[0] 8-K filed 2026-07-02: the Lindsay family of irrigation brands includes Zimmatic center pivot and lateral move agricultural irrigation systems, FieldNET and FieldWise remote irrigation management technology, FieldNET Advisor irrigation scheduling technology, and industrial IoT solutions.</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $18.5M, so a small fund can build a position in about 14 trading days (reality check). Net cash is $135.3M and share count is down 6.4% in 12 months (SEC XBRL), so dilution risk is low and the company can survive a downturn. Liquidity supports a small position but not an urgent large exit.</p>
+<h3>What would change our mind</h3>
+<p>A Form 4 filing with an open-market insider buy would reduce conviction in the short. A federal award to LNN for water-efficiency or irrigation technology would show government demand can offset the water-limit scenario. A 10-Q or 10-K disclosure of residential lawn or pool revenue would confirm the at-risk mapping instead of leaving it inferred.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> The Lindsay family of irrigation brands includes Zimmatic center pivot and lateral move agricultural irrigation systems, FieldNET and FieldWise remote irrigation management technology, FieldNET Advisor irrigation scheduling technology, and industrial IoT solutions. <span class="muted">(8-K, filed 2026-07-02, <a href="https://www.sec.gov/Archives/edgar/data/836157/000119312526293405/lnn-ex99_1.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>MFIN: Water restrictions could pull forward home improvement lending, but filings do not show the water thesis</h2>
+<h3>Bear case first</h3>
+<p>This is a discretionary lender [2]. Home improvement originations were intentionally managed down in 2025 [17]. The water thesis requires a new demand driver, but no supplied excerpt mentions water, water-saving products, or purchase caps. Insider activity is absent: net $0 across 0 buys and 0 sales (Form 4). Customer evidence is thin: no named customers and $0 federal awards (USASpending). A disconfirming read is that water restrictions reduce discretionary spending, cutting demand for pools and other home improvement loans [1][2].</p>
+<h3>Business today</h3>
+<p>The Bank originates consumer loans for RVs, boats, collector cars, and home improvements, and provides loan origination and other services to fintech partners [5]. Home improvement lending covers swimming pools, replacement roofs, and windows [1]. Cash was $136.266M at 2025-12-31; revenue was not reported in the dossier (XBRL).</p>
+<h3>Chain position</h3>
+<p>MFIN is a lender downstream of the retailers in the seed thesis. Water caps would appear first as retail sales of fixtures, then as loan applications for larger projects. The filing evidence shows the lending base: $813.185M of home improvement loans at 2025-12-31 [18]. Whether the water theme reaches this loan book is unproven.</p>
+<h3>Customer graph</h3>
+<p>Actual payers are consumer borrowers, an unproven customer group because no named accounts are in the excerpts (Customer graph). No enterprise or government buyer is documented. Federal awards are $0 (USASpending); 2 other filers name the company (Customer graph). Competition for contractor and FSP relationships is present [4].</p>
+<h3>Insider and management signal</h3>
+<p>Form 4 shows no open-market insider buying or selling over 12 months (Form 4). Management calls demand healthy [0], managed home improvement volumes down in 2025 [17], and says higher rates improved yields and credit quality [16]. No water language is in the excerpts.</p>
+<h3>Street view</h3>
+<p>No analyst count, consensus, or mean target is available from the aggregator (Street view). Thin coverage is part of the setup but provides no external validation.</p>
+<h3>Non-linear case</h3>
+<p>If water purchase caps become binding, emergency replacements could pull forward planned home improvement work and drive loan applications. The effect would be visible against the existing $813.185M portfolio [18], making incremental originations a multiplier. That requires reversing the managed decline in home improvement originations [17] and adding water-saving installations as a credit product. No filing shows such a product or partnership.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Demand across recreation and home improvement lending is healthy; strategic partnership originations reached $247M in the quarter [0].</li>
+<li>Industries served include recreation and home improvement, including swimming pools, replacement roofs, and windows [1].</li>
+<li>In economic slowdowns, consumers may reduce discretionary spending in recreation and home improvement [2].</li>
+<li>There is competition for contractor and FSP relationships in home improvement lending [4].</li>
+<li>The Bank originates consumer loans for RVs, boats, collector cars, and home improvements, and provides loan origination services to fintech partners [5].</li>
+<li>Higher rates increased yields and credit quality on new loans [16].</li>
+<li>In 2025, home improvement lending had a small decline due to intentional volume management [17].</li>
+<li>Home improvement loans totaled $813.185M at 2025-12-31 [18].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $867,134, so a position would take about 283 days to build (Reality check). Net cash is $-79.721M and a shelf is on file; share count fell 1.2% in 12 months (Reality check). These constraints are real before the water thesis is validated.</p>
+<h3>What would change our mind</h3>
+<ul>
+<li>An 8-K or 10-Q citing water restrictions or water-saving products as a demand driver.</li>
+<li>A Form 4 insider open-market purchase.</li>
+<li>A 10-K that adds water availability or purchase caps to risk factors or strategy.</li>
+</ul>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Demand across our recreation and home improvement lending businesses remains healthy, and our strategic partnership business continues to expand with strategic partnership originations reaching $247 million during the quarter. <span class="muted">(8-K, filed 2026-07-29, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526323730/mfin-ex99_1.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Key industries served include recreation (towable RVs and marine) and home improvement (swimming pools, replacement roofs, and windows). <span class="muted">(8-K, filed 2026-07-29, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526323730/mfin-ex99_1.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> During periods of economic slowdown, delinquencies, defaults, repossessions, and losses generally increase, and consumers may reduce their discretionary spending in areas such as recreation and home improvement, which constitute the significant majority of our business. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> Additionally, the risk of recession, higher gasoline prices, volatile real estate values and market conditions, resets of adjustable rate mortgages to higher interest rates, increases in inflation, tariffs on products or component parts of the collateral we finance, general availability of consumer credit, or other factors that impact consumer confidence or disposable income, could increase loss frequency and decrease consumer demand for RVs, boats, trailers, and other consumer products (including in connection with home improvement projects), as well as weaken collateral values on certain types of consumer products. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> There is also significant competition for the contractor and FSP relationships we depend on in connection with our home improvement lending segment. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> The Bank is a wholly-owned subsidiary that originates consumer loans for the purchase of recreational vehicles, boats, collector cars, and home improvements, and provides loan origination and other services to fintech partners. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[6]</span> In analyzing the adequacy of the allowance for credit losses for recreation and home improvement loans, we segment our consumer loan portfolio by risk pool to reach what we believe to be an appropriate level of homogeneity and use a probability of default, or PD/loss given default, or LGD, model to calculate the allowance. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[7]</span> In the fourth quarter of 2025, we updated our prepayment speed assumptions and calculation method, transitioning from a pooled analysis to a loan-level approach, which increased modeled prepayment speeds and had the effect of decreasing the allowance for credit losses for both recreation and home improvement loans. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[8]</span> We also further segmented the recreation loan portfolio by credit risk and further segmented the home improvement portfolio by product type. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[9]</span> These adjustments had the effect of increasing the allowance for credit losses for both recreation and home improvement loans. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[10]</span> We charge-off loans in the period that such loans are deemed uncollectible or when they reach 120 days delinquent regardless of whether the loan is a recreation, home improvement, or taxi medallion loan. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[11]</span> As of December 31, 2025 and 2024, we had goodwill of $150.8 million, all of which related to the recreation and home improvement lending segments. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[12]</span> The third-party expert s assessment determined that it was more likely than not that the fair value of both the recreation lending and home improvement lending segments individually were not less than the carrying value of each of these segments. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[13]</span> Based upon inputs and analysis deemed appropriate by the third-party expert, the third-party expert concluded that a fair value premium existed in excess of carrying value with respect to the recreation and home improvement lending segments. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[14]</span> For both segments, a discount rate was estimated using the risk-free interest rate adjusted for specific risk and size premiums, resulting in a discount rate of 16.2% for each of the recreation and home improvement lending segments. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[15]</span> To the extent that we are unable to grow either the recreation lending or home improvement lending segment at the levels forecasted, if we were unable to issue new consumer loans at rates and terms consistent with current practices, and if our cost of borrowings were to increase significantly from current levels without the ability to pass along those rate increases to new borrowers, the fair value of these segments could deteriorate to a level which would require an impairment of goodwill. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[16]</span> We have used the higher interest rate environment as an opportunity to increase the rates on both newly issued recreation and home improvement loans, which has increased the yield on these portfolios over time, as well as increased the credit quality of our new issuances, particularly in our recreation lending segment, with the average FICO scores, measured at origination, of our total recreation loans outstanding being 686 and 685 as of December 31, 2025 and 2024. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[17]</span> For the year ended December 31, 2025, there was continued growth in the recreation lending segment, as well as a small increase in the commercial lending segment, but a small decline in the home improvement lending segment, as compared to the prior year, as we intentionally managed origination volumes to align portfolio growth with capital. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[18]</span> Loan Maturity (Dollars in thousands) Within 1 year After 1 to 5 years After 5 to 15 years After 15 years Total Fixed-rate $ 29,937 $ 226,694 $ 1,988,071 $ 269,814 $ 2,514,516 Recreation 3,971 105,235 1,388,345 64,241 1,561,792 Home improvement 3,752 26,245 577,615 205,573 813,185 Commercial 6,731 94,374 22,111 123,216 Strategic partnerships 15,144 15,144 Taxi medallion 339 840 1,179 Adjustable-rate $ 309 $ $ $ $ 309 Recreation 309 309 Commercial Taxi medallion Total loans (1) $ 30,246 $ 226,694 $ 1,988,071 $ 269,814 $ 2,514,825 (1) Excludes deferred costs. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li>
+<li><span class="mono">[19]</span> December 31, 2024 (Dollars in thousands) Amount Percentage of Allowance (1) Allowance as a Percent of Loan Category (2) Recreation $ 71,102 73 % 5.00 % Home improvement 20,536 21 2.48 Commercial 5,190 5 4.66 Taxi medallion 540 1 28.29 Total (2) $ 97,368 100 % (1) Does not include loans held for sale which are carried at the lower of amortized cost or fair value for which an allowance for credit loss is not established. <span class="muted">(10-K, filed 2026-03-10, <a href="https://www.sec.gov/Archives/edgar/data/1000209/000119312526100121/mfin-20251231.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>ZVIA: Avoid a third-party bottler with no water-scarcity exposure, no catalysts, and a net insider sale</h2>
+<h3>Bear case first</h3>
+<p>The short case is that ZVIA sits at the brewing, bottling, and canning node with no water-scarcity linkage in its filings [0][1], no catalysts, and a $528.8K net insider sale (Form 4). What protects the company is the balance sheet: $25.4M cash funds roughly 21.6 quarters of operation (Reality check), and $161.3M revenue (SEC XBRL) gives the short a large base to overcome. Third-party production [0][1] leaves ZVIA without owned water rights, but also without fixed-asset impairment risk. The filings name no customers, so the short cannot point to concentration risk; the evidence gap cuts both ways.</p>
+<h3>Business today</h3>
+<p>The filing evidence describes ZVIA only as a company whose products are manufactured and maintained at third-party beverage production and warehousing facilities in the U.S. and Canada [0][1]. Revenue is $161.3M and cash is $25.4M (SEC XBRL). The specific products and end buyers are not identified in the excerpts.</p>
+<h3>Chain position</h3>
+<p>ZVIA occupies the brewing, bottling, and beverage canning node, order 2, at risk, mid horizon. Beverage production requires process and ingredient water with limited substitution, so municipal supply tightening raises input costs before prices can adjust. As a third-party producer [0][1], ZVIA does not own springs or long-term water rights, which places it in the margin-compression bucket of the water-scarcity theme.</p>
+<h3>Customer graph</h3>
+<p>The customer graph shows no named enterprise customers and $0 in federal awards (USASpending). No agency pays ZVIA, and the filing excerpts do not identify any buyer [0][1]. Two other SEC filers name the company, but their relationship is unproven from this evidence. Customer evidence is thin, and the paying buyer is effectively unproven.</p>
+<h3>Insider and management signal</h3>
+<p>Trailing 12-month Form 4 data show one open-market sale of $528.8K and zero buys (Form 4). Management language is procedural, describing third-party production locations [0][1], with no mention of water strategy, committed capital, or quantified targets. The absence of insider buying and the absence of thematic commitment read as low conviction.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is unknown: no analyst count, no consensus, and no mean target are available from the aggregators (Street view). Thin coverage means no sell-side anchor for the stock. For a $163M market cap name, the lack of a rating floor is part of the avoid setup.</p>
+<h3>Non-linear case</h3>
+<p>The downside path compounds if municipal water rationing arrives faster than ZVIA can pass through costs. As a third-party producer [0][1], ZVIA would face higher process and ingredient water costs while competitors with owned water rights gain a pricing advantage. Margins compress on the $161.3M revenue base (SEC XBRL), forcing a re-rating from going concern to capacity-constrained bottler. That outcome requires water costs to rise enough to break the third-party manufacturing model.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Third-party beverage production and warehousing facilities in the U.S. and Canada [0].</li>
+<li>Third-party beverage production and warehousing facilities in the U.S. and Canada [1].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>Average daily dollar volume is $1.4M, which means roughly 176 trading days to build a position (Reality check). Net cash of $25.4M funds about 21.6 quarters (Reality check), so survivability is not the bear edge. Dilution risk is not visible in the provided facts, but the cash position makes an equity raise less urgent.</p>
+<h3>What would change our mind</h3>
+<p>A Form 4 showing open-market insider buying would contradict the current selling signal. A 10-Q or 8-K naming a water-scarcity program, owned water rights, or a premium water product would add optionality to a theme absent from the filing language. A federal award to ZVIA (USASpending) would add the first government buyer and break the unproven customer label.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> The Company s products are manufactured and maintained at third -party beverage production and warehousing facilities located in both the U.S. and Canada. <span class="muted">(10-Q, filed 2026-05-06, <a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926015202/zvia20260331_10q.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Our products are manufactured and maintained at third-party beverage production and warehousing facilities located in both the U.S. and Canada. <span class="muted">(10-Q, filed 2026-05-06, <a href="https://www.sec.gov/Archives/edgar/data/1854139/000143774926015202/zvia20260331_10q.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>ARTESIAN RESOURCES CORP: Rainwater harvesting is a demand threat, not a filed growth segment</h2>
+<h3>Bear case first</h3>
+<p>A disconfirming reading is direct: drought restrictions reduce water sales [6]. Management describes drought only as a risk [4][5]. No filing shows installation revenue, named programs, or capital commitments for rainwater harvesting in [0]-[6]. Insider selling and $0 federal awards add no validation (Form 4, USASpending).</p>
+<h3>Business today</h3>
+<p>Artesian is a regulated water utility serving customers in Pennsylvania and Delaware, with PADEP and DRBC oversight [2][3]. It received $10.0M in Superfund trust reimbursements [0] and has a three-year tank painting agreement [1]. Revenue was $112.941M and cash was $52K (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>Artesian sits at the capped-utility node, not the installer node. Restrictions reduce demand for its water [6], while installers capture substitution. No filing places Artesian in gutter, cistern, pump, or filtration installation.</p>
+<h3>Customer graph</h3>
+<p>Customer evidence is thin. No enterprise customer is named in the excerpts, federal awards are $0 (USASpending), and 4 other filers name the company (SEC XBRL). Ratepayers are inferred from [2][3], not from a customer list.</p>
+<h3>Insider and management signal</h3>
+<p>Form 4 shows net open-market selling of -$396.7K, with 0 buys and 8 sales (Form 4). Management language treats drought as a risk [4][6]. No insider buying supports a harvesting opportunity.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is unknown: no named analysts, consensus n/a, and mean target n/a. Thin coverage means no visible Street debate.</p>
+<h3>Non-linear case</h3>
+<p>For a non-linear outcome, Artesian would need to become a rainwater harvesting installer or infrastructure owner. That requires named contracts, capacity additions, permits, and revenue from tanks, pumps, or filtration. None appears in [0]-[6]. Without it, the chain leaves Artesian with lower unit sales and fixed costs.</p>
+<h3>Evidence</h3>
+<ul>
+<li>Superfund trust reimbursement: approximately $10.0M for past capital and operating costs [0].</li>
+<li>Three-year agreement with Worldwide Industries to paint elevated water storage tanks, effective September 1, 2025 [1].</li>
+<li>PADEP oversees water quantity and quality planning and conservation in Pennsylvania [2].</li>
+<li>DRBC oversees water supply allocation, conservation, drought management, and permitting in Pennsylvania [3].</li>
+<li>Drought and government restrictions may affect ability to serve customers and customer use [4].</li>
+<li>Severe drought could interfere with water supply sources and ability to supply sufficient water [5].</li>
+<li>Government restrictions during drought may reduce demand, revenue, and earnings [6].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>A small fund would need about 221 trading days to build a position at $1.11M average daily dollar volume (reality check). Cash is $52K (SEC XBRL) and net cash is -$176.356M (reality check), so the balance sheet is the constraint. Share count rose 1.2 percent in 12 months (reality check), and the dossier facts cite no shelf, so dilution risk is modest.</p>
+<h3>What would change our mind</h3>
+<p>1. A 10-K or 10-Q discloses a rainwater harvesting installation segment, named installation contracts, or capitalized cistern or tank assets.</p>
+<p>2. A Form 4 shows open-market insider purchases instead of the trailing eight sales.</p>
+<p>3. A USASpending federal award to Artesian for conservation, stormwater, or rainwater infrastructure.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> As set forth in a settlement agreement, Artesian Water received reimbursements from the Delaware Sand and Gravel Remedial Trust, or Trust, for Artesian Water s past capital and operating costs, totaling approximately $ 10.0 million, related to the treatment costs associated with the release of contaminants from the Delaware Sand &amp; Gravel Landfill Superfund Site, or Site, in groundwater that Artesian Water uses for public potable water supply. <span class="muted">(10-Q, filed 2026-05-08, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000055/form10q.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> In August 2025, Artesian Water entered into a new, three-year agreement with Worldwide Industries Corporation, effective September 1, 2025, to paint elevated water storage tanks. <span class="muted">(10-Q, filed 2026-05-08, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000055/form10q.htm">SEC document</a>)</span></li>
+<li><span class="mono">[2]</span> The PADEP administers and oversees departmental programs involving surface and groundwater quantity and quality planning and water conservation in Pennsylvania. <span class="muted">(10-K, filed 2026-03-16, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm">SEC document</a>)</span></li>
+<li><span class="mono">[3]</span> The DRBC administers and oversees programs involving water quality protection, water supply allocation, water conservation initiatives and watershed planning, regulatory review and permitting, and drought management in Pennsylvania. <span class="muted">(10-K, filed 2026-03-16, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm">SEC document</a>)</span></li>
+<li><span class="mono">[4]</span> Drought conditions and government-imposed water use restrictions may impact our ability to serve our current and future customers, and may impact our customers use of our water, which may adversely affect our financial condition and results of operations. <span class="muted">(10-K, filed 2026-03-16, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm">SEC document</a>)</span></li>
+<li><span class="mono">[5]</span> However, severe drought conditions could interfere with our sources of water supply and could adversely affect our ability to supply water in sufficient quantities to our existing and future customers. <span class="muted">(10-K, filed 2026-03-16, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm">SEC document</a>)</span></li>
+<li><span class="mono">[6]</span> Moreover, governmental restrictions on water usage during drought conditions may result in a decreased demand for water, which may adversely affect our revenue and earnings. <span class="muted">(10-K, filed 2026-03-16, <a href="https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+<hr />
+<section class="thesis">
+        <h2>ONDS: Water rationing makes water-utility operational technology security a budget line</h2>
+<h3>Bear case first</h3>
+<p>At the stated $3.7B market cap, the current price embeds a large future for a company with $50.7M revenue (SEC XBRL). The filings describe critical infrastructure protection generally, but never name water utilities, networked meters, or remote-control valves. Customer evidence is thin: no named customers, no federal awards (USASpending), and no other filers name Ondas. Form 4 insiders sold $44.2M net over the trailing 12 months (Form 4). The order-2 water thesis requires a segment shift the evidence does not yet show.</p>
+<h3>Business today</h3>
+<p>Ondas Autonomous Systems delivers AI-enabled air and ground robotic platforms and counter-UAS technologies for defense, homeland security, and critical infrastructure protection missions [0]. Deployed capabilities include Counter-UAS, force protection, border security, and critical infrastructure protection [1]. Revenue was $50.7M and cash was $550.7M at 2025-12-31 (SEC XBRL).</p>
+<h3>Chain position</h3>
+<p>This thesis places Ondas as an order-2 beneficiary of water rationing. New networked meters and remote-control valves expand the attack surface, utilities buy industrial control system security, and water utilities become essential targets. The economic logic depends on Ondas converting its existing critical infrastructure protection position into water-specific ICS security, which the filings do not mention.</p>
+<h3>Customer graph</h3>
+<p>Customer evidence is thin. No named enterprise or government buyer appears in the excerpts, no federal award dollars are present (USASpending), and no other SEC filers name Ondas. The actual buyer set is unproven from the evidence. Product language targets defense and critical infrastructure buyers, but every named buyer is absent.</p>
+<h3>Insider and management signal</h3>
+<p>Form 4 shows 0 open-market buys and 24 sales by 0 insider(s), net $-44.2M over the trailing 12 months (Form 4). Management language is general: the company points to operational credibility and system-level integration, without quantified water-security targets [1]. The selling signal and the general language do not support conviction.</p>
+<h3>Street view</h3>
+<p>Sell-side coverage is absent in the available aggregators: unknown analyst count, consensus n/a, and mean target n/a (Street view). Thin coverage means there is no consensus to beat, but also no institutional sponsorship. This is a setup only if the thesis evidence improves.</p>
+<h3>Non-linear case</h3>
+<p>If water becomes premium-priced and family purchase limits are enforced, utilities face public consequences from meter or treatment outages. Security budgets could rise with regulatory scrutiny, and Ondas's critical infrastructure protection platforms could become the entry point for recurring monitoring and service contracts. A single named water utility or a federal water-ICS security award would be the first proof point. Until that appears, the non-linear case is an open question.</p>
+<h3>Evidence</h3>
+<ul>
+<li>OAS delivers AI-enabled air and ground robotic platforms and counter-UAS technologies for defense, homeland security, and critical infrastructure protection [0].</li>
+<li>Deployed capabilities across Counter-UAS, force protection, border security, and critical infrastructure protection provide operational credibility and a foundation for broader system-level integration [1].</li>
+</ul>
+<h3>Sizing and survivability</h3>
+<p>A small fund can build a position in about one trading day at $774.9M average daily dollar volume (reality check). Net cash of $550.4M supports about 56.9 quarters of runway (reality check). The main survivability risk is dilution: share count rose 160.3% in 12 months and a shelf registration is on file (reality check).</p>
+<h3>What would change our mind</h3>
+<p>A 10-K or 8-K naming a water utility as a customer would change the customer evidence. A Form 4 open-market insider purchase would change the insider signal. A federal award for water-utility ICS security on USASpending would put the adoption chain in motion.</p>
+        <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Ondas Autonomous Systems (OAS) delivers a portfolio of AI-enabled air and ground robotic platforms and counter-UAS technologies designed to support defense, homeland security, and critical infrastructure protection missions worldwide. <span class="muted">(8-K, filed 2026-04-24, <a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026047289/ea028697901ex99-1.htm">SEC document</a>)</span></li>
+<li><span class="mono">[1]</span> Our deployed capabilities across Counter-UAS, force protection, border security, and critical infrastructure protection provide operational credibility today, while serving as a foundation for broader system-level integration. <span class="muted">(10-K, filed 2026-03-30, <a href="https://www.sec.gov/Archives/edgar/data/1646188/000121390026035981/ea0282911-10k_ondas.htm">SEC document</a>)</span></li></ul></details>
+      </section>
+</body>
+</html>

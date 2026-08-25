@@ -26,7 +26,10 @@
 </head>
 <body>
 <h1>IC memo: US grid capex supercycle driven by data center load, 2026-2030</h1>
-<p class="meta">Run grid-capex, generated 2026-08-25. Market cap band $150MM to $5B. Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+<p class="meta">Run grid-capex, generated 2026-08-25. Market cap band $150M to $5B. Corpus: 5,434 US filers. Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+
+<h2>Trigger</h2>
+<p class="meta">Actor: US regulated utilities and transmission owners, with data center developers as anchor customers. Action: commit to a multi-year acceleration of grid transmission, distribution, and substation capital expenditures. Magnitude: annual US grid capex rises by roughly $40 billion to $60 billion above the 2025 baseline by 2030, supporting an incremental 30 to 50 GW of data center load. Geography: United States, concentrated in PJM, ERCOT, Southeast, and Southwest markets. Timing: 2026 to 2030, with orders and rate cases starting in 2025 and construction peaking in 2028 to 2030. Certainty: assumed; several utility plans are announced but depend on signed data center load contracts and regulatory approval. Reversibility: utilities can defer or cancel project tranches if data center load fails to materialize or regulators disallow cost recovery.</p>
 
 <h2>Consequence map</h2>
 <table>
@@ -34,7 +37,7 @@
 <tr>
             <td>1</td>
             <td class="ben">beneficiary</td>
-            <td><strong>Regulated transmission and distribution utility rate base</strong><br /><span class="muted">Utilities place new transmission, substation, and distribution assets into rate base, earning an allowed return on the incremental capital.</span></td>
+            <td><strong>Regulated transmission and distribution utility rate base</strong><br /><span class="muted">Utilities place new transmission, substation, and distribution assets into rate base, earning an allowed return on the incremental capital.</span><br /><span class="mono muted">KPI: capex</span><br /><span class="muted">Breaks if: State commissions cap or disallow the data center-related capex in rate cases, preventing the assets from entering rate base.</span></td>
             <td class="muted">scenario</td>
             <td>near</td>
             <td>5 names, 246 filings</td>
@@ -42,7 +45,7 @@
 <tr>
             <td>1</td>
             <td class="ben">beneficiary</td>
-            <td><strong>High-voltage transformer, switchgear, and circuit breaker suppliers</strong><br /><span class="muted">Utility procurement orders for power transformers, breakers, and switchgear push supplier backlogs to multi-year levels, allowing pricing to firm.</span></td>
+            <td><strong>High-voltage transformer, switchgear, and circuit breaker suppliers</strong><br /><span class="muted">Utility procurement orders for power transformers, breakers, and switchgear push supplier backlogs to multi-year levels, allowing pricing to firm.</span><br /><span class="mono muted">KPI: backlog</span><br /><span class="muted">Breaks if: Utilities cancel or reschedule orders because data center load does not sign or regulators deny the underlying projects.</span></td>
             <td class="muted">scenario</td>
             <td>near</td>
             <td>4 names, 323 filings</td>
@@ -50,7 +53,7 @@
 <tr>
             <td>1</td>
             <td class="ben">beneficiary</td>
-            <td><strong>Transmission and substation engineering and construction contractors</strong><br /><span class="muted">Utilities award engineering, procurement, and construction contracts for new transmission lines, substations, and grid interconnections, expanding contractor backlog.</span></td>
+            <td><strong>Transmission and substation engineering and construction contractors</strong><br /><span class="muted">Utilities award engineering, procurement, and construction contracts for new transmission lines, substations, and grid interconnections, expanding contractor backlog.</span><br /><span class="mono muted">KPI: backlog</span><br /><span class="muted">Breaks if: Utilities self-perform more work or split projects into smaller packages that reduce individual contractor backlog.</span></td>
             <td class="muted">scenario</td>
             <td>near</td>
             <td>6 names, 241 filings</td>
@@ -58,7 +61,7 @@
 <tr>
             <td>1</td>
             <td class="risk">at risk</td>
-            <td><strong>Non-data-center commercial and industrial electricity customers</strong><br /><span class="muted">Incremental grid capex is allocated through transmission and distribution rates, raising the per-MWh delivered cost for existing customers who do not add data center load.</span></td>
+            <td><strong>Non-data-center commercial and industrial electricity customers</strong><br /><span class="muted">Incremental grid capex is allocated through transmission and distribution rates, raising the per-MWh delivered cost for existing customers who do not add data center load.</span><br /><span class="mono muted">KPI: price</span><br /><span class="muted">Breaks if: Regulators assign data center-specific tariffs or direct assignment of costs to the new load, insulating existing customers from the increase.</span></td>
             <td class="muted">scenario</td>
             <td>mid</td>
             <td>0 names, 400 filings</td>
@@ -66,7 +69,7 @@
 <tr>
             <td>1</td>
             <td class="risk">at risk</td>
-            <td><strong>Data center developers awaiting grid interconnection</strong><br /><span class="muted">A surge of data center interconnection requests exceeds regional grid study and upgrade capacity, delaying energization timelines and increasing deposit and network upgrade costs.</span></td>
+            <td><strong>Data center developers awaiting grid interconnection</strong><br /><span class="muted">A surge of data center interconnection requests exceeds regional grid study and upgrade capacity, delaying energization timelines and increasing deposit and network upgrade costs.</span><br /><span class="mono muted">KPI: approval probability</span><br /><span class="muted">Breaks if: FERC or grid operators adopt cluster study reforms or fast-track data center requests, clearing queue bottlenecks.</span></td>
             <td class="muted">scenario</td>
             <td>near</td>
             <td>4 names, 391 filings</td>
@@ -74,7 +77,7 @@
 <tr>
             <td>2</td>
             <td class="risk">at risk</td>
-            <td><strong>Utility rate case and prudence review exposure</strong><br /><span class="muted">Regulators respond to the capex increase by tightening prudence reviews and cost recovery conditions, which can reduce allowed returns or defer recovery of project costs.</span></td>
+            <td><strong>Utility rate case and prudence review exposure</strong><br /><span class="muted">Regulators respond to the capex increase by tightening prudence reviews and cost recovery conditions, which can reduce allowed returns or defer recovery of project costs.</span><br /><span class="mono muted">KPI: approval probability</span><br /><span class="muted">Breaks if: Commissions accept the data center load forecasts and pre-approve the projects, leaving little room for later disallowance.</span></td>
             <td class="muted">Regulated transmission and distribution utility rate base</td>
             <td>mid</td>
             <td>2 names, 400 filings</td>
@@ -82,7 +85,7 @@
 <tr>
             <td>2</td>
             <td class="ben">beneficiary</td>
-            <td><strong>High-voltage equipment manufacturing capacity and pricing</strong><br /><span class="muted">Equipment suppliers respond to multi-year backlog by adding factory capacity and raising prices on new orders, increasing revenue and gross margin per unit.</span></td>
+            <td><strong>High-voltage equipment manufacturing capacity and pricing</strong><br /><span class="muted">Equipment suppliers respond to multi-year backlog by adding factory capacity and raising prices on new orders, increasing revenue and gross margin per unit.</span><br /><span class="mono muted">KPI: capacity utilization</span><br /><span class="muted">Breaks if: A wave of imports or new competitor capacity arrives before utilities place firm orders, causing suppliers to compete on price instead.</span></td>
             <td class="muted">High-voltage transformer, switchgear, and circuit breaker suppliers</td>
             <td>mid</td>
             <td>4 names, 400 filings</td>
@@ -90,7 +93,7 @@
 <tr>
             <td>2</td>
             <td class="ben">beneficiary</td>
-            <td><strong>Behind-the-meter solar, storage, and energy efficiency providers</strong><br /><span class="muted">Rising utility rates push commercial and industrial customers to contract for on-site solar, battery storage, and demand response, adding new customer-funded projects.</span></td>
+            <td><strong>Behind-the-meter solar, storage, and energy efficiency providers</strong><br /><span class="muted">Rising utility rates push commercial and industrial customers to contract for on-site solar, battery storage, and demand response, adding new customer-funded projects.</span><br /><span class="mono muted">KPI: customer count</span><br /><span class="muted">Breaks if: Utility rates do not rise enough to make behind-the-meter economics compelling, or customers remain locked into long-term utility supply contracts.</span></td>
             <td class="muted">Non-data-center commercial and industrial electricity customers</td>
             <td>mid</td>
             <td>5 names, 400 filings</td>
@@ -98,7 +101,7 @@
 <tr>
             <td>2</td>
             <td class="ben">beneficiary</td>
-            <td><strong>On-site and dedicated gas generation for data centers</strong><br /><span class="muted">Data center operators facing multi-year grid interconnection delays contract for on-site gas turbines, reciprocating engines, and fuel cells, creating a direct equipment and service revenue stream.</span></td>
+            <td><strong>On-site and dedicated gas generation for data centers</strong><br /><span class="muted">Data center operators facing multi-year grid interconnection delays contract for on-site gas turbines, reciprocating engines, and fuel cells, creating a direct equipment and service revenue stream.</span><br /><span class="mono muted">KPI: unit volume</span><br /><span class="muted">Breaks if: Grid operators and utilities accelerate interconnection or data center developers accept longer timelines rather than pay for on-site generation.</span></td>
             <td class="muted">Data center developers awaiting grid interconnection</td>
             <td>mid</td>
             <td>5 names, 379 filings</td>
@@ -106,7 +109,7 @@
 <tr>
             <td>3</td>
             <td class="risk">at risk</td>
-            <td><strong>High-voltage equipment suppliers face late-cycle overcapacity</strong><br /><span class="muted">Supplier capacity additions and import responses eventually outpace remaining utility demand, causing lead times to shorten and prices to fall from peak.</span></td>
+            <td><strong>High-voltage equipment suppliers face late-cycle overcapacity</strong><br /><span class="muted">Supplier capacity additions and import responses eventually outpace remaining utility demand, causing lead times to shorten and prices to fall from peak.</span><br /><span class="mono muted">KPI: price</span><br /><span class="muted">Breaks if: Demand remains strong beyond 2030 because data center load is understated or additional grid replacement demand absorbs the new capacity.</span></td>
             <td class="muted">High-voltage equipment manufacturing capacity and pricing</td>
             <td>long</td>
             <td>4 names, 400 filings</td>
@@ -114,7 +117,7 @@
 <tr>
             <td>3</td>
             <td class="risk">at risk</td>
-            <td><strong>Regulated utility revenue erosion from customer self-supply</strong><br /><span class="muted">As C&amp;I customers self-supply a growing share of power, utility billed volume growth weakens and the fixed cost of the expanded grid is spread over fewer remaining kWh, raising rates further for remaining customers.</span></td>
+            <td><strong>Regulated utility revenue erosion from customer self-supply</strong><br /><span class="muted">As C&amp;I customers self-supply a growing share of power, utility billed volume growth weakens and the fixed cost of the expanded grid is spread over fewer remaining kWh, raising rates further for remaining customers.</span><br /><span class="mono muted">KPI: unit volume</span><br /><span class="muted">Breaks if: Data center load growth offsets defection and utilities retain C&amp;I customers through special tariffs or load retention programs.</span></td>
             <td class="muted">Behind-the-meter solar, storage, and energy efficiency providers</td>
             <td>long</td>
             <td>0 names, 225 filings</td>
@@ -122,11 +125,21 @@
 <tr>
             <td>3</td>
             <td class="ben">beneficiary</td>
-            <td><strong>Gas turbine and engine service and aftermarket providers</strong><br /><span class="muted">The installed base of on-site data center gas generation creates long-term service, parts, and overhaul revenue tied to operating hours and maintenance schedules.</span></td>
+            <td><strong>Gas turbine and engine service and aftermarket providers</strong><br /><span class="muted">The installed base of on-site data center gas generation creates long-term service, parts, and overhaul revenue tied to operating hours and maintenance schedules.</span><br /><span class="mono muted">KPI: unit volume</span><br /><span class="muted">Breaks if: Data centers switch to grid power as soon as interconnection arrives, leaving on-site units as rarely used backup with minimal aftermarket.</span></td>
             <td class="muted">On-site and dedicated gas generation for data centers</td>
             <td>long</td>
             <td>6 names, 300 filings</td>
           </tr>
+</table>
+
+<h2>Who reacts</h2>
+<table>
+<tr><th>Actor</th><th>Incentive</th><th>Likely response</th><th>Timing</th></tr>
+<tr><td>Regulated electric utilities</td><td class="muted">maximize allowed return on rate base</td><td>file advanced rate cases and front-load transmission and substation projects, ordering long-lead equipment</td><td>near</td></tr>
+<tr><td>Data center operators and hyperscalers</td><td class="muted">secure large power blocks quickly and avoid cost and schedule risk</td><td>sign long-term take-or-pay contracts, pay for dedicated substations, and evaluate on-site generation where queues stall</td><td>near</td></tr>
+<tr><td>Public utility commissions and FERC</td><td class="muted">ensure reliability while protecting ratepayers from overpaying for speculative load</td><td>require demand-based cost allocation, prudence reviews, and cost caps or clawbacks</td><td>mid</td></tr>
+<tr><td>Grid equipment suppliers</td><td class="muted">capture multi-year demand and maximize margins</td><td>expand manufacturing capacity, raise prices, lengthen lead times, and prefer standardized large orders</td><td>mid</td></tr>
+<tr><td>Existing commercial and industrial electricity customers</td><td class="muted">avoid higher rates and supply constraints</td><td>intervene against rate increases and invest in behind-the-meter generation, storage, and efficiency</td><td>mid</td></tr>
 </table>
 
 <h2>Macro context</h2>
@@ -147,51 +160,51 @@
         <td class="mono">DUOT</td>
         <td>DUOS TECHNOLOGIES GROUP, INC.</td>
         <td>On-site and dedicated gas generation for data centers</td>
-        <td>$323MM</td>
+        <td>$323M</td>
         <td>direct</td>
         <td>$0</td>
-        <td>89</td>
-        <td class="muted">thin liquidity: about 24 trading days to build $36.75MM at 15 percent of volume; cash runway about 0.6 quarters at the current operating burn; share count up 62.1 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 11.4 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+        <td title="composite 89">Strong</td>
+        <td class="muted">thin liquidity: about 24 trading days to build $36.8M at 15 percent of volume; cash runway about 0.6 quarters at the current operating burn; share count up 62.1 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 11.4 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 <tr>
         <td class="mono">SMXT</td>
         <td>SolarMax Technology, Inc.</td>
         <td>Transmission and substation engineering and construction contractors</td>
-        <td>$197MM</td>
+        <td>$197M</td>
         <td>direct</td>
         <td>$0</td>
-        <td>85</td>
-        <td class="muted">thin liquidity: about 544 trading days to build $36.75MM at 15 percent of volume; share count up 24.2 percent in 12 months; position would be 18.7 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+        <td title="composite 85">Strong</td>
+        <td class="muted">thin liquidity: about 544 trading days to build $36.8M at 15 percent of volume; share count up 24.2 percent in 12 months; position would be 18.7 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 <tr>
         <td class="mono">SLNH</td>
         <td>Soluna Holdings, Inc</td>
         <td>Behind-the-meter solar, storage, and energy efficiency providers</td>
-        <td>$280MM</td>
+        <td>$280M</td>
         <td>direct</td>
-        <td>-$649M</td>
-        <td>57</td>
+        <td>-$649K</td>
+        <td title="composite 57">Strong</td>
         <td class="muted">cash runway about 0.2 quarters at the current operating burn; share count up 711.4 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 13.1 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 <tr>
         <td class="mono">NNBR</td>
         <td>NN INC</td>
         <td>High-voltage transformer, switchgear, and circuit breaker suppliers</td>
-        <td>$301MM</td>
+        <td>$301M</td>
         <td>adjacent</td>
-        <td>-$45M</td>
-        <td>54</td>
+        <td>-$45.3K</td>
+        <td title="composite 54">Strong</td>
         <td class="muted">share count up 64.2 percent in 12 months; shelf registration on file (S-3 or 424B5, trailing 12 months); position would be 12.2 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 <tr>
         <td class="mono">ESP</td>
         <td>ESPEY MFG &amp; ELECTRONICS CORP</td>
         <td>High-voltage transformer, switchgear, and circuit breaker suppliers</td>
-        <td>$189MM</td>
+        <td>$189M</td>
         <td>direct</td>
-        <td>-$1.7MM</td>
-        <td>24</td>
-        <td class="muted">thin liquidity: about 84 trading days to build $36.75MM at 15 percent of volume; position would be 19.4 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+        <td>-$1.72M</td>
+        <td title="composite 24">Weak</td>
+        <td class="muted">thin liquidity: about 84 trading days to build $36.8M at 15 percent of volume; position would be 19.4 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 <tr>
         <td class="mono">NEXT</td>
@@ -199,8 +212,8 @@
         <td>Transmission and substation engineering and construction contractors</td>
         <td>$1.96B</td>
         <td>peripheral</td>
-        <td>$7.0MM</td>
-        <td>11</td>
+        <td>$6.95M</td>
+        <td title="composite 11">Insufficient evidence</td>
         <td class="muted">cash runway about 3.4 quarters at the current operating burn</td>
       </tr>
 <tr>
@@ -210,7 +223,7 @@
         <td>$1.01B</td>
         <td>peripheral</td>
         <td>$0</td>
-        <td>10</td>
+        <td title="composite 10">Insufficient evidence</td>
         <td class="muted">clean</td>
       </tr>
 <tr>
@@ -219,8 +232,8 @@
         <td>Data center developers awaiting grid interconnection</td>
         <td>$1.1B</td>
         <td>peripheral</td>
-        <td>-$30.0MM</td>
-        <td>10</td>
+        <td>-$30M</td>
+        <td title="composite 10">Insufficient evidence</td>
         <td class="muted">clean</td>
       </tr>
 <tr>
@@ -229,9 +242,9 @@
         <td>High-voltage equipment manufacturing capacity and pricing</td>
         <td>$1.43B</td>
         <td>peripheral</td>
-        <td>$202M</td>
-        <td>10</td>
-        <td class="muted">thin liquidity: about 56 trading days to build $36.75MM at 15 percent of volume; shelf registration on file (S-3 or 424B5, trailing 12 months)</td>
+        <td>$202K</td>
+        <td title="composite 10">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 56 trading days to build $36.8M at 15 percent of volume; shelf registration on file (S-3 or 424B5, trailing 12 months)</td>
       </tr>
 <tr>
         <td class="mono">GSHD</td>
@@ -239,19 +252,19 @@
         <td>Utility rate case and prudence review exposure</td>
         <td>$1.54B</td>
         <td>peripheral</td>
-        <td>-$3.5MM</td>
-        <td>6</td>
+        <td>-$3.54M</td>
+        <td title="composite 6">Insufficient evidence</td>
         <td class="muted">clean</td>
       </tr>
 <tr>
         <td class="mono">TASK</td>
         <td>TaskUs, Inc.</td>
         <td>High-voltage equipment suppliers face late-cycle overcapacity</td>
-        <td>$290MM</td>
+        <td>$290M</td>
         <td>peripheral</td>
-        <td>-$650M</td>
-        <td>5</td>
-        <td class="muted">thin liquidity: about 57 trading days to build $36.75MM at 15 percent of volume; position would be 12.7 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
+        <td>-$650K</td>
+        <td title="composite 5">Insufficient evidence</td>
+        <td class="muted">thin liquidity: about 57 trading days to build $36.8M at 15 percent of volume; position would be 12.7 percent of the company (25 bps of $14.7B AUM); not investable at this fund scale without a smaller position or a bigger company</td>
       </tr>
 </table>
 
@@ -259,59 +272,81 @@
 <h3 class="mono">DUOT</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-08-18: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326001142/duot_8k.htm">filing</a>)</li><li>2026-08-11: material agreement, acquisition or disposition completed, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326001029/duot_8k.htm">filing</a>)</li><li>2026-07-20: material agreement (<a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326000961/duot_8k.htm">filing</a>)</li><li>2026-06-17: material agreement, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326000851/duot_8k.htm">filing</a>)</li><li>2026-06-09: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326000799/duot_8k.htm">filing</a>)</li></ul>
 <p><strong>Significant holders (13D/13G).</strong> Alyeska Investment Group, L.P. 9.99 percent; Bleichroeder LP 18.48 percent; BlackRock, Inc. 5.3 percent; Shay Capital LLC 5 percent.</p>
-<p><strong>Proxy (DEF 14A, filed 2026-04-15).</strong> CEO total comp $4.1MM The CEO resigned effective April 1, 2026, and there were multiple CFO changes during 2025. <a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326000488/duos_def14a.htm">Proxy</a>.</p>
+<p><strong>Proxy (DEF 14A, filed 2026-04-15).</strong> CEO total comp $4.1M The CEO resigned effective April 1, 2026, and there were multiple CFO changes during 2025. <a href="https://www.sec.gov/Archives/edgar/data/1396536/000107997326000488/duos_def14a.htm">Proxy</a>.</p>
 <p><strong>Earnings release language, two most recent.</strong> The release leads with revenue growth of nearly 30%, over $100 million in capital secured, and reaffirmation of 2026 guidance, while the modest operating income and reliance on Technology Solutions revenue and one-time gains are detailed later in the financial results. Compared to the prior release that said the company remains on target and highlighted a planned $200 million partnership, this release reports executed agreements, a completed divestiture, and raised capital, with more assertive language calling the company a leading provider. Recurring hedges: "expected to be recognized", "planned for deployment", "near-term anticipated awards". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Expectations proxies.</strong> 3-month price change -16.5 percent; sits at 48 of 100 in its 52-week range; price to trailing sales 12x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 11.4 percent of the company, about 24 trading days to build.</p>
 <h3 class="mono">SMXT</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-08-21: listing deficiency notice (<a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426001407/solarmax_8k.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426001407/solarmax_ex991.htm">exhibit</a>)</li><li>2026-06-30: listing deficiency notice (<a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426001139/solarmax_8k.htm">filing</a>)</li><li>2026-05-19: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426000928/solarmax_8k.htm">filing</a>)</li><li>2026-03-10: listing deficiency notice (<a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426000414/solarmax_8k.htm">filing</a>)</li></ul>
 <p><strong>Proxy (DEF 14A, filed 2025-10-14).</strong> The meeting agenda includes election of five directors, ratification of the auditor, and a discretionary other business item, with no shareholder proposal listed. <a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033425001818/solarmax_def14a.htm">Proxy</a>.</p>
 <p><strong>Earnings release language, two most recent.</strong> Management leads with revenue and gross profit growth, highlighting the EPC storage initiative, while net loss and operating expenses are listed later and receive less attention. The language shifted from touting exceptional annual growth and a large contract backlog to emphasizing quarterly operational momentum and efficiency, with less mention of specific contract values. Recurring hedges: "could cause the Company's actual results and financial condition to differ materially from those indicated in the forward-looking statements", "Such forward-looking statements are subject to risk and uncertainties", "our actual future results may be materially different from what we expect". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Expectations proxies.</strong> 3-month price change +554.7 percent; sits at 73 of 100 in its 52-week range; price to trailing sales 2.2x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 18.7 percent of the company, about 544 trading days to build.</p>
 <h3 class="mono">SLNH</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-24: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226034600/form8-k.htm">filing</a>)</li><li>2026-06-09: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226027852/form8-k.htm">filing</a>)</li><li>2026-05-20: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226024511/form8-k.htm">filing</a>)</li></ul>
 <p><strong>Form 144 notices.</strong> 3 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-08-19. A 144 precedes the executed sale that lands on Form 4.</p>
 <p><strong>Significant holders (13D/13G).</strong> BUGBEE ROBERT L 9.8 percent; BlackRock, Inc. 5.3 percent; Alpha Capital Anstalt 1.531 percent; Mitchell P. Kopin; Generate Strategic Credit Master Fund I-B, L.P. 9.99 percent.</p>
 <p><strong>Proxy (DEF 14A, filed 2026-08-24).</strong> The company seeks stockholder approval to increase authorized common shares from 375 million to 1 billion and to approve the potential issuance of 20% or more of outstanding shares under a standby equity purchase agreement. <a href="https://www.sec.gov/Archives/edgar/data/64463/000162828026058611/slnh-20260824.htm">Proxy</a>.</p>
 <p><strong>Earnings release language, two most recent.</strong> Management leads with revenue growth and strategic milestones such as pipeline expansion, vertical integration, and AI joint ventures, while net loss and adjusted EBITDA loss are disclosed later in the financial highlights. The Q2 release shifts from the Q1 emphasis on forward-looking momentum and entering a next phase to highlighting completed acquisitions, vertical integration, and a larger pipeline, while retaining the phrase 'operating leverage'. Recurring hedges: "partially offset by". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Expectations proxies.</strong> 3-month price change -33 percent; sits at 17 of 100 in its 52-week range; price to trailing sales 9.4x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 13.1 percent of the company, about 12 trading days to build.</p>
 <h3 class="mono">NNBR</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-31: material agreement (<a href="https://www.sec.gov/Archives/edgar/data/918541/000091854126000057/nnbr-20260729.htm">filing</a>)</li><li>2026-07-24: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/918541/000091854126000054/nnbr-20260723.htm">filing</a>)</li><li>2026-07-23: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/918541/000110465926086257/tm2621157d1_8k.htm">filing</a>)</li><li>2026-07-01: material agreement, item 3.02 (<a href="https://www.sec.gov/Archives/edgar/data/918541/000110465926079868/tm2615004d6_8k.htm">filing</a>)</li><li>2026-06-12: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/918541/000110465926073458/tm2617739d1_8k.htm">filing</a>)</li></ul>
 <p><strong>Form 144 notices.</strong> 4 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-08-24. A 144 precedes the executed sale that lands on Form 4.</p>
 <p><strong>Significant holders (13D/13G).</strong> Legion Partners, L.P. I 3.3 percent (13D, active intent); Morgan Stanley 6.7 percent; Orin Hirschman 9.7 percent; Corre Opportunities Qualified Master Fund, LP 3.7 percent (13D, active intent).</p>
+<p><strong>Expectations proxies.</strong> 3-month price change +49 percent; sits at 85 of 100 in its 52-week range; price to trailing sales 0.7x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 12.2 percent of the company, about 19 trading days to build.</p>
 <h3 class="mono">ESP</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2025-10-01: auditor change (<a href="https://www.sec.gov/Archives/edgar/data/33533/000117494725001258/form8k-34742_esp.htm">filing</a>)</li><li>2025-09-09: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/33533/000117494725001188/form8k-34672_esp.htm">filing</a>)</li></ul>
 <p><strong>Form 144 notices.</strong> 3 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-06-24. A 144 precedes the executed sale that lands on Form 4.</p>
-<p><strong>Proxy (DEF 14A, filed 2025-10-28).</strong> CEO total comp $655M The pay versus performance table reports compensation actually paid to the CEO of $926,742 for 2025, above the summary compensation table total of $655,147. <a href="https://www.sec.gov/Archives/edgar/data/33533/000117494725001301/esp-20251024.htm">Proxy</a>.</p>
+<p><strong>Proxy (DEF 14A, filed 2025-10-28).</strong> CEO total comp $655K The pay versus performance table reports compensation actually paid to the CEO of $926,742 for 2025, above the summary compensation table total of $655,147. <a href="https://www.sec.gov/Archives/edgar/data/33533/000117494725001301/esp-20251024.htm">Proxy</a>.</p>
+<p><strong>Expectations proxies.</strong> 3-month price change +9.5 percent; sits at 74 of 100 in its 52-week range; price to trailing sales 19.7x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 19.4 percent of the company, about 84 trading days to build.</p>
 <h3 class="mono">NEXT</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-02: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000043/next-20260702.htm">filing</a>)</li><li>2026-06-18: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000039/next-20260617.htm">filing</a>)</li><li>2026-06-03: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000036/next-20260603.htm">filing</a>)</li><li>2026-04-15: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000013/next-20260415.htm">filing</a>)</li><li>2025-11-18: material agreement, new debt or credit facility, item 3.02 (<a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272025000034/next-20251117.htm">filing</a>)</li></ul>
 <p><strong>Significant holders (13D/13G).</strong> GASC GP, LLC 5.9 percent (13D, active intent); HGC NEXT INV LLC 8.8 percent (13D, active intent); VALINOR CAPITAL PARTNERS, L.P. 0.71 percent (13D, active intent); BlackRock, Inc. 3.5 percent.</p>
 <p><strong>Proxy (DEF 14A, filed 2026-04-23).</strong> The company disclosed transactions with affiliates of TotalEnergies SE, including an LNG sale and purchase agreement for 1.5 million tonnes per annum and a subscription agreement for an equity commitment of up to approximately $0.3 billion in exchange for a 10% equity interest in a Train 4 joint venture. The CEO employment agreement includes change-of-control severance of 36 months of base salary, 300% of target bonus, and accelerated equity vesting, and executives received a special one-time Train 5 FID award. <a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000018/next-20260423.htm">Proxy</a>.</p>
 <p><strong>Earnings release language.</strong> The release emphasizes the merger transaction and the presentation of unaudited pro forma combined financial statements, while net losses and per share losses appear only in the financial tables. Recurring hedges: "unaudited pro forma". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
 <p><strong>Regulator (FERC).</strong> 18 FERC eLibrary documents match the filer name. 03/13/2019: Phone memo dated 03/13/2019 from Komi Hassan, NextDecade Corp. re the Status of pipeline header system (Galves (docket PF18-7-000); 03/06/2026: Letter requesting NextDecade Corporation to file a response to engineering information request within 20 days  (docket CP26-31-000); 08/07/2019: Record of Conference Call Notes between FERC and NextDecade re the Galveston Bay LNG Export and Pipeline Heade (docket PF18-7-000).</p>
+<p><strong>Expectations proxies.</strong> 3-month price change -13.1 percent; sits at 43 of 100 in its 52-week range. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 1.9 percent of the company, about 12 trading days to build.</p>
 <h3 class="mono">BV</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-18: material agreement, new debt or credit facility, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1734713/000110465926075744/tm2618044d1_8k.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1734713/000110465926075744/tm2618044d1_ex99-1.htm">exhibit</a>)</li><li>2026-05-05: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1734713/000119312526206439/bv-20260504.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1734713/000119312526206439/bv-ex99_1.htm">exhibit</a>)</li></ul>
 <p><strong>Significant holders (13D/13G).</strong> The Vanguard Group; Van Berkom &amp; Associates Inc. 5.1 percent; BlackRock, Inc. 5.3 percent; KKR BrightView Aggregator L.P. 22.6 percent; Dimensional Fund Advisors LP 5 percent; T. Rowe Price Investment Management, Inc. 1.8 percent.</p>
 <p><strong>Proxy (DEF 14A, filed 2026-01-15).</strong> Series A Preferred Stock holders vote separately to elect two additional directors designated by One Rock affiliates. <a href="https://www.sec.gov/Archives/edgar/data/1734713/000110465926004094/tm2529578-2_def14a.htm">Proxy</a>.</p>
 <p><strong>Earnings release language, two most recent.</strong> Management leads with the second consecutive quarter of land maintenance revenue growth and total revenue growth, while the declines in net income and Adjusted EBITDA are buried under explanations of non-routine headwinds. Compared to the prior release, which focused on top-line revenue growth and improved Adjusted EBITDA, the language now emphasizes a single segment's growth and justifies weaker profitability with non-routine headwinds. Recurring hedges: "partially offset". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
 <p><strong>Hiring.</strong> 26 open roles on the company job board, led by Tecnologia (7), Distribuição Varejo (6), banco BV (4).</p>
+<p><strong>Expectations proxies.</strong> 3-month price change -13.1 percent; sits at 8 of 100 in its 52-week range. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 3.6 percent of the company, about 20 trading days to build.</p>
 <h3 class="mono">GSAT</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-04-14: material agreement, new debt or credit facility, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1366868/000114036126014528/ef20070409_8k.htm">filing</a>, <a href="https://www.sec.gov/Archives/edgar/data/1366868/000114036126014528/ef20070409_ex99-1.htm">exhibit</a>)</li></ul>
 <p><strong>Form 144 notices.</strong> 8 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-08-21. A 144 precedes the executed sale that lands on Form 4.</p>
 <p><strong>Significant holders (13D/13G).</strong> FL Investment Holdings LLC 0.03 percent (13D, active intent).</p>
 <p><strong>Proxy (DEF 14A, filed 2026-04-02).</strong> The company discloses separation of Executive Chairman and CEO roles and a Strategic Review Committee with majority independent directors. <a href="https://www.sec.gov/Archives/edgar/data/1366868/000136686826000019/gsat-20260402.htm">Proxy</a>.</p>
 <p><strong>Earnings release language, two most recent.</strong> Management leads with total revenue and record Commercial IoT activations, while net loss and the decline in service revenue are buried lower in the release. The language shifted from emphasizing strong growth and a major merger milestone in the first quarter to emphasizing disciplined execution and regulatory progress in the second quarter, with revenue growth no longer highlighted. Recurring hedges: "subject to the satisfaction of", "primarily due to", "partially offset", "expected to close in 2027". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Expectations proxies.</strong> 3-month price change -1.1 percent; sits at 96 of 100 in its 52-week range; price to trailing sales 4x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 3.3 percent of the company, about 3 trading days to build.</p>
 <h3 class="mono">GEL</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-26: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1022321/000119312526285690/d150040d8k.htm">filing</a>)</li><li>2026-03-09: material agreement, agreement terminated, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1022321/000119312526097605/d125190d8k.htm">filing</a>)</li><li>2026-03-04: material agreement, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1022321/000119312526091667/d57238d8k.htm">filing</a>)</li><li>2026-02-24: material agreement, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1022321/000119312526067390/d100948d8k.htm">filing</a>)</li></ul>
 <p><strong>Significant holders (13D/13G).</strong> Global X Management CO LLC 6.32 percent; James E. Davison, Jr. 4.43 percent (13D, active intent); ALPS Advisors, Inc. 21.17 percent; GSO Rodeo Holdings LP 4.5 percent (13D, active intent).</p>
 <p><strong>Earnings release language, two most recent.</strong> Management leads with consolidated financial results and balance sheet progress, while burying the offshore pipeline volume shortfall and operational challenges in later paragraphs without quantifying the impact. The language shifted from acknowledging slightly below expectation results and timing-related caution in the first quarter to claiming results broadly in line or slightly ahead and emphasizing successful capital allocation actions in the second quarter. Recurring hedges: "we believe". <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
 <p><strong>Hiring.</strong> 4 open roles on the company job board, led by Quality Engineering (2), Product Management (TAM) (1), Engineering (1).</p>
 <p><strong>Regulator (FERC).</strong> 15 FERC eLibrary documents match the filer name. 11/20/1992: Genesis Energy Systems,Inc submits notice of qualification as cogen facil in Azusa,CA under QF93-27. (docket QF93-27-000); 10/13/2016: Letter to Genesis Energy, LP waiving the 120-day limit on emergency transactions to continue the emergency tra (docket EM16-7-000); 03/03/1993: Genesis Energy System,Inc submits notification of qualification as cogeneration facil at 1201 West Gladstone A (docket QF93-27-001).</p>
+<p><strong>Expectations proxies.</strong> 3-month price change -0.2 percent; sits at 49 of 100 in its 52-week range; price to trailing sales 0.9x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 2.6 percent of the company, about 56 trading days to build.</p>
 <h3 class="mono">GSHD</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-07-22: results announced, officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000056/gshd-20260722.htm">filing</a>)</li><li>2026-07-14: material agreement (<a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000051/gshd-20260708.htm">filing</a>)</li><li>2026-04-22: results announced, officer or director change, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000039/gshd-20260420.htm">filing</a>)</li><li>2026-03-31: officer or director change, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000030/gshd-20260330.htm">filing</a>)</li><li>2026-02-17: results announced, officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000006/gshd-20260217.htm">filing</a>)</li></ul>
 <p><strong>Form 144 notices.</strong> 6 proposed-sale notice(s) filed in the trailing 90 days, latest 2026-08-20. A 144 precedes the executed sale that lands on Form 4.</p>
 <p><strong>Significant holders (13D/13G).</strong> T. Rowe Price Investment Management, Inc. 2.5 percent; Kayne Anderson Rudnick Investment Management, LLC 9.2 percent; Durable Capital Partners LP 10.8 percent; Vanguard Capital Management 4.99 percent; Wasatch Advisors LP 8 percent.</p>
+<p><strong>Expectations proxies.</strong> 3-month price change +75.1 percent; sits at 74 of 100 in its 52-week range. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 2.4 percent of the company, about 9 trading days to build.</p>
 <h3 class="mono">TASK</h3>
 <p><strong>Material 8-K events, trailing 12 months.</strong></p><ul><li>2026-06-22: officer or director change, Reg FD disclosure (<a href="https://www.sec.gov/Archives/edgar/data/1829864/000182986426000139/task-20260622.htm">filing</a>)</li><li>2026-04-02: officer or director change (<a href="https://www.sec.gov/Archives/edgar/data/1829864/000182986426000072/task-20260327.htm">filing</a>)</li><li>2026-03-17: material agreement, new debt or credit facility (<a href="https://www.sec.gov/Archives/edgar/data/1829864/000119312526111007/d15654d8k.htm">filing</a>)</li><li>2026-02-25: results announced, officer or director change, Reg FD disclosure, other material event (<a href="https://www.sec.gov/Archives/edgar/data/1829864/000182986426000005/task-20260220.htm">filing</a>)</li><li>2025-10-09: agreement terminated (<a href="https://www.sec.gov/Archives/edgar/data/1829864/000119312525235961/d74252d8k.htm">filing</a>)</li></ul>
 <p><strong>Significant holders (13D/13G).</strong> Think Investments LP 9.6 percent; Saba Capital Management, L.P. 4.25 percent; Dalton Investments Inc. 11.77 percent; Jaspar Weir 29.4 percent.</p>
 <p><strong>Proxy (DEF 14A, filed 2026-04-10).</strong> The company is a controlled company with approximately 96.9% of combined voting power held by Blackstone funds and co-founders, and the board has three-year staggered terms. <a href="https://www.sec.gov/Archives/edgar/data/1829864/000182986426000101/task-2026proxystatement.htm">Proxy</a>.</p>
 <p><strong>Earnings release language.</strong> Management leads with revenue growth and adjusted EBITDA strength, while the year-over-year declines in adjusted net income and adjusted EPS are buried in the financial tables without narrative discussion. <span class="muted">Read from press releases filed as 8-K exhibits, not call transcripts.</span></p>
+<p><strong>Expectations proxies.</strong> 3-month price change +27.1 percent; sits at 24 of 100 in its 52-week range; price to trailing sales 0.2x. <span class="muted">Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.</span></p>
+<p><strong>Fund-scale investability.</strong> A 25 bps of $14.7B AUM position would be 12.7 percent of the company, about 57 trading days to build.</p>
 
 <h2>Rubric</h2>
 <table>
@@ -326,37 +361,39 @@
 
 <h2>Theses</h2>
 <section class="thesis">
-        <h2>DUOT: Fee-based operator for the data center on-site gas generation buildout</h2>
+        <h2>DUOT: Data center power demand creates a second revenue channel through mobile gas turbine fleet management.</h2>
 <h3>Bear case first</h3>
-<p>The main disconfirming reading is that Duos is a cash-constrained services contractor, not a power asset owner. The gas turbine fleet management agreement [4][12] is disclosed under related-party services and consulting [18], so the revenue may be insider-linked. Net cash is $1.9MM, runway is about 0.6 quarters, share count rose 62.1% in twelve months, and insider open-market activity was zero (Form 4). The $27.0MM revenue base includes a $5.0MM cash advance recognized in full in 2025 [17], with no contracted capacity, committed capex, or independent hyperscaler end-customer.</p>
+<p>Why this name fails. A disconfirming reading is that the gas turbine work is an asset-management relationship, not a product sale with a visible backlog; the filing does not quantify fleet revenue or margins [4]. Insider open-market activity is zero over the trailing 12 months (Form 4). Customer evidence is thin: named counterparties are contract entities, and federal award dollars are $2.56M from one DOT contract (USASpending). The company has about 0.6 quarters of cash runway and a shelf on file, so dilution is a near-term risk (Reality check).</p>
 <h3>Business today</h3>
-<p>Duos designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting [0]. Technology Solutions sells manufacturer-agnostic sourcing, logistics, supply chain management, and fulfillment services [14]. Revenue was $27.0MM and cash was $1.9MM as of 2025-12-31 (SEC XBRL).</p>
+<p>The company designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting [0]. It sells hosting, colocation, and managed infrastructure services through edge data centers [7] and infrastructure-related services for data center deployments [14]. For the year ended 2025-12-31, revenue was $27.0M; cash at that date was $1.9M (SEC XBRL).</p>
 <h3>Chain position</h3>
-<p>Duos occupies the services layer of the on-site gas generation node, managing deployment and operations of mobile gas turbines and balance-of-plant inventory [4]. Data center revenue per MW justifies premium on-site generation even after grid power becomes available, and a fee-based operator captures that premium without owning capital equipment, independent of utility procurement.</p>
+<p>DUOT occupies the on-site gas generation beneficiary node of the data center power adoption chain. The filing states the company has engaged with third parties for consulting and asset management for power solutions for large data centers supporting AI hyperscalers [3]. The economic logic is that data center operators facing grid interconnection delays may accept a premium for on-site generation; DUOT manages a mobile gas turbine fleet under contract [4].</p>
 <h3>Customer graph</h3>
-<p>Named buyers are Fortress, New APR, and Sawgrass, all within one contract family for the gas turbine fleet [17][18]. They are enterprise counterparties, but unproven: the related-party disclosure [18] means they are not independent validation. The only government buyer is the Department of Transportation at $2.56MM (USASpending); one other filer names Duos (Customer graph). Customer evidence is one contract family and one federal award.</p>
+<p>Fortress, New APR, and Sawgrass are named enterprise counterparties (Customer graph); Fortress paid a $5.0M cash advance recognized as revenue in 2025 [17]. The 10-Q refers to the fleet asset counterparty as New APR in one note [17] and Sawgrass in another [18] without explaining the relationship. The only government buyer is the Department of Transportation at $2.56M (USASpending). One other filer names the company (Customer graph). Customer evidence is thin; end-customer payments for the gas turbine fleet are not disclosed.</p>
 <h3>Insider and management signal</h3>
-<p>Insider open-market activity was net $0 across 0 buys and 0 sales in the trailing twelve months (Form 4). Management language is specific about the fleet, the counterparties, and the management, sales and operations functions [4][12], and it formed a subsidiary for infrastructure services [5]. No quantified targets or committed capex appear.</p>
+<p>No insider open-market buying or selling appeared in the trailing 12 months (Form 4). Management formed a subsidiary for infrastructure services [5] and signed the Fortress fleet contract [17], but the filing does not state quantified targets or committed capex. The signal is neutral: specific operations, no insider stake change.</p>
 <h3>Street view</h3>
-<p>Sell-side analyst count is unknown, consensus is n/a, and mean target is n/a (Street view). No recent rating actions are visible. Thin coverage is itself part of the setup.</p>
+<p>Sell-side coverage is absent: analyst count, consensus, and mean target are all unavailable (Street view). Thin coverage is part of the setup for an under-covered small cap, but it also means no external validation of the thesis.</p>
 <h3>Non-linear case</h3>
-<p>The multiple path is fee-based fleet management at scale. If Duos becomes the operations layer for distributed mobile gas turbines and the Fortress contract expands, recurring management fees replace one-off project revenue. This requires persistent interconnection delays and a third-party asset owner contracting Duos.</p>
+<p>If the Fortress fleet management contract expands from consulting and operations into a large managed fleet, revenue could scale beyond the current $27.0M base (SEC XBRL). The filing describes demand for power solutions for large data centers and AI hyperscalers [3] and DUOT provides management, sales, and operations for mobile gas turbines [4]. For that outcome, data center interconnection delays must persist, Fortress must deploy additional capital, and DUOT must convert this contract into a recurring asset-management business. The current filing evidence does not show that conversion.</p>
 <h3>Evidence</h3>
 <ul>
-<li>Duos designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting [0].</li>
-<li>Under the AMA, Duos Energy manages deployment and operations of a fleet of mobile gas turbines and balance-of-plant inventory for New APR [4][12].</li>
-<li>Duos formed Duos Technology Solutions to provide infrastructure-related services, including procurement, logistics coordination, vendor management, and deployment support [5].</li>
-<li>Technology Solutions provides manufacturer-agnostic sourcing, logistics, supply chain management, and fulfillment services in support of digital infrastructure deployments [14].</li>
-<li>In December 2024, Duos entered a series of contracts with Fortress to deploy and operate a fleet of mobile gas turbines; a $5.0MM cash advance from Sawgrass was recognized as revenue in 2025 [17].</li>
-<li>The Fortress contracts and Sawgrass cash advance are disclosed under services and consulting with related parties [18].</li>
+<li>[0] The Company designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting.</li>
+<li>[3] The Company has engaged with third parties for consulting and asset management for power solutions for large data centers supporting AI hyperscalers.</li>
+<li>[4] Duos Energy manages deployment and operations of a fleet of mobile gas turbines and balance-of-plant inventory under the AMA.</li>
+<li>[5] In 2026, the Company formed Duos Technology Solutions to provide infrastructure-related services for data center projects.</li>
+<li>[7] The edge data center platform is designed to generate recurring revenues through hosting, colocation, and managed infrastructure services.</li>
+<li>[14] Technology Solutions provides infrastructure-related services for digital infrastructure and data center deployments.</li>
+<li>[17] In December 2024, the Company entered contracts with Fortress to deploy and operate a fleet of mobile gas turbines; the schedule shows a $5.0M cash advance recognized as revenue in 2025.</li>
+<li>[18] In December 2024, the Company entered contracts with Fortress under which it will provide management, sales, and operations functions to Sawgrass in connection with the assets.</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>A small fund can build a position in about 24 trading days at the $10.5MM average daily dollar volume (Reality check). Net cash is $1.9MM and runway is about 0.6 quarters, so the balance sheet threatens the thesis. Share count rose 62.1% in twelve months and a shelf registration is on file, so dilution is the active financing model (Reality check).</p>
+<p>At $10.47M average daily dollar volume, a small fund can size a position but needs about 24 trading days to build it (Reality check). Net cash is $1.9M and cash runway is about 0.6 quarters, so the company likely needs to raise capital. Share count is up 62.1% in 12 months and a shelf is on file; dilution risk threatens the thesis (Reality check).</p>
 <h3>What would change our mind</h3>
 <ul>
-<li>A 10-Q or 10-K naming a third-party asset owner, outside the Fortress, New APR, and Sawgrass group, for gas turbine fleet management.</li>
-<li>An open-market insider purchase on Form 4, reversing the twelve-month zero-buy signal.</li>
-<li>A federal award (USASpending) naming Duos as prime contractor for data center power services.</li>
+<li>A 10-K or 10-Q disclosing a named end-customer and quantified backlog for the gas turbine fleet.</li>
+<li>A Form 4 showing insider open-market purchases.</li>
+<li>A new federal award from DOE or DoD for on-site power or data center infrastructure (USASpending).</li>
 </ul>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> (collectively the Company ) is a technology Company that designs, develops, deploys, and operates intelligent technology solutions that leverage machine vision and artificial intelligence ( AI ), as well as digital infrastructure platforms, including edge data centers and power and energy consulting services. <span class="muted">(10-Q, filed 2026-05-15, <a href="https://www.sec.gov/Archives/edgar/data/1396536/000155335026000088/duos_10q-033126.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> Edge processing can be an extremely efficient and lower cost alternative to traditional data centers. <span class="muted">(10-Q, filed 2026-05-15, <a href="https://www.sec.gov/Archives/edgar/data/1396536/000155335026000088/duos_10q-033126.htm">SEC document</a>)</span></li>
@@ -381,34 +418,40 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>SMXT: BESS EPC contractor in the grid capex chain</h2>
+        <h2>SMXT: BESS EPC contractor positioned in the US grid and storage capex cycle</h2>
 <h3>Bear case first</h3>
-<p>SolarMax's filings describe BESS EPC, not transmission or substation work [5][8]. That places it in a competitive storage segment, not the scarce transmission labor pool. The dossier shows no insider open-market buying (Form 4), a 24.2% share count increase in 12 months (Reality check), and revenue concentrated in one customer contract [7]. Customer evidence is limited to four enterprise LLCs, with $0 federal awards (USASpending). The filings do not show financial targets or a transmission backlog.</p>
+<p>Revenue is concentrated in one customer. In 2025, $60.2M of EPC revenue came from the Longfellow contract [7], and the other three EPC agreements were signed on Dec 31, 2025 [8][14]. The customer graph shows four named customers and zero other filers naming the company (customer graph). No insider bought or sold in the trailing 12 months (Form 4), and federal awards are $0 (USASpending). The filings do not show project completion dates, backlog totals, or EPC gross margin, so the follow-on thesis is unproven.</p>
 <h3>Business today</h3>
-<p>SolarMax performs EPC services for commercial BESS systems and states this has been its primary business since Q3 2025 [5]. EPC revenue from the Longfellow contract was $60.2MM, 66.1% of revenue [7]. Total revenue was $90.982MM, with cash of $7.967MM (SEC XBRL).</p>
+<p>SolarMax sells engineering, procurement, and construction services for large-scale BESS systems, and it also runs residential and commercial solar installation through subsidiary SREP [11][5]. Since Q3 2025, its primary business has been negotiating and performing EPC services for BESS systems [5]. Total revenue was $91.0M and cash was $8.0M as of 2025-12-31 (SEC XBRL); EPC revenue from the Longfellow contract was $60.2M in 2025 [7].</p>
 <h3>Chain position</h3>
-<p>Mapped position: transmission and substation engineering and construction contractor, order 1 beneficiary, near horizon. SolarMax's named work is BESS EPC, not transmission or substation construction [5][8]. The economic logic is that EPC contractors capture project value through labor and equipment scarcity.</p>
+<p>SolarMax is the EPC contractor node in the US solar and storage adoption chain. It performs construction services for large-scale BESS projects [6][8]. The economic logic is that EPC firms capture a meaningful share of project spend through fixed-price and cost-plus contracts, and multi-year construction timelines create backlog visibility.</p>
 <h3>Customer graph</h3>
-<p>Named buyers are Longfellow BESS I, LLC, Naguabo BESS, LLC, Yabucoa BESS, LLC, and Navboot Holdco, LLC; all are enterprise LLCs (customer graph). The other three contracts were dated December 31, 2025 [8]. Federal awards are $0 (USASpending), and 0 other filers name the company (customer graph). Customer evidence is thin: the Longfellow contract produced 66.1% of revenue [7], and no revenue from the later contracts is disclosed.</p>
+<p>Buyers are four named enterprises: Longfellow BESS I, LLC, Naguabo BESS, LLC, Yabucoa BESS, LLC, and Navboot Holdco, LLC (customer graph). Federal awards are $0 (USASpending). No other filers name the company (customer graph). Customer evidence is thin: all disclosed EPC revenue so far is from the Longfellow contract [7], and the other three contracts are dated Dec 31, 2025 [8].</p>
 <h3>Insider and management signal</h3>
-<p>Trailing 12-month Form 4 data show no open-market insider buying or selling (Form 4). Management describes services commenced in Q3 2025 [0] and a specific 430 MWh Texas project [6]. The filings do not state quantified financial targets.</p>
+<p>Form 4 shows net open-market activity of $0, with 0 buys and 0 sales by 0 insiders in the trailing 12 months (Form 4). Management states that services on the first large-scale energy storage initiative commenced in Q3 2025 [0] and that Q1 performance reflects continued execution [1]. No quantified financial targets are in the excerpts.</p>
 <h3>Street view</h3>
-<p>Sell-side aggregators show no coverage: analyst count unknown, consensus n/a, mean target n/a (Street view). No firm rating actions are visible. For an under-covered small-cap, thin coverage is part of the setup.</p>
+<p>Sell-side aggregators show no coverage: unknown analyst count, consensus n/a, and mean target n/a (Street view). No firm rating actions are in the provided facts. For an under-covered small cap, thin coverage is part of the setup.</p>
 <h3>Non-linear case</h3>
-<p>Completion of the Longfellow 430 MWh project [6] and the three December 31 BESS agreements [8] would scale revenue from the 2025 base of $90.982MM (SEC XBRL). The 10-K projects a U.S. solar market over $125,000MM by 2030 [4]. The path requires the four LLC counterparties to fund and finish projects and SolarMax to win follow-on work. A multiple depends on recurring EPC revenue and data-center-driven grid demand.</p>
+<p>The three Dec 31, 2025 BESS contracts [8][14], if executed, can grow revenue from the current $60.2M EPC base [7] against a projected $125B US solar market [4]. The company has prior EPC experience from Chinese solar farms [9] and states it is expanding US commercial and industrial services [3]. For the non-linear outcome, new customers must appear beyond the four named entities, and future 10-Q and 10-K filings must show revenue from the Puerto Rico and Corpus Christi projects. The path to a multiple of today's business depends on customer diversification and execution margins.</p>
 <h3>Evidence</h3>
 <ul>
-<li>EPC services on the first large-scale storage initiative commenced in Q3 2025 [0].</li>
-<li>The U.S. solar market is expected to be valued at over $125,000MM by 2030 [4].</li>
-<li>Since Q3 2025, the primary business has been negotiating contracts and performing EPC services for solar-based BESS commercial systems [5].</li>
-<li>EPC services had commenced on a 430 MWh battery storage project in Texas under an agreement with Longfellow dated July 31, 2025 [6].</li>
-<li>EPC services on the Longfellow contract generated revenue of $60.2MM, or 66.1% of revenue [7].</li>
-<li>On December 31, 2025, SolarMax entered three EPC agreements for large-scale BESS systems, two in Puerto Rico and one in Corpus Christi, Texas [8].</li>
+<li>CEO described the Q3 2025 start on the first large-scale storage initiative and continued Q1 execution [0][1].</li>
+<li>Management is pursuing commercial solar development, industrial EPC, LED lighting, and residential expansion [3].</li>
+<li>The US solar market is expected to exceed $125B by 2030 [4].</li>
+<li>Since Q3 2025, the primary business has been EPC services for solar-based BESS systems [5].</li>
+<li>EPC services commenced on a 430 MWh Texas BESS under the Longfellow agreement [6].</li>
+<li>EPC revenue from the Longfellow contract was $60.2M in 2025 [7].</li>
+<li>On Dec 31, 2025, SolarMax entered three EPC agreements for BESS systems in Puerto Rico and Corpus Christi [8].</li>
+<li>From 2015 through 2021, most China revenue came from EPC contracts for large solar farms [9].</li>
+<li>SREP is the US subsidiary that performs the four commercial EPC agreements [11].</li>
+<li>The Longfellow agreement was dated July 31, 2025 [13].</li>
+<li>SolarMax entered four BESS EPC contracts in 2025 [19].</li>
+<li>Naguabo is in Ceiba Municipality, Puerto Rico; Yabucoa is in Humacao Municipality, Puerto Rico; Navboot is in Corpus Christi, Texas [15][16][17].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>At $451.015M average daily dollar volume, about 544 trading days to build a position (Reality check). Cash is $7.967MM (SEC XBRL) and net cash is $7.967MM (Reality check), but runway cannot be estimated from the provided facts. Share count is up 24.2% in 12 months, so dilution risk is present (Reality check).</p>
+<p>A small fund would face real liquidity limits: average daily dollar volume is $451.0K and building a position would take about 544 trading days (reality check). Cash is $8.0M (SEC XBRL), but the provided facts do not disclose burn, so runway is not calculable. Share count rose 24.2% in 12 months (reality check), making dilution a live threat to the thesis.</p>
 <h3>What would change our mind</h3>
-<p>An 8-K or 10-K disclosing a transmission or substation EPC contract would shift the thesis from BESS-only to direct grid capex exposure. A Form 4 showing open-market insider buying would strengthen conviction; an open-market sale would weaken it. A federal award in USASpending naming SolarMax would broaden the customer base beyond the four named enterprise LLCs.</p>
+<p>A Form 4 showing insider open-market purchases would change the read on conviction. A 10-Q or 10-K reporting revenue from Naguabo, Yabucoa, or Navboot would confirm that the Dec 31 contracts are converting. A USASpending federal award or an 8-K naming a new customer would broaden the customer graph.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> SolarMax entered 2026 with strong operational momentum, delivering significant year-over-year improvement in our financial result as a result of engineering, procurement and construction ( EPC ) services on our first large-scale energy storage initiative which services commenced in the third quarter of 2025, stated David Hsu, CEO of SolarMax. <span class="muted">(8-K, filed 2026-05-18, <a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426000920/solarmax_ex991.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> Our first quarter performance reflects continued execution across our EPC platform, improving operating efficiency and ongoing progress on our EPC services for large-scale energy storage projects. <span class="muted">(8-K, filed 2026-05-18, <a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426000920/solarmax_ex991.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> SolarMax has established a strong presence in southern California and, commencing in the third quarter of 2025, expanded its operations to include EPC services for EPC projects. <span class="muted">(8-K, filed 2026-05-18, <a href="https://www.sec.gov/Archives/edgar/data/1519472/000164033426000920/solarmax_ex991.htm">SEC document</a>)</span></li>
@@ -432,37 +475,40 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>SLNH: A behind-the-meter data center operator that is only an indirect beneficiary of the C&amp;I distributed energy shift</h2>
+        <h2>SLNH: Behind-the-meter renewable data center capacity, with the 300 MW HPC project as the unproven upside</h2>
 <h3>Bear case first</h3>
-<p>Soluna does not sell solar, storage, or efficiency. Its HPC project is a data center development, not a customer-funded energy project, and the theme creates no new business. Filings show no named HPC customers, no project revenue, and no financing commitment. Insider selling is heavy: net open-market sales of -$649.219M over 12 months (Form 4). Cash is $462M, net cash is -$17,437M, and runway is 0.2 quarters (Reality check).</p>
+<p>The disconfirming read is that Soluna is not in the mapped node; it operates behind-the-meter data centers [8]. The theme does not create a new business for Soluna; the HPC expansion is a data center business, not a customer-funded C&amp;I energy project. Customer evidence is thin: no named enterprise customer appears in the excerpts (Customer graph), and federal awarded dollars total $14.45K (USASpending). Insiders sold a net $649.2K over 12 months (Form 4). At $462K cash and negative net cash, equity issuance may be needed before Project Kati 2 revenue (SEC XBRL, Reality check).</p>
 <h3>Business today</h3>
-<p>Soluna develops, owns, and operates digital infrastructure for energy-intensive computing at renewable power plants ([3]). It generates or plans revenue from Bitcoin mining, Bitcoin hosting, HPC leasing, and demand response ([12], [13], [14], [15]). Revenue was $29,717M and cash was $462M at 2025-12-31 (SEC XBRL).</p>
+<p>Soluna develops digital infrastructure co-located with renewable plants, including wind, solar, or hydro [2][3]. It uses two data center designs: modular for Bitcoin and AI-ready for HPC [5][6][7]. Revenue sources are proprietary Bitcoin mining, third-party Bitcoin hosting, and demand response, with HPC leasing under development [12][13][14][15]. As of 2025-12-31, revenue was $29.7M and cash was $462K (SEC XBRL).</p>
 <h3>Chain position</h3>
-<p>Soluna is a behind-the-meter data center operator, not a provider of behind-the-meter solar, storage, or efficiency ([8], [10]). Its demand response line sells load flexibility to grid operators and utilities ([15]). Rising utility rates improve behind-the-meter renewable economics, but Soluna's revenue depends on computing customers, not C&amp;I energy customers.</p>
+<p>Soluna maps to the behind-the-meter node, order 2 beneficiary. Data centers draw directly from co-located plants and existing interconnection [8][11], converting underutilized energy into computing capacity [4]. It is an indirect beneficiary of rising grid costs, not a C&amp;I solar or storage provider.</p>
 <h3>Customer graph</h3>
-<p>No named enterprise customers appear in the excerpts (Customer graph). Federal awards are $14.45M: $10.69M from Department of Veterans Affairs and $3.76M from Department of Defense (USASpending). One other filer names the company (Customer graph). Enterprise buyer is unproven; government buyer is minimal.</p>
+<p>The customer-validation subscore is 4/5, but the graph is thin. Named enterprise customers: none in the excerpts (Customer graph). Government: $14.45K in federal awards, with $10.69K from the Department of Veterans Affairs and $3.76K from the Department of Defense (USASpending). Unproven: Project Kati 2 tenants; HPC initially targets hyperscalers, neoclouds, and later enterprise customers [19]. One other filer names Soluna (Customer graph).</p>
 <h3>Insider and management signal</h3>
-<p>Form 4 shows net open-market insider selling of -$649.219M across 3 buys and 30 sales by 1 insider (Form 4). Management names Project Kati 2 at more than 300 MW with Metrobloks ([14]) and the closed 397-acre Briscoe County purchase ([0]). Filing language reads as conviction; insider trades read against it.</p>
+<p>Net open-market insider activity was -$649.2K over 3 buys and 30 sales by 1 insider (Form 4). The sales dominate. Management gives specific targets: more than 300 MW with Metrobloks [14] and Dorothy 3 positioned across from the Briscoe substation [1]. The insider signal tempers that conviction.</p>
 <h3>Street view</h3>
-<p>Coverage is unknown: no analyst count, consensus, or mean target is available (Street view). The thin coverage is part of the setup for an under-covered small-cap.</p>
+<p>Street coverage is thin: unknown analyst count, consensus n/a, target n/a (Street view). No firm rating actions are available. Thin coverage is part of the setup.</p>
 <h3>Non-linear case</h3>
-<p>If Soluna delivers 300 MW of AI-ready data center capacity, the $280MM market cap could be a fraction of asset value ([14]). That path requires an HPC customer lease, construction financing, and successful Metrobloks execution ([19]). The seed theme does not create this optionality; it is an existing development project.</p>
+<p>Project Kati 2 is the non-linear path: more than 300 MW for AI and HPC customers [14]. Soluna closed on 397 acres [0], and Dorothy 3 sits across from the Briscoe substation [1]. If renewable behind-the-meter capacity becomes scarce, this project could reduce Bitcoin's weight in revenue [12][13]. Financing and named tenants are not yet in the evidence.</p>
 <h3>Evidence</h3>
 <ul>
-<li>[0] Closed purchase of 397 acres in Briscoe County, Texas.</li>
-<li>[3] Develops, owns, and operates digital infrastructure for energy-intensive computing at renewable sites.</li>
-<li>[8] Data centers operate behind the meter using on-site generation and existing interconnection.</li>
-<li>[10] Key strategy is colocation with renewable generation.</li>
-<li>[12] Revenue lines are Bitcoin mining, Bitcoin hosting, HPC, and demand response.</li>
-<li>[13] Bitcoin hosting serves third-party Bitcoin mining customers.</li>
-<li>[14] Project Kati 2 is engineered for more than 300 MW with Metrobloks.</li>
-<li>[15] Demand response services go to grid operators and utilities.</li>
-<li>[19] HPC targets hyperscalers, neoclouds, and enterprises over time.</li>
+<li>Closed purchase of 397 acres in Briscoe County, Texas [0]; Dorothy 3 is positioned for direct behind-the-meter access to owned generation [1].</li>
+<li>Data centers are co-located with wind, solar, or hydro [2]; Soluna owns and operates digital infrastructure for energy-intensive computing [3].</li>
+<li>It seeks to convert underutilized energy into computing capacity [4].</li>
+<li>Two designs exist: modular for Bitcoin [5][6], AI-ready for HPC [7].</li>
+<li>Data centers operate behind-the-meter and use existing interconnection [8][11].</li>
+<li>Revenue sources: proprietary Bitcoin mining [12], third-party hosting [13], HPC [14], demand response [15].</li>
+<li>Project Kati 2 is being engineered for more than 300 MW in partnership with Metrobloks [14].</li>
+<li>HPC initially targets hyperscalers, neoclouds, and later enterprise customers [19].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>At ADV of $22,177M, a small fund can build a position in about 12 trading days (Reality check). Net cash is -$17,437M, runway is 0.2 quarters, share count rose 711.4 percent in 12 months, and a shelf registration is on file (Reality check). Dilution risk is material and threatens the thesis.</p>
+<p>At $22.2M average daily dollar volume, a small fund can build in about 12 days (Reality check). Cash runway is about 0.2 quarters, net cash is -$17.4M, share count rose 711.4%, and a shelf is on file (Reality check, SEC XBRL). These facts threaten the thesis.</p>
 <h3>What would change our mind</h3>
-<p>An 8-K announcing committed construction financing without further share issuance would change our mind. A Form 4 showing open-market insider purchases would change our mind. A federal award naming Soluna as prime HPC contractor would add customer validation.</p>
+<ul>
+<li>An 8-K or 10-K names a tenant or executed lease for Project Kati 2.</li>
+<li>Form 4s show net open-market insider buying over six months.</li>
+<li>USASpending shows a federal award above $14.45K, or a filing discloses a utility or government demand response contract.</li>
+</ul>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> ( Soluna or the Company ) (NASDAQ: SLNH), a developer of green data centers for intensive computing applications, including AI and Bitcoin mining, today announced it has closed the purchase of 397 acres in Briscoe County, Texas. <span class="muted">(8-K, filed 2026-08-24, <a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226039781/ex99-1.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> The Briscoe Wind Farm s Substation sits directly across from the acquired property, positioning Dorothy 3 for direct, behind-the-meter access to generation the Company owns outright. <span class="muted">(8-K, filed 2026-08-24, <a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226039781/ex99-1.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> Soluna s pioneering data centers are strategically co-located with wind, solar, or hydroelectric power plants to support high-performance computing applications, including Bitcoin Mining, Generative AI, and other compute-intensive applications. <span class="muted">(8-K, filed 2026-08-24, <a href="https://www.sec.gov/Archives/edgar/data/64463/000149315226039781/ex99-1.htm">SEC document</a>)</span></li>
@@ -486,34 +532,35 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>NN: Grid equipment component supplier, supercycle stated but unproven</h2>
+        <h2>NNBR: Retooling auto capacity into the electrical grid capex supercycle</h2>
 <h3>Bear case first</h3>
-<p>The filings describe ambition, not orders. NN currently makes auto components [1]; grid and data center growth is a management target in an investor presentation [0], with no named customers or milestones. The $600MM goal and $80-100MM target are corporate messaging; the hard signals are a 64.2 percent share count increase, a shelf, and an insider sale of $45.298M (Form 4). Catalyst density is 1/5, no dated catalyst exists. Net cash of $-145.727MM on $11.377MM cash (SEC XBRL) means equity funds the retooling, dilutive if orders lag.</p>
+<p>The grid thesis rests on a presentation target, not on orders. Current revenue is high-volume auto, HVAC, and diesel components (1); management says it will wean the lower-margin legacy auto business as contracts expire (0). The Electrical Grid &amp; Data Center plan has no named customers, no federal awards (USASpending), and no dated milestones; the only timeline is a 2029-2030 sales goal (0). Insiders sold $45.3K and bought nothing (Form 4); the share count is up 64.2% with a shelf on file (reality check).</p>
 <h3>Business today</h3>
-<p>NN sells high-volume precision auto components for power steering, braking, transmissions, fuel, HVAC, and diesel systems [1]. Revenue was $422.207MM and cash was $11.377MM as of 2025-12-31 (SEC XBRL). Management targets $80-100MM annual new business growth and $600MM sales by 2029/2030, naming Electrical Grid and Data Center as a growth segment [0].</p>
+<p>NN manufactures high-volume precision components for power steering, braking, transmissions, gasoline fuel systems, HVAC, and diesel systems (1). Revenue was $422.2M and cash was $11.4M as of 2025-12-31 (SEC XBRL). Management is retooling equipment toward Electrical Grid &amp; Data Center, Defense &amp; Electronics, Medical, and High-Value Vehicle (0).</p>
 <h3>Chain position</h3>
-<p>NN sits at the component supplier node feeding high-voltage transformer, switchgear, and circuit breaker OEMs, one step from utility procurement. OEM backlogs translate into volume visibility and pricing power for component suppliers, but only if NN converts pipeline into contracts. NN is an indirect, levered beneficiary.</p>
+<p>The mapped position is first-order: a component supplier into high-voltage transformer, switchgear, and circuit breaker manufacturers. Utility procurement for data center load pushes backlogs past two years, which firms pricing and flows volume to suppliers. NN's current grid revenue is not disclosed; its place in the chain rests on the stated growth plan (0), not on confirmed backlog.</p>
 <h3>Customer graph</h3>
-<p>Unproven. Federal awards total $0 (USASpending) and the excerpts name no enterprise customer. Three other filers name NN, but evidence is too thin to validate the thesis. The growth segment in [0] is a claim, not a purchase order.</p>
+<p>Government buyers: $0 in federal awards (USASpending). Enterprise buyers: none named; 3 other filers name the company, but no purchasing relationship is identified. The grid plan is unproven at the customer level; legacy customers are described only by application (1). Customer evidence is thin.</p>
 <h3>Insider and management signal</h3>
-<p>Trailing 12-month open-market insider activity: net $45.298M sold, 0 buys, 1 sale (Form 4). Management language is quantified and directional: $80-100MM annual growth, a $600MM sales goal, and retooling [0]. Executives commit publicly while insiders only sell.</p>
+<p>Net open-market insider activity is $-45.3K from 1 sale and 0 buys (Form 4). Management language is quantified: $80M to $100M of new business growth per year, a $422M to $600M sales goal, and explicit equipment retooling (0). The signals conflict: no insider buying, committed targets.</p>
 <h3>Street view</h3>
-<p>No sell-side coverage is available: analyst count, consensus, and mean target are n/a, with no firm rating actions. For a $301MM market cap with a thin record, absent coverage is part of the setup but offers no external confirmation.</p>
+<p>Sell-side coverage is unknown: analyst count, consensus, and mean target are n/a, and no firm rating actions are visible. Thin coverage is part of the set-up but means no independent validation of the plan.</p>
 <h3>Non-linear case</h3>
-<p>If NN converts the grid segment into contracts, the $422.207MM 2025 base grows toward $600MM by 2029/2030, roughly 42 percent, at 14-15 percent EBITDA margin [0]. The non-linear upside is pricing: if OEM backlogs extend past two years, component suppliers push price increases and mix shifts into grid products. NN must win multi-year supply agreements, add retooled capacity, and report the grid segment separately. The missing dated catalyst is the gap between 5/5 optionality and 1/5 catalyst scores.</p>
+<p>The path to a multiple of today's market cap is a margin mix shift: grid and data center components at higher margins replacing the legacy auto book, with revenue reaching the $600M target (0). That requires NN to convert retooled capacity into purchase orders from transformer or switchgear OEMs and to sustain $80M to $100M of new business growth per year (0). Pricing power is the non-linear element; long lead times let suppliers push price rather than accept auto-like terms. The $301M market cap (reality check) embeds none of the transition beyond the investor presentation (0).</p>
 <h3>Evidence</h3>
 <ul>
-<li>8-K investor presentation (2026-08-20) targets $80-100MM annual new business growth and $600MM sales by 2029/2030, names Electrical Grid and Data Center as growth, and shows 14-15 percent EBITDA margin [0].</li>
-<li>10-K (2026-03-04) describes current high-volume auto components for power steering, braking, transmissions, gasoline fuel systems, HVAC, and diesel [1].</li>
-<li>10-K (2026-03-04) discloses compliance obligations for data privacy and security regulations [2].</li>
+<li>Management plans to add $80M to $100M of new business growth per year, wean lower-margin legacy auto, and retool equipment (0).</li>
+<li>Long-term goal: $422M sales in 2025 to $600M by 2029-2030 (0).</li>
+<li>Growth areas named: Electrical Grid &amp; Data Center, Defense &amp; Electronics, Medical, High-Value Vehicle (0).</li>
+<li>Current business: high-volume components for power steering, braking, transmissions, gasoline fuel systems, HVAC, diesel injection, and diesel emissions (1).</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Average daily dollar volume of $13.207MM means about 19 trading days to build a position, workable for a small fund. Cash of $11.377MM against net cash of $-145.727MM (SEC XBRL) leaves no funding cushion; the 64.2 percent share count increase and shelf registration are dilution risk. The survivability question is the thesis risk: NN may need equity markets before grid revenue lands.</p>
+<p>Average daily dollar volume is $13.2M, so a small fund needs 19 trading days to build a position (reality check). Cash is $11.4M against net cash of -$145.7M (SEC XBRL; reality check), and the share count is up 64.2% with a shelf on file (reality check). Dilution risk is material; the negative net cash position is the key survivability constraint.</p>
 <h3>What would change our mind</h3>
 <ul>
-<li>A Form 4 showing open-market insider buying.</li>
-<li>An 8-K or 10-Q naming a grid or data center customer with a contract value or multi-year agreement.</li>
-<li>A federal award in USASpending or a contract disclosure in filings linking NN to grid infrastructure projects.</li>
+<li>An open-market insider buy on a Form 4 would reverse the selling signal.</li>
+<li>A federal award from DOE or DoD visible in USASpending would add a government customer.</li>
+<li>A 10-Q or 10-K with a named grid customer or quantified backlog would move the thesis from presentation to proof.</li>
 </ul>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> EBITDA Margin % 15% 14% Q2 26 Q2 26 1st Half 26 1st Half 26 Multi-Year Roadmap Long-Term Goals as of August 2026 17 Add $80 - $100 million of New Business Growth per year, continue to wean lower margin legacy auto business as contracts expire, retool &amp; convert equipment Grow in Eletrical Grid &amp; Data Center, Defense &amp; Electronics, Medical, and High-Value Vehicle Cost leadership blueprint is delivering with significant opportunities to improve footprint, machines Momentum is strengthening; NN is taking additional actions $422M $600M 2025 2029 2030 Sales &amp; Adj. <span class="muted">(8-K, filed 2026-08-20, <a href="https://www.sec.gov/Archives/edgar/data/918541/000091854126000072/nnincinvestorpresentatio.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> The group currently manufactures components on a high-volume basis for use in power steering, braking, transmissions, and gasoline fuel system applications, along with components utilized in heating, ventilation and air conditioning and diesel injection and diesel emissions treatment applications. <span class="muted">(10-K, filed 2026-03-04, <a href="https://www.sec.gov/Archives/edgar/data/918541/000091854126000006/nnbr-20251231.htm">SEC document</a>)</span></li>
@@ -521,73 +568,65 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>ESP: Grid capex supercycle exposure, but the filing shows no proof of order capture</h2>
+        <h2>ESP: A small grid-equipment supplier positioned for US substation spending only if utility orders appear</h2>
 <h3>Bear case first</h3>
-<p>The strongest disconfirming read is that ESP lists products that overlap with grid equipment but provides no evidence of capturing the cycle. The 10-Q shows no backlog, no capacity expansion, and no named utility customer [0]. Insider selling of $1.722MM across 134 sales and 0 buys over the trailing 12 months points away from conviction (Form 4). The customer graph is thin: no named enterprise customers, only $18.678MM in federal awards (USASpending). Revenue of $9.596MM against cash of $18.863MM describes a small, flat business, not a scaling one (SEC XBRL).</p>
+<p>The filing evidence is a static product list, not a growth plan. ESP already sells power transformers and power distribution equipment, but the filing does not quantify backlog, capacity, named customers, or any committed capital spending. The street and customer evidence is thin, and management language contains no strategic commitment beyond routine enumeration. The dossier shows net open-market insider selling of -$1.723M over the trailing 12 months (Form 4), while share count rose 7.1% (SEC XBRL). The strongest disconfirming read is that this is a small, dilutive, insider-sold name with no evidence of new orders, and the grid capex theme simply describes existing products that are not yet confirmed to be in demand.</p>
 <h3>Business today</h3>
-<p>ESP sells power supplies, power converters, filters, power transformers, magnetic components, power distribution equipment, UPS systems, and antennas [0]. Revenue was $9.596MM and cash was $18.863MM as of 2025-06-30 (SEC XBRL).</p>
+<p>ESP’s primary products are power supplies, power converters, filters, power transformers, magnetic components, power distribution equipment, UPS systems, and antennas [0]. Revenue was $9.596M and cash was $18.863M as of 2025-06-30 (SEC XBRL). The filing identifies no customer segments or end-markets.</p>
 <h3>Chain position</h3>
-<p>ESP occupies the equipment supply node of the grid capex chain: power transformers and power distribution equipment are direct inputs to substations and transmission projects. Long-lead grid equipment is a hard constraint, so when utility orders exceed supplier capacity, manufacturers gain pricing power and backlog duration.</p>
+<p>ESP occupies the grid equipment supply node for power transformers and power distribution equipment. These products sit directly in the utility procurement chain for substations and transmission lines, making ESP a first-order beneficiary if US grid capex accelerates. Long lead times and tight supplier capacity would allow pricing to firm, but ESP-specific backlog is not evidenced.</p>
 <h3>Customer graph</h3>
-<p>Government: federal awards total $18.678MM, including $10.129MM, $1.734MM, and $1.295MM from the Department of Defense (USASpending). Enterprise: none named in the excerpts. Unproven: no named customers in the filing. One other filer names ESP. The customer evidence is thin; it does not show a commercial or utility order pipeline.</p>
+<p>Federal awards total $18.678M, including Department of Defense awards of $10.129M, $1.734M, and $1.295M (USASpending). One other filer names ESP in its own filing. No named enterprise customers appear in the excerpts, so enterprise demand is unproven and government awards appear to be the main visible source of revenue.</p>
 <h3>Insider and management signal</h3>
-<p>Form 4 reports net open-market selling of $1.722MM across 134 sales and 0 buys by 0 insiders, a data inconsistency between the trade count and the filer count. Management language is a generic product enumeration with no committed capital expenditures, no quantified targets, and no named programs [0].</p>
+<p>Trailing 12 months Form 4 shows 0 open-market buys and 134 open-market sales, net -$1.723M (Form 4). Management language in the filing is a generic product list with no named programs, capex targets, or quantified commitments [0]. Insider selling is a negative conviction signal, and the filing does not offset it with management action.</p>
 <h3>Street view</h3>
-<p>No sell-side analysts cover ESP; consensus is n/a and mean target is n/a. The absence of coverage is part of the setup, but it also means no independent validation of the thesis.</p>
+<p>Sell-side aggregator data show unknown analyst count, consensus n/a, and mean target n/a (Street view). There is no rated firm or visible rating action. For an under-covered small-cap, this coverage gap means the market is not pricing in a grid capex story until direct evidence emerges.</p>
 <h3>Non-linear case</h3>
-<p>If utility orders for transformers and breakers push supplier backlogs past two years, ESP's existing product lines capture price increases without a new business segment. The $18.863MM cash balance against $9.596MM revenue means incremental demand can be funded internally (SEC XBRL). The path to a multiple of today's business requires ESP to qualify as a supplier to utilities or prime contractors, an event not visible in the filing. The $189MM market cap leaves room for re-rating if backlog disclosure appears.</p>
+<p>If utility procurement pushes transformer and distribution equipment backlogs to multi-year levels, even a small supplier can gain pricing power on a small revenue base. ESP’s revenue is only $9.596M, so one or two large contracts could be material (SEC XBRL). The non-linear path requires ESP to convert the general grid shortage into named orders and then add capacity to deliver them. The filing [0] does not show that any such programs exist yet, so the path is conditional on future evidence.</p>
 <h3>Evidence</h3>
 <ul>
-<li>Primary products are power supplies, power converters, filters, power transformers, magnetic components, power distribution equipment, UPS systems, and antennas [0].</li>
+<li>Primary products include power transformers and power distribution equipment [0].</li>
+<li>The filing describes existing product lines without named orders, capacity additions, or strategic targets [0].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Average daily dollar volume of $2.944MM puts a position build at about 84 trading days (Reality check). Net cash of $18.863MM funds operations, but share count is up 7.1 percent in 12 months, a dilution signal that offsets the cash runway (Reality check). A small fund can build, but insider selling and dilution threaten the thesis.</p>
+<p>Average daily dollar volume is $2.944M, implying roughly 84 trading days to build a position (price data). Net cash is $18.863M against revenue of $9.596M, so cash runway is not an immediate constraint (SEC XBRL). Share count rose 7.1% in 12 months, and that dilution risk is a real threat given the company’s small equity base (SEC XBRL).</p>
 <h3>What would change our mind</h3>
-<ul>
-<li>A 10-Q or 10-K disclosing backlog, named utility customers, or capacity additions.</li>
-<li>Form 4 open-market buys reversing the 134-sale trend.</li>
-<li>A new federal award or other customer contract beyond the existing $18.678MM (USASpending).</li>
-</ul>
+<p>A 10-Q, 10-K, or 8-K that discloses backlog, a named utility customer, or transformer capacity expansion would be direct support for the thesis. Open-market Form 4 buys by insiders would reverse the current negative insider signal. A new federal award or customer contract naming ESP as supplier would also strengthen the customer evidence.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Our primary products are power supplies, power converters, filters, power transformers, magnetic components, power distribution equipment, UPS systems, and antennas. <span class="muted">(10-Q, filed 2026-05-12, <a href="https://www.sec.gov/Archives/edgar/data/33533/000117494726000585/esp-20260331.htm">SEC document</a>)</span></li></ul></details>
       </section>
 <hr />
 <section class="thesis">
-        <h2>NEXT: Grid capex supercycle thesis fails because NextDecade is an LNG project owner, not a grid EPC contractor</h2>
+        <h2>NEXT: Grid capex supercycle has no filing support in an LNG EPC change-order file</h2>
 <h3>Bear case first</h3>
-<p>The strongest disconfirming reading is that NextDecade is an LNG development company whose filing evidence consists entirely of change orders on the Rio Grande liquefaction EPC agreement with Bechtel, with no transmission, substation, or data center load work anywhere in the record [0][1][4][7]. Revenue is $0 and net cash is -$8,683.6MM (SEC XBRL), so the company may need capital before the 2026-2030 cycle begins. Insider buying is positive, but the filings do not show any customer or contract tied to grid investment. The grid capex theme does not appear in the company's own disclosures, which is the central failure of the thesis.</p>
+<p>Every cited filing is a change order under the Rio Grande LNG fixed price turnkey EPC agreement, not a transmission or substation contract. The evidence contains no mention of grid, data center load, or utility customers, so the grid capex thesis has no confirmation in the primary record. The company has $0M revenue, net cash of -$8,683.6M, and roughly 3.4 quarters of cash runway (reality check), so survivability dominates before any thematic upside. The $6.95M insider buying (Form 4) is the only positive signal but does not bridge the gap to the grid map position.</p>
 <h3>Business today</h3>
-<p>NextDecade, through Rio Grande LNG, LLC, is the owner under an Amended and Restated Fixed Price Turnkey EPC Agreement with Bechtel Energy Inc. for Trains 1 and 2 of the Rio Grande Natural Gas Liquefaction Facility [0]. Revenue is $0 and cash is $143.782MM (SEC XBRL). The change orders cover equipment procurement, design revisions, commodity index adjustments, and tariff reimbursement [1][2][3][5][6].</p>
+<p>The cited exhibits to NEXT's 10-Q document change orders for the Rio Grande Natural Gas Liquefaction Facility, naming owner Rio Grande LNG, LLC and contractor Bechtel Energy Inc. under the September 14, 2022 fixed price turnkey EPC agreement [0]. The changes cover compressor installation [1], trench design revisions [2], commodity price adjustments [3], tariff reimbursements [5], and scrubber installation [6]. Revenue is $0M and cash is $143.8M as of 2025-12-31 (SEC XBRL).</p>
 <h3>Chain position</h3>
-<p>The seed map places transmission and substation EPC contractors as order-1 beneficiaries of grid capex. NextDecade does not occupy that node; it is the owner that pays the EPC contractor, so a dollar of utility capex flows to Bechtel-type contractors, not to NextDecade. The economic logic of the chain does not connect to the company's existing business.</p>
+<p>The map position is transmission and substation EPC contractors that book utility grid awards. NEXT, on the filing evidence, is the owner side of an LNG EPC contract, not a contractor that books grid capex [0]. The labor-scarcity and backlog logic for transmission does not apply to a company with only LNG change orders on file [1][2][6].</p>
 <h3>Customer graph</h3>
-<p>Unproven. The excerpts name no paying customer, federal awards are $0 (USASpending), and 5 other filers name the company with the relationship unspecified. Bechtel is a contractor paid by NextDecade, not a customer. LNG off-takers are not identified in the evidence.</p>
+<p>No named enterprise customers and $0M in federal awards are in the data (USASpending). Five other SEC filers name the company (SEC XBRL), but the cited evidence names only EPC counterparties Rio Grande LNG, LLC and Bechtel Energy Inc. [0]. The paying customer for LNG output is unproven.</p>
 <h3>Insider and management signal</h3>
-<p>Form 4 shows net open-market buying of $6.955MM across 5 buys and 0 sales by 4 insiders, a positive conviction signal. Management language in the filings is administrative, limited to change order execution and pricing adjustments [1][2][3][5]. No management discussion of grid, transmission, or data centers appears in the evidence.</p>
+<p>Four insiders bought a net $6.95M on the open market with zero sales over the trailing 12 months, a conviction signal (Form 4). Management language is change order boilerplate, including no-impact confirmations on guarantees [9], with no grid or data center discussion. The insider signal is real but disconnected from the mapped catalyst.</p>
 <h3>Street view</h3>
-<p>Sell-side coverage is absent from the evidence: no analyst count, consensus, or mean target is reported. Thin coverage is typically a setup for a small-cap, but here it matches a company with $0 revenue (SEC XBRL) and a construction-stage project [0]. No rating actions are available.</p>
+<p>Coverage is unknown: consensus and mean target are n/a, and no firm rating actions are visible because bank reports are paywalled. Thin coverage at a $1,956M market cap means the grid theme is not yet debated by the street.</p>
 <h3>Non-linear case</h3>
-<p>A multiple of today's business would require the grid supercycle to create a new revenue stream, through an acquisition, joint venture, or grid-related contract award. None of those paths appears in the filing evidence. The LNG project itself offers a large outcome, but it is tied to gas export volumes and FID milestones, not data center load. Without a new business segment, the theme cannot be the source of upside.</p>
+<p>A multiple of today's business would require NEXT to convert its LNG EPC relationship into transmission or substation work, which no filing supports. Completion of Rio Grande LNG could re-rate the stock, but that is an LNG thesis, not a grid thesis. The non-linear path is speculative until a filing names a grid-related contract or customer.</p>
 <h3>Evidence</h3>
 <ul>
-<li>Change order for the Rio Grande LNG EPC agreement, effective April 27, 2026 [0].</li>
-<li>Workshop air compressor procurement and installation change [1].</li>
-<li>Tug berth utility trench location design revision [2].</li>
-<li>Quarterly commodity price index update under Attachment KK for Q1-2026 [3].</li>
-<li>May 4, 2026 signed change order by owner and contractor representatives [4].</li>
-<li>TRA update for February 2026 covering new items and Section 232 tariffs [5].</li>
-<li>Fuel gas scrubber and Coriolis meter installation per train [6].</li>
-<li>June 19, 2026 change order [7].</li>
-<li>Table of previously executed change orders requiring incorporation into Attachment C [8].</li>
-<li>Change order confirming no impact on acceptance criteria, guarantees, or basis of design [9].</li>
+<li>EPC change order header for Rio Grande LNG, owner Rio Grande LNG, LLC, contractor Bechtel Energy Inc., effective April 27, 2026 [0].</li>
+<li>Workshop air compressor procurement, installation, and commissioning [1].</li>
+<li>Tug berth utility trench location design change [2].</li>
+<li>Q1-2026 commodity index value updates under Attachment KK [3].</li>
+<li>Change order signed May 4, 2026 for February 2026 TRA updates on new covered items [4][5].</li>
+<li>Fuel gas scrubber and Coriolis meter installation [6].</li>
+<li>Change order signed June 5, 2026, effective June 19, 2026 [7].</li>
+<li>Previously executed change orders incorporated into Attachment C [8].</li>
+<li>No impact on acceptance criteria, performance guarantees, or basis of design [9].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>A small fund can build a position in about 12 trading days at $20.494MM average daily dollar volume, so liquidity is adequate. Survivability threatens the thesis: net cash is -$8,683.6MM, cash runway is about 3.4 quarters, and share count grew 2 percent in 12 months (SEC XBRL). The company may not reach the 2026-2030 grid cycle without LNG project financing.</p>
+<p>Average daily dollar volume of $20.5M implies about 12 trading days to build a position (reality check). Net cash is -$8,683.6M, runway is about 3.4 quarters, and the share count is up 2% in 12 months (reality check). A small fund can build a position, but the funding gap and dilution risk threaten the thesis before any grid exposure appears.</p>
 <h3>What would change our mind</h3>
-<ul>
-<li>A 10-K or 10-Q MD&amp;A, or an earnings call transcript, in which management discusses transmission, substations, or data center load as a business opportunity.</li>
-<li>An 8-K or Form 4 showing a grid-related contract award, a named utility or data center customer, or insider buying tied to a grid program.</li>
-<li>A federal award (USASpending) or contract disclosure naming a utility, transmission developer, or data center operator as a paying customer.</li>
-</ul>
+<p>A 10-Q or 10-K naming a transmission, substation, or data center interconnection contract. A Form 4 showing net insider selling, contradicting the current buy signal. A federal award or named enterprise customer tied to grid engineering in USASpending or XBRL data.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> CHANGE ORDER (for use when the Parties mutually agree upon and execute the Change Order pursuant to Section 6.1D or 6.2C) PROJECT NAME Rio Grande Natural Gas Liquefaction Facility DATE OF AGREEMENT September 14, 2022 AGREEMENT Amended and Restated Fixed Price Turnkey EPC Agreement of Trains 1 and 2 CHANGE ORDER NUMBER Owner EC Number EC00263 Contractor Change Number SC0151 OWNER Rio Grande LNG, LLC EFFECTIVE DATE OF CHANGE ORDER April 27, 2026 CONTRACTOR Bechtel Energy Inc. <span class="muted">(10-Q, filed 2026-07-30, <a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000049/ex107-2q26.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> TITLE WORKSHOP AIR COMPRESSOR The EPC Agreement between the Parties listed above is changed as follows BACKGROUND *** CHANGE Contractor to complete the work for the procurement, installation and commissioning of a fully enclosed containerized Atlas Copco, model GA55+-150 Pack Air-Cooled compressor with heatless adsorption dryer and wet dry receivers. <span class="muted">(10-Q, filed 2026-07-30, <a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000049/ex107-2q26.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> TITLE TUG BERTH UTILITY TRENCH LOCATION DESIGN CHANGE The EPC Agreement between the Parties listed above is changed as follows BACKGROUND *** CHANGE Contractor shall perform the Work required to revise and update the current design documents and associated drawings to reflect the relocated utility trench locations required to resolve the identified conflicts with the midship gangway access. <span class="muted">(10-Q, filed 2026-07-30, <a href="https://www.sec.gov/Archives/edgar/data/1612720/000161272026000049/ex107-2q26.htm">SEC document</a>)</span></li>
@@ -601,40 +640,36 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>BV: Recurring landscape maintenance with no filed exposure to the gas turbine aftermarket supercycle</h2>
+        <h2>BV: No data center gas generation aftermarket exposure; thesis fails on filing evidence</h2>
 <h3>Bear case first</h3>
-<p>The filing describes BrightView exclusively as landscape maintenance and development services. Revenue in [7] is entirely from Landscape Maintenance, Snow Removal, and Development Services. The excerpts contain no mention of gas turbines, engines, aftermarket parts, or overhaul services. The data center load supercycle creates no new business for this company on the filing evidence. An investor buying this thesis would be buying a seasonal landscaping contractor, not an energy aftermarket provider.</p>
+<p>A disconfirming reading of the evidence is that BrightView is a landscape maintenance and development contractor. Every revenue line in the quarterly filing comes from Maintenance Services or Development Services, with no mention of gas turbines, engine aftermarket, or data center load [0][2][7]. The dossier shows no insider buying, only $273.95K in federal awards, and negative net cash. The filing cannot support a claim that the US grid capex supercycle benefits this company.</p>
 <h3>Business today</h3>
-<p>BrightView sells recurring landscape maintenance, snow removal, and short-duration enhancement services under contracts that run one to three years and are cancellable with 30-90 days notice [3][4][13]. Customers include Fortune 500 campuses, HOAs, public parks, hotels, airports, municipalities, hospitals, schools, restaurants, and golf courses [16]. Net service revenues were $717.6MM for the quarter and $2,035.3MM for the nine months ended June 30, 2026 [7]; revenue was not reported as of 2025-09-30 and cash was $74.5MM (SEC XBRL).</p>
+<p>BrightView sells recurring landscape maintenance, snow removal, and development services to Fortune 500 corporate campuses, HOAs, public parks, airports, municipalities, hospitals, schools, restaurants, retail, and golf courses [2][16]. The 10-Q reports net service revenues of $717.6M for the three months ended June 30, 2026 [7]. The dossier lists no XBRL revenue as of 2025-09-30 and reports cash of $74.5M (SEC XBRL).</p>
 <h3>Chain position</h3>
-<p>BrightView occupies no node in a gas turbine or engine service and aftermarket adoption chain. Its route-based maintenance operations [15] have no economic link to data center load, run hours, or maintenance intervals. The map position is unsupported by the evidence.</p>
+<p>BrightView occupies no node in the data center gas generation adoption chain. The thesis expected gas turbine and engine service and aftermarket providers, but the filing describes only landscape maintenance and development services [0][2][13]. No economic logic connects route-based landscape services to turbine overhaul.</p>
 <h3>Customer graph</h3>
-<p>No named enterprise customers appear in the excerpts; the filing lists customer types only [16]. Government buyers are the Department of Defense ($106,943), Department of Veterans Affairs ($29,975), and Department of Justice ($26,334), totaling $273,951 in federal awards (USASpending). Seven other filers name BrightView (customer graph). Named enterprise customers are unproven, and the government awards are unrelated to the theme.</p>
+<p>Enterprise: no named customers appear in the excerpts. Government: federal awards total $273.95K, including $106.94K from the Department of Defense, $29.98K from the Department of Veterans Affairs, and $26.33K from the Department of Justice (USASpending). Unproven: no data center or generation customer is identified. Seven other filers name BrightView. Customer evidence for the thesis is thin.</p>
 <h3>Insider and management signal</h3>
-<p>Trailing 12 months show net open-market insider activity of $0 across 0 buys and 0 sales by 0 insiders (Form 4). Management language focuses on recurring contracts and segment revenue [2][11], with no discussion of data center load or energy infrastructure.</p>
+<p>Form 4 shows net open-market activity of $0 across 0 buys and 0 sales by 0 insiders over the trailing 12 months (Form 4). Management language focuses on seasonality, recurring contracts, and service delivery [3][19]. There is no management commitment to the data center or gas generation theme.</p>
 <h3>Street view</h3>
-<p>Sell-side coverage is unknown: analyst count, consensus, and mean target are n/a (street view). Thin coverage is typically part of a small-cap setup, but here it also reflects the absence of a thematic hook.</p>
+<p>Sell-side aggregators show unknown analyst count, consensus n/a, and mean target n/a (Street view). No recent firm rating actions are visible; bank reports are paywalled. Thin coverage does not create a hidden setup because the filing evidence contradicts the thesis.</p>
 <h3>Non-linear case</h3>
-<p>A path to a multiple of today's business would require BrightView to enter or be acquired into gas turbine aftermarket services, or to win data center campus landscape contracts at a scale that changes the revenue mix. Neither path is visible in the filing, which shows no energy-related services [1][2][13]. The non-linear case rests on unstated diversification or M&amp;A not evidenced in the excerpts.</p>
+<p>A non-linear outcome would require BrightView to transform into a gas generation services provider. That would appear as new reportable segments, named contracts, or related revenue in 10-K or 10-Q filings, none of which are present [0][7][13]. Without that evidence, a path to a multiple of today's business is not supported.</p>
 <h3>Evidence</h3>
 <ul>
+<li>BrightView is aligned into two reportable segments: Maintenance Services and Development Services [0].</li>
 <li>Revenue is generated from Maintenance Services and Development Services [1].</li>
-<li>Maintenance Services revenue comes primarily from landscape maintenance and snow removal [2].</li>
-<li>Landscape maintenance contracts are recurring, one to three years, cancellable with 30-90 days notice [3].</li>
-<li>Enhancement services are short-duration supplemental work [4].</li>
-<li>Net service revenues were $717.6MM and $2,035.3MM for the three and nine months ended June 30, 2026 [7].</li>
-<li>Maintenance Services delivers recurring landscaping, snow removal, water management, irrigation, tree care, and golf course maintenance [11][13].</li>
-<li>Maintenance services are route-based through a national branch network [15].</li>
-<li>Customers include corporate campuses, HOAs, public parks, hotels, airports, municipalities, hospitals, schools, restaurants, and golf courses [16].</li>
+<li>Maintenance Services revenues are generated through landscape maintenance and snow removal [2].</li>
+<li>Recurring landscape maintenance contracts run one to three years and are generally cancellable with 30-90 days notice [3].</li>
+<li>Net service revenues were $717.6M for the three months ended June 30, 2026 [7].</li>
+<li>Maintenance Services primarily consists of recurring landscape maintenance, snow removal, and enhancements [11].</li>
+<li>Customers include Fortune 500 corporate campuses, HOAs, public parks, airports, municipalities, hospitals, schools, restaurants, retail, and golf courses [16].</li>
+<li>Seasonality affects the business, including spring planting, fall leaf removal, winter snow, and summer mowing [19].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Average daily dollar volume is $12.4MM, so a small fund needs roughly 20 trading days to build a position (reality check). Net cash is -$715.7MM (SEC XBRL), and cash of $74.5MM is thin against that debt. The share count is down 2.4% over 12 months, showing buybacks, but the balance sheet is the binding constraint.</p>
+<p>Average daily dollar volume is $12.39M, so a position takes about 20 trading days to build (Reality check). Net cash is -$715.7M and cash is $74.5M (SEC XBRL). Share count is down 2.4% in 12 months, so there is no trailing dilution; no shelf is cited in the dossier facts (Reality check). Negative net cash and the absence of thematic revenue threaten the thesis.</p>
 <h3>What would change our mind</h3>
-<ul>
-<li>A 10-Q or 10-K disclosing gas turbine, engine, or aftermarket service revenue in the segment or revenue note.</li>
-<li>Form 4 open-market insider buying, signaling conviction in a new direction.</li>
-<li>A federal award tied to data center or energy infrastructure in USASpending, connecting customers to the theme.</li>
-</ul>
+<p>A 10-K or 10-Q segment disclosure showing gas turbine maintenance or data center power generation revenue. A Form 4 open-market insider purchase. A federal award identifying BrightView as a turbine or generation service provider.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> BrightView is aligned into two reportable segments: Maintenance Services and Development Services. <span class="muted">(10-Q, filed 2026-08-04, <a href="https://www.sec.gov/Archives/edgar/data/1734713/000119312526332820/bv-20260630.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> Revenue The Company s revenue is generated from Maintenance Services and Development Services. <span class="muted">(10-Q, filed 2026-08-04, <a href="https://www.sec.gov/Archives/edgar/data/1734713/000119312526332820/bv-20260630.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> Maintenance Services The Company s Maintenance Services revenues are generated primarily through landscape maintenance services and snow removal services. <span class="muted">(10-Q, filed 2026-08-04, <a href="https://www.sec.gov/Archives/edgar/data/1734713/000119312526332820/bv-20260630.htm">SEC document</a>)</span></li>
@@ -658,32 +693,32 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>GSAT: Satellite IoT revenue with no filing evidence of grid interconnection exposure</h2>
+        <h2>GSAT: Satellite IoT operator with no grid or data center exposure, thin customer evidence, and heavy insider selling</h2>
 <h3>Bear case first</h3>
-<p>The short is not clean. GSAT has real revenue and cash (SEC XBRL), so a short is a valuation or neglect bet, not a solvency event. The filings do not show data center or grid interconnection services [1][2][3][4], so the theme gives no fundamental catalyst. The short fails if the market keeps valuing the existing satellite business cash flow. Insider selling (Form 4) and thin federal awards (USASpending) support caution, not collapse.</p>
+<p>GSAT's existing satellite MSS and IoT services [2] produced $273.0M in revenue, and the company holds $447.5M cash (SEC XBRL), so the data center interconnection theme is not needed to keep it solvent. Federal awards, while small at $1.9M (USASpending), confirm government buyers. A short also faces $99.1M average daily dollar volume (reality check), which can squeeze. Yet insiders sold $30.0M with zero buys (Form 4), no named enterprise customer appears in the excerpts, and the filings contain no data center or grid interconnection program, capex, or revenue line. The $1.1B market cap therefore rests on a theme the filings never mention.</p>
 <h3>Business today</h3>
-<p>GSAT sells satellite connectivity: Commercial IoT, SPOT, and Duplex [2]. It also supports IoT in areas not served by terrestrial networks [1]. Revenue was $272.986MM and cash was $447.471MM at 2025-12-31 (SEC XBRL).</p>
+<p>Globalstar sells Commercial IoT, SPOT, and Duplex MSS services [2], plus connectivity for areas not served by terrestrial networks [1]. Revenue is $273.0M and cash is $447.5M (SEC XBRL); net cash is negative at $36.3M, implying debt of about $483.8M (reality check).</p>
 <h3>Chain position</h3>
-<p>GSAT is in the satellite connectivity layer, not the data center grid-interconnection queue. The grid-capex theme applies to developers awaiting interconnection studies and network upgrades; GSAT gets subscription or usage revenue, not grid infrastructure spend. No filing evidence connects data center load to GSAT revenue.</p>
+<p>The map positions this name at an at-risk node: data center developers awaiting grid interconnection. GSAT does not occupy that node on the evidence in the filings, which describe satellite IoT and MSS services [2] and terrestrial backup use cases [1]. No filing link connects its revenue to data center load, grid study capacity, or network upgrade fees.</p>
 <h3>Customer graph</h3>
-<p>No named enterprise customer appears in the excerpts. The only known buyers are government agencies: Department of Justice, Department of Defense, and Department of Homeland Security, with federal awards totaling $1.904MM (USASpending). Four other filers name the company (customer graph), but the excerpts do not identify them as buyers. The named buyer set is government only; the rest are unproven.</p>
+<p>Government agencies pay GSAT: $538.8K from DOJ, $175.2K from DoD, and $158.7K from DHS, totaling $1.9M (USASpending). No named enterprise customer appears in the excerpts. Four other SEC filers name GSAT (customer graph), but the filings do not quantify commercial revenue from them. Customer evidence is thin against $273.0M revenue (SEC XBRL).</p>
 <h3>Insider and management signal</h3>
-<p>Form 4 shows net open-market selling of $29.973MM, with 0 buys and 50 sales (Form 4). Management language describes products and latency but no theme-specific program, capex commitment, or quantified target [2][3][4]. The insider signal is negative, and management gives no data center narrative.</p>
+<p>Insiders sold $30.0M net with zero buys and 50 sales over the trailing 12 months (Form 4). Management language in the 10-K is descriptive: satellite IoT demand is growing [3], LEO systems have a latency advantage [4], but no data center or grid program, capex target, or quantified goal appears. The sale cluster reads as low conviction.</p>
 <h3>Street view</h3>
-<p>Street view data shows unknown analysts, consensus n/a, and mean target n/a (street view). Sell-side coverage is absent. Thin coverage lets the stock price on retail flows instead of analyst revisions.</p>
+<p>No sell-side analyst coverage, consensus, or mean target is visible in the available data (street view). The lack of coverage leaves the stock open to thematic narrative without analyst pushback.</p>
 <h3>Non-linear case</h3>
-<p>The downside path is a broad risk-off repricing of a no-catalyst satellite operator during the 2026-2030 grid capex cycle. If capital rotates into theme-exposed infrastructure names, GSAT could be sold despite stable revenue. Continued insider sales and no new named customers would deepen the multiple compression. The market must treat missing theme exposure as a penalty rather than a neutral absence.</p>
+<p>The downside path is a repricing of the implied data center premium. If the theme unwinds or GSAT reports no thematic revenue, the $1.1B market cap has no file support at about 4x revenue and negative net cash of $36.3M (reality check). A correction would be severe, and a subsequent equity raise would dilute at a low price. The downside compounds if LEO competitors take MSS share, since the 10-K concedes LEO's latency advantage [4].</p>
 <h3>Evidence</h3>
 <ul>
-<li>GSAT provides connectivity in areas not served or underserved by terrestrial networks [1].</li>
-<li>GSAT products include Commercial IoT, SPOT, and Duplex [2].</li>
-<li>Satellite IoT connectivity is becoming more critical to more sectors and use cases [3].</li>
-<li>LEO systems reduce transmission delay compared to geosynchronous systems [4].</li>
+<li>[1] "We provide reliable connectivity in areas not served or underserved by terrestrial wireless and wireline networks and in circumstances where terrestrial networks are not operational due to natural or man-made disasters" (10-K).</li>
+<li>[2] "We currently provide the following communications products and services to our MSS subscribers: ... Commercial IoT ... SPOT ... and Duplex" (10-K).</li>
+<li>[3] "Satellite IoT connectivity has become more critical to a growing number of sectors and use cases" (10-K).</li>
+<li>[4] "LEO systems reduce transmission delay compared to a geosynchronous system due to the shorter distance signals have to travel" (10-K).</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Average daily dollar volume is $99.074MM, so a small fund takes about 3 trading days to build a position (reality check). Net cash is -$36.317MM (reality check), so the balance sheet is modestly net-debt; revenue and cash do not imply near-term distress. The facts include no shelf or share count, so future dilution is not measured, but 50 insider sales add supply.</p>
+<p>A small fund can build a position in about 3 trading days at $99.1M average daily dollar volume (reality check). Net cash is negative at $36.3M (reality check), so the balance sheet does not fund a long wait. The liquidity cuts both ways: it enables position building, but can also squeeze a short.</p>
 <h3>What would change our mind</h3>
-<p>An open-market insider buy on Form 4 would reverse the all-sell signal. A named customer disclosure in an 8-K or 10-Q, especially an enterprise data center developer, would create a line to the theme. A federal award above $10MM on USASpending would strengthen customer validation.</p>
+<p>1. A Form 4 with open-market insider buys. 2. An 8-K or 10-K naming a data center or grid interconnection customer, program, or revenue line. 3. A USASpending federal award above $50M tied to grid or data center services.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> (3) Free cash flow is calculated using net cash provided by operating activities less capital expenditures (which may also be referred to as network upgrades). <span class="muted">(8-K, filed 2026-08-06, <a href="https://www.sec.gov/Archives/edgar/data/1366868/000136686826000037/gsat20260630-ex991.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> In addition to supporting Internet of Things ("IoT") data transmissions in a variety of applications, we provide reliable connectivity in areas not served or underserved by terrestrial wireless and wireline networks and in circumstances where terrestrial networks are not operational due to natural or man-made disasters. <span class="muted">(10-K, filed 2026-02-27, <a href="https://www.sec.gov/Archives/edgar/data/1366868/000136686826000012/gsat-20251231.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> Communications Products and Services We currently provide the following communications products and services to our MSS subscribers: data transmissions using a mobile or fixed device that transmits the location of the devices and other information to a central monitoring station, including our commercial IoT products ("Commercial IoT"); communication and data transmissions using our SPOT family of mobile devices that transmit messages and the location of the device ("SPOT"); and voice communication and data transmissions ("Duplex"). <span class="muted">(10-K, filed 2026-02-27, <a href="https://www.sec.gov/Archives/edgar/data/1366868/000136686826000012/gsat-20251231.htm">SEC document</a>)</span></li>
@@ -694,34 +729,37 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>GENESIS ENERGY LP: The grid capex supercycle is absent from this filing</h2>
+        <h2>GEL: The grid capex supercycle does not reach GEL's pipeline and marine business</h2>
 <h3>Bear case first</h3>
-<p>A disconfirming read: GEL is a pipeline and marine logistics partnership, not a grid equipment supplier. The 8-K describes maintenance capital for pipeline assets and for marine vessels and trucks [5][6]. It never mentions grid capex, transformers, breakers, or capacity expansion. The customer graph has two small GSA awards and no named enterprise buyers (USASpending), and a $201.636M insider buy (Form 4) is small.</p>
+<p>The disconfirming reading is that GEL is an energy-transport partnership, not a grid equipment supplier. The 8-K excerpts define maintenance capital for pipelines, vessels, and trucks [3][5][6] and reference no transformers, breakers, or data center load. Share count is up 9.2% in 12 months and a shelf registration is on file (reality check), pointing to dilution, not pricing power. Customer evidence is $19.9K in federal awards and no named enterprise buyers (USASpending). The insider buy of $201.6K (Form 4) is too small to offset the missing business evidence.</p>
 <h3>Business today</h3>
-<p>GEL owns pipeline assets and similar infrastructure, plus marine vessels and trucks [5][6]. Maintenance capital covers capitalized costs to maintain the service capability of existing assets [3]. Revenue was $1,630.415MM and cash was $6.437MM (SEC XBRL).</p>
+<p>GEL reports revenue of $1,630M and cash of $6.4M as of 2025-12-31 (SEC XBRL). The filing describes pipelines, marine vessels, trucks, and similar infrastructure [5][6]. Its stated purpose is maintaining the service capability of those assets [3].</p>
 <h3>Chain position</h3>
-<p>No high-voltage equipment adoption-chain node is supported. The filing only frames capital as maintenance of existing assets [3]. Data center load growth has no visible revenue mechanism without an asset-mix shift.</p>
+<p>The seed thesis targets high-voltage equipment manufacturing as an order 2 beneficiary of the grid capex cycle. GEL does not occupy that node on the available evidence. Its disclosed logic is cash returns from existing transport assets, not pricing power on new equipment [7][8].</p>
 <h3>Customer graph</h3>
-<p>The only identified payer is government: two GSA awards totaling $19.935M (USASpending). Enterprise: none named. Unproven: four other filers name GEL (customer graph). These awards are immaterial against $1,630.415MM revenue.</p>
+<p>No named enterprise customers appear in the excerpts; enterprise buyers are unproven. Federal awards total $19.9K from two General Services Administration contracts (USASpending). Four other filers name GEL, but the company names no grid-related customer. Customer evidence is thin and does not validate the adoption chain.</p>
 <h3>Insider and management signal</h3>
-<p>One insider bought $201.636M and sold none in the trailing 12 months (Form 4). Management discusses increasing discretion over maintenance capital timing [9] and excluding discretionary maintenance from Available Cash before Reserves [10]. No statement references grid equipment.</p>
+<p>One insider bought $201.6K on the open market with no sales in the trailing 12 months (Form 4). Management language focuses on classifying maintenance capital as discretionary or non-discretionary [0][4][9]. No statement expresses commitment to grid capacity expansion.</p>
 <h3>Street view</h3>
-<p>Sell-side aggregators show no analysts, no consensus, and no mean target. No rating actions exist to cite. Thin coverage does not confirm the thesis.</p>
+<p>Sell-side aggregators show unknown analyst count, no consensus, and no mean target. Coverage is effectively absent for a $1,432M market cap name. Thin coverage here is a warning about visibility, not a hidden setup.</p>
 <h3>Non-linear case</h3>
-<p>A multiple of today's business would require a pivot into high-voltage equipment manufacturing. That would need a filing-visible capital commitment, acquisition, or named customer program. None exists. The only non-linear path in the filing is negative: deferred maintenance raises operating expenses [7].</p>
+<p>A multiple of today's business would require GEL's existing assets to capture grid buildout value without supporting evidence in the filing. Data center demand could raise utilization of its pipeline or marine assets, but the 8-K does not quantify that. Capital could be redirected into grid services, but management's disclosed framework centers on Available Cash before Reserves and maintenance capital classification [0][10]. The mechanism is speculative.</p>
 <h3>Evidence</h3>
 <ul>
-<li>Maintenance capital expenditures keep existing assets serviceable [3].</li>
-<li>Before 2014, maintenance capital was mostly pipeline infrastructure [5].</li>
-<li>Since 2014, much maintenance capital is for marine vessels, trucks, and similar assets, and may be discretionary [6].</li>
-<li>Not spending this maintenance capital raises operating expenses [7].</li>
-<li>Management has increasing ability to time maintenance capital [9].</li>
-<li>Discretionary maintenance capital is not deducted from Available Cash before Reserves [10].</li>
+<li>Modified maintenance capital format because spending varies in nature, timing, and amount [0].</li>
+<li>Maintenance capital keeps existing assets serviceable [3].</li>
+<li>Maintenance capital can be discretionary or non-discretionary [4].</li>
+<li>Before 2014, substantially all was pipeline-related, non-discretionary, and immaterial [5].</li>
+<li>Since 2014, much is marine, truck, discretionary, and potentially material [6].</li>
+<li>Without it, assets can still operate but operating expenses rise [7].</li>
+<li>Management's discretion over spending affects how it analyzes the business [8].</li>
+<li>Deducting discretionary maintenance capital from Available Cash before Reserves would be inappropriate [9].</li>
+<li>Not all maintenance capital is clearly discretionary or non-discretionary [10].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Position building takes about 56 trading days at $4.432MM average daily dollar volume (reality check). Net cash is -$3,040.378MM, cash is $6.437MM, share count is up 9.2 percent, and a shelf is on file (reality check). These facts threaten the thesis; no cash runway can be estimated from the evidence.</p>
+<p>A small fund would need about 56 trading days to build a position at $4.4M average daily dollar volume (reality check), a meaningful liquidity constraint. Net cash is -$3,040M, share count is up 9.2%, and a shelf is on file (reality check). Leverage, dilution risk, and low liquidity threaten the thesis.</p>
 <h3>What would change our mind</h3>
-<p>Insider sales in a Form 4 would undercut the buy signal. An 8-K or 10-K naming high-voltage equipment, capacity expansion, or a transformer/breaker program would be the first thematic evidence. A federal award above the current total (USASpending) or a named enterprise customer in an SEC filing would strengthen the customer graph.</p>
+<p>A 10-K, 10-Q, or 8-K naming grid equipment, transformers, breakers, or data center customers as a revenue driver. Form 4 filings showing clustered buys from multiple insiders. A federal award tied to grid infrastructure in USASpending or an 8-K.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Disclosure Format Relating to Maintenance Capital We use a modified format relating to maintenance capital requirements because our maintenance capital expenditures vary materially in nature (discretionary vs. non-discretionary), timing and amount from time to time. <span class="muted">(8-K, filed 2026-08-06, <a href="https://www.sec.gov/Archives/edgar/data/1022321/000102232126000021/gel-20260806.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> We believe that, without such modified disclosure, such changes in our maintenance capital expenditures could be confusing and potentially misleading to users of our financial information, particularly in the context of the nature and purposes of our Available Cash before Reserves measure. <span class="muted">(8-K, filed 2026-08-06, <a href="https://www.sec.gov/Archives/edgar/data/1022321/000102232126000021/gel-20260806.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> Our maintenance capital utilized measure constitutes a proxy for non-discretionary maintenance capital expenditures and it takes into consideration the relationship among maintenance capital expenditures, operating expenses and depreciation from period to period. <span class="muted">(8-K, filed 2026-08-06, <a href="https://www.sec.gov/Archives/edgar/data/1022321/000102232126000021/gel-20260806.htm">SEC document</a>)</span></li>
@@ -739,42 +777,37 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>GSHD: Insurance franchise with no rate-case exposure; short lacks a mechanism</h2>
+        <h2>GSHD: Avoid, mapped to utility prudence review with no exposure</h2>
 <h3>Bear case first</h3>
-<p>Why the short fails: no utility rate base, no prudence review, and no grid capex exposure appear in the filing excerpts. GSHD sells insurance franchises; revenue definitions describe franchise fees and interest income only [1][2][10]. A short built on regulatory disallowances of utility projects has no transmission channel to GSHD earnings. The disconfirming read of the dossier: insider selling of $3.54MM (Form 4) is modest against the $1,544MM market cap, and the absence of named customers means no single buyer can disrupt revenue. The composite score measures thematic absence, not operational deterioration.</p>
+<p>The short depends on GSHD suffering from utility prudence review tightening, but the 10-Q's revenue categories contain no utility, grid, or data center language [3]. Cost Recovery Revenue, the only pass-through-like item, is $1.5M in Q2 2026 and $3.2M in H1 2026 [12][13], tied to franchise financing, not rate base [1][2]. No filing mechanism links a state commission disallowance to GSHD's economics. Disconfirming read: $34.4M cash (SEC XBRL) and negative net cash of $2.1M (Reality check) mean no solvency trigger; no named customer exists to lose (Customer graph). Insider selling of $3.5M net includes 10 buys (Form 4), so the signal is mixed.</p>
 <h3>Business today</h3>
-<p>GSHD sells insurance franchises to agents, collecting royalties, initial franchise fees, and interest income on franchise payment plans [2][5][6]. Revenue is split into Core Revenue, Cost Recovery Revenue, and Ancillary Revenue, all non-GAAP measures [3]. Cost Recovery Revenue was $1.5MM in Q2 2026 and $3.2MM in H1 2026 [12][13]. SEC XBRL reports $0 revenue and $34.39MM cash at 2024-12-31, which conflicts with the 10-Q revenue categories; the excerpts do not resolve the conflict.</p>
+<p>GSHD sells insurance franchises. Revenue is three non-GAAP categories [3]: Cost Recovery Revenue is initial franchise fees plus interest income on franchise payment plans [2][5][6]; a GAAP reconciliation appears under Key performance indicators [4]. The dossier shows $0 GAAP revenue and $34.4M cash as of 2024-12-31 (SEC XBRL), conflicting with the 10-Q's $3.2M non-GAAP Cost Recovery Revenue for H1 2026 [13]; the company cautions these are not GAAP substitutes [7][8].</p>
 <h3>Chain position</h3>
-<p>The map places GSHD at the utility rate case and prudence review exposure node, order 2, at-risk, mid horizon. The node's mechanism is that regulators tighten cost recovery conditions as rate base requests rise, and one disallowance can offset many approved projects. GSHD does not occupy that node: no regulated assets, no capex program, and no rate case participation appear in the excerpts.</p>
+<p>The map assigns GSHD to the utility rate case and prudence review node, order 2, at risk. That node's logic is that one disallowance can offset earnings from many approved projects. GSHD does not occupy the node; its economics are franchise fees and financing [1][2], with no regulated rate base or grid capex in evidence.</p>
 <h3>Customer graph</h3>
-<p>Unproven. No named enterprise customers appear in the filing excerpts [0][3], federal award dollars are $0 (USASpending), and 7 other filers name the company (customer graph). Franchisees who pay initial franchise fees and interest income are the effective buyers, but they are not named in the excerpts. Customer evidence is thin.</p>
+<p>Who pays GSHD is unproven. No enterprise customer is named in the excerpts, USASpending shows $0 in federal awards (USASpending), and 7 other filers name GSHD with no paying relationship stated (Customer graph). The only buyers described are franchisees paying initial fees and interest [5][6]. Government: none. Enterprise: none. Unproven: franchisees.</p>
 <h3>Insider and management signal</h3>
-<p>Insiders sold a net $3.54MM on the open market over the trailing 12 months (Form 4). Management language in the excerpts is definitional, covering non-GAAP revenue measures and cost recovery mechanics [7][8][11], with no capital plan, no named growth program, and no discussion of grid or data center activity.</p>
+<p>Insiders net sold $3.5M across 10 buys and 2 sales (Form 4), a negative read. Management language is limited to defining non-GAAP revenue categories and their limitations [4][7][8][9], plus the caveat that Ancillary Revenue is unpredictable [0]. No named programs, capex commitments, or strategic targets appear in the excerpts.</p>
 <h3>Street view</h3>
-<p>Sell-side coverage is not visible: analyst count unknown, consensus n/a, mean target n/a. For a $1,544MM market cap name, no visible coverage is an absence of analyst validation. Thin coverage also means no coverage-driven re-rating is pending.</p>
+<p>Sell-side coverage is unmeasurable: analyst count, consensus, and mean target are all n/a (Street view). No firm ratings or actions are visible. Thin coverage means the market has not had to reconcile GSHD's lack of theme exposure.</p>
 <h3>Non-linear case</h3>
-<p>The theme-based non-linear case does not exist: the company has no rate base and no prudence review exposure. The downside path that does compound is a compression of the franchise finance model. Initial franchise fees and interest income are cost recovery streams tied to selling and financing franchise units [5][6]. If franchisee recruitment slows, both streams decline, and the non-GAAP adjusted metrics management emphasizes fall in parallel [7][8]. The path compounds if payment plan defaults force write-downs of the receivables behind interest income.</p>
+<p>If the grid capex supercycle tightens credit, GSHD's interest income from franchise payment plans could reverse [6]; negative net cash of $2.1M (Reality check) would force dilutive financing. The label Cost Recovery Revenue [11] invites conflation with utility cost recovery under regulatory attack; a market-wide repricing would hit a stock with $0 GAAP revenue (SEC XBRL) and no theme hedge. An equity raise or credit drawdown would compound the insider-selling signal.</p>
 <h3>Evidence</h3>
 <ul>
-<li>Defined terms for revenue categories appear at the start of the 10-Q [0]</li>
-<li>Revenue streams defined as Core Revenue, Cost Recovery Revenue, and Ancillary Revenue, all non-GAAP [3]</li>
-<li>Cost Recovery Revenue is revenue from selling and financing franchises [1]</li>
-<li>Cost Recovery Revenue includes Initial Franchise Fees and Interest Income [2][10]</li>
-<li>Initial Franchise Fees are one-time revenue per franchise unit covering first-year costs [5]</li>
-<li>Interest Income reimburses the company for franchises on payment plans [6]</li>
-<li>Cost Recovery Revenue increased $0.1MM to $1.5MM in Q2 2026 [12]</li>
-<li>Cost Recovery Revenue increased $0.2MM to $3.2MM in H1 2026 [13]</li>
-<li>Management believes Cost Recovery Revenue is an appropriate operating performance measure [11]</li>
-<li>Non-GAAP measures have limitations and are not substitutes for GAAP measures [7][8]</li>
+<li>Revenue is three non-GAAP categories [3].</li>
+<li>Cost Recovery Revenue is revenue from selling and financing franchises [1].</li>
+<li>It includes Initial Franchise Fees and Interest Income [2].</li>
+<li>Initial Franchise Fees are one-time fees for first-year support [5]; Interest Income reimburses the company for franchises on payment plans [6].</li>
+<li>A GAAP reconciliation appears under Key performance indicators [4].</li>
+<li>These measures are non-GAAP, not GAAP substitutes [7], and have limitations [8]; other companies may calculate them differently [9].</li>
+<li>Management believes Cost Recovery Revenue is an appropriate performance measure [11].</li>
+<li>Cost Recovery Revenue was $1.5M in Q2 2026 [12] and $3.2M in H1 2026 [13].</li>
+<li>Ancillary Revenue is unpredictable and outside the company's control [0].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>A small fund can build a position in about 9 trading days given the $28.82MM average daily dollar volume (reality check). Net cash is -$2.11MM (reality check), so debt exceeds reported cash of $34.39MM; the excerpts do not discuss debt terms. No shelf or share count data is in the dossier facts, so dilution risk is unquantified.</p>
+<p>A small fund can build a position: $28.8M average daily dollar volume implies about 9 trading days to size in (Reality check). Net cash is negative $2.1M (Reality check); dilution risk is unquantified, and no share count trend or shelf filing appears in the dossier, so an equity raise cannot be ruled out.</p>
 <h3>What would change our mind</h3>
-<ul>
-<li>A 10-Q or 10-K that names utility, grid, or data center customers or products tied to the capex cycle.</li>
-<li>A Form 4 showing net open-market insider buying, reversing the 12-month selling trend.</li>
-<li>A USASpending federal award to the company, adding a government buyer to the customer graph.</li>
-</ul>
+<p>A 10-Q or 10-K disclosing revenue tied to grid, data center, or utility customers would force a reassessment. Form 4s showing net open-market buying by multiple insiders would contradict the current signal. A named customer in an 8-K or a new federal award in USASpending would upgrade the customer graph.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Exhibits 44 SIGNATURES 44 2 Commonly used defined terms As used in this Quarterly Report on Form 10-Q ("Form 10-Q"), unless the context indicates or otherwise requires, the following terms have the following meanings: Ancillary Revenue: Revenue that is supplemental to our Core Revenue and Cost Recovery Revenue, Ancillary Revenue is unpredictable and often outside of the Company's control. <span class="muted">(10-Q, filed 2026-07-23, <a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000060/gshd-20260630.htm">SEC document</a>)</span></li>
 <li><span class="mono">[1]</span> Cost Recovery Revenue: Revenue received by the Company associated with cost recovery efforts associated with selling and financing franchises. <span class="muted">(10-Q, filed 2026-07-23, <a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000060/gshd-20260630.htm">SEC document</a>)</span></li>
 <li><span class="mono">[2]</span> Included in Cost Recovery Revenue are Initial Franchise Fees and Interest Income. <span class="muted">(10-Q, filed 2026-07-23, <a href="https://www.sec.gov/Archives/edgar/data/1726978/000172697826000060/gshd-20260630.htm">SEC document</a>)</span></li>
@@ -792,33 +825,29 @@
       </section>
 <hr />
 <section class="thesis">
-        <h2>TASK: Avoid; no filing evidence connects TaskUs to the grid capex cycle, and thin customer validation, insider selling, negative net cash, and zero coverage leave no catalyst.</h2>
+        <h2>TASK: Avoid; the grid capex overcapacity short is unsupported by the filing evidence, and the only disclosed risk is generic pricing pressure.</h2>
 <h3>Bear case first</h3>
-<p>The short thesis fails because the evidence is too thin to prove the mechanism. The only negative in the excerpt is a generic pricing-pressure risk factor [0], while TaskUs reported $1,183.5MM revenue and $211.7MM cash (SEC XBRL). Insider selling of $650M over four sales and zero buys is small against a $290MM market cap (Form 4; reality check). The customer graph does not identify a concentrated buyer that could collapse, and the filing does not show any revenue link to the grid capex cycle. With no sell-side estimates, a short has no consensus revision to push against.</p>
+<p>The short thesis requires demand pull-forward and capacity overshoot to compress margins, but the 10-K excerpt discloses only a generic pricing pressure risk [0]. The filings do not show backlog, lead times, capacity additions, or price data. The disconfirming read: insider selling of $650K is 0.2% of the $290M market cap (Form 4, SEC XBRL), and the customer graph is too thin for a concentration-cancellation story. A short that predicts margin erosion without evidence in the filing record is waiting for a filing that may not come.</p>
 <h3>Business today</h3>
-<p>The 10-K excerpt does not state what TaskUs sells. It reports revenue of $1,183.5MM and cash of $211.7MM at 2025-12-31 (SEC XBRL) and warns that pricing pressure may reduce revenue or gross profit [0]. Product and end market are unidentifiable from this evidence.</p>
+<p>TaskUs, Inc. filed the 10-K [0]. The excerpt says pricing pressure may reduce revenue or gross profits [0]. Revenue is $1,183.5M and cash is $211.7M (SEC XBRL). The excerpt does not describe a product, customer, or segment.</p>
 <h3>Chain position</h3>
-<p>The evidence does not place TaskUs on the adoption chain. The excerpt contains no mention of data-center load, high-voltage equipment, utility demand, or capex [0]. The grid supercycle is an external map, not a filing-supported position.</p>
+<p>The map position puts TASK among high-voltage equipment suppliers in the grid capex chain, but the excerpt has no reference to grid infrastructure, data center load, or equipment [0]. TASK occupies no identifiable node in that chain on the available evidence.</p>
 <h3>Customer graph</h3>
-<p>No named enterprise or government customer appears in the evidence. Federal awards are $0 (USASpending). Two other SEC filers name TaskUs, but the relationship is not stated, so the buyer cannot be labeled enterprise or government (customer graph). Customer validation is unproven.</p>
+<p>Named customers: none, so the enterprise buyer is unproven. Federal awards: $0, so the government buyer is unproven (USASpending). Two other filers name TASK, but the relationship is unspecified. Customer evidence is thin across every buyer type.</p>
 <h3>Insider and management signal</h3>
-<p>Form 4 data shows zero open-market buys and four sales, with a net open-market sale of $650M over the trailing 12 months (Form 4). The only filing language is a standard pricing-pressure risk factor, so there is no management commitment, named program, or quantified target [0]. The insider signal is negative but not large.</p>
+<p>Form 4 reports net open-market selling of $650K across 0 buys and 4 sales (Form 4). Management language is a standard risk factor with no named program or quantified target [0]. The selling is small relative to the $290M market cap, but no buying exists to offset it (Form 4).</p>
 <h3>Street view</h3>
-<p>Sell-side aggregator data shows no analyst count, no consensus, and no mean target (Street view). No firm ratings are available. At a $290MM market cap (reality check), the absence of coverage means no published estimate is being revised.</p>
+<p>Sell-side coverage is not identified; consensus and mean target are not available. No firm rating actions are reported. For a $290M name with no coverage, the market relies on the same sparse disclosures cited here.</p>
 <h3>Non-linear case</h3>
-<p>The downside path is the late-cycle overshoot: suppliers add capacity during the pulled-forward demand wave, import supply arrives, lead times shorten, and prices fall after utility demand is satisfied. For TaskUs, the pricing-pressure risk factor [0] compounds if it reflects the same capacity cycle, because revenue or gross margin can erode while customer concentration remains unproven. Net cash is already -$29.7MM (reality check), so a demand decline would shrink the cushion. If that appears in a future 10-Q, the $290MM market cap leaves limited valuation support.</p>
+<p>The downside path is a margin and revenue spiral. The disclosed pricing pressure, if it intensifies, would reduce gross profits directly [0]. With revenue of $1,183.5M, cash of $211.7M, and net cash of $-29.7M (SEC XBRL, reality check), margin compression is amplified by negative net cash. The scenario compounds if price competition persists beyond one quarter, which would appear as gross margin erosion in successive 10-Q filings. The stock would rerate toward a cash-adjusted fraction of its $290M market cap.</p>
 <h3>Evidence</h3>
 <ul>
-<li>[0] 10-K (filed 2026-03-05): "Pricing pressure may reduce our revenue or gross profits and adversely affect our business, financial condition or results of operations."</li>
+<li>Pricing pressure may reduce revenue or gross profits, disclosed in the 10-K filed 2026-03-05 [0].</li>
 </ul>
 <h3>Sizing and survivability</h3>
-<p>Average daily dollar volume is $4.3MM (reality check), and the reality check estimates about 57 trading days to build a position, so a small fund cannot enter quickly. Net cash is -$29.7MM (reality check), and no burn-rate data is supplied to estimate runway. No share count growth or shelf is identified in the supplied facts, so dilution risk is unmeasured but not ruled out.</p>
+<p>Average daily dollar volume is $4.3M, so a full position takes about 57 trading days to build (reality check). Net cash is $-29.7M, meaning debt exceeds cash (reality check). No share count growth or shelf data is in the given facts, so dilution risk cannot be assessed beyond the negative net cash position.</p>
 <h3>What would change our mind</h3>
-<ul>
-<li>A 10-K or 10-Q that names a data-center, utility, or grid customer and quantifies segment revenue, which would validate the theme link.</li>
-<li>A Form 4 showing open-market buys by named insiders, reversing the four-sale, zero-buy pattern.</li>
-<li>A federal award in USASpending, because current federal awards are $0.</li>
-</ul>
+<p>A 10-Q filing showing stable or expanding gross margin would contradict the pricing pressure warning [0]. A Form 4 with an open-market insider purchase would reverse the insider signal. A 10-K or 8-K naming a new customer or a federal award would start to fill the empty customer graph.</p>
         <details><summary>Evidence: exact filing sentences cited above</summary><ul><li><span class="mono">[0]</span> Pricing pressure may reduce our revenue or gross profits and adversely affect our business, financial condition or results of operations. <span class="muted">(10-K, filed 2026-03-05, <a href="https://www.sec.gov/Archives/edgar/data/1829864/000182986426000012/task-20251231.htm">SEC document</a>)</span></li></ul></details>
       </section>
 </body>

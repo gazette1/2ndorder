@@ -57,24 +57,7 @@ function inline(s: string): string {
   return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 }
 
-function money(n: number | null): string {
-  if (n === null) return 'not reported';
-  const abs = Math.abs(n);
-  const sign = n < 0 ? '-' : '';
-  if (abs >= 1e6) return `${sign}$${(abs / 1e6).toFixed(abs >= 1e8 ? 0 : 1)}MM`;
-  if (abs >= 1e3) return `${sign}$${Math.round(abs / 1e3)}M`;
-  return `${sign}$${abs}`;
-}
-
-// Market caps in MM, rendered comma-free: $2.54B at billion scale, $640MM below.
-function capMM(v: number | null | undefined): string {
-  if (v === null || v === undefined) return 'n/a';
-  if (v >= 1000) {
-    const b = v / 1000;
-    return `$${b >= 100 ? Math.round(b) : b.toFixed(2).replace(/\.?0+$/, '')}B`;
-  }
-  return `$${Math.round(v)}MM`;
-}
+import { fmtCapMM as capMM, fmtUSD as money } from '../lib/money.js';
 
 // Composite scores present as bands; the number is fake precision, the band
 // plus the subscore rationales are the honest statement.
@@ -84,6 +67,16 @@ function band(score: number | undefined): string {
   if (score >= CONFIG.bands.moderate) return 'Moderate';
   if (score >= CONFIG.bands.weak) return 'Weak';
   return 'Insufficient evidence';
+}
+
+// Corpus size derived from the index at build time, never written by hand.
+function corpusCount(): number | null {
+  try {
+    const p = path.resolve('data/corpus/index.json');
+    return Object.keys(JSON.parse(fs.readFileSync(p, 'utf8'))).length;
+  } catch {
+    return null;
+  }
 }
 
 export function buildMemo(slug: string): string {
@@ -312,7 +305,7 @@ ${macro.series
 </head>
 <body>
 <h1>IC memo: ${esc(run.seed)}</h1>
-<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band ${capMM(CONFIG.capBandMM[0])} to ${capMM(CONFIG.capBandMM[1])}.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band ${capMM(CONFIG.capBandMM[0])} to ${capMM(CONFIG.capBandMM[1])}.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''}${(() => { const n = corpusCount(); return n ? ` Corpus: ${n.toLocaleString('en-US')} US filers.` : ''; })()} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
 
 ${
   decomp.trigger

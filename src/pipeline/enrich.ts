@@ -7,6 +7,7 @@ import { stakeDisclosures } from '../lib/holders.js';
 import { governance } from '../lib/governance.js';
 import { hiringSnapshot } from '../lib/jobs.js';
 import { advUSD, priceStats } from '../lib/marketdata.js';
+import { fmtUSD } from '../lib/money.js';
 import { coverage } from '../lib/coverage.js';
 import { cleanName, emptyCustomerGraph, govAwards } from '../lib/usaspending.js';
 import { load, save } from '../lib/store.js';
@@ -27,7 +28,7 @@ async function realityCheck(c: Candidate, funds: Fundamentals): Promise<RealityC
   ]);
 
   const daysToBuild = adv ? Math.ceil(R.positionUSD / (adv * R.participationRate)) : null;
-  // Position as a share of market cap: a $37MM position in a $200MM company is
+  // Position as a share of market cap: a $37M position in a $200M company is
   // 18 percent ownership, which is not a position, it is an activist stake.
   const ownershipPct =
     c.marketCapMM && c.marketCapMM > 0
@@ -49,7 +50,7 @@ async function realityCheck(c: Candidate, funds: Fundamentals): Promise<RealityC
   const flags: string[] = [];
   if (daysToBuild !== null && daysToBuild > R.thinLiquidityDays) {
     flags.push(
-      `thin liquidity: about ${daysToBuild} trading days to build $${R.positionUSD / 1e6}MM at ${Math.round(R.participationRate * 100)} percent of volume`,
+      `thin liquidity: about ${daysToBuild} trading days to build ${fmtUSD(R.positionUSD)} at ${Math.round(R.participationRate * 100)} percent of volume`,
     );
   }
   if (runwayQuarters !== null && runwayQuarters < R.minRunwayQuarters) {
