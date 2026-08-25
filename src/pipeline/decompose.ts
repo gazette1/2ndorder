@@ -36,7 +36,17 @@ function repairTree(nodes: ChainNode[]): ChainNode[] {
 }
 
 export async function decompose(slug: string, seed: string): Promise<Decomposition> {
-  const raw = await llm(slug, 'decompose', decomposePrompt(seed), 'json', 'heavy');
+  // Article runs carry a validated trigger contract; its facts are the only
+  // permitted source for the trigger block, so decomposition cannot invent
+  // magnitudes the article never stated.
+  let contractBlock = '';
+  try {
+    const tc = load<Record<string, unknown>>(slug, 'trigger-contract');
+    contractBlock = `\n\nVERIFIED TRIGGER CONTRACT (extracted from the source article and validated; every number in it appears in the article). Your "trigger" object MUST copy these facts: use the stated rates and amounts verbatim, the stated dates, the stated status. Do not restate magnitudes as ranges, do not substitute assumed numbers, do not shift the timing. Facts absent from the contract stay absent; put genuinely needed assumptions in node falsifiers instead.\n${JSON.stringify(tc)}`;
+  } catch {
+    // typed scenario, no contract; decompose normalizes the trigger itself
+  }
+  const raw = await llm(slug, 'decompose', decomposePrompt(seed) + contractBlock, 'json', 'heavy');
   const parsed = JSON.parse(raw) as Decomposition;
   const nodes = repairTree((parsed.nodes ?? []).filter(validNode));
   const dropped = (parsed.nodes?.length ?? 0) - nodes.length;

@@ -4,11 +4,12 @@ import { enrich } from './enrich.js';
 import { mapTickers } from './map.js';
 import { readFilings } from './read.js';
 import { score } from './score.js';
-import { load, save } from '../lib/store.js';
+import { load, save, saveText } from '../lib/store.js';
 import { macroContext } from '../lib/macro.js';
 import { fetchArticleText } from '../lib/article.js';
 import { llm } from '../lib/llm.js';
 import { articleScenarioPrompt } from '../prompts/decompose.js';
+import { extractTriggerContract } from './trigger.js';
 
 // The full pipeline for one run, in order. Used by the CLI "all" stage and by the
 // API server when a search has no cached run. Each stage persists its output to
@@ -48,6 +49,18 @@ export async function runCounter(slug: string): Promise<string> {
 export async function runFromArticle(slug: string, url: string): Promise<void> {
   const article = await fetchArticleText(url);
   console.log(`[article] fetched "${article.title.slice(0, 80)}" (${article.text.length} chars)`);
+  // Persist the article text: the trigger validator and any later audit need
+  // the exact source the model saw.
+  saveText(slug, 'article.txt', article.text);
+
+  // Evidence-bound trigger contract FIRST. If validation fails (an invented
+  // number, a quote not in the text), this throws and the run stops here;
+  // an unvalidated event never reaches decomposition.
+  const contract = await extractTriggerContract(slug, article);
+  console.log(
+    `[trigger] validated: ${contract.primaryActor} ${contract.action.slice(0, 60)} | rates ${(contract.rates.value ?? []).join(', ') || 'none stated'} | status ${contract.status}`,
+  );
+
   const raw = await llm(slug, 'article-scenario', articleScenarioPrompt(article.title, article.text), 'json', 'heavy');
   const scenario = String((JSON.parse(raw) as { scenario: string }).scenario ?? '').trim();
   if (!scenario) throw new Error('Could not extract an investable scenario from the article.');

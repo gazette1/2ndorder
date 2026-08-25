@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Cross-border input cost relief",
+      "mechanism": "Removal of US and Canadian tariffs lowers the landed cost of Canadian raw materials and components for US manufacturers.",
+      "logic": "Many US manufacturers source aluminum, lumber, auto parts, and energy from Canada. The tariff removal directly reduces cost of goods sold because invoices no longer include the duty line. The effect is larger for firms with high Canadian content and thin import alternatives, making the margin gain mechanically tied to tariff elimination.",
+      "horizon": "near",
+      "kpi": "gross margin",
+      "falsifier": "Suppliers keep tariff-inclusive prices or long-term contracts reset prices upward, absorbing the duty savings.",
+      "searchPhrases": [
+        "Canadian aluminum",
+        "import tariffs",
+        "cost of goods sold",
+        "supply chain"
+      ]
+    },
+    {
+      "id": "n2",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Canadian export volume recovery",
+      "mechanism": "Tariff elimination restores price competitiveness of Canadian goods in the US market, lifting export unit volumes.",
+      "logic": "Canadian producers of softwood lumber, aluminum, and auto parts lost US share when tariffs made them more expensive than domestic or Mexican alternatives. With duties removed, US buyers again see Canadian supply as the lowest landed cost option in many regions. The volume recovery is levered because Canadian producers had spare capacity and existing customer relationships that can be reactivated quickly.",
+      "horizon": "near",
+      "kpi": "unit volume",
+      "falsifier": "US buyers have multi-year contracts with non-Canadian suppliers or Canadian producers face capacity constraints that limit shipments.",
+      "searchPhrases": [
+        "Canadian softwood lumber",
+        "aluminum extrusion",
+        "auto parts",
+        "export sales"
+      ]
+    },
+    {
+      "id": "n3",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Import-competing US producer price pressure",
+      "mechanism": "Renewed Canadian import competition forces US domestic producers of steel, lumber, and aluminum to reduce realized prices.",
+      "logic": "These producers had gained market share and pricing power while Canadian goods faced tariffs. The removal of duties brings Canadian supply back into the US market, creating excess supply in import-sensitive product categories. Price declines are amplified because capital-intensive producers initially defend volume rather than cede share, leading to markdowns.",
+      "horizon": "mid",
+      "kpi": "price",
+      "falsifier": "Strong US construction and manufacturing demand absorbs the additional Canadian supply without forcing price concessions.",
+      "searchPhrases": [
+        "domestic steel",
+        "lumber prices",
+        "import competition",
+        "realized price"
+      ]
+    },
+    {
+      "id": "n4",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Customs brokerage and duty drawback demand contraction",
+      "mechanism": "Eliminating tariffs reduces transaction volume for customs brokerage, duty drawback, and tariff classification services.",
+      "logic": "Tariff complexity created recurring revenue for intermediaries that classify goods, manage duty payments, and file drawback claims. Under duty-free USMCA trade, importers need fewer specialized filings and dispute resolutions. The decline is concentrated in firms whose revenue is tied to tariff administration rather than general freight forwarding, so the effect is disproportionate to the drop in trade value.",
+      "horizon": "near",
+      "kpi": "unit volume",
+      "falsifier": "Non-tariff regulatory complexity, such as forced labor or carbon border rules, keeps demand for customs services elevated.",
+      "searchPhrases": [
+        "customs brokerage",
+        "duty drawback",
+        "tariff classification",
+        "import compliance"
+      ]
+    },
+    {
+      "id": "n5",
+      "parentId": "n1",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Cross-border supplier order book rebuild",
+      "mechanism": "US manufacturers increase purchase orders from Canadian suppliers to lock in lower input costs.",
+      "logic": "Procurement teams respond to lower landed costs by reallocating volume back to Canadian suppliers that had been displaced. This rebuilds backlog for Canadian producers because order books had shrunk during the tariff period. The effect is levered because many US manufacturers had already qualified Canadian suppliers historically, so switching back requires less lead time than onboarding new vendors.",
+      "horizon": "mid",
+      "kpi": "backlog",
+      "falsifier": "Buyers maintain diversified sourcing across multiple countries to hedge against future tariff reversals, limiting order concentration in Canada.",
+      "searchPhrases": [
+        "backlog",
+        "purchase orders",
+        "Canadian suppliers",
+        "supply chain diversification"
+      ]
+    },
+    {
+      "id": "n6",
+      "parentId": "n3",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Import-competing producer margin compression",
+      "mechanism": "US domestic producers lower prices to defend capacity utilization, compressing gross margins.",
+      "logic": "Faced with renewed Canadian competition, import-competing producers choose to cut prices rather than idle capacity. The margin compression is leveraged because these producers have high fixed costs, so every point of price decline flows directly to gross margin. Many cannot reduce variable costs quickly enough to offset the revenue loss.",
+      "horizon": "mid",
+      "kpi": "gross margin",
+      "falsifier": "Producers instead hold price and accept volume loss, or governments impose non-tariff barriers that limit Canadian competition.",
+      "searchPhrases": [
+        "gross margin",
+        "price competition",
+        "market share",
+        "capacity utilization"
+      ]
+    },
+    {
+      "id": "n7",
+      "parentId": "n2",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Canadian supplier capacity restart",
+      "mechanism": "Canadian producers restart idled capacity and increase capital spending to meet returning US demand.",
+      "logic": "Tariffs had forced Canadian exporters to idle lines or shift output to other markets. Renewed US orders justify restarting capacity, which lifts utilization with low incremental labor cost. The effect is amplified because many Canadian facilities are capital-intensive, so utilization gains translate directly into higher operating leverage.",
+      "horizon": "mid",
+      "kpi": "capacity utilization",
+      "falsifier": "Labor shortages, high energy costs, or better opportunities in non-US markets prevent Canadian producers from restarting capacity.",
+      "searchPhrases": [
+        "capacity utilization",
+        "capital expenditures",
+        "Canadian manufacturing",
+        "expansion"
+      ]
+    },
+    {
+      "id": "n8",
+      "parentId": "n4",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Tariff compliance retainer client loss",
+      "mechanism": "Importers terminate retainers for tariff dispute support and specialized trade advisory services.",
+      "logic": "Clients that paid recurring fees for tariff classification, country of origin analysis, and duty mitigation no longer need that support under duty-free trade. The loss of retainer revenue hits specialized trade compliance firms hardest because their customer count is tied to active tariff management. The decline is rapid because retainers are typically cancellable on short notice.",
+      "horizon": "near",
+      "kpi": "customer count",
+      "falsifier": "New compliance requirements in other areas, such as forced labor or export controls, keep customers on retainer.",
+      "searchPhrases": [
+        "trade compliance",
+        "customs brokerage",
+        "retainer",
+        "import consulting"
+      ]
+    },
+    {
+      "id": "n9",
+      "parentId": "n1",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Cross-border inventory financing expansion",
+      "mechanism": "Lenders and investors increase credit for cross-border inventory and logistics assets as tariff risk recedes.",
+      "logic": "Capital providers had been pricing in the possibility of tariff-driven supply chain disruption. The resolution lowers risk premiums and makes financing for integrated North American supply chains more attractive. This expands working capital availability for importers and Canadian suppliers, reducing cash conversion cycles.",
+      "horizon": "mid",
+      "kpi": "working capital",
+      "falsifier": "Higher interest rates or a broader freight recession reduce credit demand despite lower tariff risk.",
+      "searchPhrases": [
+        "working capital",
+        "inventory financing",
+        "logistics",
+        "supply chain finance"
+      ]
+    },
+    {
+      "id": "n10",
+      "parentId": "n5",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Cross-border freight volume recovery",
+      "mechanism": "Reallocation of purchase orders to Canadian suppliers raises truck and rail freight volumes on US-Canada lanes.",
+      "logic": "More Canadian-sourced goods moving into the US directly increases shipments for cross-border trucking and rail intermodal providers. The effect is magnified because integrated supply chains often require multiple border crossings for intermediate goods. Freight volumes recover faster than overall trade value because shippers also rebuild safety stock previously held in alternative locations.",
+      "horizon": "mid",
+      "kpi": "unit volume",
+      "falsifier": "Nearshoring to Mexico or domestic US production grows faster than Canadian sourcing, reducing cross-border lane demand.",
+      "searchPhrases": [
+        "cross-border freight",
+        "truckload",
+        "rail intermodal",
+        "freight volumes"
+      ]
+    },
+    {
+      "id": "n11",
+      "parentId": "n6",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "US import-competing sector share loss and consolidation",
+      "mechanism": "Persistent Canadian price competition erodes US domestic producer market share and forces consolidation.",
+      "logic": "Price cuts provide only temporary defense because Canadian producers can sustain lower prices due to restarting capacity and currency effects. Over time, weaker US producers lose share and become acquisition targets or exit. The consolidation is levered because fragmented sectors like lumber and aluminum have many marginal producers that cannot withstand a prolonged margin squeeze.",
+      "horizon": "long",
+      "kpi": "market share",
+      "falsifier": "Trade remedy petitions or new non-tariff barriers restore protection and halt share loss.",
+      "searchPhrases": [
+        "market share",
+        "consolidation",
+        "import competition",
+        "anti-dumping"
+      ]
+    },
+    {
+      "id": "n12",
+      "parentId": "n7",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Canadian supplier margin normalization",
+      "mechanism": "Simultaneous capacity restarts across Canadian export sectors create oversupply and compress gross margins.",
+      "logic": "The same demand signal leads many Canadian producers to restart capacity at once, causing industry-wide oversupply in lumber, aluminum, and auto parts. As export volumes rise, pricing power shifts to US buyers, and gross margins normalize below the initial recovery peak. The effect is amplified because capital providers finance expansion, adding capacity beyond near-term demand.",
+      "horizon": "long",
+      "kpi": "gross margin",
+      "falsifier": "Disciplined capital spending, capacity constraints, or strong demand growth prevent oversupply from emerging.",
+      "searchPhrases": [
+        "capacity utilization",
+        "gross margin",
+        "supply demand balance",
+        "export pricing"
+      ]
+    }
+  ],
+  "themeKeywords": [
+    "tariff",
+    "USMCA",
+    "Canada",
+    "import duties",
+    "trade agreement",
+    "cross-border supply chain",
+    "goods inflation",
+    "North American supply chain"
+  ],
+  "trigger": {
+    "actor": "United States and Canadian governments",
+    "action": "Resolve tariff disputes and maintain tariff-free cross-border trade under USMCA",
+    "magnitude": "Tariffs on bilateral goods trade return to pre-2025 rates, effectively 0% for USMCA-compliant goods, avoiding proposed tariff increases of up to 25 percentage points",
+    "geography": "United States and Canada, affecting cross-border supply chains",
+    "timing": "Effective mid-2025 through 2026",
+    "certainty": "Assumed (scenario premise)",
+    "reversibility": "Either country could reimpose tariffs under national security provisions or renegotiate USMCA, reversing integration"
+  },
+  "reactions": [
+    {
+      "actor": "US manufacturers and retailers sourcing Canadian inputs",
+      "incentive": "Lower landed costs and stable supply",
+      "likelyResponse": "Shift purchase orders back to Canadian suppliers and reduce costly domestic or overseas substitutes",
+      "timing": "near"
+    },
+    {
+      "actor": "Canadian exporters of lumber, aluminum, auto parts, and energy",
+      "incentive": "Regain US market share and capacity utilization",
+      "likelyResponse": "Restart idled capacity and offer competitive pricing to US buyers",
+      "timing": "mid"
+    },
+    {
+      "actor": "US domestic producers of import-competing goods (steel, lumber, aluminum)",
+      "incentive": "Protect market share and pricing power lost to tariff removal",
+      "likelyResponse": "Cut prices, file trade remedy petitions, or lobby for non-tariff barriers",
+      "timing": "mid"
+    },
+    {
+      "actor": "Customs brokerage and trade compliance service providers",
+      "incentive": "Replace lost tariff-related revenue",
+      "likelyResponse": "Pivot to non-tariff compliance services and reduce capacity",
+      "timing": "near"
+    },
+    {
+      "actor": "Lenders and investors in cross-border supply chains",
+      "incentive": "Deploy capital with lower tariff risk",
+      "likelyResponse": "Increase credit for inventory, logistics, and Canadian supplier capacity",
+      "timing": "mid"
+    }
+  ]
+}

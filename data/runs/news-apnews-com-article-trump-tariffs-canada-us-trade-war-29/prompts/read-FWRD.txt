@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for FORWARD AIR CORP (FWRD). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US-Canada tariff escalation accelerates supply chain regionalization and inflationary pressure on cross-border goods, 2025-2026
+Map node this company was mapped to: Freight and customs brokerage on US-Canada lanes (order 1, at_risk). Mechanism: Tariff escalation reduces shipment counts as importers cut orders or delay replenishment. Node logic: Cross-border truckload and less-than-truckload volumes are directly tied to goods flows between the two countries. Tariffs reduce the quantity demanded of imported goods, and logistics firms earn per shipment, so revenue falls with volume. The effect is amplified because the US-Canada lane is a high-frequency, just-in-time corridor with little buffer inventory.
+8-K filings in the last 12 months: 10
+
+Excerpts:
+[0] (10-K, filed 2026-03-11) Expedited Freight offers customers local pick-up and delivery and other services including truckload, shipment consolidation and deconsolidation, warehousing, customs brokerage and other handling services.
+[1] (10-K, filed 2026-03-11) Omni delivers domestic and international freight forwarding, fulfillment services, customs brokerage, distribution, and value-added services for time-sensitive freight to United States-based customers operating both domestically and internationally.
+[2] (10-K, filed 2026-03-11) Other Expedited Freight services allow customers to access the following services from a single source: customs brokerage; warehousing, dock and office space; hotshot or ad hoc ultra-expedited services; and shipment consolidation and handling, such as shipment build-up and break-down and reconsolidation of air or ocean pallets or containers.
+[3] (10-K, filed 2026-03-11) Omni delivers domestic and international freight forwarding, fulfillment services, customs brokerage, distribution, for time-sensitive freight to U.S.-based customers operating both domestically and internationally.
+[4] (10-K, filed 2026-03-11) International Freight Primarily focused on Asia to the United States and Intra-Asia air transportation with expanding service offerings in other markets; and International compliance and customs brokerage ensure stringent compliance requirements are met while expediting delivery times.
+[5] (10-K, filed 2026-03-11) The Omni Logistics segment competes in the 3PL space with primary focus on freight forwarding, warehouse and distribution, specialized services, and customs brokerage and trade compliance.
+[6] (10-K, filed 2026-03-11) In addition, we are subject to compliance with cargo-security and transportation regulations issued by the Transportation Security Administration and Customs and Border Protection ( CBP ) within the United States Department of Homeland Security, and our domestic customs brokerage operations are licensed by CBP.
+[7] (10-K, filed 2026-03-11) In addition, Omni delivers international freight forwarding, fulfillment services, customs brokerage, distribution, and value-added services, primarily focused on Asia to the United States and Intra-Asia air transportation.
+[8] (10-K, filed 2026-03-11) Risks Relating to Our Business and Operations Overall economic conditions that reduce freight volumes could have a material adverse impact on our operating results and ability to achieve growth.
+[9] (10-K, filed 2026-03-11) The transportation and supply chain industries have historically experienced cyclical fluctuations in financial results due to economic recession, downturns in business cycles of customers, interest and currency rate fluctuations, inflation, supply chain disruptions, labor shortages and other economic factors beyond our control.
+[10] (10-K, filed 2026-03-11) Changes in U.S. or international trade policy impact the volume of economic activity domestically and internationally, and as a result, trucking freight volumes may be materially reduced.
+[11] (10-K, filed 2026-03-11) Additionally, deterioration in the economic environment or the occurrence of a large-scale economic event subjects our business to various risks, including the following that may have a material and adverse impact on our operating results and cause us not to maintain previously achieved or projected levels of profitability or achieve growth: A reduction in overall freight volumes reduces our revenues and opportunities for growth.
+[12] (10-K, filed 2026-03-11) 18 Inflation may increase our operating expenses and lower profitability.
+[13] (10-K, filed 2026-03-11) Most of our operating expenses are sensitive to increases in inflation, including equipment prices, real property rental costs, fuel costs, insurance costs, employee wages and purchased transportation.
+[14] (10-K, filed 2026-03-11) Inflation may generally increase our costs for materials, supplies, services and capital.
+[15] (10-K, filed 2026-03-11) If we are unable to increase our prices sufficiently to offset increasing expenses, then inflation could have a material adverse effect on our financial condition, results of operations, liquidity and cash flows.
+[16] (10-K, filed 2026-03-11) The timing of our capital investments, pricing models and service availability is generally based on our existing and anticipated customer contracts and freight volumes.
+[17] (10-K, filed 2026-03-11) During the remaining winter months after the winter holiday season, our freight volumes are generally lower because some customers reduce shipment levels.
+[18] (10-K, filed 2026-03-11) Disasters, including severe weather, such as hurricanes or blizzards, and public health issues, such as pandemics or epidemics, occurring in the United States or abroad, could result in the temporary lack of an adequate work force and the temporary disruption in the transport of goods to or from overseas which could prevent, delay or reduce freight volumes and could have an adverse impact on consumer spending and confidence levels, all of which could result in decreased revenues.
+[19] (10-K, filed 2026-03-11) In addition, the compensation we offer our employees is subject to market conditions that may require increases in employee compensation, which become more likely as economic conditions improve or as inflation increases.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $2,495,118,000, net income $-107,796,000, R&D $n/a, cash $105,996,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

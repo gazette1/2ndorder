@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for TOOTSIE ROLL INDUSTRIES INC (TR). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US-Canada tariff escalation accelerates supply chain regionalization and inflationary pressure on cross-border goods, 2025-2026
+Map node this company was mapped to: Downstream customers of domestic producers (order 2, at_risk). Mechanism: Domestic producers raise prices under the tariff umbrella, passing input cost inflation to their own customers. Node logic: The domestic producer's new pricing power is funded by the downstream customer's margin. Downstream customers cannot switch back to imports because the tariff has made those equally expensive. The price increase is sticky because domestic producers face no competitive threat from imports at the new price point.
+8-K filings in the last 12 months: 5
+
+Excerpts:
+[0] (8-K, filed 2026-07-23) Although the Company continues to monitor its input costs, we are mindful of the effects and limits when passing on higher input costs to our customers as well as the final consumers of our products.
+[1] (8-K, filed 2026-07-23) Such factors, risks, trends and uncertainties, which in some instances are beyond the Company s control, include the effects of U.S. tariffs as well as retaliatory tariffs and other import fees and surcharges by other countries, the overall competitive environment in the Company s industry, the ability to recover increases in input costs and tariffs through price increases, successful distribution and sell-through during Halloween and other seasons, the effects of future changes to natural colors, including related higher costs and availability of supply, and changes in assumptions, judgments and risk factors discussed in our Annual Report on Form 10-K for the year ended December 31, 2025.
+[2] (10-K, filed 2026-02-27) The Company has historically increased its sales prices to recover higher input costs, primarily ingredients, packaging materials, labor and benefits, manufacturing maintenance, supplies and services, and freight and delivery.
+[3] (10-K, filed 2026-02-27) The Company may also change the size and weight of certain of its products in response to significant changes in ingredient and other input costs.
+[4] (10-K, filed 2026-02-27) Although the Company engages in commodity hedging transactions and annual supply agreements as well as leveraging the high volume of its annual purchases, the Company may experience price increases in certain ingredients, packaging materials, operating supplies, services, and wages and benefits, including the effects of higher inflation, that it may not be able to offset, which could have an adverse impact on the Company s results of operations and financial condition.
+[5] (10-K, filed 2026-02-27) Higher costs for ingredients and materials, and other input costs may be difficult to pass onto customers and consumers of Company products through price increases, and therefore may adversely affect the Company s profit margins.
+[6] (10-K, filed 2026-02-27) Risk of economic conditions on consumer purchases - The Company s sales are impacted by consumer spending levels and impulse purchases which are affected by general macroeconomic conditions, consumer confidence, employment levels, disposable income, inflation, availability of consumer credit and interest rates on that credit, consumer debt levels, energy costs and other factors.
+[7] (10-K, filed 2026-02-27) 6 Table of Contents Risk of the cost of energy increasing and overall inflation - Higher energy costs as well as overall inflation would likely result in higher plant overhead, distribution, freight and delivery, and other operating costs.
+[8] (10-K, filed 2026-02-27) The Company may not be able to offset these cost increases or pass such cost increases onto customers in the form of price increases, which could have an adverse impact on the Company s results of operations and financial condition.
+[9] (10-K, filed 2026-02-27) Product shipped and transferred between the United States and our Canada and Mexico manufacturing operations qualify under the U.S.-Mexico-Canada Agreement ( USMCA ) and under the current regulation, continue to be tariff-free.
+[10] (10-K, filed 2026-02-27) If regulators decide to impose tariffs, if the outcome of negotiations of the USMCA (which expires at June 30, 2026) is adverse to our cross-border shipments, or other surcharges are levied by Canada and Mexico, on products that previously qualified under USMCA, the impact of tariffs on our cross-border shipments could be significant.
+[11] (10-K, filed 2026-02-27) Although the Company s North American operations fall under the USMCA trade agreement, the imposition of tariffs or other surcharges on goods and services imported from Canada to the US may have a material impact on our input costs.
+[12] (10-K, filed 2026-02-27) Moreover, in combination with adverse consumer sentiment regarding price increases, the Company may not be able to pass these tariff cost increases to customers in the form of higher price; as a result, the imposition of tariffs may have an adverse impact on our profitability.
+[13] (10-K, filed 2026-02-27) The sales increase in fourth quarter and twelve months 2025 was driven primarily by price increases taken during the year, as well as successful marketing and sales programs.
+[14] (10-K, filed 2026-02-27) Many companies in the consumer products industry have increased selling prices in order to improve price realization in response to increasing input costs in recent years.
+[15] (10-K, filed 2026-02-27) We have implemented price increases as well during this period in order to mitigate certain input cost increases and recover our margin declines.
+[16] (10-K, filed 2026-02-27) Although the Company continues to monitor its input costs, we are mindful of the effects and limits when passing on the above-discussed higher input costs to our customers as well as the final consumers of our products.
+[17] (10-K, filed 2026-02-27) The Company uses the Last-In-First-Out (LIFO) method of accounting for inventory and costs of goods sold which generally results in lower current net earnings and income taxes during such periods of increasing costs and higher inflation.
+[18] (10-K, filed 2026-02-27) As a result, the above discussed higher input costs have had some adverse effects on our gross profit margins in 2025 and 2024.
+[19] (10-K, filed 2026-02-27) As a percent of net product sales, these adjusted expenses decreased from 8.0% in 2024 to 7.8% in 2025, a 0.2 favorable percentage point change, which generally reflects the benefits of sales price increases.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $732,524,000, net income $100,052,000, R&D $n/a, cash $127,165,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

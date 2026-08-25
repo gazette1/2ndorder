@@ -29,6 +29,41 @@ export interface ChainNode {
   whiteSpace?: boolean;
 }
 
+// ---- Evidence-bound trigger contract (article runs) ----
+// Every extracted value carries its exact source quote; a deterministic
+// validator rejects any number that does not appear in the article text.
+// The reasoning model never gets to "helpfully" fill missing data.
+
+export interface EvidenceValue<T> {
+  value: T | null;
+  exactQuote: string | null;
+  confidence: 'verified' | 'inferred' | 'unknown';
+}
+
+export interface TriggerContract {
+  sourceUrl: string;
+  publicationDate: string | null;
+  eventDate: string | null;
+  effectiveDate: string | null;
+  primaryActor: string;
+  action: string;
+  counterparty: string | null;
+  legalAuthority: EvidenceValue<string>;
+  rates: EvidenceValue<string[]>;
+  monetaryScope: EvidenceValue<Array<{ value: number; currency: string; unit: string }>>;
+  targetedProducts: EvidenceValue<string[]>;
+  response: {
+    actor: string;
+    action: string;
+    announcedDate: string | null;
+    effectiveDate: string | null;
+    exactQuote: string | null;
+  } | null;
+  status: 'announced' | 'effective' | 'suspended' | 'expired' | 'proposed' | 'unknown';
+  reversibilityMechanisms: string[];
+  unsupportedClaims: string[];
+}
+
 // The normalized trigger: the event stated precisely before anything is mapped.
 export interface Trigger {
   actor: string;
