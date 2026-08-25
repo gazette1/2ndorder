@@ -1,0 +1,44 @@
+You are an equity analyst reading SEC filing excerpts for NATURAL GAS SERVICES GROUP INC (NGS). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Gas turbine aftermarket service providers (order 2, beneficiary). Mechanism: New installed base of aeroderivative turbines drives long-term service agreements, lifting high-margin aftermarket revenue. Node logic: Each on-site turbine requires parts, overhauls, and monitoring over a 20-year life. OEMs respond by expanding field service networks and signing multi-year maintenance contracts. The effect is compounded because data center operators prioritize uptime and prefer OEM service, making aftermarket revenue stickier than equipment sales.
+8-K filings in the last 12 months: 16
+
+Excerpts:
+[0] (10-K, filed 2026-03-16) We also provide aftermarket services in the form of call-out services on customer-owned equipment as well as commissioning of new units for customers.
+[1] (10-K, filed 2026-03-16) 1 Our Operating Units We identify our operating units based upon major revenue sources as (i) Rental, (ii) Sales and (iii) Aftermarket Services.
+[2] (10-K, filed 2026-03-16) Gross margins, exclusive of depreciation and amortization, for our rental business have historically been in the mid-50 percent to low-60 percent range, while margins for the compressor sales and aftermarket services businesses tend to be substantially lower.
+[3] (10-K, filed 2026-03-16) The underlying rental service agreements, which all qualify as operating leases under GAAP, generally include a fee for servicing the compressor unit as well as surcharges for fluids during the rental term.
+[4] (10-K, filed 2026-03-16) Aftermarket Services We provide routine or call-out services on customer-owned equipment as well as commissioning of new units for customers.
+[5] (10-K, filed 2026-03-16) The primary costs associated with our aftermarket services are labor, support costs, materials and supplies.
+[6] (10-K, filed 2026-03-16) Aftermarket services represented an insignificant portion of our overall gross margins in 2025 and 2024.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-7,779,402 across 3 buys and 23 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2023-12-31): revenue $15,008,000, net income $19,928,000, R&D $n/a, cash $0.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

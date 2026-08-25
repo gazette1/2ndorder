@@ -1,0 +1,41 @@
+You are an equity analyst reading SEC filing excerpts for Solaris Energy Infrastructure, Inc. (SEI). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Project finance for behind-the-meter generation (order 2, beneficiary). Mechanism: Debt and equity investors see higher growth in on-site power projects than in flat rate base utilities, lowering the cost of capital for behind-the-meter developers. Node logic: Capital providers reallocate from regulated utility equity to independent power producers, gas turbine lessors, and distributed generation platforms. Cheaper financing improves project returns and accelerates new behind-the-meter buildout. The shift is self-reinforcing as more projects demonstrate bankability.
+8-K filings in the last 12 months: 17
+
+Excerpts:
+[0] (10-Q, filed 2026-08-06) OPCO SOLARIS ENERGY INFRASTRUCTURE, LLC By s Stephan Tompsett Name Stephan Tompsett Title Chief Financial Officer BUYER PROJECT G BUYER, LLC By s Stephan Tompsett Name Stephan Tompsett Title Chief Financial Officer COMPANY FOCUS GENCO CAYMAN LTD.
+[1] (10-Q, filed 2026-08-06) By s Christopher Powell Name Christopher Powell Title Director PARENT SOLARIS ENERGY INFRASTRUCTURE, INC.
+[2] (10-K, filed 2026-02-27) Walker currently serves on the board of directors of MPLX LP (NYSE: MPLX), a publicly traded, diversified, large-cap master limited partnership that owns and operates midstream energy infrastructure and logistics assets and provides fuels distribution services.
+[3] (10-K, filed 2026-02-27) Management s Discussion and Analysis of Financial Condition and Results of Operations References to we, us, our, Solaris or the Company refer to Solaris Energy Infrastructure, Inc.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-155,831,627 across 2 buys and 7 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2022-12-31): revenue $300,000,000, net income $30,169,000, R&D $0, cash $353,319,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

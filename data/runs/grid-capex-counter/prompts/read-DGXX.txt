@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Digi Power X Inc. (DGXX). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Data center operators and developers (order 1, beneficiary). Mechanism: Behind-the-meter generation shortens time to power, allowing data centers to bring capacity online faster and avoid grid upgrade costs. Node logic: Utility interconnection queues can delay new data centers by years; on-site gas and solar plus storage bypass those queues. Faster deployment increases the leased or used capacity that drives data center revenue. The benefit is greater for large campuses that can dedicate land and capital to generation.
+8-K filings in the last 12 months: 22
+
+Excerpts:
+[0] (10-Q, filed 2026-08-14) Accordingly, for management purposes, the Corporation has four reporting segments, namely: cryptocurrency mining, sales of energy, colocation services, and AI data centers.
+[1] (10-Q, filed 2026-08-14) Segmented reporting The Corporation has four operating segments: cryptocurrency mining, sales of energy and electricity, colocation services, and Tier III AI data centers located in the United States.
+[2] (10-Q, filed 2026-08-14) Notes to Condensed Interim Consolidated Financial Statements Three and Six Months Ended June 30, 2026 (Expressed in United States Dollars) (Unaudited) Sales of Cryptocurrency energy and Colocation Tier III As at June 30, 2026 mining electricity services AI project Total Total assets 101,701,153 11,228,751 107,659,895 58,986,521 279,576,320 Sales of Cryptocurrency energy and Colocation Tier III As at December 31, 2025 mining electricity services AI project Total Total assets 50,707,889 10,387,735 61,994,641 11,023,314 134,113,579 19.
+[3] (10-Q, filed 2026-08-14) On May 4, 2026, the Corporation entered into a ten-year data center colocation and master services agreement with Cerebras Systems Inc.
+[4] (10-Q, filed 2026-08-14) In exchange, the Corporation will receive a fixed, take-or-pay colocation fee of $ 195.00 per kW per month (approximately $ 2,925,000 and $ 4,875,000 per month for Phase 1 and Phase 2, respectively), escalating 3.0 % annually over the term.
+[5] (10-Q, filed 2026-08-14) The number of Bitcoins mined decreased compared to the same period in 2025 due to the continued expansion of the Corporation s hosting and colocation operations agreements, entered into to diversify its operations, and the Corporation s transition from Bitcoin mining to a focus on AI infrastructure, with such transition beginning in 2025.
+[6] (10-Q, filed 2026-08-14) On May 4, the Corporation entered into a Data Center Colocation and Master Services Agreement (the Cerebras Agreement ) with Cerebras Systems Inc.
+[7] (10-Q, filed 2026-08-14) ( Cerebras ) to deploy at total of approximately 40 megawatts ( MW ) for AI computing at the Corporation s AI data center campus in Columbiana, Alabama (the Facility ).
+[8] (10-Q, filed 2026-08-14) The Cerebras Agreement provides for certain one-time payments by Cerebras in connection with Phase 1 and Phase 2 construction, as well as a monthly colocation fee to paid by Cerebras for Phase 1 and Phase 2 (a portion of which is to be prepaid), based upon the number of kilowatts delivered.
+[9] (10-Q, filed 2026-08-14) The Cerebras Agreement requires the Corporation to construct, equip, and commission two phases of the colocation space at the Facility, with Phase 1 (15 MW) ready-for-service date targeted at December 15, 2026 and with full deployment in Phase 2 (40 MW) targeted by the end of the first fiscal quarter of 2027.
+[10] (10-Q, filed 2026-08-14) Highlights of the quarter include: Revenue The Corporation recognized revenue from colocation services of $3,426,308 for the quarter ended June 30, 2026 (as compared to $4,487,129 as of June 30, 2025).
+[11] (10-Q, filed 2026-08-14) The decline in colocation revenue in Q2 2026 versus Q2 2025 is attributed to the Corporation s transition to building out AI-driven infrastructure during the quarter in one of its previous hosting locations.
+[12] (10-Q, filed 2026-08-14) The primary reason for the minimal amount in the Corporation s mining revenues in both years was the continued diversification of the Company s revenue streams by entering into the AI and colocation agreements mentioned above in this MD&A.
+[13] (10-Q, filed 2026-08-14) Highlights of the six months ended June 30, 2026 include: 31 Revenue The Corporation recognized revenue from colocation services of $6,453,216 for the six months ended June 30, 2026 (as compared to $9,569,924 as of June 30, 2025).
+[14] (10-Q, filed 2026-08-14) The decline in colocation revenue in the six months ended June 30, 2026 versus the six months ended June 30, 2025 is attributed to the Corporation s transition to building out AI-driven infrastructure during the quarter in one of its previous hosting locations.
+[15] (10-Q, filed 2026-08-14) The primary reason for the minimal amount in the Corporation s mining revenues in both periods was the continued diversification of the Corporation s revenue streams by entering into the AI and colocation agreements mentioned above in this MD&A.
+[16] (10-Q, filed 2026-08-14) The Corporation s ability to continue as a going concern is dependent on the Corporation s ability to efficiently execute on its Tier III initiatives, continue its existing colocation arrangements and develop new customers, obtain and maintain significant financial funding for its colocation agreements, manage operational expenses, and raise additional funds through debt or equity financing.
+[17] (10-Q, filed 2026-08-14) The Corporation may manage its capital structure through a variety of methods, including, without limitation, by issuing equity, seeking financing through loan products, adjusting capital spending, entering into beneficial hosting or colocation agreements, or disposing of assets.
+[18] (10-Q, filed 2026-08-14) Factors Impacting Profitability Cost of electricity : A key factor in the Corporation s profitability of its mining and colocation operations is the cost of electricity in the regions where the Corporation has mining operations.
+[19] (10-Q, filed 2026-08-14) If we are unable to obtain sufficient financing on acceptable terms, we may be required to delay, curtail or abandon all or a portion of our development plans, including our ability to satisfy our obligations under our AI colocation agreement, which could have a material adverse effect on our business, financial condition and results of operations.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-272,457 across 2 buys and 6 sales by 2 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $34,188,226, net income $-28,356,223, R&D $n/a, cash $78,478,759.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

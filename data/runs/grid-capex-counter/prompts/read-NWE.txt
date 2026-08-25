@@ -1,0 +1,48 @@
+You are an equity analyst reading SEC filing excerpts for NorthWestern Energy Group, Inc. (NWE). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Rate-regulated electric utilities (order 1, at_risk). Mechanism: Flat T&D capex removes rate base growth, the main driver of allowed revenue under cost-of-service regulation. Node logic: Utilities earn a return on capital invested in transmission and distribution assets. If annual capex is flat and depreciation continues, net rate base growth stalls, limiting revenue and earnings growth. The effect is amplified because utilities had planned rate base growth to support data center load; that load is now served behind the meter.
+8-K filings in the last 12 months: 18
+
+Excerpts:
+[0] (8-K, filed 2026-07-30) (3) Based on 2024 Adjusted Diluted Non-GAAP EPS of $3.40 and 2024 estimated rate base of $5.38 billion.
+[1] (8-K, filed 2026-07-30) 12 Affirming 2026 Non-GAAP EPS Guidance of $3.68 - $3.83 per diluted share Affirming long-term growth rate from 2024 base1 EPS growth of 4% to 6% Rate base growth of 4% to 6% Continued focus on closing the gap between earned & authorized returns $3.2 billion 5-year capital plan including approximately $300 million of investment for generation development in South Dakota Cash from operations and debt to fund base capital plan.
+[2] (8-K, filed 2026-07-30) Equity issuances expected beginning in 2027 to fund South Dakota generation investment Targeting FFO / Debt 14% (1) Based on 2024 Adjusted Diluted Non-GAAP EPS of $3.40 and 2024 estimated rate base of $5.38 billion.
+[3] (8-K, filed 2026-07-30) Regulated Utility Five-Year Capital Plan (millions) 13 Thank youBusiness Updates 14 15 Merger with Black Hills Benefits Stakeholders Strategic combination represents a highly attractive value creation opportunity for both companies.
+[4] (8-K, filed 2026-07-30) This investment is expected to drive annualized earnings and rate base growth of approximately 4% - 6%. + The NorthWestern Value Proposition + 19 = = 2026-2030 Capital Investment ($ Millions) Conclusion Pure Electric & Gas Utility Solid Utility Foundation Best Practices Corporate Governance Attractive Future Growth Prospects Strong Earnings & Cash Flows 20 The pending merger with Black Hills Corporation will combine the strengths of both companies, resulting in an organization with greater scale, financial stability, and operational expertise and is designed to create a stronger, more resilient energy company focused on delivering safe, reliable, and affordable energy solutions to customers.
+[5] (8-K, filed 2026-07-30) Therefore, we do not separately reflect FERC authorized rate base or authorized returns.
+[6] (8-K, filed 2026-07-30) (2) The Montana gas revenue requirement includes a step-down which approximates annual depletion of our natural gas production assets included in rate base.
+[7] (8-K, filed 2026-07-30) Coal Generation Rate Base as a percentage of Total Rate Base Revenue from coal generation is not easily identifiable due to the use of bundled rates in South Dakota and other rate design and accounting considerations.
+[8] (8-K, filed 2026-07-30) However, NorthWestern is a fully regulated utility company for which rate base is the primary driver of earnings.
+[9] (8-K, filed 2026-07-30) The data to the left illustrates that NorthWestern only derives approximately 7-8% of earnings from its jointly owned coal generation rate base.
+[10] (8-K, filed 2026-07-30) Rate Base & Authorized Return Summary Appendix 23 Thank youSecond Quarter Appendix 24 Second Quarter 2026 Financial Results 25 (1) Utility Margin is a non- GAAP Measure.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $414,265,000, net income $44,691,000, R&D $n/a, cash $8,781,000.
+Customer graph: federal awards $209,190 across 2 awards (top agency Department of Health and Human Services); 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

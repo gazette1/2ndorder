@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for Hyliion Holdings Corp. (HYLN). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Utility revenue from standby and backup service (order 3, beneficiary). Mechanism: Standby charges and grid connection fees create a new recurring revenue stream for utilities serving self-generating data centers. Node logic: Even as data centers install on-site generation, they often retain a grid connection for backup and export. Utilities earn monthly demand charges and standby fees that partly offset lost volumetric revenue. This new fixed revenue reduces the earnings hit from flat rate base, though it may be contested in rate cases.
+8-K filings in the last 12 months: 6
+
+Excerpts:
+[0] (10-Q, filed 2026-08-11) The Science of the KARNO Power Module The KARNO Power Module is distinguished from conventional generating systems that rely on reciprocating internal combustion engines or gas turbines to drive a rotating shaft.
+[1] (10-Q, filed 2026-08-11) Notably, best-in-class grid-level combined cycle gas turbine powerplants can obtain efficiencies above 50% but often incur transmission and distribution losses between 5% and 10% which the KARNO Power Module is expected to circumvent by being located near the point of power consumption.
+[2] (10-Q, filed 2026-08-11) We believe that Hyliion s KARNO Power Module is an innovative solution in the emerging distributed generation space, offering a reliable power generator that combines high efficiency, fuel flexibility, and low emissions.
+[3] (10-Q, filed 2026-08-11) Initially, the KARNO Power Module will target power applications ranging from 200 kW to the low megawatt range, addressing a broad spectrum of distributed generation needs.
+[4] (10-Q, filed 2026-08-11) Its ability to integrate with energy storage and renewable sources is expected to enable installation of effective hybrid energy solutions.
+[5] (10-Q, filed 2026-08-11) When paired with onsite energy storage systems and renewable energy sources like solar or wind, KARNO Power Modules can enable resilient and sustainable microgrids for EV charging.
+[6] (10-Q, filed 2026-08-11) Backup Power: The market for local backup power generators is well established and positioned to grow due to decreasing grid reliability, the increasing share of intermittent renewable energy sources, rising extreme weather events, and the need for uninterrupted power.
+[7] (10-Q, filed 2026-08-11) Also, the grid balancing and servicing market is expanding as utilities and independent power producers seek fast-ramping, distributed generation assets to balance supply and demand fluctuations.
+[8] (10-Q, filed 2026-08-11) Innovative business models such as Resiliency-as-a-Service and Virtual Power Plants have emerged to leverage distributed generation assets for grid resilience.
+[9] (10-Q, filed 2026-08-11) With growing concerns over emissions from internal combustion engine-powered generators in the backup power market, we believe the KARNO Power Module presents an opportunity to provide solutions for end users that desire a lower emissions profile and in the event emissions regulations are further tightened.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $3,475,000, net income $-57,188,000, R&D $42,467,000, cash $22,938,000.
+Customer graph: federal awards $22,880,269 across 4 awards (top agency Department of Defense); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

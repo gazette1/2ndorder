@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "utility-td-equipment-suppliers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Transmission and distribution equipment suppliers",
+      "mechanism": "Flat utility T&D capex at $180B removes annual volume growth for transformers, switchgear, and cable, leaving suppliers with idle capacity.",
+      "logic": "These suppliers built capacity expecting rising grid investment for electrification and renewables. A flatline means unit orders stop growing while fixed costs remain, pressuring margins. The effect is direct because utility capex is the primary demand driver for these product categories.",
+      "horizon": "near",
+      "kpi": "backlog",
+      "falsifier": "Utilities accelerate replacement of aging equipment within flat capex or storm hardening orders offset new capacity demand.",
+      "searchPhrases": [
+        "power transformers",
+        "distribution transformers",
+        "switchgear",
+        "substation equipment"
+      ],
+      "filingHits": 231,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-oems",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Aeroderivative gas turbine manufacturers",
+      "mechanism": "Data center operators order on-site gas turbines for prime and backup power, creating a new demand stream outside utility capex.",
+      "logic": "The need for firm, dispatchable power at data centers bypasses multi-year utility interconnection queues. Order intake for aeroderivative turbines rises even as utility T&D capex stays flat. This is a substitution of behind-the-meter generation for grid supply, so the effect is levered to data center load growth, not linear with utility spending.",
+      "horizon": "near",
+      "kpi": "unit volume",
+      "falsifier": "Data centers choose fuel cells or wait for grid upgrades if gas permitting and emissions rules make turbines unattractive.",
+      "searchPhrases": [
+        "gas turbines",
+        "combustion turbines",
+        "aeroderivative turbines",
+        "power generation equipment"
+      ],
+      "filingHits": 304,
+      "whiteSpace": false
+    },
+    {
+      "id": "behind-meter-solar-storage",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Behind-the-meter solar and storage integrators",
+      "mechanism": "Data centers contract for on-site solar arrays and battery storage to lower energy costs and meet sustainability targets, increasing project volume.",
+      "logic": "Behind-the-meter projects avoid transmission costs and interconnection queues, making them faster to deploy than grid-connected renewables. Flat utility T&D capex makes grid connection less attractive, pushing more data center energy spend to on-site systems. Each project bundles modules, inverters, and batteries, so integrators see higher unit volume.",
+      "horizon": "near",
+      "kpi": "unit volume",
+      "falsifier": "High battery costs or limited land at data center sites push buyers toward gas-only solutions.",
+      "searchPhrases": [
+        "solar plus storage",
+        "battery storage",
+        "behind the meter",
+        "energy storage systems"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "rate-regulated-utilities",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Rate-regulated electric utilities",
+      "mechanism": "Flat T&D capex removes rate base growth, the main driver of allowed revenue under cost-of-service regulation.",
+      "logic": "Utilities earn a return on capital invested in transmission and distribution assets. If annual capex is flat and depreciation continues, net rate base growth stalls, limiting revenue and earnings growth. The effect is amplified because utilities had planned rate base growth to support data center load; that load is now served behind the meter.",
+      "horizon": "mid",
+      "kpi": "customer count",
+      "falsifier": "Utilities win approval for new transmission projects beyond the flat capex baseline, or regulators raise allowed ROE.",
+      "searchPhrases": [
+        "rate base",
+        "allowed return on equity",
+        "transmission and distribution",
+        "regulated utility"
+      ],
+      "filingHits": 357,
+      "whiteSpace": false
+    },
+    {
+      "id": "data-center-operators",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Data center operators and developers",
+      "mechanism": "Behind-the-meter generation shortens time to power, allowing data centers to bring capacity online faster and avoid grid upgrade costs.",
+      "logic": "Utility interconnection queues can delay new data centers by years; on-site gas and solar plus storage bypass those queues. Faster deployment increases the leased or used capacity that drives data center revenue. The benefit is greater for large campuses that can dedicate land and capital to generation.",
+      "horizon": "near",
+      "kpi": "capacity utilization",
+      "falsifier": "Utilities impose standby charges or local permits slow on-site generation, erasing the speed advantage.",
+      "searchPhrases": [
+        "data center power",
+        "hyperscale",
+        "colocation",
+        "megawatt"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "standby-charges",
+      "parentId": "rate-regulated-utilities",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Behind-the-meter generation economics under standby charges",
+      "mechanism": "Utilities file tariff changes adding standby and demand charges to self-generating customers, raising the fixed cost of behind-the-meter generation.",
+      "logic": "Regulators may approve charges to prevent cost shifting to remaining ratepayers as data centers defect from the grid. These charges directly reduce the savings that justified on-site generation, lowering project returns and slowing order intake for integrators. The effect is concentrated in jurisdictions with large data center load and utilities facing rate base stagnation.",
+      "horizon": "mid",
+      "kpi": "unit volume",
+      "falsifier": "Commissions reject or cap standby charges because they would discourage beneficial electrification or violate rate design principles.",
+      "searchPhrases": [
+        "standby charges",
+        "demand charges",
+        "grid access fee",
+        "fixed charges"
+      ],
+      "filingHits": 212,
+      "whiteSpace": false
+    },
+    {
+      "id": "equipment-supplier-pivot",
+      "parentId": "utility-td-equipment-suppliers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Diversified electrical equipment suppliers pivoting to data center demand",
+      "mechanism": "Grid equipment suppliers reallocate engineering and manufacturing capacity to data center electrical rooms, switchgear, and backup power equipment.",
+      "logic": "Flat utility T&D orders push suppliers to chase the fast-growing data center market, which needs similar switchgear, busway, and transformers but through private contracts. Suppliers with broad product lines can offset lost utility volume, though pricing may be more competitive. The response is driven by capacity utilization: factories need volume to cover fixed costs.",
+      "horizon": "mid",
+      "kpi": "backlog",
+      "falsifier": "Data center equipment specifications require custom designs that utility-focused suppliers cannot meet without costly retooling.",
+      "searchPhrases": [
+        "electrical equipment",
+        "switchgear",
+        "power distribution",
+        "data center power"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-service-expansion",
+      "parentId": "gas-turbine-oems",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Gas turbine aftermarket service providers",
+      "mechanism": "New installed base of aeroderivative turbines drives long-term service agreements, lifting high-margin aftermarket revenue.",
+      "logic": "Each on-site turbine requires parts, overhauls, and monitoring over a 20-year life. OEMs respond by expanding field service networks and signing multi-year maintenance contracts. The effect is compounded because data center operators prioritize uptime and prefer OEM service, making aftermarket revenue stickier than equipment sales.",
+      "horizon": "mid",
+      "kpi": "gross margin",
+      "falsifier": "Data centers use third-party maintenance or sign only equipment purchase contracts, suppressing service attach rates.",
+      "searchPhrases": [
+        "gas turbine services",
+        "service agreements",
+        "aftermarket services",
+        "power generation services"
+      ],
+      "filingHits": 244,
+      "whiteSpace": false
+    },
+    {
+      "id": "capital-providers-shift",
+      "parentId": "rate-regulated-utilities",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Project finance for behind-the-meter generation",
+      "mechanism": "Debt and equity investors see higher growth in on-site power projects than in flat rate base utilities, lowering the cost of capital for behind-the-meter developers.",
+      "logic": "Capital providers reallocate from regulated utility equity to independent power producers, gas turbine lessors, and distributed generation platforms. Cheaper financing improves project returns and accelerates new behind-the-meter buildout. The shift is self-reinforcing as more projects demonstrate bankability.",
+      "horizon": "mid",
+      "kpi": "unit volume",
+      "falsifier": "Lenders view single-customer data center offtake as too concentrated, requiring higher rates or guarantees.",
+      "searchPhrases": [
+        "project finance",
+        "power purchase agreement",
+        "distributed generation",
+        "energy infrastructure"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "natural-gas-pipeline-contracts",
+      "parentId": "gas-turbine-oems",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Natural gas pipeline and midstream suppliers",
+      "mechanism": "Data center operators with on-site turbines sign firm gas transportation and supply contracts, raising pipeline utilization.",
+      "logic": "Behind-the-meter gas turbines need reliable fuel supply, often requiring new laterals or firm capacity on existing pipelines. Midstream companies gain long-term take-or-pay contracts that stabilize revenue. The effect is levered to the number of large data center campuses in gas-producing regions.",
+      "horizon": "mid",
+      "kpi": "capacity utilization",
+      "falsifier": "Data centers choose dual-fuel turbines or locate where gas is not available, limiting pipeline contract growth.",
+      "searchPhrases": [
+        "natural gas pipeline",
+        "firm transportation",
+        "pipeline capacity",
+        "gas supply"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "margin-compression-behind-meter",
+      "parentId": "capital-providers-shift",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Behind-the-meter integrator margins",
+      "mechanism": "Easier financing attracts more integrators into behind-the-meter solar and storage, competing away project margins.",
+      "logic": "As capital floods into the space, new entrants bid aggressively for data center contracts, pressuring equipment and installation pricing. The initial demand growth remains but profit per project shrinks. This margin compression is a typical equilibrium response to an overcapitalized niche.",
+      "horizon": "long",
+      "kpi": "gross margin",
+      "falsifier": "Specialized engineering or long-term O&M contracts create switching costs that sustain margins despite new entrants.",
+      "searchPhrases": [
+        "solar EPC",
+        "energy storage integration",
+        "behind the meter",
+        "distributed generation"
+      ],
+      "filingHits": 216,
+      "whiteSpace": false
+    },
+    {
+      "id": "margin-compression-grid-equipment",
+      "parentId": "equipment-supplier-pivot",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Data center electrical equipment margins",
+      "mechanism": "Many grid equipment suppliers chase the same data center power orders, leading to overcapacity and price competition.",
+      "logic": "The pivot to data center demand brings multiple suppliers into a market that previously had fewer competitors. Bidding for hyperscale contracts turns price-driven, squeezing margins despite higher volumes. The effect emerges as lead times shorten and cancellable orders rise.",
+      "horizon": "long",
+      "kpi": "gross margin",
+      "falsifier": "Data center power demand grows faster than supplier capacity, keeping lead times long and prices firm.",
+      "searchPhrases": [
+        "data center power",
+        "switchgear",
+        "power distribution",
+        "busway"
+      ],
+      "filingHits": 316,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-service-margin-pressure",
+      "parentId": "gas-turbine-service-expansion",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Third-party gas turbine service competition",
+      "mechanism": "High aftermarket margins attract independent service providers, competing down service pricing for aeroderivative turbines.",
+      "logic": "As the installed base of on-site turbines grows, independent firms offer parts and overhaul services at lower cost. OEMs may be forced to discount long-term service agreements to retain share. The effect is most visible in regions with many small turbines where third-party logistics are easier.",
+      "horizon": "long",
+      "kpi": "gross margin",
+      "falsifier": "Proprietary parts, software locks, and data center uptime requirements keep service captive to OEMs.",
+      "searchPhrases": [
+        "gas turbine maintenance",
+        "turbine services",
+        "aftermarket parts",
+        "power generation services"
+      ],
+      "filingHits": 154,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-backup-revenue",
+      "parentId": "standby-charges",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Utility revenue from standby and backup service",
+      "mechanism": "Standby charges and grid connection fees create a new recurring revenue stream for utilities serving self-generating data centers.",
+      "logic": "Even as data centers install on-site generation, they often retain a grid connection for backup and export. Utilities earn monthly demand charges and standby fees that partly offset lost volumetric revenue. This new fixed revenue reduces the earnings hit from flat rate base, though it may be contested in rate cases.",
+      "horizon": "long",
+      "kpi": "customer count",
+      "falsifier": "Data centers disconnect entirely or install enough on-site redundancy to avoid grid standby charges.",
+      "searchPhrases": [
+        "standby service",
+        "backup power",
+        "demand charges",
+        "grid connection"
+      ],
+      "filingHits": 310,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "behind the meter",
+    "data center power",
+    "standby charge",
+    "gas turbine",
+    "utility capex",
+    "distributed generation",
+    "rate base",
+    "energy storage"
+  ],
+  "trigger": {
+    "actor": "US data center operators and developers",
+    "action": "meet new load growth with behind-the-meter on-site gas turbines and solar plus storage rather than grid-supplied power",
+    "magnitude": "US grid capital expenditure flatlines near $180 billion annually through 2030; utility transmission and distribution capex growth remains below 1 percent annually",
+    "geography": "United States",
+    "timing": "through 2030",
+    "certainty": "assumed",
+    "reversibility": "Could be reversed if data center operators return to grid purchases due to lower utility rates, stricter emissions limits on on-site gas, or utility rate reforms that accelerate grid interconnection."
+  },
+  "reactions": [
+    {
+      "actor": "Regulated electric utilities",
+      "incentive": "Protect rate base growth and recover fixed grid costs as large customers self-generate",
+      "likelyResponse": "File standby and demand charge tariff revisions with state commissions to impose fixed charges on self-generating customers",
+      "timing": "near"
+    },
+    {
+      "actor": "Grid electrical equipment suppliers",
+      "incentive": "Maintain factory utilization and revenue as utility T&D orders flatten",
+      "likelyResponse": "Shift engineering and manufacturing capacity toward data center power equipment, industrial electrification, and export markets",
+      "timing": "mid"
+    },
+    {
+      "actor": "Data center operators and developers",
+      "incentive": "Accelerate time to power and lock in lower energy costs outside the grid queue",
+      "likelyResponse": "Sign long-term supply and service agreements for on-site gas turbines, solar, storage, and firm gas transportation",
+      "timing": "near"
+    },
+    {
+      "actor": "Gas turbine and on-site power equipment manufacturers",
+      "incentive": "Capture new demand and convert it into recurring service revenue",
+      "likelyResponse": "Expand production capacity for aeroderivative turbines and sign multi-year maintenance agreements",
+      "timing": "near"
+    },
+    {
+      "actor": "Capital providers",
+      "incentive": "Allocate debt and equity to faster-growing energy infrastructure than flat rate base utilities",
+      "likelyResponse": "Reduce valuation premia for regulated utilities and increase financing for behind-the-meter generation projects and gas turbine leasing",
+      "timing": "mid"
+    }
+  ]
+}
