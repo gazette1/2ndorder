@@ -15,6 +15,32 @@ export interface ChainNode {
   searchPhrases: string[];
   filingHits?: number;
   whiteSpace?: boolean;
+  // The measurable company line item this consequence lands on. Absent on
+  // runs generated before the field existed.
+  kpi?: string;
+  // The observable condition that would break this edge. Same optionality.
+  falsifier?: string;
+}
+
+// The normalized trigger: the event stated precisely before anything is
+// mapped. Null or absent on runs generated before the field existed.
+export interface Trigger {
+  actor: string;
+  action: string;
+  magnitude: string;
+  geography: string;
+  timing: string;
+  certainty: string;
+  reversibility: string;
+}
+
+// A stakeholder-reaction row: who is affected, what they are paid to do
+// about it. Empty or absent on runs generated before the field existed.
+export interface Reaction {
+  actor: string;
+  incentive: string;
+  likelyResponse: string;
+  timing: string;
 }
 
 // Old payload shape (pre consequence tree). Kept only so the load-time
@@ -34,6 +60,8 @@ export interface RawChainNode {
   horizon?: Horizon;
   filingHits?: number;
   whiteSpace?: boolean;
+  kpi?: string;
+  falsifier?: string;
   // Old-shape field.
   layer?: LegacyLayer | string;
 }
@@ -202,6 +230,12 @@ export interface Coverage {
 export interface RealityCheck {
   advUSD: number | null;
   daysToBuild: number | null;
+  // The position the days-to-build math assumes, and where it came from.
+  // Absent on runs generated before the fields existed.
+  positionUSD?: number;
+  positionBasis?: string;
+  // Position as a share of market cap.
+  ownershipPct?: number | null;
   netCashUSD: number | null;
   runwayQuarters: number | null;
   sharesChangePct: number | null;
@@ -307,6 +341,16 @@ export interface MacroContext {
   note: string;
 }
 
+// Expectations proxies: what the market already appears to believe, from free
+// delayed data. Proxies, honestly labeled; not consensus estimates.
+export interface ExpectationsCard {
+  priceChange3moPct: number | null; // delayed price, ~3 months back to latest
+  pct52wRange: number | null; // where price sits in the 52-week range, 0 low to 100 high
+  psRatio: number | null; // market cap / trailing revenue, null when revenue absent
+  note: string; // the honest caption rendered with the card
+  provenance: Provenance;
+}
+
 export interface Dossier {
   ticker: string;
   cik: string;
@@ -321,6 +365,7 @@ export interface Dossier {
   governance?: Governance | null;
   hiring?: HiringSnapshot | null;
   regulator?: RegulatorSignal | null;
+  expectations?: ExpectationsCard | null;
 }
 
 export interface Read {
@@ -392,6 +437,10 @@ export type CapSource = 'price_x_shares' | 'public_float';
 export interface RunPayload {
   run: RunInfo;
   chain: ChainNode[];
+  // TRACE-lite: the normalized trigger and stakeholder reactions. Null or
+  // empty on runs generated before the fields existed.
+  trigger?: Trigger | null;
+  reactions?: Reaction[];
   candidates: Candidate[];
   reads: Read[];
   theses: Thesis[];

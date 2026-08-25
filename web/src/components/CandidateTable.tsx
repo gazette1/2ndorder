@@ -1,5 +1,6 @@
 import type { Candidate, ChainNode, Dossier, Read } from '../types';
 import { CAP_PROVENANCE_NOTE, fmtCapMM, fmtUSD } from '../format';
+import { scoreBand } from '../score';
 
 export interface CandidateRow {
   candidate: Candidate;
@@ -114,7 +115,18 @@ export function CandidateTable({
                   ''
                 )}
               </td>
-              <td className="num score-cell">{score !== null ? score : ''}</td>
+              <td className="num score-cell">
+                {score !== null && (
+                  <span
+                    className={
+                      scoreBand(score) === 'Strong' ? 'score-band is-strong' : 'score-band'
+                    }
+                    title={`Composite ${score} under current weights`}
+                  >
+                    {scoreBand(score)}
+                  </span>
+                )}
+              </td>
             </tr>
           );
         })}

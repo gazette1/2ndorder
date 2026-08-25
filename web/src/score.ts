@@ -21,3 +21,14 @@ export function compositeScore(
   const gate = exposureGate?.[read.exposure] ?? 1;
   return Math.round((weighted / (5 * sumW)) * 100 * gate);
 }
+
+export type ScoreBand = 'Strong' | 'Moderate' | 'Weak' | 'Insufficient evidence';
+
+// Band label for a 0-100 composite. The UI leads with the band; the numeric
+// composite stays visible as a tooltip and in the subscore detail.
+export function scoreBand(score: number): ScoreBand {
+  if (score >= 50) return 'Strong';
+  if (score >= 30) return 'Moderate';
+  if (score >= 15) return 'Weak';
+  return 'Insufficient evidence';
+}

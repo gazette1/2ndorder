@@ -1,4 +1,4 @@
-import type { MacroContext, RunPayload } from '../types';
+import type { MacroContext, RunPayload, Trigger } from '../types';
 import { CAP_PROVENANCE_NOTE, fmtBand, fmtDateLong, fmtDateShort } from '../format';
 
 // Link label for an article-sourced run: the article title when the server
@@ -25,12 +25,25 @@ function fmtYoy(pct: number): string {
   return `${pct >= 0 ? '+' : ''}${pct.toFixed(1)}% y/y`;
 }
 
+// Ordered readout fields for the trigger strip.
+const TRIGGER_FIELDS: Array<{ key: keyof Trigger; label: string }> = [
+  { key: 'actor', label: 'Actor' },
+  { key: 'action', label: 'Action' },
+  { key: 'magnitude', label: 'Magnitude' },
+  { key: 'geography', label: 'Geography' },
+  { key: 'timing', label: 'Timing' },
+  { key: 'certainty', label: 'Certainty' },
+  { key: 'reversibility', label: 'Reversibility' },
+];
+
 export function RunHeader({
   run,
   macro,
+  trigger,
 }: {
   run: RunPayload['run'];
   macro?: MacroContext | null;
+  trigger?: Trigger | null;
 }) {
   return (
     <header className="run-header">
@@ -42,6 +55,16 @@ export function RunHeader({
           <a href={run.sourceUrl} target="_blank" rel="noreferrer">
             {sourceLabel(run.sourceUrl, run.sourceTitle)}
           </a>
+        </div>
+      )}
+      {trigger && (
+        <div className="trigger-strip">
+          {TRIGGER_FIELDS.filter(({ key }) => trigger[key] !== '').map(({ key, label }) => (
+            <span key={key} className="trigger-item">
+              <span className="trigger-label mono">{label}</span>
+              <span className="trigger-value">{trigger[key]}</span>
+            </span>
+          ))}
         </div>
       )}
       <div className="run-meta">

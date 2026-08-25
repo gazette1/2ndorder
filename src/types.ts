@@ -14,6 +14,13 @@ export interface ChainNode {
   logic: string;
   // When the consequence becomes observable: near = 0 to 6 months, mid = 6 to 18, long = 18 plus.
   horizon: 'near' | 'mid' | 'long';
+  // The measurable company line item this consequence lands on (unit volume,
+  // gross margin, backlog...). The termination rule: no nameable KPI, no node.
+  // Optional because runs generated before 2026-08-24 lack it.
+  kpi?: string;
+  // The observable condition that would break this edge (exemption,
+  // substitution, counterparty response). Same optionality.
+  falsifier?: string;
   // Exact phrases for EDGAR full-text search. Quoted verbatim, so they must be phrases companies actually write in filings.
   searchPhrases: string[];
   // Filled by the map stage: total FTS hits across the node's phrases.
@@ -22,10 +29,32 @@ export interface ChainNode {
   whiteSpace?: boolean;
 }
 
+// The normalized trigger: the event stated precisely before anything is mapped.
+export interface Trigger {
+  actor: string;
+  action: string;
+  magnitude: string;
+  geography: string;
+  timing: string;
+  certainty: string; // announced, proposed, assumed
+  reversibility: string;
+}
+
+// A stakeholder-reaction row: who is affected, what they are paid to do about it.
+export interface Reaction {
+  actor: string;
+  incentive: string;
+  likelyResponse: string;
+  timing: string;
+}
+
 export interface Decomposition {
   nodes: ChainNode[];
   // Broad theme words used to excerpt filing text around hits.
   themeKeywords: string[];
+  // TRACE-lite fields; null or empty on runs generated before 2026-08-24.
+  trigger?: Trigger | null;
+  reactions?: Reaction[];
 }
 
 // A filing event on a mapped name since the run (or since the last alert check).
@@ -226,12 +255,28 @@ export interface Coverage {
 export interface RealityCheck {
   advUSD: number | null; // trailing 3-month average daily dollar volume
   daysToBuild: number | null; // days to build the config position at the config participation rate
+  // The position the days-to-build math assumes, and where it came from:
+  // FUND_AUM_USD x POSITION_BPS when configured, else the flat default.
+  positionUSD?: number;
+  positionBasis?: string; // e.g. "25 bps of $14.7B AUM" or "default $5MM"
+  // Position as a share of market cap: a fund cannot quietly own 8 percent.
+  ownershipPct?: number | null;
   netCashUSD: number | null; // cash minus total debt (long-term debt concept, approximate)
   runwayQuarters: number | null; // cash / quarterly operating burn; null when operations fund themselves
   sharesChangePct: number | null; // share count change over ~12 months
   shelfOnFile: boolean; // S-3 or 424B5 in the trailing 12 months
   flags: string[]; // human-readable warnings derived from the above
   provenance: Provenance[];
+}
+
+// Expectations proxies: what the market already appears to believe, from free
+// delayed data. Proxies, honestly labeled; not consensus estimates.
+export interface ExpectationsCard {
+  priceChange3moPct: number | null; // delayed price, ~3 months back to latest
+  pct52wRange: number | null; // where price sits in the 52-week range, 0 low to 100 high
+  psRatio: number | null; // market cap / trailing revenue, null when revenue absent
+  note: string; // the honest caption rendered with the card
+  provenance: Provenance;
 }
 
 // ---- Evidence layer (8-K events, holders, proxy, hiring, macro) ----
@@ -343,6 +388,7 @@ export interface Dossier {
   governance?: Governance | null;
   hiring?: HiringSnapshot | null;
   regulator?: RegulatorSignal | null;
+  expectations?: ExpectationsCard | null;
 }
 
 export interface Thesis {
@@ -373,6 +419,10 @@ export interface RunPayload {
     sourceTitle: string | null;
   };
   chain: ChainNode[];
+  // TRACE-lite: the normalized trigger and stakeholder reactions. Null/empty
+  // on runs generated before 2026-08-24.
+  trigger?: Trigger | null;
+  reactions?: Reaction[];
   candidates: Candidate[];
   dossiers: Dossier[];
   reads: Read[];

@@ -1,0 +1,44 @@
+You are an equity analyst reading SEC filing excerpts for Globalstar, Inc. (GSAT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Data center developers awaiting grid interconnection (order 1, at_risk). Mechanism: A surge of data center interconnection requests exceeds regional grid study and upgrade capacity, delaying energization timelines and increasing deposit and network upgrade costs. Node logic: Interconnection queues already have multi-year study cycles, and the incremental load from data centers pushes queue volumes further beyond the available engineering and construction resources. The delay acts as a tax on data center development because schedule slippage extends time to revenue and raises the non-recurring network upgrade fees.
+8-K filings in the last 12 months: 6
+
+Excerpts:
+[0] (8-K, filed 2026-08-06) (3) Free cash flow is calculated using net cash provided by operating activities less capital expenditures (which may also be referred to as network upgrades).
+[1] (10-K, filed 2026-02-27) In addition to supporting Internet of Things ("IoT") data transmissions in a variety of applications, we provide reliable connectivity in areas not served or underserved by terrestrial wireless and wireline networks and in circumstances where terrestrial networks are not operational due to natural or man-made disasters.
+[2] (10-K, filed 2026-02-27) Communications Products and Services We currently provide the following communications products and services to our MSS subscribers: data transmissions using a mobile or fixed device that transmits the location of the devices and other information to a central monitoring station, including our commercial IoT products ("Commercial IoT"); communication and data transmissions using our SPOT family of mobile devices that transmit messages and the location of the device ("SPOT"); and voice communication and data transmissions ("Duplex").
+[3] (10-K, filed 2026-02-27) Communications Products and Services Commercial IoT Transmission Products Satellite IoT connectivity has become more critical to a growing number of sectors and use cases.
+[4] (10-K, filed 2026-02-27) LEO systems reduce transmission delay compared to a geosynchronous system due to the shorter distance signals have to travel.
+[5] (10-K, filed 2026-02-27) There has been adverse publicity concerning alleged health risks associated with radio frequency transmissions from portable hand-held telephones and other telecommunications devices that have transmitting antennas.
+[6] (10-K, filed 2026-02-27) The interpretation of privacy and data protection laws and regulations regarding the collection, storage, transmission, use and disclosure of such information in some jurisdictions is unclear and ever evolving.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-29,972,841 across 0 buys and 50 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $272,986,000, net income $-8,651,000, R&D $6,100,000, cash $447,471,000.
+Customer graph: federal awards $1,904,042 across 16 awards (top agency Department of Justice); 4 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

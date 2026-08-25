@@ -4,6 +4,7 @@ import { fmtDateShort } from '../format';
 import { blockContainsCite, parseBlocks, renderInline } from '../markdown';
 import { labelForKey } from './RubricPanel';
 import { DossierPanel } from './DossierPanel';
+import { scoreBand } from '../score';
 
 interface Props {
   thesis: Thesis;
@@ -60,7 +61,15 @@ export function ThesisPanel({
           <div className="thesis-ticker mono">{thesis.ticker}</div>
           {composite !== null && (
             <div className="thesis-score">
-              Composite {composite} under current weights
+              <span
+                className={
+                  scoreBand(composite) === 'Strong' ? 'score-band is-strong' : 'score-band'
+                }
+                title={`Composite ${composite} under current weights`}
+              >
+                {scoreBand(composite)}
+              </span>{' '}
+              under current weights
               {read && exposureGate && (exposureGate[read.exposure] ?? 1) !== 1 && (
                 <span className="gate-note">
                   x{exposureGate[read.exposure]} {read.exposure} gate

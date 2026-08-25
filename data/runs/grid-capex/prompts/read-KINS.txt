@@ -1,0 +1,44 @@
+You are an equity analyst reading SEC filing excerpts for KINGSTONE COMPANIES, INC. (KINS). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Regulated transmission and distribution utility rate base (order 1, beneficiary). Mechanism: Utilities place new transmission, substation, and distribution assets into rate base, earning an allowed return on the incremental capital. Node logic: The effect is levered because rate base additions compound under a regulated return while load growth from data centers provides a durable demand justification. Even a small increase in allowed capex translates directly into higher earnings from the allowed return on equity applied to the larger asset base.
+8-K filings in the last 12 months: 18
+
+Excerpts:
+[0] (8-K, filed 2026-08-06) EX-99.1 2 kinsq22026pressrelease1.htm EX-99.1 Document Kingstone Reports Second Quarter 2026 Results Most Profitable Quarter in Company History Q2 Diluted Net Income Per Share of $1.05 Q2 Annualized Return on Equity of 50.8% Net Premiums Earned Growth of 31% for Q2 Direct Premiums Written Growth 1 of 19% for Q2 Q2 GAAP Net Combined Ratio of 70.2% Company Reaffirms 2026 Full Year Guidance Management to Host Conference Call Tomorrow at 8 30 a.m.
+[1] (8-K, filed 2026-08-06) Net income was a record $15.5 million, diluted earnings per share rose 35% to $1.05, and our GAAP net combined ratio improved to 70.2%, resulting in an annualized return on equity of 50.8%.
+[2] (8-K, filed 2026-08-06) Guidance Metrics 2026 Estimate Direct premiums written 1,4 growth 16% to 20% Net combined ratio 81% to 86% Underlying combined ratio 1,2 (excluding catastrophe losses and prior-year reserve development) 74% to 76% Prior-year reserve development % Catastrophe loss ratio 1,3 7% to 10% Net income per share diluted $2.20 to $2.90 Return on equity 24% to 30% Refer to Definitions and Non-GAAP Measures for definitions and reconciliations of non-GAAP financial measures to the most comparable GAAP measures .
+[3] (8-K, filed 2026-08-06) Operating return on equity is a non-GAAP measure, which is operating income (loss) divided by average equity.
+[4] (8-K, filed 2026-08-06) Return on equity is the GAAP measure most closely comparable to operating return on equity.
+[5] (8-K, filed 2026-08-06) Management uses operating return on equity, along with other measures, to gauge the Company s performance and evaluate results, which can be skewed when including net gains (losses) on investments and gain on sale of real estate, which may vary significantly between periods.
+[6] (8-K, filed 2026-08-06) Operating return on equity is provided as supplemental information, is not a substitute for return on equity and does not reflect the Company s overall return on average common equity.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $214,867,301, net income $40,767,128, R&D $n/a, cash $8,976,998.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

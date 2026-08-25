@@ -1,45 +1,39 @@
-# SLNH: Data center load growth creates an ERCOT demand response option, not a software compounder
+# SLNH: A behind-the-meter data center operator that is only an indirect beneficiary of the C&I distributed energy shift
 
 ## Bear case first
-The software thesis fails. The filings define Grid Demand Response Services as services that support generating and delivering electricity, not as a software product [4], and demand response revenue is a reconciling item outside the four reportable segments [14]. Q2 2025 demand response revenue was $161M on total revenue of $6.158MM [18]. Insider net open-market selling was -$649.219M over the trailing 12 months (Form 4). Customer evidence is thin: federal awards total $14.45M from two agencies (USASpending), and no named enterprise customer appears in the provided excerpts.
+Soluna does not sell solar, storage, or efficiency. Its HPC project is a data center development, not a customer-funded energy project, and the theme creates no new business. Filings show no named HPC customers, no project revenue, and no financing commitment. Insider selling is heavy: net open-market sales of -$649.219M over 12 months (Form 4). Cash is $462M, net cash is -$17,437M, and runway is 0.2 quarters (Reality check).
 
 ## Business today
-The company operates data centers co-located with wind, solar, and hydroelectric generation [6] and earns revenue from cryptocurrency mining, data center hosting, high-performance computing, and demand response services [15][16]. H1 2025 total revenue was $12.094MM, including $668M of demand response revenue [19]; fiscal 2025 revenue was $29.717MM and cash was $0.462MM (SEC XBRL). Data center hosting revenue comes from third-party Bitcoin mining customers at Project Sophie, Dorothy, and Kati [12], and the company owns Briscoe Wind Farm, whose electricity is delivered to the Dorothy data centers [17].
+Soluna develops, owns, and operates digital infrastructure for energy-intensive computing at renewable power plants ([3]). It generates or plans revenue from Bitcoin mining, Bitcoin hosting, HPC leasing, and demand response ([12], [13], [14], [15]). Revenue was $29,717M and cash was $462M at 2025-12-31 (SEC XBRL).
 
 ## Chain position
-SLNH occupies the grid services node below the software layer: it uses its data centers to deliver demand response to grid operators [15] and can generate demand response revenue from any data center activity [16]. The economic logic is that on-site load and generation create dispatchable capacity, but the filing describes services, not software, and demand response is not a reportable segment [14]. The company is a beneficiary of the capex cycle through services contracts, not a software platform with recurring license revenue.
+Soluna is a behind-the-meter data center operator, not a provider of behind-the-meter solar, storage, or efficiency ([8], [10]). Its demand response line sells load flexibility to grid operators and utilities ([15]). Rising utility rates improve behind-the-meter renewable economics, but Soluna's revenue depends on computing customers, not C&I energy customers.
 
 ## Customer graph
-The identifiable paying parties are government agencies: $10.69M from the Department of Veterans Affairs and $3.76M from the Department of Defense, for total federal awards of $14.45M (USASpending). Data center hosting customers are third-party Bitcoin miners, but no named enterprise customer is disclosed in the provided excerpts [12]. These government awards are immaterial relative to revenue, and one other SEC filer names the company (Dossier).
+No named enterprise customers appear in the excerpts (Customer graph). Federal awards are $14.45M: $10.69M from Department of Veterans Affairs and $3.76M from Department of Defense (USASpending). One other filer names the company (Customer graph). Enterprise buyer is unproven; government buyer is minimal.
 
 ## Insider and management signal
-Insider conviction is negative on open-market activity: net -$649.219M across 3 buys and 30 sales in the trailing 12 months (Form 4). Management language is detailed and forward-looking: the strategy is co-located data centers supporting compute-intensive applications [6], and any data center activity can produce demand response revenue [16]. The filings also describe an ERCOT power trading or demand response program with a partner, with the achievement date to be mutually agreed [11].
+Form 4 shows net open-market insider selling of -$649.219M across 3 buys and 30 sales by 1 insider (Form 4). Management names Project Kati 2 at more than 300 MW with Metrobloks ([14]) and the closed 397-acre Briscoe County purchase ([0]). Filing language reads as conviction; insider trades read against it.
 
 ## Street view
-No sell-side coverage is reported: analyst count is n/a, consensus is n/a, and mean target is n/a (Street view). Paywalled bank reports are not identified. For an under-covered small cap, thin coverage is part of the setup.
+Coverage is unknown: no analyst count, consensus, or mean target is available (Street view). The thin coverage is part of the setup for an under-covered small-cap.
 
 ## Non-linear case
-The non-linear path starts with the ERCOT program: once SLC and the company agree on power trading or demand response parameters, the distribution waterfall changes and class B members receive 92.5% of distributable cash after an 18% IRR target [11]. ERCOT spans more than 46,500 miles of transmission and 680 generation units [1], so a small share of that market would be a multiple of the current $668M first-half demand response revenue [19]. The HPC/AI segment is a second upside leg: the company may lease HPC assets or HPC/AI data centers to third parties [13], and GPU-as-a-service is sold per GPU-hour [3]. For this outcome, the company must survive its cash position and reach the ERCOT achievement date.
+If Soluna delivers 300 MW of AI-ready data center capacity, the $280MM market cap could be a fraction of asset value ([14]). That path requires an HPC customer lease, construction financing, and successful Metrobloks execution ([19]). The seed theme does not create this optionality; it is an existing development project.
 
 ## Evidence
-- [1] ERCOT connects more than 46,500 miles of transmission lines and over 680 generation units.
-- [3] GPU-as-a-service is the sale or lease of GPU clusters, typically per GPU-hour.
-- [4] Grid Demand Response Services are services provided to support generating and delivering electricity to the grid.
-- [6] The company strategy is to operate data centers co-located with wind, solar, and hydroelectric plants.
-- [11] ERCOT Achievement Date is the date SLC and the company agree on power trading or demand response parameters; after it, class A members receive 7.5% and class B members 92.5% of distributable cash until the 18% IRR target return date.
-- [12] Data Center Hosting segment revenue comes from third-party Bitcoin mining customers at Project Sophie, Dorothy, and Kati.
-- [13] HPC services may generate revenue from sale or lease of HPC assets or HPC/AI data centers.
-- [14] Demand response revenue is a reconciling item and is not included in the four reportable segments.
-- [15] The company uses its data centers to deliver demand response services to grid operators or utilities.
-- [16] Any service at the data centers, including mining, hosting, or AI, can generate demand response revenue.
-- [17] Intersegment eliminations reflect Briscoe wind farm electricity delivered to Dorothy data centers.
-- [18] Q2 2025 segment revenue from external customers was $5.997MM; demand response revenue was $161M, for $6.158MM total consolidated revenue.
-- [19] H1 2025 segment revenue from external customers was $11.426MM; demand response revenue was $668M, for $12.094MM total consolidated revenue.
+- [0] Closed purchase of 397 acres in Briscoe County, Texas.
+- [3] Develops, owns, and operates digital infrastructure for energy-intensive computing at renewable sites.
+- [8] Data centers operate behind the meter using on-site generation and existing interconnection.
+- [10] Key strategy is colocation with renewable generation.
+- [12] Revenue lines are Bitcoin mining, Bitcoin hosting, HPC, and demand response.
+- [13] Bitcoin hosting serves third-party Bitcoin mining customers.
+- [14] Project Kati 2 is engineered for more than 300 MW with Metrobloks.
+- [15] Demand response services go to grid operators and utilities.
+- [19] HPC targets hyperscalers, neoclouds, and enterprises over time.
 
 ## Sizing and survivability
-A small fund can build a position in about 2 trading days based on average daily dollar volume of $22.177MM (Reality check). Net cash is -$17.437MM and cash runway is about 0.2 quarters (Reality check); share count rose 711.4% in 12 months and a shelf registration is on file (Reality check). These facts threaten the thesis and require equity or debt financing before the ERCOT path can play out.
+At ADV of $22,177M, a small fund can build a position in about 12 trading days (Reality check). Net cash is -$17,437M, runway is 0.2 quarters, share count rose 711.4 percent in 12 months, and a shelf registration is on file (Reality check). Dilution risk is material and threatens the thesis.
 
 ## What would change our mind
-- A Form 4 filing showing sustained open-market insider buying, not selling, would counter the current insider signal.
-- A 10-Q or 8-K announcing the ERCOT Achievement Date or a named demand response contract would tie the opportunity to a revenue event.
-- A federal award or named customer disclosure of material size in a 10-Q or USASpending would fix the missing customer validation.
+An 8-K announcing committed construction financing without further share issuance would change our mind. A Form 4 showing open-market insider purchases would change our mind. A federal award naming Soluna as prime HPC contractor would add customer validation.

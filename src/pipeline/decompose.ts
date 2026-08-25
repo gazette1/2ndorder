@@ -41,7 +41,23 @@ export async function decompose(slug: string, seed: string): Promise<Decompositi
   const nodes = repairTree((parsed.nodes ?? []).filter(validNode));
   const dropped = (parsed.nodes?.length ?? 0) - nodes.length;
   if (!nodes.length) throw new Error('Decomposition returned no well-formed nodes.');
-  const result: Decomposition = { nodes, themeKeywords: Array.isArray(parsed.themeKeywords) ? parsed.themeKeywords : [] };
+  // TRACE-lite fields are optional at the boundary (older prompts and weaker
+  // models may omit them); keep them only when well-formed.
+  const trigger =
+    parsed.trigger && typeof parsed.trigger === 'object' && typeof parsed.trigger.action === 'string'
+      ? parsed.trigger
+      : null;
+  const reactions = Array.isArray(parsed.reactions)
+    ? parsed.reactions.filter(
+        (r: any) => r && typeof r.actor === 'string' && typeof r.likelyResponse === 'string',
+      )
+    : [];
+  const result: Decomposition = {
+    nodes,
+    themeKeywords: Array.isArray(parsed.themeKeywords) ? parsed.themeKeywords : [],
+    trigger,
+    reactions,
+  };
   // Merge over any existing run metadata (counterOf, asof) rather than clobbering it.
   let existing: Record<string, unknown> = {};
   try {

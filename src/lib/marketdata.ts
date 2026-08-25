@@ -38,6 +38,38 @@ export async function advUSD(ticker: string): Promise<number | null> {
   }
 }
 
+// Price-behavior stats for the expectations card: 3-month change and where the
+// price sits in its 52-week range. Same keyless delayed endpoint, one call.
+export async function priceStats(
+  ticker: string,
+): Promise<{ priceChange3moPct: number | null; pct52wRange: number | null } | null> {
+  await throttle();
+  try {
+    const res = await fetch(
+      `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=1y`,
+      { headers: { 'User-Agent': 'Mozilla/5.0' } },
+    );
+    if (!res.ok) return null;
+    const data = (await res.json()) as any;
+    const r = data.chart?.result?.[0];
+    const closes: number[] = (r?.indicators?.quote?.[0]?.close ?? []).filter(
+      (c: unknown) => typeof c === 'number' && Number.isFinite(c) && (c as number) > 0,
+    );
+    if (closes.length < 40) return null;
+    const latest = closes[closes.length - 1];
+    // ~63 trading days back is three months.
+    const back = closes.length > 63 ? closes[closes.length - 64] : closes[0];
+    const lo = Math.min(...closes);
+    const hi = Math.max(...closes);
+    return {
+      priceChange3moPct: back > 0 ? Math.round(((latest - back) / back) * 1000) / 10 : null,
+      pct52wRange: hi > lo ? Math.round(((latest - lo) / (hi - lo)) * 100) : null,
+    };
+  } catch {
+    return null;
+  }
+}
+
 export async function priceUSD(ticker: string): Promise<number | null> {
   await throttle();
   try {

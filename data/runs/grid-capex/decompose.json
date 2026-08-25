@@ -1,268 +1,296 @@
 {
   "nodes": [
     {
-      "id": "o1-high-voltage-equipment",
+      "id": "utility-rate-base-expansion",
       "parentId": null,
       "order": 1,
       "polarity": "beneficiary",
-      "name": "high-voltage electrical equipment manufacturers",
-      "mechanism": "Utilities and data center developers order more power transformers, switchgear, and circuit breakers, creating multi-year backlogs and pricing power.",
-      "logic": "Grid capex translates directly into demand for high-voltage equipment that has long lead times and concentrated supply. Producers can raise prices and choose higher-margin orders as demand exceeds capacity. Earnings are levered because a small increase in volume can drive a larger increase in operating margin.",
+      "name": "Regulated transmission and distribution utility rate base",
+      "mechanism": "Utilities place new transmission, substation, and distribution assets into rate base, earning an allowed return on the incremental capital.",
+      "logic": "The effect is levered because rate base additions compound under a regulated return while load growth from data centers provides a durable demand justification. Even a small increase in allowed capex translates directly into higher earnings from the allowed return on equity applied to the larger asset base.",
       "horizon": "near",
+      "kpi": "capex",
+      "falsifier": "State commissions cap or disallow the data center-related capex in rate cases, preventing the assets from entering rate base.",
+      "searchPhrases": [
+        "rate base",
+        "transmission capital expenditures",
+        "distribution capital expenditures",
+        "return on equity"
+      ],
+      "filingHits": 246,
+      "whiteSpace": false
+    },
+    {
+      "id": "high-voltage-equipment-backlog",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "High-voltage transformer, switchgear, and circuit breaker suppliers",
+      "mechanism": "Utility procurement orders for power transformers, breakers, and switchgear push supplier backlogs to multi-year levels, allowing pricing to firm.",
+      "logic": "Demand is levered to the scenario because long-lead grid equipment is a hard constraint: each new substation and transmission line requires multiple large power transformers and breakers, and supplier capacity is already tight. The resulting order book can exceed two years of production, shifting pricing power to manufacturers.",
+      "horizon": "near",
+      "kpi": "backlog",
+      "falsifier": "Utilities cancel or reschedule orders because data center load does not sign or regulators deny the underlying projects.",
       "searchPhrases": [
         "power transformers",
         "switchgear",
-        "substation equipment",
-        "transmission lines"
+        "circuit breakers",
+        "grid equipment"
       ],
-      "filingHits": 296,
+      "filingHits": 323,
       "whiteSpace": false
     },
     {
-      "id": "o1-grid-epc",
+      "id": "transmission-epc-backlog",
       "parentId": null,
       "order": 1,
       "polarity": "beneficiary",
-      "name": "grid engineering and construction services",
-      "mechanism": "Utilities and developers award more transmission and substation engineering, procurement, and construction contracts.",
-      "logic": "The buildout requires specialized design, permitting, and construction labor. As contract awards accelerate, EPC firms build backlog and gain negotiating power on terms. Margins can expand because scarce labor and equipment allow fixed-price contracts to be written with higher contingency and escalation clauses.",
+      "name": "Transmission and substation engineering and construction contractors",
+      "mechanism": "Utilities award engineering, procurement, and construction contracts for new transmission lines, substations, and grid interconnections, expanding contractor backlog.",
+      "logic": "The labor and specialized equipment required for transmission construction is scarce, so a given dollar of incremental capex translates into a larger share of project value captured by EPC firms through fixed-price and cost-plus contracts. Multi-year project timelines also provide revenue visibility beyond the initial order.",
       "horizon": "near",
+      "kpi": "backlog",
+      "falsifier": "Utilities self-perform more work or split projects into smaller packages that reduce individual contractor backlog.",
       "searchPhrases": [
-        "electrical contracting",
+        "transmission construction",
         "substation construction",
-        "transmission line construction",
-        "power delivery"
+        "utility infrastructure",
+        "EPC"
       ],
-      "filingHits": 253,
+      "filingHits": 241,
       "whiteSpace": false
     },
     {
-      "id": "o1-gas-turbines",
-      "parentId": null,
-      "order": 1,
-      "polarity": "beneficiary",
-      "name": "gas turbine and power generation equipment makers",
-      "mechanism": "Data center developers and utilities order gas turbines for firm, fast-to-deploy power.",
-      "logic": "Data center load growth requires around-the-clock power that cannot wait for long transmission upgrades. Gas turbines offer the shortest reliable path to new capacity, so orders rise ahead of general electricity demand. The effect is compounded by aftermarket service revenue tied to installed units.",
-      "horizon": "near",
-      "searchPhrases": [
-        "gas turbines",
-        "combined cycle",
-        "power generation equipment",
-        "turbine generators"
-      ],
-      "filingHits": 371,
-      "whiteSpace": false
-    },
-    {
-      "id": "o1-industrial-buyers",
+      "id": "existing-customers-rate-risk",
       "parentId": null,
       "order": 1,
       "polarity": "at_risk",
-      "name": "large industrial electricity consumers",
-      "mechanism": "Data center load raises wholesale power prices and allocated grid charges for existing industrial users.",
-      "logic": "Data centers add demand in specific regions, tightening reserve margins and pushing up locational power prices. The grid capex needed to serve them is recovered through rates, adding a second layer of cost for industrial customers. Industrial users often cannot pass through these costs quickly, so operating margins shrink.",
+      "name": "Non-data-center commercial and industrial electricity customers",
+      "mechanism": "Incremental grid capex is allocated through transmission and distribution rates, raising the per-MWh delivered cost for existing customers who do not add data center load.",
+      "logic": "Regulators often allow utilities to recover capex through usage-based charges, so an increase in rate base without proportionate load growth from all customers raises rates for incumbents. The effect concentrates on energy-intensive industries whose margins are directly tied to electricity cost.",
       "horizon": "mid",
+      "kpi": "price",
+      "falsifier": "Regulators assign data center-specific tariffs or direct assignment of costs to the new load, insulating existing customers from the increase.",
       "searchPhrases": [
         "electricity costs",
-        "power costs",
-        "utility rates",
+        "transmission rates",
+        "distribution rates",
         "energy intensive"
       ],
       "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "o2-electrical-steel",
-      "parentId": "o1-high-voltage-equipment",
-      "order": 2,
-      "polarity": "beneficiary",
-      "name": "grain-oriented electrical steel suppliers",
-      "mechanism": "Transformer manufacturers buy more grain-oriented electrical steel, raising volumes and prices for mills.",
-      "logic": "Grain-oriented electrical steel is the core material in high-voltage transformers. Supply is concentrated and capacity additions are slow, while transformer backlogs grow. Mills can sell out and push through price increases, making earnings levered to the spread between electrical steel prices and input costs.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "electrical steel",
-        "oriented electrical steel",
-        "transformer cores",
-        "grain oriented steel"
-      ],
-      "filingHits": 112,
-      "whiteSpace": false
-    },
-    {
-      "id": "o2-small-utilities",
-      "parentId": "o1-high-voltage-equipment",
-      "order": 2,
+      "id": "data-center-interconnection-delays",
+      "parentId": null,
+      "order": 1,
       "polarity": "at_risk",
-      "name": "small municipal and cooperative utilities",
-      "mechanism": "Small utilities pay higher prices and wait longer for distribution transformers and switchgear.",
-      "logic": "Large investor-owned utilities place multi-year orders and get priority in production schedules. Municipal and cooperative buyers lack that scale and face equipment shortages that force them to delay maintenance or pay spot prices. Thin balance sheets and slower rate recovery make the cost increase more painful.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "distribution transformers",
-        "substation transformers",
-        "power purchase agreements",
-        "rate case"
-      ],
-      "filingHits": 243,
-      "whiteSpace": false
-    },
-    {
-      "id": "o2-hv-contractors",
-      "parentId": "o1-grid-epc",
-      "order": 2,
-      "polarity": "beneficiary",
-      "name": "specialty high-voltage electrical contractors",
-      "mechanism": "Contractors with high-voltage linemen and substation electricians see more hours, larger crews, and higher billable rates.",
-      "logic": "The grid buildout is constrained by certified labor, not just materials. Contractors that can retain high-voltage crews can win more work and pass through wage increases. Revenue scales with hours worked, so these firms track grid capex directly and benefit from overtime and per diem charges.",
+      "name": "Data center developers awaiting grid interconnection",
+      "mechanism": "A surge of data center interconnection requests exceeds regional grid study and upgrade capacity, delaying energization timelines and increasing deposit and network upgrade costs.",
+      "logic": "Interconnection queues already have multi-year study cycles, and the incremental load from data centers pushes queue volumes further beyond the available engineering and construction resources. The delay acts as a tax on data center development because schedule slippage extends time to revenue and raises the non-recurring network upgrade fees.",
       "horizon": "near",
+      "kpi": "approval probability",
+      "falsifier": "FERC or grid operators adopt cluster study reforms or fast-track data center requests, clearing queue bottlenecks.",
       "searchPhrases": [
-        "high voltage",
-        "substation construction",
-        "transmission line construction",
-        "electrical contracting"
+        "interconnection queue",
+        "network upgrades",
+        "interconnection agreement",
+        "grid connection"
       ],
-      "filingHits": 253,
+      "filingHits": 391,
       "whiteSpace": false
     },
     {
-      "id": "o2-renewable-developers",
-      "parentId": "o1-grid-epc",
+      "id": "utility-rate-case-prudence-risk",
+      "parentId": "utility-rate-base-expansion",
       "order": 2,
       "polarity": "at_risk",
-      "name": "renewable energy project developers",
-      "mechanism": "Renewable developers face longer interconnection timelines and higher construction costs as grid resources shift toward data center load.",
-      "logic": "Interconnection studies and network upgrades compete with data center transmission requests, slowing queue processing. EPC firms and equipment suppliers prioritize larger, higher-margin data center and grid reliability work. Renewable projects already burdened by interconnection backlogs see further delays, reducing returns and pushing some projects past viability.",
-      "horizon": "long",
+      "name": "Utility rate case and prudence review exposure",
+      "mechanism": "Regulators respond to the capex increase by tightening prudence reviews and cost recovery conditions, which can reduce allowed returns or defer recovery of project costs.",
+      "logic": "As rate base requests rise, utilities face more aggressive intervention from ratepayer advocates and state commissions seeking to disallow speculative or over-budget projects. The effect is not linear because a single disallowance or cap can offset the earnings contribution from many approved projects.",
+      "horizon": "mid",
+      "kpi": "approval probability",
+      "falsifier": "Commissions accept the data center load forecasts and pre-approve the projects, leaving little room for later disallowance.",
       "searchPhrases": [
-        "interconnection agreement",
-        "grid interconnection",
-        "power purchase agreement",
-        "renewable energy projects"
+        "prudence review",
+        "rate case",
+        "cost recovery",
+        "return on equity"
       ],
       "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "o2-gas-services",
-      "parentId": "o1-gas-turbines",
+      "id": "equipment-supplier-capacity-expansion",
+      "parentId": "high-voltage-equipment-backlog",
       "order": 2,
       "polarity": "beneficiary",
-      "name": "gas turbine aftermarket service providers",
-      "mechanism": "Owners of the expanding gas turbine fleet spend more on maintenance, parts, and performance upgrades.",
-      "logic": "New gas turbine orders add to the installed base, generating recurring service revenue for decades. Data center backup and peaking units may run more hours than typical, accelerating maintenance intervals. Aftermarket work carries higher margins than original equipment and is less sensitive to new order cycles.",
-      "horizon": "long",
+      "name": "High-voltage equipment manufacturing capacity and pricing",
+      "mechanism": "Equipment suppliers respond to multi-year backlog by adding factory capacity and raising prices on new orders, increasing revenue and gross margin per unit.",
+      "logic": "Because lead times for power transformers and breakers are already long, suppliers hold pricing power and can commit to capacity expansion only against visible multi-year contracts. The scenario converts a cyclical order spike into a longer pricing cycle as utilities accept higher prices to hold delivery slots.",
+      "horizon": "mid",
+      "kpi": "capacity utilization",
+      "falsifier": "A wave of imports or new competitor capacity arrives before utilities place firm orders, causing suppliers to compete on price instead.",
       "searchPhrases": [
-        "gas turbine maintenance",
-        "turbine repair",
-        "outage services",
-        "power plant services"
+        "capacity expansion",
+        "manufacturing capacity",
+        "production capacity",
+        "capital expenditures"
       ],
-      "filingHits": 50,
+      "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "o2-onsite-power",
-      "parentId": "o1-industrial-buyers",
+      "id": "behind-the-meter-adoption",
+      "parentId": "existing-customers-rate-risk",
       "order": 2,
       "polarity": "beneficiary",
-      "name": "on-site generation and microgrid developers",
-      "mechanism": "Industrial electricity consumers invest in on-site generation, storage, and microgrids to hedge grid power costs.",
-      "logic": "Higher utility rates and reliability concerns make self-supply projects economically attractive. Gas engines, fuel cells, and batteries can reduce peak demand charges and provide backup during grid stress. This capex is incremental to grid spending and benefits niche equipment and project developers.",
+      "name": "Behind-the-meter solar, storage, and energy efficiency providers",
+      "mechanism": "Rising utility rates push commercial and industrial customers to contract for on-site solar, battery storage, and demand response, adding new customer-funded projects.",
+      "logic": "When delivered electricity rates cross the levelized cost of distributed generation plus storage, the payback for behind-the-meter investment shortens, pulling forward discretionary energy projects. The effect is concentrated among customers with large flat load profiles and high demand charges.",
       "horizon": "mid",
+      "kpi": "customer count",
+      "falsifier": "Utility rates do not rise enough to make behind-the-meter economics compelling, or customers remain locked into long-term utility supply contracts.",
       "searchPhrases": [
-        "microgrid",
+        "behind the meter",
+        "solar plus storage",
+        "demand response",
+        "energy efficiency"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "data-center-on-site-generation",
+      "parentId": "data-center-interconnection-delays",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "On-site and dedicated gas generation for data centers",
+      "mechanism": "Data center operators facing multi-year grid interconnection delays contract for on-site gas turbines, reciprocating engines, and fuel cells, creating a direct equipment and service revenue stream.",
+      "logic": "The response is driven by the opportunity cost of delay: data center revenue per MW is high enough to justify premium on-site generation even if grid power later becomes available. This creates a parallel demand channel for gas generation suppliers that is not dependent on utility procurement.",
+      "horizon": "mid",
+      "kpi": "unit volume",
+      "falsifier": "Grid operators and utilities accelerate interconnection or data center developers accept longer timelines rather than pay for on-site generation.",
+      "searchPhrases": [
+        "gas turbines",
+        "reciprocating engines",
         "distributed generation",
-        "combined heat and power",
-        "onsite power"
+        "backup power"
       ],
-      "filingHits": 386,
+      "filingHits": 379,
       "whiteSpace": false
     },
     {
-      "id": "o3-steel-processing",
-      "parentId": "o2-electrical-steel",
-      "order": 3,
-      "polarity": "beneficiary",
-      "name": "electrical steel processing and slitting services",
-      "mechanism": "Electrical steel processors and slitters see higher volume and conversion fees.",
-      "logic": "Mills often sell wide coils to processors that cut and slit electrical steel to lamination sizes for transformer OEMs. As transformer production ramps, processors add shifts and pass through higher conversion costs. Capacity is niche and regional, giving processors pricing power independent of steel prices.",
-      "horizon": "mid",
-      "searchPhrases": [
-        "electrical steel",
-        "steel processing",
-        "slitting",
-        "laminations"
-      ],
-      "filingHits": 349,
-      "whiteSpace": false
-    },
-    {
-      "id": "o3-testing-commissioning",
-      "parentId": "o2-hv-contractors",
-      "order": 3,
-      "polarity": "beneficiary",
-      "name": "grid equipment testing and commissioning services",
-      "mechanism": "Independent testing and commissioning firms see rising demand for substation and protection system certification.",
-      "logic": "Every new substation and transmission line must be tested before energization. As construction volume rises, utilities require third-party certification to manage risk and meet reliability standards. This work is scheduled late in the project cycle, so revenue follows construction with a lag.",
-      "horizon": "long",
-      "searchPhrases": [
-        "testing and commissioning",
-        "substation testing",
-        "electrical testing",
-        "circuit breaker testing"
-      ],
-      "filingHits": 146,
-      "whiteSpace": false
-    },
-    {
-      "id": "o3-renewable-equipment",
-      "parentId": "o2-renewable-developers",
+      "id": "equipment-overcapacity-pricing-normalization",
+      "parentId": "equipment-supplier-capacity-expansion",
       "order": 3,
       "polarity": "at_risk",
-      "name": "renewable energy equipment suppliers",
-      "mechanism": "Suppliers of solar modules, wind turbines, and inverters face order pushouts and pricing pressure as renewable projects slip.",
-      "logic": "Delayed renewable projects postpone equipment deliveries and can trigger cancellation or renegotiation. In oversupplied markets for some components, further delays worsen capacity utilization and pricing. Suppliers with utility-scale exposure see revenue recognition shift later and margins compress.",
+      "name": "High-voltage equipment suppliers face late-cycle overcapacity",
+      "mechanism": "Supplier capacity additions and import responses eventually outpace remaining utility demand, causing lead times to shorten and prices to fall from peak.",
+      "logic": "The scenario pulls forward a large amount of equipment demand, and suppliers who expand capacity based on peak order rates can overshoot when the initial wave is installed. The resulting competitive pricing erodes the gross margin gains that attracted the capacity in the first place.",
       "horizon": "long",
+      "kpi": "price",
+      "falsifier": "Demand remains strong beyond 2030 because data center load is understated or additional grid replacement demand absorbs the new capacity.",
       "searchPhrases": [
-        "solar modules",
-        "wind turbines",
-        "inverters",
-        "racking systems"
+        "pricing pressure",
+        "lead times",
+        "competitive pricing",
+        "overcapacity"
       ],
-      "filingHits": 385,
+      "filingHits": 400,
       "whiteSpace": false
     },
     {
-      "id": "o3-der-software",
-      "parentId": "o2-onsite-power",
+      "id": "utility-load-defection-risk",
+      "parentId": "behind-the-meter-adoption",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Regulated utility revenue erosion from customer self-supply",
+      "mechanism": "As C&I customers self-supply a growing share of power, utility billed volume growth weakens and the fixed cost of the expanded grid is spread over fewer remaining kWh, raising rates further for remaining customers.",
+      "logic": "The dynamic is self-reinforcing: each cohort of customers defecting to distributed generation raises rates for those left, which makes the next cohort's economics more attractive. Utilities with high capex relative to delivered volume face the sharpest decline in throughput.",
+      "horizon": "long",
+      "kpi": "unit volume",
+      "falsifier": "Data center load growth offsets defection and utilities retain C&I customers through special tariffs or load retention programs.",
+      "searchPhrases": [
+        "distributed generation",
+        "electricity sales volume",
+        "energy sales",
+        "customer self-supply"
+      ],
+      "filingHits": 225,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-generation-aftermarket",
+      "parentId": "data-center-on-site-generation",
       "order": 3,
       "polarity": "beneficiary",
-      "name": "distributed energy resource management software providers",
-      "mechanism": "Providers of microgrid control and distributed energy resource software see larger deployments as on-site assets multiply.",
-      "logic": "Industrial users that install generation, storage, and microgrids need software to optimize dispatch, islanding, and grid services. Software revenue is recurring and grows with the number of connected sites. This niche benefits from the installed base created by on-site power investment, so it scales faster than hardware installation alone.",
+      "name": "Gas turbine and engine service and aftermarket providers",
+      "mechanism": "The installed base of on-site data center gas generation creates long-term service, parts, and overhaul revenue tied to operating hours and maintenance schedules.",
+      "logic": "Because data center operators run on-site generation as primary or peaking power, engines accumulate run hours faster than standby units, pulling maintenance intervals forward. The aftermarket is higher margin and more recurring than the original equipment sale.",
       "horizon": "long",
+      "kpi": "unit volume",
+      "falsifier": "Data centers switch to grid power as soon as interconnection arrives, leaving on-site units as rarely used backup with minimal aftermarket.",
       "searchPhrases": [
-        "distributed energy resources",
-        "microgrid controller",
-        "energy management software",
-        "demand response"
+        "aftermarket parts",
+        "service agreements",
+        "maintenance services",
+        "gas turbine services"
       ],
-      "filingHits": 244,
+      "filingHits": 300,
       "whiteSpace": false
     }
   ],
   "themeKeywords": [
-    "data centers",
-    "load growth",
-    "grid investment",
+    "data center",
+    "grid modernization",
     "transmission",
     "substation",
-    "interconnection",
-    "electricity demand",
+    "interconnection queue",
     "rate base",
-    "power generation",
-    "grid hardening"
+    "power transformers",
+    "behind the meter",
+    "distributed generation"
+  ],
+  "trigger": {
+    "actor": "US regulated utilities and transmission owners, with data center developers as anchor customers",
+    "action": "commit to a multi-year acceleration of grid transmission, distribution, and substation capital expenditures",
+    "magnitude": "annual US grid capex rises by roughly $40 billion to $60 billion above the 2025 baseline by 2030, supporting an incremental 30 to 50 GW of data center load",
+    "geography": "United States, concentrated in PJM, ERCOT, Southeast, and Southwest markets",
+    "timing": "2026 to 2030, with orders and rate cases starting in 2025 and construction peaking in 2028 to 2030",
+    "certainty": "assumed; several utility plans are announced but depend on signed data center load contracts and regulatory approval",
+    "reversibility": "utilities can defer or cancel project tranches if data center load fails to materialize or regulators disallow cost recovery"
+  },
+  "reactions": [
+    {
+      "actor": "Regulated electric utilities",
+      "incentive": "maximize allowed return on rate base",
+      "likelyResponse": "file advanced rate cases and front-load transmission and substation projects, ordering long-lead equipment",
+      "timing": "near"
+    },
+    {
+      "actor": "Data center operators and hyperscalers",
+      "incentive": "secure large power blocks quickly and avoid cost and schedule risk",
+      "likelyResponse": "sign long-term take-or-pay contracts, pay for dedicated substations, and evaluate on-site generation where queues stall",
+      "timing": "near"
+    },
+    {
+      "actor": "Public utility commissions and FERC",
+      "incentive": "ensure reliability while protecting ratepayers from overpaying for speculative load",
+      "likelyResponse": "require demand-based cost allocation, prudence reviews, and cost caps or clawbacks",
+      "timing": "mid"
+    },
+    {
+      "actor": "Grid equipment suppliers",
+      "incentive": "capture multi-year demand and maximize margins",
+      "likelyResponse": "expand manufacturing capacity, raise prices, lengthen lead times, and prefer standardized large orders",
+      "timing": "mid"
+    },
+    {
+      "actor": "Existing commercial and industrial electricity customers",
+      "incentive": "avoid higher rates and supply constraints",
+      "likelyResponse": "intervene against rate increases and invest in behind-the-meter generation, storage, and efficiency",
+      "timing": "mid"
+    }
   ]
 }

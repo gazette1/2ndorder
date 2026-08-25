@@ -1,38 +1,38 @@
-# DUOT: Gas turbine wind-down leaves the grid capex supercycle without a vehicle
+# DUOT: Fee-based operator for the data center on-site gas generation buildout
 
 ## Bear case first
-The disconfirming reading is that DUOT's gas turbine business is ending, not accelerating. Duos Energy exists only to wind down the Asset Management Agreement [1], and the company is redeploying capital toward data center infrastructure [14]. The 850 MW Fortress program has no disclosed milestones or follow-on work [7]. The named customers are concentrated in one transaction: Fortress, New APR, and Sawgrass all appear in the same December 2024 contract series [15][16]. No insider buying provides conviction (Form 4).
+The main disconfirming reading is that Duos is a cash-constrained services contractor, not a power asset owner. The gas turbine fleet management agreement [4][12] is disclosed under related-party services and consulting [18], so the revenue may be insider-linked. Net cash is $1.9MM, runway is about 0.6 quarters, share count rose 62.1% in twelve months, and insider open-market activity was zero (Form 4). The $27.0MM revenue base includes a $5.0MM cash advance recognized in full in 2025 [17], with no contracted capacity, committed capex, or independent hyperscaler end-customer.
 
 ## Business today
-The company sells modular edge data centers, hosting and colocation services, and procurement, logistics, and deployment support for data center projects [2][9]. Revenue was $27.0MM and cash was $1.9MM (SEC XBRL). Duos Energy supports the wind-down of the Asset Management Agreement [1].
+Duos designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting [0]. Technology Solutions sells manufacturer-agnostic sourcing, logistics, supply chain management, and fulfillment services [14]. Revenue was $27.0MM and cash was $1.9MM as of 2025-12-31 (SEC XBRL).
 
 ## Chain position
-DUOT occupies the gas turbine and power generation equipment node, but as a service operator under a wind-down agreement, not as an order beneficiary. The theme's logic is that data center load drives gas turbine orders and aftermarket service. DUOT's service revenue is tied to 30 mobile gas turbines being wound down [1][7].
+Duos occupies the services layer of the on-site gas generation node, managing deployment and operations of mobile gas turbines and balance-of-plant inventory [4]. Data center revenue per MW justifies premium on-site generation even after grid power becomes available, and a fee-based operator captures that premium without owning capital equipment, independent of utility procurement.
 
 ## Customer graph
-Fortress Investment Group, New APR, and Sawgrass APR Holdings LLC are enterprise buyers named in filings [7][15][16]. The Department of Transportation is a government buyer with a $2.6MM federal award (USASpending). One other filer names the company (USASpending). Customer evidence is concentrated in a single Fortress-related transaction.
+Named buyers are Fortress, New APR, and Sawgrass, all within one contract family for the gas turbine fleet [17][18]. They are enterprise counterparties, but unproven: the related-party disclosure [18] means they are not independent validation. The only government buyer is the Department of Transportation at $2.56MM (USASpending); one other filer names Duos (Customer graph). Customer evidence is one contract family and one federal award.
 
 ## Insider and management signal
-Open-market insider activity was net $0 across 0 buys and 0 sales by 0 insiders over the trailing 12 months (Form 4). Management provides specific details on the Fortress agreement and the 30 mobile gas turbine generators [7], but the emphasis is on wind-down and redeployment to data centers [14].
+Insider open-market activity was net $0 across 0 buys and 0 sales in the trailing twelve months (Form 4). Management language is specific about the fleet, the counterparties, and the management, sales and operations functions [4][12], and it formed a subsidiary for infrastructure services [5]. No quantified targets or committed capex appear.
 
 ## Street view
-No sell-side coverage exists. Analyst count is unknown, consensus is n/a, and mean target is n/a. Thin coverage is itself part of the setup.
+Sell-side analyst count is unknown, consensus is n/a, and mean target is n/a (Street view). No recent rating actions are visible. Thin coverage is itself part of the setup.
 
 ## Non-linear case
-The path to a multiple requires the Fortress relationship to expand beyond wind-down into new gas turbine service contracts, or the 850 MW fleet to generate recurring service revenue for DUOT [7]. The filings do not show a pipeline for new AMA-style contracts. Without that, the theme and the business remain disconnected.
+The multiple path is fee-based fleet management at scale. If Duos becomes the operations layer for distributed mobile gas turbines and the Fortress contract expands, recurring management fees replace one-off project revenue. This requires persistent interconnection delays and a third-party asset owner contracting Duos.
 
 ## Evidence
-- Continuing operations are conducted through Duos Edge AI and Duos Technology Solutions, with Duos Energy supporting the wind-down of the Asset Management Agreement [1]
-- Principal business activities include edge data center infrastructure, hosting and colocation, and technology solutions for data center projects [2]
-- Duos engaged with Fortress to assist in the purchase of approximately 850 MW of generation capacity consisting of 30 mobile gas turbine generators [7]
-- Duos Edge develops modular edge data centers for AI workloads and latency-sensitive applications [9]
-- The divestiture represents the company's complete exit from rail technology and redeployment toward data center infrastructure [14]
-- In December 2024, the company entered contracts with Fortress to deploy and operate a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales and operations functions to Sawgrass [15][16]
+- Duos designs, develops, deploys, and operates intelligent technology solutions, including edge data centers and power and energy consulting [0].
+- Under the AMA, Duos Energy manages deployment and operations of a fleet of mobile gas turbines and balance-of-plant inventory for New APR [4][12].
+- Duos formed Duos Technology Solutions to provide infrastructure-related services, including procurement, logistics coordination, vendor management, and deployment support [5].
+- Technology Solutions provides manufacturer-agnostic sourcing, logistics, supply chain management, and fulfillment services in support of digital infrastructure deployments [14].
+- In December 2024, Duos entered a series of contracts with Fortress to deploy and operate a fleet of mobile gas turbines; a $5.0MM cash advance from Sawgrass was recognized as revenue in 2025 [17].
+- The Fortress contracts and Sawgrass cash advance are disclosed under services and consulting with related parties [18].
 
 ## Sizing and survivability
-A small fund can build a position in about 4 trading days at $10.5MM average daily dollar volume (reality check). Net cash is $1.9MM and cash runway is about 0.6 quarters (reality check). Share count is up 62.1% in 12 months (reality check). A shelf registration is on file (reality check). The cash constraint and dilution risk threaten the thesis.
+A small fund can build a position in about 24 trading days at the $10.5MM average daily dollar volume (Reality check). Net cash is $1.9MM and runway is about 0.6 quarters, so the balance sheet threatens the thesis. Share count rose 62.1% in twelve months and a shelf registration is on file, so dilution is the active financing model (Reality check).
 
 ## What would change our mind
-- A new or expanded gas turbine service contract with Fortress or another counterparty, disclosed in an 8-K or 10-Q with named capacity and start date.
-- Form 4 open-market insider buying of DUOT common stock.
-- A federal award or new named customer contract for gas turbine-related services that extends the cash runway beyond 4 quarters.
+- A 10-Q or 10-K naming a third-party asset owner, outside the Fortress, New APR, and Sawgrass group, for gas turbine fleet management.
+- An open-market insider purchase on Form 4, reversing the twelve-month zero-buy signal.
+- A federal award (USASpending) naming Duos as prime contractor for data center power services.

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { RunPayload } from './types';
 import { compositeScore } from './score';
 import { RunHeader } from './components/RunHeader';
-import { ConsequenceMap, NodeDetailStrip } from './components/ChainBoard';
+import { ConsequenceMap, NodeDetailStrip, ReactionsSection } from './components/ChainBoard';
 import { ActionBar } from './components/ActionBar';
 import { CandidateTable, type CandidateRow } from './components/CandidateTable';
 import { RubricPanel } from './components/RubricPanel';
@@ -417,7 +417,11 @@ export function App() {
           {offline && (
             <p className="offline-note">Offline demo data (API not running)</p>
           )}
-          <RunHeader run={payload.run} macro={payload.macro ?? null} />
+          <RunHeader
+            run={payload.run}
+            macro={payload.macro ?? null}
+            trigger={payload.trigger ?? null}
+          />
           <ActionBar
             key={payload.run.id}
             token={token}
@@ -441,6 +445,9 @@ export function App() {
               drillNote={drillNote}
               onDrill={handleDrill}
             />
+          )}
+          {(payload.reactions ?? []).length > 0 && (
+            <ReactionsSection reactions={payload.reactions ?? []} />
           )}
           <CandidateTable
             longRows={longRows}

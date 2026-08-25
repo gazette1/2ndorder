@@ -6,7 +6,7 @@ import { corporateEvents, earningsLanguage } from '../lib/events.js';
 import { stakeDisclosures } from '../lib/holders.js';
 import { governance } from '../lib/governance.js';
 import { hiringSnapshot } from '../lib/jobs.js';
-import { advUSD } from '../lib/marketdata.js';
+import { advUSD, priceStats } from '../lib/marketdata.js';
 import { coverage } from '../lib/coverage.js';
 import { cleanName, emptyCustomerGraph, govAwards } from '../lib/usaspending.js';
 import { load, save } from '../lib/store.js';
@@ -27,6 +27,12 @@ async function realityCheck(c: Candidate, funds: Fundamentals): Promise<RealityC
   ]);
 
   const daysToBuild = adv ? Math.ceil(R.positionUSD / (adv * R.participationRate)) : null;
+  // Position as a share of market cap: a $37MM position in a $200MM company is
+  // 18 percent ownership, which is not a position, it is an activist stake.
+  const ownershipPct =
+    c.marketCapMM && c.marketCapMM > 0
+      ? Math.round((R.positionUSD / (c.marketCapMM * 1e6)) * 1000) / 10
+      : null;
   const netCashUSD = funds.cashUSD !== null ? funds.cashUSD - (debt ?? 0) : null;
   const burnPerQuarter = cfo !== null && cfo < 0 ? -cfo / 4 : null;
   const runwayQuarters =
@@ -53,8 +59,47 @@ async function realityCheck(c: Candidate, funds: Fundamentals): Promise<RealityC
     flags.push(`share count up ${sharesChangePct} percent in 12 months`);
   }
   if (shelfOnFile) flags.push('shelf registration on file (S-3 or 424B5, trailing 12 months)');
+  if (ownershipPct !== null && ownershipPct > R.ownershipFlagPct) {
+    flags.push(
+      `position would be ${ownershipPct} percent of the company (${R.positionBasis}); not investable at this fund scale without a smaller position or a bigger company`,
+    );
+  }
 
-  return { advUSD: adv, daysToBuild, netCashUSD, runwayQuarters, sharesChangePct, shelfOnFile, flags, provenance: ['yahoo', 'sec_xbrl'] };
+  return {
+    advUSD: adv,
+    daysToBuild,
+    positionUSD: R.positionUSD,
+    positionBasis: R.positionBasis,
+    ownershipPct,
+    netCashUSD,
+    runwayQuarters,
+    sharesChangePct,
+    shelfOnFile,
+    flags,
+    provenance: ['yahoo', 'sec_xbrl'],
+  };
+}
+
+// Expectations proxies from free delayed data: how the price has behaved and a
+// crude valuation multiple. Honest about what it is; consensus estimates and
+// revisions are not free, so this card never pretends to be them.
+function expectationsCard(
+  stats: { priceChange3moPct: number | null; pct52wRange: number | null } | null,
+  marketCapMM: number | null | undefined,
+  revenueUSD: number | null,
+): import('../types.js').ExpectationsCard | null {
+  if (!stats && !(marketCapMM && revenueUSD)) return null;
+  const psRatio =
+    marketCapMM && revenueUSD && revenueUSD > 0
+      ? Math.round(((marketCapMM * 1e6) / revenueUSD) * 10) / 10
+      : null;
+  return {
+    priceChange3moPct: stats?.priceChange3moPct ?? null,
+    pct52wRange: stats?.pct52wRange ?? null,
+    psRatio,
+    note: 'Expectations proxies from delayed price data and reported revenue. Not consensus estimates; a proxy for how much recognition is already in the price.',
+    provenance: 'yahoo',
+  };
 }
 
 // Coverage needs a key. When none is set, load an authored fixture so the feature
@@ -115,7 +160,7 @@ export async function enrich(slug: string): Promise<Dossier[]> {
 
     // Evidence layer: all free sources. Each degrades to null or empty on its
     // own; none of them can sink the dossier.
-    const [events, lang, holders, gov, hiring, regulator] = await Promise.all([
+    const [events, lang, holders, gov, hiring, regulator, stats] = await Promise.all([
       corporateEvents(c.cik).catch(() => []),
       earningsLanguage(slug, c.ticker, c.cik).catch(() => null),
       stakeDisclosures(c.cik).catch(() => []),
@@ -124,7 +169,9 @@ export async function enrich(slug: string): Promise<Dossier[]> {
       companySic(c.cik)
         .then((p) => regulatorSignal(p.sic, c.name))
         .catch(() => null),
+      priceStats(c.ticker).catch(() => null),
     ]);
+    const expectations = expectationsCard(stats, c.marketCapMM, funds.revenueUSD);
 
     dossiers.push({
       ticker: c.ticker,
@@ -140,6 +187,7 @@ export async function enrich(slug: string): Promise<Dossier[]> {
       governance: gov,
       hiring,
       regulator,
+      expectations,
     });
     console.log(
       `[enrich] ${c.ticker}: insider net $${insider.netBuyUSD.toLocaleString()} (${insider.buyCount}B/${insider.sellCount}S), ` +

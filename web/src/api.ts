@@ -9,10 +9,13 @@ import type {
   ChainNode,
   CompanyCard,
   Dossier,
+  ExpectationsCard,
   MacroContext,
   Overlay,
   RawChainNode,
+  Reaction,
   RunPayload,
+  Trigger,
 } from './types';
 
 export class NetworkError extends Error {}
@@ -88,6 +91,53 @@ function normalizeNode(raw: RawChainNode): ChainNode {
     searchPhrases: raw.searchPhrases ?? [],
     filingHits: raw.filingHits,
     whiteSpace: raw.whiteSpace,
+    kpi: typeof raw.kpi === 'string' && raw.kpi !== '' ? raw.kpi : undefined,
+    falsifier:
+      typeof raw.falsifier === 'string' && raw.falsifier !== '' ? raw.falsifier : undefined,
+  };
+}
+
+// TRACE-lite trigger. Old payloads carry none; render nothing in that case.
+function normalizeTrigger(raw: unknown): Trigger | null {
+  if (!raw || typeof raw !== 'object') return null;
+  const t = raw as Partial<Trigger>;
+  const s = (v: unknown) => (typeof v === 'string' ? v : '');
+  const trigger: Trigger = {
+    actor: s(t.actor),
+    action: s(t.action),
+    magnitude: s(t.magnitude),
+    geography: s(t.geography),
+    timing: s(t.timing),
+    certainty: s(t.certainty),
+    reversibility: s(t.reversibility),
+  };
+  return Object.values(trigger).some((v) => v !== '') ? trigger : null;
+}
+
+// Stakeholder reactions. Old payloads carry none; an empty list renders nothing.
+function normalizeReactions(raw: unknown): Reaction[] {
+  if (!Array.isArray(raw)) return [];
+  const s = (v: unknown) => (typeof v === 'string' ? v : '');
+  return raw
+    .filter((r) => r && typeof r === 'object')
+    .map((r: Partial<Reaction>) => ({
+      actor: s(r.actor),
+      incentive: s(r.incentive),
+      likelyResponse: s(r.likelyResponse),
+      timing: s(r.timing),
+    }));
+}
+
+// Expectations proxies. Old dossiers carry none; null renders no section.
+function normalizeExpectations(raw: unknown): ExpectationsCard | null {
+  if (!raw || typeof raw !== 'object') return null;
+  const e = raw as Partial<ExpectationsCard>;
+  return {
+    priceChange3moPct: typeof e.priceChange3moPct === 'number' ? e.priceChange3moPct : null,
+    pct52wRange: typeof e.pct52wRange === 'number' ? e.pct52wRange : null,
+    psRatio: typeof e.psRatio === 'number' ? e.psRatio : null,
+    note: typeof e.note === 'string' ? e.note : '',
+    provenance: e.provenance ?? 'yahoo',
   };
 }
 
@@ -131,6 +181,7 @@ function normalizeDossier(raw: Dossier): Dossier {
             items: Array.isArray(raw.regulator.items) ? raw.regulator.items : [],
           }
         : null,
+    expectations: normalizeExpectations(raw.expectations),
   };
 }
 
@@ -164,6 +215,8 @@ export function normalizeRunPayload(raw: unknown): RunPayload {
       sourceTitle: typeof run.sourceTitle === 'string' ? run.sourceTitle : null,
     },
     chain: (p.chain ?? []).map(normalizeNode),
+    trigger: normalizeTrigger(p.trigger),
+    reactions: normalizeReactions(p.reactions),
     candidates: (p.candidates ?? []).map((c) => {
       const old = c as typeof c & { publicFloatMM?: number | null };
       return {
