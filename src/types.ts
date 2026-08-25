@@ -38,6 +38,44 @@ export interface EvidenceValue<T> {
   value: T | null;
   exactQuote: string | null;
   confidence: 'verified' | 'inferred' | 'unknown';
+  // References into the run's evidence/evidence-index.json (schema v2).
+  evidenceIds?: string[];
+}
+
+// A retrievable evidence record (master prompt 9.1, minimal v2 form).
+export interface EvidenceRef {
+  evidenceId: string;
+  kind:
+    | 'official_policy'
+    | 'regulatory'
+    | 'government_data'
+    | 'company_filing'
+    | 'company_release'
+    | 'market_data'
+    | 'major_news'
+    | 'industry_source'
+    | 'secondary_analysis'
+    | 'test_fixture';
+  title: string;
+  publisher: string;
+  url?: string;
+  localFixturePath?: string;
+  publicationDate?: string | null;
+  retrievedAt: string;
+  excerpt: string;
+  authorityRank: number; // 1 highest (official policy) .. 10 lowest
+  supports: string[]; // field paths or claim ids this record supports
+}
+
+// A material unanswered question (master prompt 9.5, minimal v2 form).
+export interface SourceGap {
+  gapId: string;
+  fieldPath: string;
+  question: string;
+  importance: 'blocking' | 'high' | 'medium' | 'low';
+  reason: string;
+  candidateQueries: string[];
+  status: 'open' | 'resolved' | 'partially_resolved' | 'unresolvable';
 }
 
 export interface TriggerContract {

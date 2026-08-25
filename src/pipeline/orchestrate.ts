@@ -10,7 +10,7 @@ import { fetchArticleText } from '../lib/article.js';
 import { llm } from '../lib/llm.js';
 import { articleScenarioPrompt } from '../prompts/decompose.js';
 import { extractTriggerContract } from './trigger.js';
-import { productScopeGate } from '../schema/v2.js';
+import { addEvidence, detectGaps, productScopeGate } from '../schema/v2.js';
 
 // The full pipeline for one run, in order. Used by the CLI "all" stage and by the
 // API server when a search has no cached run. Each stage persists its output to
@@ -66,12 +66,33 @@ export async function runFromArticle(slug: string, url: string): Promise<void> {
   // sanctions, subsidies, procurement), company mapping cannot start while
   // the product scope is empty. A blocked run publishes a research-status
   // card instead of tickers.
+  // Evidence record for the source article (schema v2: evidence-index.json).
+  addEvidence(slug, {
+    kind: 'major_news',
+    title: article.title,
+    publisher: new URL(article.url).hostname,
+    url: article.url,
+    retrievedAt: new Date().toISOString(),
+    excerpt: article.text.slice(0, 300),
+    authorityRank: 9,
+    supports: ['trigger-contract'],
+  });
+
+  // Missing-information detector: deterministic gaps persisted for the
+  // research planner and the research-status card.
+  const gaps = detectGaps(contract, article.text);
+  save(slug, 'gaps', gaps);
+  const blocking = gaps.filter((g) => g.importance === 'blocking');
+  console.log(`[gaps] ${gaps.length} open (${blocking.length} blocking, ${gaps.filter((g) => g.importance === 'high').length} high)`);
+
   const gate = productScopeGate(contract);
   save(slug, 'research-status', {
     eventType: gate.eventType,
     canProceedToCompanyMapping: gate.canProceedToCompanyMapping,
     reasons: gate.reasons,
     warnings: gate.warnings,
+    openGaps: gaps.filter((g) => g.status === 'open').length,
+    blockingGaps: blocking.map((g) => g.question),
     at: new Date().toISOString(),
   });
   if (!gate.canProceedToCompanyMapping) {

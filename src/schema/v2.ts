@@ -126,6 +126,115 @@ export interface UnsupportedNumber {
   context: string;
 }
 
+// ---------------------------------------------------------------------------
+// Evidence store (master prompt 8-9): one evidence-index.json per run.
+// ---------------------------------------------------------------------------
+import fs from 'node:fs';
+import path from 'node:path';
+import type { EvidenceRef, SourceGap } from '../types.js';
+
+export function addEvidence(slug: string, ref: Omit<EvidenceRef, 'evidenceId'>): EvidenceRef {
+  const dir = path.resolve('data/runs', slug, 'evidence');
+  fs.mkdirSync(dir, { recursive: true });
+  const p = path.join(dir, 'evidence-index.json');
+  const index: EvidenceRef[] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : [];
+  const full: EvidenceRef = { evidenceId: `ev-${String(index.length + 1).padStart(3, '0')}`, ...ref };
+  index.push(full);
+  fs.writeFileSync(p, JSON.stringify(index, null, 2));
+  return full;
+}
+
+// ---------------------------------------------------------------------------
+// Missing-information detector (master prompt 12.1): deterministic rules over
+// the trigger contract plus the source text. Blocking gaps also surface
+// through the product-scope gate; the full gap list is persisted for the
+// research planner and the UI's research-status card.
+// ---------------------------------------------------------------------------
+export function detectGaps(contract: TriggerContract, sourceText: string): SourceGap[] {
+  const gaps: SourceGap[] = [];
+  let n = 0;
+  const gap = (g: Omit<SourceGap, 'gapId' | 'status'>) =>
+    gaps.push({ gapId: `gap-${String(++n).padStart(2, '0')}`, status: 'open', ...g });
+
+  const eventType = classifyEventType(contract);
+  const productSpecific = ['tariff', 'sanction', 'subsidy', 'procurement'].includes(eventType);
+
+  if (productSpecific && (contract.targetedProducts?.value ?? []).length === 0) {
+    gap({
+      fieldPath: 'targetedProducts',
+      question: 'Which products does the action cover?',
+      importance: 'blocking',
+      reason: 'product-specific policy with empty product scope; company mapping is meaningless without it',
+      candidateQueries: [
+        `${contract.action} official product list annex`,
+        `${contract.action} federal register notice products`,
+      ],
+    });
+  }
+  if (contract.status === 'unknown') {
+    gap({
+      fieldPath: 'status',
+      question: 'Is the action effective, announced, threatened, or proposed?',
+      importance: 'blocking',
+      reason: 'status determines whether effects are observable or hypothetical',
+      candidateQueries: [`${contract.action} effective date official`],
+    });
+  }
+  if (/retaliat/i.test(sourceText) && !contract.response) {
+    gap({
+      fieldPath: 'response',
+      question: 'The source mentions retaliation; what are its actor, products, rates, and dates?',
+      importance: 'high',
+      reason: 'retaliation is a separate event with its own transmission channels',
+      candidateQueries: ['retaliatory tariffs official product list', 'countermeasures department of finance'],
+    });
+  }
+  if (!contract.effectiveDate) {
+    gap({
+      fieldPath: 'effectiveDate',
+      question: 'When does or did the action take effect?',
+      importance: 'high',
+      reason: 'timing anchors observability and expectations analysis',
+      candidateQueries: [`${contract.action} effective date`],
+    });
+  }
+  if (productSpecific) {
+    gap({
+      fieldPath: 'affectedTradeCodes',
+      question: 'Which HS or HTSUS codes are covered?',
+      importance: 'high',
+      reason: 'trade codes make product scope precise and exclusions checkable',
+      candidateQueries: [`${contract.action} HTSUS codes annex`],
+    });
+    gap({
+      fieldPath: 'exclusions',
+      question: 'Are any products or parties excluded or exempted?',
+      importance: 'high',
+      reason: 'exemptions reverse candidate polarity and are a standard falsifier',
+      candidateQueries: [`${contract.action} exclusions exemptions`],
+    });
+  }
+  if (!contract.legalAuthority?.value) {
+    gap({
+      fieldPath: 'legalAuthority',
+      question: 'Under what legal authority is the action taken?',
+      importance: 'medium',
+      reason: 'legal basis determines durability and reversal mechanics',
+      candidateQueries: [`${contract.action} legal authority statute`],
+    });
+  }
+  if ((contract.monetaryScope?.value ?? []).length === 0) {
+    gap({
+      fieldPath: 'monetaryScope',
+      question: 'What trade value does the action cover?',
+      importance: 'medium',
+      reason: 'monetary scope bounds materiality reasoning',
+      candidateQueries: [`${contract.action} affected trade value`],
+    });
+  }
+  return gaps;
+}
+
 // A claim number is supported only if the source contains a number token with
 // the same value (unit-compatible: an exact-unit match, or a bare source
 // token with the same value). Substring matching is forbidden: "10" must not

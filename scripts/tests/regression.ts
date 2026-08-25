@@ -89,6 +89,18 @@ check('non-product event with empty products proceeds', nonProduct.canProceedToC
 const unknownStatus = productScopeGate(contractFixture({ status: 'unknown' }));
 check('unknown policy status is blocked', !unknownStatus.canProceedToCompanyMapping);
 
+
+// ---------------------------------------------------------------------------
+// T-6 additions: missing-information detector on the real AP contract.
+// ---------------------------------------------------------------------------
+import { detectGaps } from '../../src/schema/v2.js';
+const apGaps = detectGaps(newContract, articleText);
+check('AP contract: trade-code gap detected (high)', apGaps.some((g) => g.fieldPath === 'affectedTradeCodes' && g.importance === 'high'));
+check('AP contract: exclusions gap detected', apGaps.some((g) => g.fieldPath === 'exclusions'));
+check('AP contract: no blocking gaps (products resolved)', !apGaps.some((g) => g.importance === 'blocking'), JSON.stringify(apGaps.filter((g) => g.importance === 'blocking').map((g) => g.fieldPath)));
+const emptyScopeGaps = detectGaps(contractFixture({}), 'no retaliation mentioned here');
+check('empty-scope fixture: blocking product gap emitted', emptyScopeGaps.some((g) => g.importance === 'blocking' && g.fieldPath === 'targetedProducts'));
+
 // ---------------------------------------------------------------------------
 console.log('');
 console.log(`regression: ${failures} failure(s)`);
