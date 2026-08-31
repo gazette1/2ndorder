@@ -1,0 +1,45 @@
+You are an equity analyst reading SEC filing excerpts for Lifeway Foods, Inc. (LWAY). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US and Canada resolve tariff disputes by mid-2025, keeping cross-border supply chains integrated and goods inflation near pre-2025 trends through 2026.
+Map node this company was mapped to: Import-competing producer margin compression (order 2, at_risk). Mechanism: US domestic producers lower prices to defend capacity utilization, compressing gross margins. Node logic: Faced with renewed Canadian competition, import-competing producers choose to cut prices rather than idle capacity. The margin compression is leveraged because these producers have high fixed costs, so every point of price decline flows directly to gross margin. Many cannot reduce variable costs quickly enough to offset the revenue loss.
+8-K filings in the last 12 months: 25
+
+Excerpts:
+[0] (8-K, filed 2026-08-13) Given the Company s pricing power and the positive conventional milk cost outlook for 2027, coupled with the operational efficiencies from our ongoing investments, we expect gross margin and profitability to fully recover in 2027, with the opportunity to exceed the improvement achieved in the first quarter of 2026 as pricing actions layer in and operational improvements take effect.
+[1] (8-K, filed 2026-08-13) These risks, uncertainties, and other factors include: price competition; the decisions of customers or consumers; the actions of competitors; changes in the pricing of commodities; the effects of government regulation; possible delays in the introduction of new products; and customer acceptance of products and services.
+[2] (10-K, filed 2026-03-17) This could cause us to lower our prices, resulting in lower profitability or, in the alternative, cause us to lose market share if we fail to lower prices.
+[3] (10-K, filed 2026-03-17) Increased price competition and resistance to price increases have had, and may continue to have, a negative effect on our results of operations.
+[4] (10-K, filed 2026-03-17) The change in administration following the 2024 United States presidential election could further impact trade and tariff policies, and could also result in substantial changes to fiscal, tax, or regulatory policies that may impact our business.
+[5] (10-K, filed 2026-03-17) These additional tariffs, as well as a government s adoption of buy national policies or retaliation by another government against such tariffs or policies have introduced significant uncertainty into the market and may affect the prices of and demand for our products, as well as the cost to acquire machinery and equipment from international sources, which could have a material and adverse effect on our business, financial condition and results of operations.
+[6] (10-K, filed 2026-03-17) 15 Increases in the cost of milk could reduce our gross margin and profit.
+[7] (10-K, filed 2026-03-17) 21 Trends and Uncertainties Current Macroeconomic Environment We continue to monitor macroeconomic conditions and global trade developments, including inflation in key input costs, recently implemented tariffs, and the potential for additional or modified tariffs or export controls.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $50,520 across 1 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $212,496,000, net income $13,859,000, R&D $n/a, cash $5,571,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

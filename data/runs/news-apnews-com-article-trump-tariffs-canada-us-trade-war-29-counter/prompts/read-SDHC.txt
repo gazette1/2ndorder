@@ -1,0 +1,55 @@
+You are an equity analyst reading SEC filing excerpts for Smith Douglas Homes Corp. (SDHC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US and Canada resolve tariff disputes by mid-2025, keeping cross-border supply chains integrated and goods inflation near pre-2025 trends through 2026.
+Map node this company was mapped to: Cross-border supplier order book rebuild (order 2, beneficiary). Mechanism: US manufacturers increase purchase orders from Canadian suppliers to lock in lower input costs. Node logic: Procurement teams respond to lower landed costs by reallocating volume back to Canadian suppliers that had been displaced. This rebuilds backlog for Canadian producers because order books had shrunk during the tariff period. The effect is levered because many US manufacturers had already qualified Canadian suppliers historically, so switching back requires less lead time than onboarding new vendors.
+8-K filings in the last 12 months: 5
+
+Excerpts:
+[0] (8-K, filed 2026-08-06) (2) Backlog homes (period end) is the number of homes in backlog from the previous period plus the number of net new home orders generated during the current period minus the number of homes closed during the current period.
+[1] (10-K, filed 2026-03-12) The following tables present our owned real estate inventory status as of the periods set forth below: As of December 31, 2025 2024 Backlog homes finished or under construction 21% 31% Unsold homes under construction 14% 14% Unsold completed homes 12% 6% Model homes 6% 4% Owned unstarted finished lots 47% 45% Total 100% 100% Homebuilding, Marketing, and Sales Process Construction We are focused on providing value, quality, and satisfaction to our homebuyers and are committed to providing them affordable homes of enduring value.
+[2] (10-K, filed 2026-03-12) SMART Builder utilizes a paperless purchase order system throughout the construction process to conduct business with our trade partners and provides them cloud-based access to check their job schedules and purchase orders on a real-time basis.
+[3] (10-K, filed 2026-03-12) Backlog, Orders, and Closings Historically, we prefer to begin home construction after entering into a binding sales agreement; however, we employ a limited speculative homebuilding program where we construct a home without an associated contract when warranted by market conditions.
+[4] (10-K, filed 2026-03-12) As of both December 31, 2025 and 2024, homebuyer deposits averaged approximately 2% of the average sales price of our backlog homes.
+[5] (10-K, filed 2026-03-12) The following tables present information concerning our new home orders, starts, and closings in each of our segments for the periods set forth below: Year ended December 31, 2025 2024 Year Over Year Change Segment Orders Starts Closings Orders Starts Closings Orders Starts Closings Southeast 1,627 1,765 1,772 1,599 1,874 1,723 28 (109) 49 Central 1,099 1,078 1,136 1,050 1,170 1,144 49 (92) (8) Total 2,726 2,843 2,908 2,649 3,044 2,867 77 (201) 41 Our backlog consists of homes under signed purchase contracts with homebuyers who have met the preliminary criteria to obtain mortgage financing and made their deposit but have not yet closed.
+[6] (10-K, filed 2026-03-12) Backlog (period end) represents the number of homes in backlog from the previous period plus the number of new home orders generated during the current period minus the number of homes closed during the current period.
+[7] (10-K, filed 2026-03-12) Our backlog at any given time will be affected by cancellations and the number of our active communities.
+[8] (10-K, filed 2026-03-12) Homes in backlog are generally closed within one to six months, although we may experience cancellations of purchase contracts at any time prior to such home closings.
+[9] (10-K, filed 2026-03-12) It is important to note that new home orders, backlog, and cancellation metrics are operational, rather than accounting, data and should be used only as a general gauge to evaluate performance.
+[10] (10-K, filed 2026-03-12) Backlog may be impacted by homebuyer cancellations for various reasons beyond our control.
+[11] (10-K, filed 2026-03-12) Our materials are subject to price fluctuations until construction on a home begins, at which point prices for that home are locked in via purchase orders.
+[12] (10-K, filed 2026-03-12) Such price fluctuations may be caused by several factors, including seasonal variation in availability of materials, labor and supply chain disruptions, international trade disputes and resulting tariffs, and increased demand for materials in the markets where we operate.
+[13] (10-K, filed 2026-03-12) Additionally, governmental action and legislation related to economic stimulus, taxation, tariffs, spending levels and borrowing limits, interest rates, immigration, as well as political debate, conflicts, and compromises related to such actions, may negatively impact the financial markets and consumer confidence and spending, which could adversely impact the U.S. economy and the housing market.
+[14] (10-K, filed 2026-03-12) Moreover, potential tariffs, including on building materials, geopolitical conflicts, and war have increased global economic and political uncertainty, which has caused dramatic fluctuations in global financial markets.
+[15] (10-K, filed 2026-03-12) Backlog homes (period end) Backlog homes (period end) is the number of homes in backlog from the previous period plus the number of net new home orders generated during the current period minus the number of homes closed during the current period.
+[16] (10-K, filed 2026-03-12) Backlog at period end includes homes currently under construction and homes that are sold where construction has not yet commenced.
+[17] (10-K, filed 2026-03-12) (3) Backlog homes (period end) is the number of homes in backlog from the previous period plus the number of net new home orders generated during the current period minus the number of homes closed during the current period.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $559,869 across 6 buys and 0 sales by 4 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $971,116,000, net income $10,694,000, R&D $n/a, cash $12,741,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

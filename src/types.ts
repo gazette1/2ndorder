@@ -14,6 +14,13 @@ export interface ChainNode {
   logic: string;
   // When the consequence becomes observable: near = 0 to 6 months, mid = 6 to 18, long = 18 plus.
   horizon: 'near' | 'mid' | 'long';
+  // The measurable company line item this consequence lands on (unit volume,
+  // gross margin, backlog...). The termination rule: no nameable KPI, no node.
+  // Optional because runs generated before 2026-08-24 lack it.
+  kpi?: string;
+  // The observable condition that would break this edge (exemption,
+  // substitution, counterparty response). Same optionality.
+  falsifier?: string;
   // Exact phrases for EDGAR full-text search. Quoted verbatim, so they must be phrases companies actually write in filings.
   searchPhrases: string[];
   // Filled by the map stage: total FTS hits across the node's phrases.
@@ -22,10 +29,139 @@ export interface ChainNode {
   whiteSpace?: boolean;
 }
 
+// ---- Evidence-bound trigger contract (article runs) ----
+// Every extracted value carries its exact source quote; a deterministic
+// validator rejects any number that does not appear in the article text.
+// The reasoning model never gets to "helpfully" fill missing data.
+
+export interface EvidenceValue<T> {
+  value: T | null;
+  exactQuote: string | null;
+  confidence: 'verified' | 'inferred' | 'unknown';
+  // References into the run's evidence/evidence-index.json (schema v2).
+  evidenceIds?: string[];
+}
+
+// A retrievable evidence record (master prompt 9.1, minimal v2 form).
+export interface EvidenceRef {
+  evidenceId: string;
+  kind:
+    | 'official_policy'
+    | 'regulatory'
+    | 'government_data'
+    | 'company_filing'
+    | 'company_release'
+    | 'market_data'
+    | 'major_news'
+    | 'industry_source'
+    | 'secondary_analysis'
+    | 'test_fixture';
+  title: string;
+  publisher: string;
+  url?: string;
+  localFixturePath?: string;
+  publicationDate?: string | null;
+  retrievedAt: string;
+  excerpt: string;
+  authorityRank: number; // 1 highest (official policy) .. 10 lowest
+  supports: string[]; // field paths or claim ids this record supports
+}
+
+// A retaliation or counter-action, kept as its own event (master prompt 15).
+// Status groups must never be blended: official actions, explicit threats,
+// and modeled possibilities are different classes of fact.
+export interface RetaliationAction {
+  actor: string;
+  action: string;
+  group: 'official' | 'threatened' | 'modeled';
+  announcedDate: string | null;
+  effectiveDate: string | null;
+  targetedProducts: string[];
+  exactQuote: string | null; // required for official and threatened
+  probabilityBand: 'low' | 'medium' | 'high' | 'not_scored'; // modeled only
+  transmissionChannels: string[];
+}
+
+// One researched document fetched by a research provider.
+export interface ResearchDoc {
+  queryId: string;
+  mode: 'live' | 'fixture' | 'unavailable';
+  url: string | null;
+  title: string;
+  text: string;
+  evidenceId: string | null;
+}
+
+// Field-level diff between the source-only and researched trigger contracts.
+export interface TriggerDiffEntry {
+  fieldPath: string;
+  change: 'added' | 'changed' | 'unchanged' | 'unresolved';
+  before: unknown;
+  after: unknown;
+  evidenceIds: string[];
+}
+
+// A material unanswered question (master prompt 9.5, minimal v2 form).
+export interface SourceGap {
+  gapId: string;
+  fieldPath: string;
+  question: string;
+  importance: 'blocking' | 'high' | 'medium' | 'low';
+  reason: string;
+  candidateQueries: string[];
+  status: 'open' | 'resolved' | 'partially_resolved' | 'unresolvable';
+}
+
+export interface TriggerContract {
+  sourceUrl: string;
+  publicationDate: string | null;
+  eventDate: string | null;
+  effectiveDate: string | null;
+  primaryActor: string;
+  action: string;
+  counterparty: string | null;
+  legalAuthority: EvidenceValue<string>;
+  rates: EvidenceValue<string[]>;
+  monetaryScope: EvidenceValue<Array<{ value: number; currency: string; unit: string }>>;
+  targetedProducts: EvidenceValue<string[]>;
+  response: {
+    actor: string;
+    action: string;
+    announcedDate: string | null;
+    effectiveDate: string | null;
+    exactQuote: string | null;
+  } | null;
+  status: 'announced' | 'effective' | 'suspended' | 'expired' | 'proposed' | 'unknown';
+  reversibilityMechanisms: string[];
+  unsupportedClaims: string[];
+}
+
+// The normalized trigger: the event stated precisely before anything is mapped.
+export interface Trigger {
+  actor: string;
+  action: string;
+  magnitude: string;
+  geography: string;
+  timing: string;
+  certainty: string; // announced, proposed, assumed
+  reversibility: string;
+}
+
+// A stakeholder-reaction row: who is affected, what they are paid to do about it.
+export interface Reaction {
+  actor: string;
+  incentive: string;
+  likelyResponse: string;
+  timing: string;
+}
+
 export interface Decomposition {
   nodes: ChainNode[];
   // Broad theme words used to excerpt filing text around hits.
   themeKeywords: string[];
+  // TRACE-lite fields; null or empty on runs generated before 2026-08-24.
+  trigger?: Trigger | null;
+  reactions?: Reaction[];
 }
 
 // A filing event on a mapped name since the run (or since the last alert check).
@@ -226,12 +362,28 @@ export interface Coverage {
 export interface RealityCheck {
   advUSD: number | null; // trailing 3-month average daily dollar volume
   daysToBuild: number | null; // days to build the config position at the config participation rate
+  // The position the days-to-build math assumes, and where it came from:
+  // FUND_AUM_USD x POSITION_BPS when configured, else the flat default.
+  positionUSD?: number;
+  positionBasis?: string; // e.g. "25 bps of $14.7B AUM" or "default $5MM"
+  // Position as a share of market cap: a fund cannot quietly own 8 percent.
+  ownershipPct?: number | null;
   netCashUSD: number | null; // cash minus total debt (long-term debt concept, approximate)
   runwayQuarters: number | null; // cash / quarterly operating burn; null when operations fund themselves
   sharesChangePct: number | null; // share count change over ~12 months
   shelfOnFile: boolean; // S-3 or 424B5 in the trailing 12 months
   flags: string[]; // human-readable warnings derived from the above
   provenance: Provenance[];
+}
+
+// Expectations proxies: what the market already appears to believe, from free
+// delayed data. Proxies, honestly labeled; not consensus estimates.
+export interface ExpectationsCard {
+  priceChange3moPct: number | null; // delayed price, ~3 months back to latest
+  pct52wRange: number | null; // where price sits in the 52-week range, 0 low to 100 high
+  psRatio: number | null; // market cap / trailing revenue, null when revenue absent
+  note: string; // the honest caption rendered with the card
+  provenance: Provenance;
 }
 
 // ---- Evidence layer (8-K events, holders, proxy, hiring, macro) ----
@@ -343,6 +495,7 @@ export interface Dossier {
   governance?: Governance | null;
   hiring?: HiringSnapshot | null;
   regulator?: RegulatorSignal | null;
+  expectations?: ExpectationsCard | null;
 }
 
 export interface Thesis {
@@ -373,6 +526,10 @@ export interface RunPayload {
     sourceTitle: string | null;
   };
   chain: ChainNode[];
+  // TRACE-lite: the normalized trigger and stakeholder reactions. Null/empty
+  // on runs generated before 2026-08-24.
+  trigger?: Trigger | null;
+  reactions?: Reaction[];
   candidates: Candidate[];
   dossiers: Dossier[];
   reads: Read[];

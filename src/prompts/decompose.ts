@@ -6,6 +6,9 @@ const NODE_RULES = `- Each node is a niche, not a company. Name no tickers.
 - "mechanism" is ONE line of causal logic: who pays whom, or which line item moves, and why.
 - "logic" is 2 to 3 sentences expanding the mechanism: why the effect is levered to the scenario rather than linear with it.
 - "horizon" is when the consequence becomes observable in company results: "near" (0 to 6 months), "mid" (6 to 18 months), "long" (18 months plus).
+- "kpi" is the ONE measurable company line item this consequence lands on: unit volume, price, gross margin, backlog, capacity utilization, capex, working capital, customer count, market share, or approval probability. THE TERMINATION RULE: if you cannot name the KPI a consequence moves, the branch stops; do not include a node whose effect you cannot tie to a reported number.
+- "falsifier" is ONE line stating the observable condition that would break this edge: the exemption, substitution, contract structure, or counterparty response that would stop the effect from reaching the KPI.
+- The three orders are defined by behavior, not distance: order 1 is the mechanical effect if nobody changes behavior, order 2 is the incentivized RESPONSE of an affected actor (who reacts, what are they paid to do), order 3 is the new equilibrium those responses create (feedback, substitution, bottleneck migration, competed-away pricing).
 - Plain factual prose. No em-dashes, no exclamation points, no superlatives.`;
 
 export function decomposePrompt(seed: string): string {
@@ -13,7 +16,11 @@ export function decomposePrompt(seed: string): string {
 
 Scenario: ${seed}
 
-Produce 10 to 14 nodes: 3 to 5 at order 1, 4 to 6 at order 2, 2 to 4 at order 3. At least 3 nodes across the map must be "at_risk". Every order 2 and order 3 node names its parent: the consequence it follows from. Order 1 nodes have parentId null.
+First, normalize the trigger. State the event precisely before mapping anything: the actor taking the action, the action itself, magnitude (with a number where the scenario implies one), geography, timing or effective window, certainty ("announced", "proposed", "assumed"), and reversibility (one line on how it could be undone).
+
+Second, before the tree, list the stakeholder reactions: for each of the 3 to 5 most economically affected actor groups (customers, competitors, suppliers, regulators, capital providers), state their incentive and the response they are most likely to actually take, with rough timing. Ask of the scenario: who is hurt by this, and what will they do to stop it? The order 2 and 3 nodes must be consistent with these reactions.
+
+Then produce 10 to 14 nodes: 3 to 5 at order 1, 4 to 6 at order 2, 2 to 4 at order 3. At least 3 nodes across the map must be "at_risk". Every order 2 and order 3 node names its parent: the consequence it follows from. Order 1 nodes have parentId null.
 
 Rules:
 ${NODE_RULES}
@@ -22,8 +29,12 @@ ${PHRASE_RULES}
 
 Return only a JSON object:
 {
+  "trigger": { "actor": "...", "action": "...", "magnitude": "...", "geography": "...", "timing": "...", "certainty": "...", "reversibility": "..." },
+  "reactions": [
+    { "actor": "...", "incentive": "...", "likelyResponse": "...", "timing": "near" }
+  ],
   "nodes": [
-    { "id": "kebab-case-id", "parentId": null, "order": 1, "polarity": "beneficiary", "name": "...", "mechanism": "...", "logic": "...", "horizon": "near", "searchPhrases": ["...", "..."] }
+    { "id": "kebab-case-id", "parentId": null, "order": 1, "polarity": "beneficiary", "name": "...", "mechanism": "...", "logic": "...", "horizon": "near", "kpi": "...", "falsifier": "...", "searchPhrases": ["...", "..."] }
   ],
   "themeKeywords": ["...", "..."]
 }`;

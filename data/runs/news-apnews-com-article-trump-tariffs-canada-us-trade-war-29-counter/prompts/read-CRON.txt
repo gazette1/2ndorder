@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Cronos Group Inc. (CRON). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US and Canada resolve tariff disputes by mid-2025, keeping cross-border supply chains integrated and goods inflation near pre-2025 trends through 2026.
+Map node this company was mapped to: US import-competing sector share loss and consolidation (order 3, at_risk). Mechanism: Persistent Canadian price competition erodes US domestic producer market share and forces consolidation. Node logic: Price cuts provide only temporary defense because Canadian producers can sustain lower prices due to restarting capacity and currency effects. Over time, weaker US producers lose share and become acquisition targets or exit. The consolidation is levered because fragmented sectors like lumber and aluminum have many marginal producers that cannot withstand a prolonged margin squeeze.
+8-K filings in the last 12 months: 7
+
+Excerpts:
+[0] (8-K, filed 2026-08-06) In Canada, the Spinach brand continued to gain significant market share, maintaining its #1 position in vapes for the second consecutive quarter and its #1 position in edibles for the eighth consecutive quarter 1 , while also making notable gains in pre-rolls and flower, said Mike Gorenstein, Chairman, President and CEO of Cronos.
+[1] (8-K, filed 2026-08-06) 1 Hifyre Retail Analytics - National Retail Dollar by Brand in Canada - Q2 2026.
+[2] (8-K, filed 2026-08-06) 2 Market share and ranking information from pharmacy data collected by Cronos - Q2 2026.
+[3] (8-K, filed 2026-08-06) Business Updates Brand and Product Portfolio Spinach 3 The Spinach brand remained Canada s #2 overall cannabis brand in Q2 2026, with national market share expanding to 5.9%.
+[4] (8-K, filed 2026-08-06) In edibles, Spinach remained the #1 brand in Canada, with market share consistent at 20.8%.
+[5] (8-K, filed 2026-08-06) In Q2 2026, five SOURZ by Spinach gummies products ranked among the top 10 edibles nationally, including the top-selling edibles SKU in Canada, the Fully Blasted Blue Raspberry Watermelon 10 Pack.
+[6] (8-K, filed 2026-08-06) Spinach remained the #1 vape brand in Canada for the second consecutive quarter, with total vape market share across all formats expanding to 10.6%.
+[7] (8-K, filed 2026-08-06) Within vape cartridges specifically, Spinach remained #1 for the third consecutive quarter, with market share expanding to 11.8%.
+[8] (8-K, filed 2026-08-06) In disposable vapes, Spinach ranked #2 for the full quarter, with 8.2% market share.
+[9] (8-K, filed 2026-08-06) In Q2 2026, Cronos launched three new PUFFERZ flavors in Canada, Strawberry Burst, Peach Iced Tea, and Grape Gas, expanding the brand s all-in-one vape portfolio.
+[10] (8-K, filed 2026-08-06) In flower, Spinach remained #3 in Canada, with market share expanding to 5.4%.
+[11] (8-K, filed 2026-08-06) In pre-rolls, Spinach rose to #7 in Canada, with market share rising to 3.1%.
+[12] (8-K, filed 2026-08-06) In the second quarter, Spinach rose to #6 in infused pre-rolls, with market share increasing to 3.5%, and reached #6 in traditional pre-rolls, with market share increasing to 2.9%.
+[13] (8-K, filed 2026-08-06) 3 Hifyre Retail Analytics - National Retail Dollar by Brand in Canada - Q2 2026.
+[14] (8-K, filed 2026-08-06) 4 Market share and ranking information from pharmacy data collected by Cronos - Q2 2026.
+[15] (8-K, filed 2026-08-06) Anti-Dumping Matters in Israel Update In June 2026, the Trade Levies Commissioner of the Israel Ministry of Economy and Industry announced that it had opened a new investigation into alleged dumping of medical cannabis imports from Canada.
+[16] (8-K, filed 2026-08-06) This announcement followed the 2024 investigation by the Commissioner, which did not result in the imposition of an anti-dumping duty.
+[17] (8-K, filed 2026-08-06) On July 30, 2026, a new complaint concerning imports of medical cannabis from Canada was filed on behalf of the Israeli domestic industry.
+[18] (8-K, filed 2026-08-06) On August 2, 2026, the Commissioner notified the Government of Canada that the new complaint contained sufficient prima facie evidence of dumping, material injury to the domestic industry and a causal link between the alleged dumping and injury.
+[19] (8-K, filed 2026-08-06) The Company disputes the allegations underlying these matters and cannot predict the timing or outcome of the new investigation or any related proceedings or whether any provisional or final anti-dumping duty or other import restriction will ultimately be imposed.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $146,587,000, net income $-9,447,000, R&D $4,449,000, cash $791,794,000.
+Customer graph: federal awards $9,261,945 across 25 awards (top agency Department of Defense); 3 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

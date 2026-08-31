@@ -1,0 +1,42 @@
+You are an equity analyst reading SEC filing excerpts for TrueBlue, Inc. (TBI). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map node this company was mapped to: Meter-to-cash SaaS platforms (order 3, beneficiary). Mechanism: Utilities replace legacy billing with subscription meter-to-cash platforms that handle interval reads, tiered pricing, collections, and cap enforcement. Node logic: SaaS vendors earn recurring revenue per endpoint, so every new smart meter adds predictable annual contract value. The shift from perpetual licenses to subscriptions lengthens customer lifetime value and reduces cyclicality.
+8-K filings in the last 12 months: 12
+
+Excerpts:
+[0] (8-K, filed 2026-05-05) (5) Amortization of software as a service assets is reported in selling, general and administrative expense.
+[1] (8-K, filed 2026-05-05) Adjusted EBITDA further excludes third-party processing fees for hiring tax credits, amortization of software as a service assets, acquisition integration costs, non-cash goodwill impairment charge, workforce reduction costs, and other adjustments, net.
+[2] (8-K, filed 2026-05-05) Adjusted SG A expense Selling, general and administrative expense excluding third-party processing fees for hiring tax credits, amortization of software as a service assets, acquisition integration costs, workforce reduction costs, and other adjustments, net.
+[3] (8-K, filed 2026-05-05) GAAP NET LOSS TO EBITDA AND ADJUSTED EBITDA ( Unaudited ) 13 weeks ended (in thousands) Mar 29, 2026 Mar 30, 2025 Net loss $ (19,795) $ (14,348) Income tax expense 576 418 Interest and other (income) expense, net 1,372 (193) Non-cash depreciation and amortization (3) 6,867 6,810 EBITDA (10,980) (7,313) Third-party processing fees for hiring tax credits (4) (100) 90 Amortization of software as a service assets (5) 1,259 1,093 Acquisition integration costs 16 710 Non-cash goodwill impairment charge 3,656 Workforce reduction costs (1) 1,069 1,400 Other adjustments, net (2) 2,030 98 Adjusted EBITDA $ (3,050) $ (3,922) Margin % of revenue Net loss (5.0)% (3.9)% Adjusted EBITDA (0.8)% (1.1)% 3.
+[4] (10-K, filed 2026-02-18) Liquidity outlook For fiscal 2026, capital expenditures and capitalized costs associated with the development of software as a service assets are expected to be between $13 million and $17 million, with approximately $1 million of this amount relating to spending for software as a service assets.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $134,374 across 3 buys and 1 sales by 3 insider(s).
+Fundamentals (XBRL, as of 2025-12-28): revenue $n/a, net income $-47,960,000, R&D $n/a, cash $24,510,000.
+Customer graph: federal awards $18,217,824 across 19 awards (top agency Department of Transportation); 3 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

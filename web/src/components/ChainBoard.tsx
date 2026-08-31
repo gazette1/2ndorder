@@ -4,7 +4,7 @@
 // table. Parent linkage is textual ("follows from") in the detail strip below
 // the map rather than drawn edges.
 
-import type { Candidate, ChainNode } from '../types';
+import type { Candidate, ChainNode, Reaction } from '../types';
 
 function ordinalLabel(n: number): string {
   const mod100 = n % 100;
@@ -81,6 +81,9 @@ export function ConsequenceMap({ seed, chain, candidates, selectedNodeId, onSele
                         {node.whiteSpace && <span className="node-tag">white space</span>}
                       </div>
                       <div className="node-mech">{node.mechanism || node.logic}</div>
+                      {node.kpi && (
+                        <span className="node-kpi mono">KPI: {node.kpi}</span>
+                      )}
                       <div className="node-foot">
                         <span className="node-counts mono">
                           {k} name{k === 1 ? '' : 's'}, {node.filingHits ?? 0} filing
@@ -129,7 +132,42 @@ export function NodeDetailStrip({ node, parent, drilling, drillNote, onDrill }: 
         </button>
       </div>
       <p className="node-detail-logic">{node.logic}</p>
+      {node.falsifier && (
+        <p className="node-falsifier">
+          <span className="node-falsifier-mark mono">Breaks if:</span> {node.falsifier}
+        </p>
+      )}
       {drillNote && <p className="action-note">{drillNote}</p>}
+    </section>
+  );
+}
+
+// Stakeholder reactions: who is affected by the trigger and what they are
+// paid to do about it. Renders only when the run carries reaction rows.
+export function ReactionsSection({ reactions }: { reactions: Reaction[] }) {
+  return (
+    <section className="section">
+      <h2 className="section-title">Who reacts</h2>
+      <table className="react-table">
+        <thead>
+          <tr>
+            <th>Actor</th>
+            <th>Incentive</th>
+            <th>Likely response</th>
+            <th>Timing</th>
+          </tr>
+        </thead>
+        <tbody>
+          {reactions.map((r, i) => (
+            <tr key={r.actor + i}>
+              <td className="react-actor">{r.actor}</td>
+              <td>{r.incentive}</td>
+              <td>{r.likelyResponse}</td>
+              <td>{r.timing}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </section>
   );
 }

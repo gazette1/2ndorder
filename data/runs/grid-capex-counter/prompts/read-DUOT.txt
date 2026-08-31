@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for DUOS TECHNOLOGIES GROUP, INC. (DUOT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Aeroderivative gas turbine manufacturers (order 1, beneficiary). Mechanism: Data center operators order on-site gas turbines for prime and backup power, creating a new demand stream outside utility capex. Node logic: The need for firm, dispatchable power at data centers bypasses multi-year utility interconnection queues. Order intake for aeroderivative turbines rises even as utility T&D capex stays flat. This is a substitution of behind-the-meter generation for grid supply, so the effect is levered to data center load growth, not linear with utility spending.
+8-K filings in the last 12 months: 25
+
+Excerpts:
+[0] (10-Q, filed 2026-05-15) In conjunction with this, in late 2024, the Company engaged with Fortress Investment Group ( FIG ) to assist in FIG s purchase of approximately 850 Mega Watts of electrical generation capacity (consisting of 30 mobile gas turbine generators) and associated equipment to support their installation and operation ( balance-of-plant ).
+[1] (10-Q, filed 2026-05-15) AND SUBSIDIARIES CONDENSED NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS March 31, 2026 and 2025 (Unaudited) Under the AMA, Duos Energy manages the deployment and operations for a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales and operations functions to New APR in connection with the assets.
+[2] (10-Q, filed 2026-05-15) Under the AMA, Duos Energy manages the deployment and operations of a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales and operations functions to New APR in connection with the assets.
+[3] (10-Q, filed 2026-05-15) As most leases do not provide an implicit rate, the Company uses an incremental borrowing rate based on the information available at the lease commencement date to determine the present value of future payments.
+[4] (10-Q, filed 2026-05-15) NOTE 8: CASH ADVANCE PAYMENT SAWGRASS APR HOLDINGS LLC Schedule of cash advance payment Amount Cash as of December 31, 2024 $ 5,000,000 Contract liabilities, current of December 31, 2025 Revenue recognized for the year ended December 31, 2025 $ 5,000,000 In December 2024, the Company entered into a series of contracts with Fortress under which the Company deploys and operates a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales and operations functions to New APR in connection with the assets.
+[5] (10-Q, filed 2026-05-15) Services and Consulting Related Parties In December 2024, the Company entered into a series of contracts with Fortress under which the Company will deploy and operate a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales and operations functions to Sawgrass in connection with the assets.
+[6] (10-Q, filed 2026-05-15) The Company s Asset Management Services segment generates revenues through the AMA with New APR, whereby Duos Energy oversees the deployment and operation of a fleet of mobile gas turbines and balance-of-plant inventory, providing management, sales, and operations support to New APR.
+[7] (10-Q, filed 2026-05-15) (see Note 18) In late 2024, Duos engaged with Fortress Investment Group ( FIG ) to assist in FIG s purchase of approximately 850 megawatts of electrical generation capacity (consisting of 30 mobile gas turbine generators) and associated equipment to support their installation and operation ( balance of plant ).
+[8] (10-Q, filed 2026-05-15) Under the AMA, Duos Energy oversees the deployment and operation of a fleet of mobile gas turbines and related balance-of-plant inventory and provides management, sales, and operational support services to New APR.
+[9] (10-Q, filed 2026-05-15) The reduction was primarily driven by New APR beginning to scale back the scope of services provided under the AMA, pursuant to which Duos Energy manages the deployment and operations of a fleet of mobile gas turbines and related balance-of-plant inventory, including management, sales, and operational support services for New APR.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $27,023,651, net income $-9,835,031, R&D $846,850, cash $1,941,818.
+Customer graph: federal awards $2,563,480 across 1 awards (top agency Department of Transportation); 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

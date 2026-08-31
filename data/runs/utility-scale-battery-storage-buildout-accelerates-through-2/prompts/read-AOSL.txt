@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for ALPHA & OMEGA SEMICONDUCTOR Ltd (AOSL). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map node this company was mapped to: Power semiconductor and module suppliers (order 2, beneficiary). Mechanism: Inverter manufacturers buy more insulated-gate bipolar transistor and silicon carbide modules to meet rising power-conversion demand. Node logic: Power modules are a constrained, high-value component inside every storage inverter. As inverter production scales to match the buildout, module suppliers gain volume leverage and can pass through shortages more effectively than downstream assemblers.
+8-K filings in the last 12 months: 9
+
+Excerpts:
+[0] (8-K, filed 2026-07-10) AOS has developed extensive intellectual property and technical knowledge that encompasses the latest advancements in the power semiconductor industry, which enables us to introduce innovative products to address the increasingly complex power requirements of advanced electronics.
+[1] (10-K, filed 2025-08-28) Overview We are a designer, developer and global supplier of a broad portfolio of power semiconductors.
+[2] (10-K, filed 2025-08-28) Our portfolio of power semiconductors includes approximately 2,800 products, and has grown with the introduction of over 100 new products in the fiscal year ended June 30, 2025, and over 100 and 60 new products in the fiscal years ended June 30, 2024 and 2023, respectively.
+[3] (10-K, filed 2025-08-28) Our teams of scientists and engineers have developed extensive intellectual properties and technical knowledge that encompass major aspects of power semiconductors, which we believe enables us to introduce and develop innovative products to address the increasingly complex power requirements of advanced electronics.
+[4] (10-K, filed 2025-08-28) We also developed new technologies and products designed to penetrate into markets beyond our MOSFET computing base, including the consumer, communications and industrial markets, Insulated Gate Bipolar Transistors, or IGBTs and integrated power modules for the home appliance market, as well as power integrated circuits ( ICs ) for personal computing ( PC ), advanced computing and gaming applications.
+[5] (10-K, filed 2025-08-28) As of June 30, 2025, we owned approximately 39.2% of outstanding equity interest in a joint venture company (the JV Company ) that operates a power semiconductor packaging, testing and 12-inch wafer fabrication facility ( Fab , Chongqing Fab ) in the LiangJiang New Area of Chongqing, China, and the JV Company is an important supplier of wafers and assembly and test services to us.
+[6] (10-K, filed 2025-08-28) We believe this sale will provide additional and significant capital for us to continue investment in technology, research and development projects and acquisition of assets complimentary to our business operations, which will facilitate and accelerate our efforts to develop and distribute innovative and diverse power semiconductor products to customers worldwide.
+[7] (10-K, filed 2025-08-28) Power semiconductors Power semiconductors are a subset of the analog semiconductor sector with their own set of characteristics unique to system power architecture and function.
+[8] (10-K, filed 2025-08-28) Power semiconductors transfer, manage and switch electricity to deliver the appropriate amount of voltage or current to a broad range of electronic systems and also protect electronic systems from damage resulting from excessive or inadvertent electrical charges.
+[9] (10-K, filed 2025-08-28) Power semiconductors can be either discrete devices, which typically comprise only a few transistors or diodes, or ICs, which incorporate a greater number of transistors.
+[10] (10-K, filed 2025-08-28) The power semiconductor market has been driven by several key factors in recent years.
+[11] (10-K, filed 2025-08-28) The increased application of power semiconductors to control motors in white goods and industrial applications is driving demand for IGBTs.
+[12] (10-K, filed 2025-08-28) The evolution toward smaller form factors and complex power requirements in the low voltage areas has driven further integration in power semiconductors, resulting in power ICs that incorporate the functionalities of both power management and power delivery in a single device.
+[13] (10-K, filed 2025-08-28) This is particularly important in the development of power semiconductor products due to the unique nature of their technology.
+[14] (10-K, filed 2025-08-28) Our strategies We seek to advance our position as a designer, developer and global supplier of a broad portfolio of power semiconductors.
+[15] (10-K, filed 2025-08-28) Leverage our power semiconductor expertise to drive new technology platforms We believe that the ever-increasing demand for power efficiency in power semiconductors requires expertise in and a deep understanding of the interrelationship among device physics, process technologies, design and packaging.
+[16] (10-K, filed 2025-08-28) Our products We have created a broad product portfolio consisting of two major categories: power discretes and power ICs that serve the large and diverse analog market for power semiconductors.
+[17] (10-K, filed 2025-08-28) We have also deployed our 1200V SiC (Silicon carbide) products based on our AlphaSiC platform, designed to address high efficiency, high density industrial applications such as solar inverters, UPS, and battery management systems.
+[18] (10-K, filed 2025-08-28) Our current power discrete product line includes industry standard trench MOSFETs, Shielded-Gate low voltage and mid-voltage MOSFETs, SuperJunction high voltage MOSFETs, and trench-stop IGBTs, as well as application specific MOSFETs for smartphone battery management, dual MOSFETs for CPU power conversion, and high-power density MOSFETs for IBC power modules in AI data centers.
+[19] (10-K, filed 2025-08-28) During the fourth quarter of fiscal year of 2025, we unveiled mega IPM-7 series intelligent power modules engineered to improve application performance and deliver increased power density.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-2,039,184 across 1 buys and 19 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-06-30): revenue $696,162,000, net income $-96,976,000, R&D $94,265,000, cash $153,079,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

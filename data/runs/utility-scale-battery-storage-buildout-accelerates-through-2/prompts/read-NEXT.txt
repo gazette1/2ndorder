@@ -1,0 +1,41 @@
+You are an equity analyst reading SEC filing excerpts for NextDecade Corp (NEXT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map node this company was mapped to: Natural gas peaker plant operators (order 1, at_risk). Mechanism: Batteries displace gas turbines from peak-shifting and ancillary-service roles, reducing run hours and capacity payments. Node logic: Grid batteries can respond faster than peakers and have low marginal cost, so they win the peak-priced operating hours first. Peaker operators lose the most lucrative dispatch periods while still carrying fixed costs, compressing plant-level margins before outright retirement.
+8-K filings in the last 12 months: 9
+
+Excerpts:
+[0] (10-Q, filed 2025-08-01) TITLE PURCHASE OF GAS TURBINE TRANSITION PIECES The EPC Agreement between the Parties listed above is changed as follows (attach additional documentation if necessary) BACKGROUND To provide additional flexibility in management of varying levels of Nitrogen in the feed-gas, additional transition pieces for the Gas Turbines are to be procured. *** Owner wishes to secure these transition pieces for each of the gas turbines.
+[1] (10-Q, filed 2025-08-01) TITLE GAS TURBINE DRIVERS COMBUSTION TESTING OF HIGH N 2 FUEL GAS The EPC Agreement between the Parties listed above is changed as follows (attach additional documentation if necessary) BACKGROUND Contractor has performed an investigation of higher-than-design nitrogen mole percent in the feed gas ( Study ) to determine the impact on the current design and operation of the Facility. *** Table 1 Fuel Gas Nitrogen Content *** To understand the capabilities of the gas turbine drivers when consuming high nitrogen fuel, testing the combustion system in the lab test-bed is required.
+[2] (10-Q, filed 2025-08-01) High Nitrogen Fuel Gas Capability Testing Modified Transition Pieces *** Contractor to perform all Work necessary to perform laboratory testing to define the capability of the gas turbine 7E units with the current combustion configuration (DLN + ULN with modified transition pieces and fuel controls) to burn fuel gas with a range of N 2 content *** .
+[3] (10-Q, filed 2025-08-01) High Nitrogen Fuel Gas Capability Testing Current Transition Pieces *** Contractor to perform all Work necessary to perform laboratory testing to define the capability of the gas turbine 7E units with the current combustion configuration (DLN + ULN with current transition pieces and fuel controls) to burn fuel gas with a range of N 2 content *** .
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $6,954,570 across 5 buys and 0 sales by 4 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $0, net income $-429,637,000, R&D $8,006,000, cash $143,782,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

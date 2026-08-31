@@ -3,6 +3,7 @@ import { fullTextSearch, publicFloatMM, sharesOutstanding, tickerMap, type FtsRe
 import { priceUSD } from '../lib/marketdata.js';
 import { load, save } from '../lib/store.js';
 import type { Candidate, Decomposition } from '../types.js';
+import { fmtCapMM } from '../lib/money.js';
 
 // Market cap in USD MM: delayed price x latest reported shares outstanding,
 // falling back to 10-K public float when either input is missing.
@@ -87,7 +88,11 @@ export async function mapTickers(slug: string, nodeIds?: string[]): Promise<Cand
     if (capMM === null) {
       fresh.push({ ...base, status: 'filtered_out', filterReason: 'no market cap data (no price and no reported float)' });
     } else if (capMM < lo || capMM > hi) {
-      fresh.push({ ...base, status: 'filtered_out', filterReason: `market cap $${capMM}MM outside $${lo}MM to $${hi}MM band` });
+      fresh.push({
+        ...base,
+        status: 'filtered_out',
+        filterReason: `market cap ${fmtCapMM(capMM)} outside ${fmtCapMM(lo)} to ${fmtCapMM(hi)} band`,
+      });
     } else {
       fresh.push(base);
     }

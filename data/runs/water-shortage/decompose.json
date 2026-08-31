@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "precision-irrigation-equipment",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Precision irrigation equipment",
+      "mechanism": "Farmers and water districts pay capital outlays for drip irrigation, soil moisture sensors, and variable-rate equipment because surface and groundwater allocations fall.",
+      "logic": "Agriculture accounts for a large share of freshwater use, so even modest cuts in supply sharply raise the economic return on conservation equipment. Sales are levered to scarcity because the installed base of flood and center-pivot systems is large, and the payback period shortens as water prices and pumping costs rise.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "drip irrigation",
+        "precision agriculture",
+        "irrigation systems",
+        "water use efficiency"
+      ],
+      "filingHits": 254,
+      "whiteSpace": false
+    },
+    {
+      "id": "water-infrastructure-treatment",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Water infrastructure and treatment",
+      "mechanism": "Utilities, industrials, and municipalities pay for pipeline replacement, leakage reduction, desalination, and advanced water treatment to maintain service as sources tighten.",
+      "logic": "Scarcity turns deferred maintenance into an operational crisis, accelerating spending from routine repair to major capital projects. Equipment and project backlog expands faster than input costs because regulators approve rate recovery for reliability investments while public pressure to reduce losses intensifies.",
+      "horizon": "long",
+      "searchPhrases": [
+        "water treatment",
+        "water infrastructure",
+        "water distribution",
+        "desalination"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "drought-tolerant-crop-inputs",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Drought-tolerant crop inputs",
+      "mechanism": "Farmers pay premiums for drought-tolerant seed traits, biostimulants, and stress-management chemistries after yield losses in dry seasons.",
+      "logic": "Adoption shifts from optional insurance to a necessary input when water stress becomes recurrent. Revenue per acre rises because trait fees and biological products carry higher margins than base commodity seeds, and growers lock in multi-year contracts.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "drought tolerant",
+        "seed traits",
+        "agricultural biologicals",
+        "crop protection"
+      ],
+      "filingHits": 134,
+      "whiteSpace": false
+    },
+    {
+      "id": "irrigated-agriculture-processors",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Irrigated agriculture and food processors",
+      "mechanism": "Irrigated farms, dairies, livestock feeders, and their processors face higher unit costs and lower throughput as water allotments shrink.",
+      "logic": "Water is a fixed input with few short-run substitutes, so a small allocation shortfall eliminates margins on marginal acres. Processors suffer volume declines because regional crop and herd supplies fall before production can relocate.",
+      "horizon": "near",
+      "searchPhrases": [
+        "irrigation water",
+        "water rights",
+        "drought conditions",
+        "agricultural commodities"
+      ],
+      "filingHits": 379,
+      "whiteSpace": false
+    },
+    {
+      "id": "water-intensive-manufacturing-datacenters",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Water-intensive manufacturing and data centers",
+      "mechanism": "Semiconductor fabs, pulp and paper mills, chemical plants, and data centers pay higher water tariffs and incur curtailment risk in stressed basins.",
+      "logic": "Cooling and process water are embedded in operations, and recycling systems require capital and time to deploy. Scarcity raises input costs and can cap output in regions where permits restrict withdrawals, compressing returns on existing assets.",
+      "horizon": "near",
+      "searchPhrases": [
+        "water consumption",
+        "cooling water",
+        "water recycling",
+        "process water"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "irrigation-software-analytics",
+      "parentId": "precision-irrigation-equipment",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Irrigation software and analytics",
+      "mechanism": "Agricultural software and data platforms collect recurring subscription fees as growers adopt irrigation scheduling and sensor analytics.",
+      "logic": "Hardware adoption pulls demand for decision support that converts sensor readings into irrigation prescriptions. Revenue is recurring and sticky because growers rely on the software to comply with allocation rules and avoid yield loss, making growth more durable than one-time equipment sales.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "irrigation management",
+        "agricultural software",
+        "sensor data",
+        "variable rate irrigation"
+      ],
+      "filingHits": 140,
+      "whiteSpace": false
+    },
+    {
+      "id": "water-epc-contractors",
+      "parentId": "water-infrastructure-treatment",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Water engineering and construction contractors",
+      "mechanism": "Engineering and construction firms win larger awards for desalination plants, reservoir rehabilitation, and water distribution upgrades.",
+      "logic": "Utilities shift spending from small maintenance jobs to complex capital projects once scarcity reaches a critical threshold. Long-duration contracts improve backlog visibility and utilization, while specialized water expertise commands higher margins than general infrastructure work.",
+      "horizon": "long",
+      "searchPhrases": [
+        "water treatment facility",
+        "infrastructure construction",
+        "desalination plant",
+        "engineering services"
+      ],
+      "filingHits": 344,
+      "whiteSpace": false
+    },
+    {
+      "id": "rate-regulated-water-utility-credit",
+      "parentId": "water-infrastructure-treatment",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Rate-regulated water utility credit",
+      "mechanism": "Rate-regulated water utilities and their bond issuers face pressure on coverage ratios as source costs rise faster than allowed rates.",
+      "logic": "Regulators approve rate increases with a lag, so purchased water and treatment costs can outstrip revenue in the interim. Credit spreads widen and equity returns fall because capital programs must be funded while returns on new investment are delayed by rate-case timelines.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "water utility",
+        "rate case",
+        "regulatory asset",
+        "water rates"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "farm-credit-lenders",
+      "parentId": "irrigated-agriculture-processors",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Farm credit and agricultural lenders",
+      "mechanism": "Farm credit banks, agricultural insurers, and rural lenders absorb higher delinquencies and claims as farm cash flow deteriorates.",
+      "logic": "Crop revenue declines and herd liquidation reduce borrowers' ability to service debt, while collateral values of irrigated land fall if water rights are curtailed. Loss severity exceeds the direct income shortfall because farmland appraisal methodology ties value to sustainable water access.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "agricultural lending",
+        "farm credit",
+        "loan portfolio",
+        "collateral value"
+      ],
+      "filingHits": 400,
+      "whiteSpace": false
+    },
+    {
+      "id": "industrial-water-treatment-chemicals",
+      "parentId": "water-intensive-manufacturing-datacenters",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Industrial water treatment services and chemicals",
+      "mechanism": "Industrial water treatment service providers and chemical suppliers gain revenue from higher-cycle cooling systems, recycling units, and discharge compliance contracts.",
+      "logic": "Facilities facing intake limits must outsource chemistry and operations to meet permit conditions. Contracts extend in duration and scope because plant operators prefer guaranteed compliance over capital ownership of treatment assets.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "cooling tower",
+        "wastewater treatment",
+        "water treatment chemicals",
+        "zero liquid discharge"
+      ],
+      "filingHits": 254,
+      "whiteSpace": false
+    },
+    {
+      "id": "irrigation-scada-platforms",
+      "parentId": "irrigation-software-analytics",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Irrigation SCADA and remote monitoring platforms",
+      "mechanism": "Cloud-based SCADA and remote monitoring vendors sell telemetry hardware and software subscriptions to irrigation districts and large farms.",
+      "logic": "Canal operators and growers need real-time flow data to enforce allocations and detect leaks across dispersed networks. Adoption accelerates once water prices cross the threshold where telemetry savings exceed subscription costs, so revenue growth outpaces the underlying scarcity percentage.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "SCADA",
+        "remote monitoring",
+        "irrigation automation",
+        "cloud based"
+      ],
+      "filingHits": 300,
+      "whiteSpace": false
+    },
+    {
+      "id": "membrane-filtration-components",
+      "parentId": "water-epc-contractors",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Membrane and filtration component suppliers",
+      "mechanism": "Membrane, filter, and pump component suppliers ship into desalination and advanced treatment projects as build rates rise.",
+      "logic": "Every new desalination plant or reuse facility requires membrane modules, cartridge filters, and energy-recovery devices on a fixed schedule. Component demand is front-loaded in the construction cycle and replacement demand follows, creating a multi-year revenue tail after project awards.",
+      "horizon": "long",
+      "searchPhrases": [
+        "membrane filtration",
+        "reverse osmosis",
+        "filtration systems",
+        "water purification"
+      ],
+      "filingHits": 333,
+      "whiteSpace": false
+    },
+    {
+      "id": "regional-banks-farm-real-estate",
+      "parentId": "farm-credit-lenders",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Regional banks with farm real estate exposure",
+      "mechanism": "Regional banks with farm real estate concentration face provision builds and net charge-offs as collateral values decline.",
+      "logic": "Agricultural loan portfolios are tied to land values that incorporate water access assumptions. When shortages persist, appraisals reset lower and borrowers have less equity to absorb losses, forcing lenders to raise reserves faster than the macro cycle alone would suggest.",
+      "horizon": "long",
+      "searchPhrases": [
+        "agricultural loans",
+        "farm real estate",
+        "loan losses",
+        "allowance for credit losses"
+      ],
+      "filingHits": 392,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "water shortage",
+    "drought",
+    "water scarcity",
+    "water rights",
+    "irrigation",
+    "water stress",
+    "water allocation",
+    "groundwater",
+    "water supply",
+    "water consumption"
+  ]
+}

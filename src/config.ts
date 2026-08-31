@@ -96,13 +96,37 @@ export const CONFIG = {
   },
 
   // The SMID reality check: can the fund own it, and will it live. Every number
-  // here is a PM assumption to argue with, not a fact.
-  reality: {
-    positionUSD: 5_000_000, // the position a small fund needs to be worth holding
-    participationRate: 0.15, // share of daily volume you can take without moving the tape
-    thinLiquidityDays: 20, // days-to-build above this gets flagged
-    minRunwayQuarters: 6, // runway below this gets flagged
-    dilutionFlagPct: 10, // share-count growth above this over 12 months gets flagged
+  // here is a PM assumption to argue with, not a fact. Position size is
+  // fund-scale-configurable: FUND_AUM_USD x POSITION_BPS when both are set
+  // (a $14.7B fund at 25 bps tests a $36.75M position, not a boutique $5M),
+  // else REALITY_POSITION_USD, else the flat default.
+  reality: (() => {
+    const aum = Number(process.env.FUND_AUM_USD ?? 0);
+    const bps = Number(process.env.POSITION_BPS ?? 0);
+    const fromFund = aum > 0 && bps > 0 ? Math.round((aum * bps) / 10_000) : null;
+    const positionUSD = fromFund ?? (Number(process.env.REALITY_POSITION_USD ?? 0) || 5_000_000);
+    const positionBasis = fromFund
+      ? `${bps} bps of $${(aum / 1e9).toFixed(1)}B AUM`
+      : positionUSD !== 5_000_000
+        ? 'configured position'
+        : 'default $5M position';
+    return {
+      positionUSD,
+      positionBasis,
+      participationRate: 0.15, // share of daily volume you can take without moving the tape
+      thinLiquidityDays: 20, // days-to-build above this gets flagged
+      minRunwayQuarters: 6, // runway below this gets flagged
+      dilutionFlagPct: 10, // share-count growth above this over 12 months gets flagged
+      ownershipFlagPct: 5, // position above this share of market cap gets flagged
+    };
+  })(),
+
+  // Composite score presented as bands, not fake-precision numbers. Thresholds
+  // are PM assumptions like everything else in this block.
+  bands: {
+    strong: 50,
+    moderate: 30,
+    weak: 15, // below this: insufficient evidence
   },
 
   // Deterministic subscore thresholds, USD. Scaled to small-caps and meant to be argued with:

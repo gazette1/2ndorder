@@ -8,22 +8,19 @@
     "filedAt": "2026-03-05",
     "url": "https://www.sec.gov/Archives/edgar/data/1826681/000119312526092443/pdyn-20251231.htm"
   },
-  "business": "Palladyne AI Corp. is a U.S.-based technology company developing and offering embodied artificial intelligence software and collaborative autonomy solutions, advanced avionics, unmanned aerial vehicles, advanced UAV engineering services, and precision-manufactured components. The company's core AI software products (Palladyne IQ, SwarmOS, and Palladyne Pilot) are designed to enhance third-party robotic systems for defense and commercial/industrial markets. It also provides engineering design services and precision manufacturing for aerospace and defense customers.",
+  "business": "Palladyne AI Corp. develops and offers embodied artificial intelligence software, collaborative autonomy solutions, advanced avionics, unmanned aerial vehicles, advanced UAV engineering services, and precision-manufactured components for defense and commercial/industrial markets.",
   "sellsTo": [
-    "U.S. defense prime contractors",
+    "Defense and public safety",
+    "Commercial and industrial",
     "U.S. government",
-    "commercial businesses",
-    "defense and public safety market",
-    "commercial and industrial market"
+    "Defense prime contractors"
   ],
-  "namedCustomers": [],
+  "namedCustomers": [
+    "Red Cat",
+    "Draganfly"
+  ],
   "namedSuppliers": [],
   "exposures": [
-    {
-      "tag": "edge-ai",
-      "stance": "core_product",
-      "sentence": "Our AI/ML Foundational Technology operates on the edge by using real-time sensor inputs to adjust to a changing environment and accomplish the assigned task without the need to connect to the cloud to try to find and process an applicable LLM."
-    },
     {
       "tag": "robotics",
       "stance": "core_product",
@@ -40,39 +37,28 @@
       "sentence": "We are positioning our defense business as a mid-tier U.S. technology prime defense contractor aiming to combine innovative autonomy, practical engineering and American production to bring intelligent systems into active service faster, safer and more cost-effectively than legacy approaches."
     },
     {
-      "tag": "sensors",
+      "tag": "edge-ai",
       "stance": "core_product",
-      "sentence": "Using sensors like vision, LiDAR, radar and acoustic devices, robots gain situational awareness to perceive a dynamic and unstructured environment."
+      "sentence": "It operates on the edge by using real-time sensor inputs to adjust to a changing environment and accomplish the assigned task without the need to connect to the cloud."
     },
     {
-      "tag": "machine-vision",
+      "tag": "sensors",
       "stance": "core_product",
-      "sentence": "Utilizing perception functionality to assess and navigate environments, distinguishing between relevant components, obstacles and irrelevant factors, without relying on LLMs or cloud databases."
+      "sentence": "Advanced perception and observation to improve situational awareness. Using sensors like vision, LiDAR, radar and acoustic devices, robots gain situational awareness to perceive a dynamic and unstructured environment."
+    },
+    {
+      "tag": "ai-compute",
+      "stance": "core_product",
+      "sentence": "The BRAIN products fuse high-performance avionics, AI/ML compute and multi-sensor perception into a single compact module that can replace conventional avionics at a fraction of the cost and weight."
     },
     {
       "tag": "aerospace-suppliers",
       "stance": "core_product",
-      "sentence": "Our operations include machining, fabrication and assembly of aerospace and defense components."
+      "sentence": "Our operations include machining, fabrication and assembly of aerospace and defense components, supporting major programs such as the F 16, F 35, Tomahawk, Harpoon and Bradley Fighting Vehicle."
     }
   ],
-  "catalysts": [
-    {
-      "event": "Launched Palladyne IQ 2.0 and secured first paid customer",
-      "date": null,
-      "sentence": "We recently launched Palladyne IQ 2.0 and have secured our first paid customer for that product."
-    },
-    {
-      "event": "Expect AI/ML software licensing revenue in 2026",
-      "date": "2026-01-01",
-      "sentence": "We have begun sales activities of our AI/ML software products and expect to derive revenue from licensing fees beginning in 2026."
-    },
-    {
-      "event": "Continue commercialization, testing, and trials in 2026",
-      "date": "2026-01-01",
-      "sentence": "We expect to continue commercialization efforts, internal testing and customer trials for our products throughout 2026."
-    }
-  ],
+  "catalysts": [],
   "tamClaims": [],
-  "generatedAt": "2026-07-04T03:56:36.574Z",
+  "generatedAt": "2026-07-03T11:43:00.255Z",
   "model": "deepseek-v4-flash"
 }

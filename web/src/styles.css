@@ -232,6 +232,34 @@ body {
   color: var(--faint);
 }
 
+/* Trigger strip: the normalized event as an instrument readout below the
+   seed. Muted, dense, no data color. */
+
+.trigger-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin: -4px 0 12px;
+}
+
+.trigger-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.trigger-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+}
+
+.trigger-value {
+  font-size: 13px;
+  color: var(--muted);
+}
+
 /* Macro context strip (run-level FRED series). Values stay neutral gray:
    a favorable sign is not determinable across mixed series. */
 
@@ -599,6 +627,53 @@ body {
   padding: 1px 8px;
 }
 
+.node-kpi {
+  display: inline-block;
+  font-size: 10px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 8px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Stakeholder reactions table ("Who reacts") */
+
+.react-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.react-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding: 6px 8px;
+}
+
+.react-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 6px 8px;
+  vertical-align: top;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.react-table td.react-actor {
+  color: var(--text);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* Node detail strip */
 
 .node-detail {
@@ -659,6 +734,19 @@ body {
   margin: 0;
 }
 
+.node-falsifier {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: 72ch;
+  margin: 8px 0 0;
+}
+
+.node-falsifier-mark {
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* Candidate table */
 
 .cand-table {
@@ -705,6 +793,26 @@ body {
   color: var(--text);
 }
 
+/* Composite band label. Not a data color: green and red stay reserved for
+   polarity and buy/sell meaning. The numeric composite lives in the tooltip
+   and the subscore detail. */
+
+.score-band {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: help;
+  white-space: nowrap;
+}
+
+.score-band.is-strong {
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 1px 9px;
+}
+
 .row-clickable {
   cursor: pointer;
 }
@@ -723,6 +831,12 @@ body {
 
 .row-filtered .score-cell {
   color: var(--faint);
+}
+
+.row-filtered .score-band,
+.row-filtered .score-band.is-strong {
+  color: var(--faint);
+  border-color: var(--line);
 }
 
 .filter-reason {
@@ -1308,6 +1422,10 @@ body {
 }
 
 .is-shelf {
+  color: var(--bad);
+}
+
+.is-ownership-flag {
   color: var(--bad);
 }
 

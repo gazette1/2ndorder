@@ -1,0 +1,47 @@
+You are an equity analyst reading SEC filing excerpts for INSTEEL INDUSTRIES INC (IIIN). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US-Canada tariff escalation accelerates supply chain regionalization and inflationary pressure on cross-border goods, 2025-2026
+Map node this company was mapped to: Domestic producers of import-competing goods (order 1, beneficiary). Mechanism: Tariff on imports raises the price of foreign substitutes, allowing domestic producers to gain volume and raise price. Node logic: Domestic producers compete directly with Canadian and US imports in the same product categories. The tariff acts as a price umbrella, so domestic producers can capture share even without changing their own cost structure. The gain scales with the import share of the market before the tariff, so markets with high import penetration see the largest revenue lift per point of tariff.
+8-K filings in the last 12 months: 11
+
+Excerpts:
+[0] (8-K, filed 2026-04-16) Even so, we are comfortable with our market position that includes minimal direct import competition but we remain concerned by the disconnect between U.S. pricing for hot-rolled steel relative to the world market level.
+[1] (8-K, filed 2026-04-16) Inflationary conditions continue to adversely affect our cost profile as we have experienced increased tariff costs, significant increases in energy costs, and recently, sharply escalating freight costs.
+[2] (10-K, filed 2025-10-23) Import competition is also a significant factor in certain segments of the PC strand and SWWR markets that are not subject to Buy America requirements.
+[3] (10-K, filed 2025-10-23) In response to illegally traded import competition from offshore PC strand suppliers, we have pursued antidumping and countervailing duty trade cases.
+[4] (10-K, filed 2025-10-23) Certain of our PC strand and SWWR markets are subject to foreign import competition on an ongoing basis.
+[5] (10-K, filed 2025-10-23) In response to illegally traded import competition from offshore PC strand and SWWR suppliers, we have pursued trade cases with the objective of addressing illegal activities in our markets.
+[6] (10-K, filed 2025-10-23) In addition, increasing transaction prices, as a result of general inflation or otherwise, for freight, natural gas, electricity, fuel and consumables would adversely affect our manufacturing and distribution costs.
+[7] (10-K, filed 2025-10-23) Our business, financial condition and results of operations may be adversely impacted by the effects of inflation.
+[8] (10-K, filed 2025-10-23) Persistent inflationary trends have led to increased costs across key operational inputs, including labor, energy, operating supplies and raw materials.
+[9] (10-K, filed 2025-10-23) Impact of Inflation We are subject to inflationary risks arising from fluctuations in the market prices for our primary raw material, hot-rolled carbon steel wire rod, and, to a much lesser extent, labor, freight, energy and other consumables that are used in our manufacturing processes.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-09-27): revenue $647,706,000, net income $41,020,000, R&D $n/a, cash $38,630,000.
+Customer graph: federal awards $0 across 0 awards; 1 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

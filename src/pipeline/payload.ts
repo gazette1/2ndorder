@@ -30,6 +30,8 @@ export function buildPayload(slug: string): RunPayload {
       sourceTitle: run.sourceTitle ?? null,
     },
     chain: load<any>(slug, 'decompose').nodes,
+    trigger: tryLoad<any>(slug, 'decompose', {}).trigger ?? null,
+    reactions: tryLoad<any>(slug, 'decompose', {}).reactions ?? [],
     candidates: tryLoad<any>(slug, 'candidates', []),
     dossiers: tryLoad<any>(slug, 'dossiers', []),
     reads: tryLoad<any>(slug, 'reads', []),

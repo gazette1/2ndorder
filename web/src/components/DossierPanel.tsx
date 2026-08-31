@@ -82,6 +82,7 @@ export function DossierPanel({ dossier, read }: Props) {
       ? dossier.earningsLanguage
       : null;
   const hiring = dossier.hiring ?? null;
+  const expectations = dossier.expectations ?? null;
 
   // Distinct filing documents for this ticker, from the read quotes. Deduped by
   // URL, most recent first. These are the primary source documents at SEC.
@@ -306,7 +307,11 @@ export function DossierPanel({ dossier, read }: Props) {
                 {reality.daysToBuild === null
                   ? 'not available'
                   : `${reality.daysToBuild} trading days`}
-                <span className="fund-sub">$5MM position at 15 percent of volume</span>
+                <span className="fund-sub">
+                  {reality.positionBasis
+                    ? `Days to build assumes a ${reality.positionBasis} position`
+                    : '$5M position at 15 percent of volume'}
+                </span>
               </dd>
             </div>
             <div className="fund-item">
@@ -351,6 +356,14 @@ export function DossierPanel({ dossier, read }: Props) {
                 {reality.shelfOnFile ? 'yes (S-3 or 424B5)' : 'no'}
               </dd>
             </div>
+            {typeof reality.ownershipPct === 'number' && (
+              <div className="fund-item">
+                <dt>Position ownership</dt>
+                <dd className={reality.ownershipPct > 5 ? 'mono is-ownership-flag' : 'mono'}>
+                  position would be {reality.ownershipPct.toFixed(1)} percent of the company
+                </dd>
+              </div>
+            )}
           </dl>
           {reality.flags.length > 0 && (
             <ul className="reality-flags">
@@ -562,6 +575,39 @@ export function DossierPanel({ dossier, read }: Props) {
               <span className="muted">{it.text}</span>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Expectations proxies (delayed price data). Values stay neutral gray:
+          the price change is context, not a signal. */}
+      {expectations && (
+        <div className="dossier-block">
+          <div className="dossier-block-head">
+            <h4 className="dossier-block-title">Expectations</h4>
+            <SourceTag provenance={expectations.provenance} />
+          </div>
+          {expectations.priceChange3moPct !== null && (
+            <div className="cust-line">
+              <span className="cust-label">3-month price change:</span>{' '}
+              <span className="mono">
+                {expectations.priceChange3moPct >= 0 ? '+' : ''}
+                {expectations.priceChange3moPct.toFixed(1)}%
+              </span>
+            </div>
+          )}
+          {expectations.pct52wRange !== null && (
+            <div className="cust-line">
+              <span className="cust-label">52-week range position:</span>{' '}
+              <span className="mono">{Math.round(expectations.pct52wRange)} of 100</span>
+            </div>
+          )}
+          {expectations.psRatio !== null && (
+            <div className="cust-line">
+              <span className="cust-label">Price to trailing sales:</span>{' '}
+              <span className="mono">{expectations.psRatio.toFixed(1)}x</span>
+            </div>
+          )}
+          {expectations.note && <p className="street-caveat">{expectations.note}</p>}
         </div>
       )}
 

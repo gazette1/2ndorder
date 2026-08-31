@@ -43,7 +43,13 @@ function listRuns() {
     .filter((d) => hasRun(d))
     .map((id) => {
       const run = JSON.parse(fs.readFileSync(path.join(RUNS_DIR, id, 'run.json'), 'utf8'));
-      return { id, seed: run.seed, createdAt: run.createdAt, mode: CONFIG.llm.provider === 'fixture' ? 'fixture' : 'live' };
+      return {
+        id,
+        seed: run.seed,
+        createdAt: run.createdAt,
+        counterOf: run.counterOf ?? null,
+        mode: CONFIG.llm.provider === 'fixture' ? 'fixture' : 'live',
+      };
     });
 }
 
@@ -52,11 +58,19 @@ function listRuns() {
 function findExistingRun(query: string): string | null {
   const slug = slugify(query);
   if (hasRun(slug)) return slug;
-  const words = new Set(query.toLowerCase().split(/\W+/).filter((w) => w.length > 3));
+  // Generic connectives and bare years match everything; they carry no topic.
+  const STOP = new Set(['through', 'between', 'across', 'toward', 'towards', 'their', 'these', 'those', 'with', 'from', 'into', 'over', 'under', 'accelerates', 'accelerate', 'grows', 'grow', 'drives', 'drive', 'driven', 'demand', 'market', 'markets']);
+  const topical = (s: string) =>
+    new Set(s.toLowerCase().split(/\W+/).filter((w) => w.length > 3 && !STOP.has(w) && !/^\d+$/.test(w)));
+  const words = topical(query);
   for (const r of listRuns()) {
-    const seedWords = new Set(String(r.seed).toLowerCase().split(/\W+/));
+    const seedWords = topical(String(r.seed));
     const overlap = [...words].filter((w) => seedWords.has(w)).length;
-    if (overlap >= 2) return r.id;
+    // Reuse only on a strong topical match: at least 3 shared meaningful words
+    // AND half the shorter side. Two stray words ("through 2028") must never
+    // resurface an unrelated run in front of a user.
+    const denom = Math.max(1, Math.min(words.size, seedWords.size));
+    if (overlap >= 3 && overlap / denom >= 0.5) return r.id;
   }
   return null;
 }
@@ -301,13 +315,22 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
     const indexPath = path.resolve('data/corpus/index.json');
     if (!fs.existsSync(indexPath)) return send(res, 200, { results: [], corpusSize: 0 });
     const index = JSON.parse(fs.readFileSync(indexPath, 'utf8')) as Record<string, { name: string; tags: string[]; filedAt: string }>;
+    // Rank tiers: exact ticker, ticker prefix, name prefix, word-boundary name
+    // match, then substring anywhere. Without the boundary tier, "olin" ranks
+    // BANK OF SOUTH CAROLINA (mid-word hit) above OLIN CORP.
+    const tier = (t: string, name: string): number => {
+      const tl = t.toLowerCase();
+      const nl = name.toLowerCase();
+      if (tl === q) return 0;
+      if (tl.startsWith(q)) return 1;
+      if (nl.startsWith(q)) return 2;
+      if (new RegExp(`\\b${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(nl)) return 3;
+      return 4;
+    };
     const results = Object.entries(index)
       .filter(([t, v]) => t.toLowerCase().startsWith(q) || v.name.toLowerCase().includes(q))
-      .sort(([a], [b]) => {
-        // exact ticker first, then ticker prefix, then name matches
-        const qa = a.toLowerCase() === q ? 0 : a.toLowerCase().startsWith(q) ? 1 : 2;
-        const qb = b.toLowerCase() === q ? 0 : b.toLowerCase().startsWith(q) ? 1 : 2;
-        return qa - qb || a.localeCompare(b);
+      .sort(([a, va], [b, vb]) => {
+        return tier(a, va.name) - tier(b, vb.name) || a.localeCompare(b);
       })
       .slice(0, 20)
       .map(([ticker, v]) => ({ ticker, name: v.name, tags: v.tags, filedAt: v.filedAt }));
@@ -362,6 +385,13 @@ async function handle(req: http.IncomingMessage, res: http.ServerResponse) {
       // the job is still working (an article run keeps going to compute the
       // counter-scenario; the bull side should not wait for the bear side).
       if (job && job.status !== 'ready' && !hasRun(id)) {
+        // A run in flight still has stages worth showing: once the scenario is
+        // decomposed the map exists, then candidates, reads, and theses land
+        // one by one. Serve the partial payload so the UI renders the map
+        // growing instead of a spinner for the whole read.
+        if (job.status === 'running' && fs.existsSync(path.join(RUNS_DIR, id, 'decompose.json'))) {
+          return send(res, 200, { status: 'running', partial: true, payload: buildPayload(id) });
+        }
         return send(res, 200, { status: job.status, error: job.error });
       }
       if (!hasRun(id)) return send(res, 404, { error: 'no such run' });

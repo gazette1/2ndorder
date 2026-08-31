@@ -1,0 +1,136 @@
+[
+  {
+    "sectorName": "Canadian wine exporters",
+    "direction": "at_risk",
+    "mechanism": "U.S. importers pay a 50 percent tariff on Canadian wine, which raises the landed cost and reduces order volumes from U.S. buyers.",
+    "affectedProducts": [
+      "wine"
+    ],
+    "channel": "direct_importer_exporter",
+    "timeToImpact": "immediate to 1 quarter",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "U.S. domestic wine producers",
+    "direction": "beneficiary",
+    "mechanism": "U.S. buyers shift from tariffed Canadian wine to domestically produced wine, lifting domestic producer sales.",
+    "affectedProducts": [
+      "wine"
+    ],
+    "channel": "domestic_substitute",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "medium"
+  },
+  {
+    "sectorName": "Canadian cement exporters",
+    "direction": "at_risk",
+    "mechanism": "U.S. importers pay the 50 percent tariff on Canadian cement, making Canadian supply less competitive against domestic and other sources.",
+    "affectedProducts": [
+      "cement"
+    ],
+    "channel": "direct_importer_exporter",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "U.S. construction input buyers",
+    "direction": "at_risk",
+    "mechanism": "Tariffs on Canadian cement raise input costs for U.S. construction projects that had sourced Canadian cement.",
+    "affectedProducts": [
+      "cement"
+    ],
+    "channel": "upstream_input",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "Canadian honey exporters",
+    "direction": "at_risk",
+    "mechanism": "U.S. buyers pay the 50 percent tariff on Canadian honey, reducing its price competitiveness in U.S. retail and food manufacturing channels.",
+    "affectedProducts": [
+      "honey"
+    ],
+    "channel": "direct_importer_exporter",
+    "timeToImpact": "immediate to 1 quarter",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "U.S. honey producers",
+    "direction": "beneficiary",
+    "mechanism": "Higher tariffs on Canadian honey allow U.S. producers to capture demand from buyers seeking lower cost domestic supply.",
+    "affectedProducts": [
+      "honey"
+    ],
+    "channel": "domestic_substitute",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "medium"
+  },
+  {
+    "sectorName": "Canadian clothing and fabric exporters",
+    "direction": "at_risk",
+    "mechanism": "U.S. importers pay a 50 percent tariff on Canadian clothing and fabric, which reduces orders as retail buyers avoid the higher landed cost.",
+    "affectedProducts": [
+      "clothing",
+      "fabric"
+    ],
+    "channel": "direct_importer_exporter",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "Canadian cosmetics and fragrance exporters",
+    "direction": "at_risk",
+    "mechanism": "U.S. importers pay the 50 percent tariff on Canadian makeup and perfumes, making these goods less attractive to U.S. retailers and consumers.",
+    "affectedProducts": [
+      "makeup",
+      "perfumes"
+    ],
+    "channel": "direct_importer_exporter",
+    "timeToImpact": "1 quarter",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "U.S. dairy exporters to Canada",
+    "direction": "at_risk",
+    "mechanism": "Canadian importers pay retaliatory tariffs on U.S. dairy, which raises the cost of U.S. dairy products in Canada and cuts export volume.",
+    "affectedProducts": [
+      "dairy"
+    ],
+    "channel": "retaliation_exposure",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "Canadian dairy processors",
+    "direction": "beneficiary",
+    "mechanism": "Retaliatory tariffs on U.S. dairy push Canadian buyers toward domestic dairy products, increasing sales for Canadian processors.",
+    "affectedProducts": [
+      "dairy"
+    ],
+    "channel": "retaliation_exposure",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "medium"
+  },
+  {
+    "sectorName": "U.S. steel exporters to Canada",
+    "direction": "at_risk",
+    "mechanism": "Canadian importers pay retaliatory tariffs on U.S. steel, making U.S. steel less competitive in Canadian industrial and construction markets.",
+    "affectedProducts": [
+      "U.S. steel"
+    ],
+    "channel": "retaliation_exposure",
+    "timeToImpact": "immediate to 1 quarter",
+    "confidence": "high"
+  },
+  {
+    "sectorName": "Canadian steel users and producers",
+    "direction": "mixed",
+    "mechanism": "Canadian buyers face higher costs for imported U.S. steel while Canadian steel producers gain share as buyers shift to domestic supply.",
+    "affectedProducts": [
+      "U.S. steel"
+    ],
+    "channel": "retaliation_exposure",
+    "timeToImpact": "1 to 2 quarters",
+    "confidence": "medium"
+  }
+]

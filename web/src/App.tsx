@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { RunPayload } from './types';
 import { compositeScore } from './score';
 import { RunHeader } from './components/RunHeader';
-import { ConsequenceMap, NodeDetailStrip } from './components/ChainBoard';
+import { ConsequenceMap, NodeDetailStrip, ReactionsSection } from './components/ChainBoard';
 import { ActionBar } from './components/ActionBar';
 import { CandidateTable, type CandidateRow } from './components/CandidateTable';
 import { RubricPanel } from './components/RubricPanel';
@@ -25,6 +25,14 @@ import {
 
 const RUNNING_NOTE =
   'Running the chain. New searches take a few minutes while filings are read and scored.';
+const PARTIAL_NOTE =
+  'Still reading. The map is live; candidates, filing reads, and theses fill in as each stage completes.';
+
+// Stage signature of a payload, so partial polling only re-renders when a
+// stage actually lands rather than every poll tick.
+function payloadSig(p: { chain: unknown[]; candidates: unknown[]; dossiers: unknown[]; reads: unknown[]; theses: unknown[] }): string {
+  return `${p.chain.length}:${p.candidates.length}:${p.dossiers.length}:${p.reads.length}:${p.theses.length}`;
+}
 
 type LoadState =
   | { status: 'idle' }
@@ -53,6 +61,8 @@ export function App() {
   const [drillNote, setDrillNote] = useState<string | null>(null);
 
   const pollRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Stage signature of the last rendered partial payload (null when none).
+  const lastSigRef = useRef<string | null>(null);
 
   const applyPayload = useCallback((payload: RunPayload) => {
     setState({ status: 'ready', payload });
@@ -93,9 +103,21 @@ export function App() {
           if (result && result.status === 'ready') {
             setBusy(false);
             setStatusNote(null);
+            lastSigRef.current = null;
             applyPayload(result.payload);
           } else {
-            setStatusNote(RUNNING_NOTE);
+            if (result && result.status === 'running' && result.payload) {
+              // Partial payload: render the stages that exist and keep polling.
+              const sig = payloadSig(result.payload);
+              if (sig !== lastSigRef.current) {
+                lastSigRef.current = sig;
+                setBusy(false);
+                applyPayload(result.payload);
+              }
+              setStatusNote(PARTIAL_NOTE);
+            } else {
+              setStatusNote(RUNNING_NOTE);
+            }
             pollRun(runId);
           }
         } catch (err) {
@@ -131,9 +153,17 @@ export function App() {
         if (result.status === 'ready') {
           setBusy(false);
           setStatusNote(null);
+          lastSigRef.current = null;
           applyPayload(result.payload);
         } else {
-          setStatusNote(RUNNING_NOTE);
+          if (result.status === 'running' && result.payload) {
+            lastSigRef.current = payloadSig(result.payload);
+            setBusy(false);
+            applyPayload(result.payload);
+            setStatusNote(PARTIAL_NOTE);
+          } else {
+            setStatusNote(RUNNING_NOTE);
+          }
           pollRun(runId);
         }
       } catch (err) {
@@ -387,7 +417,11 @@ export function App() {
           {offline && (
             <p className="offline-note">Offline demo data (API not running)</p>
           )}
-          <RunHeader run={payload.run} macro={payload.macro ?? null} />
+          <RunHeader
+            run={payload.run}
+            macro={payload.macro ?? null}
+            trigger={payload.trigger ?? null}
+          />
           <ActionBar
             key={payload.run.id}
             token={token}
@@ -411,6 +445,9 @@ export function App() {
               drillNote={drillNote}
               onDrill={handleDrill}
             />
+          )}
+          {(payload.reactions ?? []).length > 0 && (
+            <ReactionsSection reactions={payload.reactions ?? []} />
           )}
           <CandidateTable
             longRows={longRows}

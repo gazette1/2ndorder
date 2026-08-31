@@ -1,0 +1,15 @@
+A validated source-only trigger contract and additional researched documents follow. Produce the RESEARCHED contract: same JSON schema, updating ONLY fields the documents support with explicit facts (rates, dates, product lists, trade codes, exclusions, legal authority, monetary scope). Rules:
+- Never change a value the documents do not address; copy it unchanged.
+- Never invent numbers; every new or changed number must appear in a document.
+- For each changed field keep exactQuote from the supporting document, verbatim.
+- Confidence stays "verified" only for direct statements.
+- Plain factual prose. No em-dashes, no exclamation points.
+
+SOURCE-ONLY CONTRACT:
+{"sourceUrl":"https://apnews.com/article/trump-tariffs-canada-us-trade-war-293908564c7a381ea58a61db6e9a8517","publicationDate":null,"eventDate":null,"effectiveDate":null,"primaryActor":"U.S. President Donald Trump","action":"imposed 50% tariffs on Canadian imports","counterparty":"Canada","legalAuthority":{"value":"Section 338 of the Tariff Act of 1930","exactQuote":"Section 338 of the Tariff Act of 1930","confidence":"verified"},"rates":{"value":["50%"],"exactQuote":"50% tariffs on scores of Canadian imports","confidence":"verified"},"monetaryScope":{"value":[{"value":20,"currency":"USD","unit":"billion"}],"exactQuote":"$20 billion in goods","confidence":"verified"},"targetedProducts":{"value":["hockey sticks","agricultural products","wine","cement","honey","seeds","makeup","perfumes","clothing","jewelry","furniture","cameras","fabric"],"exactQuote":"hockey sticks to wine and cement","confidence":"verified"},"response":{"actor":"Canada's Prime Minister Mark Carney","action":"promised dollar-for-dollar retaliatory measures","announcedDate":null,"effectiveDate":"Sept. 8","exactQuote":"“dollar for dollar” retaliatory measures starting Sept. 8"},"status":"effective","reversibilityMechanisms":["legal challenges"],"unsupportedClaims":["Exact calendar date of tariff effective date (only 'Saturday' stated)"],"validation":{"ok":true,"problems":[]}}
+
+RESEARCHED DOCUMENTS:
+DOC 1 (fixture): TEST FIXTURE: official-notice style excerpt composed strictly from AP article facts
+NOTICE (TEST FIXTURE, composed only from facts stated in the AP source article; no external facts added). Effective Saturday August 22, additional duties of 50% apply to scores of Canadian imports covering approximately $20 billion in goods, including hockey sticks, agricultural products, wine, cement, honey, seeds, makeup, perfumes, clothing, jewelry, furniture, cameras, and fabric. Authority: Section 338 of the Tariff Act of 1930. Canada announced dollar for dollar countermeasures beginning Sept. 8. A further increase on Canadian cars, trucks, automotive parts and steel to 50% starting Jan. 1, 2027 has been threatened but is not in effect.
+
+Return only the full contract JSON object.

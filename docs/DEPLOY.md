@@ -13,9 +13,11 @@ localhost through the tunnel connector.
 - Server: `npx tsx server/api.ts` on port 8731 (8787 belongs to the
   mosaic-underwriting demo server, 8899 to a Python static server).
 - Env: `.env` in the repo root (not committed). Passcode is SITE_PASSCODE,
-  test users are ALLOWED_EMAILS, model routing is the LLM_* block: heavy tier
-  on Moonshot kimi-k2.7-code (LLM_HEAVY_TEMPERATURE=1; Moonshot rejects any
-  other temperature), light tier on DeepSeek deepseek-v4-flash.
+  test users are ALLOWED_EMAILS, model routing is the LLM_* block. As of
+  2026-08-24 the heavy tier runs deepseek-v4-pro (the Moonshot kimi account
+  suspended on balance; its LLM_HEAVY_* lines are commented in .env, backup
+  at .env.bak-moonshot, restore after recharging), light tier
+  deepseek-v4-flash.
 - Tunnel: named tunnel `corollary-prod`
   (b50808ff-a3e2-4d5d-8cf9-26d7ba8700a4), remote-managed ingress
   apex + www -> http://localhost:8731. Connector binary and credentials in

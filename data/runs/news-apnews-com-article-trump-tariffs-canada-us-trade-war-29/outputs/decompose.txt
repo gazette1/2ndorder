@@ -1,0 +1,213 @@
+{
+  "trigger": {
+    "actor": "US and Canadian trade authorities",
+    "action": "escalate tariffs on cross-border goods",
+    "magnitude": "assumed incremental tariff increases of 10 to 25 percentage points on targeted goods, given escalation without specified numbers in scenario",
+    "geography": "United States and Canada",
+    "timing": "2025-2026",
+    "certainty": "assumed",
+    "reversibility": "Could be reversed by executive order or negotiated trade agreement removing the incremental tariffs."
+  },
+  "reactions": [
+    {
+      "actor": "Importers and manufacturers using cross-border inputs",
+      "incentive": "avoid margin compression from tariff costs",
+      "likelyResponse": "shift procurement to domestic or non-tariffed suppliers, renegotiate contracts, and apply for tariff exclusions",
+      "timing": "near"
+    },
+    {
+      "actor": "Domestic producers of import-competing goods",
+      "incentive": "capture share and raise prices under tariff umbrella",
+      "likelyResponse": "expand capacity and raise selling prices toward imported cost plus tariff",
+      "timing": "mid"
+    },
+    {
+      "actor": "Regulators and trade agencies",
+      "incentive": "respond to industry lobbying and manage inflation",
+      "likelyResponse": "grant sector-specific exclusions and negotiate targeted tariff relief",
+      "timing": "mid"
+    },
+    {
+      "actor": "Capital providers to cross-border businesses",
+      "incentive": "avoid loan losses and stranded working capital",
+      "likelyResponse": "tighten credit standards for import-dependent borrowers and fund regionalization capex",
+      "timing": "near"
+    },
+    {
+      "actor": "Logistics and customs brokerage firms",
+      "incentive": "replace lost cross-border volume",
+      "likelyResponse": "redeploy capacity to domestic and intra-regional lanes and offer trade compliance services",
+      "timing": "mid"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cross-border-importers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Cross-border importers of tariffed intermediate goods",
+      "mechanism": "Tariff paid at customs raises landed cost of goods sold directly.",
+      "logic": "The tariff is a variable cost added to every imported unit, so gross margin compresses immediately even before volumes adjust. Importers of intermediate goods often lack pricing power to pass the tariff through quickly because contracts are annual or index-based. The effect is levered to the tariff rate and the share of imports in cost of goods sold, not to final demand.",
+      "horizon": "near",
+      "kpi": "gross margin",
+      "falsifier": "Tariff exclusions for the specific imported product or currency depreciation offset the tariff cost before it reaches gross margin.",
+      "searchPhrases": ["import duties", "tariff expense", "cross-border supply chain", "cost of goods sold"]
+    },
+    {
+      "id": "domestic-import-competing-producers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Domestic producers of import-competing goods",
+      "mechanism": "Tariff on imports raises the price of foreign substitutes, allowing domestic producers to gain volume and raise price.",
+      "logic": "Domestic producers compete directly with Canadian and US imports in the same product categories. The tariff acts as a price umbrella, so domestic producers can capture share even without changing their own cost structure. The gain scales with the import share of the market before the tariff, so markets with high import penetration see the largest revenue lift per point of tariff.",
+      "horizon": "near",
+      "kpi": "market share",
+      "falsifier": "Customers switch to non-tariffed third-country imports or demand is highly price elastic, limiting domestic volume gains.",
+      "searchPhrases": ["import competition", "domestic manufacturing", "tariff protection", "price realization"]
+    },
+    {
+      "id": "cross-border-freight-customs",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Freight and customs brokerage on US-Canada lanes",
+      "mechanism": "Tariff escalation reduces shipment counts as importers cut orders or delay replenishment.",
+      "logic": "Cross-border truckload and less-than-truckload volumes are directly tied to goods flows between the two countries. Tariffs reduce the quantity demanded of imported goods, and logistics firms earn per shipment, so revenue falls with volume. The effect is amplified because the US-Canada lane is a high-frequency, just-in-time corridor with little buffer inventory.",
+      "horizon": "near",
+      "kpi": "unit volume",
+      "falsifier": "Importers pre-buy inventory before tariffs take effect, temporarily sustaining shipment volumes.",
+      "searchPhrases": ["cross-border freight", "customs brokerage", "cross-border shipments", "freight volumes"]
+    },
+    {
+      "id": "rigid-cross-border-manufacturers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Manufacturers with rigid cross-border production lines",
+      "mechanism": "Tariffed components or finished goods moving across the border raise cost of goods sold for production that cannot quickly relocate.",
+      "logic": "These manufacturers have plants and supplier contracts fixed on opposite sides of the border, so the tariff is an unavoidable input cost in the near term. The margin hit is proportional to the share of cross-border inputs in total cost, and production lines cannot be moved within a quarter. Even if they later regionalize, the immediate effect is a step down in gross margin.",
+      "horizon": "near",
+      "kpi": "gross margin",
+      "falsifier": "Long-term supply contracts include tariff pass-through clauses or the manufacturer had already regionalized before 2025.",
+      "searchPhrases": ["cross-border production", "tariff exposure", "Canadian manufacturing", "US manufacturing"]
+    },
+    {
+      "id": "domestic-suppliers-substitute-inputs",
+      "parentId": "cross-border-importers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Domestic suppliers of substitute components and materials",
+      "mechanism": "Importers respond to tariff cost by shifting procurement to domestic suppliers, raising those suppliers' order backlog.",
+      "logic": "The tariff makes domestic inputs cost competitive even if their pre-tariff price was higher. Procurement managers are incentivized to qualify and onboard domestic suppliers quickly to restore gross margin. The demand shift is a multiple of the tariff differential because a single large importer can move many supplier purchase orders within a quarter.",
+      "horizon": "mid",
+      "kpi": "backlog",
+      "falsifier": "Domestic suppliers lack the capacity or quality certifications to absorb the volume, so importers stay with tariffed sources.",
+      "searchPhrases": ["domestic sourcing", "supply chain regionalization", "local sourcing", "domestic suppliers"]
+    },
+    {
+      "id": "automation-reshoring-equipment",
+      "parentId": "domestic-import-competing-producers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Industrial automation and reshoring equipment providers",
+      "mechanism": "Domestic producers gaining share respond by expanding capacity and investing in automation to serve new demand.",
+      "logic": "The tariff umbrella raises the return on domestic capacity, so producers approve capital projects that were marginal before. Automation equipment is the bottleneck to scaling domestic output quickly because labor is scarce. The capex cycle is levered to the tariff because each point of tariff protection increases the payback on domestic automation.",
+      "horizon": "mid",
+      "kpi": "capex",
+      "falsifier": "Domestic producers can meet incremental demand with existing idle capacity, so no new orders for equipment materialize.",
+      "searchPhrases": ["factory automation", "automation equipment", "reshoring", "domestic capacity expansion"]
+    },
+    {
+      "id": "capital-providers-cross-border",
+      "parentId": "rigid-cross-border-manufacturers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Capital providers to cross-border importers",
+      "mechanism": "Lenders and trade finance providers tighten credit standards as borrowing customers face compressed margins and uncertain tariff exposure.",
+      "logic": "Banks and asset-based lenders mark down the value of inventory and receivables tied to tariffed goods because liquidation values fall. They respond by reducing advance rates or requiring more collateral, which cuts working capital availability exactly when importers need it to hold inventory. The credit contraction is disproportionate to the tariff because it hits the most leveraged cross-border businesses first.",
+      "horizon": "near",
+      "kpi": "working capital",
+      "falsifier": "Borrowers have strong balance sheets or the tariffs are perceived as temporary, so credit terms do not change.",
+      "searchPhrases": ["asset-based lending", "working capital facilities", "trade finance", "inventory financing"]
+    },
+    {
+      "id": "trade-compliance-advisory",
+      "parentId": "cross-border-importers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Tariff engineering and customs advisory services",
+      "mechanism": "Importers pay for tariff classification reviews, foreign-trade zone usage, and duty drawback programs to reduce tariff liability.",
+      "logic": "The complexity of tariff schedules and exclusion applications creates demand for specialists who can legally lower the effective tariff rate. This is a high-margin service business because the fee is a small fraction of the tariff savings. Demand scales with the number of product codes affected, not just the dollar value of imports.",
+      "horizon": "mid",
+      "kpi": "customer count",
+      "falsifier": "Tariff classifications are simple and exclusions are granted broadly, leaving little room for advisory value.",
+      "searchPhrases": ["customs compliance", "tariff classification", "foreign-trade zone", "duty drawback"]
+    },
+    {
+      "id": "downstream-customers-domestic-producers",
+      "parentId": "domestic-import-competing-producers",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Downstream customers of domestic producers",
+      "mechanism": "Domestic producers raise prices under the tariff umbrella, passing input cost inflation to their own customers.",
+      "logic": "The domestic producer's new pricing power is funded by the downstream customer's margin. Downstream customers cannot switch back to imports because the tariff has made those equally expensive. The price increase is sticky because domestic producers face no competitive threat from imports at the new price point.",
+      "horizon": "mid",
+      "kpi": "gross margin",
+      "falsifier": "Downstream customers have alternative suppliers outside the US and Canada or can vertically integrate.",
+      "searchPhrases": ["raw material costs", "input costs", "supplier pricing", "price increases"]
+    },
+    {
+      "id": "domestic-supplier-bottlenecks",
+      "parentId": "domestic-suppliers-substitute-inputs",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Manufacturers that shifted to domestic suppliers facing bottlenecks",
+      "mechanism": "The rush to domestic suppliers creates capacity shortages and longer lead times, eroding the cost benefit of the shift.",
+      "logic": "Many importers shift to the same small pool of qualified domestic suppliers, overwhelming their production capacity. The suppliers respond by raising prices or allocating supply, which transfers margin back to the supplier and leaves the manufacturer with worse lead times than before. The equilibrium price rises until it approaches the tariff-inclusive import price.",
+      "horizon": "long",
+      "kpi": "gross margin",
+      "falsifier": "Domestic suppliers quickly add capacity or new entrants expand supply, keeping lead times and prices stable.",
+      "searchPhrases": ["supplier capacity", "lead times", "capacity constraints", "supply chain bottlenecks"]
+    },
+    {
+      "id": "automation-component-suppliers",
+      "parentId": "automation-reshoring-equipment",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Automation component and subsystem suppliers",
+      "mechanism": "Automation equipment providers passing through demand to component suppliers increases backlog for precision motion, controls, and robotics parts.",
+      "logic": "Industrial automation equipment is assembled from specialized components that are ordered with lead times. The capex cycle from node 6 translates into component orders one to two quarters later. Component suppliers benefit from the same tariff-driven reshoring without bearing tariff risk on their own imported parts if they are domestic.",
+      "horizon": "mid",
+      "kpi": "backlog",
+      "falsifier": "Automation equipment providers source components from existing inventory or from non-tariffed foreign suppliers, bypassing domestic component makers.",
+      "searchPhrases": ["motion control", "industrial robotics", "automation components", "precision components"]
+    },
+    {
+      "id": "alternative-material-providers",
+      "parentId": "downstream-customers-domestic-producers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Alternative material and ingredient providers",
+      "mechanism": "Downstream customers reformulate or substitute away from tariff-exposed domestic inputs, increasing demand for alternative materials.",
+      "logic": "Faced with higher prices from domestic producers, downstream manufacturers have a new incentive to switch to materials not subject to the tariff or the domestic price umbrella. This substitution can be faster than moving production because it is a specification change rather than a factory relocation. The providers of alternative materials gain volume without needing to lower price.",
+      "horizon": "long",
+      "kpi": "unit volume",
+      "falsifier": "No technical substitute exists for the tariff-exposed input, or switching costs exceed the tariff savings.",
+      "searchPhrases": ["alternative materials", "material substitution", "ingredient substitution", "reformulation"]
+    }
+  ],
+  "themeKeywords": [
+    "tariff escalation",
+    "supply chain regionalization",
+    "cross-border goods",
+    "USMCA",
+    "customs duties",
+    "reshoring",
+    "inflation",
+    "procurement shifts",
+    "trade compliance",
+    "domestic capacity"
+  ]
+}

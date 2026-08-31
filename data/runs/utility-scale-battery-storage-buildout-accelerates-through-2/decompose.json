@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "lfp-cathode-materials",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Lithium iron phosphate cathode material suppliers",
+      "mechanism": "Battery cell manufacturers purchase more LFP cathode powder as utility-scale developers specify lower-cost, longer-life chemistries.",
+      "logic": "Utility projects are large, repetitive procurements that concentrate purchasing power among cathode suppliers. LFP is widely used for grid batteries, so a faster buildout translates into higher volume and price premiums during periods of tight precursor supply.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "lithium iron phosphate",
+        "LFP cathode",
+        "cathode powder",
+        "iron phosphate"
+      ],
+      "filingHits": 216,
+      "whiteSpace": false
+    },
+    {
+      "id": "power-conversion-system-suppliers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Power conversion system suppliers",
+      "mechanism": "Every grid-scale battery installation requires inverters, transformers, and controls, so equipment suppliers receive higher order intake.",
+      "logic": "Power conversion systems account for a meaningful share of project capital cost and must be sized with each battery block. Because the number of in-service systems rises with project completions, revenue growth can exceed the underlying battery gigawatt growth as earlier vintages are replaced or repowered.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "power conversion system",
+        "battery inverter",
+        "energy storage inverter",
+        "bidirectional inverter"
+      ],
+      "filingHits": 18,
+      "whiteSpace": false
+    },
+    {
+      "id": "contracted-storage-developers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Contracted utility-scale storage developers",
+      "mechanism": "Independent power producers and developers sell energy, capacity, and ancillary services from new battery projects under long-term contracts.",
+      "logic": "Accelerated interconnection queues and grid-operator procurement targets expand the addressable project pipeline. Developers with contracted portfolios convert signed offtake agreements into construction revenue and recurring cash flows faster than merchant-only peers.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "utility scale storage",
+        "battery storage project",
+        "energy storage project",
+        "standalone battery storage"
+      ],
+      "filingHits": 228,
+      "whiteSpace": false
+    },
+    {
+      "id": "natural-gas-peaker-operators",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Natural gas peaker plant operators",
+      "mechanism": "Batteries displace gas turbines from peak-shifting and ancillary-service roles, reducing run hours and capacity payments.",
+      "logic": "Grid batteries can respond faster than peakers and have low marginal cost, so they win the peak-priced operating hours first. Peaker operators lose the most lucrative dispatch periods while still carrying fixed costs, compressing plant-level margins before outright retirement.",
+      "horizon": "long",
+      "searchPhrases": [
+        "natural gas peaker",
+        "peaker plant",
+        "peaking power",
+        "gas turbine"
+      ],
+      "filingHits": 135,
+      "whiteSpace": false
+    },
+    {
+      "id": "pumped-hydro-storage-operators",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Pumped hydro storage operators",
+      "mechanism": "Lithium-ion batteries capture frequency regulation and daily arbitrage revenue that historically accrued to pumped-storage assets.",
+      "logic": "Pumped hydro plants have long construction times and limited siting options, while battery projects can enter service in under three years. As battery capacity saturates the premium grid services, pumped hydro assets face lower clearing prices and longer payback periods on new investments.",
+      "horizon": "long",
+      "searchPhrases": [
+        "pumped hydro",
+        "pumped storage",
+        "pumped hydro storage",
+        "hydroelectric pumped storage"
+      ],
+      "filingHits": 135,
+      "whiteSpace": false
+    },
+    {
+      "id": "lithium-chemical-refiners",
+      "parentId": "lfp-cathode-materials",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Lithium carbonate and hydroxide refiners",
+      "mechanism": "Higher LFP cathode output pulls more lithium chemicals through the supply chain.",
+      "logic": "Cathode plants are primary industrial buyers of battery-grade lithium chemicals. When utility buildout accelerates, their offtake volumes rise and contract pricing tightens, so refiners absorb volume growth before it reaches mining companies.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "lithium carbonate",
+        "lithium hydroxide",
+        "battery grade lithium",
+        "lithium chemicals"
+      ],
+      "filingHits": 330,
+      "whiteSpace": false
+    },
+    {
+      "id": "power-semiconductor-module-suppliers",
+      "parentId": "power-conversion-system-suppliers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Power semiconductor and module suppliers",
+      "mechanism": "Inverter manufacturers buy more insulated-gate bipolar transistor and silicon carbide modules to meet rising power-conversion demand.",
+      "logic": "Power modules are a constrained, high-value component inside every storage inverter. As inverter production scales to match the buildout, module suppliers gain volume leverage and can pass through shortages more effectively than downstream assemblers.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "power module",
+        "IGBT module",
+        "silicon carbide",
+        "power semiconductor"
+      ],
+      "filingHits": 300,
+      "whiteSpace": false
+    },
+    {
+      "id": "battery-electrical-contractors",
+      "parentId": "contracted-storage-developers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Battery and substation electrical contractors",
+      "mechanism": "Developers hire specialized contractors to install battery racks, thermal management, and grid interconnection equipment.",
+      "logic": "Each utility-scale project requires a discrete construction crew and substation upgrade, so contractor revenue is directly tied to project starts. The specialized labor pool is relatively small, allowing qualified firms to expand margins as demand outpaces the available workforce.",
+      "horizon": "near",
+      "searchPhrases": [
+        "electrical contractors",
+        "substation construction",
+        "battery installation",
+        "energy storage construction"
+      ],
+      "filingHits": 124,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-oems",
+      "parentId": "natural-gas-peaker-operators",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Gas turbine original equipment manufacturers",
+      "mechanism": "Fewer new peaker plants are ordered as utilities choose batteries for incremental capacity.",
+      "logic": "Turbine OEMs rely on new unit sales and long-term service contracts for revenue growth. A sustained shift from gas peakers to batteries removes a predictable source of large new orders and shrinks the installed base that generates aftermarket revenue.",
+      "horizon": "long",
+      "searchPhrases": [
+        "gas turbine",
+        "heavy duty gas turbine",
+        "aeroderivative gas turbine",
+        "turbine services"
+      ],
+      "filingHits": 138,
+      "whiteSpace": false
+    },
+    {
+      "id": "pumped-hydro-equipment-suppliers",
+      "parentId": "pumped-hydro-storage-operators",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Pumped hydro turbine and equipment suppliers",
+      "mechanism": "Developers delay or cancel pumped-storage projects as batteries capture the same grid services.",
+      "logic": "Pumped hydro equipment orders depend on a small number of large greenfield projects. When lithium-ion storage shortens development cycles and wins procurement contracts, the pipeline for new pumped hydro contracts narrows, leaving equipment suppliers dependent on maintenance rather than expansion.",
+      "horizon": "long",
+      "searchPhrases": [
+        "hydro turbine",
+        "pump turbine",
+        "hydroelectric equipment",
+        "pumped storage plant"
+      ],
+      "filingHits": 30,
+      "whiteSpace": false
+    },
+    {
+      "id": "battery-recycling-service-providers",
+      "parentId": "lfp-cathode-materials",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Lithium-ion battery recycling service providers",
+      "mechanism": "A larger installed base creates more end-of-life batteries and manufacturing scrap to process.",
+      "logic": "Recyclers need feedstock scale to cover fixed plant costs. Faster utility deployment increases both future retired packs and current production scrap, tightening long-term cathode material supply and improving the economics of recycling as a source of battery-grade inputs.",
+      "horizon": "long",
+      "searchPhrases": [
+        "battery recycling",
+        "lithium ion battery recycling",
+        "recycling services",
+        "cathode material recycling"
+      ],
+      "filingHits": 274,
+      "whiteSpace": false
+    },
+    {
+      "id": "hard-rock-lithium-miners",
+      "parentId": "lithium-chemical-refiners",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Spodumene and hard-rock lithium miners",
+      "mechanism": "Refiners raise concentrate purchases to expand lithium chemical output.",
+      "logic": "Hard-rock miners supply the feedstock for the principal refining routes used by LFP supply chains. Demand from refiners grows faster than mine supply can respond, lifting long-term contract prices and improving project returns for producers with permitted reserves.",
+      "horizon": "long",
+      "searchPhrases": [
+        "spodumene",
+        "lithium concentrate",
+        "hard rock lithium",
+        "lithium mining"
+      ],
+      "filingHits": 218,
+      "whiteSpace": false
+    },
+    {
+      "id": "silicon-carbide-wafer-suppliers",
+      "parentId": "power-semiconductor-module-suppliers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Silicon carbide wafer suppliers",
+      "mechanism": "Power module makers increase silicon carbide wafer purchases for higher-efficiency inverters.",
+      "logic": "Silicon carbide wafers are a key input for next-generation power modules used in large inverters. As inverter manufacturers upgrade product lines to handle higher voltages and efficiencies, wafer demand grows ahead of module shipments, tightening supply and strengthening pricing.",
+      "horizon": "long",
+      "searchPhrases": [
+        "silicon carbide wafer",
+        "SiC wafer",
+        "silicon carbide substrate",
+        "wide bandgap semiconductor"
+      ],
+      "filingHits": 29,
+      "whiteSpace": false
+    },
+    {
+      "id": "gas-turbine-forging-suppliers",
+      "parentId": "gas-turbine-oems",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Gas turbine forging and casting suppliers",
+      "mechanism": "Turbine OEMs order fewer forged rotors, casings, and superalloy components as production slows.",
+      "logic": "Forgings are long-lead items tied to new unit manufacturing schedules. A sustained decline in gas turbine orders reduces the volume of forgings and castings placed on the foundry floor, pressuring capacity utilization and margins at specialized suppliers.",
+      "horizon": "long",
+      "searchPhrases": [
+        "turbine components",
+        "forged components",
+        "gas turbine components",
+        "superalloy components"
+      ],
+      "filingHits": 39,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "utility scale storage",
+    "battery energy storage system",
+    "lithium iron phosphate",
+    "power conversion system",
+    "peaker plant",
+    "pumped storage",
+    "ancillary services",
+    "energy arbitrage",
+    "grid scale battery",
+    "BESS"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "nodes": [
+    {
+      "id": "residential-water-metering",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Advanced metering infrastructure and smart water meters",
+      "mechanism": "Utilities facing rationing rules pay meter vendors and systems integrators to deploy AMI so they can monitor, bill, and enforce household limits.",
+      "logic": "Rationing turns metering from a billing convenience into a compliance necessity, so adoption accelerates even where utilities previously delayed upgrades. Capital spending is lumpy and often funded by rate cases, so revenue recognition for vendors moves with awarded contracts rather than with gradual conservation trends.",
+      "horizon": "near",
+      "searchPhrases": [
+        "advanced metering infrastructure",
+        "smart water meters",
+        "automated meter reading",
+        "water meter data management"
+      ],
+      "filingHits": 149,
+      "whiteSpace": false
+    },
+    {
+      "id": "water-efficient-fixtures",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Low-flow fixtures and water-efficient appliances",
+      "mechanism": "Households replace toilets, faucets, showerheads, dishwashers, and washing machines with lower-gallon models to stay under monthly purchase caps.",
+      "logic": "A hard cap makes every gallon saved usable elsewhere, so replacement demand rises faster than a simple price increase would suggest. Manufacturers of higher-efficiency product lines gain share while basic fixture makers face substitution.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "low-flow fixtures",
+        "water efficient appliances",
+        "WaterSense labeled products",
+        "high efficiency toilets"
+      ],
+      "filingHits": 15,
+      "whiteSpace": false
+    },
+    {
+      "id": "alternative-water-suppliers",
+      "parentId": null,
+      "order": 1,
+      "polarity": "beneficiary",
+      "name": "Alternative water supply and reuse systems",
+      "mechanism": "Households and small businesses invest in rainwater capture, graywater reuse, atmospheric water generation, and delivered bulk water to supplement capped municipal supply.",
+      "logic": "Rationing makes municipally supplied water unreliable for discretionary and even essential uses, so spending on independent sources becomes cost-justified at lower water prices. This expands a small installed base, benefiting equipment suppliers and delivery services more than conventional utilities.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "rainwater harvesting",
+        "graywater recycling",
+        "water reuse systems",
+        "atmospheric water generation"
+      ],
+      "filingHits": 27,
+      "whiteSpace": false
+    },
+    {
+      "id": "lawn-irrigation-pool-products",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Lawn irrigation and swimming pool products",
+      "mechanism": "Mandatory monthly limits reduce the water available for outdoor watering, pool filling, and spa maintenance, shrinking demand for irrigation systems, pool chemicals, and related consumables.",
+      "logic": "These uses are typically the first restricted because they are visible and discretionary, so volume falls abruptly when caps take effect. Retailers and manufacturers carry inventory based on unconstrained summer demand and are exposed to rapid working-capital pressure.",
+      "horizon": "near",
+      "searchPhrases": [
+        "irrigation systems",
+        "swimming pool equipment",
+        "lawn care products",
+        "pool chemicals"
+      ],
+      "filingHits": 165,
+      "whiteSpace": false
+    },
+    {
+      "id": "municipal-water-intensive-manufacturing",
+      "parentId": null,
+      "order": 1,
+      "polarity": "at_risk",
+      "name": "Municipal-dependent water-intensive manufacturing",
+      "mechanism": "Factories that rely on municipal intake face higher water tariffs, rationing risk, and possible service interruptions as regulators prioritize residential users.",
+      "logic": "Small-cap manufacturers with single-source municipal supply cannot quickly relocate or build on-site treatment, so cost increases pass directly to margins. Long-dated contracts with consumer brands leave them unable to recover tariffs, increasing cash-flow risk.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "municipal water supply",
+        "water intensive manufacturing",
+        "process water",
+        "water usage restrictions"
+      ],
+      "filingHits": 132,
+      "whiteSpace": false
+    },
+    {
+      "id": "utility-billing-data-software",
+      "parentId": "residential-water-metering",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Utility billing and meter data management software",
+      "mechanism": "AMI deployments generate recurring demand for customer information systems, interval billing engines, and usage-alert platforms that enforce tiered rates and cap notifications.",
+      "logic": "Rationing rules require dynamic tariffs and real-time notifications that legacy billing systems cannot support. Vendors with configurable, cloud-based platforms displace on-premise legacy suites and capture multi-year implementation contracts.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "customer information system",
+        "meter data management",
+        "utility billing software",
+        "advanced metering infrastructure"
+      ],
+      "filingHits": 179,
+      "whiteSpace": false
+    },
+    {
+      "id": "water-utility-cybersecurity",
+      "parentId": "residential-water-metering",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Operational technology cybersecurity for water utilities",
+      "mechanism": "New networked meters and remote-control valves expand the attack surface, prompting utilities to buy industrial control system security and monitoring services.",
+      "logic": "Rationing raises the public consequences of a meter or treatment outage, so regulatory scrutiny and security budgets rise together. Cybersecurity vendors serving critical infrastructure win larger enterprise deals as water utilities are reclassified as essential targets.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "industrial control systems",
+        "operational technology security",
+        "critical infrastructure protection",
+        "SCADA security"
+      ],
+      "filingHits": 244,
+      "whiteSpace": false
+    },
+    {
+      "id": "home-improvement-retailers",
+      "parentId": "water-efficient-fixtures",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Home improvement retailers and plumbing distributors",
+      "mechanism": "Consumers buy low-flow fixtures, efficient appliances, and installation supplies from big-box and specialty retailers after caps are announced.",
+      "logic": "Retailers capture immediate demand uplift because households replace equipment faster than new construction can respond. Stores with strong contractor pro desks and local inventory gain disproportionately as emergency replacements pull forward planned remodels.",
+      "horizon": "near",
+      "searchPhrases": [
+        "home improvement",
+        "plumbing supplies",
+        "kitchen and bath products",
+        "water efficient products"
+      ],
+      "filingHits": 132,
+      "whiteSpace": false
+    },
+    {
+      "id": "rainwater-harvesting-installers",
+      "parentId": "alternative-water-suppliers",
+      "order": 2,
+      "polarity": "beneficiary",
+      "name": "Rainwater harvesting and storage system installers",
+      "mechanism": "Property owners hire contractors to install gutters, cisterns, pumps, and filtration so captured rain substitutes for capped potable water.",
+      "logic": "Installer revenue follows permit pull and installation volume, which spike after restrictions are publicized. This is a fragmented trade with low fixed costs, so local dealers expand capacity quickly and capture margins on tanks and pumps.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "rainwater harvesting",
+        "water storage tanks",
+        "cistern systems",
+        "stormwater management"
+      ],
+      "filingHits": 158,
+      "whiteSpace": false
+    },
+    {
+      "id": "pool-spa-equipment",
+      "parentId": "lawn-irrigation-pool-products",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Pool and spa equipment manufacturers",
+      "mechanism": "Lower pool filling and top-up volumes reduce replacement demand for pumps, heaters, filters, and chemical feeders.",
+      "logic": "Manufacturers ship through distribution channels that hold inventory for seasonal replenishment, so order cuts appear with a short lag after rationing begins. Product mix also shifts toward smaller, lower-feature units, pressuring average selling prices.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pool and spa",
+        "swimming pool pumps",
+        "pool filtration systems",
+        "spa equipment"
+      ],
+      "filingHits": 80,
+      "whiteSpace": false
+    },
+    {
+      "id": "beverage-brewing-bottling",
+      "parentId": "municipal-water-intensive-manufacturing",
+      "order": 2,
+      "polarity": "at_risk",
+      "name": "Brewing, bottling, and beverage canning",
+      "mechanism": "Beer, soft drinks, bottled water, and ready-to-drink beverages require process and ingredient water that becomes costlier or rationed when municipal supplies tighten.",
+      "logic": "Input water is a large share of cost of goods sold in brewing and bottling, and product formulations have limited substitution options. Regional brands without owned springs or long-term water rights face margin compression before they can raise prices.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "bottled water",
+        "brewing operations",
+        "beverage production",
+        "process water"
+      ],
+      "filingHits": 269,
+      "whiteSpace": false
+    },
+    {
+      "id": "meter-to-cash-saas",
+      "parentId": "utility-billing-data-software",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Meter-to-cash SaaS platforms",
+      "mechanism": "Utilities replace legacy billing with subscription meter-to-cash platforms that handle interval reads, tiered pricing, collections, and cap enforcement.",
+      "logic": "SaaS vendors earn recurring revenue per endpoint, so every new smart meter adds predictable annual contract value. The shift from perpetual licenses to subscriptions lengthens customer lifetime value and reduces cyclicality.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "meter to cash",
+        "subscription billing",
+        "recurring revenue",
+        "software as a service"
+      ],
+      "filingHits": 282,
+      "whiteSpace": false
+    },
+    {
+      "id": "residential-plumbing-contractors",
+      "parentId": "home-improvement-retailers",
+      "order": 3,
+      "polarity": "beneficiary",
+      "name": "Residential plumbing contractors",
+      "mechanism": "Retailers refer installation work to licensed plumbers who retrofit bathrooms and kitchens with water-efficient fixtures and appliances.",
+      "logic": "Plumbers bill labor and markup materials, so a surge in fixture sales translates directly into higher service revenue. The work is urgent and local, allowing contractors to raise rates while keeping travel costs low.",
+      "horizon": "near",
+      "searchPhrases": [
+        "plumbing services",
+        "residential plumbing",
+        "fixture installation",
+        "remodeling services"
+      ],
+      "filingHits": 117,
+      "whiteSpace": false
+    },
+    {
+      "id": "pool-construction-services",
+      "parentId": "pool-spa-equipment",
+      "order": 3,
+      "polarity": "at_risk",
+      "name": "Pool construction and maintenance services",
+      "mechanism": "Lower demand for new pools and reduced water use cut both construction backlogs and recurring maintenance visits.",
+      "logic": "Service routes depend on minimum visit frequency for chemical balancing and equipment checks; fewer filled pools mean fewer billable stops. New construction projects are cancelled or downsized when customers realize they cannot fill or operate the pool under rationing rules.",
+      "horizon": "mid",
+      "searchPhrases": [
+        "pool construction",
+        "pool maintenance",
+        "swimming pool service",
+        "residential pool"
+      ],
+      "filingHits": 85,
+      "whiteSpace": false
+    }
+  ],
+  "themeKeywords": [
+    "water rationing",
+    "water scarcity",
+    "municipal water",
+    "water restrictions",
+    "drought conditions",
+    "water conservation",
+    "potable water",
+    "water usage limits"
+  ]
+}

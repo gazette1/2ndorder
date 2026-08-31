@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for SolarMax Technology, Inc. (SMXT). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: Transmission and substation engineering and construction contractors (order 1, beneficiary). Mechanism: Utilities award engineering, procurement, and construction contracts for new transmission lines, substations, and grid interconnections, expanding contractor backlog. Node logic: The labor and specialized equipment required for transmission construction is scarce, so a given dollar of incremental capex translates into a larger share of project value captured by EPC firms through fixed-price and cost-plus contracts. Multi-year project timelines also provide revenue visibility beyond the initial order.
+8-K filings in the last 12 months: 17
+
+Excerpts:
+[0] (8-K, filed 2026-05-18) SolarMax entered 2026 with strong operational momentum, delivering significant year-over-year improvement in our financial result as a result of engineering, procurement and construction ( EPC ) services on our first large-scale energy storage initiative which services commenced in the third quarter of 2025, stated David Hsu, CEO of SolarMax.
+[1] (8-K, filed 2026-05-18) Our first quarter performance reflects continued execution across our EPC platform, improving operating efficiency and ongoing progress on our EPC services for large-scale energy storage projects.
+[2] (8-K, filed 2026-05-18) SolarMax has established a strong presence in southern California and, commencing in the third quarter of 2025, expanded its operations to include EPC services for EPC projects.
+[3] (8-K, filed 2026-05-18) SolarMax is looking to generate rowth with strategic initiatives that aim to scale commercial solar development services and provide EPC services for industrial projects and LED lighting solutions in the US while expanding its residential solar operations.
+[4] (10-K, filed 2026-04-06) The U.S. solar market is expected to be valued at over $125 billion by 2030 as investment in large-scale utility projects and distributed generation continues to expand.
+[5] (10-K, filed 2026-04-06) Since the third quarter of 2025, our primary business has been negotiating contracts and performing EPC services for solar-based BESS commercial systems.
+[6] (10-K, filed 2026-04-06) As of December 31, 2025, we had commenced EPC services on a 430 MWh battery storage project in Texas pursuant to an agreement dated July 31, 2025 with Longfellow BESS I, LLC ( Longfellow ).
+[7] (10-K, filed 2026-04-06) During the year ended December 31, 2025, we generated revenue of $60.2 million, representing 66.1% of our revenue, from our EPC services pursuant to this contract.
+[8] (10-K, filed 2026-04-06) On December 31, 2025, we entered into three EPC agreements for large scale BESS systems, two in Puerto Rico and one in Corpus Christi, Texas.
+[9] (10-K, filed 2026-04-06) During the period from 2015 through 2021, most of our revenue from our China operations was generated from EPC contracts for large solar farms.
+[10] (10-K, filed 2026-04-06) Our business in China initially consisted primarily of identifying and procuring solar farm system projects for resale to third party developers and related services in China, identifying potential buyers of solar farms, and providing EPC services.
+[11] (10-K, filed 2026-04-06) We have the four wholly-owned subsidiaries in the United States: SolarMax Renewable Energy Provider, Inc., a California corporation ("SREP ), was established on July 19, 2011 and is engaged in the business of developing, selling and installing integrated photovoltaic systems and energy storage systems for residential and commercial customers in the United States and performs EPC services pursuant to our four commercial EPC agreements.
+[12] (10-K, filed 2026-04-06) Large-scale Battery Energy Storage Systems In 2024, we initiated marketing efforts for large-scale EPC projects, centering on our BESS.
+[13] (10-K, filed 2026-04-06) On July 31, 2025, SREP entered into an EPC agreement (the Longfellow Contract ) with Longfellow, a Texas limited liability company, for an industrial project to develop a BESS facility.
+[14] (10-K, filed 2026-04-06) On December 31, 2025, SREP entered into three EPC agreements for large scale BESS projects, two in Puerto Rico and one in Corpus Christi, Texas.
+[15] (10-K, filed 2026-04-06) 7 Table of Contents Pursuant to an EPC agreement with Naguabo BESS, LLC, a Texas limited liability company ( Naguabo ), SREP is to develop a BESS facility in Ceiba Municipality, Puerto Rico.
+[16] (10-K, filed 2026-04-06) Pursuant to an EPC agreement with Yabucoa BESS, LLC, a Texas limited liability company ( Yabucoa ), SREP is to develop a BESS facility in Humacao Municipality, Puerto Rico.
+[17] (10-K, filed 2026-04-06) Pursuant to an EPC agreement with Navboot Holdco, LLC, a Delaware limited liability company ( Navboot ), SREP is to develop a BESS facility in Corpus Christi, Texas.
+[18] (10-K, filed 2026-04-06) The foregoing descriptions of the EPC contracts do not purport to be complete and are subject to and qualified in their entireties by reference to the EPC contracts, copies of which are filed as exhibits to this annual report and are incorporated herein by reference.
+[19] (10-K, filed 2026-04-06) During the year ended December 31, 2025, we entered into four contracts to perform EPC services for the construction of BESS systems.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $90,982,535, net income $-6,325,368, R&D $n/a, cash $7,966,797.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

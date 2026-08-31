@@ -1,6 +1,6 @@
 import type { ChainNode, Dossier, Read, Rubric } from '../types.js';
 
-// Facts fed to the model carry exact dollars. The house M/MM convention is an
+// Facts fed to the model carry exact dollars. Unit conventions are an
 // OUTPUT style rule; feeding "$46M" for $45,616 made a model read millions,
 // get confused, and leak its deliberation into a thesis. Inputs stay literal.
 function money(n: number): string {
@@ -50,7 +50,7 @@ export function draftPrompt(args: {
 
 Seed thesis: ${args.seed}
 Map position: ${args.node.name} (order ${args.node.order}, ${args.node.polarity}, horizon ${args.node.horizon}). Mechanism: ${args.node.mechanism} ${args.node.logic}
-Market cap: ${args.marketCapMM === null ? 'not available' : `$${args.marketCapMM}MM`}
+Market cap: ${args.marketCapMM === null ? 'not available' : `$${Math.round(args.marketCapMM * 1e6).toLocaleString('en-US')}`}
 Composite score: ${args.score}/100
 Subscores:
 ${subs}
@@ -87,7 +87,7 @@ Whether a small fund can actually own this: days to build a position at the stat
 Style rules, hard requirements:
 - Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
 - No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
-- Dollar amounts in your output: M for thousands, MM for millions (the facts above are exact dollars).
+- Dollar amounts in your output: K for thousands, M for millions, B for billions, like $99.4K, $236M, $1.8B (the facts above are exact dollars).
 - Do not pad. Under 600 words.
 - Return ONLY the finished markdown document. No notes to yourself, no reasoning, no commentary
   about the inputs. If two input facts appear to conflict, state the discrepancy in one factual

@@ -1,0 +1,58 @@
+Draft a one-page thesis for ITRON, INC. (ITRI) in the house format below. You are drafting for an analyst who will tear it apart, not for a client.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map position: Advanced metering infrastructure and smart water meters (order 1, beneficiary, horizon near). Mechanism: Utilities facing rationing rules pay meter vendors and systems integrators to deploy AMI so they can monitor, bill, and enforce household limits. Rationing turns metering from a billing convenience into a compliance necessity, so adoption accelerates even where utilities previously delayed upgrades. Capital spending is lumpy and often funded by rate cases, so revenue recognition for vendors moves with awarded contracts rather than with gradual conservation trends.
+Market cap: $4,364,000,000
+Composite score: 29/100
+Subscores:
+- optionality: 1/5 (weight 0.25). The excerpts describe the company's existing advanced metering infrastructure (AMI) offerings for water, electricity, and gas. The theme of water rationing is not mentioned, and there is no evidence of a new business segment or incremental investment tied to rationing. The product line already exists, so the theme likely increases demand for an existing offering rather than creating a new one.
+- revenueToOpportunity: 1/5 (weight 0.2). The excerpts describe the company's IIoT solutions including AMI for water, but they do not quantify the size of the relevant market or the company's revenue attributable to water AMI. Without a stated opportunity size or revenue breakdown, the relative revenue cannot be assessed. Current revenue is large, but the theme's specific TAM is undefined in the excerpts.
+- catalystDensity: 0/5 (weight 0.15). The excerpts contain no near-term observable events such as design wins, contract awards, capacity additions, or named customer programs. They are a static description of product lines. The 8-K count provided in the dossier is not from the excerpts and cannot be cited here.
+- managementConviction: 0/5 (weight 0.1). The excerpts are generic segment descriptions and do not include management commentary with committed capital, quantified targets, or specific programs related to the theme. There is no evidence of strategic emphasis on water rationing or smart water metering beyond listing it as part of the portfolio.
+- insiderConviction: 0/5 (weight 0.1). Form 4: net $-12,933,839 over 0 buys and 47 sales by 0 insider(s), trailing 12 months.
+- customerValidation: 5/5 (weight 0.2). Customer graph: gov awards $5,000,000, 0 named customer(s), 6 other filers name the company.
+
+Filing evidence (the only permitted source for filing claims; cite as [n]):
+[0] (10-Q, filed 2026-07-28, https://www.sec.gov/Archives/edgar/data/780571/000078057126000178/itri-20260630.htm) The Industrial Internet of Things (IIoT) solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications.
+[1] (10-Q, filed 2026-07-28, https://www.sec.gov/Archives/edgar/data/780571/000078057126000178/itri-20260630.htm) The IIoT solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications.
+
+Dossier facts (from SEC Form 4, SEC XBRL, and USASpending; cite these as (source) in prose, for example "(Form 4)" or "(USASpending)"):
+Insider (SEC Form 4, trailing 12 months): net open-market $-12,933,839 across 0 buys and 47 sales by 0 insider(s).
+Fundamentals (SEC XBRL, as of 2025-12-31): revenue $2,367,194,000, cash $1,020,397,000.
+Customer graph: federal awards $5,000,000 (Department of Defense $5,000,000 (N6871105P0103)); named customers none in excerpts; 6 other filers name the company.
+Street view (sell-side aggregators, firm and grade only, reports paywalled): unknown analysts, consensus n/a, mean target n/a.
+Reality check (delayed price data plus SEC XBRL): average daily dollar volume $73,164,851, about 4 trading days to build a position; net cash $-244,603,000; share count down 4 percent in 12 months.
+
+House format, exactly these sections in this order:
+# {TICKER}: {one-line thesis}
+## Bear case first
+Why this name fails. The strongest disconfirming reading of the same evidence, plus what the filings do not show. Include the disconfirming read of the dossier: insider selling, customer concentration risk, or thin customer evidence. 3 to 5 sentences.
+## Business today
+What the company sells and to whom, from the evidence only. State revenue and cash from the dossier when available. 2 to 3 sentences.
+## Chain position
+Which node of the adoption chain it occupies and the economic logic. 2 to 3 sentences.
+## Customer graph
+Who actually pays the company: named enterprise customers, federal award dollars and agencies, and how many other filers name it. Label each buyer enterprise, government, or unproven. If customer evidence is thin, say so plainly. 2 to 4 sentences.
+## Insider and management signal
+Open-market insider buying or selling over the trailing 12 months (Form 4), read as conviction, alongside management language from the filings. 2 to 3 sentences.
+## Street view
+What sell-side coverage exists and how thin it is: analyst count, consensus, mean target, and any recent firm rating actions. State the firm and grade only; the bank reports are paywalled and not linked. For an under-covered small-cap, thin coverage is itself part of the setup. 2 to 3 sentences.
+## Non-linear case
+The path where the outcome is a multiple of today's business, and what has to be true. 3 to 5 sentences.
+## Evidence
+Each filing claim restated as a bullet with its citation [n]. Every [n] used above must appear here. Dossier facts are cited inline by source, not by [n].
+## Sizing and survivability
+Whether a small fund can actually own this: days to build a position at the stated liquidity, cash runway and net cash, and dilution risk (share count growth, any shelf on file), from the reality check facts. If any of these threaten the thesis, say so plainly. 2 to 3 sentences.
+## What would change our mind
+2 to 3 observable events, each tied to where it would show up: a filing type, a Form 4, or a federal award.
+
+Style rules, hard requirements:
+- Every factual claim from a filing carries a citation [n]. Dossier claims carry a source tag in parentheses. Claims without support are framed as open questions, not facts.
+- No em-dashes, no exclamation points, no superlatives. Plain factual sentences.
+- Dollar amounts in your output: K for thousands, M for millions, B for billions, like $99.4K, $236M, $1.8B (the facts above are exact dollars).
+- Do not pad. Under 600 words.
+- Return ONLY the finished markdown document. No notes to yourself, no reasoning, no commentary
+  about the inputs. If two input facts appear to conflict, state the discrepancy in one factual
+  sentence inside the relevant section and move on.
+
+Return only the markdown document.

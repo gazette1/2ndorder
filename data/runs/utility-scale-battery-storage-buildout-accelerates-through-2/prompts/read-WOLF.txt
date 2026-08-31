@@ -1,0 +1,43 @@
+You are an equity analyst reading SEC filing excerpts for WOLFSPEED, INC. (WOLF). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Utility scale battery storage buildout accelerates through 2028
+Map node this company was mapped to: Power semiconductor and module suppliers (order 2, beneficiary). Mechanism: Inverter manufacturers buy more insulated-gate bipolar transistor and silicon carbide modules to meet rising power-conversion demand. Node logic: Power modules are a constrained, high-value component inside every storage inverter. As inverter production scales to match the buildout, module suppliers gain volume leverage and can pass through shortages more effectively than downstream assemblers.
+8-K filings in the last 12 months: 19
+
+Excerpts:
+[0] (8-K, filed 2026-07-29) (NYSE WOLF), a global leader in silicon carbide technology, announced today that Andy W.
+[1] (8-K, filed 2026-07-29) His proven leadership and industry expertise will be invaluable during this transformative period for the company as it executes its strategic priorities, reinforces its market leadership in silicon carbide, and capitalizes on compelling long-term opportunities.
+[2] (8-K, filed 2026-07-29) Wolfspeed s leadership in silicon carbide addresses critical needs across power electronics, electrification, energy efficiency and advanced industrial applications.
+[3] (8-K, filed 2026-07-29) Wolfspeed (NYSE WOLF) leads the market in the worldwide adoption of silicon carbide technologies that power the world s most disruptive innovations.
+[4] (8-K, filed 2026-07-29) As the pioneers of silicon carbide, and creators of the most advanced semiconductor technology on earth, we are committed to powering a better world for everyone.
+[5] (8-K, filed 2026-07-29) Through silicon carbide material, Power Modules, Discrete Power Devices and Power Die Products targeted for various applications, we will bring you The Power to Make It Real TM .
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-06-29): revenue $757,600,000, net income $-1,609,200,000, R&D $175,100,000, cash $467,200,000.
+Customer graph: federal awards $164,416,334 across 45 awards (top agency Department of Defense); 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

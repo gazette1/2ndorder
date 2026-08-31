@@ -1,0 +1,42 @@
+You are an equity analyst reading SEC filing excerpts for Array Technologies, Inc. (ARRY). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capital expenditure flatlines near $180 billion annually through 2030 as data center load growth is met by on-site gas turbines and solar plus storage behind the meter, keeping utility transmission and distribution capex growth below 1 percent annually.
+Map node this company was mapped to: Behind-the-meter integrator margins (order 3, at_risk). Mechanism: Easier financing attracts more integrators into behind-the-meter solar and storage, competing away project margins. Node logic: As capital floods into the space, new entrants bid aggressively for data center contracts, pressuring equipment and installation pricing. The initial demand growth remains but profit per project shrinks. This margin compression is a typical equilibrium response to an overcapitalized niche.
+8-K filings in the last 12 months: 9
+
+Excerpts:
+[0] (8-K, filed 2026-08-20) (1) The transaction is expected to close in the third quarter of 2026, subject to receiving any required regulatory approvals and the satisfaction of other customary closing conditions About ARRAY Technologies ARRAY Technologies (NASDAQ ARRY) is a leading global provider of solar tracking technology and fixed-tilt systems to utility-scale and distributed generation customers, who construct, develop, and operate solar PV sites.
+[1] (10-K, filed 2026-02-25) Business Overview We are a leading global provider of solar tracking technology and fixed-tilt systems to utility-scale and distributed generation customers who construct, develop, and operate solar photovoltaic ( PV ) sites.
+[2] (10-K, filed 2026-02-25) This cost advantage continues to drive widespread adoption across distributed generation and utility-scale markets.
+[3] (10-K, filed 2026-02-25) We may also face adverse effects from increased competition in the solar EPC market by EPCs subjecting their subcontractors, such as us, to flow-down contractual clauses which provide that a subcontractor s obligations to an EPC are identical to the obligations the EPC has to the EPC s end customer.
+[4] (10-K, filed 2026-02-25) Overview We are a leading global provider of solar tracking technology and fixed-tilt systems to utility-scale and distributed generation customers who construct, develop, and operate solar PV sites.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,284,141,000, net income $-52,235,000, R&D $9,900,000, cash $244,388,000.
+Customer graph: federal awards $2,236,260 across 6 awards (top agency Department of Defense); 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

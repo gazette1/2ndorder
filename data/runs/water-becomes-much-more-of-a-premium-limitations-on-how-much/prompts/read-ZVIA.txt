@@ -1,0 +1,39 @@
+You are an equity analyst reading SEC filing excerpts for Zevia PBC (ZVIA). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water becomes much more of a premium. Limitations on how much water a family can purchase in a month
+Map node this company was mapped to: Brewing, bottling, and beverage canning (order 2, at_risk). Mechanism: Beer, soft drinks, bottled water, and ready-to-drink beverages require process and ingredient water that becomes costlier or rationed when municipal supplies tighten. Node logic: Input water is a large share of cost of goods sold in brewing and bottling, and product formulations have limited substitution options. Regional brands without owned springs or long-term water rights face margin compression before they can raise prices.
+8-K filings in the last 12 months: 10
+
+Excerpts:
+[0] (10-Q, filed 2026-05-06) The Company s products are manufactured and maintained at third -party beverage production and warehousing facilities located in both the U.S. and Canada.
+[1] (10-Q, filed 2026-05-06) Our products are manufactured and maintained at third-party beverage production and warehousing facilities located in both the U.S. and Canada.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-528,780 across 0 buys and 1 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $161,259,000, net income $-9,920,000, R&D $n/a, cash $25,354,000.
+Customer graph: federal awards $0 across 0 awards; 2 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

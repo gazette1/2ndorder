@@ -57,28 +57,32 @@ function inline(s: string): string {
   return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 }
 
-function money(n: number | null): string {
-  if (n === null) return 'not reported';
-  const abs = Math.abs(n);
-  const sign = n < 0 ? '-' : '';
-  if (abs >= 1e6) return `${sign}$${(abs / 1e6).toFixed(abs >= 1e8 ? 0 : 1)}MM`;
-  if (abs >= 1e3) return `${sign}$${Math.round(abs / 1e3)}M`;
-  return `${sign}$${abs}`;
+import { fmtCapMM as capMM, fmtUSD as money } from '../lib/money.js';
+
+// Composite scores present as bands; the number is fake precision, the band
+// plus the subscore rationales are the honest statement.
+function band(score: number | undefined): string {
+  if (score === undefined) return '';
+  if (score >= CONFIG.bands.strong) return 'Strong';
+  if (score >= CONFIG.bands.moderate) return 'Moderate';
+  if (score >= CONFIG.bands.weak) return 'Weak';
+  return 'Insufficient evidence';
 }
 
-// Market caps in MM, rendered comma-free: $2.54B at billion scale, $640MM below.
-function capMM(v: number | null | undefined): string {
-  if (v === null || v === undefined) return 'n/a';
-  if (v >= 1000) {
-    const b = v / 1000;
-    return `$${b >= 100 ? Math.round(b) : b.toFixed(2).replace(/\.?0+$/, '')}B`;
+// Corpus size derived from the index at build time, never written by hand.
+function corpusCount(): number | null {
+  try {
+    const p = path.resolve('data/corpus/index.json');
+    return Object.keys(JSON.parse(fs.readFileSync(p, 'utf8'))).length;
+  } catch {
+    return null;
   }
-  return `$${Math.round(v)}MM`;
 }
 
 export function buildMemo(slug: string): string {
   const run = load<{ seed: string; createdAt: string; asof?: string | null; counterOf?: string | null }>(slug, 'run');
-  const { nodes } = load<Decomposition>(slug, 'decompose');
+  const decomp = load<Decomposition>(slug, 'decompose');
+  const { nodes } = decomp;
   const candidates = load<Candidate[]>(slug, 'candidates');
   const reads = load<Read[]>(slug, 'reads');
   const dossiers = load<Dossier[]>(slug, 'dossiers');
@@ -106,7 +110,9 @@ export function buildMemo(slug: string): string {
           return `<tr>
             <td>${order}</td>
             <td class="${n.polarity === 'at_risk' ? 'risk' : 'ben'}">${n.polarity === 'at_risk' ? 'at risk' : 'beneficiary'}</td>
-            <td><strong>${esc(n.name)}</strong>${n.whiteSpace ? ' <span class="ws">white space</span>' : ''}<br /><span class="muted">${esc(n.mechanism)}</span></td>
+            <td><strong>${esc(n.name)}</strong>${n.whiteSpace ? ' <span class="ws">disclosure scarce</span>' : ''}<br /><span class="muted">${esc(n.mechanism)}</span>${
+              n.kpi ? `<br /><span class="mono muted">KPI: ${esc(n.kpi)}</span>` : ''
+            }${n.falsifier ? `<br /><span class="muted">Breaks if: ${esc(n.falsifier)}</span>` : ''}</td>
             <td class="muted">${esc(parent)}</td>
             <td>${n.horizon}</td>
             <td>${k} names, ${n.filingHits ?? 0} filings</td>
@@ -129,7 +135,7 @@ export function buildMemo(slug: string): string {
         <td>${capMM(c?.marketCapMM)}</td>
         <td>${r.exposure}</td>
         <td>${d ? money(d.insider.netBuyUSD) : ''}</td>
-        <td>${scores[r.ticker] ?? ''}</td>
+        <td title="composite ${scores[r.ticker] ?? ''}">${band(scores[r.ticker])}</td>
         <td class="muted">${esc((d?.reality?.flags ?? []).join('; ') || 'clean')}</td>
       </tr>`;
     })
@@ -241,6 +247,26 @@ ${macro.series
         const items = d.regulator.items.map((i) => `${i.date ? i.date + ': ' : ''}${i.text}`).join('; ');
         parts.push(`<p><strong>Regulator (${esc(d.regulator.agency)}).</strong> ${esc(d.regulator.headline)}.${items ? ' ' + esc(items) + '.' : ''}</p>`);
       }
+      if (d.expectations) {
+        const e = d.expectations;
+        const bits = [
+          e.priceChange3moPct !== null ? `3-month price change ${e.priceChange3moPct >= 0 ? '+' : ''}${e.priceChange3moPct} percent` : null,
+          e.pct52wRange !== null ? `sits at ${e.pct52wRange} of 100 in its 52-week range` : null,
+          e.psRatio !== null ? `price to trailing sales ${e.psRatio}x` : null,
+        ].filter(Boolean);
+        if (bits.length) {
+          parts.push(
+            `<p><strong>Expectations proxies.</strong> ${esc(bits.join('; '))}. <span class="muted">${esc(e.note)}</span></p>`,
+          );
+        }
+      }
+      if (d.reality?.positionBasis && d.reality.ownershipPct !== null && d.reality.ownershipPct !== undefined) {
+        parts.push(
+          `<p><strong>Fund-scale investability.</strong> A ${esc(d.reality.positionBasis)} position would be ${d.reality.ownershipPct} percent of the company${
+            d.reality.daysToBuild !== null ? `, about ${d.reality.daysToBuild} trading days to build` : ''
+          }.</p>`,
+        );
+      }
       if (!parts.length) return '';
       return `<h3 class="mono">${esc(r.ticker)}</h3>\n${parts.join('\n')}`;
     })
@@ -279,13 +305,39 @@ ${macro.series
 </head>
 <body>
 <h1>IC memo: ${esc(run.seed)}</h1>
-<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band ${capMM(CONFIG.capBandMM[0])} to ${capMM(CONFIG.capBandMM[1])}.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+<p class="meta">Run ${esc(slug)}, generated ${new Date().toISOString().slice(0, 10)}. Market cap band ${capMM(CONFIG.capBandMM[0])} to ${capMM(CONFIG.capBandMM[1])}.${run.asof ? ` Filings as of ${esc(run.asof)}.` : ''}${run.counterOf ? ` Counter-scenario of run ${esc(run.counterOf)}.` : ''}${(() => { const n = corpusCount(); return n ? ` Corpus: ${n.toLocaleString('en-US')} US filers.` : ''; })()} Draft for analyst review, not investment advice. Every filing claim links to its SEC document. Market caps are delayed price times reported shares (10-K public float as fallback), not a licensed market data feed.</p>
+
+${
+  decomp.trigger
+    ? `<h2>Trigger</h2>
+<p class="meta">Actor: ${esc(decomp.trigger.actor)}. Action: ${esc(decomp.trigger.action)}. Magnitude: ${esc(
+        decomp.trigger.magnitude,
+      )}. Geography: ${esc(decomp.trigger.geography)}. Timing: ${esc(decomp.trigger.timing)}. Certainty: ${esc(
+        decomp.trigger.certainty,
+      )}. Reversibility: ${esc(decomp.trigger.reversibility)}.</p>`
+    : ''
+}
 
 <h2>Consequence map</h2>
 <table>
 <tr><th>Order</th><th>Direction</th><th>Consequence and mechanism</th><th>Follows from</th><th>Horizon</th><th>Evidence</th></tr>
 ${mapRows}
 </table>
+
+${
+  decomp.reactions && decomp.reactions.length
+    ? `<h2>Who reacts</h2>
+<table>
+<tr><th>Actor</th><th>Incentive</th><th>Likely response</th><th>Timing</th></tr>
+${decomp.reactions
+  .map(
+    (x) =>
+      `<tr><td>${esc(x.actor)}</td><td class="muted">${esc(x.incentive)}</td><td>${esc(x.likelyResponse)}</td><td>${esc(x.timing)}</td></tr>`,
+  )
+  .join('\n')}
+</table>`
+    : ''
+}
 
 ${macroSection}
 

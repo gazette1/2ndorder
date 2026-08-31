@@ -1,0 +1,51 @@
+You are an equity analyst reading SEC filing excerpts for GENESIS ENERGY LP (GEL). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: US grid capex supercycle driven by data center load, 2026-2030
+Map node this company was mapped to: High-voltage equipment manufacturing capacity and pricing (order 2, beneficiary). Mechanism: Equipment suppliers respond to multi-year backlog by adding factory capacity and raising prices on new orders, increasing revenue and gross margin per unit. Node logic: Because lead times for power transformers and breakers are already long, suppliers hold pricing power and can commit to capacity expansion only against visible multi-year contracts. The scenario converts a cyclical order spike into a longer pricing cycle as utilities accept higher prices to hold delivery slots.
+8-K filings in the last 12 months: 8
+
+Excerpts:
+[0] (8-K, filed 2026-08-06) Disclosure Format Relating to Maintenance Capital We use a modified format relating to maintenance capital requirements because our maintenance capital expenditures vary materially in nature (discretionary vs. non-discretionary), timing and amount from time to time.
+[1] (8-K, filed 2026-08-06) We believe that, without such modified disclosure, such changes in our maintenance capital expenditures could be confusing and potentially misleading to users of our financial information, particularly in the context of the nature and purposes of our Available Cash before Reserves measure.
+[2] (8-K, filed 2026-08-06) Our maintenance capital utilized measure constitutes a proxy for non-discretionary maintenance capital expenditures and it takes into consideration the relationship among maintenance capital expenditures, operating expenses and depreciation from period to period.
+[3] (8-K, filed 2026-08-06) Maintenance Capital Requirements Maintenance Capital Expenditures Maintenance capital expenditures are capitalized costs that are necessary to maintain the service capability of our existing assets, including the replacement of any system component or equipment which is worn out or obsolete.
+[4] (8-K, filed 2026-08-06) Maintenance capital expenditures can be discretionary or non-discretionary, depending on the facts and circumstances.
+[5] (8-K, filed 2026-08-06) Prior to 2014, substantially all of our maintenance capital expenditures were (a) related to our pipeline assets and similar infrastructure, (b) non-discretionary in nature and (c) immaterial in amount as compared to our Available Cash before Reserves measure.
+[6] (8-K, filed 2026-08-06) Beginning with 2014, we believe a substantial amount of our maintenance capital expenditures from time to time have been and will continue to be (a) related to our assets other than pipelines, such as our marine vessels, trucks and similar assets, (b) discretionary in nature and (c) potentially material in amount as compared to our Available Cash before Reserves measure.
+[7] (8-K, filed 2026-08-06) If we chose not to make those expenditures, we would be able to continue to operate those assets economically, although in lieu of maintenance capital expenditures, we would incur increased operating expenses, including maintenance expenses.
+[8] (8-K, filed 2026-08-06) In summary, as we continue to expand certain non-pipeline portions of our business, we are experiencing changes in the nature (discretionary vs. non-discretionary), timing and amount of our maintenance capital expenditures that merit a more detailed review and analysis than was required historically.
+[9] (8-K, filed 2026-08-06) Management s increasing ability to determine if and when to incur certain maintenance capital expenditures is relevant to the manner in which we analyze aspects of our business relating to discretionary and non-discretionary expenditures.
+[10] (8-K, filed 2026-08-06) We believe it would be inappropriate to derive our Available Cash before Reserves measure by deducting discretionary maintenance capital expenditures, which we believe are similar in nature in this context to certain other discretionary expenditures, such as growth capital expenditures, distributions/dividends and equity buybacks.
+[11] (8-K, filed 2026-08-06) Unfortunately, not all maintenance capital expenditures are clearly discretionary or non-discretionary in nature.
+[12] (8-K, filed 2026-08-06) We define our maintenance capital utilized measure as that portion of the amount of previously incurred maintenance capital expenditures that we utilize during the relevant quarter, which would be equal to the sum of the maintenance capital expenditures we have incurred for each project/component in prior quarters allocated ratably over the useful lives of those projects/components.
+[13] (8-K, filed 2026-08-06) Because we did not initially use our maintenance capital utilized measure before 2014, our maintenance capital utilized calculations will reflect the utilization of solely those maintenance capital expenditures incurred since December 31, 2013.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $201,636 across 1 buys and 0 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-12-31): revenue $1,630,415,000, net income $-440,403,000, R&D $n/a, cash $6,437,000.
+Customer graph: federal awards $19,935 across 2 awards (top agency General Services Administration); 4 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

@@ -1,0 +1,49 @@
+You are an equity analyst reading SEC filing excerpts for Energy Services of America CORP (ESOA). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Water infrastructure and treatment (order 1, beneficiary). Mechanism: Utilities, industrials, and municipalities pay for pipeline replacement, leakage reduction, desalination, and advanced water treatment to maintain service as sources tighten. Node logic: Scarcity turns deferred maintenance into an operational crisis, accelerating spending from routine repair to major capital projects. Equipment and project backlog expands faster than input costs because regulators approve rate recovery for reliability investments while public pressure to reduce losses intensifies.
+8-K filings in the last 12 months: 18
+
+Excerpts:
+[0] (8-K, filed 2026-06-02) About Energy Services Energy Services of America Corporation (NASDAQ: ESOA), headquartered in Huntington, WV, is a contractor and service company that operates primarily in the mid-Atlantic and Central regions of the United States and provides services to customers in the natural gas, petroleum, water distribution, automotive, chemical, and power industries.
+[1] (10-K, filed 2025-12-15) Business Overview Energy Services of America Corporation ( Energy Services or the Company ), formed in 2006, is a contractor and service company that operates primarily in the mid-Atlantic and central regions of the United States and provides services to customers in the natural gas, petroleum, water distribution, automotive, chemical, and power industries.
+[2] (10-K, filed 2025-12-15) The Company had consolidated operating revenues of $411.0 million for the fiscal year ended September 30, 2025, of which 47.9% was attributable to electrical, mechanical, and general contract services, 15.7% to gas and petroleum transmission projects, and 36.4% to gas & water distributions services.
+[3] (10-K, filed 2025-12-15) The Company had consolidated operating revenues of $351.9 million for the fiscal year ended September 30, 2024, of which 53.2% was attributable to electrical, mechanical, and general contract services, 23.5% to gas and petroleum transmission projects, and 23.3% to gas & water distributions services.
+[4] (10-K, filed 2025-12-15) ( West Virginia Pipeline or WVP ), a wholly owned subsidiary of Energy Services, operates as a gas and water distribution contractor primarily in southern West Virginia.
+[5] (10-K, filed 2025-12-15) ( TSP or Tri-State Paving ), a wholly owned subsidiary of Energy Services, provides utility paving services to water distribution customers in the Charleston, West Virginia, Lexington, Kentucky, and Chattanooga, Tennessee markets.
+[6] (10-K, filed 2025-12-15) Tribute constructs water distribution and wastewater systems 4 Table of Contents primarily for public municipalities in West Virginia, Ohio, and Kentucky.
+[7] (10-K, filed 2025-12-15) The increase was the result of increased work in the Electrical, Mechanical, and General and Gas & Water Distribution business lines, partially offset by a decrease in Gas & Petroleum Transmission work.
+[8] (10-K, filed 2025-12-15) Gas & Water Distribution revenues totaled $149.6 million for the fiscal year ended September 30, 2025, a $67.1 million increase from $82.4 million for the fiscal year ended September 30, 2024.
+[9] (10-K, filed 2025-12-15) Gas & Water Distribution cost of revenues totaled $131.3 million for the fiscal year ended September 30, 2025, a $68.0 million increase from $63.3 million for the fiscal year ended September 30, 2024.
+[10] (10-K, filed 2025-12-15) Gas & Water Distribution gross profit totaled $18.3 million for the fiscal year ended September 30, 2025, an $857,000 decrease from $19.2 million for the fiscal year ended September 30, 2024.
+[11] (10-K, filed 2025-12-15) The $33.9 million increase in revenues for the year ended September 30, 2025 as compared to the prior fiscal year was primarily due to the Company s focus on growing its natural gas and water distribution business lines.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $-4,394,035 across 6 buys and 6 sales by 1 insider(s).
+Fundamentals (XBRL, as of 2025-09-30): revenue $411,001,373, net income $2,211,831, R&D $n/a, cash $12,241,408.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}

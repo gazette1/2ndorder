@@ -1,0 +1,57 @@
+You are an equity analyst reading SEC filing excerpts for Ramaco Resources, Inc. (METC). The excerpts are exact sentences pulled from the company's own filings.
+
+Seed thesis: Water shortage
+Map node this company was mapped to: Water-intensive manufacturing and data centers (order 1, at_risk). Mechanism: Semiconductor fabs, pulp and paper mills, chemical plants, and data centers pay higher water tariffs and incur curtailment risk in stressed basins. Node logic: Cooling and process water are embedded in operations, and recycling systems require capital and time to deploy. Scarcity raises input costs and can cap output in regions where permits restrict withdrawals, compressing returns on existing assets.
+8-K filings in the last 12 months: 37
+
+Excerpts:
+[0] (8-K, filed 2026-07-29) Subsequent testing of this process observed high reagent and water consumption and rheological challenges.
+[1] (8-K, filed 2026-07-29) 1.2.6 Exclusions The following are excluded from the Hatch project scope of work: Off-site infrastructure such as power supply, access roads, natural gas supply, and raw water supply.
+[2] (8-K, filed 2026-07-29) 2-22 Table 2-5: Overview of Process Water Usage and Recovery.
+[3] (8-K, filed 2026-07-29) 2.3.1 2300 Fuel, Steam, Air and Cooling Water Systems 2.3.1.1 2310 Plant Air System This system excludes any air requirement for the Air Separation Plant.
+[4] (8-K, filed 2026-07-29) 2.3.1.4 2340 Cooling Water Systems This area produces and distributes cooling water to remove excess heat from heat exchangers, de-sublimators, and distillation columns.
+[5] (8-K, filed 2026-07-29) Process water is used as make-up source to the cooling tower, supplementing tower losses from evaporation, drift or blowdown.
+[6] (8-K, filed 2026-07-29) DI water is supplemented by treated process water and is distributed throughout the plant at 25 C.
+[7] (8-K, filed 2026-07-29) 2.3.2.2 2420 Process Water and Condensate Distribution System This area produces and distributes process water throughout the plant.
+[8] (8-K, filed 2026-07-29) Process water is distributed at 50 C to supply de-sublimators, filters, centrifuges, leach tanks, gas scrubbers, and mineral process water system.
+[9] (8-K, filed 2026-07-29) Process water from the de-sublimators and recovered from MVR systems are cooled to 50 C and re-distributed as process water.
+[10] (8-K, filed 2026-07-29) 2.3.2.3 2430 Potable Water Production and Distribution System Potable water is supplemented by the process water.
+[11] (8-K, filed 2026-07-29) It is currently assumed that treated raw water (i.e., fresh process water) is sufficient to meet potable water requirements.
+[12] (8-K, filed 2026-07-29) 2.3.2.4 2440 Fire Water System Treated process water is used as source of fire water.
+[13] (8-K, filed 2026-07-29) Mineral process water is added to slurry the ROM to 65 wt.% solids.
+[14] (8-K, filed 2026-07-29) Additional mineral process water is added to achieve a 10 wt.% solids slurry.
+[15] (8-K, filed 2026-07-29) Mineral process water is added to the slurry to dilute it to 15 wt.% solids.
+[16] (8-K, filed 2026-07-29) Ramaco Resources - Brook Mine Critical Minerals Project Initial Assessment Report - Section 2 - Process Definition - July 28, 2026 2.3.3.5 3150 Thickening & Dewatering The Thickening & Dewatering area recovers as much mineral process water as possible.
+[17] (8-K, filed 2026-07-29) This step is essential to minimizing fresh process water demand to the Wet Scrubbing area and to decreasing energy consumption in the Pre-Treatment area (i.e., ROM drying and roasting).
+[18] (8-K, filed 2026-07-29) The thickener overflow and centrifuge centrate are sent to the Mineral Process Water System to recycle the water.
+[19] (8-K, filed 2026-07-29) 2.3.3.6 3160 Mineral Process Water System Water from the Thickening & Dewatering system is recovered in the Mineral Process Water System.
+
+Dossier (context from other sources, already scored deterministically elsewhere; use it to inform judgment but cite only the excerpts above for factual claims):
+Insider (Form 4, trailing 12 months): net open-market $0 across 0 buys and 0 sales by 0 insider(s).
+Fundamentals (XBRL, as of 2017-12-31): revenue $24,019,051, net income $-51,446,000, R&D $n/a, cash $440,347,000.
+Customer graph: federal awards $0 across 0 awards; 0 other filers name the company.
+
+Score the company 0 to 5 on each of these four dimensions:
+- optionality: Does the theme create a business the company does not have today. 5 means a credible new segment with filing evidence of investment; 0 means the theme only defends existing revenue. Weighted highest because non-linear outcomes come from new businesses, not from margin on old ones.
+- revenueToOpportunity: Current revenue relative to the theme opportunity the filings describe. 5 means revenue is small against a plausibly large theme TAM, so success moves the whole company; 0 means the theme is a rounding error on a large base.
+- catalystDensity: Count and specificity of near-term observable events in filings: design wins, qualification milestones, capacity additions, named customer programs, 8-K cadence. 5 means multiple dated catalysts inside 18 months.
+- managementConviction: Specificity of management language in filings: named programs, committed capex, quantified targets score high; trend-name-dropping in risk factors scores low.
+(insiderConviction and customerValidation are computed from the dossier, not by you.)
+
+Rules:
+- Every rationale must be supported by the excerpts. Cite supporting excerpts by index in "quoteIdx". If the excerpts do not support a judgment, score it low and say why. Do not use outside knowledge of the company for any factual claim.
+- "exposure" is "direct" (the theme is the company's product or a named program), "adjacent" (sells into the theme's supply chain), or "peripheral" (mentions the theme without economic linkage).
+- "namedCustomers": names of enterprise or government customers stated in the excerpts, if any. Empty array if none are named. Names only, from the excerpts.
+- Plain factual prose. No em-dashes, no exclamation points, no superlatives.
+
+Return only a JSON object:
+{
+  "exposure": "direct|adjacent|peripheral",
+  "namedCustomers": [],
+  "subscores": {
+    "optionality": { "score": 0, "rationale": "...", "quoteIdx": [0] },
+    "revenueToOpportunity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "catalystDensity": { "score": 0, "rationale": "...", "quoteIdx": [] },
+    "managementConviction": { "score": 0, "rationale": "...", "quoteIdx": [] }
+  }
+}
